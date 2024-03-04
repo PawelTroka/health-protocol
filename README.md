@@ -19,12 +19,20 @@
 - 30-45g of pure 100% natural (tasteless) whey protein isolate
 - Morning supplements
 
-### Pre-Workout Meal (1pm)
+### Lunch (1pm)
 - 300g of chicken tenderloins
 - 100g of brown rice / whole grains pasta / quinoa / red/black lentils
 - Afternoon supplements
 
-### Post-Workout Meal (8pm)
+### Right before workout
+- 1 scoop of good pre-workout
+- 2.5g of creatine monohydrate
+- 5g of BCAAs
+
+### Right after workout
+- 30-45g of pure 100% natural (tasteless) whey protein isolate
+
+### Dinner (8pm)
 - 300g of chicken tenderloins
 - 100g of brown rice / whole grains pasta / quinoa / red/black lentils
 - Before sleep supplements
