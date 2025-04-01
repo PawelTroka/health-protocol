@@ -73,8 +73,39 @@
 - Cocoa flavanols
 - Macadamia nut milk
 
-## 3. Supplements
-[Click here for the supplements protocol](https://protocol.bryanjohnson.com/#step-2-supplements)
+## 3. Supplements and drugs
+
+### Morning
+- Creatine monhydrate 4g https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935
+- Collagen peptides 12g https://allegro.pl/oferta/kfd-collagen-400-g-msn-boswellia-kolagen-7509981983
+- Dutasteride 0.5mg https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie
+- Minoxidil 2.5mg https://sons.co.uk/products/oral-capsule
+- Life Extension Two-Per-Day or Mutant Multi or Animal Pak
+- 
+
+
+### Lunch
+
+
+### Before workout
+- Creatine monhydrate 4g https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935
+- NAC 600mg https://allegro.pl/oferta/ostrovit-nac-n-acetylo-l-cysteina-w-proszku-200-g-naturalna-az-1333-porcje-11044048418
+
+
+### After workout
+- Omega 3 500mg EPA 250mg DHA https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003?fromVariant=10917853075
+
+
+
+### Evening
+- Omega 3 500mg EPA 250mg DHA https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003?fromVariant=10917853075
+- 2x Garlic Extract 1000mg https://allegro.pl/oferta/ostrovit-garlic-90-caps-czosnek-bezzapachowy-allicyna-der-500-1-16360732944
+- Curcumin 285mg + Ginger 100mg https://allegro.pl/oferta/ostrovit-kurkuma-kurkumina-piperyna-imbir-3x90-tab-11326205826
+- Sodium Butyrate 600mg https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216
+- Red Yeast Extract 500mg TBD
+- Proferrin 20mg TBD
+- Metformin 500mg TBD
+
 
 ## 4. Looksmaxxing
 Improving appearance contributes to overall well-being and societal perception.
