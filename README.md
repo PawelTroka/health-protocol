@@ -112,7 +112,7 @@
 - Lactobacillus Acidophilus 4bln 20mg CFU TBD 🦠 🛡️ 🧠 🚽
 
 ### Before workout
-- 2x [Creatine monohydrate 3g](https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935) [[BJ-CR 5g]([https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
+- 2x [Creatine monohydrate 3g](https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - [Taurine 3g](https://allegro.pl/oferta/ostrovit-supreme-pure-taurine-300-g-tauryna-3000-mg-aminokwasy-czysta-7732560328) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - [Betaine (TMG) 1.5g](https://allegro.pl/oferta/proton-labs-3x-tmg-50g-betaina-bezwodna-czysty-proszek-99-7-17366838876) 💪 ❤️ 🍅
 - [Glycine 1000mg](https://allegro.pl/oferta/ostrovit-glicyna-200-g-glycine-naturalna-czysta-1000-mg-200-porcji-8381070446) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
