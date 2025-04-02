@@ -77,17 +77,21 @@
 
 ### Morning
 - Creatine monhydrate 2g https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935
-- Inulin 5g https://allegro.pl/oferta/inulina-z-agawy-naturalny-slodzik-blonnik-w-proszku-bio-fit-gymbeam-250g-11061186389
-- Galactooligosaccharides 2.5g https://allegro.pl/oferta/synbiotyk-9-szczepow-fruktooligosacharydy-10-kapsulek-wegetarianskich-15601255958
 - Collagen peptides 12g https://allegro.pl/oferta/kfd-collagen-400-g-msn-boswellia-kolagen-7509981983
+- NAC 600mg https://allegro.pl/oferta/ostrovit-nac-n-acetylo-l-cysteina-w-proszku-200-g-naturalna-az-1333-porcje-11044048418 (note: BJ takes 3g)
 - CaAKG 1604mg https://allegro.pl/oferta/proton-labs-caakg-30g-czysty-alfa-ketoglutaran-wapnia-proszek-13965419409
-- 1x Glucosamine Sulfate 390mg + Hyaluronic Acid 45mg https://allegro.pl/oferta/ostrovit-glukozamina-msm-chondroityna-150-g-kwas-hialuronowy-wit-c-15165596229
+- Betaine (TMG) 1.5g https://allegro.pl/oferta/proton-labs-3x-tmg-50g-betaina-bezwodna-czysty-proszek-99-7-17366838876
+- Inulin 5g https://allegro.pl/oferta/inulina-z-agawy-naturalny-slodzik-blonnik-w-proszku-bio-fit-gymbeam-250g-11061186389
+- Glucosamine Sulfate 390mg + Hyaluronic Acid 45mg https://allegro.pl/oferta/ostrovit-glukozamina-msm-chondroityna-150-g-kwas-hialuronowy-wit-c-15165596229
+- Galactooligosaccharides 2.5g https://allegro.pl/oferta/synbiotyk-9-szczepow-fruktooligosacharydy-10-kapsulek-wegetarianskich-15601255958
 - Dutasteride 0.5mg https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie
 - Minoxidil 2.5mg https://sons.co.uk/products/oral-capsule
 - Life Extension Two-Per-Day or Mutant Multi or Animal Pak
 - Nicotinamide Riboside 240mg https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736
 - Horsetail 500mg https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163
 - Biotin 2.5mg https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586 (note: 50x rdd)
+- Rhodiola Rosea 400mg https://allegro.pl/oferta/sfd-rhodiola-rosea-90-tab-rozeniec-gorski-pamiec-koncentracja-zmeczenie-7497141491
+- Fenugreek 370mg https://allegro.pl/oferta/ostrovit-kozieradka-90-vcaps-naturalna-370-mg-wege-fenugreek-11607702815
 - Luteolin 100mg TBD
 
 
@@ -100,18 +104,20 @@
 - Fisetin 100mg https://allegro.pl/oferta/fisetyna-perukowiec-podolski-100-mg-vitaler-s-pamiec-koncentracja-30-kaps-17358512149
 - Boron 3mg https://allegro.pl/oferta/ostrovit-boron-120-kaps-bor-3-mg-kwas-borowy-vege-120-porcji-kwas-borny-17290705744
 - Lycopene 10mg https://allegro.pl/oferta/likopen-antyoksydant-ekstrakt-prostata-serce-zdrowa-skora-gymbeam-90-kaps-11193402125
-- Ginger 540mg https://allegro.pl/oferta/swanson-imbir-100-kapsulek-15802667068
-- Hyaluronic Acid 70mg https://allegro.pl/oferta/ostrovit-hyaluronic-acid-90-tabs-kwas-hialuronowy-9976202189
+- Ginger 540mg https://allegro.pl/oferta/swanson-imbir-ginger-root-540-mg-ekstrakt-trawienie-metabolizm-100-kapsulek-14700837221
+- Hyaluronic Acid 100mg https://allegro.pl/oferta/kwas-hialuronowy-forte-skora-stawy-wlosy-mlodosc-wege-gymbeam-90-tab-13378791495
+- Maca 500mg https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122
+- Pycnogel 100mg https://allegro.pl/oferta/swanson-pycnogenol-100-mg-stawy-krazenie-30-kaps-kora-sosny-ekstrakt-14116831177
 - Broccoli Seed Extract (Glucoraphanin 20mg) 200mg TBD
 - Lactobacillus Acidophilus 4bln 20mg CFU TBD
 
 ### Before workout
 - Creatine monhydrate 4g https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935
 - Taurine 3g https://allegro.pl/oferta/ostrovit-supreme-pure-taurine-300-g-tauryna-3000-mg-aminokwasy-czysta-7732560328
+- Betaine (TMG) 1.5g https://allegro.pl/oferta/proton-labs-3x-tmg-50g-betaina-bezwodna-czysty-proszek-99-7-17366838876
 - Glycine 1000mg https://allegro.pl/oferta/ostrovit-glicyna-200-g-glycine-naturalna-czysta-1000-mg-200-porcji-8381070446
 - 2x Glucosamine Sulfate 390mg + Hyaluronic Acid 45mg https://allegro.pl/oferta/ostrovit-glukozamina-msm-chondroityna-150-g-kwas-hialuronowy-wit-c-15165596229
 - Nicotinamide Riboside 240mg https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736
-- NAC 600mg https://allegro.pl/oferta/ostrovit-nac-n-acetylo-l-cysteina-w-proszku-200-g-naturalna-az-1333-porcje-11044048418 (note: BJ takes 3g)
 
 
 ### After workout
@@ -119,7 +125,8 @@
 - L-Lysine HCL 900mg + EAA+ https://allegro.pl/oferta/ostrovit-eaa-400-g-aminokwasy-regeneracja-bcaa-glutamina-tyrozyna-lizyna-8881135964
 - Collagen peptides 12g https://allegro.pl/oferta/kfd-collagen-400-g-msn-boswellia-kolagen-7509981983
 - Omega 3 500mg EPA 250mg DHA https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003
-- Magnesium 150mg TBD
+- NAC 600mg https://allegro.pl/oferta/ostrovit-nac-n-acetylo-l-cysteina-w-proszku-200-g-naturalna-az-1333-porcje-11044048418 (note: BJ takes 3g)
+- Magnesium (Taurate) 100mg https://allegro.pl/oferta/allnutrition-magnesium-taurate-b6-100-kap-magnez-skurcz-stres-kosci-zeby-16799245835
 
 
 
@@ -134,6 +141,7 @@
 - Ashwagandha KSM-66 500mg https://allegro.pl/oferta/ashwagandha-ekstrakt-ksm-66-500mg-koncentracja-pamiec-gymbeam-90-kapsulek-14961267046
 - GABA 750mg https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224
 - Melatonin 1mg https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158
+- Magnesium (Taurate) 100mg https://allegro.pl/oferta/allnutrition-magnesium-taurate-b6-100-kap-magnez-skurcz-stres-kosci-zeby-16799245835
 - TBD:
 - Lithium 1mg TBD
 - Red Yeast Extract 500mg TBD
