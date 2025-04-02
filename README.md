@@ -123,6 +123,7 @@
 - Sodium Butyrate 600mg https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216
 - Vitamin K1 1.5mg + K2 MK4 1mg + K2 MK7 0.2mg https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436 (note: MK4 and MK7 doses should be 5x and 3x higher)
 - Psyllium Husk 5g https://allegro.pl/oferta/now-foods-psyllium-husk-powder-babka-plesznik-680-g-17285041093
+- L-Theanine 200mg https://allegro.pl/oferta/ostrovit-l-teanina-vege-200-mg-90-kaps-koncentracja-inulina-100-mg-15891803172
 - TBD:
 - Lithium 1mg TBD
 - Red Yeast Extract 500mg TBD
