@@ -83,7 +83,7 @@
 - Betaine (TMG) 1.5g https://allegro.pl/oferta/proton-labs-3x-tmg-50g-betaina-bezwodna-czysty-proszek-99-7-17366838876
 - Inulin 5g https://allegro.pl/oferta/inulina-z-agawy-naturalny-slodzik-blonnik-w-proszku-bio-fit-gymbeam-250g-11061186389
 - Glucosamine Sulfate 390mg + Hyaluronic Acid 45mg https://allegro.pl/oferta/ostrovit-glukozamina-msm-chondroityna-150-g-kwas-hialuronowy-wit-c-15165596229
-- Galactooligosaccharides 2.5g https://allegro.pl/oferta/synbiotyk-9-szczepow-fruktooligosacharydy-10-kapsulek-wegetarianskich-15601255958
+- Galactooligosaccharides 2.5g TBD
 - Dutasteride 0.5mg https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie
 - Minoxidil 2.5mg https://sons.co.uk/products/oral-capsule
 - Life Extension Two-Per-Day or Mutant Multi or Animal Pak
