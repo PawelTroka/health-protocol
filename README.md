@@ -104,6 +104,7 @@
 
 ### Before workout
 - Creatine monhydrate 4g https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935
+- Taurine 3g https://allegro.pl/oferta/ostrovit-supreme-pure-taurine-300-g-tauryna-3000-mg-aminokwasy-czysta-7732560328
 - Nicotinamide Riboside 240mg https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736
 - NAC 600mg https://allegro.pl/oferta/ostrovit-nac-n-acetylo-l-cysteina-w-proszku-200-g-naturalna-az-1333-porcje-11044048418 (note: BJ takes 3g)
 
