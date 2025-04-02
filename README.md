@@ -110,12 +110,14 @@
 
 
 ### After workout
-- Omega 3 500mg EPA 250mg DHA https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003?fromVariant=10917853075
+- L-Glutathione Reduced 200mg https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199
+- L-Lysine HCL 900mg + EAA+ https://allegro.pl/oferta/ostrovit-eaa-400-g-aminokwasy-regeneracja-bcaa-glutamina-tyrozyna-lizyna-8881135964
+- Omega 3 500mg EPA 250mg DHA https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003
 
 
 
 ### Evening
-- Omega 3 500mg EPA 250mg DHA https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003?fromVariant=10917853075
+- Omega 3 500mg EPA 250mg DHA https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003
 - 2x Garlic Extract 1000mg https://allegro.pl/oferta/ostrovit-garlic-90-caps-czosnek-bezzapachowy-allicyna-der-500-1-16360732944
 - Curcumin 285mg + Ginger 100mg https://allegro.pl/oferta/ostrovit-kurkuma-kurkumina-piperyna-imbir-3x90-tab-11326205826
 - Sodium Butyrate 600mg https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216
