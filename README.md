@@ -76,20 +76,36 @@
 ## 3. Supplements and drugs
 
 ### Morning
-- Creatine monhydrate 4g https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935
+- Creatine monhydrate 2g https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935
+- Inulin 5g https://allegro.pl/oferta/inulina-z-agawy-naturalny-slodzik-blonnik-w-proszku-bio-fit-gymbeam-250g-11061186389
+- Galactooligosaccharides 2.5g https://allegro.pl/oferta/synbiotyk-9-szczepow-fruktooligosacharydy-10-kapsulek-wegetarianskich-15601255958
 - Collagen peptides 12g https://allegro.pl/oferta/kfd-collagen-400-g-msn-boswellia-kolagen-7509981983
 - Dutasteride 0.5mg https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie
 - Minoxidil 2.5mg https://sons.co.uk/products/oral-capsule
 - Life Extension Two-Per-Day or Mutant Multi or Animal Pak
-- 
+- Nicotinamide Riboside 240mg https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736
+- Horsetail 500mg https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163
+- Biotin 2.5mg https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586 (note: 50x rdd)
+- Luteolin 100mg TBD
 
 
 ### Lunch
-
+- Nicotinamide Riboside 240mg https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736
+- Lutein 18mg + Zeaxanthin 2mg https://allegro.pl/oferta/ostrovit-luteina-zeaksantyna-60-caps-na-wzrok-16362502894
+- 3x Astaxanthin 4mg https://allegro.pl/oferta/ostrovit-astaxanthin-forte-90-kaps-astaksantyna-naturalna-4-mg-antyoksydant-10533292248
+- 2x Spermidine 6mg https://allegro.pl/oferta/ostrovit-pharma-spermidyna-z-kielkow-pszenicy-60-mg-30-kaps-17013690516
+- Co Q10 100mg https://allegro.pl/oferta/ostrovit-ubichinon-koenzym-q10-vege-100-kaps-100-mg-na-3-miesiace-11566562378
+- Fisetin 100mg https://allegro.pl/oferta/fisetyna-perukowiec-podolski-100-mg-vitaler-s-pamiec-koncentracja-30-kaps-17358512149
+- Boron 3mg https://allegro.pl/oferta/ostrovit-boron-120-kaps-bor-3-mg-kwas-borowy-vege-120-porcji-kwas-borny-17290705744
+- Lycopene 10mg https://allegro.pl/oferta/likopen-antyoksydant-ekstrakt-prostata-serce-zdrowa-skora-gymbeam-90-kaps-11193402125
+- Ginger 540mg https://allegro.pl/oferta/swanson-imbir-100-kapsulek-15802667068
+- Broccoli Seed Extract (Glucoraphanin 20mg) 200mg TBD
+- Lactobacillus Acidophilus 4bln 20mg CFU TBD
 
 ### Before workout
 - Creatine monhydrate 4g https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935
-- NAC 600mg https://allegro.pl/oferta/ostrovit-nac-n-acetylo-l-cysteina-w-proszku-200-g-naturalna-az-1333-porcje-11044048418
+- Nicotinamide Riboside 240mg https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736
+- NAC 600mg https://allegro.pl/oferta/ostrovit-nac-n-acetylo-l-cysteina-w-proszku-200-g-naturalna-az-1333-porcje-11044048418 (note: BJ takes 3g)
 
 
 ### After workout
@@ -102,6 +118,10 @@
 - 2x Garlic Extract 1000mg https://allegro.pl/oferta/ostrovit-garlic-90-caps-czosnek-bezzapachowy-allicyna-der-500-1-16360732944
 - Curcumin 285mg + Ginger 100mg https://allegro.pl/oferta/ostrovit-kurkuma-kurkumina-piperyna-imbir-3x90-tab-11326205826
 - Sodium Butyrate 600mg https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216
+- Vitamin K1 1.5mg + K2 MK4 1mg + K2 MK7 0.2mg https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436 (note: MK4 and MK7 doses should be 5x and 3x higher)
+- Psyllium Husk 5g https://allegro.pl/oferta/now-foods-psyllium-husk-powder-babka-plesznik-680-g-17285041093
+- TBD:
+- Lithium 1mg TBD
 - Red Yeast Extract 500mg TBD
 - Proferrin 20mg TBD
 - Metformin 500mg TBD
