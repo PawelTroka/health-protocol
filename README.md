@@ -131,7 +131,7 @@
 
 ### Evening
 - [Psyllium Husk 5g](https://allegro.pl/oferta/now-foods-psyllium-husk-powder-babka-plesznik-680-g-17285041093) 🚽 🦠 🩸
-- 2x [Garlic Extract 1000mg](https://allegro.pl/oferta/ostrovit-garlic-90-caps-czosnek-bezzapachowy-allicyna-der-500-1-16360732944) ❤️ 🛡️ 🩸 🍆
+- 2x [Garlic Extract 1000mg](https://allegro.pl/oferta/ostrovit-garlic-90-caps-czosnek-bezzapachowy-allicyna-der-500-1-16360732944) [[BJ-RYG 1200mg](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🛡️ 🩸 🍆
 - [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003) 🧠 ❤️ 👁️ 🔥
 - [Curcumin 285mg + Ginger 100mg](https://allegro.pl/oferta/ostrovit-kurkuma-kurkumina-piperyna-imbir-3x90-tab-11326205826) 🔥 🧠 🦴 ❤️
 - [Sodium Butyrate 600mg](https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216) 🦠 🧠 🛡️ ⏰
@@ -142,7 +142,7 @@
 - [Melatonin 1mg](https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158) 😴 ⏰ 🛡️
 - [Magnesium (Taurate) 100mg](https://allegro.pl/oferta/allnutrition-magnesium-taurate-b6-100-kap-magnez-skurcz-stres-kosci-zeby-16799245835) 😴 🧠 ❤️ 🦴
 - Lithium 1mg TBD 🧠 😌 ⏰
-- Red Yeast Extract 500mg TBD ❤️ 🩸 🫀
+- Red Yeast Extract 500mg TBD ❤️ 🩸 🫀 [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)]
 - Proferrin 20mg TBD 🩸 💪 🧠
 - Metformin 500mg TBD 🩸 ⏰ 🧠
 
