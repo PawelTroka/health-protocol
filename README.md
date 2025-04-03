@@ -105,7 +105,7 @@
 - [Boron 3mg](https://allegro.pl/oferta/ostrovit-boron-120-kaps-bor-3-mg-kwas-borowy-vege-120-porcji-kwas-borny-17290705744) 🍆 🦴 🧠
 - [Lycopene 10mg](https://allegro.pl/oferta/likopen-antyoksydant-ekstrakt-prostata-serce-zdrowa-skora-gymbeam-90-kaps-11193402125)<sup>2</sup> [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍅 ❤️ 👨‍🦳 🛡️
 - [Ginger 540mg](https://allegro.pl/oferta/swanson-imbir-ginger-root-540-mg-ekstrakt-trawienie-metabolizm-100-kapsulek-14700837221) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🚽 🍆 🧠
-- [Hyaluronic Acid 100mg](https://allegro.pl/oferta/kwas-hialuronowy-forte-skora-stawy-wlosy-mlodosc-wege-gymbeam-90-tab-13378791495) [[BJ-LM 120mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 👨‍🦳 🦴 💇‍♂️
+- [Hyaluronic Acid 100mg](https://allegro.pl/oferta/kwas-hialuronowy-forte-skora-stawy-wlosy-mlodosc-wege-gymbeam-90-tab-13378791495)<sup>4</sup> [[BJ-LM 120mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 👨‍🦳 🦴 💇‍♂️
 - [Maca 500mg](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
 - [Pycnogel 100mg](https://allegro.pl/oferta/swanson-pycnogenol-100-mg-stawy-krazenie-30-kaps-kora-sosny-ekstrakt-14116831177) 🫀 🦴 👨‍🦳 ❤️
 - Broccoli Seed Extract (Glucoraphanin 20mg) 200mg TBD 🛡️ 🍅 🔥
@@ -213,4 +213,5 @@ Improving appearance contributes to overall well-being and societal perception.
 ## Notes
 1. Vitamin K2 MK4 and K2 MK7 doses should be 5x and 3x higher
 2. Lycopene dose should be 50% higher but we assume lots of tomates are consumed
-3. NAC dose for Bryan Johnson is in total 3g as he takes it additionally from [another supplement](https://www.lifeextension.com/vitamins-supplements/item01534/n-acetyl-l-cysteine) but we are opting for a much safer dose of 1.2g total which could be considered to be increased to 2.4g
+3. NAC dose for Bryan Johnson is in total 3g as he takes it additionally from [another supplement](https://www.lifeextension.com/vitamins-supplements/item01534/n-acetyl-l-cysteine) but his situation is specific based on his biomarkers so we are opting for a much safer dose of 1.2g total which could be considered to be increased to 2.4g
+4. In total we are consuming 235mg of Hyaluronic Acid which is on the higher side but should still be safe and may provide additional benefits of Bryan's Johnson 120mg dose
