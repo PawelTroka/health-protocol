@@ -171,6 +171,7 @@ Improving appearance contributes to overall well-being and societal perception.
 - Daily use of beard oil 🧔 💧
 
 ## Legend
+- TBD - To be Decided, we were unable to find a good supplement for this compound on polish market
 - BJ-LM - [Bryan Johnson Longevity Mix](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)
 - BJ-CP - [Bryan Johnson Collagen peptides](https://blueprint.bryanjohnson.com/products/collagen)
 - BJ-CR - [Bryan Johnson Creatine](https://blueprint.bryanjohnson.com/products/creatine)
