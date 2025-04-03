@@ -86,30 +86,30 @@
 - [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) 💇‍♂️ 🍅
 - [Minoxidil 2.5mg](https://sons.co.uk/products/oral-capsule) 💇‍♂️ 🧔
 - Life Extension Two-Per-Day or Mutant Multi or Animal Pak 🍎 🛡️ 💪
-- [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736) ⏰ 🧠 ❤️ 💪
+- [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Horsetail 500mg](https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163) 💇‍♂️ 👨‍🦳 🦴
 - [Biotin 2.5mg](https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586) (note: 50x rdd) 💇‍♂️ 👨‍🦳 💅
 - [Rhodiola Rosea 400mg](https://allegro.pl/oferta/sfd-rhodiola-rosea-90-tab-rozeniec-gorski-pamiec-koncentracja-zmeczenie-7497141491) 🧠 😌 ⚡ 🍆
 - [Fenugreek 370mg](https://allegro.pl/oferta/ostrovit-kozieradka-90-vcaps-naturalna-370-mg-wege-fenugreek-11607702815) 🍆 🩸 🚽
 - Galactooligosaccharides 2.5g TBD 🦠 🚽 🛡️
-- Luteolin 100mg TBD 🔥 🛡️ 🧠 ⏰
+- Luteolin 100mg TBD [BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules) 🔥 🛡️ 🧠 ⏰
 
 
 ### Lunch
 - 3x [Astaxanthin 4mg](https://allegro.pl/oferta/ostrovit-astaxanthin-forte-90-kaps-astaksantyna-naturalna-4-mg-antyoksydant-10533292248) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
-- 2x [Spermidine 6mg](https://allegro.pl/oferta/ostrovit-pharma-spermidyna-z-kielkow-pszenicy-60-mg-30-kaps-17013690516) ⏰ 🧠 ❤️
-- [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736) ⏰ 🧠 ❤️ 💪
+- 2x [Spermidine 6mg](https://allegro.pl/oferta/ostrovit-pharma-spermidyna-z-kielkow-pszenicy-60-mg-30-kaps-17013690516) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
+- [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Lutein 18mg + Zeaxanthin 2mg](https://allegro.pl/oferta/ostrovit-luteina-zeaksantyna-60-caps-na-wzrok-16362502894) [[BJ-ES 10mg+2mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🧠 🛡️
-- [Co Q10 100mg](https://allegro.pl/oferta/ostrovit-ubichinon-koenzym-q10-vege-100-kaps-100-mg-na-3-miesiace-11566562378) ❤️ ⏰ 🧠 🛡️
-- [Fisetin 100mg](https://allegro.pl/oferta/fisetyna-perukowiec-podolski-100-mg-vitaler-s-pamiec-koncentracja-30-kaps-17358512149) ⏰ 🧠 🛡️ 🔥
-- [Boron 3mg](https://allegro.pl/oferta/ostrovit-boron-120-kaps-bor-3-mg-kwas-borowy-vege-120-porcji-kwas-borny-17290705744) 🍆 🦴 🧠
+- [Co Q10 100mg](https://allegro.pl/oferta/ostrovit-ubichinon-koenzym-q10-vege-100-kaps-100-mg-na-3-miesiace-11566562378)  [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
+- [Fisetin 100mg](https://allegro.pl/oferta/fisetyna-perukowiec-podolski-100-mg-vitaler-s-pamiec-koncentracja-30-kaps-17358512149) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 🛡️ 🔥
+- [Boron 3mg](https://allegro.pl/oferta/ostrovit-boron-120-kaps-bor-3-mg-kwas-borowy-vege-120-porcji-kwas-borny-17290705744) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🍆 🦴 🧠
 - [Lycopene 10mg](https://allegro.pl/oferta/likopen-antyoksydant-ekstrakt-prostata-serce-zdrowa-skora-gymbeam-90-kaps-11193402125)<sup>2</sup> [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍅 ❤️ 👨‍🦳 🛡️
 - [Ginger 540mg](https://allegro.pl/oferta/swanson-imbir-ginger-root-540-mg-ekstrakt-trawienie-metabolizm-100-kapsulek-14700837221) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🚽 🍆 🧠
 - [Hyaluronic Acid 100mg](https://allegro.pl/oferta/kwas-hialuronowy-forte-skora-stawy-wlosy-mlodosc-wege-gymbeam-90-tab-13378791495)<sup>4</sup> [[BJ-LM 120mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 👨‍🦳 🦴 💇‍♂️
 - [Maca 500mg](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
-- [Pycnogel 100mg](https://allegro.pl/oferta/swanson-pycnogenol-100-mg-stawy-krazenie-30-kaps-kora-sosny-ekstrakt-14116831177) 🫀 🦴 👨‍🦳 ❤️
-- Broccoli Seed Extract (Glucoraphanin 20mg) 200mg TBD 🛡️ 🍅 🔥
-- Lactobacillus Acidophilus 4bln 20mg CFU TBD 🦠 🛡️ 🧠 🚽
+- [Pycnogenol 100mg](https://allegro.pl/oferta/swanson-pycnogenol-100-mg-stawy-krazenie-30-kaps-kora-sosny-ekstrakt-14116831177) 🫀 🦴 👨‍🦳 ❤️
+- Broccoli Seed Extract (Glucoraphanin 20mg) 200mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
+- Lactobacillus Acidophilus 4bln 20mg CFU TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🦠 🛡️ 🧠 🚽
 
 ### Before workout
 - 2x [Creatine monohydrate 3g](https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
@@ -117,7 +117,7 @@
 - [Betaine (TMG) 1.5g](https://allegro.pl/oferta/proton-labs-3x-tmg-50g-betaina-bezwodna-czysty-proszek-99-7-17366838876) 💪 ❤️ 🍅
 - [Glycine 1000mg](https://allegro.pl/oferta/ostrovit-glicyna-200-g-glycine-naturalna-czysta-1000-mg-200-porcji-8381070446) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
 - 2x [Glucosamine Sulfate 390mg + Hyaluronic Acid 45mg](https://allegro.pl/oferta/ostrovit-glukozamina-msm-chondroityna-150-g-kwas-hialuronowy-wit-c-15165596229) [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
-- [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736) ⏰ 🧠 ❤️ 💪
+- [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 
 
 ### After workout
@@ -141,8 +141,8 @@
 - [GABA 750mg](https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224) 😴 😌 💪
 - [Melatonin 1mg](https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158) 😴 ⏰ 🛡️
 - [Magnesium (Taurate) 100mg](https://allegro.pl/oferta/allnutrition-magnesium-taurate-b6-100-kap-magnez-skurcz-stres-kosci-zeby-16799245835) 😴 🧠 ❤️ 🦴
-- Lithium 1mg TBD 🧠 😌 ⏰
-- Red Yeast Extract 500mg TBD ❤️ 🩸 🫀 [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)]
+- Lithium 1mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧠 😌 ⏰
+- Red Yeast Extract 500mg TBD [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🫀
 - Proferrin 20mg TBD 🩸 💪 🧠
 - Metformin 500mg TBD 🩸 ⏰ 🧠
 
@@ -171,7 +171,7 @@ Improving appearance contributes to overall well-being and societal perception.
 - Daily use of beard oil 🧔 💧
 
 ## Legend
-- TBD - To be Decided, we were unable to find a good supplement for this compound on polish market
+- TBD - To Be Decided, we were unable to find a good supplement for this compound on polish market
 - BJ-LM - [Bryan Johnson Longevity Mix](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)
 - BJ-CP - [Bryan Johnson Collagen peptides](https://blueprint.bryanjohnson.com/products/collagen)
 - BJ-CR - [Bryan Johnson Creatine](https://blueprint.bryanjohnson.com/products/creatine)
