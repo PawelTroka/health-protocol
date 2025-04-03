@@ -171,13 +171,13 @@ Improving appearance contributes to overall well-being and societal perception.
 - Daily use of beard oil 🧔 💧
 
 ## Legend
-- BJ-LM - Bryan Johnson Longevity Mix
-- BJ-CP - Bryan Johnson Collagen peptides
-- BJ-CR - Bryan Johnson Creatine
-- BJ-EC - Bryan Johnson Essential Capsules
-- BJ-ES - Bryan Johnson Essential Softgel
-- BJ-NGC - Bryan Johnson NAC + Ginger + Curcumin
-- BJ-RYG - Bryan Johnson Red Yeast Garlic
+- BJ-LM - [Bryan Johnson Longevity Mix](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)
+- BJ-CP - [Bryan Johnson Collagen peptides](https://blueprint.bryanjohnson.com/products/collagen)
+- BJ-CR - [Bryan Johnson Creatine](https://blueprint.bryanjohnson.com/products/creatine)
+- BJ-EC - [Bryan Johnson Essential Capsules](https://blueprint.bryanjohnson.com/products/essentials-capsules)
+- BJ-ES - [Bryan Johnson Essential Softgel](https://blueprint.bryanjohnson.com/products/essential-softgels)
+- BJ-NGC - [Bryan Johnson NAC + Ginger + Curcumin](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)
+- BJ-RYG - [Bryan Johnson Red Yeast Garlic](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)
 - 💪 Muscle growth/recovery
 - ❤️ Heart health/cardiovascular benefits
 - 🧠 Brain health/cognitive function
