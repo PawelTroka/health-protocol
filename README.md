@@ -92,7 +92,7 @@
 - [Rhodiola Rosea 400mg](https://allegro.pl/oferta/sfd-rhodiola-rosea-90-tab-rozeniec-gorski-pamiec-koncentracja-zmeczenie-7497141491) 🧠 😌 ⚡ 🍆
 - [Fenugreek 370mg](https://allegro.pl/oferta/ostrovit-kozieradka-90-vcaps-naturalna-370-mg-wege-fenugreek-11607702815) 🍆 🩸 🚽
 - Galactooligosaccharides 2.5g TBD 🦠 🚽 🛡️
-- Luteolin 100mg TBD [BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules) 🔥 🛡️ 🧠 ⏰
+- Luteolin 100mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🔥 🛡️ 🧠 ⏰
 
 
 ### Lunch
