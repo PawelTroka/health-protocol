@@ -31,7 +31,7 @@
 - afternoon supplements
 
 ### Right before workout
-- 7g of a [good pre-workout](https://gymbeam.com/pre-workout-stimulant-thor-gymbeam.html) ⚡ 💪 🧠
+- 20g of pre-workout [Thor Fuel + Vitargo](https://gymbeam.com/thor-fuel-vitargo-pre-workout-600-g-gymbeam.html) ⚡ 💪 🧠
 - 3g of creatine monohydrate 💪 🧠 🥊
 - 10g of BCAAs 💪 🛡️ ⏰
 
