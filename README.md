@@ -82,7 +82,7 @@
 - [CaAKG 1604mg](https://allegro.pl/oferta/proton-labs-caakg-30g-czysty-alfa-ketoglutaran-wapnia-proszek-13965419409) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
 - [Betaine (TMG) 1.5g](https://allegro.pl/oferta/proton-labs-3x-tmg-50g-betaina-bezwodna-czysty-proszek-99-7-17366838876) 💪 ❤️ 🍅
 - [Inulin 5g](https://allegro.pl/oferta/inulina-z-agawy-naturalny-slodzik-blonnik-w-proszku-bio-fit-gymbeam-250g-11061186389) 🦠 🚽 🩸
-- [Glucosamine Sulfate 390mg + Hyaluronic Acid 45mg](https://allegro.pl/oferta/ostrovit-glukozamina-msm-chondroityna-150-g-kwas-hialuronowy-wit-c-15165596229) 🦴 👨‍🦳 🛡️
+- 2x [Glucosamine Sulfate 390mg + Hyaluronic Acid 45mg](https://allegro.pl/oferta/ostrovit-glukozamina-msm-chondroityna-150-g-kwas-hialuronowy-wit-c-15165596229) <sup>4,5</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
 - [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) 💇‍♂️ 🍅
 - [Minoxidil 2.5mg](https://sons.co.uk/products/oral-capsule) 💇‍♂️ 🧔
 - Life Extension Two-Per-Day or Mutant Multi or Animal Pak 🍎 🛡️ 💪
@@ -116,7 +116,7 @@
 - [Taurine 3g](https://allegro.pl/oferta/ostrovit-supreme-pure-taurine-300-g-tauryna-3000-mg-aminokwasy-czysta-7732560328) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - [Betaine (TMG) 1.5g](https://allegro.pl/oferta/proton-labs-3x-tmg-50g-betaina-bezwodna-czysty-proszek-99-7-17366838876) 💪 ❤️ 🍅
 - [Glycine 1000mg](https://allegro.pl/oferta/ostrovit-glicyna-200-g-glycine-naturalna-czysta-1000-mg-200-porcji-8381070446) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
-- 2x [Glucosamine Sulfate 390mg + Hyaluronic Acid 45mg](https://allegro.pl/oferta/ostrovit-glukozamina-msm-chondroityna-150-g-kwas-hialuronowy-wit-c-15165596229) [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
+- 2x [Glucosamine Sulfate 390mg + Hyaluronic Acid 45mg](https://allegro.pl/oferta/ostrovit-glukozamina-msm-chondroityna-150-g-kwas-hialuronowy-wit-c-15165596229) <sup>4,5</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
 - [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 
 
@@ -215,4 +215,5 @@ Improving appearance contributes to overall well-being and societal perception.
 1. Vitamin K2 MK4 and K2 MK7 doses should be 5x and 3x higher
 2. Lycopene dose should be 50% higher but we assume lots of tomates are consumed
 3. NAC dose for Bryan Johnson is in total 3g as he takes it additionally from [another supplement](https://www.lifeextension.com/vitamins-supplements/item01534/n-acetyl-l-cysteine) but his situation is specific based on his biomarkers so we are opting for a much safer dose of 1.2g total which could be considered to be increased to 2.4g
-4. In total we are consuming 235mg of Hyaluronic Acid which is on the higher side but should still be safe and may provide additional benefits of Bryan's Johnson 120mg dose
+4. In total we are consuming 270mg of Hyaluronic Acid which is on the higher side but should still be safe and may provide additional benefits of Bryan's Johnson 120mg dose
+5. In total we are consuming 1560mg of Glucosamine Sulfate which is much higher than Bryan's Johnson 750mg dose, however this is because a higher dose is actually recommended for more intense gym and sport workouts
