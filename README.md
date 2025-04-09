@@ -101,7 +101,6 @@
 ### Lunch
 - 2x [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003) 🧠 ❤️ 👁️ 🔥
 - 3x [Astaxanthin 4mg](https://allegro.pl/oferta/ostrovit-astaxanthin-forte-90-kaps-astaksantyna-naturalna-4-mg-antyoksydant-10533292248) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
-- 2x [Spermidine 6mg](https://allegro.pl/oferta/ostrovit-pharma-spermidyna-z-kielkow-pszenicy-60-mg-30-kaps-17013690516) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
 - [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Lutein 18mg + Zeaxanthin 2mg](https://allegro.pl/oferta/ostrovit-luteina-zeaksantyna-60-caps-na-wzrok-16362502894) [[BJ-ES 10mg+2mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🧠 🛡️
 - [Co Q10 100mg](https://allegro.pl/oferta/ostrovit-ubichinon-koenzym-q10-vege-100-kaps-100-mg-na-3-miesiace-11566562378)  [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
@@ -134,16 +133,17 @@
 
 
 ### Evening
-- 2x [Garlic Extract 1000mg](https://allegro.pl/oferta/ostrovit-garlic-90-caps-czosnek-bezzapachowy-allicyna-der-500-1-16360732944) [[BJ-RYG 1200mg](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🛡️ 🩸 🍆
 - [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003) 🧠 ❤️ 👁️ 🔥
-- [Curcumin 285mg + Ginger 100mg](https://allegro.pl/oferta/ostrovit-kurkuma-kurkumina-piperyna-imbir-3x90-tab-11326205826) [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🧠 🦴 ❤️
-- [Sodium Butyrate 600mg](https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216) 🦠 🧠 🛡️ ⏰
 - [Vitamin K1 1.5mg + K2 MK4 1mg + K2 MK7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436)<sup>1</sup> [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
+- 2x [Garlic Extract 1000mg](https://allegro.pl/oferta/ostrovit-garlic-90-caps-czosnek-bezzapachowy-allicyna-der-500-1-16360732944) [[BJ-RYG 1200mg](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🛡️ 🩸 🍆
+- [Curcumin 285mg + Ginger 100mg](https://allegro.pl/oferta/ostrovit-kurkuma-kurkumina-piperyna-imbir-3x90-tab-11326205826) [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🧠 🦴 ❤️
+- 2x [Spermidine 6mg](https://allegro.pl/oferta/ostrovit-pharma-spermidyna-z-kielkow-pszenicy-60-mg-30-kaps-17013690516) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
+- [Sodium Butyrate 600mg](https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216) 🦠 🧠 🛡️ ⏰
+- 2x [Magnesium (Taurate) 100mg](https://allegro.pl/oferta/allnutrition-magnesium-taurate-b6-100-kap-magnez-skurcz-stres-kosci-zeby-16799245835) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 ❤️ 🦴
 - [L-Theanine 200mg](https://allegro.pl/oferta/ostrovit-l-teanina-vege-200-mg-90-kaps-koncentracja-inulina-100-mg-15891803172) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
 - [Ashwagandha KSM-66 500mg](https://allegro.pl/oferta/ashwagandha-ekstrakt-ksm-66-500mg-koncentracja-pamiec-gymbeam-90-kapsulek-14961267046) 😌 😴 🍆 🧠
 - [GABA 750mg](https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224) 😴 😌 💪
 - [Melatonin 1mg](https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158) 😴 ⏰ 🛡️
-- 2x [Magnesium (Taurate) 100mg](https://allegro.pl/oferta/allnutrition-magnesium-taurate-b6-100-kap-magnez-skurcz-stres-kosci-zeby-16799245835) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 ❤️ 🦴
 - Lithium 1mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧠 😌 ⏰
 - Red Yeast Extract 500mg TBD [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🫀
 - Proferrin 20mg TBD 🩸 💪 🧠
