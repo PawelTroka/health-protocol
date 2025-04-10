@@ -90,9 +90,12 @@
 - [Minoxidil 2.5mg](https://sons.co.uk/products/oral-capsule) 💇‍♂️ 🧔
 - Life Extension Two-Per-Day or Mutant Multi or Animal Pak 🍎 🛡️ 💪
 - [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
-- [Horsetail 500mg](https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163) 💇‍♂️ 👨‍🦳 🦴
-- [Biotin 2.5mg](https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586) (note: 50x rdd) 💇‍♂️ 👨‍🦳 💅
 - [Rhodiola Rosea 400mg](https://allegro.pl/oferta/sfd-rhodiola-rosea-90-tab-rozeniec-gorski-pamiec-koncentracja-zmeczenie-7497141491) 🧠 😌 ⚡ 🍆
+- [Maca 500mg](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
+- [Biotin 2.5mg](https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586) (note: 50x rdd) 💇‍♂️ 👨‍🦳 💅
+- [Horsetail 500mg](https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163) 💇‍♂️ 👨‍🦳 🦴
+- [Pycnogenol 100mg](https://allegro.pl/oferta/swanson-pycnogenol-100-mg-stawy-krazenie-30-kaps-kora-sosny-ekstrakt-14116831177) 🫀 🦴 👨‍🦳 ❤️
+- [Boron 3mg](https://allegro.pl/oferta/ostrovit-boron-120-kaps-bor-3-mg-kwas-borowy-vege-120-porcji-kwas-borny-17290705744) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🍆 🦴 🧠
 - [Fenugreek 370mg](https://allegro.pl/oferta/ostrovit-kozieradka-90-vcaps-naturalna-370-mg-wege-fenugreek-11607702815) 🍆 🩸 🚽
 - Galactooligosaccharides 2.5g TBD 🦠 🚽 🛡️
 - Luteolin 100mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🔥 🛡️ 🧠 ⏰
@@ -105,12 +108,9 @@
 - [Lutein 18mg + Zeaxanthin 2mg](https://allegro.pl/oferta/ostrovit-luteina-zeaksantyna-60-caps-na-wzrok-16362502894) [[BJ-ES 10mg+2mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🧠 🛡️
 - [Co Q10 100mg](https://allegro.pl/oferta/ostrovit-ubichinon-koenzym-q10-vege-100-kaps-100-mg-na-3-miesiace-11566562378)  [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
 - [Fisetin 100mg](https://allegro.pl/oferta/fisetyna-perukowiec-podolski-100-mg-vitaler-s-pamiec-koncentracja-30-kaps-17358512149) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 🛡️ 🔥
-- [Boron 3mg](https://allegro.pl/oferta/ostrovit-boron-120-kaps-bor-3-mg-kwas-borowy-vege-120-porcji-kwas-borny-17290705744) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🍆 🦴 🧠
 - [Lycopene 10mg](https://allegro.pl/oferta/likopen-antyoksydant-ekstrakt-prostata-serce-zdrowa-skora-gymbeam-90-kaps-11193402125)<sup>2</sup> [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍅 ❤️ 👨‍🦳 🛡️
 - [Ginger 540mg](https://allegro.pl/oferta/swanson-imbir-ginger-root-540-mg-ekstrakt-trawienie-metabolizm-100-kapsulek-14700837221) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🚽 🍆 🧠
 - [Hyaluronic Acid 100mg](https://allegro.pl/oferta/kwas-hialuronowy-forte-skora-stawy-wlosy-mlodosc-wege-gymbeam-90-tab-13378791495)<sup>4</sup> [[BJ-LM 120mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 👨‍🦳 🦴 💇‍♂️
-- [Maca 500mg](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
-- [Pycnogenol 100mg](https://allegro.pl/oferta/swanson-pycnogenol-100-mg-stawy-krazenie-30-kaps-kora-sosny-ekstrakt-14116831177) 🫀 🦴 👨‍🦳 ❤️
 - Broccoli Seed Extract (Glucoraphanin 20mg) 200mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
 - Lactobacillus Acidophilus 4bln 20mg CFU TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🦠 🛡️ 🧠 🚽
 
