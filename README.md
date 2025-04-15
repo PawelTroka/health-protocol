@@ -6,8 +6,8 @@
 - ❌️ restaurants, "diet catering", take away, comfort food
 - ❌️ carbonated drinks, colored drinks
 - ❌️ sunbathing
-- ⚠️ low productivity activities, low value-adding activities that can be outsourced
-- ⚠️ excessive social media usage
+- ✋️ low productivity activities, low value-adding activities that can be outsourced
+- ✋️ excessive social media usage
 - ⚠️ excessive gaming and TV
 - ⚠️ sleep schedule disruptions
 - ⚠️ overthinking and overanalyzing things out of your control
