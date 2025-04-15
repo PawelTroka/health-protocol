@@ -1,5 +1,17 @@
 # My Health Protocol 
 
+## 0. Get rid of bad behaviors
+- 🚫 smoking, vaping, drugs, alcohol
+- 🚫 sugar, sweets, junk food, fast food
+- 🚫 restaurants, "diet catering", take away, comfort food
+- 🚫 carbonated drinks, colored drinks
+- 🚫 sunbathing
+- ⚠️ low productivity activities, low value-adding activities that can be outsourced
+- ⚠️ excessive social media usage
+- ⚠️ excessive gaming and TV
+- ⚠️ sleep schedule disruptions
+
+
 ## 1. Exercise
 
 ### Gym Workouts (7 times a week, 2-hour split)
