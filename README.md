@@ -229,3 +229,9 @@ Improving appearance contributes to overall well-being and societal perception.
 4. In total we are consuming 270mg of Hyaluronic Acid which is on the higher side but should still be safe and may provide additional benefits of Bryan's Johnson 120mg dose
 5. In total we are consuming 1560mg of Glucosamine Sulfate which is much higher than Bryan's Johnson 750mg dose, however this is because a higher dose is actually recommended for more intense gym and sport workouts
 6. In total we are consuming 720mg of Nicotinamide Riboside which is similar to [Bryan's Johnson total 750mg dose](https://blueprint.bryanjohnson.com/pages/blueprint-protocol)
+
+
+## Things to consider
+- Add magnesium glycinate after workout?
+- Add tongkat ali?
+- Add zinc/zma/dhea/d3/daa?
