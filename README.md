@@ -1,15 +1,16 @@
 # My Health Protocol 
 
 ## 0. Get rid of bad behaviors
-- 🚫 smoking, vaping, drugs, alcohol
+- ⛔️ smoking, vaping, drugs, alcohol
 - 🚫 sugar, sweets, junk food, fast food
-- 🚫 restaurants, "diet catering", take away, comfort food
-- 🚫 carbonated drinks, colored drinks
-- 🚫 sunbathing
+- ❌️ restaurants, "diet catering", take away, comfort food
+- ❌️ carbonated drinks, colored drinks
+- ❌️ sunbathing
 - ⚠️ low productivity activities, low value-adding activities that can be outsourced
 - ⚠️ excessive social media usage
 - ⚠️ excessive gaming and TV
 - ⚠️ sleep schedule disruptions
+- ⚠️ overthinking and overanalyzing things out of your control
 
 
 ## 1. Exercise
