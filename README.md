@@ -8,6 +8,8 @@
 - **Arms Day** 💪 ❤️
 - **Legs & Glutes Day** 💪 ❤️ 🫀
 - **Abs: Everyday** 💪 🫀
+- *Additional:* Climbing (2 hours once a week)
+- *Additional:* Dancing (To Be Determined)
 - *Additional:* Fighting (To Be Determined) 🥊 💪 🧠
 
 ### Outdoor Activity
