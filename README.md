@@ -182,20 +182,27 @@ Supplements and drugs are very well focused in this protocol because of how easy
 
 
 ## 5. Looksmaxxing
-Improving appearance contributes to overall well-being and societal perception.
+There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback look).
 
 ### Face
-- Tretinoin 0.05-0.1% or Adalapene 0.1% (Weekly or bi-weekly) 👨‍🦳 ⏰
-- Quality moisturizer (Daily) 👨‍🦳 💧
-- Good cleanser (Daily) 👨‍🦳 💧
-- BHA/AHA chemical peeling (Monthly or bi-monthly) 👨‍🦳 ⏰
+- Avoid sun exposure
+- [Anti-large pores cleanser](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) (daily) 👨‍🦳 💧
+- [Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (daily) 👨‍🦳 💧
+- [Resurfacing retinol serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (nightly)
+- SPF50 [mineral](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) or [with Bemotrizinol](https://allegro.pl/oferta/iwostin-solecrin-emulsja-ochronna-do-opalania-nawilzajaca-spf-50-100-ml-15370467979)
+- Tretinoin 0.05-0.1% or [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (Weekly or bi-weekly) 👨‍🦳 ⏰
+- [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
 - SNAP-8 peptide 👨‍🦳 ⏰
+- GHK-Cu peptide 👨‍🦳 ⏰
+- Botox (2-3 times a year) and Sculptra (2-3 times a year)
+- Microneedling
 
 ### Hair
 - Regular visits to a good hairdresser (Once a month) 💇‍♂️
 - Use of Nizoral shampoo 💇‍♂️ 🍄
 - Daily use of dutasteride (anti-DHT) 💇‍♂️ 🍅
 - Application of minoxidil 5% (Twice per day) 💇‍♂️
+- Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (Twice per day) 💇‍♂️
 - Weekly hair mask 💇‍♂️ 💧
 - Daily use of hair conditioner 💇‍♂️ 💧
 
