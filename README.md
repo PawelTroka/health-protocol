@@ -6,14 +6,24 @@
 - ❌️ restaurants, "diet catering", take away, comfort food
 - ❌️ carbonated drinks, colored drinks
 - ❌️ sunbathing
+- ❌️ unprotected sex
 - ✋️ low productivity activities, low value-adding activities that can be outsourced
 - ✋️ excessive social media usage
 - ⚠️ excessive gaming and TV
 - ⚠️ sleep schedule disruptions
 - ⚠️ overthinking and overanalyzing things out of your control
 
+## 1. Promote good behaviors
+- [Bloodwork](https://alabsport.pl/pakiety/wyczynowiec) + [STDs check](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony) + [heavy metals test](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)  (4 times a year)
+- Sauna (3 times a week)
+- Red Light Therapy
+- Cold exposure	(4 times a week)
+- Meditation / breathwork (daily)
+- Walks (daily)
+- Stretching (6 times a week)
+- Sleep tracking (daily)
 
-## 1. Exercise
+## 2. Exercise
 
 ### Gym Workouts (7 times a week, 2-hour split)
 - **Back & Biceps Day** 💪 ❤️ 🧠
@@ -28,7 +38,7 @@
 ### Outdoor Activity
 - Running (1 hour once a week near the sea) 🫁 ❤️ 🧠 😌
 
-## 2. Diet
+## 3. Diet
 *2230kcal / 200g proteins / 128g fats / 108g carbs*
 
 ### Pre-breakfast (9am)
@@ -90,8 +100,8 @@
 - Cocoa flavanols ❤️ 🧠 🛡️
 - Macadamia nut milk ❤️ 🧠 ⏰
 
-## 3. Supplements and drugs
-
+## 4. Supplements and drugs
+Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
 ### Morning (fasted)
 
 - 💨 powders:
@@ -171,7 +181,7 @@
 - Metformin 500mg TBD 🩸 ⏰ 🧠
 
 
-## 4. Looksmaxxing
+## 5. Looksmaxxing
 Improving appearance contributes to overall well-being and societal perception.
 
 ### Face
