@@ -196,6 +196,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - GHK-Cu peptide 👨‍🦳 ⏰
 - Botox (2-3 times a year) and Sculptra (2-3 times a year)
 - Microneedling
+- Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
 
 ### Hair
 - Regular visits to a good hairdresser (Once a month) 💇‍♂️
