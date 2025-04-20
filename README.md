@@ -160,7 +160,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 
 ### Evening
 - [Glucosamine Sulfate 2KCl 1500mg](https://nuunutrition.com/products/glucosamine-sulphate-1500-mg-2kcl-tablets) <sup>4,5</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
-- [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) 💇‍♂️ 🍅
+- [Dutasteride 0.5mg (e2d)](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) 💇‍♂️ 🍅
 - [Minoxidil 2.5mg](https://sons.co.uk/products/oral-capsule) 💇‍♂️ 🧔
 - [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003) 🧠 ❤️ 👁️ 🔥
 - [Vitamin K1 1.5mg + K2 MK4 1mg + K2 MK7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436)<sup>1</sup> [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
