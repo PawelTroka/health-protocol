@@ -58,7 +58,6 @@
 - lunch supplements
 
 ### Right before workout
-- 20g of pre-workout [Thor Fuel + Vitargo](https://gymbeam.com/thor-fuel-vitargo-pre-workout-600-g-gymbeam.html) ⚡ 💪 🧠
 - 3g of creatine monohydrate 💪 🧠 🥊
 - 10g of BCAAs 💪 🛡️ ⏰
 
@@ -141,22 +140,22 @@ Supplements and drugs are very well focused in this protocol because of how easy
 ### Before workout
 - 2x [Creatine monohydrate 3g](https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - [Taurine 3g](https://allegro.pl/oferta/ostrovit-supreme-pure-taurine-300-g-tauryna-3000-mg-aminokwasy-czysta-7732560328) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
-- [Glycine 1000mg](https://allegro.pl/oferta/ostrovit-glicyna-200-g-glycine-naturalna-czysta-1000-mg-200-porcji-8381070446) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
-- 💊 pills:
+- [Thor Fuel + Vitargo 20g](https://gymbeam.com/thor-fuel-vitargo-pre-workout-600-g-gymbeam.html) ⚡ 💪 🧠
 - [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - [Maca 500mg](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
 - [Fenugreek 370mg](https://allegro.pl/oferta/ostrovit-kozieradka-90-vcaps-naturalna-370-mg-wege-fenugreek-11607702815) 🍆 🩸 🚽
 - [Tribulus Terrestris 600mg](https://allegro.pl/oferta/tribulus-terrestris-booster-testosteronu-sila-moc-miesnie-gymbeam-120-tab-9931724968) 🍆
 - [Pycnogenol 100mg](https://allegro.pl/oferta/swanson-pycnogenol-100-mg-stawy-krazenie-30-kaps-kora-sosny-ekstrakt-14116831177) 🫀 🦴 👨‍🦳 ❤️
+- [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
 
 
 ### After workout
 - [Collagen peptides 12g](https://allegro.pl/oferta/kfd-collagen-400-g-msn-boswellia-kolagen-7509981983) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [L-Lysine HCL 900mg + EAA+](https://allegro.pl/oferta/ostrovit-eaa-400-g-aminokwasy-regeneracja-bcaa-glutamina-tyrozyna-lizyna-8881135964) [[BJ-LM 1g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
+- [Psyllium Husk 5g](https://allegro.pl/oferta/now-foods-psyllium-husk-powder-babka-plesznik-680-g-17285041093) 🚽 🦠 🩸
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>3</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - [L-Glutathione Reduced 200mg](https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199) [[BJ-LM 250mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🛡️ 👨‍🦳 🧠 ⏰
-- [Psyllium Husk 5g](https://allegro.pl/oferta/now-foods-psyllium-husk-powder-babka-plesznik-680-g-17285041093) 🚽 🦠 🩸
 
 
 ### Evening
@@ -174,6 +173,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Ashwagandha KSM-66 500mg](https://allegro.pl/oferta/ashwagandha-ekstrakt-ksm-66-500mg-koncentracja-pamiec-gymbeam-90-kapsulek-14961267046) 😌 😴 🍆 🧠
 - [GABA 750mg](https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224) 😴 😌 💪
 - [Melatonin 1mg](https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158) 😴 ⏰ 🛡️
+- [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
 - Lithium 1mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧠 😌 ⏰
 - Red Yeast Extract 500mg TBD [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🫀
 - Proferrin 20mg TBD 🩸 💪 🧠
