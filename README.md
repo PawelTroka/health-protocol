@@ -261,7 +261,13 @@ There are actual studies that confirm if you look younger and better you are mor
 6. In total we are consuming 720mg of Nicotinamide Riboside which is similar to [Bryan's Johnson total 750mg dose](https://blueprint.bryanjohnson.com/pages/blueprint-protocol)
 
 
-## Things to consider
+## TODOs / Things to consider
 - Add magnesium glycinate after workout?
 - Add tongkat ali?
 - Add zinc/zma/dhea/d3/daa?
+- Add water filter better and more convenient than UC-200
+- Find gym shaker with zero microplastics emission that is small and dishwasher friendly
+- Find water bottle with zero microplastics emission that is large and dishwasher friendly, possibly made from multiple smaller pieces that can be disassembled for easy cleaning
+- Find the best air purifier and humidifier and ionizer with smart capabilities
+- Find zero-plastics cookware
+- Find zero-plastics gymwear
