@@ -25,15 +25,66 @@
 
 ## 2. Exercise
 
-### Gym Workouts (7 times a week, 2-hour split)
-- **Back & Biceps Day** 💪 ❤️ 🧠
-- **Chest & Triceps Day** 💪 ❤️ 🧠
-- **Arms Day** 💪 ❤️
-- **Legs & Glutes Day** 💪 ❤️ 🫀
-- **Abs: Everyday** 💪 🫀
-- *Additional:* Climbing (2 hours once a week)
-- *Additional:* Dancing (To Be Determined)
-- *Additional:* Fighting (To Be Determined) 🥊 💪 🧠
+### Gym Workouts (7 times a week, Push/Pull/Legs + Active Recovery + Core on every workout)
+
+#### **Monday (Push - Chest, Delts, Triceps)** 💪 ❤️ 🧠
+- Incline Dumbbell Press: 4 × 8-10 reps
+- Cable Crossover (Upper Chest Focus): 3 × 12-15 reps
+- Seated Arnold Press (light/moderate): 3 × 10-12 reps
+- Lateral Raises (strict tempo): 3 × 10-12 reps
+- Overhead Cable Tricep Extension: 4 × 12-15 reps
+- **Core**: Cable Crunches: 3 × 15-20 reps
+
+#### **Tuesday (Pull - Back, Biceps)** 💪 ❤️
+- Lat Pulldown (close-neutral grip): 4 × 10 reps
+- Machine Row or Chest-Supported Row: 3 × 8-10 reps
+- Face Pulls (light, high reps): 3 × 15 reps
+- Incline Dumbbell Curl: 3 × 10-12 reps
+- Hammer Curl: 3 × 12 reps
+- **Core**: Hanging Leg Raises: 3 × 10-12 reps (slow tempo)
+
+#### **Wednesday (Legs - Glute/Quad Focus)** 💪 ❤️ 🫀
+- Bulgarian Split Squats: 3 × 10 reps/leg
+- Hip Thrust: 4 × 10 reps
+- Leg Press (feet high + wide): 3 × 12 reps
+- Seated Hamstring Curl: 3 × 12 reps
+- Calf Raise: 4 × 15-20 reps
+- **Core**: Ab Wheel Rollouts: 3 × 10 reps (knees if needed)
+
+#### **Thursday (Active Recovery / Optional Cardio)** 🫁 ❤️ 😌
+- Sauna + Light mobility
+- Walk or cycling: 30-45 mins
+- Optional: Yoga or deep core work
+
+#### **Friday (Push 2 - Delt Emphasis)** 💪 ❤️ 🧠
+- Machine Shoulder Press: 3 × 10 reps
+- Lateral Raise Dropset: 3 × (15 > 10 > 8) reps
+- Incline Bench Press: 3 × 8 reps
+- Cable Front Raise: 3 × 12 reps
+- Overhead Dumbbell Tricep Press: 3 × 10-12 reps
+- **Core**: Decline Situps + Plate: 3 × 12-15 reps
+
+#### **Saturday (Pull 2 - Upper Back / Arms)** 💪 ❤️
+- Pull-ups or Assisted Pull-ups: 3 × 8-10 reps
+- T-bar Row (chest supported): 4 × 10 reps
+- Rear Delt Fly: 3 × 15 reps
+- EZ Bar Curl: 3 × 10 reps
+- Concentration Curl: 3 × 12 reps each arm
+- **Core**: Russian Twists: 3 × 20 reps (light plate)
+
+#### **Sunday (Legs 2 - Hamstring/Glute Focus)** 💪 ❤️ 🫀
+- RDL with Dumbbells: 4 × 10 reps
+- Step-Ups (moderate load): 3 × 12 reps each leg
+- Lying Ham Curl: 3 × 12 reps
+- Glute Kickbacks: 3 × 15 reps each leg
+- Calf Raises: 4 × 20 reps
+- **Core**: Weighted Planks: 3 × 60s
+
+
+### Additional activities
+- Climbing (2 hours once a week)
+- Dancing (2 hours once a week)
+- Fighting (To Be Determined) 🥊 💪 🧠
 
 ### Outdoor Activity
 - Running (1 hour once a week near the sea) 🫁 ❤️ 🧠 😌
