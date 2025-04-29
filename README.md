@@ -201,7 +201,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Regular visits to a good hairdresser (Once a month) 💇‍♂️
 - Use of Nizoral shampoo 💇‍♂️ 🍄
 - Daily use of dutasteride (anti-DHT) 💇‍♂️ 🍅
-- Application of minoxidil 5% (Twice per day) 💇‍♂️
+- Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (Twice per day) 💇‍♂️
 - Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (Twice per day) 💇‍♂️
 - Weekly hair mask 💇‍♂️ 💧
 - Daily use of hair conditioner 💇‍♂️ 💧
