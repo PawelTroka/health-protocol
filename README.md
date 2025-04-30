@@ -263,25 +263,42 @@ There are actual studies that confirm if you look younger and better you are mor
 - Daily use of beard oil 🧔 💧
 
 ## 6. Cookware
-To prepare food only clean and healthy materials shall be used. Microplastic should be avoided at all cost, natural biologocially neutral materials should be used such as stainless steel, natural wood with no artificial oils nor paints, iron, titanium, glass and natural rubber.
+My kitchen is equipped only with materials that prioritize health and safety. I avoid microplastics and synthetic materials in favor of biologically neutral, natural options including:
+- Stainless steel
+- Natural untreated wood
+- Iron
+- Titanium
+- Glass
+- Natural rubber
 
-### Chopping board
-Natural wood like oak with natural antibacterial properties with no artificial oils nor paints made from one slob of wood, no glue 
-- [StoDesek 40x30x2.5 cm Slim](https://allegro.pl/oferta/deska-do-krojenia-slim-40x30x2-5cm-drewniana-blok-11110650429)
+### Cutting Boards
+**Material**: Natural oak wood with inherent antibacterial properties
+- Single piece construction (no glue)
+- No artificial oils or paints
+- Recommended: [StoDesek 40x30x2.5 cm Slim](https://allegro.pl/oferta/deska-do-krojenia-slim-40x30x2-5cm-drewniana-blok-11110650429)
+  *Premium solid oak cutting surface with natural edge*
 
 ### Knives
-Made from one slob of stainless steel
-[Karl Hausmann DARIO Collection](https://allegro.pl/oferta/komplet-zestaw-5-nozy-ostra-stal-dario-srebrne-nierdzewne-tradycyjne-15383598776)
+**Material**: Single-piece stainless steel construction
+- Recommended: [Karl Hausmann DARIO Collection](https://allegro.pl/oferta/komplet-zestaw-5-nozy-ostra-stal-dario-srebrne-nierdzewne-tradycyjne-15383598776)
+  *Professional-grade knife set with balanced ergonomics*
 
-### Frying pans
-Stainless steel is a biologically neutral material, however it is important to use 21/0 stainless steel that is nickel-fee as it is a common allergen and some studies suggest that small amounts may leach into food during cooking with standard 18/10 or 18/8 stainless steel. Preferably magnetic and chromium-rich: More corrosion-resistant without the allergenic potential of nickel and uncoated: No Teflon or ceramic layer to degrade or flake off.
-- [YATO Professional Kitchen Equipment 24cm](https://allegro.pl/oferta/yato-patelnia-gastronomiczna-indukcja-gaz-pro-24cm-14023675438)
-- (alternative) [SKOTTSBERG STAINLESS STEEL 24 CM INDUCTION K3](https://allegro.pl/oferta/skottsberg-patelnia-ze-stali-nierdzewnej-stainless-steel-24-cm-indukcja-k3-17004514428)
-- [YATO Professional Kitchen Equipment 36cm](https://allegro.pl/oferta/patelnia-ze-stali-nierdzewnej-36cm-16370023721)
+### Frying Pans
+**Material**: Nickel-free 21/0 stainless steel
+- Magnetic and chromium-rich for superior corrosion resistance
+- Uncoated (no Teflon or ceramic layers that can degrade)
+- Recommended options:
+  - [YATO Professional Kitchen Equipment 24cm](https://allegro.pl/oferta/yato-patelnia-gastronomiczna-indukcja-gaz-pro-24cm-14023675438)
+    *Restaurant-quality pan compatible with all cooktops*
+  - [SKOTTSBERG STAINLESS STEEL 24 CM INDUCTION K3](https://allegro.pl/oferta/skottsberg-patelnia-ze-stali-nierdzewnej-stainless-steel-24-cm-indukcja-k3-17004514428)
+    *Alternative option with excellent heat distribution*
+  - [YATO Professional Kitchen Equipment 36cm](https://allegro.pl/oferta/patelnia-ze-stali-nierdzewnej-36cm-16370023721)
+    *Larger pan for family-sized meals and batch cooking*
 
-### Kitchenware
-Made from one slob of stainless steel
-[AMEHO](https://allegro.pl/oferta/przybory-kuchenne-zestaw-akcesoriow-przyborow-kuchennych-lyzka-lopatka-17153810158)
+### Kitchen Utensils
+**Material**: Single-piece stainless steel construction
+- Recommended: [AMEHO Kitchen Tool Set](https://allegro.pl/oferta/przybory-kuchenne-zestaw-akcesoriow-przyborow-kuchennych-lyzka-lopatka-17153810158)
+  *Complete set of durable, sanitary cooking implements*
 
 
 ## Legend
