@@ -262,6 +262,28 @@ There are actual studies that confirm if you look younger and better you are mor
 - Daily application of minoxidil 5% 🧔
 - Daily use of beard oil 🧔 💧
 
+## 6. Cookware
+To prepare food only clean and healthy materials shall be used. Microplastic should be avoided at all cost, natural biologocially neutral materials should be used such as stainless steel, natural wood with no artificial oils nor paints, iron, titanium, glass and natural rubber.
+
+### Chopping board
+Natural wood like oak with natural antibacterial properties with no artificial oils nor paints made from one slob of wood, no glue 
+- [StoDesek 40x30x2.5 cm Slim](https://allegro.pl/oferta/deska-do-krojenia-slim-40x30x2-5cm-drewniana-blok-11110650429)
+
+### Knives
+Made from one slob of stainless steel
+[Karl Hausmann DARIO Collection](https://allegro.pl/oferta/komplet-zestaw-5-nozy-ostra-stal-dario-srebrne-nierdzewne-tradycyjne-15383598776)
+
+### Frying pans
+Stainless steel is a biologically neutral material, however it is important to use 21/0 stainless steel that is nickel-fee as it is a common allergen and some studies suggest that small amounts may leach into food during cooking with standard 18/10 or 18/8 stainless steel. Preferably magnetic and chromium-rich: More corrosion-resistant without the allergenic potential of nickel and uncoated: No Teflon or ceramic layer to degrade or flake off.
+- [YATO Professional Kitchen Equipment 24cm](https://allegro.pl/oferta/yato-patelnia-gastronomiczna-indukcja-gaz-pro-24cm-14023675438)
+- (alternative) [SKOTTSBERG STAINLESS STEEL 24 CM INDUCTION K3](https://allegro.pl/oferta/skottsberg-patelnia-ze-stali-nierdzewnej-stainless-steel-24-cm-indukcja-k3-17004514428)
+- [YATO Professional Kitchen Equipment 36cm](https://allegro.pl/oferta/patelnia-ze-stali-nierdzewnej-36cm-16370023721)
+
+### Kitchenware
+Made from one slob of stainless steel
+[AMEHO](https://allegro.pl/oferta/przybory-kuchenne-zestaw-akcesoriow-przyborow-kuchennych-lyzka-lopatka-17153810158)
+
+
 ## Legend
 - TBD - To Be Decided, we were unable to find a good supplement for this compound on polish market
 - BJ-LM - [Bryan Johnson Longevity Mix](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)
