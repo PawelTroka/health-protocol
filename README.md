@@ -297,7 +297,7 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 
 ### Kitchen Utensils
 **Material**: Single-piece stainless steel construction
-- Recommended: [AMEHO Kitchen Tool Set](https://allegro.pl/oferta/przybory-kuchenne-zestaw-akcesoriow-przyborow-kuchennych-lyzka-lopatka-17153810158)
+- Recommended: [Galicja Practico Kitchen Tool Set](https://allegro.pl/oferta/przybory-kuchenne-zestaw-6szt-chochla-lopatka-stal-12303435531)
   *Complete set of durable, sanitary cooking implements*
 
 
