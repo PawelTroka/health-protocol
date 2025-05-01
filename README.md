@@ -295,6 +295,11 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
   - [YATO Professional Kitchen Equipment 36cm](https://allegro.pl/oferta/patelnia-ze-stali-nierdzewnej-36cm-16370023721)
     *Larger pan for family-sized meals and batch cooking*
 
+### Cooking pot set
+100% stainless steel with glass
+[Tefal Duetto](https://allegro.pl/oferta/zestaw-tefal-duetto-garnki-z-pokrywa-7el-g719s734-stal-nierdzewna-10801100358)
+
+
 ### Kitchen Utensils
 **Material**: Single-piece stainless steel construction
 - Recommended: [Galicja Practico Kitchen Tool Set](https://allegro.pl/oferta/przybory-kuchenne-zestaw-6szt-chochla-lopatka-stal-12303435531)
