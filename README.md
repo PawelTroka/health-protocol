@@ -260,7 +260,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (Twice per day) 💇‍♂️
 - Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (Twice per day) 💇‍♂️
 - Application of [Herbal nutricosmetics](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) (Few times a week) 💇‍♂️
-- Use of hair scalp massager / dermaroller / dermastamper to increase absorption
+- Use of [hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) / [dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) / [dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) to increase absorption
 
 ### Beard
 - Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a week) 🧔
