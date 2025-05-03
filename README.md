@@ -249,16 +249,20 @@ There are actual studies that confirm if you look younger and better you are mor
 - Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
 
 ### Hair
-- Regular visits to a good hairdresser (Once a month) 💇‍♂️
-- Use of Nizoral shampoo 💇‍♂️ 🍄
-- Daily use of dutasteride (anti-DHT) 💇‍♂️ 🍅
+- Regular visits to [a good hairdresser](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a month) 💇‍♂️
+- Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (Once a week) 💇‍♂️ 🍄
+- Use of [anti-hair loss shampoo](https://allegro.pl/oferta/anti-hair-loss-szampon-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132003412) (Twice per week) 💇‍♂️
+- Use of [emollient hair conditioner](https://allegro.pl/oferta/anwen-odzywka-do-wlosow-emolientowy-irys-200-ml-9334623745) 💇‍♂️ 💧 (Every second hair wash)
+- Use of [protein hair conditioner](https://allegro.pl/oferta/anwen-odzywka-proteinowa-magnolia-aluminiowa-100ml-11386316729) 💇‍♂️ 💧 (Every second hair wash)
+- (alternative) Use of [anti-hair loss conditioner](https://allegro.pl/oferta/anti-hair-loss-odzywka-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132018183) 💇‍♂️ 💧 (Every second hair wash)
+- Use of [hair mask](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419) (alternative to conditioner) 💇‍♂️ 💧
+- Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (Every second day) 💇‍♂️ 🍅
 - Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (Twice per day) 💇‍♂️
 - Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (Twice per day) 💇‍♂️
-- Weekly hair mask 💇‍♂️ 💧
-- Daily use of hair conditioner 💇‍♂️ 💧
+- Application of [Herbal nutricosmetics](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) (Few times a week) 💇‍♂️
 
 ### Beard
-- Regular visits to an artisan barber (Once a week) 🧔
+- Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a week) 🧔
 - Daily application of minoxidil 5% 🧔
 - Daily use of beard oil 🧔 💧
 
