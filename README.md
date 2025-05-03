@@ -305,9 +305,13 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 [Tefal Duetto](https://allegro.pl/oferta/zestaw-tefal-duetto-garnki-z-pokrywa-7el-g719s734-stal-nierdzewna-10801100358)
 
 
+### Ovenproof dish
+[Rectangle 7l ovenproof dish](https://allegro.pl/oferta/naczynie-zaroodporne-7l-do-zapiekania-z-pokrywa-szklane-prostokatne-duze-17299292242)
+
+
 ### Kitchen Utensils
 **Material**: Single-piece stainless steel construction
-- Recommended: [Galicja Practico Kitchen Tool Set](https://allegro.pl/oferta/przybory-kuchenne-zestaw-6szt-chochla-lopatka-stal-12303435531)
+- Recommended: [Galicja Practico Kitchen Tool Set](https://allegro.pl/oferta/przybory-kuchenne-zestaw-6szt-chochla-lopatka-stal-12303435531) + [slotted spoon skimmer](https://allegro.pl/oferta/lyzka-cedzakowa-szumowka-sitko-cedzak-duze-oczka-13033458435)
   *Complete set of durable, sanitary cooking implements*
 
 
