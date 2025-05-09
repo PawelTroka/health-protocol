@@ -158,6 +158,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Creatine monohydrate 3g](https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935) [[BJ-LM 2.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 🥊
 - [Collagen peptides 12g](https://allegro.pl/oferta/kfd-collagen-400-g-msn-boswellia-kolagen-7509981983) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [Inulin 5g](https://allegro.pl/oferta/inulina-z-agawy-naturalny-slodzik-blonnik-w-proszku-bio-fit-gymbeam-250g-11061186389) 🦠 🚽 🩸
+- [Psyllium Husk 5g](https://allegro.pl/oferta/now-foods-psyllium-husk-powder-babka-plesznik-680-g-17285041093) 🚽 🦠 🩸
 - 💊 pills:
 - [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
@@ -204,7 +205,6 @@ Supplements and drugs are very well focused in this protocol because of how easy
 ### After workout
 - [Collagen peptides 12g](https://allegro.pl/oferta/kfd-collagen-400-g-msn-boswellia-kolagen-7509981983) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [L-Lysine HCL 900mg + EAA+](https://allegro.pl/oferta/ostrovit-eaa-400-g-aminokwasy-regeneracja-bcaa-glutamina-tyrozyna-lizyna-8881135964) [[BJ-LM 1g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
-- [Psyllium Husk 5g](https://allegro.pl/oferta/now-foods-psyllium-husk-powder-babka-plesznik-680-g-17285041093) 🚽 🦠 🩸
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>3</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - [L-Glutathione Reduced 200mg](https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199) [[BJ-LM 250mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🛡️ 👨‍🦳 🧠 ⏰
 
