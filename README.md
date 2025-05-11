@@ -14,7 +14,7 @@
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ## 1. Promote good behaviors
-- [Bloodwork](https://alabsport.pl/pakiety/wyczynowiec) + [STDs check](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony) + [heavy metals test](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)  (4 times a year)
+- [Bloodwork](https://alabsport.pl/pakiety/wyczynowiec) + [STDs check](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony) + [heavy metals test](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony) + [free testosterone](https://www.alab.pl/badanie/testosteron-wolny-o41) + [female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania) + [SHBG](https://www.alab.pl/badanie/globulina-wiazaca-hormony-plciowe-shbg-i83) (4 times a year)
 - Sauna (3 times a week)
 - Red Light Therapy
 - Cold exposure	(4 times a week)
