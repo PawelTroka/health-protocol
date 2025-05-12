@@ -371,6 +371,7 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 - Add Lion's mane?
 - Add tongkat ali?
 - Add isotretinoin microdosing (acutane) ?
+- Add GOS and lactobasilus acidophilus ?
 - Add fat-burner like alpha yohimbine ?
 - Add Tesamorelin or AOD-9604 for abdominal fat reduction ?
 - Add zinc/zma/dhea/d3/daa?
