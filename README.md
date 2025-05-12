@@ -367,7 +367,12 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 
 ## TODOs / Things to consider
 - Add magnesium glycinate after workout?
+- Add 50-100mg apigenin before sleep
+- Add Lion's mane?
 - Add tongkat ali?
+- Add isotretinoin microdosing (acutane) ?
+- Add fat-burner like alpha yohimbine ?
+- Add Tesamorelin or AOD-9604 for abdominal fat reduction ?
 - Add zinc/zma/dhea/d3/daa?
 - Add water filter better and more convenient than UC-200
 - Find gym shaker with zero microplastics emission that is small and dishwasher friendly
