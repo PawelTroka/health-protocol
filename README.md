@@ -197,7 +197,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - [Maca 500mg](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
 - [Fenugreek 370mg](https://allegro.pl/oferta/ostrovit-kozieradka-90-vcaps-naturalna-370-mg-wege-fenugreek-11607702815) 🍆 🩸 🚽
-- [Tribulus Terrestris 600mg](https://allegro.pl/oferta/tribulus-terrestris-booster-testosteronu-sila-moc-miesnie-gymbeam-120-tab-9931724968) 🍆
+- [Tribulus Terrestris 1500mg](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-testosteron-1500mg-90-14876230440) 🍆
 - [Pycnogenol 100mg](https://allegro.pl/oferta/pycnogenol-kora-sosny-ekstrakt-100mg-opc-9920147976) 🫀 🦴 👨‍🦳 ❤️
 - [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-supreme-taurine-1500mg-regenracja-stres-odpoczynek-natural-120caps-12920763423) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
