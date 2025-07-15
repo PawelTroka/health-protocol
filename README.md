@@ -382,8 +382,6 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 
 
 ## TODOs / Things to consider
-- Add 50-100mg apigenin before sleep
-- Add Lion's mane?
 - Add tongkat ali?
 - Add isotretinoin microdosing (acutane) ?
 - Add GOS and lactobasilus acidophilus ?
