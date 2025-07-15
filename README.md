@@ -330,6 +330,18 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 - Recommended: [Galicja Practico Kitchen Tool Set](https://allegro.pl/oferta/przybory-kuchenne-zestaw-6szt-chochla-lopatka-stal-12303435531) + [slotted spoon skimmer](https://allegro.pl/oferta/lyzka-cedzakowa-szumowka-sitko-cedzak-duze-oczka-13033458435)
   *Complete set of durable, sanitary cooking implements*
 
+## 7. Environment
+Even if you do everything right you can be exposed to harmful environment, so it is crucial to do everything to have a healthy environment.
+
+### Clean water
+- Use reverse osmosis water filtration system like Aquasana OptimH2O Reverse Osmosis + Claryum
+- (alternatively) Use mechanical 3-stage water filtration system like [CuZn UC-200](https://www.apecwater.com/products/cuzn-uc-200-series-under-counter-water-filters-ultra-high-capacity) (extremely low-maintenance option, 5 years lifespan) or Aquasana - Claryum® 3-Stage Max Flow - AQ-5300+
+
+### Clean air
+- Monitor [outside air quality](https://www.iqair.com/air-quality-map/poland/pomerania/gdansk) religiously and don't go out when its worse than moderate, limit going out when its moderate
+- Monitor inside air quality using [Airthings View Plus](https://www.airthings.com/view-plus) or [IQAir AirVisual Pro](https://www.iqair.com/products/air-quality-monitors/airvisual-pro-indoor-monitor)
+- Use extremely strong air purifier at home (especially bedroom) with 600+ CADR, at least 3 filtration stages, ionization and humidifier like [Electrolux PURE 900 600 m3/h](https://www.electroluxgroup.com/en/meet-our-most-sustainable-air-purifier-43766/)
+
 
 ## Legend
 - TBD - To Be Decided, we were unable to find a good supplement for this compound on polish market
