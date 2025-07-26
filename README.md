@@ -157,7 +157,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - 💨 powders:
 - [Creatine monohydrate 3g](https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935) [[BJ-LM 2.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 🥊
 - [Collagen peptides 13g](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
-- [Inulin 5g](https://allegro.pl/oferta/inulina-z-agawy-naturalny-slodzik-blonnik-w-proszku-bio-fit-gymbeam-250g-11061186389) 🦠 🚽 🩸
+- [Inulin 5g](https://allegro.pl/oferta/inulina-1kg-z-cykorii-naturalny-blonnik-prebiotyk-jakosc-premium-keto-13292783365) 🦠 🚽 🩸
 - [Psyllium Husk 5g](https://allegro.pl/oferta/now-foods-psyllium-husk-powder-babka-plesznik-680-g-17285041093) 🚽 🦠 🩸
 - 💊 pills:
 - [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
