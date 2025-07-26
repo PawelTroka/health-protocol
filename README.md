@@ -221,7 +221,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Spermidine 10mg](https://allegro.pl/oferta/spermidine-10mg-urolithin-a-60-kaps-spermidyna-czysta-z-urolityna-17494471184) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
 - [Ashwagandha KSM-66 500mg](https://allegro.pl/oferta/ashwagandha-ekstrakt-ksm-66-500mg-koncentracja-pamiec-gymbeam-90-kapsulek-14961267046) 😌 😴 🍆 🧠
 - [GABA 750mg](https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224) 😴 😌 💪
-- [L-Theanine 200mg](https://allegro.pl/oferta/ostrovit-l-teanina-vege-200-mg-90-kaps-koncentracja-inulina-100-mg-15891803172) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
+- [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-240-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17173926212) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
 - [Melatonin 1mg](https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158) 😴 ⏰ 🛡️
 - [Glucosamine Sulfate 2KCl 1500mg](https://nuunutrition.com/products/glucosamine-sulphate-1500-mg-2kcl-tablets) <sup>4,5</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
 - [Dutasteride 0.5mg (e2d)](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) 💇‍♂️ 🍅
