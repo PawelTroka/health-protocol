@@ -344,7 +344,8 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## 6. Vaccines
-- Tuberculosis (BCG)	(given at childhood)
+- Tuberculosis (BCG)	(given in childhood)
+- Haemophilus influenzae type b (Hib) (given in childhood)
 - Diphtheria‑Pertussis-Tetanus-Polio (dTpa-IPV) (every 10 years, next 2029-08-21)
 - Measles‑Mumps‑Rubella (MMR)	(once)
 - Hepatitis A	(2 doses)
