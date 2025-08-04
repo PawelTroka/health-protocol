@@ -417,8 +417,10 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## TODOs / Things to consider
-- Add tongkat ali?
-- Add isotretinoin microdosing (acutane) ?
+- Consider Urolithin A 500mg every morning with fat
+- Consider L-Ergothioneine 5mg every morning
+- Add Tongkat Ali?
+- Add Isotretinoin microdosing (Acutane) ?
 - Add GOS and lactobasilus acidophilus ?
 - Add fat-burner like alpha yohimbine ?
 - Add Tesamorelin or AOD-9604 for abdominal fat reduction ?
