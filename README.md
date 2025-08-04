@@ -158,6 +158,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Collagen peptides 13g](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [Inulin 5g](https://allegro.pl/oferta/inulina-1kg-z-cykorii-naturalny-blonnik-prebiotyk-jakosc-premium-keto-13292783365) 🦠 🚽 🩸
 - [Psyllium Husk 5g](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸
+- [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) 💪 🛡️ 🦠
 - 💊 pills:
 - [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
@@ -206,6 +207,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 ### After workout
 - [Collagen peptides 13g](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [L-Lysine HCL 900mg + EAA+](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
+- [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) 💪 🛡️ 🦠
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>3</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - 3x [Creatine monohydrate 1g](https://allegro.pl/oferta/kreatyna-tabs-1000-mg-monohydrat-wydajnosc-fizyczna-sila-gymbeam-300-tab-12801641650) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - 2x [Magnesium (Taurate) 100mg](https://allegro.pl/oferta/allnutrition-magnesium-taurate-b6-100-kap-magnez-skurcz-stres-kosci-zeby-16799245835) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 ❤️ 🦴
