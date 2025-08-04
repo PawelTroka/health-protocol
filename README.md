@@ -155,7 +155,6 @@ Supplements and drugs are very well focused in this protocol because of how easy
 ### Morning (fasted)
 
 - 💨 powders:
-- [Creatine monohydrate 3g](https://allegro.pl/oferta/ostrovit-kreatyna-monohydrat-500-g-czysta-creatine-naturalna-13339852935) [[BJ-LM 2.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 🥊
 - [Collagen peptides 13g](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [Inulin 5g](https://allegro.pl/oferta/inulina-1kg-z-cykorii-naturalny-blonnik-prebiotyk-jakosc-premium-keto-13292783365) 🦠 🚽 🩸
 - [Psyllium Husk 5g](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸
