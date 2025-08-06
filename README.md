@@ -419,6 +419,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## TODOs / Things to consider
+- Consider 2x Berberine 500mg with 100-200mg milth thistle
 - Consider Urolithin A 500mg every morning with fat
 - Consider L-Ergothioneine 5mg every morning
 - Add Tongkat Ali?
