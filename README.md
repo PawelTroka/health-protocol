@@ -201,7 +201,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Fenugreek 750mg](https://allegro.pl/oferta/biotech-fenugreek-750-mg-60-kap-kozieradka-pospolita-testosteron-witalnosc-11217463392) 🍆 🩸 🚽
 - [Tribulus Terrestris 1500mg](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-testosteron-1500mg-90-14876230440) 🍆
 - [Pycnogenol 100mg](https://allegro.pl/oferta/pycnogenol-kora-sosny-ekstrakt-100mg-opc-9920147976) 🫀 🦴 👨‍🦳 ❤️
-- [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-supreme-taurine-1500mg-regenracja-stres-odpoczynek-natural-120caps-12920763423) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
+- 2x [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-supreme-taurine-1500mg-regenracja-stres-odpoczynek-natural-120caps-12920763423) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
 
 
