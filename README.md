@@ -163,6 +163,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
+- Galactooligosaccharides 2.5g TBD 🦠 🚽 🛡️
 - [Hyaluronic Acid 200mg](https://allegro.pl/oferta/solherbs-kwas-hialuronowy-200-mg-60-vege-kaps-13075631403)<sup>4</sup> [[BJ-LM 120mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 👨‍🦳 🦴 💇‍♂️
 - [Boron 6mg](https://allegro.pl/oferta/bor-chelatowy-6-mg-60-kapsulek-boron-swanson-10975662728) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🍆 🦴 🧠
 - [Rhodiola Rosea 600mg](https://allegro.pl/oferta/r2g-rhodiola-600mg-rozeniec-gorski-stres-120-dni-120-kaps-11311651115) 🧠 😌 ⚡ 🍆
@@ -172,7 +173,6 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - 3x [Creatine monohydrate 1g](https://allegro.pl/oferta/kreatyna-tabs-1000-mg-monohydrat-wydajnosc-fizyczna-sila-gymbeam-300-tab-12801641650) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - 2x [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-supreme-taurine-1500mg-regenracja-stres-odpoczynek-natural-120caps-12920763423) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - [Lion's Mane 500mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133)
-- Galactooligosaccharides 2.5g TBD 🦠 🚽 🛡️
 - Luteolin 100mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🔥 🛡️ 🧠 ⏰
 
 
