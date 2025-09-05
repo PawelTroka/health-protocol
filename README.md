@@ -169,6 +169,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Rhodiola Rosea 600mg](https://allegro.pl/oferta/r2g-rhodiola-600mg-rozeniec-gorski-stres-120-dni-120-kaps-11311651115) 🧠 😌 ⚡ 🍆
 - [Horsetail 500mg](https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163) 💇‍♂️ 👨‍🦳 🦴
 - [Biotin 2.5mg](https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586) (note: 50x rdd) 💇‍♂️ 👨‍🦳 💅
+- [Yohimbine HCL 5mg](https://pro-peptydy.pl/produkt/yohimbine-5mg-100-kapsulek)
 - 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-500mg-60-kapsulek-alfa-ketoklutaran-wapnia-hpmc-energia-vegan-17742452223) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
 - 3x [Creatine monohydrate 1g](https://allegro.pl/oferta/kreatyna-tabs-1000-mg-monohydrat-wydajnosc-fizyczna-sila-gymbeam-300-tab-12801641650) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - 2x [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
