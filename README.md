@@ -242,7 +242,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 
 
 ## 5. Looksmaxxing
-There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback look).
+There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
 
 ### Oral health / teethmaxxing
 - [Incognito](https://orthodonticassoc.com/treatments/incognito/) lingual orthodontic braces if uneven/crooked teeth or bite
