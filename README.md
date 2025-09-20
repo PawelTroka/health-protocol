@@ -190,7 +190,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - Lactobacillus Acidophilus 4bln 20mg CFU TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🦠 🛡️ 🧠 🚽
 - [Berberine 777mg](https://allegro.pl/oferta/berberis-777mg-niski-cukier-odchudzanie-apetyt-berberys-berberyna-90-kap-16324896123)
 - [Astaxanthin 12mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-12-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
-- Broccoli Seed Extract (Glucoraphanin 20mg) 200mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
+- [Broccoli Seed Extract (Glucoraphanin 20mg) 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
 - Beta-Karoten
 - [Milk Thistle 600mg](https://allegro.pl/oferta/milk-thistle-ostropest-plamisty-full-spectrum-ekstrakt-sylimaryna-detoks-12350053812)
 - [Urolithin A 500mg + L-Ergothioneine 5mg](https://allegro.pl/oferta/urolityna-a-500-mg-l-ergotioneina-5mg-60-kapsulek-17760293773)
