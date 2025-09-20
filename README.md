@@ -188,10 +188,11 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Ginger 540mg](https://allegro.pl/oferta/swanson-imbir-ginger-root-540-mg-ekstrakt-trawienie-metabolizm-100-kapsulek-14700837221) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🚽 🍆 🧠
 - [Lycopene 20mg](https://allegro.pl/oferta/likopen-mikrokapsulkowany-20-mg-lycopene-60-kapsulek-15828261195)<sup>2</sup> [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍅 ❤️ 👨‍🦳 🛡️
 - Lactobacillus Acidophilus 4bln 20mg CFU TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🦠 🛡️ 🧠 🚽
-- Berberine
+- [Berberine 777mg](https://allegro.pl/oferta/berberis-777mg-niski-cukier-odchudzanie-apetyt-berberys-berberyna-90-kap-16324896123)
 - [Astaxanthin 12mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-12-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - Broccoli Seed Extract (Glucoraphanin 20mg) 200mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
 - Beta-Karoten
+- [Milk Thistle 600mg](https://allegro.pl/oferta/milk-thistle-ostropest-plamisty-full-spectrum-ekstrakt-sylimaryna-detoks-12350053812)
 - [Urolithin A 500mg + L-Ergothioneine 5mg](https://allegro.pl/oferta/urolityna-a-500-mg-l-ergotioneina-5mg-60-kapsulek-17760293773)
 - [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105)
 
