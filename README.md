@@ -356,22 +356,22 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## 6. Vaccines
-- Tuberculosis (BCG)	(given in childhood)
-- Haemophilus influenzae type b (Hib) (given in childhood)
-- Diphtheria‑Pertussis-Tetanus-Polio (dTpa-IPV) (every 10 years, next 2029-08-21)
+- Tuberculosis (BCG)	(given in childhood) ✅
+- Haemophilus influenzae type b (Hib) (given in childhood) ✅
+- Diphtheria‑Pertussis-Tetanus-Polio (dTpa-IPV) (every 10 years, next 2029-08-21) ✅
 - Measles‑Mumps‑Rubella (MMR)	(once)
-- Hepatitis A	(2 doses)
+- Hepatitis A	(2 doses) ✅
 - Hepatitis B	(3 doses)
 - HPV (Gardasil 9)	(3 doses)
-- Typhoid (Typhim VI) (every 3 years, next 2028-10-22)
+- Typhoid (Typhim VI) (every 3 years, next 2028-10-22) ✅
 - Influenza (Flu)	(every autumn)
-- COVID‑19	(3 doses)
+- COVID‑19	(3 doses) ✅
 - Tick‑borne encephalitis (TBE) (3 doses, then every 4 years)
 - Japanese Encephalitis	(3 doses, then every 10 years)
 - Meningococcal ACWY (every 5 years)
 - Meningococcal B (2 doses)
 - Varicella	(2 doses if no history of chickenpox)
-- Yellow Fever	(every 10 years, next 2029-08-21)
+- Yellow Fever	(every 10 years, next 2029-08-21) ✅
 - Rabies (3 doses)
 - Shingles (Herpes Zoster, Shingrix) (2 doses when 50+ years old)
 - Pneumococcal (PCV20 (Prevnar 20)) (1 doses when 65+ years old)
