@@ -363,7 +363,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Hepatitis A	(2 doses)
 - Hepatitis B	(3 doses)
 - HPV (Gardasil 9)	(3 doses)
-- Typhoid (Typhim VI) (every 3 years)
+- Typhoid (Typhim VI) (every 3 years, next 2028-10-22)
 - Influenza (Flu)	(every autumn)
 - COVID‑19	(3 doses)
 - Tick‑borne encephalitis (TBE) (3 doses, then every 4 years)
