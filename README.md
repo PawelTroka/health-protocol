@@ -236,7 +236,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Dutasteride 0.5mg (e2d)](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) 💇‍♂️ 🍅
 - [Minoxidil 2.5mg](https://sons.co.uk/products/oral-capsule) 💇‍♂️ 🧔
 - [Sodium Butyrate 600mg](https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216) 🦠 🧠 🛡️ ⏰
-- [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
+- 3x [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
 - [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924)
 - [Spermidine 10mg](https://allegro.pl/oferta/spermidyna-10-mg-kapsulki-hpmc-120-sztuk-17703352905) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
 - [Garlic Extract 5000mcg](https://allegro.pl/oferta/now-foods-garlic-5000-czosnek-allicyna-odpornosc-13102120917) [[BJ-RYG 1200mg](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🛡️ 🩸 🍆
