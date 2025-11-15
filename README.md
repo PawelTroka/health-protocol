@@ -428,6 +428,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## TODOs / Things to consider
+- Add Catalase for Gray hair reversal
 - Consider Alpha-lipoic acid (ALA)
 - Add Tongkat Ali?
 - Add Isotretinoin microdosing (Acutane) ?
