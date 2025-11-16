@@ -173,10 +173,15 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Yohimbine HCL 5mg](https://pro-peptydy.pl/produkt/yohimbine-5mg-100-kapsulek)
 - 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-500mg-60-kapsulek-alfa-ketoklutaran-wapnia-hpmc-energia-vegan-17742452223) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
 - 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetyl-l-carnitine-750mg-90-tabletek-17721942775)
-- 3x [Catalase 6250 IU](https://www.amazon.pl/dp/B00LPJLZSG)
+- (empty)
 - 2x [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - [Lion's Mane 500mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133)
 - Luteolin 100mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🔥 🛡️ 🧠 ⏰
+- Anti-grey hair formula:
+- 3x [Catalase 6250 IU](https://www.amazon.pl/dp/B00LPJLZSG)
+- 2x [PABA 500mg](https://allegro.pl/oferta/now-foods-paba-500mg-witamina-b10-wlosy-skora-100k-11690065696)
+- [Fo-Ti 560mg](https://allegro.pl/oferta/now-foods-fo-ti-korzen-z-rdesta-wielokwiatowego-14035233596)
+- [2x MSM 1500mg](https://allegro.pl/oferta/swanson-msm-truflex-siarka-organiczna-1500mg-120t-14195517902)
 
 
 ### Lunch
