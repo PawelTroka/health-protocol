@@ -275,10 +275,12 @@ There are actual studies that confirm if you look younger and better you are mor
 - [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
 - SNAP-8 peptide 👨‍🦳 ⏰
 - GHK-Cu peptide 👨‍🦳 ⏰
-- Botox (2-3 times a year) and Sculptra (2-3 times a year)
+- Botox (mid February, mid June, mid October)
+- Sculptra (2025-12-01, 2026-02-01, 2026-06-01, then every year) at [Wilenska Clinic](https://booksy.com/en-pl/239386_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
+- Radiesse (2026-04-01, then every year) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
 - Microneedling
 - Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
-- [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask)
+- [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week)
 
 ### Hair
 - Regular visits to [a good hairdresser](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a month) 💇‍♂️
