@@ -180,7 +180,6 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - 3x [Catalase 6250 IU](https://www.amazon.pl/dp/B00LPJLZSG)
 - 2x [PABA 500mg](https://allegro.pl/oferta/now-foods-paba-500mg-witamina-b10-wlosy-skora-100k-11690065696)
 - [Fo-Ti 560mg](https://allegro.pl/oferta/now-foods-fo-ti-korzen-z-rdesta-wielokwiatowego-14035233596)
-- [2x MSM 1500mg](https://allegro.pl/oferta/swanson-msm-truflex-siarka-organiczna-1500mg-120t-14195517902)
 
 
 ### Lunch
@@ -219,7 +218,8 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [L-Lysine HCL 900mg + EAA+](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
 - [Creatine monohydrate 5g](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) 💪 🛡️ 🦠
-- 2x [Electrolyte tab](https://allegro.pl/oferta/ostrovit-elektrolity-90-tabs-bez-cukru-potas-wapn-magnez-sod-energia-chlor-12567357931)
+- [2x MSM 1500mg](https://allegro.pl/oferta/swanson-msm-truflex-siarka-organiczna-1500mg-120t-14195517902)
+- ~2x [Electrolyte tab](https://allegro.pl/oferta/ostrovit-elektrolity-90-tabs-bez-cukru-potas-wapn-magnez-sod-energia-chlor-12567357931)~
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>3</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - 2x [Inositol 1000mg](https://allegro.pl/oferta/inozytol-1000-mg-life-extension-nerwy-stres-mozg-pamiec-360-kapsulek-15116117174)
 - [Phosphatidylserine 250mg](https://allegro.pl/oferta/7nutrition-phosphatidylserine-seryna-250mg-100kaps-funkcjonowanie-mozgu-12752317268)
