@@ -452,5 +452,6 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## Removed / unhealthy supplements
+- Resveratrol **blunts benefits of exercise and estrogenic effects**
 - [Inulin 5g](https://allegro.pl/oferta/inulina-1kg-z-cykorii-naturalny-blonnik-prebiotyk-jakosc-premium-keto-13292783365) 🦠 🚽 🩸 **likely harmful due to IBS**
 - Galactooligosaccharides 2.5g TBD 🦠 🚽 🛡️ **potentially harmful due to IBS**
