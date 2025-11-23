@@ -248,6 +248,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - Red Yeast Extract 500mg TBD [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🫀
 - Proferrin 20mg TBD 🩸 💪 🧠
 - Metformin 500mg TBD 🩸 ⏰ 🧠
+- 2x [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475) 🚽 🦠 🩸
 
 
 ## 5. Looksmaxxing
