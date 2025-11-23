@@ -277,7 +277,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Botox (mid February, mid June, mid October)
 - Sculptra (2025-12-01, 2026-02-01, 2026-06-01, then every year) at [Wilenska Clinic](https://booksy.com/en-pl/239386_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
 - Radiesse (2026-04-01, then every year) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
-- Microneedling (4 times per year)
+- Microneedling (mid January, mid March, mid May, mid September, mid November) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
 - Under Eye PRF (TBD)
 - Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
 - [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week)
