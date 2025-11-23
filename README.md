@@ -378,7 +378,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Japanese Encephalitis	(3 doses, then every 10 years)
 - Meningococcal ACWY (every 5 years)
 - Meningococcal B (2 doses)
-- Varicella	(2 doses if no history of chickenpox)
+- Varicella	(2 doses if no history of chickenpox) ✅
 - Yellow Fever	(every 10 years, next 2029-08-21) ✅
 - Rabies (3 doses)
 - Shingles (Herpes Zoster, Shingrix) (2 doses when 50+ years old)
