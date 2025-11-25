@@ -297,6 +297,14 @@ There are actual studies that confirm if you look younger and better you are mor
 - Application of [Herbal nutricosmetics](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) (Few times a week) 💇‍♂️
 - Use of [hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) / [dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) / [dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) to increase absorption
 - [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304)
+- Application of [castor oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) (weekly)
+
+### Eyebrows
+- Styling (every month) at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk)
+- Microblading (5th of January every year) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
+- Daily application of minoxidil 5% 🧔
+- Daily application of [castor oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-100-naturalny-na-rzesy-brwi-wlosy-100ml-7686264382)
+- Light use of [dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194)
 
 ### Beard
 - Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a week) 🧔
