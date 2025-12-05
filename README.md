@@ -276,8 +276,8 @@ There are actual studies that confirm if you look younger and better you are mor
 - SNAP-8 peptide 👨‍🦳 ⏰
 - GHK-Cu peptide 👨‍🦳 ⏰
 - Botox (Glabella, Forehead, Crow's feet) (mid February, mid June, mid October)
-- Sculptra (2025-12-01, 2026-02-01, 2026-06-01, then every year) at [Wilenska Clinic](https://booksy.com/en-pl/239386_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
-- Radiesse (2026-04-01, then every year) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
+- Sculptra (2026-02-01, 2026-04-01, then every year) at [Wilenska Clinic](https://booksy.com/en-pl/239386_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
+- Radiesse (yearly, 1st of December) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
 - Microneedling (mid January, mid March, mid May, mid September, mid November) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
 - Under Eye PRF (TBD)
 - Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
@@ -297,7 +297,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Application of [Herbal nutricosmetics](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) (Few times a week) 💇‍♂️
 - Use of [hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) / [dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) / [dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) to increase absorption
 - [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304)
-- Application of [castor oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) (weekly)
+- Application of [castor oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) (Weekly)
 - Exosomes at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (Once a year)
 - PRP at TBD (Twice a year)
 
