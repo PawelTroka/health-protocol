@@ -280,6 +280,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Radiesse (yearly, 1st of December) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
 - Microneedling (mid January, mid March, mid May, mid September, mid November) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
 - Under Eye PRF (TBD)
+- (Optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
 - Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
 - [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week)
 
