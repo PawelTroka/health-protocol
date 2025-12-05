@@ -275,7 +275,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
 - SNAP-8 peptide 👨‍🦳 ⏰
 - GHK-Cu peptide 👨‍🦳 ⏰
-- Botox (Glabella, Forehead, Crow's feet, maybe Levator labii / alar base) (mid February, mid June, mid October)
+- Botox (Glabella, Forehead, Crow's feet) (mid February, mid June, mid October)
 - Sculptra (2025-12-01, 2026-02-01, 2026-06-01, then every year) at [Wilenska Clinic](https://booksy.com/en-pl/239386_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
 - Radiesse (2026-04-01, then every year) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
 - Microneedling (mid January, mid March, mid May, mid September, mid November) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
