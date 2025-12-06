@@ -318,6 +318,12 @@ There are actual studies that confirm if you look younger and better you are mor
 - Daily application of minoxidil 5% 🧔
 - Daily use of beard oil 🧔 💧
 
+### ABS
+- Aqualyx 4 vials (monthly for 4 months) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
+- EmSculpt Neo (4-6 sessions, once per week)
+- (Optional) VASER High-Definition Lipo
+
+
 ## 6. Cookware
 My kitchen is equipped only with materials that prioritize health and safety. I avoid microplastics and synthetic materials in favor of biologically neutral, natural options including:
 - Stainless steel
