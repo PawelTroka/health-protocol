@@ -276,7 +276,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - SNAP-8 peptide 👨‍🦳 ⏰
 - GHK-Cu peptide 👨‍🦳 ⏰
 - Botox (Glabella, Forehead, Crow's feet) (mid February, mid June, mid October)
-- Sculptra (2026-02-01, 2026-04-01, then every year) at [Wilenska Clinic](https://booksy.com/en-pl/239386_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
+- Sculptra (2026-02-01, 2026-04-01, then every year) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
 - Radiesse (yearly, 1st of December) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
 - Microneedling (mid January, mid March, mid May, mid September, mid November) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
 - Under Eye PRF (7th January, 7th March, 7th May, then twice yearly - 7th of March and 7th of September) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk)
