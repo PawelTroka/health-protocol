@@ -457,6 +457,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## TODOs / Things to consider
+- Consider [Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/) for improving body composition
+- Add PP405 for hair density when available
+- Consider myostatin / activin A inhibitors like Apitegromab or Bimagrumab or Trevogrumab or Garetosmab when available
 - Add Catalase for Gray hair reversal
 - Consider Alpha-lipoic acid (ALA)
 - Add Tongkat Ali?
