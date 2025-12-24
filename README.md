@@ -163,7 +163,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Nicotinamide Riboside 240mg](https://allegro.pl/oferta/rybozyd-nikotynamidu-niagen-witamina-b3-energia-koncentracja-gymbeam-60kaps-12375394736)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
-- [Bifidobacterium infantis 35624 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671) 🦠 🚽 🛡️
+- [Lion's Mane 500mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133)
 - [Hyaluronic Acid 200mg](https://allegro.pl/oferta/solherbs-kwas-hialuronowy-200-mg-60-vege-kaps-13075631403)<sup>4</sup> [[BJ-LM 120mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 👨‍🦳 🦴 💇‍♂️
 - [Boron 6mg](https://allegro.pl/oferta/bor-6-mg-120-kaps-boroglicynian-chelat-kosci-testosteron-libido-mozg-balans-17582349255) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🍆 🦴 🧠
 - [Rhodiola Rosea 600mg](https://allegro.pl/oferta/r2g-rhodiola-600mg-rozeniec-gorski-stres-120-dni-120-kaps-11311651115) 🧠 😌 ⚡ 🍆
@@ -172,9 +172,9 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Yohimbine HCL 5mg](https://pro-peptydy.pl/produkt/yohimbine-5mg-100-kapsulek)
 - 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-500mg-60-kapsulek-alfa-ketoklutaran-wapnia-hpmc-energia-vegan-17742452223) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
 - 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetyl-l-carnitine-750mg-90-tabletek-17721942775)
-- [Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450) 🦠 🚽 🛡️
+- [Bifidobacterium infantis 35624 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671) 🦠 🚽 🛡️
 - 2x [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
-- [Lion's Mane 500mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133)
+- [Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450) 🦠 🚽 🛡️
 - Luteolin 100mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🔥 🛡️ 🧠 ⏰
 - Anti-grey hair formula:
 - 3x [Catalase 6250 IU](https://www.amazon.pl/dp/B00LPJLZSG)
