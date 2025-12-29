@@ -453,7 +453,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 3. NAC dose for Bryan Johnson is in total 3g as he takes it additionally from [another supplement](https://www.lifeextension.com/vitamins-supplements/item01534/n-acetyl-l-cysteine) but his situation is specific based on his biomarkers so we are opting for a much safer dose of 1.2g total which could be considered to be increased to 2.4g
 4. In total we are consuming 270mg of Hyaluronic Acid which is on the higher side but should still be safe and may provide additional benefits of Bryan's Johnson 120mg dose
 5. In total we are consuming 1500mg of Glucosamine Sulfate which is much higher than Bryan's Johnson 750mg dose, however this is because a higher dose is actually recommended for more intense gym and sport workouts
-6. In total we are consuming 720mg of Nicotinamide Riboside which is similar to [Bryan's Johnson total 750mg dose](https://blueprint.bryanjohnson.com/pages/blueprint-protocol)
+6. In total we are consuming 900mg of Nicotinamide Riboside which is even more than [Bryan's Johnson total 750mg dose](https://blueprint.bryanjohnson.com/pages/blueprint-protocol)
 
 
 ## TODOs / Things to consider
