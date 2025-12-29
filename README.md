@@ -171,7 +171,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Biotin 2.5mg](https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586) (note: 50x rdd) 💇‍♂️ 👨‍🦳 💅
 - [Yohimbine HCL 5mg](https://pro-peptydy.pl/produkt/yohimbine-5mg-100-kapsulek)
 - 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-500mg-60-kapsulek-alfa-ketoklutaran-wapnia-hpmc-energia-vegan-17742452223) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
-- 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetyl-l-carnitine-750mg-90-tabletek-17721942775)
+- 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetylo-l-karnityna-750-mg-90-tabl-energia-metabolizm-sila-17924420336)
 - [Bifidobacterium infantis 35624 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671) 🦠 🚽 🛡️
 - 2x [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - [Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450) 🦠 🚽 🛡️
