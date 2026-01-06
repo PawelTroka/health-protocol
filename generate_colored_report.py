@@ -330,8 +330,8 @@ def generate_md_report():
     # Patient info removed
 
     for category, rows in data.items():
-        has_v2 = any(row[1] not in ["-", "—", None, ""] for row in rows)
-        has_v3 = any(row[2] not in ["-", "—", None, ""] for row in rows)
+        has_v2 = any(row[2] not in ["-", "—", None, ""] for row in rows)
+        has_v3 = any(row[3] not in ["-", "—", None, ""] for row in rows)
         
         md += f"## {category}\n\n"
         
