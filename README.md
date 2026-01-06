@@ -24,7 +24,8 @@
 
 ## 2. Testing
 
-### Bloodwork + urine testing (Every 6 months)
+### Laboratory Analysis (Biomarkers)
+**Frequency: Every 6 months**
 - [Extensive bloodwork](https://alabsport.pl/pakiety/wyczynowiec)
 - [Cancer markers](https://www.alab.pl/pakiet/pakiet-markery-nowotworowe-mezczyzna)
 - [STDs check](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)
@@ -33,23 +34,25 @@
 - [Female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania)
 - [Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69)
 
-### Heart
-- Echocardiogram (Heart Echo) (yearly)
-- Cardiac Stress Test (yearly)
+### Cardiovascular Health
+- Echocardiogram (Heart Echo) (Yearly)
+- Cardiac Stress Test (Yearly)
 
-### Imaging
-- Abdominal USG
-- Neck USG (Thyroid & Lymph nodes)
-- RTG (X-Ray) imaging
-- 3D CT Scans
-- Skin Cancer Check (Dermatoscopy)
-- Prostate Screening (PSA + Digital Rectal Exam)
-- Dental Checkup & Cleaning (every 2 months)
-- Vision Exam (every 2 years)
+### Diagnostic Imaging
+- Abdominal USG (Yearly)
+- Neck USG (Thyroid & Lymph nodes) (Yearly)
+- 3D CT Scans (Yearly)
+- RTG (X-Ray) imaging (As needed)
 
-### Digestive system
-- Colonoscopy with CO2 and polypectomy (every 5 years)
-- Gastroscopy (every 5 years)
+### Specialist Screenings
+- Skin Cancer Check (Dermatoscopy) (Yearly)
+- Prostate Screening (PSA + Digital Rectal Exam) (Yearly)
+- Dental Checkup & Cleaning (Every 2 months)
+- Vision Exam (Every 2 years)
+
+### Gastrointestinal Health
+- Colonoscopy with CO2 and polypectomy (Every 5 years)
+- Gastroscopy (Every 5 years)
 
 
 
