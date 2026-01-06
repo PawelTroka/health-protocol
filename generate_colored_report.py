@@ -389,7 +389,8 @@ data = {
 
 # Category-specific notes
 category_notes = {
-    "Hormonal Panel": "Progesterone is likely elevated due to daily intake of 0.5mg dutasteride. Prolactin elevation is likely due to high sexual activity prior to testing."
+    "Hormonal Panel": "Progesterone is likely elevated due to daily intake of 0.5mg dutasteride. Prolactin elevation is likely due to high sexual activity prior to testing.",
+    "Heavy Metals (Urine)": "Arsenic elevation is likely due to high consumption of salmon."
 }
 
 def generate_html_report():

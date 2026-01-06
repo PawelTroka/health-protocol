@@ -165,6 +165,8 @@
 | **Nickel** | - | 🔵 0.2 | µg/l | < 3.0 |
 | **Copper** | - | 🟢 3.15 | µg/l | 2.0 - 80.0 |
 
+> **Note:** Arsenic elevation is likely due to high consumption of salmon.
+
 ## Proteinogram
 
 |  | 2026-01 | Unit | *Reference* |
