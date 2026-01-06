@@ -62,6 +62,50 @@ def get_color_hex(score):
     
     return hex_color, emoji
 
+def get_direction(val_str, ref_range):
+    if val_str == "—" or val_str is None:
+        return None
+        
+    # Extract numeric value
+    val_clean = re.sub(r'[^\d.<>]', '', val_str.split('(')[0]) 
+    if not val_clean: return None
+    
+    try:
+        val = float(re.sub(r'[<> ]', '', val_clean))
+    except ValueError:
+        return None
+
+    # Parse Reference Range
+    
+    # 1. Range "A - B"
+    m_range = re.match(r'([\d.]+)\s*-\s*([\d.]+)', ref_range)
+    if m_range:
+        low = float(m_range.group(1))
+        high = float(m_range.group(2))
+        if val < low: return "↓"
+        if val > high: return "↑"
+        return ""
+
+    # 2. Limit "< A"
+    m_less = re.match(r'<\s*([\d.]+)', ref_range)
+    if m_less:
+        limit = float(m_less.group(1))
+        # If < Limit, it is Good (Inside).
+        # If > Limit, it is High (Outside).
+        if val > limit: return "↑"
+        return ""
+
+    # 3. Limit "> A"
+    m_more = re.match(r'>\s*([\d.]+)', ref_range)
+    if m_more:
+        limit = float(m_more.group(1))
+        # If > Limit, it is Good (Inside).
+        # If < Limit, it is Low (Outside).
+        if val < limit: return "↓"
+        return ""
+            
+    return ""
+
 def calculate_score(val_str, ref_range):
     if val_str == "—" or val_str is None:
         return None
@@ -120,15 +164,20 @@ def format_cell_html(val, ref):
     if score is None:
         return val
     color, _ = get_color_hex(score)
-    return f'<span style="color:{color}; font-weight:bold;">{val}</span>'
+    arrow = get_direction(val, ref)
+    # Add space if arrow exists
+    suffix = f" {arrow}" if arrow else ""
+    return f'<span style="color:{color}; font-weight:bold;">{val}{suffix}</span>'
 
 def format_cell_md(val, ref):
     score = calculate_score(val, ref)
     if score is None:
         return val
     _, emoji = get_color_hex(score)
+    arrow = get_direction(val, ref)
+    suffix = f" {arrow}" if arrow else ""
     # GitHub doesn't color text, so we use the emoji.
-    return f'{emoji} {val}'
+    return f'{emoji} {val}{suffix}'
 
 # Data
 data = {
