@@ -158,6 +158,57 @@ def format_cell_md(val, ref):
     suffix = f" {arrow}" if arrow else ""
     return f'{emoji} {val}{suffix}'
 
+def format_urinalysis_value(val_str, ref_range):
+    if val_str in ["-", "—", None, ""]:
+        return None
+    
+    # Qualitative / Textual Checks
+    text_val = val_str.lower().strip()
+    
+    # Good / Normal values
+    good_terms = ["nie wykryto", "w normie", "neg", "negative", "non-reactive", "ujemny", "przejrzysty", "jasnożółty", "słomkowy", "żółty"]
+    if any(term in text_val for term in good_terms):
+        return "#006400", "🟢" # Dark Green
+        
+    # Bad / Abnormal values
+    bad_terms = ["obecne", "liczne", "mętny", "krwisty"]
+    if any(term in text_val for term in bad_terms):
+        return "#dc3545", "🔴" # Red
+
+    # Numeric checks for specific gravity, ph etc.
+    try:
+        # Simple float parse
+        val = float(re.sub(r'[^\d.]', '', val_str.replace(',', '.')))
+        
+        # pH
+        if "5 - 8" in ref_range:
+            if 5.0 <= val <= 8.0: return "#006400", "🟢"
+            return "#ffa500", "🟠"
+            
+        # Specific Gravity
+        if "1.005 - 1.03" in ref_range:
+            if 1.005 <= val <= 1.030: return "#006400", "🟢"
+            return "#ffa500", "🟠"
+            
+    except:
+        pass
+
+    return "#000000", "" # Default black, no emoji
+
+def format_cell_html_urine(val, ref):
+    result = format_urinalysis_value(val, ref)
+    if result is None:
+        return val
+    color, _ = result
+    return f'<span style="color:{color}; font-weight:bold;">{val}</span>'
+
+def format_cell_md_urine(val, ref):
+    result = format_urinalysis_value(val, ref)
+    if result is None:
+        return val
+    _, emoji = result
+    return f'{emoji} {val}'
+
 # Data Reorganized
 # Using "-" for missing values as requested
 data = {
@@ -165,8 +216,58 @@ data = {
         ("Hemoglobin", "15.40", "16.0", "15.7", "g/dL", "13.0 - 18.0"),
         ("Hematocrit", "45.9", "46.6", "47.1", "%", "40 - 52"),
         ("Erythrocytes", "5.20", "5.37", "5.31", "10^6/µl", "4.5 - 6.5"),
+        ("MCV", "87.8", "-", "-", "fL", "80 - 98"),
+        ("MCH", "29.4", "-", "-", "pg", "27 - 32"),
+        ("MCHC", "33.6", "-", "-", "g/dL", "31 - 37"),
+        ("RDW-CV", "12.5", "-", "-", "%", "11.5 - 14.5"),
+        ("RDW-SD", "40.8", "-", "-", "fL", "35.1 - 43.9"),
         ("Leukocytes", "7.7", "5.5", "9.1", "10^3/µl", "4.0 - 11.0"),
-        ("Platelets", "265", "228", "305", "10^3/µl", "150 - 400")
+        ("Neutrophils", "2.3", "-", "-", "10^9/L", "1.9 - 7"),
+        ("Neutrophils %", "30.50", "-", "-", "%", "45 - 70"),
+        ("Lymphocytes", "3.9", "-", "-", "10^9/L", "1.5 - 4.5"),
+        ("Lymphocytes %", "50.3", "-", "-", "%", "25 - 45"),
+        ("Monocytes", "0.9", "-", "-", "10^9/L", "0.1 - 0.9"),
+        ("Monocytes %", "11.9", "-", "-", "%", "2 - 9"),
+        ("Eosinophils", "0.5", "-", "-", "10^9/L", "< 0.5"),
+        ("Eosinophils %", "6.5", "-", "-", "%", "0.00 - 5.00"),
+        ("Basophils", "0.1", "-", "-", "10^9/L", "0.00 - 0.10"),
+        ("Basophils %", "0.7", "-", "-", "%", "0.00 - 1.00"),
+        ("Immature Granulocytes", "0.0", "-", "-", "10^9/L", "< 0.04"),
+        ("Immature Granulocytes %", "0.1", "-", "-", "%", "0.0 - 0.5"),
+        ("Platelets", "265", "228", "305", "10^3/µl", "150 - 400"),
+        ("PCT", "0.30", "-", "-", "%", "0.12 - 0.36"),
+        ("PDW", "13.8", "-", "-", "fL", "9.8 - 16.1"),
+        ("MPV", "11.3", "-", "-", "fL", "7 - 12"),
+        ("P-LCR", "35.3", "-", "-", "%", "19.2 - 47")
+    ],
+    "Urinalysis (General)": [
+        ("Color", "jasnożółty", "-", "-", "", "-"),
+        ("Transparency", "przejrzysty", "-", "-", "", "przejrzysty"),
+        ("Specific Gravity", "1.015", "-", "-", "g/ml", "1.005 - 1.03"),
+        ("pH", "5.5", "-", "-", "", "5 - 8"),
+        ("Protein", "nie wykryto", "-", "-", "mg/dL", "nie wykryto"),
+        ("Glucose", "nie wykryto", "-", "-", "mg/dL", "nie wykryto"),
+        ("Bilirubin", "nie wykryto", "-", "-", "", "nie wykryto"),
+        ("Urobilinogen", "w normie", "-", "-", "mg/dL", "w normie"),
+        ("Ketones", "nie wykryto", "-", "-", "mg/dL", "nie wykryto"),
+        ("Nitrites", "nie wykryto", "-", "-", "", "nie wykryto"),
+        ("Leukocytes (Strip)", "nie wykryto", "-", "-", "leu/uL", "nie wykryto"),
+        ("Erythrocytes (Strip)", "nie wykryto", "-", "-", "ery/uL", "nie wykryto")
+    ],
+    "Urinalysis (Sediment)": [
+        ("Squamous Epithelium", "< 30.0", "-", "-", "/uL", "< 30.0"),
+        ("Transitional Epithelium", "< 6.0", "-", "-", "/uL", "< 6.0"),
+        ("Renal Epithelium", "< 1.0", "-", "-", "/uL", "< 1.0"),
+        ("Leukocytes", "< 20.0", "-", "-", "/uL", "< 20.0"),
+        ("Leukocyte Aggregates", "nieobecne", "-", "-", "", "nieobecne"),
+        ("Erythrocytes", "< 20.0", "-", "-", "/uL", "< 20.0"),
+        ("Hyaline Casts", "< 2.0", "-", "-", "/uL", "< 2.0"),
+        ("Pathological Casts", "nieobecne", "-", "-", "", "nieobecne"),
+        ("Crystals", "nieobecne", "-", "-", "", "nieobecne"),
+        ("Bacteria", "< 30.0", "-", "-", "/uL", "< 30.0"),
+        ("Yeast", "< 30.0", "-", "-", "/uL", "< 30.0"),
+        ("Sperm", "< 10.0", "-", "-", "/uL", "< 10.0"),
+        ("Mucus", "< 10.0", "-", "-", "/uL", "< 10.0")
     ],
     "Metabolic Health": [
         ("Glucose", "84", "89", "70", "mg/dl", "70 - 99"),
@@ -297,9 +398,16 @@ def generate_html_report():
         
         for row in rows:
             name, v1, v2, v3, unit, ref = row
-            c1 = format_cell_html(v1, ref)
-            c2 = format_cell_html(v2, ref) if has_v2 else ""
-            c3 = format_cell_html(v3, ref) if has_v3 else ""
+            
+            # Use specific formatter for Urinalysis
+            if "Urinalysis" in category:
+                c1 = format_cell_html_urine(v1, ref)
+                c2 = format_cell_html_urine(v2, ref) if has_v2 else ""
+                c3 = format_cell_html_urine(v3, ref) if has_v3 else ""
+            else:
+                c1 = format_cell_html(v1, ref)
+                c2 = format_cell_html(v2, ref) if has_v2 else ""
+                c3 = format_cell_html(v3, ref) if has_v3 else ""
             
             html += f"<tr><td><b>{name}</b></td><td>{c1}</td>"
             if has_v2: html += f"<td>{c2}</td>"
@@ -351,9 +459,16 @@ def generate_md_report():
         
         for row in rows:
             name, v1, v2, v3, unit, ref = row
-            c1 = format_cell_md(v1, ref)
-            c2 = format_cell_md(v2, ref) if has_v2 else ""
-            c3 = format_cell_md(v3, ref) if has_v3 else ""
+            
+            # Use specific formatter for Urinalysis
+            if "Urinalysis" in category:
+                c1 = format_cell_md_urine(v1, ref)
+                c2 = format_cell_md_urine(v2, ref) if has_v2 else ""
+                c3 = format_cell_md_urine(v3, ref) if has_v3 else ""
+            else:
+                c1 = format_cell_md(v1, ref)
+                c2 = format_cell_md(v2, ref) if has_v2 else ""
+                c3 = format_cell_md(v3, ref) if has_v3 else ""
             
             line = f"| **{name}** | {c1} |"
             if has_v2: line += f" {c2} |"
