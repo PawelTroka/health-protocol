@@ -389,7 +389,7 @@ data = {
 
 # Category-specific notes
 category_notes = {
-    "Hormonal Panel": "Note: Progesterone is likely elevated due to daily intake of 0.5mg dutasteride."
+    "Hormonal Panel": "Progesterone is likely elevated due to daily intake of 0.5mg dutasteride. Prolactin elevation is likely due to high sexual activity prior to testing."
 }
 
 def generate_html_report():
