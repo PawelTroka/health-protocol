@@ -378,12 +378,18 @@ data = {
     ]
 }
 
+# Category-specific notes
+category_notes = {
+    "Hormonal Panel": "Note: Progesterone is likely elevated due to daily intake of 0.5mg dutasteride."
+}
+
 def generate_html_report():
     html = "<html><head><style>"
     html += "body { font-family: sans-serif; padding: 20px; }"
-    html += "table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }"
+    html += "table { border-collapse: collapse; width: 100%; margin-bottom: 10px; }"
     html += "th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }"
     html += "th { background-color: #f2f2f2; }"
+    html += ".note { font-size: 0.9em; color: #555; margin-bottom: 20px; font-style: italic; }"
     html += "</style></head><body>"
     html += "<h1>Health Protocol: Lab Results Comparison</h1>"
     # Patient info removed
@@ -417,11 +423,13 @@ def generate_html_report():
             if has_v3: html += f"<td>{c3}</td>"
             html += f"<td>{unit}</td><td>{ref}</td></tr>"
         html += "</table>"
+        
+        if category in category_notes:
+            html += f"<p class='note'>{category_notes[category]}</p>"
     
     # Legend
     html += "<h3>🎨 Color Legend</h3><ul>"
-    html += "<li><span style='color:#00008b; font-weight:bold;'>● Dark Blue</span>: Optimal</li>"
-    html += "<li><span style='color:#00bfff; font-weight:bold;'>● Light Blue</span>: Good</li>"
+    html += "<li><span style='color:#00008b; font-weight:bold;'>● Dark Blue</span>: Optimal / Good</li>"
     html += "<li><span style='color:#006400; font-weight:bold;'>● Dark Green</span>: Safe</li>"
     html += "<li><span style='color:#32cd32; font-weight:bold;'>● Light Green</span>: Normal</li>"
     html += "<li><span style='color:#ffd700; font-weight:bold;'>● Yellow</span>: Caution</li>"
@@ -478,6 +486,10 @@ def generate_md_report():
             if has_v3: line += f" {c3} |"
             line += f" {unit} | {ref} |"
             md += line + "\n"
+        
+        if category in category_notes:
+            md += f"\n> **Note:** {category_notes[category]}\n"
+            
         md += "\n"
 
     # Legend

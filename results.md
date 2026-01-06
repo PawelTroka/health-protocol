@@ -197,6 +197,8 @@
 | **IGF-1** | 🔵 229 | 🔵 201 | - | ng/ml | 61 - 271 |
 | **HCG-Beta** | 🔵 < 0.200 | - | - | mIU/mL | < 2.60 |
 
+> **Note:** Note: Progesterone is likely elevated due to daily intake of 0.5mg dutasteride.
+
 ### 🎨 Color Legend
 *   🔵 **Blue**: Optimal / Good
 *   🟢 **Green**: Safe / Normal
