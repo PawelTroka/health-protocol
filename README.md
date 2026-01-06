@@ -14,7 +14,6 @@
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ## 1. Promote good behaviors
-- [Extensive bloodwork](https://alabsport.pl/pakiety/wyczynowiec) + [cancer markers](https://www.alab.pl/pakiet/pakiet-markery-nowotworowe-mezczyzna) + [STDs check](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony) + [heavy metals test](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony) + [free testosterone](https://www.alab.pl/badanie/testosteron-wolny-o41) + [female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania) + [Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69) (2 times a year)
 - Sauna (3 times a week)
 - Red Light Therapy
 - Cold exposure	(4 times a week)
@@ -23,7 +22,33 @@
 - Stretching (6 times a week)
 - Sleep tracking (daily)
 
-## 2. Exercise
+## 2. Testing
+
+### Bi-annual (Every 6 months)
+- [Extensive bloodwork](https://alabsport.pl/pakiety/wyczynowiec)
+- [Cancer markers](https://www.alab.pl/pakiet/pakiet-markery-nowotworowe-mezczyzna)
+- [STDs check](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)
+- [Heavy metals test](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)
+- [Free testosterone](https://www.alab.pl/badanie/testosteron-wolny-o41)
+- [Female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania)
+- [Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69)
+
+### Annual (Every 12 months)
+- Abdominal USG
+- Neck USG (Thyroid & Lymph nodes)
+- Echocardiogram (Heart Echo)
+- 3D CT Scans
+- Skin Cancer Check (Dermatoscopy)
+- Prostate Screening (PSA + Digital Rectal Exam)
+- Dental Checkup & Cleaning (or every 6 months)
+- Vision Exam
+
+### Periodical / As Needed
+- Colonoscopy with CO2 and polypectomy + Gastroscopy (Every 5-10 years)
+- Workout Trial / Cardiac Stress Test
+- RTG (X-Ray) imaging
+
+## 3. Exercise
 
 ### Gym Workouts (7 times a week, Push/Pull/Legs + Active Recovery + Core on every workout)
 
@@ -89,7 +114,7 @@
 ### Outdoor Activity
 - Running (1 hour once a week near the sea) 🫁 ❤️ 🧠 😌
 
-## 3. Diet
+## 4. Diet
 *2230kcal / 200g proteins / 128g fats / 108g carbs*
 
 ### Pre-breakfast (9am)
@@ -150,7 +175,7 @@
 - Cocoa flavanols ❤️ 🧠 🛡️
 - Macadamia nut milk ❤️ 🧠 ⏰
 
-## 4. Supplements and drugs
+## 5. Supplements and drugs
 Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
 ### Morning (fasted)
 
@@ -251,7 +276,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - 2x [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475) 🚽 🦠 🩸
 
 
-## 5. Looksmaxxing
+## 6. Looksmaxxing
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
 
 ### Oral health / teethmaxxing
@@ -324,7 +349,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - (Optional) VASER High-Definition Lipo
 
 
-## 6. Cookware
+## 7. Cookware
 My kitchen is equipped only with materials that prioritize health and safety. I avoid microplastics and synthetic materials in favor of biologically neutral, natural options including:
 - Stainless steel
 - Natural untreated wood
@@ -371,7 +396,7 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 - Recommended: [Galicja Practico Kitchen Tool Set](https://allegro.pl/oferta/przybory-kuchenne-zestaw-6szt-chochla-lopatka-stal-12303435531) + [slotted spoon skimmer](https://allegro.pl/oferta/lyzka-cedzakowa-szumowka-sitko-cedzak-duze-oczka-13033458435)
   *Complete set of durable, sanitary cooking implements*
 
-## 7. Environment
+## 8. Environment
 Even if you do everything right you can be exposed to harmful environment, so it is crucial to do everything to have a healthy environment.
 
 ### Clean water
@@ -384,7 +409,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Use extremely strong air purifier at home (especially bedroom) with 600+ CADR, at least 3 filtration stages, ionization and humidifier like [Electrolux PURE 900 600 m3/h](https://www.electroluxgroup.com/en/meet-our-most-sustainable-air-purifier-43766/)
 
 
-## 6. Vaccines
+## 9. Vaccines
 - Tuberculosis (BCG)	(given in childhood) ✅
 - Haemophilus influenzae type b (Hib) (given in childhood) ✅
 - Diphtheria‑Pertussis-Tetanus-Polio (dTpa-IPV) (every 10 years, next 2029-08-21) ✅
