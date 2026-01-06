@@ -4,57 +4,57 @@ def lerp(a, b, t):
     return int(a + (b - a) * t)
 
 def get_color_hex(score):
-    # Score 0.0 = Blue (Optimal / Center)
-    # Score 0.5 = Teal
-    # Score 1.0 = Light Green (Limit of Normal)
-    # Score 1.5 = Orange (Abnormal)
-    # Score 2.0 = Red (Critical) 
+    # Palette Definition (Score -> Color)
+    # 0.0: Optimal (Center)
+    # 1.0: Limit of Normal
+    # >1.0: Abnormal
     
-    c_blue = (0, 123, 255)
-    c_teal = (32, 201, 151)
-    c_green = (40, 167, 69) # We skip pure green if 1.0 is the limit
-    # User requested: 
-    # 6, 8 (near 7) -> very green almost blue
-    # 5, 9 (near edges) -> lighter green
-    # edges -> lightest green
-    # outside -> orange -> red
+    # Stops:
+    # 0.00: Dark Blue
+    # 0.25: Light Blue
+    # 0.50: Teal / Green
+    # 0.75: Yellow
+    # 1.00: Light Orange (Limit)
+    # 1.25: Dark Orange
+    # 1.50: Light Red
+    # 2.00: Dark Red
     
-    # Adjusted Palette based on user description:
-    # 0.0 (Target) -> Blue
-    # 0.5 (Safe) -> Teal/Greenish
-    # 1.0 (Limit) -> Light Green
-    # 1.5 (Off) -> Orange
-    # 2.0 (Bad) -> Red
-    
-    c_optimum = (0, 123, 255)       # Blue
-    c_mid = (0, 200, 83)            # Green/Teal
-    c_limit = (180, 220, 100)       # Light Green (Yellow-Green)
-    c_warn = (253, 126, 20)         # Orange
-    c_bad = (220, 53, 69)           # Red
+    stops = [
+        (0.00, (0, 0, 139)),      # Dark Blue
+        (0.25, (0, 191, 255)),    # Deep Sky Blue (Light Blue)
+        (0.50, (32, 201, 151)),   # Teal
+        (0.75, (255, 215, 0)),    # Gold / Yellow
+        (1.00, (255, 165, 0)),    # Orange (Light Orange)
+        (1.25, (255, 69, 0)),     # Orange Red (Dark Orange)
+        (1.50, (220, 53, 69)),    # Red (Light Red / Standard Red)
+        (2.00, (139, 0, 0))       # Dark Red
+    ]
 
     if score < 0: score = 0
     
-    if score <= 0.5:
-        t = score / 0.5
-        r = lerp(c_optimum[0], c_mid[0], t)
-        g = lerp(c_optimum[1], c_mid[1], t)
-        b = lerp(c_optimum[2], c_mid[2], t)
-    elif score <= 1.0:
-        t = (score - 0.5) / 0.5
-        r = lerp(c_mid[0], c_limit[0], t)
-        g = lerp(c_mid[1], c_limit[1], t)
-        b = lerp(c_mid[2], c_limit[2], t)
-    elif score <= 1.5:
-        t = (score - 1.0) / 0.5
-        r = lerp(c_limit[0], c_warn[0], t)
-        g = lerp(c_limit[1], c_warn[1], t)
-        b = lerp(c_limit[2], c_warn[2], t)
+    # Find the two stops we are between
+    lower = stops[0]
+    upper = stops[-1]
+    
+    for s in stops:
+        if s[0] <= score:
+            lower = s
+        if s[0] >= score:
+            upper = s
+            break
+            
+    if lower == upper:
+        r, g, b = lower[1]
     else:
-        t = min((score - 1.5) / 0.5, 1.0)
-        r = lerp(c_warn[0], c_bad[0], t)
-        g = lerp(c_warn[1], c_bad[1], t)
-        b = lerp(c_warn[2], c_bad[2], t)
+        # Interpolate
+        t = (score - lower[0]) / (upper[0] - lower[0])
+        c1 = lower[1]
+        c2 = upper[1]
         
+        r = lerp(c1[0], c2[0], t)
+        g = lerp(c1[1], c2[1], t)
+        b = lerp(c1[2], c2[2], t)
+
     return f"#{r:02x}{g:02x}{b:02x}"
 
 def calculate_score(val_str, ref_range):
@@ -62,12 +62,8 @@ def calculate_score(val_str, ref_range):
         return None
         
     # Extract numeric value
-    # Handle "< 0.200" or "221.00 (Immune)"
-    val_clean = re.sub(r'[^\d.<>]', '', val_str.split('(')[0]) # Remove parens and notes
+    val_clean = re.sub(r'[^\d.<>]', '', val_str.split('(')[0]) 
     if not val_clean: return None
-    
-    is_less_than = '<' in val_clean
-    is_more_than = '>' in val_clean
     
     try:
         val = float(re.sub(r'[<> ]', '', val_clean))
@@ -75,48 +71,52 @@ def calculate_score(val_str, ref_range):
         return None
 
     # Parse Reference Range
-    
-    # 1. Range "A - B"
     m_range = re.match(r'([\d.]+)\s*-\s*([\d.]+)', ref_range)
     if m_range:
         low = float(m_range.group(1))
         high = float(m_range.group(2))
         
-        # If val has < or >, handle carefully. 
-        # < 7.00 in range 4.04-15.20 is weird, but usually < means low.
-        
         target = (low + high) / 2.0
         half_width = (high - low) / 2.0
         
+        if half_width == 0: return 0 # Avoid div by zero
+        
         dist = abs(val - target)
-        score = dist / half_width # 0 at target, 1 at edge
+        score = dist / half_width 
         return score
 
-    # 2. Limit "< A"
+    # Limit "< A"
     m_less = re.match(r'<\s*([\d.]+)', ref_range)
     if m_less:
         limit = float(m_less.group(1))
-        # Optimum is 0
         if val <= limit:
-            return val / limit # 0 is 0 (Blue), limit is 1 (Light Green)
+            # 0 to limit maps to 0.0 to 1.0 (Blue to Orange)
+            # But usually < X means 0 is good. 
+            # Let's say 0 is Optimal (0.0), Limit is 1.0.
+            return (val / limit) * 1.0 
         else:
+            # Above limit
             return 1.0 + (val - limit) / limit
 
-    # 3. Limit "> A"
+    # Limit "> A"
     m_more = re.match(r'>\s*([\d.]+)', ref_range)
     if m_more:
         limit = float(m_more.group(1))
-        # Optimum is > limit. Let's say limit*1.5 is optimum (Blue)
-        optimum = limit * 1.5
+        # > 60. Optimal is higher.
+        # Let's arbitrarily say limit*2 is "perfect" (0.0)
+        # and limit is 1.0.
+        optimum = limit * 2.0
+        
         if val >= limit:
             if val >= optimum: return 0.0
             # Map limit..optimum to 1.0..0.0
             return 1.0 - ((val - limit) / (optimum - limit))
         else:
-            # Bad
+            # Below limit (Bad)
+            # 1.0 + distance relative to limit
             return 1.0 + ((limit - val) / limit)
             
-    return 0.5 # Default middle color if range not parsed
+    return 0.5 
 
 def format_cell(val, ref):
     score = calculate_score(val, ref)
@@ -124,8 +124,8 @@ def format_cell(val, ref):
         return val
     
     color = get_color_hex(score)
-    # Make text bold
-    return f'<span style="color:{color}; font-weight:bold;">{val}</span>'
+    # Using font tag for better compatibility if spans fail
+    return f'<font color="{color}"><b>{val}</b></font>'
 
 # Data
 data = {
@@ -239,11 +239,14 @@ data = {
 md = "# Health Protocol: Lab Results Comparison\n\n"
 md += "**Patient:** Paweł Troka  \n**DOB:** 14-02-1991\n\n"
 md += "### 🎨 Color Legend\n"
-md += "*   <span style=\"color:#007BFF; font-weight:bold;\">● Blue</span>: Optimal / Center of Range\n"
-md += "*   <span style=\"color:#20C997; font-weight:bold;\">● Teal</span>: Good / Safe Zone\n"
-md += "*   <span style=\"color:#B4DC64; font-weight:bold;\">● Light Green</span>: Borderline Optimal\n"
-md += "*   <span style=\"color:#FD7E14; font-weight:bold;\">● Orange</span>: Borderline / Slight Deviation\n"
-md += "*   <span style=\"color:#DC3545; font-weight:bold;\">● Red</span>: Abnormal / High Deviation\n\n"
+md += "*   <font color=\"#00008b\"><b>● Dark Blue</b></font>: Optimal / Perfect Center\n"
+md += "*   <font color=\"#00bfff\"><b>● Light Blue</b></font>: Good / Near Center\n"
+md += "*   <font color=\"#20c997\"><b>● Teal</b></font>: Safe Zone\n"
+md += "*   <font color=\"#ffd700\"><b>● Yellow</b></font>: Approaching Limit\n"
+md += "*   <font color=\"#ffa500\"><b>● Light Orange</b></font>: At Limit / Borderline\n"
+md += "*   <font color=\"#ff4500\"><b>● Dark Orange</b></font>: Slight Deviation\n"
+md += "*   <font color=\"#dc3545\"><b>● Light Red</b></font>: Abnormal\n"
+md += "*   <font color=\"#8b0000\"><b>● Dark Red</b></font>: Critical / High Deviation\n\n"
 
 for category, rows in data.items():
     md += f"## {category}\n\n"

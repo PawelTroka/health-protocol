@@ -4,134 +4,137 @@
 **DOB:** 14-02-1991
 
 ### 🎨 Color Legend
-*   <span style="color:#007BFF; font-weight:bold;">● Blue</span>: Optimal / Center of Range
-*   <span style="color:#20C997; font-weight:bold;">● Teal</span>: Good / Safe Zone
-*   <span style="color:#B4DC64; font-weight:bold;">● Light Green</span>: Borderline Optimal
-*   <span style="color:#FD7E14; font-weight:bold;">● Orange</span>: Borderline / Slight Deviation
-*   <span style="color:#DC3545; font-weight:bold;">● Red</span>: Abnormal / High Deviation
+*   <font color="#00008b"><b>● Dark Blue</b></font>: Optimal / Perfect Center
+*   <font color="#00bfff"><b>● Light Blue</b></font>: Good / Near Center
+*   <font color="#20c997"><b>● Teal</b></font>: Safe Zone
+*   <font color="#ffd700"><b>● Yellow</b></font>: Approaching Limit
+*   <font color="#ffa500"><b>● Light Orange</b></font>: At Limit / Borderline
+*   <font color="#ff4500"><b>● Dark Orange</b></font>: Slight Deviation
+*   <font color="#dc3545"><b>● Light Red</b></font>: Abnormal
+*   <font color="#8b0000"><b>● Dark Red</b></font>: Critical / High Deviation
 
 ## Hormonal Panel
 
 | Test Name | 2026-01 | 2025-05 | 2025-01 | Unit | Reference Range |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Prolactin** | <span style="color:#dc3545; font-weight:bold;">24.00</span> | <span style="color:#007bfd; font-weight:bold;">9.64</span> | <span style="color:#dc3545; font-weight:bold;">22.70</span> | ng/mL | 4.04 - 15.20 |
-| **LH** | <span style="color:#f78419; font-weight:bold;">10.20</span> | <span style="color:#0099ba; font-weight:bold;">4.46</span> | — | mIU/mL | 1.70 - 8.60 |
-| **Progesterone** | <span style="color:#dc3545; font-weight:bold;">1.390</span> | <span style="color:#dc3545; font-weight:bold;">1.370</span> | — | nmol/l | < 0.474 |
-| **Testosterone (Free)** | — | <span style="color:#008ed2; font-weight:bold;">19.17</span> | — | pg/ml | 9.10 - 32.20 |
-| **Testosterone (Total)** | — | <span style="color:#a5da62; font-weight:bold;">28.60</span> | <span style="color:#a9da62; font-weight:bold;">28.70</span> | nmol/l | 8.64 - 29.00 |
-| **Estradiol (E2)** | <span style="color:#46cf59; font-weight:bold;">141</span> | <span style="color:#fb7f15; font-weight:bold;">188</span> | <span style="color:#dea535; font-weight:bold;">176</span> | pmol/l | 41 - 159 |
-| **FSH** | <span style="color:#50d05a; font-weight:bold;">3.0</span> | <span style="color:#addb63; font-weight:bold;">1.6</span> | <span style="color:#50d05a; font-weight:bold;">3.0</span> | mIU/mL | 1.5 - 12.4 |
-| **TSH** | — | <span style="color:#00a69d; font-weight:bold;">1.68</span> | <span style="color:#3bce58; font-weight:bold;">3.54</span> | mIU/L | 0.27 - 4.20 |
-| **17-OH Progesterone** | — | <span style="color:#007ef6; font-weight:bold;">1.59</span> | <span style="color:#12ca54; font-weight:bold;">2.31</span> | ng/ml | 0.37 - 2.87 |
-| **Free T3 (FT3)** | — | <span style="color:#00b184; font-weight:bold;">4.29</span> | <span style="color:#00ae8b; font-weight:bold;">5.57</span> | pmol/L | 3.10 - 6.80 |
-| **Free T4 (FT4)** | — | <span style="color:#0089df; font-weight:bold;">16.30</span> | <span style="color:#0099bb; font-weight:bold;">17.70</span> | pmol/L | 11.90 - 21.60 |
-| **SHBG** | — | <span style="color:#00b778; font-weight:bold;">43.2</span> | <span style="color:#008bda; font-weight:bold;">34.3</span> | nmol/L | 18.3 - 54.1 |
-| **DHEA-SO4** | — | <span style="color:#a1d962; font-weight:bold;">97.7</span> | <span style="color:#84d65f; font-weight:bold;">111.0</span> | µg/dl | 88.9 - 427 |
-| **HCG-Beta** | <span style="color:#0086e4; font-weight:bold;">< 0.200</span> | — | — | mIU/mL | < 2.60 |
-| **Insulin** | — | <span style="color:#00bd69; font-weight:bold;">8.9</span> | — | µU/mL | 2.6 - 24.9 |
-| **IGF-1** | — | <span style="color:#00ae8c; font-weight:bold;">201</span> | — | ng/ml | 61 - 271 |
-| **Cortisol** | — | <span style="color:#4dd05a; font-weight:bold;">17.4</span> | — | µg/dl | 4.8 - 19.5 |
+| **Prolactin** | <font color="#8b0000"><b>24.00</b></font> | <font color="#00028c"><b>9.64</b></font> | <font color="#8b0000"><b>22.70</b></font> | ng/mL | 4.04 - 15.20 |
+| **LH** | <font color="#e1373b"><b>10.20</b></font> | <font color="#0098e7"><b>4.46</b></font> | — | mIU/mL | 1.70 - 8.60 |
+| **Progesterone** | <font color="#8b0000"><b>1.390</b></font> | <font color="#8b0000"><b>1.370</b></font> | — | nmol/l | < 0.474 |
+| **Testosterone (Free)** | — | <font color="#0061c6"><b>19.17</b></font> | — | pg/ml | 9.10 - 32.20 |
+| **Testosterone (Total)** | — | <font color="#ffac00"><b>28.60</b></font> | <font color="#ffaa00"><b>28.70</b></font> | nmol/l | 8.64 - 29.00 |
+| **Estradiol (E2)** | <font color="#cdd321"><b>141</b></font> | <font color="#dd3542"><b>188</b></font> | <font color="#f9420a"><b>176</b></font> | pmol/l | 41 - 159 |
+| **FSH** | <font color="#e8d50f"><b>3.0</b></font> | <font color="#ffa800"><b>1.6</b></font> | <font color="#e8d50f"><b>3.0</b></font> | mIU/mL | 1.5 - 12.4 |
+| **TSH** | — | <font color="#04c0f1"><b>1.68</b></font> | <font color="#b2d233"><b>3.54</b></font> | mIU/L | 0.27 - 4.20 |
+| **17-OH Progesterone** | — | <font color="#001296"><b>1.59</b></font> | <font color="#4ecb77"><b>2.31</b></font> | ng/ml | 0.37 - 2.87 |
+| **Free T3 (FT3)** | — | <font color="#0dc3d2"><b>4.29</b></font> | <font color="#0ac2db"><b>5.57</b></font> | pmol/L | 3.10 - 6.80 |
+| **Free T4 (FT4)** | — | <font color="#0046b6"><b>16.30</b></font> | <font color="#0095e5"><b>17.70</b></font> | pmol/L | 11.90 - 21.60 |
+| **SHBG** | — | <font color="#12c4c4"><b>43.2</b></font> | <font color="#0051bc"><b>34.3</b></font> | nmol/L | 18.3 - 54.1 |
+| **DHEA-SO4** | — | <font color="#ffaf00"><b>97.7</b></font> | <font color="#ffbf00"><b>111.0</b></font> | µg/dl | 88.9 - 427 |
+| **HCG-Beta** | <font color="#003aae"><b>< 0.200</b></font> | — | — | mIU/mL | < 2.60 |
+| **Insulin** | — | <font color="#17c6b2"><b>8.9</b></font> | — | µU/mL | 2.6 - 24.9 |
+| **IGF-1** | — | <font color="#0ac2dc"><b>201</b></font> | — | ng/ml | 61 - 271 |
+| **Cortisol** | — | <font color="#dfd515"><b>17.4</b></font> | — | µg/dl | 4.8 - 19.5 |
 
 ## Biochemistry & Metabolism
 
 | Test Name | 2026-01 | 2025-05 | 2025-01 | Unit | Reference Range |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Fosfor** | <span style="color:#e49d2f; font-weight:bold;">4.83</span> | <span style="color:#00ad8d; font-weight:bold;">3.83</span> | — | mg/dL | 2.5 - 4.5 |
-| **Lipoprotein (a)** | <span style="color:#0089de; font-weight:bold;">< 7.00</span> | — | — | nmol/l | < 75 |
-| **Vitamin D3** | — | <span style="color:#d8ad3c; font-weight:bold;">52.5</span> | <span style="color:#009bb6; font-weight:bold;">37.9</span> | ng/ml | 30 - 50 |
-| **Homocysteine** | — | <span style="color:#00be67; font-weight:bold;">6.60</span> | <span style="color:#00bd69; font-weight:bold;">6.50</span> | umol/l | < 15.0 |
-| **Glucose** | — | <span style="color:#0080f3; font-weight:bold;">84</span> | <span style="color:#b4dc64; font-weight:bold;">70</span> | mg/dl | 70 - 99 |
-| **HbA1c** | — | <span style="color:#0088df; font-weight:bold;">5.3</span> | — | % | 4.8 - 5.9 |
-| **Bilirubin Total** | <span style="color:#0094c5; font-weight:bold;">0.20</span> | <span style="color:#00ad8f; font-weight:bold;">0.39</span> | — | mg/dL | < 1.20 |
-| **LDH** | <span style="color:#00c655; font-weight:bold;">123</span> | — | — | U/L | < 250 |
-| **GGTP** | <span style="color:#009eae; font-weight:bold;">14</span> | <span style="color:#00a997; font-weight:bold;">18</span> | <span style="color:#00a997; font-weight:bold;">18</span> | U/L | < 60 |
-| **AST** | — | <span style="color:#2dcd57; font-weight:bold;">25</span> | — | U/L | < 40 |
-| **ALT** | — | <span style="color:#00af89; font-weight:bold;">14</span> | — | U/L | < 41 |
-| **ALP** | — | <span style="color:#008adc; font-weight:bold;">89</span> | — | U/L | 40 - 129 |
-| **Calcium (Total)** | — | <span style="color:#76d55e; font-weight:bold;">9.88</span> | — | mg/dL | 8.60 - 10.00 |
-| **Magnesium** | — | <span style="color:#0084ea; font-weight:bold;">2.13</span> | — | mg/dl | 1.60 - 2.60 |
-| **Creatinine** | — | <span style="color:#0087e3; font-weight:bold;">0.93</span> | — | mg/dl | 0.70 - 1.20 |
-| **eGFR** | — | <span style="color:#b4dc64; font-weight:bold;">>60</span> | — | ml/min/1.73m^2 | > 60.0 |
-| **Cholesterol Total** | — | <span style="color:#2dcd57; font-weight:bold;">119</span> | — | mg/dL | < 190 |
-| **Cholesterol HDL** | — | <span style="color:#7dd65e; font-weight:bold;">43</span> | — | mg/dL | > 40 |
-| **Cholesterol LDL** | — | <span style="color:#33cd57; font-weight:bold;">74</span> | <span style="color:#36ce58; font-weight:bold;">75</span> | mg/dl | < 115 |
-| **Triglycerides** | — | <span style="color:#00ac90; font-weight:bold;">48</span> | <span style="color:#00b47e; font-weight:bold;">56</span> | mg/dL | < 150 |
-| **Potassium** | — | <span style="color:#2dcd57; font-weight:bold;">3.8</span> | — | mmol/l | 3.5 - 5.1 |
-| **Sodium** | — | <span style="color:#008cd8; font-weight:bold;">140</span> | — | mmol/l | 136 - 145 |
-| **Uric Acid** | — | <span style="color:#28cc56; font-weight:bold;">4.1</span> | — | mg/dl | 3.4 - 7.0 |
-| **Zinc** | — | <span style="color:#e2423b; font-weight:bold;">22.07</span> | — | µmol/l | 9 - 18 |
-| **Vitamin B6** | — | <span style="color:#c8c14d; font-weight:bold;">58.6</span> | — | µg/l | 5.7 - 55.1 |
-| **Vitamin B1** | — | <span style="color:#f56e1e; font-weight:bold;">69.1</span> | — | µg/l | 33.1 - 60.7 |
-| **Vitamin E** | — | <span style="color:#00b875; font-weight:bold;">9.5</span> | — | mg/l | 5 - 20 |
-| **Vitamin A** | — | <span style="color:#0092cb; font-weight:bold;">0.47</span> | — | mg/l | 0.3 - 0.7 |
-| **Vitamin B12** | — | <span style="color:#f97718; font-weight:bold;">928</span> | — | pg/ml | 197 - 771 |
-| **Folic Acid** | — | <span style="color:#0091cd; font-weight:bold;">17.0</span> | — | ng/ml | 3.9 - 26.8 |
-| **Ferritin** | — | <span style="color:#00be68; font-weight:bold;">134</span> | — | ng/ml | 30 - 400 |
-| **Iron** | — | <span style="color:#0091cd; font-weight:bold;">98</span> | — | µg/dl | 59 - 150 |
-| **Myoglobin** | — | <span style="color:#0099ba; font-weight:bold;">42.60</span> | — | ng/ml | 23 - 72 |
-| **Calprotectin** | — | <span style="color:#009ab8; font-weight:bold;">0.41</span> | — | µg/mL | < 2.0 |
-| **IL-6** | — | <span style="color:#009eb0; font-weight:bold;">1.6</span> | — | pg/ml | < 7.0 |
+| **Fosfor** | <font color="#f33f16"><b>4.83</b></font> | <font color="#0ac2dd"><b>3.83</b></font> | — | mg/dL | 2.5 - 4.5 |
+| **Lipoprotein (a)** | <font color="#0047b6"><b>< 7.00</b></font> | — | — | nmol/l | < 75 |
+| **Vitamin D3** | — | <font color="#ff4500"><b>52.5</b></font> | <font color="#00a0ec"><b>37.9</b></font> | ng/ml | 30 - 50 |
+| **Homocysteine** | — | <font color="#18c6af"><b>6.60</b></font> | <font color="#17c6b2"><b>6.50</b></font> | umol/l | < 15.0 |
+| **Glucose** | — | <font color="#001a9b"><b>84</b></font> | <font color="#ffa500"><b>70</b></font> | mg/dl | 70 - 99 |
+| **HbA1c** | — | <font color="#0045b5"><b>5.3</b></font> | — | % | 4.8 - 5.9 |
+| **Bilirubin Total** | <font color="#007fd8"><b>0.20</b></font> | <font color="#09c2df"><b>0.39</b></font> | — | mg/dL | < 1.20 |
+| **LDH** | <font color="#1ec89a"><b>123</b></font> | — | — | U/L | < 250 |
+| **GGTP** | <font color="#00b2f7"><b>14</b></font> | <font color="#06c1ea"><b>18</b></font> | <font color="#06c1ea"><b>18</b></font> | U/L | < 60 |
+| **AST** | — | <font color="#8fd04b"><b>25</b></font> | — | U/L | < 40 |
+| **ALT** | — | <font color="#0bc2d8"><b>14</b></font> | — | U/L | < 41 |
+| **ALP** | — | <font color="#004db9"><b>89</b></font> | — | U/L | 40 - 129 |
+| **Calcium (Total)** | — | <font color="#ffc700"><b>9.88</b></font> | — | mg/dL | 8.60 - 10.00 |
+| **Magnesium** | — | <font color="#002da6"><b>2.13</b></font> | — | mg/dl | 1.60 - 2.60 |
+| **Creatinine** | — | <font color="#003db0"><b>0.93</b></font> | — | mg/dl | 0.70 - 1.20 |
+| **eGFR** | — | <font color="#ffa500"><b>>60</b></font> | — | ml/min/1.73m^2 | > 60.0 |
+| **Cholesterol Total** | — | <font color="#90d04a"><b>119</b></font> | — | mg/dL | < 190 |
+| **Cholesterol HDL** | — | <font color="#ffb400"><b>43</b></font> | — | mg/dL | > 40 |
+| **Cholesterol LDL** | — | <font color="#9fd140"><b>74</b></font> | <font color="#a7d13b"><b>75</b></font> | mg/dl | < 115 |
+| **Triglycerides** | — | <font color="#08c1e1"><b>48</b></font> | <font color="#0fc3cb"><b>56</b></font> | mg/dL | < 150 |
+| **Potassium** | — | <font color="#8fd04b"><b>3.8</b></font> | — | mmol/l | 3.5 - 5.1 |
+| **Sodium** | — | <font color="#0054be"><b>140</b></font> | — | mmol/l | 136 - 145 |
+| **Uric Acid** | — | <font color="#83cf53"><b>4.1</b></font> | — | mg/dl | 3.4 - 7.0 |
+| **Zinc** | — | <font color="#9a0a0d"><b>22.07</b></font> | — | µmol/l | 9 - 18 |
+| **Vitamin B6** | — | <font color="#ff6e00"><b>58.6</b></font> | — | µg/l | 5.7 - 55.1 |
+| **Vitamin B1** | — | <font color="#ca2936"><b>69.1</b></font> | — | µg/l | 33.1 - 60.7 |
+| **Vitamin E** | — | <font color="#13c5c0"><b>9.5</b></font> | — | mg/l | 5 - 20 |
+| **Vitamin A** | — | <font color="#0072d0"><b>0.47</b></font> | — | mg/l | 0.3 - 0.7 |
+| **Vitamin B12** | — | <font color="#d4303e"><b>928</b></font> | — | pg/ml | 197 - 771 |
+| **Folic Acid** | — | <font color="#006ecd"><b>17.0</b></font> | — | ng/ml | 3.9 - 26.8 |
+| **Ferritin** | — | <font color="#18c6b0"><b>134</b></font> | — | ng/ml | 30 - 400 |
+| **Iron** | — | <font color="#006dcd"><b>98</b></font> | — | µg/dl | 59 - 150 |
+| **Myoglobin** | — | <font color="#0098e7"><b>42.60</b></font> | — | ng/ml | 23 - 72 |
+| **Calprotectin** | — | <font color="#009cea"><b>0.41</b></font> | — | µg/mL | < 2.0 |
+| **IL-6** | — | <font color="#00aef5"><b>1.6</b></font> | — | pg/ml | < 7.0 |
 
 ## Immunology & Tumor Markers
 
 | Test Name | 2026-01 | 2025-05 | 2025-01 | Unit | Reference Range |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **ASO** | <span style="color:#bad35c; font-weight:bold;">209</span> | — | — | IU/mL | < 200 |
-| **Anti-TG** | <span style="color:#008cd7; font-weight:bold;">13.10</span> | — | — | IU/ml | < 115.0 |
-| **Anti-TPO** | <span style="color:#00b282; font-weight:bold;">12.30</span> | — | — | IU/ml | < 34.0 |
-| **CEA** | <span style="color:#1ccb55; font-weight:bold;">2.9</span> | <span style="color:#00be67; font-weight:bold;">2.2</span> | — | ng/ml | < 5.0 |
-| **AFP** | <span style="color:#00c656; font-weight:bold;">2.84</span> | <span style="color:#00b088; font-weight:bold;">2.0</span> | — | IU/ml | < 5.8 |
-| **CA 19-9** | <span style="color:#008cd8; font-weight:bold;">3.8</span> | <span style="color:#0093c7; font-weight:bold;">5.5</span> | — | U/ml | < 34.0 |
-| **PSA Total** | <span style="color:#0081f1; font-weight:bold;">0.16</span> | <span style="color:#0082ee; font-weight:bold;">0.195</span> | — | ng/mL | < 4.0 |
-| **S-100** | — | <span style="color:#00ae8c; font-weight:bold;">0.05</span> | — | µg/l | < 0.15 |
-| **CRP (hs)** | — | <span style="color:#0088e0; font-weight:bold;">0.448</span> | <span style="color:#007ff4; font-weight:bold;">< 0.15</span> | mg/l | < 5.0 |
+| **ASO** | <font color="#ff9300"><b>209</b></font> | — | — | IU/mL | < 200 |
+| **Anti-TG** | <font color="#0057bf"><b>13.10</b></font> | — | — | IU/ml | < 115.0 |
+| **Anti-TPO** | <font color="#0ec3d0"><b>12.30</b></font> | — | — | IU/ml | < 34.0 |
+| **CEA** | <font color="#67cd66"><b>2.9</b></font> | <font color="#18c6af"><b>2.2</b></font> | — | ng/ml | < 5.0 |
+| **AFP** | <font color="#1ec89b"><b>2.84</b></font> | <font color="#0cc2d7"><b>2.0</b></font> | — | IU/ml | < 5.8 |
+| **CA 19-9** | <font color="#0055be"><b>3.8</b></font> | <font color="#007bd6"><b>5.5</b></font> | — | U/ml | < 34.0 |
+| **PSA Total** | <font color="#001e9d"><b>0.16</b></font> | <font color="#0025a1"><b>0.195</b></font> | — | ng/mL | < 4.0 |
+| **S-100** | — | <font color="#0ac2dc"><b>0.05</b></font> | — | µg/l | < 0.15 |
+| **CRP (hs)** | — | <font color="#0044b4"><b>0.448</b></font> | <font color="#001698"><b>< 0.15</b></font> | mg/l | < 5.0 |
 
 ## Coagulation & Cardiac
 
 | Test Name | 2026-01 | 2025-05 | 2025-01 | Unit | Reference Range |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **APTT** | <span style="color:#24cc56; font-weight:bold;">31.6</span> | — | — | sec | 22.0 - 34.0 |
-| **INR** | <span style="color:#00a997; font-weight:bold;">0.94</span> | — | — |  | 0.80 - 1.20 |
-| **PT** | <span style="color:#00be67; font-weight:bold;">11.4</span> | — | — | sec | 10.0 - 15.0 |
-| **D-dimer** | — | <span style="color:#00b57c; font-weight:bold;">< 190</span> | <span style="color:#00b57c; font-weight:bold;">< 190</span> | ng/ml | < 500 |
-| **NT-proBNP** | — | <span style="color:#0097bf; font-weight:bold;">22.9</span> | <span style="color:#0087e3; font-weight:bold;">< 10.0</span> | pg/ml | < 125 |
+| **APTT** | <font color="#79ce5a"><b>31.6</b></font> | — | — | sec | 22.0 - 34.0 |
+| **INR** | <font color="#06c1ea"><b>0.94</b></font> | — | — |  | 0.80 - 1.20 |
+| **PT** | <font color="#18c6af"><b>11.4</b></font> | — | — | sec | 10.0 - 15.0 |
+| **D-dimer** | — | <font color="#10c4c8"><b>< 190</b></font> | <font color="#10c4c8"><b>< 190</b></font> | ng/ml | < 500 |
+| **NT-proBNP** | — | <font color="#008be0"><b>22.9</b></font> | <font color="#003db0"><b>< 10.0</b></font> | pg/ml | < 125 |
 
 ## Proteinogram (2026-01)
 
 | Test Name | 2026-01 | 2025-05 | 2025-01 | Unit | Reference Range |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Albumin** | <span style="color:#00a3a4; font-weight:bold;">62.3</span> | — | — | % | 55.8 - 66.1 |
-| **Alpha-1 Globulin** | <span style="color:#b4db63; font-weight:bold;">2.9</span> | — | — | % | 2.9 - 4.9 |
-| **Alpha-2 Globulin** | <span style="color:#bad45d; font-weight:bold;">7.0</span> | — | — | % | 7.1 - 11.8 |
-| **Beta-1 Globulin** | <span style="color:#0081f1; font-weight:bold;">5.9</span> | — | — | % | 4.7 - 7.2 |
-| **Beta-2 Globulin** | <span style="color:#007ff4; font-weight:bold;">4.9</span> | — | — | % | 3.2 - 6.5 |
-| **Gamma Globulin** | <span style="color:#0bc954; font-weight:bold;">17.0</span> | — | — | % | 11.1 - 18.8 |
+| **Albumin** | <font color="#01bff9"><b>62.3</b></font> | — | — | % | 55.8 - 66.1 |
+| **Alpha-1 Globulin** | <font color="#ffa400"><b>2.9</b></font> | — | — | % | 2.9 - 4.9 |
+| **Alpha-2 Globulin** | <font color="#ff9400"><b>7.0</b></font> | — | — | % | 7.1 - 11.8 |
+| **Beta-1 Globulin** | <font color="#001e9d"><b>5.9</b></font> | — | — | % | 4.7 - 7.2 |
+| **Beta-2 Globulin** | <font color="#001799"><b>4.9</b></font> | — | — | % | 3.2 - 6.5 |
+| **Gamma Globulin** | <font color="#3cca83"><b>17.0</b></font> | — | — | % | 11.1 - 18.8 |
 
 ## Infectious Diseases & Urine
 
 | Test Name | 2026-01 | 2025-05 | 2025-01 | Unit | Reference Range |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **HBs Ag** | <span style="color:#007bff; font-weight:bold;">221.00</span> | <span style="color:#007bff; font-weight:bold;">203.00</span> | — | Immune | > 10 |
+| **HBs Ag** | <font color="#00008b"><b>221.00</b></font> | <font color="#00008b"><b>203.00</b></font> | — | Immune | > 10 |
 | **HCV** | Non-reactive | Non-reactive | Non-reactive | Status | Neg |
 | **Syphilis (WR)** | Non-reactive | Non-reactive | — | Status | Neg |
 | **Chlamydia IgG** | Negative | Negative | Negative | Status | Neg |
-| **Chlamydia IgM** | — | <span style="color:#33cd57; font-weight:bold;">5.8</span> | <span style="color:#00a997; font-weight:bold;">2.7</span> | Status | < 9 |
-| **HSV IgG** | — | <span style="color:#fd7e14; font-weight:bold;">1.35</span> | <span style="color:#e3453a; font-weight:bold;">1.7</span> | Index | < 0.9 |
+| **Chlamydia IgM** | — | <font color="#a0d13f"><b>5.8</b></font> | <font color="#06c1ea"><b>2.7</b></font> | Status | < 9 |
+| **HSV IgG** | — | <font color="#dc3545"><b>1.35</b></font> | <font color="#9d0b0f"><b>1.7</b></font> | Index | < 0.9 |
 | **HSV IgM** | — | Negative | Negative | Status | Neg |
 | **HIV** | — | — | Non-reactive | Status | Neg |
-| **Arsenic (Urine)** | — | <span style="color:#dc3545; font-weight:bold;">30.8</span> | — | µg/l | < 15.0 |
-| **Cadmium (Urine)** | — | <span style="color:#008ed4; font-weight:bold;">0.1</span> | — | ug/l | < 0.8 |
-| **Chromium (Urine)** | — | <span style="color:#00ae8c; font-weight:bold;">0.2</span> | — | ug/l | < 0.6 |
-| **Nickel (Urine)** | — | <span style="color:#0085e8; font-weight:bold;">0.2</span> | — | µg/l | < 3.0 |
-| **Copper (Urine)** | — | <span style="color:#a9da62; font-weight:bold;">3.15</span> | — | µg/l | 2.0 - 80.0 |
+| **Arsenic (Urine)** | — | <font color="#8b0000"><b>30.8</b></font> | — | µg/l | < 15.0 |
+| **Cadmium (Urine)** | — | <font color="#005fc5"><b>0.1</b></font> | — | ug/l | < 0.8 |
+| **Chromium (Urine)** | — | <font color="#0ac2dc"><b>0.2</b></font> | — | ug/l | < 0.6 |
+| **Nickel (Urine)** | — | <font color="#0032a9"><b>0.2</b></font> | — | µg/l | < 3.0 |
+| **Copper (Urine)** | — | <font color="#ffaa00"><b>3.15</b></font> | — | µg/l | 2.0 - 80.0 |
 
 ## Morphology (2025-05)
 
 | Test Name | 2026-01 | 2025-05 | 2025-01 | Unit | Reference Range |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Leukocytes** | — | <span style="color:#19ca55; font-weight:bold;">5.5</span> | <span style="color:#00c161; font-weight:bold;">9.1</span> | 10^3/µl | 4.0 - 11.0 |
-| **Erythrocytes** | — | <span style="color:#008fd2; font-weight:bold;">5.37</span> | <span style="color:#0098bd; font-weight:bold;">5.31</span> | 10^6/µl | 4.5 - 6.5 |
-| **Hemoglobin** | — | <span style="color:#0099ba; font-weight:bold;">16.0</span> | <span style="color:#0087e3; font-weight:bold;">15.7</span> | g/dL | 13.0 - 18.0 |
-| **Hematocrit** | — | <span style="color:#008adc; font-weight:bold;">46.6</span> | <span style="color:#0097bf; font-weight:bold;">47.1</span> | % | 40 - 52 |
-| **Platelets** | — | <span style="color:#00b47d; font-weight:bold;">228</span> | <span style="color:#009fac; font-weight:bold;">305</span> | 10^3/µl | 150 - 400 |
+| **Leukocytes** | — | <font color="#5fcd6b"><b>5.5</b></font> | <font color="#1ac7a8"><b>9.1</b></font> | 10^3/µl | 4.0 - 11.0 |
+| **Erythrocytes** | — | <font color="#0063c7"><b>5.37</b></font> | <font color="#0091e3"><b>5.31</b></font> | 10^6/µl | 4.5 - 6.5 |
+| **Hemoglobin** | — | <font color="#0098e7"><b>16.0</b></font> | <font color="#003db0"><b>15.7</b></font> | g/dL | 13.0 - 18.0 |
+| **Hematocrit** | — | <font color="#004cb9"><b>46.6</b></font> | <font color="#008ce0"><b>47.1</b></font> | % | 40 - 52 |
+| **Platelets** | — | <font color="#10c4ca"><b>228</b></font> | <font color="#00b7fa"><b>305</b></font> | 10^3/µl | 150 - 400 |
 
