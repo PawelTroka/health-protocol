@@ -4,67 +4,67 @@
 
 |  | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Hemoglobin** | 🔵 15.40 | 🔵 16.0 | 🔵 15.7 | g/dL | 13.0 - 18.0 |
+| **Hemoglobin** | 🔵 15.40 | 🔵 16.00 | 🔵 15.70 | g/dL | 13.0 - 18.0 |
 | **Hematocrit** | 🔵 45.9 | 🔵 46.6 | 🔵 47.1 | % | 40 - 52 |
 | **Erythrocytes** | 🔵 5.20 | 🔵 5.37 | 🔵 5.31 | 10^6/µl | 4.5 - 6.5 |
-| **MCV** | 🔵 87.8 | - | - | fL | 80 - 98 |
-| **MCH** | 🔵 29.4 | - | - | pg | 27 - 32 |
-| **MCHC** | 🔵 33.6 | - | - | g/dL | 31 - 37 |
-| **RDW-CV** | 🔵 12.5 | - | - | % | 11.5 - 14.5 |
-| **RDW-SD** | 🔵 40.8 | - | - | fL | 35.1 - 43.9 |
+| **MCV** | 🔵 87.8 | 🔵 86.8 | 🔵 88.7 | fL | 80 - 98 |
+| **MCH** | 🔵 29.4 | 🔵 29.8 | 🔵 29.6 | pg | 27 - 32 |
+| **MCHC** | 🔵 33.6 | 🔵 34.3 | 🔵 33.3 | g/dL | 31 - 37 |
+| **RDW-CV** | 🔵 12.5 | 🔵 12.9 | 🔵 12.9 | % | 11.5 - 14.5 |
+| **RDW-SD** | 🔵 40.8 | - | 🔵 41.7 | fL | 35.1 - 43.9 |
 | **Leukocytes** | 🔵 7.7 | 🔵 5.5 | 🔵 9.1 | 10^3/µl | 4.0 - 11.0 |
-| **Neutrophils** | 🟢 2.3 | - | - | 10^9/L | 1.9 - 7 |
-| **Neutrophils %** | 🟠 30.50 ↓ | - | - | % | 45 - 70 |
-| **Lymphocytes** | 🔵 3.9 | - | - | 10^9/L | 1.5 - 4.5 |
-| **Lymphocytes %** | 🟡 50.3 ↑ | - | - | % | 25 - 45 |
-| **Monocytes** | 🟢 0.9 | - | - | 10^9/L | 0.1 - 0.9 |
-| **Monocytes %** | 🟡 11.9 ↑ | - | - | % | 2 - 9 |
-| **Eosinophils** | 🟢 0.5 | - | - | 10^9/L | < 0.5 |
-| **Eosinophils %** | 🟡 6.5 ↑ | - | - | % | 0.00 - 5.00 |
-| **Basophils** | 🟢 0.1 | - | - | 10^9/L | 0.00 - 0.10 |
-| **Basophils %** | 🔵 0.7 | - | - | % | 0.00 - 1.00 |
-| **Immature Granulocytes** | 🔵 0.0 | - | - | 10^9/L | < 0.04 |
-| **Immature Granulocytes %** | 🔵 0.1 | - | - | % | 0.0 - 0.5 |
+| **Neutrophils** | 🟢 2.3 | 🟢 2.22 | 🔵 3.83 | 10^9/L | 1.9 - 7 |
+| **Neutrophils %** | 🟠 30.50 ↓ | 🟡 40.30 ↓ | 🟡 42.10 ↓ | % | 45 - 70 |
+| **Lymphocytes** | 🔵 3.9 | 🔵 2.3 | 🔵 3.6 | 10^9/L | 1.5 - 4.5 |
+| **Lymphocytes %** | 🟡 50.3 ↑ | 🔵 40.9 | 🔵 39.5 | % | 25 - 45 |
+| **Monocytes** | 🟢 0.9 | 🔵 0.56 | 🟡 1.01 ↑ | 10^9/L | 0.1 - 0.9 |
+| **Monocytes %** | 🟡 11.9 ↑ | 🟡 10.1 ↑ | 🟡 11.1 ↑ | % | 2 - 9 |
+| **Eosinophils** | 🟢 0.5 | 🟢 0.42 | 🟡 0.55 ↑ | 10^9/L | < 0.5 |
+| **Eosinophils %** | 🟡 6.5 ↑ | 🟠 7.6 ↑ | 🟡 6.0 ↑ | % | 0.00 - 5.00 |
+| **Basophils** | 🟢 0.1 | 🔵 0.05 | 🔵 0.08 | 10^9/L | 0.00 - 0.10 |
+| **Basophils %** | 🔵 0.7 | 🟢 0.9 | 🟢 0.9 | % | 0.00 - 1.00 |
+| **Immature Granulocytes** | 🔵 0.0 | 🔵 0.01 | 🟢 0.04 | 10^9/L | < 0.04 |
+| **Immature Granulocytes %** | 🔵 0.1 | 🔵 0.2 | 🟢 0.4 | % | 0.0 - 0.5 |
 | **Platelets** | 🔵 265 | 🔵 228 | 🔵 305 | 10^3/µl | 150 - 400 |
-| **PCT** | 🔵 0.30 | - | - | % | 0.12 - 0.36 |
-| **PDW** | 🔵 13.8 | - | - | fL | 9.8 - 16.1 |
-| **MPV** | 🟢 11.3 | - | - | fL | 7 - 12 |
+| **PCT** | 🔵 0.30 | - | 🔵 0.31 | % | 0.12 - 0.36 |
+| **PDW** | 🔵 13.8 | - | 🟢 10.9 | fL | 9.8 - 16.1 |
+| **MPV** | 🟢 11.3 | 🔵 10.6 | 🔵 10.0 | fL | 7 - 12 |
 | **P-LCR** | 🔵 35.3 | - | - | % | 19.2 - 47 |
 
 ## Urinalysis (General)
 
-|  | 2026-01 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- |
-| **Color** | 🟢 jasnożółty |  | - |
-| **Transparency** | 🟢 przejrzysty |  | przejrzysty |
-| **Specific Gravity** | 🟢 1.015 | g/ml | 1.005 - 1.03 |
-| **pH** | 🟢 5.5 |  | 5 - 8 |
-| **Protein** | 🟢 nie wykryto | mg/dL | nie wykryto |
-| **Glucose** | 🟢 nie wykryto | mg/dL | nie wykryto |
-| **Bilirubin** | 🟢 nie wykryto |  | nie wykryto |
-| **Urobilinogen** | 🟢 w normie | mg/dL | w normie |
-| **Ketones** | 🟢 nie wykryto | mg/dL | nie wykryto |
-| **Nitrites** | 🟢 nie wykryto |  | nie wykryto |
-| **Leukocytes (Strip)** | 🟢 nie wykryto | leu/uL | nie wykryto |
-| **Erythrocytes (Strip)** | 🟢 nie wykryto | ery/uL | nie wykryto |
+|  | 2026-01 | 2025-05 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- |
+| **Color** | 🔵 light yellow | 🔵 light yellow |  | - |
+| **Transparency** | 🔵 clear | 🔵 clear |  | clear |
+| **Specific Gravity** | 🟢 1.015 | 🟢 1.015 | g/ml | 1.005 - 1.03 |
+| **pH** | 🟢 5.5 | 🟢 6.0 |  | 5 - 8 |
+| **Protein** | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
+| **Glucose** | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
+| **Bilirubin** | 🔵 not detected | 🔵 not detected |  | not detected |
+| **Urobilinogen** | 🔵 normal | 🔵 normal | mg/dL | normal |
+| **Ketones** | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
+| **Nitrites** | 🔵 not detected | 🔵 not detected |  | not detected |
+| **Leukocytes (Strip)** | 🔵 not detected | 🔵 not detected | leu/uL | not detected |
+| **Erythrocytes (Strip)** | 🔵 not detected | 🔵 not detected | ery/uL | not detected |
 
 ## Urinalysis (Sediment)
 
-|  | 2026-01 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- |
-| **Squamous Epithelium** |  < 30.0 | /uL | < 30.0 |
-| **Transitional Epithelium** |  < 6.0 | /uL | < 6.0 |
-| **Renal Epithelium** |  < 1.0 | /uL | < 1.0 |
-| **Leukocytes** |  < 20.0 | /uL | < 20.0 |
-| **Leukocyte Aggregates** | 🔴 nieobecne |  | nieobecne |
-| **Erythrocytes** |  < 20.0 | /uL | < 20.0 |
-| **Hyaline Casts** |  < 2.0 | /uL | < 2.0 |
-| **Pathological Casts** | 🔴 nieobecne |  | nieobecne |
-| **Crystals** | 🔴 nieobecne |  | nieobecne |
-| **Bacteria** |  < 30.0 | /uL | < 30.0 |
-| **Yeast** |  < 30.0 | /uL | < 30.0 |
-| **Sperm** |  < 10.0 | /uL | < 10.0 |
-| **Mucus** |  < 10.0 | /uL | < 10.0 |
+|  | 2026-01 | 2025-05 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- |
+| **Squamous Epithelium** |  < 30.0 |  rare | /uL | < 30.0 |
+| **Transitional Epithelium** |  < 6.0 |  rare | /uL | < 6.0 |
+| **Renal Epithelium** |  < 1.0 | 🔵 absent | /uL | < 1.0 |
+| **Leukocytes** |  < 20.0 |  0-8 | /uL | < 20.0 |
+| **Leukocyte Aggregates** | 🔵 absent | - |  | absent |
+| **Erythrocytes** |  < 20.0 |  0-3 | /uL | < 20.0 |
+| **Hyaline Casts** |  < 2.0 | 🔵 absent | /uL | < 2.0 |
+| **Pathological Casts** | 🔵 absent | 🔵 absent |  | absent |
+| **Crystals** | 🔵 absent |  few |  | absent |
+| **Bacteria** |  < 30.0 | 🔵 absent | /uL | < 30.0 |
+| **Yeast** |  < 30.0 | 🔵 absent | /uL | < 30.0 |
+| **Sperm** |  < 10.0 | - | /uL | < 10.0 |
+| **Mucus** |  < 10.0 |  rare | /uL | < 10.0 |
 
 ## Metabolic Health
 
@@ -74,7 +74,7 @@
 | **HbA1c** | 🔵 5.18 | 🔵 5.3 | - | % | 4.8 - 5.9 |
 | **Insulin** | 🔵 11.2 | 🔵 8.9 | - | µU/mL | 2.6 - 24.9 |
 | **ALT** | 🔵 12 | 🔵 14 | - | U/L | < 41 |
-| **AST** | 🟢 20 | 🟢 25 | - | U/L | < 40 |
+| **AST** | 🔵 20 | 🟢 25 | - | U/L | < 40 |
 | **GGTP** | 🔵 14 | 🔵 18 | 🔵 18 | U/L | < 60 |
 | **Bilirubin Total** | 🔵 0.20 | 🔵 0.39 | - | mg/dL | < 1.20 |
 | **ALP** | - | 🔵 89 | - | U/L | 40 - 129 |
@@ -109,7 +109,7 @@
 | **Vitamin B12** | 🔵 562 | 🟡 928 ↑ | - | pg/ml | 197 - 771 |
 | **Ferritin** | 🟢 78 | 🔵 134 | - | ng/ml | 30 - 400 |
 | **Iron** | 🟡 41 ↓ | 🔵 98 | - | µg/dl | 59 - 150 |
-| **Folic Acid** | 🟢 8.5 | 🔵 17.0 | - | ng/ml | 3.9 - 26.8 |
+| **Folic Acid** | 🔵 8.5 | 🔵 17.0 | - | ng/ml | 3.9 - 26.8 |
 | **Magnesium** | 🔵 1.90 | 🔵 2.13 | - | mg/dl | 1.60 - 2.60 |
 | **Potassium** | 🔵 4.2 | 🟢 3.8 | - | mmol/l | 3.5 - 5.1 |
 | **Sodium** | 🔵 140 | - | - | mmol/l | 136 - 145 |
