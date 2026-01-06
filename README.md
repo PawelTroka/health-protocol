@@ -24,7 +24,7 @@
 
 ## 2. Testing
 
-### Bi-annual (Every 6 months)
+### Bloodwork + urine testing (Every 6 months)
 - [Extensive bloodwork](https://alabsport.pl/pakiety/wyczynowiec)
 - [Cancer markers](https://www.alab.pl/pakiet/pakiet-markery-nowotworowe-mezczyzna)
 - [STDs check](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)
@@ -33,20 +33,25 @@
 - [Female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania)
 - [Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69)
 
-### Annual (Every 12 months)
+### Heart
+- Echocardiogram (Heart Echo) (yearly)
+- Cardiac Stress Test (yearly)
+
+### Imaging
 - Abdominal USG
 - Neck USG (Thyroid & Lymph nodes)
-- Echocardiogram (Heart Echo)
+- RTG (X-Ray) imaging
 - 3D CT Scans
 - Skin Cancer Check (Dermatoscopy)
 - Prostate Screening (PSA + Digital Rectal Exam)
-- Dental Checkup & Cleaning (or every 6 months)
-- Vision Exam
+- Dental Checkup & Cleaning (every 2 months)
+- Vision Exam (every 2 years)
 
-### Periodical / As Needed
-- Colonoscopy with CO2 and polypectomy + Gastroscopy (Every 5-10 years)
-- Workout Trial / Cardiac Stress Test
-- RTG (X-Ray) imaging
+### Digestive system
+- Colonoscopy with CO2 and polypectomy (every 5 years)
+- Gastroscopy (every 5 years)
+
+
 
 ## 3. Exercise
 
