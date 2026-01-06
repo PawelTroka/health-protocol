@@ -4,22 +4,22 @@ def lerp(a, b, t):
     return int(a + (b - a) * t)
 
 def get_color_hex(score):
-    # Palette Definition based on User Feedback
+    # Palette Definition based on User Feedback (Harder to get Orange/Red)
     # 0.0 - 1.0: INSIDE RANGE (Blue -> Green)
-    # 1.0 - 1.5: JUST OUTSIDE (Yellow)
-    # 1.5 - 2.5: SIGNIFICANTLY OUTSIDE (Orange)
-    # > 2.5: CRITICAL (Red)
+    # 1.0 - 2.0: JUST OUTSIDE (Yellow) - Widened
+    # 2.0 - 3.0: SIGNIFICANTLY OUTSIDE (Orange) - Shifted
+    # > 3.0: CRITICAL (Red) - Shifted
 
     stops = [
         (0.00, (0, 0, 139), "🔵"),      # Dark Blue (Optimal)
         (0.40, (0, 191, 255), "🔵"),    # Light Blue (Good)
         (0.70, (0, 128, 0), "🟢"),      # Dark Green (Normal)
         (1.00, (50, 205, 50), "🟢"),    # Light Green (Limit of Normal)
-        (1.10, (255, 215, 0), "🟡"),    # Yellow (Just Outside)
-        (1.50, (255, 165, 0), "🟠"),    # Orange (Significant Deviation)
-        (2.50, (255, 69, 0), "🟠"),     # Dark Orange (High Deviation)
-        (3.00, (220, 53, 69), "🔴"),    # Red (Critical)
-        (4.00, (139, 0, 0), "🔴")       # Dark Red
+        (1.20, (255, 215, 0), "🟡"),    # Yellow (Just Outside)
+        (2.00, (255, 165, 0), "🟠"),    # Orange (Significant Deviation)
+        (3.00, (255, 69, 0), "🟠"),     # Dark Orange (High Deviation)
+        (3.50, (220, 53, 69), "🔴"),    # Red (Critical)
+        (4.50, (139, 0, 0), "🔴")       # Dark Red
     ]
 
     if score < 0: score = 0
@@ -51,14 +51,14 @@ def get_color_hex(score):
     # Determine Emoji strictly by zone
     if score <= 0.6:
         emoji = "🔵" # Optimal/Good
-    elif score <= 1.00001: # Epsilon for float precision
+    elif score <= 1.00001:
         emoji = "🟢" # Normal
-    elif score <= 1.5:
-        emoji = "🟡" # Caution
-    elif score <= 2.5:
-        emoji = "🟠" # Warning
+    elif score <= 2.0:
+        emoji = "🟡" # Caution (Widened)
+    elif score <= 3.0:
+        emoji = "🟠" # Warning (Shifted)
     else:
-        emoji = "🔴" # Critical
+        emoji = "🔴" # Critical (Shifted)
     
     return hex_color, emoji
 
