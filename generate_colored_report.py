@@ -101,6 +101,15 @@ def calculate_score(val_str, ref_range):
     if val_str in ["-", "—", None, ""]:
         return None
         
+    # Textual Perfect Matches
+    text_val = val_str.lower().strip()
+    if text_val in ["non-reactive", "negative", "not detected", "absent"]:
+        return 0.0
+
+    # Handle exact matches like "< 30.0" and "< 30.0"
+    if val_str.strip() == ref_range.strip() and "<" in val_str:
+        return 0.0
+
     val_clean = re.sub(r'[^\d.<>]', '', val_str.split('(')[0]) 
     if not val_clean: return None
     
@@ -116,7 +125,7 @@ def calculate_score(val_str, ref_range):
         target = (low + high) / 2.0
         half_width = (high - low) / 2.0
         if half_width == 0: return 0
-        dist = abs(val - target)
+        dist = abs(val - target) 
         score = dist / half_width 
         return score
 
@@ -319,7 +328,7 @@ data = {
         ("Vitamin E", "-", "9.5", "-", "mg/l", "5 - 20")
     ],
     "Immunology & Inflammation": [
-        ("CRP (hs)", "0.448", "< 0.15", "< 0.15", "mg/l", "< 5.0"),
+        ("CRP (hs)", "0.448", "< 0.15", "not detected", "mg/l", "< 5.0"),
         ("IL-6", "-", "1.6", "-", "pg/ml", "< 7.0"),
         ("Calprotectin", "-", "0.41", "-", "µg/mL", "< 2.0"),
         ("Anti-TPO", "12.30", "-", "-", "IU/ml", "< 34.0"),
@@ -334,14 +343,14 @@ data = {
         ("S-100", "-", "0.05", "-", "µg/l", "< 0.15")
     ],
     "Infectious Diseases": [
-        ("HIV", "Non-reactive", "-", "Non-reactive", "Status", "Neg"),
+        ("HIV", "Non-reactive", "Non-reactive", "Non-reactive", "Status", "Non-reactive"),
         ("HBs Ag", "221.00", "203.00", "-", "Immune", "> 10"),
-        ("HCV", "Non-reactive", "Non-reactive", "Non-reactive", "Status", "Neg"),
-        ("Syphilis (WR)", "Non-reactive", "Non-reactive", "-", "Status", "Neg"),
-        ("Chlamydia IgG", "< 5.0", "< 5.0", "Negative", "Status", "Neg"),
+        ("HCV", "Non-reactive", "Non-reactive", "Non-reactive", "Status", "Non-reactive"),
+        ("Syphilis (WR)", "Non-reactive", "Non-reactive", "-", "Status", "Non-reactive"),
+        ("Chlamydia IgG", "< 5.0", "< 5.0", "negative", "Status", "Non-reactive"),
         ("Chlamydia IgM", "-", "2.7", "2.7", "Status", "< 9"),
         ("HSV IgG", "-", "1.35", "1.7", "Index", "< 0.9"),
-        ("HSV IgM", "-", "Negative", "Negative", "Status", "Neg")
+        ("HSV IgM", "-", "negative", "negative", "Status", "Non-reactive")
     ],
     "Heavy Metals (Urine)": [
         ("Arsenic", "-", "30.8", "-", "µg/l", "< 15.0"),

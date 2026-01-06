@@ -125,7 +125,7 @@
 
 |  | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **CRP (hs)** | 🔵 0.448 | 🔵 < 0.15 | 🔵 < 0.15 | mg/l | < 5.0 |
+| **CRP (hs)** | 🔵 0.448 | 🔵 < 0.15 | 🔵 not detected | mg/l | < 5.0 |
 | **IL-6** | - | 🔵 1.6 | - | pg/ml | < 7.0 |
 | **Calprotectin** | - | 🔵 0.41 | - | µg/mL | < 2.0 |
 | **Anti-TPO** | 🔵 12.30 | - | - | IU/ml | < 34.0 |
@@ -146,14 +146,14 @@
 
 |  | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **HIV** | Non-reactive | - | Non-reactive | Status | Neg |
+| **HIV** | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | Status | Non-reactive |
 | **HBs Ag** | 🔵 221.00 | 🔵 203.00 | - | Immune | > 10 |
-| **HCV** | Non-reactive | Non-reactive | Non-reactive | Status | Neg |
-| **Syphilis (WR)** | Non-reactive | Non-reactive | - | Status | Neg |
-| **Chlamydia IgG** | 🔵 < 5.0 | 🔵 < 5.0 | Negative | Status | Neg |
+| **HCV** | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | Status | Non-reactive |
+| **Syphilis (WR)** | 🔵 Non-reactive | 🔵 Non-reactive | - | Status | Non-reactive |
+| **Chlamydia IgG** | 🔵 < 5.0 | 🔵 < 5.0 | 🔵 negative | Status | Non-reactive |
 | **Chlamydia IgM** | - | 🔵 2.7 | 🔵 2.7 | Status | < 9 |
 | **HSV IgG** | - | 🟡 1.35 ↑ | 🟡 1.7 ↑ | Index | < 0.9 |
-| **HSV IgM** | - | Negative | Negative | Status | Neg |
+| **HSV IgM** | - | 🔵 negative | 🔵 negative | Status | Non-reactive |
 
 ## Heavy Metals (Urine)
 
