@@ -4,23 +4,22 @@ def lerp(a, b, t):
     return int(a + (b - a) * t)
 
 def get_color_hex(score):
-    # Palette Definition
-    # 0.00 - 0.20: Blues (Optimal)
-    # 0.20 - 0.60: Greens (Safe)
-    # 0.60 - 0.80: Yellow (Approaching Limit)
-    # 0.80 - 1.00: Oranges (Borderline/Limit)
-    # > 1.00: Reds (Abnormal)
+    # Palette Definition based on User Feedback
+    # 0.0 - 1.0: INSIDE RANGE (Blue -> Green)
+    # 1.0 - 1.5: JUST OUTSIDE (Yellow)
+    # 1.5 - 2.5: SIGNIFICANTLY OUTSIDE (Orange)
+    # > 2.5: CRITICAL (Red)
 
     stops = [
-        (0.00, (0, 0, 139), "🔵"),      # Dark Blue
-        (0.20, (0, 191, 255), "🔵"),    # Light Blue
-        (0.35, (0, 100, 0), "🟢"),      # Dark Green
-        (0.50, (50, 205, 50), "🟢"),    # Light Green
-        (0.70, (255, 215, 0), "🟡"),    # Yellow
-        (0.85, (255, 165, 0), "🟠"),    # Light Orange
-        (1.00, (255, 69, 0), "🟠"),     # Dark Orange (Limit)
-        (1.25, (220, 53, 69), "🔴"),    # Light Red
-        (1.50, (139, 0, 0), "🔴")       # Dark Red
+        (0.00, (0, 0, 139), "🔵"),      # Dark Blue (Optimal)
+        (0.40, (0, 191, 255), "🔵"),    # Light Blue (Good)
+        (0.70, (0, 128, 0), "🟢"),      # Dark Green (Normal)
+        (1.00, (50, 205, 50), "🟢"),    # Light Green (Limit of Normal)
+        (1.10, (255, 215, 0), "🟡"),    # Yellow (Just Outside)
+        (1.50, (255, 165, 0), "🟠"),    # Orange (Significant Deviation)
+        (2.50, (255, 69, 0), "🟠"),     # Dark Orange (High Deviation)
+        (3.00, (220, 53, 69), "🔴"),    # Red (Critical)
+        (4.00, (139, 0, 0), "🔴")       # Dark Red
     ]
 
     if score < 0: score = 0
@@ -49,10 +48,17 @@ def get_color_hex(score):
 
     hex_color = f"#{r:02x}{g:02x}{b:02x}"
     
-    # Determine Emoji (based on closest stop or simple logic)
-    # Using the 'upper' stop's emoji usually works well to indicate 'entering' that zone,
-    # or simply use the dominant color of the range.
-    emoji = upper[2] if score > lower[0] else lower[2]
+    # Determine Emoji strictly by zone
+    if score <= 0.6:
+        emoji = "🔵" # Optimal/Good
+    elif score <= 1.00001: # Epsilon for float precision
+        emoji = "🟢" # Normal
+    elif score <= 1.5:
+        emoji = "🟡" # Caution
+    elif score <= 2.5:
+        emoji = "🟠" # Warning
+    else:
+        emoji = "🔴" # Critical
     
     return hex_color, emoji
 
