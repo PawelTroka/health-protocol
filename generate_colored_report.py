@@ -4,30 +4,23 @@ def lerp(a, b, t):
     return int(a + (b - a) * t)
 
 def get_color_hex(score):
-    # Palette Definition (Score -> Color)
-    # 0.0: Optimal (Center)
-    # 1.0: Limit of Normal
-    # >1.0: Abnormal
-    
-    # Stops:
-    # 0.00: Dark Blue
-    # 0.25: Light Blue
-    # 0.50: Teal / Green
-    # 0.75: Yellow
-    # 1.00: Light Orange (Limit)
-    # 1.25: Dark Orange
-    # 1.50: Light Red
-    # 2.00: Dark Red
-    
+    # Palette Definition
+    # 0.00 - 0.20: Blues (Optimal)
+    # 0.20 - 0.60: Greens (Safe)
+    # 0.60 - 0.80: Yellow (Approaching Limit)
+    # 0.80 - 1.00: Oranges (Borderline/Limit)
+    # > 1.00: Reds (Abnormal)
+
     stops = [
-        (0.00, (0, 0, 139)),      # Dark Blue
-        (0.25, (0, 191, 255)),    # Deep Sky Blue (Light Blue)
-        (0.50, (32, 201, 151)),   # Teal
-        (0.75, (255, 215, 0)),    # Gold / Yellow
-        (1.00, (255, 165, 0)),    # Orange (Light Orange)
-        (1.25, (255, 69, 0)),     # Orange Red (Dark Orange)
-        (1.50, (220, 53, 69)),    # Red (Light Red / Standard Red)
-        (2.00, (139, 0, 0))       # Dark Red
+        (0.00, (0, 0, 139), "🔵"),      # Dark Blue
+        (0.20, (0, 191, 255), "🔵"),    # Light Blue
+        (0.35, (0, 100, 0), "🟢"),      # Dark Green
+        (0.50, (50, 205, 50), "🟢"),    # Light Green
+        (0.70, (255, 215, 0), "🟡"),    # Yellow
+        (0.85, (255, 165, 0), "🟠"),    # Light Orange
+        (1.00, (255, 69, 0), "🟠"),     # Dark Orange (Limit)
+        (1.25, (220, 53, 69), "🔴"),    # Light Red
+        (1.50, (139, 0, 0), "🔴")       # Dark Red
     ]
 
     if score < 0: score = 0
@@ -43,19 +36,25 @@ def get_color_hex(score):
             upper = s
             break
             
+    # Interpolate Color
     if lower == upper:
         r, g, b = lower[1]
     else:
-        # Interpolate
         t = (score - lower[0]) / (upper[0] - lower[0])
         c1 = lower[1]
         c2 = upper[1]
-        
         r = lerp(c1[0], c2[0], t)
         g = lerp(c1[1], c2[1], t)
         b = lerp(c1[2], c2[2], t)
 
-    return f"#{r:02x}{g:02x}{b:02x}"
+    hex_color = f"#{r:02x}{g:02x}{b:02x}"
+    
+    # Determine Emoji (based on closest stop or simple logic)
+    # Using the 'upper' stop's emoji usually works well to indicate 'entering' that zone,
+    # or simply use the dominant color of the range.
+    emoji = upper[2] if score > lower[0] else lower[2]
+    
+    return hex_color, emoji
 
 def calculate_score(val_str, ref_range):
     if val_str == "—" or val_str is None:
@@ -79,7 +78,7 @@ def calculate_score(val_str, ref_range):
         target = (low + high) / 2.0
         half_width = (high - low) / 2.0
         
-        if half_width == 0: return 0 # Avoid div by zero
+        if half_width == 0: return 0
         
         dist = abs(val - target)
         score = dist / half_width 
@@ -90,42 +89,40 @@ def calculate_score(val_str, ref_range):
     if m_less:
         limit = float(m_less.group(1))
         if val <= limit:
-            # 0 to limit maps to 0.0 to 1.0 (Blue to Orange)
-            # But usually < X means 0 is good. 
-            # Let's say 0 is Optimal (0.0), Limit is 1.0.
+            # 0 is Optimal (0.0), Limit is 1.0.
             return (val / limit) * 1.0 
         else:
-            # Above limit
             return 1.0 + (val - limit) / limit
 
     # Limit "> A"
     m_more = re.match(r'>\s*([\d.]+)', ref_range)
     if m_more:
         limit = float(m_more.group(1))
-        # > 60. Optimal is higher.
-        # Let's arbitrarily say limit*2 is "perfect" (0.0)
-        # and limit is 1.0.
+        # Optimum is higher.
         optimum = limit * 2.0
         
         if val >= limit:
             if val >= optimum: return 0.0
-            # Map limit..optimum to 1.0..0.0
             return 1.0 - ((val - limit) / (optimum - limit))
         else:
-            # Below limit (Bad)
-            # 1.0 + distance relative to limit
             return 1.0 + ((limit - val) / limit)
             
     return 0.5 
 
-def format_cell(val, ref):
+def format_cell_html(val, ref):
     score = calculate_score(val, ref)
     if score is None:
         return val
-    
-    color = get_color_hex(score)
-    # Using font tag for better compatibility if spans fail
-    return f'<font color="{color}"><b>{val}</b></font>'
+    color, _ = get_color_hex(score)
+    return f'<span style="color:{color}; font-weight:bold;">{val}</span>'
+
+def format_cell_md(val, ref):
+    score = calculate_score(val, ref)
+    if score is None:
+        return val
+    _, emoji = get_color_hex(score)
+    # GitHub doesn't color text, so we use the emoji.
+    return f'{emoji} {val}'
 
 # Data
 data = {
@@ -235,37 +232,71 @@ data = {
     ]
 }
 
-# Generate Markdown
-md = "# Health Protocol: Lab Results Comparison\n\n"
-md += "**Patient:** Paweł Troka  \n**DOB:** 14-02-1991\n\n"
-md += "### 🎨 Color Legend\n"
-md += "*   <font color=\"#00008b\"><b>● Dark Blue</b></font>: Optimal / Perfect Center\n"
-md += "*   <font color=\"#00bfff\"><b>● Light Blue</b></font>: Good / Near Center\n"
-md += "*   <font color=\"#20c997\"><b>● Teal</b></font>: Safe Zone\n"
-md += "*   <font color=\"#ffd700\"><b>● Yellow</b></font>: Approaching Limit\n"
-md += "*   <font color=\"#ffa500\"><b>● Light Orange</b></font>: At Limit / Borderline\n"
-md += "*   <font color=\"#ff4500\"><b>● Dark Orange</b></font>: Slight Deviation\n"
-md += "*   <font color=\"#dc3545\"><b>● Light Red</b></font>: Abnormal\n"
-md += "*   <font color=\"#8b0000\"><b>● Dark Red</b></font>: Critical / High Deviation\n\n"
-
-for category, rows in data.items():
-    md += f"## {category}\n\n"
-    md += "| Test Name | 2026-01 | 2025-05 | 2025-01 | Unit | Reference Range |\n"
-    md += "| :--- | :--- | :--- | :--- | :--- | :--- |\n"
+def generate_html_report():
+    html = "<html><head><style>"
+    html += "body { font-family: sans-serif; padding: 20px; }"
+    html += "table { border-collapse: collapse; width: 100%; }"
+    html += "th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }"
+    html += "th { background-color: #f2f2f2; }"
+    html += "</style></head><body>"
+    html += "<h1>Health Protocol: Lab Results Comparison</h1>"
+    html += "<p><b>Patient:</b> Paweł Troka<br><b>DOB:</b> 14-02-1991</p>"
     
-    for row in rows:
-        name, v1, v2, v3, unit, ref = row
-        
-        # Determine Ref Range column value (skip for Morphology/Inf if static)
-        # We use the 'ref' passed in tuple
-        
-        c1 = format_cell(v1, ref)
-        c2 = format_cell(v2, ref)
-        c3 = format_cell(v3, ref)
-        
-        md += f"| **{name}** | {c1} | {c2} | {c3} | {unit} | {ref} |\n"
-    
-    md += "\n"
+    html += "<h3>🎨 Color Legend</h3><ul>"
+    html += "<li><span style='color:#00008b; font-weight:bold;'>● Dark Blue</span>: Optimal</li>"
+    html += "<li><span style='color:#00bfff; font-weight:bold;'>● Light Blue</span>: Good</li>"
+    html += "<li><span style='color:#006400; font-weight:bold;'>● Dark Green</span>: Safe</li>"
+    html += "<li><span style='color:#32cd32; font-weight:bold;'>● Light Green</span>: Normal</li>"
+    html += "<li><span style='color:#ffd700; font-weight:bold;'>● Yellow</span>: Caution</li>"
+    html += "<li><span style='color:#ffa500; font-weight:bold;'>● Light Orange</span>: Borderline</li>"
+    html += "<li><span style='color:#ff4500; font-weight:bold;'>● Dark Orange</span>: Limit</li>"
+    html += "<li><span style='color:#dc3545; font-weight:bold;'>● Light Red</span>: Abnormal</li>"
+    html += "<li><span style='color:#8b0000; font-weight:bold;'>● Dark Red</span>: Critical</li>"
+    html += "</ul>"
 
-with open("results.md", "w", encoding="utf-8") as f:
-    f.write(md)
+    for category, rows in data.items():
+        html += f"<h2>{category}</h2>"
+        html += "<table><tr><th>Test Name</th><th>2026-01</th><th>2025-05</th><th>2025-01</th><th>Unit</th><th>Reference Range</th></tr>"
+        for row in rows:
+            name, v1, v2, v3, unit, ref = row
+            c1 = format_cell_html(v1, ref)
+            c2 = format_cell_html(v2, ref)
+            c3 = format_cell_html(v3, ref)
+            html += f"<tr><td><b>{name}</b></td><td>{c1}</td><td>{c2}</td><td>{c3}</td><td>{unit}</td><td>{ref}</td></tr>"
+        html += "</table>"
+    
+    html += "</body></html>"
+    
+    with open("results.html", "w", encoding="utf-8") as f:
+        f.write(html)
+
+def generate_md_report():
+    md = "# Health Protocol: Lab Results Comparison\n\n"
+    md += "**Patient:** Paweł Troka  \n**DOB:** 14-02-1991\n\n"
+    md += "### 🎨 Color Legend\n"
+    md += "*   🔵 **Blue**: Optimal / Good\n"
+    md += "*   🟢 **Green**: Safe / Normal\n"
+    md += "*   🟡 **Yellow**: Caution\n"
+    md += "*   🟠 **Orange**: Borderline / Limit\n"
+    md += "*   🔴 **Red**: Abnormal / Critical\n\n"
+    md += "> **Note:** See `results.html` for detailed color gradients.\n\n"
+
+    for category, rows in data.items():
+        md += f"## {category}\n\n"
+        md += "| Test Name | 2026-01 | 2025-05 | 2025-01 | Unit | Reference Range |\n"
+        md += "| :--- | :--- | :--- | :--- | :--- | :--- |\n"
+        
+        for row in rows:
+            name, v1, v2, v3, unit, ref = row
+            c1 = format_cell_md(v1, ref)
+            c2 = format_cell_md(v2, ref)
+            c3 = format_cell_md(v3, ref)
+            md += f"| **{name}** | {c1} | {c2} | {c3} | {unit} | {ref} |\n"
+        md += "\n"
+
+    with open("results.md", "w", encoding="utf-8") as f:
+        f.write(md)
+
+# Run both
+generate_html_report()
+generate_md_report()
