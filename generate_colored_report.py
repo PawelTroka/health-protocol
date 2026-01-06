@@ -215,7 +215,7 @@ data = {
         ("Vitamin E", "-", "9.5", "-", "mg/l", "5 - 20")
     ],
     "Immunology & Inflammation": [
-        ("CRP (hs)", "0.448", "-", "< 0.15", "mg/l", "< 5.0"),
+        ("CRP (hs)", "0.448", "< 0.15", "< 0.15", "mg/l", "< 5.0"),
         ("IL-6", "-", "1.6", "-", "pg/ml", "< 7.0"),
         ("Calprotectin", "-", "0.41", "-", "µg/mL", "< 2.0"),
         ("Anti-TPO", "12.30", "-", "-", "IU/ml", "< 34.0"),
@@ -230,12 +230,12 @@ data = {
         ("S-100", "-", "0.05", "-", "µg/l", "< 0.15")
     ],
     "Infectious Diseases": [
-        ("HIV", "-", "-", "Non-reactive", "Status", "Neg"),
+        ("HIV", "Non-reactive", "-", "Non-reactive", "Status", "Neg"),
         ("HBs Ag", "221.00", "203.00", "-", "Immune", "> 10"),
         ("HCV", "Non-reactive", "Non-reactive", "Non-reactive", "Status", "Neg"),
         ("Syphilis (WR)", "Non-reactive", "Non-reactive", "-", "Status", "Neg"),
-        ("Chlamydia IgG", "Negative", "Negative", "Negative", "Status", "Neg"),
-        ("Chlamydia IgM", "-", "5.8", "2.7", "Status", "< 9"),
+        ("Chlamydia IgG", "< 5.0", "< 5.0", "Negative", "Status", "Neg"),
+        ("Chlamydia IgM", "-", "2.7", "2.7", "Status", "< 9"),
         ("HSV IgG", "-", "1.35", "1.7", "Index", "< 0.9"),
         ("HSV IgM", "-", "Negative", "Negative", "Status", "Neg")
     ],
@@ -293,7 +293,7 @@ def generate_html_report():
         html += "<table><tr><th></th><th>2026-01</th>"
         if has_v2: html += "<th>2025-05</th>"
         if has_v3: html += "<th>2025-01</th>"
-        html += "<th>Unit</th><th><i>Reference Range</i></th></tr>"
+        html += "<th>Unit</th><th><i>Reference</i></th></tr>"
         
         for row in rows:
             name, v1, v2, v3, unit, ref = row
@@ -304,7 +304,7 @@ def generate_html_report():
             html += f"<tr><td><b>{name}</b></td><td>{c1}</td>"
             if has_v2: html += f"<td>{c2}</td>"
             if has_v3: html += f"<td>{c3}</td>"
-            html += f"<td>{unit}</td><td><i>{ref}</i></td></tr>"
+            html += f"<td>{unit}</td><td>{ref}</td></tr>"
         html += "</table>"
     
     # Legend
@@ -344,7 +344,7 @@ def generate_md_report():
         if has_v3:
             header += " 2025-01 |"
             sep += " :--- |"
-        header += " Unit | *Reference Range* |"
+        header += " Unit | *Reference* |"
         sep += " :--- | :--- |"
         
         md += header + "\n" + sep + "\n"
@@ -358,7 +358,7 @@ def generate_md_report():
             line = f"| **{name}** | {c1} |"
             if has_v2: line += f" {c2} |"
             if has_v3: line += f" {c3} |"
-            line += f" {unit} | *{ref}* |"
+            line += f" {unit} | {ref} |"
             md += line + "\n"
         md += "\n"
 
