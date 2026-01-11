@@ -126,27 +126,43 @@
 *2230kcal / 200g proteins / 128g fats / 108g carbs*
 
 ### Pre-breakfast (9am)
-- Morning supplements
+- [Morning supplements](#morning-fasted)
+- 500-1000ml of water
 
 ### Breakfast (10am)
 *115kcal / 26g proteins*
 - 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪 🛡️ 🦠
+- handful of berries
+- 1 tsp cocoa flavanols or cinnamon
 
-### Lunch (1pm)
-*1000kcal / 81g proteins / 60g fats / 60g carbs*
-- 300g of chicken tenderloins 💪 🍆 🧠
-- 100g of brown rice / whole grains pasta / quinoa / red/black lentils 🧠 🦠 🚽
-- 14g of extra virgin olive oil for cooking ❤️ 🧠 🔥
-- a handful of macadamia nuts ❤️ 🧠 ⏰
-- two pieces of dark chocolate ❤️ 🧠 😌
-- lunch supplements
+### 🍽️ Lunch (1:00 PM)
+*1000kcal / 67g proteins / 68g fats / 48g carbs*
 
-### Right before workout
-- 3g of creatine monohydrate 💪 🧠 🥊
-- 10g of BCAAs 💪 🛡️ ⏰
+- 🥩 70g of high-quality proteins — choose ONE (ranked)
+  - [x] 300 g raw turkey tenderloins 💪🧠
+  - [ ] 300 g raw chicken tenderloins 💪
+
+- 🍠 60g of complex carbohydrates — choose ONE (ranked)
+  - [x] 80g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️  
+  - [ ] 75g black lentils 🖤🦠🚽
+  - [ ] 75g red lentils ❤️🦠🚽
+  - [ ] 75g black beans 🫘🦠🚽
+  - [ ] 75g red kidney beans 🫘🦠🚽
+  - [ ] 90g orange sweet potatoes 🍠🧠
+
+- 🫒 Fats & extras
+  - 14 g extra virgin olive oil (for cooking) ❤️🧠🔥
+  - Handful of macadamia nuts ❤️🧠⏰
+  - 2 pieces of dark chocolate (85%+) ❤️🧠😌
+  - Lunch supplements
+
+
+### Before workout
+- [Before workout supplements](#before-workout)
 
 ### Right after workout
 *115kcal / 26g proteins*
+- [After workout supplements](#after-workout)
 - 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪 🛡️ 🦠
 
 ### Dinner (9pm)
