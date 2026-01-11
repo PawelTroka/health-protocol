@@ -139,7 +139,7 @@
 *1000kcal / 67g proteins / 68g fats / 48g carbs*
 - 🥩 70g of lean high-quality protein source — choose ONE (ranked)
   - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪🧠 (rinse with water first to remove sodium metabisulfite and salt)
-  - [ ] 10 organic free-range pasture eggs 💪
+  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
   - [ ] 400g of pasture-raised turkey tenderloins 💪🧠
   - [ ] 400g of pasture-raised chicken tenderloins 💪
 - 🍠 60g of complex carbohydrates — choose ONE (ranked)
@@ -168,7 +168,7 @@
 - 🥩 70g of fatty high-quality protein source — choose ONE (ranked)
   - [ ] 400g of wild-caught, fresh sardines 🧠 ❤️ 👁️ 🍆
   - [ ] 400g of Atlantic Mackerel 🧠 ❤️ 👁️ 🍆
-  - [ ] 10 organic free-range pasture eggs 💪
+  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
   - [x] 400g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠 ❤️ 👁️ 🍆
 - 🍠 50g of complex carbohydrates — choose ONE (ranked)
   - [x] 80g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️  
