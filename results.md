@@ -140,7 +140,7 @@
 | **CEA** | 🔵 2.9 | 🔵 2.2 | ng/ml | < 5.0 |
 | **AFP** | 🔵 2.84 | 🔵 2.0 | IU/ml | < 5.8 |
 | **CA 19-9** | 🔵 3.8 | 🔵 5.5 | U/ml | < 34.0 |
-| **S-100** | - | 🔵 0.05 | µg/l | < 0.15 |
+| **S-100** | 🔵 0.09 | 🔵 0.05 | µg/l | < 0.15 |
 
 ## Infectious Diseases
 
@@ -152,8 +152,8 @@
 | **Syphilis (WR)** | 🔵 Non-reactive | 🔵 Non-reactive | - | Status | Non-reactive |
 | **Chlamydia IgG** | 🔵 < 5.0 | 🔵 < 5.0 | 🔵 negative | Status | Non-reactive |
 | **Chlamydia IgM** | - | 🔵 2.7 | 🔵 2.7 | Status | < 9 |
-| **HSV IgG** | - | 🟡 1.35 ↑ | 🟡 1.7 ↑ | Index | < 0.9 |
-| **HSV IgM** | - | 🔵 negative | 🔵 negative | Status | Non-reactive |
+| **HSV IgG** | 🟢 0.79 | 🟡 1.35 ↑ | 🟡 1.7 ↑ | Index | < 0.9 |
+| **HSV IgM** | 🔵 < 0.5 | 🔵 negative | 🔵 negative | Index | < 0.9 |
 
 ## Heavy Metals (Urine)
 
@@ -163,7 +163,7 @@
 | **Cadmium** | - | 🔵 0.1 | ug/l | < 0.8 |
 | **Chromium** | - | 🔵 0.2 | ug/l | < 0.6 |
 | **Nickel** | - | 🔵 0.2 | µg/l | < 3.0 |
-| **Copper** | - | 🟢 3.15 | µg/l | 2.0 - 80.0 |
+| **Copper** | 🟢 4.26 | 🟢 3.15 | µg/l | 2.0 - 80.0 |
 
 > **Note:** Arsenic elevation is likely due to high consumption of salmon.
 
