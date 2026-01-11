@@ -137,12 +137,10 @@
 
 ### 🍽️ Lunch (1:00 PM)
 *1000kcal / 67g proteins / 68g fats / 48g carbs*
-
 - 🥩 70g of lean high-quality protein source — choose ONE (ranked)
   - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪🧠 (rinse with water first to remove sodium metabisulfite and salt)
   - [ ] 400g turkey tenderloins 💪🧠
   - [ ] 400g chicken tenderloins 💪
-
 - 🍠 60g of complex carbohydrates — choose ONE (ranked)
   - [x] 80g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️  
   - [ ] 75g black lentils 🖤🦠🚽
