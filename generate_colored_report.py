@@ -347,7 +347,7 @@ data = {
         ("HBs Ag", "221.00", "203.00", "-", "Immune", "> 10"),
         ("HCV", "Non-reactive", "Non-reactive", "Non-reactive", "Status", "Non-reactive"),
         ("Syphilis (WR)", "Non-reactive", "Non-reactive", "-", "Status", "Non-reactive"),
-        ("Chlamydia IgG", "< 5.0", "< 5.0", "negative", "Status", "Non-reactive"),
+        ("Chlamydia IgG", "< 5.0", "< 5.0", "negative", "AU/ml", "< 9"),
         ("Chlamydia IgM", "-", "2.7", "2.7", "Status", "< 9"),
         ("HSV IgG", "0.79", "1.35", "1.7", "Index", "< 0.9"),
         ("HSV IgM", "< 0.5", "negative", "negative", "Index", "< 0.9")
