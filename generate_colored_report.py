@@ -304,6 +304,7 @@ data = {
     ],
     "Cardiac Health & Coagulation": [
         ("Cholesterol LDL", "76", "74", "75", "mg/dl", "< 115"),
+        ("Cholesterol Non-HDL", "96", "-", "-", "mg/dL", "< 130"),
         ("Cholesterol HDL", "43", "35", "-", "mg/dL", "> 40"),
         ("Cholesterol Total", "138", "119", "-", "mg/dL", "< 190"),
         ("Triglycerides", "98", "48", "56", "mg/dL", "< 150"),
@@ -322,6 +323,7 @@ data = {
         ("Vitamin B12", "562", "928", "-", "pg/ml", "197 - 771"),
         ("Ferritin", "78", "134", "-", "ng/ml", "30 - 400"),
         ("Iron", "41", "98", "-", "µg/dl", "59 - 150"),
+        ("Transferrin", "3.00", "-", "-", "g/l", "2.00 - 3.60"),
         ("Folic Acid", "8.5", "17.0", "-", "ng/ml", "3.9 - 26.8"),
         ("Magnesium", "1.90", "2.13", "-", "mg/dl", "1.60 - 2.60"),
         ("Potassium", "4.2", "3.8", "-", "mmol/l", "3.5 - 5.1"),
