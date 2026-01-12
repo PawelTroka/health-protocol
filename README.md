@@ -156,8 +156,8 @@
 - 🥩 75g of lean high-quality protein — choose ONE (ranked)
   - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪🧠 (rinse with water first to remove sodium metabisulfite and salt)
   - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
-  - [ ] 360g of pasture-raised turkey tenderloins 💪🧠
-  - [ ] 360g of pasture-raised chicken tenderloins 💪
+  - [ ] 360g of [organic pasture-raised turkey tenderloins](https://www.spizarniarydzynska.pl/poledwiczki-z-indyka-0,5kg) 💪🧠
+  - [ ] 360g of organic pasture-raised chicken tenderloins 💪
 - 🍠 60g of complex carbohydrates — choose ONE (ranked)
   - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️
   - [ ] 100g black/red lentils 🖤❤️🦠🚽
