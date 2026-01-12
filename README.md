@@ -145,13 +145,13 @@
   - [ ] 360g of pasture-raised chicken tenderloins 💪
 - 🍠 60g of complex carbohydrates — choose ONE (ranked)
   - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️
-  - [ ] 100g black/red lentils 🖤🦠🚽
+  - [ ] 100g black/red lentils 🖤❤️🦠🚽
   - [ ] 100g chickpeas 🫘🦠🚽
   - [ ] 100g black/red beans 🫘🦠🚽
   - [ ] 355g orange sweet potatoes 🍠🧠
 - 14 g extra virgin olive oil (for cooking) ❤️🧠🔥
 - 20g of macadamia nuts (small handful) ❤️🧠⏰
-- 2 pieces of dark chocolate (85%+) ❤️🧠😌
+- 2 pieces of dark chocolate (85%+) ❤️🧠😌🛡️
 - Lunch supplements
 
 ### Right before workout
@@ -160,22 +160,22 @@
 ### Right after workout
 *115kcal / 26g proteins*
 - [After workout supplements](#after-workout)
-- 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪 🛡️ 🦠
+- 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪🛡️🦠
 
 ### Dinner (9pm)
 *1120kcal / 77g proteins / 61g fats / 65g carbs*
 - 🥩 75g of fatty high-quality protein with 47g fat — choose ONE (ranked)
-  - [ ] 360g of wild-caught, fresh sardines 🧠 ❤️ 👁️ 🍆
-  - [ ] 360g of Atlantic Mackerel 🧠 ❤️ 👁️ 🍆
+  - [ ] 360g of wild-caught, fresh sardines 🧠❤️👁️🍆
+  - [ ] 360g of Atlantic Mackerel 🧠❤️👁️🍆
   - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
-  - [x] 360g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠 ❤️ 👁️ 🍆
+  - [x] 360g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠❤️👁️🍆
 - 🍠 60g of complex carbohydrates — choose ONE (ranked)
   - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️
-  - [ ] 100g black/red lentils 🖤🦠🚽
+  - [ ] 100g black/red lentils 🖤❤️🦠🚽
   - [ ] 100g chickpeas 🫘🦠🚽
   - [ ] 100g black/red beans 🫘🦠🚽
   - [ ] 355g orange sweet potatoes 🍠🧠
-- 14g of extra virgin olive oil for cooking ❤️ 🧠 🔥
+- 14g of extra virgin olive oil for cooking ❤️🧠🔥
 - Before sleep supplements
 
 ### Healthy Spices
