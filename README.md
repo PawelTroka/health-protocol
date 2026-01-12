@@ -123,7 +123,7 @@
 - Running (1 hour once a week near the sea) 🫁 ❤️ 🧠 😌
 
 ## 4. Diet
-*2350kcal / 190g proteins / 90g fats / 180g carbs*
+*_XYZ_kcal / _XYZ_g proteins / _XYZ_g fats / _XYZ_g carbs*
 
 ### Pre-breakfast (9am)
 - [Morning supplements](#morning-fasted)
@@ -136,7 +136,7 @@
 - 1 tsp cocoa flavanols or cinnamon
 
 ### 🍽️ Lunch (1:00 PM)
-*1050kcal / 75g proteins / 45g fats / 90g carbs*
+*_XYZ_kcal / _XYZ_g proteins / _XYZ_g fats / _XYZ_g carbs*
 - 🥩 75g of lean high-quality protein — choose ONE (ranked)
   - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪🧠 (rinse with water first to remove sodium metabisulfite and salt)
   - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
@@ -162,8 +162,8 @@
 - 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪 🛡️ 🦠
 
 ### Dinner (9pm)
-*1050kcal / 60g proteins / 50g fats / 90g carbs*
-- 🥩 75g of fatty high-quality protein — choose ONE (ranked)
+*_XYZ_kcal / _XYZ_g proteins / _XYZ_g fats / _XYZ_g carbs*
+- 🥩 75g of fatty high-quality protein with _XYZ_ fat — choose ONE (ranked)
   - [ ] 360g of wild-caught, fresh sardines 🧠 ❤️ 👁️ 🍆
   - [ ] 360g of Atlantic Mackerel 🧠 ❤️ 👁️ 🍆
   - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
