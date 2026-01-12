@@ -213,7 +213,7 @@
 - Berries (Raspberries, strawberries, blueberries) 🧠 🛡️ ❤️ 👁️
 - Cinnamon 🩸 🔥 🧠
 - Sunflower lecithin 🧠 ❤️ 🍆
-- Brazil nuts / peanuts 🧠 🍆 🛡️
+- Brazil nuts 🧠 🍆 🛡️
 - Grapefruit juice 💊 🩸 🚽
 - Ground linseed 🫀 🚽 🔥
 - Cherries 😴 🔥 🛡️
