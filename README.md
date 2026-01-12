@@ -1,5 +1,20 @@
 # My Health Protocol 
 
+## Table of Contents
+- [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
+- [1. Promote good behaviors](#1-promote-good-behaviors)
+- [2. Testing](#2-testing)
+- [3. Exercise](#3-exercise)
+- [4. Diet](#4-diet)
+- [5. Supplements and drugs](#5-supplements-and-drugs)
+- [6. Looksmaxxing](#6-looksmaxxing)
+- [7. Cookware](#7-cookware)
+- [8. Environment](#8-environment)
+- [9. Vaccines](#9-vaccines)
+- [Legend](#legend)
+- [Notes](#notes)
+- [TODOs / Things to consider](#todos--things-to-consider)
+
 ## 0. Get rid of bad behaviors
 - ⛔️ smoking, vaping, drugs, alcohol
 - 🚫 sugar, sweets, junk food, fast food
@@ -152,7 +167,7 @@
 - 14 g extra virgin olive oil (for cooking) ❤️🧠🔥
 - 20g of macadamia nuts (small handful) ❤️🧠⏰
 - 2 pieces of dark chocolate (85%+) ❤️🧠😌🛡️
-- Lunch supplements
+- [Lunch supplements](#lunch)
 
 ### Right before workout
 - [Before workout supplements](#before-workout)
@@ -176,7 +191,7 @@
   - [ ] 100g black/red beans 🫘🦠🚽
   - [ ] 355g orange sweet potatoes 🍠🧠
 - 14g of extra virgin olive oil for cooking ❤️🧠🔥
-- Before sleep supplements
+- [Before sleep supplements](#evening)
 
 ### Healthy Spices
 - Turmeric 🔥 🧠 🛡️ ❤️
