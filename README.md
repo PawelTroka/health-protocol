@@ -123,35 +123,33 @@
 - Running (1 hour once a week near the sea) 🫁 ❤️ 🧠 😌
 
 ## 4. Diet
-*2230kcal / 200g proteins / 128g fats / 108g carbs*
+*2350kcal / 190g proteins / 90g fats / 180g carbs*
 
 ### Pre-breakfast (9am)
 - [Morning supplements](#morning-fasted)
 - 500-1000ml of water
 
 ### Breakfast (10am)
-*115kcal / 26g proteins*
+*150kcal / 26g proteins / 1g fats / 8g carbs*
 - 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪 🛡️ 🦠
 - handful of berries
 - 1 tsp cocoa flavanols or cinnamon
 
 ### 🍽️ Lunch (1:00 PM)
-*1000kcal / 67g proteins / 68g fats / 48g carbs*
-- 🥩 70g of lean high-quality protein source — choose ONE (ranked)
+*1050kcal / 75g proteins / 45g fats / 90g carbs*
+- 🥩 75g of lean high-quality protein — choose ONE (ranked)
   - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪🧠 (rinse with water first to remove sodium metabisulfite and salt)
   - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
-  - [ ] 400g of pasture-raised turkey tenderloins 💪🧠
-  - [ ] 400g of pasture-raised chicken tenderloins 💪
+  - [ ] 360g of pasture-raised turkey tenderloins 💪🧠
+  - [ ] 360g of pasture-raised chicken tenderloins 💪
 - 🍠 60g of complex carbohydrates — choose ONE (ranked)
-  - [x] 80g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️  
-  - [ ] 75g black lentils 🖤🦠🚽
-  - [ ] 75g red lentils ❤️🦠🚽
-  - [ ] 75g chickpeas 🫘🦠🚽
-  - [ ] 75g black beans 🫘🦠🚽
-  - [ ] 75g red kidney beans 🫘🦠🚽
-  - [ ] 90g orange sweet potatoes 🍠🧠
+  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️
+  - [ ] 100g black/red lentils 🖤🦠🚽
+  - [ ] 100g chickpeas 🫘🦠🚽
+  - [ ] 100g black/red beans 🫘🦠🚽
+  - [ ] 355g orange sweet potatoes 🍠🧠
 - 14 g extra virgin olive oil (for cooking) ❤️🧠🔥
-- Handful of macadamia nuts ❤️🧠⏰
+- 20g of macadamia nuts (small handful) ❤️🧠⏰
 - 2 pieces of dark chocolate (85%+) ❤️🧠😌
 - Lunch supplements
 
@@ -164,20 +162,18 @@
 - 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪 🛡️ 🦠
 
 ### Dinner (9pm)
-*1000kcal / 67g proteins / 68g fats / 48g carbs*
-- 🥩 70g of fatty high-quality protein source — choose ONE (ranked)
-  - [ ] 400g of wild-caught, fresh sardines 🧠 ❤️ 👁️ 🍆
-  - [ ] 400g of Atlantic Mackerel 🧠 ❤️ 👁️ 🍆
+*1050kcal / 60g proteins / 50g fats / 90g carbs*
+- 🥩 75g of fatty high-quality protein — choose ONE (ranked)
+  - [ ] 360g of wild-caught, fresh sardines 🧠 ❤️ 👁️ 🍆
+  - [ ] 360g of Atlantic Mackerel 🧠 ❤️ 👁️ 🍆
   - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
-  - [x] 400g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠 ❤️ 👁️ 🍆
-- 🍠 50g of complex carbohydrates — choose ONE (ranked)
-  - [x] 80g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️  
-  - [ ] 75g black lentils 🖤🦠🚽
-  - [ ] 75g red lentils ❤️🦠🚽
-  - [ ] 75g chickpeas 🫘🦠🚽
-  - [ ] 75g black beans 🫘🦠🚽
-  - [ ] 75g red kidney beans 🫘🦠🚽
-  - [ ] 90g orange sweet potatoes 🍠🧠
+  - [x] 360g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠 ❤️ 👁️ 🍆
+- 🍠 60g of complex carbohydrates — choose ONE (ranked)
+  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️
+  - [ ] 100g black/red lentils 🖤🦠🚽
+  - [ ] 100g chickpeas 🫘🦠🚽
+  - [ ] 100g black/red beans 🫘🦠🚽
+  - [ ] 355g orange sweet potatoes 🍠🧠
 - 14g of extra virgin olive oil for cooking ❤️ 🧠 🔥
 - Before sleep supplements
 
