@@ -228,7 +228,8 @@ data = {
         ("Biological Age", "29.0", "-", "-", "years", "< 34.9"),
         ("Chronological Age", "34.9", "-", "-", "years", "-"),
         ("Age Difference", "-5.9", "-", "-", "years", "-10.0 - 0.0"),
-        ("Relative Difference", "-16.9", "-", "-", "%", "-30.0 - 0.0")
+        ("Relative Difference", "-16.9", "-", "-", "%", "-30.0 - 0.0"),
+        ("Relative Difference (>18)", "-34.9", "-", "-", "%", "-50.0 - 0.0")
     ],
     "Morphology": [
         ("Hemoglobin", "15.40", "16.00", "15.70", "g/dL", "13.0 - 18.0"),
