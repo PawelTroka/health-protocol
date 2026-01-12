@@ -123,7 +123,7 @@
 - Running (1 hour once a week near the sea) 🫁 ❤️ 🧠 😌
 
 ## 4. Diet
-**Protein-sparing Mediterranean CR**
+#### Protein-sparing Mediterranean CR
 *2370kcal / 211g proteins / 104g fats / 148g carbs*
 
 ### Pre-breakfast (9am)
