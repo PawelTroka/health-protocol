@@ -1,6 +1,6 @@
 # My Health Protocol 
 
-## Table of Contents
+## Table of Importance
 - [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
 - [1. Promote good behaviors](#1-promote-good-behaviors)
 - [2. Testing](#2-testing)
