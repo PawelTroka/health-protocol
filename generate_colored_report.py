@@ -110,7 +110,7 @@ def calculate_score(val_str, ref_range):
     if val_str.strip() == ref_range.strip() and "<" in val_str:
         return 0.0
 
-    val_clean = re.sub(r'[^\d.<>]', '', val_str.split('(')[0]) 
+    val_clean = re.sub(r'[^\d.<>-]', '', val_str.split('(')[0]) 
     if not val_clean: return None
     
     try:
@@ -118,7 +118,7 @@ def calculate_score(val_str, ref_range):
     except ValueError:
         return None
 
-    m_range = re.match(r'([\d.]+)\s*-\s*([\d.]+)', ref_range)
+    m_range = re.match(r'([-\d.]+)\s*-\s*([-\d.]+)', ref_range)
     if m_range:
         low = float(m_range.group(1))
         high = float(m_range.group(2))
@@ -129,15 +129,15 @@ def calculate_score(val_str, ref_range):
         score = dist / half_width 
         return score
 
-    m_less = re.match(r'<\s*([\d.]+)', ref_range)
+    m_less = re.match(r'<\s*([-\d.]+)', ref_range)
     if m_less:
         limit = float(m_less.group(1))
         if val <= limit:
-            return (val / limit) * 1.0 
+            return (val / limit) * 1.0 if limit != 0 else 0.0
         else:
-            return 1.0 + (val - limit) / limit
+            return 1.0 + (val - limit) / limit if limit != 0 else 1.0
 
-    m_more = re.match(r'>\s*([\d.]+)', ref_range)
+    m_more = re.match(r'>\s*([-\d.]+)', ref_range)
     if m_more:
         limit = float(m_more.group(1))
         optimum = limit * 2.0
@@ -145,7 +145,7 @@ def calculate_score(val_str, ref_range):
             if val >= optimum: return 0.0
             return 1.0 - ((val - limit) / (optimum - limit))
         else:
-            return 1.0 + ((limit - val) / limit)
+            return 1.0 + ((limit - val) / limit) if limit != 0 else 1.0
             
     return 0.5 
 
@@ -227,7 +227,8 @@ data = {
     "Biological Age": [
         ("Biological Age", "29.0", "-", "-", "years", "< 34.9"),
         ("Chronological Age", "34.9", "-", "-", "years", "-"),
-        ("Age Difference", "-5.9", "-", "-", "years", "-10.0 - 0.0")
+        ("Age Difference", "-5.9", "-", "-", "years", "-10.0 - 0.0"),
+        ("Relative Difference", "-16.9", "-", "-", "%", "-30.0 - 0.0")
     ],
     "Morphology": [
         ("Hemoglobin", "15.40", "16.00", "15.70", "g/dL", "13.0 - 18.0"),
