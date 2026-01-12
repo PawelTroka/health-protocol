@@ -301,7 +301,7 @@ data = {
         ("Cholesterol Total", "138", "119", "-", "mg/dL", "< 190"),
         ("Triglycerides", "98", "48", "56", "mg/dL", "< 150"),
         ("Lipoprotein (a)", "< 7.00", "-", "-", "nmol/l", "< 75"),
-        ("Homocysteine", "-", "6.60", "6.50", "umol/l", "< 15.0"),
+        ("Homocysteine", "6.74", "6.60", "6.50", "umol/l", "< 15.0"),
         ("NT-proBNP", "22.9", "22.9", "< 10.0", "pg/ml", "< 125"),
         ("Creatine Kinase (CK)", "153", "-", "-", "U/L", "20 - 200"),
         ("Myoglobin", "24.30", "42.60", "-", "ng/ml", "23 - 72"),
@@ -325,7 +325,8 @@ data = {
         ("Vitamin B6", "-", "58.6", "-", "µg/l", "5.7 - 55.1"),
         ("Vitamin B1", "-", "69.1", "-", "µg/l", "33.1 - 60.7"),
         ("Vitamin A", "-", "0.47", "-", "mg/l", "0.3 - 0.7"),
-        ("Vitamin E", "-", "9.5", "-", "mg/l", "5 - 20")
+        ("Vitamin E", "-", "9.5", "-", "mg/l", "5 - 20"),
+        ("Vitamin C", "4.6", "-", "-", "µg/ml", "4 - 15")
     ],
     "Immunology & Inflammation": [
         ("CRP (hs)", "0.448", "< 0.15", "not detected", "mg/l", "< 5.0"),
