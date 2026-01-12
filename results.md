@@ -1,5 +1,13 @@
 # Health Protocol: Lab Results Comparison
 
+## Biological Age
+
+|  | 2026-01 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **Biological Age** | 🟢 29.0 | years | < 34.9 |
+| **Chronological Age** | 🔵 34.9 | years | - |
+| **Age Difference** | 🔵 -5.9 | years | -10.0 - 0.0 |
+
 ## Morphology
 
 |  | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |

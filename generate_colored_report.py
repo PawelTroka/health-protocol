@@ -224,6 +224,11 @@ def format_cell_md_urine(val, ref):
 # Data Reorganized
 # Using "-" for missing values as requested
 data = {
+    "Biological Age": [
+        ("Biological Age", "29.0", "-", "-", "years", "< 34.9"),
+        ("Chronological Age", "34.9", "-", "-", "years", "-"),
+        ("Age Difference", "-5.9", "-", "-", "years", "-10.0 - 0.0")
+    ],
     "Morphology": [
         ("Hemoglobin", "15.40", "16.00", "15.70", "g/dL", "13.0 - 18.0"),
         ("Hematocrit", "45.9", "46.6", "47.1", "%", "40 - 52"),
