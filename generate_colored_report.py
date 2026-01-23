@@ -362,12 +362,13 @@ data = {
         ("HSV IgG", "0.79", "1.35", "1.7", "Index", "< 0.9"),
         ("HSV IgM", "< 0.5", "negative", "negative", "Index", "< 0.9")
     ],
-    "Heavy Metals (Urine)": [
-        ("Arsenic", "-", "30.8", "-", "µg/l", "< 15.0"),
+    "Toxicology (Urine)": [
+        ("Arsenic", "11.8", "30.8", "-", "µg/l", "< 15.0"),
         ("Cadmium", "0.1", "0.1", "-", "ug/l", "< 0.8"),
         ("Chromium", "1.0", "0.2", "-", "ug/l", "< 0.6"),
         ("Nickel", "0.5", "0.2", "-", "µg/l", "< 3.0"),
-        ("Copper", "4.26", "3.15", "-", "µg/l", "2.0 - 80.0")
+        ("Copper", "4.26", "3.15", "-", "µg/l", "2.0 - 80.0"),
+        ("Glyphosate", "< 0.60", "-", "-", "ng/ml", "< 1.40")
     ],
     "Proteinogram": [
         ("Albumin", "62.3", "-", "-", "%", "55.8 - 66.1"),
@@ -400,7 +401,7 @@ data = {
 # Category-specific notes
 category_notes = {
     "Hormonal Panel": "Progesterone is likely elevated due to daily intake of 0.5mg dutasteride. Prolactin elevation is likely due to high sexual activity prior to testing.",
-    "Heavy Metals (Urine)": "Arsenic elevation is likely due to high consumption of salmon."
+    "Toxicology (Urine)": "Arsenic elevation (in 2025-05) was likely due to high consumption of salmon."
 }
 
 def generate_html_report():

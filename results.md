@@ -168,17 +168,18 @@
 | **HSV IgG** | 🟢 0.79 | 🟡 1.35 ↑ | 🟡 1.7 ↑ | Index | < 0.9 |
 | **HSV IgM** | 🔵 < 0.5 | 🔵 negative | 🔵 negative | Index | < 0.9 |
 
-## Heavy Metals (Urine)
+## Toxicology (Urine)
 
 |  | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- |
-| **Arsenic** | - | 🟠 30.8 ↑ | µg/l | < 15.0 |
+| **Arsenic** | 🟢 11.8 | 🟠 30.8 ↑ | µg/l | < 15.0 |
 | **Cadmium** | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8 |
 | **Chromium** | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6 |
 | **Nickel** | 🔵 0.5 | 🔵 0.2 | µg/l | < 3.0 |
 | **Copper** | 🟢 4.26 | 🟢 3.15 | µg/l | 2.0 - 80.0 |
+| **Glyphosate** | 🔵 < 0.60 | - | ng/ml | < 1.40 |
 
-> **Note:** Arsenic elevation is likely due to high consumption of salmon.
+> **Note:** Arsenic elevation (in 2025-05) was likely due to high consumption of salmon.
 
 ## Proteinogram
 
