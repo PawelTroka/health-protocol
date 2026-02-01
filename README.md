@@ -373,7 +373,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Use of [hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) / [dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) / [dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) to increase absorption
 - [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304)
 - Application of [castor oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) (Weekly)
-- PRP (mid March, mid July) at [Elizaveta Purtova](sms:+48501329921) (Twice a year)
+- PRP (mid March, mid July) at Elizaveta Purtova (+48-501-329-921) (Twice a year)
 - Exosomes (mid November) at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (Once a year)
 
 ### Eyebrows
