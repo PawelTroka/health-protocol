@@ -73,66 +73,80 @@
 
 ## 3. Exercise
 
-### Gym Workouts (7 times a week, Push/Pull/Legs + Active Recovery + Core on every workout)
+### Gym Workouts (7 times a week, PPL + Active Recovery + Aesthetics & Longevity Focus)
 
-#### **Monday (Push - Chest, Delts, Triceps)** 💪 ❤️ 🧠
-- Incline Dumbbell Press: 4 × 8-10 reps @ 30–34 kg each
-- Cable Crossover (Upper Chest Focus): 3 × 12-15 reps @ 12–15 kg/side
-- Seated Arnold Press (light/moderate): 3 × 10-12 reps @ 18–22 kg each
-- Lateral Raises (strict tempo): 3 × 10-12 reps @ 8–10 kg each
-- Overhead Cable Tricep Extension: 4 × 12-15 reps @ 25–30 kg
-- **Core**: Cable Crunches: 3 × 15-20 reps @ 35–45 kg
+**Safety & Longevity Protocol:**
+- **Hernia Prevention:** ⚠️ CRITICAL. Do not hold your breath (Valsalva) during max exertion if you are prone to hernias. Exhale forcefully through pursed lips during the concentric (lifting) phase to manage intra-abdominal pressure. Focus on contracting the Transverse Abdominis (deep core) before every lift.
+- **Joint Health:** 🛑 No ego lifting. Use a **3-0-1-0 tempo** (3 seconds lowering, 0 pause, 1 second up, 0 pause). The slow eccentric phase builds more muscle and spares joints compared to bouncing weights.
+- **Neck Training:** Start very light. The neck grows fast but is delicate.
+- **Leg Aesthetics:** 🛑 Avoid "wide quads" (outer sweep). Focus on Glutes, Hamstrings, and Calves for an athletic, streamlined look that doesn't shorten the visual leg length.
 
-#### **Tuesday (Pull - Back, Biceps)** 💪 ❤️
-- Lat Pulldown (close-neutral grip): 4 × 10 reps @ 70–80 kg
-- Machine Row or Chest-Supported Row: 3 × 8-10 reps @ 70–90 kg
-- Face Pulls (light, high reps): 3 × 15 reps @ 15–20 kg/side
-- Incline Dumbbell Curl: 3 × 10-12 reps @ 14–16 kg each
-- Hammer Curl: 3 × 12 reps @ 16–18 kg each
-- **Core**: Hanging Leg Raises: 3 × 10-12 reps (slow tempo) (add 2–3 kg ankle weights if easy)
+#### **Monday (Push - Upper Chest, Side Delts, Neck)** 💪 🧠 📐
+*Focus: Upper shelf of chest and shoulder width for the V-taper.*
+- **Incline Dumbbell Press** (15-30° incline): 3 × 8-10 reps (Deep stretch, don't lock out elbows to keep tension on chest)
+- **Cable Lateral Raises** (Behind back): 4 × 12-15 reps (Crucial for shoulder width/3D look)
+- **Machine Incline Press** or **Smith Machine Incline**: 3 × 10-12 reps (Safe overload for upper chest)
+- **Neck Flexion** (Lying on bench, plate on forehead): 3 × 15-20 reps ⚠️ (Start with 2.5kg or 5kg, slow tempo)
+- **Overhead Cable Tricep Extension**: 3 × 12-15 reps (Long head of tricep for arm size)
+- **Core**: **Cable Crunches**: 3 × 15-20 reps (Keep hips stationary, curl with abs, exhale fully on contraction)
 
-#### **Wednesday (Legs - Glute/Quad Focus)** 💪 ❤️ 🫀
-- Bulgarian Split Squats: 3 × 10 reps/leg @ 24–28 kg each hand
-- Hip Thrust: 4 × 10 reps @ 120–140 kg
-- Leg Press (feet high + wide): 3 × 12 reps @ 220–260 kg
-- Seated Hamstring Curl: 3 × 12 reps @ 55–65 kg
-- Calf Raise: 4 × 15-20 reps @ 80–100 kg
-- **Core**: Ab Wheel Rollouts: 3 × 10 reps (knees if needed)
+#### **Tuesday (Pull - Lats/Width, Biceps, Forearms)** 💪 🧱
+*Focus: Wide back for V-taper and forearm thickness.*
+- **Weighted Pull-ups** (or Assisted): 3 × 8-10 reps (The king of V-taper. Full range of motion)
+- **Chest-Supported T-Bar Row**: 3 × 10-12 reps (Chest support removes lower back strain/hernia risk)
+- **Single Arm Lat Pulldown** (Iliac focus): 3 × 12 reps/side (Great stretch for lower lats)
+- **Reverse EZ Bar Curls**: 3 × 12-15 reps (Targets Brachialis & Forearms for width)
+- **Hammer Curls**: 3 × 10-12 reps (Brachialis & Forearm thickness)
+- **Face Pulls**: 3 × 15-20 reps (Rotator cuff health & posture)
+- **Core**: **Hanging Leg Raises**: 3 × 10-12 reps (Control the swing, focus on pelvic tilt)
 
-#### **Thursday (Active Recovery / Optional Cardio)** 🫁 ❤️ 😌
-- Sauna + Light mobility
-- Walk or cycling: 30-45 mins
-- Optional: Yoga or deep core work
+#### **Wednesday (Legs - Glute/Hamstring Dominant, Minimal Quad Sweep)** 💪 🦵 🩸
+*Focus: Athletic posterior chain. Avoid "bodybuilder" quad sweep.*
+- **Bulgarian Split Squats**: 3 × 10 reps/leg (Use a **LONG STRIDE** to target Glutes. Vertical shin to minimize Quad activation.)
+- **Hip Thrusts**: 3 × 10-12 reps (Best for glutes/sexual health strength. Squeeze at top)
+- **Leg Press** (Feet High & Wide): 3 × 10-12 reps (High placement shifts focus to Glutes/Hams. Do not place feet low.)
+- **Seated Hamstring Curl**: 3 × 12-15 reps
+- **Calf Raises** (Leg Press or Standing): 4 × 15-20 reps (Slow negative!)
+- **Core**: **Dead Bug**: 3 × 60s (Deep core stability, excellent for hernia prevention)
 
-#### **Friday (Push 2 - Delt Emphasis)** 💪 ❤️ 🧠
-- Machine Shoulder Press: 3 × 10 reps @ 55–65 kg
-- Lateral Raise Dropset: 3 × (15 > 10 > 8) reps @ 10-6 kg
-- Incline Bench Press: 3 × 8 reps @ 80–90 kg
-- Cable Front Raise: 3 × 12 reps @ 12–14 kg/side
-- Overhead Dumbbell Tricep Press: 3 × 10-12 reps @ 34–38 kg total
-- **Core**: Decline Situps + Plate: 3 × 12-15 reps @ 15–20 kg
+#### **Thursday (Active Recovery & Longevity)** 🫁 ❤️ 🧘
+*Focus: Blood flow, joint lubrication, stress reduction.*
+- **Zone 2 Cardio**: 45-60 mins (Incline walk, cycling, or elliptical. Nasal breathing only. Crucial for mitochondrial health and longevity)
+- **Sauna**: 20 mins (Heat shock proteins for cellular repair)
+- **Neck Mobility**: Chin tucks, gentle rotations.
 
-#### **Saturday (Pull 2 - Upper Back / Arms)** 💪 ❤️
-- Pull-ups or Assisted Pull-ups: 3 × 8-10 reps (add 5–10 kg if easy)
-- T-bar Row (chest supported): 4 × 10 reps @ 60–70 kg
-- Rear Delt Fly: 3 × 15 reps @ 8–10 kg each
-- EZ Bar Curl: 3 × 10 reps @ 35–40 kg
-- Concentration Curl: 3 × 12 reps each arm @ 12–14 kg each
-- **Core**: Russian Twists: 3 × 20 reps @ 10–15 kg plate
+#### **Friday (Push 2 - Shoulder Cap Emphasis)** 💪 📐
+*Focus: The "capped" shoulder look.*
+- **Seated Dumbbell Shoulder Press**: 3 × 8-10 reps (Don't flare elbows fully, keep them slightly tucked)
+- **Dumbbell Lateral Raises** (Dropset): 3 × (15 reps heavy → 15 reps light) (Metabolic stress for growth)
+- **Chest Dips** (weighted if possible): 3 × 10-12 reps (Lean forward for chest/lower chest)
+- **Neck Extension** (Using harness or plate on back of head): 3 × 15-20 reps (Thickens the back of the neck)
+- **Tricep Pushdowns**: 3 × 12-15 reps
+- **Core**: **Plank to Push-up**: 3 × 15 reps (Dynamic stability)
 
-#### **Sunday (Legs 2 - Hamstring/Glute Focus)** 💪 ❤️ 🫀
-- RDL with Dumbbells: 4 × 10 reps @ 34–38 kg each
-- Step-Ups (moderate load): 3 × 12 reps each leg @ 18–22 kg each hand
-- Lying Ham Curl: 3 × 12 reps @ 40–50 kg
-- Glute Kickbacks: 3 × 15 reps each leg @ 12–15 kg
-- Calf Raises: 4 × 20 reps @ 70–90 kg
-- **Core**: Weighted Planks: 3 × 60s @ 20–30 kg plate
+#### **Saturday (Pull 2 - Upper Back & Thickness)** 💪 🦍
+*Focus: Thick upper back and posture.*
+- **Sternum Pull-ups** (Gironda Pull-ups): 3 × max reps (Lean back, touch lower chest to bar. Insane upper back activation)
+- **Meadows Row** or **Dumbbell Row**: 3 × 10-12 reps/side (Stretch focus)
+- **Rear Delt Fly** (Machine or Dumbbell): 4 × 15-20 reps (Rear delts are key for 3D shoulders)
+- **Incline Dumbbell Curls**: 3 × 10-12 reps (Stretch peak of biceps)
+- **Wrist Curls** (Behind back with barbell): 3 × 15-20 reps (Forearm flexors)
+- **Core**: **Russian Twists**: 3 × 20 reps (Obliques for the "framed" look)
+
+#### **Sunday (Legs 2 - Hamstring/Posterior Chain Only)** 💪 🍑
+*Focus: Posterior chain for athletic performance. Zero direct quad work.*
+- **Romanian Deadlift (Dumbbells)**: 3 × 10-12 reps (Safer than barbell for hernias as weight is closer to center of mass. Keep back flat!)
+- **Walking Lunges**: 3 × 20 steps (Use **LONG STRIDES**. Short strides build Quads, long strides build Glutes.)
+- **Lying Leg Curl**: 3 × 12-15 reps
+- **Glute Kickbacks**: 3 × 15 reps
+- **Tibialis Raises**: 3 × 20 reps (Bulletproof ankles/knees)
+- **Core**: **Vacuum Exercises**: 4 × 30s holds (Strengthens Transverse Abdominis for tight waist/hernia protection)
 
 
 ### Additional activities
-- Climbing (2 hours once a week)
-- Dancing (2 hours once a week)
-- Fighting (To Be Determined) 🥊 💪 🧠
+- Climbing (2 hours once a week) - *Great for forearms and functional strength*
+- Dancing (2 hours once a week) - *Coordination and social skills*
+- Fighting (To Be Determined) 🥊 💪 🧠 - *Confidence and conditioning*
 
 ### Outdoor Activity
 - Running (1 hour once a week near the sea) 🫁 ❤️ 🧠 😌
