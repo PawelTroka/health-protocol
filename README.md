@@ -74,68 +74,75 @@
 ## 3. Exercise
 
 ### Gym Workouts (7 times a week, Push/Pull/Legs + Active Recovery + Core on every workout)
+*Philosophy: Aesthetics (Looksmaxxing) + Longevity. No heavy spinal loading (Hernia prevention). No Quads/Obliques (Waist narrowing).*
 
-#### **Monday (Push - Chest, Delts, Triceps)** 💪 ❤️ 🧠
-- Incline Dumbbell Press: 4 × 8-10 reps @ 30–34 kg each
-- Cable Crossover (Upper Chest Focus): 3 × 12-15 reps @ 12–15 kg/side
-- Seated Arnold Press (light/moderate): 3 × 10-12 reps @ 18–22 kg each
-- Lateral Raises (strict tempo): 3 × 10-12 reps @ 8–10 kg each
-- Overhead Cable Tricep Extension: 4 × 12-15 reps @ 25–30 kg
-- **Core**: Cable Crunches: 3 × 15-20 reps @ 35–45 kg
+#### **Monday (Push - Upper Chest, Side Delts, Neck)**
+*Focus: Upper Shelf, Ribcage, & Masculine Neck*
+- **Ribcage**: Dumbbell Pullovers (Cross-bench): 3 × 12-15 reps (Stretch focus - expands cartilage) 🗿
+- **Upper Chest**: Incline Dumbbell Press (30° incline): 4 × 10-12 reps @ 30–34 kg 🗿
+- **Side Delts**: Cable Lateral Raises (Behind the back): 4 × 15-20 reps (Constant tension) 🗿
+- **Neck**: Lying Neck Curls (Plate on forehead): 3 × 15-20 reps (Start light!) 🗿
+- **Triceps**: Overhead Cable Extension (Long head): 3 × 12-15 reps 🗿
+- **Core**: Hanging Leg Raises (Toes to bar): 3 × 10-12 reps (V-cut focus, no swinging) 🗿🐢
 
-#### **Tuesday (Pull - Back, Biceps)** 💪 ❤️
-- Lat Pulldown (close-neutral grip): 4 × 10 reps @ 70–80 kg
-- Machine Row or Chest-Supported Row: 3 × 8-10 reps @ 70–90 kg
-- Face Pulls (light, high reps): 3 × 15 reps @ 15–20 kg/side
-- Incline Dumbbell Curl: 3 × 10-12 reps @ 14–16 kg each
-- Hammer Curl: 3 × 12 reps @ 16–18 kg each
-- **Core**: Hanging Leg Raises: 3 × 10-12 reps (slow tempo) (add 2–3 kg ankle weights if easy)
+#### **Tuesday (Pull - Lats, Biceps, Forearms)**
+*Focus: V-Taper Width & Arm Veins*
+- **Lats (Width)**: Weighted Pull-ups (Wide grip): 3 × 8-10 reps 🗿🐢
+- **Lats (Stretch)**: Lat Pulldown (Neutral grip): 3 × 12 reps (Focus on stretch at top) 🗿
+- **Mid-Back**: Chest-Supported Machine Row: 3 × 12 reps (Save lower back) 🐢
+- **Biceps**: Incline Dumbbell Curl: 3 × 10-12 reps (Long head stretch) 🗿
+- **Forearms**: Reverse Barbell Curls: 3 × 15 reps (Brachioradialis) 🗿
+- **Core**: Cable Crunches: 3 × 15-20 reps (Rectus abdominis only) 🗿
 
-#### **Wednesday (Legs - Glute/Quad Focus)** 💪 ❤️ 🫀
-- Bulgarian Split Squats: 3 × 10 reps/leg @ 24–28 kg each hand
-- Hip Thrust: 4 × 10 reps @ 120–140 kg
-- Leg Press (feet high + wide): 3 × 12 reps @ 220–260 kg
-- Seated Hamstring Curl: 3 × 12 reps @ 55–65 kg
-- Calf Raise: 4 × 15-20 reps @ 80–100 kg
-- **Core**: Ab Wheel Rollouts: 3 × 10 reps (knees if needed)
+#### **Wednesday (Glutes/Hams - No Quads)**
+*Focus: Sex Appeal, Hip Power, Joint Preservation*
+- **Glutes**: Hip Thrusts: 4 × 10 reps @ 120–140 kg (Hold at top) 🗿🐢
+- **Hamstrings**: Seated Hamstring Curl: 4 × 12-15 reps (Strict form) 🐢
+- **Glutes**: 45° Hyperextensions (Rounded back, glute squeeze): 3 × 15 reps 🗿🐢
+- **Neck**: Neck Extensions (Harness or plate on back of head): 3 × 15-20 reps 🗿
+- **Core**: Stomach Vacuums: 4 × 20-30s holds (Transverse Abdominis for narrow waist) 🗿🐢
 
-#### **Thursday (Active Recovery / Optional Cardio)** 🫁 ❤️ 😌
-- Sauna + Light mobility
-- Walk or cycling: 30-45 mins
-- Optional: Yoga or deep core work
+#### **Thursday (Active Recovery / Cardio)**
+*Focus: Longevity, Skin Health, Joint Lubrication*
+- Sauna (20 mins) 🐢👨‍🦳
+- LISS Cardio: Incline Walk or Cycling (Zone 2 heart rate): 45 mins 🐢🫀
+- Rotator Cuff: Face Pulls: 3 × 20 reps (Light) 🐢
+- Stretching: Full body static stretching 🐢
 
-#### **Friday (Push 2 - Delt Emphasis)** 💪 ❤️ 🧠
-- Machine Shoulder Press: 3 × 10 reps @ 55–65 kg
-- Lateral Raise Dropset: 3 × (15 > 10 > 8) reps @ 10-6 kg
-- Incline Bench Press: 3 × 8 reps @ 80–90 kg
-- Cable Front Raise: 3 × 12 reps @ 12–14 kg/side
-- Overhead Dumbbell Tricep Press: 3 × 10-12 reps @ 34–38 kg total
-- **Core**: Decline Situps + Plate: 3 × 12-15 reps @ 15–20 kg
+#### **Friday (Push 2 - Shoulders & Upper Chest)**
+*Focus: Maximum Width & "Polished" Look*
+- **Shoulders**: Seated Dumbbell Press: 3 × 10-12 reps (Safe shoulder support) 🗿
+- **Side Delts**: Machine Lateral Raises (Dropset): 3 × (15 > 10 > 10 reps) 🗿
+- **Upper Chest**: Incline Machine Press or Smith Machine Incline: 3 × 12 reps 🗿
+- **Triceps**: Tricep Rope Pushdowns: 3 × 15 reps 🗿
+- **Neck**: Side Neck Raises (Plate on side of head): 2 × 15 reps each side 🗿
+- **Core**: Lying Leg Raises (Floor): 3 × 15 reps 🗿
 
-#### **Saturday (Pull 2 - Upper Back / Arms)** 💪 ❤️
-- Pull-ups or Assisted Pull-ups: 3 × 8-10 reps (add 5–10 kg if easy)
-- T-bar Row (chest supported): 4 × 10 reps @ 60–70 kg
-- Rear Delt Fly: 3 × 15 reps @ 8–10 kg each
-- EZ Bar Curl: 3 × 10 reps @ 35–40 kg
-- Concentration Curl: 3 × 12 reps each arm @ 12–14 kg each
-- **Core**: Russian Twists: 3 × 20 reps @ 10–15 kg plate
+#### **Saturday (Pull 2 - Arms & Detail)**
+*Focus: Bicep Peaks & Forearm Thickness*
+- **Lats**: Straight-Arm Cable Pulldowns: 3 × 15 reps (Isolate lats without biceps) 🗿
+- **Rear Delts**: Reverse Pec Deck: 3 × 20 reps 🐢🗿
+- **Biceps**: Preacher Curls (Machine or EZ Bar): 3 × 12 reps (Target short head/peak) 🗿
+- **Forearms**: Behind-the-back Wrist Curls (Barbell): 3 × 15-20 reps 🗿
+- **Forearms**: Hammer Curls (Rope or DB): 3 × 12 reps 🗿
+- **Core**: Cable Crunches: 3 × 15 reps 🗿
 
-#### **Sunday (Legs 2 - Hamstring/Glute Focus)** 💪 ❤️ 🫀
-- RDL with Dumbbells: 4 × 10 reps @ 34–38 kg each
-- Step-Ups (moderate load): 3 × 12 reps each leg @ 18–22 kg each hand
-- Lying Ham Curl: 3 × 12 reps @ 40–50 kg
-- Glute Kickbacks: 3 × 15 reps each leg @ 12–15 kg
-- Calf Raises: 4 × 20 reps @ 70–90 kg
-- **Core**: Weighted Planks: 3 × 60s @ 20–30 kg plate
+#### **Sunday (Posterior Chain / Recovery)**
+*Focus: Healthy Back & Glutes*
+- **Hamstrings**: Lying Leg Curls: 3 × 12-15 reps 🐢
+- **Glutes**: Glute Kickbacks (Cable or Machine): 3 × 15 reps 🗿
+- **Calves**: Seated Calf Raises: 4 × 15-20 reps 🗿
+- **Mobility**: Thoracic spine extensions (Foam roller) 🐢
+- **Core**: Plank: 3 × 60s (Core stability) 🐢
 
 
 ### Additional activities
-- Climbing (2 hours once a week)
-- Dancing (2 hours once a week)
-- Fighting (To Be Determined) 🥊 💪 🧠
+- Climbing (2 hours once a week) 🐢🗿
+- Dancing (2 hours once a week) 🗿🐢
+- Fighting (To Be Determined) 🥊 💪 🧠 🐢
 
 ### Outdoor Activity
-- Running (1 hour once a week near the sea) 🫁 ❤️ 🧠 😌
+- Running (1 hour once a week near the sea) 🫁 ❤️ 🧠 😌 🐢
 
 ## 4. Diet
 #### Protein-sparing Mediterranean CR
