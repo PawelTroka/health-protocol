@@ -328,7 +328,10 @@ There are actual studies that confirm if you look younger and better you are mor
 - [Incognito](https://orthodonticassoc.com/treatments/incognito/) lingual orthodontic braces if uneven/crooked teeth or bite
 - Mandibular osteotomy (Bilateral Sagittal Split Osteotomy (BSSO) / jawline advancement) if orthodontics alone are not enough to fix bite/jaw alignment issues
 - Wear retainers (nightly) if after orthodontic treatment
-- 0.2% chlorhexidine mouthwash like [Curasept](https://allegro.pl/oferta/plyn-do-plukania-curasept-ads-dna-220-chlorhexidine-0-20-200-ml-16510740761) or non-alcohol mouthwash like [Listerine Zero](https://allegro.pl/oferta/listerine-cool-mint-zero-bez-alkoholu-plyn-do-plukania-ust-1l-1000ml-9775677304) (Twice daily)
+- Mouthwash protocol:
+  - After professional dentist cleaning: 0.2% chlorhexidine mouthwash like [Curasept](https://allegro.pl/oferta/plyn-do-plukania-curasept-ads-dna-220-chlorhexidine-0-20-200-ml-16510740761) (for a week)
+  - When using orthodontic braces: [Eludril Ortho](https://allegro.pl/produkt/eludril-ortho-ortodontyczny-plyn-do-plukania-jamy-ustnej-500-ml-a905bf84-1178-4f98-b31b-3da919da2410) (Twice daily)
+  - For normal care: non-alcohol mouthwash like [Listerine Zero](https://allegro.pl/oferta/listerine-cool-mint-zero-bez-alkoholu-plyn-do-plukania-ust-1l-1000ml-9775677304) (Twice daily)
 - Water flosser [waterpik ultra professional WP660](https://www.amazon.pl/Waterpik-Professional-Zaawansowana-Ci%C5%9Bnienia-WP-660EU) (Twice daily)
 - Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and medical-grade toothpaste with aminofluoride like [Elmex Sensitive Professional](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) or nano-hydroxyapatite (n-HA) alternative like Risewell Mineral if afraid of fluoride (Twice daily)
 - Tongue scraper (daily)
