@@ -454,7 +454,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 ### Clean air
 - Monitor [outside air quality](https://www.iqair.com/air-quality-map/poland/pomerania/gdansk) religiously and don't go out when its worse than moderate, limit going out when its moderate
 - Monitor inside air quality using [Airthings View Plus](https://www.airthings.com/view-plus) or [IQAir AirVisual Pro](https://www.iqair.com/products/air-quality-monitors/airvisual-pro-indoor-monitor)
-- Use extremely strong air purifier at home (especially bedroom) with 600+ CADR, at least 3 filtration stages, ionization and humidifier like [Electrolux PURE 900 600 m3/h](https://www.electroluxgroup.com/en/meet-our-most-sustainable-air-purifier-43766/)
+- Use extremely strong air purifier at home (especially bedroom) with 600+ CADR, at least 3 filtration stages, 1100+ ml/h humidifier and 50,000+ ions/cm³ Plasmacluster like [Sharp KI-TX100EU-W](https://loveair.pl/oczyszczacz/sharp-ki-tx100eu-w)
 
 
 ## 9. Vaccines
@@ -545,7 +545,6 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Add water filter better and more convenient than UC-200
 - Find gym shaker with zero microplastics emission that is small and dishwasher friendly
 - Find water bottle with zero microplastics emission that is large and dishwasher friendly, possibly made from multiple smaller pieces that can be disassembled for easy cleaning
-- Find the best air purifier and humidifier and ionizer with smart capabilities
 - Find zero-plastics cookware
 - Find zero-plastics gymwear
 
