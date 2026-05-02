@@ -56,8 +56,10 @@
 ### Diagnostic Imaging
 - Abdominal USG (Yearly)
 - Neck USG (Thyroid & Lymph nodes) (Yearly)
-- 3D CT Scans (Yearly)
+- Whole Body MRI (Yearly)
+- DEXA Scan (Yearly)
 - RTG (X-Ray) imaging (As needed)
+- 3D CT Scans (As needed)
 
 ### Specialist Screenings
 - Skin Cancer Check (Dermatoscopy) (Yearly)
