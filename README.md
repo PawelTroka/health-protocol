@@ -421,11 +421,13 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 - Magnetic and chromium-rich for superior corrosion resistance
 - Uncoated (no Teflon or ceramic layers that can degrade)
 - Recommended options:
-  - [YATO Professional Kitchen Equipment 24cm](https://allegro.pl/oferta/yato-patelnia-gastronomiczna-indukcja-gaz-pro-24cm-14023675438)
-    *Restaurant-quality pan compatible with all cooktops*
-  - [SKOTTSBERG STAINLESS STEEL 24 CM INDUCTION K3](https://allegro.pl/oferta/skottsberg-patelnia-ze-stali-nierdzewnej-stainless-steel-24-cm-indukcja-k3-17004514428)
-    *Alternative option with excellent heat distribution*
-  - [YATO Professional Kitchen Equipment 36cm](https://allegro.pl/oferta/patelnia-ze-stali-nierdzewnej-36cm-16370023721)
+  - [YATO Professional Kitchen Equipment 28cm](https://allegro.pl/oferta/patelnia-ss-28cm-yg-00102-yato-18500339045)
+    *Medium-size, highly recommended option for most daily meals*
+  - (Optional) [YATO Professional Kitchen Equipment 24cm](https://allegro.pl/oferta/yato-patelnia-gastronomiczna-indukcja-gaz-pro-24cm-14023675438)
+    *Smaller pan*
+  - (Optional) [SKOTTSBERG STAINLESS STEEL 24 CM INDUCTION K3](https://allegro.pl/oferta/skottsberg-patelnia-ze-stali-nierdzewnej-stainless-steel-24-cm-indukcja-k3-17004514428)
+    *Alternative smaller option with excellent heat distribution*
+  - (Optional) [YATO Professional Kitchen Equipment 36cm](https://allegro.pl/oferta/patelnia-ze-stali-nierdzewnej-36cm-16370023721)
     *Larger pan for family-sized meals and batch cooking*
 
 ### Cooking pot set
