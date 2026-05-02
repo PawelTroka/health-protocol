@@ -322,6 +322,12 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - Metformin 500mg TBD 🩸 ⏰ 🧠
 - 2x [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475) 🚽 🦠 🩸
 
+### Peptides
+- [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) 🩹 🛡️ 🫀
+- [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳 🛡️
+- [Thymosin Alpha-1 5mg](https://pro-body.com/pl/produkt/thymosin-alpha-1-5mg/) (when about to be sick 1.5mg every 3 days) 🛡️ 🦠 🫁
+- (Optional) [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🩹 🏃‍♂️
+- [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⚖️
 
 ## 6. Looksmaxxing
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
