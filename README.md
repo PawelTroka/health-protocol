@@ -181,7 +181,7 @@
 *1120kcal / 77g proteins / 61g fats / 65g carbs*
 - 🥩 75g of fatty high-quality protein with 47g fat — choose ONE (ranked)
   - [ ] 360g of wild-caught, fresh [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🧠❤️👁️🍆
-  - [ ] 360g of [Atlantic Mackerel](https://allegro.pl/produkt/filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin-vilgain-0-19-kg-ddc68e7e-44e3-4f99-91d2-0496722753a5) 🧠❤️👁️🍆
+  - [ ] 360g of [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🧠❤️👁️🍆
   - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
   - [x] 360g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠❤️👁️🍆
 - 🍠 60g of complex carbohydrates — choose ONE (ranked)
