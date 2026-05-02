@@ -459,6 +459,18 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Monitor inside air quality using [Airthings View Plus](https://www.airthings.com/view-plus) or [IQAir AirVisual Pro](https://www.iqair.com/products/air-quality-monitors/airvisual-pro-indoor-monitor)
 - Use extremely strong air purifier at home (especially bedroom) with 600+ CADR, at least 3 filtration stages, 1100+ ml/h humidifier and 50,000+ ions/cm³ Plasmacluster like [Sharp KI-TX100EU-W](https://loveair.pl/oczyszczacz/sharp-ki-tx100eu-w)
 
+### Hygiene
+- For face drying, use single-use **100% organic cotton** towels to prevent acne and bacterial transfer:
+  - [Standard face towels (20x20cm)](https://allegro.pl/oferta/cottico-jednorazowe-reczniki-do-twarzy-100-bawelna-20x20-80szt-18034581599)
+  - [Small travel face towels (15x20cm)](https://allegro.pl/oferta/cottico-jednorazowe-reczniki-do-twarzy-100-bawelna-15x20-50szt-18034588939)
+- Use **100% organic cotton** hotel-grade towels for daily bathing and travel to ensure optimal hygiene:
+  - [Large bath towels (70x140cm)](https://allegro.pl/oferta/4x-duzy-recznik-hotelowy-70x140cm-4-sztuki-500g-95c-chlonny-hotel-reczniki-16079223421)
+  - [Small travel towels (50x100cm)](https://allegro.pl/oferta/4x-maly-recznik-hotelowy-50x100cm-4-sztuki-500g-95c-chlonny-hotel-reczniki-16720240015)
+  - **Health parameters**:
+    - **100% Cotton & Oeko-Tex Standard 100**: Free from harmful chemicals, microplastics, and synthetic endocrine disruptors.
+    - **500g/m² weight & Ring-Spun double yarn**: High absorbency and durability, leaving no moisture on the skin which prevents fungal and bacterial growth.
+    - **Washable at 95°C**: Crucial for true sterilization. Washing at boiling temperatures effectively kills bacteria, viruses, mites, and mold that survive regular washes.
+
 
 ## 9. Vaccines
 - Tuberculosis (BCG)	(given in childhood) ✅
