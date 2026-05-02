@@ -204,7 +204,7 @@
 - Extra virgin olive oil ❤️ 🧠 🔥 ⏰
 - Dark chocolate ❤️ 🧠 😌 🛡️
 - Macadamia nuts ❤️ 🧠 ⏰
-- Shiitake and maitake mushrooms 🛡️ 🦠 🧠 ⏰
+- [Shiitake mushrooms](https://allegro.pl/produkt/kapelusze-shitake-grzybek-suszone-weganskie-500-g-02d5a7de-7cee-43e0-b890-d2c5559e4281?offerId=12880841828) and maitake mushrooms 🛡️ 🦠 🧠 ⏰
 - Broccoli / cauliflower 🛡️ 🦠 🍅
 - Lime 🍋 🦠 🚽
 - Hemp seeds 🧠 ❤️ 🔥
