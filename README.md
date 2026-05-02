@@ -7,10 +7,11 @@
 - [3. Exercise](#3-exercise)
 - [4. Diet](#4-diet)
 - [5. Supplements and drugs](#5-supplements-and-drugs)
-- [6. Looksmaxxing](#6-looksmaxxing)
-- [7. Cookware](#7-cookware)
-- [8. Environment](#8-environment)
-- [9. Vaccines](#9-vaccines)
+- [6. Peptides](#6-peptides)
+- [7. Looksmaxxing](#7-looksmaxxing)
+- [8. Cookware](#8-cookware)
+- [9. Environment](#9-environment)
+- [10. Vaccines](#10-vaccines)
 - [Legend](#legend)
 - [Notes](#notes)
 - [TODOs / Things to consider](#todos--things-to-consider)
@@ -322,14 +323,14 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - Metformin 500mg TBD 🩸 ⏰ 🧠
 - 2x [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475) 🚽 🦠 🩸
 
-### Peptides
-- [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) 🩹 🛡️ 🫀
+## 6. Peptides
+- [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) 🦴 🛡️ 🫀
 - [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳 🛡️
-- [Thymosin Alpha-1 5mg](https://pro-body.com/pl/produkt/thymosin-alpha-1-5mg/) (when about to be sick 1.5mg every 3 days) 🛡️ 🦠 🫁
-- (Optional) [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🩹 🏃‍♂️
-- [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⚖️
+- [Thymosin Alpha-1 5mg](https://pro-body.com/pl/produkt/thymosin-alpha-1-5mg/) (when about to be sick 1.5mg every 3 days) 🛡️ 🔥 🫁
+- (Optional) [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🦴 🥊
+- [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⏰
 
-## 6. Looksmaxxing
+## 7. Looksmaxxing
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
 
 ### Oral health / teethmaxxing
@@ -406,7 +407,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - (Optional) VASER High-Definition Lipo
 
 
-## 7. Cookware
+## 8. Cookware
 My kitchen is equipped only with materials that prioritize health and safety. I avoid microplastics and synthetic materials in favor of biologically neutral, natural options including:
 - Stainless steel
 - Natural untreated wood
@@ -480,7 +481,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
     - **Washable at 95°C**: Crucial for true sterilization. Washing at boiling temperatures effectively kills bacteria, viruses, mites, and mold that survive regular washes.
 
 
-## 9. Vaccines
+## 10. Vaccines
 - Tuberculosis (BCG)	(given in childhood) ✅
 - Haemophilus influenzae type b (Hib) (given in childhood) ✅
 - Diphtheria‑Pertussis-Tetanus-Polio (dTpa-IPV) (every 10 years, next 2029-08-21) ✅
