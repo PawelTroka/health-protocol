@@ -554,16 +554,16 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## TODOs / Things to consider
-- Add mercury testing
-- Add tadalafil 5mg daily microdosing
+- Add [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) daily microdosing 🍆 ❤️ 🫀 🍅
+- Add [Isotretinoin (Acutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) microdosing once or twice per week
 - Consider [Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/) for improving body composition
+- Add mercury testing
 - Add PP405 for hair density when available
 - Add Pyrilutamide (KX-826) for hair density when available
 - Consider myostatin / activin A inhibitors like Apitegromab or Bimagrumab or Trevogrumab or Garetosmab when available
 - Add Catalase for Gray hair reversal
 - Consider Alpha-lipoic acid (ALA)
 - Add Tongkat Ali?
-- Add Isotretinoin microdosing (Acutane) ?
 - Add fat-burner like alpha yohimbine ?
 - Add Tesamorelin or AOD-9604 for abdominal fat reduction ?
 - Add zinc/zma/dhea/d3/daa?
