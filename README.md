@@ -460,6 +460,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Monitor [outside air quality](https://www.iqair.com/air-quality-map/poland/pomerania/gdansk) religiously and don't go out when its worse than moderate, limit going out when its moderate
 - Monitor inside air quality using [Airthings View Plus](https://www.airthings.com/view-plus) or [IQAir AirVisual Pro](https://www.iqair.com/products/air-quality-monitors/airvisual-pro-indoor-monitor)
 - Use extremely strong air purifier at home (especially bedroom) with 600+ CADR, at least 3 filtration stages, 1100+ ml/h humidifier and 50,000+ ions/cm³ Plasmacluster like [Sharp KI-TX100EU-W](https://loveair.pl/oczyszczacz/sharp-ki-tx100eu-w)
+- (alternative) If you already have optimal humidity, use a dedicated high-performance purifier like [IQAir HealthPro Plus](https://www.iqair.com/us/products/air-purifiers/healthpro-plus?Model=XE)
 
 ### Hygiene
 - For face drying, use single-use **100% organic cotton** towels to prevent acne and bacterial transfer:
