@@ -203,10 +203,15 @@
 
 ### Healthy Additions (to meals / during meals / after meals)
 - Extra virgin olive oil ❤️ 🧠 🔥 ⏰
+- [Broccoli sprouts](https://allegro.pl/listing?string=nasiona%20na%20kie%C5%82ki%20broku%C5%82a%20bio) 🛡️ 🦠 ⏰ (Sulforaphane powerhouse, 10-100x higher than mature broccoli)
+- [White Matcha](https://allegro.pl/listing?string=bia%C5%82a%20matcha%20proszek) 🧠 ❤️ 🛡️ ⏰ (Stone-ground white tea, extremely high in delicate polyphenols and flavonoids)
 - Berries (Raspberries, strawberries, blueberries) 🧠 🛡️ ❤️ 👁️
 - Broccoli / cauliflower 🛡️ 🦠 🍅
+- Kimchi / Sauerkraut 🦠 🛡️ 🔥 (Essential for microbiome diversity and lowering systemic inflammation)
 - Cocoa flavanols ❤️ 🧠 🛡️
 - Dark chocolate ❤️ 🧠 😌 🛡️
+- Avocado ❤️ 🧠 🌾 (Highest source of monounsaturated fats, potassium, and fiber)
+- Pomegranate ❤️ ⏰ 🔥 (Arterial health and precursor for Urolithin A)
 - [Shiitake mushrooms](https://allegro.pl/produkt/kapelusze-shitake-grzybek-suszone-weganskie-500-g-02d5a7de-7cee-43e0-b890-d2c5559e4281?offerId=12880841828) and maitake mushrooms 🛡️ 🦠 🧠 ⏰
 - Ground linseed 🫀 🚽 🔥
 - Chia seeds 🫀 🚽 🧠
