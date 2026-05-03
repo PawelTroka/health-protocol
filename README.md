@@ -310,8 +310,8 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-240-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17173926212) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
 - Optional [Melatonin 1mg](https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158) 😴 ⏰ 🛡️
 - [Glucosamine Sulfate 2KCl 1500mg](https://nuunutrition.com/products/glucosamine-sulphate-1500-mg-2kcl-tablets) <sup>4,5</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
-- [Dutasteride 0.5mg (e2d)](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) 💇‍♂️ 🍅
-- [Minoxidil 2.5mg](https://sons.co.uk/products/oral-capsule) 💇‍♂️ 🧔
+- [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) (e2d) 💇‍♂️ 🍅 ⚕️
+- [Minoxidil 5mg](https://hairrepairclinic.co.uk/product/oral-minoxidil-5mg) 💇‍♂️ 🧔 ⚕️
 - [Sodium Butyrate 600mg](https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216) 🦠 🧠 🛡️ ⏰
 - 3x [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
 - [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924)
@@ -320,7 +320,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - Lithium 1mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧠 😌 ⏰
 - Red Yeast Extract 500mg TBD [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🫀
 - Proferrin 20mg TBD 🩸 💪 🧠
-- Metformin 500mg TBD 🩸 ⏰ 🧠
+- Metformin 500mg TBD 🩸 ⏰ 🧠 ⚕️
 - 2x [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475) 🚽 🦠 🩸
 
 ## 6. Looksmaxxing
@@ -347,7 +347,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - (Alternative moisturizer) [Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (daily) 👨‍🦳 💧
 - [Resurfacing retinol serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (nightly)
 - SPF50 [mineral](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) or [with Bemotrizinol](https://allegro.pl/oferta/la-roche-posay-anthelios-uvmune-400-spf50-fluid-invisible-50ml-17373050756)
-- Tretinoin 0.05-0.1% or [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (Weekly or bi-weekly) 👨‍🦳 ⏰
+- Tretinoin 0.05-0.1% or [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (Weekly or bi-weekly) 👨‍🦳 ⏰ ⚕️
 - [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
 - SNAP-8 peptide 👨‍🦳 ⏰
 - GHK-Cu peptide 👨‍🦳 ⏰
@@ -501,8 +501,8 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳 🛡️
 - [Thymosin Alpha-1 5mg](https://pro-body.com/pl/produkt/thymosin-alpha-1-5mg/) (when about to be sick 1.5mg every 3 days) 🛡️ 🔥 🫁
 - (Optional) [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🦴 🥊
-- [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⏰
-  - (alternative) [Mounjaro 2.5mg](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (if looking for heavier cutting)
+- [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⏰ ⚕️
+  - (alternative) [Mounjaro 2.5mg](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) 🩸 ❤️ ⏰ ⚕️
 
 ## Legend
 - TBD - To Be Decided, we were unable to find a good supplement for this compound on polish market
@@ -513,6 +513,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - BJ-ES - [Bryan Johnson Essential Softgel](https://blueprint.bryanjohnson.com/products/essential-softgels)
 - BJ-NGC - [Bryan Johnson NAC + Ginger + Curcumin](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)
 - BJ-RYG - [Bryan Johnson Red Yeast Garlic](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)
+- ⚕️ Requires [prescription (Rx)](https://erecepty24.pl)
 - 💪 Muscle growth/recovery
 - ❤️ Heart health/cardiovascular benefits
 - 🧠 Brain health/cognitive function
@@ -555,9 +556,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## TODOs / Things to consider
-- Add [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) daily microdosing 🍆 ❤️ 🫀 🍅
-- Add [Isotretinoin (Acutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) microdosing once or twice per week
-- Consider [Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/) for improving body composition
+- Add [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) daily microdosing 🍆 ❤️ 🫀 🍅 ⚕️
+- Add [Isotretinoin (Acutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) microdosing once or twice per week 👨‍🦳 ⏰ ⚕️
+- Consider [Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/) for improving body composition 🩸 ❤️ ⏰ ⚕️
 - Add mercury testing
 - Add PP405 for hair density when available
 - Add Pyrilutamide (KX-826) for hair density when available
