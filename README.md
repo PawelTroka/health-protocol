@@ -30,7 +30,7 @@
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ## 1. Promote good behaviors
-- Sauna (3 times a week)
+- Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release)
 - Red Light Therapy
 - Cold exposure	(4 times a week)
 - Meditation / breathwork (daily)
