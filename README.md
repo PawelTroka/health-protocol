@@ -501,8 +501,8 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳 🛡️
 - [Thymosin Alpha-1 5mg](https://pro-body.com/pl/produkt/thymosin-alpha-1-5mg/) (when about to be sick 1.5mg every 3 days) 🛡️ 🔥 🫁
 - (Optional) [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🦴 🥊
-- [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⏰ ⚕️
-  - (alternative) [Mounjaro 2.5mg](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) 🩸 ❤️ ⏰ ⚕️
+- [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⏰
+  - (alternative) [Mounjaro 2.4 ml](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) 🩸 ❤️ ⏰ ⚕️
 
 ## Legend
 - TBD - To Be Decided, we were unable to find a good supplement for this compound on polish market
@@ -558,7 +558,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 ## TODOs / Things to consider
 - Add [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) daily microdosing 🍆 ❤️ 🫀 🍅 ⚕️
 - Add [Isotretinoin (Acutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) microdosing once or twice per week 👨‍🦳 ⏰ ⚕️
-- Consider [Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/) for improving body composition 🩸 ❤️ ⏰ ⚕️
+- Consider [Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/) for improving body composition 🩸 ❤️ ⏰
 - Add mercury testing
 - Add PP405 for hair density when available
 - Add Pyrilutamide (KX-826) for hair density when available
