@@ -30,13 +30,13 @@
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ## 1. Promote good behaviors
-- Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release)
-- Red Light Therapy
-- Cold exposure	(4 times a week)
-- Meditation / breathwork (daily)
-- Walks (daily)
-- Stretching (6 times a week)
-- Sleep tracking (daily)
+- Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
+- Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
+- Cold exposure	(4 times a week) 🔥 🛡️ ⚡
+- Meditation / breathwork (daily) 🧠 😌
+- Walks (daily) 🫁 ❤️
+- Stretching (6 times a week) 🦴 💪
+- Sleep tracking (daily) 😴
 
 ## 2. Testing
 
@@ -115,7 +115,7 @@
 - Overhead Dumbbell Tricep Press: 3 × 10-12 reps @ 34–38 kg total
 - **Core**: Decline Situps + Plate: 3 × 12-15 reps @ 15–20 kg
 
-#### **Saturday (Pull 2 - Upper Back / Arms)** 💪 ❤️
+#### **Saturday (Pull 2 - Upper Back / Arms)** 💪 ❤️ 🧠
 - Pull-ups or Assisted Pull-ups: 3 × 8-10 reps (add 5–10 kg if easy)
 - T-bar Row (chest supported): 4 × 10 reps @ 60–70 kg
 - Rear Delt Fly: 3 × 15 reps @ 8–10 kg each
@@ -157,16 +157,16 @@
 ### 🍽️ Lunch (1:00 PM)
 *990kcal / 81g proteins / 41g fats / 74g carbs*
 - 🥩 75g of lean high-quality protein — choose ONE (ranked)
-  - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪🧠 (rinse with water first to remove sodium metabisulfite and salt)
-  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
-  - [ ] 360g of [organic pasture-raised turkey tenderloins](https://www.spizarniarydzynska.pl/poledwiczki-z-indyka-0,5kg) 💪🧠
+  - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪 🧠 (rinse with water first to remove sodium metabisulfite and salt)
+  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
+  - [ ] 360g of [organic pasture-raised turkey tenderloins](https://www.spizarniarydzynska.pl/poledwiczki-z-indyka-0,5kg) 💪 🧠
   - [ ] 360g of organic pasture-raised chicken tenderloins 💪
-- 🍠 60g of complex carbohydrates — choose ONE (ranked)
-  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️
-  - [ ] 100g black/red lentils 🖤❤️🦠🚽
-  - [ ] 100g chickpeas 🫘🦠🚽
-  - [ ] 100g black/red beans 🫘🦠🚽
-  - [ ] 355g orange sweet potatoes 🍠🧠
+- 🌾 60g of complex carbohydrates — choose ONE (ranked)
+  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
+  - [ ] 100g black/red lentils 🖤 ❤️ 🦠 🚽 🌾
+  - [ ] 100g chickpeas 🫘 🦠 🚽 🌾
+  - [ ] 100g black/red beans 🫘 🦠 🚽 🌾
+  - [ ] 355g orange sweet potatoes 🌾 🧠
 - 14 g extra virgin olive oil (for cooking) ❤️🧠🔥
 - 20g of macadamia nuts (small handful) ❤️🧠⏰
 - 2 pieces of dark chocolate (85%+) ❤️🧠😌🛡️
@@ -183,16 +183,16 @@
 ### Dinner (9pm)
 *1120kcal / 77g proteins / 61g fats / 65g carbs*
 - 🥩 75g of fatty high-quality protein with 47g fat — choose ONE (ranked)
-  - [ ] 360g of wild-caught, fresh [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🧠❤️👁️🍆
-  - [ ] 360g of [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🧠❤️👁️🍆
-  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪
-  - [x] 360g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠❤️👁️🍆
-- 🍠 60g of complex carbohydrates — choose ONE (ranked)
-  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🍠🧠🛡️
-  - [ ] 100g black/red lentils 🖤❤️🦠🚽
-  - [ ] 100g chickpeas 🫘🦠🚽
-  - [ ] 100g black/red beans 🫘🦠🚽
-  - [ ] 355g orange sweet potatoes 🍠🧠
+  - [ ] 360g of wild-caught, fresh [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🧠 ❤️ 👁️ 🍆
+  - [ ] 360g of [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🧠 ❤️ 👁️ 🍆
+  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
+  - [x] 360g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠 ❤️ 👁️ 🍆
+- 🌾 60g of complex carbohydrates — choose ONE (ranked)
+  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
+  - [ ] 100g black/red lentils 🖤 ❤️ 🦠 🚽 🌾
+  - [ ] 100g chickpeas 🫘 🦠 🚽 🌾
+  - [ ] 100g black/red beans 🫘 🦠 🚽 🌾
+  - [ ] 355g orange sweet potatoes 🌾 🧠
 - 14g of extra virgin olive oil for cooking ❤️🧠🔥
 - [Before sleep supplements](#evening)
 
@@ -236,23 +236,23 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
-- [Lion's Mane 500mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133)
+- [Lion's Mane 500mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133) 🧠 🛡️
 - [Hyaluronic Acid 200mg](https://allegro.pl/oferta/solherbs-kwas-hialuronowy-200-mg-60-vege-kaps-13075631403)<sup>4</sup> [[BJ-LM 120mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 👨‍🦳 🦴 💇‍♂️
 - [Boron 6mg](https://allegro.pl/oferta/bor-6-mg-120-kaps-boroglicynian-chelat-kosci-testosteron-libido-mozg-balans-17582349255) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🍆 🦴 🧠
 - [Rhodiola Rosea 600mg](https://allegro.pl/oferta/r2g-rhodiola-600mg-rozeniec-gorski-stres-120-dni-120-kaps-11311651115) 🧠 😌 ⚡ 🍆
 - [Horsetail 500mg](https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163) 💇‍♂️ 👨‍🦳 🦴
 - [Biotin 2.5mg](https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586) (note: 50x rdd) 💇‍♂️ 👨‍🦳 💅
-- [Yohimbine HCL 5mg](https://pro-peptydy.pl/produkt/yohimbine-5mg-100-kapsulek)
+- [Yohimbine HCL 5mg](https://pro-peptydy.pl/produkt/yohimbine-5mg-100-kapsulek) ⚡
 - 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-500mg-60-kapsulek-alfa-ketoklutaran-wapnia-hpmc-energia-vegan-17742452223) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
-- 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetylo-l-karnityna-750-mg-90-tabl-energia-metabolizm-sila-17924420336)
+- 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetylo-l-karnityna-750-mg-90-tabl-energia-metabolizm-sila-17924420336) 🧠 ⚡
 - [Bifidobacterium infantis 35624 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671) 🦠 🚽 🛡️
 - 2x [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - [Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450) 🦠 🚽 🛡️
 - Luteolin 100mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🔥 🛡️ 🧠 ⏰
 - Anti-grey hair formula:
-- 3x [Catalase 6250 IU](https://www.amazon.pl/dp/B00LPJLZSG)
-- 2x [PABA 500mg](https://allegro.pl/oferta/now-foods-paba-500mg-witamina-b10-wlosy-skora-100k-11690065696)
-- [Fo-Ti 560mg](https://allegro.pl/oferta/now-foods-fo-ti-korzen-z-rdesta-wielokwiatowego-14035233596)
+- 3x [Catalase 6250 IU](https://www.amazon.pl/dp/B00LPJLZSG) 💇‍♂️
+- 2x [PABA 500mg](https://allegro.pl/oferta/now-foods-paba-500mg-witamina-b10-wlosy-skora-100k-11690065696) 💇‍♂️ 👨‍🦳
+- [Fo-Ti 560mg](https://allegro.pl/oferta/now-foods-fo-ti-korzen-z-rdesta-wielokwiatowego-14035233596) 💇‍♂️ ⏰
 
 
 ### Lunch
@@ -266,16 +266,16 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Ginger 540mg](https://allegro.pl/oferta/swanson-imbir-ginger-root-540-mg-ekstrakt-trawienie-metabolizm-100-kapsulek-14700837221) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🚽 🍆 🧠
 - [Lycopene 20mg](https://allegro.pl/oferta/likopen-mikrokapsulkowany-20-mg-lycopene-60-kapsulek-15828261195)<sup>2</sup> [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍅 ❤️ 👨‍🦳 🛡️
 - (empty)
-- [Berberine 777mg](https://allegro.pl/oferta/berberis-777mg-niski-cukier-odchudzanie-apetyt-berberys-berberyna-90-kap-16324896123)
+- [Berberine 777mg](https://allegro.pl/oferta/berberis-777mg-niski-cukier-odchudzanie-apetyt-berberys-berberyna-90-kap-16324896123) 🩸 🚽 🛡️
 - [Astaxanthin 12mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-12-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - [Broccoli Seed Extract (Glucoraphanin 20mg) 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
-- Beta-Karoten
-- [Milk Thistle 600mg](https://allegro.pl/oferta/milk-thistle-ostropest-plamisty-full-spectrum-ekstrakt-sylimaryna-detoks-12350053812)
-- [Urolithin A 500mg + L-Ergothioneine 5mg](https://allegro.pl/oferta/urolityna-a-500-mg-l-ergotioneina-5mg-60-kapsulek-17760293773)
-- [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105)
+- Beta-Karoten 👁️ 👨‍🦳 🛡️
+- [Milk Thistle 600mg](https://allegro.pl/oferta/milk-thistle-ostropest-plamisty-full-spectrum-ekstrakt-sylimaryna-detoks-12350053812) 🛡️ 🚽
+- [Urolithin A 500mg + L-Ergothioneine 5mg](https://allegro.pl/oferta/urolityna-a-500-mg-l-ergotioneina-5mg-60-kapsulek-17760293773) ⏰ 💪 🛡️
+- [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105) 🛡️ 🍆
 
 ### Before workout
-- [Thor Fuel + Vitargo 20g](https://gymbeam.com/thor-fuel-vitargo-pre-workout-600-g-gymbeam.html) ⚡ 💪 🧠
+- [Thor Fuel + Vitargo 20g](https://gymbeam.com/thor-fuel-vitargo-pre-workout-600-g-gymbeam.html) ⚡ 💪 🧠 🌾
 - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - [Maca 500mg](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
@@ -291,11 +291,11 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [L-Lysine HCL 900mg + EAA+](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
 - [Creatine monohydrate 5g](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) 💪 🛡️ 🦠
-- [2x MSM 1500mg](https://allegro.pl/oferta/swanson-msm-truflex-siarka-organiczna-1500mg-120t-14195517902)
-- ~2x [Electrolyte tab](https://allegro.pl/oferta/ostrovit-elektrolity-90-tabs-bez-cukru-potas-wapn-magnez-sod-energia-chlor-12567357931)~
+- [2x MSM 1500mg](https://allegro.pl/oferta/swanson-msm-truflex-siarka-organiczna-1500mg-120t-14195517902) 🦴 🔥 👨‍🦳
+- ~2x [Electrolyte tab](https://allegro.pl/oferta/ostrovit-elektrolity-90-tabs-bez-cukru-potas-wapn-magnez-sod-energia-chlor-12567357931)~ 💧
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>3</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
-- 2x [Inositol 1000mg](https://allegro.pl/oferta/inozytol-1000-mg-life-extension-nerwy-stres-mozg-pamiec-360-kapsulek-15116117174)
-- [Phosphatidylserine 250mg](https://allegro.pl/oferta/7nutrition-phosphatidylserine-seryna-250mg-100kaps-funkcjonowanie-mozgu-12752317268)
+- 2x [Inositol 1000mg](https://allegro.pl/oferta/inozytol-1000-mg-life-extension-nerwy-stres-mozg-pamiec-360-kapsulek-15116117174) 🧠 😌 🩸
+- [Phosphatidylserine 250mg](https://allegro.pl/oferta/7nutrition-phosphatidylserine-seryna-250mg-100kaps-funkcjonowanie-mozgu-12752317268) 🧠 😌
 - 2x [Magnesium (Taurate) 100mg](https://allegro.pl/oferta/allnutrition-magnesium-taurate-b6-100-kap-magnez-skurcz-stres-kosci-zeby-16799245835) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 ❤️ 🦴
 - [L-Glutathione Reduced 200mg](https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199) [[BJ-LM 250mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🛡️ 👨‍🦳 🧠 ⏰
 
@@ -372,7 +372,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Use of [protein hair conditioner](https://allegro.pl/oferta/anwen-odzywka-proteinowa-magnolia-aluminiowa-100ml-11386316729) 💇‍♂️ 💧 (Every second hair wash)
 - (alternative) Use of [anti-hair loss conditioner](https://allegro.pl/oferta/anti-hair-loss-odzywka-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132018183) 💇‍♂️ 💧 (Every second hair wash)
 - Use of [hair mask](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419) (alternative to conditioner) 💇‍♂️ 💧
-- Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (Every second day) 💇‍♂️ 🍅
+- Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (Every second day) ⚕️ 💇‍♂️ 🍅
 - Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (Twice per day) 💇‍♂️
 - Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (Twice per day) 💇‍♂️
 - Application of [Herbal nutricosmetics](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) (Few times a week) 💇‍♂️
@@ -418,7 +418,7 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 
 ### Knives
 **Material**: Single-piece stainless steel construction
-- Recommended: [Karl Hausmann DARIO Collection](https://allegro.pl/oferta/komplet-zestaw-5-nozy-ostra-stal-dario-srebrne-nierdzewne-tradycyjne-15383598776)
+- Recommended: [Karl Hausmann DARIO Collection](https://allegro.pl/oferta/komplet-zestaw-5-nozy-ostra-stal-dario-srebrne-nierdzewne-tradycyjne-15383598776) 🛡️
   *Professional-grade knife set with balanced ergonomics*
 
 ### Frying Pans
@@ -559,21 +559,21 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Add [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) daily microdosing 🍆 ❤️ 🫀 🍅 ⚕️
 - Add [Isotretinoin (Acutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) microdosing once or twice per week 👨‍🦳 ⏰ ⚕️
 - Consider [Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/) for improving body composition 🩸 ❤️ ⏰
-- Add mercury testing
-- Add PP405 for hair density when available
-- Add Pyrilutamide (KX-826) for hair density when available
-- Consider myostatin / activin A inhibitors like Apitegromab or Bimagrumab or Trevogrumab or Garetosmab when available
-- Add Catalase for Gray hair reversal
-- Consider Alpha-lipoic acid (ALA)
-- Add Tongkat Ali?
-- Add fat-burner like alpha yohimbine ?
-- Add Tesamorelin or AOD-9604 for abdominal fat reduction ?
-- Add zinc/zma/dhea/d3/daa?
-- Add water filter better and more convenient than UC-200
-- Find gym shaker with zero microplastics emission that is small and dishwasher friendly
-- Find water bottle with zero microplastics emission that is large and dishwasher friendly, possibly made from multiple smaller pieces that can be disassembled for easy cleaning
-- Find zero-plastics cookware
-- Find zero-plastics gymwear
+- Add mercury testing 🧪 🛡️
+- Add PP405 for hair density when available 💇‍♂️ ⏰
+- Add Pyrilutamide (KX-826) for hair density when available 💇‍♂️ ⚕️
+- Consider myostatin / activin A inhibitors like Apitegromab or Bimagrumab or Trevogrumab or Garetosmab when available 💪 ⏰ ⚕️
+- Add Catalase for Gray hair reversal 💇‍♂️ ⏰
+- Consider Alpha-lipoic acid (ALA) 🛡️ ⏰ 🧠
+- Add Tongkat Ali? 🍆 💪
+- Add fat-burner like alpha yohimbine ? ⚡ 🔥
+- Add Tesamorelin or AOD-9604 for abdominal fat reduction ? 💪 🩹 ⚕️
+- Add zinc/zma/dhea/d3/daa? 🍆 🛡️ 🦴
+- Add water filter better and more convenient than UC-200 💧
+- Find gym shaker with zero microplastics emission that is small and dishwasher friendly 🥛 🛡️
+- Find water bottle with zero microplastics emission that is large and dishwasher friendly, possibly made from multiple smaller pieces that can be disassembled for easy cleaning 🍼 🛡️
+- Find zero-plastics cookware 🍳 🛡️
+- Find zero-plastics gymwear 👕 🛡️
 
 
 ## Removed / unhealthy supplements
