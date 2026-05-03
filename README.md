@@ -203,25 +203,25 @@
 
 ### Healthy Additions (to meals / during meals / after meals)
 - Extra virgin olive oil ❤️ 🧠 🔥 ⏰
-- Dark chocolate ❤️ 🧠 😌 🛡️
-- Macadamia nuts ❤️ 🧠 ⏰
-- [Shiitake mushrooms](https://allegro.pl/produkt/kapelusze-shitake-grzybek-suszone-weganskie-500-g-02d5a7de-7cee-43e0-b890-d2c5559e4281?offerId=12880841828) and maitake mushrooms 🛡️ 🦠 🧠 ⏰
-- Broccoli / cauliflower 🛡️ 🦠 🍅
-- Lime 🍋 🦠 🚽
-- Hemp seeds 🧠 ❤️ 🔥
-- Apple cider vinegar 🦠 🚽 🩸
-- Ginger root 🔥 🚽 🍆 🧠
-- Hummus 🌱 🦠 ❤️
-- Chia seeds 🫀 🚽 🧠
 - Berries (Raspberries, strawberries, blueberries) 🧠 🛡️ ❤️ 👁️
-- Cinnamon 🩸 🔥 🧠
-- Sunflower lecithin 🧠 ❤️ 🍆
-- Brazil nuts 🧠 🍆 🛡️
-- Grapefruit juice 💊 🩸 🚽
-- Ground linseed 🫀 🚽 🔥
-- Cherries 😴 🔥 🛡️
+- Broccoli / cauliflower 🛡️ 🦠 🍅
 - Cocoa flavanols ❤️ 🧠 🛡️
+- Dark chocolate ❤️ 🧠 😌 🛡️
+- [Shiitake mushrooms](https://allegro.pl/produkt/kapelusze-shitake-grzybek-suszone-weganskie-500-g-02d5a7de-7cee-43e0-b890-d2c5559e4281?offerId=12880841828) and maitake mushrooms 🛡️ 🦠 🧠 ⏰
+- Ground linseed 🫀 🚽 🔥
+- Chia seeds 🫀 🚽 🧠
+- Macadamia nuts ❤️ 🧠 ⏰
+- Apple cider vinegar 🦠 🚽 🩸
+- Cinnamon 🩸 🔥 🧠
+- Hemp seeds 🧠 ❤️ 🔥
+- Brazil nuts 🧠 🍆 🛡️
+- Sunflower lecithin 🧠 ❤️ 🍆
+- Ginger root 🔥 🚽 🍆 🧠
+- Cherries 😴 🔥 🛡️
+- Lime 🍋 🦠 🚽
+- Hummus 🌱 🦠 ❤️
 - Macadamia nut milk ❤️ 🧠 ⏰
+- Grapefruit juice 💊 🩸 🚽
 
 ## 5. Supplements and drugs
 Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
