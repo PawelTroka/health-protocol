@@ -323,9 +323,6 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Spermidine 10mg](https://allegro.pl/oferta/spermidyna-10-mg-kapsulki-hpmc-120-sztuk-17703352905) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
 - [Garlic Extract 5000mcg](https://allegro.pl/oferta/now-foods-garlic-5000-czosnek-allicyna-odpornosc-13102120917) [[BJ-RYG 1200mg](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🛡️ 🩸 🍆
 - Lithium 1mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧠 😌 ⏰
-- Red Yeast Extract 500mg TBD [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🫀
-- Proferrin 20mg TBD 🩸 💪 🧠
-- Metformin 500mg TBD 🩸 ⏰ 🧠 ⚕️
 - 2x [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475) 🚽 🦠 🩸
 
 ## 6. Looksmaxxing
@@ -582,6 +579,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## Removed / unhealthy supplements
+- Red Yeast Extract 500mg [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🫀 - *contains monacolin K (statin-like compound) so should only be used when having bad lipids profile; affects liver, causes muscle issues and lowers CoQ10*
+- Proferrin 20mg 🩸 💪 🧠 - *iron should only be supplemented when truly deficienct, otherwise it causes oxidative stress and long-term is bad for longevity*
+- Metformin 500mg 🩸 ⏰ 🧠 ⚕️ - *may blunt training adaptations and cause GI issues and berberine is a milder, safer, healthier alternative anyway*
 - MUMIO / Shilajit - *benefits are not worth possible heavy metals contaimination*
 - Resveratrol - *blunts benefits of exercise and estrogenic effects*
 - [Inulin 5g](https://allegro.pl/oferta/inulina-1kg-z-cykorii-naturalny-blonnik-prebiotyk-jakosc-premium-keto-13292783365) 🦠 🚽 🩸 - *likely harmful due to IBS*
