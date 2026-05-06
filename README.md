@@ -58,6 +58,18 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Free testosterone](https://www.alab.pl/badanie/testosteron-wolny-o41)**: Free Testosterone
 - **[Female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania)**: Estradiol (E2), Follicle-stimulating hormone (FSH), Luteinizing hormone (LH), Prolactin (PRL), Progesterone
 - **[Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69)**: Lipoprotein (a)
+- **[Apolipoprotein B (Apo B)](https://www.alab.pl/badanie/apolipoproteina-b-apo-b-i67)**: Apolipoprotein B
+- **[Apolipoprotein A1 (Apo A1)](https://www.alab.pl/badanie/apolipoproteina-a1-apo-a1-i71)**: Apolipoprotein A1
+- **[Free PSA](https://www.alab.pl/badanie/psa-wolny-i63)**: Free PSA
+- **[Cystatin C](https://www.alab.pl/badanie/cystatyna-c-k16)**: Cystatin C
+- **[Dihydrotestosterone (DHT)](https://www.alab.pl/badanie/dihydrotestosteron-dht-k55)**: Dihydrotestosterone (DHT)
+- **[Anti-TPO](https://www.alab.pl/badanie/pc-przeciw-peroksydazie-tarczycowej-atpo-o09)**: Anti-TPO (Thyroid Peroxidase Antibodies)
+- **[Anti-TG](https://www.alab.pl/badanie/pc-antytyreoglobulinowe-atg-o18)**: Anti-TG (Thyroglobulin Antibodies)
+- **[GGT (GGTP)](https://www.alab.pl/badanie/gamma-glutamylotranspeptydaza-ggtp-l31)**: Gamma-Glutamyl Transferase
+- **[Total Bilirubin](https://www.alab.pl/badanie/bilirubina-calkowita-i89)**: Total Bilirubin
+- **[Direct Bilirubin](https://www.alab.pl/badanie/bilirubina-bezposrednia-w-surowicy-i87)**: Direct Bilirubin
+- **[Alkaline Phosphatase (ALP)](https://www.alab.pl/badanie/fosfataza-alkaliczna-alp-l11)**: Alkaline Phosphatase (ALP)
+- **[Prothrombin Time (PT/INR)](https://www.alab.pl/badanie/czas-protrombinowy-pt-inr-g21)**: Prothrombin Time (PT/INR)
 
 #### Urine
 - **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: General urine analysis, Urine sediment, Microalbuminuria, Urine Creatinine
