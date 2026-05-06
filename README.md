@@ -62,6 +62,18 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### Urine
 - **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: General urine analysis, Urine sediment, Microalbuminuria, Urine Creatinine
 - **[Heavy metals](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)**: Arsenic, Cadmium, Copper, Chromium, Nickel in urine OR **[Work Environment](https://www.alab.pl/pakiet/pakiet-srodowisko-pracy)**: Cobalt, Manganese, Chromium, Aluminum, Nickel in urine
+- **[Amylase](https://www.alab.pl/badanie/amylaza-w-moczu-i25)**: Amylase in urine
+- **[Protein (quantitative)](https://www.alab.pl/badanie/ilosciowe-oznaczanie-w-moczu-bialko-a07)**: Quantitative protein in urine
+- **[Chlorides](https://www.alab.pl/badanie/chlorki-w-moczu-i97)**: Chlorides in urine
+- **[Inorganic Phosphate](https://www.alab.pl/badanie/fosforan-nieorganiczny-w-moczu-l23)**: Inorganic phosphate in urine
+- **[Glucose](https://www.alab.pl/badanie/glukoza-w-moczu-a15-2)**: Glucose in urine
+- **[Cortisol](https://www.alab.pl/badanie/kortyzol-w-moczu-m31)**: Cortisol in urine
+- **[Magnesium](https://www.alab.pl/badanie/magnez-w-moczu-m87)**: Magnesium in urine
+- **[Urea](https://www.alab.pl/badanie/mocznik-w-moczu-n13)**: Urea in urine
+- **[Urine Culture](https://www.alab.pl/badanie/posiew-moczu-9133)**: Urine culture
+- **[Potassium](https://www.alab.pl/badanie/potas-w-moczu-n45)**: Potassium in urine
+- **[Sodium](https://www.alab.pl/badanie/sod-w-moczu-o35)**: Sodium in urine
+- **[Calcium](https://www.alab.pl/badanie/wapn-w-moczu-o77)**: Calcium in urine
 
 #### Stool
 - *TBD*
