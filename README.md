@@ -50,13 +50,21 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Laboratory Analysis (Biomarkers)
 **Frequency: Every 6 months**
-- [Extensive bloodwork](https://alabsport.pl/pakiety/wyczynowiec)
-- [Cancer markers](https://www.alab.pl/pakiet/pakiet-markery-nowotworowe-mezczyzna)
-- [STDs check](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)
-- [Heavy metals test](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)
-- [Free testosterone](https://www.alab.pl/badanie/testosteron-wolny-o41)
-- [Female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania)
-- [Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69)
+
+#### Blood
+- **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: Morphology, Myoglobin, Glucose, Serum Sodium, Potassium, Serum Albumin, Serum Creatinine, Serum Uric Acid, ALT, AST, Creatine Kinase (CK), Total Cholesterol, HDL Cholesterol, Triglycerides, LDL Cholesterol (calculated), Serum Magnesium, Inorganic Phosphorus, Total Calcium, Glycated Hemoglobin (HbA1c), Serum Iron, Ferritin, Transferrin, Serum Zinc, Vitamin B12, Folic Acid, Insulin, TSH (3rd gen), Free T3 (FT3), Free T4 (FT4), Cortisol, Testosterone, DHEA-S, SHBG, NT-proBNP, IL-6, IGF-1, D-dimer, Selenium, Insulin Resistance Index, Vitamin B1 (Thiamine), CRP-hs, Vitamin B6, Vitamin D-25(OH), Homocysteine (HPLC), Circulating Calprotectin
+- **[Cancer markers](https://www.alab.pl/pakiet/pakiet-markery-nowotworowe-mezczyzna)**: Alpha-fetoprotein (AFP), CA 19-9, Carcinoembryonic antigen (CEA), Total PSA, S-100 (Melanoma marker)
+- **[STDs](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)**: Chlamydia trachomatis (IgG and IgM antibodies), HBs antibodies (Hepatitis B), HCV antibodies (Hepatitis C), HIV screening test (anti-HIV 1/2 and p24 antigen), HSV (Herpes) type 1/2 (IgG and IgM antibodies), Syphilis screening test (WR)
+- **[Free testosterone](https://www.alab.pl/badanie/testosteron-wolny-o41)**: Free Testosterone
+- **[Female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania)**: Estradiol (E2), Follicle-stimulating hormone (FSH), Luteinizing hormone (LH), Prolactin (PRL), Progesterone
+- **[Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69)**: Lipoprotein (a)
+
+#### Urine
+- **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: General urine analysis, Urine sediment, Microalbuminuria, Urine Creatinine
+- **[Heavy metals](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)**: Arsenic, Cadmium, Copper, Chromium, Nickel in urine
+
+#### Stool
+- *TBD*
 
 ### Cardiovascular Health
 - Echocardiogram (Heart Echo) (Yearly)
