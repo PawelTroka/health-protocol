@@ -70,6 +70,12 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Direct Bilirubin](https://www.alab.pl/badanie/bilirubina-bezposrednia-w-surowicy-i87)**: Direct Bilirubin
 - **[Alkaline Phosphatase (ALP)](https://www.alab.pl/badanie/fosfataza-alkaliczna-alp-l11)**: Alkaline Phosphatase (ALP)
 - **[Prothrombin Time (PT/INR)](https://www.alab.pl/badanie/czas-protrombinowy-pt-inr-g21)**: Prothrombin Time (PT/INR)
+- **[Fibrinogen](https://www.alab.pl/badanie/fibrynogen-g53)**: Fibrinogen
+- **[Ceruloplasmin](https://www.alab.pl/badanie/ceruloplazmina-i95)**: Ceruloplasmin
+- **[Serum Copper](https://www.alab.pl/badanie/miedz-w-surowicy-g68)**: Copper in serum
+- **[Inflammatory Cytokines](https://www.alab.pl/badanie/profil-cytokin-stanu-zapalnego-il-1beta-il-6-il-8-il-10-il-12-tnf-alfa-2)**: Inflammatory Cytokine Profile (IL-1beta, IL-6, IL-8, IL-10, IL-12, TNF-alpha)
+- **[17-Hydroxypregnenolone](https://www.alab.pl/badanie/17-hydroksypregnenolon-l81)**: 17-Hydroxypregnenolone
+- **[Serum Iodine](https://www.alab.pl/badanie/jod-w-surowicy-m07)**: Iodine in serum
 
 #### Urine
 - **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: General urine analysis, Urine sediment, Microalbuminuria, Urine Creatinine
