@@ -85,6 +85,11 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[General analysis](https://www.alab.pl/badanie/kal-badanie-ogolne-i-ocena-resztek-pokarmowych-a23)**: Stool analysis and food residue assessment
 - **[Fecal Occult Blood](https://www.alab.pl/badanie/wykryw-krwi-utaj-w-kale-met-immunochemiczna-a17)**: Fecal Occult Blood Test (FOBT) - Immunochemical Method
 - **[Helicobacter pylori](https://www.alab.pl/badanie/helicobacter-pylori-w-kale-antygen-metoda-automatyczna-u15)**: Helicobacter pylori antigen in stool
+- **[Giardia lamblia](https://www.alab.pl/badanie/lamblie-w-kale-giardia-lamblia-antygenx13)**: Giardia lamblia antigen in stool
+- **[Parasites](https://www.alab.pl/badanie/badanie-kalu-w-kierunku-pasozytow-jedno-oznaczenie-a21)**: Parasites in stool (single determination)
+- **[Stool Culture](https://www.alab.pl/badanie/posiew-kalu-91831)**: Stool culture
+- **[Bile acids](https://www.alab.pl/badanie/kwasy-zolciowe-w-kale-m53)**: Bile acids in stool
+- **[Amoeba](https://www.alab.pl/badanie/badanie-kalu-w-kierunku-ameby)**: Amoeba (Entamoeba histolytica) stool test
 
 ### Cardiovascular Health
 - Echocardiogram (Heart Echo) (Yearly)
