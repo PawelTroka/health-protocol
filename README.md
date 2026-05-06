@@ -40,6 +40,14 @@
 
 ## 2. Testing
 
+### Daily Tracking
+We are following "bleeding-edge" approach when it comes to daily tracking, always pushing for the best in each category.
+- **Sleep Tracking**: [Ultrahuman Ring PRO](https://www.ultrahuman.com/global/ring-pro) 😴 😌 ⏰
+- **Activity Tracking**: [Garmin fēnix® 8 Pro 51 mm](https://www.garmin.com/en-US/p/1703902) 🫁 ❤️ 🥊
+- **Meal Tracking**: [Qalzy AI](https://www.qalzy.com) 🍎 🚽 🩸
+- **Body Composition**: [Withings Body Scan](https://www.withings.com/eu/en/body-scan) 🩸 💪
+- **Heart Health**: [Withings BPM Core](https://www.withings.com/eu/en/bpm-core) ❤️ 🫀
+
 ### Laboratory Analysis (Biomarkers)
 **Frequency: Every 6 months**
 - [Extensive bloodwork](https://alabsport.pl/pakiety/wyczynowiec)
