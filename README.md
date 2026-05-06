@@ -61,7 +61,12 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### Urine
 - **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: General urine analysis, Urine sediment, Microalbuminuria, Urine Creatinine
-- **[Heavy metals](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)**: Arsenic, Cadmium, Copper, Chromium, Nickel in urine OR **[Work Environment](https://www.alab.pl/pakiet/pakiet-srodowisko-pracy)**: Cobalt, Manganese, Chromium, Aluminum, Nickel in urine
+- **[Heavy metals](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)**: Arsenic, Cadmium, Copper, Chromium, Nickel in urine
+- **[Aluminum](https://www.alab.pl/badanie/glin-w-moczu-p39)**: Aluminum in urine
+- **[Manganese](https://www.alab.pl/badanie/mangan-w-moczu-m93)**: Manganese in urine
+- **[Cobalt](https://www.alab.pl/badanie/kobalt-w-moczu-m25)**: Cobalt in urine
+- **[Mercury](https://www.alab.pl/badanie/rtec-w-moczu-p89)**: Mercury in urine
+- **[Lead](https://www.alab.pl/badanie/olow-w-moczu-p71)**: Lead in urine
 - **[Amylase](https://www.alab.pl/badanie/amylaza-w-moczu-i25)**: Amylase in urine
 - **[Protein (quantitative)](https://www.alab.pl/badanie/ilosciowe-oznaczanie-w-moczu-bialko-a07)**: Quantitative protein in urine
 - **[Chlorides](https://www.alab.pl/badanie/chlorki-w-moczu-i97)**: Chlorides in urine
