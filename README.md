@@ -81,7 +81,10 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Calcium](https://www.alab.pl/badanie/wapn-w-moczu-o77)**: Calcium in urine
 
 #### Stool
-- *TBD*
+- **[Intestinal Inflammation](https://www.alab.pl/pakiet/pakiet-stanu-zapalnego-jelit)**: Beta-defensins, EPX (Eosinophil Protein X), Alpha-1-antitrypsin, Secretory sIgA, Calprotectin in stool
+- **[General analysis](https://www.alab.pl/badanie/kal-badanie-ogolne-i-ocena-resztek-pokarmowych-a23)**: Stool analysis and food residue assessment
+- **[Fecal Occult Blood](https://www.alab.pl/badanie/wykryw-krwi-utaj-w-kale-met-immunochemiczna-a17)**: Fecal Occult Blood Test (FOBT) - Immunochemical Method
+- **[Helicobacter pylori](https://www.alab.pl/badanie/helicobacter-pylori-w-kale-antygen-metoda-automatyczna-u15)**: Helicobacter pylori antigen in stool
 
 ### Cardiovascular Health
 - Echocardiogram (Heart Echo) (Yearly)
