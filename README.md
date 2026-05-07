@@ -97,6 +97,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Potassium](https://www.alab.pl/badanie/potas-w-moczu-n45)**: Potassium in urine
 - **[Sodium](https://www.alab.pl/badanie/sod-w-moczu-o35)**: Sodium in urine
 - **[Calcium](https://www.alab.pl/badanie/wapn-w-moczu-o77)**: Calcium in urine
+- *(Optional)* **[Intestinal Microflora Assessment](https://www.alab.pl/pakiet/ocena-mikroflory-jelitowej)**: Organix Gastro (organic acids) & Glyphosate Level in urine
 
 #### Stool
 - **[Intestinal Inflammation](https://www.alab.pl/pakiet/pakiet-stanu-zapalnego-jelit)**: Beta-defensins, EPX (Eosinophil Protein X), Alpha-1-antitrypsin, Secretory sIgA, Calprotectin in stool
@@ -108,6 +109,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Stool Culture](https://www.alab.pl/badanie/posiew-kalu-91831)**: Stool culture
 - **[Bile acids](https://www.alab.pl/badanie/kwasy-zolciowe-w-kale-m53)**: Bile acids in stool
 - **[Amoeba](https://www.alab.pl/badanie/badanie-kalu-w-kierunku-ameby)**: Amoeba (Entamoeba histolytica) stool test
+- *(Optional)* **[FloraGEN - Genetic Gut Microbiota](https://www.alab.pl/badanie/mikrobiota-genetyczna-floragen)**: Genetic Gut Microbiota Research (Dysbiosis Index)
 
 ### Cardiovascular Health
 - Echocardiogram (Heart Echo) (Yearly)
