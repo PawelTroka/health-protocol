@@ -65,6 +65,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Dihydrotestosterone (DHT)](https://www.alab.pl/badanie/dihydrotestosteron-dht-k55)**: Dihydrotestosterone (DHT)
 - **[Anti-TPO](https://www.alab.pl/badanie/pc-przeciw-peroksydazie-tarczycowej-atpo-o09)**: Anti-TPO (Thyroid Peroxidase Antibodies)
 - **[Anti-TG](https://www.alab.pl/badanie/pc-antytyreoglobulinowe-atg-o18)**: Anti-TG (Thyroglobulin Antibodies)
+- **[TRAb](https://www.alab.pl/badanie/pc-przeciw-receptorowi-tsh-trab-o15)**: TSH receptor antibodies (TRAb)
 - **[GGT (GGTP)](https://www.alab.pl/badanie/gamma-glutamylotranspeptydaza-ggtp-l31)**: Gamma-Glutamyl Transferase
 - **[Total Bilirubin](https://www.alab.pl/badanie/bilirubina-calkowita-i89)**: Total Bilirubin
 - **[Direct Bilirubin](https://www.alab.pl/badanie/bilirubina-bezposrednia-w-surowicy-i87)**: Direct Bilirubin
