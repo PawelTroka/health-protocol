@@ -78,6 +78,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[17-Hydroxypregnenolone](https://www.alab.pl/badanie/17-hydroksypregnenolon-l81)**: 17-Hydroxypregnenolone
 - **[Serum Iodine](https://www.alab.pl/badanie/jod-w-surowicy-m07)**: Iodine in serum
 - **[Celiac Disease Diagnostic Package](https://www.alab.pl/pakiet/celiakia-pakiet-diagnostyczny)**: Serum IgA Immunoglobulin, Anti-deamidated gliadin peptide (DGP) IgG, Anti-tissue transglutaminase (tTG) IgA
+- **[Myositis Profile](https://www.alab.pl/pakiet/profil-myositis-profil-zapalenia-miesni)**: Myositis-associated antibodies (Jo-1, PL-7, Mi-2, etc.) & Antinuclear Antibodies (ANA)
 - *(Optional)* **[Telomere Length (Biological Age)](https://www.alab.pl/badanie/badanie-dlugosci-telomerow-wiek-biologiczny)**: Telomere Length in blood leukocytes
 
 #### Urine
