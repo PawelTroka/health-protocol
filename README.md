@@ -52,7 +52,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 **Frequency: Every 6 months**
 
 #### Blood
-- **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: Morphology, Myoglobin, Glucose, Serum Sodium, Potassium, Serum Albumin, Serum Creatinine, Serum Uric Acid, ALT, AST, Creatine Kinase (CK), Total Cholesterol, HDL Cholesterol, Triglycerides, LDL Cholesterol (calculated), Serum Magnesium, Inorganic Phosphorus, Total Calcium, Glycated Hemoglobin (HbA1c), Serum Iron, Ferritin, Transferrin, Serum Zinc, Vitamin B12, Folic Acid, Insulin, TSH (3rd gen), Free T3 (FT3), Free T4 (FT4), Cortisol, Testosterone, DHEA-S, SHBG, NT-proBNP, IL-6, IGF-1, D-dimer, Selenium, Insulin Resistance Index, Vitamin B1 (Thiamine), CRP-hs, Vitamin B6, Vitamin D-25(OH), Homocysteine (HPLC), Circulating Calprotectin 🍎 ❤️ 🧪 🫘 🦋 🍆
+- **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: Morphology, Myoglobin, Glucose, Serum Sodium, Potassium, Serum Albumin, Serum Creatinine, Serum Uric Acid, ALT, AST, Creatine Kinase (CK), Total Cholesterol, HDL Cholesterol, Triglycerides, LDL Cholesterol (calculated), Serum Magnesium, Inorganic Phosphorus, Total Calcium, Glycated Hemoglobin (HbA1c), Serum Iron, Ferritin, Transferrin, Serum Zinc, Vitamin B12, Folic Acid, Insulin, TSH (3rd gen), Free T3 (FT3), Free T4 (FT4), Cortisol, Testosterone, DHEA-S, SHBG, NT-proBNP, IL-6, IGF-1, D-dimer, Selenium, Insulin Resistance Index, Vitamin B1 (Thiamine), CRP-hs, Vitamin B6, Vitamin D-25(OH), Homocysteine (HPLC), Circulating Calprotectin 🍎 ❤️ 🟤 🫘 🦋 🍆
 - **[Apolipoprotein B (Apo B)](https://www.alab.pl/badanie/apolipoproteina-b-apo-b-i67)**: Apolipoprotein B ❤️ 🫀 ⏰
 - **[Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69)**: Lipoprotein (a) ❤️ 🫀 ⏰
 - **[Cystatin C](https://www.alab.pl/badanie/cystatyna-c-k16)**: Cystatin C 🫘 ⏰
@@ -65,18 +65,18 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Anti-TPO](https://www.alab.pl/badanie/pc-przeciw-peroksydazie-tarczycowej-atpo-o09)**: Anti-TPO (Thyroid Peroxidase Antibodies) 🦋 🛡️
 - **[Anti-TG](https://www.alab.pl/badanie/pc-antytyreoglobulinowe-atg-o18)**: Anti-TG (Thyroglobulin Antibodies) 🦋 🛡️
 - **[TRAb](https://www.alab.pl/badanie/pc-przeciw-receptorowi-tsh-trab-o15)**: TSH receptor antibodies (TRAb) 🦋 🛡️
-- **[GGT (GGTP)](https://www.alab.pl/badanie/gamma-glutamylotranspeptydaza-ggtp-l31)**: Gamma-Glutamyl Transferase 🧪
-- **[Total Bilirubin](https://www.alab.pl/badanie/bilirubina-calkowita-i89)**: Total Bilirubin 🧪 🛡️
-- **[Direct Bilirubin](https://www.alab.pl/badanie/bilirubina-bezposrednia-w-surowicy-i87)**: Direct Bilirubin 🧪 🛡️
-- **[Alkaline Phosphatase (ALP)](https://www.alab.pl/badanie/fosfataza-alkaliczna-alp-l11)**: Alkaline Phosphatase (ALP) 🧪 🦴
+- **[GGT (GGTP)](https://www.alab.pl/badanie/gamma-glutamylotranspeptydaza-ggtp-l31)**: Gamma-Glutamyl Transferase 🟤
+- **[Total Bilirubin](https://www.alab.pl/badanie/bilirubina-calkowita-i89)**: Total Bilirubin 🟤 🛡️
+- **[Direct Bilirubin](https://www.alab.pl/badanie/bilirubina-bezposrednia-w-surowicy-i87)**: Direct Bilirubin 🟤 🛡️
+- **[Alkaline Phosphatase (ALP)](https://www.alab.pl/badanie/fosfataza-alkaliczna-alp-l11)**: Alkaline Phosphatase (ALP) 🟤 🦴
 - **[Apolipoprotein A1 (Apo A1)](https://www.alab.pl/badanie/apolipoproteina-a1-apo-a1-i71)**: Apolipoprotein A1 ❤️ 🫀
 - **[Prothrombin Time (PT/INR)](https://www.alab.pl/badanie/czas-protrombinowy-pt-inr-g21)**: Prothrombin Time (PT/INR) 🫀
 - **[Serum Iodine](https://www.alab.pl/badanie/jod-w-surowicy-m07)**: Iodine in serum 🦋 🧠
 - **[ACTH](https://www.alab.pl/badanie/acth-hormon-adrenokortykotropowy-l63)**: ACTH (Adrenocorticotropic Hormone) 😌 🧠
 - **[17-Hydroxypregnenolone](https://www.alab.pl/badanie/17-hydroksypregnenolon-l81)**: 17-Hydroxypregnenolone 🧠 ⚡
 - **[Female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania)**: Estradiol (E2), Follicle-stimulating hormone (FSH), Luteinizing hormone (LH), Prolactin (PRL), Progesterone 🍆 🧠
-- **[Ceruloplasmin](https://www.alab.pl/badanie/ceruloplazmina-i95)**: Ceruloplasmin 🧪 🧠
-- **[Serum Copper](https://www.alab.pl/badanie/miedz-w-surowicy-g68)**: Copper in serum 🧪 🧠
+- **[Ceruloplasmin](https://www.alab.pl/badanie/ceruloplazmina-i95)**: Ceruloplasmin 🟤 🧠
+- **[Serum Copper](https://www.alab.pl/badanie/miedz-w-surowicy-g68)**: Copper in serum 🟤 🧠
 - **[Celiac Disease Diagnostic Package](https://www.alab.pl/pakiet/celiakia-pakiet-diagnostyczny)**: Serum IgA Immunoglobulin, Anti-deamidated gliadin peptide (DGP) IgG, Anti-tissue transglutaminase (tTG) IgA 🦠 🛡️ 🔥
 - **[Myositis Profile](https://www.alab.pl/pakiet/profil-myositis-profil-zapalenia-miesni)**: Myositis-associated antibodies (Jo-1, PL-7, Mi-2, etc.) & Antinuclear Antibodies (ANA) 💪 🔥 🛡️
 - **[STDs](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)**: Chlamydia trachomatis (IgG and IgM antibodies), HBs antibodies (Hepatitis B), HCV antibodies (Hepatitis C), HIV screening test (anti-HIV 1/2 and p24 antigen), HSV (Herpes) type 1/2 (IgG and IgM antibodies), Syphilis screening test (WR) 🛡️ 🍆
@@ -85,19 +85,19 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### Urine
 - **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: General urine analysis, Urine sediment, Microalbuminuria, Urine Creatinine 🫘 🚽
 - **[Protein (quantitative)](https://www.alab.pl/badanie/ilosciowe-oznaczanie-w-moczu-bialko-a07)**: Quantitative protein in urine 🫘
-- **[Heavy metals](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)**: Arsenic, Cadmium, Copper, Chromium, Nickel in urine 🛡️ 🧠 🧪
-- **[Aluminum](https://www.alab.pl/badanie/glin-w-moczu-p39)**: Aluminum in urine 🛡️ 🧠 🧪
-- **[Manganese](https://www.alab.pl/badanie/mangan-w-moczu-m93)**: Manganese in urine 🛡️ 🧠 🧪
-- **[Cobalt](https://www.alab.pl/badanie/kobalt-w-moczu-m25)**: Cobalt in urine 🛡️ 🧠 🧪
-- **[Mercury](https://www.alab.pl/badanie/rtec-w-moczu-p89)**: Mercury in urine 🛡️ 🧠 🧪
-- **[Lead](https://www.alab.pl/badanie/olow-w-moczu-p71)**: Lead in urine 🛡️ 🧠 🧪
+- **[Heavy metals](https://www.alab.pl/pakiet/pakiet-metale-ciezkie-rozszerzony)**: Arsenic, Cadmium, Copper, Chromium, Nickel in urine 🛡️ 🧠 🟤
+- **[Aluminum](https://www.alab.pl/badanie/glin-w-moczu-p39)**: Aluminum in urine 🛡️ 🧠 🟤
+- **[Manganese](https://www.alab.pl/badanie/mangan-w-moczu-m93)**: Manganese in urine 🛡️ 🧠 🟤
+- **[Cobalt](https://www.alab.pl/badanie/kobalt-w-moczu-m25)**: Cobalt in urine 🛡️ 🧠 🟤
+- **[Mercury](https://www.alab.pl/badanie/rtec-w-moczu-p89)**: Mercury in urine 🛡️ 🧠 🟤
+- **[Lead](https://www.alab.pl/badanie/olow-w-moczu-p71)**: Lead in urine 🛡️ 🧠 🟤
 - **[Glucose](https://www.alab.pl/badanie/glukoza-w-moczu-a15-2)**: Glucose in urine 🩸 🫘
 - **[Cortisol](https://www.alab.pl/badanie/kortyzol-w-moczu-m31)**: Cortisol in urine 😌 🧠
-- **[Amylase](https://www.alab.pl/badanie/amylaza-w-moczu-i25)**: Amylase in urine 🚽 🧪
+- **[Amylase](https://www.alab.pl/badanie/amylaza-w-moczu-i25)**: Amylase in urine 🚽 🟤
 - **[Chlorides](https://www.alab.pl/badanie/chlorki-w-moczu-i97)**: Chlorides in urine 💧 🫘
 - **[Inorganic Phosphate](https://www.alab.pl/badanie/fosforan-nieorganiczny-w-moczu-l23)**: Inorganic phosphate in urine 🫘 🦴
 - **[Magnesium](https://www.alab.pl/badanie/magnez-w-moczu-m87)**: Magnesium in urine 🫘 🦴
-- **[Urea](https://www.alab.pl/badanie/mocznik-w-moczu-n13)**: Urea in urine 🫘 🧪
+- **[Urea](https://www.alab.pl/badanie/mocznik-w-moczu-n13)**: Urea in urine 🫘 🟤
 - **[Potassium](https://www.alab.pl/badanie/potas-w-moczu-n45)**: Potassium in urine 💧 🫘
 - **[Sodium](https://www.alab.pl/badanie/sod-w-moczu-o35)**: Sodium in urine 💧 🫘
 - **[Calcium](https://www.alab.pl/badanie/wapn-w-moczu-o77)**: Calcium in urine 🫘 🦴
@@ -113,7 +113,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Parasites](https://www.alab.pl/badanie/badanie-kalu-w-kierunku-pasozytow-jedno-oznaczenie-a21)**: Parasites in stool (single determination) 🦠 🚽 🛡️
 - **[Amoeba](https://www.alab.pl/badanie/badanie-kalu-w-kierunku-ameby)**: Amoeba (Entamoeba histolytica) stool test 🦠 🚽 🛡️
 - **[Stool Culture](https://www.alab.pl/badanie/posiew-kalu-91831)**: Stool culture 🦠 🚽 🛡️
-- **[Bile acids](https://www.alab.pl/badanie/kwasy-zolciowe-w-kale-m53)**: Bile acids in stool 🚽 🧪
+- **[Bile acids](https://www.alab.pl/badanie/kwasy-zolciowe-w-kale-m53)**: Bile acids in stool 🚽 🟤
 - *(Optional)* **[FloraGEN - Genetic Gut Microbiota](https://www.alab.pl/badanie/mikrobiota-genetyczna-floragen)**: Genetic Gut Microbiota Research (Dysbiosis Index) 🦠 🚽 ⏰
 
 ### Cardiovascular Health
@@ -614,7 +614,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - 💅 Nail health
 - 🫘 Kidney health
 - 🦋 Thyroid health
-- 🧪 Liver/Organ function
+- 🟤 Liver/Organ function
 
 
 ## Notes
