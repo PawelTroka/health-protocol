@@ -467,6 +467,9 @@ There are actual studies that confirm if you look younger and better you are mor
 - EmSculpt Neo (4-6 sessions, once per week) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk)
 - (Optional) VASER High-Definition Lipo
 
+### Body
+- Body Wash [La Roche-Posay Lipikar Syndet AP+](https://gemini.pl/la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-zapas-400-ml-0121873) or [Ceramedx® Extra Gentle Body Cleanser](https://ceramedx.com/products/extra-gentle-body-cleanser) 👨‍🦳 💧
+
 
 ## 7. Cookware
 My kitchen is equipped only with materials that prioritize health and safety. I avoid microplastics and synthetic materials in favor of biologically neutral, natural options including:
