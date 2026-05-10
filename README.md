@@ -468,7 +468,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - (Optional) VASER High-Definition Lipo
 
 ### Body
-- Body Wash [La Roche-Posay Lipikar Syndet AP+](https://gemini.pl/la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-zapas-400-ml-0121873) or [Ceramedx® Extra Gentle Body Cleanser](https://ceramedx.com/products/extra-gentle-body-cleanser) 👨‍🦳 💧
+- Body Wash [La Roche-Posay Lipikar Syndet AP+](https://gemini.pl/la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-zapas-400-ml-0121873) or [Ceramedx® Extra Gentle Body Cleanser](https://ceramedx.com/products/extra-gentle-body-cleanser) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) 👨‍🦳 💧
 
 
 ## 7. Cookware
