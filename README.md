@@ -470,6 +470,7 @@ There are actual studies that confirm if you look younger and better you are mor
 ### Body
 - Body Wash [La Roche-Posay Lipikar Syndet AP+](https://gemini.pl/la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-zapas-400-ml-0121873) or [Ceramedx® Extra Gentle Body Cleanser](https://ceramedx.com/products/extra-gentle-body-cleanser) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) 👨‍🦳 💧
 - Body Moisturizer [La Roche-Posay Lipikar AP+M](https://gemini.pl/zestaw-la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-400-ml-balsam-do-ciala-skora-sucha-i-atopowa-od-urodzenia-400-ml-0122554) or [Avène XeraCalm A.D Lipid-Replenishing Balm](https://www.wapteka.pl/produkt/avene-xeracalm-ad-balsam-uzupelniajacy-lipidy-200-ml,4958/) or [CeraVe Moisturizing Lotion](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-skora-sucha-i-bardzo-sucha-twarz-i-cialo-1l-15502126795) 👨‍🦳 💧
+- Hand Wash [La Roche-Posay Lipikar Syndet AP+](https://gemini.pl/la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-zapas-400-ml-0121873) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) 👨‍🦳 💧
 
 
 ## 7. Cookware
