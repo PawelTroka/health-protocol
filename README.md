@@ -547,6 +547,8 @@ Even if you do everything right you can be exposed to harmful environment, so it
     - **100% Cotton & Oeko-Tex Standard 100**: Free from harmful chemicals, microplastics, and synthetic endocrine disruptors.
     - **500g/m² weight & Ring-Spun double yarn**: High absorbency and durability, leaving no moisture on the skin which prevents fungal and bacterial growth.
     - **Washable at 95°C**: Crucial for true sterilization. Washing at boiling temperatures effectively kills bacteria, viruses, mites, and mold that survive regular washes.
+- Use **100% Bamboo** toilet paper to avoid bleach, BPA, and microplastics found in recycled or standard paper:
+  - [The Cheeky Panda Bamboo Toilet tissue](https://allegro.pl/oferta/papier-toaletowy-3-warstwowy-bambusowy-miekki-48-rolek-opakowanie-rodzinne-14511919365) 🚽 🛡️
 
 
 ## 9. Vaccines
