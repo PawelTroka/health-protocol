@@ -520,7 +520,7 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 
 ### Kitchen Utensils
 **Material**: Single-piece stainless steel construction
-- Recommended: [Galicja Practico Kitchen Tool Set](https://allegro.pl/oferta/przybory-kuchenne-zestaw-6szt-chochla-lopatka-stal-12303435531) + [slotted spoon skimmer](https://allegro.pl/oferta/lyzka-cedzakowa-szumowka-sitko-cedzak-duze-oczka-13033458435)
+- Recommended: [Stainless Steel Kitchen Tool Set](https://allegro.pl/oferta/komplet-przyborow-ze-stali-nierdzewnej-6-elementowy-zestaw-akcesoria-17957470946)
   *Complete set of durable, sanitary cooking implements*
 
 ## 8. Environment
