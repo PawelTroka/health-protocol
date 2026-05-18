@@ -81,6 +81,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Myositis Profile](https://www.alab.pl/pakiet/profil-myositis-profil-zapalenia-miesni)**: Myositis-associated antibodies (Jo-1, PL-7, Mi-2, etc.) & Antinuclear Antibodies (ANA) 💪 🔥 🛡️
 - **[STDs](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)**: Chlamydia trachomatis (IgG and IgM antibodies), HBs antibodies (Hepatitis B), HCV antibodies (Hepatitis C), HIV screening test (anti-HIV 1/2 and p24 antigen), HSV (Herpes) type 1/2 (IgG and IgM antibodies), Syphilis screening test (WR) 🛡️ 🍆
 - *(Optional)* **[Telomere Length (Biological Age)](https://www.alab.pl/badanie/badanie-dlugosci-telomerow-wiek-biologiczny)**: Telomere Length in blood leukocytes ⏰ 👨‍🦳
+- **[LDH (Lactate Dehydrogenase)](https://www.alab.pl/badanie/dehydrogenaza-mleczanowa-ldh-k33)**: LDH (Lactate Dehydrogenase) 🟤 ❤️
+- **[b-hCG (Tumor Marker)](https://www.alab.pl/badanie/gonadotropina-kosmowkowa-b-hcg-marker-nowotworowy-l47)**: b-hCG (Beta-hCG) 🛡️ 🍅
 
 #### Urine
 - **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: General urine analysis, Urine sediment, Microalbuminuria, Urine Creatinine 🫘 🚽
