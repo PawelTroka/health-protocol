@@ -398,6 +398,20 @@ data = {
     ]
 }
 
+# Non-tabular data sections
+imaging_data = """## Structural & Diagnostic Imaging
+
+### 🩻 Radiological Imaging (CT/RTG/CBCT)
+- **2024-05-06 RTG Head (Lateral)**: Cephalometric X-ray [results/RTG/H1.jpg]
+- **2024-05-06 RTG Teeth (Panoramic)**: Pantomogram [results/RTG/P2.jpg]
+- **2025-10-27 Dental CBCT / CT Head**: 3D Visualization of lower jaw and teeth [results/DentalCBCT]
+
+### 🩺 Ultrasound & Surgical Outcomes
+- **Epigastric Hernia (Linea Alba) Surgery**:
+  - **Before (USG 2025-01-07)**: 8x8mm hernia gate with small intestine loop [results/Ultrasound/HearniaLineaAlbea1.pdf]
+  - **After (USG 2026-05-19)**: Post-operative state, no features of hernia, linea alba width ~4cm [results/Ultrasound/HearniaLineaAlbeaFixed2.pdf]
+"""
+
 # Category-specific notes
 category_notes = {
     "Hormonal Panel": "Progesterone is likely elevated due to daily intake of 0.5mg dutasteride. Prolactin elevation is likely due to high sexual activity prior to testing.",
@@ -448,6 +462,9 @@ def generate_html_report():
         if category in category_notes:
             html += f"<p class='note'>{category_notes[category]}</p>"
     
+    # Add Imaging Section
+    html += imaging_data.replace("## ", "<h2>").replace("### ", "<h3>").replace("\n- ", "<br>• ").replace("\n", "<br>")
+
     # Legend
     html += "<h3>🎨 Color Legend</h3><ul>"
     html += "<li><span style='color:#00008b; font-weight:bold;'>● Dark Blue</span>: Optimal / Good</li>"
@@ -512,6 +529,9 @@ def generate_md_report():
             md += f"\n> **Note:** {category_notes[category]}\n"
             
         md += "\n"
+
+    # Add Imaging Section
+    md += imaging_data + "\n"
 
     # Legend
     md += "### 🎨 Color Legend\n"

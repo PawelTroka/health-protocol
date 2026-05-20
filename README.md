@@ -12,6 +12,7 @@
 - [8. Environment](#8-environment)
 - [9. Vaccines](#9-vaccines)
 - [10. Peptides](#10-peptides)
+- [11. Surgeries](#11-surgeries)
 - [Legend](#legend)
 - [Notes](#notes)
 - [TODOs / Things to consider](#todos--things-to-consider)
@@ -584,6 +585,47 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⏰
   - (alternative) [Mounjaro 2.4 ml](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) 🩸 ❤️ ⏰ ⚕️
 
+
+## 11. Surgeries
+
+- **Sapphire FUE Hair Transplant**
+  - **Date**: November 19, 2021
+  - **Facility**: [EsteWorld](https://www.esteworld.com.tr/en) Istanbul, Turkey
+  - **Surgeon**: [-](-)
+  - **Anesthesia**: Local anesthesia injections of Lidocaine
+  - **Rationale**: Norwood scale 4 genetic androgenetic alopecia inherited from father and great grandfather from mother's side
+  - **Details**: 4400 grafts collected and implanted via Sapphire FUE for hairline restoration
+- **Follicular Unit Extraction (FUE) + Direct Hair Implantation (DHI)**
+  - **Date**: November 10, 2025
+  - **Facility**: [EsteWorld](https://www.esteworld.com.tr/en) Istanbul, Turkey
+  - **Surgeon**: [-](-)
+  - **Anesthesia**: Mild IV conscious sedation + local anesthesia injections of Lidocaine
+  - **Rationale**: Large upper third of the face, further androgenetic alopecia and slightly patchy beard
+  - **Details**: 4500 grafts collected via FUE and injected via DHI for hairline lowering and beard transplantation
+- **Excision of Palatal Tumor**
+  - **Date**: December 12, 2025
+  - **Facility**: [Markiewicz Clinic](https://markiewiczclinic.com) Gdansk, Poland
+  - **Surgeon**: [Aleksandra Karkowska](https://www.znanylekarz.pl/aleksandra-karkowska-plichta/stomatolog/gdansk)
+  - **Anesthesia**: Local anesthesia injections
+  - **Rationale**: Tumor discovered in the palate above the first upper teeth via [Dental CBCT](results/DentalCBCT.zip) during orthodontic treatment
+  - **Details**: Removal of a tumor succesful
+- **Repair of Epigastric Hernia (Hernia Linea Alba)**
+  - **Date**: January 13, 2026
+  - **Facility**: [Garden Clinic Hospital](https://gardenclinic.pl/hospital) Gdansk, Poland
+  - **Surgeon**: [Dr. Andrzej Lehmann](https://drlehmann.pl)
+  - **Anesthesia**: Deep IV sedation
+  - **Rationale**: 8mmm x 8mm epigastric hernia present since childhood, confirmed by [ultrasound in December 2025](results/Ultrasound/HearniaLineaAlbea1.pdf)
+  - **Details**: Quick and succesful no-mesh repair of hernia linea albea
+  - **Recovery**: Post-operative [ultrasound (May 19, 2026)](results/Ultrasound/HearniaLineaAlbeaFixed1.pdf) confirmed successful repair with no remaining features of hernia; linea alba width ~4cm. Progression with core exercises requires caution
+- **Septorhinoplasty + Conchoplasty**
+  - **Date**: February 28, 2026
+  - **Facility**: [Memorial Bahcelievler Hastanesi](https://www.memorial.com.tr/hastaneler-ve-tip-merkezleri/memorial-bahcelievler-hastanesi) Istanbul, Turkey
+  - **Surgeon**: [Dr. Ahmet Altintas](https://ahmetaltintas.com/en/homepage/)
+  - **Anesthesia**: General anesthesia
+  - **Rationale**: Performed for functional improvement (breathing) and aesthetics due to a 5° crooked nose and deviated septum (identified via CBCT).
+  - **Details**: 4-hour open septorhinoplasty with moderate success
+  - **Recovery**: Still ongoing up until at least 28 August 2026, some swelling still present at the tip of the nose
+
 ## Legend
 - TBD - To Be Decided, we were unable to find a good supplement for this compound on polish market
 - BJ-LM - [Bryan Johnson Longevity Mix](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)
@@ -666,3 +708,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Galactooligosaccharides 2.5g TBD 🦠 🚽 🛡️ - *potentially harmful due to IBS*
 - Lactobacillus Acidophilus 4bln 20mg CFU TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🦠 🛡️ 🧠 🚽 - *there are simply better strains available like Lactobacillus reuteri*
 - [Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (daily) 👨‍🦳 💧- *CeraVe moisturizer is better*
+
+
+---
+*This protocol is a living document and is updated regularly based on new research and laboratory findings.*

@@ -215,6 +215,18 @@
 
 > **Note:** Progesterone is likely elevated due to daily intake of 0.5mg dutasteride. Prolactin elevation is likely due to high sexual activity prior to testing.
 
+## Structural & Diagnostic Imaging
+
+### 🩻 Radiological Imaging (CT/RTG/CBCT)
+- **2024-05-06 RTG Head (Lateral)**: Cephalometric X-ray [results/RTG/H1.jpg]
+- **2024-05-06 RTG Teeth (Panoramic)**: Pantomogram [results/RTG/P2.jpg]
+- **2025-10-27 Dental CBCT / CT Head**: 3D Visualization of lower jaw and teeth [results/DentalCBCT]
+
+### 🩺 Ultrasound & Surgical Outcomes
+- **Epigastric Hernia (Linea Alba) Surgery**:
+  - **Before (USG 2025-01-07)**: 8x8mm hernia gate with small intestine loop [results/Ultrasound/HearniaLineaAlbea1.pdf]
+  - **After (USG 2026-05-19)**: Post-operative state, no features of hernia, linea alba width ~4cm [results/Ultrasound/HearniaLineaAlbeaFixed2.pdf]
+
 ### 🎨 Color Legend
 *   🔵 **Blue**: Optimal / Good
 *   🟢 **Green**: Safe / Normal
