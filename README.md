@@ -578,12 +578,31 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Pneumococcal (PCV20 (Prevnar 20)) (1 doses when 65+ years old)
 
 ## 10. Peptides
-- [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) 🦴 🛡️ 🫀
-- [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳 🛡️
-- [Thymosin Alpha-1 5mg](https://pro-body.com/pl/produkt/thymosin-alpha-1-5mg/) (when about to be sick 1.5mg every 3 days) 🛡️ 🔥 🫁
-- (Optional) [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🦴 🥊
+- [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) 🦴 🛡️ 🫀  
+  10mg / 4ml  
+  2.5mg / ml  
+  250mcg-500mcg -> 10-20 IU / day
+- [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳 🛡️  
+  50mg / 2.5ml  
+  20mg / ml  
+  1-2mg -> 5-10 IU / day
+- [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🦴 🥊  
+  10mg / 2ml  
+  5mg / ml  
+  2mg -> 40 IU / week
 - [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⏰
   - (alternative) [Mounjaro 2.4 ml](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) 🩸 ❤️ ⏰ ⚕️
+  15mg / 1.5ml  
+  10mg / ml  
+  1.5mg -> 15 IU / week
+- CJC-1295 with DAC 5mg
+  5mg / 2.5ml  
+  2mg / ml  
+  0.5mg-1mg -> 25-50 IU / week
+- AOD-9604 5mg  
+  5mg / 3ml  
+  1.67mg / ml  
+  250mcg-500mcg -> 15-30 IU / day
 
 
 ## 11. Surgeries
