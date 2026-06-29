@@ -271,7 +271,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - Garlic ❤️ 🛡️ 🩸 🍆
 
 ### Healthy Additions (to meals / during meals / after meals)
-- Extra virgin olive oil ❤️ 🧠 🔥 ⏰
+- [Extra virgin olive oil](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
 - [Broccoli sprouts](https://allegro.pl/listing?string=nasiona%20na%20kie%C5%82ki%20broku%C5%82a%20bio) 🛡️ 🦠 ⏰ (Sulforaphane powerhouse, 10-100x higher than mature broccoli)
 - [White Matcha](https://allegro.pl/listing?string=bia%C5%82a%20matcha%20proszek) 🧠 ❤️ 🛡️ ⏰ (Stone-ground white tea, extremely high in delicate polyphenols and flavonoids)
 - Berries (Raspberries, strawberries, blueberries) 🧠 🛡️ ❤️ 👁️
