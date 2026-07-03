@@ -350,7 +350,28 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105) 🛡️ 🍆
 
 ### Before workout
-- [Thor Fuel + Vitargo 20g](https://gymbeam.com/thor-fuel-vitargo-pre-workout-600-g-gymbeam.html) ⚡ 💪 🧠 🌾
+- [Transparent Labs BULK Pre-Workout](https://www.transparentlabs.com/products/bulk-preworkout) "White Cherry" 1 scoop, 20–30 min before workout ⚡ 💪 🧠 🩸
+   - **Pump / blood flow**
+     - L-Citrulline Malate 2:1 8g 🩸 💪
+   - **Endurance / fatigue resistance**
+     - Beta-Alanine 4g 💪 🔥
+     - BetaPure™ Betaine Anhydrous 2.5g 💪 💧
+     - Taurine 1.3g ❤️ 💪 🧠
+   - **Focus / stimulation**
+     - L-Tyrosine 1g 🧠 ⚡
+     - AlphaSize® Alpha-GPC 300mg 🧠 💪
+     - PurCaf® Organic Caffeine 200mg ⚡ 🧠
+     - L-Theanine 200mg 😌 🧠
+     - Theobromine 50mg ⚡ 🍫
+   - **Recovery / absorption / micronutrients**
+     - SenActiv® 50mg 💪 ⏰
+     - BioPerine® 5mg 🚀
+     - Boron Citrate 3mg 🍆 🦴
+     - Zinc Chelate 10mg 🍆 🛡️
+     - Vitamin B6 5mg 🧠 ⚡
+     - Vitamin B12 100mcg 🧠 ⚡
+     - Sodium 180mg 💧
+     - Potassium 125mg 💧 ❤️
 - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - [Maca 500mg](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
