@@ -29,8 +29,8 @@
 | **Lymphocytes %** | 🔵 | 🟢 41.6 | 🟡 50.3 ↑ | 🔵 40.9 | 🔵 39.5 | % | 25 - 45 |
 | **Monocytes** | 🔵 | 🔵 0.7 | 🟢 0.9 | 🔵 0.56 | 🟡 1.01 ↑ | 10^9/L | 0.1 - 0.9 |
 | **Monocytes %** | 🔵 | 🟡 10.4 ↑ | 🟡 11.9 ↑ | 🟡 10.1 ↑ | 🟡 11.1 ↑ | % | 2 - 9 |
-| **Eosinophils** | ⚪ | 🟢 0.5<sup>1</sup> | 🟢 0.5<sup>1</sup> | 🟢 0.42<sup>1</sup> | 🟡 0.55 ↑<sup>1</sup> | 10^9/L | < 0.5 |
-| **Eosinophils %** | 🟠<sup>1</sup> | 🟠 7.7 ↑<sup>1</sup> | 🟡 6.5 ↑<sup>1</sup> | 🟠 7.6 ↑<sup>1</sup> | 🟡 6.0 ↑<sup>1</sup> | % | 0.00 - 5.00 |
+| **Eosinophils** | ⚪ | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.42 | 🟡<sup>1</sup> 0.55 ↑ | 10^9/L | < 0.5 |
+| **Eosinophils %** | 🟠<sup>1</sup> | 🟠<sup>1</sup> 7.7 ↑ | 🟡<sup>1</sup> 6.5 ↑ | 🟠<sup>1</sup> 7.6 ↑ | 🟡<sup>1</sup> 6.0 ↑ | % | 0.00 - 5.00 |
 | **Basophils** | ⚪ | 🟢 0.1 | 🟢 0.1 | 🔵 0.05 | 🔵 0.08 | 10^9/L | 0.00 - 0.10 |
 | **Basophils %** | 🟠 | 🟢 0.9 | 🔵 0.7 | 🟢 0.9 | 🟢 0.9 | % | 0.00 - 1.00 |
 | **Immature Granulocytes** | ⚪ | 🔵 0.0 | 🔵 0.0 | 🔵 0.01 | 🟢 0.04 | 10^9/L | < 0.04 |
@@ -87,13 +87,13 @@
 | **Urine Albumin (Microalbuminuria)** | 🔵 <3 | mg/l | < 20.0 |
 | **Urine Protein** | 🔵 0.06 | g/L | < 0.15 |
 | **Urine Amylase** | 🟢 98 | U/L | 16 - 491 |
-| **Urine Potassium** | 🟡 7.12 ↓<sup>2</sup> | mmol/l | 20.00 - 80.00 |
-| **Urine Sodium** | 🟡 15.5 ↓<sup>2</sup> | mmol/l | 54.0 - 150.0 |
+| **Urine Potassium** | 🟡<sup>2</sup> 7.12 ↓ | mmol/l | 20.00 - 80.00 |
+| **Urine Sodium** | 🟡<sup>2</sup> 15.5 ↓ | mmol/l | 54.0 - 150.0 |
 | **Urine Urea** | 🔵 2249 | mg/dl | 1714 - 3565 |
 | **Urine Calcium** | 🔵 11.3 | mg/dl | 6.8 - 21.3 |
-| **Urine Magnesium** | 🔴 7.1 ↑<sup>1</sup> | mg/dl | 0.4 - 1.4 |
-| **Urine Phosphate** | 🟡 26.40 ↓<sup>2</sup> | mg/dl | 40.00 - 136.00 |
-| **Urine Chloride** | 🟡 11 ↓<sup>2</sup> | mmol/L | 46 - 168 |
+| **Urine Magnesium** | 🔴<sup>1</sup> 7.1 ↑ | mg/dl | 0.4 - 1.4 |
+| **Urine Phosphate** | 🟡<sup>2</sup> 26.40 ↓ | mg/dl | 40.00 - 136.00 |
+| **Urine Chloride** | 🟡<sup>2</sup> 11 ↓ | mmol/L | 46 - 168 |
 
 **Notes:**
 <sup>1</sup> High urine magnesium likely reflects magnesium supplementation; similar to B12, toxicity risk is generally low, but supplementation will be reduced or adjusted.
@@ -110,7 +110,7 @@
 | **AST** | 🟠<sup>1</sup> | 🟢 33 | 🔵 20 | 🟢 25 | - | U/L | < 40 |
 | **GGTP** | ⚪ | 🔵 18 | 🔵 14 | 🔵 18 | 🔵 18 | U/L | < 60 |
 | **Bilirubin Total** | 🟠<sup>1</sup> | 🔵 0.61 | 🔵 0.20 | 🔵 0.39 | - | mg/dL | < 1.20 |
-| **Bilirubin Direct** | - | 🟡 0.33 ↑<sup>1</sup> | - | - | - | mg/dL | < 0.3 |
+| **Bilirubin Direct** | - | 🟡<sup>1</sup> 0.33 ↑ | - | - | - | mg/dL | < 0.3 |
 | **ALP** | ⚪ | 🔵 76 | - | 🔵 89 | - | U/L | 40 - 129 |
 | **LDH** | ⚪ | 🟢 152 | 🔵 123 | - | - | U/L | < 250 |
 | **Albumin** | - | 🟢 48.90 | - | - | - | g/l | 35.00 - 52.00 |
@@ -133,7 +133,7 @@
 | **Lipoprotein (a)** | ⚪ | 🔵 7.16 | 🔵 < 7.00 | - | - | nmol/l | < 75 |
 | **Homocysteine** | ⚪ | - | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 15.0 |
 | **NT-proBNP** | 🟢 | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10.0 | pg/ml | < 125 |
-| **Creatine Kinase (CK)** | 🟠<sup>1</sup> | 🟡 222 ↑<sup>1</sup> | 🔵 153 | - | - | U/L | 20 - 200 |
+| **Creatine Kinase (CK)** | 🟠<sup>1</sup> | 🟡<sup>1</sup> 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200 |
 | **Myoglobin** | 🟠 | - | 🟢 24.30 | 🔵 42.60 | - | ng/ml | 23 - 72 |
 | **D-dimer** | ⚪ | - | 🔵 < 190 | 🔵 < 190 | 🔵 < 190 | ng/ml | < 500 |
 | **Fibrinogen** | - | 🔵 3.1 | - | - | - | g/l | 2.0 - 4.0 |
@@ -150,7 +150,7 @@
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Vitamin D3** | 🔵 | 🔵 46.0 | 🟡 26.3 ↓ | 🟡 52.5 ↑ | 🔵 37.9 | ng/ml | 30 - 50 |
-| **Vitamin B12** | 🔴<sup>1</sup> | 🟡 859 ↑<sup>1</sup> | 🔵 562 | 🟡 928 ↑<sup>1</sup> | - | pg/ml | 197 - 771 |
+| **Vitamin B12** | 🔴<sup>1</sup> | 🟡<sup>1</sup> 859 ↑ | 🔵 562 | 🟡<sup>1</sup> 928 ↑ | - | pg/ml | 197 - 771 |
 | **Ferritin** | 🟡 | 🟢 42 | 🟢 78 | 🔵 134 | - | ng/ml | 30 - 400 |
 | **Iron** | 🔵 | 🔵 125 | 🟡 41 ↓ | 🔵 98 | - | ug/dl | 59 - 150 |
 | **Transferrin** | ⚪ | 🔵 3.00 | 🔵 3.00 | - | - | g/l | 2.00 - 3.60 |
@@ -212,7 +212,7 @@
 
 |  | Trend | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Arsenic** | 💎<sup>1</sup> | 🟢 11.8 | 🟠 30.8 ↑<sup>1</sup> | ug/l | < 15.0 |
+| **Arsenic** | 💎<sup>1</sup> | 🟢 11.8 | 🟠<sup>1</sup> 30.8 ↑ | ug/l | < 15.0 |
 | **Cadmium** | ⚪ | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8 |
 | **Chromium** | 🔴 | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6 |
 | **Nickel** | ⚪ | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0 |
@@ -226,7 +226,7 @@
 
 |  | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
-| **Stool pH** | 🟡 8.0 ↑<sup>1</sup> |  | 6.5 - 7.5 |
+| **Stool pH** | 🟡<sup>1</sup> 8.0 ↑ |  | 6.5 - 7.5 |
 | **Reducing Substances** | 🟢 0.25 | % | < 0.25 |
 | **Starch Grains** | few in preparation<sup>1</sup> |  | absent |
 | **Fat Droplets** | single in preparation<sup>1</sup> |  | absent |
@@ -257,17 +257,17 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Testosterone (Total)** | 🟠 | 🟡 32.10 ↑ | 🟢 27.50 | 🟢 28.60 | 🟢 28.70 | nmol/l | 8.64 - 29.00 |
 | **Testosterone (Free)** | - | - | - | 🔵 19.17 | - | pg/ml | 9.10 - 32.20 |
-| **Estradiol (E2)** | 🔴<sup>1</sup> | 🟡 213 ↑<sup>1</sup> | 🟢 141 | 🟡 188 ↑<sup>1</sup> | 🟡 176 ↑<sup>1</sup> | pmol/l | 41 - 159 |
-| **Prolactin** | 💎 | 🟢 14.90 | 🟠 24.00 ↑<sup>2</sup> | 🔵 9.64 | 🟠 22.70 ↑<sup>2</sup> | ng/mL | 4.04 - 15.20 |
+| **Estradiol (E2)** | 🔴<sup>1</sup> | 🟡<sup>1</sup> 213 ↑ | 🟢 141 | 🟡<sup>1</sup> 188 ↑ | 🟡<sup>1</sup> 176 ↑ | pmol/l | 41 - 159 |
+| **Prolactin** | 💎 | 🟢 14.90 | 🟠<sup>2</sup> 24.00 ↑ | 🔵 9.64 | 🟠<sup>2</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20 |
 | **Cortisol** | ⚪ | 🟢 17.4 | 🟢 17.4 | 🟢 17.1 | - | ug/dl | 4.8 - 19.5 |
-| **TSH** | 🟠<sup>3</sup> | 🟡 4.57 ↑<sup>3</sup> | 🔵 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20 |
+| **TSH** | 🟠<sup>3</sup> | 🟡<sup>3</sup> 4.57 ↑ | 🔵 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20 |
 | **Free T3 (FT3)** | ⚪ | 🔵 5.47 | 🔵 4.54 | 🔵 4.29 | 🔵 5.57 | pmol/L | 3.10 - 6.80 |
-| **Free T4 (FT4)** | 🟠<sup>3</sup> | 🟢 19.80<sup>3</sup> | 🔵 16.30 | 🟢 20.67 | 🔵 17.70 | pmol/L | 11.90 - 21.60 |
+| **Free T4 (FT4)** | 🟠<sup>3</sup> | 🟢<sup>3</sup> 19.80 | 🔵 16.30 | 🟢 20.67 | 🔵 17.70 | pmol/L | 11.90 - 21.60 |
 | **LH** | 🔵 | 🟢 7.39 | 🟡 10.20 ↑ | 🔵 4.46 | - | mIU/mL | 1.70 - 8.60 |
 | **FSH** | 🟡 | 🟢 2.1 | 🟢 3.0 | 🟢 1.6 | 🟢 3.0 | mIU/mL | 1.5 - 12.4 |
 | **SHBG** | 🟠 | 🟡 54.7 ↑ | 🔵 43.2 | 🔵 35.0 | 🔵 34.3 | nmol/L | 18.3 - 54.1 |
 | **DHEA-SO4** | ⚪ | 🟢 92.9 | 🟢 97.7 | 🟢 124.0 | 🟢 111.0 | ug/dl | 88.9 - 427 |
-| **Progesterone** | 💎 | 🟡 0.842 ↑<sup>4</sup> | 🟠 1.390 ↑<sup>4</sup> | 🟠 1.370 ↑<sup>4</sup> | - | nmol/l | < 0.474 |
+| **Progesterone** | 💎 | 🟡<sup>4</sup> 0.842 ↑ | 🟠<sup>4</sup> 1.390 ↑ | 🟠<sup>4</sup> 1.370 ↑ | - | nmol/l | < 0.474 |
 | **17-OH Progesterone** | 🔵 | - | - | 🔵 1.59 | 🔵 2.31 | ng/ml | 0.37 - 2.87 |
 | **IGF-1** | 🔵 | 🔵 158 | 🔵 229 | 🔵 201 | - | ng/ml | 61 - 271 |
 | **HCG-Beta** | ⚪ | 🔵 < 0.200 | 🔵 < 0.200 | - | - | mIU/mL | < 2.60 |

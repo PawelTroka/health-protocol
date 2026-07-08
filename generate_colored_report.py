@@ -409,10 +409,41 @@ def note_sup_html(numbers):
         return ""
     return f"<sup>{','.join(str(number) for number in numbers)}</sup>"
 
+def add_note_sup_html(cell, numbers):
+    sup = note_sup_html(numbers)
+    if not sup:
+        return cell
+
+    match = re.match(r'^(\S+)(.*)$', cell)
+    if match:
+        leading, rest = match.groups()
+        if leading in {"🔵", "🟢", "🟡", "🟠", "🔴", "⚪", "💎"}:
+            return f"{leading}{sup}{rest}"
+
+    cell = cell.replace(" ↑</span>", f"{sup} ↑</span>")
+    cell = cell.replace(" ↓</span>", f"{sup} ↓</span>")
+    if sup in cell:
+        return cell
+
+    return f"{cell}{sup}"
+
 def note_sup_md(numbers):
     if not numbers:
         return ""
     return f"<sup>{','.join(str(number) for number in numbers)}</sup>"
+
+def add_note_sup_md(cell, numbers):
+    sup = note_sup_md(numbers)
+    if not sup:
+        return cell
+
+    match = re.match(r'^(\S+)(\s+.*)$', cell)
+    if match:
+        leading, rest = match.groups()
+        if leading in {"🔵", "🟢", "🟡", "🟠", "🔴", "⚪", "💎"}:
+            return f"{leading}{sup}{rest}"
+
+    return f"{cell}{sup}"
 
 def render_result_notes_html(category):
     notes = result_notes.get(category, [])
@@ -794,10 +825,10 @@ def generate_html_report():
             html += f"<tr><td><b>{name}</b></td>"
             if include_trend:
                 trend_cell = format_trend_html(values, ref, category)
-                trend_cell += note_sup_html(note_numbers(category, name, "trend"))
+                trend_cell = add_note_sup_html(trend_cell, note_numbers(category, name, "trend"))
                 html += f"<td>{trend_cell}</td>"
             for idx, cell in zip(active_indexes, cells):
-                cell += note_sup_html(note_numbers(category, name, "value", date_columns[idx]))
+                cell = add_note_sup_html(cell, note_numbers(category, name, "value", date_columns[idx]))
                 html += f"<td>{cell}</td>"
             html += f"<td>{unit}</td><td>{ref}</td></tr>"
         html += "</table>"
@@ -867,10 +898,10 @@ def generate_md_report():
             line = f"| **{name}** |"
             if include_trend:
                 trend_cell = format_trend_md(values, ref, category)
-                trend_cell += note_sup_md(note_numbers(category, name, "trend"))
+                trend_cell = add_note_sup_md(trend_cell, note_numbers(category, name, "trend"))
                 line += f" {trend_cell} |"
             for idx, cell in zip(active_indexes, cells):
-                cell += note_sup_md(note_numbers(category, name, "value", date_columns[idx]))
+                cell = add_note_sup_md(cell, note_numbers(category, name, "value", date_columns[idx]))
                 line += f" {cell} |"
             line += f" {unit} | {ref} |"
             md += line + "\n"
