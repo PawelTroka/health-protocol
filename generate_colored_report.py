@@ -245,7 +245,7 @@ def active_date_indexes(rows):
 trend_definitions = {
     "Breakthrough": {
         "description": "Vast improvement",
-        "emoji": "🔷",
+        "emoji": "💎",
     },
     "Major Improvement": {
         "description": "Strong improvement",
@@ -273,6 +273,10 @@ trend_definitions = {
     },
 }
 
+slight_improvement_score_delta = 0.06
+slight_worsening_score_delta = 0.12
+slight_directional_improvement_percent_delta = 0.075
+
 def trend_score(value, ref, category):
     if value in missing_values or ref in missing_values or ref == "-":
         return None
@@ -295,37 +299,70 @@ def trend_score(value, ref, category):
 
     return None
 
+def numeric_value(value):
+    if value in missing_values:
+        return None
+
+    val_clean = re.sub(r'[^\d.<>-]', '', value.split('(')[0])
+    if not val_clean:
+        return None
+
+    try:
+        return float(re.sub(r'[<> ]', '', val_clean))
+    except ValueError:
+        return None
+
+def directional_percent_delta(current, previous, ref):
+    current_val = numeric_value(current)
+    previous_val = numeric_value(previous)
+    if current_val is None or previous_val is None or previous_val == 0:
+        return None
+
+    if re.match(r'<\s*([-\d.]+)', ref):
+        return (previous_val - current_val) / abs(previous_val)
+
+    if re.match(r'>\s*([-\d.]+)', ref):
+        return (current_val - previous_val) / abs(previous_val)
+
+    return None
+
 def classify_trend(values, ref, category):
-    scores = []
+    comparable = []
     for value in values:
         score = trend_score(value, ref, category)
         if score is not None:
-            scores.append(score)
-        if len(scores) == 2:
+            comparable.append((value, score))
+        if len(comparable) == 2:
             break
 
-    if len(scores) < 2:
+    if len(comparable) < 2:
         return None
 
     # Scores are health-distance values: lower is better, higher is worse.
-    current_score, previous_score = scores
+    current_value, current_score = comparable[0]
+    previous_value, previous_score = comparable[1]
     delta = previous_score - current_score
-
-    if abs(delta) < 0.12:
-        return "Stable"
+    percent_delta = directional_percent_delta(current_value, previous_value, ref)
 
     if delta >= 1.00:
         return "Breakthrough"
     if delta >= 0.30:
         return "Major Improvement"
-    if delta >= 0.12:
-        return "Improvement"
 
     if delta <= -1.00:
         return "Critical Decline"
     if delta <= -0.30:
         return "Major Decline"
-    return "Mild Worsening"
+
+    if delta >= slight_improvement_score_delta:
+        return "Improvement"
+    if percent_delta is not None and percent_delta >= slight_directional_improvement_percent_delta:
+        return "Improvement"
+
+    if delta <= -slight_worsening_score_delta:
+        return "Mild Worsening"
+
+    return "Stable"
 
 def format_trend_html(values, ref, category):
     trend = classify_trend(values, ref, category)
@@ -342,6 +379,13 @@ def format_trend_md(values, ref, category):
 
     definition = trend_definitions[trend]
     return definition["emoji"]
+
+def category_has_trends(rows, category):
+    for row in rows:
+        _, values, _, ref = split_result_row(row)
+        if classify_trend(values, ref, category) is not None:
+            return True
+    return False
 
 data = {
     "Biological Age": [
@@ -585,9 +629,12 @@ def generate_html_report():
     for category, rows in data.items():
         
         active_indexes = active_date_indexes(rows)
+        include_trend = category_has_trends(rows, category)
 
         html += f"<h2>{category}</h2>"
-        html += "<table><tr><th></th><th>Trend</th>"
+        html += "<table><tr><th></th>"
+        if include_trend:
+            html += "<th>Trend</th>"
         for idx in active_indexes:
             html += f"<th>{date_columns[idx]}</th>"
         html += "<th>Unit</th><th><i>Reference</i></th></tr>"
@@ -601,7 +648,9 @@ def generate_html_report():
             else:
                 cells = [format_cell_html(values[idx], ref) for idx in active_indexes]
             
-            html += f"<tr><td><b>{name}</b></td><td>{format_trend_html(values, ref, category)}</td>"
+            html += f"<tr><td><b>{name}</b></td>"
+            if include_trend:
+                html += f"<td>{format_trend_html(values, ref, category)}</td>"
             for cell in cells:
                 html += f"<td>{cell}</td>"
             html += f"<td>{unit}</td><td>{ref}</td></tr>"
@@ -630,7 +679,7 @@ def generate_html_report():
         html += f"<li><span style='font-weight:bold;'>{definition['emoji']} {label}</span>: {definition['description'].capitalize()}</li>"
     html += "<li><b>-</b>: not enough comparable completed results</li>"
     html += "</ul>"
-    html += "<p class='note'>Trend compares the latest completed result with the previous completed result using the reference-range health score; lower score is better.</p>"
+    html += "<p class='note'>Trend compares the latest completed result with the previous completed result using the reference-range health score; lower score is better. For one-sided targets (&lt; or &gt;), a directional improvement of at least 7.5% also counts as slight improvement.</p>"
 
     html += "</body></html>"
     
@@ -644,12 +693,16 @@ def generate_md_report():
     for category, rows in data.items():
         
         active_indexes = active_date_indexes(rows)
+        include_trend = category_has_trends(rows, category)
 
         md += f"## {category}\n\n"
         
         # Build Header
-        header = "|  | Trend |"
-        sep = "| :--- | :--- |"
+        header = "|  |"
+        sep = "| :--- |"
+        if include_trend:
+            header += " Trend |"
+            sep += " :--- |"
         for idx in active_indexes:
             header += f" {date_columns[idx]} |"
             sep += " :--- |"
@@ -667,7 +720,9 @@ def generate_md_report():
             else:
                 cells = [format_cell_md(values[idx], ref) for idx in active_indexes]
             
-            line = f"| **{name}** | {format_trend_md(values, ref, category)} |"
+            line = f"| **{name}** |"
+            if include_trend:
+                line += f" {format_trend_md(values, ref, category)} |"
             for cell in cells:
                 line += f" {cell} |"
             line += f" {unit} | {ref} |"
@@ -692,7 +747,7 @@ def generate_md_report():
     for label, definition in trend_definitions.items():
         md += f"*   {definition['emoji']} **{label}**: {definition['description'].capitalize()}\n"
     md += "*   **-**: Not enough comparable completed results\n\n"
-    md += "> **Trend method:** Compares the latest completed result with the previous completed result using the reference-range health score; lower score is better.\n\n"
+    md += "> **Trend method:** Compares the latest completed result with the previous completed result using the reference-range health score; lower score is better. For one-sided targets (< or >), a directional improvement of at least 7.5% also counts as slight improvement.\n\n"
     md += "> **Note:** See `results.html` for detailed color gradients.\n"
 
     with open("results.md", "w", encoding="utf-8") as f:

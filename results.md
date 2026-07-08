@@ -2,13 +2,13 @@
 
 ## Biological Age
 
-|  | Trend | 2026-01 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- | :--- |
-| **Biological Age** | - | 🟢 29.0 | years | < 34.9 |
-| **Chronological Age** | - | 🔵 34.9 | years | - |
-| **Age Difference** | - | 🔵 -5.9 | years | -10.0 - 0.0 |
-| **Relative Difference** | - | 🔵 -16.9 | % | -30.0 - 0.0 |
-| **Relative Difference (>18)** | - | 🔵 -34.9 | % | -50.0 - 0.0 |
+|  | 2026-01 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **Biological Age** | 🟢 29.0 | years | < 34.9 |
+| **Chronological Age** | 🔵 34.9 | years | - |
+| **Age Difference** | 🔵 -5.9 | years | -10.0 - 0.0 |
+| **Relative Difference** | 🔵 -16.9 | % | -30.0 - 0.0 |
+| **Relative Difference (>18)** | 🔵 -34.9 | % | -50.0 - 0.0 |
 
 ## Morphology
 
@@ -16,11 +16,11 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Hemoglobin** | ⚪ | 🔵 15.80 | 🔵 15.40 | 🔵 16.00 | 🔵 15.70 | g/dL | 13.0 - 18.0 |
 | **Hematocrit** | ⚪ | 🔵 45.9 | 🔵 45.9 | 🔵 46.6 | 🔵 47.1 | % | 40 - 52 |
-| **Erythrocytes** | ⚪ | 🔵 5.3 | 🔵 5.20 | 🔵 5.37 | 🔵 5.31 | 10^6/ul | 4.5 - 6.5 |
+| **Erythrocytes** | 🟢 | 🔵 5.3 | 🔵 5.20 | 🔵 5.37 | 🔵 5.31 | 10^6/ul | 4.5 - 6.5 |
 | **MCV** | ⚪ | 🔵 86.8 | 🔵 87.8 | 🔵 86.8 | 🔵 88.7 | fL | 80 - 98 |
 | **MCH** | ⚪ | 🔵 29.9 | 🔵 29.4 | 🔵 29.8 | 🔵 29.6 | pg | 27 - 32 |
 | **MCHC** | ⚪ | 🔵 34.4 | 🔵 33.6 | 🔵 34.3 | 🔵 33.3 | g/dL | 31 - 37 |
-| **RDW-CV** | ⚪ | 🔵 13.4 | 🔵 12.5 | 🔵 12.9 | 🔵 12.9 | % | 11.5 - 14.5 |
+| **RDW-CV** | 🟢 | 🔵 13.4 | 🔵 12.5 | 🔵 12.9 | 🔵 12.9 | % | 11.5 - 14.5 |
 | **RDW-SD** | 🟡 | 🔵 42.0 | 🔵 40.8 | - | 🔵 41.7 | fL | 35.1 - 43.9 |
 | **Leukocytes** | ⚪ | 🔵 7.0 | 🔵 7.7 | 🔵 5.5 | 🔵 9.1 | 10^3/ul | 4.0 - 11.0 |
 | **Neutrophils** | 🟢 | 🟢 2.7 | 🟢 2.3 | 🟢 2.22 | 🔵 3.83 | 10^9/L | 1.9 - 7 |
@@ -78,19 +78,19 @@
 
 ## Urine Chemistry
 
-|  | Trend | 2026-07 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- | :--- |
-| **Urine Creatinine** | - | 🟢 63.1 | mg/dL | 39.0 - 259.0 |
-| **Urine Albumin (Microalbuminuria)** | - | 🔵 <3 | mg/l | < 20.0 |
-| **Urine Protein** | - | 🔵 0.06 | g/L | < 0.15 |
-| **Urine Amylase** | - | 🟢 98 | U/L | 16 - 491 |
-| **Urine Potassium** | - | 🟡 7.12 ↓ | mmol/l | 20.00 - 80.00 |
-| **Urine Sodium** | - | 🟡 15.5 ↓ | mmol/l | 54.0 - 150.0 |
-| **Urine Urea** | - | 🔵 2249 | mg/dl | 1714 - 3565 |
-| **Urine Calcium** | - | 🔵 11.3 | mg/dl | 6.8 - 21.3 |
-| **Urine Magnesium** | - | 🔴 7.1 ↑ | mg/dl | 0.4 - 1.4 |
-| **Urine Phosphate** | - | 🟡 26.40 ↓ | mg/dl | 40.00 - 136.00 |
-| **Urine Chloride** | - | 🟡 11 ↓ | mmol/L | 46 - 168 |
+|  | 2026-07 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **Urine Creatinine** | 🟢 63.1 | mg/dL | 39.0 - 259.0 |
+| **Urine Albumin (Microalbuminuria)** | 🔵 <3 | mg/l | < 20.0 |
+| **Urine Protein** | 🔵 0.06 | g/L | < 0.15 |
+| **Urine Amylase** | 🟢 98 | U/L | 16 - 491 |
+| **Urine Potassium** | 🟡 7.12 ↓ | mmol/l | 20.00 - 80.00 |
+| **Urine Sodium** | 🟡 15.5 ↓ | mmol/l | 54.0 - 150.0 |
+| **Urine Urea** | 🔵 2249 | mg/dl | 1714 - 3565 |
+| **Urine Calcium** | 🔵 11.3 | mg/dl | 6.8 - 21.3 |
+| **Urine Magnesium** | 🔴 7.1 ↑ | mg/dl | 0.4 - 1.4 |
+| **Urine Phosphate** | 🟡 26.40 ↓ | mg/dl | 40.00 - 136.00 |
+| **Urine Chloride** | 🟡 11 ↓ | mmol/L | 46 - 168 |
 
 ## Metabolic Health
 
@@ -115,14 +115,14 @@
 
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Cholesterol LDL** | ⚪ | 🔵 68 | 🟢 76 | 🟢 74 | 🟢 75 | mg/dl | < 115 |
-| **Cholesterol Non-HDL** | ⚪ | 🟢 81 | 🟢 96 | - | - | mg/dL | < 130 |
+| **Cholesterol LDL** | 🟢 | 🔵 68 | 🟢 76 | 🟢 74 | 🟢 75 | mg/dl | < 115 |
+| **Cholesterol Non-HDL** | 🟢 | 🟢 81 | 🟢 96 | - | - | mg/dL | < 130 |
 | **Cholesterol HDL** | 🟡 | 🟡 38 ↓ | 🟢 43 | 🟡 35 ↓ | - | mg/dL | > 40 |
-| **Cholesterol Total** | ⚪ | 🟢 118 | 🟢 138 | 🟢 119 | - | mg/dL | < 190 |
+| **Cholesterol Total** | 🟢 | 🟢 118 | 🟢 138 | 🟢 119 | - | mg/dL | < 190 |
 | **Triglycerides** | 🟢 | 🔵 57 | 🟢 98 | 🔵 48 | 🔵 56 | mg/dL | < 150 |
 | **Lipoprotein (a)** | ⚪ | 🔵 7.16 | 🔵 < 7.00 | - | - | nmol/l | < 75 |
 | **Homocysteine** | ⚪ | - | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 15.0 |
-| **NT-proBNP** | ⚪ | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10.0 | pg/ml | < 125 |
+| **NT-proBNP** | 🟢 | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10.0 | pg/ml | < 125 |
 | **Creatine Kinase (CK)** | 🟠 | 🟡 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200 |
 | **Myoglobin** | 🟠 | - | 🟢 24.30 | 🔵 42.60 | - | ng/ml | 23 - 72 |
 | **D-dimer** | ⚪ | - | 🔵 < 190 | 🔵 < 190 | 🔵 < 190 | ng/ml | < 500 |
@@ -142,13 +142,13 @@
 | **Iron** | 🔵 | 🔵 125 | 🟡 41 ↓ | 🔵 98 | - | ug/dl | 59 - 150 |
 | **Transferrin** | ⚪ | 🔵 3.00 | 🔵 3.00 | - | - | g/l | 2.00 - 3.60 |
 | **Ceruloplasmin** | - | 🔵 0.20 | - | - | - | g/L | 0.15 - 0.30 |
-| **Folic Acid** | ⚪ | 🔵 21.1 | 🔵 8.5 | 🔵 17.0 | - | ng/ml | 3.9 - 26.8 |
+| **Folic Acid** | 🟢 | 🔵 21.1 | 🔵 8.5 | 🔵 17.0 | - | ng/ml | 3.9 - 26.8 |
 | **Magnesium** | 🔵 | 🔵 2.07 | 🔵 1.90 | 🔵 2.13 | - | mg/dl | 1.60 - 2.60 |
 | **Potassium** | 🟡 | 🔵 4.0 | 🔵 4.2 | 🟢 3.8 | - | mmol/l | 3.5 - 5.1 |
 | **Sodium** | 🟡 | 🔵 139 | 🔵 140 | - | - | mmol/l | 136 - 145 |
 | **Calcium (Total)** | 🔵 | 🔵 9.58 | 🟢 9.88 | 🟢 9.88 | - | mg/dL | 8.60 - 10.00 |
 | **Fosfor** | 🔵 | 🔵 3.10 | 🟡 4.83 ↑ | 🔵 3.7 | - | mg/dL | 2.5 - 4.5 |
-| **Zinc** | 🔷 | - | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18 |
+| **Zinc** | 💎 | - | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18 |
 | **Vitamin B6** | - | - | - | 🟡 58.6 ↑ | - | ug/l | 5.7 - 55.1 |
 | **Vitamin B1** | 🔵 | - | 🟢 33.6 | 🟡 69.1 ↑ | - | ug/l | 33.1 - 60.7 |
 | **Vitamin A** | ⚪ | - | 🔵 0.47 | 🔵 0.47 | - | mg/l | 0.3 - 0.7 |
@@ -162,7 +162,7 @@
 | **CRP (hs)** | ⚪ | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | 🔵 not detected | mg/l | < 5.0 |
 | **IL-6** | ⚪ | - | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0 |
 | **Calprotectin** | ⚪ | - | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0 |
-| **Anti-TPO** | ⚪ | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0 |
+| **Anti-TPO** | 🟢 | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0 |
 | **Anti-TG** | ⚪ | 🔵 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0 |
 | **ASO** | - | - | 🟡 209 ↑ | - | - | IU/mL | < 200 |
 
@@ -196,7 +196,7 @@
 
 |  | Trend | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Arsenic** | 🔷 | 🟢 11.8 | 🟠 30.8 ↑ | ug/l | < 15.0 |
+| **Arsenic** | 💎 | 🟢 11.8 | 🟠 30.8 ↑ | ug/l | < 15.0 |
 | **Cadmium** | ⚪ | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8 |
 | **Chromium** | 🔴 | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6 |
 | **Nickel** | ⚪ | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0 |
@@ -207,29 +207,29 @@
 
 ## Stool Analysis
 
-|  | Trend | 2026-07 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- | :--- |
-| **Stool pH** | - | 🟡 8.0 ↑ |  | 6.5 - 7.5 |
-| **Reducing Substances** | - | 🟢 0.25 | % | < 0.25 |
-| **Starch Grains** | - | few in preparation |  | absent |
-| **Fat Droplets** | - | single in preparation |  | absent |
-| **Fatty Acid Crystals** | - | few in preparation |  | absent |
-| **Muscle Fibers** | - | single in preparation |  | absent |
-| **Mucus** | - | few in preparation |  | absent |
-| **Leukocytes on Mucus** | - | present |  | absent |
-| **Parasites (Stool Ova)** | - | 🔵 negative | Status | negative |
-| **Amoeba (Cysts/Trophozoites)** | - | 🔵 not detected | Status | not detected |
+|  | 2026-07 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **Stool pH** | 🟡 8.0 ↑ |  | 6.5 - 7.5 |
+| **Reducing Substances** | 🟢 0.25 | % | < 0.25 |
+| **Starch Grains** | few in preparation |  | absent |
+| **Fat Droplets** | single in preparation |  | absent |
+| **Fatty Acid Crystals** | few in preparation |  | absent |
+| **Muscle Fibers** | single in preparation |  | absent |
+| **Mucus** | few in preparation |  | absent |
+| **Leukocytes on Mucus** | present |  | absent |
+| **Parasites (Stool Ova)** | 🔵 negative | Status | negative |
+| **Amoeba (Cysts/Trophozoites)** | 🔵 not detected | Status | not detected |
 
 ## Proteinogram
 
-|  | Trend | 2026-01 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- | :--- |
-| **Albumin** | - | 🔵 62.3 | % | 55.8 - 66.1 |
-| **Alpha-1 Globulin** | - | 🟢 2.9 | % | 2.9 - 4.9 |
-| **Alpha-2 Globulin** | - | 🟡 7.0 ↓ | % | 7.1 - 11.8 |
-| **Beta-1 Globulin** | - | 🔵 5.9 | % | 4.7 - 7.2 |
-| **Beta-2 Globulin** | - | 🔵 4.9 | % | 3.2 - 6.5 |
-| **Gamma Globulin** | - | 🔵 17.0 | % | 11.1 - 18.8 |
+|  | 2026-01 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **Albumin** | 🔵 62.3 | % | 55.8 - 66.1 |
+| **Alpha-1 Globulin** | 🟢 2.9 | % | 2.9 - 4.9 |
+| **Alpha-2 Globulin** | 🟡 7.0 ↓ | % | 7.1 - 11.8 |
+| **Beta-1 Globulin** | 🔵 5.9 | % | 4.7 - 7.2 |
+| **Beta-2 Globulin** | 🔵 4.9 | % | 3.2 - 6.5 |
+| **Gamma Globulin** | 🔵 17.0 | % | 11.1 - 18.8 |
 
 ## Hormonal Panel
 
@@ -238,7 +238,7 @@
 | **Testosterone (Total)** | 🟠 | 🟡 32.10 ↑ | 🟢 27.50 | 🟢 28.60 | 🟢 28.70 | nmol/l | 8.64 - 29.00 |
 | **Testosterone (Free)** | - | - | - | 🔵 19.17 | - | pg/ml | 9.10 - 32.20 |
 | **Estradiol (E2)** | 🔴 | 🟡 213 ↑ | 🟢 141 | 🟡 188 ↑ | 🟡 176 ↑ | pmol/l | 41 - 159 |
-| **Prolactin** | 🔷 | 🟢 14.90 | 🟠 24.00 ↑ | 🔵 9.64 | 🟠 22.70 ↑ | ng/mL | 4.04 - 15.20 |
+| **Prolactin** | 💎 | 🟢 14.90 | 🟠 24.00 ↑ | 🔵 9.64 | 🟠 22.70 ↑ | ng/mL | 4.04 - 15.20 |
 | **Cortisol** | ⚪ | 🟢 17.4 | 🟢 17.4 | 🟢 17.1 | - | ug/dl | 4.8 - 19.5 |
 | **TSH** | 🟠 | 🟡 4.57 ↑ | 🔵 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20 |
 | **Free T3 (FT3)** | ⚪ | 🔵 5.47 | 🔵 4.54 | 🔵 4.29 | 🔵 5.57 | pmol/L | 3.10 - 6.80 |
@@ -247,7 +247,7 @@
 | **FSH** | 🟡 | 🟢 2.1 | 🟢 3.0 | 🟢 1.6 | 🟢 3.0 | mIU/mL | 1.5 - 12.4 |
 | **SHBG** | 🟠 | 🟡 54.7 ↑ | 🔵 43.2 | 🔵 35.0 | 🔵 34.3 | nmol/L | 18.3 - 54.1 |
 | **DHEA-SO4** | ⚪ | 🟢 92.9 | 🟢 97.7 | 🟢 124.0 | 🟢 111.0 | ug/dl | 88.9 - 427 |
-| **Progesterone** | 🔷 | 🟡 0.842 ↑ | 🟠 1.390 ↑ | 🟠 1.370 ↑ | - | nmol/l | < 0.474 |
+| **Progesterone** | 💎 | 🟡 0.842 ↑ | 🟠 1.390 ↑ | 🟠 1.370 ↑ | - | nmol/l | < 0.474 |
 | **17-OH Progesterone** | 🔵 | - | - | 🔵 1.59 | 🔵 2.31 | ng/ml | 0.37 - 2.87 |
 | **IGF-1** | 🔵 | 🔵 158 | 🔵 229 | 🔵 201 | - | ng/ml | 61 - 271 |
 | **HCG-Beta** | ⚪ | 🔵 < 0.200 | 🔵 < 0.200 | - | - | mIU/mL | < 2.60 |
@@ -274,7 +274,7 @@
 *   🔴 **Red**: Abnormal / Critical
 
 ### Trend Legend
-*   🔷 **Breakthrough**: Vast improvement
+*   💎 **Breakthrough**: Vast improvement
 *   🔵 **Major Improvement**: Strong improvement
 *   🟢 **Improvement**: Slight improvement
 *   ⚪ **Stable**: Mostly stable
@@ -283,6 +283,6 @@
 *   🔴 **Critical Decline**: Severe worsening
 *   **-**: Not enough comparable completed results
 
-> **Trend method:** Compares the latest completed result with the previous completed result using the reference-range health score; lower score is better.
+> **Trend method:** Compares the latest completed result with the previous completed result using the reference-range health score; lower score is better. For one-sided targets (< or >), a directional improvement of at least 7.5% also counts as slight improvement.
 
 > **Note:** See `results.html` for detailed color gradients.
