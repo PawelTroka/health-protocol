@@ -387,6 +387,54 @@ def category_has_trends(rows, category):
             return True
     return False
 
+def note_numbers(category, row_name, target, date=None):
+    numbers = []
+    for number, note in enumerate(result_notes.get(category, []), start=1):
+        for marker in note["markers"]:
+            rows = marker.get("rows", [marker.get("row")])
+            targets = marker.get("targets", [marker.get("target")])
+            dates = marker.get("dates")
+
+            if row_name not in rows or target not in targets:
+                continue
+            if target == "value" and dates is not None and date not in dates:
+                continue
+
+            numbers.append(number)
+            break
+    return numbers
+
+def note_sup_html(numbers):
+    if not numbers:
+        return ""
+    return f"<sup>{','.join(str(number) for number in numbers)}</sup>"
+
+def note_sup_md(numbers):
+    if not numbers:
+        return ""
+    return f"<sup>{','.join(str(number) for number in numbers)}</sup>"
+
+def render_result_notes_html(category):
+    notes = result_notes.get(category, [])
+    if not notes:
+        return ""
+
+    html = "<div class='table-notes'>"
+    for number, note in enumerate(notes, start=1):
+        html += f"<p><sup>{number}</sup> {note['text']}</p>"
+    html += "</div>"
+    return html
+
+def render_result_notes_md(category):
+    notes = result_notes.get(category, [])
+    if not notes:
+        return ""
+
+    md = "\n**Notes:**\n"
+    for number, note in enumerate(notes, start=1):
+        md += f"<sup>{number}</sup> {note['text']}\n"
+    return md
+
 data = {
     "Biological Age": [
         ("Biological Age", "-", "29.0", "-", "-", "years", "< 34.9"),
@@ -609,10 +657,102 @@ imaging_data = """## Structural & Diagnostic Imaging
   - **After (USG 2026-05-19)**: Post-operative state, no features of hernia, linea alba width ~4cm [results/Ultrasound/HearniaLineaAlbeaFixed2.pdf]
 """
 
-# Category-specific notes
-category_notes = {
-    "Hormonal Panel": "Progesterone is likely elevated due to daily intake of 0.5mg dutasteride. Prolactin elevation is likely due to high sexual activity prior to testing.",
-    "Toxicology (Urine)": "Arsenic elevation (in 2025-05) was likely due to high consumption of salmon."
+result_notes = {
+    "Morphology": [
+        {
+            "text": "Eosinophils may reflect an unidentified allergy still under investigation, or may be related to IBS-U.",
+            "markers": [
+                {"rows": ["Eosinophils", "Eosinophils %"], "target": "value", "dates": ["2026-07", "2026-01", "2025-05", "2025-01"]},
+                {"rows": ["Eosinophils %"], "target": "trend"},
+            ],
+        },
+    ],
+    "Urine Chemistry": [
+        {
+            "text": "High urine magnesium likely reflects magnesium supplementation; similar to B12, toxicity risk is generally low, but supplementation will be reduced or adjusted.",
+            "markers": [
+                {"row": "Urine Magnesium", "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+        {
+            "text": "Low urine potassium, sodium, phosphate, and chloride likely reflect high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.",
+            "markers": [
+                {"rows": ["Urine Potassium", "Urine Sodium", "Urine Phosphate", "Urine Chloride"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+    ],
+    "Metabolic Health": [
+        {
+            "text": "Liver-marker trends worsened after adding isotretinoin and Fo-Ti. Fo-Ti is being discontinued, so these are expected to improve on follow-up.",
+            "markers": [
+                {"rows": ["ALT", "AST", "Bilirubin Total"], "target": "trend"},
+                {"row": "Bilirubin Direct", "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+    ],
+    "Cardiac Health & Coagulation": [
+        {
+            "text": "CK is elevated in the context of a new intensive training block with high volume, progressive overload, running, and other workouts.",
+            "markers": [
+                {"row": "Creatine Kinase (CK)", "target": "trend"},
+                {"row": "Creatine Kinase (CK)", "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+    ],
+    "Micronutrients": [
+        {
+            "text": "Vitamin B12 went above range, likely from supplementation. B12 toxicity is generally low, but the plan is to lower the supplementation dose.",
+            "markers": [
+                {"row": "Vitamin B12", "target": "trend"},
+                {"row": "Vitamin B12", "target": "value", "dates": ["2026-07", "2025-05"]},
+            ],
+        },
+    ],
+    "Toxicology (Urine)": [
+        {
+            "text": "The 2025-05 arsenic elevation was likely due to high salmon consumption.",
+            "markers": [
+                {"row": "Arsenic", "target": "trend"},
+                {"row": "Arsenic", "target": "value", "dates": ["2025-05"]},
+            ],
+        },
+    ],
+    "Stool Analysis": [
+        {
+            "text": "Abnormal stool findings are attributed to IBS-U.",
+            "markers": [
+                {"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Leukocytes on Mucus"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+    ],
+    "Hormonal Panel": [
+        {
+            "text": "Estradiol is likely higher due to higher body fat after multiple surgeries; the plan is to return to very low body fat to drive it down again.",
+            "markers": [
+                {"row": "Estradiol (E2)", "target": "trend"},
+                {"row": "Estradiol (E2)", "target": "value", "dates": ["2026-07", "2025-05", "2025-01"]},
+            ],
+        },
+        {
+            "text": "Prior prolactin elevations were likely due to high sexual activity before testing.",
+            "markers": [
+                {"row": "Prolactin", "target": "value", "dates": ["2026-01", "2025-01"]},
+            ],
+        },
+        {
+            "text": "TSH and FT4 trends may be unreliable because of very poor sleep, about 5 hours before testing, very high biotin intake, and possibly excessive iodine intake; still investigating and planning improvements.",
+            "markers": [
+                {"rows": ["TSH", "Free T4 (FT4)"], "target": "trend"},
+                {"rows": ["TSH", "Free T4 (FT4)"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+        {
+            "text": "Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.",
+            "markers": [
+                {"row": "Progesterone", "target": "value", "dates": ["2026-07", "2026-01", "2025-05"]},
+            ],
+        },
+    ],
 }
 
 def generate_html_report():
@@ -622,6 +762,9 @@ def generate_html_report():
     html += "th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }"
     html += "th { background-color: #f2f2f2; }"
     html += ".note { font-size: 0.9em; color: #555; margin-bottom: 20px; font-style: italic; }"
+    html += ".table-notes { font-size: 0.9em; color: #555; margin: -4px 0 20px; }"
+    html += ".table-notes p { margin: 3px 0; }"
+    html += "sup { font-size: 0.75em; }"
     html += "</style></head><body>"
     html += "<h1>Health Protocol: Lab Results Comparison</h1>"
     # Patient info removed
@@ -650,14 +793,15 @@ def generate_html_report():
             
             html += f"<tr><td><b>{name}</b></td>"
             if include_trend:
-                html += f"<td>{format_trend_html(values, ref, category)}</td>"
-            for cell in cells:
+                trend_cell = format_trend_html(values, ref, category)
+                trend_cell += note_sup_html(note_numbers(category, name, "trend"))
+                html += f"<td>{trend_cell}</td>"
+            for idx, cell in zip(active_indexes, cells):
+                cell += note_sup_html(note_numbers(category, name, "value", date_columns[idx]))
                 html += f"<td>{cell}</td>"
             html += f"<td>{unit}</td><td>{ref}</td></tr>"
         html += "</table>"
-        
-        if category in category_notes:
-            html += f"<p class='note'>{category_notes[category]}</p>"
+        html += render_result_notes_html(category)
     
     # Add Imaging Section
     html += imaging_data.replace("## ", "<h2>").replace("### ", "<h3>").replace("\n- ", "<br>• ").replace("\n", "<br>")
@@ -722,14 +866,15 @@ def generate_md_report():
             
             line = f"| **{name}** |"
             if include_trend:
-                line += f" {format_trend_md(values, ref, category)} |"
-            for cell in cells:
+                trend_cell = format_trend_md(values, ref, category)
+                trend_cell += note_sup_md(note_numbers(category, name, "trend"))
+                line += f" {trend_cell} |"
+            for idx, cell in zip(active_indexes, cells):
+                cell += note_sup_md(note_numbers(category, name, "value", date_columns[idx]))
                 line += f" {cell} |"
             line += f" {unit} | {ref} |"
             md += line + "\n"
-        
-        if category in category_notes:
-            md += f"\n> **Note:** {category_notes[category]}\n"
+        md += render_result_notes_md(category)
             
         md += "\n"
 
