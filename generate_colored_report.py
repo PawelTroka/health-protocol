@@ -243,12 +243,12 @@ def active_date_indexes(rows):
     ]
 
 trend_definitions = {
-    "Vast": {
-        "description": "vastly improving",
+    "Major": {
+        "description": "major improvement",
         "color_score": 0.2,
     },
     "Better": {
-        "description": "improving a bit",
+        "description": "slight improvement",
         "color_score": 0.8,
     },
     "Stable": {
@@ -256,11 +256,11 @@ trend_definitions = {
         "color_score": 0.8,
     },
     "Worse": {
-        "description": "getting slightly worse",
+        "description": "slight worsening",
         "color_score": 1.3,
     },
     "Decline": {
-        "description": "getting much worse",
+        "description": "major worsening",
         "color_score": 2.5,
     },
 }
@@ -307,7 +307,7 @@ def classify_trend(values, ref, category):
         return "Stable"
 
     if delta >= 0.50:
-        return "Vast"
+        return "Major"
     if delta <= -0.50:
         return "Decline"
 
@@ -585,10 +585,10 @@ def generate_html_report():
         active_indexes = active_date_indexes(rows)
 
         html += f"<h2>{category}</h2>"
-        html += "<table><tr><th></th>"
+        html += "<table><tr><th></th><th>Trend</th>"
         for idx in active_indexes:
             html += f"<th>{date_columns[idx]}</th>"
-        html += "<th>Trend</th><th>Unit</th><th><i>Reference</i></th></tr>"
+        html += "<th>Unit</th><th><i>Reference</i></th></tr>"
         
         for row in rows:
             name, values, unit, ref = split_result_row(row)
@@ -599,10 +599,9 @@ def generate_html_report():
             else:
                 cells = [format_cell_html(values[idx], ref) for idx in active_indexes]
             
-            html += f"<tr><td><b>{name}</b></td>"
+            html += f"<tr><td><b>{name}</b></td><td>{format_trend_html(values, ref, category)}</td>"
             for cell in cells:
                 html += f"<td>{cell}</td>"
-            html += f"<td>{format_trend_html(values, ref, category)}</td>"
             html += f"<td>{unit}</td><td>{ref}</td></tr>"
         html += "</table>"
         
@@ -648,13 +647,13 @@ def generate_md_report():
         md += f"## {category}\n\n"
         
         # Build Header
-        header = "|  |"
-        sep = "| :--- |"
+        header = "|  | Trend |"
+        sep = "| :--- | :--- |"
         for idx in active_indexes:
             header += f" {date_columns[idx]} |"
             sep += " :--- |"
-        header += " Trend | Unit | *Reference* |"
-        sep += " :--- | :--- | :--- |"
+        header += " Unit | *Reference* |"
+        sep += " :--- | :--- |"
         
         md += header + "\n" + sep + "\n"
         
@@ -667,10 +666,9 @@ def generate_md_report():
             else:
                 cells = [format_cell_md(values[idx], ref) for idx in active_indexes]
             
-            line = f"| **{name}** |"
+            line = f"| **{name}** | {format_trend_md(values, ref, category)} |"
             for cell in cells:
                 line += f" {cell} |"
-            line += f" {format_trend_md(values, ref, category)} |"
             line += f" {unit} | {ref} |"
             md += line + "\n"
         
