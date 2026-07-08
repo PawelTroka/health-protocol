@@ -689,6 +689,14 @@ imaging_data = """## Structural & Diagnostic Imaging
 """
 
 result_notes = {
+    "Urinalysis (General)": [
+        {
+            "text": "Specific gravity trend likely reflects high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.",
+            "markers": [
+                {"row": "Specific Gravity", "target": "trend"},
+            ],
+        },
+    ],
     "Morphology": [
         {
             "text": "Eosinophils may reflect an unidentified allergy still under investigation, or may be related to IBS-U.",

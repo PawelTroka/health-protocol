@@ -50,7 +50,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Color** | - | 🔵 light yellow | 🔵 light yellow | 🔵 light yellow |  | - |
 | **Transparency** | ⚪ | 🔵 clear | 🔵 clear | 🔵 clear |  | clear |
-| **Specific Gravity** | 🟠 | 🟢 1.008 | 🟢 1.015 | 🟢 1.015 | g/ml | 1.005 - 1.03 |
+| **Specific Gravity** | 🟠<sup>1</sup> | 🟢 1.008 | 🟢 1.015 | 🟢 1.015 | g/ml | 1.005 - 1.03 |
 | **pH** | ⚪ | 🟢 5.5 | 🟢 5.5 | 🟢 6.0 |  | 5 - 8 |
 | **Protein** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
 | **Glucose** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
@@ -60,6 +60,9 @@
 | **Nitrites** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected |  | not detected |
 | **Leukocytes (Strip)** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | leu/uL | not detected |
 | **Erythrocytes (Strip)** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | ery/uL | not detected |
+
+**Notes:**
+<sup>1</sup> Specific gravity trend likely reflects high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.
 
 ## Urinalysis (Sediment)
 
