@@ -243,25 +243,33 @@ def active_date_indexes(rows):
     ]
 
 trend_definitions = {
-    "Major": {
-        "description": "major improvement",
-        "color_score": 0.2,
+    "Breakthrough": {
+        "description": "Vast improvement",
+        "emoji": "🔷",
     },
-    "Better": {
-        "description": "slight improvement",
-        "color_score": 0.8,
+    "Major Improvement": {
+        "description": "Strong improvement",
+        "emoji": "🔵",
+    },
+    "Improvement": {
+        "description": "Slight improvement",
+        "emoji": "🟢",
     },
     "Stable": {
-        "description": "mostly stable",
-        "color_score": 0.8,
+        "description": "Mostly stable",
+        "emoji": "⚪",
     },
-    "Worse": {
-        "description": "slight worsening",
-        "color_score": 1.3,
+    "Mild Worsening": {
+        "description": "Slight worsening",
+        "emoji": "🟡",
     },
-    "Decline": {
-        "description": "major worsening",
-        "color_score": 2.5,
+    "Major Decline": {
+        "description": "Strong worsening",
+        "emoji": "🟠",
+    },
+    "Critical Decline": {
+        "description": "Severe worsening",
+        "emoji": "🔴",
     },
 }
 
@@ -303,24 +311,21 @@ def classify_trend(values, ref, category):
     current_score, previous_score = scores
     delta = previous_score - current_score
 
-    if current_score <= 1.0 and previous_score <= 1.0:
+    if abs(delta) < 0.12:
         return "Stable"
 
-    if delta >= 0.50:
-        return "Major"
-    if delta <= -0.50:
-        return "Decline"
+    if delta >= 1.00:
+        return "Breakthrough"
+    if delta >= 0.30:
+        return "Major Improvement"
+    if delta >= 0.12:
+        return "Improvement"
 
-    if current_score > 1.0 and previous_score <= 1.0:
-        return "Worse"
-    if current_score <= 1.0 and previous_score > 1.0:
-        return "Better"
-
-    if delta >= 0.15:
-        return "Better"
-    if delta <= -0.15:
-        return "Worse"
-    return "Stable"
+    if delta <= -1.00:
+        return "Critical Decline"
+    if delta <= -0.30:
+        return "Major Decline"
+    return "Mild Worsening"
 
 def format_trend_html(values, ref, category):
     trend = classify_trend(values, ref, category)
@@ -328,9 +333,7 @@ def format_trend_html(values, ref, category):
         return "-"
 
     definition = trend_definitions[trend]
-    color, _ = get_color_hex(definition["color_score"])
-    title = definition["description"].capitalize()
-    return f'<span title="{title}" style="color:{color}; font-weight:bold;">&#9679; {trend}</span>'
+    return definition["emoji"]
 
 def format_trend_md(values, ref, category):
     trend = classify_trend(values, ref, category)
@@ -338,8 +341,7 @@ def format_trend_md(values, ref, category):
         return "-"
 
     definition = trend_definitions[trend]
-    _, emoji = get_color_hex(definition["color_score"])
-    return f"{emoji} {trend}"
+    return definition["emoji"]
 
 data = {
     "Biological Age": [
@@ -625,8 +627,7 @@ def generate_html_report():
 
     html += "<h3>Trend Legend</h3><ul>"
     for label, definition in trend_definitions.items():
-        color, _ = get_color_hex(definition["color_score"])
-        html += f"<li><span style='color:{color}; font-weight:bold;'>&#9679; {label}</span>: {definition['description']}</li>"
+        html += f"<li><span style='font-weight:bold;'>{definition['emoji']} {label}</span>: {definition['description'].capitalize()}</li>"
     html += "<li><b>-</b>: not enough comparable completed results</li>"
     html += "</ul>"
     html += "<p class='note'>Trend compares the latest completed result with the previous completed result using the reference-range health score; lower score is better.</p>"
@@ -689,8 +690,7 @@ def generate_md_report():
     md += "*   🔴 **Red**: Abnormal / Critical\n\n"
     md += "### Trend Legend\n"
     for label, definition in trend_definitions.items():
-        _, emoji = get_color_hex(definition["color_score"])
-        md += f"*   {emoji} **{label}**: {definition['description'].capitalize()}\n"
+        md += f"*   {definition['emoji']} **{label}**: {definition['description'].capitalize()}\n"
     md += "*   **-**: Not enough comparable completed results\n\n"
     md += "> **Trend method:** Compares the latest completed result with the previous completed result using the reference-range health score; lower score is better.\n\n"
     md += "> **Note:** See `results.html` for detailed color gradients.\n"
