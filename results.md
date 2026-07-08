@@ -2,7 +2,7 @@
 
 ## Biological Age
 
-|  | 2026-01 | Unit | *Reference* |
+|  | 2026-01 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- |
 | **Biological Age** | 🟢 29.0 | years | < 34.9 |
 | **Chronological Age** | 🔵 34.9 | years | - |
@@ -12,7 +12,7 @@
 
 ## Morphology
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Hemoglobin** | ⚪ | 🔵 15.80 | 🔵 15.40 | 🔵 16.00 | 🔵 15.70 | g/dL | 13.0 - 18.0 |
 | **Hematocrit** | ⚪ | 🔵 45.9 | 🔵 45.9 | 🔵 46.6 | 🔵 47.1 | % | 40 - 52 |
@@ -46,7 +46,7 @@
 
 ## Urinalysis (General)
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Color** | - | 🔵 light yellow | 🔵 light yellow | 🔵 light yellow |  | - |
 | **Transparency** | ⚪ | 🔵 clear | 🔵 clear | 🔵 clear |  | clear |
@@ -66,7 +66,7 @@
 
 ## Urinalysis (Sediment)
 
-|  | Trend | 2026-01 | 2025-05 | Unit | *Reference* |
+|  | Trend | 2026-01 | 2025-05 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Squamous Epithelium** | - |  < 30.0 |  rare | /uL | < 30.0 |
 | **Transitional Epithelium** | - |  < 6.0 |  rare | /uL | < 6.0 |
@@ -84,7 +84,7 @@
 
 ## Urine Chemistry
 
-|  | 2026-07 | Unit | *Reference* |
+|  | 2026-07 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- |
 | **Urine Creatinine** | 🟢 63.1 | mg/dL | 39.0 - 259.0 |
 | **Urine Albumin (Microalbuminuria)** | 🔵 <3 | mg/l | < 20.0 |
@@ -104,7 +104,7 @@
 
 ## Metabolic Health
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Glucose** | ⚪ | 🔵 86 | 🔵 84 | 🔵 89 | 🟢 70 | mg/dl | 70 - 99 |
 | **HbA1c** | 🟢 | 🔵 5.3 | 🔵 5.18 | 🔵 5.3 | - | % | 4.8 - 5.9 |
@@ -126,7 +126,7 @@
 
 ## Cardiac Health & Coagulation
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Cholesterol LDL** | 🟢 | 🔵 68 | 🟢 76 | 🟢 74 | 🟢 75 | mg/dl | < 115 |
 | **Cholesterol Non-HDL** | 🟢 | 🟢 81 | 🟢 96 | - | - | mg/dL | < 130 |
@@ -150,7 +150,7 @@
 
 ## Micronutrients
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Vitamin D3** | 🔵 | 🔵 46.0 | 🟡 26.3 ↓ | 🟡 52.5 ↑ | 🔵 37.9 | ng/ml | 30 - 50 |
 | **Vitamin B12** | 🔴<sup>1</sup> | 🟡<sup>1</sup> 859 ↑ | 🔵 562 | 🟡<sup>1</sup> 928 ↑ | - | pg/ml | 197 - 771 |
@@ -176,7 +176,7 @@
 
 ## Immunology & Inflammation
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **CRP (hs)** | ⚪ | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | 🔵 not detected | mg/l | < 5.0 |
 | **IL-6** | ⚪ | - | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0 |
@@ -187,7 +187,7 @@
 
 ## Tumor Markers
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **PSA Total** | ⚪ | 🔵 0.15 | 🔵 0.16 | 🔵 0.195 | ng/mL | < 4.0 |
 | **PSA Free** | - | 🔵 0.033 | - | - | ng/mL | - |
@@ -200,7 +200,7 @@
 
 ## Infectious Diseases
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **HIV** | ⚪ | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | Status | Non-reactive |
 | **Anti-HBs** | ⚪ | 🔵 181.00 | 🔵 221.00 | 🔵 203.00 | - | IU/l | > 10 |
@@ -213,7 +213,7 @@
 
 ## Toxicology (Urine)
 
-|  | Trend | 2026-01 | 2025-05 | Unit | *Reference* |
+|  | Trend | 2026-01 | 2025-05 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Arsenic** | 💎<sup>1</sup> | 🟢 11.8 | 🟠<sup>1</sup> 30.8 ↑ | ug/l | < 15.0 |
 | **Cadmium** | ⚪ | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8 |
@@ -227,7 +227,7 @@
 
 ## Stool Analysis
 
-|  | 2026-07 | Unit | *Reference* |
+|  | 2026-07 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- |
 | **Stool pH** | 🟡<sup>1</sup> 8.0 ↑ |  | 6.5 - 7.5 |
 | **Reducing Substances** | 🟢 0.25 | % | < 0.25 |
@@ -245,7 +245,7 @@
 
 ## Proteinogram
 
-|  | 2026-01 | Unit | *Reference* |
+|  | 2026-01 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- |
 | **Albumin** | 🔵 62.3 | % | 55.8 - 66.1 |
 | **Alpha-1 Globulin** | 🟢 2.9 | % | 2.9 - 4.9 |
@@ -256,30 +256,31 @@
 
 ## Hormonal Panel
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Testosterone (Total)** | 🟠 | 🟡 32.10 ↑ | 🟢 27.50 | 🟢 28.60 | 🟢 28.70 | nmol/l | 8.64 - 29.00 |
+| **Testosterone (Total)** | ⚪<sup>1</sup> | 🔵<sup>1</sup> 32.10 | 🔵 27.50 | 🔵 28.60 | 🔵 28.70 | nmol/l | 9.2 - 33.0; target 20 - 33 |
 | **Testosterone (Free)** | - | - | - | 🔵 19.17 | - | pg/ml | 9.10 - 32.20 |
-| **Estradiol (E2)** | 🔴<sup>1</sup> | 🟡<sup>1</sup> 213 ↑ | 🟢 141 | 🟡<sup>1</sup> 188 ↑ | 🟡<sup>1</sup> 176 ↑ | pmol/l | 41 - 159 |
-| **Prolactin** | 💎 | 🟢 14.90 | 🟠<sup>2</sup> 24.00 ↑ | 🔵 9.64 | 🟠<sup>2</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20 |
+| **Estradiol (E2)** | 🔴<sup>2</sup> | 🟡<sup>2</sup> 213 ↑ | 🟢 141 | 🟡<sup>2</sup> 188 ↑ | 🟡<sup>2</sup> 176 ↑ | pmol/l | 41 - 159 |
+| **Prolactin** | 💎 | 🟢 14.90 | 🟠<sup>3</sup> 24.00 ↑ | 🔵 9.64 | 🟠<sup>3</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20 |
 | **Cortisol** | ⚪ | 🟢 17.4 | 🟢 17.4 | 🟢 17.1 | - | ug/dl | 4.8 - 19.5 |
-| **TSH** | 🟠<sup>3</sup> | 🟡<sup>3</sup> 4.57 ↑ | 🔵 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20 |
+| **TSH** | 🟠<sup>4</sup> | 🟡<sup>4</sup> 4.57 ↑ | 🔵 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20 |
 | **Free T3 (FT3)** | ⚪ | 🔵 5.47 | 🔵 4.54 | 🔵 4.29 | 🔵 5.57 | pmol/L | 3.10 - 6.80 |
-| **Free T4 (FT4)** | 🟠<sup>3</sup> | 🟢<sup>3</sup> 19.80 | 🔵 16.30 | 🟢 20.67 | 🔵 17.70 | pmol/L | 11.90 - 21.60 |
+| **Free T4 (FT4)** | 🟠<sup>4</sup> | 🟢<sup>4</sup> 19.80 | 🔵 16.30 | 🟢 20.67 | 🔵 17.70 | pmol/L | 11.90 - 21.60 |
 | **LH** | 🔵 | 🟢 7.39 | 🟡 10.20 ↑ | 🔵 4.46 | - | mIU/mL | 1.70 - 8.60 |
 | **FSH** | 🟡 | 🟢 2.1 | 🟢 3.0 | 🟢 1.6 | 🟢 3.0 | mIU/mL | 1.5 - 12.4 |
 | **SHBG** | 🟠 | 🟡 54.7 ↑ | 🔵 43.2 | 🔵 35.0 | 🔵 34.3 | nmol/L | 18.3 - 54.1 |
 | **DHEA-SO4** | ⚪ | 🟢 92.9 | 🟢 97.7 | 🟢 124.0 | 🟢 111.0 | ug/dl | 88.9 - 427 |
-| **Progesterone** | 💎 | 🟡<sup>4</sup> 0.842 ↑ | 🟠<sup>4</sup> 1.390 ↑ | 🟠<sup>4</sup> 1.370 ↑ | - | nmol/l | < 0.474 |
+| **Progesterone** | 💎 | 🟡<sup>5</sup> 0.842 ↑ | 🟠<sup>5</sup> 1.390 ↑ | 🟠<sup>5</sup> 1.370 ↑ | - | nmol/l | < 0.474 |
 | **17-OH Progesterone** | 🔵 | - | - | 🔵 1.59 | 🔵 2.31 | ng/ml | 0.37 - 2.87 |
 | **IGF-1** | 🔵 | 🔵 158 | 🔵 229 | 🔵 201 | - | ng/ml | 61 - 271 |
 | **HCG-Beta** | ⚪ | 🔵 < 0.200 | 🔵 < 0.200 | - | - | mIU/mL | < 2.60 |
 
 **Notes:**
-<sup>1</sup> Estradiol is likely higher due to higher body fat after multiple surgeries; the plan is to return to very low body fat to drive it down again.
-<sup>2</sup> Prior prolactin elevations were likely due to high sexual activity before testing.
-<sup>3</sup> TSH and FT4 trends may be unreliable because of very poor sleep, about 5 hours before testing, very high biotin intake, and possibly excessive iodine intake; still investigating and planning improvements.
-<sup>4</sup> Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.
+<sup>1</sup> Total testosterone is scored with a high-normal male target: high-normal natural values are treated as favorable rather than automatically adverse.
+<sup>2</sup> Estradiol is likely higher due to higher body fat after multiple surgeries; the plan is to return to very low body fat to drive it down again.
+<sup>3</sup> Prior prolactin elevations were likely due to high sexual activity before testing.
+<sup>4</sup> TSH and FT4 trends may be unreliable because of very poor sleep, about 5 hours before testing, very high biotin intake, and possibly excessive iodine intake; still investigating and planning improvements.
+<sup>5</sup> Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.
 
 ## Structural & Diagnostic Imaging
 

@@ -97,9 +97,73 @@ def get_direction(val_str, ref_range):
             
     return ""
 
-def calculate_score(val_str, ref_range):
+target_overrides = {
+    ("Hormonal Panel", "Testosterone (Total)"): {
+        "reference": "9.2 - 33.0; target 20 - 33",
+        "type": "high_good_range",
+        "low": 9.2,
+        "optimal_min": 20.0,
+        "optimal_max": 33.0,
+        "high_limit": 40.0,
+    },
+}
+
+def numeric_from_result(val_str):
+    val_clean = re.sub(r'[^\d.<>-]', '', val_str.split('(')[0])
+    if not val_clean:
+        return None
+
+    try:
+        return float(re.sub(r'[<> ]', '', val_clean))
+    except ValueError:
+        return None
+
+def calculate_high_good_range_score(val, target):
+    low = target["low"]
+    optimal_min = target["optimal_min"]
+    optimal_max = target["optimal_max"]
+    high_limit = target.get("high_limit")
+
+    if val < low:
+        return 1.0 + ((low - val) / low) if low != 0 else 1.0
+
+    if val < optimal_min:
+        span = optimal_min - low
+        if span <= 0:
+            return 0.4
+        return 1.0 - (((val - low) / span) * 0.6)
+
+    if val <= optimal_max:
+        return 0.35
+
+    if high_limit is None:
+        return 0.8
+
+    if val <= high_limit:
+        span = high_limit - optimal_max
+        if span <= 0:
+            return 1.2
+        return 0.8 + (((val - optimal_max) / span) * 0.4)
+
+    return 1.2 + ((val - high_limit) / high_limit) if high_limit != 0 else 1.2
+
+def target_reference(category, marker, ref):
+    target = target_overrides.get((category, marker))
+    if target:
+        return target["reference"]
+    return ref
+
+def calculate_score(val_str, ref_range, category=None, marker=None):
     if val_str in ["-", "—", None, ""]:
         return None
+
+    target = target_overrides.get((category, marker))
+    if target:
+        val = numeric_from_result(val_str)
+        if val is None:
+            return None
+        if target["type"] == "high_good_range":
+            return calculate_high_good_range_score(val, target)
         
     # Textual Perfect Matches
     text_val = val_str.lower().strip()
@@ -110,12 +174,8 @@ def calculate_score(val_str, ref_range):
     if val_str.strip() == ref_range.strip() and "<" in val_str:
         return 0.0
 
-    val_clean = re.sub(r'[^\d.<>-]', '', val_str.split('(')[0]) 
-    if not val_clean: return None
-    
-    try:
-        val = float(re.sub(r'[<> ]', '', val_clean))
-    except ValueError:
+    val = numeric_from_result(val_str)
+    if val is None:
         return None
 
     m_range = re.match(r'([-\d.]+)\s*-\s*([-\d.]+)', ref_range)
@@ -149,8 +209,8 @@ def calculate_score(val_str, ref_range):
             
     return 0.5 
 
-def format_cell_html(val, ref):
-    score = calculate_score(val, ref)
+def format_cell_html(val, ref, category=None, marker=None):
+    score = calculate_score(val, ref, category, marker)
     if score is None:
         return val
     color, _ = get_color_hex(score)
@@ -158,8 +218,8 @@ def format_cell_html(val, ref):
     suffix = f" {arrow}" if arrow else ""
     return f'<span style="color:{color}; font-weight:bold;">{val}{suffix}</span>'
 
-def format_cell_md(val, ref):
-    score = calculate_score(val, ref)
+def format_cell_md(val, ref, category=None, marker=None):
+    score = calculate_score(val, ref, category, marker)
     if score is None:
         return val
     _, emoji = get_color_hex(score)
@@ -277,11 +337,11 @@ slight_improvement_score_delta = 0.06
 slight_worsening_score_delta = 0.12
 slight_directional_improvement_percent_delta = 0.075
 
-def trend_score(value, ref, category):
+def trend_score(value, ref, category, marker=None):
     if value in missing_values or ref in missing_values or ref == "-":
         return None
 
-    score = calculate_score(value, ref)
+    score = calculate_score(value, ref, category, marker)
     if score is not None:
         return score
 
@@ -326,10 +386,10 @@ def directional_percent_delta(current, previous, ref):
 
     return None
 
-def classify_trend(values, ref, category):
+def classify_trend(values, ref, category, marker=None):
     comparable = []
     for value in values:
-        score = trend_score(value, ref, category)
+        score = trend_score(value, ref, category, marker)
         if score is not None:
             comparable.append((value, score))
         if len(comparable) == 2:
@@ -364,16 +424,16 @@ def classify_trend(values, ref, category):
 
     return "Stable"
 
-def format_trend_html(values, ref, category):
-    trend = classify_trend(values, ref, category)
+def format_trend_html(values, ref, category, marker=None):
+    trend = classify_trend(values, ref, category, marker)
     if trend is None:
         return "-"
 
     definition = trend_definitions[trend]
     return definition["emoji"]
 
-def format_trend_md(values, ref, category):
-    trend = classify_trend(values, ref, category)
+def format_trend_md(values, ref, category, marker=None):
+    trend = classify_trend(values, ref, category, marker)
     if trend is None:
         return "-"
 
@@ -382,8 +442,8 @@ def format_trend_md(values, ref, category):
 
 def category_has_trends(rows, category):
     for row in rows:
-        _, values, _, ref = split_result_row(row)
-        if classify_trend(values, ref, category) is not None:
+        name, values, _, ref = split_result_row(row)
+        if classify_trend(values, ref, category, name) is not None:
             return True
     return False
 
@@ -766,6 +826,13 @@ result_notes = {
     ],
     "Hormonal Panel": [
         {
+            "text": "Total testosterone is scored with a high-normal male target: high-normal natural values are treated as favorable rather than automatically adverse.",
+            "markers": [
+                {"row": "Testosterone (Total)", "target": "trend"},
+                {"row": "Testosterone (Total)", "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+        {
             "text": "Estradiol is likely higher due to higher body fat after multiple surgeries; the plan is to return to very low body fat to drive it down again.",
             "markers": [
                 {"row": "Estradiol (E2)", "target": "trend"},
@@ -819,26 +886,27 @@ def generate_html_report():
             html += "<th>Trend</th>"
         for idx in active_indexes:
             html += f"<th>{date_columns[idx]}</th>"
-        html += "<th>Unit</th><th><i>Reference</i></th></tr>"
+        html += "<th>Unit</th><th><i>Reference / target</i></th></tr>"
         
         for row in rows:
             name, values, unit, ref = split_result_row(row)
+            display_ref = target_reference(category, name, ref)
             
             # Use specific formatter for Urinalysis
             if "Urinalysis" in category:
                 cells = [format_cell_html_urine(values[idx], ref) for idx in active_indexes]
             else:
-                cells = [format_cell_html(values[idx], ref) for idx in active_indexes]
+                cells = [format_cell_html(values[idx], display_ref, category, name) for idx in active_indexes]
             
             html += f"<tr><td><b>{name}</b></td>"
             if include_trend:
-                trend_cell = format_trend_html(values, ref, category)
+                trend_cell = format_trend_html(values, display_ref, category, name)
                 trend_cell = add_note_sup_html(trend_cell, note_numbers(category, name, "trend"))
                 html += f"<td>{trend_cell}</td>"
             for idx, cell in zip(active_indexes, cells):
                 cell = add_note_sup_html(cell, note_numbers(category, name, "value", date_columns[idx]))
                 html += f"<td>{cell}</td>"
-            html += f"<td>{unit}</td><td>{ref}</td></tr>"
+            html += f"<td>{unit}</td><td>{display_ref}</td></tr>"
         html += "</table>"
         html += render_result_notes_html(category)
     
@@ -889,29 +957,30 @@ def generate_md_report():
         for idx in active_indexes:
             header += f" {date_columns[idx]} |"
             sep += " :--- |"
-        header += " Unit | *Reference* |"
+        header += " Unit | *Reference / target* |"
         sep += " :--- | :--- |"
         
         md += header + "\n" + sep + "\n"
         
         for row in rows:
             name, values, unit, ref = split_result_row(row)
+            display_ref = target_reference(category, name, ref)
             
             # Use specific formatter for Urinalysis
             if "Urinalysis" in category:
                 cells = [format_cell_md_urine(values[idx], ref) for idx in active_indexes]
             else:
-                cells = [format_cell_md(values[idx], ref) for idx in active_indexes]
+                cells = [format_cell_md(values[idx], display_ref, category, name) for idx in active_indexes]
             
             line = f"| **{name}** |"
             if include_trend:
-                trend_cell = format_trend_md(values, ref, category)
+                trend_cell = format_trend_md(values, display_ref, category, name)
                 trend_cell = add_note_sup_md(trend_cell, note_numbers(category, name, "trend"))
                 line += f" {trend_cell} |"
             for idx, cell in zip(active_indexes, cells):
                 cell = add_note_sup_md(cell, note_numbers(category, name, "value", date_columns[idx]))
                 line += f" {cell} |"
-            line += f" {unit} | {ref} |"
+            line += f" {unit} | {display_ref} |"
             md += line + "\n"
         md += render_result_notes_md(category)
             
