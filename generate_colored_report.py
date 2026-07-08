@@ -242,6 +242,105 @@ def active_date_indexes(rows):
         if any(split_result_row(row)[1][idx] not in missing_values for row in rows)
     ]
 
+trend_definitions = {
+    "Vast": {
+        "description": "vastly improving",
+        "color_score": 0.2,
+    },
+    "Better": {
+        "description": "improving a bit",
+        "color_score": 0.8,
+    },
+    "Stable": {
+        "description": "mostly stable",
+        "color_score": 0.8,
+    },
+    "Worse": {
+        "description": "getting slightly worse",
+        "color_score": 1.3,
+    },
+    "Decline": {
+        "description": "getting much worse",
+        "color_score": 2.5,
+    },
+}
+
+def trend_score(value, ref, category):
+    if value in missing_values or ref in missing_values or ref == "-":
+        return None
+
+    score = calculate_score(value, ref)
+    if score is not None:
+        return score
+
+    text_value = value.lower().strip()
+    optimal_terms = [
+        "not detected", "absent", "normal", "clear", "negative", "non-reactive", "neg",
+        "light yellow", "yellow", "pale yellow"
+    ]
+    bad_terms = ["present", "detected", "cloudy", "turbid", "bloody"]
+
+    if any(term in text_value for term in optimal_terms):
+        return 0.0
+    if any(term in text_value for term in bad_terms):
+        return 3.0
+
+    return None
+
+def classify_trend(values, ref, category):
+    scores = []
+    for value in values:
+        score = trend_score(value, ref, category)
+        if score is not None:
+            scores.append(score)
+        if len(scores) == 2:
+            break
+
+    if len(scores) < 2:
+        return None
+
+    # Scores are health-distance values: lower is better, higher is worse.
+    current_score, previous_score = scores
+    delta = previous_score - current_score
+
+    if current_score <= 1.0 and previous_score <= 1.0:
+        return "Stable"
+
+    if delta >= 0.50:
+        return "Vast"
+    if delta <= -0.50:
+        return "Decline"
+
+    if current_score > 1.0 and previous_score <= 1.0:
+        return "Worse"
+    if current_score <= 1.0 and previous_score > 1.0:
+        return "Better"
+
+    if delta >= 0.15:
+        return "Better"
+    if delta <= -0.15:
+        return "Worse"
+    return "Stable"
+
+def format_trend_html(values, ref, category):
+    trend = classify_trend(values, ref, category)
+    if trend is None:
+        return "-"
+
+    definition = trend_definitions[trend]
+    color, _ = get_color_hex(definition["color_score"])
+    title = definition["description"].capitalize()
+    return f'<span title="{title}" style="color:{color}; font-weight:bold;">&#9679; {trend}</span>'
+
+def format_trend_md(values, ref, category):
+    trend = classify_trend(values, ref, category)
+    if trend is None:
+        return "-"
+
+    definition = trend_definitions[trend]
+    _, emoji = get_color_hex(definition["color_score"])
+    return f"{emoji} {trend}"
+
 data = {
     "Biological Age": [
         ("Biological Age", "-", "29.0", "-", "-", "years", "< 34.9"),
@@ -489,7 +588,7 @@ def generate_html_report():
         html += "<table><tr><th></th>"
         for idx in active_indexes:
             html += f"<th>{date_columns[idx]}</th>"
-        html += "<th>Unit</th><th><i>Reference</i></th></tr>"
+        html += "<th>Trend</th><th>Unit</th><th><i>Reference</i></th></tr>"
         
         for row in rows:
             name, values, unit, ref = split_result_row(row)
@@ -503,6 +602,7 @@ def generate_html_report():
             html += f"<tr><td><b>{name}</b></td>"
             for cell in cells:
                 html += f"<td>{cell}</td>"
+            html += f"<td>{format_trend_html(values, ref, category)}</td>"
             html += f"<td>{unit}</td><td>{ref}</td></tr>"
         html += "</table>"
         
@@ -523,6 +623,14 @@ def generate_html_report():
     html += "<li><span style='color:#dc3545; font-weight:bold;'>● Light Red</span>: Abnormal</li>"
     html += "<li><span style='color:#8b0000; font-weight:bold;'>● Dark Red</span>: Critical</li>"
     html += "</ul>"
+
+    html += "<h3>Trend Legend</h3><ul>"
+    for label, definition in trend_definitions.items():
+        color, _ = get_color_hex(definition["color_score"])
+        html += f"<li><span style='color:{color}; font-weight:bold;'>&#9679; {label}</span>: {definition['description']}</li>"
+    html += "<li><b>-</b>: not enough comparable completed results</li>"
+    html += "</ul>"
+    html += "<p class='note'>Trend compares the latest completed result with the previous completed result using the reference-range health score; lower score is better.</p>"
 
     html += "</body></html>"
     
@@ -545,8 +653,8 @@ def generate_md_report():
         for idx in active_indexes:
             header += f" {date_columns[idx]} |"
             sep += " :--- |"
-        header += " Unit | *Reference* |"
-        sep += " :--- | :--- |"
+        header += " Trend | Unit | *Reference* |"
+        sep += " :--- | :--- | :--- |"
         
         md += header + "\n" + sep + "\n"
         
@@ -562,6 +670,7 @@ def generate_md_report():
             line = f"| **{name}** |"
             for cell in cells:
                 line += f" {cell} |"
+            line += f" {format_trend_md(values, ref, category)} |"
             line += f" {unit} | {ref} |"
             md += line + "\n"
         
@@ -580,6 +689,12 @@ def generate_md_report():
     md += "*   🟡 **Yellow**: Caution\n"
     md += "*   🟠 **Orange**: Borderline / Limit\n"
     md += "*   🔴 **Red**: Abnormal / Critical\n\n"
+    md += "### Trend Legend\n"
+    for label, definition in trend_definitions.items():
+        _, emoji = get_color_hex(definition["color_score"])
+        md += f"*   {emoji} **{label}**: {definition['description'].capitalize()}\n"
+    md += "*   **-**: Not enough comparable completed results\n\n"
+    md += "> **Trend method:** Compares the latest completed result with the previous completed result using the reference-range health score; lower score is better.\n\n"
     md += "> **Note:** See `results.html` for detailed color gradients.\n"
 
     with open("results.md", "w", encoding="utf-8") as f:
