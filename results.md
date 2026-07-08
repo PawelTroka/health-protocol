@@ -2,7 +2,7 @@
 
 ## Biological Age
 
-|  | 2026-01 | Unit | *Reference / target* |
+|  | 2026-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
 | **Biological Age** | 🟢 29.0 | years | < 34.9 |
 | **Chronological Age** | 🔵 34.9 | years | - |
@@ -12,41 +12,41 @@
 
 ## Morphology
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Hemoglobin** | ⚪ | 🔵 15.80 | 🔵 15.40 | 🔵 16.00 | 🔵 15.70 | g/dL | 13.0 - 18.0 |
-| **Hematocrit** | ⚪ | 🔵 45.9 | 🔵 45.9 | 🔵 46.6 | 🔵 47.1 | % | 40 - 52 |
-| **Erythrocytes** | 🟢 | 🔵 5.3 | 🔵 5.20 | 🔵 5.37 | 🔵 5.31 | 10^6/ul | 4.5 - 6.5 |
-| **MCV** | ⚪ | 🔵 86.8 | 🔵 87.8 | 🔵 86.8 | 🔵 88.7 | fL | 80 - 98 |
-| **MCH** | ⚪ | 🔵 29.9 | 🔵 29.4 | 🔵 29.8 | 🔵 29.6 | pg | 27 - 32 |
-| **MCHC** | ⚪ | 🔵 34.4 | 🔵 33.6 | 🔵 34.3 | 🔵 33.3 | g/dL | 31 - 37 |
-| **RDW-CV** | 🟢 | 🔵 13.4 | 🔵 12.5 | 🔵 12.9 | 🔵 12.9 | % | 11.5 - 14.5 |
-| **RDW-SD** | 🟡 | 🔵 42.0 | 🔵 40.8 | - | 🔵 41.7 | fL | 35.1 - 43.9 |
-| **Leukocytes** | ⚪ | 🔵 7.0 | 🔵 7.7 | 🔵 5.5 | 🔵 9.1 | 10^3/ul | 4.0 - 11.0 |
-| **Neutrophils** | 🟢 | 🟢 2.7 | 🟢 2.3 | 🟢 2.22 | 🔵 3.83 | 10^9/L | 1.9 - 7 |
-| **Neutrophils %** | 🔵 | 🟡 39.10 ↓ | 🟠 30.50 ↓ | 🟡 40.30 ↓ | 🟡 42.10 ↓ | % | 45 - 70 |
-| **Lymphocytes** | 🔵 | 🔵 2.9 | 🔵 3.9 | 🔵 2.3 | 🔵 3.6 | 10^9/L | 1.5 - 4.5 |
-| **Lymphocytes %** | 🔵 | 🟢 41.6 | 🟡 50.3 ↑ | 🔵 40.9 | 🔵 39.5 | % | 25 - 45 |
-| **Monocytes** | 🔵 | 🔵 0.7 | 🟢 0.9 | 🔵 0.56 | 🟡 1.01 ↑ | 10^9/L | 0.1 - 0.9 |
-| **Monocytes %** | 🔵 | 🟡 10.4 ↑ | 🟡 11.9 ↑ | 🟡 10.1 ↑ | 🟡 11.1 ↑ | % | 2 - 9 |
-| **Eosinophils** | ⚪ | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.42 | 🟡<sup>1</sup> 0.55 ↑ | 10^9/L | < 0.5 |
-| **Eosinophils %** | 🟠<sup>1</sup> | 🟠<sup>1</sup> 7.7 ↑ | 🟡<sup>1</sup> 6.5 ↑ | 🟠<sup>1</sup> 7.6 ↑ | 🟡<sup>1</sup> 6.0 ↑ | % | 0.00 - 5.00 |
-| **Basophils** | ⚪ | 🟢 0.1 | 🟢 0.1 | 🔵 0.05 | 🔵 0.08 | 10^9/L | 0.00 - 0.10 |
-| **Basophils %** | 🟠 | 🟢 0.9 | 🔵 0.7 | 🟢 0.9 | 🟢 0.9 | % | 0.00 - 1.00 |
-| **Immature Granulocytes** | ⚪ | 🔵 0.0 | 🔵 0.0 | 🔵 0.01 | 🟢 0.04 | 10^9/L | < 0.04 |
-| **Immature Granulocytes %** | 🔵 | 🔵 0.3 | 🔵 0.1 | 🔵 0.2 | 🟢 0.4 | % | 0.0 - 0.5 |
-| **Platelets** | 🟡 | 🔵 230.0 | 🔵 265 | 🔵 228 | 🔵 305 | 10^3/ul | 150 - 400 |
-| **PCT** | 🔵 | 🔵 0.25 | 🔵 0.30 | - | 🔵 0.31 | % | 0.12 - 0.36 |
-| **PDW** | ⚪ | 🔵 14.1 | 🔵 13.8 | - | 🟢 10.9 | fL | 9.8 - 16.1 |
-| **MPV** | 🟢 | 🔵 11.0 | 🟢 11.3 | 🔵 10.6 | 🔵 10.0 | fL | 7 - 12 |
-| **P-LCR** | 🟢 | 🔵 33.4 | 🔵 35.3 | - | - | % | 19.2 - 47 |
+| **Hemoglobin** | ⚪ | 🔵 15.80 | 🔵 15.40 | 🔵 16.00 | 🔵 15.70 | g/dL | 13.0 - 18.0; target 14.0 - 16.2 |
+| **Hematocrit** | ⚪ | 🔵 45.9 | 🔵 45.9 | 🔵 46.6 | 🔵 47.1 | % | 40 - 52; target 42 - 48 |
+| **Erythrocytes** | ⚪ | 🔵 5.3 | 🔵 5.20 | 🔵 5.37 | 🔵 5.31 | 10^6/ul | 4.5 - 6.5; target 4.8 - 5.6 |
+| **MCV** | ⚪ | 🔵 86.8 | 🔵 87.8 | 🔵 86.8 | 🔵 88.7 | fL | 80 - 98; target 84 - 92 |
+| **MCH** | ⚪ | 🔵 29.9 | 🔵 29.4 | 🔵 29.8 | 🔵 29.6 | pg | 27 - 32; target 29 - 31 |
+| **MCHC** | ⚪ | 🔵 34.4 | 🔵 33.6 | 🔵 34.3 | 🔵 33.3 | g/dL | 31 - 37; target 33 - 35 |
+| **RDW-CV** | ⚪ | 🔵 13.4 | 🔵 12.5 | 🔵 12.9 | 🔵 12.9 | % | 11.5 - 14.5; target <= 13.2 |
+| **RDW-SD** | ⚪ | 🔵 42.0 | 🔵 40.8 | - | 🔵 41.7 | fL | 35.1 - 43.9; target 36 - 42 |
+| **Leukocytes** | ⚪ | 🔵 7.0 | 🔵 7.7 | 🔵 5.5 | 🔵 9.1 | 10^3/ul | 4.0 - 11.0; target 4.5 - 8.0 |
+| **Neutrophils** | ⚪ | 🔵 2.7 | 🔵 2.3 | 🔵 2.22 | 🔵 3.83 | 10^9/L | 1.9 - 7; target 2.0 - 5.0 |
+| **Neutrophils %** | 🟢 | 🟡 39.10 ↓ | 🟡 30.50 ↓ | 🟢 40.30 ↓ | 🟢 42.10 ↓ | % | 45 - 70; target 45 - 60 |
+| **Lymphocytes** | 🟢 | 🔵 2.9 | 🟢 3.9 | 🔵 2.3 | 🔵 3.6 | 10^9/L | 1.5 - 4.5; target 1.5 - 3.5 |
+| **Lymphocytes %** | 🔵 | 🔵 41.6 | 🟡 50.3 ↑ | 🔵 40.9 | 🔵 39.5 | % | 25 - 45; target 25 - 40 |
+| **Monocytes** | 🔵 | 🔵 0.7 | 🟢 0.9 | 🔵 0.56 | 🟡 1.01 ↑ | 10^9/L | 0.1 - 0.9; target 0.2 - 0.8 |
+| **Monocytes %** | 🟢 | 🟡 10.4 ↑ | 🟡 11.9 ↑ | 🟡 10.1 ↑ | 🟡 11.1 ↑ | % | 2 - 9; target 2 - 8 |
+| **Eosinophils** | ⚪ | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.42 | 🟡<sup>1</sup> 0.55 ↑ | 10^9/L | < 0.5; target <= 0.3 |
+| **Eosinophils %** | 🟡<sup>1</sup> | 🟡<sup>1</sup> 7.7 ↑ | 🟡<sup>1</sup> 6.5 ↑ | 🟡<sup>1</sup> 7.6 ↑ | 🟡<sup>1</sup> 6.0 ↑ | % | 0.00 - 5.00; target <= 3.0 |
+| **Basophils** | ⚪ | 🟢 0.1 | 🟢 0.1 | 🔵 0.05 | 🔵 0.08 | 10^9/L | 0.00 - 0.10; target <= 0.08 |
+| **Basophils %** | 🟠 | 🟢 0.9 | 🔵 0.7 | 🟢 0.9 | 🟢 0.9 | % | 0.00 - 1.00; target <= 0.8 |
+| **Immature Granulocytes** | ⚪ | 🔵 0.0 | 🔵 0.0 | 🔵 0.01 | 🟢 0.04 | 10^9/L | < 0.04; target 0 |
+| **Immature Granulocytes %** | ⚪ | 🔵 0.3 | 🔵 0.1 | 🔵 0.2 | 🟢 0.4 | % | 0.0 - 0.5; target <= 0.3 |
+| **Platelets** | ⚪ | 🔵 230.0 | 🔵 265 | 🔵 228 | 🔵 305 | 10^3/ul | 150 - 400; target 180 - 300 |
+| **PCT** | ⚪ | 🔵 0.25 | 🔵 0.30 | - | 🔵 0.31 | % | 0.12 - 0.36; target 0.18 - 0.32 |
+| **PDW** | ⚪ | 🔵 14.1 | 🔵 13.8 | - | 🔵 10.9 | fL | 9.8 - 16.1; target 10 - 14 |
+| **MPV** | 🟢 | 🔵 11.0 | 🔵 11.3 | 🔵 10.6 | 🔵 10.0 | fL | 7 - 12; target 8 - 11 |
+| **P-LCR** | ⚪ | 🔵 33.4 | 🔵 35.3 | - | - | % | 19.2 - 47; target 20 - 40 |
 
 **Notes:**
 <sup>1</sup> Eosinophils may reflect an unidentified allergy still under investigation, or may be related to IBS-U.
 
 ## Urinalysis (General)
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference / target* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Color** | - | 🔵 light yellow | 🔵 light yellow | 🔵 light yellow |  | - |
 | **Transparency** | ⚪ | 🔵 clear | 🔵 clear | 🔵 clear |  | clear |
@@ -66,7 +66,7 @@
 
 ## Urinalysis (Sediment)
 
-|  | Trend | 2026-01 | 2025-05 | Unit | *Reference / target* |
+|  | Trend | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Squamous Epithelium** | - |  < 30.0 |  rare | /uL | < 30.0 |
 | **Transitional Epithelium** | - |  < 6.0 |  rare | /uL | < 6.0 |
@@ -84,7 +84,7 @@
 
 ## Urine Chemistry
 
-|  | 2026-07 | Unit | *Reference / target* |
+|  | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
 | **Urine Creatinine** | 🟢 63.1 | mg/dL | 39.0 - 259.0 |
 | **Urine Albumin (Microalbuminuria)** | 🔵 <3 | mg/l | < 20.0 |
@@ -104,103 +104,103 @@
 
 ## Metabolic Health
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Glucose** | ⚪ | 🔵 86 | 🔵 84 | 🔵 89 | 🟢 70 | mg/dl | 70 - 99 |
-| **HbA1c** | 🟢 | 🔵 5.3 | 🔵 5.18 | 🔵 5.3 | - | % | 4.8 - 5.9 |
-| **Insulin** | 🟡 | 🔵 8.6 | 🔵 11.2 | 🔵 8.9 | - | uU/mL | 2.6 - 24.9 |
-| **ALT** | 🟡<sup>1</sup> | 🔵 18 | 🔵 12 | 🔵 14 | - | U/L | < 41 |
-| **AST** | 🟠<sup>1</sup> | 🟢 33 | 🔵 20 | 🟢 25 | - | U/L | < 40 |
-| **GGTP** | ⚪ | 🔵 18 | 🔵 14 | 🔵 18 | 🔵 18 | U/L | < 60 |
-| **Bilirubin Total** | 🟠<sup>1</sup> | 🔵 0.61 | 🔵 0.20 | 🔵 0.39 | - | mg/dL | < 1.20 |
-| **Bilirubin Direct** | - | 🟡<sup>1</sup> 0.33 ↑ | - | - | - | mg/dL | < 0.3 |
-| **ALP** | ⚪ | 🔵 76 | - | 🔵 89 | - | U/L | 40 - 129 |
-| **LDH** | ⚪ | 🟢 152 | 🔵 123 | - | - | U/L | < 250 |
-| **Albumin** | - | 🟢 48.90 | - | - | - | g/l | 35.00 - 52.00 |
-| **Creatinine** | ⚪ | 🔵 0.96 | 🔵 0.93 | 🔵 0.93 | - | mg/dl | 0.70 - 1.20 |
-| **eGFR** | 🔵 | 🔵 101.5 | 🟢 >60 | 🟢 >60 | - | ml/min/1.73m^2 | > 60.0 |
-| **Uric Acid** | 🔵 | 🟢 3.8 | 🟡 3.2 ↓ | 🟢 4.1 | - | mg/dl | 3.4 - 7.0 |
+| **Glucose** | ⚪ | 🔵 86 | 🔵 84 | 🔵 89 | 🔵 70 | mg/dl | 70 - 99; target 70 - 85 |
+| **HbA1c** | ⚪ | 🔵 5.3 | 🔵 5.18 | 🔵 5.3 | - | % | 4.8 - 5.9; target 4.8 - 5.3 |
+| **Insulin** | 🟢 | 🔵 8.6 | 🔵 11.2 | 🔵 8.9 | - | uU/mL | 2.6 - 24.9; target 2.6 - 8 |
+| **ALT** | ⚪<sup>1</sup> | 🔵 18 | 🔵 12 | 🔵 14 | - | U/L | < 41; target <= 20 |
+| **AST** | 🟡<sup>1</sup> | 🔵 33 | 🔵 20 | 🔵 25 | - | U/L | < 40; target 15 - 30 |
+| **GGTP** | ⚪ | 🔵 18 | 🔵 14 | 🔵 18 | 🔵 18 | U/L | < 60; target <= 20 |
+| **Bilirubin Total** | 🔵<sup>1</sup> | 🔵 0.61 | 🟢 0.20 | 🔵 0.39 | - | mg/dL | < 1.20; target 0.3 - 1.0 |
+| **Bilirubin Direct** | - | 🟡<sup>1</sup> 0.33 ↑ | - | - | - | mg/dL | < 0.3; target <= 0.2 |
+| **ALP** | ⚪ | 🔵 76 | - | 🔵 89 | - | U/L | 40 - 129; target 50 - 90 |
+| **LDH** | ⚪ | 🔵 152 | 🔵 123 | - | - | U/L | < 250; target 120 - 200 |
+| **Albumin** | - | 🔵 48.90 | - | - | - | g/l | 35.00 - 52.00; target 45 - 52 |
+| **Creatinine** | ⚪ | 🔵 0.96 | 🔵 0.93 | 🔵 0.93 | - | mg/dl | 0.70 - 1.20; target 0.80 - 1.10 |
+| **eGFR** | 🔵 | 🔵 101.5 | 🟢 >60 | 🟢 >60 | - | ml/min/1.73m^2 | > 60.0; target >= 90 |
+| **Uric Acid** | 🔵 | 🔵 3.8 | 🟡 3.2 ↓ | 🔵 4.1 | - | mg/dl | 3.4 - 7.0; target 3.5 - 5.5 |
 
 **Notes:**
 <sup>1</sup> Liver-marker trends worsened after adding isotretinoin and Fo-Ti. Fo-Ti is being discontinued, so these are expected to improve on follow-up.
 
 ## Cardiac Health & Coagulation
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Cholesterol LDL** | 🟢 | 🔵 68 | 🟢 76 | 🟢 74 | 🟢 75 | mg/dl | < 115 |
-| **Cholesterol Non-HDL** | 🟢 | 🟢 81 | 🟢 96 | - | - | mg/dL | < 130 |
-| **Cholesterol HDL** | 🟡 | 🟡 38 ↓ | 🟢 43 | 🟡 35 ↓ | - | mg/dL | > 40 |
-| **Cholesterol Total** | 🟢 | 🟢 118 | 🟢 138 | 🟢 119 | - | mg/dL | < 190 |
-| **Triglycerides** | 🟢 | 🔵 57 | 🟢 98 | 🔵 48 | 🔵 56 | mg/dL | < 150 |
-| **Lipoprotein (a)** | ⚪ | 🔵 7.16 | 🔵 < 7.00 | - | - | nmol/l | < 75 |
-| **Homocysteine** | ⚪ | - | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 15.0 |
-| **NT-proBNP** | 🟢 | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10.0 | pg/ml | < 125 |
-| **Creatine Kinase (CK)** | 🟠<sup>1</sup> | 🟡<sup>1</sup> 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200 |
-| **Myoglobin** | 🟠 | - | 🟢 24.30 | 🔵 42.60 | - | ng/ml | 23 - 72 |
-| **D-dimer** | ⚪ | - | 🔵 < 190 | 🔵 < 190 | 🔵 < 190 | ng/ml | < 500 |
-| **Fibrinogen** | - | 🔵 3.1 | - | - | - | g/l | 2.0 - 4.0 |
-| **INR** | 🟢 | 🔵 0.98 | 🔵 0.94 | - | - |  | 0.80 - 1.20 |
-| **APTT** | - | - | 🟢 31.6 | - | - | sec | 22.0 - 34.0 |
-| **PT** | 🔵 | 🔵 12.4 | 🔵 11.4 | - | - | sec | 10.0 - 15.0 |
-| **Prothrombin Index** | - | 🔵 102 | - | - | - | % | 80 - 120 |
+| **Cholesterol LDL** | 🟢 | 🔵 68 | 🔵 76 | 🔵 74 | 🔵 75 | mg/dl | < 115; target < 70 |
+| **Cholesterol Non-HDL** | 🟢 | 🔵 81 | 🔵 96 | - | - | mg/dL | < 130; target < 100 |
+| **Cholesterol HDL** | 🟡 | 🟡 38 ↓ | 🟢 43 | 🟡 35 ↓ | - | mg/dL | > 40; target >= 55 |
+| **Cholesterol Total** | ⚪ | 🔵 118 | 🔵 138 | 🔵 119 | - | mg/dL | < 190; target 120 - 170 |
+| **Triglycerides** | 🟢 | 🔵 57 | 🔵 98 | 🔵 48 | 🔵 56 | mg/dL | < 150; target < 80 |
+| **Lipoprotein (a)** | ⚪ | 🔵 7.16 | 🔵 < 7.00 | - | - | nmol/l | < 75; target < 30 |
+| **Homocysteine** | ⚪ | - | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 15.0; target < 8 |
+| **NT-proBNP** | 🟢 | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10.0 | pg/ml | < 125; target < 50 |
+| **Creatine Kinase (CK)** | ⚪<sup>1</sup> | 🔵<sup>1</sup> 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200; target <= 200 |
+| **Myoglobin** | ⚪ | - | 🔵 24.30 | 🔵 42.60 | - | ng/ml | 23 - 72; target 23 - 50 |
+| **D-dimer** | ⚪ | - | 🔵 < 190 | 🔵 < 190 | 🔵 < 190 | ng/ml | < 500; target < 250 |
+| **Fibrinogen** | - | 🔵 3.1 | - | - | - | g/l | 2.0 - 4.0; target 2.0 - 3.2 |
+| **INR** | ⚪ | 🔵 0.98 | 🔵 0.94 | - | - |  | 0.80 - 1.20; target 0.9 - 1.1 |
+| **APTT** | - | - | 🔵 31.6 | - | - | sec | 22.0 - 34.0; target 26 - 34 |
+| **PT** | ⚪ | 🔵 12.4 | 🔵 11.4 | - | - | sec | 10.0 - 15.0; target 10 - 13 |
+| **Prothrombin Index** | - | 🔵 102 | - | - | - | % | 80 - 120; target 90 - 110 |
 
 **Notes:**
 <sup>1</sup> CK is elevated in the context of a new intensive training block with high volume, progressive overload, running, and other workouts.
 
 ## Micronutrients
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Vitamin D3** | 🔵 | 🔵 46.0 | 🟡 26.3 ↓ | 🟡 52.5 ↑ | 🔵 37.9 | ng/ml | 30 - 50 |
-| **Vitamin B12** | 🔴<sup>1</sup> | 🟡<sup>1</sup> 859 ↑ | 🔵 562 | 🟡<sup>1</sup> 928 ↑ | - | pg/ml | 197 - 771 |
-| **Ferritin** | 🟡 | 🟢 42 | 🟢 78 | 🔵 134 | - | ng/ml | 30 - 400 |
-| **Iron** | 🔵 | 🔵 125 | 🟡 41 ↓ | 🔵 98 | - | ug/dl | 59 - 150 |
-| **Transferrin** | ⚪ | 🔵 3.00 | 🔵 3.00 | - | - | g/l | 2.00 - 3.60 |
-| **Ceruloplasmin** | - | 🔵 0.20 | - | - | - | g/L | 0.15 - 0.30 |
-| **Folic Acid** | 🟢 | 🔵 21.1 | 🔵 8.5 | 🔵 17.0 | - | ng/ml | 3.9 - 26.8 |
-| **Magnesium** | 🔵 | 🔵 2.07 | 🔵 1.90 | 🔵 2.13 | - | mg/dl | 1.60 - 2.60 |
-| **Potassium** | 🟡 | 🔵 4.0 | 🔵 4.2 | 🟢 3.8 | - | mmol/l | 3.5 - 5.1 |
-| **Sodium** | 🟡 | 🔵 139 | 🔵 140 | - | - | mmol/l | 136 - 145 |
-| **Calcium (Total)** | 🔵 | 🔵 9.58 | 🟢 9.88 | 🟢 9.88 | - | mg/dL | 8.60 - 10.00 |
-| **Fosfor** | 🔵 | 🔵 3.10 | 🟡 4.83 ↑ | 🔵 3.7 | - | mg/dL | 2.5 - 4.5 |
-| **Zinc** | 💎 | - | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18 |
-| **Vitamin B6** | - | - | - | 🟡 58.6 ↑ | - | ug/l | 5.7 - 55.1 |
-| **Vitamin B1** | 🔵 | - | 🟢 33.6 | 🟡 69.1 ↑ | - | ug/l | 33.1 - 60.7 |
-| **Vitamin A** | ⚪ | - | 🔵 0.47 | 🔵 0.47 | - | mg/l | 0.3 - 0.7 |
-| **Vitamin E** | 🟢 | - | 🔵 11.0 | 🔵 9.5 | - | mg/l | 5 - 20 |
-| **Vitamin C** | - | - | 🟢 4.6 | - | - | ug/ml | 4 - 15 |
+| **Vitamin D3** | 🔵 | 🔵 46.0 | 🟡 26.3 ↓ | 🔵 52.5 ↑ | 🔵 37.9 | ng/ml | 30 - 50; target 35 - 50 |
+| **Vitamin B12** | ⚪<sup>1</sup> | 🔵<sup>1</sup> 859 ↑ | 🔵 562 | 🔵<sup>1</sup> 928 ↑ | - | pg/ml | 197 - 771; target 400 - 900 |
+| **Ferritin** | 🟡 | 🟢 42 | 🔵 78 | 🔵 134 | - | ng/ml | 30 - 400; target 50 - 150 |
+| **Iron** | 🔵 | 🔵 125 | 🟡 41 ↓ | 🔵 98 | - | ug/dl | 59 - 150; target 80 - 150 |
+| **Transferrin** | ⚪ | 🔵 3.00 | 🔵 3.00 | - | - | g/l | 2.00 - 3.60; target 2.2 - 3.2 |
+| **Ceruloplasmin** | - | 🔵 0.20 | - | - | - | g/L | 0.15 - 0.30; target 0.20 - 0.30 |
+| **Folic Acid** | ⚪ | 🔵 21.1 | 🔵 8.5 | 🔵 17.0 | - | ng/ml | 3.9 - 26.8; target 8 - 20 |
+| **Magnesium** | 🟢 | 🔵 2.07 | 🔵 1.90 | 🔵 2.13 | - | mg/dl | 1.60 - 2.60; target 2.0 - 2.3 |
+| **Potassium** | ⚪ | 🔵 4.0 | 🔵 4.2 | 🟢 3.8 | - | mmol/l | 3.5 - 5.1; target 4.0 - 4.8 |
+| **Sodium** | ⚪ | 🔵 139 | 🔵 140 | - | - | mmol/l | 136 - 145; target 138 - 142 |
+| **Calcium (Total)** | 🟢 | 🔵 9.58 | 🟢 9.88 | 🟢 9.88 | - | mg/dL | 8.60 - 10.00; target 9.0 - 9.8 |
+| **Fosfor** | 🔵 | 🔵 3.10 | 🟡 4.83 ↑ | 🔵 3.7 | - | mg/dL | 2.5 - 4.5; target 3.0 - 4.0 |
+| **Zinc** | 🔵 | - | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18; target 11 - 18 |
+| **Vitamin B6** | - | - | - | 🟡 58.6 ↑ | - | ug/l | 5.7 - 55.1; target 10 - 50 |
+| **Vitamin B1** | 🔵 | - | 🔵 33.6 | 🟡 69.1 ↑ | - | ug/l | 33.1 - 60.7; target 33.1 - 55 |
+| **Vitamin A** | ⚪ | - | 🔵 0.47 | 🔵 0.47 | - | mg/l | 0.3 - 0.7; target 0.4 - 0.7 |
+| **Vitamin E** | ⚪ | - | 🔵 11.0 | 🔵 9.5 | - | mg/l | 5 - 20; target 8 - 18 |
+| **Vitamin C** | - | - | 🟢 4.6 | - | - | ug/ml | 4 - 15; target 6 - 15 |
 
 **Notes:**
 <sup>1</sup> Vitamin B12 went above range, likely from supplementation. B12 toxicity is generally low, but the plan is to lower the supplementation dose.
 
 ## Immunology & Inflammation
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **CRP (hs)** | ⚪ | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | 🔵 not detected | mg/l | < 5.0 |
-| **IL-6** | ⚪ | - | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0 |
-| **Calprotectin** | ⚪ | - | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0 |
-| **Anti-TPO** | 🟢 | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0 |
-| **Anti-TG** | ⚪ | 🔵 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0 |
-| **ASO** | - | - | 🟡 209 ↑ | - | - | IU/mL | < 200 |
+| **CRP (hs)** | ⚪ | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | not detected | mg/l | < 5.0; target < 1 |
+| **IL-6** | ⚪ | - | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0; target < 2 |
+| **Calprotectin** | ⚪ | - | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0; target < 1 |
+| **Anti-TPO** | 🟢 | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0; target < 9 |
+| **Anti-TG** | ⚪ | 🔵 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0; target < 20 |
+| **ASO** | - | - | 🟡 209 ↑ | - | - | IU/mL | < 200; target < 200 |
 
 ## Tumor Markers
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference / target* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **PSA Total** | ⚪ | 🔵 0.15 | 🔵 0.16 | 🔵 0.195 | ng/mL | < 4.0 |
+| **PSA Total** | ⚪ | 🔵 0.15 | 🔵 0.16 | 🔵 0.195 | ng/mL | < 4.0; target < 1.0 |
 | **PSA Free** | - | 🔵 0.033 | - | - | ng/mL | - |
-| **PSA Free/Total Ratio** | - | 🟡 22.05 ↓ | - | - | % | > 25 |
-| **CEA** | ⚪ | 🔵 3.0 | 🔵 2.9 | 🔵 2.2 | ng/ml | < 5.0 |
-| **AFP (ng/ml)** | 🟢 | 🔵 1.99 | 🔵 2.84 | - | ng/ml | < 7.0 |
-| **AFP (IU/ml)** | - | - | - | 🔵 2.0 | IU/ml | < 5.8 |
-| **CA 19-9** | ⚪ | 🔵 4.6 | 🔵 3.8 | 🔵 5.5 | U/ml | < 34.0 |
-| **S-100** | 🟡 | - | 🔵 0.09 | 🔵 0.05 | ug/l | < 0.15 |
+| **PSA Free/Total Ratio** | - | 🔵 22.05 ↓ | - | - | % | > 25; target >= 25 |
+| **CEA** | ⚪ | 🔵 3.0 | 🔵 2.9 | 🔵 2.2 | ng/ml | < 5.0; target < 3 |
+| **AFP (ng/ml)** | 🟢 | 🔵 1.99 | 🔵 2.84 | - | ng/ml | < 7.0; target < 5 |
+| **AFP (IU/ml)** | - | - | - | 🔵 2.0 | IU/ml | < 5.8; target < 5 |
+| **CA 19-9** | ⚪ | 🔵 4.6 | 🔵 3.8 | 🔵 5.5 | U/ml | < 34.0; target < 20 |
+| **S-100** | ⚪ | - | 🔵 0.09 | 🔵 0.05 | ug/l | < 0.15; target < 0.10 |
 
 ## Infectious Diseases
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **HIV** | ⚪ | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | Status | Non-reactive |
 | **Anti-HBs** | ⚪ | 🔵 181.00 | 🔵 221.00 | 🔵 203.00 | - | IU/l | > 10 |
@@ -213,21 +213,21 @@
 
 ## Toxicology (Urine)
 
-|  | Trend | 2026-01 | 2025-05 | Unit | *Reference / target* |
+|  | Trend | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Arsenic** | 💎<sup>1</sup> | 🟢 11.8 | 🟠<sup>1</sup> 30.8 ↑ | ug/l | < 15.0 |
-| **Cadmium** | ⚪ | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8 |
-| **Chromium** | 🔴 | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6 |
-| **Nickel** | ⚪ | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0 |
+| **Arsenic** | 💎<sup>1</sup> | 🔵 11.8 | 🟠<sup>1</sup> 30.8 ↑ | ug/l | < 15.0; target < 15 |
+| **Cadmium** | ⚪ | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8; target < 0.2 |
+| **Chromium** | 🔴 | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6; target < 0.6 |
+| **Nickel** | ⚪ | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0; target < 1.0 |
 | **Copper** | ⚪ | 🟢 4.26 | 🟢 3.15 | ug/l | 2.0 - 80.0 |
-| **Glyphosate** | - | 🔵 < 0.60 | - | ng/ml | < 1.40 |
+| **Glyphosate** | - | 🔵 < 0.60 | - | ng/ml | < 1.40; target < 1.40 |
 
 **Notes:**
 <sup>1</sup> The 2025-05 arsenic elevation was likely due to high salmon consumption.
 
 ## Stool Analysis
 
-|  | 2026-07 | Unit | *Reference / target* |
+|  | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
 | **Stool pH** | 🟡<sup>1</sup> 8.0 ↑ |  | 6.5 - 7.5 |
 | **Reducing Substances** | 🟢 0.25 | % | < 0.25 |
@@ -245,7 +245,7 @@
 
 ## Proteinogram
 
-|  | 2026-01 | Unit | *Reference / target* |
+|  | 2026-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
 | **Albumin** | 🔵 62.3 | % | 55.8 - 66.1 |
 | **Alpha-1 Globulin** | 🟢 2.9 | % | 2.9 - 4.9 |
@@ -256,24 +256,24 @@
 
 ## Hormonal Panel
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference / target* |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Testosterone (Total)** | ⚪<sup>1</sup> | 🔵<sup>1</sup> 32.10 | 🔵 27.50 | 🔵 28.60 | 🔵 28.70 | nmol/l | 9.2 - 33.0; target 20 - 33 |
-| **Testosterone (Free)** | - | - | - | 🔵 19.17 | - | pg/ml | 9.10 - 32.20 |
-| **Estradiol (E2)** | 🔴<sup>2</sup> | 🟡<sup>2</sup> 213 ↑ | 🟢 141 | 🟡<sup>2</sup> 188 ↑ | 🟡<sup>2</sup> 176 ↑ | pmol/l | 41 - 159 |
-| **Prolactin** | 💎 | 🟢 14.90 | 🟠<sup>3</sup> 24.00 ↑ | 🔵 9.64 | 🟠<sup>3</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20 |
-| **Cortisol** | ⚪ | 🟢 17.4 | 🟢 17.4 | 🟢 17.1 | - | ug/dl | 4.8 - 19.5 |
-| **TSH** | 🟠<sup>4</sup> | 🟡<sup>4</sup> 4.57 ↑ | 🔵 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20 |
-| **Free T3 (FT3)** | ⚪ | 🔵 5.47 | 🔵 4.54 | 🔵 4.29 | 🔵 5.57 | pmol/L | 3.10 - 6.80 |
-| **Free T4 (FT4)** | 🟠<sup>4</sup> | 🟢<sup>4</sup> 19.80 | 🔵 16.30 | 🟢 20.67 | 🔵 17.70 | pmol/L | 11.90 - 21.60 |
-| **LH** | 🔵 | 🟢 7.39 | 🟡 10.20 ↑ | 🔵 4.46 | - | mIU/mL | 1.70 - 8.60 |
-| **FSH** | 🟡 | 🟢 2.1 | 🟢 3.0 | 🟢 1.6 | 🟢 3.0 | mIU/mL | 1.5 - 12.4 |
-| **SHBG** | 🟠 | 🟡 54.7 ↑ | 🔵 43.2 | 🔵 35.0 | 🔵 34.3 | nmol/L | 18.3 - 54.1 |
-| **DHEA-SO4** | ⚪ | 🟢 92.9 | 🟢 97.7 | 🟢 124.0 | 🟢 111.0 | ug/dl | 88.9 - 427 |
-| **Progesterone** | 💎 | 🟡<sup>5</sup> 0.842 ↑ | 🟠<sup>5</sup> 1.390 ↑ | 🟠<sup>5</sup> 1.370 ↑ | - | nmol/l | < 0.474 |
-| **17-OH Progesterone** | 🔵 | - | - | 🔵 1.59 | 🔵 2.31 | ng/ml | 0.37 - 2.87 |
-| **IGF-1** | 🔵 | 🔵 158 | 🔵 229 | 🔵 201 | - | ng/ml | 61 - 271 |
-| **HCG-Beta** | ⚪ | 🔵 < 0.200 | 🔵 < 0.200 | - | - | mIU/mL | < 2.60 |
+| **Testosterone (Total)** | 🟢<sup>1</sup> | 🔵<sup>1</sup> 32.10 | 🔵 27.50 | 🔵 28.60 | 🔵 28.70 | nmol/l | 9.2 - 33.0; target 20 - 33 |
+| **Testosterone (Free)** | - | - | - | 🔵 19.17 | - | pg/ml | 9.10 - 32.20; target 15 - 30 |
+| **Estradiol (E2)** | 🟠<sup>2</sup> | 🟡<sup>2</sup> 213 ↑ | 🔵 141 | 🟡<sup>2</sup> 188 ↑ | 🟡<sup>2</sup> 176 ↑ | pmol/l | 41 - 159; target 70 - 160 |
+| **Prolactin** | 🔵 | 🔵 14.90 | 🟡<sup>3</sup> 24.00 ↑ | 🔵 9.64 | 🟡<sup>3</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20; target 5 - 15 |
+| **Cortisol** | ⚪ | 🔵 17.4 | 🔵 17.4 | 🔵 17.1 | - | ug/dl | 4.8 - 19.5; target 8 - 18 |
+| **TSH** | 🟠<sup>4</sup> | 🟡<sup>4</sup> 4.57 ↑ | 🟢 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20; target 0.5 - 2.5 |
+| **Free T3 (FT3)** | ⚪ | 🔵 5.47 | 🔵 4.54 | 🔵 4.29 | 🔵 5.57 | pmol/L | 3.10 - 6.80; target 4.5 - 6.2 |
+| **Free T4 (FT4)** | 🟠<sup>4</sup> | 🟢<sup>4</sup> 19.80 | 🔵 16.30 | 🟢 20.67 | 🔵 17.70 | pmol/L | 11.90 - 21.60; target 14 - 18 |
+| **LH** | 🔵 | 🔵 7.39 | 🟡 10.20 ↑ | 🔵 4.46 | - | mIU/mL | 1.70 - 8.60; target 2 - 8 |
+| **FSH** | ⚪ | 🔵 2.1 | 🔵 3.0 | 🔵 1.6 | 🔵 3.0 | mIU/mL | 1.5 - 12.4; target 1.5 - 6 |
+| **SHBG** | 🟠 | 🟡 54.7 ↑ | 🔵 43.2 | 🔵 35.0 | 🔵 34.3 | nmol/L | 18.3 - 54.1; target 25 - 50 |
+| **DHEA-SO4** | ⚪ | 🟢 92.9 | 🟢 97.7 | 🟢 124.0 | 🟢 111.0 | ug/dl | 88.9 - 427; target 150 - 350 |
+| **Progesterone** | 💎 | 🟡<sup>5</sup> 0.842 ↑ | 🟠<sup>5</sup> 1.390 ↑ | 🟠<sup>5</sup> 1.370 ↑ | - | nmol/l | < 0.474; target < 0.474 |
+| **17-OH Progesterone** | ⚪ | - | - | 🔵 1.59 | 🔵 2.31 | ng/ml | 0.37 - 2.87; target 0.7 - 2.5 |
+| **IGF-1** | 🟢 | 🔵 158 | 🔵 229 | 🔵 201 | - | ng/ml | 61 - 271; target 100 - 220 |
+| **HCG-Beta** | ⚪ | 🔵 < 0.200 | 🔵 < 0.200 | - | - | mIU/mL | < 2.60; target < 1 |
 
 **Notes:**
 <sup>1</sup> Total testosterone is scored with a high-normal male target: high-normal natural values are treated as favorable rather than automatically adverse.
@@ -311,6 +311,6 @@
 *   🔴 **Critical Decline**: Severe worsening
 *   **-**: Not enough comparable completed results
 
-> **Trend method:** Compares the latest completed result with the previous completed result using the reference-range health score; lower score is better. For one-sided targets (< or >), a directional improvement of at least 7.5% also counts as slight improvement.
+> **Trend method:** Compares the latest completed result with the previous completed result using the health-target score; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.
 
 > **Note:** See `results.html` for detailed color gradients.

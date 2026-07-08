@@ -97,7 +97,142 @@ def get_direction(val_str, ref_range):
             
     return ""
 
+def low_good_target(reference, optimal_max, high_limit, low_limit=None):
+    target = {
+        "reference": reference,
+        "type": "low_good",
+        "optimal_max": optimal_max,
+        "high_limit": high_limit,
+    }
+    if low_limit is not None:
+        target["low_limit"] = low_limit
+    return target
+
+def high_good_target(reference, low_limit, optimal_min, high_limit=None):
+    target = {
+        "reference": reference,
+        "type": "high_good",
+        "low_limit": low_limit,
+        "optimal_min": optimal_min,
+    }
+    if high_limit is not None:
+        target["high_limit"] = high_limit
+    return target
+
+def optimal_range_target(reference, low_limit, optimal_min, optimal_max, high_limit):
+    return {
+        "reference": reference,
+        "type": "optimal_range",
+        "low_limit": low_limit,
+        "optimal_min": optimal_min,
+        "optimal_max": optimal_max,
+        "high_limit": high_limit,
+    }
+
 target_overrides = {
+    # Morphology
+    ("Morphology", "Hemoglobin"): optimal_range_target("13.0 - 18.0; target 14.0 - 16.2", 13.0, 14.0, 16.2, 18.0),
+    ("Morphology", "Hematocrit"): optimal_range_target("40 - 52; target 42 - 48", 40.0, 42.0, 48.0, 52.0),
+    ("Morphology", "Erythrocytes"): optimal_range_target("4.5 - 6.5; target 4.8 - 5.6", 4.5, 4.8, 5.6, 6.5),
+    ("Morphology", "MCV"): optimal_range_target("80 - 98; target 84 - 92", 80.0, 84.0, 92.0, 98.0),
+    ("Morphology", "MCH"): optimal_range_target("27 - 32; target 29 - 31", 27.0, 29.0, 31.0, 32.0),
+    ("Morphology", "MCHC"): optimal_range_target("31 - 37; target 33 - 35", 31.0, 33.0, 35.0, 37.0),
+    ("Morphology", "RDW-CV"): low_good_target("11.5 - 14.5; target <= 13.2", 13.2, 14.5, 10.5),
+    ("Morphology", "RDW-SD"): optimal_range_target("35.1 - 43.9; target 36 - 42", 35.1, 36.0, 42.0, 43.9),
+    ("Morphology", "Leukocytes"): optimal_range_target("4.0 - 11.0; target 4.5 - 8.0", 4.0, 4.5, 8.0, 11.0),
+    ("Morphology", "Neutrophils"): optimal_range_target("1.9 - 7; target 2.0 - 5.0", 1.9, 2.0, 5.0, 7.0),
+    ("Morphology", "Neutrophils %"): optimal_range_target("45 - 70; target 45 - 60", 40.0, 45.0, 60.0, 70.0),
+    ("Morphology", "Lymphocytes"): optimal_range_target("1.5 - 4.5; target 1.5 - 3.5", 1.5, 1.5, 3.5, 4.5),
+    ("Morphology", "Lymphocytes %"): optimal_range_target("25 - 45; target 25 - 40", 25.0, 25.0, 40.0, 45.0),
+    ("Morphology", "Monocytes"): optimal_range_target("0.1 - 0.9; target 0.2 - 0.8", 0.1, 0.2, 0.8, 0.9),
+    ("Morphology", "Monocytes %"): optimal_range_target("2 - 9; target 2 - 8", 2.0, 2.0, 8.0, 9.0),
+    ("Morphology", "Eosinophils"): low_good_target("< 0.5; target <= 0.3", 0.3, 0.5),
+    ("Morphology", "Eosinophils %"): low_good_target("0.00 - 5.00; target <= 3.0", 3.0, 5.0),
+    ("Morphology", "Basophils"): low_good_target("0.00 - 0.10; target <= 0.08", 0.08, 0.10),
+    ("Morphology", "Basophils %"): low_good_target("0.00 - 1.00; target <= 0.8", 0.8, 1.0),
+    ("Morphology", "Immature Granulocytes"): low_good_target("< 0.04; target 0", 0.0, 0.04),
+    ("Morphology", "Immature Granulocytes %"): low_good_target("0.0 - 0.5; target <= 0.3", 0.3, 0.5),
+    ("Morphology", "Platelets"): optimal_range_target("150 - 400; target 180 - 300", 150.0, 180.0, 300.0, 400.0),
+    ("Morphology", "PCT"): optimal_range_target("0.12 - 0.36; target 0.18 - 0.32", 0.12, 0.18, 0.32, 0.36),
+    ("Morphology", "PDW"): optimal_range_target("9.8 - 16.1; target 10 - 14", 9.8, 10.0, 14.0, 16.1),
+    ("Morphology", "MPV"): optimal_range_target("7 - 12; target 8 - 11", 7.0, 8.0, 11.0, 12.0),
+    ("Morphology", "P-LCR"): optimal_range_target("19.2 - 47; target 20 - 40", 19.2, 20.0, 40.0, 47.0),
+
+    # Metabolic, liver, kidney
+    ("Metabolic Health", "Glucose"): optimal_range_target("70 - 99; target 70 - 85", 70.0, 70.0, 85.0, 99.0),
+    ("Metabolic Health", "HbA1c"): optimal_range_target("4.8 - 5.9; target 4.8 - 5.3", 4.8, 4.8, 5.3, 5.9),
+    ("Metabolic Health", "Insulin"): low_good_target("2.6 - 24.9; target 2.6 - 8", 8.0, 24.9, 2.6),
+    ("Metabolic Health", "ALT"): low_good_target("< 41; target <= 20", 20.0, 41.0),
+    ("Metabolic Health", "AST"): optimal_range_target("< 40; target 15 - 30", 10.0, 15.0, 30.0, 40.0),
+    ("Metabolic Health", "GGTP"): low_good_target("< 60; target <= 20", 20.0, 60.0),
+    ("Metabolic Health", "Bilirubin Total"): optimal_range_target("< 1.20; target 0.3 - 1.0", 0.1, 0.3, 1.0, 1.2),
+    ("Metabolic Health", "Bilirubin Direct"): low_good_target("< 0.3; target <= 0.2", 0.2, 0.3),
+    ("Metabolic Health", "ALP"): optimal_range_target("40 - 129; target 50 - 90", 40.0, 50.0, 90.0, 129.0),
+    ("Metabolic Health", "LDH"): optimal_range_target("< 250; target 120 - 200", 100.0, 120.0, 200.0, 250.0),
+    ("Metabolic Health", "Albumin"): high_good_target("35.00 - 52.00; target 45 - 52", 35.0, 45.0, 52.0),
+    ("Metabolic Health", "Creatinine"): optimal_range_target("0.70 - 1.20; target 0.80 - 1.10", 0.70, 0.80, 1.10, 1.20),
+    ("Metabolic Health", "eGFR"): high_good_target("> 60.0; target >= 90", 60.0, 90.0),
+    ("Metabolic Health", "Uric Acid"): optimal_range_target("3.4 - 7.0; target 3.5 - 5.5", 3.4, 3.5, 5.5, 7.0),
+
+    # Cardiac health
+    ("Cardiac Health & Coagulation", "Cholesterol LDL"): low_good_target("< 115; target < 70", 70.0, 115.0),
+    ("Cardiac Health & Coagulation", "Cholesterol Non-HDL"): low_good_target("< 130; target < 100", 100.0, 130.0),
+    ("Cardiac Health & Coagulation", "Cholesterol HDL"): high_good_target("> 40; target >= 55", 40.0, 55.0),
+    ("Cardiac Health & Coagulation", "Cholesterol Total"): optimal_range_target("< 190; target 120 - 170", 100.0, 120.0, 170.0, 190.0),
+    ("Cardiac Health & Coagulation", "Triglycerides"): low_good_target("< 150; target < 80", 80.0, 150.0),
+    ("Cardiac Health & Coagulation", "Lipoprotein (a)"): low_good_target("< 75; target < 30", 30.0, 75.0),
+    ("Cardiac Health & Coagulation", "Homocysteine"): low_good_target("< 15.0; target < 8", 8.0, 15.0),
+    ("Cardiac Health & Coagulation", "NT-proBNP"): low_good_target("< 125; target < 50", 50.0, 125.0),
+    ("Cardiac Health & Coagulation", "Creatine Kinase (CK)"): low_good_target("20 - 200; target <= 200", 200.0, 350.0),
+    ("Cardiac Health & Coagulation", "Myoglobin"): optimal_range_target("23 - 72; target 23 - 50", 23.0, 23.0, 50.0, 72.0),
+    ("Cardiac Health & Coagulation", "D-dimer"): low_good_target("< 500; target < 250", 250.0, 500.0),
+    ("Cardiac Health & Coagulation", "Fibrinogen"): optimal_range_target("2.0 - 4.0; target 2.0 - 3.2", 2.0, 2.0, 3.2, 4.0),
+    ("Cardiac Health & Coagulation", "INR"): optimal_range_target("0.80 - 1.20; target 0.9 - 1.1", 0.8, 0.9, 1.1, 1.2),
+    ("Cardiac Health & Coagulation", "APTT"): optimal_range_target("22.0 - 34.0; target 26 - 34", 22.0, 26.0, 34.0, 38.0),
+    ("Cardiac Health & Coagulation", "PT"): optimal_range_target("10.0 - 15.0; target 10 - 13", 10.0, 10.0, 13.0, 15.0),
+    ("Cardiac Health & Coagulation", "Prothrombin Index"): optimal_range_target("80 - 120; target 90 - 110", 80.0, 90.0, 110.0, 120.0),
+
+    # Micronutrients
+    ("Micronutrients", "Vitamin D3"): optimal_range_target("30 - 50; target 35 - 50", 30.0, 35.0, 50.0, 60.0),
+    ("Micronutrients", "Vitamin B12"): optimal_range_target("197 - 771; target 400 - 900", 197.0, 400.0, 900.0, 1100.0),
+    ("Micronutrients", "Ferritin"): optimal_range_target("30 - 400; target 50 - 150", 30.0, 50.0, 150.0, 400.0),
+    ("Micronutrients", "Iron"): optimal_range_target("59 - 150; target 80 - 150", 59.0, 80.0, 150.0, 180.0),
+    ("Micronutrients", "Transferrin"): optimal_range_target("2.00 - 3.60; target 2.2 - 3.2", 2.0, 2.2, 3.2, 3.6),
+    ("Micronutrients", "Ceruloplasmin"): optimal_range_target("0.15 - 0.30; target 0.20 - 0.30", 0.15, 0.20, 0.30, 0.35),
+    ("Micronutrients", "Folic Acid"): optimal_range_target("3.9 - 26.8; target 8 - 20", 3.9, 8.0, 20.0, 26.8),
+    ("Micronutrients", "Magnesium"): optimal_range_target("1.60 - 2.60; target 2.0 - 2.3", 1.6, 2.0, 2.3, 2.6),
+    ("Micronutrients", "Potassium"): optimal_range_target("3.5 - 5.1; target 4.0 - 4.8", 3.5, 4.0, 4.8, 5.1),
+    ("Micronutrients", "Sodium"): optimal_range_target("136 - 145; target 138 - 142", 136.0, 138.0, 142.0, 145.0),
+    ("Micronutrients", "Calcium (Total)"): optimal_range_target("8.60 - 10.00; target 9.0 - 9.8", 8.6, 9.0, 9.8, 10.0),
+    ("Micronutrients", "Fosfor"): optimal_range_target("2.5 - 4.5; target 3.0 - 4.0", 2.5, 3.0, 4.0, 4.5),
+    ("Micronutrients", "Zinc"): optimal_range_target("9 - 18; target 11 - 18", 9.0, 11.0, 18.0, 22.0),
+    ("Micronutrients", "Vitamin B6"): optimal_range_target("5.7 - 55.1; target 10 - 50", 5.7, 10.0, 50.0, 55.1),
+    ("Micronutrients", "Vitamin B1"): optimal_range_target("33.1 - 60.7; target 33.1 - 55", 33.1, 33.1, 55.0, 60.7),
+    ("Micronutrients", "Vitamin A"): optimal_range_target("0.3 - 0.7; target 0.4 - 0.7", 0.3, 0.4, 0.7, 0.8),
+    ("Micronutrients", "Vitamin E"): optimal_range_target("5 - 20; target 8 - 18", 5.0, 8.0, 18.0, 20.0),
+    ("Micronutrients", "Vitamin C"): optimal_range_target("4 - 15; target 6 - 15", 4.0, 6.0, 15.0, 20.0),
+
+    # Inflammation, tumor, infectious, toxicology
+    ("Immunology & Inflammation", "CRP (hs)"): low_good_target("< 5.0; target < 1", 1.0, 5.0),
+    ("Immunology & Inflammation", "IL-6"): low_good_target("< 7.0; target < 2", 2.0, 7.0),
+    ("Immunology & Inflammation", "Calprotectin"): low_good_target("< 2.0; target < 1", 1.0, 2.0),
+    ("Immunology & Inflammation", "Anti-TPO"): low_good_target("< 34.0; target < 9", 9.0, 34.0),
+    ("Immunology & Inflammation", "Anti-TG"): low_good_target("< 115.0; target < 20", 20.0, 115.0),
+    ("Immunology & Inflammation", "ASO"): low_good_target("< 200; target < 200", 200.0, 200.0),
+    ("Tumor Markers", "PSA Total"): low_good_target("< 4.0; target < 1.0", 1.0, 4.0),
+    ("Tumor Markers", "PSA Free/Total Ratio"): high_good_target("> 25; target >= 25", 15.0, 25.0),
+    ("Tumor Markers", "CEA"): low_good_target("< 5.0; target < 3", 3.0, 5.0),
+    ("Tumor Markers", "AFP (ng/ml)"): low_good_target("< 7.0; target < 5", 5.0, 7.0),
+    ("Tumor Markers", "AFP (IU/ml)"): low_good_target("< 5.8; target < 5", 5.0, 5.8),
+    ("Tumor Markers", "CA 19-9"): low_good_target("< 34.0; target < 20", 20.0, 34.0),
+    ("Tumor Markers", "S-100"): low_good_target("< 0.15; target < 0.10", 0.10, 0.15),
+    ("Toxicology (Urine)", "Arsenic"): low_good_target("< 15.0; target < 15", 15.0, 15.0),
+    ("Toxicology (Urine)", "Cadmium"): low_good_target("< 0.8; target < 0.2", 0.2, 0.8),
+    ("Toxicology (Urine)", "Chromium"): low_good_target("< 0.6; target < 0.6", 0.6, 0.6),
+    ("Toxicology (Urine)", "Nickel"): low_good_target("< 3.0; target < 1.0", 1.0, 3.0),
+    ("Toxicology (Urine)", "Glyphosate"): low_good_target("< 1.40; target < 1.40", 1.4, 1.4),
+
+    # Hormones
     ("Hormonal Panel", "Testosterone (Total)"): {
         "reference": "9.2 - 33.0; target 20 - 33",
         "type": "high_good_range",
@@ -106,6 +241,21 @@ target_overrides = {
         "optimal_max": 33.0,
         "high_limit": 40.0,
     },
+    ("Hormonal Panel", "Testosterone (Free)"): optimal_range_target("9.10 - 32.20; target 15 - 30", 9.1, 15.0, 30.0, 32.2),
+    ("Hormonal Panel", "Estradiol (E2)"): optimal_range_target("41 - 159; target 70 - 160", 41.0, 70.0, 160.0, 160.0),
+    ("Hormonal Panel", "Prolactin"): optimal_range_target("4.04 - 15.20; target 5 - 15", 4.04, 5.0, 15.0, 20.0),
+    ("Hormonal Panel", "Cortisol"): optimal_range_target("4.8 - 19.5; target 8 - 18", 4.8, 8.0, 18.0, 19.5),
+    ("Hormonal Panel", "TSH"): optimal_range_target("0.27 - 4.20; target 0.5 - 2.5", 0.27, 0.5, 2.5, 4.2),
+    ("Hormonal Panel", "Free T3 (FT3)"): optimal_range_target("3.10 - 6.80; target 4.5 - 6.2", 3.1, 4.5, 6.2, 6.8),
+    ("Hormonal Panel", "Free T4 (FT4)"): optimal_range_target("11.90 - 21.60; target 14 - 18", 11.9, 14.0, 18.0, 21.6),
+    ("Hormonal Panel", "LH"): optimal_range_target("1.70 - 8.60; target 2 - 8", 1.7, 2.0, 8.0, 8.6),
+    ("Hormonal Panel", "FSH"): optimal_range_target("1.5 - 12.4; target 1.5 - 6", 1.5, 1.5, 6.0, 12.4),
+    ("Hormonal Panel", "SHBG"): optimal_range_target("18.3 - 54.1; target 25 - 50", 18.3, 25.0, 50.0, 54.1),
+    ("Hormonal Panel", "DHEA-SO4"): optimal_range_target("88.9 - 427; target 150 - 350", 88.9, 150.0, 350.0, 427.0),
+    ("Hormonal Panel", "Progesterone"): low_good_target("< 0.474; target < 0.474", 0.474, 0.474),
+    ("Hormonal Panel", "17-OH Progesterone"): optimal_range_target("0.37 - 2.87; target 0.7 - 2.5", 0.37, 0.7, 2.5, 2.87),
+    ("Hormonal Panel", "IGF-1"): optimal_range_target("61 - 271; target 100 - 220", 61.0, 100.0, 220.0, 271.0),
+    ("Hormonal Panel", "HCG-Beta"): low_good_target("< 2.60; target < 1", 1.0, 2.6),
 }
 
 def numeric_from_result(val_str):
@@ -147,6 +297,87 @@ def calculate_high_good_range_score(val, target):
 
     return 1.2 + ((val - high_limit) / high_limit) if high_limit != 0 else 1.2
 
+def relative_distance(value, limit):
+    return value / abs(limit) if limit != 0 else 1.0
+
+def calculate_low_good_score(val, target):
+    low_limit = target.get("low_limit")
+    optimal_max = target["optimal_max"]
+    high_limit = target["high_limit"]
+
+    if low_limit is not None and val < low_limit:
+        return 1.0 + relative_distance(low_limit - val, low_limit)
+
+    if val <= optimal_max:
+        return 0.35
+
+    span = high_limit - optimal_max
+    if val <= high_limit:
+        if span <= 0:
+            return 1.0
+        return 0.35 + (((val - optimal_max) / span) * 0.65)
+
+    return 1.0 + relative_distance(val - high_limit, high_limit)
+
+def calculate_high_good_score(val, target):
+    low_limit = target["low_limit"]
+    optimal_min = target["optimal_min"]
+    high_limit = target.get("high_limit")
+
+    if high_limit is not None and val > high_limit:
+        return 1.0 + relative_distance(val - high_limit, high_limit)
+
+    if val >= optimal_min:
+        return 0.35
+
+    if val >= low_limit:
+        span = optimal_min - low_limit
+        if span <= 0:
+            return 1.0
+        return 1.0 - (((val - low_limit) / span) * 0.65)
+
+    return 1.0 + relative_distance(low_limit - val, low_limit)
+
+def calculate_optimal_range_score(val, target):
+    low_limit = target["low_limit"]
+    optimal_min = target["optimal_min"]
+    optimal_max = target["optimal_max"]
+    high_limit = target["high_limit"]
+
+    if val < low_limit:
+        return 1.0 + relative_distance(low_limit - val, low_limit)
+
+    if val < optimal_min:
+        span = optimal_min - low_limit
+        if span <= 0:
+            return 0.35
+        return 1.0 - (((val - low_limit) / span) * 0.65)
+
+    if val <= optimal_max:
+        return 0.35
+
+    if val <= high_limit:
+        span = high_limit - optimal_max
+        if span <= 0:
+            return 1.0
+        return 0.35 + (((val - optimal_max) / span) * 0.65)
+
+    return 1.0 + relative_distance(val - high_limit, high_limit)
+
+def calculate_target_score(val, target):
+    target_type = target["type"]
+
+    if target_type == "high_good_range":
+        return calculate_high_good_range_score(val, target)
+    if target_type == "low_good":
+        return calculate_low_good_score(val, target)
+    if target_type == "high_good":
+        return calculate_high_good_score(val, target)
+    if target_type == "optimal_range":
+        return calculate_optimal_range_score(val, target)
+
+    return None
+
 def target_reference(category, marker, ref):
     target = target_overrides.get((category, marker))
     if target:
@@ -162,8 +393,9 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
         val = numeric_from_result(val_str)
         if val is None:
             return None
-        if target["type"] == "high_good_range":
-            return calculate_high_good_range_score(val, target)
+        score = calculate_target_score(val, target)
+        if score is not None:
+            return score
         
     # Textual Perfect Matches
     text_val = val_str.lower().strip()
@@ -372,11 +604,46 @@ def numeric_value(value):
     except ValueError:
         return None
 
-def directional_percent_delta(current, previous, ref):
+def target_directional_percent_delta(current_val, previous_val, target):
+    if previous_val == 0:
+        return None
+
+    current_score = calculate_target_score(current_val, target)
+    previous_score = calculate_target_score(previous_val, target)
+    if current_score is None or previous_score is None:
+        return None
+
+    # Directional trend only adds signal when the value moves in the intended
+    # direction without worsening the target score.
+    if current_score > previous_score + 1e-9:
+        return None
+
+    target_type = target["type"]
+    if target_type == "low_good":
+        return (previous_val - current_val) / abs(previous_val)
+
+    if target_type == "high_good":
+        high_limit = target.get("high_limit")
+        if high_limit is not None and current_val > high_limit:
+            return None
+        return (current_val - previous_val) / abs(previous_val)
+
+    if target_type == "high_good_range":
+        if current_val > target["optimal_max"]:
+            return None
+        return (current_val - previous_val) / abs(previous_val)
+
+    return None
+
+def directional_percent_delta(current, previous, ref, category=None, marker=None):
     current_val = numeric_value(current)
     previous_val = numeric_value(previous)
     if current_val is None or previous_val is None or previous_val == 0:
         return None
+
+    target = target_overrides.get((category, marker))
+    if target:
+        return target_directional_percent_delta(current_val, previous_val, target)
 
     if re.match(r'<\s*([-\d.]+)', ref):
         return (previous_val - current_val) / abs(previous_val)
@@ -402,7 +669,7 @@ def classify_trend(values, ref, category, marker=None):
     current_value, current_score = comparable[0]
     previous_value, previous_score = comparable[1]
     delta = previous_score - current_score
-    percent_delta = directional_percent_delta(current_value, previous_value, ref)
+    percent_delta = directional_percent_delta(current_value, previous_value, ref, category, marker)
 
     if delta >= 1.00:
         return "Breakthrough"
@@ -886,7 +1153,7 @@ def generate_html_report():
             html += "<th>Trend</th>"
         for idx in active_indexes:
             html += f"<th>{date_columns[idx]}</th>"
-        html += "<th>Unit</th><th><i>Reference / target</i></th></tr>"
+        html += "<th>Unit</th><th><i>Reference</i></th></tr>"
         
         for row in rows:
             name, values, unit, ref = split_result_row(row)
@@ -930,7 +1197,7 @@ def generate_html_report():
         html += f"<li><span style='font-weight:bold;'>{definition['emoji']} {label}</span>: {definition['description'].capitalize()}</li>"
     html += "<li><b>-</b>: not enough comparable completed results</li>"
     html += "</ul>"
-    html += "<p class='note'>Trend compares the latest completed result with the previous completed result using the reference-range health score; lower score is better. For one-sided targets (&lt; or &gt;), a directional improvement of at least 7.5% also counts as slight improvement.</p>"
+    html += "<p class='note'>Trend compares the latest completed result with the previous completed result using the health-target score; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.</p>"
 
     html += "</body></html>"
     
@@ -957,7 +1224,7 @@ def generate_md_report():
         for idx in active_indexes:
             header += f" {date_columns[idx]} |"
             sep += " :--- |"
-        header += " Unit | *Reference / target* |"
+        header += " Unit | *Reference* |"
         sep += " :--- | :--- |"
         
         md += header + "\n" + sep + "\n"
@@ -1000,7 +1267,7 @@ def generate_md_report():
     for label, definition in trend_definitions.items():
         md += f"*   {definition['emoji']} **{label}**: {definition['description'].capitalize()}\n"
     md += "*   **-**: Not enough comparable completed results\n\n"
-    md += "> **Trend method:** Compares the latest completed result with the previous completed result using the reference-range health score; lower score is better. For one-sided targets (< or >), a directional improvement of at least 7.5% also counts as slight improvement.\n\n"
+    md += "> **Trend method:** Compares the latest completed result with the previous completed result using the health-target score; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.\n\n"
     md += "> **Note:** See `results.html` for detailed color gradients.\n"
 
     with open("results.md", "w", encoding="utf-8") as f:
