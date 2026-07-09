@@ -193,7 +193,7 @@ target_overrides = {
     ("Vitals & Functional Health", "Body Fat"): optimal_range_target("10 - 20; target 10 - 15", 8.0, 10.0, 15.0, 20.0),
     ("Vitals & Functional Health", "Muscle"): high_good_target("> 70; target >= 75", 70.0, 75.0),
     ("Vitals & Functional Health", "Temperature"): optimal_range_target("36.1 - 37.2; target 36.5 - 37.0", 36.1, 36.5, 37.0, 37.2),
-    ("Vitals & Functional Health", "Sleep Apnea AHI"): low_good_target("< 5; <15 excludes moderate/severe", 5.0, 10.0),
+    ("Vitals & Functional Health", "Sleep Apnea AHI"): low_good_target("< 5; target < 5", 5.0, 10.0),
     ("Vitals & Functional Health", "Sleep Duration"): high_good_range_target(">= 7; target 7 - 9", 5.0, 7.0, 9.0, 10.5),
     ("Vitals & Functional Health", "REM Sleep"): optimal_range_target("1.5 - 2.3; target 20 - 25% of sleep", 0.8, 1.5, 2.3, 3.0),
     ("Vitals & Functional Health", "Deep Sleep"): optimal_range_target("about 1 - 2; target 1 - 2", 0.5, 1.0, 2.0, 3.0),
@@ -884,7 +884,7 @@ data = {
         ("ECG Rhythm", "normal sinus rhythm", "-", "-", "-", "Status", "normal sinus rhythm"),
         ("ECG Heart Rate", "68", "-", "-", "-", "bpm", "50 - 100"),
         ("Heart Sounds", "normal (no signs of valvular heart disease)", "-", "-", "-", "Status", "normal"),
-        ("PWV", "6.2", "-", "-", "-", "m/s", "< 10"),
+        ("PWV", "6.1", "-", "-", "-", "m/s", "< 10"),
         ("VO2max", "43", "-", "-", "-", "ml/kg/min", "> 35"),
         ("Respiratory Rate (Sleep)", "12.4", "-", "-", "-", "/min", "12 - 20"),
         ("Body Mass", "83", "-", "-", "-", "kg", "-"),
@@ -893,7 +893,7 @@ data = {
         ("Body Fat", "17.4", "-", "-", "-", "%", "10 - 20"),
         ("Muscle", "78.6", "-", "-", "-", "%", "> 70"),
         ("Temperature", "36.9", "-", "-", "-", "C", "36.1 - 37.2"),
-        ("Sleep Apnea AHI", "< 15", "-", "-", "-", "events/h", "< 5"),
+        ("Sleep Apnea AHI", "2", "-", "-", "-", "events/h", "< 5"),
         ("Nerve Health Score", "70", "-", "-", "-", "score", "-"),
         ("Max HRV", "48", "-", "-", "-", "ms", "-"),
         ("Sleep Duration", "8", "-", "-", "-", "h", ">= 7"),
@@ -1139,12 +1139,6 @@ result_notes = {
             "text": "BMI is included as a population screening metric but is interpreted in context of body fat and muscle percentage, not as a standalone body-composition diagnosis.",
             "markers": [
                 {"rows": ["Body Mass", "Height", "BMI", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-07"]},
-            ],
-        },
-        {
-            "text": "AHI was provided only as <15, which rules out moderate or severe sleep apnea by standard severity bands but does not prove the ideal target of <5.",
-            "markers": [
-                {"row": "Sleep Apnea AHI", "target": "value", "dates": ["2026-07"]},
             ],
         },
         {

@@ -18,11 +18,11 @@
 | **Nighttime BP Dip** | 🔵 16.7 | % | 10 - 20; target 10 - 20 |
 | **Resting Heart Rate** | 🔵 ~65 | bpm | 60 - 100; target 50 - 70 |
 | **Sleeping Heart Rate** | 🔵 56 | bpm | 40 - 80; target 45 - 60 |
-| **Maximum Heart Rate** | 180<sup>3</sup> | bpm | - |
+| **Maximum Heart Rate** | 180<sup>2</sup> | bpm | - |
 | **ECG Rhythm** | 🔵 normal sinus rhythm | Status | normal sinus rhythm |
 | **ECG Heart Rate** | 🔵 68 | bpm | 50 - 100; target 50 - 80 |
 | **Heart Sounds** | 🔵 normal (no signs of valvular heart disease) | Status | normal |
-| **PWV** | 🔵 6.2 | m/s | < 10; target < 7 |
+| **PWV** | 🔵 6.1 | m/s | < 10; target < 7 |
 | **VO2max** | 🔵 43 | ml/kg/min | > 35; target >= 45 |
 | **Respiratory Rate (Sleep)** | 🔵 12.4 | /min | 12 - 20; target 12 - 16 |
 | **Body Mass** | 83<sup>1</sup> | kg | - |
@@ -31,9 +31,9 @@
 | **Body Fat** | 🟢<sup>1</sup> 17.4 | % | 10 - 20; target 10 - 15 |
 | **Muscle** | 🔵<sup>1</sup> 78.6 | % | > 70; target >= 75 |
 | **Temperature** | 🔵 36.9 | C | 36.1 - 37.2; target 36.5 - 37.0 |
-| **Sleep Apnea AHI** | 🟡<sup>2</sup> < 15 ↑ | events/h | < 5; <15 excludes moderate/severe |
-| **Nerve Health Score** | 70<sup>3</sup> | score | - |
-| **Max HRV** | 48<sup>3</sup> | ms | - |
+| **Sleep Apnea AHI** | 🔵 2 | events/h | < 5; target < 5 |
+| **Nerve Health Score** | 70<sup>2</sup> | score | - |
+| **Max HRV** | 48<sup>2</sup> | ms | - |
 | **Sleep Duration** | 🔵 8 | h | >= 7; target 7 - 9 |
 | **REM Sleep** | 🔵 2 | h | 1.5 - 2.3; target 20 - 25% of sleep |
 | **Deep Sleep** | 🔵 1 | h | about 1 - 2; target 1 - 2 |
@@ -41,8 +41,7 @@
 
 **Notes:**
 <sup>1</sup> BMI is included as a population screening metric but is interpreted in context of body fat and muscle percentage, not as a standalone body-composition diagnosis.
-<sup>2</sup> AHI was provided only as <15, which rules out moderate or severe sleep apnea by standard severity bands but does not prove the ideal target of <5.
-<sup>3</sup> Maximum heart rate, max HRV, and nerve health score are device- or context-dependent metrics, so they are tracked but intentionally not scored against a universal clinical target.
+<sup>2</sup> Maximum heart rate, max HRV, and nerve health score are device- or context-dependent metrics, so they are tracked but intentionally not scored against a universal clinical target.
 
 ## Morphology
 
