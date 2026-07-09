@@ -181,6 +181,7 @@ target_overrides = {
     ("Metabolic Health", "LDH"): optimal_range_target("< 250; target 120 - 200", 100.0, 120.0, 200.0, 250.0),
     ("Metabolic Health", "Albumin"): high_good_target("35.00 - 52.00; target 45 - 52", 35.0, 45.0, 52.0),
     ("Metabolic Health", "Creatinine"): optimal_range_target("0.70 - 1.20; target 0.80 - 1.10", 0.70, 0.80, 1.10, 1.20),
+    ("Metabolic Health", "Cystatin C"): optimal_range_target("0.51 - 1.05; target 0.60 - 0.90", 0.51, 0.60, 0.90, 1.05),
     ("Metabolic Health", "eGFR"): high_good_range_target("> 60.0; target 90 - 120", 60.0, 90.0, 120.0, 130.0),
     ("Metabolic Health", "Uric Acid"): optimal_range_target("3.4 - 7.0; target 3.5 - 5.5", 3.4, 3.5, 5.5, 7.0),
 
@@ -910,6 +911,7 @@ data = {
         ("LDH", "152", "123", "-", "-", "U/L", "< 250"),
         ("Albumin", "48.90", "-", "-", "-", "g/l", "35.00 - 52.00"),
         ("Creatinine", "0.96", "0.93", "0.93", "-", "mg/dl", "0.70 - 1.20"),
+        ("Cystatin C", "0.80", "-", "-", "-", "mg/l", "0.51 - 1.05"),
         ("eGFR", "101.5", ">60", ">60", "-", "ml/min/1.73m^2", "> 60.0"),
         ("Uric Acid", "3.8", "3.2", "4.1", "-", "mg/dl", "3.4 - 7.0")
     ],
