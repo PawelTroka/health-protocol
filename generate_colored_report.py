@@ -139,6 +139,14 @@ def high_good_range_target(reference, low_limit, optimal_min, optimal_max, high_
         "high_limit": high_limit,
     }
 
+def blood_pressure_target(reference, systolic, diastolic):
+    return {
+        "reference": reference,
+        "type": "blood_pressure",
+        "systolic": systolic,
+        "diastolic": diastolic,
+    }
+
 target_overrides = {
     # Morphology
     ("Morphology", "Hemoglobin"): optimal_range_target("13.0 - 18.0; target 14.0 - 16.2", 13.0, 14.0, 16.2, 18.0),
@@ -167,6 +175,28 @@ target_overrides = {
     ("Morphology", "PDW"): optimal_range_target("9.8 - 16.1; target 10 - 14", 9.8, 10.0, 14.0, 16.1),
     ("Morphology", "MPV"): optimal_range_target("7 - 12; target 8 - 11", 7.0, 8.0, 11.0, 12.0),
     ("Morphology", "P-LCR"): optimal_range_target("19.2 - 47; target 20 - 40", 19.2, 20.0, 40.0, 47.0),
+
+    # Vitals, body composition, sleep, and wearables
+    ("Vitals & Functional Health", "Blood Pressure"): blood_pressure_target(
+        "< 120 / < 80; target 100-115 / 60-75",
+        {"low_limit": 90.0, "optimal_min": 100.0, "optimal_max": 115.0, "high_limit": 120.0},
+        {"low_limit": 55.0, "optimal_min": 60.0, "optimal_max": 75.0, "high_limit": 80.0},
+    ),
+    ("Vitals & Functional Health", "Nighttime BP Dip"): optimal_range_target("10 - 20; target 10 - 20", 0.0, 10.0, 20.0, 25.0),
+    ("Vitals & Functional Health", "Resting Heart Rate"): optimal_range_target("60 - 100; target 50 - 70", 40.0, 50.0, 70.0, 100.0),
+    ("Vitals & Functional Health", "Sleeping Heart Rate"): optimal_range_target("40 - 80; target 45 - 60", 35.0, 45.0, 60.0, 80.0),
+    ("Vitals & Functional Health", "ECG Heart Rate"): optimal_range_target("50 - 100; target 50 - 80", 40.0, 50.0, 80.0, 100.0),
+    ("Vitals & Functional Health", "PWV"): low_good_target("< 10; target < 7", 7.0, 10.0),
+    ("Vitals & Functional Health", "VO2max"): high_good_target("> 35; target >= 45", 35.0, 45.0),
+    ("Vitals & Functional Health", "Respiratory Rate (Sleep)"): optimal_range_target("12 - 20; target 12 - 16", 10.0, 12.0, 16.0, 20.0),
+    ("Vitals & Functional Health", "BMI"): optimal_range_target("18.5 - 24.9; target 20 - 24.9", 18.5, 20.0, 24.9, 30.0),
+    ("Vitals & Functional Health", "Body Fat"): optimal_range_target("10 - 20; target 10 - 15", 8.0, 10.0, 15.0, 20.0),
+    ("Vitals & Functional Health", "Muscle"): high_good_target("> 70; target >= 75", 70.0, 75.0),
+    ("Vitals & Functional Health", "Temperature"): optimal_range_target("36.1 - 37.2; target 36.5 - 37.0", 36.1, 36.5, 37.0, 37.2),
+    ("Vitals & Functional Health", "Sleep Apnea AHI"): low_good_target("< 5; <15 excludes moderate/severe", 5.0, 10.0),
+    ("Vitals & Functional Health", "Sleep Duration"): high_good_range_target(">= 7; target 7 - 9", 5.0, 7.0, 9.0, 10.5),
+    ("Vitals & Functional Health", "REM Sleep"): optimal_range_target("1.5 - 2.3; target 20 - 25% of sleep", 0.8, 1.5, 2.3, 3.0),
+    ("Vitals & Functional Health", "Deep Sleep"): optimal_range_target("about 1 - 2; target 1 - 2", 0.5, 1.0, 2.0, 3.0),
 
     # Metabolic, liver, kidney
     ("Metabolic Health", "Glucose"): optimal_range_target("70 - 99; target 70 - 85", 70.0, 70.0, 85.0, 99.0),
@@ -263,6 +293,11 @@ target_overrides = {
 }
 
 no_score_markers = {
+    ("Vitals & Functional Health", "Body Mass"),
+    ("Vitals & Functional Health", "Height"),
+    ("Vitals & Functional Health", "Maximum Heart Rate"),
+    ("Vitals & Functional Health", "Nerve Health Score"),
+    ("Vitals & Functional Health", "Max HRV"),
     ("Urine Culture", "Colony Count"),
     ("Urine Culture", "Penicillin"),
     ("Urine Culture", "Levofloxacin"),
@@ -280,6 +315,12 @@ def numeric_from_result(val_str):
         return float(re.sub(r'[<> ]', '', val_clean))
     except ValueError:
         return None
+
+def numeric_pair_from_result(val_str):
+    numbers = re.findall(r'\d+(?:\.\d+)?', val_str)
+    if len(numbers) < 2:
+        return None
+    return float(numbers[0]), float(numbers[1])
 
 def calculate_high_good_range_score(val, target):
     low = target["low"]
@@ -391,6 +432,16 @@ def calculate_target_score(val, target):
 
     return None
 
+def calculate_blood_pressure_score(val_str, target):
+    pair = numeric_pair_from_result(val_str)
+    if pair is None:
+        return None
+
+    systolic, diastolic = pair
+    systolic_score = calculate_optimal_range_score(systolic, target["systolic"])
+    diastolic_score = calculate_optimal_range_score(diastolic, target["diastolic"])
+    return max(systolic_score, diastolic_score)
+
 def target_reference(category, marker, ref):
     target = target_overrides.get((category, marker))
     if target:
@@ -405,6 +456,8 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
 
     target = target_overrides.get((category, marker))
     if target:
+        if target["type"] == "blood_pressure":
+            return calculate_blood_pressure_score(val_str, target)
         val = numeric_from_result(val_str)
         if val is None:
             return None
@@ -414,7 +467,9 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
         
     # Textual Perfect Matches
     text_val = val_str.lower().strip()
-    if text_val in ["non-reactive", "negative", "not detected", "absent"]:
+    if text_val in ["non-reactive", "negative", "not detected", "absent", "normal", "normal sinus rhythm", "minor"]:
+        return 0.0
+    if text_val.startswith("normal "):
         return 0.0
     if text_val in ["positive", "reactive", "detected", "present"]:
         return 3.0
@@ -463,7 +518,8 @@ def format_cell_html(val, ref, category=None, marker=None):
     if score is None:
         return val
     color, _ = get_color_hex(score)
-    arrow = get_direction(val, ref)
+    target = target_overrides.get((category, marker))
+    arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)
     suffix = f" {arrow}" if arrow else ""
     return f'<span style="color:{color}; font-weight:bold;">{val}{suffix}</span>'
 
@@ -472,7 +528,8 @@ def format_cell_md(val, ref, category=None, marker=None):
     if score is None:
         return val
     _, emoji = get_color_hex(score)
-    arrow = get_direction(val, ref)
+    target = target_overrides.get((category, marker))
+    arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)
     suffix = f" {arrow}" if arrow else ""
     return f'{emoji} {val}{suffix}'
 
@@ -818,6 +875,32 @@ data = {
         ("Relative Difference", "-", "-16.9", "-", "-", "%", "-30.0 - 0.0"),
         ("Relative Difference (>18)", "-", "-34.9", "-", "-", "%", "-50.0 - 0.0")
     ],
+    "Vitals & Functional Health": [
+        ("Blood Pressure", "108/70", "-", "-", "-", "mmHg", "< 120 / < 80"),
+        ("Nighttime BP Dip", "16.7", "-", "-", "-", "%", "10 - 20"),
+        ("Resting Heart Rate", "~65", "-", "-", "-", "bpm", "60 - 100"),
+        ("Sleeping Heart Rate", "56", "-", "-", "-", "bpm", "40 - 80"),
+        ("Maximum Heart Rate", "180", "-", "-", "-", "bpm", "-"),
+        ("ECG Rhythm", "normal sinus rhythm", "-", "-", "-", "Status", "normal sinus rhythm"),
+        ("ECG Heart Rate", "68", "-", "-", "-", "bpm", "50 - 100"),
+        ("Heart Sounds", "normal (no signs of valvular heart disease)", "-", "-", "-", "Status", "normal"),
+        ("PWV", "6.2", "-", "-", "-", "m/s", "< 10"),
+        ("VO2max", "43", "-", "-", "-", "ml/kg/min", "> 35"),
+        ("Respiratory Rate (Sleep)", "12.4", "-", "-", "-", "/min", "12 - 20"),
+        ("Body Mass", "83", "-", "-", "-", "kg", "-"),
+        ("Height", "180", "-", "-", "-", "cm", "-"),
+        ("BMI", "25.6", "-", "-", "-", "kg/m^2", "18.5 - 24.9"),
+        ("Body Fat", "17.4", "-", "-", "-", "%", "10 - 20"),
+        ("Muscle", "78.6", "-", "-", "-", "%", "> 70"),
+        ("Temperature", "36.9", "-", "-", "-", "C", "36.1 - 37.2"),
+        ("Sleep Apnea AHI", "< 15", "-", "-", "-", "events/h", "< 5"),
+        ("Nerve Health Score", "70", "-", "-", "-", "score", "-"),
+        ("Max HRV", "48", "-", "-", "-", "ms", "-"),
+        ("Sleep Duration", "8", "-", "-", "-", "h", ">= 7"),
+        ("REM Sleep", "2", "-", "-", "-", "h", "1.5 - 2.3"),
+        ("Deep Sleep", "1", "-", "-", "-", "h", "about 1 - 2"),
+        ("Stress", "minor", "-", "-", "-", "", "low/minor")
+    ],
     "Morphology": [
         ("Hemoglobin", "15.80", "15.40", "16.00", "15.70", "g/dL", "13.0 - 18.0"),
         ("Hematocrit", "45.9", "45.9", "46.6", "47.1", "%", "40 - 52"),
@@ -1051,6 +1134,26 @@ imaging_data = """## Structural & Diagnostic Imaging
 """
 
 result_notes = {
+    "Vitals & Functional Health": [
+        {
+            "text": "BMI is included as a population screening metric but is interpreted in context of body fat and muscle percentage, not as a standalone body-composition diagnosis.",
+            "markers": [
+                {"rows": ["Body Mass", "Height", "BMI", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+        {
+            "text": "AHI was provided only as <15, which rules out moderate or severe sleep apnea by standard severity bands but does not prove the ideal target of <5.",
+            "markers": [
+                {"row": "Sleep Apnea AHI", "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+        {
+            "text": "Maximum heart rate, max HRV, and nerve health score are device- or context-dependent metrics, so they are tracked but intentionally not scored against a universal clinical target.",
+            "markers": [
+                {"rows": ["Maximum Heart Rate", "Max HRV", "Nerve Health Score"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+    ],
     "Urinalysis (General)": [
         {
             "text": "Specific gravity trend likely reflects high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.",
