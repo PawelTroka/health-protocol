@@ -118,7 +118,7 @@
 | **LDH** | ⚪ | 🔵 152 | 🔵 123 | - | - | U/L | < 250; target 120 - 200 |
 | **Albumin** | - | 🔵 48.90 | - | - | - | g/l | 35.00 - 52.00; target 45 - 52 |
 | **Creatinine** | ⚪ | 🔵 0.96 | 🔵 0.93 | 🔵 0.93 | - | mg/dl | 0.70 - 1.20; target 0.80 - 1.10 |
-| **eGFR** | 🔵 | 🔵 101.5 | 🟢 >60 | 🟢 >60 | - | ml/min/1.73m^2 | > 60.0; target >= 90 |
+| **eGFR** | 🔵 | 🔵 101.5 | 🟢 >60 | 🟢 >60 | - | ml/min/1.73m^2 | > 60.0; target 90 - 120 |
 | **Uric Acid** | 🔵 | 🔵 3.8 | 🟡 3.2 ↓ | 🔵 4.1 | - | mg/dl | 3.4 - 7.0; target 3.5 - 5.5 |
 
 **Notes:**
@@ -130,7 +130,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Cholesterol LDL** | 🟢 | 🔵 68 | 🔵 76 | 🔵 74 | 🔵 75 | mg/dl | < 115; target < 70 |
 | **Cholesterol Non-HDL** | 🟢 | 🔵 81 | 🔵 96 | - | - | mg/dL | < 130; target < 100 |
-| **Cholesterol HDL** | 🟡 | 🟡 38 ↓ | 🟢 43 | 🟡 35 ↓ | - | mg/dL | > 40; target >= 55 |
+| **Cholesterol HDL** | 🟡 | 🟡 38 ↓ | 🟢 43 | 🟡 35 ↓ | - | mg/dL | > 40; target 55 - 80 |
 | **Cholesterol Total** | ⚪ | 🔵 118 | 🔵 138 | 🔵 119 | - | mg/dL | < 190; target 120 - 170 |
 | **Triglycerides** | 🟢 | 🔵 57 | 🔵 98 | 🔵 48 | 🔵 56 | mg/dL | < 150; target < 80 |
 | **Lipoprotein (a)** | ⚪ | 🔵 7.16 | 🔵 < 7.00 | - | - | nmol/l | < 75; target < 30 |
@@ -152,7 +152,7 @@
 
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Vitamin D3** | 🔵 | 🔵 46.0 | 🟡 26.3 ↓ | 🔵 52.5 ↑ | 🔵 37.9 | ng/ml | 30 - 50; target 35 - 50 |
+| **Vitamin D3** | 🔵 | 🔵 46.0 | 🟡 26.3 ↓ | 🟡 52.5 ↑ | 🔵 37.9 | ng/ml | 30 - 50; target 35 - 50 |
 | **Vitamin B12** | ⚪<sup>1</sup> | 🔵<sup>1</sup> 859 ↑ | 🔵 562 | 🔵<sup>1</sup> 928 ↑ | - | pg/ml | 197 - 771; target 400 - 900 |
 | **Ferritin** | 🟡 | 🟢 42 | 🔵 78 | 🔵 134 | - | ng/ml | 30 - 400; target 50 - 150 |
 | **Iron** | 🔵 | 🔵 125 | 🟡 41 ↓ | 🔵 98 | - | ug/dl | 59 - 150; target 80 - 150 |
@@ -191,7 +191,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **PSA Total** | ⚪ | 🔵 0.15 | 🔵 0.16 | 🔵 0.195 | ng/mL | < 4.0; target < 1.0 |
 | **PSA Free** | - | 🔵 0.033 | - | - | ng/mL | - |
-| **PSA Free/Total Ratio** | - | 🔵 22.05 ↓ | - | - | % | > 25; target >= 25 |
+| **PSA Free/Total Ratio** | - | 🟡 22.05 ↓ | - | - | % | > 25; target >= 25 |
 | **CEA** | ⚪ | 🔵 3.0 | 🔵 2.9 | 🔵 2.2 | ng/ml | < 5.0; target < 3 |
 | **AFP (ng/ml)** | 🟢 | 🔵 1.99 | 🔵 2.84 | - | ng/ml | < 7.0; target < 5 |
 | **AFP (IU/ml)** | - | - | - | 🔵 2.0 | IU/ml | < 5.8; target < 5 |
@@ -295,11 +295,13 @@
   - **After (USG 2026-05-19)**: Post-operative state, no features of hernia, linea alba width ~4cm [results/Ultrasound/HearniaLineaAlbeaFixed2.pdf]
 
 ### 🎨 Color Legend
-*   🔵 **Blue**: Optimal / Good
-*   🟢 **Green**: Safe / Normal
-*   🟡 **Yellow**: Caution
-*   🟠 **Orange**: Borderline / Limit
-*   🔴 **Red**: Abnormal / Critical
+*   🔵 **Target / low-risk**: At target or very close to target
+*   🟢 **Acceptable / normal**: Clinically acceptable but not ideal target
+*   🟡 **Watch**: Mild meaningful deviation from target or range
+*   🟠 **Concern**: Significant deviation from target or range
+*   🔴 **Critical**: Severe or critical deviation
+
+> **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.
 
 ### Trend Legend
 *   💎 **Breakthrough**: Vast improvement

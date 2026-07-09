@@ -129,6 +129,16 @@ def optimal_range_target(reference, low_limit, optimal_min, optimal_max, high_li
         "high_limit": high_limit,
     }
 
+def high_good_range_target(reference, low_limit, optimal_min, optimal_max, high_limit):
+    return {
+        "reference": reference,
+        "type": "high_good_range",
+        "low": low_limit,
+        "optimal_min": optimal_min,
+        "optimal_max": optimal_max,
+        "high_limit": high_limit,
+    }
+
 target_overrides = {
     # Morphology
     ("Morphology", "Hemoglobin"): optimal_range_target("13.0 - 18.0; target 14.0 - 16.2", 13.0, 14.0, 16.2, 18.0),
@@ -171,13 +181,13 @@ target_overrides = {
     ("Metabolic Health", "LDH"): optimal_range_target("< 250; target 120 - 200", 100.0, 120.0, 200.0, 250.0),
     ("Metabolic Health", "Albumin"): high_good_target("35.00 - 52.00; target 45 - 52", 35.0, 45.0, 52.0),
     ("Metabolic Health", "Creatinine"): optimal_range_target("0.70 - 1.20; target 0.80 - 1.10", 0.70, 0.80, 1.10, 1.20),
-    ("Metabolic Health", "eGFR"): high_good_target("> 60.0; target >= 90", 60.0, 90.0),
+    ("Metabolic Health", "eGFR"): high_good_range_target("> 60.0; target 90 - 120", 60.0, 90.0, 120.0, 130.0),
     ("Metabolic Health", "Uric Acid"): optimal_range_target("3.4 - 7.0; target 3.5 - 5.5", 3.4, 3.5, 5.5, 7.0),
 
     # Cardiac health
     ("Cardiac Health & Coagulation", "Cholesterol LDL"): low_good_target("< 115; target < 70", 70.0, 115.0),
     ("Cardiac Health & Coagulation", "Cholesterol Non-HDL"): low_good_target("< 130; target < 100", 100.0, 130.0),
-    ("Cardiac Health & Coagulation", "Cholesterol HDL"): high_good_target("> 40; target >= 55", 40.0, 55.0),
+    ("Cardiac Health & Coagulation", "Cholesterol HDL"): high_good_range_target("> 40; target 55 - 80", 40.0, 55.0, 80.0, 100.0),
     ("Cardiac Health & Coagulation", "Cholesterol Total"): optimal_range_target("< 190; target 120 - 170", 100.0, 120.0, 170.0, 190.0),
     ("Cardiac Health & Coagulation", "Triglycerides"): low_good_target("< 150; target < 80", 80.0, 150.0),
     ("Cardiac Health & Coagulation", "Lipoprotein (a)"): low_good_target("< 75; target < 30", 30.0, 75.0),
@@ -193,7 +203,7 @@ target_overrides = {
     ("Cardiac Health & Coagulation", "Prothrombin Index"): optimal_range_target("80 - 120; target 90 - 110", 80.0, 90.0, 110.0, 120.0),
 
     # Micronutrients
-    ("Micronutrients", "Vitamin D3"): optimal_range_target("30 - 50; target 35 - 50", 30.0, 35.0, 50.0, 60.0),
+    ("Micronutrients", "Vitamin D3"): optimal_range_target("30 - 50; target 35 - 50", 30.0, 35.0, 50.0, 50.0),
     ("Micronutrients", "Vitamin B12"): optimal_range_target("197 - 771; target 400 - 900", 197.0, 400.0, 900.0, 1100.0),
     ("Micronutrients", "Ferritin"): optimal_range_target("30 - 400; target 50 - 150", 30.0, 50.0, 150.0, 400.0),
     ("Micronutrients", "Iron"): optimal_range_target("59 - 150; target 80 - 150", 59.0, 80.0, 150.0, 180.0),
@@ -220,7 +230,7 @@ target_overrides = {
     ("Immunology & Inflammation", "Anti-TG"): low_good_target("< 115.0; target < 20", 20.0, 115.0),
     ("Immunology & Inflammation", "ASO"): low_good_target("< 200; target < 200", 200.0, 200.0),
     ("Tumor Markers", "PSA Total"): low_good_target("< 4.0; target < 1.0", 1.0, 4.0),
-    ("Tumor Markers", "PSA Free/Total Ratio"): high_good_target("> 25; target >= 25", 15.0, 25.0),
+    ("Tumor Markers", "PSA Free/Total Ratio"): high_good_target("> 25; target >= 25", 25.0, 25.0),
     ("Tumor Markers", "CEA"): low_good_target("< 5.0; target < 3", 3.0, 5.0),
     ("Tumor Markers", "AFP (ng/ml)"): low_good_target("< 7.0; target < 5", 5.0, 7.0),
     ("Tumor Markers", "AFP (IU/ml)"): low_good_target("< 5.8; target < 5", 5.0, 5.8),
@@ -233,14 +243,7 @@ target_overrides = {
     ("Toxicology (Urine)", "Glyphosate"): low_good_target("< 1.40; target < 1.40", 1.4, 1.4),
 
     # Hormones
-    ("Hormonal Panel", "Testosterone (Total)"): {
-        "reference": "9.2 - 33.0; target 20 - 33",
-        "type": "high_good_range",
-        "low": 9.2,
-        "optimal_min": 20.0,
-        "optimal_max": 33.0,
-        "high_limit": 40.0,
-    },
+    ("Hormonal Panel", "Testosterone (Total)"): high_good_range_target("9.2 - 33.0; target 20 - 33", 9.2, 20.0, 33.0, 40.0),
     ("Hormonal Panel", "Testosterone (Free)"): optimal_range_target("9.10 - 32.20; target 15 - 30", 9.1, 15.0, 30.0, 32.2),
     ("Hormonal Panel", "Estradiol (E2)"): optimal_range_target("41 - 159; target 70 - 160", 41.0, 70.0, 160.0, 160.0),
     ("Hormonal Panel", "Prolactin"): optimal_range_target("4.04 - 15.20; target 5 - 15", 4.04, 5.0, 15.0, 20.0),
@@ -1182,15 +1185,17 @@ def generate_html_report():
 
     # Legend
     html += "<h3>🎨 Color Legend</h3><ul>"
-    html += "<li><span style='color:#00008b; font-weight:bold;'>● Dark Blue</span>: Optimal / Good</li>"
-    html += "<li><span style='color:#006400; font-weight:bold;'>● Dark Green</span>: Safe</li>"
-    html += "<li><span style='color:#32cd32; font-weight:bold;'>● Light Green</span>: Normal</li>"
-    html += "<li><span style='color:#ffd700; font-weight:bold;'>● Yellow</span>: Caution</li>"
-    html += "<li><span style='color:#ffa500; font-weight:bold;'>● Light Orange</span>: Borderline</li>"
-    html += "<li><span style='color:#ff4500; font-weight:bold;'>● Dark Orange</span>: Limit</li>"
-    html += "<li><span style='color:#dc3545; font-weight:bold;'>● Light Red</span>: Abnormal</li>"
+    html += "<li><span style='color:#00008b; font-weight:bold;'>● Dark Blue</span>: Target / low-risk</li>"
+    html += "<li><span style='color:#00bfff; font-weight:bold;'>● Light Blue</span>: Near target / good</li>"
+    html += "<li><span style='color:#006400; font-weight:bold;'>● Dark Green</span>: Acceptable</li>"
+    html += "<li><span style='color:#32cd32; font-weight:bold;'>● Light Green</span>: Normal but not ideal</li>"
+    html += "<li><span style='color:#ffd700; font-weight:bold;'>● Yellow</span>: Watch / mild deviation</li>"
+    html += "<li><span style='color:#ffa500; font-weight:bold;'>● Light Orange</span>: Concern / significant deviation</li>"
+    html += "<li><span style='color:#ff4500; font-weight:bold;'>● Dark Orange</span>: Major deviation</li>"
+    html += "<li><span style='color:#dc3545; font-weight:bold;'>● Light Red</span>: Severe abnormality</li>"
     html += "<li><span style='color:#8b0000; font-weight:bold;'>● Dark Red</span>: Critical</li>"
     html += "</ul>"
+    html += "<p class='note'>Single-result colors use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.</p>"
 
     html += "<h3>Trend Legend</h3><ul>"
     for label, definition in trend_definitions.items():
@@ -1258,11 +1263,12 @@ def generate_md_report():
 
     # Legend
     md += "### 🎨 Color Legend\n"
-    md += "*   🔵 **Blue**: Optimal / Good\n"
-    md += "*   🟢 **Green**: Safe / Normal\n"
-    md += "*   🟡 **Yellow**: Caution\n"
-    md += "*   🟠 **Orange**: Borderline / Limit\n"
-    md += "*   🔴 **Red**: Abnormal / Critical\n\n"
+    md += "*   🔵 **Target / low-risk**: At target or very close to target\n"
+    md += "*   🟢 **Acceptable / normal**: Clinically acceptable but not ideal target\n"
+    md += "*   🟡 **Watch**: Mild meaningful deviation from target or range\n"
+    md += "*   🟠 **Concern**: Significant deviation from target or range\n"
+    md += "*   🔴 **Critical**: Severe or critical deviation\n\n"
+    md += "> **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.\n\n"
     md += "### Trend Legend\n"
     for label, definition in trend_definitions.items():
         md += f"*   {definition['emoji']} **{label}**: {definition['description'].capitalize()}\n"
