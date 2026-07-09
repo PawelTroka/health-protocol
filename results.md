@@ -102,6 +102,23 @@
 <sup>1</sup> High urine magnesium likely reflects magnesium supplementation; similar to B12, toxicity risk is generally low, but supplementation will be reduced or adjusted.
 <sup>2</sup> Low urine potassium, sodium, phosphate, and chloride likely reflect high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.
 
+## Urine Culture
+
+|  | 2026-07 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **Urine Culture** | 🟠<sup>1</sup> positive | Status | negative |
+| **Colony Count** | 2 x 10^4<sup>1</sup> | CFU/mL | - |
+| **Streptococcus agalactiae** | 🟠<sup>1</sup> detected | Status | not detected |
+| **Penicillin** | susceptible |  | - |
+| **Levofloxacin** | susceptible (increased exposure)<sup>2</sup> |  | - |
+| **Vancomycin** | susceptible |  | - |
+| **Trimethoprim/Sulfamethoxazole** | susceptible |  | - |
+| **Nitrofurantoin** | susceptible<sup>2</sup> |  | - |
+
+**Notes:**
+<sup>1</sup> The 2026-07 urine culture was reported positive, with Streptococcus agalactiae growth at 2 x 10^4 CFU/mL.
+<sup>2</sup> Susceptibility follows the PDF's EUCAST 16.0 interpretation: levofloxacin is susceptible only with increased exposure, and the nitrofurantoin result applies to uncomplicated UTI and not to other nitrofuran drugs.
+
 ## Metabolic Health
 
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
@@ -236,12 +253,22 @@
 | **Fatty Acid Crystals** | few in preparation<sup>1</sup> |  | absent |
 | **Muscle Fibers** | single in preparation<sup>1</sup> |  | absent |
 | **Mucus** | few in preparation<sup>1</sup> |  | absent |
-| **Leukocytes on Mucus** | present<sup>1</sup> |  | absent |
+| **Leukocytes on Mucus** | 🟠<sup>1</sup> present |  | absent |
 | **Parasites (Stool Ova)** | 🔵 negative | Status | negative |
 | **Amoeba (Cysts/Trophozoites)** | 🔵 not detected | Status | not detected |
 
 **Notes:**
 <sup>1</sup> Abnormal stool findings are attributed to IBS-U.
+
+## Stool Culture
+
+|  | 2026-07 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **Salmonella species** | 🔵 negative | Status | negative |
+| **Shigella species** | 🔵 negative | Status | negative |
+| **Yersinia species** | 🔵 negative | Status | negative |
+| **Aeromonas species** | 🔵 negative | Status | negative |
+| **Plesiomonas species** | 🔵 negative | Status | negative |
 
 ## Proteinogram
 

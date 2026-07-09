@@ -261,6 +261,15 @@ target_overrides = {
     ("Hormonal Panel", "HCG-Beta"): low_good_target("< 2.60; target < 1", 1.0, 2.6),
 }
 
+no_score_markers = {
+    ("Urine Culture", "Colony Count"),
+    ("Urine Culture", "Penicillin"),
+    ("Urine Culture", "Levofloxacin"),
+    ("Urine Culture", "Vancomycin"),
+    ("Urine Culture", "Trimethoprim/Sulfamethoxazole"),
+    ("Urine Culture", "Nitrofurantoin"),
+}
+
 def numeric_from_result(val_str):
     val_clean = re.sub(r'[^\d.<>-]', '', val_str.split('(')[0])
     if not val_clean:
@@ -390,6 +399,8 @@ def target_reference(category, marker, ref):
 def calculate_score(val_str, ref_range, category=None, marker=None):
     if val_str in ["-", "—", None, ""]:
         return None
+    if (category, marker) in no_score_markers:
+        return None
 
     target = target_overrides.get((category, marker))
     if target:
@@ -404,6 +415,8 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
     text_val = val_str.lower().strip()
     if text_val in ["non-reactive", "negative", "not detected", "absent"]:
         return 0.0
+    if text_val in ["positive", "reactive", "detected", "present"]:
+        return 3.0
 
     # Handle exact matches like "< 30.0" and "< 30.0"
     if val_str.strip() == ref_range.strip() and "<" in val_str:
@@ -585,7 +598,7 @@ def trend_score(value, ref, category, marker=None):
         "not detected", "absent", "normal", "clear", "negative", "non-reactive", "neg",
         "light yellow", "yellow", "pale yellow"
     ]
-    bad_terms = ["present", "detected", "cloudy", "turbid", "bloody"]
+    bad_terms = ["present", "detected", "cloudy", "turbid", "bloody", "positive", "reactive"]
 
     if any(term in text_value for term in optimal_terms):
         return 0.0
@@ -874,6 +887,16 @@ data = {
         ("Urine Phosphate", "26.40", "-", "-", "-", "mg/dl", "40.00 - 136.00"),
         ("Urine Chloride", "11", "-", "-", "-", "mmol/L", "46 - 168")
     ],
+    "Urine Culture": [
+        ("Urine Culture", "positive", "-", "-", "-", "Status", "negative"),
+        ("Colony Count", "2 x 10^4", "-", "-", "-", "CFU/mL", "-"),
+        ("Streptococcus agalactiae", "detected", "-", "-", "-", "Status", "not detected"),
+        ("Penicillin", "susceptible", "-", "-", "-", "", "-"),
+        ("Levofloxacin", "susceptible (increased exposure)", "-", "-", "-", "", "-"),
+        ("Vancomycin", "susceptible", "-", "-", "-", "", "-"),
+        ("Trimethoprim/Sulfamethoxazole", "susceptible", "-", "-", "-", "", "-"),
+        ("Nitrofurantoin", "susceptible", "-", "-", "-", "", "-")
+    ],
     "Metabolic Health": [
         ("Glucose", "86", "84", "89", "70", "mg/dl", "70 - 99"),
         ("HbA1c", "5.3", "5.18", "5.3", "-", "%", "4.8 - 5.9"),
@@ -976,6 +999,13 @@ data = {
         ("Parasites (Stool Ova)", "negative", "-", "-", "-", "Status", "negative"),
         ("Amoeba (Cysts/Trophozoites)", "not detected", "-", "-", "-", "Status", "not detected")
     ],
+    "Stool Culture": [
+        ("Salmonella species", "negative", "-", "-", "-", "Status", "negative"),
+        ("Shigella species", "negative", "-", "-", "-", "Status", "negative"),
+        ("Yersinia species", "negative", "-", "-", "-", "Status", "negative"),
+        ("Aeromonas species", "negative", "-", "-", "-", "Status", "negative"),
+        ("Plesiomonas species", "negative", "-", "-", "-", "Status", "negative")
+    ],
     "Proteinogram": [
         ("Albumin", "-", "62.3", "-", "-", "%", "55.8 - 66.1"),
         ("Alpha-1 Globulin", "-", "2.9", "-", "-", "%", "2.9 - 4.9"),
@@ -1047,6 +1077,20 @@ result_notes = {
             "text": "Low urine potassium, sodium, phosphate, and chloride likely reflect high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.",
             "markers": [
                 {"rows": ["Urine Potassium", "Urine Sodium", "Urine Phosphate", "Urine Chloride"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+    ],
+    "Urine Culture": [
+        {
+            "text": "The 2026-07 urine culture was reported positive, with Streptococcus agalactiae growth at 2 x 10^4 CFU/mL.",
+            "markers": [
+                {"rows": ["Urine Culture", "Colony Count", "Streptococcus agalactiae"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+        {
+            "text": "Susceptibility follows the PDF's EUCAST 16.0 interpretation: levofloxacin is susceptible only with increased exposure, and the nitrofurantoin result applies to uncomplicated UTI and not to other nitrofuran drugs.",
+            "markers": [
+                {"rows": ["Levofloxacin", "Nitrofurantoin"], "target": "value", "dates": ["2026-07"]},
             ],
         },
     ],
