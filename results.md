@@ -188,7 +188,7 @@
 | **Homocysteine** | ⚪ | - | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 15.0; target < 8 |
 | **NT-proBNP** | 🟢 | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10.0 | pg/ml | < 125; target < 50 |
 | **Creatine Kinase (CK)** | ⚪<sup>1</sup> | 🔵<sup>1</sup> 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200; target <= 200 |
-| **Myoglobin** | ⚪ | - | 🔵 24.30 | 🔵 42.60 | - | ng/ml | 23 - 72; target 23 - 50 |
+| **Myoglobin** | 🔵 | 🔵 33.40 | 🟡 24.30 ↓ | 🔵 42.60 | - | ng/ml | 28.00 - 72.00; target 28 - 50 |
 | **D-dimer** | ⚪ | - | 🔵 < 190 | 🔵 < 190 | 🔵 < 190 | ng/ml | < 500; target < 250 |
 | **Fibrinogen** | - | 🔵 3.1 | - | - | - | g/l | 2.0 - 4.0; target 2.0 - 3.2 |
 | **INR** | ⚪ | 🔵 0.98 | 🔵 0.94 | - | - |  | 0.80 - 1.20; target 0.9 - 1.1 |
@@ -230,7 +230,7 @@
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **CRP (hs)** | ⚪ | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | not detected | mg/l | < 5.0; target < 1 |
-| **IL-6** | ⚪ | - | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0; target < 2 |
+| **IL-6** | ⚪ | 🔵 <1.5 | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0; target < 2 |
 | **Calprotectin** | ⚪ | - | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0; target < 1 |
 | **Anti-TPO** | 🟢 | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0; target < 9 |
 | **Anti-TG** | ⚪ | 🔵 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0; target < 20 |
@@ -258,7 +258,7 @@
 | **HCV** | ⚪ | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | Status | Non-reactive |
 | **Syphilis (WR)** | ⚪ | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | - | Status | Non-reactive |
 | **Chlamydia IgG** | ⚪ | 🔵 < 5.0 | 🔵 < 5.0 | 🔵 < 5.0 | 🔵 negative | AU/ml | < 9 |
-| **Chlamydia IgM** | ⚪ | - | 🔵 2.7 | 🔵 2.7 | 🔵 2.7 | Status | < 9 |
+| **Chlamydia IgM** | 🟢 | 🔵 2.0 | 🔵 2.7 | 🔵 2.7 | 🔵 2.7 | NTU | < 9 |
 | **HSV IgG** | 🔵 | - | 🟢 0.79 | 🟡 1.35 ↑ | 🟡 1.7 ↑ | Index | < 0.9 |
 | **HSV IgM** | 🟠 | - | 🔵 < 0.5 | 🔵 negative | 🔵 negative | Index | < 0.9 |
 
