@@ -1233,17 +1233,9 @@ result_notes = {
     ],
     "Stool Analysis": [
         {
-            "text": "Abnormal stool pH, mucus/food-residue findings, and leukocytes on mucus are not automatically IBS-U. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include IBS/dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.",
+            "text": "Abnormal stool pH, mucus/food-residue findings, and leukocytes on mucus are most likely caused by IBS-U. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.",
             "markers": [
                 {"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Leukocytes on Mucus", "Parasites (Stool Ova)", "Amoeba (Cysts/Trophozoites)", "Helicobacter pylori Antigen", "Giardia lamblia Antigen"], "target": "value", "dates": ["2026-07"]},
-            ],
-        },
-    ],
-    "Stool Culture": [
-        {
-            "text": "Negative stool culture for Salmonella, Shigella, Yersinia, Aeromonas, and Plesiomonas further lowers the likelihood of a classic bacterial infectious explanation.",
-            "markers": [
-                {"rows": ["Salmonella species", "Shigella species", "Yersinia species", "Aeromonas species", "Plesiomonas species"], "target": "value", "dates": ["2026-07"]},
             ],
         },
     ],
@@ -1252,14 +1244,6 @@ result_notes = {
             "text": "PSA free/total ratio is not clinically meaningful with total PSA at 0.15 ng/mL; the ratio is mainly useful when total PSA is elevated or in a diagnostic gray zone.",
             "markers": [
                 {"rows": ["PSA Total", "PSA Free/Total Ratio"], "target": "value", "dates": ["2026-07"]},
-            ],
-        },
-    ],
-    "Immunology & Inflammation": [
-        {
-            "text": "Thyroid antibodies are negative, lowering current Hashimoto concern; interpret alongside repeat thyroid labs after biotin washout.",
-            "markers": [
-                {"rows": ["Anti-TPO", "Anti-TG"], "target": "value", "dates": ["2026-07"]},
             ],
         },
     ],
@@ -1272,7 +1256,7 @@ result_notes = {
             ],
         },
         {
-            "text": "Estradiol is genuinely above range and likely partly explained by high total testosterone. Repeat with a sensitive E2 method if possible and correlate with symptoms; do not suppress aggressively without symptoms.",
+            "text": "Estradiol is genuinely above range and likely partly explained by high total testosterone plus previously unoptimal body fat after surgeries; the goal is to reduce body fat again. Repeat with a sensitive E2 method if possible and correlate with symptoms; do not suppress aggressively without symptoms.",
             "markers": [
                 {"row": "Estradiol (E2)", "target": "trend"},
                 {"row": "Estradiol (E2)", "target": "value", "dates": ["2026-07", "2025-05", "2025-01"]},
@@ -1285,7 +1269,7 @@ result_notes = {
             ],
         },
         {
-            "text": "TSH and thyroid hormone results may be unreliable because of recent high-dose biotin, very poor sleep before testing, and possibly excessive iodine. Thyroid antibodies are negative, so current Hashimoto concern is lower; repeat TSH, FT3, and FT4 after 7 days off biotin to verify cleanly.",
+            "text": "TSH and thyroid hormone results may be unreliable because of recent high-dose biotin, very poor sleep before testing, high training regime plus cutting, and possibly excessive iodine. Thyroid antibodies are negative, so current Hashimoto concern is lower; repeat TSH, FT3, and FT4 after 7 days off biotin to verify cleanly.",
             "markers": [
                 {"rows": ["TSH", "Free T4 (FT4)"], "target": "trend"},
                 {"rows": ["TSH", "Free T3 (FT3)", "Free T4 (FT4)"], "target": "value", "dates": ["2026-07"]},

@@ -232,12 +232,9 @@
 | **CRP (hs)** | ⚪ | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | not detected | mg/l | < 5.0; target < 1 |
 | **IL-6** | ⚪ | 🔵 <1.5 | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0; target < 2 |
 | **Calprotectin** | ⚪ | - | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0; target < 1 |
-| **Anti-TPO** | 🟢 | 🔵<sup>1</sup> <9 | 🔵 12.30 | - | - | IU/ml | < 34.0; target < 9 |
-| **Anti-TG** | ⚪ | 🔵<sup>1</sup> 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0; target < 20 |
+| **Anti-TPO** | 🟢 | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0; target < 9 |
+| **Anti-TG** | ⚪ | 🔵 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0; target < 20 |
 | **ASO** | - | - | 🟡 209 ↑ | - | - | IU/mL | < 200; target < 200 |
-
-**Notes:**
-<sup>1</sup> Thyroid antibodies are negative, lowering current Hashimoto concern; interpret alongside repeat thyroid labs after biotin washout.
 
 ## Tumor Markers
 
@@ -300,20 +297,17 @@
 | **Giardia lamblia Antigen** | 🔵<sup>1</sup> negative | Status | negative |
 
 **Notes:**
-<sup>1</sup> Abnormal stool pH, mucus/food-residue findings, and leukocytes on mucus are not automatically IBS-U. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include IBS/dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.
+<sup>1</sup> Abnormal stool pH, mucus/food-residue findings, and leukocytes on mucus are most likely caused by IBS-U. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.
 
 ## Stool Culture
 
 |  | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
-| **Salmonella species** | 🔵<sup>1</sup> negative | Status | negative |
-| **Shigella species** | 🔵<sup>1</sup> negative | Status | negative |
-| **Yersinia species** | 🔵<sup>1</sup> negative | Status | negative |
-| **Aeromonas species** | 🔵<sup>1</sup> negative | Status | negative |
-| **Plesiomonas species** | 🔵<sup>1</sup> negative | Status | negative |
-
-**Notes:**
-<sup>1</sup> Negative stool culture for Salmonella, Shigella, Yersinia, Aeromonas, and Plesiomonas further lowers the likelihood of a classic bacterial infectious explanation.
+| **Salmonella species** | 🔵 negative | Status | negative |
+| **Shigella species** | 🔵 negative | Status | negative |
+| **Yersinia species** | 🔵 negative | Status | negative |
+| **Aeromonas species** | 🔵 negative | Status | negative |
+| **Plesiomonas species** | 🔵 negative | Status | negative |
 
 ## Proteinogram
 
@@ -349,9 +343,9 @@
 
 **Notes:**
 <sup>1</sup> Total testosterone is scored with a high-normal male target: high-normal natural values are treated as favorable rather than automatically adverse.
-<sup>2</sup> Estradiol is genuinely above range and likely partly explained by high total testosterone. Repeat with a sensitive E2 method if possible and correlate with symptoms; do not suppress aggressively without symptoms.
+<sup>2</sup> Estradiol is genuinely above range and likely partly explained by high total testosterone plus previously unoptimal body fat after surgeries; the goal is to reduce body fat again. Repeat with a sensitive E2 method if possible and correlate with symptoms; do not suppress aggressively without symptoms.
 <sup>3</sup> Prior prolactin elevations were likely due to high sexual activity before testing.
-<sup>4</sup> TSH and thyroid hormone results may be unreliable because of recent high-dose biotin, very poor sleep before testing, and possibly excessive iodine. Thyroid antibodies are negative, so current Hashimoto concern is lower; repeat TSH, FT3, and FT4 after 7 days off biotin to verify cleanly.
+<sup>4</sup> TSH and thyroid hormone results may be unreliable because of recent high-dose biotin, very poor sleep before testing, high training regime plus cutting, and possibly excessive iodine. Thyroid antibodies are negative, so current Hashimoto concern is lower; repeat TSH, FT3, and FT4 after 7 days off biotin to verify cleanly.
 <sup>5</sup> Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.
 
 ## Structural & Diagnostic Imaging
