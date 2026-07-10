@@ -1152,7 +1152,7 @@ result_notes = {
     ],
     "Urinalysis (General)": [
         {
-            "text": "Specific gravity trend likely reflects high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.",
+            "text": "Specific gravity trend likely reflects high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness; interpret alongside the clean urinalysis and kidney markers rather than as a standalone concern.",
             "markers": [
                 {"row": "Specific Gravity", "target": "trend"},
             ],
@@ -1160,7 +1160,7 @@ result_notes = {
     ],
     "Morphology": [
         {
-            "text": "Eosinophils may reflect an unidentified allergy still under investigation, or may be related to IBS-U.",
+            "text": "Mild persistent eosinophil pattern may reflect an unidentified allergy or allergic/eosinophilic-type gut irritation; still under investigation.",
             "markers": [
                 {"rows": ["Eosinophils", "Eosinophils %"], "target": "value", "dates": ["2026-07", "2026-01", "2025-05", "2025-01"]},
                 {"rows": ["Eosinophils %"], "target": "trend"},
@@ -1169,21 +1169,15 @@ result_notes = {
     ],
     "Urine Chemistry": [
         {
-            "text": "High urine magnesium likely reflects magnesium supplementation; similar to B12, toxicity risk is generally low, but supplementation will be reduced or adjusted.",
+            "text": "Spot urine electrolytes are heavily affected by hydration, recent intake, timing, and supplementation. Low urine sodium/potassium/phosphate/chloride and high urine magnesium likely reflect high hydration, extremely low salt intake for looksmaxxing, and magnesium supplementation; interpret cautiously unless repeated or measured by 24h urine, especially since serum sodium, potassium, magnesium, creatinine/eGFR, urine albumin, and urine protein look good.",
             "markers": [
-                {"row": "Urine Magnesium", "target": "value", "dates": ["2026-07"]},
-            ],
-        },
-        {
-            "text": "Low urine potassium, sodium, phosphate, and chloride likely reflect high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.",
-            "markers": [
-                {"rows": ["Urine Potassium", "Urine Sodium", "Urine Phosphate", "Urine Chloride"], "target": "value", "dates": ["2026-07"]},
+                {"rows": ["Urine Potassium", "Urine Sodium", "Urine Magnesium", "Urine Phosphate", "Urine Chloride"], "target": "value", "dates": ["2026-07"]},
             ],
         },
     ],
     "Urine Culture": [
         {
-            "text": "The 2026-07 urine culture was reported positive, with Streptococcus agalactiae growth at 2 x 10^4 CFU/mL.",
+            "text": "Streptococcus agalactiae grew at 2 x 10^4 CFU/mL, but with no burning, urgency, frequency, pelvic/perineal pain, fever, testicular pain, or other urinary/systemic symptoms, and with a clean urinalysis, this is more consistent with possible contamination/colonization vs low-count asymptomatic bacteriuria; repeat a clean-catch culture if clarification is needed.",
             "markers": [
                 {"rows": ["Urine Culture", "Colony Count", "Streptococcus agalactiae"], "target": "value", "dates": ["2026-07"]},
             ],
@@ -1197,7 +1191,7 @@ result_notes = {
     ],
     "Metabolic Health": [
         {
-            "text": "Liver-marker trends worsened after adding isotretinoin and Fo-Ti. Fo-Ti is being discontinued, so these are expected to improve on follow-up.",
+            "text": "Liver enzymes remain within range, but trends are interpreted in the context of isotretinoin plus Fo-Ti. Fo-Ti is being discontinued because Polygonum multiflorum has documented liver-injury risk and little upside.",
             "markers": [
                 {"rows": ["ALT", "AST", "Bilirubin Total"], "target": "trend"},
                 {"row": "Bilirubin Direct", "target": "value", "dates": ["2026-07"]},
@@ -1205,6 +1199,12 @@ result_notes = {
         },
     ],
     "Cardiac Health & Coagulation": [
+        {
+            "text": "HDL is mildly low, but the overall cardiovascular profile is strong: LDL 68, non-HDL 81, triglycerides 57, Lp(a) 7.16, hs-CRP 0.611, NT-proBNP 14.6, plus favorable BP/VO2max context. Do not chase HDL directly; prioritize ApoB/non-HDL/LDL, BP, VO2max, inflammation, and insulin sensitivity.",
+            "markers": [
+                {"row": "Cholesterol HDL", "target": "value", "dates": ["2026-07"]},
+            ],
+        },
         {
             "text": "CK is elevated in the context of a new intensive training block with high volume, progressive overload, running, and other workouts.",
             "markers": [
@@ -1233,9 +1233,33 @@ result_notes = {
     ],
     "Stool Analysis": [
         {
-            "text": "Abnormal stool findings are attributed to IBS-U.",
+            "text": "Abnormal stool pH, mucus/food-residue findings, and leukocytes on mucus are not automatically IBS-U. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include IBS/dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.",
             "markers": [
-                {"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Leukocytes on Mucus"], "target": "value", "dates": ["2026-07"]},
+                {"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Leukocytes on Mucus", "Parasites (Stool Ova)", "Amoeba (Cysts/Trophozoites)", "Helicobacter pylori Antigen", "Giardia lamblia Antigen"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+    ],
+    "Stool Culture": [
+        {
+            "text": "Negative stool culture for Salmonella, Shigella, Yersinia, Aeromonas, and Plesiomonas further lowers the likelihood of a classic bacterial infectious explanation.",
+            "markers": [
+                {"rows": ["Salmonella species", "Shigella species", "Yersinia species", "Aeromonas species", "Plesiomonas species"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+    ],
+    "Tumor Markers": [
+        {
+            "text": "PSA free/total ratio is not clinically meaningful with total PSA at 0.15 ng/mL; the ratio is mainly useful when total PSA is elevated or in a diagnostic gray zone.",
+            "markers": [
+                {"rows": ["PSA Total", "PSA Free/Total Ratio"], "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+    ],
+    "Immunology & Inflammation": [
+        {
+            "text": "Thyroid antibodies are negative, lowering current Hashimoto concern; interpret alongside repeat thyroid labs after biotin washout.",
+            "markers": [
+                {"rows": ["Anti-TPO", "Anti-TG"], "target": "value", "dates": ["2026-07"]},
             ],
         },
     ],
@@ -1248,7 +1272,7 @@ result_notes = {
             ],
         },
         {
-            "text": "Estradiol is likely higher due to higher body fat after multiple surgeries; the plan is to return to very low body fat to drive it down again.",
+            "text": "Estradiol is genuinely above range and likely partly explained by high total testosterone. Repeat with a sensitive E2 method if possible and correlate with symptoms; do not suppress aggressively without symptoms.",
             "markers": [
                 {"row": "Estradiol (E2)", "target": "trend"},
                 {"row": "Estradiol (E2)", "target": "value", "dates": ["2026-07", "2025-05", "2025-01"]},
@@ -1261,10 +1285,10 @@ result_notes = {
             ],
         },
         {
-            "text": "TSH and FT4 trends may be unreliable because of very poor sleep, about 5 hours before testing, very high biotin intake, and possibly excessive iodine intake; still investigating and planning improvements.",
+            "text": "TSH and thyroid hormone results may be unreliable because of recent high-dose biotin, very poor sleep before testing, and possibly excessive iodine. Thyroid antibodies are negative, so current Hashimoto concern is lower; repeat TSH, FT3, and FT4 after 7 days off biotin to verify cleanly.",
             "markers": [
                 {"rows": ["TSH", "Free T4 (FT4)"], "target": "trend"},
-                {"rows": ["TSH", "Free T4 (FT4)"], "target": "value", "dates": ["2026-07"]},
+                {"rows": ["TSH", "Free T3 (FT3)", "Free T4 (FT4)"], "target": "value", "dates": ["2026-07"]},
             ],
         },
         {

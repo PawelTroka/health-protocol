@@ -75,7 +75,7 @@
 | **P-LCR** | ⚪ | 🔵 33.4 | 🔵 35.3 | - | - | % | 19.2 - 47; target 20 - 40 |
 
 **Notes:**
-<sup>1</sup> Eosinophils may reflect an unidentified allergy still under investigation, or may be related to IBS-U.
+<sup>1</sup> Mild persistent eosinophil pattern may reflect an unidentified allergy or allergic/eosinophilic-type gut irritation; still under investigation.
 
 ## Urinalysis (General)
 
@@ -95,7 +95,7 @@
 | **Erythrocytes (Strip)** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | ery/uL | not detected |
 
 **Notes:**
-<sup>1</sup> Specific gravity trend likely reflects high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.
+<sup>1</sup> Specific gravity trend likely reflects high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness; interpret alongside the clean urinalysis and kidney markers rather than as a standalone concern.
 
 ## Urinalysis (Sediment)
 
@@ -123,17 +123,16 @@
 | **Urine Albumin (Microalbuminuria)** | 🔵 <3 | mg/l | < 20.0 |
 | **Urine Protein** | 🔵 0.06 | g/L | < 0.15 |
 | **Urine Amylase** | 🟢 98 | U/L | 16 - 491 |
-| **Urine Potassium** | 🟡<sup>2</sup> 7.12 ↓ | mmol/l | 20.00 - 80.00 |
-| **Urine Sodium** | 🟡<sup>2</sup> 15.5 ↓ | mmol/l | 54.0 - 150.0 |
+| **Urine Potassium** | 🟡<sup>1</sup> 7.12 ↓ | mmol/l | 20.00 - 80.00 |
+| **Urine Sodium** | 🟡<sup>1</sup> 15.5 ↓ | mmol/l | 54.0 - 150.0 |
 | **Urine Urea** | 🔵 2249 | mg/dl | 1714 - 3565 |
 | **Urine Calcium** | 🔵 11.3 | mg/dl | 6.8 - 21.3 |
 | **Urine Magnesium** | 🔴<sup>1</sup> 7.1 ↑ | mg/dl | 0.4 - 1.4 |
-| **Urine Phosphate** | 🟡<sup>2</sup> 26.40 ↓ | mg/dl | 40.00 - 136.00 |
-| **Urine Chloride** | 🟡<sup>2</sup> 11 ↓ | mmol/L | 46 - 168 |
+| **Urine Phosphate** | 🟡<sup>1</sup> 26.40 ↓ | mg/dl | 40.00 - 136.00 |
+| **Urine Chloride** | 🟡<sup>1</sup> 11 ↓ | mmol/L | 46 - 168 |
 
 **Notes:**
-<sup>1</sup> High urine magnesium likely reflects magnesium supplementation; similar to B12, toxicity risk is generally low, but supplementation will be reduced or adjusted.
-<sup>2</sup> Low urine potassium, sodium, phosphate, and chloride likely reflect high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness.
+<sup>1</sup> Spot urine electrolytes are heavily affected by hydration, recent intake, timing, and supplementation. Low urine sodium/potassium/phosphate/chloride and high urine magnesium likely reflect high hydration, extremely low salt intake for looksmaxxing, and magnesium supplementation; interpret cautiously unless repeated or measured by 24h urine, especially since serum sodium, potassium, magnesium, creatinine/eGFR, urine albumin, and urine protein look good.
 
 ## Urine Culture
 
@@ -149,7 +148,7 @@
 | **Nitrofurantoin** | susceptible<sup>2</sup> |  | - |
 
 **Notes:**
-<sup>1</sup> The 2026-07 urine culture was reported positive, with Streptococcus agalactiae growth at 2 x 10^4 CFU/mL.
+<sup>1</sup> Streptococcus agalactiae grew at 2 x 10^4 CFU/mL, but with no burning, urgency, frequency, pelvic/perineal pain, fever, testicular pain, or other urinary/systemic symptoms, and with a clean urinalysis, this is more consistent with possible contamination/colonization vs low-count asymptomatic bacteriuria; repeat a clean-catch culture if clarification is needed.
 <sup>2</sup> Susceptibility follows the PDF's EUCAST 16.0 interpretation: levofloxacin is susceptible only with increased exposure, and the nitrofurantoin result applies to uncomplicated UTI and not to other nitrofuran drugs.
 
 ## Metabolic Health
@@ -173,7 +172,7 @@
 | **Uric Acid** | 🔵 | 🔵 3.8 | 🟡 3.2 ↓ | 🔵 4.1 | - | mg/dl | 3.4 - 7.0; target 3.5 - 5.5 |
 
 **Notes:**
-<sup>1</sup> Liver-marker trends worsened after adding isotretinoin and Fo-Ti. Fo-Ti is being discontinued, so these are expected to improve on follow-up.
+<sup>1</sup> Liver enzymes remain within range, but trends are interpreted in the context of isotretinoin plus Fo-Ti. Fo-Ti is being discontinued because Polygonum multiflorum has documented liver-injury risk and little upside.
 
 ## Cardiac Health & Coagulation
 
@@ -181,13 +180,13 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Cholesterol LDL** | 🟢 | 🔵 68 | 🔵 76 | 🔵 74 | 🔵 75 | mg/dl | < 115; target < 70 |
 | **Cholesterol Non-HDL** | 🟢 | 🔵 81 | 🔵 96 | - | - | mg/dL | < 130; target < 100 |
-| **Cholesterol HDL** | 🟡 | 🟡 38 ↓ | 🟢 43 | 🟡 35 ↓ | - | mg/dL | > 40; target 55 - 80 |
+| **Cholesterol HDL** | 🟡 | 🟡<sup>1</sup> 38 ↓ | 🟢 43 | 🟡 35 ↓ | - | mg/dL | > 40; target 55 - 80 |
 | **Cholesterol Total** | ⚪ | 🔵 118 | 🔵 138 | 🔵 119 | - | mg/dL | < 190; target 120 - 170 |
 | **Triglycerides** | 🟢 | 🔵 57 | 🔵 98 | 🔵 48 | 🔵 56 | mg/dL | < 150; target < 80 |
 | **Lipoprotein (a)** | ⚪ | 🔵 7.16 | 🔵 < 7.00 | - | - | nmol/l | < 75; target < 30 |
 | **Homocysteine** | ⚪ | - | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 15.0; target < 8 |
 | **NT-proBNP** | 🟢 | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10.0 | pg/ml | < 125; target < 50 |
-| **Creatine Kinase (CK)** | ⚪<sup>1</sup> | 🔵<sup>1</sup> 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200; target <= 200 |
+| **Creatine Kinase (CK)** | ⚪<sup>2</sup> | 🔵<sup>2</sup> 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200; target <= 200 |
 | **Myoglobin** | 🔵 | 🔵 33.40 | 🟡 24.30 ↓ | 🔵 42.60 | - | ng/ml | 28.00 - 72.00; target 28 - 50 |
 | **D-dimer** | ⚪ | - | 🔵 < 190 | 🔵 < 190 | 🔵 < 190 | ng/ml | < 500; target < 250 |
 | **Fibrinogen** | - | 🔵 3.1 | - | - | - | g/l | 2.0 - 4.0; target 2.0 - 3.2 |
@@ -197,7 +196,8 @@
 | **Prothrombin Index** | - | 🔵 102 | - | - | - | % | 80 - 120; target 90 - 110 |
 
 **Notes:**
-<sup>1</sup> CK is elevated in the context of a new intensive training block with high volume, progressive overload, running, and other workouts.
+<sup>1</sup> HDL is mildly low, but the overall cardiovascular profile is strong: LDL 68, non-HDL 81, triglycerides 57, Lp(a) 7.16, hs-CRP 0.611, NT-proBNP 14.6, plus favorable BP/VO2max context. Do not chase HDL directly; prioritize ApoB/non-HDL/LDL, BP, VO2max, inflammation, and insulin sensitivity.
+<sup>2</sup> CK is elevated in the context of a new intensive training block with high volume, progressive overload, running, and other workouts.
 
 ## Micronutrients
 
@@ -232,22 +232,28 @@
 | **CRP (hs)** | ⚪ | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | not detected | mg/l | < 5.0; target < 1 |
 | **IL-6** | ⚪ | 🔵 <1.5 | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0; target < 2 |
 | **Calprotectin** | ⚪ | - | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0; target < 1 |
-| **Anti-TPO** | 🟢 | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0; target < 9 |
-| **Anti-TG** | ⚪ | 🔵 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0; target < 20 |
+| **Anti-TPO** | 🟢 | 🔵<sup>1</sup> <9 | 🔵 12.30 | - | - | IU/ml | < 34.0; target < 9 |
+| **Anti-TG** | ⚪ | 🔵<sup>1</sup> 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0; target < 20 |
 | **ASO** | - | - | 🟡 209 ↑ | - | - | IU/mL | < 200; target < 200 |
+
+**Notes:**
+<sup>1</sup> Thyroid antibodies are negative, lowering current Hashimoto concern; interpret alongside repeat thyroid labs after biotin washout.
 
 ## Tumor Markers
 
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **PSA Total** | ⚪ | 🔵 0.15 | 🔵 0.16 | 🔵 0.195 | ng/mL | < 4.0; target < 1.0 |
+| **PSA Total** | ⚪ | 🔵<sup>1</sup> 0.15 | 🔵 0.16 | 🔵 0.195 | ng/mL | < 4.0; target < 1.0 |
 | **PSA Free** | - | 🔵 0.033 | - | - | ng/mL | - |
-| **PSA Free/Total Ratio** | - | 🟡 22.05 ↓ | - | - | % | > 25; target >= 25 |
+| **PSA Free/Total Ratio** | - | 🟡<sup>1</sup> 22.05 ↓ | - | - | % | > 25; target >= 25 |
 | **CEA** | ⚪ | 🔵 3.0 | 🔵 2.9 | 🔵 2.2 | ng/ml | < 5.0; target < 3 |
 | **AFP (ng/ml)** | 🟢 | 🔵 1.99 | 🔵 2.84 | - | ng/ml | < 7.0; target < 5 |
 | **AFP (IU/ml)** | - | - | - | 🔵 2.0 | IU/ml | < 5.8; target < 5 |
 | **CA 19-9** | ⚪ | 🔵 4.6 | 🔵 3.8 | 🔵 5.5 | U/ml | < 34.0; target < 20 |
 | **S-100** | ⚪ | - | 🔵 0.09 | 🔵 0.05 | ug/l | < 0.15; target < 0.10 |
+
+**Notes:**
+<sup>1</sup> PSA free/total ratio is not clinically meaningful with total PSA at 0.15 ng/mL; the ratio is mainly useful when total PSA is elevated or in a diagnostic gray zone.
 
 ## Infectious Diseases
 
@@ -288,23 +294,26 @@
 | **Muscle Fibers** | single in preparation<sup>1</sup> |  | absent |
 | **Mucus** | few in preparation<sup>1</sup> |  | absent |
 | **Leukocytes on Mucus** | 🟠<sup>1</sup> present |  | absent |
-| **Parasites (Stool Ova)** | 🔵 negative | Status | negative |
-| **Amoeba (Cysts/Trophozoites)** | 🔵 not detected | Status | not detected |
-| **Helicobacter pylori Antigen** | 🔵 0.12 (not detected) | Index | < 0.9 |
-| **Giardia lamblia Antigen** | 🔵 negative | Status | negative |
+| **Parasites (Stool Ova)** | 🔵<sup>1</sup> negative | Status | negative |
+| **Amoeba (Cysts/Trophozoites)** | 🔵<sup>1</sup> not detected | Status | not detected |
+| **Helicobacter pylori Antigen** | 🔵<sup>1</sup> 0.12 (not detected) | Index | < 0.9 |
+| **Giardia lamblia Antigen** | 🔵<sup>1</sup> negative | Status | negative |
 
 **Notes:**
-<sup>1</sup> Abnormal stool findings are attributed to IBS-U.
+<sup>1</sup> Abnormal stool pH, mucus/food-residue findings, and leukocytes on mucus are not automatically IBS-U. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include IBS/dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.
 
 ## Stool Culture
 
 |  | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
-| **Salmonella species** | 🔵 negative | Status | negative |
-| **Shigella species** | 🔵 negative | Status | negative |
-| **Yersinia species** | 🔵 negative | Status | negative |
-| **Aeromonas species** | 🔵 negative | Status | negative |
-| **Plesiomonas species** | 🔵 negative | Status | negative |
+| **Salmonella species** | 🔵<sup>1</sup> negative | Status | negative |
+| **Shigella species** | 🔵<sup>1</sup> negative | Status | negative |
+| **Yersinia species** | 🔵<sup>1</sup> negative | Status | negative |
+| **Aeromonas species** | 🔵<sup>1</sup> negative | Status | negative |
+| **Plesiomonas species** | 🔵<sup>1</sup> negative | Status | negative |
+
+**Notes:**
+<sup>1</sup> Negative stool culture for Salmonella, Shigella, Yersinia, Aeromonas, and Plesiomonas further lowers the likelihood of a classic bacterial infectious explanation.
 
 ## Proteinogram
 
@@ -327,7 +336,7 @@
 | **Prolactin** | 🔵 | 🔵 14.90 | 🟡<sup>3</sup> 24.00 ↑ | 🔵 9.64 | 🟡<sup>3</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20; target 5 - 15 |
 | **Cortisol** | ⚪ | 🔵 17.4 | 🔵 17.4 | 🔵 17.1 | - | ug/dl | 4.8 - 19.5; target 8 - 18 |
 | **TSH** | 🟠<sup>4</sup> | 🟡<sup>4</sup> 4.57 ↑ | 🟢 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20; target 0.5 - 2.5 |
-| **Free T3 (FT3)** | ⚪ | 🔵 5.47 | 🔵 4.54 | 🔵 4.29 | 🔵 5.57 | pmol/L | 3.10 - 6.80; target 4.5 - 6.2 |
+| **Free T3 (FT3)** | ⚪ | 🔵<sup>4</sup> 5.47 | 🔵 4.54 | 🔵 4.29 | 🔵 5.57 | pmol/L | 3.10 - 6.80; target 4.5 - 6.2 |
 | **Free T4 (FT4)** | 🟠<sup>4</sup> | 🟢<sup>4</sup> 19.80 | 🔵 16.30 | 🟢 20.67 | 🔵 17.70 | pmol/L | 11.90 - 21.60; target 14 - 18 |
 | **LH** | 🔵 | 🔵 7.39 | 🟡 10.20 ↑ | 🔵 4.46 | - | mIU/mL | 1.70 - 8.60; target 2 - 8 |
 | **FSH** | ⚪ | 🔵 2.1 | 🔵 3.0 | 🔵 1.6 | 🔵 3.0 | mIU/mL | 1.5 - 12.4; target 1.5 - 6 |
@@ -340,9 +349,9 @@
 
 **Notes:**
 <sup>1</sup> Total testosterone is scored with a high-normal male target: high-normal natural values are treated as favorable rather than automatically adverse.
-<sup>2</sup> Estradiol is likely higher due to higher body fat after multiple surgeries; the plan is to return to very low body fat to drive it down again.
+<sup>2</sup> Estradiol is genuinely above range and likely partly explained by high total testosterone. Repeat with a sensitive E2 method if possible and correlate with symptoms; do not suppress aggressively without symptoms.
 <sup>3</sup> Prior prolactin elevations were likely due to high sexual activity before testing.
-<sup>4</sup> TSH and FT4 trends may be unreliable because of very poor sleep, about 5 hours before testing, very high biotin intake, and possibly excessive iodine intake; still investigating and planning improvements.
+<sup>4</sup> TSH and thyroid hormone results may be unreliable because of recent high-dose biotin, very poor sleep before testing, and possibly excessive iodine. Thyroid antibodies are negative, so current Hashimoto concern is lower; repeat TSH, FT3, and FT4 after 7 days off biotin to verify cleanly.
 <sup>5</sup> Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.
 
 ## Structural & Diagnostic Imaging
