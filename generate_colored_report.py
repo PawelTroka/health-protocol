@@ -222,7 +222,7 @@ target_overrides = {
     ("Cardiac Health & Coagulation", "Cholesterol Total"): optimal_range_target("< 190; target 120 - 170", 100.0, 120.0, 170.0, 190.0),
     ("Cardiac Health & Coagulation", "Triglycerides"): low_good_target("< 150; target < 80", 80.0, 150.0),
     ("Cardiac Health & Coagulation", "Lipoprotein (a)"): low_good_target("< 75; target < 30", 30.0, 75.0),
-    ("Cardiac Health & Coagulation", "Homocysteine"): low_good_target("< 15.0; target < 8", 8.0, 15.0),
+    ("Cardiac Health & Coagulation", "Homocysteine"): low_good_target("< 10; target < 8", 8.0, 10.0),
     ("Cardiac Health & Coagulation", "NT-proBNP"): low_good_target("< 125; target < 50", 50.0, 125.0),
     ("Cardiac Health & Coagulation", "Creatine Kinase (CK)"): low_good_target("20 - 200; target <= 200", 200.0, 350.0),
     ("Cardiac Health & Coagulation", "Myoglobin"): optimal_range_target("28.00 - 72.00; target 28 - 50", 28.0, 28.0, 50.0, 72.0),
@@ -271,6 +271,8 @@ target_overrides = {
     ("Toxicology (Urine)", "Cadmium"): low_good_target("< 0.8; target < 0.2", 0.2, 0.8),
     ("Toxicology (Urine)", "Chromium"): low_good_target("< 0.6; target < 0.6", 0.6, 0.6),
     ("Toxicology (Urine)", "Nickel"): low_good_target("< 3.0; target < 1.0", 1.0, 3.0),
+    ("Toxicology (Urine)", "Lead"): low_good_target("< 20.0; target < 1.0", 1.0, 20.0),
+    ("Toxicology (Urine)", "Lead/Creatinine"): low_good_target("< 25.0; target < 1.0", 1.0, 25.0),
     ("Toxicology (Urine)", "Glyphosate"): low_good_target("< 1.40; target < 1.40", 1.4, 1.4),
 
     # Hormones
@@ -959,7 +961,7 @@ data = {
         ("Mucus", "-", "< 10.0", "rare", "-", "/uL", "< 10.0")
     ],
     "Urine Chemistry": [
-        ("Urine Creatinine", "63.1", "-", "-", "-", "mg/dL", "39.0 - 259.0"),
+        ("Urine Creatinine", "59.1", "-", "-", "-", "mg/dL", "39.0 - 259.0"),
         ("Urine Albumin (Microalbuminuria)", "<3", "-", "-", "-", "mg/l", "< 20.0"),
         ("Urine Protein", "0.06", "-", "-", "-", "g/L", "< 0.15"),
         ("Urine Amylase", "98", "-", "-", "-", "U/L", "16 - 491"),
@@ -1005,7 +1007,7 @@ data = {
         ("Cholesterol Total", "118", "138", "119", "-", "mg/dL", "< 190"),
         ("Triglycerides", "57", "98", "48", "56", "mg/dL", "< 150"),
         ("Lipoprotein (a)", "7.16", "< 7.00", "-", "-", "nmol/l", "< 75"),
-        ("Homocysteine", "-", "6.74", "6.60", "6.50", "umol/l", "< 15.0"),
+        ("Homocysteine", "9.07", "6.74", "6.60", "6.50", "umol/l", "< 10"),
         ("NT-proBNP", "14.6", "22.9", "22.9", "< 10.0", "pg/ml", "< 125"),
         ("Creatine Kinase (CK)", "222", "153", "-", "-", "U/L", "20 - 200"),
         ("Myoglobin", "33.40", "24.30", "42.60", "-", "ng/ml", "28.00 - 72.00"),
@@ -1070,6 +1072,8 @@ data = {
         ("Chromium", "-", "1.0", "0.2", "-", "ug/l", "< 0.6"),
         ("Nickel", "-", "0.5", "0.2", "-", "ug/l", "< 3.0"),
         ("Copper", "-", "4.26", "3.15", "-", "ug/l", "2.0 - 80.0"),
+        ("Lead", "0.2", "-", "-", "-", "ug/l", "< 20.0"),
+        ("Lead/Creatinine", "0.3", "-", "-", "-", "ug/g creatinine", "< 25.0"),
         ("Glyphosate", "-", "< 0.60", "-", "-", "ng/ml", "< 1.40")
     ],
     "Stool Analysis": [
@@ -1104,6 +1108,7 @@ data = {
     "Hormonal Panel": [
         ("Testosterone (Total)", "32.10", "27.50", "28.60", "28.70", "nmol/l", "8.64 - 29.00"),
         ("Testosterone (Free)", "-", "-", "19.17", "-", "pg/ml", "9.10 - 32.20"),
+        ("DHT", "762.3", "-", "-", "-", "pg/ml", "250 - 990"),
         ("Estradiol (E2)", "213", "141", "188", "176", "pmol/l", "41 - 159"),
         ("Prolactin", "14.90", "24.00", "9.64", "22.70", "ng/mL", "4.04 - 15.20"),
         ("Cortisol", "17.4", "17.4", "17.1", "-", "ug/dl", "4.8 - 19.5"),

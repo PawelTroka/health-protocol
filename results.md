@@ -119,7 +119,7 @@
 
 |  | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
-| **Urine Creatinine** | 🟢 63.1 | mg/dL | 39.0 - 259.0 |
+| **Urine Creatinine** | 🟢 59.1 | mg/dL | 39.0 - 259.0 |
 | **Urine Albumin (Microalbuminuria)** | 🔵 <3 | mg/l | < 20.0 |
 | **Urine Protein** | 🔵 0.06 | g/L | < 0.15 |
 | **Urine Amylase** | 🟢 98 | U/L | 16 - 491 |
@@ -184,7 +184,7 @@
 | **Cholesterol Total** | ⚪ | 🔵 118 | 🔵 138 | 🔵 119 | - | mg/dL | < 190; target 120 - 170 |
 | **Triglycerides** | 🟢 | 🔵 57 | 🔵 98 | 🔵 48 | 🔵 56 | mg/dL | < 150; target < 80 |
 | **Lipoprotein (a)** | ⚪ | 🔵 7.16 | 🔵 < 7.00 | - | - | nmol/l | < 75; target < 30 |
-| **Homocysteine** | ⚪ | - | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 15.0; target < 8 |
+| **Homocysteine** | 🟠 | 🟢 9.07 | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 10; target < 8 |
 | **NT-proBNP** | 🟢 | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10.0 | pg/ml | < 125; target < 50 |
 | **Creatine Kinase (CK)** | ⚪<sup>2</sup> | 🔵<sup>2</sup> 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200; target <= 200 |
 | **Myoglobin** | 🔵 | 🔵 33.40 | 🟡 24.30 ↓ | 🔵 42.60 | - | ng/ml | 28.00 - 72.00; target 28 - 50 |
@@ -267,14 +267,16 @@
 
 ## Toxicology (Urine)
 
-|  | Trend | 2026-01 | 2025-05 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Arsenic** | 💎<sup>1</sup> | 🔵 11.8 | 🟠<sup>1</sup> 30.8 ↑ | ug/l | < 15.0; target < 15 |
-| **Cadmium** | ⚪ | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8; target < 0.2 |
-| **Chromium** | 🔴 | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6; target < 0.6 |
-| **Nickel** | ⚪ | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0; target < 1.0 |
-| **Copper** | ⚪ | 🟢 4.26 | 🟢 3.15 | ug/l | 2.0 - 80.0 |
-| **Glyphosate** | - | 🔵 < 0.60 | - | ng/ml | < 1.40; target < 1.40 |
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Arsenic** | 💎<sup>1</sup> | - | 🔵 11.8 | 🟠<sup>1</sup> 30.8 ↑ | ug/l | < 15.0; target < 15 |
+| **Cadmium** | ⚪ | - | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8; target < 0.2 |
+| **Chromium** | 🔴 | - | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6; target < 0.6 |
+| **Nickel** | ⚪ | - | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0; target < 1.0 |
+| **Copper** | ⚪ | - | 🟢 4.26 | 🟢 3.15 | ug/l | 2.0 - 80.0 |
+| **Lead** | - | 🔵 0.2 | - | - | ug/l | < 20.0; target < 1.0 |
+| **Lead/Creatinine** | - | 🔵 0.3 | - | - | ug/g creatinine | < 25.0; target < 1.0 |
+| **Glyphosate** | - | - | 🔵 < 0.60 | - | ng/ml | < 1.40; target < 1.40 |
 
 **Notes:**
 <sup>1</sup> The 2025-05 arsenic elevation was likely due to high salmon consumption.
@@ -326,6 +328,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Testosterone (Total)** | 🟢<sup>1</sup> | 🔵<sup>1</sup> 32.10 | 🔵 27.50 | 🔵 28.60 | 🔵 28.70 | nmol/l | 9.2 - 33.0; target 20 - 33 |
 | **Testosterone (Free)** | - | - | - | 🔵 19.17 | - | pg/ml | 9.10 - 32.20; target 15 - 30 |
+| **DHT** | - | 🔵 762.3 | - | - | - | pg/ml | 250 - 990 |
 | **Estradiol (E2)** | 🟠<sup>2</sup> | 🟡<sup>2</sup> 213 ↑ | 🔵 141 | 🟡<sup>2</sup> 188 ↑ | 🟡<sup>2</sup> 176 ↑ | pmol/l | 41 - 159; target 70 - 160 |
 | **Prolactin** | 🔵 | 🔵 14.90 | 🟡<sup>3</sup> 24.00 ↑ | 🔵 9.64 | 🟡<sup>3</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20; target 5 - 15 |
 | **Cortisol** | ⚪ | 🔵 17.4 | 🔵 17.4 | 🔵 17.1 | - | ug/dl | 4.8 - 19.5; target 8 - 18 |
