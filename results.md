@@ -290,6 +290,8 @@
 | **Leukocytes on Mucus** | 🟠<sup>1</sup> present |  | absent |
 | **Parasites (Stool Ova)** | 🔵 negative | Status | negative |
 | **Amoeba (Cysts/Trophozoites)** | 🔵 not detected | Status | not detected |
+| **Helicobacter pylori Antigen** | 🔵 0.12 (not detected) | Index | < 0.9 |
+| **Giardia lamblia Antigen** | 🔵 negative | Status | negative |
 
 **Notes:**
 <sup>1</sup> Abnormal stool findings are attributed to IBS-U.

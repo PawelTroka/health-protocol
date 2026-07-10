@@ -1082,7 +1082,9 @@ data = {
         ("Mucus", "few in preparation", "-", "-", "-", "", "absent"),
         ("Leukocytes on Mucus", "present", "-", "-", "-", "", "absent"),
         ("Parasites (Stool Ova)", "negative", "-", "-", "-", "Status", "negative"),
-        ("Amoeba (Cysts/Trophozoites)", "not detected", "-", "-", "-", "Status", "not detected")
+        ("Amoeba (Cysts/Trophozoites)", "not detected", "-", "-", "-", "Status", "not detected"),
+        ("Helicobacter pylori Antigen", "0.12 (not detected)", "-", "-", "-", "Index", "< 0.9"),
+        ("Giardia lamblia Antigen", "negative", "-", "-", "-", "Status", "negative")
     ],
     "Stool Culture": [
         ("Salmonella species", "negative", "-", "-", "-", "Status", "negative"),
