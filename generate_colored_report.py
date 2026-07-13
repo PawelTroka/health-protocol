@@ -887,7 +887,7 @@ data = {
         ("ECG Rhythm", "normal sinus rhythm", "-", "-", "-", "Status", "normal sinus rhythm"),
         ("ECG Heart Rate", "68", "-", "-", "-", "bpm", "50 - 100"),
         ("Heart Sounds", "normal (no signs of valvular heart disease)", "-", "-", "-", "Status", "normal"),
-        ("PWV", "6.1", "-", "-", "-", "m/s", "< 10"),
+        ("PWV", "5.8", "-", "-", "-", "m/s", "< 10"),
         ("VO2max", "43", "-", "-", "-", "ml/kg/min", "> 35"),
         ("Respiratory Rate (Sleep)", "12.4", "-", "-", "-", "/min", "12 - 20"),
         ("Body Mass", "83", "-", "-", "-", "kg", "-"),
