@@ -218,8 +218,8 @@
 | **Zinc** | 🔵 | - | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18; target 11 - 18 |
 | **Vitamin B6** | - | - | - | 🟡 58.6 ↑ | - | ug/l | 5.7 - 55.1; target 10 - 50 |
 | **Vitamin B1** | 🔵 | - | 🔵 33.6 | 🟡 69.1 ↑ | - | ug/l | 33.1 - 60.7; target 33.1 - 55 |
-| **Vitamin A** | ⚪ | - | 🔵 0.47 | 🔵 0.47 | - | mg/l | 0.3 - 0.7; target 0.4 - 0.7 |
-| **Vitamin E** | ⚪ | - | 🔵 11.0 | 🔵 9.5 | - | mg/l | 5 - 20; target 8 - 18 |
+| **Vitamin A** | ⚪ | 🔵 0.66 | 🔵 0.47 | 🔵 0.47 | - | mg/l | 0.3 - 0.7; target 0.4 - 0.7 |
+| **Vitamin E** | ⚪ | 🔵 11.4 | 🔵 11.0 | 🔵 9.5 | - | mg/l | 5 - 20; target 8 - 18 |
 | **Vitamin C** | - | - | 🟢 4.6 | - | - | ug/ml | 4 - 15; target 6 - 15 |
 
 **Notes:**
@@ -247,7 +247,7 @@
 | **AFP (ng/ml)** | 🟢 | 🔵 1.99 | 🔵 2.84 | - | ng/ml | < 7.0; target < 5 |
 | **AFP (IU/ml)** | - | - | - | 🔵 2.0 | IU/ml | < 5.8; target < 5 |
 | **CA 19-9** | ⚪ | 🔵 4.6 | 🔵 3.8 | 🔵 5.5 | U/ml | < 34.0; target < 20 |
-| **S-100** | ⚪ | - | 🔵 0.09 | 🔵 0.05 | ug/l | < 0.15; target < 0.10 |
+| **S-100** | ⚪ | 🔵 0.10 | 🔵 0.09 | 🔵 0.05 | ug/l | < 0.15; target < 0.10 |
 
 **Notes:**
 <sup>1</sup> PSA free/total ratio is not clinically meaningful with total PSA at 0.15 ng/mL; the ratio is mainly useful when total PSA is elevated or in a diagnostic gray zone.
@@ -262,18 +262,19 @@
 | **Syphilis (WR)** | ⚪ | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | - | Status | Non-reactive |
 | **Chlamydia IgG** | ⚪ | 🔵 < 5.0 | 🔵 < 5.0 | 🔵 < 5.0 | 🔵 negative | AU/ml | < 9 |
 | **Chlamydia IgM** | 🟢 | 🔵 2.0 | 🔵 2.7 | 🔵 2.7 | 🔵 2.7 | NTU | < 9 |
-| **HSV IgG** | 🔵 | - | 🟢 0.79 | 🟡 1.35 ↑ | 🟡 1.7 ↑ | Index | < 0.9 |
-| **HSV IgM** | 🟠 | - | 🔵 < 0.5 | 🔵 negative | 🔵 negative | Index | < 0.9 |
+| **HSV IgG** | 🟠 | 🟡 1.19 ↑ | 🟢 0.79 | 🟡 1.35 ↑ | 🟡 1.7 ↑ | Index | < 0.9 |
+| **HSV IgM** | ⚪ | 🔵 < 0.5 | 🔵 < 0.5 | 🔵 negative | 🔵 negative | Index | < 0.9 |
 
 ## Toxicology (Urine)
 
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Arsenic** | 💎<sup>1</sup> | - | 🔵 11.8 | 🟠<sup>1</sup> 30.8 ↑ | ug/l | < 15.0; target < 15 |
-| **Cadmium** | ⚪ | - | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8; target < 0.2 |
-| **Chromium** | 🔴 | - | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6; target < 0.6 |
-| **Nickel** | ⚪ | - | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0; target < 1.0 |
-| **Copper** | ⚪ | - | 🟢 4.26 | 🟢 3.15 | ug/l | 2.0 - 80.0 |
+| **Arsenic** | 🟢<sup>1</sup> | 🔵 4.6 | 🔵 11.8 | 🟠<sup>1</sup> 30.8 ↑ | ug/l | < 15.0; target < 15 |
+| **Cadmium** | ⚪ | 🔵 0.1 | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8; target < 0.2 |
+| **Cobalt** | - | 🔵 0.6 | - | - | ug/l | < 1.5; target < 1.0 |
+| **Chromium** | 💎 | 🔵 0.1 | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6; target < 0.6 |
+| **Nickel** | ⚪ | 🔵 0.8 | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0; target < 1.0 |
+| **Copper** | ⚪ | 🟢 2.34 | 🟢 4.26 | 🟢 3.15 | ug/l | 2.0 - 80.0 |
 | **Lead** | - | 🔵 0.2 | - | - | ug/l | < 20.0; target < 1.0 |
 | **Lead/Creatinine** | - | 🔵 0.3 | - | - | ug/g creatinine | < 25.0; target < 1.0 |
 | **Glyphosate** | - | - | 🔵 < 0.60 | - | ng/ml | < 1.40; target < 1.40 |

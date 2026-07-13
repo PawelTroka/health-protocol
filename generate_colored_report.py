@@ -269,6 +269,7 @@ target_overrides = {
     ("Tumor Markers", "S-100"): low_good_target("< 0.15; target < 0.10", 0.10, 0.15),
     ("Toxicology (Urine)", "Arsenic"): low_good_target("< 15.0; target < 15", 15.0, 15.0),
     ("Toxicology (Urine)", "Cadmium"): low_good_target("< 0.8; target < 0.2", 0.2, 0.8),
+    ("Toxicology (Urine)", "Cobalt"): low_good_target("< 1.5; target < 1.0", 1.0, 1.5),
     ("Toxicology (Urine)", "Chromium"): low_good_target("< 0.6; target < 0.6", 0.6, 0.6),
     ("Toxicology (Urine)", "Nickel"): low_good_target("< 3.0; target < 1.0", 1.0, 3.0),
     ("Toxicology (Urine)", "Lead"): low_good_target("< 20.0; target < 1.0", 1.0, 20.0),
@@ -1034,8 +1035,8 @@ data = {
         ("Zinc", "-", "13.90", "22.07", "-", "umol/l", "9 - 18"),
         ("Vitamin B6", "-", "-", "58.6", "-", "ug/l", "5.7 - 55.1"),
         ("Vitamin B1", "-", "33.6", "69.1", "-", "ug/l", "33.1 - 60.7"),
-        ("Vitamin A", "-", "0.47", "0.47", "-", "mg/l", "0.3 - 0.7"),
-        ("Vitamin E", "-", "11.0", "9.5", "-", "mg/l", "5 - 20"),
+        ("Vitamin A", "0.66", "0.47", "0.47", "-", "mg/l", "0.3 - 0.7"),
+        ("Vitamin E", "11.4", "11.0", "9.5", "-", "mg/l", "5 - 20"),
         ("Vitamin C", "-", "4.6", "-", "-", "ug/ml", "4 - 15")
     ],
     "Immunology & Inflammation": [
@@ -1054,7 +1055,7 @@ data = {
         ("AFP (ng/ml)", "1.99", "2.84", "-", "-", "ng/ml", "< 7.0"),
         ("AFP (IU/ml)", "-", "-", "2.0", "-", "IU/ml", "< 5.8"),
         ("CA 19-9", "4.6", "3.8", "5.5", "-", "U/ml", "< 34.0"),
-        ("S-100", "-", "0.09", "0.05", "-", "ug/l", "< 0.15")
+        ("S-100", "0.10", "0.09", "0.05", "-", "ug/l", "< 0.15")
     ],
     "Infectious Diseases": [
         ("HIV", "Non-reactive", "Non-reactive", "Non-reactive", "Non-reactive", "Status", "Non-reactive"),
@@ -1063,15 +1064,16 @@ data = {
         ("Syphilis (WR)", "Non-reactive", "Non-reactive", "Non-reactive", "-", "Status", "Non-reactive"),
         ("Chlamydia IgG", "< 5.0", "< 5.0", "< 5.0", "negative", "AU/ml", "< 9"),
         ("Chlamydia IgM", "2.0", "2.7", "2.7", "2.7", "NTU", "< 9"),
-        ("HSV IgG", "-", "0.79", "1.35", "1.7", "Index", "< 0.9"),
-        ("HSV IgM", "-", "< 0.5", "negative", "negative", "Index", "< 0.9")
+        ("HSV IgG", "1.19", "0.79", "1.35", "1.7", "Index", "< 0.9"),
+        ("HSV IgM", "< 0.5", "< 0.5", "negative", "negative", "Index", "< 0.9")
     ],
     "Toxicology (Urine)": [
-        ("Arsenic", "-", "11.8", "30.8", "-", "ug/l", "< 15.0"),
-        ("Cadmium", "-", "0.1", "0.1", "-", "ug/l", "< 0.8"),
-        ("Chromium", "-", "1.0", "0.2", "-", "ug/l", "< 0.6"),
-        ("Nickel", "-", "0.5", "0.2", "-", "ug/l", "< 3.0"),
-        ("Copper", "-", "4.26", "3.15", "-", "ug/l", "2.0 - 80.0"),
+        ("Arsenic", "4.6", "11.8", "30.8", "-", "ug/l", "< 15.0"),
+        ("Cadmium", "0.1", "0.1", "0.1", "-", "ug/l", "< 0.8"),
+        ("Cobalt", "0.6", "-", "-", "-", "ug/l", "< 1.5"),
+        ("Chromium", "0.1", "1.0", "0.2", "-", "ug/l", "< 0.6"),
+        ("Nickel", "0.8", "0.5", "0.2", "-", "ug/l", "< 3.0"),
+        ("Copper", "2.34", "4.26", "3.15", "-", "ug/l", "2.0 - 80.0"),
         ("Lead", "0.2", "-", "-", "-", "ug/l", "< 20.0"),
         ("Lead/Creatinine", "0.3", "-", "-", "-", "ug/g creatinine", "< 25.0"),
         ("Glyphosate", "-", "< 0.60", "-", "-", "ng/ml", "< 1.40")
