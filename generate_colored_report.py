@@ -222,6 +222,8 @@ target_overrides = {
     ("Cardiac Health & Coagulation", "Cholesterol Total"): optimal_range_target("< 190; target 120 - 170", 100.0, 120.0, 170.0, 190.0),
     ("Cardiac Health & Coagulation", "Triglycerides"): low_good_target("< 150; target < 80", 80.0, 150.0),
     ("Cardiac Health & Coagulation", "Lipoprotein (a)"): low_good_target("< 75; target < 30", 30.0, 75.0),
+    ("Cardiac Health & Coagulation", "ApoA1"): high_good_target("1.10 - 2.05; target >= 1.20", 1.10, 1.20),
+    ("Cardiac Health & Coagulation", "ApoB"): low_good_target("< 1.0; target < 0.65", 0.65, 1.0),
     ("Cardiac Health & Coagulation", "Homocysteine"): low_good_target("< 10; target < 8", 8.0, 10.0),
     ("Cardiac Health & Coagulation", "NT-proBNP"): low_good_target("< 125; target < 50", 50.0, 125.0),
     ("Cardiac Health & Coagulation", "Creatine Kinase (CK)"): low_good_target("20 - 200; target <= 200", 200.0, 350.0),
@@ -1010,6 +1012,8 @@ data = {
         ("Cholesterol Total", "118", "138", "119", "-", "mg/dL", "< 190"),
         ("Triglycerides", "57", "98", "48", "56", "mg/dL", "< 150"),
         ("Lipoprotein (a)", "7.16", "< 7.00", "-", "-", "nmol/l", "< 75"),
+        ("ApoA1", "1.05", "-", "-", "-", "g/l", "1.10 - 2.05"),
+        ("ApoB", "0.60", "-", "-", "-", "g/l", "< 1.0"),
         ("Homocysteine", "9.07", "6.74", "6.60", "6.50", "umol/l", "< 10"),
         ("NT-proBNP", "14.6", "22.9", "22.9", "< 10.0", "pg/ml", "< 125"),
         ("Creatine Kinase (CK)", "222", "153", "-", "-", "U/L", "20 - 200"),
@@ -1038,7 +1042,7 @@ data = {
         ("Zinc", "16.93", "13.90", "22.07", "-", "umol/l", "9 - 18"),
         ("Copper (Serum)", "871.5", "-", "-", "-", "ug/l", "560 - 1110"),
         ("Vitamin B6", "-", "-", "58.6", "-", "ug/l", "5.7 - 55.1"),
-        ("Vitamin B1", "-", "33.6", "69.1", "-", "ug/l", "33.1 - 60.7"),
+        ("Vitamin B1", "54.2", "33.6", "69.1", "-", "ug/l", "33.1 - 60.7"),
         ("Vitamin A", "0.66", "0.47", "0.47", "-", "mg/l", "0.3 - 0.7"),
         ("Vitamin E", "11.4", "11.0", "9.5", "-", "mg/l", "5 - 20"),
         ("Vitamin C", "-", "4.6", "-", "-", "ug/ml", "4 - 15")
@@ -1211,7 +1215,7 @@ result_notes = {
     ],
     "Cardiac Health & Coagulation": [
         {
-            "text": "HDL is mildly low, but the overall cardiovascular profile is strong: LDL 68, non-HDL 81, triglycerides 57, Lp(a) 7.16, hs-CRP 0.611, NT-proBNP 14.6, plus favorable BP/VO2max context. Do not chase HDL directly; prioritize ApoB/non-HDL/LDL, BP, VO2max, inflammation, and insulin sensitivity.",
+            "text": "HDL is mildly low, but the overall cardiovascular profile is strong: LDL 68, non-HDL 81, ApoB 0.60, triglycerides 57, Lp(a) 7.16, hs-CRP 0.611, NT-proBNP 14.6, plus favorable BP/VO2max context. Do not chase HDL directly; prioritize ApoB/non-HDL/LDL, BP, VO2max, inflammation, and insulin sensitivity.",
             "markers": [
                 {"row": "Cholesterol HDL", "target": "value", "dates": ["2026-07"]},
             ],
