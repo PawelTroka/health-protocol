@@ -217,6 +217,7 @@
 | **Sodium** | ⚪ | 🔵 139 | 🔵 140 | - | - | mmol/l | 136 - 145; target 138 - 142 |
 | **Calcium (Total)** | 🟢 | 🔵 9.58 | 🟢 9.88 | 🟢 9.88 | - | mg/dL | 8.60 - 10.00; target 9.0 - 9.8 |
 | **Fosfor** | 🔵 | 🔵 3.10 | 🟡 4.83 ↑ | 🔵 3.7 | - | mg/dL | 2.5 - 4.5; target 3.0 - 4.0 |
+| **Iodine (Serum)** | - | 🔵 72 | - | - | - | ug/l | 40 - 80; target 40 - 80 |
 | **Selenium** | - | 🔵 108.75 | - | - | - | ug/l | 50 - 120; target 90 - 120 |
 | **Zinc** | ⚪ | 🔵 16.93 | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18; target 11 - 18 |
 | **Copper (Serum)** | - | 🔵 871.5 | - | - | - | ug/l | 560 - 1110; target 700 - 1100 |
@@ -278,6 +279,10 @@
 | **Cobalt** | - | 🔵 0.6 | - | - | ug/l | < 1.5; target < 1.0 |
 | **Chromium** | 💎 | 🔵 0.1 | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6; target < 0.6 |
 | **Nickel** | ⚪ | 🔵 0.8 | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0; target < 1.0 |
+| **Aluminum** | - | 🔵 < 5.0 | - | - | ug/l | < 5.0; target < 5.0 |
+| **Aluminum/Creatinine** | - | 🔵 < 8.1 | - | - | ug/g creatinine | < 15; target < 15 |
+| **Mercury** | - | 🔵 < 1.0 | - | - | ug/l | < 1.0; target < 1.0 |
+| **Mercury/Creatinine** | - | 🔵 < 1.6 | - | - | ug/g creatinine | < 25; target < 5 |
 | **Copper** | ⚪ | 🟢 2.34 | 🟢 4.26 | 🟢 3.15 | ug/l | 2.0 - 80.0 |
 | **Lead** | - | 🔵 0.2 | - | - | ug/l | < 20.0; target < 1.0 |
 | **Lead/Creatinine** | - | 🔵 0.3 | - | - | ug/g creatinine | < 25.0; target < 1.0 |
@@ -346,6 +351,7 @@
 | **DHEA-SO4** | ⚪ | 🟢 92.9 | 🟢 97.7 | 🟢 124.0 | 🟢 111.0 | ug/dl | 88.9 - 427; target 150 - 350 |
 | **Progesterone** | 💎 | 🟡<sup>5</sup> 0.842 ↑ | 🟠<sup>5</sup> 1.390 ↑ | 🟠<sup>5</sup> 1.370 ↑ | - | nmol/l | < 0.474; target < 0.474 |
 | **17-OH Progesterone** | ⚪ | - | - | 🔵 1.59 | 🔵 2.31 | ng/ml | 0.37 - 2.87; target 0.7 - 2.5 |
+| **17-Hydroxypregnenolone** | - | 🔵 5.30 | - | - | - | ug/l | 0.90 - 11.70; target 0.90 - 11.70 |
 | **IGF-1** | 🟢 | 🔵 158 | 🔵 229 | 🔵 201 | - | ng/ml | 61 - 271; target 100 - 220 |
 | **HCG-Beta** | ⚪ | 🔵 < 0.200 | 🔵 < 0.200 | - | - | mIU/mL | < 2.60; target < 1 |
 
