@@ -18,7 +18,7 @@
 | **Nighttime BP Dip** | 🔵 16.7 | % | 10 - 20; target 10 - 20 |
 | **Resting Heart Rate** | 🔵 ~65 | bpm | 60 - 100; target 50 - 70 |
 | **Sleeping Heart Rate** | 🔵 56 | bpm | 40 - 80; target 45 - 60 |
-| **Maximum Heart Rate** | 180<sup>2</sup> | bpm | - |
+| **Maximum Heart Rate** | 190<sup>2</sup> | bpm | - |
 | **ECG Rhythm** | 🔵 normal sinus rhythm | Status | normal sinus rhythm |
 | **ECG Heart Rate** | 🔵 68 | bpm | 50 - 100; target 50 - 80 |
 | **Heart Sounds** | 🔵 normal (no signs of valvular heart disease) | Status | normal |
@@ -215,7 +215,9 @@
 | **Sodium** | ⚪ | 🔵 139 | 🔵 140 | - | - | mmol/l | 136 - 145; target 138 - 142 |
 | **Calcium (Total)** | 🟢 | 🔵 9.58 | 🟢 9.88 | 🟢 9.88 | - | mg/dL | 8.60 - 10.00; target 9.0 - 9.8 |
 | **Fosfor** | 🔵 | 🔵 3.10 | 🟡 4.83 ↑ | 🔵 3.7 | - | mg/dL | 2.5 - 4.5; target 3.0 - 4.0 |
-| **Zinc** | 🔵 | - | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18; target 11 - 18 |
+| **Selenium** | - | 🔵 108.75 | - | - | - | ug/l | 50 - 120; target 90 - 120 |
+| **Zinc** | ⚪ | 🔵 16.93 | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18; target 11 - 18 |
+| **Copper (Serum)** | - | 🔵 871.5 | - | - | - | ug/l | 560 - 1110; target 700 - 1100 |
 | **Vitamin B6** | - | - | - | 🟡 58.6 ↑ | - | ug/l | 5.7 - 55.1; target 10 - 50 |
 | **Vitamin B1** | 🔵 | - | 🔵 33.6 | 🟡 69.1 ↑ | - | ug/l | 33.1 - 60.7; target 33.1 - 55 |
 | **Vitamin A** | ⚪ | 🔵 0.66 | 🔵 0.47 | 🔵 0.47 | - | mg/l | 0.3 - 0.7; target 0.4 - 0.7 |
@@ -231,7 +233,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **CRP (hs)** | ⚪ | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | not detected | mg/l | < 5.0; target < 1 |
 | **IL-6** | ⚪ | 🔵 <1.5 | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0; target < 2 |
-| **Calprotectin** | ⚪ | - | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0; target < 1 |
+| **Calprotectin (Circulating)** | 🟡 | 🔵 1.33 | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0; target < 1 |
 | **Anti-TPO** | 🟢 | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0; target < 9 |
 | **Anti-TG** | ⚪ | 🔵 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0; target < 20 |
 | **ASO** | - | - | 🟡 209 ↑ | - | - | IU/mL | < 200; target < 200 |
