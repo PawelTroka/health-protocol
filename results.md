@@ -225,7 +225,7 @@
 | **Vitamin B1** | ⚪ | 🔵 54.2 | 🔵 33.6 | 🟡 69.1 ↑ | - | ug/l | 33.1 - 60.7; target 33.1 - 55 |
 | **Vitamin A** | ⚪ | 🔵 0.66 | 🔵 0.47 | 🔵 0.47 | - | mg/l | 0.3 - 0.7; target 0.4 - 0.7 |
 | **Vitamin E** | ⚪ | 🔵 11.4 | 🔵 11.0 | 🔵 9.5 | - | mg/l | 5 - 20; target 8 - 18 |
-| **Vitamin C** | - | - | 🟢 4.6 | - | - | ug/ml | 4 - 15; target 6 - 15 |
+| **Vitamin C** | 🟢 | 🟢 5.0 | 🟢 4.6 | - | - | ug/ml | 4 - 15; target 6 - 15 |
 
 **Notes:**
 <sup>1</sup> Vitamin B12 went above range, likely from supplementation. B12 toxicity is generally low, but the plan is to lower the supplementation dose.
