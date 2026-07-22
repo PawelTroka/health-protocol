@@ -283,6 +283,7 @@
 | **Aluminum/Creatinine** | - | 🔵 < 8.1 | - | - | ug/g creatinine | < 15; target < 15 |
 | **Mercury** | - | 🔵 < 1.0 | - | - | ug/l | < 1.0; target < 1.0 |
 | **Mercury/Creatinine** | - | 🔵 < 1.6 | - | - | ug/g creatinine | < 25; target < 5 |
+| **Manganese** | - | 🔵 < 1.0 | - | - | ug/l | < 1.5; target < 1.5 |
 | **Copper** | ⚪ | 🟢 2.34 | 🟢 4.26 | 🟢 3.15 | ug/l | 2.0 - 80.0 |
 | **Lead** | - | 🔵 0.2 | - | - | ug/l | < 20.0; target < 1.0 |
 | **Lead/Creatinine** | - | 🔵 0.3 | - | - | ug/g creatinine | < 25.0; target < 1.0 |
@@ -307,9 +308,20 @@
 | **Amoeba (Cysts/Trophozoites)** | 🔵<sup>1</sup> not detected | Status | not detected |
 | **Helicobacter pylori Antigen** | 🔵<sup>1</sup> 0.12 (not detected) | Index | < 0.9 |
 | **Giardia lamblia Antigen** | 🔵<sup>1</sup> negative | Status | negative |
+| **Alpha-1 Antitrypsin (Stool)** | 🔵 7.90 | mg/dl | < 27.50; target < 27.50 |
+| **Calprotectin (Stool)** | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
+| **Stool Fat** | 🔵 4.0 | g/100g | < 5.2; target < 5.2 |
+| **Stool Water** | 🔵 71.0 | g/100g | 68.5 - 82.3; target 68.5 - 82.3 |
+| **Stool Protein** | 🔵 1.5 | g/100g | < 1.5; target < 1.5 |
+| **Stool Starch** | 🔵 5.9 | g/100g | 2.6 - 10.6; target 2.6 - 10.6 |
+| **Stool Sugar** | 🟡<sup>1</sup> 2.5 ↑ | g/100g | < 2.3; target < 2.3 |
+| **Bile Acids (Stool)** | 🔵 3.10 | umol/g | 0.46 - 9.96; target 0.46 - 9.96 |
+| **Secretory sIgA (Stool)** | 🟠<sup>1</sup> 5023.4 ↑ | ug/ml | 510 - 2040; target 510 - 2040 |
+| **EPX (Stool)** | 🔵 < 74.00 | ng/ml | < 357.60; target < 357.60 |
+| **Beta-defensin (Stool)** | 🔵 14.93 | ng/ml | 8.00 - 60.00; target 8 - 60 |
 
 **Notes:**
-<sup>1</sup> Abnormal stool pH, mucus/food-residue findings, and leukocytes on mucus are most likely caused by IBS-U. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.
+<sup>1</sup> Abnormal stool pH, mucus/food-residue findings, leukocytes on mucus, elevated fecal calprotectin, high stool sIgA, and elevated stool sugar are most likely related to the current IBS-U/gut-irritation context. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.
 
 ## Stool Culture
 

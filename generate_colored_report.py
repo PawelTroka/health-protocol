@@ -281,9 +281,23 @@ target_overrides = {
     ("Toxicology (Urine)", "Aluminum/Creatinine"): low_good_target("< 15; target < 15", 15.0, 15.0),
     ("Toxicology (Urine)", "Mercury"): low_good_target("< 1.0; target < 1.0", 1.0, 1.0),
     ("Toxicology (Urine)", "Mercury/Creatinine"): low_good_target("< 25; target < 5", 5.0, 25.0),
+    ("Toxicology (Urine)", "Manganese"): low_good_target("< 1.5; target < 1.5", 1.5, 1.5),
     ("Toxicology (Urine)", "Lead"): low_good_target("< 20.0; target < 1.0", 1.0, 20.0),
     ("Toxicology (Urine)", "Lead/Creatinine"): low_good_target("< 25.0; target < 1.0", 1.0, 25.0),
     ("Toxicology (Urine)", "Glyphosate"): low_good_target("< 1.40; target < 1.40", 1.4, 1.4),
+
+    # Stool markers
+    ("Stool Analysis", "Alpha-1 Antitrypsin (Stool)"): low_good_target("< 27.50; target < 27.50", 27.5, 27.5),
+    ("Stool Analysis", "Calprotectin (Stool)"): low_good_target("< 50.00; target < 50", 50.0, 50.0),
+    ("Stool Analysis", "Stool Fat"): low_good_target("< 5.2; target < 5.2", 5.2, 5.2),
+    ("Stool Analysis", "Stool Water"): optimal_range_target("68.5 - 82.3; target 68.5 - 82.3", 68.5, 68.5, 82.3, 82.3),
+    ("Stool Analysis", "Stool Protein"): low_good_target("< 1.5; target < 1.5", 1.5, 1.5),
+    ("Stool Analysis", "Stool Starch"): optimal_range_target("2.6 - 10.6; target 2.6 - 10.6", 2.6, 2.6, 10.6, 10.6),
+    ("Stool Analysis", "Stool Sugar"): low_good_target("< 2.3; target < 2.3", 2.3, 2.3),
+    ("Stool Analysis", "Bile Acids (Stool)"): optimal_range_target("0.46 - 9.96; target 0.46 - 9.96", 0.46, 0.46, 9.96, 9.96),
+    ("Stool Analysis", "Secretory sIgA (Stool)"): optimal_range_target("510 - 2040; target 510 - 2040", 510.0, 510.0, 2040.0, 2040.0),
+    ("Stool Analysis", "EPX (Stool)"): low_good_target("< 357.60; target < 357.60", 357.6, 357.6),
+    ("Stool Analysis", "Beta-defensin (Stool)"): optimal_range_target("8.00 - 60.00; target 8 - 60", 8.0, 8.0, 60.0, 60.0),
 
     # Hormones
     ("Hormonal Panel", "Testosterone (Total)"): high_good_range_target("9.2 - 33.0; target 20 - 33", 9.2, 20.0, 33.0, 40.0),
@@ -1092,6 +1106,7 @@ data = {
         ("Aluminum/Creatinine", "< 8.1", "-", "-", "-", "ug/g creatinine", "< 15"),
         ("Mercury", "< 1.0", "-", "-", "-", "ug/l", "< 1.0"),
         ("Mercury/Creatinine", "< 1.6", "-", "-", "-", "ug/g creatinine", "< 25"),
+        ("Manganese", "< 1.0", "-", "-", "-", "ug/l", "< 1.5"),
         ("Copper", "2.34", "4.26", "3.15", "-", "ug/l", "2.0 - 80.0"),
         ("Lead", "0.2", "-", "-", "-", "ug/l", "< 20.0"),
         ("Lead/Creatinine", "0.3", "-", "-", "-", "ug/g creatinine", "< 25.0"),
@@ -1109,7 +1124,18 @@ data = {
         ("Parasites (Stool Ova)", "negative", "-", "-", "-", "Status", "negative"),
         ("Amoeba (Cysts/Trophozoites)", "not detected", "-", "-", "-", "Status", "not detected"),
         ("Helicobacter pylori Antigen", "0.12 (not detected)", "-", "-", "-", "Index", "< 0.9"),
-        ("Giardia lamblia Antigen", "negative", "-", "-", "-", "Status", "negative")
+        ("Giardia lamblia Antigen", "negative", "-", "-", "-", "Status", "negative"),
+        ("Alpha-1 Antitrypsin (Stool)", "7.90", "-", "-", "-", "mg/dl", "< 27.50"),
+        ("Calprotectin (Stool)", "291.70", "-", "-", "-", "ug/g", "< 50.00"),
+        ("Stool Fat", "4.0", "-", "-", "-", "g/100g", "< 5.2"),
+        ("Stool Water", "71.0", "-", "-", "-", "g/100g", "68.5 - 82.3"),
+        ("Stool Protein", "1.5", "-", "-", "-", "g/100g", "< 1.5"),
+        ("Stool Starch", "5.9", "-", "-", "-", "g/100g", "2.6 - 10.6"),
+        ("Stool Sugar", "2.5", "-", "-", "-", "g/100g", "< 2.3"),
+        ("Bile Acids (Stool)", "3.10", "-", "-", "-", "umol/g", "0.46 - 9.96"),
+        ("Secretory sIgA (Stool)", "5023.4", "-", "-", "-", "ug/ml", "510.0 - 2040.0"),
+        ("EPX (Stool)", "< 74.00", "-", "-", "-", "ng/ml", "< 357.60"),
+        ("Beta-defensin (Stool)", "14.93", "-", "-", "-", "ng/ml", "8.00 - 60.00")
     ],
     "Stool Culture": [
         ("Salmonella species", "negative", "-", "-", "-", "Status", "negative"),
@@ -1260,9 +1286,9 @@ result_notes = {
     ],
     "Stool Analysis": [
         {
-            "text": "Abnormal stool pH, mucus/food-residue findings, and leukocytes on mucus are most likely caused by IBS-U. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.",
+            "text": "Abnormal stool pH, mucus/food-residue findings, leukocytes on mucus, elevated fecal calprotectin, high stool sIgA, and elevated stool sugar are most likely related to the current IBS-U/gut-irritation context. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.",
             "markers": [
-                {"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Leukocytes on Mucus", "Parasites (Stool Ova)", "Amoeba (Cysts/Trophozoites)", "Helicobacter pylori Antigen", "Giardia lamblia Antigen"], "target": "value", "dates": ["2026-07"]},
+                {"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Leukocytes on Mucus", "Parasites (Stool Ova)", "Amoeba (Cysts/Trophozoites)", "Helicobacter pylori Antigen", "Giardia lamblia Antigen", "Calprotectin (Stool)", "Stool Sugar", "Secretory sIgA (Stool)"], "target": "value", "dates": ["2026-07"]},
             ],
         },
     ],
