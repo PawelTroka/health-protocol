@@ -123,7 +123,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Bile acids](https://www.alab.pl/badanie/kwasy-zolciowe-w-kale-m53)**: Bile acids in stool 🚽 🟤
 - *(Optional)* **[Histamine](https://www.alab.pl/badanie/histamina-w-kale)**: Histamine in stool for investigation of histamine-related food intolerance 🦠 🚽
 - *(Optional)* **[Butyric Acid](https://www.alab.pl/badanie/kwas-maslowy-w-kale)**: Butyric acid in stool for assessment of dysbiosis and short-chain fatty-acid production 🦠 🚽
-- *(Optional)* **[Stool Fat](https://www.alab.pl/badanie/bilans-tluszczowy-w-kale)**: Quantitative 24-hour stool fat assessment 🚽 🟤
+- *(Highly Optional)* **[Stool Fat](https://www.alab.pl/badanie/bilans-tluszczowy-w-kale)**: Quantitative 24-hour stool fat assessment 🚽 🟤
 - *(Optional)* **[Lactoferrin](https://diag.pl/sklep/badania/laktoferyna-w-kale-met-elisa/)**: Fecal lactoferrin by ELISA, a marker of intestinal inflammation 🦠 🔥 🛡️
 - *(Optional)* **[M2-PK](https://diag.pl/sklep/badania/m2-pk-w-kale-met-elisa/)**: Fecal M2 pyruvate kinase by ELISA for screening proliferative intestinal changes 🚽 🛡️
 - *(Optional)* **[FloraGEN - Genetic Gut Microbiota](https://www.alab.pl/badanie/mikrobiota-genetyczna-floragen)**: Genetic Gut Microbiota Research (Dysbiosis Index) 🦠 🚽 ⏰
