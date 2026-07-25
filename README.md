@@ -79,6 +79,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Ceruloplasmin](https://www.alab.pl/badanie/ceruloplazmina-i95)**: Ceruloplasmin 🟤 🧠
 - **[Serum Copper](https://www.alab.pl/badanie/miedz-w-surowicy-g68)**: Copper in serum 🟤 🧠
 - **[Celiac Disease Diagnostic Package](https://www.alab.pl/pakiet/celiakia-pakiet-diagnostyczny)**: Serum IgA Immunoglobulin, Anti-deamidated gliadin peptide (DGP) IgG, Anti-tissue transglutaminase (tTG) IgA 🦠 🛡️ 🔥
+- *(Optional)* **[Intestinal IgG Panel](https://diag.pl/sklep/badania/panel-jelitowy-pc-pkom-zewnatrzwydziel-trzustki-i-kom-kubk-jelitascaanca-met-iif/)**: Autoantibodies against exocrine pancreatic cells and intestinal goblet cells, ANCA, and ASCA (IIF) 🦠 🛡️ 🔥
 - **[Myositis Profile](https://www.alab.pl/pakiet/profil-myositis-profil-zapalenia-miesni)**: Myositis-associated antibodies (Jo-1, PL-7, Mi-2, etc.) & Antinuclear Antibodies (ANA) 💪 🔥 🛡️
 - **[STDs](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)**: Chlamydia trachomatis (IgG and IgM antibodies), HBs antibodies (Hepatitis B), HCV antibodies (Hepatitis C), HIV screening test (anti-HIV 1/2 and p24 antigen), HSV (Herpes) type 1/2 (IgG and IgM antibodies), Syphilis screening test (WR) 🛡️ 🍆
 - *(Optional)* **[Telomere Length (Biological Age)](https://www.alab.pl/badanie/badanie-dlugosci-telomerow-wiek-biologiczny)**: Telomere Length in blood leukocytes ⏰ 👨‍🦳
@@ -111,12 +112,20 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[General analysis](https://www.alab.pl/badanie/kal-badanie-ogolne-i-ocena-resztek-pokarmowych-a23)**: Stool analysis and food residue assessment 🚽 🦠
 - **[Fecal Occult Blood](https://www.alab.pl/badanie/wykryw-krwi-utaj-w-kale-met-immunochemiczna-a17)**: Fecal Occult Blood Test (FOBT) - Immunochemical Method 🚽 🛡️ 🩸
 - **[Intestinal Inflammation](https://www.alab.pl/pakiet/pakiet-stanu-zapalnego-jelit)**: Beta-defensins, EPX (Eosinophil Protein X), Alpha-1-antitrypsin, Secretory sIgA, Calprotectin in stool 🦠 🔥 🛡️
+- **[Pancreatic Elastase](https://www.alab.pl/badanie/trzustkowa-elastaza-1-w-kale-k83)**: Pancreatic elastase in stool for assessment of exocrine pancreatic function 🚽 🟤
+- **[Zonulin](https://www.alab.pl/badanie/zonulina-w-kale)**: Zonulin in stool, a marker of intestinal-barrier permeability 🦠 🚽
 - **[Helicobacter pylori](https://www.alab.pl/badanie/helicobacter-pylori-w-kale-antygen-metoda-automatyczna-u15)**: Helicobacter pylori antigen in stool 🦠 🚽 🛡️
 - **[Giardia lamblia](https://www.alab.pl/badanie/lamblie-w-kale-giardia-lamblia-antygenx13)**: Giardia lamblia antigen in stool 🦠 🚽 🛡️
 - **[Parasites](https://www.alab.pl/badanie/badanie-kalu-w-kierunku-pasozytow-jedno-oznaczenie-a21)**: Parasites in stool (single determination) 🦠 🚽 🛡️
 - **[Amoeba](https://www.alab.pl/badanie/badanie-kalu-w-kierunku-ameby)**: Amoeba (Entamoeba histolytica) stool test 🦠 🚽 🛡️
 - **[Stool Culture](https://www.alab.pl/badanie/posiew-kalu-91831)**: Stool culture 🦠 🚽 🛡️
+- **[Gastrointestinal Infections - 22 Pathogens](https://diag.pl/sklep/pakiety/e-pakiet-infekcje-przewodu-pokarmowego-22-patogeny/)**: PCR stool panel for 22 viral, bacterial, and parasitic gastrointestinal pathogens 🦠 🚽 🛡️
 - **[Bile acids](https://www.alab.pl/badanie/kwasy-zolciowe-w-kale-m53)**: Bile acids in stool 🚽 🟤
+- *(Optional)* **[Histamine](https://www.alab.pl/badanie/histamina-w-kale)**: Histamine in stool for investigation of histamine-related food intolerance 🦠 🚽
+- *(Optional)* **[Butyric Acid](https://www.alab.pl/badanie/kwas-maslowy-w-kale)**: Butyric acid in stool for assessment of dysbiosis and short-chain fatty-acid production 🦠 🚽
+- *(Optional)* **[Stool Fat](https://www.alab.pl/badanie/bilans-tluszczowy-w-kale)**: Quantitative 24-hour stool fat assessment 🚽 🟤
+- *(Optional)* **[Lactoferrin](https://diag.pl/sklep/badania/laktoferyna-w-kale-met-elisa/)**: Fecal lactoferrin by ELISA, a marker of intestinal inflammation 🦠 🔥 🛡️
+- *(Optional)* **[M2-PK](https://diag.pl/sklep/badania/m2-pk-w-kale-met-elisa/)**: Fecal M2 pyruvate kinase by ELISA for screening proliferative intestinal changes 🚽 🛡️
 - *(Optional)* **[FloraGEN - Genetic Gut Microbiota](https://www.alab.pl/badanie/mikrobiota-genetyczna-floragen)**: Genetic Gut Microbiota Research (Dysbiosis Index) 🦠 🚽 ⏰
 
 ### Cardiovascular Health
