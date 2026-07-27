@@ -371,8 +371,8 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Psyllium Husk 5g](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸
 - [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) 💪 🛡️ 🦠
 - 💊 pills:
-- [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 ❤️ 🫀 🍅 ⚕️
-- [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
+  - [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 ❤️ 🫀 🍅 ⚕️
+  - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - [Lion's Mane 500mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133) 🧠 🛡️
@@ -380,8 +380,8 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Boron 6mg](https://allegro.pl/oferta/bor-6-mg-120-kaps-boroglicynian-chelat-kosci-testosteron-libido-mozg-balans-17582349255) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🍆 🦴 🧠
 - [Rhodiola Rosea 600mg](https://allegro.pl/oferta/r2g-rhodiola-600mg-rozeniec-gorski-stres-120-dni-120-kaps-11311651115) 🧠 😌 ⚡ 🍆
 - [Horsetail 500mg](https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163) 💇‍♂️ 👨‍🦳 🦴
-- [Biotin 2.5mg](https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586) (note: 50x rdd) 💇‍♂️ 👨‍🦳 💅
-- (empty)
+  - [Biotin 2.5mg](https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586) (note: 50x rdd) 💇‍♂️ 👨‍🦳 💅
+  - (empty)
 - 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-500mg-60-kapsulek-alfa-ketoklutaran-wapnia-hpmc-energia-vegan-17742452223) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
 - 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetylo-l-karnityna-750-mg-90-tabl-energia-metabolizm-sila-17924420336) 🧠 ⚡
 - [Bifidobacterium infantis 35624 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671) 🦠 🚽 🛡️
@@ -389,8 +389,8 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450) 🦠 🚽 🛡️
 - Luteolin 100mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🔥 🛡️ 🧠 ⏰
 - Anti-grey hair formula:
-- 3x [Catalase 6250 IU](https://www.amazon.pl/dp/B00LPJLZSG) 💇‍♂️
-- 2x [PABA 500mg](https://allegro.pl/oferta/now-foods-paba-500mg-witamina-b10-wlosy-skora-100k-11690065696) 💇‍♂️ 👨‍🦳
+- 3x [Catalase 6250 IU](https://www.amazon.pl/dp/B00LPJLZSG) TBD 💇‍♂️
+- 2x [PABA 500mg](https://allegro.pl/oferta/now-foods-paba-500mg-witamina-b10-wlosy-skora-100k-11690065696) TBD 💇‍♂️ 👨‍🦳
 
 
 ### Lunch
@@ -398,8 +398,8 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - Life Extension Two-Per-Day or Mutant Multi or Animal Pak 🍎 🛡️ 💪
 - 2x [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003) 🧠 ❤️ 👁️ 🔥
-- [Fisetin 400mg](https://allegro.pl/oferta/forest-vitamin-fisetyna-400mg-60kaps-16458484396) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 🛡️ 🔥
-- Ezetimibe
+  - [Fisetin 400mg](https://allegro.pl/oferta/forest-vitamin-fisetyna-400mg-60kaps-16458484396) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 🛡️ 🔥
+  - Ezetimibe
 - [Lutein 18mg + Zeaxanthin 2mg](https://allegro.pl/oferta/ostrovit-luteina-zeaksantyna-60-caps-na-wzrok-16362502894) [[BJ-ES 10mg+2mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🧠 🛡️
 - [Co Q10 100mg](https://allegro.pl/oferta/ostrovit-ubichinon-koenzym-q10-vege-100-kaps-100-mg-na-3-miesiace-11566562378)  [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
 - [Ginger 540mg](https://allegro.pl/oferta/swanson-imbir-ginger-root-540-mg-ekstrakt-trawienie-metabolizm-100-kapsulek-14700837221) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🚽 🍆 🧠
@@ -467,17 +467,18 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Vitamin K1 1.5mg + K2 MK4 1mg + K2 MK7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436)<sup>1</sup> [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
 - [Ashwagandha KSM-66 500mg](https://allegro.pl/oferta/ashwagandha-ekstrakt-ksm-66-500mg-koncentracja-pamiec-gymbeam-90-kapsulek-14961267046) 😌 😴 🍆 🧠
 - [GABA 750mg](https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224) 😴 😌 💪
-- [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-240-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17173926212) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
-- Optional [Melatonin 1mg](https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158) 😴 ⏰ 🛡️
+  - [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-240-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17173926212) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
+  - Optional [Melatonin 1mg](https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158) 😴 ⏰ 🛡️
 - [Glucosamine Sulfate 2KCl 1500mg](https://nuunutrition.com/products/glucosamine-sulphate-1500-mg-2kcl-tablets) <sup>4,5</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
-- [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) (e2d) 💇‍♂️ 🍅 ⚕️
-- [Minoxidil 5mg](https://hairrepairclinic.co.uk/product/oral-minoxidil-5mg) 💇‍♂️ 🧔 ⚕️
+  - [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) (e2d) 💇‍♂️ 🍅 ⚕️
+  - [Minoxidil 5mg](https://hairrepairclinic.co.uk/product/oral-minoxidil-5mg) 💇‍♂️ 🧔 ⚕️
 - [Sodium Butyrate 600mg](https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216) 🦠 🧠 🛡️ ⏰
 - 3x [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
-- [Isotretinoin (Acutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) (weekly) 👨‍🦳 ⏰ ⚕️
-- [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924)
+  - [Isotretinoin (Acutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) (weekly) 👨‍🦳 ⏰ ⚕️
+  - [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924)
 - [Spermidine 10mg](https://allegro.pl/oferta/spermidyna-10-mg-kapsulki-hpmc-120-sztuk-17703352905) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
-- 2x [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475) 🚽 🦠 🩸
+  - [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475) 🚽 🦠 🩸
+  - [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475) 🚽 🦠 🩸  
 - Lithium 1mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧠 😌 ⏰
 
 ## 6. Looksmaxxing
