@@ -640,6 +640,11 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Use **100% Bamboo** toilet paper to avoid bleach, BPA, and microplastics found in recycled or standard paper:
   - [The Cheeky Panda Bamboo Toilet tissue](https://allegro.pl/oferta/papier-toaletowy-3-warstwowy-bambusowy-miekki-48-rolek-opakowanie-rodzinne-14511919365) 🚽 🛡️
 
+### Laundry
+- Use **Denkmit Ultra Sensitive laundry powder** as the preferred low-irritant option. The formulas have no added perfume, dyes, or preservatives and are suitable for allergy-sensitive skin:
+  - [For white and light fabrics](https://allegro.pl/oferta/denkmit-ultra-sensitive-proszek-alergia-20-40-9204338053)
+  - [For colored fabrics](https://allegro.pl/produkt/denkmit-ultra-sensitive-proszek-1-35kg-20-de-5c3bae07-8156-4e9f-bb31-888d171ef30a)
+
 
 ## 9. Vaccines
 - Tuberculosis (BCG)	(given in childhood) ✅
