@@ -340,7 +340,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - [White Matcha](https://allegro.pl/listing?string=bia%C5%82a%20matcha%20proszek) 🧠 ❤️ 🛡️ ⏰ (Stone-ground white tea, extremely high in delicate polyphenols and flavonoids)
 - Berries (Raspberries, strawberries, blueberries) 🧠 🛡️ ❤️ 👁️
 - Broccoli / cauliflower 🛡️ 🦠 🍅
-- Kimchi / Sauerkraut 🦠 🛡️ 🔥 (Essential for microbiome diversity and lowering systemic inflammation)
+- Kimchi / [Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343) 🦠 🛡️ 🔥 (Essential for microbiome diversity and lowering systemic inflammation)
 - Cocoa flavanols ❤️ 🧠 🛡️
 - Dark chocolate ❤️ 🧠 😌 🛡️
 - Avocado ❤️ 🧠 🌾 (Highest source of monounsaturated fats, potassium, and fiber)
