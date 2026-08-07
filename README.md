@@ -348,7 +348,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - [Shiitake mushrooms](https://allegro.pl/produkt/kapelusze-shitake-grzybek-suszone-weganskie-500-g-02d5a7de-7cee-43e0-b890-d2c5559e4281?offerId=12880841828) and maitake mushrooms 🛡️ 🦠 🧠 ⏰
 - Ground linseed 🫀 🚽 🔥
 - Chia seeds 🫀 🚽 🧠
-- Macadamia nuts ❤️ 🧠 ⏰
+- [Macadamia nuts](https://allegro.pl/kategoria/bakalie-orzechy-pestki-orzechy-261230?order=ppu&rodzaj-orzechow=orzechy%20makadamia&certyfikat=Certyfikat%20produkcji%20ekologicznej%20UE) ❤️ 🧠 ⏰
 - Apple cider vinegar 🦠 🚽 🩸
 - Cinnamon 🩸 🔥 🧠
 - Hemp seeds 🧠 ❤️ 🔥
