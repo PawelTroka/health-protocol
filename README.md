@@ -337,7 +337,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ### Healthy Additions (to meals / during meals / after meals)
 - [Extra virgin olive oil](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
 - [Broccoli sprouts](https://allegro.pl/kategoria/zdrowa-zywnosc-kielki-261781?rodzaj=brokuł&certyfikat=Certyfikat%20produkcji%20ekologicznej%20UE) 🛡️ 🦠 ⏰ (Sulforaphane powerhouse, 10-100x higher than mature broccoli)
-- [White Matcha](https://allegro.pl/listing?string=bia%C5%82a%20matcha%20proszek) 🧠 ❤️ 🛡️ ⏰ (Stone-ground white tea, extremely high in delicate polyphenols and flavonoids)
+- White or [Green Matcha](https://allegro.pl/oferta/herbata-zielona-matcha-codzienna-japonska-bio-100-g-moya-matcha-18135123492) 🧠 ❤️ 🛡️ ⏰ (Stone-ground white tea, extremely high in delicate polyphenols and flavonoids)
 - Berries (Raspberries, strawberries, blueberries) 🧠 🛡️ ❤️ 👁️
 - Broccoli / cauliflower 🛡️ 🦠 🍅
 - Kimchi / [Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343) 🦠 🛡️ 🔥 (Essential for microbiome diversity and lowering systemic inflammation)
