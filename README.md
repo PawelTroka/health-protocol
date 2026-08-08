@@ -274,102 +274,107 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Joker**: A random sport used for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)*
 
 ## 4. Diet
-#### Protein-sparing Mediterranean CR
-*2370kcal / 211g proteins / 104g fats / 148g carbs*
 
-### Pre-breakfast (9am)
-- [Morning supplements](#morning-fasted)
-- 500-1000ml of water
+### Mediterranean cut — health, performance, libido & aesthetics
 
-### Breakfast (10am)
-*150kcal / 26g proteins / 1g fats / 8g carbs*
-- 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪 🛡️ 🦠
-- handful of berries
-- 1 tsp cocoa flavanols or cinnamon
+> **Reference:** the latest logged scan (83 kg at 17.4%) and the earlier working estimate (82 kg at 16%) both imply about **68.6–68.9 kg fat-free mass**. First checkpoint: **77 kg at roughly 10.5–11% body fat** if lean mass is retained. A true 9% would be about **75.3–75.7 kg** and is optional, not a longevity target.
+>
+> **Tracked seven-day average:** **2,007.6 kcal | 177.8 g protein | 149.6 g available carbohydrate | 62.6 g fat | 41.9 g fiber**. Protein includes one modeled 13 g collagen dose; non-collagen protein averages about **165 g/day**. Total carbohydrate including fiber averages **191.5 g/day**.
+>
+> This is a **reference cut**, not a guaranteed deficit. Do not drop to it if the current verified intake already produces a 0.2–0.5 kg/week loss.
 
-### 🍽️ Lunch (1:00 PM)
-*990kcal / 81g proteins / 41g fats / 74g carbs*
-- 🥩 75g of lean high-quality protein — choose ONE (ranked)
-  - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪 🧠 (rinse with water first to remove sodium metabisulfite and salt)
-  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
-  - [ ] 360g of [organic pasture-raised turkey tenderloins](https://www.spizarniarydzynska.pl/poledwiczki-z-indyka-0,5kg) 💪 🧠
-  - [ ] 360g of organic pasture-raised chicken tenderloins 💪
-- 🌾 60g of complex carbohydrates — choose ONE (ranked)
-  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
-  - [ ] 100g black/red lentils 🖤 ❤️ 🦠 🚽 🌾
-  - [ ] 100g chickpeas 🫘 🦠 🚽 🌾
-  - [ ] 100g black/red beans 🫘 🦠 🚽 🌾
-  - [ ] 355g orange sweet potatoes 🌾 🧠
-- 14 g extra virgin olive oil (for cooking) ❤️🧠🔥
-- 20g of macadamia nuts (small handful) ❤️🧠⏰
-- 2 pieces of dark chocolate (85%+) ❤️🧠😌🛡️
-- [Lunch supplements](#lunch)
+#### Week at a glance
 
-### Right before workout
-- [Before workout supplements](#before-workout)
+Every day follows the Monday meal structure below; only the sweet-potato amount, lunch module, dinner module, seed and fermented vegetable change according to this table.
 
-### Right after workout
-*115kcal / 26g proteins*
-- [After workout supplements](#after-workout)
-- 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪🛡️🦠
+| Day | Training | Baked sweet potato | Lunch → dinner module | Seed · ferment | kcal | P | C¹ | F | Fiber |
+| :--- | :--- | ---: | :--- | :--- | ---: | ---: | ---: | ---: | ---: |
+| Mon | Push | 250 g | Turkey → salmon + lentils | Flax · sauerkraut | 1,997.3 | 175.3 g | 143.4 g | 64.7 g | 43.3 g |
+| Tue | Pull | 250 g | Chicken → eggs + chickpeas | Chia · kimchi | 1,988.7 | 176.6 g | 150.1 g | 60.5 g | 41.1 g |
+| Wed | Legs | 350 g | Turkey → Atlantic mackerel + black beans | Hulled hemp · sauerkraut | 2,087.4 | 179.0 g | 163.9 g | 63.4 g | 45.1 g |
+| Thu | Push | 250 g | Shrimp → eggs + chickpeas | Flax · kimchi | 1,995.4 | 177.3 g | 149.8 g | 63.0 g | 40.4 g |
+| Fri | Pull | 250 g | Chicken → sardines + lentils | Chia · sauerkraut | 1,990.8 | 175.6 g | 144.0 g | 63.1 g | 44.0 g |
+| Sat | Zone 2 | 150 g | Turkey → eggs + chickpeas | Hulled hemp · kimchi | 1,904.3 | 176.3 g | 132.4 g | 62.1 g | 34.8 g |
+| Sun | Sprints / sport | 350 g | Chicken → turkey + chickpeas | Flax · sauerkraut | 2,089.1 | 184.8 g | 163.5 g | 61.3 g | 44.5 g |
+| **Average** |  | **264 g** |  |  | **2,007.6** | **177.8 g** | **149.6 g** | **62.6 g** | **41.9 g** |
 
-### Dinner (9pm)
-*1120kcal / 77g proteins / 61g fats / 65g carbs*
-- 🥩 75g of fatty high-quality protein with 47g fat — choose ONE (ranked)
-  - [ ] 360g of wild-caught, fresh [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🧠 ❤️ 👁️ 🍆
-  - [ ] 360g of [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🧠 ❤️ 👁️ 🍆
-  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
-  - [x] 360g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠 ❤️ 👁️ 🍆
-- 🌾 60g of complex carbohydrates — choose ONE (ranked)
-  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
-  - [ ] 100g black/red lentils 🖤 ❤️ 🦠 🚽 🌾
-  - [ ] 100g chickpeas 🫘 🦠 🚽 🌾
-  - [ ] 100g black/red beans 🫘 🦠 🚽 🌾
-  - [ ] 355g orange sweet potatoes 🌾 🧠
-- 14g of extra virgin olive oil for cooking ❤️🧠🔥
-- [Before sleep supplements](#evening)
+<sup>1</sup> **C = EU-style available carbohydrate; fiber is separate.** Food-label/database energy is summed item by item, so kcal need not equal `4P + 4C + 9F` exactly.
 
-### Healthy Spices
-- Turmeric 🔥 🧠 🛡️ ❤️
-- Cumin 🦠 🚽 🔥
-- Garlic ❤️ 🛡️ 🩸 🍆
+#### Reference normal day — Monday
 
-### Healthy Additions (to meals / during meals / after meals)
-- [Extra virgin olive oil](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
-- [Broccoli sprouts](https://allegro.pl/kategoria/zdrowa-zywnosc-kielki-261781?rodzaj=brokuł&certyfikat=Certyfikat%20produkcji%20ekologicznej%20UE) 🛡️ 🦠 ⏰ (Sulforaphane powerhouse, 10-100x higher than mature broccoli)
-- White or [Green Matcha](https://allegro.pl/oferta/herbata-zielona-matcha-codzienna-japonska-bio-100-g-moya-matcha-18135123492) 🧠 ❤️ 🛡️ ⏰ (Stone-ground white tea, extremely high in delicate polyphenols and flavonoids)
-- Berries (Raspberries, strawberries, blueberries) 🧠 🛡️ ❤️ 👁️
-- Broccoli / cauliflower 🛡️ 🦠 🍅
-- Kimchi / [Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343) 🦠 🛡️ 🔥 (Essential for microbiome diversity and lowering systemic inflammation)
-- Cocoa flavanols ❤️ 🧠 🛡️
-- Dark chocolate ❤️ 🧠 😌 🛡️
-- Avocado ❤️ 🧠 🌾 (Highest source of monounsaturated fats, potassium, and fiber)
-- Pomegranate ❤️ ⏰ 🔥 (Arterial health and precursor for Urolithin A)
-- [Shiitake mushrooms](https://allegro.pl/produkt/kapelusze-shitake-grzybek-suszone-weganskie-500-g-02d5a7de-7cee-43e0-b890-d2c5559e4281?offerId=12880841828) and maitake mushrooms 🛡️ 🦠 🧠 ⏰
-- Ground linseed 🫀 🚽 🔥
-- Chia seeds 🫀 🚽 🧠
-- [Macadamia nuts](https://allegro.pl/kategoria/bakalie-orzechy-pestki-orzechy-261230?order=ppu&rodzaj-orzechow=orzechy%20makadamia&certyfikat=Certyfikat%20produkcji%20ekologicznej%20UE) ❤️ 🧠 ⏰
-- Apple cider vinegar 🦠 🚽 🩸
-- Cinnamon 🩸 🔥 🧠
-- Hemp seeds 🧠 ❤️ 🔥
-- Brazil nuts 🧠 🍆 🛡️
-- Sunflower lecithin 🧠 ❤️ 🍆
-- Ginger root 🔥 🚽 🍆 🧠
-- Cherries 😴 🔥 🛡️
-- Lime 🍋 🦠 🚽
-- Hummus 🌱 🦠 ❤️
-- Macadamia nut milk ❤️ 🧠 ⏰
-- Grapefruit juice 💊 🩸 🚽
+| Time | Meal | Build used for model | kcal | P | C¹ | F | Fiber |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: |
+| 09:00–10:00 | Breakfast | Fortified unsweetened soy drink 250 ml + collagen 13 g + mixed berries 100 g + ground flax 10 g + cocoa 5 g | 246.3 | 24.9 g | 8.9 g | 9.8 g | 9.7 g |
+| 13:00 | Lunch | Turkey module + baked sweet potato 250 g + cooked parboiled rice 130 g + vegetable mix 100 g | 692.8 | 56.0 g | 81.0 g | 10.4 g | 12.1 g |
+| 60–90 min pre-workout | Fruit | Pomegranate arils 100 g | 83.0 | 1.7 g | 14.7 g | 1.2 g | 4.0 g |
+| Post-workout | Shake | [Spomlek WPI 40 g](https://allegro.pl/oferta/spomlek-izolat-bialka-serwatkowego-wpi90-odzywka-bialkowa-naturalny-700g-16539824983) + fortified unsweetened soy drink 250 ml | 232.5 | 43.0 g | 1.7 g | 4.9 g | 1.5 g |
+| 20:00–21:00 | Dinner | Salmon + lentils module + vegetable mix 100 g + sauerkraut 50 g + cherries 100 g | 712.7 | 48.7 g | 32.1 g | 38.4 g | 15.0 g |
+| Across the day | Approx. flavor allowance | Matcha 2 g + garlic 5 g + ginger 5 g + lime juice 30 g + up to 2 g total turmeric/cumin/cinnamon | 30.0 | 1.0 g | 5.0 g | 0.0 g | 1.0 g |
+| **Total** |  |  | **1,997.3** | **175.3 g** | **143.4 g** | **64.7 g** | **43.3 g** |
+
+**Daily fixed recipe:** berries are equal parts blueberry, raspberry and strawberry. Sweet potato is baked flesh only, without added fat, weighed cooked. Each lunch and dinner vegetable mix is **cooked/drained** 40 g broccoli + 40 g cauliflower + 20 g shiitake. Rice is always 130 g cooked; fermented vegetables are 50 g; seeds are 10 g. The modeled [Alpro soy drink](https://www.alpro.com/pl/produkty/napoje/alpro-sojowe-nieslodzone/) provides **33 kcal, 3.3 g protein, 0 g available carbohydrate, 1.8 g fat, 0.6 g fiber and 120 mg calcium per 100 ml**. Collagen is modeled as **52 kcal and approximately 13 g protein per 13 g**. If either package label differs, use that label and recalculate.
+
+<details>
+<summary><strong>Exact protein modules and reference macros</strong></summary>
+
+All meat, poultry, shrimp and fish weights below are **cooked edible weights**. Whole eggs use **150 g hard-boiled edible weight** (three eggs is only a portioning guide); sardines use the linked product's drained weight; egg whites are weighed as poured and must provide about **48 kcal, 10.2 g protein, 1.0 g carbohydrate and 0 g fat per 100 g**; legumes are cooked and drained. Oils, nuts and powders are weighed as sold.
+
+| Lunch module | Exact build | kcal | P | C¹ | F |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| Shrimp | Shrimp 190 g + EVOO 10 g | 276.5 | 45.6 g | 0.4 g | 10.5 g |
+| Turkey | Turkey breast 150 g + EVOO 6 g | 273.5 | 45.2 g | 0.0 g | 9.1 g |
+| Chicken | Chicken breast 145 g + EVOO 4 g | 274.6 | 45.0 g | 0.0 g | 9.2 g |
+
+| Dinner module | Exact build | kcal | P | C¹ | F | Fiber |
+| :--- | :--- | ---: | ---: | ---: | ---: | ---: |
+| Salmon + lentils | Salmon 160 g + lentils 100 g + EVOO 10 g + macadamias 10 g | 605.8 | 45.2 g | 12.8 g | 37.7 g | 8.8 g |
+| Eggs + chickpeas | Hard-boiled whole eggs 150 g edible weight (~3 eggs) + pasteurized egg whites 200 g + chickpeas 75 g + EVOO 9 g + macadamias 10 g | 602.9 | 46.7 g | 19.1 g | 34.4 g | 6.6 g |
+| Atlantic mackerel + beans | Fresh baked Atlantic mackerel 150 g + black beans 100 g + macadamias 11 g | 604.0 | 45.5 g | 15.6 g | 35.6 g | 9.6 g |
+| Sardines + lentils | [Delicius sardine fillets in olive oil](https://www.delicius.it/en/product/sardine-fillets-in-olive-oil-120-g/) 160 g drained + lentils 100 g + EVOO 1 g + macadamias 10 g | 603.0 | 45.8 g | 12.8 g | 37.3 g | 8.8 g |
+| Turkey + chickpeas | Turkey breast 150 g + chickpeas 75 g + EVOO 20 g + macadamias 12 g | 606.5 | 52.8 g | 15.5 g | 34.2 g | 6.7 g |
+
+The macadamias and oil shown inside each module are the day's allowance, not additions on top.
+
+</details>
+
+#### Control panel
+
+| 14-day weight trend | Action |
+| :--- | :--- |
+| Less than 0.2 kg/week | Remove 100 g cooked rice: about **−123 kcal and −25 g available carbohydrate/day** |
+| 0.2–0.5 kg/week | Hold everything |
+| More than 0.5 kg/week, or worsening libido/morning erections, sleep, mood, temperature, recovery or gym performance | Add 100 g cooked rice around training: about **+123 kcal and +25 g available carbohydrate/day** |
+
+Use the seven-day average of daily morning weigh-ins. Keep sodium and water consistent; dehydration and ultra-low sodium are not sustainable looksmaxxing tools. Reassess appearance, performance, sleep and libido at 77 kg before deciding whether to continue.
+
+#### Health and tracking guardrails
+
+- **GI gate:** fecal calprotectin is currently 291.7 µg/g. Values at or above 250 µg/g warrant prompt gastroenterology follow-up to exclude inflammatory disease; do not assume this is only IBS. Until clarified, **41.9 g fiber is a weekly-average upper reference, not a target** (individual days span 34.8–45.1 g): psyllium is paused, and symptomatic crucifers, legumes, berries, seeds or ferments should not be forced.
+- **Micronutrients:** 500 ml of the specified fortified soy drink supplies 600 mg calcium. Use iodized household salt for discretionary salt, keep total sodium consistent, and do not stack kelp/high-dose iodine. Seafood, eggs and poultry already make Brazil-nut selenium “optimization” unnecessary.
+- **Seafood:** this plan has three low-mercury fish meals plus one shrimp meal weekly. Use Norwegian farmed Atlantic salmon, fresh **Atlantic** mackerel (not king mackerel or an oil-packed substitute), and the specified drained sardines; do not add daily seafood on top.
+- **Nothing is literally free:** the fixed matcha/spice/garlic/ginger/lime portions are already covered by the 30 kcal budget. Always log extra oil, nuts/seeds, chocolate, avocado, hummus, fruit, juice, soy drink, starches and legumes.
+- **Scope:** totals include the single daily collagen and WPI servings above. The one label-dose omega-3 capsule now listed in Section 5 adds about **9 kcal and 1 g fat/day** and is not included; any label-declared energy from other amino-acid or pre-workout powders must also be logged.
+
+<details>
+<summary><strong>Data and evidence basis</strong></summary>
+
+- Food composition: [USDA FoodData Central SR Legacy](https://fdc.nal.usda.gov/download-datasets/); branded foods use their current labels. Product labels override the reference model.
+- The protein level is about 2.4 g/kg estimated fat-free mass after excluding collagen, within the evidence-based range used during energy restriction; the goal is lean-mass retention, not maximum possible protein.
+- The deficit is governed by the measured weight trend because prolonged large deficits can impair lean-mass gain and low energy availability can impair health, performance and sexual function.
+- Polish guidance supports iodized salt within the sodium budget and favors low-mercury fish; routine Brazil nuts and fish-oil dosing above the product label are not required to make the food pattern “complete.”
+
+Evidence anchors: [protein during athletic weight loss](https://pubmed.ncbi.nlm.nih.gov/25014731/), [energy deficit and lean mass](https://pubmed.ncbi.nlm.nih.gov/34623696/), [IOC REDs consensus](https://bjsm.bmj.com/content/57/17/1073), [Polish fish guidance](https://ncez.pzh.gov.pl/abc-zywienia/ryby-w-diecie-korzysci-i-zagrozenia/), [Polish iodine guidance](https://ncez.pzh.gov.pl/abc-zywienia/sol-czy-jej-odstawienie-powoduje-niedobor-jodu/), [fecal-calprotectin threshold](https://gut.bmj.com/content/70/7/1214).
+
+</details>
 
 ## 5. Supplements and drugs
 Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
 ### Morning (fasted)
 
 - 💨 powders:
-- [Collagen peptides 13g](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+- [Collagen peptides 13g](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) with breakfast *(single daily dose; included in [Diet](#4-diet) totals)* [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [Creatine monohydrate 5g](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
-- [Psyllium Husk 5g](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸
-- [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) 💪 🛡️ 🦠
+- ~[Psyllium Husk 5g](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939)~ *(paused while the elevated fecal calprotectin/GI irritation is evaluated; the food plan already averages about 42 g fiber)* 🚽 🦠 🩸
 - 💊 pills:
   - [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 ❤️ 🫀 🍅 ⚕️
   - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
@@ -397,7 +402,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
 - Life Extension Two-Per-Day or Mutant Multi or Animal Pak 🍎 🛡️ 💪
-- 2x [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003) 🧠 ❤️ 👁️ 🔥
+- 1x [Omega 3 500mg EPA + 250mg DHA](https://ostrovit.com/en/products/ostrovit-omega-3-extreme-90-capsules-25585.html) *(manufacturer's daily serving; about 9 kcal and 1 g fat, not included in diet totals; use a higher dose only for a documented indication agreed with a clinician)* 🧠 ❤️ 👁️ 🔥
 - [Fisetin 400mg](https://allegro.pl/oferta/forest-vitamin-fisetyna-400mg-60kaps-16458484396) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 🛡️ 🔥
   - Ezetimibe
   - [Lutein 18mg + Zeaxanthin 2mg](https://allegro.pl/oferta/ostrovit-luteina-zeaksantyna-60-caps-na-wzrok-16362502894) [[BJ-ES 10mg+2mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🧠 🛡️
@@ -447,10 +452,9 @@ Supplements and drugs are very well focused in this protocol because of how easy
 
 
 ### After workout
-- [Collagen peptides 13g](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [L-Lysine HCL 900mg + EAA+](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
 - [Creatine monohydrate 5g](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
-- [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) 💪 🛡️ 🦠
+- [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) *(single daily WPI dose; included in [Diet](#4-diet) totals)* 💪 🛡️ 🦠
 - [2x MSM 1500mg](https://allegro.pl/oferta/swanson-msm-truflex-siarka-organiczna-1500mg-120t-14195517902) 🦴 🔥 👨‍🦳
 - ~2x [Electrolyte tab](https://allegro.pl/oferta/ostrovit-elektrolity-90-tabs-bez-cukru-potas-wapn-magnez-sod-energia-chlor-12567357931)~ 💧
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>3</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
@@ -461,7 +465,6 @@ Supplements and drugs are very well focused in this protocol because of how easy
 
 
 ### Evening
-- 2x [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003) 🧠 ❤️ 👁️ 🔥
 - [Curcumin 285mg + Ginger 100mg](https://allegro.pl/oferta/ostrovit-kurkuma-kurkumina-piperyna-imbir-3x90-tab-11326205826) [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🧠 🦴 ❤️
 - 2x [Magnesium (Glycinate) 183.3mg](https://allegro.pl/oferta/glicynian-magnezu-100-kap-magnez-chelat-skurcze-miesni-odpornosc-insport-17599694935) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 ❤️ 🦴
 - [Vitamin K1 1.5mg + K2 MK4 1mg + K2 MK7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436)<sup>1</sup> [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
