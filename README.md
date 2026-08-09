@@ -459,7 +459,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
    - **Focus / stimulation**
      - L-Tyrosine 1g 🧠 ⚡
      - AlphaSize® Alpha-GPC 300mg 🧠 💪
-     - PurCaf® Organic Caffeine 200mg ⚡ 🧠
+     - PurCaf® Organic Caffeine 200mg ⚡ 🧠<sup>14</sup>
      - L-Theanine 200mg 😌 🧠
      - Theobromine 50mg ⚡ 🍫
    - **Recovery / absorption / micronutrients**
