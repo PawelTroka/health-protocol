@@ -275,20 +275,15 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ## 4. Diet
 #### Protein-sparing Mediterranean CR
-*2370kcal / 211g proteins / 104g fats / 148g carbs*
-
-### Pre-breakfast (9am)
-- [Morning supplements](#morning-fasted)
-- 500-1000ml of water
+*~2640kcal / 226g proteins / 129g fats / 141g carbs*
 
 ### Breakfast (10am)
-*150kcal / 26g proteins / 1g fats / 8g carbs*
-- 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪 🛡️ 🦠
-- handful of berries
-- 1 tsp cocoa flavanols or cinnamon
+*~420kcal / 40g proteins / 27g fats / 2g carbs / ~7g fiber*
+- [Morning supplements](#morning), including the drink and WPI
+- 500-1000ml of water
 
 ### 🍽️ Lunch (1:00 PM)
-*990kcal / 81g proteins / 41g fats / 74g carbs*
+*~990kcal / 81g proteins / 41g fats / 74g carbs*
 - 🥩 75g of lean high-quality protein — choose ONE (ranked)
   - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪 🧠 (rinse with water first to remove sodium metabisulfite and salt)
   - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
@@ -309,12 +304,11 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - [Before workout supplements](#before-workout)
 
 ### Right after workout
-*115kcal / 26g proteins*
+*~110kcal / 28g proteins / 0.3g fats / 0.3g carbs*
 - [After workout supplements](#after-workout)
-- 30g of [100% NATURAL WHEY PROTEIN ISOLATE](https://olimpsport.com/eu/100-natural-whey-protein-isolate-3016) 💪🛡️🦠
 
 ### Dinner (9pm)
-*1120kcal / 77g proteins / 61g fats / 65g carbs*
+*~1120kcal / 77g proteins / 61g fats / 65g carbs*
 - 🥩 75g of fatty high-quality protein with 47g fat — choose ONE (ranked)
   - [ ] 360g of wild-caught, fresh [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🧠 ❤️ 👁️ 🍆
   - [ ] 360g of [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🧠 ❤️ 👁️ 🍆
@@ -363,29 +357,65 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ## 5. Supplements and drugs
 Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
-### Morning (fasted)
+### Morning
 
-- 💨 powders:
-- [Collagen peptides 13g](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
-- [Creatine monohydrate 5g](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
-- [Psyllium Husk 5g](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸
-- [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) 💪 🛡️ 🦠
+- 🥤 drink:
+- [MicroVitamin+ Powder Unflavored 26g (1scoop)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠
+   - **Structural / performance / digestive blend**
+     - Collagen Peptides (Hydrolyzed) 12.5g 👨‍🦳 🦴 💇‍♂️
+     - Creatine Monohydrate 5g 💪 🧠 🥊
+     - Psyllium Husk (Soluble Fiber) 2.5g 🚽 🦠 🩸
+     - Taurine 1g ❤️ 💪 🧠
+   - **Cognition / methylation**
+     - Trimethylglycine (TMG / Betaine Anhydrous) 500mg 🧠 ❤️<sup>5</sup>
+     - Choline Bitartrate 181.5mg 🧠
+     - Methylated Folate (5-MTHF) 200mcg 🧠 ❤️
+     - Methylated Vitamin B12 12mcg 🧠 ⚡
+   - **B-complex**
+     - Thiamine (Vitamin B1) 0.9mg ⚡ 🧠
+     - Riboflavin (Vitamin B2) 0.98mg ⚡
+     - Nicotinamide (Vitamin B3) 16mg ⚡ 🧠
+     - Pantothenic Acid (Vitamin B5) 3.75mg ⚡
+     - Vitamin B6 as P5P 1.28mg 🧠 ⚡
+     - Biotin (Vitamin B7) 22.5mcg 💇‍♂️ 💅
+   - **Bone / muscle / electrolytes**
+     - Magnesium Taurate 126mg elemental magnesium 💪 🧠 ❤️ 🦴
+     - Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg 🦴 ❤️ 🩸
+     - Encapsulated Vitamin D3 as AlgeD3™ 1,000IU 🦴 🛡️
+     - Boron Glycinate 1mg 🦴 🧠<sup>6</sup>
+     - Potassium 99mg 💧 ❤️
+   - **Skin / connective tissue**
+     - Hyaluronic Acid 200mg 👨‍🦳 💧 🦴
+     - Vitamin C as Calcium Ascorbate 45mg 🛡️ 🍋
+   - **Eye / antioxidant carotenoids**
+     - Encapsulated Lutein from Lutemax® 2020 10mg 👁️ 🛡️
+     - Encapsulated Zeaxanthin from Lutemax® 2020 2mg 👁️ 🛡️
+     - Encapsulated Lycopene from LycoBeads® 10mg 🍅 ❤️<sup>7</sup>
+   - **Trace minerals (glycinate forms)**
+     - Zinc 11mg 🛡️ 🍆
+     - Copper 0.9mg 🧠 🩸
+     - Manganese 1.15mg 🦴 ⚡
+     - Selenium 27.5mcg 🛡️ 🦋
+     - Chromium 17.5mcg 🩸
+     - Iodine 75mcg 🦋
+- [Pamako ultra premium monovarietal-mountain extra virgin olive oil (2,081 mg/kg polyphenols) 27g (2tbsp)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
+- [Psyllium Husk 7.5g (1tbsp)](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸<sup>8</sup>
+- [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
 - 💊 pills:
   - [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 ❤️ 🫀 🍅 ⚕️
-  - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
-- [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
+  - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
+- [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802)<sup>5</sup> 💪 ❤️ 🍅
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - [Lion's Mane 500mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133) 🧠 🛡️
-- [Hyaluronic Acid 200mg](https://allegro.pl/oferta/solherbs-kwas-hialuronowy-200-mg-60-vege-kaps-13075631403)<sup>4</sup> [[BJ-LM 120mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 👨‍🦳 🦴 💇‍♂️
-- [Boron 6mg](https://allegro.pl/oferta/bor-6-mg-120-kaps-boroglicynian-chelat-kosci-testosteron-libido-mozg-balans-17582349255) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🍆 🦴 🧠
+- 2x [Cocoa Flavanols 250mg](https://onepure.ee/en/products/cocoa-flavanols) ❤️ 🧠 🛡️
 - [Rhodiola Rosea 600mg](https://allegro.pl/oferta/r2g-rhodiola-600mg-rozeniec-gorski-stres-120-dni-120-kaps-11311651115) 🧠 😌 ⚡ 🍆
 - [Horsetail 500mg](https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163) 💇‍♂️ 👨‍🦳 🦴
-  - [Biotin 2.5mg](https://allegro.pl/oferta/ostrovit-biotin-plus-100-tabs-biotyna-cynk-wlosy-wit-b7-selen-kwas-foliowy-8944142586) (note: 50x rdd) 💇‍♂️ 👨‍🦳 💅
-  - (empty)
+- (empty)
 - 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-500mg-60-kapsulek-alfa-ketoklutaran-wapnia-hpmc-energia-vegan-17742452223) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
 - 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetylo-l-karnityna-750-mg-90-tabl-energia-metabolizm-sila-17924420336) 🧠 ⚡
 - [Bifidobacterium infantis 35624 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671) 🦠 🚽 🛡️
-- 2x [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
+- (empty)
+- (empty)
 - [Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450) 🦠 🚽 🛡️
 - Luteolin 100mg TBD [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🔥 🛡️ 🧠 ⏰
 - Anti-grey hair formula:
@@ -394,16 +424,16 @@ Supplements and drugs are very well focused in this protocol because of how easy
 
 
 ### Lunch
-- [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
-- [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
-- Life Extension Two-Per-Day or Mutant Multi or Animal Pak 🍎 🛡️ 💪
+- [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
+- (empty)
+- (empty)
 - 2x [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003) 🧠 ❤️ 👁️ 🔥
 - [Fisetin 400mg](https://allegro.pl/oferta/forest-vitamin-fisetyna-400mg-60kaps-16458484396) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 🛡️ 🔥
   - Ezetimibe
-  - [Lutein 18mg + Zeaxanthin 2mg](https://allegro.pl/oferta/ostrovit-luteina-zeaksantyna-60-caps-na-wzrok-16362502894) [[BJ-ES 10mg+2mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🧠 🛡️
+  - (empty)
 - [Co Q10 100mg](https://allegro.pl/oferta/ostrovit-ubichinon-koenzym-q10-vege-100-kaps-100-mg-na-3-miesiace-11566562378)  [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
 - [Ginger 540mg](https://allegro.pl/oferta/swanson-imbir-ginger-root-540-mg-ekstrakt-trawienie-metabolizm-100-kapsulek-14700837221) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🚽 🍆 🧠
-- [Lycopene 20mg](https://allegro.pl/oferta/likopen-mikrokapsulkowany-20-mg-lycopene-60-kapsulek-15828261195)<sup>2</sup> [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍅 ❤️ 👨‍🦳 🛡️
+- (empty)
 - [Black Aged Garlic 400mg](https://allegro.pl/oferta/aliness-czarny-czosnek-fermentowany-odpornosc-100k-12593377570) [[BJ-RYG 1200mg](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🛡️ 🩸 🍆
 - [Berberine 777mg](https://allegro.pl/oferta/berberis-777mg-niski-cukier-odchudzanie-apetyt-berberys-berberyna-90-kap-16324896123) 🩸 🚽 🛡️
 - [Astaxanthin 12mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-12-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
@@ -414,7 +444,9 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105) 🛡️ 🍆
 
 ### Before workout
-- [Transparent Labs BULK Pre-Workout](https://www.transparentlabs.com/products/bulk-preworkout) "White Cherry" 1 scoop, 20–30 min before workout ⚡ 💪 🧠 🩸
+- [Collagen peptides 13g (4scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+- [Creatine monohydrate 5g (1scoop)](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
+- [Transparent Labs BULK Pre-Workout (1scoop)](https://www.transparentlabs.com/products/bulk-preworkout) "White Cherry" ⚡ 💪 🧠 🩸
    - **Pump / blood flow**
      - L-Citrulline Malate 2:1 8g 🩸 💪
    - **Endurance / fatigue resistance**
@@ -436,27 +468,27 @@ Supplements and drugs are very well focused in this protocol because of how easy
      - Vitamin B12 100mcg 🧠 ⚡
      - Sodium 180mg 💧
      - Potassium 125mg 💧 ❤️
-- [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>6</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
-- [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802) 💪 ❤️ 🍅
+- [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
+- (empty)
 - [Maca 500mg](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
 - [Fenugreek 750mg](https://allegro.pl/oferta/biotech-fenugreek-750-mg-60-kap-kozieradka-pospolita-testosteron-witalnosc-11217463392) 🍆 🩸 🚽
 - [Tribulus Terrestris 1500mg](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-testosteron-1500mg-90-14876230440) 🍆
 - [Pycnogenol 300mg](https://allegro.pl/oferta/kora-sosny-300mg-100kap-antyoksydant-uklad-krazenia-extract-sosna-nadmorska-16966417282) 🫀 🦴 👨‍🦳 ❤️
-- 2x [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
+- [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464)<sup>9</sup> [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
+- (empty)
 - [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
 
 
 ### After workout
-- [Collagen peptides 13g](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [L-Lysine HCL 900mg + EAA+](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
-- [Creatine monohydrate 5g](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
-- [Protein WPI 90 unflavored 40g](https://allegro.pl/oferta/spomlek-wpi-90-izolat-bialek-serwatkowych-700g-smak-naturalny-16539824983) 💪 🛡️ 🦠
+- [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
 - [2x MSM 1500mg](https://allegro.pl/oferta/swanson-msm-truflex-siarka-organiczna-1500mg-120t-14195517902) 🦴 🔥 👨‍🦳
 - ~2x [Electrolyte tab](https://allegro.pl/oferta/ostrovit-elektrolity-90-tabs-bez-cukru-potas-wapn-magnez-sod-energia-chlor-12567357931)~ 💧
-- [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>3</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
+- [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>2</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - 2x [Inositol 1000mg](https://allegro.pl/oferta/inozytol-1000-mg-life-extension-nerwy-stres-mozg-pamiec-360-kapsulek-15116117174) 🧠 😌 🩸
 - [Phosphatidylserine 250mg](https://allegro.pl/oferta/7nutrition-phosphatidylserine-seryna-250mg-100kaps-funkcjonowanie-mozgu-12752317268) 🧠 😌
-- 2x [Magnesium (Taurate) 100mg](https://allegro.pl/oferta/allnutrition-magnesium-taurate-b6-100-kap-magnez-skurcz-stres-kosci-zeby-16799245835) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 ❤️ 🦴
+- (empty)
+- (empty)
 - [L-Glutathione Reduced 200mg](https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199) [[BJ-LM 250mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🛡️ 👨‍🦳 🧠 ⏰
 
 
@@ -469,7 +501,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [GABA 750mg](https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224) 😴 😌 💪
   - [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-240-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17173926212) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
   - Optional [Melatonin 1mg](https://allegro.pl/oferta/ostrovit-melatonin-300-tabs-melatonina-zdrowy-gleboki-sen-1-mg-9857310158) 😴 ⏰ 🛡️
-- [Glucosamine Sulfate 2KCl 1500mg](https://nuunutrition.com/products/glucosamine-sulphate-1500-mg-2kcl-tablets) <sup>4,5</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
+- [Glucosamine Sulfate 2KCl 1500mg](https://nuunutrition.com/products/glucosamine-sulphate-1500-mg-2kcl-tablets) <sup>3</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
   - [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) (e2d) 💇‍♂️ 🍅 ⚕️
   - [Minoxidil 5mg](https://hairrepairclinic.co.uk/product/oral-minoxidil-5mg) 💇‍♂️ 🧔 ⚕️
 - [Sodium Butyrate 600mg](https://allegro.pl/oferta/ostrovit-sodium-butyrate-90-kaps-600-mg-maslan-sodu-kwas-maslowy-jelita-9318758216) 🦠 🧠 🛡️ ⏰
@@ -782,11 +814,14 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 ## Notes
 1. Vitamin K2 MK4 and K2 MK7 doses should be 5x and 3x higher
-2. Lycopene dose is actually even higher because lots of tomates are consumed
-3. NAC dose for Bryan Johnson is in total 3g as he takes it additionally from [another supplement](https://www.lifeextension.com/vitamins-supplements/item01534/n-acetyl-l-cysteine) but his situation is specific based on his biomarkers so we are opting for a much safer dose of 1.2g total which could be considered to be increased to 2.4g
-4. In total we are consuming 270mg of Hyaluronic Acid which is on the higher side but should still be safe and may provide additional benefits of Bryan's Johnson 120mg dose
-5. In total we are consuming 1500mg of Glucosamine Sulfate which is much higher than Bryan's Johnson 750mg dose, however this is because a higher dose is actually recommended for more intense gym and sport workouts
-6. In total we are consuming 900mg of Nicotinamide Riboside which is even more than [Bryan's Johnson total 750mg dose](https://blueprint.bryanjohnson.com/pages/blueprint-protocol)
+2. NAC dose for Bryan Johnson is in total 3g as he takes it additionally from [another supplement](https://www.lifeextension.com/vitamins-supplements/item01534/n-acetyl-l-cysteine) but his situation is specific based on his biomarkers so we are opting for a much safer dose of 1.2g total which could be considered to be increased to 2.4g
+3. In total we are consuming 1500mg of Glucosamine Sulfate which is much higher than Bryan's Johnson 750mg dose, however this is because a higher dose is actually recommended for more intense gym and sport workouts
+4. In total we are consuming 900mg of Nicotinamide Riboside which is even more than [Bryan's Johnson total 750mg dose](https://blueprint.bryanjohnson.com/pages/blueprint-protocol)
+5. Total TMG intake is 4g/day (MicroVitamin+ 500mg + standalone Betaine 1g + BULK 2.5g). The standalone dose is taken in the Morning to spread intake across the day because BULK already supplies the standard 2.5g performance dose before training; consistency matters more than precise acute timing. Four grams reaches the intake that significantly lowered homocysteine across randomized trials while avoiding the 6g/day dose that has worsened lipids in some people. Recheck fasting homocysteine, ApoB/LDL-C and triglycerides after 6–8 weeks. [TMG meta-analysis](https://pubmed.ncbi.nlm.nih.gov/23997720/) [TMG and lipids](https://pubmed.ncbi.nlm.nih.gov/15916468/)
+6. Total supplemental Boron intake is 4mg/day (MicroVitamin+ 1mg + BULK 3mg), plus dietary Boron. This is already several times the roughly 1mg/day that most adults obtain from food, while [no RDA or AI has been established and evidence for additional bone benefit remains insufficient](https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/). Four milligrams from supplements is therefore a substantial and conservative intake that leaves ample distance from the [EFSA adult upper limit of 10mg/day from all sources](https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf).
+7. Total Lycopene intake is at least 10mg/day from MicroVitamin+, plus a variable amount from the frequently consumed tomatoes. Ten milligrams is a meaningful daily base dose, and taking it with EVOO provides an appropriate fat-containing matrix for this fat-soluble carotenoid. Tomato intake can bring the total closer to the approximately [15–16mg/day used in skin-photoprotection trials](https://pubmed.ncbi.nlm.nih.gov/20854436/). Higher supplemental intake is not currently necessary for this profile: the clearer blood-pressure signal above [12mg/day was mainly found in people with higher baseline blood pressure](https://pubmed.ncbi.nlm.nih.gov/24051501/), while the current diet already adds an unquantified amount above the 10mg supplement base.
+8. Total Psyllium Husk intake is 10g/day (MicroVitamin+ 2.5g + standalone 7.5g). This is an evidence-based effective dose: a meta-analysis of 28 randomized trials used a median dose of approximately 10.2g/day and found significant reductions in LDL-C, non-HDL-C and ApoB. The current 10g/day total is therefore close to the best-studied dose, with little reason to increase it routinely. [Psyllium Husk meta-analysis](https://pubmed.ncbi.nlm.nih.gov/30239559/)
+9. Total explicitly dosed Taurine intake is 3.8g/day (MicroVitamin+ 1g + standalone Taurine 1.5g in the Morning + BULK 1.3g before training). The Magnesium Taurate in MicroVitamin+ provides approximately another 1.3g of Taurine-equivalent, bringing total supplemental exposure to approximately 5.1g/day before dietary Taurine. This distributes explicitly dosed Taurine as 2.5g in the Morning and 1.3g before training, while avoiding a second standalone dose because higher chronic intake has no established incremental health benefit and 1.5–3g/day produced the strongest cardiometabolic dose-response signal. [Taurine cardiometabolic meta-analysis](https://pubmed.ncbi.nlm.nih.gov/41275513/)
 
 
 ## TODOs / Things to consider
