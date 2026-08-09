@@ -467,8 +467,8 @@ Supplements and drugs are very well focused in this protocol because of how easy
      - BioPerine® 5mg 🚀
      - Boron Citrate 3mg 🍆 🦴
      - Zinc Chelate 10mg 🍆 🛡️
-     - Vitamin B6 5mg 🧠 ⚡
-     - Vitamin B12 100mcg 🧠 ⚡
+     - Vitamin B6 5mg 🧠 ⚡<sup>13</sup>
+     - Vitamin B12 100mcg 🧠 ⚡<sup>15</sup>
      - Sodium 180mg 💧
      - Potassium 125mg 💧 ❤️
 - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
