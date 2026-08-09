@@ -844,7 +844,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Add Tongkat Ali? 🍆 💪
 - Add fat-burner like alpha yohimbine ? ⚡ 🔥
 - Add Tesamorelin or AOD-9604 for abdominal fat reduction ? 💪 🩹 ⚕️
-- Add zinc/zma/dhea/d3/daa? 🍆 🛡️ 🦴
+- Add zma/dhea/daa? 🍆 🛡️ 🦴
 - Add water filter better and more convenient than UC-200 💧
 - Find gym shaker with zero microplastics emission that is small and dishwasher friendly 🥛 🛡️
 - Find water bottle with zero microplastics emission that is large and dishwasher friendly, possibly made from multiple smaller pieces that can be disassembled for easy cleaning 🍼 🛡️
