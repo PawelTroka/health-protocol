@@ -483,7 +483,8 @@ Supplements and drugs are very well focused in this protocol because of how easy
 
 
 ### After workout
-- [L-Lysine HCL 900mg + EAA+](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
+- [EAA Unflavored 10g (2scoops)](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
+  - L-Leucine 3.329g; L-Valine 1.47g; L-Lysine 1.47g; L-Phenylalanine 1.2g; L-Threonine 1g; L-Isoleucine 600mg; L-Histidine 470mg; L-Methionine 330mg; L-Tryptophan 130mg; Vitamin B6 1.4mg<sup>13</sup>
 - [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
   - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg; 109kcal
 - [2x MSM 1500mg](https://allegro.pl/oferta/swanson-msm-truflex-siarka-organiczna-1500mg-120t-14195517902) 🦴 🔥 👨‍🦳
