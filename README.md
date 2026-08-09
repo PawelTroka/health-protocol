@@ -441,8 +441,8 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Berberine 777mg](https://allegro.pl/oferta/berberis-777mg-niski-cukier-odchudzanie-apetyt-berberys-berberyna-90-kap-16324896123) 🩸 🚽 🛡️
 - [Astaxanthin 12mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-12-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - [Broccoli Seed Extract (Glucoraphanin 20mg) 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
-- Beta-Karoten 👁️ 👨‍🦳 🛡️
 - [Milk Thistle 600mg](https://allegro.pl/oferta/milk-thistle-ostropest-plamisty-full-spectrum-ekstrakt-sylimaryna-detoks-12350053812) 🛡️ 🚽
+- (empty)
 - [Urolithin A 500mg + L-Ergothioneine 5mg](https://allegro.pl/oferta/urolityna-a-500-mg-l-ergotioneina-5mg-60-kapsulek-17760293773) ⏰ 💪 🛡️
 - [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105) 🛡️ 🍆
 
@@ -866,6 +866,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - [Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (daily) 👨‍🦳 💧- *CeraVe moisturizer is better*
 - [Fo-Ti 560mg](https://allegro.pl/oferta/now-foods-fo-ti-korzen-z-rdesta-wielokwiatowego-14035233596) 💇‍♂️ ⏰ - *Removed due to worsening of liver enzymes and little overall benefit*
 - [Yohimbine HCL 5mg](https://pro-peptydy.pl/produkt/yohimbine-5mg-100-kapsulek) ⚡ - *Great at reducing body fat but removed because of worsening sleep and increasing cortisol*
+- Beta-Caroten 👁️ 👨‍🦳 🛡️ - *Removed because isolated high-dose beta-carotene has no clear longevity benefit and may increase health risks, while adequate amounts are easily obtained from food.*
 
 
 ---
