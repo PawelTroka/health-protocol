@@ -471,7 +471,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
      - Vitamin B12 100mcg<sup>15</sup> 🧠 ⚡
      - Sodium 180mg 💧
      - Potassium 125mg 💧 ❤️
-- [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
+- [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - (empty)
 - [Maca Root Extract 500mg (DER 10:1; 5g root equivalent)](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
 - [Fenugreek 750mg](https://allegro.pl/oferta/biotech-fenugreek-750-mg-60-kap-kozieradka-pospolita-testosteron-witalnosc-11217463392) 🍆 🩸 🚽
