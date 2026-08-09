@@ -374,7 +374,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
      - Trimethylglycine (TMG / Betaine Anhydrous) 500mg 🧠 ❤️<sup>5</sup>
      - Choline Bitartrate 181.5mg 🧠
      - Methylated Folate (5-MTHF) 200mcg 🧠 ❤️
-     - Methylated Vitamin B12 12mcg 🧠 ⚡
+     - Methylated Vitamin B12 12mcg<sup>15</sup> 🧠 ⚡
    - **B-complex**
      - Thiamine (Vitamin B1) 0.9mg ⚡ 🧠
      - Riboflavin (Vitamin B2) 0.98mg ⚡
@@ -396,7 +396,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
      - Encapsulated Zeaxanthin from Lutemax® 2020 2mg 👁️ 🛡️
      - Encapsulated Lycopene from LycoBeads® 10mg 🍅 ❤️<sup>7</sup>
    - **Trace minerals (glycinate forms)**
-     - Zinc 11mg 🛡️ 🍆
+     - Zinc 11mg<sup>15</sup> 🛡️ 🍆
      - Copper 0.9mg 🧠 🩸
      - Manganese 1.15mg 🦴 ⚡
      - Selenium 27.5mcg 🛡️ 🦋
@@ -466,9 +466,9 @@ Supplements and drugs are very well focused in this protocol because of how easy
      - SenActiv® 50mg 💪 ⏰
      - BioPerine® 5mg 🚀
      - Boron Citrate 3mg 🍆 🦴
-     - Zinc Chelate 10mg 🍆 🛡️
-     - Vitamin B6 5mg 🧠 ⚡<sup>13</sup>
-     - Vitamin B12 100mcg 🧠 ⚡<sup>15</sup>
+     - Zinc Chelate 10mg<sup>15</sup> 🍆 🛡️
+     - Vitamin B6 5mg<sup>13</sup> 🧠 ⚡
+     - Vitamin B12 100mcg<sup>15</sup> 🧠 ⚡
      - Sodium 180mg 💧
      - Potassium 125mg 💧 ❤️
 - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973))<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
@@ -830,6 +830,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 11. **Creatine:** Total intake is 10g/day (MicroVitamin+ 5g + standalone 5g), approximately 0.12g/kg/day at the current body weight. Although 3–5g/day is usually sufficient to maintain saturated skeletal-muscle stores, it is not a universal ceiling: randomized resistance-training studies using approximately 0.1g/kg/day—about 8.4g/day at the current body weight—have reported additional gains in Muscle Mass or Strength versus placebo, and doses above 5g may be more relevant when targeting brain Creatine or performance during severe sleep loss. However, the evidence is context-dependent rather than proof that 10g is always dramatically better: an acute 0.35g/kg dose improved cognition during sleep deprivation, while a six-week trial of 10g/day and 20g/day found no cognitive improvement in healthy young adults under normal conditions. The current 10g/day is therefore a defensible high-maintenance, body-mass-scaled dose for daily training and potential brain coverage—not a redundant dose—but there is no established benefit from increasing it further. Split dosing may improve gastrointestinal tolerance. [Resistance-training trial at 0.1g/kg/day](https://pubmed.ncbi.nlm.nih.gov/27523919/) [Sleep-deprivation trial](https://www.nature.com/articles/s41598-024-54249-9) [10g-versus-20g cognitive trial](https://pubmed.ncbi.nlm.nih.gov/37759877/) [ISSN position stand](https://pubmed.ncbi.nlm.nih.gov/28615996/)
 12. **Omega-3:** Three capsules supply 2.25g/day EPA+DHA (EPA 1.5g + DHA 750mg): one capsule at Lunch and two in the Evening. This is a more proportionate long-term health-optimization dose than the previous 3g/day because Triglycerides are already 57mg/dL, ApoB is 0.60g/L and there is no therapeutic Hypertriglyceridemia indication. Taking the capsules with food—especially the fattier meal—matters more than Lunch-versus-Evening clock time, so the 1 + 2 split is appropriate when Dinner is fattier. The total remains above basic general-health recommendations and dietary Fatty Fish adds more EPA+DHA; do not increase it without a specific indication, and consider an RBC Omega-3 Index before further dose changes. Higher-dose trials also show a dose-related Atrial-Fibrillation signal, so 2.25g/day is a reasonable ceiling rather than a minimum target. [NIH Omega-3 fact sheet](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/) [Dose-response meta-analysis](https://pubmed.ncbi.nlm.nih.gov/34612056/)
 14. **Caffeine and Cocoa Flavanols:** Cocoa Flavanols add a hidden 23mg Caffeine, bringing the known supplement total to 223mg/day with BULK, before Matcha or other drink or food. Cocoa Flavanols 500mg is within the studied range and above the 200mg/day amount associated with the authorized vascular-function claim. Caffeine is performance-enhancing, but even intake six hours before bed can reduce sleep that's why it's taken early in a day. [Caffeine and sleep trial](https://pubmed.ncbi.nlm.nih.gov/24235903/)
+15. **Vitamin B12 and Zinc:** Supplemental Vitamin B12 totals 112mcg/day (MicroVitamin+ 12mcg + BULK 100mcg) which is much higher than optimal. Supplemental Zinc totals 21mg/day (MicroVitamin+ 11mg + BULK 10mg), before food which is slightly higher than optimal. Neither should be increased; a simpler pre-workout without extra B12/Zinc could be a better fit. [NIH Vitamin B12 fact sheet](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/) [NIH Zinc fact sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/)
 16. **Collagen Peptides:** Total intake is 25.5g/day (MicroVitamin+ 12.5g + standalone 13g). MicroVitamin+ alone already covers commonly studied skin/joint intakes. The additional pre-workout serving is most defensible for a specific tendon/ligament rehabilitation or prehabilitation goal; the relevant loading study used 15g Gelatin with Vitamin C approximately one hour before exercise. No general-health evidence establishes 25.5g as better than 12.5g. [Collagen synthesis trial](https://pubmed.ncbi.nlm.nih.gov/27852613/)
 23. **Horsetail and Silica:** The full daily total is 500mg Horsetail Extract standardized to 35mg Silica. There is no established optimal Silica intake for hair, skin or bone, and this extract should not be equated with the more bioavailable choline-stabilized Orthosilicic Acid used in a small trial at 10mg/day Elemental Silicon. This remains an experimental hair supplement despite its larger-looking label number. [Product label](https://ostrovit.com/en/products/ostrovit-horsetail-vege-90-capsules-25278.html) [Human trial](https://pubmed.ncbi.nlm.nih.gov/16205932/)
 
