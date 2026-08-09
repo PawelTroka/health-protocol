@@ -401,6 +401,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Pamako ultra premium monovarietal-mountain extra virgin olive oil (2,081 mg/kg polyphenols) 27g (2tbsp)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
 - [Psyllium Husk 7.5g (1tbsp)](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸<sup>8</sup>
 - [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
+  - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg; 109kcal
 - 💊 pills:
   - [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 ❤️ 🫀 🍅 ⚕️
   - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
@@ -482,6 +483,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 ### After workout
 - [L-Lysine HCL 900mg + EAA+](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
 - [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
+  - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg; 109kcal
 - [2x MSM 1500mg](https://allegro.pl/oferta/swanson-msm-truflex-siarka-organiczna-1500mg-120t-14195517902) 🦴 🔥 👨‍🦳
 - ~2x [Electrolyte tab](https://allegro.pl/oferta/ostrovit-elektrolity-90-tabs-bez-cukru-potas-wapn-magnez-sod-energia-chlor-12567357931)~ 💧
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>2</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
