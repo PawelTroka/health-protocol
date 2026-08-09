@@ -414,7 +414,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Rhodiola Rosea 600mg](https://allegro.pl/oferta/r2g-rhodiola-600mg-rozeniec-gorski-stres-120-dni-120-kaps-11311651115) 🧠 😌 ⚡ 🍆
 - [Horsetail 500mg (Silica 35mg)](https://allegro.pl/oferta/ostrovit-skrzyp-polny-90-vege-kaps-500-mg-wlosy-skora-krzemionka-7-9570228163)<sup>23</sup> 💇‍♂️ 👨‍🦳 🦴
 - (empty)
-- 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-500mg-60-kapsulek-alfa-ketoklutaran-wapnia-hpmc-energia-vegan-17742452223) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
+- 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-alfa-ketoglutaran-wapnia-500-mg-100-kapsulek-energia-18684587288) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
 - 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetylo-l-karnityna-750-mg-90-tabl-energia-metabolizm-sila-17924420336) 🧠 ⚡
 - [Bifidobacterium infantis 35624 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671) 🦠 🚽 🛡️
 - (empty)
