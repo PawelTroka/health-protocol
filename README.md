@@ -360,7 +360,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 ### Morning
 
 🥤 drink:
-- [Pamako ultra premium monovarietal-mountain extra virgin olive oil (2,081 mg/kg polyphenols) 27g (2tbsp)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
+- [Pamako ultra premium monovarietal-mountain EVOO (2,081 mg/kg polyphenols) 27g (2tbsp)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
 - [Psyllium Husk 7.5g (1tbsp)](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸<sup>8</sup>
 - [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
   - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg; 109kcal
