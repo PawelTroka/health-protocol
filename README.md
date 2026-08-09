@@ -404,8 +404,9 @@ Supplements and drugs are very well focused in this protocol because of how easy
   - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg; 109kcal
 
 💊 pills:
-    - [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 ❤️ 🫀 🍅 ⚕️
-    - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
+- 
+  - [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 ❤️ 🫀 🍅 ⚕️
+  - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>4</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Betaine (TMG) 1g](https://allegro.pl/oferta/suplement-diety-now-foods-tmg-betaina-1000-mg-100t-8545083802)<sup>5</sup> 💪 ❤️ 🍅
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - [Lion's Mane 500mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133) 🧠 🛡️
