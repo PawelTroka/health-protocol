@@ -479,7 +479,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Pycnogenol 300mg](https://allegro.pl/oferta/kora-sosny-300mg-100kap-antyoksydant-uklad-krazenia-extract-sosna-nadmorska-16966417282) 🫀 🦴 👨‍🦳 ❤️
 - [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464)<sup>9</sup> [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - (empty)
-- [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
+- (empty)
 
 
 ### After workout
@@ -832,6 +832,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 14. **Caffeine and Cocoa Flavanols:** Cocoa Flavanols add a hidden 23mg Caffeine, bringing the known supplement total to 223mg/day with BULK, before Matcha or other drink or food. Cocoa Flavanols 500mg is within the studied range and above the 200mg/day amount associated with the authorized vascular-function claim. Caffeine is performance-enhancing, but even intake six hours before bed can reduce sleep that's why it's taken early in a day. [Caffeine and sleep trial](https://pubmed.ncbi.nlm.nih.gov/24235903/)
 15. **Vitamin B12 and Zinc:** Supplemental Vitamin B12 totals 112mcg/day (MicroVitamin+ 12mcg + BULK 100mcg) which is much higher than optimal. Supplemental Zinc totals 21mg/day (MicroVitamin+ 11mg + BULK 10mg), before food which is slightly higher than optimal. Neither should be increased; a simpler pre-workout without extra B12/Zinc could be a better fit. [NIH Vitamin B12 fact sheet](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/) [NIH Zinc fact sheet](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/)
 16. **Collagen Peptides:** Total intake is 25.5g/day (MicroVitamin+ 12.5g + standalone 13g). MicroVitamin+ alone already covers commonly studied skin/joint intakes. The additional pre-workout serving is most defensible for a specific tendon/ligament rehabilitation or prehabilitation goal; the relevant loading study used 15g Gelatin with Vitamin C approximately one hour before exercise. No general-health evidence establishes 25.5g as better than 12.5g. [Collagen synthesis trial](https://pubmed.ncbi.nlm.nih.gov/27852613/)
+17. **Glycine:** Total standalone intake is 3g/day (evening), plus minor Glycine contained in Collagen and Magnesium Glycinate. Small sleep studies generally use approximately 3g before bed, so the Evening dose already matches the studied protocol and further increasing the dose has no established advantage.
 23. **Horsetail and Silica:** The full daily total is 500mg Horsetail Extract standardized to 35mg Silica. There is no established optimal Silica intake for hair, skin or bone, and this extract should not be equated with the more bioavailable choline-stabilized Orthosilicic Acid used in a small trial at 10mg/day Elemental Silicon. This remains an experimental hair supplement despite its larger-looking label number. [Product label](https://ostrovit.com/en/products/ostrovit-horsetail-vege-90-capsules-25278.html) [Human trial](https://pubmed.ncbi.nlm.nih.gov/16205932/)
 
 
