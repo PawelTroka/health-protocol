@@ -443,7 +443,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Broccoli Seed Extract (Glucoraphanin 20mg) 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
 - [Milk Thistle 600mg](https://allegro.pl/oferta/milk-thistle-ostropest-plamisty-full-spectrum-ekstrakt-sylimaryna-detoks-12350053812) 🛡️ 🚽
 - (empty)
-- [Urolithin A 500mg + L-Ergothioneine 5mg](https://allegro.pl/oferta/urolityna-a-500-mg-l-ergotioneina-5mg-60-kapsulek-17760293773) ⏰ 💪 🛡️
+- [Urolithin A 500mg](https://allegro.pl/produkt/urolityna-a-effepharm-eternalis-500mg-60-kaps-a65b7e10-9f10-4368-a7e6-616126331afe) ⏰ 💪 🛡️
 - [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105) 🛡️ 🍆
 
 ### Before workout
