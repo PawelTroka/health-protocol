@@ -439,9 +439,9 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Lycopene 20mg](https://allegro.pl/oferta/likopen-mikrokapsulkowany-20-mg-lycopene-60-kapsulek-15828261195)<sup>7</sup> [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍅 ❤️ 👨‍🦳 🛡️
 - [Black Aged Garlic 400mg](https://allegro.pl/oferta/aliness-czarny-czosnek-fermentowany-odpornosc-100k-12593377570) [[BJ-RYG 1200mg](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🛡️ 🩸 🍆
 - [Berberine 777mg](https://allegro.pl/oferta/berberis-777mg-niski-cukier-odchudzanie-apetyt-berberys-berberyna-90-kap-16324896123) 🩸 🚽 🛡️
-- [Astaxanthin 12mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-12-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - [Broccoli Seed Extract (Glucoraphanin 20mg) 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
 - [Milk Thistle 600mg](https://allegro.pl/oferta/milk-thistle-ostropest-plamisty-full-spectrum-ekstrakt-sylimaryna-detoks-12350053812) 🛡️ 🚽
+- [Astaxanthin 18mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - (empty)
 - [Urolithin A 500mg](https://allegro.pl/produkt/urolityna-a-effepharm-eternalis-500mg-60-kaps-a65b7e10-9f10-4368-a7e6-616126331afe) ⏰ 💪 🛡️
 - [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105) 🛡️ 🍆
@@ -834,6 +834,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 16. **Collagen Peptides:** Total intake is 25.5g/day (MicroVitamin+ 12.5g + standalone 13g). MicroVitamin+ alone already covers commonly studied skin/joint intakes. The additional pre-workout serving is most defensible for a specific tendon/ligament rehabilitation or prehabilitation goal; the relevant loading study used 15g Gelatin with Vitamin C approximately one hour before exercise. No general-health evidence establishes 25.5g as better than 12.5g. [Collagen synthesis trial](https://pubmed.ncbi.nlm.nih.gov/27852613/)
 17. **Glycine:** Total standalone intake is 3g/day (evening), plus minor Glycine contained in Collagen and Magnesium Glycinate. Small sleep studies generally use approximately 3g before bed, so the Evening dose already matches the studied protocol and further increasing the dose has no established advantage.
 23. **Horsetail and Silica:** The full daily total is 500mg Horsetail Extract standardized to 35mg Silica. There is no established optimal Silica intake for hair, skin or bone, and this extract should not be equated with the more bioavailable choline-stabilized Orthosilicic Acid used in a small trial at 10mg/day Elemental Silicon. This remains an experimental hair supplement despite its larger-looking label number. [Product label](https://ostrovit.com/en/products/ostrovit-horsetail-vege-90-capsules-25278.html) [Human trial](https://pubmed.ncbi.nlm.nih.gov/16205932/)
+25. **Ashwagandha:** The full daily total is 500mg KSM-66 Root Extract standardized to 5% Withanolides, or 25mg Withanolides. This sits within the commonly studied 300–600mg/day extract range for stress, but there is no validated long-term health or longevity optimum. [Product label](https://gymbeam.com/ashwagandha-ksm-66r-500mg-gymbeam.html) [Meta-analysis](https://pubmed.ncbi.nlm.nih.gov/39348746/)
 
 
 ## TODOs / Things to consider
