@@ -476,7 +476,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Maca Root Extract 500mg (DER 10:1; 5g root equivalent)](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
 - [Fenugreek 750mg](https://allegro.pl/oferta/biotech-fenugreek-750-mg-60-kap-kozieradka-pospolita-testosteron-witalnosc-11217463392) 🍆 🩸 🚽
 - [Tribulus Terrestris 1500mg](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-testosteron-1500mg-90-14876230440) 🍆
-- [Pycnogenol 300mg](https://allegro.pl/oferta/kora-sosny-300mg-100kap-antyoksydant-uklad-krazenia-extract-sosna-nadmorska-16966417282) 🫀 🦴 👨‍🦳 ❤️
+- [Pycnogenol 100mg (OPC 65mg)](https://allegro.pl/produkt/suplement-diety-kenayag-pycnogenol-kora-sosny-kapsulki-60-szt-5c57cb7c-1dc9-4bea-b5b8-6d67b3436704)<sup>27</sup> 🫀 🦴 👨‍🦳 ❤️
 - [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464)<sup>9</sup> [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - (empty)
 - (empty)
