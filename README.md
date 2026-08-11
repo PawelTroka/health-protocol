@@ -446,6 +446,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - (empty)
 - [Urolithin A 500mg](https://allegro.pl/produkt/urolityna-a-effepharm-eternalis-500mg-60-kaps-a65b7e10-9f10-4368-a7e6-616126331afe) ⏰ 💪 🛡️
 - [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105) 🛡️ 🍆
+  - Calcium D-Glucarate 100mg (Calcium 12mg); Sodium Copper Chlorophyllin 20mg
 
 ### Before workout
 - [Collagen peptides 13g (4scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html)<sup>16</sup> [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
