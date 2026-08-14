@@ -505,6 +505,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - [Vitamin K1 1.5mg + K2 MK4 1mg + K2 MK7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436)<sup>1</sup> [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
 - [Ashwagandha KSM-66 500mg](https://allegro.pl/oferta/ashwagandha-ekstrakt-ksm-66-500mg-koncentracja-pamiec-gymbeam-90-kapsulek-14961267046) 😌 😴 🍆 🧠
 - [Curcumin 400mg](https://allegro.pl/oferta/now-foods-kurkumina-curcubrain-400mg-50-kapsulek-zoptymalizowana-kurkuma-18729912439)<sup>21</sup> [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🧠 🦴 ❤️
+  - Curcuminoids ≥80mg; Longvida® SLCP™ lipid matrix
 - 2x [Magnesium (Glycinate) 133.3mg](allegro.pl/produkt/glicynian-magnezu-ostrovit-90-kaps-chelat-400-mg-skurcze-nerwy-diglicynian-67bb9a9b-ab9f-45d1-9354-cd58ae4000f9)<sup>13</sup> [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 ❤️ 🦴
 - [GABA 750mg](https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224) 😴 😌 💪
   - [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-240-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17173926212) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
