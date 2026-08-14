@@ -8,6 +8,14 @@ Original DICOM file-set for a non-contrast CT of the facial skeleton (`TK TWARZO
 - The disc does not contain a radiologist's narrative report. Obtain that report separately from LUX MED and provide it alongside this file-set.
 - Legacy viewer applications and runtime files from the source disc are intentionally excluded.
 
-## GitHub archive parts
+## Split ZIP archive
 
-The four ZIP files next to this directory are independent archives sized for normal GitHub storage. Download all four and extract each into the same parent directory, allowing their shared `FacialCT-2026-08-14` folder to merge. Then open or import `FacialCT-2026-08-14/DICOMDIR`.
+The archive is one ZIP file divided into three consecutive chunks so that it can be stored on GitHub:
+
+1. [`FacialCT-2026-08-14.zip.001`](./FacialCT-2026-08-14.zip.001)
+2. [`FacialCT-2026-08-14.zip.002`](./FacialCT-2026-08-14.zip.002)
+3. [`FacialCT-2026-08-14.zip.003`](./FacialCT-2026-08-14.zip.003)
+
+Download all three parts into the same directory and keep their filenames unchanged. Open or extract the `.zip.001` file with 7-Zip; it will read `.002` and `.003` automatically. If an archive application does not recognize the split set, concatenate the three files in numeric order to reconstruct `FacialCT-2026-08-14.zip`, then extract it normally.
+
+After extraction, open or import `FacialCT-2026-08-14/DICOMDIR` in a PACS or DICOM viewer.
