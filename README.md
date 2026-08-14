@@ -508,6 +508,7 @@ Supplements and drugs are very well focused in this protocol because of how easy
 - 2x [Magnesium (Glycinate) 133.3mg](allegro.pl/produkt/glicynian-magnezu-ostrovit-90-kaps-chelat-400-mg-skurcze-nerwy-diglicynian-67bb9a9b-ab9f-45d1-9354-cd58ae4000f9)<sup>13</sup> [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 ❤️ 🦴
 - [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://allegro.pl/oferta/ashwagandha-ekstrakt-ksm-66-500mg-koncentracja-pamiec-gymbeam-90-kapsulek-14961267046)<sup>25</sup> 😌 😴 🍆 🧠
 - [GABA 750mg](https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224) 😴 😌 💪
+  - Vitamin B6 0.7mg<sup>13</sup>
   - [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-240-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17173926212) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
   - [Melisen (Melatonin 1mg)](https://bmpharma.pl/products/melisen)<sup>28</sup> 😴 😌 ⏰
     - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>13</sup>
