@@ -135,7 +135,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ### Diagnostic Imaging
 - Abdominal USG (Yearly)
 - Neck USG (Thyroid & Lymph nodes) (Yearly)
-- Whole Body MRI (Yearly)
+- [Whole Body MRI](https://stermed.com.pl/721/mr-whole-body-calego-ciala) (Yearly)
 - DEXA Scan (Yearly)
 - RTG (X-Ray) imaging (As needed)
 - 3D CT Scans (As needed)
