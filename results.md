@@ -380,6 +380,7 @@
 - **2024-05-06 RTG Head (Lateral)**: Cephalometric X-ray [results/RTG/H1.jpg]
 - **2024-05-06 RTG Teeth (Panoramic)**: Pantomogram [results/RTG/P2.jpg]
 - **2025-10-27 Dental CBCT / CT Head**: 3D Visualization of lower jaw and teeth [results/DentalCBCT]
+- **2026-08-14 CT Facial Skeleton (without contrast)**: Original DICOM study with four 1 mm reconstruction series [results/FacialCT-2026-08-14]
 
 ### 🩺 Ultrasound & Surgical Outcomes
 - **Epigastric Hernia (Linea Alba) Surgery**:
