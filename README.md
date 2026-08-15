@@ -512,11 +512,11 @@ Supplements and drugs are very well focused in this protocol because of how easy
   - [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-240-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17173926212) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
   - [Melisen (Melatonin 1mg)](https://bmpharma.pl/products/melisen)<sup>28</sup> 😴 😌 ⏰
     - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>13</sup>
-- 3x [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)]  😴 🧠 🍅 ⏰
 - [Glucosamine Sulfate 2KCl 1500mg](https://nuunutrition.com/products/glucosamine-sulphate-1500-mg-2kcl-tablets)<sup>3</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
   - [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) (e2d) 💇‍♂️ 🍅 ⚕️
   - [Minoxidil 5mg](https://hairrepairclinic.co.uk/product/oral-minoxidil-5mg) 💇‍♂️ 🧔 ⚕️
 - 1x [Sodium Butyrate 500mg (Butyric acid 400mg)](https://allegro.pl/produkt/debutir-max-dietetyczny-srodek-spozywczy-maslan-sodu-500-mg-60-kapsulek-637196b0-4c8c-4e49-b018-bf4b3ea3e38c)<sup>26</sup> 🦠 🧠 🛡️ ⏰
+- 3x [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777)<sup>17</sup> [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 🍅 ⏰
   - [Isotretinoin (Accutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) (weekly) 👨‍🦳 ⏰ ⚕️
   - [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924)
 - [Spermidine HCl 50mg (Spermidine 28mg)](https://allegro.pl/oferta/spermidyna-50mg-60-kapsulek-autofagia-odnowa-komorek-vegan-anti-aging-98-18566784282) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
