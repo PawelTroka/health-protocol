@@ -377,15 +377,15 @@
 ## Structural & Diagnostic Imaging
 
 ### 🩻 Radiological Imaging (CT/RTG/CBCT)
-- **2024-05-06 RTG Head (Lateral)**: Cephalometric X-ray [results/RTG/H1.jpg]
-- **2024-05-06 RTG Teeth (Panoramic)**: Pantomogram [results/RTG/P2.jpg]
-- **2025-10-27 Dental CBCT / CT Head**: 3D Visualization of lower jaw and teeth [results/DentalCBCT]
+- **2024-05-06 RTG Head (Lateral)**: Cephalometric X-ray [results/DentalXRay-2024-05-06/LateralCephalometricXRay.jpg]
+- **2024-05-06 RTG Teeth (Panoramic)**: Pantomogram [results/DentalXRay-2024-05-06/PanoramicDentalXRay.jpg]
+- **2025-10-27 Dental CBCT / CT Head**: 3D Visualization of lower jaw and teeth [results/DentalCBCT-2025-10-27]
 - **2026-08-14 CT Facial Skeleton (without contrast)**: Original DICOM study with four 1 mm reconstruction series [results/FacialCT-2026-08-14]
 
 ### 🩺 Ultrasound & Surgical Outcomes
 - **Epigastric Hernia (Linea Alba) Surgery**:
-  - **Before (USG 2025-01-07)**: 8x8mm hernia gate with small intestine loop [results/Ultrasound/HearniaLineaAlbea1.pdf]
-  - **After (USG 2026-05-19)**: Post-operative state, no features of hernia, linea alba width ~4cm [results/Ultrasound/HearniaLineaAlbeaFixed2.pdf]
+  - **Before (USG 2025-12-04)**: 8x8mm hernia gate with small intestine loop [results/AbdominalWallUltrasound-2025-12-04/Report.pdf]
+  - **After (USG 2026-05-19)**: Post-operative state, no features of hernia, linea alba width ~4cm [results/AbdominalWallUltrasound-2026-05-19/Report.pdf]
 
 ### 🎨 Color Legend
 *   🔵 **Target / low-risk**: At target or very close to target

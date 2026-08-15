@@ -759,16 +759,16 @@ Even if you do everything right you can be exposed to harmful environment, so it
   - **Facility**: [Markiewicz Clinic](https://markiewiczclinic.com) Gdansk, Poland
   - **Surgeon**: [Aleksandra Karkowska](https://www.znanylekarz.pl/aleksandra-karkowska-plichta/stomatolog/gdansk)
   - **Anesthesia**: Local anesthesia injections
-  - **Rationale**: Tumor discovered in the palate above the first upper teeth via [Dental CBCT](results/DentalCBCT.zip) during orthodontic treatment
+  - **Rationale**: Tumor discovered in the palate above the first upper teeth via [Dental CBCT](results/DentalCBCT-2025-10-27/DentalCBCT-2025-10-27.zip) during orthodontic treatment
   - **Details**: Removal of a tumor succesful
 - **Repair of Epigastric Hernia (Hernia Linea Alba)**
   - **Date**: January 13, 2026
   - **Facility**: [Garden Clinic Hospital](https://gardenclinic.pl/hospital) Gdansk, Poland
   - **Surgeon**: [Dr. Andrzej Lehmann](https://drlehmann.pl)
   - **Anesthesia**: Deep IV sedation
-  - **Rationale**: 8mmm x 8mm epigastric hernia present since childhood, confirmed by [ultrasound in December 2025](results/Ultrasound/HearniaLineaAlbea1.pdf)
+  - **Rationale**: 8mmm x 8mm epigastric hernia present since childhood, confirmed by [ultrasound on December 4, 2025](results/AbdominalWallUltrasound-2025-12-04/Report.pdf)
   - **Details**: Quick and succesful no-mesh repair of hernia linea albea
-  - **Recovery**: Post-operative [ultrasound (May 19, 2026)](results/Ultrasound/HearniaLineaAlbeaFixed1.pdf) confirmed successful repair with no remaining features of hernia; linea alba width ~4cm. Progression with core exercises requires caution
+  - **Recovery**: Post-operative [ultrasound (May 19, 2026)](results/AbdominalWallUltrasound-2026-05-19/Report.pdf) confirmed successful repair with no remaining features of hernia; linea alba width ~4cm. Progression with core exercises requires caution
 - **Septorhinoplasty + Conchoplasty**
   - **Date**: February 28, 2026
   - **Facility**: [Memorial Bahcelievler Hastanesi](https://www.memorial.com.tr/hastaneler-ve-tip-merkezleri/memorial-bahcelievler-hastanesi) Istanbul, Turkey
