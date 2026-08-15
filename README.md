@@ -353,7 +353,6 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - Lime 🍋 🦠 🚽
 - Hummus 🌱 🦠 ❤️
 - Macadamia nut milk ❤️ 🧠 ⏰
-- Grapefruit juice 💊 🩸 🚽
 
 ## 5. Supplements and drugs
 Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
@@ -871,6 +870,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## Removed / unhealthy supplements
+- Grapefruit Juice 💊 - *Removed because Grapefruit inhibits intestinal CYP3A4 and can unpredictably increase exposure to CYP3A4-metabolized medicines, particularly Tadalafil and Dutasteride, adding avoidable interaction risk to the current medication and bioactive stack.*
 - Red Yeast Extract 500mg [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🫀 - *contains monacolin K (statin-like compound) so should only be used when having bad lipids profile; affects liver, causes muscle issues and lowers CoQ10*
 - Proferrin 20mg 🩸 💪 🧠 - *iron should only be supplemented when truly deficienct, otherwise it causes oxidative stress and long-term is bad for longevity*
 - Metformin 500mg 🩸 ⏰ 🧠 ⚕️ - *may blunt training adaptations and cause GI issues and berberine is a milder, safer, healthier alternative anyway*
