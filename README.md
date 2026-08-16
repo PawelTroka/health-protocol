@@ -851,6 +851,8 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## TODOs / Things to consider
+- Add more sprouts to the diet
+- Add more flaxseed to the diet
 - Wait for [Monolith Bottle](https://monolith-bottle.com) to become available
 - Consider [Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/) for improving body composition 🩸 ❤️ ⏰
 - Add PP405 for hair density when available 💇‍♂️ ⏰
