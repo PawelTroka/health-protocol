@@ -873,7 +873,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 
 ## Removed / unhealthy supplements
-- L-Glutathione Reduced 200mg 🛡️ 👨‍🦳 🧠 ⏰ - *Removed because this low oral dose has no established clinical or longevity-outcome benefit, while NAC, Glycine and the protocol's high Protein intake already provide the substrates needed for endogenous Glutathione synthesis. It therefore added another antioxidant pill with little likely incremental value.*
+- [L-Glutathione Reduced 200mg](https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199) [[BJ-LM 250mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🛡️ 👨‍🦳 🧠 ⏰ - *Removed because this low oral dose has no established clinical or longevity-outcome benefit, while NAC, Glycine and the protocol's high Protein intake already provide the substrates needed for endogenous Glutathione synthesis. It therefore added another antioxidant pill with little likely incremental value.*
 - Grapefruit Juice 💊 - *Removed because Grapefruit inhibits intestinal CYP3A4 and can unpredictably increase exposure to CYP3A4-metabolized medicines, particularly Tadalafil and Dutasteride, adding avoidable interaction risk to the current medication and bioactive stack.*
 - Red Yeast Extract 500mg [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🫀 - *contains monacolin K (statin-like compound) so should only be used when having bad lipids profile; affects liver, causes muscle issues and lowers CoQ10*
 - Proferrin 20mg 🩸 💪 🧠 - *iron should only be supplemented when truly deficienct, otherwise it causes oxidative stress and long-term is bad for longevity*
