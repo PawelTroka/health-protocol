@@ -207,7 +207,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 15 × 12.5kg
 - **Forearms (Brachioradialis)**: Cuffed Single Arm Top Half Reverse Curl: 15 × 10kg, 13 × 12.5kg, 12 × 15kg
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)*
-- **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 10/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)*
+- **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)*
 
 ---
 
@@ -230,7 +230,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: The "capped" 3D shoulder look, upper chest shelf, and masculine neck.*
 - **Shoulders**: Machine Shoulder Press (Pronated grip): 10 × 41kg, 9 × 46kg, 8 × 52kg *(Shoulder Pro-Tip: If right shoulder triggers, swap to Seated Neutral-Grip DB Press)*
 - **Upper Chest**: Seated Low-to-High Cable Fly (Cuffed) or Seated low-to-high Pec Deck Machine: 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg (Best upper pec fly)
-- **Upper Chest/Ribs**: Dumbbell Pullover (Cross-bench): 12 × 17.5kg, 11 × 20kg, 10 × 22.5kg *(Stretch focus; Pro-Tip: Keep hips locked/stationary in a flat tabletop; do not dynamically sink hips as weight goes overhead)*
+- **Upper Chest/Ribs**: Dumbbell Pullover (Cross-bench): 12 × 20kg, 11 × 22.5kg, 10 × 25kg *(Stretch focus; Pro-Tip: Keep hips locked/stationary in a flat tabletop; do not dynamically sink hips as weight goes overhead)*
 - **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg
 - (*Optional*) **Side Delts**: Cable Lateral Raises: 3 × 12-15 reps *(Mandatory for V-taper; Pro-Tip: pulley at wrist/hip height to overload stretched position)*
 - **Neck**: Resistance Band Neck Extensions: 20 × 2.5kg, 18 × 3.75kg, 16 × 5kg
