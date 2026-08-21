@@ -300,7 +300,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 2 pieces of dark chocolate (85%+) ❤️🧠😌🛡️
 - [Lunch supplements](#lunch)
 
-### Right before workout
+### Before workout
 - [Before workout supplements](#before-workout)
 
 ### During workout
