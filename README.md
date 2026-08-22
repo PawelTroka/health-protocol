@@ -275,7 +275,11 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ## 4. Diet
 #### Protein-sparing Mediterranean CR
-*~2787kcal / 239g proteins / 129g fats / 165g carbs*
+*At the latest recorded 83kg: ~2,090kcal (25.2kcal/kg) / 170g Protein (2.05g/kg) / 106g Fat (1.28g/kg) / 110g Carbohydrate (1.33g/kg), plus 13g free EAA and Glycine (0.16g/kg)*
+
+*The 170g Protein estimate already includes approximately 36g from the checked plant foods, 55.6g from two WPI servings, 25.5g from both Collagen-Peptide servings and 52.8g from Shrimp and Salmon. The separate 10g EAA and 3g Glycine add approximately 52kcal, bringing total Protein plus free amino acids to approximately 183g (2.20g/kg), but they are not presented as equivalent to 13g of complete intact Protein. The headline also includes the declared 10kcal and 1g Fat in the Phosphatidylserine softgel and estimates the scheduled 2g Inositol as approximately 2g Carbohydrate and 5kcal. Meal headers sum to approximately 2,020kcal because they retain conventional food-label Protein accounting and omit these separately scheduled supplements; undeclared capsule carriers remain outside the useful precision of the estimate.*
+
+*These portions are evidence-mapped practical targets, not proven universal optima. Macro estimates use the midpoints of the checked portion ranges; alternatives, product labels and raw-versus-cooked weights will change them. The checked choices provide approximately 600g/day of non-potato Vegetables, Berries, Mushrooms and fermented Cabbage, within the evidence-based 500–800g/day Vegetables/Fruit/Berries range.* [evidence](https://pub.norden.org/nord2023-003/vegetables-fruits-and-berries.html)
 
 ### Breakfast (10am)
 *~420kcal / 40g proteins / 27g fats / 2g carbs / ~7g fiber*
@@ -283,21 +287,34 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 500-1000ml of water
 
 ### 🍽️ Lunch (1:00 PM)
-*~990kcal / 81g proteins / 41g fats / 74g carbs*
-- 🥩 75g of lean high-quality protein — choose ONE (ranked)
-  - [x] 360g of [Argentinian wild-caught shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪 🧠 (rinse with water first to remove sodium metabisulfite and salt)
-  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
-  - [ ] 360g of [organic pasture-raised turkey tenderloins](https://www.spizarniarydzynska.pl/poledwiczki-z-indyka-0,5kg) 💪 🧠
-  - [ ] 360g of organic pasture-raised chicken tenderloins 💪
-- 🌾 60g of complex carbohydrates — choose ONE (ranked)
-  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
-  - [ ] 100g black/red lentils 🖤 ❤️ 🦠 🚽 🌾
-  - [ ] 100g chickpeas 🫘 🦠 🚽 🌾
-  - [ ] 100g black/red beans 🫘 🦠 🚽 🌾
-  - [ ] 355g orange sweet potatoes 🌾 🧠
-- 14 g extra virgin olive oil (for cooking) ❤️🧠🔥
-- 20g of macadamia nuts (small handful) ❤️🧠⏰
-- 2 pieces of dark chocolate (85%+) ❤️🧠😌🛡️
+*~600kcal / 49g proteins / 25g fats / 47g carbs*
+- 🥩 Lean Protein source — choose ONE (ranked)
+  - [x] 150–180g raw/thawed edible weight of [Argentinian wild-caught Shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪 🧠 (rinse with Water first to remove Sodium Metabisulfite and surface Salt)
+  - [ ] 4 [organic Eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
+  - [ ] 150–180g of [organic pasture-raised Turkey Tenderloins](https://www.spizarniarydzynska.pl/poledwiczki-z-indyka-0,5kg) 💪 🧠
+  - [ ] 150–180g of organic pasture-raised Chicken Tenderloins 💪
+- 🌾 Starch or Legume source (cooked / drained edible weight) — choose ONE (ranked)
+  - [x] 50–100g cooked [Purple Sweet Potatoes](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
+  - [ ] 50–100g cooked Black / Red Lentils 🖤 ❤️ 🦠 🚽 🌾
+  - [ ] 50–100g cooked Chickpeas 🫘 🦠 🚽 🌾
+  - [ ] 50–100g cooked Black / Red Beans 🫘 🦠 🚽 🌾
+  - [ ] 50–100g cooked Orange Sweet Potatoes 🌾 🧠
+- 🥦 150g cooked edible Vegetables total — choose at least TWO and divide the total between them (approximately 75g each when choosing two; ranked)
+  - [x] Broccoli florets 🛡️ 🦠 ❤️
+  - [x] Carrots 👁️ 🛡️ 🦠
+  - [ ] Kale 🛡️ ❤️ 🦴
+  - [ ] Green Beans 🦠 ❤️
+  - [ ] Green Bell Pepper 🛡️ ❤️
+- 🍄 75g Mushrooms (raw edible weight before cooking, or drained canned weight) — choose ONE
+  - [x] Oyster Mushrooms 🛡️ 🦠 🧠
+  - [ ] Canned Champignon / Button Mushrooms, drained and rinsed 🛡️ 🦠
+- 🫐 100g fresh or frozen Berries (approximately one handful) — choose ONE (ranked) [evidence](https://pubmed.ncbi.nlm.nih.gov/31136659/)
+  - [x] Wild Blueberries / Polish Bilberries 🧠 🛡️ ❤️ 👁️
+  - [ ] Strawberries 🛡️ ❤️
+  - [ ] Raspberries 🦠 🛡️ ❤️
+- [Phileos Organic Early-Harvest EVOO (917mg/kg Polyphenols) 13.5g (1 tbsp)](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557) (for cooking or finishing) ❤️🧠🔥
+- 🍵 500ml Matcha Soy Drink: 2g [Moya Matcha](https://allegro.pl/oferta/herbata-zielona-matcha-codzienna-japonska-bio-100-g-moya-matcha-18135123492) whisked into 500ml unsweetened, Calcium-fortified Soy drink made from Soy Protein (target at least 3g Protein and 120mg Calcium/100ml)<sup>L.6-7</sup> 🧠 ❤️ 🦴 🌱 [why the Soy formulation matters for IBS](https://www.monashfodmap.com/blog/dairy-alternatives-beverage-and-yoghurt-low-fodmap-options/)
+  - If the available drink is made from whole or dehulled Soybeans rather than Soy Protein, titrate from 250ml to the 500ml target only if tolerated.
 - [Lunch supplements](#lunch)
 
 ### Before workout
@@ -313,19 +330,37 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - [After workout supplements](#after-workout)
 
 ### Dinner (9pm)
-*~1120kcal / 77g proteins / 61g fats / 65g carbs*
-- 🥩 75g of fatty high-quality protein with 47g fat — choose ONE (ranked)
-  - [ ] 360g of wild-caught, fresh [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🧠 ❤️ 👁️ 🍆
-  - [ ] 360g of [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🧠 ❤️ 👁️ 🍆
-  - [ ] 10 [organic eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
-  - [x] 360g of oven baked [Norwegian salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠 ❤️ 👁️ 🍆
-- 🌾 60g of complex carbohydrates — choose ONE (ranked)
-  - [x] 325g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
-  - [ ] 100g black/red lentils 🖤 ❤️ 🦠 🚽 🌾
-  - [ ] 100g chickpeas 🫘 🦠 🚽 🌾
-  - [ ] 100g black/red beans 🫘 🦠 🚽 🌾
-  - [ ] 355g orange sweet potatoes 🌾 🧠
-- 14g of extra virgin olive oil for cooking ❤️🧠🔥
+*~740kcal / 40g proteins / 52g fats / 34g carbs*
+- 🥩 Fatty Protein source — choose ONE (ranked)
+  - [ ] 120–150g drained edible [Sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🧠 ❤️ 👁️ 🍆
+  - [ ] 120–150g drained edible [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🧠 ❤️ 👁️ 🍆
+  - [ ] 4 [organic Eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
+  - [x] 125–150g raw edible weight before oven-baking of [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠 ❤️ 👁️ 🍆
+- 🌾 Starch or Legume source (cooked / drained edible weight) — choose ONE (ranked)
+  - [x] 50–100g cooked [Purple Sweet Potatoes](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
+  - [ ] 50–100g cooked Black / Red Lentils 🖤 ❤️ 🦠 🚽 🌾
+  - [ ] 50–100g cooked Chickpeas 🫘 🦠 🚽 🌾
+  - [ ] 50–100g cooked Black / Red Beans 🫘 🦠 🚽 🌾
+  - [ ] 50–100g cooked Orange Sweet Potatoes 🌾 🧠
+- 🥬 150g cooked edible Vegetables total — choose at least TWO and divide the total between them (approximately 75g each when choosing two; ranked)
+  - [x] Spinach 👁️ 🦴 ❤️
+  - [x] Red Cabbage 🛡️ 🦠 ❤️
+  - [ ] Bok Choy 🦴 🛡️
+  - [ ] Eggplant / Aubergine 🦠 ❤️
+  - [ ] Zucchini / Courgette 🦠 🛡️
+- 🍄 75g Mushrooms (raw edible weight before cooking, or drained canned weight) — choose ONE
+  - [x] Oyster Mushrooms 🛡️ 🦠 🧠
+  - [ ] Canned Champignon / Button Mushrooms, drained and rinsed 🛡️ 🦠
+- 🌰 30g unsalted Nuts (one handful) — choose ONE (ranked) [evidence](https://www.nejm.org/doi/full/10.1056/NEJMoa1800389)
+  - [x] Walnuts ❤️ 🧠 🦠
+  - [ ] Macadamia Nuts ❤️ 🧠
+  - [ ] Pecans ❤️ 🛡️
+- 🦠 Fermented food — choose ONE (ranked)
+  - [x] 50g drained [Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343), kept uncooked 🦠 🛡️ [evidence](https://pubmed.ncbi.nlm.nih.gov/30256365/)
+  - [ ] 170g plain lactose-free Live Yogurt 🦠 🦴
+  - [ ] 170ml plain lactose-free Kefir 🦠 🦴
+  - [ ] 50–75g Kimchi without Onion or Garlic 🦠 🛡️
+- [Phileos Organic Early-Harvest EVOO (917mg/kg Polyphenols) 13.5g (1 tbsp)](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557) (for cooking or finishing) ❤️🧠🔥
 - [Before sleep supplements](#evening)
 
 ### Healthy Spices
