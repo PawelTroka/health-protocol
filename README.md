@@ -368,6 +368,8 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 🥤 drink:
 - [Pamako ultra premium monovarietal-mountain EVOO (2,081 mg/kg polyphenols) 27g (2tbsp)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
 - [Psyllium Husk 7.5g (1tbsp)](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸<sup>2</sup>
+- [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
+  - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg; 109kcal
 - [MicroVitamin+ Powder Unflavored 26g (1scoop)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠
    - **Structural / performance / digestive blend**
      - Collagen Peptides (Hydrolyzed) 12.5g 👨‍🦳 🦴 💇‍♂️
@@ -406,15 +408,12 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
      - Selenium 27.5mcg 🛡️ 🦋
      - Chromium 17.5mcg 🩸
      - Iodine 75mcg 🦋
-- [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
-  - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg; 109kcal
 
 💊 pills:
 - [Bifidobacterium longum 35624® 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671)<sup>5</sup> 🦠 🚽 🛡️
-- [Limosilactobacillus reuteri Gastrus® Blend 200mln CFU total](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392)<sup>5</sup> 🚽 🦠 🩸
+- [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392)<sup>5</sup> 🚽 🦠 🩸
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
 - 2x [Cocoa Flavanols 250mg](https://onepure.ee/en/products/cocoa-flavanols) ❤️ 🧠 🛡️<sup>8</sup>
-  - Low-Fat Cocoa Extract 1,150mg; Cocoa Flavanols 500mg; Caffeine 23mg
 - (empty)
 - [Astaxanthin 18mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - [Co Q10 100mg](https://allegro.pl/oferta/ostrovit-ubichinon-koenzym-q10-vege-100-kaps-100-mg-na-3-miesiace-11566562378)  [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
@@ -423,7 +422,7 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 - [Lion's Mane Extract 600mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133) 🧠 🛡️
   - Polysaccharides 180mg
 - [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194)<sup>21</sup> 💇‍♂️ 👨‍🦳 🦴
-- [Life Extension Mega L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582)<sup>22</sup> ⏰ 🧠 👨‍🦳 🛡️
+- [L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582)<sup>22</sup> ⏰ 🧠 👨‍🦳 🛡️
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C (as Ascorbyl Palmitate) 5mg
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>23</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - (empty)
@@ -435,7 +434,7 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 
 
 ### Lunch
-- [Ezetimibe 10mg (Ezoleta)](https://www.mp.pl/pacjent/leki/lek/93836,Ezoleta-tabletki) ❤️ 🩸 ⚕️
+- [Ezetimibe 10mg](https://www.mp.pl/pacjent/leki/lek/93836,Ezoleta-tabletki) ❤️ 🩸 ⚕️
 - [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 ❤️ 🫀 🍅 ⚕️
 - 3x [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003)<sup>4</sup> 🧠 ❤️ 👁️ 🔥
 - 1x [Sodium Butyrate 500mg (Butyric acid 400mg)](https://allegro.pl/produkt/debutir-max-dietetyczny-srodek-spozywczy-maslan-sodu-500-mg-60-kapsulek-637196b0-4c8c-4e49-b018-bf4b3ea3e38c)<sup>6</sup> 🦠 🧠 🛡️ ⏰
@@ -445,6 +444,7 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
   - Curcuminoids ≥80mg; Longvida® SLCP™ lipid matrix
 - (empty)
 - [Ceratiq® Wheat Oil Extract 350mg](https://medpak.com.pl/life-extension-odbudowujace-skore-ceramidy-30-kapsulek)<sup>13</sup> 👨‍🦳 💧 🛡️
+  - phytoceramides; glycosylceramides; glycolipids
 - [Broccoli Seed Extract 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
   - Glucoraphanin 20mg; Myrosinase 17.7µM/g
 - [Ginger 400mg](https://allegro.pl/oferta/imbir-lekarski-intense-400mg-80-kaps-trawienie-odpornosc-suplement-17192004243) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🚽 🍆 🧠
@@ -461,6 +461,8 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 
 ### Before workout
 - [Creatine monohydrate 5g (1scoop)](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128)<sup>1</sup> [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
+- [Collagen peptides 13g (4scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html)<sup>10</sup> [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+  - Protein 13g; Fat 0g; Carbohydrates 0g; ~52kcal
 - [Transparent Labs BULK Pre-Workout (1scoop)](https://www.transparentlabs.com/products/bulk-preworkout) "White Cherry" ⚡ 💪 🧠 🩸
    - **Pump / blood flow**
      - L-Citrulline Malate 2:1 8g 🩸 💪
@@ -483,8 +485,7 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
      - Vitamin B12 100mcg<sup>28</sup> 🧠 ⚡
      - Sodium 180mg 💧
      - Potassium 125mg 💧 ❤️
-- [Collagen peptides 13g (~4 scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html)<sup>10</sup> [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
-  - Protein 13g; Fat 0g; Carbohydrates 0g; ~52kcal
+
 - [Rhodiola Rosea 600mg](https://allegro.pl/oferta/r2g-rhodiola-600mg-rozeniec-gorski-stres-120-dni-120-kaps-11311651115) 🧠 😌 ⚡ 🍆
 - [Taurine 1.5g](https://allegro.pl/oferta/ostrovit-taurine-1500-mg-120-kaps-tauryna-aminokwasy-9636446464)<sup>9</sup> [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
 - [Pycnogenol 100mg (OPC 65mg)](https://allegro.pl/produkt/suplement-diety-kenayag-pycnogenol-kora-sosny-kapsulki-60-szt-5c57cb7c-1dc9-4bea-b5b8-6d67b3436704)<sup>16</sup> 🫀 🦴 👨‍🦳 ❤️
@@ -501,8 +502,8 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 - 2.5L Water 💧
 - [ALLHydrate Electrolytes Neutral 2.73g (1 scoop)](https://allegro.pl/oferta/allhydrate-by-aliness-neutral-elektrolity-205-g-50-porcji-17359439491)<sup>3</sup>
   - Sodium 667mg; Chloride 1.095g; Potassium 200mg; Magnesium 40mg; Calcium 80mg; Phosphorus 70mg; 0kcal
-  - During Sauna sessions: +2.73g (1 additional scoop) without Cluster Dextrin® 🔥 💧
-- [GymBeam Cluster Dextrin® 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html) ⚡ 💪
+  - During Sauna sessions: +2.73g (1scoop) 🔥 💧
+- [HBCD (Cluster Dextrin®) 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html) ⚡ 💪
   - Highly Branched Cyclic Dextrin (Cluster Dextrin®) 25g; Carbohydrates 24g; Sugars 0g; 95kcal
 
 ### After workout
@@ -527,11 +528,11 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 
 
 ### Evening
+- [Isotretinoin (Accutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) (weekly) 👨‍🦳 ⏰ ⚕️
 - [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) (e2d) 💇‍♂️ 🍅 ⚕️
 - [Minoxidil 5mg](https://hairrepairclinic.co.uk/product/oral-minoxidil-5mg) 💇‍♂️ 🧔 ⚕️
-- [Isotretinoin (Accutane) 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) (weekly) 👨‍🦳 ⏰ ⚕️
 - (empty)
-- [Limosilactobacillus reuteri Gastrus® Blend 200mln CFU total](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392)<sup>5</sup> 🚽 🦠 🩸
+- [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392)<sup>5</sup> 🚽 🦠 🩸
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
 - 1x [Sodium Butyrate 500mg (Butyric acid 400mg)](https://allegro.pl/produkt/debutir-max-dietetyczny-srodek-spozywczy-maslan-sodu-500-mg-60-kapsulek-637196b0-4c8c-4e49-b018-bf4b3ea3e38c)<sup>6</sup> 🦠 🧠 🛡️ ⏰
 - (empty)
