@@ -366,7 +366,7 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 
 🥤 drink:
 - [Pamako ultra premium monovarietal-mountain EVOO (2,081 mg/kg polyphenols) 27g (2tbsp)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
-- [Psyllium Husk 7.5g (1tbsp)](https://allegro.pl/oferty-produktu/suplement-diety-targroch-babka-jajowata-luska-500g-95dc1e0c-8474-4a9c-ac97-dc755e5dda01) 🚽 🦠 🩸<sup>2</sup>
+- [Psyllium Husk 7.5g (1tbsp)](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸<sup>2</sup>
 - [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
   - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg; 109kcal
 - [MicroVitamin+ Powder Unflavored 26g (1scoop)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠
@@ -413,22 +413,22 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 - [Bifidobacterium longum 35624® 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671)<sup>30</sup> 🦠 🚽 🛡️
 - 2x [Cocoa Flavanols 250mg](https://onepure.ee/en/products/cocoa-flavanols) ❤️ 🧠 🛡️<sup>6</sup>
   - Low-Fat Cocoa Extract 1,150mg; Cocoa Flavanols 500mg; Caffeine 23mg
-- [Astaxanthin 18mg](https://www.bandini-pharma.pl/produkt/astaksantyna-270-kapsulek/) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
+- [Astaxanthin 18mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - 2x [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003)<sup>13</sup> 🧠 ❤️ 👁️ 🔥
 - [Limosilactobacillus reuteri Gastrus® Blend 200mln CFU total](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392)<sup>30</sup> 🚽 🦠 🩸
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
 - [Co Q10 100mg](https://allegro.pl/oferta/ostrovit-ubichinon-koenzym-q10-vege-100-kaps-100-mg-na-3-miesiace-11566562378)  [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
-- 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferty-produktu/now-foods-acetylo-l-karnityna-750-mg-90-tabletek-7b895652-7fd6-4c61-a952-78ab1f600ec5) 🧠 ⚡
+- 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetylo-l-karnityna-750-mg-90-tabl-energia-metabolizm-sila-17924420336) 🧠 ⚡
 - [Life Extension Mega L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582)<sup>20</sup> ⏰ 🧠 👨‍🦳 🛡️
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C (as Ascorbyl Palmitate) 5mg
 - [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194)<sup>21</sup> 💇‍♂️ 👨‍🦳 🦴
-- [NAC 1g](https://allegro.pl/oferty-produktu/suplement-diety-now-foods-nac-1000-mg-120-tabletek-3daba0ce-431a-477d-8454-968d77fcda8a)<sup>22</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
+- [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>22</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436)<sup>26</sup> [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
 - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>29</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - [Lion's Mane Extract 600mg](https://allegro.pl/oferta/ostrovit-soplowka-jezowata-60-caps-pamiec-stres-500-mg-lions-mane-10758736133) 🧠 🛡️
   - Polysaccharides 180mg
 - [Spermidine HCl 50mg (Spermidine 28mg)](https://allegro.pl/oferta/spermidyna-50mg-60-kapsulek-autofagia-odnowa-komorek-vegan-anti-aging-98-18566784282) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
-- [Fisetin 200mg (98%)](https://allegro.pl/oferty-produktu/forest-vitamin-fisetyna-200mg-60-kapsulek-6911e21c-dc7e-48ba-a691-2dbc540aff5b) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 🛡️ 🔥
+- [Fisetin 400mg](https://allegro.pl/oferta/forest-vitamin-fisetyna-400mg-60kaps-16458484396) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 🛡️ 🔥
 - (empty)
 - (empty)
 
@@ -438,8 +438,8 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 - 1x [Sodium Butyrate 500mg (Butyric acid 400mg)](https://allegro.pl/produkt/debutir-max-dietetyczny-srodek-spozywczy-maslan-sodu-500-mg-60-kapsulek-637196b0-4c8c-4e49-b018-bf4b3ea3e38c)<sup>3</sup> 🦠 🧠 🛡️ ⏰
 - 1x [Omega 3 500mg EPA 250mg DHA](https://allegro.pl/oferta/ostrovit-omega-3-extreme-90-caps-odpornosc-500-epa-250-dha-wysoka-dawka-9786419003)<sup>13</sup> 🧠 ❤️ 👁️ 🔥
 - [Lycopene 20mg](https://allegro.pl/oferta/likopen-mikrokapsulkowany-20-mg-lycopene-60-kapsulek-15828261195)<sup>9</sup> [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍅 ❤️ 👨‍🦳 🛡️
-- [Ceratiq® Wheat Oil Extract 350mg](https://pl.iherb.com/pr/life-extension-skin-restoring-ceramides-30-liquid-vegetarian-capsules/84506)<sup>10</sup> 👨‍🦳 💧 🛡️
-- [Curcumin 400mg](https://allegro.pl/oferty-produktu/suplement-diety-now-foods-przyswajalna-kurkumina-biodostepna-kurkuma-kapsulki-0-1-g-50-ml-1-szt-9626fb4b-45da-401d-9485-38232a400439)<sup>11</sup> [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🧠 🦴 ❤️
+- [Ceratiq® Wheat Oil Extract 350mg](https://medpak.com.pl/life-extension-odbudowujace-skore-ceramidy-30-kapsulek)<sup>10</sup> 👨‍🦳 💧 🛡️
+- [Curcumin 400mg](https://allegro.pl/oferta/now-foods-kurkumina-curcubrain-400mg-50-kapsulek-zoptymalizowana-kurkuma-18729912439)<sup>11</sup> [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🧠 🦴 ❤️
   - Curcuminoids ≥80mg; Longvida® SLCP™ lipid matrix
 - [Broccoli Seed Extract 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
   - Glucoraphanin 20mg; Myrosinase 17.7µM/g
@@ -447,11 +447,11 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
   - Gingerols 40mg; Shogaols 6.72mg
 - [Berberine HCl 490mg](https://bmpharma.pl/products/berberine)<sup>19</sup> 🩸 🚽 🛡️
 - [Black Aged Garlic 400mg](https://allegro.pl/oferta/aliness-czarny-czosnek-fermentowany-odpornosc-100k-12593377570) [[BJ-RYG 1200mg](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🛡️ 🩸 🍆
-- [Phosphatidylserine 300mg](https://naturawit.pl/product-pol-2700-Now-Foods-Fosfatydyloseryna-300-mg-Extra-Strength-50-kapsulek.html) 🧠 😌<sup>23</sup>
+- [Phosphatidylserine 300mg](https://allegro.pl/oferta/now-foods-fosfatydyloseryna-300mg-50-kapsulek-miekkich-phosphatidyl-serine-18726836925) 🧠 😌<sup>23</sup>
 - 1x [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064)<sup>24</sup> 🛡️ 🚽
   - Silymarin 240mg; Silybin 90mg; Isosilybin A/B 24mg; SILIPHOS® Phytosome 80mg (Silybin 23.76mg); Silybin 113.76mg
 - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>29</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
-- [DIM 200mg](https://pl.iherb.com/pr/now-foods-dim-200-90-veg-capsules/84736) 🛡️ 🍆
+- [DIM 200mg](https://allegro.pl/oferta/now-food-dim-200-mg-90-vege-caps-waz-10-27-13415631105) 🛡️ 🍆
   - Calcium D-Glucarate 100mg (Calcium 12mg); Sodium Copper Chlorophyllin 20mg
 - (empty)
 - (empty)
@@ -459,7 +459,7 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 - (empty)
 
 ### Before workout
-- [Collagen peptides 13g (4scoops)](https://allegro.pl/oferty-produktu/kfd-pure-joint-collagen-hydrolizat-kolagenowy-300-g-ffc822b9-b785-4d25-87e7-84f59ccaaed9)<sup>5</sup> [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+- [Collagen peptides 13g (4scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html)<sup>5</sup> [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
 - [Creatine monohydrate 5g (1scoop)](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128)<sup>1</sup> [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - [Transparent Labs BULK Pre-Workout (1scoop)](https://www.transparentlabs.com/products/bulk-preworkout) "White Cherry" ⚡ 💪 🧠 🩸
    - **Pump / blood flow**
@@ -489,8 +489,8 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 - [Maca Root Extract 500mg (DER 10:1; 5g root equivalent)](https://allegro.pl/oferta/ostrovit-korzen-maca-vege-500-mg-90-tabs-ekstrakt-der-10-1-90-porcji-9910354122) 🍆 ⚡ 😌
 - [Fenugreek 750mg](https://allegro.pl/oferta/biotech-fenugreek-750-mg-60-kap-kozieradka-pospolita-testosteron-witalnosc-11217463392) 🍆 🩸 🚽
 - [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973)<sup>29</sup> [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
-- 3x [CaAKG 500mg](https://allegro.pl/oferty-produktu/ca-akg-alfa-ketoglutaran-wapnia-500-mg-100-kapsulek-energia-3a6bc5a1-df5f-4bb9-b64c-2c08bf3202cd) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
-- [Tribulus Terrestris 1500mg](https://allegro.pl/oferty-produktu/suplement-tribulus-terrestris-tabletki-biotechusa-naturalny-80-g-3e8cb850-e052-4c21-a6b8-3d7d8932275f) 🍆
+- 3x [CaAKG 500mg](https://allegro.pl/oferta/ca-akg-alfa-ketoglutaran-wapnia-500-mg-100-kapsulek-energia-18684587288) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
+- [Tribulus Terrestris 1500mg](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-testosteron-1500mg-90-14876230440) 🍆
 - (empty)
 
 ### During workout
@@ -508,11 +508,11 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 🥤 drink:
 - [100% Pure WPI Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
   - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg; 109kcal
-- [EAA Unflavored 10g (2scoops)](https://allegro.pl/oferty-produktu/proszek-eaa-essential-amino-acids-bialy-puch-500-g-naturalny-52690a04-f2e1-4906-bcc5-42746b7eadd2) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
+- [EAA Unflavored 10g (2scoops)](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
   - L-Leucine 3.329g; L-Valine 1.47g; L-Lysine 1.47g; L-Phenylalanine 1.2g; L-Threonine 1g; L-Isoleucine 600mg; L-Histidine 470mg; L-Methionine 330mg; L-Tryptophan 130mg; Vitamin B6 1.4mg<sup>15</sup>
 
 💊 pills:
-- [UC-II® Type II Collagen 40mg](https://www.aptekarosa.pl/produkt/59497-now-foods-uc-ii-kolagen-typu-ii-40-mg-60-kapsulek.html)<sup>16</sup> 🦴 💪
+- [UC-II® Type II Collagen 40mg](https://allegro.pl/oferta/now-foods-uc-ii-kolagen-typu-ii-40mg-60-kaps-18308890309)<sup>16</sup> 🦴 💪
   - UC-II® Standardized Chicken Cartilage 40mg (Total Collagen 10mg, including Undenatured Type II Collagen); Aquamin® 250mg; Calcium 80mg
 - [Urolithin A 500mg](https://allegro.pl/produkt/urolityna-a-effepharm-eternalis-500mg-60-kaps-a65b7e10-9f10-4368-a7e6-616126331afe) ⏰ 💪 🛡️
 - [Glucosamine Sulfate 2KCl 1400mg](https://allegro.pl/oferta/ostrovit-glukozamina-1400-mg-90-kaps-siarczan-2kcl-13966273938)<sup>18</sup> [[BJ-LM 750mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🦴 👨‍🦳 🛡️
@@ -534,14 +534,15 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
 - [Limosilactobacillus reuteri Gastrus® Blend 200mln CFU total](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) (after Dinner)<sup>30</sup> 🚽 🦠 🩸
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
 - [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) (e2d) 💇‍♂️ 🍅 ⚕️
-- [Minoxidil 5mg](https://www.gdziepolek.pl/substancje/minoxidil/) 💇‍♂️ 🧔 ⚕️
+- [Minoxidil 5mg](https://hairrepairclinic.co.uk/product/oral-minoxidil-5mg) 💇‍♂️ 🧔 ⚕️
 - [Melisen (Melatonin 1mg)](https://bmpharma.pl/products/melisen)<sup>8</sup> 😴 😌 ⏰
   - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>15</sup>
 - [Magnesium (Glycinate) 133.3mg](https://allegro.pl/produkt/glicynian-magnezu-ostrovit-90-kaps-chelat-400-mg-skurcze-nerwy-diglicynian-67bb9a9b-ab9f-45d1-9354-cd58ae4000f9)<sup>15</sup> [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 ❤️ 🦴
-- 2x [Inositol 1000mg](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 🧠 😌 🩸
+- 2x [Inositol 1000mg](https://allegro.pl/oferta/inozytol-1000-mg-life-extension-nerwy-stres-mozg-pamiec-360-kapsulek-15116117174) 🧠 😌 🩸
 - 3x [Glycine 1000mg](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777)<sup>14</sup> [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 🍅 ⏰
-- [L-Theanine 400mg](https://allegro.pl/produkt/suplement-diety-medcare-l-teanina-400-mg-120-kapsulek-czysta-711949f6-08bf-4668-bef1-3d65c380c812?offerId=18656328893) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
+- [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-240-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17173926212) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
 - [GABA 750mg](https://allegro.pl/oferta/trec-gaba-750-60-kaps-lepszy-sen-i-regeneracja-po-treningu-sleep-er-9466086224) 😴 😌 💪
+  - Vitamin B6 0.7mg<sup>15</sup>
 - [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924)
 - (empty)
 - (empty)
