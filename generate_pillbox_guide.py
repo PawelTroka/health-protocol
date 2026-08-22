@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 from docx import Document
@@ -42,14 +43,26 @@ COLORS = {
 }
 
 
-def item(code, name, dose="", qty="1 pill", icons="", note="", kind="active", same_slot_count=1):
+COMPACT_QUANTITY_RE = re.compile(
+    r"(?<=\d)\s+(?=(?:bln|mln|mcg|µg|μg|mg|kg|g|mL|ml|L|kcal|kJ|IU|CFU|"
+    r"scoops?|capsules?|pills?|tablets?|softgels?|servings?)\b)",
+    flags=re.IGNORECASE,
+)
+
+
+def compact_quantity_spacing(value: str) -> str:
+    """Keep numeric quantities visually compact, e.g. 250mg and 1pill."""
+    return COMPACT_QUANTITY_RE.sub("", value)
+
+
+def item(code, name, dose="", qty="1pill", icons="", note="", kind="active", same_slot_count=1):
     return {
         "code": code,
-        "name": name,
-        "dose": dose,
-        "qty": qty,
+        "name": compact_quantity_spacing(name),
+        "dose": compact_quantity_spacing(dose),
+        "qty": compact_quantity_spacing(qty),
         "icons": icons,
-        "note": note,
+        "note": compact_quantity_spacing(note),
         "kind": kind,
         "same_slot_count": same_slot_count,
     }
@@ -66,13 +79,13 @@ PAGES = [
         "accent": "morning",
         "callout": "Breakfast pill organizer • Row-major placement: left to right, top to bottom.",
         "cells": [
-            item("M.1", "B. longum 35624®", "1 bln CFU", icons="🦠 🚽"),
-            item("M.2", "L. reuteri Gastrus®", "200 mln CFU", icons="🦠 🚽"),
+            item("M.1", "B. longum 35624", "1 bln CFU", icons="🦠 🚽"),
+            item("M.2", "L. reuteri Strain Blend", "200 mln CFU", icons="🦠 🚽", note="DSM 17938 + ATCC PTA 6475"),
             empty("M.3"),
             item(
                 "M.4",
-                "Pharma Nord Bio-Quinon Q10 GOLD",
-                "CoQ10 100 mg",
+                "CoQ10 (Ubiquinone)",
+                "100 mg",
                 icons="❤️ 🧠 🛡️",
                 note="Heat-dispersed soy-oil softgel • riboflavin 1.4 mg",
             ),
@@ -82,7 +95,7 @@ PAGES = [
             item("M.8", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
                 "M.9",
-                "Real Mushrooms Lion’s Mane",
+                "Lion’s Mane Fruiting-Body Extract",
                 "500 mg each • 1,000 mg total",
                 qty="capsules together",
                 icons="🧠 🛡️",
@@ -97,7 +110,7 @@ PAGES = [
         "accent": "morning",
         "callout": "M.15 holds all three small NR capsules together; ranges elsewhere mean separate compartments.",
         "cells": [
-            item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 🛡️", note="ErgoActive® • Vitamin C 5 mg"),
+            item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 🛡️", note="Vitamin C 5 mg"),
             item("M.11", "NAC", "1,000 mg", icons="🛡️ 🫁"),
             empty("M.12"),
             item("M.13", "Astaxanthin", "18 mg", icons="👁️ 🛡️ 👨‍🦳"),
@@ -146,12 +159,12 @@ PAGES = [
         "accent": "lunch",
         "callout": "Evidence-weighted order continues from Lunch Box 1; each cell is one physical compartment.",
         "cells": [
-            item("L.10", "Curcumin • Longvida®", "400 mg", icons="🔥 🧠 🦴", note="Curcuminoids ≥80 mg"),
-            item("L.11", "Ceratiq® Wheat Oil Extract", "350 mg", icons="👨‍🦳 💧"),
+            item("L.10", "Curcumin", "400 mg", icons="🔥 🧠 🦴", note="Curcuminoids ≥80 mg • solid-lipid matrix"),
+            item("L.11", "Wheat-Oil Extract", "350 mg", icons="👨‍🦳 💧", note="Phytoceramides • glycosylceramides • glycolipids"),
             item("L.12", "Ginger", "400 mg", icons="🔥 🚽", note="Gingerols 40 mg • Shogaols 6.72 mg"),
             item("L.13", "Broccoli Seed Extract", "200 mg", icons="🛡️ 🍅 🔥", note="Glucoraphanin 20 mg • Myrosinase"),
             item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽"),
-            item("L.15", "Garlzac® Aged Black Garlic", "500 mg", icons="❤️ 🛡️", note="SAC 2.5 mg • standardized to 0.5%"),
+            item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🛡️", note="SAC 2.5 mg • standardized to 0.5%"),
             item("L.16", "Phosphatidylserine", "300 mg", icons="🧠 😌"),
             item("L.17", "Milk Thistle", "380 mg", icons="🛡️ 🚽"),
             item("L.18", "DIM", "200 mg", icons="🛡️ 🍆"),
@@ -174,9 +187,9 @@ PAGES = [
             },
             empty("E.2"),
             item("E.3", "Oral Minoxidil", "5 mg", icons="💇‍♂️ 🧔 ⚕️", kind="rx"),
-            item("E.4", "L. reuteri Gastrus®", "200 mln CFU", icons="🦠 🚽"),
+            item("E.4", "L. reuteri Strain Blend", "200 mln CFU", icons="🦠 🚽", note="DSM 17938 + ATCC PTA 6475"),
             item("E.5", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
-            item("E.6", "Melisen", "Melatonin 1 mg", icons="😴 😌"),
+            item("E.6", "Melatonin", "1 mg", icons="😴 😌", note="Passionflower • lemon balm • hops • saffron • B6"),
             item("E.7", "Glycine", "1,000 mg", qty="capsule • 1 of 3", icons="😴 🧠"),
             item("E.8", "Glycine", "1,000 mg", qty="capsule • 2 of 3", icons="😴 🧠"),
             item("E.9", "Glycine", "1,000 mg", qty="capsule • 3 of 3", icons="😴 🧠"),
@@ -191,9 +204,9 @@ PAGES = [
             item("E.10", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
             item("E.11", "Berberine HCl", "490 mg", icons="🩸 🚽"),
             item("E.12", "Magnesium Glycinate", "133.3 mg elemental", icons="💪 🧠 ❤️ 🦴"),
-            item("E.13", "PharmaGABA®", "250 mg", icons="😴 😌", note="Magnesium citrate 20 mg"),
+            item("E.13", "GABA", "250 mg", icons="😴 😌", note="Magnesium citrate 20 mg"),
             item("E.14", "Milk Thistle", "380 mg", icons="🛡️ 🚽"),
-            item("E.15", "Ashwagandha KSM-66", "500 mg", icons="😌 😴", note="Withanolides 25 mg"),
+            item("E.15", "Ashwagandha Root Extract", "500 mg", icons="😌 😴", note="Withanolides 25 mg"),
             item("E.16", "Inositol", "1,000 mg", qty="capsule • 1 of 2", icons="🧠 😌"),
             item("E.17", "Inositol", "1,000 mg", qty="capsule • 2 of 2", icons="🧠 😌"),
             item("E.18", "Apigenin", "200 mg", icons="😴 😌"),
@@ -205,10 +218,10 @@ PAGES = [
         "accent": "before",
         "callout": "Take with the normal pre-workout drink. Powders use B.0 codes and are not pillbox compartments.",
         "cells": [
-            item("B.1", "Pycnogenol®", "100 mg", icons="🫀 🦴 👨‍🦳 ❤️", note="OPC 65 mg"),
+            item("B.1", "French Maritime Pine-Bark Extract", "100 mg", icons="🫀 🦴 👨‍🦳 ❤️", note="OPC 65 mg"),
             item(
                 "B.2",
-                "KENAY RhodioLife®",
+                "Rhodiola rosea Root Extract",
                 "500 mg",
                 icons="🧠 😌 ⚡ 🍆",
                 note="Rhodiola rosea root • Rosavins 15 mg • Salidroside 5 mg",
@@ -228,8 +241,8 @@ PAGES = [
         "accent": "after",
         "callout": "Swallow these pills first; then start the A.0.1 WPI + A.0.2 EAA drink. Empty cells are intentional.",
         "cells": [
-            item("A.1", "UC-II® Type II Collagen", "40 mg", icons="🦴 💪"),
-            item("A.2", "Naturecan Urolithin A", "500 mg", icons="⏰ 💪", note="COA: 498 mg/cap • 1H-NMR verified"),
+            item("A.1", "Undenatured Type II Collagen", "40 mg cartilage complex", icons="🦴 💪", note="Total collagen 10 mg"),
+            item("A.2", "Urolithin A", "500 mg", icons="⏰ 💪"),
             item("A.3", "MSM", "1,500 mg", qty="tablet • 1 of 2", icons="🦴 🔥 👨‍🦳"),
             item("A.4", "MSM", "1,500 mg", qty="tablet • 2 of 2", icons="🦴 🔥 👨‍🦳"),
             empty("A.5"),
