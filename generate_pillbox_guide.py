@@ -42,7 +42,7 @@ COLORS = {
 }
 
 
-def item(code, name, dose="", qty="1 pill", icons="", note="", kind="active"):
+def item(code, name, dose="", qty="1 pill", icons="", note="", kind="active", same_slot_count=1):
     return {
         "code": code,
         "name": name,
@@ -51,6 +51,7 @@ def item(code, name, dose="", qty="1 pill", icons="", note="", kind="active"):
         "icons": icons,
         "note": note,
         "kind": kind,
+        "same_slot_count": same_slot_count,
     }
 
 
@@ -68,12 +69,26 @@ PAGES = [
             item("M.1", "B. longum 35624®", "1 bln CFU", icons="🦠 🚽"),
             item("M.2", "L. reuteri Gastrus®", "200 mln CFU", icons="🦠 🚽"),
             empty("M.3"),
-            item("M.4", "Co Q10", "100 mg", icons="❤️ 🧠"),
+            item(
+                "M.4",
+                "Pharma Nord Bio-Quinon Q10 GOLD",
+                "CoQ10 100 mg",
+                icons="❤️ 🧠 🛡️",
+                note="Heat-dispersed soy-oil softgel • riboflavin 1.4 mg",
+            ),
             item("M.5", "Acetyl-L-Carnitine", "750 mg", qty="large tablet • 1 of 2", icons="🧠 ⚡"),
             item("M.6", "Acetyl-L-Carnitine", "750 mg", qty="large tablet • 2 of 2", icons="🧠 ⚡"),
             empty("M.7"),
-            item("M.8", "Silicon", "14 mg", icons="💇‍♂️ 🦴"),
-            item("M.9", "Lion’s Mane Extract", "600 mg", icons="🧠 🛡️", note="Polysaccharides 180 mg"),
+            item("M.8", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
+            item(
+                "M.9",
+                "Real Mushrooms Lion’s Mane",
+                "500 mg each • 1,000 mg total",
+                qty="capsules together",
+                icons="🧠 🛡️",
+                note="Fruiting body • beta-glucans 300 mg",
+                same_slot_count=2,
+            ),
         ],
     },
     {
@@ -82,15 +97,22 @@ PAGES = [
         "accent": "morning",
         "callout": "M.15 holds all three small NR capsules together; ranges elsewhere mean separate compartments.",
         "cells": [
-            item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳", note="ErgoActive® • Vitamin C 5 mg"),
+            item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 🛡️", note="ErgoActive® • Vitamin C 5 mg"),
             item("M.11", "NAC", "1,000 mg", icons="🛡️ 🫁"),
             empty("M.12"),
-            item("M.13", "Astaxanthin", "18 mg", icons="👁️ 👨‍🦳"),
+            item("M.13", "Astaxanthin", "18 mg", icons="👁️ 🛡️ 👨‍🦳"),
             item("M.14", "Vitamin K complex", "K1 1.5 mg • MK-4 1 mg\nMK-7 0.2 mg", icons="🦴 ❤️"),
-            item("M.15", "Nicotinamide Riboside", "3 × 300 mg • 900 mg total", qty="3 small capsules • same slot", icons="🧠 ⚡"),
-            item("M.16", "Spermidine HCl", "50 mg", icons="⏰ 🧠", note="Spermidine 28 mg"),
+            item(
+                "M.15",
+                "Nicotinamide Riboside",
+                "300 mg each • 900 mg total",
+                qty="small capsules together",
+                icons="🧠 ⚡",
+                same_slot_count=3,
+            ),
+            empty("M.16"),
             empty("M.17"),
-            item("M.18", "Fisetin", "400 mg", icons="⏰ 🛡️"),
+            item("M.18", "Spermidine HCl", "50 mg", icons="⏰ 🧠", note="Spermidine 28 mg"),
         ],
     },
     {
@@ -105,17 +127,17 @@ PAGES = [
                 "kind": "shared",
                 "parts": [
                     item("L.1.1", "Ezetimibe", "10 mg", icons="❤️ ⚕️", kind="rx"),
-                    item("L.1.2", "Tadalafil", "5 mg", icons="🍆 ❤️ ⚕️", kind="rx"),
+                    item("L.1.2", "Tadalafil", "5 mg", icons="🍆 ❤️ 🫀 🍅 ⚕️", kind="rx"),
                 ],
             },
-            item("L.2", "Omega-3", "EPA 500 mg • DHA 250 mg", qty="large softgel • 1 of 3", icons="❤️ 🧠", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
-            item("L.3", "Omega-3", "EPA 500 mg • DHA 250 mg", qty="large softgel • 2 of 3", icons="❤️ 🧠", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
-            item("L.4", "Omega-3", "EPA 500 mg • DHA 250 mg", qty="large softgel • 3 of 3", icons="❤️ 🧠", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
+            item("L.2", "Omega-3", "EPA 500 mg • DHA 250 mg", qty="large softgel • 1 of 3", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
+            item("L.3", "Omega-3", "EPA 500 mg • DHA 250 mg", qty="large softgel • 2 of 3", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
+            item("L.4", "Omega-3", "EPA 500 mg • DHA 250 mg", qty="large softgel • 3 of 3", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
             item("L.5", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
             item("L.6", "Cocoa Flavanols", "250 mg", qty="large capsule • 1 of 2", icons="❤️ 🧠"),
             item("L.7", "Cocoa Flavanols", "250 mg", qty="large capsule • 2 of 2", icons="❤️ 🧠"),
             empty("L.8"),
-            item("L.9", "Lycopene", "20 mg", icons="🍅 👨‍🦳"),
+            item("L.9", "Lycopene", "20 mg", icons="🍅 ❤️ 👨‍🦳 🛡️"),
         ],
     },
     {
@@ -124,12 +146,12 @@ PAGES = [
         "accent": "lunch",
         "callout": "Evidence-weighted order continues from Lunch Box 1; each cell is one physical compartment.",
         "cells": [
-            item("L.10", "Curcumin • Longvida®", "400 mg", icons="🔥 🧠", note="Curcuminoids ≥80 mg"),
+            item("L.10", "Curcumin • Longvida®", "400 mg", icons="🔥 🧠 🦴", note="Curcuminoids ≥80 mg"),
             item("L.11", "Ceratiq® Wheat Oil Extract", "350 mg", icons="👨‍🦳 💧"),
             item("L.12", "Ginger", "400 mg", icons="🔥 🚽", note="Gingerols 40 mg • Shogaols 6.72 mg"),
-            item("L.13", "Broccoli Seed Extract", "200 mg", icons="🛡️ 🔥", note="Glucoraphanin 20 mg • Myrosinase"),
+            item("L.13", "Broccoli Seed Extract", "200 mg", icons="🛡️ 🍅 🔥", note="Glucoraphanin 20 mg • Myrosinase"),
             item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽"),
-            item("L.15", "ABG10+® Black Garlic", "400 mg", icons="❤️ 🛡️", note="DER 10:1 • SAC ≈0.4 mg"),
+            item("L.15", "Garlzac® Aged Black Garlic", "500 mg", icons="❤️ 🛡️", note="SAC 2.5 mg • standardized to 0.5%"),
             item("L.16", "Phosphatidylserine", "300 mg", icons="🧠 😌"),
             item("L.17", "Milk Thistle", "380 mg", icons="🛡️ 🚽"),
             item("L.18", "DIM", "200 mg", icons="🛡️ 🍆"),
@@ -147,7 +169,7 @@ PAGES = [
                 "kind": "shared",
                 "parts": [
                     item("E.1.1", "Isotretinoin", "10 mg", icons="👨‍🦳 ⚕️", note="WEEKLY ONLY", kind="rx"),
-                    item("E.1.2", "Dutasteride", "0.5 mg", icons="💇‍♂️ ⚕️", note="EVERY 2ND DAY", kind="rx"),
+                    item("E.1.2", "Dutasteride", "0.5 mg", icons="💇‍♂️ 🍅 ⚕️", note="EVERY 2ND DAY", kind="rx"),
                 ],
             },
             empty("E.2"),
@@ -166,9 +188,9 @@ PAGES = [
         "accent": "evening",
         "callout": "One cell per physical compartment; two Inositol capsules remain separated because of size.",
         "cells": [
-            item("E.10", "L-Theanine", "400 mg", icons="😴 😌"),
+            item("E.10", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
             item("E.11", "Berberine HCl", "490 mg", icons="🩸 🚽"),
-            item("E.12", "Magnesium Glycinate", "133.3 mg elemental", icons="💪 🧠"),
+            item("E.12", "Magnesium Glycinate", "133.3 mg elemental", icons="💪 🧠 ❤️ 🦴"),
             item("E.13", "PharmaGABA®", "250 mg", icons="😴 😌", note="Magnesium citrate 20 mg"),
             item("E.14", "Milk Thistle", "380 mg", icons="🛡️ 🚽"),
             item("E.15", "Ashwagandha KSM-66", "500 mg", icons="😌 😴", note="Withanolides 25 mg"),
@@ -179,36 +201,42 @@ PAGES = [
     },
     {
         "title": "BEFORE WORKOUT",
-        "range": "BW.1–BW.9",
+        "range": "B.1–B.9",
         "accent": "before",
-        "callout": "Take with the normal pre-workout drink. Powders use BW.0 codes and are not pillbox compartments.",
+        "callout": "Take with the normal pre-workout drink. Powders use B.0 codes and are not pillbox compartments.",
         "cells": [
-            item("BW.1", "Pycnogenol®", "100 mg", icons="🫀 ❤️", note="OPC 65 mg"),
-            item("BW.2", "Rhodiola Rosea", "600 mg", icons="🧠 ⚡"),
-            item("BW.3", "Taurine", "1,500 mg", icons="❤️ 💪"),
-            item("BW.4", "Maca Root Extract", "500 mg", icons="🍆 ⚡", note="DER 10:1"),
-            item("BW.5", "Fenugreek", "750 mg", icons="🍆 🚽"),
-            item("BW.6", "CaAKG", "500 mg", qty="capsule • 1 of 3", icons="⏰ 💪"),
-            item("BW.7", "CaAKG", "500 mg", qty="capsule • 2 of 3", icons="⏰ 💪"),
-            item("BW.8", "CaAKG", "500 mg", qty="capsule • 3 of 3", icons="⏰ 💪"),
-            item("BW.9", "Tribulus Terrestris", "1,500 mg", icons="🍆"),
+            item("B.1", "Pycnogenol®", "100 mg", icons="🫀 🦴 👨‍🦳 ❤️", note="OPC 65 mg"),
+            item(
+                "B.2",
+                "KENAY RhodioLife®",
+                "500 mg",
+                icons="🧠 😌 ⚡ 🍆",
+                note="Rhodiola rosea root • Rosavins 15 mg • Salidroside 5 mg",
+            ),
+            item("B.3", "Taurine", "1,500 mg", icons="❤️ 💪 🫁"),
+            item("B.4", "Maca Root Extract", "500 mg", icons="🍆 ⚡", note="DER 10:1"),
+            item("B.5", "Fenugreek", "750 mg", icons="🍆 🚽"),
+            item("B.6", "CaAKG", "500 mg", qty="capsule • 1 of 3", icons="⏰ 💪"),
+            item("B.7", "CaAKG", "500 mg", qty="capsule • 2 of 3", icons="⏰ 💪"),
+            item("B.8", "CaAKG", "500 mg", qty="capsule • 3 of 3", icons="⏰ 💪"),
+            item("B.9", "Tribulus Terrestris", "1,500 mg", icons="🍆"),
         ],
     },
     {
         "title": "AFTER WORKOUT",
-        "range": "AW.1–AW.9",
+        "range": "A.1–A.9",
         "accent": "after",
-        "callout": "Swallow these pills first; then start the AW.0 WPI/EAA drink. Empty cells are intentional.",
+        "callout": "Swallow these pills first; then start the A.0.1 WPI + A.0.2 EAA drink. Empty cells are intentional.",
         "cells": [
-            item("AW.1", "UC-II® Type II Collagen", "40 mg", icons="🦴 💪"),
-            item("AW.2", "Urolithin A", "500 mg", icons="⏰ 💪"),
-            item("AW.3", "MSM", "1,500 mg", qty="tablet • 1 of 2", icons="🦴 🔥"),
-            item("AW.4", "MSM", "1,500 mg", qty="tablet • 2 of 2", icons="🦴 🔥"),
-            empty("AW.5"),
-            empty("AW.6"),
-            empty("AW.7"),
-            empty("AW.8"),
-            item("AW.9", "Glucosamine Sulfate 2KCl", "1,400 mg", icons="🦴 🛡️"),
+            item("A.1", "UC-II® Type II Collagen", "40 mg", icons="🦴 💪"),
+            item("A.2", "Naturecan Urolithin A", "500 mg", icons="⏰ 💪", note="COA: 498 mg/cap • 1H-NMR verified"),
+            item("A.3", "MSM", "1,500 mg", qty="tablet • 1 of 2", icons="🦴 🔥 👨‍🦳"),
+            item("A.4", "MSM", "1,500 mg", qty="tablet • 2 of 2", icons="🦴 🔥 👨‍🦳"),
+            empty("A.5"),
+            empty("A.6"),
+            empty("A.7"),
+            empty("A.8"),
+            item("A.9", "Glucosamine Sulfate 2KCl", "1,400 mg", icons="🦴 🛡️"),
         ],
     },
 ]
@@ -356,7 +384,9 @@ def fill_simple_cell(cell, data, accent_key):
     p = cell.add_paragraph()
     compact_paragraph(p, after=2, line=0.95)
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = p.add_run(data["name"])
+    same_slot_count = data.get("same_slot_count", 1)
+    display_name = f"{same_slot_count}x {data['name']}" if same_slot_count > 1 else data["name"]
+    run = p.add_run(display_name)
     set_repeatable_font(run, 12.2 if kind != "empty" else 15, bold=True, color=COLORS["ink"] if kind != "empty" else COLORS["empty_ink"])
 
     if data.get("dose"):
@@ -376,8 +406,9 @@ def fill_simple_cell(cell, data, accent_key):
         p = cell.add_paragraph()
         compact_paragraph(p, after=1)
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        run = p.add_run(data["icons"])
-        set_repeatable_font(run, 10, name="Segoe UI Emoji")
+        icon_tokens = data["icons"].split()
+        run = p.add_run(" ".join(icon_tokens))
+        set_repeatable_font(run, 9 if len(icon_tokens) >= 5 else 10, name="Segoe UI Emoji")
 
     if data.get("note"):
         p = cell.add_paragraph()
