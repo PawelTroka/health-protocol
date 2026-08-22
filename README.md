@@ -361,7 +361,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ## 5. Supplements and drugs
 Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
 Within each timing, entries are grouped first by required micro-timing or absorption, then ordered by evidence-weighted expected net benefit. Multi-ingredient products and products deliberately taken last are exceptions.
-Each organizer timing retains 18 pill slots including empty placeholders; drinks and powders do not consume pill slots.
+The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before Workout and After Workout organizers retain 9 pill slots; empty placeholders represent unused slots, and drinks and powders do not consume pill slots.
 ### Morning
 
 🥤 drink:
