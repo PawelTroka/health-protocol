@@ -546,7 +546,7 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
   - Silymarin 240mg; Silybin 90mg; Isosilybin A/B 24mg; SILIPHOS® Phytosome 80mg (Silybin 23.76mg); Silybin 113.76mg
 - [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://allegro.pl/oferta/ashwagandha-ekstrakt-ksm-66-500mg-koncentracja-pamiec-gymbeam-90-kapsulek-14961267046)<sup>26</sup> 😌 😴 🍆 🧠
 - (empty)
-- [NOW Foods PharmaGABA® 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256)<sup>27</sup> 😴 😌
+- [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256)<sup>27</sup> 😴 😌
   - GABA (PharmaGABA®) 250mg; Magnesium (Citrate) 20mg<sup>29</sup>
 - 2x [Inositol 1000mg](https://allegro.pl/oferta/inozytol-1000-mg-life-extension-nerwy-stres-mozg-pamiec-360-kapsulek-15116117174) 🧠 😌 🩸
 - [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924)
