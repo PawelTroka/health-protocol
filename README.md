@@ -423,7 +423,7 @@ The Morning, Lunch and Evening organizers retain 18 pill slots, while the Before
   - Polysaccharides 180mg
 - [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194)<sup>21</sup> 💇‍♂️ 👨‍🦳 🦴
 - [L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582)<sup>22</sup> ⏰ 🧠 👨‍🦳 🛡️
-  - ErgoActive® L-Ergothioneine 25mg; Vitamin C (as Ascorbyl Palmitate) 5mg
+  - ErgoActive® L-Ergothioneine 25mg; Vitamin C 5mg
 - [NAC 1g](https://allegro.pl/oferta/now-foods-nac-n-acetyl-cysteine-1000-mg-n-acetylocysteina-odpornosc-120-tab-15102432935)<sup>23</sup> [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅
 - (empty)
 - [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436)<sup>25</sup> [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
