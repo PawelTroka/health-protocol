@@ -55,7 +55,7 @@ def compact_quantity_spacing(value: str) -> str:
     return COMPACT_QUANTITY_RE.sub("", value)
 
 
-def item(code, name, dose="", qty="1pill", icons="", note="", kind="active", same_slot_count=1):
+def item(code, name, dose="", qty="", icons="", note="", kind="active", same_slot_count=1):
     return {
         "code": code,
         "name": compact_quantity_spacing(name),
@@ -89,15 +89,14 @@ PAGES = [
                 icons="❤️ 🧠 🛡️",
                 note="Heat-dispersed soy-oil softgel • riboflavin 1.4 mg",
             ),
-            item("M.5", "Acetyl-L-Carnitine", "750 mg", qty="large tablet • 1 of 2", icons="🧠 ⚡"),
-            item("M.6", "Acetyl-L-Carnitine", "750 mg", qty="large tablet • 2 of 2", icons="🧠 ⚡"),
+            item("M.5", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡"),
+            item("M.6", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡"),
             empty("M.7"),
             item("M.8", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
                 "M.9",
                 "Lion’s Mane Fruiting-Body Extract",
-                "500 mg each • 1,000 mg total",
-                qty="capsules together",
+                "500 mg each",
                 icons="🧠 🛡️",
                 note="Fruiting body • beta-glucans 300 mg",
                 same_slot_count=2,
@@ -108,9 +107,9 @@ PAGES = [
         "title": "MORNING • BOX 2",
         "range": "M.10–M.18",
         "accent": "morning",
-        "callout": "M.15 holds all three small NR capsules together; ranges elsewhere mean separate compartments.",
+        "callout": "M.15 holds all three small NR capsules together.",
         "cells": [
-            item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 🛡️", note="Vitamin C 5 mg"),
+            item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 🛡️", note="ErgoActive® • Vitamin C 5 mg"),
             item("M.11", "NAC", "1,000 mg", icons="🛡️ 🫁"),
             empty("M.12"),
             item("M.13", "Astaxanthin", "18 mg", icons="👁️ 🛡️ 👨‍🦳"),
@@ -118,8 +117,7 @@ PAGES = [
             item(
                 "M.15",
                 "Nicotinamide Riboside",
-                "300 mg each • 900 mg total",
-                qty="small capsules together",
+                "300 mg each",
                 icons="🧠 ⚡",
                 same_slot_count=3,
             ),
@@ -132,23 +130,23 @@ PAGES = [
         "title": "LUNCH • BOX 1",
         "range": "L.1–L.9",
         "accent": "lunch",
-        "callout": "L.1 is one divided compartment. Omega-3 is conditional and occupies three large-softgel slots.",
+        "callout": "Omega-3 is conditional: use L.2–L.4 on non-Fatty-Fish days only.",
         "cells": [
             {
                 "code": "L.1",
-                "name": "SHARED PRESCRIPTION SLOT",
+                "name": "PRESCRIPTIONS",
                 "kind": "shared",
                 "parts": [
                     item("L.1.1", "Ezetimibe", "10 mg", icons="❤️ ⚕️", kind="rx"),
                     item("L.1.2", "Tadalafil", "5 mg", icons="🍆 ❤️ 🫀 🍅 ⚕️", kind="rx"),
                 ],
             },
-            item("L.2", "Omega-3", "EPA 500 mg • DHA 250 mg", qty="large softgel • 1 of 3", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
-            item("L.3", "Omega-3", "EPA 500 mg • DHA 250 mg", qty="large softgel • 2 of 3", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
-            item("L.4", "Omega-3", "EPA 500 mg • DHA 250 mg", qty="large softgel • 3 of 3", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
+            item("L.2", "Omega-3", "EPA 500 mg • DHA 250 mg", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
+            item("L.3", "Omega-3", "EPA 500 mg • DHA 250 mg", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
+            item("L.4", "Omega-3", "EPA 500 mg • DHA 250 mg", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
             item("L.5", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
-            item("L.6", "Cocoa Flavanols", "250 mg", qty="large capsule • 1 of 2", icons="❤️ 🧠"),
-            item("L.7", "Cocoa Flavanols", "250 mg", qty="large capsule • 2 of 2", icons="❤️ 🧠"),
+            item("L.6", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠"),
+            item("L.7", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠"),
             empty("L.8"),
             item("L.9", "Lycopene", "20 mg", icons="🍅 ❤️ 👨‍🦳 🛡️"),
         ],
@@ -157,10 +155,10 @@ PAGES = [
         "title": "LUNCH • BOX 2",
         "range": "L.10–L.18",
         "accent": "lunch",
-        "callout": "Evidence-weighted order continues from Lunch Box 1; each cell is one physical compartment.",
+        "callout": "Evidence-weighted order continues from Lunch Box 1.",
         "cells": [
-            item("L.10", "Curcumin", "400 mg", icons="🔥 🧠 🦴", note="Curcuminoids ≥80 mg • solid-lipid matrix"),
-            item("L.11", "Wheat-Oil Extract", "350 mg", icons="👨‍🦳 💧", note="Phytoceramides • glycosylceramides • glycolipids"),
+            item("L.10", "Curcumin", "400 mg", icons="🔥 🧠 🦴", note="Longvida® SLCP™ lipid matrix • Curcuminoids ≥80 mg"),
+            item("L.11", "Wheat-Oil Extract", "350 mg", icons="👨‍🦳 💧", note="Ceratiq® • phytoceramides • glycosylceramides • glycolipids"),
             item("L.12", "Ginger", "400 mg", icons="🔥 🚽", note="Gingerols 40 mg • Shogaols 6.72 mg"),
             item("L.13", "Broccoli Seed Extract", "200 mg", icons="🛡️ 🍅 🔥", note="Glucoraphanin 20 mg • Myrosinase"),
             item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽"),
@@ -174,11 +172,11 @@ PAGES = [
         "title": "EVENING • BOX 1",
         "range": "E.1–E.9",
         "accent": "evening",
-        "callout": "E.1 is one divided compartment. E.2 remains intentionally empty. Follow the frequency labels exactly.",
+        "callout": "E.2 remains intentionally empty. Follow the frequency labels exactly.",
         "cells": [
             {
                 "code": "E.1",
-                "name": "SHARED PRESCRIPTION SLOT",
+                "name": "PRESCRIPTIONS",
                 "kind": "shared",
                 "parts": [
                     item("E.1.1", "Isotretinoin", "10 mg", icons="👨‍🦳 ⚕️", note="WEEKLY ONLY", kind="rx"),
@@ -190,25 +188,25 @@ PAGES = [
             item("E.4", "L. reuteri Strain Blend", "200 mln CFU", icons="🦠 🚽", note="DSM 17938 + ATCC PTA 6475"),
             item("E.5", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
             item("E.6", "Melatonin", "1 mg", icons="😴 😌", note="Passionflower • lemon balm • hops • saffron • B6"),
-            item("E.7", "Glycine", "1,000 mg", qty="capsule • 1 of 3", icons="😴 🧠"),
-            item("E.8", "Glycine", "1,000 mg", qty="capsule • 2 of 3", icons="😴 🧠"),
-            item("E.9", "Glycine", "1,000 mg", qty="capsule • 3 of 3", icons="😴 🧠"),
+            item("E.7", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
+            item("E.8", "Ashwagandha KSM-66", "500 mg", icons="😌 😴", note="Withanolides 25 mg"),
+            item("E.9", "Glycine", "1,000 mg", icons="😴 🧠"),
         ],
     },
     {
         "title": "EVENING • BOX 2",
         "range": "E.10–E.18",
         "accent": "evening",
-        "callout": "One cell per physical compartment; two Inositol capsules remain separated because of size.",
+        "callout": "Glycine continues from Evening Box 1.",
         "cells": [
-            item("E.10", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
-            item("E.11", "Berberine HCl", "490 mg", icons="🩸 🚽"),
-            item("E.12", "Magnesium Glycinate", "133.3 mg elemental", icons="💪 🧠 ❤️ 🦴"),
-            item("E.13", "GABA", "250 mg", icons="😴 😌", note="Magnesium citrate 20 mg"),
+            item("E.10", "Glycine", "1,000 mg", icons="😴 🧠"),
+            item("E.11", "Glycine", "1,000 mg", icons="😴 🧠"),
+            item("E.12", "Berberine HCl", "490 mg", icons="🩸 🚽"),
+            item("E.13", "Magnesium Glycinate", "133.3 mg elemental", icons="💪 🧠 ❤️ 🦴"),
             item("E.14", "Milk Thistle", "380 mg", icons="🛡️ 🚽"),
-            item("E.15", "Ashwagandha Root Extract", "500 mg", icons="😌 😴", note="Withanolides 25 mg"),
-            item("E.16", "Inositol", "1,000 mg", qty="capsule • 1 of 2", icons="🧠 😌"),
-            item("E.17", "Inositol", "1,000 mg", qty="capsule • 2 of 2", icons="🧠 😌"),
+            item("E.15", "GABA", "250 mg", icons="😴 😌", note="Magnesium citrate 20 mg"),
+            item("E.16", "Inositol", "1,000 mg", icons="🧠 😌"),
+            item("E.17", "Inositol", "1,000 mg", icons="🧠 😌"),
             item("E.18", "Apigenin", "200 mg", icons="😴 😌"),
         ],
     },
@@ -218,7 +216,7 @@ PAGES = [
         "accent": "before",
         "callout": "Take with the normal pre-workout drink. Powders use B.0 codes and are not pillbox compartments.",
         "cells": [
-            item("B.1", "French Maritime Pine-Bark Extract", "100 mg", icons="🫀 🦴 👨‍🦳 ❤️", note="OPC 65 mg"),
+            item("B.1", "Pycnogenol", "100 mg", icons="🫀 🦴 👨‍🦳 ❤️", note="French maritime pine • OPC 65 mg"),
             item(
                 "B.2",
                 "Rhodiola rosea Root Extract",
@@ -229,10 +227,10 @@ PAGES = [
             item("B.3", "Taurine", "1,500 mg", icons="❤️ 💪 🫁"),
             item("B.4", "Maca Root Extract", "500 mg", icons="🍆 ⚡", note="DER 10:1"),
             item("B.5", "Fenugreek", "750 mg", icons="🍆 🚽"),
-            item("B.6", "CaAKG", "500 mg", qty="capsule • 1 of 3", icons="⏰ 💪"),
-            item("B.7", "CaAKG", "500 mg", qty="capsule • 2 of 3", icons="⏰ 💪"),
-            item("B.8", "CaAKG", "500 mg", qty="capsule • 3 of 3", icons="⏰ 💪"),
-            item("B.9", "Tribulus Terrestris", "1,500 mg", icons="🍆"),
+            item("B.6", "Tribulus Terrestris", "1,500 mg", icons="🍆"),
+            item("B.7", "CaAKG", "500 mg", icons="⏰ 💪"),
+            item("B.8", "CaAKG", "500 mg", icons="⏰ 💪"),
+            item("B.9", "CaAKG", "500 mg", icons="⏰ 💪"),
         ],
     },
     {
@@ -241,10 +239,10 @@ PAGES = [
         "accent": "after",
         "callout": "Swallow these pills first; then start the A.0.1 WPI + A.0.2 EAA drink. Empty cells are intentional.",
         "cells": [
-            item("A.1", "Undenatured Type II Collagen", "40 mg cartilage complex", icons="🦴 💪", note="Total collagen 10 mg"),
+            item("A.1", "UC-II® Type II Collagen", "40 mg", icons="🦴 💪", note="Standardized chicken cartilage • Total collagen 10 mg"),
             item("A.2", "Urolithin A", "500 mg", icons="⏰ 💪"),
-            item("A.3", "MSM", "1,500 mg", qty="tablet • 1 of 2", icons="🦴 🔥 👨‍🦳"),
-            item("A.4", "MSM", "1,500 mg", qty="tablet • 2 of 2", icons="🦴 🔥 👨‍🦳"),
+            item("A.3", "MSM", "1,500 mg", icons="🦴 🔥 👨‍🦳"),
+            item("A.4", "MSM", "1,500 mg", icons="🦴 🔥 👨‍🦳"),
             empty("A.5"),
             empty("A.6"),
             empty("A.7"),
@@ -409,11 +407,12 @@ def fill_simple_cell(cell, data, accent_key):
         run = p.add_run(data["dose"])
         set_repeatable_font(run, 9.3, bold=True, color=accent)
 
-    p = cell.add_paragraph()
-    compact_paragraph(p, after=2, line=0.95)
-    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = p.add_run(data.get("qty", ""))
-    set_repeatable_font(run, 8.2, color=COLORS["muted"])
+    if data.get("qty"):
+        p = cell.add_paragraph()
+        compact_paragraph(p, after=2, line=0.95)
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        run = p.add_run(data["qty"])
+        set_repeatable_font(run, 8.2, color=COLORS["muted"])
 
     if data.get("icons"):
         p = cell.add_paragraph()
@@ -441,7 +440,7 @@ def fill_shared_cell(cell, data, accent_key):
 
     p = cell.paragraphs[0]
     compact_paragraph(p, after=1)
-    run = p.add_run(f"{data['code']} • SHARED SLOT")
+    run = p.add_run(data["code"])
     set_repeatable_font(run, 9.5, bold=True, color=COLORS["rx"])
 
     nested = cell.add_table(rows=1, cols=2)
@@ -506,8 +505,6 @@ def add_page(document, page_data, page_index):
     p = document.add_paragraph()
     compact_paragraph(p, before=3, after=0)
     p.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    run = p.add_run("One numbered cell = one physical compartment • ")
-    set_repeatable_font(run, 7.3, color=COLORS["muted"])
     add_hyperlink(p, "GymBeam Adjustable PillBox", PILLBOX_URL, color=accent)
     run = p.add_run(" • Full doses and evidence notes: README.md")
     set_repeatable_font(run, 7.3, color=COLORS["muted"])
@@ -546,7 +543,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 22 AUG 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 23 AUG 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
