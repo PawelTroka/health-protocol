@@ -500,6 +500,8 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 ### Before workout
 🥤 drink:
+- **B.0.3** [Collagen Peptides 13g (4scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+  - Protein 13g; Fat 0g; Carbohydrates 0g; ~52kcal
 - **B.0.1** [Creatine monohydrate 5g (1scoop)](https://allegro.pl/oferta/kfd-premium-creatine-500-g-kreatyna-monohydrat-naturalna-15712768128) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - **B.0.2** [Transparent Labs BULK Pre-Workout (1scoop)](https://www.transparentlabs.com/products/bulk-preworkout) "White Cherry" ⚡ 💪 🧠 🩸
    - **Pump / blood flow**
@@ -523,8 +525,6 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
      - Vitamin B12 100mcg<sup>M.0.3.2.4</sup> 🧠 ⚡
      - Sodium 180mg 💧
      - Potassium 125mg 💧 ❤️
-- **B.0.3** [Collagen Peptides 13g (4scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
-  - Protein 13g; Fat 0g; Carbohydrates 0g; ~52kcal
 
 💊 pills:
 - **B.1** [Pycnogenol 100mg (OPC 65mg)](https://allegro.pl/produkt/suplement-diety-kenayag-pycnogenol-kora-sosny-kapsulki-60-szt-5c57cb7c-1dc9-4bea-b5b8-6d67b3436704) 🫀 🦴 👨‍🦳 ❤️
