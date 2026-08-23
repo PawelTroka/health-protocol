@@ -456,7 +456,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
 - **M.3** (empty)
 - **M.4** [CoQ10 (Ubiquinone) 100mg](https://www.pharmanord.pl/produkty/bio-q10-gold) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
-  - Ubiquinone 100mg; Riboflavin 1.4mg; contains Soy and Gelatin
+  - Ubiquinone 100mg; Riboflavin 1.4mg
 - **M.5-6** 2x [Acetyl-L-Carnitine 750mg](https://allegro.pl/oferta/now-foods-acetylo-l-karnityna-750-mg-90-tabl-energia-metabolizm-sila-17924420336) 🧠 ⚡
 - **M.7** (empty)
 - **M.8** [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194) 💇‍♂️ 👨‍🦳 🦴
