@@ -407,7 +407,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 ### Morning
 🥤 drink:
-- **M.0.1** [Pamako ultra-premium monovarietal-mountain EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
+- **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
 - **M.0.2** [Psyllium Husk 7.5g (1tbsp)](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸
 - **M.0.4** [Whey Protein Isolate (WPI) Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
   - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg<sup>M.0.3.3.5</sup>; 109kcal
@@ -449,6 +449,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
      - Selenium 27.5mcg 🛡️ 🦋
      - Chromium 17.5mcg 🩸
      - Iodine 75mcg 🦋
+
 💊 pills:
 - **M.1** [Bifidobacterium longum 35624® 1bln CFU](https://allegro.pl/oferta/symbiosys-alflorex-probiotyk-35624-1-mld-30-kapsulek-mikrobiota-jelit-16317710671) 🦠 🚽 🛡️
 - **M.2** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠 🩸
@@ -524,6 +525,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
      - Potassium 125mg 💧 ❤️
 - **B.0.3** [Collagen Peptides 13g (4scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
   - Protein 13g; Fat 0g; Carbohydrates 0g; ~52kcal
+
 💊 pills:
 - **B.1** [Pycnogenol 100mg (OPC 65mg)](https://allegro.pl/produkt/suplement-diety-kenayag-pycnogenol-kora-sosny-kapsulki-60-szt-5c57cb7c-1dc9-4bea-b5b8-6d67b3436704) 🫀 🦴 👨‍🦳 ❤️
 - **B.2** [Rhodiola rosea Root Extract 500mg](https://kenay.com.pl/759-rozeniec-gorski-rhodiola-rosea-rhodiolife-60-kapsulek.html) 🧠 😌 ⚡ 🍆
@@ -549,6 +551,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
   - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg<sup>M.0.3.3.5</sup>; 109kcal
 - **A.0.2** [Essential Amino Acids (EAA) Unflavored 10g (2scoops)](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
   - Free Essential Amino Acids 10g; ~40kcal; L-Leucine 3.329g; L-Valine 1.47g; L-Lysine 1.47g; L-Phenylalanine 1.2g; L-Threonine 1g; L-Isoleucine 600mg; L-Histidine 470mg; L-Methionine 330mg; L-Tryptophan 130mg; Vitamin B6 1.4mg<sup>M.0.3.3.5</sup>
+
 💊 pills:
 - **A.1** [UC-II® Type II Collagen 40mg](https://allegro.pl/oferta/now-foods-uc-ii-kolagen-typu-ii-40mg-60-kaps-18308890309) 🦴 💪
   - Total Collagen 10mg, including Undenatured Type II Collagen; Mineralized Red-Algae Complex 250mg; Calcium 80mg
