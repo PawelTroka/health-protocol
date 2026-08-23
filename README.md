@@ -410,7 +410,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
 - **M.0.2** [Psyllium Husk 7.5g (1tbsp)](https://allegro.pl/oferta/psyllium-husks-blonnik-z-babki-plesznik-bez-glutenu-i-gmo-gymbeam-500-g-16894849939) 🚽 🦠 🩸
 - **M.0.4** [Whey Protein Isolate (WPI) Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
-  - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg<sup>M.0.3.3.5</sup>; 109kcal
+  - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg<sup>M.0.3.3.5</sup>
 - **M.0.3** [MicroVitamin+ Powder Unflavored 26g (1scoop)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠
    - **Structural / performance / digestive blend**
      - Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴 💇‍♂️
@@ -548,7 +548,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 ### After workout
 🥤 drink:
 - **A.0.1** [Whey Protein Isolate (WPI) Unflavored 30g](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701) 💪 🛡️ 🦠
-  - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg<sup>M.0.3.3.5</sup>; 109kcal
+  - Protein 27.8g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.3g (Sugars 0g); Vitamin B6 0.28mg<sup>M.0.3.3.5</sup>
 - **A.0.2** [Essential Amino Acids (EAA) Unflavored 10g (2scoops)](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
   - Free Essential Amino Acids 10g; ~40kcal; L-Leucine 3.329g; L-Valine 1.47g; L-Lysine 1.47g; L-Phenylalanine 1.2g; L-Threonine 1g; L-Isoleucine 600mg; L-Histidine 470mg; L-Methionine 330mg; L-Tryptophan 130mg; Vitamin B6 1.4mg<sup>M.0.3.3.5</sup>
 
