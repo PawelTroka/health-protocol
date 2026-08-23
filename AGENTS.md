@@ -44,6 +44,10 @@ Additional rules:
 
 ## Research and evidence standards
 
+- Practice evidence-based medicine, but do not confuse it with mechanically repeating decades-old clinical guidelines. Established guidelines remain an important safety and standard-of-care baseline, not the ceiling for this protocol.
+- Actively search for bleeding-edge and cutting-edge evidence: newly published human trials, current systematic reviews, trial-registry results, formulation-specific pharmacokinetics, validated biomarkers, regulatory updates and other rigorous emerging science. Prefer a newer, better-designed study over an older convention when the comparison is justified.
+- Weight emerging evidence by design quality, replication, effect size, population match, endpoint relevance, conflicts of interest and product/formulation match. Clearly label preprints, conference findings, small pilots and unreplicated results; “new” is not automatically “better.”
+- When an intervention is promising but not yet guideline-established, describe the strongest defensible experiment, its uncertainty, monitoring and stop criteria. Do not dismiss it merely because a guideline has not caught up, and do not present it as proven merely because it is novel.
 - Browse again for information that can change, including exact labels, serving instructions, recalls, regulatory status, current formulations, prices, stock and Polish availability.
 - Prefer sources in this order: official label/manufacturer documentation; EU, EFSA or another regulator; trial registry; peer-reviewed human trials; high-quality systematic reviews. A retailer can establish that an exact SKU is purchasable, but should not support an efficacy claim.
 - For Poland availability, distinguish ordinary Polish/EU retail access from marketplace import, freight forwarding and regulatory-grey direct import.
@@ -80,6 +84,9 @@ These are workflow constraints, not immutable medical facts. Preserve them unles
 
 ## Protocol writing and formatting
 
+- Keep the protocol and Notes positive, energetic, constructive and forward-looking. Lead with what is working, what is promising and the practical path to improvement before discussing limitations.
+- Avoid gloomy, cynical, scolding, defeatist or catastrophizing language. Do not make a sophisticated protocol sound like a catalogue of failures, and do not write in a persistently depressed tone.
+- Positivity must remain evidence-honest: state material risks clearly, calmly and proportionately, then pair them with an actionable mitigation, monitoring plan, better formulation or next research step. Never hide a safety issue to preserve an upbeat tone.
 - Use compact number-unit forms everywhere in the protocol and guide: `1g`, `250mg`, `1,000IU`, `1scoop`, `1tbsp`, `1pill`, `200mln CFU`. Leave natural prose durations such as “12 weeks” readable.
 - Use `~` only for a genuine estimate, not for a labeled scoop or capsule count.
 - Keep timing sections compact. Do not insert gratuitous blank lines directly after timing headings, before `🥤 drink:`, before `🥤 intra-workout drink:`, or between the final drink entry and `💊 pills:`.
