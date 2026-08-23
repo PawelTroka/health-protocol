@@ -84,6 +84,9 @@ These are workflow constraints, not immutable medical facts. Preserve them unles
 
 ## Protocol writing and formatting
 
+- Keep the active protocol concise, operational and easy to scan. It should primarily show what is taken or done, the exact dose or quantity, timing, slot code, meaningful formulation identity and product link; place supporting rationale, evidence, uncertainties, alternatives, cumulative-exposure analysis, monitoring and reassessment details in Notes.
+- Avoid duplicating the same explanation in an active entry and its Note. Retain a short active-entry detail only when it is necessary to identify the intervention correctly or use it safely.
+- Make every change conform strictly to the live file's established formatting. Preserve the surrounding heading hierarchy, list structure, indentation, spacing, slot-code placement, compact number-unit style, emoji placement, links, signatures and local wording pattern unless the user explicitly requests a formatting change.
 - Keep the protocol and Notes positive, energetic, constructive and forward-looking. Lead with what is working, what is promising and the practical path to improvement before discussing limitations.
 - Avoid gloomy, cynical, scolding, defeatist or catastrophizing language. Do not make a sophisticated protocol sound like a catalogue of failures, and do not write in a persistently depressed tone.
 - Positivity must remain evidence-honest: state material risks clearly, calmly and proportionately, then pair them with an actionable mitigation, monitoring plan, better formulation or next research step. Never hide a safety issue to preserve an upbeat tone.
