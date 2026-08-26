@@ -50,6 +50,67 @@ COMPACT_QUANTITY_RE = re.compile(
 )
 
 
+TIER_BY_CODE = {
+    "M.1": "🥇",
+    "M.2": "🥈",
+    "M.4": "🥈",
+    "M.5": "🥈",
+    "M.6": "🥈",
+    "M.8": "🥈",
+    "M.9": "🥈",
+    "M.10": "🥉",
+    "M.11": "🥈",
+    "M.13": "🥈",
+    "M.14": "🥉",
+    "M.15": "🥉",
+    "M.18": "🥉",
+    "L.2": "🥇",
+    "L.3": "🥇",
+    "L.4": "🥇",
+    "L.5": "🥈",
+    "L.6": "🥈",
+    "L.7": "🥈",
+    "L.9": "🥈",
+    "L.10": "🥈",
+    "L.11": "🥈",
+    "L.13": "🥉",
+    "L.14": "🥈",
+    "L.15": "🥈",
+    "L.16": "🥈",
+    "L.17": "🥈",
+    "L.18": "🥉",
+    "E.3": "🥈",
+    "E.4": "🥈",
+    "E.5": "🥈",
+    "E.6": "🥈",
+    "E.7": "🥈",
+    "E.8": "🥈",
+    "E.9": "🥈",
+    "E.10": "🥈",
+    "E.11": "🥈",
+    "E.12": "🥈",
+    "E.13": "🥈",
+    "E.15": "🥉",
+    "E.16": "🥉",
+    "E.17": "🥉",
+    "E.18": "🥉",
+    "B.1": "🥈",
+    "B.2": "🥈",
+    "B.3": "🥈",
+    "B.4": "🥈",
+    "B.5": "🥈",
+    "B.6": "🥉",
+    "B.7": "🥉",
+    "B.8": "🥉",
+    "B.9": "🥉",
+    "A.1": "🥈",
+    "A.2": "🥈",
+    "A.3": "🥈",
+    "A.4": "🥈",
+    "A.9": "🥈",
+}
+
+
 def compact_quantity_spacing(value: str) -> str:
     """Keep numeric quantities visually compact, e.g. 250mg and 1pill."""
     return COMPACT_QUANTITY_RE.sub("", value)
@@ -65,6 +126,7 @@ def item(code, name, dose="", qty="", icons="", note="", kind="active", same_slo
         "note": compact_quantity_spacing(note),
         "kind": kind,
         "same_slot_count": same_slot_count,
+        "tier": TIER_BY_CODE.get(code, ""),
     }
 
 
@@ -249,8 +311,15 @@ PAGES = [
             ),
             item("B.3", "Taurine", "1.5 g", icons="❤️ 💪 🫁"),
             item("B.4", "Raw Maca Root 6:1 Concentrate", "750 mg", icons="🍆 ⚡ 🔄", note="Gelatinized • 4.5g fresh-root equivalent"),
-            item("B.5", "Tribulus Terrestris", "1,500 mg", icons="🍆"),
-            item("B.6", "Fenugreek", "750 mg", icons="🍆 🚽"),
+            item(
+                "B.5",
+                "Fenugreek Seed Extract",
+                "300 mg",
+                icons="🍆 🩸 🚽",
+                note="Testofen® • Fenuside™ saponins 150mg (50%)",
+                same_slot_count=2,
+            ),
+            item("B.6", "Tribulus Terrestris", "1,500 mg", icons="🍆"),
             item("B.7", "Calcium Alpha-Ketoglutarate (CaAKG)", "500 mg", icons="⏰ 💪"),
             item("B.8", "Calcium Alpha-Ketoglutarate (CaAKG)", "500 mg", icons="⏰ 💪"),
             item("B.9", "Calcium Alpha-Ketoglutarate (CaAKG)", "500 mg", icons="⏰ 💪"),
@@ -412,6 +481,9 @@ def fill_simple_cell(cell, data, accent_key):
     p = cell.paragraphs[0]
     compact_paragraph(p, after=3)
     p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+    if data.get("tier"):
+        run = p.add_run(f"{data['tier']} ")
+        set_repeatable_font(run, 10.5, bold=True, color=accent, name="Segoe UI Emoji")
     run = p.add_run(data["code"])
     set_repeatable_font(run, 10.5, bold=True, color=accent)
 
@@ -531,6 +603,8 @@ def add_page(document, page_data, page_index):
     add_hyperlink(p, "GymBeam Adjustable PillBox", PILLBOX_URL, color=accent)
     run = p.add_run(" • Full doses and evidence notes: README.md")
     set_repeatable_font(run, 7.3, color=COLORS["muted"])
+    run = p.add_run(" • 🥇 strongest • 🥈 supportive • 🥉 exploratory")
+    set_repeatable_font(run, 6.8, color=COLORS["muted"], name="Segoe UI Emoji")
 
     if page_index < len(PAGES) - 1:
         p = document.add_paragraph()
