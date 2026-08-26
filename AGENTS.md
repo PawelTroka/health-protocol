@@ -75,6 +75,7 @@ These are workflow constraints, not immutable medical facts. Preserve them unles
 - Keep Cocoa Flavanols at Lunch.
 - Keep UC-II pills before the WPI/EAA drink, and preserve the explanation that the pills are swallowed first.
 - Keep HBCD intra-workout rather than automatically adding or moving another full dose pre-workout.
+- Transparent Labs BULK is taken daily because some form of workout occurs every day. Do not create non-BULK-day or non-workout-day contingencies, and do not add standalone Beta-Alanine continuity; BULK already supplies 4g/day. HBCD may still be omitted on easy or short sessions.
 - Keep Aged Black Garlic above Phosphatidylserine. Do not demote Garlic solely because current Blood Pressure, ApoB or Triglycerides are favorable.
 - Pending the planned repeat thyroid testing, do not treat Ashwagandha as the established cause of the thyroid result or demote/remove it solely for that reason. Continue to state uncertainty and appropriate monitoring honestly.
 - Preserve the deliberate visual orders of Morning WPI above MicroVitamin+ and pre-workout Collagen above Creatine monohydrate. These are display preferences, not claims of biological superiority.
