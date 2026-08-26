@@ -214,10 +214,10 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### **Wednesday: Legs (Glute/Hamstring Dominant)**
 *Focus: Sexual health (hip power), joint preservation, athletic posterior chain, healthy back.*
 - **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 65kg, 11 × 70kg, 10 × 75kg (Crucial for sexual health. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes)
-- **Hamstrings/Glutes**: Stiff-Legged Deadlift (SLDL) with Dumbbells: 12 × 20kg, 11 × 22.5kg, 10 × 25kg (Safer than barbell for spinal loading)
+- **Hamstrings/Glutes**: Stiff-Legged Deadlift (SLDL) with Dumbbells: 12 × 22.5kg, 11 × 25kg, 10 × 27.5kg (Safer than barbell for spinal loading)
 - **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)*
 - **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg
-- **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 2.5kg, 15 × 5kg, 15 × 7.5kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)*
+- **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 5kg, 15 × 10kg, 15 × 15kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)*
 - **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 15 × 110kg (Slow negative)
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti)
 
