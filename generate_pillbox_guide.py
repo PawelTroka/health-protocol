@@ -168,9 +168,15 @@ PAGES = [
         "accent": "lunch",
         "callout": "Evidence-weighted order continues from Lunch Box 1.",
         "cells": [
-            item("L.10", "Curcumin", "400 mg", icons="🔥 🧠 🦴", note="Longvida® SLCP™ lipid matrix • Curcuminoids ≥80 mg"),
+            item(
+                "L.10",
+                "Curcumin + Ginger + Turmerones",
+                "Curcuminoids 200mg",
+                icons="🔥 🧠 🦴 ❤️ 🚽 🍆",
+                note="Advanced Curcumin Elite™ • Gingerols 60mg • Turmerones 75mg",
+            ),
             item("L.11", "Ceratiq® Wheat Oil Extract", "350 mg", icons="👨‍🦳 💧", note="Phytoceramides • glycosylceramides • glycolipids"),
-            item("L.12", "Ginger", "400 mg", icons="🔥 🚽", note="Gingerols 40 mg • Shogaols 6.72 mg"),
+            empty("L.12"),
             item("L.13", "Broccoli Seed Extract", "200 mg", icons="🛡️ 🍅 🔥", note="Glucoraphanin 20 mg • Myrosinase"),
             item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽"),
             item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🛡️", note="SAC 2.5 mg • standardized to 0.5%"),
@@ -560,7 +566,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 23 AUG 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 26 AUG 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
