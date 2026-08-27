@@ -735,13 +735,14 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - For face drying, use single-use **100% organic cotton** towels to prevent acne and bacterial transfer:
   - [Standard face towels (20x20cm)](https://allegro.pl/oferta/cottico-jednorazowe-reczniki-do-twarzy-100-bawelna-20x20-80szt-18034581599)
   - [Small travel face towels (15x20cm)](https://allegro.pl/oferta/cottico-jednorazowe-reczniki-do-twarzy-100-bawelna-15x20-50szt-18034588939)
-- Use **100% organic cotton** hotel-grade towels for daily bathing and travel to ensure optimal hygiene:
-  - [Large bath towels (70x140cm)](https://allegro.pl/oferta/4x-duzy-recznik-hotelowy-70x140cm-4-sztuki-500g-95c-chlonny-hotel-reczniki-16079223421)
-  - [Small travel towels (50x100cm)](https://allegro.pl/oferta/4x-maly-recznik-hotelowy-50x100cm-4-sztuki-500g-95c-chlonny-hotel-reczniki-16720240015)
-  - **Health parameters**:
-    - **100% Cotton & Oeko-Tex Standard 100**: Free from harmful chemicals, microplastics, and synthetic endocrine disruptors.
-    - **500g/m² weight & Ring-Spun double yarn**: High absorbency and durability, leaving no moisture on the skin which prevents fungal and bacterial growth.
-    - **Washable at 95°C**: Crucial for true sterilization. Washing at boiling temperatures effectively kills bacteria, viruses, mites, and mold that survive regular washes.
+- Use **100% GOTS-certified, OEKO-TEX® STANDARD 100 Product Class I-certified organic cotton** towel system, keeping each size to its assigned role:
+  - **Large — Sauna and bath (8x):** [MALFINI Organic 918, 70x140cm, color 00 white](https://www.adler-sklep.pl/frotte-reczniki-malfini-adler/918-recznik-malfini-organic-70x140cm.html) — bathing and Sauna body/bench barrier; cover every area of bare Skin contacting the bench.
+  - **Medium — Gym and Sauna feet (8x):** [MALFINI Organic 917, 50x100cm, color 00 white](https://www.adler-sklep.pl/frotte-reczniki-malfini-adler/917-recznik-malfini-organic-50x100cm.html) — use a dedicated fresh towel for each role.
+  - **Small — hands and Kitchen (8x):** [MALFINI Organic 916, 30x50cm, color 00 white](https://www.adler-sklep.pl/frotte-reczniki-malfini-adler/916-recznik-malfini-organic-30x50cm.html) — keep hand-drying and Kitchen/food-contact towels separate.
+  - **Health and quality parameters**:
+    - **Material and certification:** 100% GOTS-certified organic Cotton; OEKO-TEX® STANDARD 100 Product Class I ([PG020 153125](https://www.oeko-tex.com/en/detail/?number=PG020%20153125)); 450g/m².
+    - **Washing:** 60°C-washable. Wash without fabric softener and dry completely between uses.
+    - **Hygiene rotation:** Use a fresh large or medium towel for each separate role/session; change hand and Kitchen towels daily or sooner when damp or soiled. Never move a towel used under the feet or for food contact to another role before laundering. The 8/8/8 stock assumes a midweek wash whenever more than one towel of a size is used per day.
 - Use **100% Bamboo** toilet paper to avoid bleach, BPA, and microplastics found in recycled or standard paper:
   - [The Cheeky Panda Bamboo Toilet tissue](https://allegro.pl/oferta/papier-toaletowy-3-warstwowy-bambusowy-miekki-48-rolek-opakowanie-rodzinne-14511919365) 🚽 🛡️
 
