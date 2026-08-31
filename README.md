@@ -276,22 +276,24 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ## 4. Diet
 
-### The 4-Pillar Longevity, Looksmaxxing & Sexual Health Protocol
-#### Protein-sparing Mediterranean Longevity Architecture
+### Protein-sparing Mediterranean Caloric-Restriction diet
+
 *Checked daily template at 80kg: ~2,021kcal (25.3kcal/kg) · P193g dietary Protein (2.41g/kg) · C119.2g (1.49g/kg) · F80.9g (1.01g/kg) · Fiber37.1g (0.46g/kg), plus 10g free EAA and 3g free Glycine.*<sup>M.0.4</sup>
 
 Dietary Protein includes 25.5g Collagen and all plant Protein. Excluding Collagen and adding the retained complete EAA gives ~177.5g (2.22g/kg), meeting the 2.2g/kg target. Glycine remains separate. Item format is `Calories · Protein · Carbohydrate · Fat · Fiber`; product labels override estimates.
 
 ```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                             THE 4-PILLAR NUTRITIONAL MATRIX                                      │
-├─────────────────────┬──────────────────────┬──────────────────────┬──────────────────────────────┤
-│ 🛡️ HEALTH           │ ⏰ LONGEVITY         │ ✨ LOOKSMAXXING      │ 🍆 SEXUAL HEALTH             │
-├─────────────────────┼──────────────────────┼──────────────────────┼──────────────────────────────┤
-│ • ApoB < 60 mg/dL   │ • 15–16h Autophagy   │ • Carotenoid Glow    │ • eNOS / cGMP Vasodilation   │
-│ • Insulin < 3.0     │ • Low AGEs (<140°C)  │ • Facial De-Puffing  │ • Steroidogenic Lipids (T)   │
-│ • SCFA / Gut Mucosa │ • Nrf2 / Sirtuins    │ • Dermal Collagen    │ • Prostate & SHBG Modulation │
-└─────────────────────┴──────────────────────┴──────────────────────┴──────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                               THE 4-PILLAR NUTRITIONAL MATRIX                                               │
+├─────────────────────────┬───────────────────────────────────┬────────────────────────────────┬──────────────────────────────┤
+│ 🛡️ HEALTH               │ ⏰ LONGEVITY                     │ ✨ LOOKSMAXXING                │ 🍆 SEXUAL HEALTH            │
+├─────────────────────────┼───────────────────────────────────┼────────────────────────────────┼──────────────────────────────┤
+│ • ApoB < 60 mg/dL       │ • 15–16h Autophagy                │ • Carotenoid Golden Tone (L/B) │ • eNOS / cGMP Vasodilation   │
+│ • Fasting Insulin < 3.0 │ • AMPK / SIRT1 Activation         │ • Deep Facial De-Puffing       │ • Testicular Steroidogenesis │
+│ • SCFA / Gut Mucosa     │ • Low AGEs & Acrylamides (<140°C) │ • Dermal Collagen              │ • Steroidogenic Lipids (T)   │
+│ • Gut Endotoxemia ↓     │ • Mitochondrial Biogenesis        │ • Hair Follicle Matrix         │ • Dopamine & Pelvic Flow     │
+│ • Liver ALT / AST Opt.  │ • Nrf2 / Sirtuin Signaling        │                                │ • Free T / Low SHBG Balance  │
+└─────────────────────────┴───────────────────────────────────┴────────────────────────────────┴──────────────────────────────┘
 ```
 
 *Checked items alone define the headline and meet both 1,800–2,200kcal and the conservative 2.2g/kg Protein target. Select exactly ONE item in every required `CHOOSE ONE` group and TWO in every Vegetable group. Swaps show their honest macros and are not Protein-matched, so track the resulting day; with everything else unchanged, use Chicken or Turkey at Lunch + Salmon at Dinner when 2.2g/kg is a strict daily floor.*
