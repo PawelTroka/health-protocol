@@ -297,19 +297,19 @@ Dietary Protein includes 25.5g Collagen and all plant Protein. Excluding Collage
 
 *Checked items alone define the headline and meet both 1,800–2,200kcal and the conservative 2.2g/kg Protein target. Select exactly ONE item in every required `CHOOSE ONE` group and TWO in every Vegetable group. Swaps show their honest macros and are not Protein-matched, so track the resulting day; with everything else unchanged, use Chicken or Turkey at Lunch + Salmon at Dinner when 2.2g/kg is a strict daily floor.*
 
-### 🥤 Morning (10am; liquid only — Metabolic & Dermal Ignition)
+#### 🥤 Morning (10am; liquid only — Metabolic Ignition & Carotenoid Skin Elixir)
 *~464kcal · P46g · C21.2g · F20g · Fiber14.1g*
 - [x] [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 1scoop) — `~161kcal · P40.3g · C0.3g · F0.3g` 💪 🦴 👨‍🦳
-- [x] 30g [Bio Planet Organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) — `~111kcal · P3.9g · C18g · F2g · Fiber2.9g` ❤️ 🦠 🩸 💪
-- [x] 10g total Psyllium Husk — `~16kcal · Fiber8.5g` 🚽 🦠 🩸
+- [x] 30g [Organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (Beta-Glucans) — `~111kcal · P3.9g · C18g · F2g · Fiber2.9g` ❤️ 🦠 🩸 💪
+- [x] 10g total Psyllium Husk (Mucilage soluble fiber) — `~16kcal · Fiber8.5g` 🚽 🦠 🩸
 - 10g 🌱 **Seeds — CHOOSE ONE**
-  - [x] 10g freshly ground Flaxseed — `~54kcal · P1.8g · C2.9g · F4.2g · Fiber2.7g` ❤️ 🦠 🩸
+  - [x] 10g freshly ground Flaxseed (Lignans, ALA Omega-3) — `~54kcal · P1.8g · C2.9g · F4.2g · Fiber2.7g` ❤️ 🦠 🩸
   - [ ] 10g Chia Seeds — `~49kcal · P1.7g · C4.2g · F3.1g · Fiber3.4g` ❤️ 🦠 🧠
   - [ ] 10g Hemp Seeds — `~55kcal · P3.2g · C0.9g · F4.9g · Fiber0.4g` 💪 ❤️ 🦴
-- [x] 13.5g (1tbsp) raw [Pamako ultra-high-polyphenol EVOO](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80) — `~122kcal · F13.5g` ❤️ 🧠 🔥 ⏰
-- [x] 500–1,000ml Water
+- [x] 13.5g (1tbsp) raw [Pamako ultra-high-polyphenol EVOO](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80) (>2,000mg/kg polyphenols) — `~122kcal · F13.5g` ❤️ 🧠 🔥 ⏰
+- [x] 500–1,000ml Filtered Water
 
-### 🍽️ Lunch (1pm — Vascularity, Nrf2 & Carotenoid Glow Bowl)
+#### 🍽️ Lunch (1pm — The High-Energy Lean Mass, Vascularity & Glow Bowl)
 *~489kcal · P45.7g · C46.5g · F15.6g · Fiber11.8g*
 - ~30–40g 🥩 **Protein — CHOOSE ONE** *(raw weight)*
   - [x] 150g [Organic Chicken Breast](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) / Tenderloins — `~162kcal · P38.3g · C0g · F0.8g` 💪 🛡️
@@ -345,23 +345,23 @@ Dietary Protein includes 25.5g Collagen and all plant Protein. Excluding Collage
 - [x] 13.5g (1tbsp) [Phileos early-harvest EVOO](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing — `~122kcal · F13.5g` ❤️ 🧠 🔥
 - [x] [Lunch supplements](#lunch)
 
-### 🍵 Afternoon drink (3pm; at least 2 hours after Lunch and 8 hours before sleep — Thermogenic Tonic)
+#### 🍵 Afternoon drink (3pm; at least 2 hours after Lunch and 8 hours before sleep — Thermogenic & Cognitive Tonic)
 *~171kcal · P17.1g · C0.8g · F9.1g · Fiber3.8g*
 - [x] 500ml Matcha Soy Drink: 2g [Moya Matcha](https://allegro.pl/oferta/herbata-zielona-matcha-codzienna-japonska-bio-100-g-moya-matcha-18135123492) (EGCG + L-Theanine) + 500ml [Alpro Sojowe Bez Cukru](https://www.alpro.com/pl/produkty/napoje/alpro-sojowe-nieslodzone) — `~171kcal · P17.1g · C0.8g · F9.1g · Fiber3.8g` 🧠 ❤️ 🦴 🌱 ⏰
 
-### 🦴 Before workout
+#### 🦴 Before workout
 *~52kcal · P13g*
 - [x] [Before-workout supplements](#before-workout) (Creatine monohydrate 5g + Collagen Peptides 13g + BULK 1scoop) — `~52kcal · P13g` 🦴 👨‍🦳
 
-### ⚡ During workout
+#### ⚡ During workout
 *Daily: ~95kcal · C24g*
 - [x] [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 1scoop)
 
-### 💪 Right after workout
+#### 💪 Right after workout
 *~149kcal · P27.8g dietary Protein + 10g free EAA · C0.3g · F0.3g*
 - [x] [After-workout supplements](#after-workout) (WPI 30g + EAA 10g)
 
-### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — Steroidogenesis & Restorative Feast)
+#### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — The Steroidogenic Restorative Feast & Deep Sleep Setup)
 *~574kcal · P43.4g · C24.4g · F34.8g · Fiber7.4g*
 - ~30g 🐟 **Protein — CHOOSE ONE** *(raw/drained weight)*
   - [x] 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) (Astaxanthin, EPA/DHA, Vit D3) — `~254kcal · P36g · C~1g · F11g` 🧠 ❤️ 👁️ 🍆 ✨
