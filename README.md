@@ -275,128 +275,140 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ## 4. Diet
 #### Protein-sparing Mediterranean CR
-*At the latest recorded 83kg: ~2,090kcal (25.2kcal/kg) / 170g Protein (2.05g/kg) / 106g Fat (1.28g/kg) / 110g Carbohydrate (1.33g/kg), plus 13g free EAA and Glycine (0.16g/kg)*
+*Checked daily template at 80kg: ~2,021kcal (25.3kcal/kg) · P193g dietary Protein (2.41g/kg) · C119.2g (1.49g/kg) · F80.9g (1.01g/kg) · Fiber37.1g (0.46g/kg), plus 10g free EAA and 3g free Glycine.*<sup>M.0.4</sup>
 
-*The 170g Protein estimate already includes approximately 36g from the checked plant foods, 55.6g from two WPI servings, 25.5g from both Collagen-Peptide servings and 52.8g from Shrimp and Salmon. The separate 10g EAA and 3g Glycine add approximately 52kcal, bringing total Protein plus free amino acids to approximately 183g (2.20g/kg), but they are not presented as equivalent to 13g of complete intact Protein. The headline also includes the declared 10kcal and 1g Fat in the Phosphatidylserine softgel and estimates the scheduled 2g Inositol as approximately 2g Carbohydrate and 5kcal. Meal headers sum to approximately 2,020kcal because they retain conventional food-label Protein accounting and omit these separately scheduled supplements; undeclared capsule carriers remain outside the useful precision of the estimate.*
+Dietary Protein includes 25.5g Collagen and all plant Protein. Excluding Collagen and adding the retained complete EAA gives ~177.5g (2.22g/kg), meeting the 2.2g/kg target. Glycine remains separate. Item format is `Calories · Protein · Carbohydrate · Fat · Fiber`; product labels override estimates.
 
-*These portions are evidence-mapped practical targets, not proven universal optima. Macro estimates use the midpoints of the checked portion ranges; alternatives, product labels and raw-versus-cooked weights will change them. The checked choices provide approximately 600g/day of non-potato Vegetables, Berries, Mushrooms and fermented Cabbage, within the evidence-based 500–800g/day Vegetables/Fruit/Berries range.* [evidence](https://pub.norden.org/nord2023-003/vegetables-fruits-and-berries.html)
+*Checked items alone define the headline and meet both 1,800–2,200kcal and the conservative 2.2g/kg Protein target. Select exactly ONE item in every required `CHOOSE ONE` group and TWO in every Vegetable group. Swaps show their honest macros and are not Protein-matched, so track the resulting day; with everything else unchanged, use Chicken or Turkey at Lunch + Salmon at Dinner when 2.2g/kg is a strict daily floor.*
 
-### Breakfast (10am)
-*~420kcal / 40g proteins / 27g fats / 2g carbs / ~7g fiber*
-- [Morning supplements](#morning), including the drink and WPI
-- 500-1000ml of water
+### 🥤 Morning (10am; liquid only)
+*~464kcal · P46g · C21.2g · F20g · Fiber14.1g*
+- [x] [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 1scoop) — `~161kcal · P40.3g · C0.3g · F0.3g` 💪 🦴 👨‍🦳
+- [x] 30g [Bio Planet Organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) — `~111kcal · P3.9g · C18g · F2g · Fiber2.9g` ❤️ 🦠 🩸 💪
+- [x] 10g total Psyllium Husk — `~16kcal · Fiber8.5g` 🚽 🦠 🩸
+- 10g 🌱 **Seeds — CHOOSE ONE**
+  - [x] 10g freshly ground Flaxseed — `~54kcal · P1.8g · C2.9g · F4.2g · Fiber2.7g` ❤️ 🦠 🩸
+  - [ ] 10g Chia Seeds — `~49kcal · P1.7g · C4.2g · F3.1g · Fiber3.4g` ❤️ 🦠 🧠
+  - [ ] 10g Hemp Seeds — `~55kcal · P3.2g · C0.9g · F4.9g · Fiber0.4g` 💪 ❤️ 🦴
+- [x] 13.5g (1tbsp) raw [Pamako ultra-high-polyphenol EVOO](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80) — `~122kcal · F13.5g` ❤️ 🧠 🔥
+- [x] 500–1,000ml Water
 
-### 🍽️ Lunch (1:00 PM)
-*~600kcal / 49g proteins / 25g fats / 47g carbs*
-- 🥩 Lean Protein source — choose ONE (ranked)
-  - [x] 150–180g raw/thawed edible weight of [Argentinian wild-caught Shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) 💪 🧠 (rinse with Water first to remove Sodium Metabisulfite and surface Salt)
-  - [ ] 4 [organic Eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
-  - [ ] 150–180g of [organic pasture-raised Turkey Tenderloins](https://www.spizarniarydzynska.pl/poledwiczki-z-indyka-0,5kg) 💪 🧠
-  - [ ] 150–180g of organic pasture-raised Chicken Tenderloins 💪
-- 🌾 Starch or Legume source (cooked / drained edible weight) — choose ONE (ranked)
-  - [x] 50–100g cooked [Purple Sweet Potatoes](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
-  - [ ] 50–100g cooked Black / Red Lentils 🖤 ❤️ 🦠 🚽 🌾
-  - [ ] 50–100g cooked Chickpeas 🫘 🦠 🚽 🌾
-  - [ ] 50–100g cooked Black / Red Beans 🫘 🦠 🚽 🌾
-  - [ ] 50–100g cooked Orange Sweet Potatoes 🌾 🧠
-- 🥦 150g cooked edible Vegetables total — choose at least TWO and divide the total between them (approximately 75g each when choosing two; ranked)
-  - [x] Broccoli florets 🛡️ 🦠 ❤️
-  - [x] Carrots 👁️ 🛡️ 🦠
-  - [ ] Kale 🛡️ ❤️ 🦴
-  - [ ] Green Beans 🦠 ❤️
-  - [ ] Green Bell Pepper 🛡️ ❤️
-- 🍄 75g Mushrooms (raw edible weight before cooking, or drained canned weight) — choose ONE
-  - [x] Oyster Mushrooms 🛡️ 🦠 🧠
-  - [ ] Canned Champignon / Button Mushrooms, drained and rinsed 🛡️ 🦠
-- 🫐 100g fresh or frozen Berries (approximately one handful) — choose ONE (ranked) [evidence](https://pubmed.ncbi.nlm.nih.gov/31136659/)
-  - [x] Wild Blueberries / Polish Bilberries 🧠 🛡️ ❤️ 👁️
-  - [ ] Strawberries 🛡️ ❤️
-  - [ ] Raspberries 🦠 🛡️ ❤️
-- [Phileos Organic Early-Harvest EVOO (917mg/kg Polyphenols) 13.5g (1 tbsp)](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557) (for cooking or finishing) ❤️🧠🔥
-- 🍵 500ml Matcha Soy Drink: 2g [Moya Matcha](https://allegro.pl/oferta/herbata-zielona-matcha-codzienna-japonska-bio-100-g-moya-matcha-18135123492) whisked into 500ml unsweetened, Calcium-fortified Soy drink made from Soy Protein (target at least 3g Protein and 120mg Calcium/100ml)<sup>L.6-7</sup> 🧠 ❤️ 🦴 🌱 [why the Soy formulation matters for IBS](https://www.monashfodmap.com/blog/dairy-alternatives-beverage-and-yoghurt-low-fodmap-options/)
-  - If the available drink is made from whole or dehulled Soybeans rather than Soy Protein, titrate from 250ml to the 500ml target only if tolerated.
-- [Lunch supplements](#lunch)
+### 🍽️ Lunch (1pm)
+*~489kcal · P45.7g · C46.5g · F15.6g · Fiber11.8g*
+- ~30–40g 🥩 **Protein — CHOOSE ONE** *(raw weight)*
+  - [x] 150g [Organic Chicken Breast](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) / Tenderloins — `~162kcal · P38.3g · C0g · F0.8g` 💪 🛡️
+  - [ ] 150g [Organic Turkey Breast](https://fudsy.pl/pl/products/filet-z-indyka-ekologicznego-308.html) / Tenderloins — `~174kcal · P36.8g · C0g · F2.4g` 💪 🛡️
+  - [ ] 180g [Wild-caught Argentinian Red Shrimp](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) (rinse with Water before cooking to reduce surface Sodium Metabisulfite and Salt) — `~121kcal · P27g · C0g · F1.4g` 💪 🍆
+  - [ ] 6 small [organic Eggs from free-range Hens fed organic Feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) — `~324kcal · P30g · C~2.3g · F21g` 💪 🧠 👁️ 🍆
+- 40–75g 🌾 **Complex Carbohydrates — CHOOSE ONE** *(cooked/drained weight; canned Pulses thoroughly drained and rinsed)*
+  - [x] 75g [Purple Sweet Potato](https://allegro.pl/produkt/bataty-fioletowe-1-kg-zaskocz-bliskich-i-gosci-e0bd69df-a144-4268-9016-6f0c97565c6c?offerId=18249378706) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪
+  - [ ] 45g [canned Beluga Black Lentils](https://www.bonduelle.pl/warzywa/p/soczewica-porcja-na-raz-na-twoja-salatke/03083681149630) — `~50kcal · P4.1g · C6.8g · F0.3g · Fiber2.2g` ❤️ 🦠 🩸 🌱
+  - [ ] 40g [Organic canned Black Beans](https://marketbio.pl/fasola-czarna-w-zalewie-bio-400g-240g-amaizin.html) — `~35kcal · P2g · C5g · F0.2g · Fiber2.6g` ❤️ 🦠 🩸 🌱
+  - [ ] 42g [Organic canned Chickpeas without added Salt](https://bioshi.pl/pl/products/ciecierzyca-konserwowa-bio-400-g-naturavena-89490) — `~30kcal · P1.8g · C3.6g · F0.5g · Fiber1.9g` ❤️ 🦠 🩸 🌱
+  - [ ] 75g [Organic Orange Sweet Potato](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪
+- 75g each 🥦 **Cooked Vegetables — CHOOSE TWO**
+  - [x] 75g Broccoli florets — `~26kcal · P1.8g · C5.4g · F0.3g · Fiber2.5g` 🛡️ 🦠 ❤️
+  - [x] 75g Carrots — `~26kcal · P0.6g · C6.2g · F0.2g · Fiber2.3g` 👁️ 🦠 🛡️
+  - [ ] 75g Kale — `~27kcal · P2.2g · C4g · F0.9g · Fiber3g` 👁️ 🦴 🛡️
+  - [ ] 75g Green Beans — `~26kcal · P1.4g · C5.9g · F0.2g · Fiber2.4g` 🦠 ❤️
+  - [ ] 75g Green Bell Pepper — `~21kcal · P0.7g · C5g · F0.2g · Fiber0.9g` 👁️ 🛡️
+- 15–30g 🌱 **Microgreens / Peppery Greens — CHOOSE ONE**
+  - [x] 30g [Red-Cabbage Microgreens](https://bobakcityfarm.pl/mikrolistki/mikrolistki-kapusty) — `~6kcal · P0.6g · C0.7g · F0.1g · Fiber0.6g` 🛡️ 🦠 👁️
+  - [ ] 30g [cultivated Watercress](https://rukiewwodna.pl/products/rukiew-wodna-swieze-liscie-30g) — `~3kcal · P0.7g · C0.4g · F0g · Fiber0.2g` 🛡️ ❤️ 👁️
+  - [ ] 20g [Rocket / Arugula](https://zakupy.auchan.pl/categories/artyku%C5%82y-spo%C5%BCywcze/owoce-warzywa-i-zio%C5%82a/sa%C5%82aty-i-miksy-sa%C5%82at/rukola/2262) — `~5kcal · P0.5g · C0.7g · F0.1g · Fiber0.3g` ❤️ 🛡️
+  - [ ] 16g [Broccoli Microgreens](https://dobrafarma.com.pl/sklep/mikroliscie/brokul/) — `~4kcal · P0.4g · C0.4g · F0.1g · Fiber0.1g` 🛡️ 🔥 🦠
+- 100g 🫐 **Berries — CHOOSE ONE**
+  - [x] 100g fresh or frozen Blueberries — `~57kcal · P0.7g · C14.5g · F0.3g · Fiber2.4g` 🧠 🛡️ ❤️ 👁️
+  - [ ] 100g Strawberries — `~32kcal · P0.7g · C7.7g · F0.3g · Fiber2g` 🛡️ ❤️ 👨‍🦳
+  - [ ] 100g Raspberries — `~52kcal · P1.2g · C11.9g · F0.7g · Fiber6.5g` ❤️ 🦠 🛡️
+- ~75g 🍄 **Mushrooms — CHOOSE ONE**
+  - [x] 75g Oyster Mushrooms — `~25kcal · P2.5g · C4.6g · F0.3g · Fiber1.7g` 🧠 🛡️ 🦠
+  - [ ] 75g canned Button Mushrooms, drained/rinsed — `~17kcal · P1.4g · C3g · F0.2g · Fiber1.7g` 🧠 🛡️ 🦠
+  - [ ] 50g fresh Shiitake — `~17kcal · P1.1g · C3.4g · F0.2g · Fiber1.3g` 🧠 🛡️
+  - [ ] 75g Maitake — `~23kcal · P1.5g · C5.2g · F0.1g · Fiber2g` 🧠 🛡️
+- [x] 13.5g (1tbsp) [Phileos early-harvest EVOO](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing — `~122kcal · F13.5g` ❤️ 🧠 🔥
+- [x] [Lunch supplements](#lunch)
 
-### Before workout
+### 🍵 Afternoon drink (3pm; at least 2 hours after Lunch and 8 hours before sleep)
+*~171kcal · P17.1g · C0.8g · F9.1g · Fiber3.8g*
+- [x] 500ml Matcha Soy Drink: 2g [Moya Matcha](https://allegro.pl/oferta/herbata-zielona-matcha-codzienna-japonska-bio-100-g-moya-matcha-18135123492) + 500ml [Alpro Sojowe Bez Cukru](https://www.alpro.com/pl/produkty/napoje/alpro-sojowe-nieslodzone) — `~171kcal · P17.1g · C0.8g · F9.1g · Fiber3.8g` 🧠 ❤️ 🦴 🌱
 
-*~52kcal / 13g Protein / 0g Fat / 0g Carbohydrate*
+### 🦴 Before workout
+*~52kcal · P13g*
+- [x] [Before-workout supplements](#before-workout) (Creatine monohydrate 5g + Collagen Peptides 13g + BULK 1scoop) — `~52kcal · P13g` 🦴 👨‍🦳
 
-- [Before-workout supplements](#before-workout)
+### ⚡ During workout
+*Daily: ~95kcal · C24g*
+- [x] [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 1scoop)
 
-### During workout
+### 💪 Right after workout
+*~149kcal · P27.8g dietary Protein + 10g free EAA · C0.3g · F0.3g*
+- [x] [After-workout supplements](#after-workout) (WPI 30g + EAA 10g)
 
-*~95kcal / 0g Protein / 0g Fat / 24g Carbohydrate*
+### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep when practical)
+*~574kcal · P43.4g · C24.4g · F34.8g · Fiber7.4g*
+- ~30g 🐟 **Protein — CHOOSE ONE** *(raw/drained weight)*
+  - [x] 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) — `~254kcal · P36g · C~1g · F11g` 🧠 ❤️ 👁️ 🍆
+  - [ ] 140g drained [Ortiz Old-Style Sardines in Olive Oil](https://allegro.pl/oferta/sardynki-hiszpanskie-ortiz-w-oliwie-sardines-in-olive-glass-oil-190g-18051731740) (one 190g jar) — `~279kcal · P30.6g · C0.3g · F17.2g` ❤️ 🦴 🧠
+  - [ ] 125g [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) (one 190g jar) — `~346kcal · P27.5g · C0g · F26.3g` ❤️ 🧠 👁️
+  - [ ] 6 small [organic Eggs from free-range Hens fed organic Feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) — `~324kcal · P30g · C~2.3g · F21g` 💪 🧠 👁️ 🍆
+  - [ ] 175g [Merapi Organic Tempeh](https://bioluban.pl/produkt/tempeh-naturalny-bio-200-g-merapi/) — `~319kcal · P33.3g · C6.1g · F14g` 💪 ❤️ 🦠 🌱
+  - On non-fatty-Fish days, follow the conditional Omega-3 entry and include its approximately `27kcal · F3g` in the day.
+- 40–75g 🌾 **Complex Carbohydrates — CHOOSE ONE** *(cooked/drained weight; canned Pulses thoroughly drained and rinsed)*
+  - [x] 75g [Purple Sweet Potato](https://allegro.pl/produkt/bataty-fioletowe-1-kg-zaskocz-bliskich-i-gosci-e0bd69df-a144-4268-9016-6f0c97565c6c?offerId=18249378706) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪
+  - [ ] 45g [canned Beluga Black Lentils](https://www.bonduelle.pl/warzywa/p/soczewica-porcja-na-raz-na-twoja-salatke/03083681149630) — `~50kcal · P4.1g · C6.8g · F0.3g · Fiber2.2g` ❤️ 🦠 🩸 🌱
+  - [ ] 40g [Organic canned Black Beans](https://marketbio.pl/fasola-czarna-w-zalewie-bio-400g-240g-amaizin.html) — `~35kcal · P2g · C5g · F0.2g · Fiber2.6g` ❤️ 🦠 🩸 🌱
+  - [ ] 42g [Organic canned Chickpeas without added Salt](https://bioshi.pl/pl/products/ciecierzyca-konserwowa-bio-400-g-naturavena-89490) — `~30kcal · P1.8g · C3.6g · F0.5g · Fiber1.9g` ❤️ 🦠 🩸 🌱
+  - [ ] 75g [Organic Orange Sweet Potato](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪
+- 75g each 🥬 **Cooked Vegetables — CHOOSE TWO**
+  - [x] 75g Spinach — `~17kcal · P2.2g · C2.8g · F0.2g · Fiber1.8g` 👁️ 🦴 🛡️
+  - [x] 75g Bok Choy — `~9kcal · P1.2g · C1.3g · F0.1g · Fiber0.8g` 🦴 🛡️
+  - [ ] 75g Red Cabbage — `~22kcal · P1.1g · C5.2g · F0.1g · Fiber1.9g` 🧠 🦠 🛡️
+  - [ ] 75g Eggplant — `~26kcal · P0.6g · C6.6g · F0.2g · Fiber1.9g` ❤️ 🦠
+  - [ ] 75g canned Tomatoes — `~14kcal · P0.7g · C3g · F0.2g · Fiber0.9g` ❤️ 🍅 👨‍🦳
+- 15–30g 🌰 **Nuts or Avocado — CHOOSE ONE**
+  - [x] 15g Walnuts — `~98kcal · P2.3g · C2.1g · F9.8g · Fiber1g` ❤️ 🧠 🦠
+  - [ ] 15g Almonds — `~87kcal · P3.2g · C3.2g · F7.5g · Fiber1.9g` ❤️ 👨‍🦳 🦠
+  - [ ] 15g Macadamias — `~108kcal · P1.2g · C2.1g · F11.4g · Fiber1.3g` ❤️ 🧠
+  - [ ] 30g Avocado — `~48kcal · P0.6g · C2.6g · F4.4g · Fiber2g` ❤️ 🦠 🩸
+- 50–170g 🦠 **Fermented food — CHOOSE ONE**
+  - [x] 50g drained [Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343), kept uncooked — `~9kcal · P0.5g · C2.1g · F0.1g · Fiber1.5g` 🦠 🛡️
+  - [ ] 170g lactose-free Live Yogurt — `~105kcal · P9g · C8g · F4g` 🦠 🦴 💪
+  - [ ] 170ml lactose-free Live Kefir — `~88kcal · P6g · C8g · F3.5g` 🦠 🦴
+  - [ ] 50g Kimchi without Onion (Garlic is fine) — `~12kcal · P0.8g · C2.4g · Fiber1.2g` 🦠 🛡️
+- [x] 13.5g (1tbsp) [Phileos early-harvest EVOO](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing — `~122kcal · F13.5g` ❤️ 🧠 🔥
+- [x] [Evening supplements](#evening)
 
-- [During-workout supplements](#during-workout); use HBCD for the scheduled substantial session, not automatically for a short or rest-day session.
+### 🌿 Healthy spices
+*Use the three core lines for a practical ~3.5g/day; concentrated culinary doses are unnecessary.*
+- **Core:** 0.5g Ceylon Cinnamon in the Morning drink 🩸 🛡️
+- **Core:** 1g Cumin + 0.5g Coriander Seed with Lunch 🦠 🛡️
+- **Core:** 1.5g combined Rosemary + Oregano + Thyme with Dinner 🛡️ 🔥
+- Up to 1g Turmeric or 5g fresh Ginger/1g dried Ginger occasionally — *optional since Curcumin, Turmerones and Gingerols are already covered by supplements* 🔥 🚽
+- Saffron, one culinary pinch occasionally — *optional since Saffron Extract is already covered by supplements* 🧠 😌
+- 0.1–0.25g Black Pepper as ordinary seasoning — *lower priority since BULK already supplies Piperine* 🛡️
+- 0.25–0.5g Cardamom, 0.5–1g Paprika or a small pinch of Cloves — *lower-priority flavor rotations* 🛡️ ❤️
+- 0.1–0.5g Chili/Cayenne and whole Garlic/Onion — *optional since these can aggravate symptoms; whole Garlic/Onion are high FODMAP* 🔥
+- For Garlic flavor, prefer Chives, Scallion greens or Garlic-infused Phileos counted within the existing 13.5g Oil allowance.
 
-### Right after workout
-*~110kcal / 28g proteins / 0.3g fats / 0.3g carbs*
-- [After workout supplements](#after-workout)
+### 🌱 Healthy additions
+*These are rotations, not an eat-everything checklist. Replace the nearest Berries, Vegetable, Starch, Nuts or Seeds serving instead of stacking Calories.*
+- 15–20g Parsley or Dill with Lunch or Dinner most days — *core/high value and nearly Calorie-free* 🛡️ 🦠
+- 75g canned Tomatoes as one Vegetable choice, 2–4x/week — *lower priority since Lycopene 30mg is already supplemented* ❤️ 🍅 👨‍🦳
+- extra Mushrooms beyond the required Lunch choice — *lower priority since Lion's Mane Beta-Glucans and Ergothioneine are already supplemented; Shiitake/Maitake remain symptom-dependent since they can be high FODMAP* 🧠 🛡️ 🦠
+- the Fermented-food rotation above, one tolerated choice/day — *lower priority since Probiotics and Butyrate provide partial coverage; pause during symptom flares or Histamine reactions* 🦠 🛡️
+- 30g Avocado instead of Nuts, 1–3x/week — *lower priority since unsaturated Fat and Fiber are already strongly covered* ❤️ 🦠 🩸
+- 50g Pomegranate Arils instead of Berries, 1–3x/week — *lower priority since Polyphenols and Urolithin A are already extensively covered* ❤️ 🛡️
+- 100g Tart Cherries as the Lunch Berries choice after a late hard session, 1–2x/week — *optional since sleep and recovery are already strongly covered; also optional since this can be high FODMAP* 😴 🔥 🛡️
+- 15g Pumpkin Seeds instead of Nuts or Seeds, 1–2x/week — *lower priority since Protein, Zinc and Magnesium are mostly covered* 💪 🦴 🍆
 
-### Dinner (9pm)
-*~740kcal / 40g proteins / 52g fats / 34g carbs*
-- 🥩 Fatty Protein source — choose ONE (ranked)
-  - [ ] 120–150g drained edible [Sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🧠 ❤️ 👁️ 🍆
-  - [ ] 120–150g drained edible [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🧠 ❤️ 👁️ 🍆
-  - [ ] 4 [organic Eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) 💪 ❤️
-  - [x] 125–150g raw edible weight before oven-baking of [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🧠 ❤️ 👁️ 🍆
-- 🌾 Starch or Legume source (cooked / drained edible weight) — choose ONE (ranked)
-  - [x] 50–100g cooked [Purple Sweet Potatoes](https://allegro.pl/produkt/bataty-ziemniaki-slodkie-batat-1-kg-604705fd-193f-4c5d-b682-189b55cdf4e5?offerId=17454551570) 🌾 🧠 🛡️
-  - [ ] 50–100g cooked Black / Red Lentils 🖤 ❤️ 🦠 🚽 🌾
-  - [ ] 50–100g cooked Chickpeas 🫘 🦠 🚽 🌾
-  - [ ] 50–100g cooked Black / Red Beans 🫘 🦠 🚽 🌾
-  - [ ] 50–100g cooked Orange Sweet Potatoes 🌾 🧠
-- 🥬 150g cooked edible Vegetables total — choose at least TWO and divide the total between them (approximately 75g each when choosing two; ranked)
-  - [x] Spinach 👁️ 🦴 ❤️
-  - [x] Red Cabbage 🛡️ 🦠 ❤️
-  - [ ] Bok Choy 🦴 🛡️
-  - [ ] Eggplant / Aubergine 🦠 ❤️
-  - [ ] Zucchini / Courgette 🦠 🛡️
-- 🍄 75g Mushrooms (raw edible weight before cooking, or drained canned weight) — choose ONE
-  - [x] Oyster Mushrooms 🛡️ 🦠 🧠
-  - [ ] Canned Champignon / Button Mushrooms, drained and rinsed 🛡️ 🦠
-- 🌰 30g unsalted Nuts (one handful) — choose ONE (ranked) [evidence](https://www.nejm.org/doi/full/10.1056/NEJMoa1800389)
-  - [x] Walnuts ❤️ 🧠 🦠
-  - [ ] Macadamia Nuts ❤️ 🧠
-  - [ ] Pecans ❤️ 🛡️
-- 🦠 Fermented food — choose ONE (ranked)
-  - [x] 50g drained [Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343), kept uncooked 🦠 🛡️ [evidence](https://pubmed.ncbi.nlm.nih.gov/30256365/)
-  - [ ] 170g plain lactose-free Live Yogurt 🦠 🦴
-  - [ ] 170ml plain lactose-free Kefir 🦠 🦴
-  - [ ] 50–75g Kimchi without Onion or Garlic 🦠 🛡️
-- [Phileos Organic Early-Harvest EVOO (917mg/kg Polyphenols) 13.5g (1 tbsp)](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557) (for cooking or finishing) ❤️🧠🔥
-- [Before sleep supplements](#evening)
+**Weekly rhythm:** target 300–450g Fish including at least 200g Fatty Fish; rotate Shellfish, Poultry, Eggs and Tempeh, and use Pulses 2–4x/week when tolerated. Keep processed Meat out and Red Meat occasional. [Nordic fish evidence](https://pub.norden.org/nord2023-003/fish-and-seafood.html) [PREDIMED](https://doi.org/10.1056/NEJMoa1800389)
 
-### Healthy Spices
-- Turmeric 🔥 🧠 🛡️ ❤️
-- Cumin 🦠 🚽 🔥
-- Garlic ❤️ 🛡️ 🩸 🍆
+**Cut adjustment:** follow the 14-day weight trend, waist, Strength, sleep, libido and Morning erections. Target ~0.4–0.6kg/week; if loss is faster for 2 weeks or recovery worsens, add 100–150kcal from the listed Complex Carbohydrates, divided across meals as tolerated. [Energy-deficit evidence](https://pubmed.ncbi.nlm.nih.gov/34623696/) [IOC REDs consensus](https://doi.org/10.1136/bjsports-2023-106994)
 
-### Healthy Additions (to meals / during meals / after meals)
-- [Extra virgin olive oil](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80?offerId=18176818540) ❤️ 🧠 🔥 ⏰
-- [Broccoli sprouts](https://allegro.pl/kategoria/zdrowa-zywnosc-kielki-261781?rodzaj=brokuł&certyfikat=Certyfikat%20produkcji%20ekologicznej%20UE) 🛡️ 🦠 ⏰ (Sulforaphane powerhouse, 10-100x higher than mature broccoli)
-- White or [Green Matcha](https://allegro.pl/oferta/herbata-zielona-matcha-codzienna-japonska-bio-100-g-moya-matcha-18135123492) 🧠 ❤️ 🛡️ ⏰ (Stone-ground white tea, extremely high in delicate polyphenols and flavonoids)
-- Berries (Raspberries, strawberries, blueberries) 🧠 🛡️ ❤️ 👁️
-- Broccoli / cauliflower 🛡️ 🦠 🍅
-- Kimchi / [Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343) 🦠 🛡️ 🔥 (Essential for microbiome diversity and lowering systemic inflammation)
-- Cocoa flavanols ❤️ 🧠 🛡️
-- Dark chocolate ❤️ 🧠 😌 🛡️
-- Avocado ❤️ 🧠 🌾 (Highest source of monounsaturated fats, potassium, and fiber)
-- Pomegranate ❤️ ⏰ 🔥 (Arterial health and precursor for Urolithin A)
-- [Shiitake mushrooms](https://allegro.pl/produkt/kapelusze-shitake-grzybek-suszone-weganskie-500-g-02d5a7de-7cee-43e0-b890-d2c5559e4281?offerId=12880841828) and maitake mushrooms 🛡️ 🦠 🧠 ⏰
-- Ground linseed 🫀 🚽 🔥
-- Chia seeds 🫀 🚽 🧠
-- [Macadamia nuts](https://allegro.pl/kategoria/bakalie-orzechy-pestki-orzechy-261230?order=ppu&rodzaj-orzechow=orzechy%20makadamia&certyfikat=Certyfikat%20produkcji%20ekologicznej%20UE) ❤️ 🧠 ⏰
-- Apple cider vinegar 🦠 🚽 🩸
-- Cinnamon 🩸 🔥 🧠
-- Hemp seeds 🧠 ❤️ 🔥
-- Brazil nuts 🧠 🍆 🛡️
-- Sunflower lecithin 🧠 ❤️ 🍆
-- Ginger root 🔥 🚽 🍆 🧠
-- Cherries 😴 🔥 🛡️
-- Lime 🍋 🦠 🚽
-- Hummus 🌱 🦠 ❤️
-- Macadamia nut milk ❤️ 🧠 ⏰
+> **Single GI guardrail:** The checked foods are the stable, mostly lower-fermentation default. The 75g Sweet-Potato and Vegetable choices are built from Monash's current low-FODMAP standard-serving list; use Broccoli florets/heads rather than a stalk-heavy portion. Until tolerance is established, choose no more than one Pulse serving/day; 45g canned Beluga is a cautious proxy from tested canned Lentils because Beluga itself has not been separately tested. If Oats, Flax or Microgreens are new, begin at 20g, 2.5g and 10g; introduce only one new Pulse, Microgreen or Ferment at a time and retain tolerated portions. Use refrigerated cultivated Microgreens, rinse them under running Water and pause raw greens if an active flare makes them symptomatic; avoid raw Sprouts if immunosuppressed. The checked Alpro is made from whole Soybeans, so keep its 500ml serving only if tolerated; if it is a reproducible trigger, use a Calcium-fortified Soy-Protein-based drink and its label macros. Low-FODMAP modification is for symptom relief, not treatment of possible active IBD; Calprotectin 291.7µg/g with Mucus and Leukocytes still requires timely Gastroenterology follow-up, and deliberate Calorie Restriction should pause if active disease, unintended weight loss or malnutrition is confirmed. [Monash Sweet-Potato guidance](https://www.monashfodmap.com/blog/fodmap-stacking-can-i-overeat-green/) [Monash 75g Vegetable list](https://www.monashfodmap.com/blog/low-fodmap-shopping-list/) [Monash Pulse guidance](https://www.monashfodmap.com/blog/including-legumes-on-low-fodmap-diet/) [Monash Broccoli testing](https://www.monashfodmap.com/blog/newly-tested-and-retested-foods-broccoli-and-broccolini/) [Monash Soy guidance](https://www.monashfodmap.com/blog/dairy-alternatives-beverage-and-yoghurt-low-fodmap-options/) [FDA raw-Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) [2025 ECCO consensus](https://academic.oup.com/ecco-jcc/article/19/9/jjaf122/8198055)
+
+*EVOO remains 40.5g/day (~3tbsp): raw Pamako 13.5g in the Morning plus Phileos 13.5g at Lunch and Dinner. Headline totals include ~27kcal from known supplement carriers, Inositol and Glycine; Healthy-addition rotations and culinary spices change them slightly. Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
 
 ## 5. Supplements and drugs
 Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
