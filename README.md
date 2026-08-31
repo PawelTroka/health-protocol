@@ -1,4 +1,5 @@
-# The 4-Pillars Health Protocol optimized for Health, Longevity, Looksmaxxing & Sexual Health
+# Health Protocol
+# *optimized for Health, Longevity, Looksmaxxing & Sexual Health*
 
 ## Table of Importance
 - [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
