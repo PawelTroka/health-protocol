@@ -399,10 +399,10 @@ make it visually more indicative that these are two different ingredients that c
   - [ ] 30g Avocado (Potassium facial de-puffing, MUFAs) — `~48kcal · P0.6g · C2.6g · F4.4g · Fiber2g` ❤️ 🦠 🩸 ✨
 <!--TODO: dont we want microgreens here as well?-->
 - 50–170g 🦠 **Fermented food — CHOOSE ONE**
-  - [x] 50g drained [Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343) (Live Lactobacillus, Vitamin K2 MK-7), kept uncooked — `~9kcal · P0.5g · C2.1g · F0.1g · Fiber1.5g` 🦠 🛡️ ⏰
+  - [x] 50g [Unpasteurized Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343), kept uncooked — `~9kcal · P0.5g · C0.6g · F0.1g · Fiber1.5g` 🦠 🛡️
   - [ ] 170g lactose-free Live Yogurt — `~105kcal · P9g · C8g · F4g` 🦠 🦴 💪
   - [ ] 170ml lactose-free Live Kefir — `~88kcal · P6g · C8g · F3.5g` 🦠 🦴
-  - [ ] 50g Kimchi without Onion (Garlic is fine) — `~12kcal · P0.8g · C2.4g · Fiber1.2g` 🦠 🛡️
+  - [ ] 50g Kimchi without Onion — `~12kcal · P0.8g · C1.2g · Fiber1.2g` 🦠 🛡️
 - [x] 13.5g (1tbsp) [Organic Early-Harvest EVOO (917mg/kg Polyphenols)](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing — `~122kcal · F13.5g` ❤️ 🧠 🔥
 - [x] [Evening supplements](#evening)
 
