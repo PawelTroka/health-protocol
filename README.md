@@ -306,49 +306,58 @@ Dietary Protein includes 25.5g Collagen and all plant Protein. Excluding Collage
   - [x] 10g freshly ground Flaxseed (Lignans, ALA Omega-3) — `~54kcal · P1.8g · C2.9g · F4.2g · Fiber2.7g` ❤️ 🦠 🩸
   - [ ] 10g Chia Seeds — `~49kcal · P1.7g · C4.2g · F3.1g · Fiber3.4g` ❤️ 🦠 🧠
   - [ ] 10g Hemp Seeds — `~55kcal · P3.2g · C0.9g · F4.9g · Fiber0.4g` 💪 ❤️ 🦴
-- [x] 13.5g (1tbsp) raw [Pamako ultra-high-polyphenol EVOO](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80) (>2,000mg/kg polyphenols) — `~122kcal · F13.5g` ❤️ 🧠 🔥 ⏰
+- [x] 13.5g (1tbsp) raw [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols)](https://allegro.pl/produkt/oliwa-z-oliwek-extra-virgin-pamako-500-ml-be4701e4-01c6-4894-ae21-f6f541890f80) (>2,000mg/kg polyphenols) — `~122kcal · F13.5g` ❤️ 🧠 🔥 ⏰
 - [x] 500–1,000ml Filtered Water
 
 #### 🍽️ Lunch (1pm — The High-Energy Lean Mass, Vascularity & Glow Bowl)
 *~489kcal · P45.7g · C46.5g · F15.6g · Fiber11.8g*
-- ~30–40g 🥩 **Protein — CHOOSE ONE** *(raw weight)*
-  - [x] 150g [Organic Chicken Breast](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) / Tenderloins — `~162kcal · P38.3g · C0g · F0.8g` 💪 🛡️
-  - [ ] 150g [Organic Turkey Breast](https://fudsy.pl/pl/products/filet-z-indyka-ekologicznego-308.html) / Tenderloins — `~174kcal · P36.8g · C0g · F2.4g` 💪 🛡️
-  - [ ] 180g [Wild-caught Argentinian Red Shrimp](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) (Astaxanthin, Zinc, Selenium; rinse with Water before cooking) — `~121kcal · P27g · C0g · F1.4g` 💪 🍆 ✨
-  - [ ] 6 small [organic Eggs from free-range Hens fed organic Feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) (Choline, Lutein, Sterol substrate) — `~324kcal · P30g · C~2.3g · F21g` 💪 🧠 👁️ 🍆
-- 40–75g 🌾 **Complex Carbohydrates — CHOOSE ONE** *(cooked/drained weight; canned Pulses thoroughly drained and rinsed)*
-  - [x] 75g [Purple Sweet Potato](https://allegro.pl/produkt/bataty-fioletowe-1-kg-zaskocz-bliskich-i-gosci-e0bd69df-a144-4268-9016-6f0c97565c6c?offerId=18249378706) (Anthocyanins, anti-glycation) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪 ✨
-  - [ ] 45g [canned Beluga Black Lentils](https://www.bonduelle.pl/warzywa/p/soczewica-porcja-na-raz-na-twoja-salatke/03083681149630) — `~50kcal · P4.1g · C6.8g · F0.3g · Fiber2.2g` ❤️ 🦠 🩸 🌱
-  - [ ] 40g [Organic canned Black Beans](https://marketbio.pl/fasola-czarna-w-zalewie-bio-400g-240g-amaizin.html) — `~35kcal · P2g · C5g · F0.2g · Fiber2.6g` ❤️ 🦠 🩸 🌱
-  - [ ] 42g [Organic canned Chickpeas without added Salt](https://bioshi.pl/pl/products/ciecierzyca-konserwowa-bio-400-g-naturavena-89490) — `~30kcal · P1.8g · C3.6g · F0.5g · Fiber1.9g` ❤️ 🦠 🩸 🌱
+- ~30–40g 🥩 **Lean Protein — CHOOSE ONE** *(raw weight)*
+  - [ ] 150g [organic pasture-raised Turkey tenderloins](https://fudsy.pl/pl/products/filet-z-indyka-ekologicznego-308.html) / Tenderloins — `~174kcal · P36.8g · C0g · F2.4g` 💪 🛡️
+  - [x] 150g [organic pasture-raised Chicken tenderloins](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) / Tenderloins — `~162kcal · P38.3g · C0g · F0.8g` 💪 🛡️
+- [ ] 6 small [organic Eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) (Choline, Lutein, Sterol <!--TODO: these are actually medium-sized eggs so maybe you have to update macros and name-->substrate) — `~324kcal · P30g · C~2.3g · F21g` 💪 🧠 👁️ 🍆
+  - [ ] 180g [Wild-caught Argentinian Red Shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) (Astaxanthin, Zinc, Selenium; rinse with Water before cooking) — `~121kcal · P27g · C0g · F1.4g` 💪 🍆 ✨
+- 40–75g 🌾 **Complex Carbohydrates — CHOOSE ONE** *(cooked/drained weight; if canned then thoroughly drained and rinsed)*
+  - [x] 75g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-fioletowe-1-kg-zaskocz-bliskich-i-gosci-e0bd69df-a144-4268-9016-6f0c97565c6c?offerId=18249378706) (Anthocyanins, anti-glycation) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪 ✨
+  - [ ] 45g [Organic Beluga Black Lentils](https://www.bonduelle.pl/warzywa/p/soczewica-porcja-na-raz-na-twoja-salatke/03083681149630) — `~50kcal · P4.1g · C6.8g · F0.3g · Fiber2.2g` ❤️ 🦠 🩸 🌱
+  - [ ] 40g [Organic Black Beans](https://marketbio.pl/fasola-czarna-w-zalewie-bio-400g-240g-amaizin.html) — `~35kcal · P2g · C5g · F0.2g · Fiber2.6g` ❤️ 🦠 🩸 🌱
+  - [ ] 42g [Organic Chickpeas](https://bioshi.pl/pl/products/ciecierzyca-konserwowa-bio-400-g-naturavena-89490) — `~30kcal · P1.8g · C3.6g · F0.5g · Fiber1.9g` ❤️ 🦠 🩸 🌱
   - [ ] 75g [Organic Orange Sweet Potato](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) (Beta-Carotene skin radiance) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪 ✨
 - 75g each 🥦 **Cooked Vegetables — CHOOSE TWO**
   - [x] 75g Broccoli florets (Sulforaphane, DIM) — `~26kcal · P1.8g · C5.4g · F0.3g · Fiber2.5g` 🛡️ 🦠 ❤️ 🍆
   - [x] 75g Carrots (Carotenoid glow) — `~26kcal · P0.6g · C6.2g · F0.2g · Fiber2.3g` 👁️ 🦠 🛡️ ✨
   - [ ] 75g Kale — `~27kcal · P2.2g · C4g · F0.9g · Fiber3g` 👁️ 🦴 🛡️
-  - [ ] 75g Green Beans — `~26kcal · P1.4g · C5.9g · F0.2g · Fiber2.4g` 🦠 ❤️
-  - [ ] 75g Green Bell Pepper — `~21kcal · P0.7g · C5g · F0.2g · Fiber0.9g` 👁️ 🛡️
-- 15–30g 🌱 **Microgreens / Peppery Greens — CHOOSE ONE**
-  - [x] 30g [Red-Cabbage Microgreens](https://bobakcityfarm.pl/mikrolistki/mikrolistki-kapusty) — `~6kcal · P0.6g · C0.7g · F0.1g · Fiber0.6g` 🛡️ 🦠 👁️ ✨
-  - [ ] 30g [cultivated Watercress](https://rukiewwodna.pl/products/rukiew-wodna-swieze-liscie-30g) (Dense eNOS Nitrate donor) — `~3kcal · P0.7g · C0.4g · F0g · Fiber0.2g` 🛡️ ❤️ 👁️ 🍆
+  - [ ] 75g Green Beans — `~26kcal · P1.4g · C5.9g · F0.2g · Fiber2.4g` 🦠 ❤️<!--TODO: arent there healthier vegetables that you boil out there?-->
+  - [ ] 75g Green Bell Pepper — `~21kcal · P0.7g · C5g · F0.2g · Fiber0.9g` 👁️ 🛡️<!--TODO: arent there healthier vegetables that you boil out there?-->
+- 15–30g 🌱 **Microgreens — CHOOSE ONE**
+  - [x] 30g [Broccoli Sprouts](https://TODO)
+  <!--TODO: some microgreens are sprouts, this is by design cause the way I see it sprouts are also microgreens. Now the point is to of course have the absolutely healthiest microgreens first, as is always the case with `CHOOSE ONE`, so I would very much hope so we can list let's say 4 absolutetly the best sprouts/microgreens here and also find where we can buy them and link URLs here and nutritional values as in other cases we have -->
+  - [x] 30g [Other Sprouts](https://TODO)
+  - [ ] 30g [Watercress](https://rukiewwodna.pl/products/rukiew-wodna-swieze-liscie-30g) (Dense eNOS Nitrate donor) — `~3kcal · P0.7g · C0.4g · F0g · Fiber0.2g` 🛡️ ❤️ 👁️ 🍆
   - [ ] 20g [Rocket / Arugula](https://zakupy.auchan.pl/categories/artyku%C5%82y-spo%C5%BCywcze/owoce-warzywa-i-zio%C5%82a/sa%C5%82aty-i-miksy-sa%C5%82at/rukola/2262) (Nitric Oxide vasodilation) — `~5kcal · P0.5g · C0.7g · F0.1g · Fiber0.3g` ❤️ 🛡️ 🍆
   - [ ] 16g [Broccoli Microgreens](https://dobrafarma.com.pl/sklep/mikroliscie/brokul/) (Concentrated Sulforaphane) — `~4kcal · P0.4g · C0.4g · F0.1g · Fiber0.1g` 🛡️ 🔥 🦠 ⏰
 - 100g 🫐 **Berries — CHOOSE ONE**
   - [x] 100g fresh or frozen Blueberries (Cyanidin-3-glucoside, BDNF) — `~57kcal · P0.7g · C14.5g · F0.3g · Fiber2.4g` 🧠 🛡️ ❤️ 👁️ ✨
-  - [ ] 100g Strawberries — `~32kcal · P0.7g · C7.7g · F0.3g · Fiber2g` 🛡️ ❤️ 👨‍🦳
   - [ ] 100g Raspberries — `~52kcal · P1.2g · C11.9g · F0.7g · Fiber6.5g` ❤️ 🦠 🛡️
+  - [ ] 100g Strawberries — `~32kcal · P0.7g · C7.7g · F0.3g · Fiber2g` 🛡️ ❤️ 👨‍🦳
+<!--TODO: should we also have Fruits somewhere and not only berries?-->
 - ~75g 🍄 **Mushrooms — CHOOSE ONE**
   - [x] 75g Oyster Mushrooms (Ergothioneine, Beta-Glucans) — `~25kcal · P2.5g · C4.6g · F0.3g · Fiber1.7g` 🧠 🛡️ 🦠 ⏰
   - [ ] 75g canned Button Mushrooms, drained/rinsed — `~17kcal · P1.4g · C3g · F0.2g · Fiber1.7g` 🧠 🛡️ 🦠
   - [ ] 50g fresh Shiitake — `~17kcal · P1.1g · C3.4g · F0.2g · Fiber1.3g` 🧠 🛡️
   - [ ] 75g Maitake — `~23kcal · P1.5g · C5.2g · F0.1g · Fiber2g` 🧠 🛡️
-- [x] 13.5g (1tbsp) [Phileos early-harvest EVOO](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing — `~122kcal · F13.5g` ❤️ 🧠 🔥
+- [x] 13.5g (1tbsp) [Organic Early-Harvest EVOO (917mg/kg Polyphenols)](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing — `~122kcal · F13.5g` ❤️ 🧠 🔥
 - [x] [Lunch supplements](#lunch)
 
 #### 🍵 Afternoon drink (3pm; at least 2 hours after Lunch and 8 hours before sleep — Thermogenic & Cognitive Tonic)
 *~171kcal · P17.1g · C0.8g · F9.1g · Fiber3.8g*
-- [x] 500ml Matcha Soy Drink: 2g [Moya Matcha](https://allegro.pl/oferta/herbata-zielona-matcha-codzienna-japonska-bio-100-g-moya-matcha-18135123492) (EGCG + L-Theanine) + 500ml [Alpro Sojowe Bez Cukru](https://www.alpro.com/pl/produkty/napoje/alpro-sojowe-nieslodzone) — `~171kcal · P17.1g · C0.8g · F9.1g · Fiber3.8g` 🧠 ❤️ 🦴 🌱 ⏰
+- [x] 2g [Moya Matcha](https://allegro.pl/oferta/herbata-zielona-matcha-codzienna-japonska-bio-100-g-moya-matcha-18135123492) (EGCG + L-Theanine)
+<!--TODO:
+make it visually more indicative that these are two different ingredients that combined together create the drink, also investigate if MAYBE chose one makes sense here for the milk, maybe it could be rotated for even healthier outcomes
+-->
+- [x] 500ml [Soy milk without sugar](https://www.alpro.com/pl/produkty/napoje/alpro-sojowe-nieslodzone) — `~171kcal · P17.1g · C0.8g · F9.1g · Fiber3.8g` 🧠 ❤️ 🦴 🌱 ⏰
+<!--TODO:
 
+-->
 #### 🦴 Before workout
 *~52kcal · P13g*
 - [x] [Before-workout supplements](#before-workout) (Creatine monohydrate 5g + Collagen Peptides 13g + BULK 1scoop) — `~52kcal · P13g` 🦴 👨‍🦳
@@ -363,37 +372,37 @@ Dietary Protein includes 25.5g Collagen and all plant Protein. Excluding Collage
 
 #### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — The Steroidogenic Restorative Feast & Deep Sleep Setup)
 *~574kcal · P43.4g · C24.4g · F34.8g · Fiber7.4g*
-- ~30g 🐟 **Protein — CHOOSE ONE** *(raw/drained weight)*
+- ~30g 🐟 **Fatty Protein — CHOOSE ONE** *(raw/drained weight)*
   - [x] 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) (Astaxanthin, EPA/DHA, Vit D3) — `~254kcal · P36g · C~1g · F11g` 🧠 ❤️ 👁️ 🍆 ✨
-  - [ ] 140g drained [Ortiz Old-Style Sardines in Olive Oil](https://allegro.pl/oferta/sardynki-hiszpanskie-ortiz-w-oliwie-sardines-in-olive-glass-oil-190g-18051731740) (Calcium, CoQ10, Collagen matrix) — `~279kcal · P30.6g · C0.3g · F17.2g` ❤️ 🦴 🧠 ✨
-  - [ ] 125g [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) (one 190g jar) — `~346kcal · P27.5g · C0g · F26.3g` ❤️ 🧠 👁️ 🍆
-  - [ ] 6 small [organic Eggs from free-range Hens fed organic Feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) — `~324kcal · P30g · C~2.3g · F21g` 💪 🧠 👁️ 🍆
-  - [ ] 175g [Merapi Organic Tempeh](https://bioluban.pl/produkt/tempeh-naturalny-bio-200-g-merapi/) — `~319kcal · P33.3g · C6.1g · F14g` 💪 ❤️ 🦠 🌱
-  - On non-fatty-Fish days, follow the conditional Omega-3 entry and include its approximately `27kcal · F3g` in the day.
+  - [ ] 140g wild-caught, fresh [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) (Calcium, CoQ10, Collagen matrix) — `~279kcal · P30.6g · C0.3g · F17.2g` ❤️ 🦴 🧠 ✨
+  - [ ] 125g [Atlantic Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) — `~346kcal · P27.5g · C0g · F26.3g` ❤️ 🧠 👁️ 🍆
+  - [ ] 6 small [organic Eggs from pasture-raised hens fed organic feed](https://zakupy.auchan.pl/products/bio-jaja-z-chowu-ekologicznego-mizgier-10-sztuk/00178117) — `~324kcal · P30g · C~2.3g · F21g`<!--TODO: these are actually medium-sized eggs so maybe you have to update macros and name--> 💪 🧠 👁️ 🍆
+  - [ ] 175g [Organic Tempeh](https://bioluban.pl/produkt/tempeh-naturalny-bio-200-g-merapi/) — `~319kcal · P33.3g · C6.1g · F14g` 💪 ❤️ 🦠 🌱
 - 40–75g 🌾 **Complex Carbohydrates — CHOOSE ONE** *(cooked/drained weight; canned Pulses thoroughly drained and rinsed)*
-  - [x] 75g [Purple Sweet Potato](https://allegro.pl/produkt/bataty-fioletowe-1-kg-zaskocz-bliskich-i-gosci-e0bd69df-a144-4268-9016-6f0c97565c6c?offerId=18249378706) (Nighttime serotonin conversion, anti-glycation) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪 😴 ✨
-  - [ ] 45g [canned Beluga Black Lentils](https://www.bonduelle.pl/warzywa/p/soczewica-porcja-na-raz-na-twoja-salatke/03083681149630) — `~50kcal · P4.1g · C6.8g · F0.3g · Fiber2.2g` ❤️ 🦠 🩸 🌱
-  - [ ] 40g [Organic canned Black Beans](https://marketbio.pl/fasola-czarna-w-zalewie-bio-400g-240g-amaizin.html) — `~35kcal · P2g · C5g · F0.2g · Fiber2.6g` ❤️ 🦠 🩸 🌱
-  - [ ] 42g [Organic canned Chickpeas without added Salt](https://bioshi.pl/pl/products/ciecierzyca-konserwowa-bio-400-g-naturavena-89490) — `~30kcal · P1.8g · C3.6g · F0.5g · Fiber1.9g` ❤️ 🦠 🩸 🌱
+  - [x] 75g [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/produkt/bataty-fioletowe-1-kg-zaskocz-bliskich-i-gosci-e0bd69df-a144-4268-9016-6f0c97565c6c?offerId=18249378706) (Nighttime serotonin conversion, anti-glycation) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪 😴 ✨
+  - [ ] 45g [Organic Beluga Black Lentils](https://www.bonduelle.pl/warzywa/p/soczewica-porcja-na-raz-na-twoja-salatke/03083681149630) — `~50kcal · P4.1g · C6.8g · F0.3g · Fiber2.2g` ❤️ 🦠 🩸 🌱
+  - [ ] 40g [Organic Black Beans](https://marketbio.pl/fasola-czarna-w-zalewie-bio-400g-240g-amaizin.html) — `~35kcal · P2g · C5g · F0.2g · Fiber2.6g` ❤️ 🦠 🩸 🌱
+  - [ ] 42g [Organic Chickpeas](https://bioshi.pl/pl/products/ciecierzyca-konserwowa-bio-400-g-naturavena-89490) — `~30kcal · P1.8g · C3.6g · F0.5g · Fiber1.9g` ❤️ 🦠 🩸 🌱
   - [ ] 75g [Organic Orange Sweet Potato](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) — `~65kcal · P1.2g · C15.1g · F0.1g · Fiber2.3g` 👁️ 🦠 💪 ✨
 - 75g each 🥬 **Cooked Vegetables — CHOOSE TWO**
   - [x] 75g Spinach (eNOS Nitrates, Magnesium, Folate) — `~17kcal · P2.2g · C2.8g · F0.2g · Fiber1.8g` 👁️ 🦴 🛡️ 🍆
   - [x] 75g Bok Choy — `~9kcal · P1.2g · C1.3g · F0.1g · Fiber0.8g` 🦴 🛡️
-  - [ ] 75g Red Cabbage — `~22kcal · P1.1g · C5.2g · F0.1g · Fiber1.9g` 🧠 🦠 🛡️
-  - [ ] 75g Eggplant — `~26kcal · P0.6g · C6.6g · F0.2g · Fiber1.9g` ❤️ 🦠
-  - [ ] 75g canned Tomatoes (Cis-Lycopene for prostate protection & UV resilience) — `~14kcal · P0.7g · C3g · F0.2g · Fiber0.9g` ❤️ 🍅 👨‍🦳 🍆 ✨
-- 15–30g 🌰 **Nuts, Seeds or Avocado — CHOOSE ONE**
+  - [ ] 75g Red Cabbage — `~22kcal · P1.1g · C5.2g · F0.1g · Fiber1.9g` 🧠 🦠 🛡️<!--TODO: I fucking hate Red Cabbage, surely there is a healthier alternative-->
+  - [ ] 75g Eggplant — `~26kcal · P0.6g · C6.6g · F0.2g · Fiber1.9g` ❤️ 🦠<!--TODO: arent there healthier vegetables that you boil out there?-->
+  - [ ] 75g canned Tomatoes (Cis-Lycopene for prostate protection & UV resilience) — `~14kcal · P0.7g · C3g · F0.2g · Fiber0.9g` ❤️ 🍅 👨‍🦳 🍆 ✨<!--TODO: arent there healthier vegetables that you boil out there?-->
+- 15–30g 🌰 **Nuts — CHOOSE ONE**<!--TODO: I think nuts/avocado section and seeds section should be separate-->
   - [x] 15g Walnuts (ALA omega-3, polyphenols) — `~98kcal · P2.3g · C2.1g · F9.8g · Fiber1g` ❤️ 🧠 🦠
   - [ ] 15g Pumpkin Seeds (Bioavailable Zinc, Boron, phytosterols for free T & prostate) — `~85kcal · P4.5g · C2g · F7g · Fiber1g` 💪 🦴 🍆
   - [ ] 15g Almonds — `~87kcal · P3.2g · C3.2g · F7.5g · Fiber1.9g` ❤️ 👨‍🦳 🦠
   - [ ] 15g Macadamias — `~108kcal · P1.2g · C2.1g · F11.4g · Fiber1.3g` ❤️ 🧠
   - [ ] 30g Avocado (Potassium facial de-puffing, MUFAs) — `~48kcal · P0.6g · C2.6g · F4.4g · Fiber2g` ❤️ 🦠 🩸 ✨
+<!--TODO: dont we want microgreens here as well?-->
 - 50–170g 🦠 **Fermented food — CHOOSE ONE**
   - [x] 50g drained [Sauerkraut](https://allegro.pl/oferta/bio-kapusta-kiszona-z-marchewka-900ml-niepasteryzowana-kiszonki-satyrz-18093874343) (Live Lactobacillus, Vitamin K2 MK-7), kept uncooked — `~9kcal · P0.5g · C2.1g · F0.1g · Fiber1.5g` 🦠 🛡️ ⏰
   - [ ] 170g lactose-free Live Yogurt — `~105kcal · P9g · C8g · F4g` 🦠 🦴 💪
   - [ ] 170ml lactose-free Live Kefir — `~88kcal · P6g · C8g · F3.5g` 🦠 🦴
   - [ ] 50g Kimchi without Onion (Garlic is fine) — `~12kcal · P0.8g · C2.4g · Fiber1.2g` 🦠 🛡️
-- [x] 13.5g (1tbsp) [Phileos early-harvest EVOO](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing — `~122kcal · F13.5g` ❤️ 🧠 🔥
+- [x] 13.5g (1tbsp) [Organic Early-Harvest EVOO (917mg/kg Polyphenols)](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing — `~122kcal · F13.5g` ❤️ 🧠 🔥
 - [x] [Evening supplements](#evening)
 
 ### 🌿 Healthy spices
