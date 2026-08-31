@@ -1,4 +1,3 @@
-# My Health Protocol 
 # The 4-Pillars Health Protocol optimized for Health, Longevity, Looksmaxxing & Sexual Health
 
 ## Table of Importance
