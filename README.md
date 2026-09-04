@@ -214,7 +214,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### **Wednesday: Legs (Glute/Hamstring Dominant)**
 *Focus: Sexual health (hip power), joint preservation, athletic posterior chain, healthy back.*
-- **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 65kg, 11 × 70kg, 10 × 75kg (Crucial for sexual health. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes)
+- **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Crucial for sexual health. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes)
 - **Hamstrings/Glutes**: Stiff-Legged Deadlift (SLDL) with Dumbbells: 12 × 22.5kg, 11 × 25kg, 10 × 27.5kg (Safer than barbell for spinal loading)
 - **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)*
 - **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg
@@ -229,7 +229,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### **Thursday: Push 2 (Shoulders, Upper Chest, Neck)**
 *Focus: The "capped" 3D shoulder look, upper chest shelf, and masculine neck.*
-- **Shoulders**: Machine Shoulder Press (Pronated grip): 10 × 41kg, 9 × 46kg, 8 × 52kg *(Shoulder Pro-Tip: If right shoulder triggers, swap to Seated Neutral-Grip DB Press)*
+- **Shoulders**: Machine Shoulder Press (Pronated grip): 10 × 46kg, 9 × 50kg, 8 × 55kg *(Shoulder Pro-Tip: If right shoulder triggers, swap to Seated Neutral-Grip DB Press)*
 - **Upper Chest**: Seated Low-to-High Cable Fly (Cuffed) or Seated low-to-high Pec Deck Machine: 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg (Best upper pec fly)
 - **Upper Chest/Ribs**: Dumbbell Pullover (Cross-bench): 12 × 20kg, 11 × 22.5kg, 10 × 25kg *(Stretch focus; Pro-Tip: Keep hips locked/stationary in a flat tabletop; do not dynamically sink hips as weight goes overhead)*
 - **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg
