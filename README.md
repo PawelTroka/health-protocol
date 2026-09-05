@@ -245,7 +245,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: Back thickness, posture, bicep peaks, and rotator cuff prehab.*
 *Synergy: Thoracic lat + upper back/Kelso shrug.*
 - **Thoracic Lats**: One Arm Dumbbell Row: 12 × 22.5kg, 11 × 25kg, 10 × 27.5kg per side *(Pro-Tip: Pull dumbbell back in a sweeping arc toward your hip pocket, keeping forearm vertical)*
-- **Traps/Upper Back**: Chest-Supported DB Kelso Shrug (30-45° Incline) or T-Bar Kelso Shrug: 12 × 20kg, 11 × 22.5kg, 10 × 25kg *(Posture Pro-Tip: Focus on maximum scapular retraction to pull rounded shoulders back & open chest frame)*
+- **Traps/Upper Back**: Chest-Supported DB Kelso Shrug (30-45° Incline) or T-Bar Kelso Shrug: 12 × 22.5kg, 11 × 25kg, 10 × 27.5kg *(Posture Pro-Tip: Focus on maximum scapular retraction to pull rounded shoulders back & open chest frame)*
 - **Rear Delts**: Reverse Pec Deck: 20 × 23kg, 18 × 27kg, 15 × 32kg
 - **Biceps (Mid-range)**: Seated Dumbbell Curls (S-Tier): 12 × 10kg, 11 × 12.5kg, 10 × 15kg
 - **Forearms**: Cable Reverse Curl or Dumbbell Reverse Curl or Hammer Curls: 15 × 10kg, 14 × 12.5kg, 12 × 15kg
