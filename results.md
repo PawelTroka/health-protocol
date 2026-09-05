@@ -29,7 +29,7 @@
 | **Height** | 180<sup>1</sup> | cm | - |
 | **BMI** | 🔵<sup>1</sup> 24.7 | kg/m^2 | 18.5 - 24.9; target 20 - 24.9 |
 | **Body Fat** | 🔵<sup>1</sup> 15 | % | 10 - 20; target 10 - 15 |
-| **Muscle** | 🔵<sup>1</sup> 78.6 | % | > 70; target >= 75 |
+| **Muscle** | 🔵<sup>1</sup> 80.7 | % | > 70; target >= 75 |
 | **Temperature** | 🔵 36.9 | C | 36.1 - 37.2; target 36.5 - 37.0 |
 | **Sleep Apnea AHI** | 🔵 2 | events/h | < 5; target < 5 |
 | **Nerve Health Score** | 70<sup>2</sup> | score | - |
