@@ -12,7 +12,7 @@
 
 ## Vitals & Functional Health
 
-|  | 2026-07 | Unit | *Reference* |
+|  | 2026-08 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
 | **Blood Pressure** | 🔵 108/70 | mmHg | < 120 / < 80; target 100-115 / 60-75 |
 | **Nighttime BP Dip** | 🔵 16.7 | % | 10 - 20; target 10 - 20 |
@@ -25,10 +25,10 @@
 | **PWV** | 🔵 5.8 | m/s | < 10; target < 7 |
 | **VO2max** | 🔵 43 | ml/kg/min | > 35; target >= 45 |
 | **Respiratory Rate (Sleep)** | 🔵 12.4 | /min | 12 - 20; target 12 - 16 |
-| **Body Mass** | 83<sup>1</sup> | kg | - |
+| **Body Mass** | 80<sup>1</sup> | kg | - |
 | **Height** | 180<sup>1</sup> | cm | - |
-| **BMI** | 🔵<sup>1</sup> 25.6 ↑ | kg/m^2 | 18.5 - 24.9; target 20 - 24.9 |
-| **Body Fat** | 🟢<sup>1</sup> 17.4 | % | 10 - 20; target 10 - 15 |
+| **BMI** | 🔵<sup>1</sup> 24.7 | kg/m^2 | 18.5 - 24.9; target 20 - 24.9 |
+| **Body Fat** | 🔵<sup>1</sup> 15 | % | 10 - 20; target 10 - 15 |
 | **Muscle** | 🔵<sup>1</sup> 78.6 | % | > 70; target >= 75 |
 | **Temperature** | 🔵 36.9 | C | 36.1 - 37.2; target 36.5 - 37.0 |
 | **Sleep Apnea AHI** | 🔵 2 | events/h | < 5; target < 5 |

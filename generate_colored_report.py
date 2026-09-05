@@ -617,6 +617,9 @@ def format_cell_md_urine(val, ref):
 # Data Reorganized
 # Using "-" for missing values as requested
 date_columns = ["2026-07", "2026-01", "2025-05", "2025-01"]
+category_date_columns = {
+    "Vitals & Functional Health": ["2026-08", *date_columns[1:]],
+}
 missing_values = {"-", None, ""}
 
 def split_result_row(row):
@@ -914,10 +917,10 @@ data = {
         ("PWV", "5.8", "-", "-", "-", "m/s", "< 10"),
         ("VO2max", "43", "-", "-", "-", "ml/kg/min", "> 35"),
         ("Respiratory Rate (Sleep)", "12.4", "-", "-", "-", "/min", "12 - 20"),
-        ("Body Mass", "83", "-", "-", "-", "kg", "-"),
+        ("Body Mass", "80", "-", "-", "-", "kg", "-"),
         ("Height", "180", "-", "-", "-", "cm", "-"),
-        ("BMI", "25.6", "-", "-", "-", "kg/m^2", "18.5 - 24.9"),
-        ("Body Fat", "17.4", "-", "-", "-", "%", "10 - 20"),
+        ("BMI", "24.7", "-", "-", "-", "kg/m^2", "18.5 - 24.9"),
+        ("Body Fat", "15", "-", "-", "-", "%", "10 - 20"),
         ("Muscle", "78.6", "-", "-", "-", "%", "> 70"),
         ("Temperature", "36.9", "-", "-", "-", "C", "36.1 - 37.2"),
         ("Sleep Apnea AHI", "2", "-", "-", "-", "events/h", "< 5"),
@@ -1194,13 +1197,13 @@ result_notes = {
         {
             "text": "BMI is included as a population screening metric but is interpreted in context of body fat and muscle percentage, not as a standalone body-composition diagnosis.",
             "markers": [
-                {"rows": ["Body Mass", "Height", "BMI", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-07"]},
+                {"rows": ["Body Mass", "Height", "BMI", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-08"]},
             ],
         },
         {
             "text": "Maximum heart rate, max HRV, and nerve health score are device- or context-dependent metrics, so they are tracked but intentionally not scored against a universal clinical target.",
             "markers": [
-                {"rows": ["Maximum Heart Rate", "Max HRV", "Nerve Health Score"], "target": "value", "dates": ["2026-07"]},
+                {"rows": ["Maximum Heart Rate", "Max HRV", "Nerve Health Score"], "target": "value", "dates": ["2026-08"]},
             ],
         },
     ],
@@ -1354,6 +1357,7 @@ def generate_html_report():
     
     for category, rows in data.items():
         
+        dates = category_date_columns.get(category, date_columns)
         active_indexes = active_date_indexes(rows)
         include_trend = category_has_trends(rows, category)
 
@@ -1362,7 +1366,7 @@ def generate_html_report():
         if include_trend:
             html += "<th>Trend</th>"
         for idx in active_indexes:
-            html += f"<th>{date_columns[idx]}</th>"
+            html += f"<th>{dates[idx]}</th>"
         html += "<th>Unit</th><th><i>Reference</i></th></tr>"
         
         for row in rows:
@@ -1381,7 +1385,7 @@ def generate_html_report():
                 trend_cell = add_note_sup_html(trend_cell, note_numbers(category, name, "trend"))
                 html += f"<td>{trend_cell}</td>"
             for idx, cell in zip(active_indexes, cells):
-                cell = add_note_sup_html(cell, note_numbers(category, name, "value", date_columns[idx]))
+                cell = add_note_sup_html(cell, note_numbers(category, name, "value", dates[idx]))
                 html += f"<td>{cell}</td>"
             html += f"<td>{unit}</td><td>{display_ref}</td></tr>"
         html += "</table>"
@@ -1422,6 +1426,7 @@ def generate_md_report():
 
     for category, rows in data.items():
         
+        dates = category_date_columns.get(category, date_columns)
         active_indexes = active_date_indexes(rows)
         include_trend = category_has_trends(rows, category)
 
@@ -1434,7 +1439,7 @@ def generate_md_report():
             header += " Trend |"
             sep += " :--- |"
         for idx in active_indexes:
-            header += f" {date_columns[idx]} |"
+            header += f" {dates[idx]} |"
             sep += " :--- |"
         header += " Unit | *Reference* |"
         sep += " :--- | :--- |"
@@ -1457,7 +1462,7 @@ def generate_md_report():
                 trend_cell = add_note_sup_md(trend_cell, note_numbers(category, name, "trend"))
                 line += f" {trend_cell} |"
             for idx, cell in zip(active_indexes, cells):
-                cell = add_note_sup_md(cell, note_numbers(category, name, "value", date_columns[idx]))
+                cell = add_note_sup_md(cell, note_numbers(category, name, "value", dates[idx]))
                 line += f" {cell} |"
             line += f" {unit} | {display_ref} |"
             md += line + "\n"
