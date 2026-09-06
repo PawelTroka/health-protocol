@@ -325,6 +325,15 @@ no_score_markers = {
     ("Vitals & Functional Health", "Maximum Heart Rate"),
     ("Vitals & Functional Health", "Nerve Health Score"),
     ("Vitals & Functional Health", "Max HRV"),
+    ("Vitals & Functional Health", "Nighttime BP Pattern"),
+    ("Vitals & Functional Health", "Average Sleeping HR (Oura)"),
+    ("Vitals & Functional Health", "Mean Nightly Lowest HR (Oura)"),
+    ("Vitals & Functional Health", "Average HRV (Sleep)"),
+    ("Vitals & Functional Health", "Time in Bed"),
+    ("Vitals & Functional Health", "Sleep Efficiency"),
+    ("Vitals & Functional Health", "Sleep Latency"),
+    ("Vitals & Functional Health", "Sleep Score"),
+    ("Vitals & Functional Health", "Cardiovascular Age Difference (Oura)"),
     ("Urine Culture", "Colony Count"),
     ("Urine Culture", "Penicillin"),
     ("Urine Culture", "Levofloxacin"),
@@ -475,8 +484,14 @@ def target_reference(category, marker, ref):
         return target["reference"]
     return ref
 
+def is_inconclusive(value):
+    return isinstance(value, str) and value.strip().casefold().startswith("inconclusive")
+
+
 def calculate_score(val_str, ref_range, category=None, marker=None):
     if val_str in ["-", "—", None, ""]:
+        return None
+    if is_inconclusive(val_str):
         return None
     if (category, marker) in no_score_markers:
         return None
@@ -616,10 +631,9 @@ def format_cell_md_urine(val, ref):
 
 # Data Reorganized
 # Using "-" for missing values as requested
-date_columns = ["2026-07", "2026-01", "2025-05", "2025-01"]
-category_date_columns = {
-    "Vitals & Functional Health": ["2026-08", *date_columns[1:]],
-}
+historical_date_columns = ["2026-07", "2026-01", "2025-05", "2025-01"]
+followup_date_columns = ["2026-09", "2026-08"]
+date_columns = followup_date_columns + historical_date_columns
 missing_values = {"-", None, ""}
 
 def split_result_row(row):
@@ -674,6 +688,8 @@ slight_worsening_score_delta = 0.12
 slight_directional_improvement_percent_delta = 0.075
 
 def trend_score(value, ref, category, marker=None):
+    if is_inconclusive(value):
+        return None
     if value in missing_values or ref in missing_values or ref == "-":
         return None
 
@@ -760,6 +776,9 @@ def directional_percent_delta(current, previous, ref, category=None, marker=None
 def classify_trend(values, ref, category, marker=None):
     comparable = []
     for value in values:
+        # An uninterpretable reading must not display a trend from older results.
+        if is_inconclusive(value):
+            return None
         score = trend_score(value, ref, category, marker)
         if score is not None:
             comparable.append((value, score))
@@ -897,6 +916,8 @@ def render_result_notes_md(category):
         md += f"<sup>{number}</sup> {note['text']}\n"
     return md
 
+# Historical tuples retain their original four date columns. Dated follow-ups
+# are merged below; a missing measurement is never carried into a newer month.
 data = {
     "Biological Age": [
         ("Biological Age", "-", "29.0", "-", "-", "years", "< 34.9"),
@@ -908,25 +929,34 @@ data = {
     "Vitals & Functional Health": [
         ("Blood Pressure", "108/70", "-", "-", "-", "mmHg", "< 120 / < 80"),
         ("Nighttime BP Dip", "16.7", "-", "-", "-", "%", "10 - 20"),
+        ("Nighttime BP Pattern", "-", "-", "-", "-", "Status", "-"),
         ("Resting Heart Rate", "~65", "-", "-", "-", "bpm", "60 - 100"),
         ("Sleeping Heart Rate", "56", "-", "-", "-", "bpm", "40 - 80"),
+        ("Average Sleeping HR (Oura)", "-", "-", "-", "-", "bpm", "-"),
+        ("Mean Nightly Lowest HR (Oura)", "-", "-", "-", "-", "bpm", "-"),
         ("Maximum Heart Rate", "190", "-", "-", "-", "bpm", "-"),
         ("ECG Rhythm", "normal sinus rhythm", "-", "-", "-", "Status", "normal sinus rhythm"),
         ("ECG Heart Rate", "68", "-", "-", "-", "bpm", "50 - 100"),
         ("Heart Sounds", "normal (no signs of valvular heart disease)", "-", "-", "-", "Status", "normal"),
         ("PWV", "5.8", "-", "-", "-", "m/s", "< 10"),
         ("VO2max", "43", "-", "-", "-", "ml/kg/min", "> 35"),
+        ("Cardiovascular Age Difference (Oura)", "-", "-", "-", "-", "years", "-"),
         ("Respiratory Rate (Sleep)", "12.4", "-", "-", "-", "/min", "12 - 20"),
-        ("Body Mass", "80", "-", "-", "-", "kg", "-"),
+        ("Body Mass", "83", "-", "-", "-", "kg", "-"),
         ("Height", "180", "-", "-", "-", "cm", "-"),
-        ("BMI", "24.7", "-", "-", "-", "kg/m^2", "18.5 - 24.9"),
-        ("Body Fat", "15", "-", "-", "-", "%", "10 - 20"),
+        ("BMI", "25.6", "-", "-", "-", "kg/m^2", "18.5 - 24.9"),
+        ("Body Fat", "17.4", "-", "-", "-", "%", "10 - 20"),
         ("Muscle", "78.6", "-", "-", "-", "%", "> 70"),
         ("Temperature", "36.9", "-", "-", "-", "C", "36.1 - 37.2"),
         ("Sleep Apnea AHI", "2", "-", "-", "-", "events/h", "< 5"),
         ("Nerve Health Score", "70", "-", "-", "-", "score", "-"),
         ("Max HRV", "48", "-", "-", "-", "ms", "-"),
+        ("Average HRV (Sleep)", "-", "-", "-", "-", "ms", "-"),
         ("Sleep Duration", "8", "-", "-", "-", "h", ">= 7"),
+        ("Time in Bed", "-", "-", "-", "-", "h", "-"),
+        ("Sleep Efficiency", "-", "-", "-", "-", "%", "-"),
+        ("Sleep Latency", "-", "-", "-", "-", "min", "-"),
+        ("Sleep Score", "-", "-", "-", "-", "score", "-"),
         ("REM Sleep", "2", "-", "-", "-", "h", "1.5 - 2.3"),
         ("Deep Sleep", "1", "-", "-", "-", "h", "about 1 - 2"),
         ("Stress", "minor", "-", "-", "-", "", "low/minor")
@@ -1177,6 +1207,76 @@ data = {
     ]
 }
 
+# Oura calendar means and dated Withings/app observations, reviewed 2026-09-06.
+# Full provenance and aggregation windows: results/Vitals-2026-09-06/Sources.md.
+vitals_followups = {
+    "2026-09": {
+        "Blood Pressure": "108/76",
+        "Nighttime BP Pattern": "typical dipping",
+        "Average Sleeping HR (Oura)": "65.9",
+        "Mean Nightly Lowest HR (Oura)": "59.0",
+        "ECG Rhythm": "normal sinus rhythm",
+        "Heart Sounds": "inconclusive",
+        "PWV": "6.1",
+        "VO2max": "44",
+        "Cardiovascular Age Difference (Oura)": "-6.5",
+        "Respiratory Rate (Sleep)": "12.4",
+        "Body Mass": "80.4",
+        "BMI": "24.8",
+        "Body Fat": "13.6",
+        "Muscle": "82.3",
+        "Sleep Apnea AHI": "0",
+        "Nerve Health Score": "pending",
+        "Max HRV": "51",
+        "Average HRV (Sleep)": "24.6",
+        "Sleep Duration": "7.51",
+        "Time in Bed": "8.86",
+        "Sleep Efficiency": "84.8",
+        "Sleep Latency": "15.0",
+        "Sleep Score": "81.6",
+        "REM Sleep": "1.64",
+        "Deep Sleep": "1.14",
+        "Stress": "low",
+    },
+    "2026-08": {
+        "Blood Pressure": "105/71",
+        "Average Sleeping HR (Oura)": "66.2",
+        "Mean Nightly Lowest HR (Oura)": "58.8",
+        "ECG Rhythm": "normal sinus rhythm",
+        "Heart Sounds": "normal (apex area)",
+        "PWV": "6.5",
+        "Respiratory Rate (Sleep)": "12.3",
+        "Body Mass": "80.3",
+        "BMI": "24.8",
+        "Body Fat": "15.2",
+        "Muscle": "80.7",
+        "Nerve Health Score": "69",
+        "Average HRV (Sleep)": "25.8",
+        "Sleep Duration": "7.60",
+        "Time in Bed": "9.00",
+        "Sleep Efficiency": "84.6",
+        "Sleep Latency": "22.7",
+        "Sleep Score": "78.7",
+        "REM Sleep": "1.72",
+        "Deep Sleep": "1.05",
+    },
+}
+
+vitals_markers = {row[0] for row in data["Vitals & Functional Health"]}
+for followup_date, measurements in vitals_followups.items():
+    if followup_date not in followup_date_columns or measurements.keys() - vitals_markers:
+        raise ValueError(f"Unknown date or vitals marker in follow-up: {followup_date}")
+
+for category, rows in data.items():
+    data[category] = [
+        (row[0], *(
+            vitals_followups[date].get(row[0], "-")
+            if category == "Vitals & Functional Health" else "-"
+            for date in followup_date_columns
+        ), *row[1:])
+        for row in rows
+    ]
+
 # Non-tabular data sections
 imaging_data = """## Structural & Diagnostic Imaging
 
@@ -1195,15 +1295,41 @@ imaging_data = """## Structural & Diagnostic Imaging
 result_notes = {
     "Vitals & Functional Health": [
         {
-            "text": "BMI is included as a population screening metric but is interpreted in context of body fat and muscle percentage, not as a standalone body-composition diagnosis.",
+            "text": "July retains the original protocol baseline, including estimates. August and September contain dated follow-ups; a dash means no new measurement. September sleep data cover September 1-5 only. Sources and exact observation dates: <a href='results/Vitals-2026-09-06/Sources.md'>vitals source record</a>.",
+            "markers": [],
+        },
+        {
+            "text": "August and September body mass, BMI, body fat and muscle values are Withings snapshots from August 28 and September 5, not monthly averages. Muscle percentage is distinct from lean mass. BMI is interpreted alongside body composition; the original recorded height is 180cm.",
             "markers": [
-                {"rows": ["Body Mass", "Height", "BMI", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-08"]},
+                {"rows": ["Body Mass", "BMI", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-09", "2026-08", "2026-07"]},
+                {"row": "Height", "target": "value", "dates": ["2026-07"]},
             ],
         },
         {
-            "text": "Maximum heart rate, max HRV, and nerve health score are device- or context-dependent metrics, so they are tracked but intentionally not scored against a universal clinical target.",
+            "text": "Oura sleep, respiratory rate, nightly HR and HRV values are arithmetic means of 31 nights in August and 5 nights on September 1-5; the empty September 6 export row is excluded. Mean nightly lowest HR averages each night's minimum, while average sleeping HR averages nightly mean HR. These are kept separate from the original resting/sleeping HR estimates. Sleep durations are decimal hours, rounded to two places.",
             "markers": [
-                {"rows": ["Maximum Heart Rate", "Max HRV", "Nerve Health Score"], "target": "value", "dates": ["2026-08"]},
+                {"rows": ["Average Sleeping HR (Oura)", "Mean Nightly Lowest HR (Oura)", "Average HRV (Sleep)", "Respiratory Rate (Sleep)", "Sleep Duration", "Time in Bed", "Sleep Efficiency", "Sleep Latency", "Sleep Score", "REM Sleep", "Deep Sleep"], "target": "value", "dates": ["2026-09", "2026-08"]},
+            ],
+        },
+        {
+            "text": "Withings: August BP and normal apex heart sounds are from August 26; August PWV and ECG are from August 28. September BP, PWV, ECG and heart sounds are from September 5. The latest heart-sound recording is inconclusive, so no directional trend is assigned across it. Heart-sound and ECG entries are device classifications.",
+            "markers": [
+                {"rows": ["Blood Pressure", "PWV", "ECG Rhythm", "Heart Sounds"], "target": "value", "dates": ["2026-09", "2026-08"]},
+            ],
+        },
+        {
+            "text": "AHI 0 is the Withings September 2 sleep reading. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum. Maximum HR, HRV and device scores are context-dependent and are tracked without a universal clinical target.",
+            "markers": [
+                {"row": "Sleep Apnea AHI", "target": "value", "dates": ["2026-09"]},
+                {"rows": ["Max HRV", "Nerve Health Score"], "target": "value", "dates": ["2026-09", "2026-07"]},
+                {"row": "Nerve Health Score", "target": "value", "dates": ["2026-08"]},
+                {"row": "Maximum Heart Rate", "target": "value", "dates": ["2026-07"]},
+            ],
+        },
+        {
+            "text": "Oura overview captured September 6: current-month VO2max 44; cardiovascular age 6.5 years younger; cumulative stress low. Typical nighttime dipping describes the last 30 days and supplies no dip percentage. The app's typical sleep score of 81 has an unspecified window; the table instead uses the exported calendar means.",
+            "markers": [
+                {"rows": ["VO2max", "Cardiovascular Age Difference (Oura)", "Stress", "Nighttime BP Pattern"], "target": "value", "dates": ["2026-09"]},
             ],
         },
     ],
@@ -1357,7 +1483,7 @@ def generate_html_report():
     
     for category, rows in data.items():
         
-        dates = category_date_columns.get(category, date_columns)
+        dates = date_columns
         active_indexes = active_date_indexes(rows)
         include_trend = category_has_trends(rows, category)
 
@@ -1426,7 +1552,7 @@ def generate_md_report():
 
     for category, rows in data.items():
         
-        dates = category_date_columns.get(category, date_columns)
+        dates = date_columns
         active_indexes = active_date_indexes(rows)
         include_trend = category_has_trends(rows, category)
 

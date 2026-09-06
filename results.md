@@ -12,36 +12,49 @@
 
 ## Vitals & Functional Health
 
-|  | 2026-08 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- |
-| **Blood Pressure** | 🔵 108/70 | mmHg | < 120 / < 80; target 100-115 / 60-75 |
-| **Nighttime BP Dip** | 🔵 16.7 | % | 10 - 20; target 10 - 20 |
-| **Resting Heart Rate** | 🔵 ~65 | bpm | 60 - 100; target 50 - 70 |
-| **Sleeping Heart Rate** | 🔵 56 | bpm | 40 - 80; target 45 - 60 |
-| **Maximum Heart Rate** | 190<sup>2</sup> | bpm | - |
-| **ECG Rhythm** | 🔵 normal sinus rhythm | Status | normal sinus rhythm |
-| **ECG Heart Rate** | 🔵 68 | bpm | 50 - 100; target 50 - 80 |
-| **Heart Sounds** | 🔵 normal (no signs of valvular heart disease) | Status | normal |
-| **PWV** | 🔵 5.8 | m/s | < 10; target < 7 |
-| **VO2max** | 🔵 43 | ml/kg/min | > 35; target >= 45 |
-| **Respiratory Rate (Sleep)** | 🔵 12.4 | /min | 12 - 20; target 12 - 16 |
-| **Body Mass** | 80<sup>1</sup> | kg | - |
-| **Height** | 180<sup>1</sup> | cm | - |
-| **BMI** | 🔵<sup>1</sup> 24.7 | kg/m^2 | 18.5 - 24.9; target 20 - 24.9 |
-| **Body Fat** | 🔵<sup>1</sup> 15 | % | 10 - 20; target 10 - 15 |
-| **Muscle** | 🔵<sup>1</sup> 80.7 | % | > 70; target >= 75 |
-| **Temperature** | 🔵 36.9 | C | 36.1 - 37.2; target 36.5 - 37.0 |
-| **Sleep Apnea AHI** | 🔵 2 | events/h | < 5; target < 5 |
-| **Nerve Health Score** | 70<sup>2</sup> | score | - |
-| **Max HRV** | 48<sup>2</sup> | ms | - |
-| **Sleep Duration** | 🔵 8 | h | >= 7; target 7 - 9 |
-| **REM Sleep** | 🔵 2 | h | 1.5 - 2.3; target 20 - 25% of sleep |
-| **Deep Sleep** | 🔵 1 | h | about 1 - 2; target 1 - 2 |
-| **Stress** | 🔵 minor |  | low/minor |
+|  | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Blood Pressure** | 🟡 | 🔵<sup>4</sup> 108/76 | 🔵<sup>4</sup> 105/71 | 🔵 108/70 | mmHg | < 120 / < 80; target 100-115 / 60-75 |
+| **Nighttime BP Dip** | - | - | - | 🔵 16.7 | % | 10 - 20; target 10 - 20 |
+| **Nighttime BP Pattern** | - | typical dipping<sup>6</sup> | - | - | Status | - |
+| **Resting Heart Rate** | - | - | - | 🔵 ~65 | bpm | 60 - 100; target 50 - 70 |
+| **Sleeping Heart Rate** | - | - | - | 🔵 56 | bpm | 40 - 80; target 45 - 60 |
+| **Average Sleeping HR (Oura)** | - | 65.9<sup>3</sup> | 66.2<sup>3</sup> | - | bpm | - |
+| **Mean Nightly Lowest HR (Oura)** | - | 59.0<sup>3</sup> | 58.8<sup>3</sup> | - | bpm | - |
+| **Maximum Heart Rate** | - | - | - | 190<sup>5</sup> | bpm | - |
+| **ECG Rhythm** | ⚪ | 🔵<sup>4</sup> normal sinus rhythm | 🔵<sup>4</sup> normal sinus rhythm | 🔵 normal sinus rhythm | Status | normal sinus rhythm |
+| **ECG Heart Rate** | - | - | - | 🔵 68 | bpm | 50 - 100; target 50 - 80 |
+| **Heart Sounds** | - | inconclusive<sup>4</sup> | 🔵<sup>4</sup> normal (apex area) | 🔵 normal (no signs of valvular heart disease) | Status | normal |
+| **PWV** | ⚪ | 🔵<sup>4</sup> 6.1 | 🔵<sup>4</sup> 6.5 | 🔵 5.8 | m/s | < 10; target < 7 |
+| **VO2max** | 🟢 | 🔵<sup>6</sup> 44 | - | 🔵 43 | ml/kg/min | > 35; target >= 45 |
+| **Cardiovascular Age Difference (Oura)** | - | -6.5<sup>6</sup> | - | - | years | - |
+| **Respiratory Rate (Sleep)** | ⚪ | 🔵<sup>3</sup> 12.4 | 🔵<sup>3</sup> 12.3 | 🔵 12.4 | /min | 12 - 20; target 12 - 16 |
+| **Body Mass** | - | 80.4<sup>2</sup> | 80.3<sup>2</sup> | 83<sup>2</sup> | kg | - |
+| **Height** | - | - | - | 180<sup>2</sup> | cm | - |
+| **BMI** | ⚪ | 🔵<sup>2</sup> 24.8 | 🔵<sup>2</sup> 24.8 | 🔵<sup>2</sup> 25.6 ↑ | kg/m^2 | 18.5 - 24.9; target 20 - 24.9 |
+| **Body Fat** | ⚪ | 🔵<sup>2</sup> 13.6 | 🔵<sup>2</sup> 15.2 | 🟢<sup>2</sup> 17.4 | % | 10 - 20; target 10 - 15 |
+| **Muscle** | ⚪ | 🔵<sup>2</sup> 82.3 | 🔵<sup>2</sup> 80.7 | 🔵<sup>2</sup> 78.6 | % | > 70; target >= 75 |
+| **Temperature** | - | - | - | 🔵 36.9 | C | 36.1 - 37.2; target 36.5 - 37.0 |
+| **Sleep Apnea AHI** | 🟢 | 🔵<sup>5</sup> 0 | - | 🔵 2 | events/h | < 5; target < 5 |
+| **Nerve Health Score** | - | pending<sup>5</sup> | 69<sup>5</sup> | 70<sup>5</sup> | score | - |
+| **Max HRV** | - | 51<sup>5</sup> | - | 48<sup>5</sup> | ms | - |
+| **Average HRV (Sleep)** | - | 24.6<sup>3</sup> | 25.8<sup>3</sup> | - | ms | - |
+| **Sleep Duration** | ⚪ | 🔵<sup>3</sup> 7.51 | 🔵<sup>3</sup> 7.60 | 🔵 8 | h | >= 7; target 7 - 9 |
+| **Time in Bed** | - | 8.86<sup>3</sup> | 9.00<sup>3</sup> | - | h | - |
+| **Sleep Efficiency** | - | 84.8<sup>3</sup> | 84.6<sup>3</sup> | - | % | - |
+| **Sleep Latency** | - | 15.0<sup>3</sup> | 22.7<sup>3</sup> | - | min | - |
+| **Sleep Score** | - | 81.6<sup>3</sup> | 78.7<sup>3</sup> | - | score | - |
+| **REM Sleep** | ⚪ | 🔵<sup>3</sup> 1.64 | 🔵<sup>3</sup> 1.72 | 🔵 2 | h | 1.5 - 2.3; target 20 - 25% of sleep |
+| **Deep Sleep** | ⚪ | 🔵<sup>3</sup> 1.14 | 🔵<sup>3</sup> 1.05 | 🔵 1 | h | about 1 - 2; target 1 - 2 |
+| **Stress** | - | low<sup>6</sup> | - | 🔵 minor |  | low/minor |
 
 **Notes:**
-<sup>1</sup> BMI is included as a population screening metric but is interpreted in context of body fat and muscle percentage, not as a standalone body-composition diagnosis.
-<sup>2</sup> Maximum heart rate, max HRV, and nerve health score are device- or context-dependent metrics, so they are tracked but intentionally not scored against a universal clinical target.
+<sup>1</sup> July retains the original protocol baseline, including estimates. August and September contain dated follow-ups; a dash means no new measurement. September sleep data cover September 1-5 only. Sources and exact observation dates: <a href='results/Vitals-2026-09-06/Sources.md'>vitals source record</a>.
+<sup>2</sup> August and September body mass, BMI, body fat and muscle values are Withings snapshots from August 28 and September 5, not monthly averages. Muscle percentage is distinct from lean mass. BMI is interpreted alongside body composition; the original recorded height is 180cm.
+<sup>3</sup> Oura sleep, respiratory rate, nightly HR and HRV values are arithmetic means of 31 nights in August and 5 nights on September 1-5; the empty September 6 export row is excluded. Mean nightly lowest HR averages each night's minimum, while average sleeping HR averages nightly mean HR. These are kept separate from the original resting/sleeping HR estimates. Sleep durations are decimal hours, rounded to two places.
+<sup>4</sup> Withings: August BP and normal apex heart sounds are from August 26; August PWV and ECG are from August 28. September BP, PWV, ECG and heart sounds are from September 5. The latest heart-sound recording is inconclusive, so no directional trend is assigned across it. Heart-sound and ECG entries are device classifications.
+<sup>5</sup> AHI 0 is the Withings September 2 sleep reading. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum. Maximum HR, HRV and device scores are context-dependent and are tracked without a universal clinical target.
+<sup>6</sup> Oura overview captured September 6: current-month VO2max 44; cardiovascular age 6.5 years younger; cumulative stress low. Typical nighttime dipping describes the last 30 days and supplies no dip percentage. The app's typical sleep score of 81 has an unspecified window; the table instead uses the exported calendar means.
 
 ## Morphology
 
