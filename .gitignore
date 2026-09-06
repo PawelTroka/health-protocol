@@ -1,2 +1,7 @@
 # Codex-generated document render directories
 /.codex-docx-render-*/
+
+# Private API exports and daily sync cache; OAuth credentials live outside Git.
+/.health-sync/
+/health_sync/__pycache__/
+/tests/__pycache__/

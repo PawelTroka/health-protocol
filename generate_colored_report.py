@@ -1,4 +1,12 @@
 import re
+import os
+from pathlib import Path
+
+from health_sync.monthly import apply_report_overlay, load_monthly
+
+
+REPORT_ROOT = Path(__file__).resolve().parent
+synced_monthly = load_monthly(os.environ.get("HEALTH_PROTOCOL_VITALS_MONTHLY", REPORT_ROOT / "vitals_monthly.json"))
 
 def lerp(a, b, t):
     return int(a + (b - a) * t)
@@ -322,6 +330,8 @@ target_overrides = {
 no_score_markers = {
     ("Vitals & Functional Health", "Body Mass"),
     ("Vitals & Functional Health", "Height"),
+    ("Vitals & Functional Health", "Bone"),
+    ("Vitals & Functional Health", "Visceral Fat Index"),
     ("Vitals & Functional Health", "Maximum Heart Rate"),
     ("Vitals & Functional Health", "Nerve Health Score"),
     ("Vitals & Functional Health", "Max HRV"),
@@ -632,7 +642,7 @@ def format_cell_md_urine(val, ref):
 # Data Reorganized
 # Using "-" for missing values as requested
 historical_date_columns = ["2026-07", "2026-01", "2025-05", "2025-01"]
-followup_date_columns = ["2026-09", "2026-08"]
+followup_date_columns = sorted({"2026-09", "2026-08", *synced_monthly["months"]}, reverse=True)
 date_columns = followup_date_columns + historical_date_columns
 missing_values = {"-", None, ""}
 
@@ -947,6 +957,8 @@ data = {
         ("BMI", "25.6", "-", "-", "-", "kg/m^2", "18.5 - 24.9"),
         ("Body Fat", "17.4", "-", "-", "-", "%", "10 - 20"),
         ("Muscle", "78.6", "-", "-", "-", "%", "> 70"),
+        ("Bone", "-", "-", "-", "-", "%", "-"),
+        ("Visceral Fat Index", "-", "-", "-", "-", "index", "-"),
         ("Temperature", "36.9", "-", "-", "-", "C", "36.1 - 37.2"),
         ("Sleep Apnea AHI", "2", "-", "-", "-", "events/h", "< 5"),
         ("Nerve Health Score", "70", "-", "-", "-", "score", "-"),
@@ -1225,6 +1237,8 @@ vitals_followups = {
         "BMI": "24.8",
         "Body Fat": "13.6",
         "Muscle": "82.3",
+        "Bone": "4.2",
+        "Visceral Fat Index": "2.3",
         "Sleep Apnea AHI": "0",
         "Nerve Health Score": "pending",
         "Max HRV": "51",
@@ -1250,6 +1264,8 @@ vitals_followups = {
         "BMI": "24.8",
         "Body Fat": "15.2",
         "Muscle": "80.7",
+        "Bone": "4.1",
+        "Visceral Fat Index": "2.4",
         "Nerve Health Score": "69",
         "Average HRV (Sleep)": "25.8",
         "Sleep Duration": "7.60",
@@ -1266,16 +1282,6 @@ vitals_markers = {row[0] for row in data["Vitals & Functional Health"]}
 for followup_date, measurements in vitals_followups.items():
     if followup_date not in followup_date_columns or measurements.keys() - vitals_markers:
         raise ValueError(f"Unknown date or vitals marker in follow-up: {followup_date}")
-
-for category, rows in data.items():
-    data[category] = [
-        (row[0], *(
-            vitals_followups[date].get(row[0], "-")
-            if category == "Vitals & Functional Health" else "-"
-            for date in followup_date_columns
-        ), *row[1:])
-        for row in rows
-    ]
 
 # Non-tabular data sections
 imaging_data = """## Structural & Diagnostic Imaging
@@ -1295,13 +1301,14 @@ imaging_data = """## Structural & Diagnostic Imaging
 result_notes = {
     "Vitals & Functional Health": [
         {
-            "text": "July retains the original protocol baseline, including estimates. August and September contain dated follow-ups; a dash means no new measurement. September sleep data cover September 1-5 only. Sources and exact observation dates: <a href='results/Vitals-2026-09-06/Sources.md'>vitals source record</a>.",
+            "text": "July retains the original protocol baseline, including estimates. Follow-up columns contain dated observations or imported monthly means, distinguished by their source notes; a dash means no new measurement. Original observations: <a href='results/Vitals-2026-09-06/Sources.md'>vitals source record</a>.",
             "markers": [],
         },
         {
-            "text": "August and September body mass, BMI, body fat and muscle values are Withings snapshots from August 28 and September 5, not monthly averages. Muscle percentage is distinct from lean mass. BMI is interpreted alongside body composition; the original recorded height is 180cm.",
+            "text": "The original August and September body-composition snapshots are dated August 28 and September 5; imported monthly replacements have a separate source note. Bone is the Withings estimate as a percentage of body weight. Visceral fat is the <a href='https://support.withings.com/hc/en-us/articles/11003948038545-Body-Scan-Learn-more-about-Visceral-Fat-Index'>Withings index on a 0-20 scale</a>, not a percentage. Muscle percentage is distinct from lean mass. BMI is interpreted alongside body composition; the original recorded height is 180cm.",
             "markers": [
                 {"rows": ["Body Mass", "BMI", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-09", "2026-08", "2026-07"]},
+                {"rows": ["Bone", "Visceral Fat Index"], "target": "value", "dates": ["2026-09", "2026-08"]},
                 {"row": "Height", "target": "value", "dates": ["2026-07"]},
             ],
         },
@@ -1312,7 +1319,7 @@ result_notes = {
             ],
         },
         {
-            "text": "Withings: August BP and normal apex heart sounds are from August 26; August PWV and ECG are from August 28. September BP, PWV, ECG and heart sounds are from September 5. The latest heart-sound recording is inconclusive, so no directional trend is assigned across it. Heart-sound and ECG entries are device classifications.",
+            "text": "Original Withings snapshots: August BP and normal apex heart sounds are from August 26; August PWV and ECG are from August 28. September BP, PWV, ECG and heart sounds are from September 5; imported replacements have a separate source note. The September heart-sound recording is inconclusive, so no directional trend is assigned across it. Heart-sound and ECG entries are device classifications.",
             "markers": [
                 {"rows": ["Blood Pressure", "PWV", "ECG Rhythm", "Heart Sounds"], "target": "value", "dates": ["2026-09", "2026-08"]},
             ],
@@ -1327,7 +1334,7 @@ result_notes = {
             ],
         },
         {
-            "text": "Oura overview captured September 6: current-month VO2max 44; cardiovascular age 6.5 years younger; cumulative stress low. Typical nighttime dipping describes the last 30 days and supplies no dip percentage. The app's typical sleep score of 81 has an unspecified window; the table instead uses the exported calendar means.",
+            "text": "Oura overview captured September 6: current-month VO2max 44; cardiovascular age 6.5 years younger; cumulative stress low. Typical nighttime dipping describes the last 30 days and supplies no dip percentage. The app's typical sleep score of 81 has an unspecified window; the table uses imported calendar means.",
             "markers": [
                 {"rows": ["VO2max", "Cardiovascular Age Difference (Oura)", "Stress", "Nighttime BP Pattern"], "target": "value", "dates": ["2026-09"]},
             ],
@@ -1467,7 +1474,19 @@ result_notes = {
     ],
 }
 
-def generate_html_report():
+apply_report_overlay(vitals_followups, result_notes["Vitals & Functional Health"], synced_monthly)
+for category, rows in data.items():
+    data[category] = [
+        (row[0], *(
+            vitals_followups.get(date, {}).get(row[0], "-")
+            if category == "Vitals & Functional Health" else "-"
+            for date in followup_date_columns
+        ), *row[1:])
+        for row in rows
+    ]
+
+
+def generate_html_report(output_path="results.html"):
     html = "<html><head><style>"
     html += "body { font-family: sans-serif; padding: 20px; }"
     html += "table { border-collapse: collapse; width: 100%; margin-bottom: 10px; }"
@@ -1543,10 +1562,10 @@ def generate_html_report():
 
     html += "</body></html>"
     
-    with open("results.html", "w", encoding="utf-8") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-def generate_md_report():
+def generate_md_report(output_path="results.md"):
     md = "# Health Protocol: Lab Results Comparison\n\n"
     # Patient info removed
 
@@ -1614,9 +1633,10 @@ def generate_md_report():
     md += "> **Trend method:** Compares the latest completed result with the previous completed result using the health-target score; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.\n\n"
     md += "> **Note:** See `results.html` for detailed color gradients.\n"
 
-    with open("results.md", "w", encoding="utf-8") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(md)
 
-# Run both
-generate_html_report()
-generate_md_report()
+if __name__ == "__main__":
+    output_dir = Path(os.environ.get("HEALTH_PROTOCOL_REPORT_DIR", "."))
+    generate_html_report(output_dir / "results.html")
+    generate_md_report(output_dir / "results.md")

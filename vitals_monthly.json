@@ -1,0 +1,362 @@
+{
+  "as_of": "2026-09-06",
+  "months": {
+    "2026-08": {
+      "Average HRV (Sleep)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "ms",
+        "value": "25.8"
+      },
+      "Average Sleeping HR (Oura)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "bpm",
+        "value": "66.2"
+      },
+      "Deep Sleep": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "h",
+        "value": "1.05"
+      },
+      "Mean Nightly Lowest HR (Oura)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "bpm",
+        "value": "58.8"
+      },
+      "REM Sleep": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "h",
+        "value": "1.72"
+      },
+      "Respiratory Rate (Sleep)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "/min",
+        "value": "12.3"
+      },
+      "Sleep Duration": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "h",
+        "value": "7.60"
+      },
+      "Sleep Efficiency": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "%",
+        "value": "84.6"
+      },
+      "Sleep Latency": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "min",
+        "value": "22.7"
+      },
+      "Sleep Score": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "score",
+        "value": "78.7"
+      },
+      "Time in Bed": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 31,
+        "n_records": 31,
+        "partial_month": false,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "h",
+        "value": "9.00"
+      }
+    },
+    "2026-09": {
+      "Average HRV (Sleep)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "ms",
+        "value": "24.6"
+      },
+      "Average Sleeping HR (Oura)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "bpm",
+        "value": "65.9"
+      },
+      "Deep Sleep": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "h",
+        "value": "1.14"
+      },
+      "Mean Nightly Lowest HR (Oura)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "bpm",
+        "value": "59.0"
+      },
+      "REM Sleep": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "h",
+        "value": "1.64"
+      },
+      "Respiratory Rate (Sleep)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "/min",
+        "value": "12.4"
+      },
+      "Sleep Duration": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "h",
+        "value": "7.51"
+      },
+      "Sleep Efficiency": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "%",
+        "value": "84.8"
+      },
+      "Sleep Latency": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "min",
+        "value": "15.0"
+      },
+      "Sleep Score": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "score",
+        "value": "81.6"
+      },
+      "Time in Bed": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 6,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-05",
+        "n_days": 5,
+        "n_records": 5,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "csv"
+        ],
+        "unit": "h",
+        "value": "8.86"
+      }
+    }
+  },
+  "schema_version": 1
+}
