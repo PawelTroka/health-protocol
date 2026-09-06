@@ -1284,6 +1284,34 @@ vitals_followups = {
     },
 }
 
+# Manual sizes reported on September 6; these are snapshots, not device means.
+# The user corrected the linked conversation's 176.5cm height to 180cm here.
+body_measurements_2026_09 = {
+    "Height": "180",
+    "Waist Circumference (Narrowest Point)": "85",
+    "Hip Circumference": "99",
+    "Chest Circumference": "106",
+    "Shoulder Circumference": "117.5",
+    "Neck Circumference": "38.5",
+    "Right Upper Arm Circumference (Flexed)": "38",
+    "Right Forearm Circumference": "32",
+    "Right Wrist Circumference": "15.5",
+    "Right Thigh Circumference": "60",
+    "Right Calf Circumference": "36",
+    "Right Ankle Circumference": "24",
+    "Right Above-Ankle Circumference": "21",
+    "Foot Length (Side Unspecified)": "25.5",
+    "Head Circumference": "57",
+}
+existing_manual_markers = {row[0] for row in data["Vitals & Functional Health"]}
+for name in body_measurements_2026_09:
+    if name not in existing_manual_markers:
+        data["Vitals & Functional Health"].append(
+            (name, *("-" for _ in historical_date_columns), "cm", "-")
+        )
+    no_score_markers.add(("Vitals & Functional Health", name))
+vitals_followups["2026-09"].update(body_measurements_2026_09)
+
 vitals_markers = {row[0] for row in data["Vitals & Functional Health"]}
 for followup_date, measurements in vitals_followups.items():
     if followup_date not in followup_date_columns or measurements.keys() - vitals_markers:
@@ -1480,6 +1508,10 @@ result_notes = {
     ],
 }
 
+result_notes["Vitals & Functional Health"].append({
+    "text": "Body sizes were self-reported in <a href='https://chatgpt.com/c/6a9cbba2-bfd8-83eb-be0d-1e23e6d1aa04'>Body Measurements Assessment</a> on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb sides are retained as reported; foot side and the exact above-ankle landmark are unspecified. The user confirmed 180cm height in this task, correcting 176.5cm in the linked conversation. Existing BMI calculations therefore continue to use 180cm. The chat's rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.",
+    "markers": [{"rows": list(body_measurements_2026_09), "target": "value", "dates": ["2026-09"]}],
+})
 apply_report_overlay(vitals_followups, result_notes["Vitals & Functional Health"], synced_monthly)
 existing_vitals = {row[0] for row in data["Vitals & Functional Health"]}
 observed_metrics = {metric for metrics in synced_monthly["months"].values() for metric in metrics}

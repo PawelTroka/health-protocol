@@ -16,6 +16,18 @@ _MAIN_GROUPS = (
         ),
     ),
     (
+        "Body measurements",
+        "Self-reported sizes, with dated snapshots and measurement methods identified in the source notes.",
+        (
+            "Height", "Waist Circumference (Narrowest Point)", "Hip Circumference",
+            "Chest Circumference", "Shoulder Circumference", "Neck Circumference",
+            "Right Upper Arm Circumference (Flexed)", "Right Forearm Circumference",
+            "Right Wrist Circumference", "Right Thigh Circumference", "Right Calf Circumference",
+            "Right Ankle Circumference", "Right Above-Ankle Circumference",
+            "Foot Length (Side Unspecified)", "Head Circumference",
+        ),
+    ),
+    (
         "Heart and circulation",
         "Blood pressure, pulse-wave velocity, heart rate and recorded ECG classifications.",
         (
@@ -94,7 +106,7 @@ _DETAIL_GROUPS = (
 )
 
 _LEGACY_NAMES = {
-    "Height", "Resting Heart Rate", "Sleeping Heart Rate", "Maximum Heart Rate",
+    "Resting Heart Rate", "Sleeping Heart Rate", "Maximum Heart Rate",
     "ECG Rhythm", "ECG Heart Rate", "Heart Sounds", "Nighttime BP Dip",
     "Nighttime BP Pattern", "Max HRV", "Stress",
     "Cardiovascular Age Difference (Oura)",
