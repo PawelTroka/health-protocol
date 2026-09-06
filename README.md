@@ -780,7 +780,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Use extremely strong air purifier at home (especially bedroom) with 600+ CADR, at least 3 filtration stages, 1100+ ml/h humidifier and 50,000+ ions/cm³ Plasmacluster like [Sharp KI-TX100EU-W](https://loveair.pl/oczyszczacz/sharp-ki-tx100eu-w)
 - (alternative) If you already have optimal humidity, use a dedicated high-performance purifier like [IQAir HealthPro Plus](https://www.iqair.com/us/products/air-purifiers/healthpro-plus?Model=XE)
 
-### Bedding and sleep textiles
+### Bedding and textiles
 - **Bed baseline:** bare mattress 193x203cm (76x80in US King); keep the bedroom at 18°C.
 - **Duvets (2x purchased — primary bed + guest bed):** [Poldaun Ecotton 220x240cm all-season duvet](https://polskiekoldry.pl/koldra-220x240-bawelniana-100-bio-ecotton-caloroczna-poldaun) — natural cream, with a 100% organic-Cotton shell and 100% unbleached, chemically untreated Cotton fill; 300g/m², 1,600g fill and 2,700g total product weight. Use one as the shared primary-bed duvet and one on the guest bed. The maker identifies the shell fabric as GOTS-certified and made without artificial dyes or optical brighteners. Orient the 240cm side across the primary mattress for better shared coverage.
   - **Important limitations:** the care label allows only a 30°C wash, the retailer does not document OEKO-TEX® STANDARD 100 Product Class I for this exact finished duvet, and the listed warmth is low. At the fixed 18°C bedroom temperature, confirm thermal comfort during the return window.
@@ -789,6 +789,8 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - **Duvet-cover sets (2x purchased — primary bed + guest bed):** [Dreamzie organic-Cotton Percale, 240x220cm, Anthracite, with 2x65x65cm pillowcases per set](https://www.amazon.pl/Dreamzie-Poszewki-Antracytowa-Oddychaj%C4%85ca-Oeko-Tex/dp/B0FPMCTWB9) — 100% organic-Cotton fabric, 180TC Percale, concealed zipper, four internal corner ties and machine-washable at 60°C. The listing identifies [GOTS Organic (`USB 002295`)](https://global-standards.org/suppliers/certified-suppliers/details?gtbid=SCO031619&q=002295) and [OEKO-TEX® STANDARD 100 Product Class I (`2018OK0718`)](https://www.oeko-tex.com/en/detail/?number=2018OK0718); verify both identifiers on the delivered sewn or package label before washing. The 65x65cm cases fit square pillows and will not fit a future 40x80cm ergonomic pillow.
   - **Important limitations:** Anthracite is dyed rather than unbleached/undyed, the care limit is 60°C rather than 95-100°C, and the 100% organic-Cotton claim describes the fabric rather than necessarily the zipper and sewing thread.
 - **Fitted sheets (2x purchased — primary bed + guest bed):** [Dreamzie fitted sheet](http://www.amazon.pl/Prześcieradlo-Dreamzie-180x200-organiczna-hipoalergiczny/dp/B0DDSZVT18) — from the same series as the duvet-cover sets.
+- **Sauna hat:** wear [ELON wool unisex sauna hat, size L (56–58cm head circumference)](https://sklep.elon.com.pl/produkt/czapka-do-sauny-welniana-unisex-7/) — Polish-made, 100% natural sheep's-wool felt, ~4mm thick.
+  - **Hat care:** hand-wash at up to 30°C with a gentle detergent; squeeze gently without wringing or spinning, hang to drain, reshape and dry at room temperature away from radiators and direct sunlight.
 
 ### Hygiene
 - For face drying, use single-use **100% organic cotton** towels to prevent acne and bacterial transfer:
