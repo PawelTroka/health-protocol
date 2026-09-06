@@ -151,8 +151,12 @@ class OuraAPITests(unittest.TestCase):
     def test_primary_sleep_mapping_and_daily_score(self):
         result = by_metric(parse_api({"sleep": [sleep_document()],
                                       "daily_sleep": [daily_document()]}))
-        self.assertEqual(len(result), 11)
-        self.assertEqual(OURA_ENDPOINTS, ["sleep", "daily_sleep"])
+        self.assertEqual(len(result), 15)
+        self.assertEqual(OURA_ENDPOINTS, [
+            "sleep", "daily_sleep", "daily_readiness", "daily_activity", "daily_spo2",
+            "daily_cardiovascular_age", "vO2_max", "daily_stress", "daily_resilience",
+            "heartrate", "workout", "session",
+        ])
         self.assertEqual(result["Sleep Duration"]["value"], 7.5)
         self.assertEqual(result["Deep Sleep"]["value"], 1)
         self.assertEqual(result["Sleep Latency"]["value"], 7.5)
@@ -173,7 +177,7 @@ class OuraAPITests(unittest.TestCase):
         first = parse_api({"sleep": records})
         second = parse_api({"sleep": list(reversed(records))})
         self.assertEqual(first, second)
-        self.assertEqual(len(first), 10)
+        self.assertEqual(len(first), 11)
         self.assertEqual(by_metric(first)["Average Sleeping HR (Oura)"]["value"], 65.25)
 
     def test_tied_periods_choose_latest_end_then_stable_id(self):
@@ -183,13 +187,15 @@ class OuraAPITests(unittest.TestCase):
         records = parse_api({"sleep": [later_b, early, later_a]})
         self.assertTrue(all(":sleep:b-later:" in record["id"] for record in records))
 
-    def test_missing_sleep_total_or_bedtime_excludes_incomplete_day_and_score(self):
+    def test_missing_sleep_total_or_bedtime_excludes_night_but_keeps_daily_summary(self):
         for changes in [{"total_sleep_duration": None}, {"time_in_bed": None},
                         {"bedtime_end": None}, {"bedtime_start": None}]:
             with self.subTest(changes=changes):
                 result = parse_api({"sleep": [sleep_document(**changes)],
                                     "daily_sleep": [daily_document()]})
-                self.assertEqual(result, [])
+                values = by_metric(result)
+                self.assertNotIn("Sleep Duration", values)
+                self.assertEqual(values["Sleep Score"]["value"], 81)
 
     def test_optional_null_fields_omitted_and_valid_zero_preserved(self):
         result = by_metric(parse_api({
@@ -210,7 +216,7 @@ class OuraAPITests(unittest.TestCase):
     def test_identical_ids_deduplicate_conflicting_ids_rejected(self):
         document = sleep_document()
         result = parse_api({"sleep": [document, document]})
-        self.assertEqual(len(result), 10)
+        self.assertEqual(len(result), 11)
         with self.assertRaisesRegex(OuraParseError, "conflicting duplicate"):
             parse_api({"sleep": [document, sleep_document(average_hrv=99)]})
         with self.assertRaisesRegex(OuraParseError, "conflicting duplicate"):

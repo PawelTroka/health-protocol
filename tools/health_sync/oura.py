@@ -1,13 +1,18 @@
-"""Pure Oura CSV and API v2 parsers for the report's eleven sleep metrics.
+"""Pure Oura trends CSV and comprehensive API v2 health-metric parsers.
 
 Official schema, checked 2026-09-06:
 https://cloud.ouraring.com/v2/static/json/openapi-1.37.json
 https://cloud.ouraring.com/v2/docs
+VO2 unit: https://support.ouraring.com/hc/en-us/articles/28336620578835
+The live API additionally requires heart_health for cardiovascular age/VO2 and
+stress for resilience, despite these scopes being absent from the schema list.
+OAuth authorization follows /docs/authentication's spo2 spelling (the schema
+calls it spo2Daily). Authentication and paginated fetching belong to api.py.
 
 CSV rows are Oura's exported daily observations. API observations use the longest
 completed ``long_sleep`` period assigned to each Oura ``day``; naps and rests are
 excluded. The daily sleep score can include other contributing sleep periods and
-comes from ``daily_sleep.score``. This deliberate primary-night policy need not
+comes independently from ``daily_sleep.score``. This primary-night policy need not
 reproduce every CSV aggregate. In addition, the API documents that its mean and
 lowest HR use 30-second samples, whereas the app uses aggregated 5-minute samples.
 Keep source_kind when storing/aggregating records; do not silently mix CSV and API
@@ -17,6 +22,16 @@ to the caller, so these parsers remain deterministic and independent of the cloc
 Values are converted to report units without rounding. Null/blank measurements
 are omitted, never replaced with zero. Structural validation is not a clinical
 reference-range assessment. Neither parser performs network requests or writes.
+
+Daily summaries use Oura's assigned day (activity days start at 04:00), not a
+timestamp converted to another date. Discrete HR samples use Europe/Warsaw days.
+Workout/session quantities are per recorded event, so a downstream mean of daily
+means is not mislabeled as a daily total. Stress/resilience categories are exposed
+separately by ``categorical_inventory`` for counts. Clock times, profile values
+without historical dates, ring diagnostics, and classification sequences are not
+numerical health observations; they remain available in source archives.
+The CSV parser intentionally retains the eleven verified sleep export columns;
+the broader schema below describes API fields, not guessed CSV column names.
 """
 
 from __future__ import annotations
@@ -24,12 +39,18 @@ from __future__ import annotations
 import csv
 import math
 import re
-from datetime import date, datetime, timezone
+from dataclasses import dataclass
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 
-OURA_ENDPOINTS = ["sleep", "daily_sleep"]
+OURA_ENDPOINTS = [
+    "sleep", "daily_sleep", "daily_readiness", "daily_activity", "daily_spo2",
+    "daily_cardiovascular_age", "vO2_max", "daily_stress", "daily_resilience",
+    "heartrate", "workout", "session",
+]
 
 # (report marker, CSV header after trimming, API field, report unit, divisor)
 _METRICS = (
@@ -50,6 +71,155 @@ _POSITIVE_FIELDS = {"average_heart_rate", "lowest_heart_rate", "average_breath"}
 _OTHER_SLEEP_TYPES = {"deleted", "sleep", "late_nap", "rest", None}
 
 
+@dataclass(frozen=True)
+class _Field:
+    path: str
+    marker: str
+    unit: str
+    divisor: float = 1
+    decimals: int = 1
+    minimum: float | None = 0
+    maximum: float | None = None
+
+
+def _field(path, name, unit, divisor=1, decimals=1, minimum=0, maximum=None):
+    return _Field(path, f"{name} (Oura)", unit, divisor, decimals, minimum, maximum)
+
+
+def _contributors(prefix, fields):
+    return tuple(_field(f"contributors.{key}", f"{prefix} {name} Contributor Score",
+                        "score", maximum=100) for key, name in fields)
+
+
+_SLEEP_FIELDS = (
+    _field("light_sleep_duration", "Light Sleep", "h", 3600, 2),
+    _field("awake_time", "Awake Time During Sleep", "h", 3600, 2),
+    _field("restless_periods", "Restless Periods During Sleep", "count"),
+    _field("readiness_score_delta", "Primary Sleep Readiness Score Change", "points",
+           minimum=None),
+    _field("sleep_score_delta", "Primary Sleep Score Change", "points", minimum=None),
+)
+
+_DAILY_FIELDS = {
+    "daily_sleep": (
+        _Field("score", "Sleep Score", "score", maximum=100),
+    ) + _contributors("Sleep", (
+        ("deep_sleep", "Deep Sleep"), ("efficiency", "Efficiency"),
+        ("latency", "Latency"), ("rem_sleep", "REM Sleep"),
+        ("restfulness", "Restfulness"), ("timing", "Timing"),
+        ("total_sleep", "Total Sleep"),
+    )),
+    "daily_readiness": (
+        _field("score", "Readiness Score", "score", maximum=100),
+        _field("temperature_deviation", "Temperature Deviation", "°C", decimals=2,
+               minimum=None),
+        _field("temperature_trend_deviation", "Temperature Trend Deviation", "°C",
+               decimals=2, minimum=None),
+    ) + _contributors("Readiness", (
+        ("activity_balance", "Activity Balance"), ("body_temperature", "Body Temperature"),
+        ("hrv_balance", "HRV Balance"), ("previous_day_activity", "Previous Day Activity"),
+        ("previous_night", "Previous Night"), ("recovery_index", "Recovery Index"),
+        ("resting_heart_rate", "Resting HR"), ("sleep_balance", "Sleep Balance"),
+        ("sleep_regularity", "Sleep Regularity"),
+    )),
+    "daily_activity": (
+        _field("score", "Activity Score", "score", maximum=100),
+        _field("steps", "Steps", "steps", decimals=0),
+        _field("active_calories", "Active Energy", "kcal"),
+        _field("total_calories", "Total Energy Expenditure", "kcal"),
+        _field("average_met_minutes", "Average MET Minutes", "MET-min", decimals=2),
+        _field("equivalent_walking_distance", "Equivalent Walking Distance", "km", 1000, 2),
+        _field("high_activity_met_minutes", "High Activity MET Minutes", "MET-min"),
+        _field("low_activity_met_minutes", "Low Activity MET Minutes", "MET-min"),
+        _field("medium_activity_met_minutes", "Medium Activity MET Minutes", "MET-min"),
+        _field("sedentary_met_minutes", "Sedentary MET Minutes", "MET-min"),
+        _field("high_activity_time", "High Activity Time", "h", 3600, 2),
+        _field("medium_activity_time", "Medium Activity Time", "h", 3600, 2),
+        _field("low_activity_time", "Low Activity Time", "h", 3600, 2),
+        _field("sedentary_time", "Sedentary Time", "h", 3600, 2),
+        _field("resting_time", "Resting Time", "h", 3600, 2),
+        _field("non_wear_time", "Non-wear Time", "h", 3600, 2),
+        _field("inactivity_alerts", "Inactivity Alerts", "count"),
+        _field("target_calories", "Activity Energy Target", "kcal"),
+        _field("target_meters", "Activity Distance Target", "km", 1000, 2),
+        _field("meters_to_target", "Distance Remaining to Activity Target", "km", 1000, 2,
+               minimum=None),
+    ) + _contributors("Activity", (
+        ("meet_daily_targets", "Meet Daily Targets"), ("move_every_hour", "Move Every Hour"),
+        ("recovery_time", "Recovery Time"), ("stay_active", "Stay Active"),
+        ("training_frequency", "Training Frequency"), ("training_volume", "Training Volume"),
+    )),
+    "daily_spo2": (
+        _field("spo2_percentage.average", "Average Sleeping SpO2", "%", maximum=100),
+        _field("breathing_disturbance_index", "Breathing Disturbance Index", "index",
+               maximum=100),
+    ),
+    "daily_cardiovascular_age": (
+        _field("vascular_age", "Cardiovascular Age", "years", minimum=18, maximum=100),
+        _field("pulse_wave_velocity", "Estimated PWV", "m/s", decimals=2),
+    ),
+    "vO2_max": (
+        _field("vo2_max", "VO2 Max", "ml/kg/min"),
+    ),
+    "daily_stress": (
+        _field("stress_high", "High Stress Time", "h", 3600, 2),
+        _field("recovery_high", "High Recovery Time", "h", 3600, 2),
+    ),
+    "daily_resilience": _contributors("Resilience", (
+        ("sleep_recovery", "Sleep Recovery"), ("daytime_recovery", "Daytime Recovery"),
+        ("stress", "Stress"),
+    )),
+}
+
+_WORKOUT_FIELDS = (
+    _field("calories", "Energy per Recorded Workout", "kcal"),
+    _field("distance", "Distance per Recorded Workout", "km", 1000, 2),
+)
+_HEARTRATE_MARKERS = {
+    source: f"Sampled {label} HR (Oura)" for source, label in (
+        ("awake", "Awake"), ("workout", "Workout"), ("rest", "Rest"),
+        ("sleep", "Sleeping"), ("live", "Live"), ("session", "Session"),
+    )
+}
+_SESSION_SAMPLES = (
+    ("heart_rate", "Sampled HR During Sessions (Oura)", "bpm"),
+    ("heart_rate_variability", "Sampled HRV During Sessions (Oura)", "ms"),
+    ("motion_count", "Sampled Motion Count During Sessions (Oura)", "count"),
+)
+_PRIMARY_SLEEP_SAMPLES = (
+    ("heart_rate", "Sampled HR During Primary Sleep (Oura)", "bpm"),
+    ("hrv", "Sampled HRV During Primary Sleep (Oura)", "ms"),
+)
+
+# Public registry consumed by monthly aggregation and report generation.
+OURA_METRICS = {
+    marker: (unit, 2 if unit in {"h", "/min"} else 1)
+    for marker, _, _, unit, _ in _METRICS
+}
+OURA_METRICS.update({field.marker: (field.unit, field.decimals)
+                     for fields in (_SLEEP_FIELDS, _WORKOUT_FIELDS, *_DAILY_FIELDS.values())
+                     for field in fields})
+OURA_METRICS.update({marker: ("bpm", 1) for marker in _HEARTRATE_MARKERS.values()})
+OURA_METRICS.update({marker: (unit, 1)
+                     for _, marker, unit in (*_SESSION_SAMPLES, *_PRIMARY_SLEEP_SAMPLES)})
+OURA_METRICS.update({
+    "Duration per Recorded Workout (Oura)": ("h", 2),
+    "Duration per Recorded Session (Oura)": ("min", 1),
+    "Sampled Activity MET (Oura)": ("MET", 2),
+})
+
+_CATEGORICAL_FIELDS = {
+    "daily_stress": ("day_summary", "Stress Day Summary (Oura)", {
+        "restored": "Restored", "normal": "Normal", "stressful": "Stressful",
+    }),
+    "daily_resilience": ("level", "Resilience Level (Oura)", {
+        "limited": "Limited", "adequate": "Adequate", "solid": "Solid",
+        "strong": "Strong", "exceptional": "Exceptional",
+    }),
+}
+OURA_CATEGORICAL_METRICS = {marker for _, marker, _ in _CATEGORICAL_FIELDS.values()}
+
+
 class OuraParseError(ValueError):
     """The supplied Oura data cannot be safely interpreted."""
 
@@ -64,7 +234,8 @@ def _day(value: Any, context: str) -> str:
     return value
 
 
-def _number(value: Any, field: str, context: str, *, csv_text: bool = False) -> float | None:
+def _number(value: Any, field: str, context: str, *, csv_text: bool = False,
+            minimum: float | None = 0, maximum: float | None = None) -> float | None:
     if value is None or (csv_text and isinstance(value, str) and not value.strip()):
         return None
     if isinstance(value, bool) or not isinstance(value, (int, float, str)):
@@ -75,8 +246,12 @@ def _number(value: Any, field: str, context: str, *, csv_text: bool = False) -> 
         result = float(value)
     except (ValueError, OverflowError) as exc:
         raise OuraParseError(f"{context}: {field} is not a finite number") from exc
-    if not math.isfinite(result) or result < 0:
-        raise OuraParseError(f"{context}: {field} must be finite and nonnegative")
+    if not math.isfinite(result):
+        raise OuraParseError(f"{context}: {field} must be finite")
+    if minimum is not None and result < minimum:
+        raise OuraParseError(f"{context}: {field} must be at least {minimum}")
+    if maximum is not None and result > maximum:
+        raise OuraParseError(f"{context}: {field} must be at most {maximum}")
     if field in _POSITIVE_FIELDS and result == 0:
         raise OuraParseError(f"{context}: {field} must be positive when supplied")
     if field in {"efficiency", "score"} and result > 100:
@@ -208,16 +383,205 @@ def _documents(payloads: dict, endpoint: str) -> list[dict]:
     return list(unique.values())
 
 
+def _nested(document: dict, path: str, context: str):
+    value = document
+    for part in path.split("."):
+        if value is None:
+            return None
+        if not isinstance(value, dict):
+            raise OuraParseError(f"{context}: {path} requires object containers")
+        value = value.get(part)
+    return value
+
+
+def _api_record(day, endpoint, source_id, marker, value, unit, stamp, field, **metadata):
+    record = _record(day, "api", f"{endpoint}:{source_id}", marker, value, unit, stamp)
+    record.update(source_endpoint=endpoint, source_field=field, **metadata)
+    return record
+
+
+def _field_records(document, endpoint, fields, stamp):
+    records = []
+    context = f"Oura {endpoint} document"
+    for field in fields:
+        value = _number(_nested(document, field.path, context), field.path, context,
+                        minimum=field.minimum, maximum=field.maximum)
+        if value is not None:
+            records.append(_api_record(
+                document["day"], endpoint, document["id"], field.marker,
+                value / field.divisor, field.unit, stamp, field.path,
+            ))
+    return records
+
+
+def _sample_records(document, endpoint, path, marker, unit):
+    """Preserve finite samples; the caller's daily mean gives each sample weight.
+
+    Null samples are gaps, not zeros. Source interval and index remain traceable.
+    The document's assigned Oura day also applies to samples crossing midnight.
+    """
+    samples = document.get(path)
+    if samples is None:
+        return []
+    context = f"Oura {endpoint} {path} samples"
+    if not isinstance(samples, dict) or not isinstance(samples.get("items"), list):
+        raise OuraParseError(f"{context}: expected an object containing an items list")
+    interval = _number(samples.get("interval"), "interval", context)
+    stamp = _timestamp(samples.get("timestamp"), context)
+    if interval is None or interval <= 0 or stamp is None:
+        raise OuraParseError(f"{context}: requires a positive interval and timestamp")
+    start = datetime.fromisoformat(stamp)
+    records = []
+    for index, raw in enumerate(samples["items"]):
+        value = _number(raw, path, context)
+        if value is None:
+            continue
+        if unit == "bpm" and value == 0:
+            raise OuraParseError(f"{context}: heart rate must be positive")
+        try:
+            recorded_at = (start + timedelta(seconds=index * interval)).isoformat()
+        except (OverflowError, ValueError) as exc:
+            raise OuraParseError(f"{context}: sample timestamp is out of range") from exc
+        records.append(_api_record(
+            document["day"], endpoint, f"{document['id']}:{path}:{index}", marker,
+            value, unit, recorded_at, f"{path}.items",
+            sample_index=index, sample_interval_seconds=interval,
+        ))
+    return records
+
+
+def _daily_records(payloads):
+    records = []
+    for endpoint, fields in _DAILY_FIELDS.items():
+        selected = {}
+        for document in _documents(payloads, endpoint):
+            stamp = _timestamp(document.get("timestamp"), f"Oura {endpoint} document")
+            values = _field_records(document, endpoint, fields, stamp)
+            if endpoint == "daily_activity":
+                values.extend(_sample_records(document, endpoint, "met",
+                                               "Sampled Activity MET (Oura)", "MET"))
+            rank = (datetime.fromisoformat(stamp).astimezone(timezone.utc) if stamp else
+                    datetime.min.replace(tzinfo=timezone.utc), document["id"])
+            if document["day"] not in selected or rank > selected[document["day"]][0]:
+                selected[document["day"]] = (rank, values)
+        records.extend(record for _, values in selected.values() for record in values)
+    return records
+
+
+def _event_records(payloads):
+    records = []
+    for endpoint in ("workout", "session"):
+        for document in _documents(payloads, endpoint):
+            context = f"Oura {endpoint} document"
+            start = _timestamp(document.get("start_datetime"), context)
+            end = _timestamp(document.get("end_datetime"), context)
+            if not start or not end:
+                # An ongoing/incomplete event must not become a completed duration.
+                continue
+            duration = (datetime.fromisoformat(end) - datetime.fromisoformat(start)).total_seconds()
+            if duration <= 0:
+                raise OuraParseError(f"{context}: end must follow start")
+            divisor, unit = (3600, "h") if endpoint == "workout" else (60, "min")
+            records.append(_api_record(
+                document["day"], endpoint, document["id"],
+                f"Duration per Recorded {endpoint.title()} (Oura)", duration / divisor,
+                unit, end, "end_datetime-start_datetime",
+                derived_from=["start_datetime", "end_datetime"],
+            ))
+            if endpoint == "workout":
+                records.extend(_field_records(document, endpoint, _WORKOUT_FIELDS, end))
+            else:
+                for path, marker, unit in _SESSION_SAMPLES:
+                    records.extend(_sample_records(document, endpoint, path, marker, unit))
+    return records
+
+
+def _heartrate_records(payloads):
+    documents = payloads.get("heartrate", [])
+    if not isinstance(documents, list):
+        raise OuraParseError("Oura heartrate: expected a list of documents")
+    unique = {}
+    for document in documents:
+        context = "Oura heartrate document"
+        if not isinstance(document, dict):
+            raise OuraParseError(f"{context}: expected an object")
+        stamp = _timestamp(document.get("timestamp"), context)
+        if stamp is None:
+            raise OuraParseError(f"{context}: timestamp is required")
+        instant = datetime.fromisoformat(stamp).astimezone(timezone.utc)
+        source = document.get("source")
+        if not isinstance(source, str) or source not in _HEARTRATE_MARKERS:
+            raise OuraParseError(f"{context}: unknown heart-rate source")
+        value = _number(document.get("bpm"), "average_heart_rate", context)
+        if "timestamp_unix" in document:
+            unix_ms = _number(document["timestamp_unix"], "timestamp_unix", context)
+            if unix_ms is None or abs(unix_ms - instant.timestamp() * 1000) > 1:
+                raise OuraParseError(f"{context}: timestamp fields disagree")
+        key = (instant.isoformat(), source)
+        if key in unique and unique[key] != value:
+            raise OuraParseError(f"{context}: conflicting duplicate sample")
+        unique[key] = value
+    records = []
+    for (stamp, source), value in unique.items():
+        if value is None:
+            continue
+        day = datetime.fromisoformat(stamp).astimezone(ZoneInfo("Europe/Warsaw")).date().isoformat()
+        records.append(_api_record(day, "heartrate", f"{stamp}:{source}",
+                                   _HEARTRATE_MARKERS[source], value, "bpm", stamp,
+                                   "bpm", sample_source=source))
+    return records
+
+
+def categorical_inventory(payloads: dict[str, list[dict]]) -> list[dict]:
+    """Return daily qualitative health observations, separate from numeric data.
+
+    Values are labels for monthly counts, never ordinal scores. Unknown future
+    text labels remain explicitly unmapped instead of acquiring an invented rank.
+    Daily summaries without a timestamp keep only their authoritative Oura day.
+    """
+    if not isinstance(payloads, dict):
+        raise OuraParseError("Oura API payloads must be a dictionary of endpoint lists")
+    records = []
+    for endpoint, (field, marker, labels) in _CATEGORICAL_FIELDS.items():
+        selected = {}
+        for document in _documents(payloads, endpoint):
+            context = f"Oura {endpoint} document"
+            stamp = _timestamp(document.get("timestamp"), context)
+            value = document.get(field)
+            if value is not None and (not isinstance(value, str) or not value.strip()):
+                raise OuraParseError(f"{context}: {field} must be nonempty text or null")
+            rank = (datetime.fromisoformat(stamp).astimezone(timezone.utc) if stamp else
+                    datetime.min.replace(tzinfo=timezone.utc), document["id"])
+            if document["day"] not in selected or rank > selected[document["day"]][0]:
+                selected[document["day"]] = (rank, document, stamp, value)
+        for _, document, stamp, value in selected.values():
+            if value is None:
+                continue
+            record = {
+                "provider": "oura",
+                "id": f"oura:event:{endpoint}:{document['id']}:{marker}",
+                "day": document["day"], "metric": marker,
+                "value": labels.get(value, f"Unmapped category: {value}"),
+                "source_value": value, "source_kind": "api",
+                "source_endpoint": endpoint, "source_field": field,
+            }
+            if stamp is not None:
+                record["recorded_at"] = stamp
+            records.append(record)
+    return _sort(records)
+
+
 def parse_api(payloads: dict[str, list[dict]]) -> list[dict]:
-    """Normalize already-fetched API ``sleep`` and ``daily_sleep`` documents.
+    """Normalize already-fetched and fully paginated health endpoint documents.
 
     Pick the completed long_sleep with greatest total_sleep_duration for each
     Oura day, breaking ties by latest bedtime_end and then lexicographic id.
     Missing total sleep, time in bed, or either bedtime endpoint means incomplete.
     Optional null measures remain absent. Missing daily score is never obtained
-    from the contributors or readiness score. A daily score is emitted only for a
-    day with a selected completed night; same-day daily-score documents use latest
-    timestamp, then id. Conflicting versions of one id raise; fetch current versions
+    from the contributors or readiness score. Daily summaries are independent of
+    whether a completed primary night is available. Same-day daily documents use
+    latest timestamp, then id; a latest missing field never revives an older value.
+    Conflicting versions of one id raise; fetch current versions
     before calling rather than combining stale and current payloads.
     """
     if not isinstance(payloads, dict):
@@ -257,25 +621,15 @@ def parse_api(payloads: dict[str, list[dict]]) -> list[dict]:
     for day, (_, document, values, end) in primary.items():
         for marker, _, field, unit, divisor in _METRICS:
             if field != "score" and values[field] is not None:
-                records.append(_record(
-                    day, "api", f"sleep:{document['id']}", marker,
-                    values[field] / divisor, unit, end
+                records.append(_api_record(
+                    day, "sleep", document["id"], marker,
+                    values[field] / divisor, unit, end, field,
                 ))
+        records.extend(_field_records(document, "sleep", _SLEEP_FIELDS, end))
+        for path, marker, unit in _PRIMARY_SLEEP_SAMPLES:
+            records.extend(_sample_records(document, "sleep", path, marker, unit))
 
-    daily_scores: dict[str, tuple[tuple, dict]] = {}
-    for document in _documents(payloads, "daily_sleep"):
-        day = document["day"]
-        score = _number(document.get("score"), "score", "Oura daily_sleep document")
-        stamp = _timestamp(document.get("timestamp"), "Oura daily_sleep document")
-        if day not in primary or score is None:
-            continue
-        rank = (
-            datetime.fromisoformat(stamp).astimezone(timezone.utc) if stamp else
-            datetime.min.replace(tzinfo=timezone.utc), document["id"]
-        )
-        record = _record(day, "api", f"daily_sleep:{document['id']}",
-                         "Sleep Score", score, "score", stamp)
-        if day not in daily_scores or rank > daily_scores[day][0]:
-            daily_scores[day] = (rank, record)
-    records.extend(record for _, record in daily_scores.values())
+    records.extend(_daily_records(payloads))
+    records.extend(_event_records(payloads))
+    records.extend(_heartrate_records(payloads))
     return _sort(records)

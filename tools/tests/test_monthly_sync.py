@@ -2,8 +2,11 @@
 
 import copy
 import json
+import os
+import runpy
 import tempfile
 import unittest
+from unittest.mock import patch
 from datetime import date
 from pathlib import Path
 
@@ -28,6 +31,16 @@ def measurement(identifier, day="2026-08-01", value=80, metric="Body Mass",
 
 def oura(identifier, day="2026-08-01", value=7.5, source_kind="csv"):
     return measurement(identifier, day, value, "Sleep Duration", "oura", "h", source_kind)
+
+
+def classification_payload(label="Relaxed"):
+    return {"schema_version": 1, "as_of": "2026-09-06", "months": {}, "categorical_months": {
+        "2026-07": {"Stress Day Summary (Oura)": {
+            "provider": "oura", "unit": "Status", "aggregation": "observed_classification_counts",
+            "counts": {label: 2}, "n_records": 2, "n_days": 2,
+            "first_day": "2026-07-01", "last_day": "2026-07-02", "value": f"{label}: 2",
+        }}
+    }}
 
 
 class MonthlyAggregationTests(unittest.TestCase):
@@ -98,10 +111,12 @@ class MonthlyAggregationTests(unittest.TestCase):
         half = aggregate([oura("half", value=7.505)], date(2026, 8, 31))
         self.assertEqual(half["months"]["2026-08"]["Sleep Duration"]["value"], "7.51")
 
-    def test_july_excluded_from_managed_aggregates(self):
-        values = [measurement("july", "2026-07-31", 100), measurement("august", value=80)]
+    def test_july_included_and_earlier_history_excluded_from_managed_aggregates(self):
+        values = [measurement("june", "2026-06-30", 110),
+                  measurement("july", "2026-07-31", 100), measurement("august", value=80)]
         payload = aggregate(values, date(2026, 8, 31))
-        self.assertEqual(list(payload["months"]), ["2026-08"])
+        self.assertEqual(list(payload["months"]), ["2026-07", "2026-08"])
+        self.assertEqual(payload["months"]["2026-07"]["Body Mass"]["value"], "100.0")
         self.assertEqual(payload["months"]["2026-08"]["Body Mass"]["value"], "80.0")
 
 
@@ -139,15 +154,21 @@ class MonthlyValidationAndMergeTests(unittest.TestCase):
         self.assertEqual(sum(item["day"] == "2026-08-02" and item["provider"] == "oura"
                              for item in merged), 1)
 
-    def test_july_import_rejected_and_empty_import_does_not_erase_existing(self):
+    def test_before_july_import_rejected_and_empty_import_does_not_erase_existing(self):
         existing = [measurement("existing")]
         before = copy.deepcopy(existing)
-        with self.assertRaisesRegex(ValueError, "July"):
+        with self.assertRaisesRegex(ValueError, "2026-07-01"):
             merge_records(existing, [measurement("new")], {"withings"},
-                          date(2026, 7, 31), date(2026, 8, 1))
+                          date(2026, 6, 30), date(2026, 8, 1))
         with self.assertRaisesRegex(ValueError, "No usable"):
             merge_records(existing, [], {"withings"}, date(2026, 8, 1), date(2026, 8, 31))
         self.assertEqual(existing, before)
+
+    def test_authorized_july_fetch_replaces_july_cells_and_retains_june(self):
+        existing = [measurement("june", "2026-06-30", 85), measurement("july-old", "2026-07-03", 83)]
+        new = measurement("july-new", "2026-07-03", 80)
+        result = merge_records(existing, [new], {"withings"}, date(2026, 7, 1), date(2026, 7, 31))
+        self.assertEqual([record["id"] for record in result], ["june", "july-new"])
 
     def test_unrequested_provider_rejected_and_out_of_range_incoming_ignored(self):
         with self.assertRaisesRegex(ValueError, "outside this import"):
@@ -185,6 +206,17 @@ class MonthlyValidationAndMergeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Competing daily Oura"):
             merge_file_records([], [oura("csv", value=7), oura("api", value=8, source_kind="api")],
                                {"oura"}, date(2026, 8, 1), date(2026, 8, 31))
+
+    def test_partial_api_replaces_oura_observation_set_without_mixing_csv(self):
+        existing = [oura("old-csv", value=6), oura("unavailable-day", "2026-08-02", 7)]
+        incoming = [oura("sample-one", value=7, source_kind="api"),
+                    oura("sample-two", value=9, source_kind="api")]
+        result = merge_file_records(existing, incoming, {"oura"}, date(2026, 8, 1), date(2026, 8, 31), partial_api=True)
+        self.assertEqual({record["id"] for record in result}, {"sample-one", "sample-two", "unavailable-day"})
+        entry = aggregate(result, date(2026, 9, 1))["months"]["2026-08"]["Sleep Duration"]
+        self.assertEqual(entry["value"], "7.50")
+        with self.assertRaisesRegex(ValueError, "only API"):
+            merge_file_records([], [oura("csv")], {"oura"}, date(2026, 8, 1), date(2026, 8, 31), partial_api=True)
 
 
 class MonthlyReportOverlayTests(unittest.TestCase):
@@ -278,6 +310,106 @@ class MonthlyFileValidationTests(unittest.TestCase):
             modified["months"]["2028-02"]["Body Mass"].update(changes)
             with self.subTest(changes=changes), self.assertRaises(ValueError):
                 load_monthly(self.write(modified))
+
+    def test_classification_payload_roundtrips_with_explicit_count_semantics(self):
+        payload = classification_payload()
+        self.assertEqual(load_monthly(self.write(payload)), payload)
+
+    def test_classification_count_schema_and_provider_cannot_be_forged(self):
+        changes = [{"unit": "score"}, {"aggregation": "mean_of_daily_means"}, {"provider": "withings"},
+                   {"counts": {"Relaxed": True}}, {"counts": {"Relaxed": 0}}, {"counts": {}},
+                   {"counts": {"bad\nlabel": 2}}, {"n_records": 3}, {"n_records": True},
+                   {"n_days": 3}, {"n_days": True}, {"value": "2.0"}, {"last_day": "2026-08-01"}]
+        for change in changes:
+            payload = classification_payload()
+            payload["categorical_months"]["2026-07"]["Stress Day Summary (Oura)"].update(change)
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                load_monthly(self.write(payload))
+
+    def test_unknown_classification_marker_and_before_july_date_are_rejected(self):
+        payload = classification_payload()
+        original = payload["categorical_months"]["2026-07"].pop("Stress Day Summary (Oura)")
+        payload["categorical_months"]["2026-07"]["Invented Result (Oura)"] = original
+        with self.assertRaisesRegex(ValueError, "Unknown"):
+            load_monthly(self.write(payload))
+        payload = classification_payload()
+        payload["categorical_months"]["2026-06"] = payload["categorical_months"].pop("2026-07")
+        with self.assertRaisesRegex(ValueError, "date range"):
+            load_monthly(self.write(payload))
+
+
+class GeneratorMonthlyIntegrationTests(unittest.TestCase):
+    """Load generator data in memory; rendering checks write only temporary files."""
+
+    def load_generator(self, payload):
+        with tempfile.TemporaryDirectory() as folder:
+            source = Path(folder) / "monthly.json"
+            source.write_text(json.dumps(payload), encoding="utf-8")
+            with patch.dict(os.environ, {"HEALTH_PROTOCOL_VITALS_MONTHLY": str(source)}):
+                return runpy.run_path(str(Path(__file__).parents[1] / "generate_colored_report.py"), run_name="report_data_test")
+
+    def test_july_replaces_existing_column_once_without_changing_labs(self):
+        baseline = self.load_generator({"schema_version": 1, "as_of": "2026-09-06", "months": {}})
+        payload = aggregate([measurement("actual", "2026-07-15", 79.2)], date(2026, 9, 6))
+        current = self.load_generator(payload)
+        self.assertEqual(current["date_columns"].count("2026-07"), 1)
+        self.assertEqual(current["date_columns"], baseline["date_columns"])
+        row = next(row for row in current["data"]["Vitals & Functional Health"] if row[0] == "Body Mass")
+        july_index = current["date_columns"].index("2026-07") + 1
+        self.assertEqual(row[july_index], "79.2")
+        original = next(row for row in baseline["data"]["Vitals & Functional Health"] if row[0] == "Body Mass")
+        self.assertNotEqual(row[july_index], original[july_index])
+        for category in current["data"]:
+            if category != "Vitals & Functional Health":
+                self.assertEqual(current["data"][category], baseline["data"][category])
+        old_markers = [marker for note in current["result_notes"]["Vitals & Functional Health"][:-1]
+                       for marker in note["markers"]]
+        self.assertFalse(any("Body Mass" in marker.get("rows", [marker.get("row")])
+                             and "2026-07" in marker.get("dates", []) for marker in old_markers))
+
+    def test_registry_addition_creates_only_observed_row_without_invented_target(self):
+        from tools.health_sync import monthly
+        metric = "Synthetic Measurement (Oura)"
+        registry = {"oura": {metric: ("ms", 1)}, "withings": {}}
+        with patch.object(monthly, "METRICS", registry):
+            record = measurement("synthetic", "2026-07-15", 12.3, metric, "oura", "ms")
+            current = self.load_generator(aggregate([record], date(2026, 9, 6)))
+        row = next(row for row in current["data"]["Vitals & Functional Health"] if row[0] == metric)
+        self.assertEqual(row[-2:], ("ms", "-"))
+        self.assertEqual(row[current["date_columns"].index("2026-07") + 1], "12.3")
+        self.assertIn(("Vitals & Functional Health", metric), current["no_score_markers"])
+
+    def test_classification_row_uses_counts_and_keeps_labs_and_manual_states(self):
+        baseline = self.load_generator({"schema_version": 1, "as_of": "2026-09-06", "months": {}})
+        current = self.load_generator(classification_payload())
+        row = next(row for row in current["data"]["Vitals & Functional Health"] if row[0] == "Stress Day Summary (Oura)")
+        self.assertEqual(row[-2:], ("Status", "-"))
+        self.assertEqual(row[current["date_columns"].index("2026-07") + 1], "Relaxed: 2")
+        self.assertEqual(current["date_columns"].count("2026-07"), 1)
+        self.assertIn(("Vitals & Functional Health", row[0]), current["no_score_markers"])
+        for category in current["data"]:
+            if category != "Vitals & Functional Health":
+                self.assertEqual(current["data"][category], baseline["data"][category])
+        for name in ("Stress", "ECG Rhythm", "Heart Sounds"):
+            self.assertEqual(next(r for r in current["data"]["Vitals & Functional Health"] if r[0] == name),
+                             next(r for r in baseline["data"]["Vitals & Functional Health"] if r[0] == name))
+        note = current["result_notes"]["Vitals & Functional Health"][-1]
+        self.assertIn("counts of observed labels", note["text"])
+        self.assertEqual(note["markers"], [{"row": row[0], "target": "value", "dates": ["2026-07"]}])
+
+    def test_classification_labels_are_escaped_in_both_report_formats(self):
+        label = '<script>alert("x")</script>|[a](javascript:1)'
+        current = self.load_generator(classification_payload(label))
+        with tempfile.TemporaryDirectory() as folder:
+            html_path, md_path = Path(folder) / "test.html", Path(folder) / "test.md"
+            current["generate_html_report"](html_path)
+            current["generate_md_report"](md_path)
+            html_text, md_text = html_path.read_text(encoding="utf-8"), md_path.read_text(encoding="utf-8")
+        self.assertNotIn("<script>", html_text)
+        self.assertNotIn("<script>", md_text)
+        self.assertIn("&lt;script&gt;", html_text)
+        self.assertIn("\\|\\[a\\]", md_text)
+        self.assertNotIn("[a](javascript:1)", md_text)
 
 
 if __name__ == "__main__":

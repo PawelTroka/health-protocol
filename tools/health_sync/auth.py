@@ -1,4 +1,4 @@
-"""Personal OAuth setup with Windows user-bound DPAPI storage, never repo secrets.
+"""Personal OAuth setup with Windows user-bound DPAPI storage, never tracked secrets.
 
 Register the exact localhost callback shown by ``redirect_uri(provider)`` in the
 provider dashboard, configure using a local hidden prompt, then call authorize.
@@ -30,9 +30,9 @@ import webbrowser
 
 PROVIDERS = {
     "oura": {"authorize": "https://cloud.ouraring.com/oauth/authorize",
-             "token": "https://api.ouraring.com/oauth/token", "scope": "daily"},
+             "token": "https://api.ouraring.com/oauth/token", "scope": "daily heartrate workout session spo2 heart_health stress"},
     "withings": {"authorize": "https://account.withings.com/oauth2_user/authorize2",
-                 "token": "https://wbsapi.withings.net/v2/oauth2", "scope": "user.metrics"},
+                 "token": "https://wbsapi.withings.net/v2/oauth2", "scope": "user.metrics,user.activity"},
 }
 REQUEST_TIMEOUT = 20
 MAX_RESPONSE_BYTES = 32 * 1024 * 1024
@@ -62,10 +62,7 @@ def redirect_uri(provider):
 def _vault_path():
     if os.name != "nt":
         raise AuthError("Credential storage requires Windows user-bound DPAPI; no plaintext fallback is enabled.")
-    folder = os.environ.get("LOCALAPPDATA")
-    if not folder or not Path(folder).is_absolute():
-        raise AuthError("LOCALAPPDATA is unavailable; credential storage was not opened.")
-    return Path(folder) / "HealthProtocolSync" / "credentials.dat"
+    return Path(__file__).resolve().parents[1] / ".secrets" / "credentials.dat"
 
 
 def _dpapi(data, *, decrypt=False):
@@ -360,6 +357,9 @@ def authorize(provider, *, timeout=180):
             self.wfile.write(message.encode())
 
     class LoopbackServer(HTTPServer):
+        # Windows rejects SO_REUSEADDR together with SO_EXCLUSIVEADDRUSE.
+        allow_reuse_address = False
+
         def server_bind(self):
             if hasattr(socket, "SO_EXCLUSIVEADDRUSE"):
                 self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_EXCLUSIVEADDRUSE, 1)

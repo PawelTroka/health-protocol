@@ -3,4 +3,5 @@
 
 # Private API exports and daily sync cache; OAuth credentials live outside Git.
 /.health-sync/
+/tools/.secrets/
 /tools/**/__pycache__/

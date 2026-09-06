@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from tools.health_sync.monthly import MANAGED_START, aggregate, iso_date, merge_file_records, merge_records
+from tools.health_sync.monthly import MANAGED_START, aggregate, iso_date, merge_file_records
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / ".health-sync"
@@ -160,19 +160,24 @@ def print_summary(monthly):
 
 
 def run_import(args):
-    from tools.health_sync import api, oura, withings
+    from tools.health_sync import api, categorical, oura, reconcile, withings
     today = datetime.now(ZoneInfo("Europe/Warsaw")).date()
     start = iso_date(args.start)
     end = iso_date(args.end) if args.end else today
     if start < MANAGED_START or start > end or end > today:
-        raise ValueError("Use a date range from 2026-08-01 through today; July is preserved.")
+        raise ValueError("Use a date range from 2026-07-01 through today.")
     sources, incoming, providers = [], [], []
+    fetch_status = {}
+    classifications = []
     if args.command == "sync":
         providers = ["oura", "withings"] if args.provider == "both" else [args.provider]
         for provider in providers:
             print(f"Fetching {provider.title()} readings for {start} through {end}...", flush=True)
             payload = api.fetch(provider, start, end)
+            fetch_status[provider] = payload.get("_sync", {})
             records = oura.parse_api(payload) if provider == "oura" else withings.parse_api(payload, height_cm=args.height_cm)
+            inventory = oura.categorical_inventory(payload) if provider == "oura" else withings.categorical_inventory(payload)
+            classifications.extend(inventory)
             sources.append((provider, json_bytes(payload), ".json", records))
     else:
         if args.oura_csv:
@@ -189,17 +194,38 @@ def run_import(args):
                     raise ValueError("The Withings JSON contains an API error.")
                 payload = {"measure": [payload]}
             sources.append(("withings", raw, ".json", withings.parse_api(payload, height_cm=args.height_cm)))
+            classifications.extend(withings.categorical_inventory(payload))
         if not sources:
             raise ValueError("Provide --oura-csv or --withings-json for a file import.")
         providers = [provider for provider, _, _, _ in sources]
+    classification_sources = {}
     for provider, raw, extension, records in sources:
         # Archive only validated sources after the whole import has succeeded.
         digest = hashlib.sha256(raw).hexdigest()
         source_path = f".health-sync/raw/{provider}/{digest}{extension}"
+        classification_sources[provider] = source_path
         incoming.extend({**record, "source_file": source_path} for record in records if not (provider == "oura" and iso_date(record["day"]) >= today))
-    merge = merge_records if args.command == "sync" else merge_file_records
-    records = merge(load_cache(), incoming, providers, start, end)
+    classifications = [{**event, "source_file": classification_sources[event["provider"]]} for event in classifications]
+    incomplete = any(entry.get("status") == "unavailable"
+                     for status in fetch_status.values()
+                     for entry in status.get("endpoint_status", {}).values())
+    if args.command == "sync":
+        records = reconcile.merge_synced(load_cache(), incoming, providers, start, end, fetch_status)
+        if incomplete:
+            print("Some API collections are unavailable; their cached observations are retained while complete collections are refreshed.")
+    else:
+        records = merge_file_records(load_cache(), incoming, providers, start, end)
     monthly = aggregate(records, today)
+    cache_path = CACHE / "records.json"
+    previous_classifications = json.loads(cache_path.read_bytes()).get("classifications", []) if cache_path.exists() else []
+    if args.command == "sync":
+        classifications = reconcile.merge_synced(previous_classifications, classifications, providers, start, end,
+                                                fetch_status, classifications=True)
+    else:
+        classifications = categorical.merge(previous_classifications, classifications, providers, start, end, complete=False)
+    monthly["categorical_months"] = categorical.aggregate(classifications, today)
+    if fetch_status:
+        monthly["sync_coverage"] = fetch_status
     reports = prepare_reports(monthly)
     print_summary(monthly)
     if args.dry_run:
@@ -208,7 +234,7 @@ def run_import(args):
     for provider, raw, extension, _ in sources:
         archive(provider, raw, extension)
     atomic_commit({
-        CACHE / "records.json": json_bytes({"schema_version": 1, "records": records}),
+        CACHE / "records.json": json_bytes({"schema_version": 1, "records": records, "classifications": classifications}),
         ROOT / "results" / "vitals_monthly.json": json_bytes(monthly),
         **reports,
     })
@@ -245,7 +271,7 @@ def main(argv=None):
                 for provider, status in auth.status().items():
                     print(f"{provider}: configured={status['configured']}, authorized={status['authorized']}")
                 records = load_cache()
-                print(f"Local cache: {len(records)} normalized readings. July baseline protected.")
+                print(f"Local cache: {len(records)} normalized readings. Managed history begins July 2026.")
             elif args.command in ("connect", "authorize"):
                 if args.command == "connect":
                     if not sys.stdin.isatty():

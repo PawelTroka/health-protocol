@@ -1,4 +1,5 @@
 import re
+from html import escape
 import os
 import sys
 from pathlib import Path
@@ -6,7 +7,7 @@ from pathlib import Path
 if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from tools.health_sync.monthly import apply_report_overlay, load_monthly
+from tools.health_sync.monthly import METRICS, apply_report_overlay, load_monthly
 
 
 REPORT_ROOT = Path(__file__).resolve().parents[1]
@@ -646,7 +647,7 @@ def format_cell_md_urine(val, ref):
 # Data Reorganized
 # Using "-" for missing values as requested
 historical_date_columns = ["2026-07", "2026-01", "2025-05", "2025-01"]
-followup_date_columns = sorted({"2026-09", "2026-08", *synced_monthly["months"]}, reverse=True)
+followup_date_columns = sorted({"2026-09", "2026-08", *synced_monthly["months"], *synced_monthly.get("categorical_months", {})} - set(historical_date_columns), reverse=True)
 date_columns = followup_date_columns + historical_date_columns
 missing_values = {"-", None, ""}
 
@@ -1305,7 +1306,7 @@ imaging_data = """## Structural & Diagnostic Imaging
 result_notes = {
     "Vitals & Functional Health": [
         {
-            "text": "July retains the original protocol baseline, including estimates. Follow-up columns contain dated observations or imported monthly means, distinguished by their source notes; a dash means no new measurement. Original observations: <a href='results/Vitals-2026-09-06/Sources.md'>vitals source record</a>.",
+            "text": "July 2026 onward uses imported monthly means wherever supported measurements are available. Dated manual observations and original estimates remain where no imported replacement exists, distinguished by their source notes; a dash means no measurement. Original observations are preserved in the source history: <a href='results/Vitals-2026-09-06/Sources.md'>vitals source record</a>. Additional provider-specific measurements and classification counts appear when supplied by the APIs; no clinical targets are invented for them.",
             "markers": [],
         },
         {
@@ -1329,7 +1330,7 @@ result_notes = {
             ],
         },
         {
-            "text": "AHI 0 is the Withings September 2 sleep reading. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum. Maximum HR, HRV and device scores are context-dependent and are tracked without a universal clinical target.",
+            "text": "Original AHI snapshot: 0 on September 2; imported AHI means have a separate source note. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum. Maximum HR, HRV and device scores are context-dependent and are tracked without a universal clinical target.",
             "markers": [
                 {"row": "Sleep Apnea AHI", "target": "value", "dates": ["2026-09"]},
                 {"rows": ["Max HRV", "Nerve Health Score"], "target": "value", "dates": ["2026-09", "2026-07"]},
@@ -1479,15 +1480,45 @@ result_notes = {
 }
 
 apply_report_overlay(vitals_followups, result_notes["Vitals & Functional Health"], synced_monthly)
+existing_vitals = {row[0] for row in data["Vitals & Functional Health"]}
+observed_metrics = {metric for metrics in synced_monthly["months"].values() for metric in metrics}
+for provider_metrics in METRICS.values():
+    for metric, (unit, _) in provider_metrics.items():
+        if metric in observed_metrics and metric not in existing_vitals:
+            data["Vitals & Functional Health"].append(
+                (metric, *("-" for _ in historical_date_columns), unit, "-")
+            )
+            no_score_markers.add(("Vitals & Functional Health", metric))
+            existing_vitals.add(metric)
+categorical_markers = {metric for metrics in synced_monthly.get("categorical_months", {}).values() for metric in metrics}
+for metric in sorted(categorical_markers):
+    if metric not in existing_vitals:
+        data["Vitals & Functional Health"].append(
+            (metric, *("-" for _ in historical_date_columns), "Status", "-")
+        )
+        existing_vitals.add(metric)
+    no_score_markers.add(("Vitals & Functional Health", metric))
 for category, rows in data.items():
-    data[category] = [
-        (row[0], *(
-            vitals_followups.get(date, {}).get(row[0], "-")
-            if category == "Vitals & Functional Health" else "-"
-            for date in followup_date_columns
-        ), *row[1:])
-        for row in rows
-    ]
+    if category == "Vitals & Functional Health":
+        # Overlay both follow-up and historical month positions. In particular,
+        # July appears exactly once and its source literals stay intact above.
+        data[category] = [
+            (row[0], *(
+                vitals_followups.get(month, {}).get(
+                    row[0], dict(zip(historical_date_columns, row[1:-2])).get(month, "-")
+                ) for month in date_columns
+            ), *row[-2:])
+            for row in rows
+        ]
+    else:
+        data[category] = [(row[0], *("-" for _ in followup_date_columns), *row[1:]) for row in rows]
+
+
+def classification_text(value, *, markdown=False):
+    text = escape(str(value))
+    if markdown:
+        text = re.sub(r"([\\`*_{}\[\]()#!|])", r"\\\1", text)
+    return text
 
 
 def generate_html_report(output_path=REPORT_ROOT / "results.html"):
@@ -1523,12 +1554,14 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
             display_ref = target_reference(category, name, ref)
             
             # Use specific formatter for Urinalysis
-            if "Urinalysis" in category:
+            if category == "Vitals & Functional Health" and name in categorical_markers:
+                cells = [classification_text(values[idx]) for idx in active_indexes]
+            elif "Urinalysis" in category:
                 cells = [format_cell_html_urine(values[idx], ref) for idx in active_indexes]
             else:
                 cells = [format_cell_html(values[idx], display_ref, category, name) for idx in active_indexes]
             
-            html += f"<tr><td><b>{name}</b></td>"
+            html += f"<tr><td><b>{escape(name)}</b></td>"
             if include_trend:
                 trend_cell = format_trend_html(values, display_ref, category, name)
                 trend_cell = add_note_sup_html(trend_cell, note_numbers(category, name, "trend"))
@@ -1600,7 +1633,9 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
             display_ref = target_reference(category, name, ref)
             
             # Use specific formatter for Urinalysis
-            if "Urinalysis" in category:
+            if category == "Vitals & Functional Health" and name in categorical_markers:
+                cells = [classification_text(values[idx], markdown=True) for idx in active_indexes]
+            elif "Urinalysis" in category:
                 cells = [format_cell_md_urine(values[idx], ref) for idx in active_indexes]
             else:
                 cells = [format_cell_md(values[idx], display_ref, category, name) for idx in active_indexes]
