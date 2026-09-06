@@ -150,7 +150,7 @@ def load_monthly(path):
         return {"schema_version": 1, "months": {}}
     payload = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(payload, dict) or payload.get("schema_version") != 1 or not isinstance(payload.get("months"), dict):
-        raise ValueError("Unsupported monthly-vitals file; run sync_vitals.py to rebuild it.")
+        raise ValueError("Unsupported monthly-vitals file; run tools/sync_vitals.py to rebuild it.")
     as_of = iso_date(payload["as_of"])
     for month, metrics in payload["months"].items():
         first = iso_date(month + "-01")
@@ -197,7 +197,7 @@ def report_note(payload):
     return {
         "text": "Imported monthly means: each observed day has equal weight; repeated Withings readings are averaged within the day first. Missing days are excluded; current-day Oura data are deferred until tomorrow. "
         + "; ".join(coverage)
-        + ". API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='vitals_monthly.json'>monthly source data</a>. Sync: <a href='VITALS_SYNC.md'>on-demand instructions</a>.",
+        + ". API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.",
         "markers": markers,
     }
 

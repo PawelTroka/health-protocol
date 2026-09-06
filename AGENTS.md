@@ -6,10 +6,10 @@ These instructions apply to the entire repository. This is a living health-proto
 
 - `README.md` is the canonical protocol. It owns the active stack, food plan, doses, timing windows, slot codes, display order, Notes, TODO replacements, Removed items, product links and Blueprint/BJ comparison signatures.
 - Conversation history explains intent but is not authoritative. Inspect the live files before answering or editing, and perform a fresh audit when asked to re-review.
-- `generate_pillbox_guide.py` is the editable source for the physical pillbox guide. It manually mirrors pill entries from `README.md`; it does not parse the README.
+- `tools/generate_pillbox_guide.py` is the editable source for the physical pillbox guide. It manually mirrors pill entries from `README.md`; it does not parse the README.
 - `Supplement-Pillbox-Guide.docx` is generated, checked-in output. Never edit it manually.
-- `generate_colored_report.py` contains the structured lab-result data and generates `results.md` and `results.html`. It writes files when deliberately run; do not import or execute it casually.
-- `sync_vitals.py` and `health_sync/` import Oura/Withings records and generate `vitals_monthly.json`, which overlays supported monthly means in the results generator. For an authorized on-demand sync, follow `VITALS_SYNC.md` and run `Sync-Vitals.ps1`; do not hand-edit the generated monthly data or turn screenshots into invented averages. Preserve the original July 2026 baseline and dated manual/app-only results.
+- `tools/generate_colored_report.py` contains the structured lab-result data and generates `results.md` and `results.html`. It writes files when deliberately run; do not import or execute it casually.
+- `tools/sync_vitals.py` and `tools/health_sync/` import Oura/Withings records and generate `results/vitals_monthly.json`, which overlays supported monthly means in the results generator. For an authorized on-demand sync, follow `tools/README.md` and run `tools/Sync-Vitals.ps1`; do not hand-edit the generated monthly data or turn screenshots into invented averages. Preserve the original July 2026 baseline and dated manual/app-only results.
 - OAuth credentials belong only in the encrypted Windows vault outside Git. Never request them in chat or put them in command arguments. `.health-sync/` contains private raw exports and the normalized cache; do not commit it. An ordinary sync is on demand, not permission to create a recurring automation.
 - Treat raw medical material under `results/`—including images, DICOM data, PDFs and archives—as sensitive, immutable source material unless the user explicitly requests a scoped operation.
 - `COST_ANALYSIS.md` is derived and may lag behind the protocol. Do not update one line and leave dependent totals stale; reconcile it comprehensively only when cost analysis is in scope.
@@ -125,7 +125,7 @@ These are workflow constraints, not immutable medical facts. Preserve them unles
 
 ## Pillbox-guide synchronization and document QA
 
-Every change to an active physical pill's code, order, name, dose, multiplier, conditional use, icon set, empty slot or meaningful formulation identity must be mirrored in `generate_pillbox_guide.py`.
+Every change to an active physical pill's code, order, name, dose, multiplier, conditional use, icon set, empty slot or meaningful formulation identity must be mirrored in `tools/generate_pillbox_guide.py`.
 
 - The guide's prominent ingredient name must match the README entry. Dose and count may occupy their dedicated guide fields, but do not invent shorter or generic aliases that lose meaningful identity.
 - Show `2x` or `3x` before the supplement name when multiple identical pills share one compartment.
@@ -136,8 +136,8 @@ Every change to an active physical pill's code, order, name, dose, multiplier, c
 
 After an authorized pillbox-affecting change:
 
-1. Update `README.md` and `generate_pillbox_guide.py` together.
-2. Use the bundled workspace Python runtime to compile and run `generate_pillbox_guide.py`.
+1. Update `README.md` and `tools/generate_pillbox_guide.py` together.
+2. Use the bundled workspace Python runtime to compile and run `tools/generate_pillbox_guide.py`.
 3. Use the `documents` skill and its current `render_docx.py` workflow to render the DOCX to page PNGs, optionally with a PDF.
 4. Confirm there are exactly eight pages and visually inspect every page—not only the changed page—for clipping, overflow, row-major placement, codes, names, doses, multipliers, emojis, conditional warnings and empty cells.
 5. Search the generated document or extracted text for stale names, doses and old `BW`/`AW` codes.
@@ -150,21 +150,21 @@ For ordinary protocol edits, run at minimum:
 ```powershell
 git status --short
 git diff --check
-git diff -- README.md generate_pillbox_guide.py
+git diff -- README.md tools/generate_pillbox_guide.py
 ```
 
 For pillbox changes, also verify the Python data structure without generating output:
 
 ```powershell
-python -B -c "import generate_pillbox_guide as g; assert len(g.PAGES) == 8; assert all(len(p['cells']) == 9 for p in g.PAGES); cells = [c for p in g.PAGES for c in p['cells']]; assert len(cells) == 72; assert len({c['code'] for c in cells}) == 72; print('8 pages, 72 unique physical cells')"
+python -B -c "from tools import generate_pillbox_guide as g; assert len(g.PAGES) == 8; assert all(len(p['cells']) == 9 for p in g.PAGES); cells = [c for p in g.PAGES for c in p['cells']]; assert len(cells) == 72; assert len({c['code'] for c in cells}) == 72; print('8 pages, 72 unique physical cells')"
 ```
 
 Use the bundled Python path returned by the workspace-dependency loader if the system `python` lacks `python-docx` or the rendering dependencies.
 
-When intentionally changing lab-result source data, run `generate_colored_report.py` only from the repository root, then inspect both outputs:
+When intentionally changing lab-result source data, run `tools/generate_colored_report.py` only from the repository root, then inspect both outputs:
 
 ```powershell
-python -B .\generate_colored_report.py
+python -B .\tools\generate_colored_report.py
 git diff -- results.md results.html
 ```
 

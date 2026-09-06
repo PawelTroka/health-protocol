@@ -7,7 +7,7 @@ import unittest
 from datetime import date
 from pathlib import Path
 
-from health_sync.monthly import (
+from tools.health_sync.monthly import (
     aggregate,
     apply_report_overlay,
     load_monthly,

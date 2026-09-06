@@ -290,7 +290,7 @@ def access_token(provider, force_refresh=False):
         vault = _load()
         config = vault.get(provider, {})
         if not config.get("client_id") or not config.get("client_secret"):
-            raise AuthError(f"Run Sync-Vitals.ps1 connect {provider} in a local terminal to configure API access first.")
+            raise AuthError(f"Run .\\tools\\Sync-Vitals.ps1 connect {provider} from the repository root to configure API access first.")
         if not config.get("refresh_token") or config.get("refresh_uncertain"):
             raise AuthError(f"Authorize {provider} locally before fetching data.")
         if not force_refresh and config.get("access_token") and config.get("expires_at", 0) > time.time() + 60:

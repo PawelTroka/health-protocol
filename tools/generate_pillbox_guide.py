@@ -14,7 +14,7 @@ from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "Supplement-Pillbox-Guide.docx"
 PILLBOX_URL = "https://gymbeam.com/adjustable-pillbox-gymbeam.html"
 

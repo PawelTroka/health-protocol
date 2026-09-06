@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from health_sync.oura import OURA_ENDPOINTS, OuraParseError, parse_api, parse_csv
+from tools.health_sync.oura import OURA_ENDPOINTS, OuraParseError, parse_api, parse_csv
 
 
 def sleep_document(identifier="main", day="2026-08-01", **changes):

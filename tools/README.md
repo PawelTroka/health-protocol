@@ -1,28 +1,37 @@
-# On-demand vitals sync
+# Repository tools
+
+Run the commands below from the repository root.
+
+- `tools/Sync-Vitals.ps1`: import and sync monthly vitals.
+- `tools/generate_colored_report.py`: regenerate both results reports.
+- `tools/generate_pillbox_guide.py`: generate the physical pillbox guide.
+- `tools/tests/`: synthetic importer and sync tests.
+
+## On-demand vitals sync
 
 Run this in the health-protocol folder after connecting both accounts:
 
 ```powershell
-.\Sync-Vitals.ps1
+.\tools\Sync-Vitals.ps1
 ```
 
-It downloads the supported Oura and Withings measurements, computes calendar-month averages, and updates `vitals_monthly.json`, `results.md` and `results.html` together. It runs only when requested. The default range starts August 1, 2026; the original July baseline stays intact.
+It downloads the supported Oura and Withings measurements, computes calendar-month averages, and updates `results/vitals_monthly.json`, `results.md` and `results.html` together. It runs only when requested. The default range starts August 1, 2026; the original July baseline stays intact.
 
 ## Connect each account once
 
 Browser sessions in Opera do not grant this local program API access. Each service requires a registered OAuth application and your consent. Oura's old personal access tokens were retired in December 2025.
 
 1. Register an application in [Oura developer applications](https://cloud.ouraring.com/oauth/applications). Register exactly this redirect URI: `http://localhost:8765/callback/oura`.
-2. Run `./Sync-Vitals.ps1 connect oura`. Enter that application's client ID and client secret at the local terminal prompts, then approve the Oura browser consent. The requested scope is `daily`.
+2. Run `./tools/Sync-Vitals.ps1 connect oura`. Enter that application's client ID and client secret at the local terminal prompts, then approve the Oura browser consent. The requested scope is `daily`.
 3. Register a personal/development application in the [Withings developer dashboard](https://developer.withings.com/dashboard/). Register exactly this redirect URI: `http://localhost:8765/callback/withings`.
-4. Run `./Sync-Vitals.ps1 connect withings`. Enter that application's credentials locally and complete browser consent. The requested scope is `user.metrics`.
+4. Run `./tools/Sync-Vitals.ps1 connect withings`. Enter that application's credentials locally and complete browser consent. The requested scope is `user.metrics`.
 
 Do not paste credentials in chat, the protocol, shell command arguments or Git. The client secrets and rotating OAuth tokens are encrypted with Windows DPAPI for your Windows user and stored outside the repository at `%LOCALAPPDATA%/HealthProtocolSync/credentials.dat`. Credentials are not taken from Opera cookies. Existing authorized connections refresh automatically; if consent expires or a refresh outcome is uncertain, run `authorize` again.
 
 ```powershell
-.\Sync-Vitals.ps1 status
-.\Sync-Vitals.ps1 authorize oura
-.\Sync-Vitals.ps1 authorize withings
+.\tools\Sync-Vitals.ps1 status
+.\tools\Sync-Vitals.ps1 authorize oura
+.\tools\Sync-Vitals.ps1 authorize withings
 ```
 
 The browser connection waits up to three minutes. If interrupted or declined, the app configuration remains available for a later `authorize` command. Client IDs/secrets come from the registered apps, not from your ordinary account passwords.
@@ -30,10 +39,10 @@ The browser connection waits up to three minutes. If interrupted or declined, th
 ## Preview, sync one service, or revisit a date range
 
 ```powershell
-.\Sync-Vitals.ps1 sync --dry-run
-.\Sync-Vitals.ps1 sync --provider oura
-.\Sync-Vitals.ps1 sync --provider withings
-.\Sync-Vitals.ps1 sync --start 2026-08-01 --end 2026-09-05
+.\tools\Sync-Vitals.ps1 sync --dry-run
+.\tools\Sync-Vitals.ps1 sync --provider oura
+.\tools\Sync-Vitals.ps1 sync --provider withings
+.\tools\Sync-Vitals.ps1 sync --start 2026-08-01 --end 2026-09-05
 ```
 
 The default sync requires both services. A failure in either service stops the update before publishing any new report. `--provider` explicitly allows updating one service while retaining the other's cache. Date bounds are inclusive; an API fetch replaces that provider's cache within the requested range, so corrected or removed readings can be reflected. Outside that range, history is retained.
@@ -43,7 +52,7 @@ The default sync requires both services. A failure in either service stops the u
 Oura on the web: open Trends, select the date range, choose Download Data, select all metrics, and download the CSV.
 
 ```powershell
-.\Sync-Vitals.ps1 import --oura-csv "C:\Users\hyperbook\Downloads\oura_2026-07-06_2026-09-06_trends.csv"
+.\tools\Sync-Vitals.ps1 import --oura-csv "C:\Users\hyperbook\Downloads\oura_2026-07-06_2026-09-06_trends.csv"
 ```
 
 The import reads the exact bytes it archives. Reimporting the same file does not duplicate observations. Partial files amend the days and metrics they contain without removing other cached observations. An incoming Oura day/metric replaces the previous daily value even if one came from CSV and the other from the API.
@@ -51,7 +60,7 @@ The import reads the exact bytes it archives. Reimporting the same file does not
 For Withings, the supported fallback is saved **official API measurement JSON**, with every page combined. Arbitrary app export CSVs are not guessed: Withings export columns and units can vary by export/account.
 
 ```powershell
-.\Sync-Vitals.ps1 import --withings-json "C:\path\withings-measurements.json"
+.\tools\Sync-Vitals.ps1 import --withings-json "C:\path\withings-measurements.json"
 ```
 
 Accepted Withings JSON: `{"measuregrps": [...]}` from this sync client, or `{"measure": [page1, page2, ...]}` containing complete successful API responses. A standalone successful response is also accepted when it is the final/only page. Responses with unfinished pagination, API errors, ambiguous user records or credential fields are rejected or excluded as appropriate. Real measurement IDs identify revised readings; repeat imports do not increase their weight.
@@ -72,11 +81,11 @@ Accepted Withings JSON: `{"measuregrps": [...]}` from this sync client, or `{"me
 
 ## Files and verification
 
-- `health_sync/` and `sync_vitals.py`: import, authentication and averaging code.
+- `tools/health_sync/` and `tools/sync_vitals.py`: import, authentication and averaging code.
 - `.health-sync/raw/`: private, content-addressed copies of downloaded data; existing copies are never overwritten.
 - `.health-sync/records.json`: private normalized daily/measurement cache.
-- `vitals_monthly.json`: generated per-metric averages and coverage, consumed by the report generator. Do not hand-edit it.
-- `generate_colored_report.py`: retains historical/manual results and merges the generated averages. Importing this module no longer writes reports.
+- `results/vitals_monthly.json`: generated per-metric averages and coverage, consumed by the report generator. Do not hand-edit it.
+- `tools/generate_colored_report.py`: retains historical/manual results and merges the generated averages. Importing this module no longer writes reports.
 - `results.md` and `results.html`: regenerated outputs. Imported cells receive a separate source note; manual observations keep their original provenance.
 
 The private cache and exports are ignored by Git. The monthly summary and results are ordinary repository artifacts; review their diff before choosing to commit. Nothing is committed or pushed by the sync. The command uses an OS process lock, bounded network requests, pagination checks, safe read retries and staged report generation. File replacements roll back on a handled error; after a power loss, rerun the sync to regenerate the outputs consistently.
@@ -84,7 +93,7 @@ The private cache and exports are ignored by Git. The monthly summary and result
 The PowerShell wrapper uses the bundled Codex Python runtime when available, otherwise `python` on PATH. Python 3.10+ is required; a fallback Windows Python may also need the `tzdata` package for Europe/Warsaw. API credential storage requires Windows. Tests use synthetic API responses and no real credentials:
 
 ```powershell
-python -B -m unittest discover -s tests -v
+python -B -m unittest discover -s tools/tests -t . -v
 git diff --check
 ```
 

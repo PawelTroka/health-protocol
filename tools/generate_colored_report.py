@@ -1,12 +1,16 @@
 import re
 import os
+import sys
 from pathlib import Path
 
-from health_sync.monthly import apply_report_overlay, load_monthly
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from tools.health_sync.monthly import apply_report_overlay, load_monthly
 
 
-REPORT_ROOT = Path(__file__).resolve().parent
-synced_monthly = load_monthly(os.environ.get("HEALTH_PROTOCOL_VITALS_MONTHLY", REPORT_ROOT / "vitals_monthly.json"))
+REPORT_ROOT = Path(__file__).resolve().parents[1]
+synced_monthly = load_monthly(os.environ.get("HEALTH_PROTOCOL_VITALS_MONTHLY", REPORT_ROOT / "results" / "vitals_monthly.json"))
 
 def lerp(a, b, t):
     return int(a + (b - a) * t)
@@ -1486,7 +1490,7 @@ for category, rows in data.items():
     ]
 
 
-def generate_html_report(output_path="results.html"):
+def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html = "<html><head><style>"
     html += "body { font-family: sans-serif; padding: 20px; }"
     html += "table { border-collapse: collapse; width: 100%; margin-bottom: 10px; }"
@@ -1565,7 +1569,7 @@ def generate_html_report(output_path="results.html"):
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-def generate_md_report(output_path="results.md"):
+def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     md = "# Health Protocol: Lab Results Comparison\n\n"
     # Patient info removed
 
@@ -1637,6 +1641,6 @@ def generate_md_report(output_path="results.md"):
         f.write(md)
 
 if __name__ == "__main__":
-    output_dir = Path(os.environ.get("HEALTH_PROTOCOL_REPORT_DIR", "."))
+    output_dir = Path(os.environ.get("HEALTH_PROTOCOL_REPORT_DIR", REPORT_ROOT))
     generate_html_report(output_dir / "results.html")
     generate_md_report(output_dir / "results.md")

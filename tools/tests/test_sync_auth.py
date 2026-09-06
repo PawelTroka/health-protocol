@@ -14,7 +14,7 @@ from unittest.mock import MagicMock, patch
 from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, urlencode, urlsplit
 
-from health_sync import api, auth
+from tools.health_sync import api, auth
 
 
 class MemoryVault(unittest.TestCase):

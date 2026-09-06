@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 import math
 import unittest
 
-from health_sync.withings import parse_api
+from tools.health_sync.withings import parse_api
 
 
 def timestamp(text):

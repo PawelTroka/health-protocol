@@ -9,8 +9,8 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-import sync_vitals as cli
-from health_sync import api, auth, oura
+from tools import sync_vitals as cli
+from tools.health_sync import api, auth, oura
 
 
 class FixedDateTime(datetime):
@@ -59,7 +59,8 @@ class SyncCliTests(unittest.TestCase):
         (self.cache / "records.json").write_bytes(cli.json_bytes({
             "schema_version": 1, "records": self.previous_records,
         }))
-        (self.root / "vitals_monthly.json").write_bytes(b'{"previous": true}\n')
+        (self.root / "results").mkdir()
+        (self.root / "results" / "vitals_monthly.json").write_bytes(b'{"previous": true}\n')
         (self.root / "results.md").write_bytes(b"Existing Markdown report\n")
         (self.root / "results.html").write_bytes(b"<p>Existing HTML report</p>\n")
         (self.root / "README.md").write_bytes(b"Unrelated canonical protocol\n")
@@ -144,7 +145,7 @@ class SyncCliTests(unittest.TestCase):
                    if record["id"] == "withings:measure:101:Body Mass"]
         self.assertEqual(len(weights), 1)
         self.assertEqual(weights[0]["value"], 80.4)
-        monthly = json.loads((self.root / "vitals_monthly.json").read_bytes())
+        monthly = json.loads((self.root / "results" / "vitals_monthly.json").read_bytes())
         weight_mean = monthly["months"]["2026-08"]["Body Mass"]
         self.assertEqual(weight_mean["value"], "81.2")
         self.assertEqual(weight_mean["n_records"], 2)

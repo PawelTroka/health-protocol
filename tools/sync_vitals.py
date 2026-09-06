@@ -1,4 +1,4 @@
-"""Import, average, validate and regenerate vitals on demand. See VITALS_SYNC.md."""
+"""Import, average, validate and regenerate vitals on demand. See tools/README.md."""
 
 import argparse
 from contextlib import contextmanager
@@ -13,9 +13,12 @@ import sys
 import tempfile
 from zoneinfo import ZoneInfo
 
-from health_sync.monthly import MANAGED_START, aggregate, iso_date, merge_file_records, merge_records
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-ROOT = Path(__file__).resolve().parent
+from tools.health_sync.monthly import MANAGED_START, aggregate, iso_date, merge_file_records, merge_records
+
+ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / ".health-sync"
 
 
@@ -122,7 +125,7 @@ def reject_credentials(value):
 
 def parse_oura_snapshot(raw):
     """Parse exactly the bytes later archived, even if the download is replaced."""
-    from health_sync.oura import parse_csv
+    from tools.health_sync.oura import parse_csv
     with tempfile.NamedTemporaryFile(dir=CACHE, suffix=".csv", delete=False) as stream:
         temporary = Path(stream.name)
         stream.write(raw)
@@ -140,7 +143,7 @@ def prepare_reports(monthly):
         source.write_bytes(json_bytes(monthly))
         env = dict(os.environ, HEALTH_PROTOCOL_VITALS_MONTHLY=str(source), HEALTH_PROTOCOL_REPORT_DIR=str(stage))
         result = subprocess.run(
-            [sys.executable, "-B", str(ROOT / "generate_colored_report.py")],
+            [sys.executable, "-B", str(ROOT / "tools" / "generate_colored_report.py")],
             cwd=ROOT, env=env, capture_output=True, text=True, encoding="utf-8", timeout=60,
         )
         if result.returncode:
@@ -157,7 +160,7 @@ def print_summary(monthly):
 
 
 def run_import(args):
-    from health_sync import api, oura, withings
+    from tools.health_sync import api, oura, withings
     today = datetime.now(ZoneInfo("Europe/Warsaw")).date()
     start = iso_date(args.start)
     end = iso_date(args.end) if args.end else today
@@ -206,10 +209,10 @@ def run_import(args):
         archive(provider, raw, extension)
     atomic_commit({
         CACHE / "records.json": json_bytes({"schema_version": 1, "records": records}),
-        ROOT / "vitals_monthly.json": json_bytes(monthly),
+        ROOT / "results" / "vitals_monthly.json": json_bytes(monthly),
         **reports,
     })
-    print("\nUpdated results.md, results.html and vitals_monthly.json.")
+    print("\nUpdated results.md, results.html and results/vitals_monthly.json.")
 
 
 def parser():
@@ -236,7 +239,7 @@ def parser():
 def main(argv=None):
     args = parser().parse_args(argv if argv is not None else (sys.argv[1:] or ["sync"]))
     try:
-        from health_sync import auth
+        from tools.health_sync import auth
         with sync_lock():
             if args.command == "status":
                 for provider, status in auth.status().items():
@@ -252,7 +255,7 @@ def main(argv=None):
                     client_secret = getpass("Client secret: ").strip()
                     auth.configure(args.provider, client_id, client_secret)
                 auth.authorize(args.provider)
-                print(f"{args.provider} connected. Run Sync-Vitals.ps1 to sync.")
+                print(f"{args.provider} connected. Run .\\tools\\Sync-Vitals.ps1 from the repository root to sync.")
             else:
                 run_import(args)
         return 0
