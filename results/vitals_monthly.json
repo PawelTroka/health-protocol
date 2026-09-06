@@ -577,16 +577,16 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-07-01",
-        "last_day": "2026-07-31",
-        "n_days": 31,
-        "n_records": 31,
+        "last_day": "2026-07-30",
+        "n_days": 30,
+        "n_records": 30,
         "partial_month": false,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "91.4"
+        "value": "94.5"
       },
       "Awake Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -3299,17 +3299,17 @@
         "aggregation": "mean_of_daily_means",
         "calendar_days": 31,
         "elapsed_days": 31,
-        "first_day": "2026-08-01",
+        "first_day": "2026-08-02",
         "last_day": "2026-08-31",
-        "n_days": 31,
-        "n_records": 31,
+        "n_days": 28,
+        "n_records": 28,
         "partial_month": false,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "85.5"
+        "value": "94.7"
       },
       "Awake Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -5926,17 +5926,17 @@
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
         "elapsed_days": 6,
-        "first_day": "2026-09-01",
+        "first_day": "2026-09-03",
         "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "n_days": 3,
+        "n_records": 3,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "56.8"
+        "value": "94.7"
       },
       "Awake Duration (Withings)": {
         "aggregation": "mean_of_daily_means",

@@ -88,6 +88,14 @@ Oura requests `sleep`, `daily_sleep`, `daily_readiness`, `daily_activity`, `dail
 - Withings HRV during the first and last 90 minutes of sleep is imported separately in milliseconds, as documented in [Withings Sleep HRV](https://support.withings.com/hc/en-us/articles/35762631441681-Sleep-U-S-Nighttime-Heart-Rate-Variability-HRV).
 - Supported device classifications appear in separate provider-specific rows as **observed label counts per month**. They are not averaged codes, health scores, clinical diagnoses or estimates for unrecorded days. The original dated/manual ECG, heart sounds, confirmed app nerve score, nighttime dipping and cardiovascular-age difference remain distinct. Unrecognized classification values are shown explicitly as device codes with unverified meanings, which may include unavailable-result codes; their original values also remain archived. Under-specified ECG interval and ESC fields remain raw and are not averaged. Units and labels are not guessed.
 
+## Report layout
+
+The results overview groups the main vitals into six smaller tables: body composition, heart and circulation, sleep and breathing, recovery and stress, activity and fitness, and nerve health and temperature. Bone percentage and the Withings visceral fat index remain in the main body-composition table. Expand **Detailed device measurements** for additional source-specific readings, body segments, score contributors, sensor samples, model estimates and historical snapshots; expand **Sources & calculation notes** for provenance and averaging rules. Every measurement remains available. Empty reference columns are omitted from these smaller tables.
+
+`tools/health_sync/report_layout.py` controls this presentation independently of the import registry and clinical scoring. Newly imported measurements default to the detailed tables until explicitly selected for the overview. Future on-demand syncs regenerate the same layout in both Markdown and HTML.
+
+Oura SpO2 aggregates equal to exactly zero are excluded as unusable readings; all positive values are retained. The source archive remains unchanged. This is a narrow data-quality rule: Oura documents missing oxygen readings but does not explicitly define a zero sentinel in the API schema. Each monthly result's coverage reflects only the retained observed days.
+
 ## Files and verification
 
 - `tools/health_sync/` and `tools/sync_vitals.py`: import, authentication and averaging code.

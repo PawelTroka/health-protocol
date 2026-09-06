@@ -148,6 +148,32 @@ class OuraCSVTests(unittest.TestCase):
 
 
 class OuraAPITests(unittest.TestCase):
+    def test_spo2_zero_is_unavailable_without_discarding_low_positive_readings(self):
+        documents = [
+            {"id": "zero", "day": "2026-08-01", "spo2_percentage": {"average": 0},
+             "breathing_disturbance_index": 0},
+            {"id": "low", "day": "2026-08-02", "spo2_percentage": {"average": 85}},
+            {"id": "positive", "day": "2026-08-03", "spo2_percentage": {"average": 95}},
+            {"id": "missing", "day": "2026-08-04", "spo2_percentage": None},
+        ]
+        rows = parse_api({"daily_spo2": documents + [documents[1]]})
+        oxygen = [row for row in rows if row["metric"] == "Average Sleeping SpO2 (Oura)"]
+        self.assertEqual([(row["day"], row["value"]) for row in oxygen],
+                         [("2026-08-02", 85), ("2026-08-03", 95)])
+        self.assertEqual(sum(row["value"] for row in oxygen) / len(oxygen), 90)
+        bdi = next(row for row in rows if row["metric"] == "Breathing Disturbance Index (Oura)")
+        self.assertEqual(bdi["value"], 0)
+        self.assertEqual(documents[0]["spo2_percentage"]["average"], 0)
+
+    def test_spo2_malformed_values_still_raise_and_hundred_percent_is_valid(self):
+        for value in [-1, 101, float("nan"), True, "95"]:
+            with self.subTest(value=value), self.assertRaises(OuraParseError):
+                parse_api({"daily_spo2": [{"id": "bad", "day": "2026-08-01",
+                                          "spo2_percentage": {"average": value}}]})
+        rows = parse_api({"daily_spo2": [{"id": "full", "day": "2026-08-01",
+                                         "spo2_percentage": {"average": 100}}]})
+        self.assertEqual(rows[0]["value"], 100)
+
     def test_primary_sleep_mapping_and_daily_score(self):
         result = by_metric(parse_api({"sleep": [sleep_document()],
                                       "daily_sleep": [daily_document()]}))

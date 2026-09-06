@@ -8,6 +8,7 @@ if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from tools.health_sync.monthly import METRICS, apply_report_overlay, load_monthly
+from tools.health_sync.report_layout import layout, counts
 
 
 REPORT_ROOT = Path(__file__).resolve().parents[1]
@@ -1521,9 +1522,180 @@ def classification_text(value, *, markdown=False):
     return text
 
 
+def render_result_table_html(category, rows, active_indexes=None, compact=False):
+    if active_indexes is None:
+        active_indexes = active_date_indexes(rows)
+    include_trend = category_has_trends(rows, category)
+    include_reference = not compact or any(
+        target_reference(category, row[0], row[-1]) not in ("-", "") for row in rows
+    )
+    html = "<table><tr><th>Metric</th>" if compact else "<table><tr><th></th>"
+    if include_trend and not compact:
+        html += "<th>Trend</th>"
+    for idx in active_indexes:
+        html += f"<th>{date_columns[idx]}</th>"
+    if include_trend and compact:
+        html += "<th>Trend</th>"
+    html += "<th>Unit</th>"
+    if include_reference:
+        html += "<th><i>Reference</i></th>"
+    html += "</tr>"
+    for row in rows:
+        name, values, unit, ref = split_result_row(row)
+        display_ref = target_reference(category, name, ref)
+        if category == "Vitals & Functional Health" and name in categorical_markers:
+            cells = [classification_text(values[idx]) for idx in active_indexes]
+        elif "Urinalysis" in category:
+            cells = [format_cell_html_urine(values[idx], ref) for idx in active_indexes]
+        else:
+            cells = [format_cell_html(values[idx], display_ref, category, name) for idx in active_indexes]
+        html += f"<tr><td><b>{escape(name)}</b></td>"
+        if include_trend:
+            trend_cell = format_trend_html(values, display_ref, category, name)
+            trend_cell = add_note_sup_html(trend_cell, note_numbers(category, name, "trend"))
+            if not compact:
+                html += f"<td>{trend_cell}</td>"
+        for idx, cell in zip(active_indexes, cells):
+            cell = add_note_sup_html(cell, note_numbers(category, name, "value", date_columns[idx]))
+            html += f"<td>{cell}</td>"
+        if include_trend and compact:
+            html += f"<td>{trend_cell}</td>"
+        html += f"<td>{unit}</td>"
+        if include_reference:
+            html += f"<td>{display_ref}</td>"
+        html += "</tr>"
+    return html + "</table>"
+
+
+def render_result_table_md(category, rows, active_indexes=None, compact=False):
+    if active_indexes is None:
+        active_indexes = active_date_indexes(rows)
+    include_trend = category_has_trends(rows, category)
+    include_reference = not compact or any(
+        target_reference(category, row[0], row[-1]) not in ("-", "") for row in rows
+    )
+    header = "| Metric |" if compact else "|  |"
+    sep = "| :--- |"
+    if include_trend and not compact:
+        header += " Trend |"
+        sep += " :--- |"
+    for idx in active_indexes:
+        header += f" {date_columns[idx]} |"
+        sep += " :--- |"
+    if include_trend and compact:
+        header += " Trend |"
+        sep += " :--- |"
+    header += " Unit |"
+    sep += " :--- |"
+    if include_reference:
+        header += " *Reference* |"
+        sep += " :--- |"
+    md = header + "\n" + sep + "\n"
+    for row in rows:
+        name, values, unit, ref = split_result_row(row)
+        display_ref = target_reference(category, name, ref)
+        if category == "Vitals & Functional Health" and name in categorical_markers:
+            cells = [classification_text(values[idx], markdown=True) for idx in active_indexes]
+        elif "Urinalysis" in category:
+            cells = [format_cell_md_urine(values[idx], ref) for idx in active_indexes]
+        else:
+            cells = [format_cell_md(values[idx], display_ref, category, name) for idx in active_indexes]
+        line = f"| **{name}** |"
+        if include_trend:
+            trend_cell = format_trend_md(values, display_ref, category, name)
+            trend_cell = add_note_sup_md(trend_cell, note_numbers(category, name, "trend"))
+            if not compact:
+                line += f" {trend_cell} |"
+        for idx, cell in zip(active_indexes, cells):
+            cell = add_note_sup_md(cell, note_numbers(category, name, "value", date_columns[idx]))
+            line += f" {cell} |"
+        if include_trend and compact:
+            line += f" {trend_cell} |"
+        line += f" {unit} |"
+        if include_reference:
+            line += f" {display_ref} |"
+        md += line + "\n"
+    return md
+
+
+VITALS_INTRO = (
+    "Monthly averages where available; current-month values are month to date. "
+    "Provider names distinguish different measurement methods. "
+    "Dated manual observations and app snapshots are identified in the source notes."
+)
+VITALS_DETAILS_INTRO = (
+    "Additional source-specific measurements, body segments, estimates and score components. "
+    "Device classifications are observed label counts, not monthly averages."
+)
+
+
+def render_vitals_html(rows):
+    category = "Vitals & Functional Health"
+    groups = layout(rows)
+    totals = counts(groups)
+    active_indexes = active_date_indexes(rows)
+    html = f"<section class='vitals'><h2>{escape(category)}</h2>"
+    html += f"<p class='section-intro'>{VITALS_INTRO}</p>"
+    html += f"<p class='section-meta'>{totals['main']} main measurements · {totals['details']} in expandable details</p>"
+    for detailed in (False, True):
+        selected = [group for group in groups if group['details'] == detailed]
+        if not selected:
+            continue
+        if detailed:
+            html += f"<details><summary>Detailed device measurements · {totals['details']} metrics</summary>"
+            html += f"<p class='section-intro'>{VITALS_DETAILS_INTRO}</p>"
+        for group in selected:
+            html += f"<section class='metric-group'><h3>{escape(group['title'])}</h3>"
+            html += f"<p class='group-description'>{escape(group['description'])}</p><div class='table-scroll'>"
+            html += render_result_table_html(category, group['rows'], active_indexes, compact=True)
+            html += "</div></section>"
+        if detailed:
+            html += "</details>"
+    html += "<details class='source-notes'><summary>Sources &amp; calculation notes</summary>"
+    html += render_result_notes_html(category) + "</details></section>"
+    return html
+
+
+def render_vitals_md(rows):
+    category = "Vitals & Functional Health"
+    groups = layout(rows)
+    totals = counts(groups)
+    active_indexes = active_date_indexes(rows)
+    md = f"## {category}\n\n{VITALS_INTRO}\n\n"
+    md += f"{totals['main']} main measurements · {totals['details']} in expandable details.\n\n"
+    for detailed in (False, True):
+        selected = [group for group in groups if group['details'] == detailed]
+        if not selected:
+            continue
+        if detailed:
+            md += f"<details>\n<summary>Detailed device measurements · {totals['details']} metrics</summary>\n\n"
+            md += VITALS_DETAILS_INTRO + "\n\n"
+        for group in selected:
+            md += f"### {group['title']}\n\n{group['description']}\n\n"
+            md += render_result_table_md(category, group['rows'], active_indexes, compact=True) + "\n"
+        if detailed:
+            md += "</details>\n\n"
+    md += "<details>\n<summary>Sources &amp; calculation notes</summary>\n\n"
+    md += render_result_notes_md(category).lstrip() + "\n\n</details>\n\n"
+    return md
+
+
+def render_imaging_html():
+    parts = []
+    for line in imaging_data.splitlines():
+        if line.startswith(("## ", "### ")):
+            level = len(line.split(" ", 1)[0])
+            parts.append(f"<h{level}>{escape(line[level + 1:])}</h{level}>")
+        elif line.lstrip().startswith("- "):
+            content = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escape(line.lstrip()[2:]))
+            indent = " style='margin-left:24px'" if line.startswith("  ") else ""
+            parts.append(f"<p{indent}>• {content}</p>")
+    return "".join(parts)
+
+
 def generate_html_report(output_path=REPORT_ROOT / "results.html"):
-    html = "<html><head><style>"
-    html += "body { font-family: sans-serif; padding: 20px; }"
+    html = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>Health Protocol: Results</title><style>"
+    html += "body { font-family: system-ui, sans-serif; padding: 24px; max-width: 1280px; margin: auto; color: #243248; line-height: 1.5; }"
     html += "table { border-collapse: collapse; width: 100%; margin-bottom: 10px; }"
     html += "th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }"
     html += "th { background-color: #f2f2f2; }"
@@ -1531,50 +1703,34 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += ".table-notes { font-size: 0.9em; color: #555; margin: -4px 0 20px; }"
     html += ".table-notes p { margin: 3px 0; }"
     html += "sup { font-size: 0.75em; }"
+    html += "h1 { font-size: 1.8rem; } h2 { margin-top: 36px; }"
+    html += ".vitals { margin: 32px 0; } .vitals h2 { margin-bottom: 8px; }"
+    html += ".section-intro, .group-description { color: #536278; margin: 6px 0 12px; font-size: 0.92rem; }"
+    html += ".section-meta { color: #536278; font-size: 0.85rem; margin: 12px 0 24px; }"
+    html += ".metric-group { margin: 28px 0; } .metric-group h3 { font-size: 1.16rem; margin: 0; }"
+    html += ".table-scroll { overflow-x: auto; } .vitals table { font-size: 0.9rem; min-width: 640px; margin-bottom: 0; font-variant-numeric: tabular-nums; }"
+    html += ".vitals th, .vitals td { border: 0; border-bottom: 1px solid #e2e8f0; padding: 10px 12px; vertical-align: top; }"
+    html += ".vitals th { background: #eef3f8; color: #536278; font-size: 0.8rem; white-space: nowrap; }"
+    html += ".vitals td:first-child { width: 34%; min-width: 225px; } .vitals td:first-child b { font-weight: 550; }"
+    html += ".vitals tr:nth-child(odd) td { background: #fafbfd; } .vitals td:not(:first-child) { min-width: 70px; }"
+    html += ".vitals details { border: 1px solid #dce4ed; border-radius: 8px; margin-top: 16px; padding: 16px 20px; }"
+    html += ".vitals summary { cursor: pointer; font-weight: 600; color: #344d6c; } .vitals summary:focus-visible { outline: 2px solid #344d6c; outline-offset: 4px; }"
+    html += ".vitals details[open] > summary { margin-bottom: 20px; } .vitals .table-notes { margin: 0; } .vitals .table-notes p { margin: 10px 0; }"
+    html += "@media(max-width: 700px) { body { padding: 12px; overflow-wrap: anywhere; } h1 { font-size: 1.4rem; } .vitals details { padding: 12px; } .vitals td:first-child { width: 150px; min-width: 150px; max-width: 150px; } .vitals td { padding: 8px; } }"
     html += "</style></head><body>"
     html += "<h1>Health Protocol: Lab Results Comparison</h1>"
     # Patient info removed
     
     for category, rows in data.items():
-        
-        dates = date_columns
-        active_indexes = active_date_indexes(rows)
-        include_trend = category_has_trends(rows, category)
+        if category == "Vitals & Functional Health":
+            html += render_vitals_html(rows)
+        else:
+            html += f"<h2>{category}</h2>"
+            html += "<div class='table-scroll'>" + render_result_table_html(category, rows) + "</div>"
+            html += render_result_notes_html(category)
 
-        html += f"<h2>{category}</h2>"
-        html += "<table><tr><th></th>"
-        if include_trend:
-            html += "<th>Trend</th>"
-        for idx in active_indexes:
-            html += f"<th>{dates[idx]}</th>"
-        html += "<th>Unit</th><th><i>Reference</i></th></tr>"
-        
-        for row in rows:
-            name, values, unit, ref = split_result_row(row)
-            display_ref = target_reference(category, name, ref)
-            
-            # Use specific formatter for Urinalysis
-            if category == "Vitals & Functional Health" and name in categorical_markers:
-                cells = [classification_text(values[idx]) for idx in active_indexes]
-            elif "Urinalysis" in category:
-                cells = [format_cell_html_urine(values[idx], ref) for idx in active_indexes]
-            else:
-                cells = [format_cell_html(values[idx], display_ref, category, name) for idx in active_indexes]
-            
-            html += f"<tr><td><b>{escape(name)}</b></td>"
-            if include_trend:
-                trend_cell = format_trend_html(values, display_ref, category, name)
-                trend_cell = add_note_sup_html(trend_cell, note_numbers(category, name, "trend"))
-                html += f"<td>{trend_cell}</td>"
-            for idx, cell in zip(active_indexes, cells):
-                cell = add_note_sup_html(cell, note_numbers(category, name, "value", dates[idx]))
-                html += f"<td>{cell}</td>"
-            html += f"<td>{unit}</td><td>{display_ref}</td></tr>"
-        html += "</table>"
-        html += render_result_notes_html(category)
-    
     # Add Imaging Section
-    html += imaging_data.replace("## ", "<h2>").replace("### ", "<h3>").replace("\n- ", "<br>• ").replace("\n", "<br>")
+    html += render_imaging_html()
 
     # Legend
     html += "<h3>🎨 Color Legend</h3><ul>"
@@ -1607,52 +1763,12 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     # Patient info removed
 
     for category, rows in data.items():
-        
-        dates = date_columns
-        active_indexes = active_date_indexes(rows)
-        include_trend = category_has_trends(rows, category)
-
-        md += f"## {category}\n\n"
-        
-        # Build Header
-        header = "|  |"
-        sep = "| :--- |"
-        if include_trend:
-            header += " Trend |"
-            sep += " :--- |"
-        for idx in active_indexes:
-            header += f" {dates[idx]} |"
-            sep += " :--- |"
-        header += " Unit | *Reference* |"
-        sep += " :--- | :--- |"
-        
-        md += header + "\n" + sep + "\n"
-        
-        for row in rows:
-            name, values, unit, ref = split_result_row(row)
-            display_ref = target_reference(category, name, ref)
-            
-            # Use specific formatter for Urinalysis
-            if category == "Vitals & Functional Health" and name in categorical_markers:
-                cells = [classification_text(values[idx], markdown=True) for idx in active_indexes]
-            elif "Urinalysis" in category:
-                cells = [format_cell_md_urine(values[idx], ref) for idx in active_indexes]
-            else:
-                cells = [format_cell_md(values[idx], display_ref, category, name) for idx in active_indexes]
-            
-            line = f"| **{name}** |"
-            if include_trend:
-                trend_cell = format_trend_md(values, display_ref, category, name)
-                trend_cell = add_note_sup_md(trend_cell, note_numbers(category, name, "trend"))
-                line += f" {trend_cell} |"
-            for idx, cell in zip(active_indexes, cells):
-                cell = add_note_sup_md(cell, note_numbers(category, name, "value", dates[idx]))
-                line += f" {cell} |"
-            line += f" {unit} | {display_ref} |"
-            md += line + "\n"
-        md += render_result_notes_md(category)
-            
-        md += "\n"
+        if category == "Vitals & Functional Health":
+            md += render_vitals_md(rows)
+        else:
+            md += f"## {category}\n\n"
+            md += render_result_table_md(category, rows)
+            md += render_result_notes_md(category) + "\n"
 
     # Add Imaging Section
     md += imaging_data + "\n"

@@ -406,6 +406,15 @@ def _field_records(document, endpoint, fields, stamp):
     for field in fields:
         value = _number(_nested(document, field.path, context), field.path, context,
                         minimum=field.minimum, maximum=field.maximum)
+        if endpoint == "daily_spo2" and field.path == "spo2_percentage.average" and value == 0:
+            # Archived responses contain exact-zero aggregates on some days.
+            # Zero is unusable as an overnight oxygen-saturation measurement;
+            # keep it in the raw archive, not in the numeric monthly mean.
+            # Oura documents missing SpO2 but does not define a zero sentinel:
+            # https://support.ouraring.com/hc/en-us/articles/7328398760851
+            # Every positive value is retained, including low readings. Negative
+            # or >100 values still raise the structural validation error above.
+            continue
         if value is not None:
             records.append(_api_record(
                 document["day"], endpoint, document["id"], field.marker,
