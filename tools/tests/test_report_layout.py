@@ -257,14 +257,16 @@ class GroupedRendererTests(unittest.TestCase):
                     self.assertEqual(cells[header.index("Unit")], "m/s")
                     self.assertEqual(len(cells), len(header))
 
-    def test_compact_reference_is_omitted_only_when_entirely_empty(self):
-        for renderer_name, header in (("render_result_table_html", "<i>Reference</i>"),
-                                      ("render_result_table_md", "*Reference*")):
+    def test_compact_reference_includes_explicit_context_when_no_target_exists(self):
+        for renderer_name, header in (("render_result_table_html", "<i>Reference / target</i>"),
+                                      ("render_result_table_md", "*Reference / target*")):
             renderer = self.report[renderer_name]
             no_reference = renderer("Vitals & Functional Health", [self.rows[0]], compact=True)
             with_reference = renderer("Vitals & Functional Health", [self.rows[3]], compact=True)
-            self.assertNotIn(header, no_reference)
+            self.assertIn(header, no_reference)
+            self.assertIn("no clinical target", no_reference)
             self.assertIn(header, with_reference)
+            self.assertIn("target &lt; 7" if renderer_name.endswith("html") else "target < 7", with_reference)
 
 
 if __name__ == "__main__":

@@ -9,6 +9,10 @@ if __package__ in (None, ""):
 
 from tools.health_sync.monthly import METRICS, apply_report_overlay, load_monthly
 from tools.health_sync.report_layout import layout, counts
+from tools.health_sync.report_guidance import (
+    NEUTRAL, guide_reference, guide_status, numerical_change,
+)
+from tools.health_sync.microbiota_guidance import microbiota_reference, microbiota_status
 
 
 MICROBIOTA_CATEGORY = "Gut Microbiota (GA-map)"
@@ -498,10 +502,19 @@ def calculate_blood_pressure_score(val_str, target):
 
 def target_reference(category, marker, ref):
     if category == MICROBIOTA_CATEGORY:
-        return ref
+        return microbiota_reference(marker, ref)
     target = target_overrides.get((category, marker))
     if target:
         return target["reference"]
+    guidance = guide_reference(category, marker, ref)
+    if guidance is not None:
+        return guidance
+    if ref in {None, "", "-", "—"}:
+        if category == "Vitals & Functional Health":
+            return "Context dependent; no established target"
+        return "Reference not supplied; no separate target"
+    if "target" not in ref.casefold():
+        return f"{ref}; no separate target"
     return ref
 
 def is_inconclusive(value):
@@ -575,22 +588,29 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
         else:
             return 1.0 + ((limit - val) / limit) if limit != 0 else 1.0
             
-    return 0.5 
+    # Missing/unrecognized reference text cannot establish a healthy result.
+    return None
 
 def format_cell_html(val, ref, category=None, marker=None):
+    status = guide_status(category, marker, val)
+    if status is not None:
+        return format_status(val, status)
     score = calculate_score(val, ref, category, marker)
     if score is None:
-        return val
-    color, _ = get_color_hex(score)
+        return format_status(val, NEUTRAL)
+    color, emoji = get_color_hex(score)
     target = target_overrides.get((category, marker))
     arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)
     suffix = f" {arrow}" if arrow else ""
-    return f'<span style="color:{color}; font-weight:bold;">{val}{suffix}</span>'
+    return f'<span style="color:{color}; font-weight:bold;">{emoji} {escape(val)}{suffix}</span>'
 
 def format_cell_md(val, ref, category=None, marker=None):
+    status = guide_status(category, marker, val)
+    if status is not None:
+        return format_status(val, status, markdown=True)
     score = calculate_score(val, ref, category, marker)
     if score is None:
-        return val
+        return format_status(val, NEUTRAL, markdown=True)
     _, emoji = get_color_hex(score)
     target = target_overrides.get((category, marker))
     arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)
@@ -641,14 +661,18 @@ def format_cell_html_urine(val, ref):
     result = format_urinalysis_value(val, ref)
     if result is None:
         return val
-    color, _ = result
-    return f'<span style="color:{color}; font-weight:bold;">{val}</span>'
+    color, emoji = result
+    if not emoji:
+        return format_status(val, NEUTRAL)
+    return f'<span style="color:{color}; font-weight:bold;">{emoji} {escape(val)}</span>'
 
 def format_cell_md_urine(val, ref):
     result = format_urinalysis_value(val, ref)
     if result is None:
         return val
     _, emoji = result
+    if not emoji:
+        return format_status(val, NEUTRAL, markdown=True)
     return f'{emoji} {val}'
 
 # Data Reorganized
@@ -839,6 +863,9 @@ def classify_trend(values, ref, category, marker=None):
     return "Stable"
 
 def format_trend_html(values, ref, category, marker=None):
+    raw_change = unscored_change(values, ref, category, marker)
+    if raw_change is not None:
+        return raw_change
     trend = classify_trend(values, ref, category, marker)
     if trend is None:
         return "-"
@@ -847,6 +874,9 @@ def format_trend_html(values, ref, category, marker=None):
     return definition["emoji"]
 
 def format_trend_md(values, ref, category, marker=None):
+    raw_change = unscored_change(values, ref, category, marker)
+    if raw_change is not None:
+        return raw_change
     trend = classify_trend(values, ref, category, marker)
     if trend is None:
         return "-"
@@ -854,10 +884,21 @@ def format_trend_md(values, ref, category, marker=None):
     definition = trend_definitions[trend]
     return definition["emoji"]
 
+def unscored_change(values, ref, category, marker):
+    if category not in {"Vitals & Functional Health", MICROBIOTA_CATEGORY}:
+        return None
+    if category == MICROBIOTA_CATEGORY or (category, marker) in no_score_markers:
+        return numerical_change(values)
+    # New provider classifications are display guidance, not legacy health scores.
+    if any(guide_status(category, marker, value) is not None for value in values):
+        return numerical_change(values)
+    return None
+
+
 def category_has_trends(rows, category):
     for row in rows:
         name, values, _, ref = split_result_row(row)
-        if classify_trend(values, ref, category, name) is not None:
+        if format_trend_md(values, target_reference(category, name, ref), category, name) != "-":
             return True
     return False
 
@@ -1454,7 +1495,7 @@ result_notes = {
             "markers": [],
         },
         {
-            "text": "Marker values transcribe the plotted positions on the lab's -3 to +3 relative-abundance chart. The unnumbered central reference column is encoded as 0; negative/positive values lie to its left/right. These are ordered chart positions; the PDF supplies no percentages, absolute counts, fold changes or standard-deviation units. A nonzero position is not automatically an abnormal group assessment. The report's general health colors and trend scoring are not applied to this section. Broad marker names can cover several taxa and do not prove that a named pathogen or toxigenic strain is present.",
+            "text": "Marker values transcribe the plotted positions on the lab's -3 to +3 relative-abundance chart. The unnumbered central reference column is encoded as 0; negative/positive values lie to its left/right. These are ordered chart positions; the PDF supplies no percentages, absolute counts, fold changes or standard-deviation units. A nonzero position is not automatically an abnormal group assessment. Dots follow each marker's laboratory color band; dark green is reference, light green is a small association with increased dysbiosis index, orange moderate and red high. Both greens use a green dot with distinct text labels in Markdown. These are not therapeutic targets or the general report's health-severity scores. Broad marker names can cover several taxa and do not prove that a named pathogen or toxigenic strain is present.",
             "markers": [],
         },
     ],
@@ -1679,6 +1720,30 @@ def classification_text(value, *, markdown=False):
     return text
 
 
+def format_status(value, status, *, markdown=False, show_label=False):
+    """One escaped value with an explicit source or neutral status dot."""
+    if value in {None, "", "-", "—"}:
+        return "-"
+    color, emoji, label = status
+    # Keep the lab's two green bands distinct and readable on a white page.
+    color = {
+        "#32CD32": "#177527", "#ADFF2F": "#527d13", "#FFA500": "#9c4b00",
+        "#FF4500": "#b22319", "#FFB80E": "#927000",
+        "#4CB814": "#177527", "#7CCA53": "#527d13",
+    }.get(color, color)
+    literal = classification_text(value, markdown=markdown)
+    suffix = f" — {classification_text(label, markdown=markdown)}" if show_label else ""
+    if markdown:
+        return f"{emoji} {literal}{suffix}"
+    return f'<span title="{escape(label, quote=True)}" style="color:{color}; font-weight:bold;">{emoji} {literal}{suffix}</span>'
+
+
+def format_microbiota_cell(value, marker, *, markdown=False):
+    status = microbiota_status(marker, value)
+    return format_status(value, status or NEUTRAL, markdown=markdown,
+                         show_label=bool(status and re.match(r"^\d+ - ", marker)))
+
+
 def render_result_table_html(category, rows, active_indexes=None, compact=False):
     if active_indexes is None:
         active_indexes = active_date_indexes(rows)
@@ -1693,15 +1758,15 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
         html += f"<th>{date_columns[idx]}</th>"
     html += "<th>Unit</th>"
     if include_reference:
-        html += "<th><i>Reference</i></th>"
+        html += "<th><i>Reference / target</i></th>"
     html += "</tr>"
     for row in rows:
         name, values, unit, ref = split_result_row(row)
         display_ref = target_reference(category, name, ref)
         if category == MICROBIOTA_CATEGORY:
-            cells = [classification_text(values[idx]) for idx in active_indexes]
+            cells = [format_microbiota_cell(values[idx], name) for idx in active_indexes]
         elif category == "Vitals & Functional Health" and name in categorical_markers:
-            cells = [classification_text(values[idx]) for idx in active_indexes]
+            cells = [format_status(values[idx], NEUTRAL) for idx in active_indexes]
         elif "Urinalysis" in category:
             cells = [format_cell_html_urine(values[idx], ref) for idx in active_indexes]
         else:
@@ -1716,7 +1781,7 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
             html += f"<td>{cell}</td>"
         html += f"<td>{unit}</td>"
         if include_reference:
-            html += f"<td>{display_ref}</td>"
+            html += f"<td>{escape(display_ref)}</td>"
         html += "</tr>"
     return html + "</table>"
 
@@ -1739,16 +1804,16 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
     header += " Unit |"
     sep += " :--- |"
     if include_reference:
-        header += " *Reference* |"
+        header += " *Reference / target* |"
         sep += " :--- |"
     md = header + "\n" + sep + "\n"
     for row in rows:
         name, values, unit, ref = split_result_row(row)
         display_ref = target_reference(category, name, ref)
         if category == MICROBIOTA_CATEGORY:
-            cells = [classification_text(values[idx], markdown=True) for idx in active_indexes]
+            cells = [format_microbiota_cell(values[idx], name, markdown=True) for idx in active_indexes]
         elif category == "Vitals & Functional Health" and name in categorical_markers:
-            cells = [classification_text(values[idx], markdown=True) for idx in active_indexes]
+            cells = [format_status(values[idx], NEUTRAL, markdown=True) for idx in active_indexes]
         elif "Urinalysis" in category:
             cells = [format_cell_md_urine(values[idx], ref) for idx in active_indexes]
         else:
@@ -1771,7 +1836,10 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
 VITALS_INTRO = (
     "Monthly averages where available; current-month values are month to date. "
     "Provider names distinguish different measurement methods. "
-    "Dated manual observations and app snapshots are identified in the source notes."
+    "Dated manual observations and app snapshots are identified in the source notes. "
+    "Dots show target/reference status; ⚪ means unclassified. "
+    "Arrow deltas show numerical change, not a health judgment. "
+    "See the <a href='results/Reference-Guide.md'>reference and trend guide</a>."
 )
 VITALS_DETAILS_INTRO = (
     "Additional source-specific measurements, body segments, estimates and score components. "
@@ -1857,7 +1925,9 @@ MICROBIOTA_INTRO = (
 MICROBIOTA_SCALE = (
     "Original marker IDs and names are retained. Chart positions range from -3 to +3; "
     "0 represents the central reference column. These positions are not percentages, "
-    "and a nonzero position does not automatically make a group abnormal."
+    "and a nonzero position does not automatically make a group abnormal. "
+    "Dots and labels show the lab's own bands. The two greens mean reference "
+    "and small association, respectively; no therapeutic target is established."
 )
 
 
@@ -1937,7 +2007,8 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += ".vitals summary { cursor: pointer; font-weight: 600; color: #344d6c; } .vitals summary:focus-visible { outline: 2px solid #344d6c; outline-offset: 4px; }"
     html += ".vitals details[open] > summary { margin-bottom: 20px; } .vitals .table-notes { margin: 0; } .vitals .table-notes p { margin: 10px 0; }"
     html += ".microbiota details { border: 1px solid #dce4ed; border-radius: 8px; margin: 16px 0 24px; padding: 16px 20px; } .microbiota summary { cursor: pointer; font-weight: 600; color: #344d6c; }"
-    html += ".microbiota .metric-group h3 { margin-bottom: 12px; } .microbiota td:first-child { width: 55%; } .microbiota .table-notes p { margin: 10px 0; }"
+    html += ".microbiota .metric-group h3 { margin-bottom: 12px; } .microbiota td:first-child { width: 42%; } .microbiota .table-notes p { margin: 10px 0; }"
+    html += ".vitals td:last-child, .microbiota td:last-child { min-width: 220px; }"
     html += ".microbiota table { min-width: 620px; overflow-wrap: normal; } .microbiota th { white-space: nowrap; } @media(max-width: 700px) { .microbiota td:first-child { width: 160px; min-width: 160px; max-width: 160px; } }"
     html += "@media(max-width: 700px) { body { padding: 12px; overflow-wrap: anywhere; } h1 { font-size: 1.4rem; } .vitals details { padding: 12px; } .vitals td:first-child { width: 150px; min-width: 150px; max-width: 150px; } .vitals td { padding: 8px; } }"
     html += "</style></head><body>"
@@ -1970,11 +2041,13 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += "<li><span style='color:#8b0000; font-weight:bold;'>● Dark Red</span>: Critical</li>"
     html += "</ul>"
     html += "<p class='note'>Single-result colors use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.</p>"
+    html += "<p class='note'>⚪ on a result means no health classification assigned, not normal or abnormal. Added wearable bands are provider comparisons; microbiota dots use the lab's separate scale and labels. Reference and target limits: <a href='results/Reference-Guide.md'>source guide</a>.</p>"
 
     html += "<h3>Trend Legend</h3><ul>"
     for label, definition in trend_definitions.items():
         html += f"<li><span style='font-weight:bold;'>{definition['emoji']} {label}</span>: {definition['description'].capitalize()}</li>"
     html += "<li><b>-</b>: not enough comparable completed results</li>"
+    html += "<li><b>↑ +value / ↓ −value / → 0</b>: numerical change in the row's unit; not a health judgment. Percentage rows use percentage points.</li>"
     html += "</ul>"
     html += "<p class='note'>Trend compares the latest completed result with the previous completed result using the health-target score; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.</p>"
 
@@ -2007,11 +2080,14 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     md += "*   🟡 **Watch**: Mild meaningful deviation from target or range\n"
     md += "*   🟠 **Concern**: Significant deviation from target or range\n"
     md += "*   🔴 **Critical**: Severe or critical deviation\n\n"
+    md += "*   ⚪ **Unclassified result**: No health classification assigned; not normal or abnormal\n\n"
+    md += "> Added wearable bands are provider comparisons. Microbiota dots use the lab's separate scale and labels. See the [reference and trend guide](results/Reference-Guide.md).\n\n"
     md += "> **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.\n\n"
     md += "### Trend Legend\n"
     for label, definition in trend_definitions.items():
         md += f"*   {definition['emoji']} **{label}**: {definition['description'].capitalize()}\n"
     md += "*   **-**: Not enough comparable completed results\n\n"
+    md += "*   **↑ +value / ↓ −value / → 0**: Numerical change in the row's unit, not a health judgment; percentage rows use percentage points\n\n"
     md += "> **Trend method:** Compares the latest completed result with the previous completed result using the health-target score; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.\n\n"
     md += "> **Note:** See `results.html` for detailed color gradients.\n"
 

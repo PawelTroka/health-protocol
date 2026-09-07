@@ -31,6 +31,11 @@ def markdown_rows(rendered):
     return rows
 
 
+def literal_result(cell):
+    """Remove display-only status and lab-band annotation from a source value."""
+    return re.sub(r"^[⚪🔵🟢🟡🟠🔴]\s+", "", cell).split(" — ", 1)[0]
+
+
 class MicrobiotaReportTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -104,11 +109,11 @@ class MicrobiotaReportTests(unittest.TestCase):
         self.assertEqual(len(parsed.details), 1)
         self.assertNotIn("open", parsed.details[0])
         for cells, _ in results:
-            self.assertEqual(cells[1], expected[cells[0]])
+            self.assertEqual(literal_result(cells[1]), expected[cells[0]])
         for header in (row for row in parsed.rows if row[0] == "Metric"):
             self.assertEqual([cell for cell in header if re.fullmatch(r"\d{4}-\d{2}", cell)], ["2026-07"])
             self.assertNotIn("Trend", header)
-        self.assertNotIn("color:", rendered)
+            self.assertIn("Reference / target", header)
 
     def test_markdown_keeps_each_literal_result_once_with_closed_marker_details(self):
         rendered = self.report["render_microbiota_md"](self.rows)
@@ -117,14 +122,14 @@ class MicrobiotaReportTests(unittest.TestCase):
         results = [row for row in parsed if row[0] in expected]
         self.assertEqual(Counter(row[0] for row in results), Counter(expected.keys()))
         for cells in results:
-            self.assertEqual(cells[1], expected[cells[0]])
+            self.assertEqual(literal_result(cells[1]), expected[cells[0]])
         self.assertEqual(rendered.count("<details>"), 1)
         self.assertEqual(rendered.count("</details>"), 1)
         self.assertNotRegex(rendered, r"<details\s+open")
         self.assertIn("48 results", rendered)
         self.assertTrue(all("Trend" not in row for row in parsed if row[0] == "Metric"))
 
-    def test_category_guard_blocks_targets_and_future_qualitative_or_numeric_trends(self):
+    def test_category_guard_blocks_health_targets_but_allows_raw_numeric_change(self):
         namespace = self.report["calculate_score"].__globals__
         target = self.report["low_good_target"]("invented target", 1.0, 2.0)
         marker = "Future laboratory marker"
@@ -139,15 +144,53 @@ class MicrobiotaReportTests(unittest.TestCase):
                     values = [latest if month == "2026-09" else previous if month == "2026-07" else "-"
                               for month in self.report["date_columns"]]
                     row = (marker, *values, "Lab classification", "< 1")
-                    self.assertFalse(self.report["category_has_trends"]([row], self.category))
+                    numeric_pair = latest == "+3"
+                    self.assertEqual(self.report["category_has_trends"]([row], self.category), numeric_pair)
                     for output_format in ("html", "md"):
                         rendered = self.report[f"render_microbiota_{output_format}"]([row])
                         table = TableRows() if output_format == "html" else None
                         if table is not None:
                             table.feed(rendered)
                         parsed = table.rows if table is not None else markdown_rows(rendered)
-                        self.assertNotIn("Trend", parsed[0])
-                        self.assertEqual(parsed[1][1:3], [latest, previous])
+                        header, result = parsed
+                        if numeric_pair:
+                            self.assertEqual(header[:2], ["Metric", "Trend"])
+                            self.assertEqual(result[1], "↑ +5")
+                        else:
+                            self.assertNotIn("Trend", header)
+                        self.assertEqual(
+                            [literal_result(result[header.index(month)]) for month in ("2026-09", "2026-07")],
+                            [latest, previous],
+                        )
+
+    def test_lab_statuses_preserve_distinct_source_bands_without_generic_health_scoring(self):
+        status = self.report["microbiota_status"]
+        marker_names = {marker[0]: self.report["microbiota_marker_name"](marker)
+                        for marker in self.report["microbiota_markers"]}
+        self.assertEqual(status("Dysbiosis Index", "3 (mild dysbiosis)")[1], "🟡")
+        self.assertEqual(status("Bacterial Diversity", "As expected")[1], "🟢")
+        groups = self.report["microbiota_groups"]
+        group_statuses = [status(self.report["microbiota_group_name"](group), group[2])[1]
+                          for group in groups]
+        self.assertEqual(Counter(group_statuses), {"🟢": 7, "🟠": 5})
+        light_green = status(marker_names[305], "-1")
+        reference_green = status(marker_names[300], "0")
+        self.assertEqual(light_green, ("#ADFF2F", "🟢", "small lab association"))
+        self.assertEqual(reference_green, ("#32CD32", "🟢", "lab reference profile"))
+        self.assertEqual(status(marker_names[201], "-1"),
+                         ("#FFA500", "🟠", "moderate lab association"))
+        for output_format in ("html", "md"):
+            rendered = self.report[f"render_microbiota_{output_format}"](self.rows)
+            parsed = TableRows() if output_format == "html" else None
+            if parsed is not None:
+                parsed.feed(rendered)
+            rows = parsed.rows if parsed is not None else markdown_rows(rendered)
+            values = {row[0]: row[1] for row in rows if row[0] in marker_names.values()}
+            self.assertEqual(len(values), 48)
+            self.assertTrue(all(" — " in cell for cell in values.values()))
+            self.assertEqual(values[marker_names[305]], "🟢 -1 — small lab association")
+            self.assertEqual(values[marker_names[300]], "🟢 0 — lab reference profile")
+            self.assertEqual(values[marker_names[201]], "🟠 -1 — moderate lab association")
 
     def test_report_values_are_literal_escaped_text_in_both_formats(self):
         dangerous = 'raw <script>alert(1)</script> | [label](url) & text'
@@ -159,7 +202,7 @@ class MicrobiotaReportTests(unittest.TestCase):
         self.assertIn("&lt;script&gt;alert(1)&lt;/script&gt;", html)
         parsed = TableRows()
         parsed.feed(html)
-        self.assertEqual(next(row[1] for row in parsed.rows if row[0] == changed[0]), dangerous)
+        self.assertEqual(next(row[1] for row in parsed.rows if row[0] == changed[0]), "⚪ " + dangerous)
         markdown = self.report["render_microbiota_md"](rows)
         self.assertNotIn("<script>", markdown)
         self.assertIn(r"\|", markdown)
