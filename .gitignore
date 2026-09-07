@@ -1,7 +1,16 @@
 # Codex-generated document render directories
 /.codex-docx-render-*/
 
+# Downloaded attachments and temporary generated artifacts
+/.codex-remote-attachments/
+/output/
+/tmp/
+
+# Python bytecode caches at any directory depth
+__pycache__/
+*.pyc
+*.pyo
+
 # Private API exports and daily sync cache; OAuth credentials live outside Git.
 /.health-sync/
 /tools/.secrets/
-/tools/**/__pycache__/
