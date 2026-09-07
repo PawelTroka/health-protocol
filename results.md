@@ -20,70 +20,70 @@ Monthly averages where available; current-month values are month to date. Provid
 
 Weight and composition, including bone percentage and the visceral fat index.
 
-| Metric | 2026-09 | 2026-08 | 2026-07 | Trend | Unit | *Reference* |
+| Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Body Mass** | 80.4<sup>7</sup> | 81.3<sup>7</sup> | 83.7<sup>7</sup> | - | kg | - |
-| **BMI** | 🔵<sup>7</sup> 24.8 | 🔵<sup>7</sup> 25.1 ↑ | 🔵<sup>7</sup> 25.8 ↑ | ⚪ | kg/m^2 | 18.5 - 24.9; target 20 - 24.9 |
-| **Body Fat** | 🔵<sup>7</sup> 13.6 | 🔵<sup>7</sup> 15.8 | 🟢<sup>7</sup> 18.2 | 🟢 | % | 10 - 20; target 10 - 15 |
-| **Muscle** | 🔵<sup>7</sup> 82.3 | 🔵<sup>7</sup> 80.1 | 🔵<sup>7</sup> 77.8 | ⚪ | % | > 70; target >= 75 |
-| **Bone** | 4.2<sup>7</sup> | 4.1<sup>7</sup> | 4.0<sup>7</sup> | - | % | - |
-| **Visceral Fat Index** | 2.3<sup>7</sup> | 2.5<sup>7</sup> | 2.8<sup>7</sup> | - | index | - |
+| **Body Mass** | - | 80.4<sup>7</sup> | 81.3<sup>7</sup> | 83.7<sup>7</sup> | kg | - |
+| **BMI** | ⚪ | 🔵<sup>7</sup> 24.8 | 🔵<sup>7</sup> 25.1 ↑ | 🔵<sup>7</sup> 25.8 ↑ | kg/m^2 | 18.5 - 24.9; target 20 - 24.9 |
+| **Body Fat** | 🟢 | 🔵<sup>7</sup> 13.6 | 🔵<sup>7</sup> 15.8 | 🟢<sup>7</sup> 18.2 | % | 10 - 20; target 10 - 15 |
+| **Muscle** | ⚪ | 🔵<sup>7</sup> 82.3 | 🔵<sup>7</sup> 80.1 | 🔵<sup>7</sup> 77.8 | % | > 70; target >= 75 |
+| **Bone** | - | 4.2<sup>7</sup> | 4.1<sup>7</sup> | 4.0<sup>7</sup> | % | - |
+| **Visceral Fat Index** | - | 2.3<sup>7</sup> | 2.5<sup>7</sup> | 2.8<sup>7</sup> | index | - |
 
 ### Body measurements
 
 Self-reported sizes, with dated snapshots and measurement methods identified in the source notes.
 
-| Metric | 2026-09 | 2026-08 | 2026-07 | Unit |
-| :--- | :--- | :--- | :--- | :--- |
-| **Height** | 180<sup>6</sup> | - | 180<sup>2</sup> | cm |
-| **Waist Circumference (Narrowest Point)** | 85<sup>6</sup> | - | - | cm |
-| **Hip Circumference** | 99<sup>6</sup> | - | - | cm |
-| **Chest Circumference** | 106<sup>6</sup> | - | - | cm |
-| **Shoulder Circumference** | 117.5<sup>6</sup> | - | - | cm |
-| **Neck Circumference** | 38.5<sup>6</sup> | - | - | cm |
-| **Right Upper Arm Circumference (Flexed)** | 38<sup>6</sup> | - | - | cm |
-| **Right Forearm Circumference** | 32<sup>6</sup> | - | - | cm |
-| **Right Wrist Circumference** | 15.5<sup>6</sup> | - | - | cm |
-| **Right Thigh Circumference** | 60<sup>6</sup> | - | - | cm |
-| **Right Calf Circumference** | 36<sup>6</sup> | - | - | cm |
-| **Right Ankle Circumference** | 24<sup>6</sup> | - | - | cm |
-| **Right Above-Ankle Circumference** | 21<sup>6</sup> | - | - | cm |
-| **Foot Length (Side Unspecified)** | 25.5<sup>6</sup> | - | - | cm |
-| **Head Circumference** | 57<sup>6</sup> | - | - | cm |
+| Metric | 2026-09 | 2026-07 | Unit |
+| :--- | :--- | :--- | :--- |
+| **Height** | 180<sup>6</sup> | 180<sup>2</sup> | cm |
+| **Waist Circumference (Narrowest Point)** | 85<sup>6</sup> | - | cm |
+| **Hip Circumference** | 99<sup>6</sup> | - | cm |
+| **Chest Circumference** | 106<sup>6</sup> | - | cm |
+| **Shoulder Circumference** | 117.5<sup>6</sup> | - | cm |
+| **Neck Circumference** | 38.5<sup>6</sup> | - | cm |
+| **Right Upper Arm Circumference (Flexed)** | 38<sup>6</sup> | - | cm |
+| **Right Forearm Circumference** | 32<sup>6</sup> | - | cm |
+| **Right Wrist Circumference** | 15.5<sup>6</sup> | - | cm |
+| **Right Thigh Circumference** | 60<sup>6</sup> | - | cm |
+| **Right Calf Circumference** | 36<sup>6</sup> | - | cm |
+| **Right Ankle Circumference** | 24<sup>6</sup> | - | cm |
+| **Right Above-Ankle Circumference** | 21<sup>6</sup> | - | cm |
+| **Right Foot Length** | 25.5<sup>6</sup> | - | cm |
+| **Head Circumference** | 57<sup>6</sup> | - | cm |
 
 ### Heart and circulation
 
 Blood pressure, pulse-wave velocity, heart rate and recorded ECG classifications.
 
-| Metric | 2026-09 | 2026-08 | 2026-07 | Trend | Unit | *Reference* |
+| Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Blood Pressure** | 🔵<sup>7</sup> 108.0/76.0 | 🔵<sup>7</sup> 105.0/71.0 | 🟢<sup>7</sup> 115.2/78.7 | 🟡 | mmHg | < 120 / < 80; target 100-115 / 60-75 |
-| **PWV** | 🔵<sup>7</sup> 6.1 | 🔵<sup>7</sup> 6.5 | 🔵<sup>7</sup> 6.2 | ⚪ | m/s | < 10; target < 7 |
-| **Estimated PWV (Oura)** | 6.40<sup>7</sup> | 6.42<sup>7</sup> | 6.45<sup>7</sup> | - | m/s | - |
-| **Average Sleeping HR (Oura)** | 65.9<sup>7</sup> | 66.2<sup>7</sup> | 66.6<sup>7</sup> | - | bpm | - |
-| **Mean Nightly Lowest HR (Oura)** | 59.0<sup>7</sup> | 58.9<sup>7</sup> | 59.4<sup>7</sup> | - | bpm | - |
-| **ECG AF Classification (Withings)** | Negative: 2<sup>8</sup> | Negative: 6<sup>8</sup> | Negative: 17<sup>8</sup> | - | Status | - |
+| **Blood Pressure** | 🟡 | 🔵<sup>7</sup> 108.0/76.0 | 🔵<sup>7</sup> 105.0/71.0 | 🟢<sup>7</sup> 115.2/78.7 | mmHg | < 120 / < 80; target 100-115 / 60-75 |
+| **PWV** | ⚪ | 🔵<sup>7</sup> 6.1 | 🔵<sup>7</sup> 6.5 | 🔵<sup>7</sup> 6.2 | m/s | < 10; target < 7 |
+| **Estimated PWV (Oura)** | - | 6.40<sup>7</sup> | 6.42<sup>7</sup> | 6.45<sup>7</sup> | m/s | - |
+| **Average Sleeping HR (Oura)** | - | 65.9<sup>7</sup> | 66.2<sup>7</sup> | 66.6<sup>7</sup> | bpm | - |
+| **Mean Nightly Lowest HR (Oura)** | - | 59.0<sup>7</sup> | 58.9<sup>7</sup> | 59.4<sup>7</sup> | bpm | - |
+| **ECG AF Classification (Withings)** | - | Negative: 2<sup>8</sup> | Negative: 6<sup>8</sup> | Negative: 17<sup>8</sup> | Status | - |
 
 ### Sleep and breathing
 
 Sleep duration, stages, continuity, breathing and oxygen measurements.
 
-| Metric | 2026-09 | 2026-08 | 2026-07 | Trend | Unit | *Reference* |
+| Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sleep Duration** | 🔵<sup>7</sup> 7.51 | 🔵<sup>7</sup> 7.60 | 🔵<sup>7</sup> 7.68 | ⚪ | h | >= 7; target 7 - 9 |
-| **Time in Bed** | 8.86<sup>7</sup> | 9.00<sup>7</sup> | 8.97<sup>7</sup> | - | h | - |
-| **Sleep Efficiency** | 84.8<sup>7</sup> | 84.6<sup>7</sup> | 85.9<sup>7</sup> | - | % | - |
-| **Sleep Latency** | 15.0<sup>7</sup> | 22.7<sup>7</sup> | 22.0<sup>7</sup> | - | min | - |
-| **Sleep Score** | 81.6<sup>7</sup> | 78.7<sup>7</sup> | 77.4<sup>7</sup> | - | score | - |
-| **REM Sleep** | 🔵<sup>7</sup> 1.64 | 🔵<sup>7</sup> 1.72 | 🔵<sup>7</sup> 1.75 | ⚪ | h | 1.5 - 2.3; target 20 - 25% of sleep |
-| **Deep Sleep** | 🔵<sup>7</sup> 1.14 | 🔵<sup>7</sup> 1.05 | 🔵<sup>7</sup> 1.07 | ⚪ | h | about 1 - 2; target 1 - 2 |
-| **Light Sleep (Oura)** | 4.74<sup>7</sup> | 4.83<sup>7</sup> | 4.86<sup>7</sup> | - | h | - |
-| **Awake Time During Sleep (Oura)** | 1.35<sup>7</sup> | 1.39<sup>7</sup> | 1.29<sup>7</sup> | - | h | - |
-| **Respiratory Rate (Sleep)** | 🔵<sup>7</sup> 12.38 | 🔵<sup>7</sup> 12.30 | 🔵<sup>7</sup> 12.62 | ⚪ | /min | 12 - 20; target 12 - 16 |
-| **Average Sleeping SpO2 (Oura)** | 94.7<sup>7</sup> | 94.7<sup>7</sup> | 94.5<sup>7</sup> | - | % | - |
-| **Sleep Apnea AHI** | 🔵<sup>7</sup> 5.0 | 🔵<sup>7</sup> 2.7 | 🔵<sup>7</sup> 4.7 | ⚪ | events/h | < 5; target < 5 |
-| **Breathing Disturbance Index (Oura)** | 0.8<sup>7</sup> | 1.0<sup>7</sup> | 1.0<sup>7</sup> | - | index | - |
-| **Snoring Duration (Withings)** | 2.8<sup>7</sup> | 2.0<sup>7</sup> | 4.0<sup>7</sup> | - | min | - |
+| **Sleep Duration** | ⚪ | 🔵<sup>7</sup> 7.51 | 🔵<sup>7</sup> 7.60 | 🔵<sup>7</sup> 7.68 | h | >= 7; target 7 - 9 |
+| **Time in Bed** | - | 8.86<sup>7</sup> | 9.00<sup>7</sup> | 8.97<sup>7</sup> | h | - |
+| **Sleep Efficiency** | - | 84.8<sup>7</sup> | 84.6<sup>7</sup> | 85.9<sup>7</sup> | % | - |
+| **Sleep Latency** | - | 15.0<sup>7</sup> | 22.7<sup>7</sup> | 22.0<sup>7</sup> | min | - |
+| **Sleep Score** | - | 81.6<sup>7</sup> | 78.7<sup>7</sup> | 77.4<sup>7</sup> | score | - |
+| **REM Sleep** | ⚪ | 🔵<sup>7</sup> 1.64 | 🔵<sup>7</sup> 1.72 | 🔵<sup>7</sup> 1.75 | h | 1.5 - 2.3; target 20 - 25% of sleep |
+| **Deep Sleep** | ⚪ | 🔵<sup>7</sup> 1.14 | 🔵<sup>7</sup> 1.05 | 🔵<sup>7</sup> 1.07 | h | about 1 - 2; target 1 - 2 |
+| **Light Sleep (Oura)** | - | 4.74<sup>7</sup> | 4.83<sup>7</sup> | 4.86<sup>7</sup> | h | - |
+| **Awake Time During Sleep (Oura)** | - | 1.35<sup>7</sup> | 1.39<sup>7</sup> | 1.29<sup>7</sup> | h | - |
+| **Respiratory Rate (Sleep)** | ⚪ | 🔵<sup>7</sup> 12.38 | 🔵<sup>7</sup> 12.30 | 🔵<sup>7</sup> 12.62 | /min | 12 - 20; target 12 - 16 |
+| **Average Sleeping SpO2 (Oura)** | - | 94.7<sup>7</sup> | 94.7<sup>7</sup> | 94.5<sup>7</sup> | % | - |
+| **Sleep Apnea AHI** | ⚪ | 🔵<sup>7</sup> 5.0 | 🔵<sup>7</sup> 2.7 | 🔵<sup>7</sup> 4.7 | events/h | < 5; target < 5 |
+| **Breathing Disturbance Index (Oura)** | - | 0.8<sup>7</sup> | 1.0<sup>7</sup> | 1.0<sup>7</sup> | index | - |
+| **Snoring Duration (Withings)** | - | 2.8<sup>7</sup> | 2.0<sup>7</sup> | 4.0<sup>7</sup> | min | - |
 
 ### Recovery and stress
 
@@ -102,20 +102,20 @@ Nightly HRV, readiness and the recorded stress and resilience summaries.
 
 Fitness estimates, daily activity and recorded workout summaries retain their source notes.
 
-| Metric | 2026-09 | 2026-08 | 2026-07 | Trend | Unit | *Reference* |
+| Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **VO2max** | 🔵<sup>5</sup> 44 | - | 🔵 43 | 🟢 | ml/kg/min | > 35; target >= 45 |
-| **Steps (Oura)** | 4938<sup>7</sup> | 6128<sup>7</sup> | 5791<sup>7</sup> | - | steps | - |
-| **Activity Score (Oura)** | 78.2<sup>7</sup> | 88.5<sup>7</sup> | 93.6<sup>7</sup> | - | score | - |
-| **Active Duration (Withings)** | - | 78.5<sup>7</sup> | 26.5<sup>7</sup> | - | min | - |
-| **High Activity Time (Oura)** | 0.02<sup>7</sup> | 0.08<sup>7</sup> | 0.17<sup>7</sup> | - | h | - |
-| **Medium Activity Time (Oura)** | 1.19<sup>7</sup> | 1.60<sup>7</sup> | 2.33<sup>7</sup> | - | h | - |
-| **Low Activity Time (Oura)** | 3.73<sup>7</sup> | 3.95<sup>7</sup> | 3.03<sup>7</sup> | - | h | - |
-| **Sedentary Time (Oura)** | 10.12<sup>7</sup> | 8.43<sup>7</sup> | 8.73<sup>7</sup> | - | h | - |
-| **Active Energy (Oura)** | 593.6<sup>7</sup> | 783.3<sup>7</sup> | 968.5<sup>7</sup> | - | kcal | - |
-| **Total Energy Expenditure (Oura)** | 2798.6<sup>7</sup> | 3027.6<sup>7</sup> | 3221.9<sup>7</sup> | - | kcal | - |
-| **Duration per Recorded Workout (Oura)** | 2.00<sup>7</sup> | 0.88<sup>7</sup> | 1.42<sup>7</sup> | - | h | - |
-| **Distance per Recorded Workout (Oura)** | - | 5.31<sup>7</sup> | 7.91<sup>7</sup> | - | km | - |
+| **VO2max** | 🟢 | 🔵<sup>5</sup> 44 | - | 🔵 43 | ml/kg/min | > 35; target >= 45 |
+| **Steps (Oura)** | - | 4938<sup>7</sup> | 6128<sup>7</sup> | 5791<sup>7</sup> | steps | - |
+| **Activity Score (Oura)** | - | 78.2<sup>7</sup> | 88.5<sup>7</sup> | 93.6<sup>7</sup> | score | - |
+| **Active Duration (Withings)** | - | - | 78.5<sup>7</sup> | 26.5<sup>7</sup> | min | - |
+| **High Activity Time (Oura)** | - | 0.02<sup>7</sup> | 0.08<sup>7</sup> | 0.17<sup>7</sup> | h | - |
+| **Medium Activity Time (Oura)** | - | 1.19<sup>7</sup> | 1.60<sup>7</sup> | 2.33<sup>7</sup> | h | - |
+| **Low Activity Time (Oura)** | - | 3.73<sup>7</sup> | 3.95<sup>7</sup> | 3.03<sup>7</sup> | h | - |
+| **Sedentary Time (Oura)** | - | 10.12<sup>7</sup> | 8.43<sup>7</sup> | 8.73<sup>7</sup> | h | - |
+| **Active Energy (Oura)** | - | 593.6<sup>7</sup> | 783.3<sup>7</sup> | 968.5<sup>7</sup> | kcal | - |
+| **Total Energy Expenditure (Oura)** | - | 2798.6<sup>7</sup> | 3027.6<sup>7</sup> | 3221.9<sup>7</sup> | kcal | - |
+| **Duration per Recorded Workout (Oura)** | - | 2.00<sup>7</sup> | 0.88<sup>7</sup> | 1.42<sup>7</sup> | h | - |
+| **Distance per Recorded Workout (Oura)** | - | - | 5.31<sup>7</sup> | 7.91<sup>7</sup> | km | - |
 
 ### Nerve health and temperature
 
@@ -332,19 +332,19 @@ Device-reported age and metabolic estimates retain their specific model definiti
 
 Original manual observations and snapshots retain their dates and source notes.
 
-| Metric | 2026-09 | 2026-08 | 2026-07 | Trend | Unit | *Reference* |
+| Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Cardiovascular Age Difference (Oura)** | -6.5<sup>5</sup> | - | - | - | years | - |
-| **ECG Heart Rate** | - | - | 🔵 68 | - | bpm | 50 - 100; target 50 - 80 |
-| **ECG Rhythm** | 🔵<sup>3</sup> normal sinus rhythm | 🔵<sup>3</sup> normal sinus rhythm | 🔵 normal sinus rhythm | ⚪ | Status | normal sinus rhythm |
-| **Heart Sounds** | inconclusive<sup>3</sup> | 🔵<sup>3</sup> normal (apex area) | 🔵 normal (no signs of valvular heart disease) | - | Status | normal |
-| **Max HRV** | 51<sup>4</sup> | - | 48<sup>4</sup> | - | ms | - |
-| **Maximum Heart Rate** | - | - | 190<sup>4</sup> | - | bpm | - |
-| **Nighttime BP Dip** | - | - | 🔵 16.7 | - | % | 10 - 20; target 10 - 20 |
-| **Nighttime BP Pattern** | typical dipping<sup>5</sup> | - | - | - | Status | - |
-| **Resting Heart Rate** | - | - | 🔵 ~65 | - | bpm | 60 - 100; target 50 - 70 |
-| **Sleeping Heart Rate** | - | - | 🔵 56 | - | bpm | 40 - 80; target 45 - 60 |
-| **Stress** | low<sup>5</sup> | - | 🔵 minor | - |  | low/minor |
+| **Cardiovascular Age Difference (Oura)** | - | -6.5<sup>5</sup> | - | - | years | - |
+| **ECG Heart Rate** | - | - | - | 🔵 68 | bpm | 50 - 100; target 50 - 80 |
+| **ECG Rhythm** | ⚪ | 🔵<sup>3</sup> normal sinus rhythm | 🔵<sup>3</sup> normal sinus rhythm | 🔵 normal sinus rhythm | Status | normal sinus rhythm |
+| **Heart Sounds** | - | inconclusive<sup>3</sup> | 🔵<sup>3</sup> normal (apex area) | 🔵 normal (no signs of valvular heart disease) | Status | normal |
+| **Max HRV** | - | 51<sup>4</sup> | - | 48<sup>4</sup> | ms | - |
+| **Maximum Heart Rate** | - | - | - | 190<sup>4</sup> | bpm | - |
+| **Nighttime BP Dip** | - | - | - | 🔵 16.7 | % | 10 - 20; target 10 - 20 |
+| **Nighttime BP Pattern** | - | typical dipping<sup>5</sup> | - | - | Status | - |
+| **Resting Heart Rate** | - | - | - | 🔵 ~65 | bpm | 60 - 100; target 50 - 70 |
+| **Sleeping Heart Rate** | - | - | - | 🔵 56 | bpm | 40 - 80; target 45 - 60 |
+| **Stress** | - | low<sup>5</sup> | - | 🔵 minor |  | low/minor |
 
 </details>
 
@@ -357,7 +357,7 @@ Original manual observations and snapshots retain their dates and source notes.
 <sup>3</sup> Original Withings snapshots: August BP and normal apex heart sounds are from August 26; August PWV and ECG are from August 28. September BP, PWV, ECG and heart sounds are from September 5; imported replacements have a separate source note. The September heart-sound recording is inconclusive, so no directional trend is assigned across it. Heart-sound and ECG entries are device classifications.
 <sup>4</sup> Original AHI snapshot: 0 on September 2; imported AHI means have a separate source note. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum. Maximum HR, HRV and device scores are context-dependent and are tracked without a universal clinical target.
 <sup>5</sup> Oura overview captured September 6: current-month VO2max 44; cardiovascular age 6.5 years younger; cumulative stress low. Typical nighttime dipping describes the last 30 days and supplies no dip percentage. The app's typical sleep score of 81 has an unspecified window; the table uses imported calendar means.
-<sup>6</sup> Body sizes were self-reported in <a href='https://chatgpt.com/c/6a9cbba2-bfd8-83eb-be0d-1e23e6d1aa04'>Body Measurements Assessment</a> on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb sides are retained as reported; foot side and the exact above-ankle landmark are unspecified. The user confirmed 180cm height in this task, correcting 176.5cm in the linked conversation. Existing BMI calculations therefore continue to use 180cm. The chat's rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.
+<sup>6</sup> Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.
 <sup>7</sup> Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Oura: 2-5/6 elapsed days (month to date); 2026-09 Withings: 1-6/6 elapsed days (month to date). Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
 <sup>8</sup> Imported device classifications show counts of observed labels within each calendar month; they are not numeric averages, clinical diagnoses or estimates for unrecorded days. Entries labeled Device code preserve API values with unverified meanings and may include unavailable-result codes; they are not interpreted as clinical findings. Different provider classifications retain separate rows. Coverage and exact counts: <a href='results/vitals_monthly.json'>monthly source data</a>.
 

@@ -61,6 +61,25 @@ class TableRows(HTMLParser):
             self.cell += data
 
 
+def rendered_table_rows(rendered, output_format):
+    if output_format == "html":
+        parsed = TableRows()
+        parsed.feed(rendered)
+        return parsed.rows
+    rows = []
+    for line in rendered.splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if all(re.fullmatch(r"[-: ]+", cell) for cell in cells):
+            continue
+        rows.append([
+            unescape(re.sub(r"<[^>]*>|\*", "", re.sub(r"<sup>.*?</sup>", "", cell)))
+            for cell in cells
+        ])
+    return rows
+
+
 class LayoutPartitionTests(unittest.TestCase):
     def setUp(self):
         self.rows = [
@@ -187,19 +206,56 @@ class GroupedRendererTests(unittest.TestCase):
             self.assertEqual({call.args[0] for call in scoring.call_args_list}, {"Vitals & Functional Health"})
             self.assertEqual({call.args[0] for call in notes.call_args_list}, {"Vitals & Functional Health"})
 
-    def test_each_subtable_retains_all_active_months_even_when_its_row_has_gaps(self):
-        sparse = list(self.rows[-1])
-        for index, month in enumerate(self.report["date_columns"], start=1):
-            if month != "2026-07":
-                sparse[index] = "-"
-        rendered = self.report["render_vitals_html"](self.rows[:-1] + [tuple(sparse)])
-        parsed = TableRows()
-        parsed.feed(rendered)
-        headings = [row for row in parsed.rows if "2026-07" in row]
-        self.assertGreater(len(headings), 1)
-        for header in headings:
-            self.assertEqual([value for value in header if re.fullmatch(r"\d{4}-\d{2}", value)],
-                             ["2026-09", "2026-08", "2026-07"])
+    def test_each_subtable_omits_only_its_entirely_empty_months(self):
+        observations = {
+            "Bone": {"2026-07": "4.2"},
+            "Body Mass": {"2026-09": "80.4"},
+            "Future Firmware Marker (Oura)": {"2026-08": "12.3"},
+        }
+        rows = [
+            (row[0], *(observations[row[0]].get(month, "-") for month in self.report["date_columns"]), *row[-2:])
+            for row in self.rows if row[0] in observations
+        ]
+        for output_format in ("html", "md"):
+            renderer = self.report[f"render_vitals_{output_format}"]
+            with self.subTest(output_format=output_format), patch.dict(renderer.__globals__, {
+                f"format_cell_{output_format}": lambda value, *_: str(value),
+            }):
+                rendered = renderer(rows)
+                header = None
+                found = set()
+                for cells in rendered_table_rows(rendered, output_format):
+                    if cells[0] == "Metric":
+                        header = cells
+                        continue
+                    found.add(cells[0])
+                    expected_months = (["2026-08"] if cells[0].startswith("Future")
+                                       else ["2026-09", "2026-07"])
+                    self.assertEqual([value for value in header if re.fullmatch(r"\d{4}-\d{2}", value)],
+                                     expected_months)
+                    self.assertEqual(len(cells), len(header))
+                    for month in expected_months:
+                        self.assertEqual(cells[header.index(month)], observations[cells[0]].get(month, "-"))
+                self.assertEqual(found, set(observations))
+
+    def test_trend_header_and_cell_are_second_in_both_table_modes(self):
+        values = {"2026-09": "6.1", "2026-08": "6.5", "2026-07": "7.0"}
+        row = ("PWV", *(values.get(month, "-") for month in self.report["date_columns"]), "m/s", "< 10")
+        for output_format in ("html", "md"):
+            renderer = self.report[f"render_result_table_{output_format}"]
+            for compact in (False, True):
+                with self.subTest(output_format=output_format, compact=compact), patch.dict(renderer.__globals__, {
+                    f"format_trend_{output_format}": MagicMock(return_value="trend-sentinel"),
+                    f"format_cell_{output_format}": lambda value, *_: f"value-{value}",
+                }):
+                    rendered = renderer("Vitals & Functional Health", [row], compact=compact)
+                    header, cells = rendered_table_rows(rendered, output_format)
+                    self.assertEqual(header[:2], ["Metric" if compact else "", "Trend"])
+                    self.assertEqual(cells[:2], ["PWV", "trend-sentinel"])
+                    self.assertEqual(header[2:5], ["2026-09", "2026-08", "2026-07"])
+                    self.assertEqual(cells[2:5], ["value-6.1", "value-6.5", "value-7.0"])
+                    self.assertEqual(cells[header.index("Unit")], "m/s")
+                    self.assertEqual(len(cells), len(header))
 
     def test_compact_reference_is_omitted_only_when_entirely_empty(self):
         for renderer_name, header in (("render_result_table_html", "<i>Reference</i>"),

@@ -1285,7 +1285,7 @@ vitals_followups = {
 }
 
 # Manual sizes reported on September 6; these are snapshots, not device means.
-# The user corrected the linked conversation's 176.5cm height to 180cm here.
+# The user confirmed a height of 180cm.
 body_measurements_2026_09 = {
     "Height": "180",
     "Waist Circumference (Narrowest Point)": "85",
@@ -1300,7 +1300,7 @@ body_measurements_2026_09 = {
     "Right Calf Circumference": "36",
     "Right Ankle Circumference": "24",
     "Right Above-Ankle Circumference": "21",
-    "Foot Length (Side Unspecified)": "25.5",
+    "Right Foot Length": "25.5",
     "Head Circumference": "57",
 }
 existing_manual_markers = {row[0] for row in data["Vitals & Functional Health"]}
@@ -1509,7 +1509,7 @@ result_notes = {
 }
 
 result_notes["Vitals & Functional Health"].append({
-    "text": "Body sizes were self-reported in <a href='https://chatgpt.com/c/6a9cbba2-bfd8-83eb-be0d-1e23e6d1aa04'>Body Measurements Assessment</a> on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb sides are retained as reported; foot side and the exact above-ankle landmark are unspecified. The user confirmed 180cm height in this task, correcting 176.5cm in the linked conversation. Existing BMI calculations therefore continue to use 180cm. The chat's rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.",
+    "text": "Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.",
     "markers": [{"rows": list(body_measurements_2026_09), "target": "value", "dates": ["2026-09"]}],
 })
 apply_report_overlay(vitals_followups, result_notes["Vitals & Functional Health"], synced_monthly)
@@ -1562,12 +1562,10 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
         target_reference(category, row[0], row[-1]) not in ("-", "") for row in rows
     )
     html = "<table><tr><th>Metric</th>" if compact else "<table><tr><th></th>"
-    if include_trend and not compact:
+    if include_trend:
         html += "<th>Trend</th>"
     for idx in active_indexes:
         html += f"<th>{date_columns[idx]}</th>"
-    if include_trend and compact:
-        html += "<th>Trend</th>"
     html += "<th>Unit</th>"
     if include_reference:
         html += "<th><i>Reference</i></th>"
@@ -1585,13 +1583,10 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
         if include_trend:
             trend_cell = format_trend_html(values, display_ref, category, name)
             trend_cell = add_note_sup_html(trend_cell, note_numbers(category, name, "trend"))
-            if not compact:
-                html += f"<td>{trend_cell}</td>"
+            html += f"<td>{trend_cell}</td>"
         for idx, cell in zip(active_indexes, cells):
             cell = add_note_sup_html(cell, note_numbers(category, name, "value", date_columns[idx]))
             html += f"<td>{cell}</td>"
-        if include_trend and compact:
-            html += f"<td>{trend_cell}</td>"
         html += f"<td>{unit}</td>"
         if include_reference:
             html += f"<td>{display_ref}</td>"
@@ -1608,14 +1603,11 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
     )
     header = "| Metric |" if compact else "|  |"
     sep = "| :--- |"
-    if include_trend and not compact:
+    if include_trend:
         header += " Trend |"
         sep += " :--- |"
     for idx in active_indexes:
         header += f" {date_columns[idx]} |"
-        sep += " :--- |"
-    if include_trend and compact:
-        header += " Trend |"
         sep += " :--- |"
     header += " Unit |"
     sep += " :--- |"
@@ -1636,13 +1628,10 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
         if include_trend:
             trend_cell = format_trend_md(values, display_ref, category, name)
             trend_cell = add_note_sup_md(trend_cell, note_numbers(category, name, "trend"))
-            if not compact:
-                line += f" {trend_cell} |"
+            line += f" {trend_cell} |"
         for idx, cell in zip(active_indexes, cells):
             cell = add_note_sup_md(cell, note_numbers(category, name, "value", date_columns[idx]))
             line += f" {cell} |"
-        if include_trend and compact:
-            line += f" {trend_cell} |"
         line += f" {unit} |"
         if include_reference:
             line += f" {display_ref} |"
@@ -1665,7 +1654,6 @@ def render_vitals_html(rows):
     category = "Vitals & Functional Health"
     groups = layout(rows)
     totals = counts(groups)
-    active_indexes = active_date_indexes(rows)
     html = f"<section class='vitals'><h2>{escape(category)}</h2>"
     html += f"<p class='section-intro'>{VITALS_INTRO}</p>"
     html += f"<p class='section-meta'>{totals['main']} main measurements · {totals['details']} in expandable details</p>"
@@ -1679,7 +1667,7 @@ def render_vitals_html(rows):
         for group in selected:
             html += f"<section class='metric-group'><h3>{escape(group['title'])}</h3>"
             html += f"<p class='group-description'>{escape(group['description'])}</p><div class='table-scroll'>"
-            html += render_result_table_html(category, group['rows'], active_indexes, compact=True)
+            html += render_result_table_html(category, group['rows'], compact=True)
             html += "</div></section>"
         if detailed:
             html += "</details>"
@@ -1692,7 +1680,6 @@ def render_vitals_md(rows):
     category = "Vitals & Functional Health"
     groups = layout(rows)
     totals = counts(groups)
-    active_indexes = active_date_indexes(rows)
     md = f"## {category}\n\n{VITALS_INTRO}\n\n"
     md += f"{totals['main']} main measurements · {totals['details']} in expandable details.\n\n"
     for detailed in (False, True):
@@ -1704,7 +1691,7 @@ def render_vitals_md(rows):
             md += VITALS_DETAILS_INTRO + "\n\n"
         for group in selected:
             md += f"### {group['title']}\n\n{group['description']}\n\n"
-            md += render_result_table_md(category, group['rows'], active_indexes, compact=True) + "\n"
+            md += render_result_table_md(category, group['rows'], compact=True) + "\n"
         if detailed:
             md += "</details>\n\n"
     md += "<details>\n<summary>Sources &amp; calculation notes</summary>\n\n"

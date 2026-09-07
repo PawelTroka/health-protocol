@@ -24,7 +24,7 @@ _MAIN_GROUPS = (
             "Right Upper Arm Circumference (Flexed)", "Right Forearm Circumference",
             "Right Wrist Circumference", "Right Thigh Circumference", "Right Calf Circumference",
             "Right Ankle Circumference", "Right Above-Ankle Circumference",
-            "Foot Length (Side Unspecified)", "Head Circumference",
+            "Right Foot Length", "Head Circumference",
         ),
     ),
     (
