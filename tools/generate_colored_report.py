@@ -11,6 +11,8 @@ from tools.health_sync.monthly import METRICS, apply_report_overlay, load_monthl
 from tools.health_sync.report_layout import layout, counts
 
 
+MICROBIOTA_CATEGORY = "Gut Microbiota (GA-map)"
+
 REPORT_ROOT = Path(__file__).resolve().parents[1]
 synced_monthly = load_monthly(os.environ.get("HEALTH_PROTOCOL_VITALS_MONTHLY", REPORT_ROOT / "results" / "vitals_monthly.json"))
 
@@ -495,6 +497,8 @@ def calculate_blood_pressure_score(val_str, target):
     return max(systolic_score, diastolic_score)
 
 def target_reference(category, marker, ref):
+    if category == MICROBIOTA_CATEGORY:
+        return ref
     target = target_overrides.get((category, marker))
     if target:
         return target["reference"]
@@ -505,6 +509,8 @@ def is_inconclusive(value):
 
 
 def calculate_score(val_str, ref_range, category=None, marker=None):
+    if category == MICROBIOTA_CATEGORY:
+        return None
     if val_str in ["-", "—", None, ""]:
         return None
     if is_inconclusive(val_str):
@@ -704,6 +710,8 @@ slight_worsening_score_delta = 0.12
 slight_directional_improvement_percent_delta = 0.075
 
 def trend_score(value, ref, category, marker=None):
+    if category == MICROBIOTA_CATEGORY:
+        return None
     if is_inconclusive(value):
         return None
     if value in missing_values or ref in missing_values or ref == "-":
@@ -934,6 +942,108 @@ def render_result_notes_md(category):
 
 # Historical tuples retain their original four date columns. Dated follow-ups
 # are merged below; a missing measurement is never carried into a newer month.
+# ALAB FloraGen / GA-map Dysbiosis Test Lx v2: one stool specimen, not a monthly mean.
+# Collected 2026-07-07, received 2026-07-09, report issued 2026-08-04.
+# Marker positions were transcribed visually and checked against the PDF dot coordinates.
+# The unnumbered central reference column is encoded as 0; these are not percentages.
+microbiota_summary = [
+    ("Dysbiosis Index", "3 (mild dysbiosis)", "index (1-5)", "1-2: reference profile"),
+    ("Bacterial Diversity", "As expected", "Lab classification", "As expected"),
+]
+microbiota_groups = [
+    ("A1", "Major intestinal bacterial groups", "Within reference profile"),
+    ("A2", "Diverse intestinal bacterial populations", "Within reference profile"),
+    ("B1", "Animal-product-associated bacteria", "Slightly altered"),
+    ("C1", "Complex-carbohydrate degraders", "Slightly altered"),
+    ("C2", "Lactic acid bacteria and probiotics", "Within reference profile"),
+    ("D1", "Akkermansia / mucosal-integrity marker", "Within reference profile"),
+    ("D2", "Main short-chain fatty acid producers", "Slightly altered"),
+    ("E1", "Ruminococcus gnavus marker", "Within reference profile"),
+    ("E2", "Bacteroides fragilis marker", "Within reference profile"),
+    ("E3", "Facultative anaerobes", "Slightly altered"),
+    ("E4", "Oral-colonizing bacteria", "Slightly altered"),
+    ("E5", "Urogenital, respiratory and skin-associated bacteria", "Within reference profile"),
+]
+microbiota_marker_categories = {
+    "A": "Common commensal bacteria",
+    "B": "Animal-product-associated bacteria",
+    "C": "Cross-feeding bacteria",
+    "D": "Bacteria grouped as anti-inflammatory by the lab",
+    "E": "Bacteria grouped as pro-inflammatory or opportunistic by the lab",
+}
+# ID, original report name, functional group, signed chart position, PDF page.
+microbiota_markers = [
+    (300, 'Various Bacillota', 'A1', 0, 2),
+    (206, 'Various Bacteroidota', 'A1', 0, 2),
+    (100, 'Various Actinomycetota', 'A2', 0, 2),
+    (302, 'Various Bacilli', 'A2', 0, 2),
+    (305, 'Various Clostridia & Negativicutes', 'A2', -1, 2),
+    (331, 'Various Bacillales & Lachnospirales', 'A2', 0, 2),
+    (201, 'Alistipes spp.', 'B1', -1, 2),
+    (202, 'Alistipes onderdonkii', 'B1', 1, 2),
+    (205, 'Bacteroides xylanisolvens', 'C1', 3, 3),
+    (207, 'Bacteroides stercoris', 'C1', 0, 3),
+    (208, 'Bacteroides zoogleoformans', 'C1', 0, 3),
+    (209, 'Parabacteroides johnsonii', 'C1', 0, 3),
+    (210, 'Parabacteroides spp.', 'C1', 1, 3),
+    (306, '[Clostridium] methylpentosum', 'C1', 0, 3),
+    (316, '[Eubacterium] siraeum', 'C1', 0, 3),
+    (323, 'Ruminococcus bromii', 'C1', 0, 3),
+    (332, '[Bacteroides] pectinophilus', 'C1', 0, 3),
+    (103, 'Bifidobacteriaceae', 'C2', 0, 3),
+    (319, 'Pediococcus & Ligilactobacillus ruminis', 'C2', 0, 3),
+    (320, 'Lactobacillaceae', 'C2', 0, 3),
+    (321, 'Lactobacillus acidophilus & L. acetotolerans', 'C2', 0, 3),
+    (325, 'Streptococcus agalactiae & Blautia wexlerae', 'C2', 0, 3),
+    (326, 'Streptococcus thermophilus, S. gordonii & S. sanguinis', 'C2', 0, 3),
+    (327, 'Streptococcus salivarius group & S. mutans', 'C2', 0, 3),
+    (701, 'Akkermansia muciniphila', 'D1', 0, 4),
+    (304, 'Catenibacterium mitsuokai', 'D2', 1, 4),
+    (307, 'Clostridium sp. L2-50', 'D2', 0, 4),
+    (308, 'Coprobacillus cateniformis', 'D2', 0, 4),
+    (310, 'Dialister spp.', 'D2', 0, 4),
+    (312, 'Dorea spp., Blautia faecicola & Mediterraneibacter massiliensis', 'D2', 1, 4),
+    (313, 'Holdemanella biformis', 'D2', 0, 4),
+    (314, 'Anaerobutyricum hallii & A. soehngenii', 'D2', -1, 4),
+    (315, 'Agathobacter rectalis', 'D2', 0, 4),
+    (317, 'Faecalibacterium prausnitzii', 'D2', 0, 4),
+    (318, 'Various Lachnospiraceae & Clostridiaceae', 'D2', 0, 4),
+    (330, 'Various Veillonellales, Lachnospirales & Eubacteriales', 'D2', -2, 4),
+    (322, 'Phascolarctobacterium faecium', 'D2', 3, 4),
+    (324, 'Ruminococcus gnavus', 'E1', 1, 5),
+    (203, 'Bacteroides fragilis', 'E2', 0, 5),
+    (500, 'Various Pseudomonadota', 'E3', 1, 5),
+    (502, 'Enterobacter, Cronobacter, Citrobacter & Salmonella', 'E3', 0, 5),
+    (504, 'Escherichia, Shigella, Citrobacter koseri', 'E3', 1, 5),
+    (101, 'Various Actinomycetaceae & Corynebacteriaceae', 'E4', 0, 5),
+    (311, 'Dialister invisus & Megasphaera micronuciformis', 'E4', 0, 5),
+    (328, 'Streptococcus mitis group', 'E4', 2, 5),
+    (329, 'Streptococcus viridans group', 'E4', 0, 5),
+    (501, 'Acinetobacter junii', 'E5', 0, 5),
+    (601, 'Metamycoplasma spp.', 'E5', 0, 5),
+]
+
+
+def microbiota_marker_name(marker):
+    return f"{marker[0]} - {marker[1]}"
+
+
+def microbiota_group_name(group):
+    return f"{group[0]}. {group[1]}"
+
+
+microbiota_source_rows = [
+    (name, value, "-", "-", "-", unit, reference)
+    for name, value, unit, reference in microbiota_summary
+] + [
+    (microbiota_group_name(group), group[2], "-", "-", "-", "Lab classification", "-")
+    for group in microbiota_groups
+] + [
+    (microbiota_marker_name(marker), f"{marker[3]:+d}" if marker[3] else "0",
+     "-", "-", "-", "Chart position", "-")
+    for marker in microbiota_markers
+]
+
 data = {
     "Biological Age": [
         ("Biological Age", "-", "29.0", "-", "-", "years", "< 34.9"),
@@ -1188,6 +1298,7 @@ data = {
         ("EPX (Stool)", "< 74.00", "-", "-", "-", "ng/ml", "< 357.60"),
         ("Beta-defensin (Stool)", "14.93", "-", "-", "-", "ng/ml", "8.00 - 60.00")
     ],
+    MICROBIOTA_CATEGORY: microbiota_source_rows,
     "Stool Culture": [
         ("Salmonella species", "negative", "-", "-", "-", "Status", "negative"),
         ("Shigella species", "negative", "-", "-", "-", "Status", "negative"),
@@ -1333,6 +1444,20 @@ imaging_data = """## Structural & Diagnostic Imaging
 """
 
 result_notes = {
+    MICROBIOTA_CATEGORY: [
+        {
+            "text": "ALAB FloraGen, GA-map Dysbiosis Test Lx v2. One stool specimen collected July 7, 2026, received July 9, and reported August 4; values therefore appear under July, not the issue month. Source: <a href='results/6399110771-sig.pdf'>original laboratory PDF</a>; <a href='results/Gut-Microbiota-2026-07-07/Sources.md'>transcription and method notes</a>.",
+            "markers": [],
+        },
+        {
+            "text": "The dysbiosis index of 3 is classified by this lab as mild dysbiosis; bacterial diversity is reported as expected, with no numerical Shannon index supplied. Group assessments reproduce the laboratory's classifications. These results are separate from the stool calprotectin and sIgA measurements; group names do not establish inflammation, infection, intestinal permeability or actual short-chain fatty acid production.",
+            "markers": [],
+        },
+        {
+            "text": "Marker values transcribe the plotted positions on the lab's -3 to +3 relative-abundance chart. The unnumbered central reference column is encoded as 0; negative/positive values lie to its left/right. These are ordered chart positions; the PDF supplies no percentages, absolute counts, fold changes or standard-deviation units. A nonzero position is not automatically an abnormal group assessment. The report's general health colors and trend scoring are not applied to this section. Broad marker names can cover several taxa and do not prove that a named pathogen or toxigenic strain is present.",
+            "markers": [],
+        },
+    ],
     "Vitals & Functional Health": [
         {
             "text": "July 2026 onward uses imported monthly means wherever supported measurements are available. Dated manual observations and original estimates remain where no imported replacement exists, distinguished by their source notes; a dash means no measurement. Original observations are preserved in the source history: <a href='results/Vitals-2026-09-06/Sources.md'>vitals source record</a>. Additional provider-specific measurements and classification counts appear when supplied by the APIs; no clinical targets are invented for them.",
@@ -1573,7 +1698,9 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
     for row in rows:
         name, values, unit, ref = split_result_row(row)
         display_ref = target_reference(category, name, ref)
-        if category == "Vitals & Functional Health" and name in categorical_markers:
+        if category == MICROBIOTA_CATEGORY:
+            cells = [classification_text(values[idx]) for idx in active_indexes]
+        elif category == "Vitals & Functional Health" and name in categorical_markers:
             cells = [classification_text(values[idx]) for idx in active_indexes]
         elif "Urinalysis" in category:
             cells = [format_cell_html_urine(values[idx], ref) for idx in active_indexes]
@@ -1618,7 +1745,9 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
     for row in rows:
         name, values, unit, ref = split_result_row(row)
         display_ref = target_reference(category, name, ref)
-        if category == "Vitals & Functional Health" and name in categorical_markers:
+        if category == MICROBIOTA_CATEGORY:
+            cells = [classification_text(values[idx], markdown=True) for idx in active_indexes]
+        elif category == "Vitals & Functional Health" and name in categorical_markers:
             cells = [classification_text(values[idx], markdown=True) for idx in active_indexes]
         elif "Urinalysis" in category:
             cells = [format_cell_md_urine(values[idx], ref) for idx in active_indexes]
@@ -1699,6 +1828,78 @@ def render_vitals_md(rows):
     return md
 
 
+def microbiota_report_sections(rows):
+    lookup = {row[0]: row for row in rows}
+    if len(lookup) != len(rows):
+        raise ValueError("Duplicate microbiota result names")
+    sections = []
+    used = set()
+
+    def add(title, names, details):
+        selected = [lookup[name] for name in names if name in lookup]
+        if selected:
+            sections.append({"title": title, "rows": selected, "details": details})
+            used.update(row[0] for row in selected)
+
+    add("Overall findings", [row[0] for row in microbiota_summary], False)
+    add("Laboratory group assessments", [microbiota_group_name(group) for group in microbiota_groups], False)
+    for code, title in microbiota_marker_categories.items():
+        add(f"{code}. {title}", [microbiota_marker_name(marker) for marker in microbiota_markers
+                                if marker[2].startswith(code)], True)
+    add("Additional reported markers", [row[0] for row in rows if row[0] not in used], True)
+    return sections
+
+
+MICROBIOTA_INTRO = (
+    "ALAB FloraGen / GA-map Dysbiosis Test Lx v2. Sample collected 2026-07-07; "
+    "report issued 2026-08-04. These are results from one stool specimen."
+)
+MICROBIOTA_SCALE = (
+    "Original marker IDs and names are retained. Chart positions range from -3 to +3; "
+    "0 represents the central reference column. These positions are not percentages, "
+    "and a nonzero position does not automatically make a group abnormal."
+)
+
+
+def render_microbiota_html(rows):
+    sections = microbiota_report_sections(rows)
+    count = sum(len(section['rows']) for section in sections if section['details'])
+    html = f"<section class='microbiota'><h2>{escape(MICROBIOTA_CATEGORY)}</h2>"
+    html += f"<p class='section-intro'>{MICROBIOTA_INTRO}</p>"
+    for detailed in (False, True):
+        selected = [section for section in sections if section['details'] == detailed]
+        if not selected:
+            continue
+        if detailed:
+            html += f"<details><summary>All bacterial markers · {count} results</summary>"
+            html += f"<p class='section-intro'>{MICROBIOTA_SCALE}</p>"
+        for section in selected:
+            html += f"<section class='metric-group'><h3>{escape(section['title'])}</h3><div class='table-scroll'>"
+            html += render_result_table_html(MICROBIOTA_CATEGORY, section['rows'], compact=True)
+            html += "</div></section>"
+        if detailed:
+            html += "</details>"
+    return html + render_result_notes_html(MICROBIOTA_CATEGORY) + "</section>"
+
+
+def render_microbiota_md(rows):
+    sections = microbiota_report_sections(rows)
+    count = sum(len(section['rows']) for section in sections if section['details'])
+    md = f"## {MICROBIOTA_CATEGORY}\n\n{MICROBIOTA_INTRO}\n\n"
+    for detailed in (False, True):
+        selected = [section for section in sections if section['details'] == detailed]
+        if not selected:
+            continue
+        if detailed:
+            md += f"<details>\n<summary>All bacterial markers · {count} results</summary>\n\n{MICROBIOTA_SCALE}\n\n"
+        for section in selected:
+            md += f"### {section['title']}\n\n"
+            md += render_result_table_md(MICROBIOTA_CATEGORY, section['rows'], compact=True) + "\n"
+        if detailed:
+            md += "</details>\n\n"
+    return md + render_result_notes_md(MICROBIOTA_CATEGORY) + "\n"
+
+
 def render_imaging_html():
     parts = []
     for line in imaging_data.splitlines():
@@ -1735,6 +1936,9 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += ".vitals details { border: 1px solid #dce4ed; border-radius: 8px; margin-top: 16px; padding: 16px 20px; }"
     html += ".vitals summary { cursor: pointer; font-weight: 600; color: #344d6c; } .vitals summary:focus-visible { outline: 2px solid #344d6c; outline-offset: 4px; }"
     html += ".vitals details[open] > summary { margin-bottom: 20px; } .vitals .table-notes { margin: 0; } .vitals .table-notes p { margin: 10px 0; }"
+    html += ".microbiota details { border: 1px solid #dce4ed; border-radius: 8px; margin: 16px 0 24px; padding: 16px 20px; } .microbiota summary { cursor: pointer; font-weight: 600; color: #344d6c; }"
+    html += ".microbiota .metric-group h3 { margin-bottom: 12px; } .microbiota td:first-child { width: 55%; } .microbiota .table-notes p { margin: 10px 0; }"
+    html += ".microbiota table { min-width: 620px; overflow-wrap: normal; } .microbiota th { white-space: nowrap; } @media(max-width: 700px) { .microbiota td:first-child { width: 160px; min-width: 160px; max-width: 160px; } }"
     html += "@media(max-width: 700px) { body { padding: 12px; overflow-wrap: anywhere; } h1 { font-size: 1.4rem; } .vitals details { padding: 12px; } .vitals td:first-child { width: 150px; min-width: 150px; max-width: 150px; } .vitals td { padding: 8px; } }"
     html += "</style></head><body>"
     html += "<h1>Health Protocol: Lab Results Comparison</h1>"
@@ -1743,6 +1947,8 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     for category, rows in data.items():
         if category == "Vitals & Functional Health":
             html += render_vitals_html(rows)
+        elif category == MICROBIOTA_CATEGORY:
+            html += render_microbiota_html(rows)
         else:
             html += f"<h2>{category}</h2>"
             html += "<div class='table-scroll'>" + render_result_table_html(category, rows) + "</div>"
@@ -1784,6 +1990,8 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     for category, rows in data.items():
         if category == "Vitals & Functional Health":
             md += render_vitals_md(rows)
+        elif category == MICROBIOTA_CATEGORY:
+            md += render_microbiota_md(rows)
         else:
             md += f"## {category}\n\n"
             md += render_result_table_md(category, rows)

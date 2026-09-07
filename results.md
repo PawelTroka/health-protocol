@@ -644,6 +644,120 @@ Original manual observations and snapshots retain their dates and source notes.
 **Notes:**
 <sup>1</sup> Abnormal stool pH, mucus/food-residue findings, leukocytes on mucus, elevated fecal calprotectin, high stool sIgA, and elevated stool sugar are most likely related to the current IBS-U/gut-irritation context. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.
 
+## Gut Microbiota (GA-map)
+
+ALAB FloraGen / GA-map Dysbiosis Test Lx v2. Sample collected 2026-07-07; report issued 2026-08-04. These are results from one stool specimen.
+
+### Overall findings
+
+| Metric | 2026-07 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **Dysbiosis Index** | 3 \(mild dysbiosis\) | index (1-5) | 1-2: reference profile |
+| **Bacterial Diversity** | As expected | Lab classification | As expected |
+
+### Laboratory group assessments
+
+| Metric | 2026-07 | Unit |
+| :--- | :--- | :--- |
+| **A1. Major intestinal bacterial groups** | Within reference profile | Lab classification |
+| **A2. Diverse intestinal bacterial populations** | Within reference profile | Lab classification |
+| **B1. Animal-product-associated bacteria** | Slightly altered | Lab classification |
+| **C1. Complex-carbohydrate degraders** | Slightly altered | Lab classification |
+| **C2. Lactic acid bacteria and probiotics** | Within reference profile | Lab classification |
+| **D1. Akkermansia / mucosal-integrity marker** | Within reference profile | Lab classification |
+| **D2. Main short-chain fatty acid producers** | Slightly altered | Lab classification |
+| **E1. Ruminococcus gnavus marker** | Within reference profile | Lab classification |
+| **E2. Bacteroides fragilis marker** | Within reference profile | Lab classification |
+| **E3. Facultative anaerobes** | Slightly altered | Lab classification |
+| **E4. Oral-colonizing bacteria** | Slightly altered | Lab classification |
+| **E5. Urogenital, respiratory and skin-associated bacteria** | Within reference profile | Lab classification |
+
+<details>
+<summary>All bacterial markers · 48 results</summary>
+
+Original marker IDs and names are retained. Chart positions range from -3 to +3; 0 represents the central reference column. These positions are not percentages, and a nonzero position does not automatically make a group abnormal.
+
+### A. Common commensal bacteria
+
+| Metric | 2026-07 | Unit |
+| :--- | :--- | :--- |
+| **300 - Various Bacillota** | 0 | Chart position |
+| **206 - Various Bacteroidota** | 0 | Chart position |
+| **100 - Various Actinomycetota** | 0 | Chart position |
+| **302 - Various Bacilli** | 0 | Chart position |
+| **305 - Various Clostridia & Negativicutes** | -1 | Chart position |
+| **331 - Various Bacillales & Lachnospirales** | 0 | Chart position |
+
+### B. Animal-product-associated bacteria
+
+| Metric | 2026-07 | Unit |
+| :--- | :--- | :--- |
+| **201 - Alistipes spp.** | -1 | Chart position |
+| **202 - Alistipes onderdonkii** | +1 | Chart position |
+
+### C. Cross-feeding bacteria
+
+| Metric | 2026-07 | Unit |
+| :--- | :--- | :--- |
+| **205 - Bacteroides xylanisolvens** | +3 | Chart position |
+| **207 - Bacteroides stercoris** | 0 | Chart position |
+| **208 - Bacteroides zoogleoformans** | 0 | Chart position |
+| **209 - Parabacteroides johnsonii** | 0 | Chart position |
+| **210 - Parabacteroides spp.** | +1 | Chart position |
+| **306 - [Clostridium] methylpentosum** | 0 | Chart position |
+| **316 - [Eubacterium] siraeum** | 0 | Chart position |
+| **323 - Ruminococcus bromii** | 0 | Chart position |
+| **332 - [Bacteroides] pectinophilus** | 0 | Chart position |
+| **103 - Bifidobacteriaceae** | 0 | Chart position |
+| **319 - Pediococcus & Ligilactobacillus ruminis** | 0 | Chart position |
+| **320 - Lactobacillaceae** | 0 | Chart position |
+| **321 - Lactobacillus acidophilus & L. acetotolerans** | 0 | Chart position |
+| **325 - Streptococcus agalactiae & Blautia wexlerae** | 0 | Chart position |
+| **326 - Streptococcus thermophilus, S. gordonii & S. sanguinis** | 0 | Chart position |
+| **327 - Streptococcus salivarius group & S. mutans** | 0 | Chart position |
+
+### D. Bacteria grouped as anti-inflammatory by the lab
+
+| Metric | 2026-07 | Unit |
+| :--- | :--- | :--- |
+| **701 - Akkermansia muciniphila** | 0 | Chart position |
+| **304 - Catenibacterium mitsuokai** | +1 | Chart position |
+| **307 - Clostridium sp. L2-50** | 0 | Chart position |
+| **308 - Coprobacillus cateniformis** | 0 | Chart position |
+| **310 - Dialister spp.** | 0 | Chart position |
+| **312 - Dorea spp., Blautia faecicola & Mediterraneibacter massiliensis** | +1 | Chart position |
+| **313 - Holdemanella biformis** | 0 | Chart position |
+| **314 - Anaerobutyricum hallii & A. soehngenii** | -1 | Chart position |
+| **315 - Agathobacter rectalis** | 0 | Chart position |
+| **317 - Faecalibacterium prausnitzii** | 0 | Chart position |
+| **318 - Various Lachnospiraceae & Clostridiaceae** | 0 | Chart position |
+| **330 - Various Veillonellales, Lachnospirales & Eubacteriales** | -2 | Chart position |
+| **322 - Phascolarctobacterium faecium** | +3 | Chart position |
+
+### E. Bacteria grouped as pro-inflammatory or opportunistic by the lab
+
+| Metric | 2026-07 | Unit |
+| :--- | :--- | :--- |
+| **324 - Ruminococcus gnavus** | +1 | Chart position |
+| **203 - Bacteroides fragilis** | 0 | Chart position |
+| **500 - Various Pseudomonadota** | +1 | Chart position |
+| **502 - Enterobacter, Cronobacter, Citrobacter & Salmonella** | 0 | Chart position |
+| **504 - Escherichia, Shigella, Citrobacter koseri** | +1 | Chart position |
+| **101 - Various Actinomycetaceae & Corynebacteriaceae** | 0 | Chart position |
+| **311 - Dialister invisus & Megasphaera micronuciformis** | 0 | Chart position |
+| **328 - Streptococcus mitis group** | +2 | Chart position |
+| **329 - Streptococcus viridans group** | 0 | Chart position |
+| **501 - Acinetobacter junii** | 0 | Chart position |
+| **601 - Metamycoplasma spp.** | 0 | Chart position |
+
+</details>
+
+
+**Notes:**
+<sup>1</sup> ALAB FloraGen, GA-map Dysbiosis Test Lx v2. One stool specimen collected July 7, 2026, received July 9, and reported August 4; values therefore appear under July, not the issue month. Source: <a href='results/6399110771-sig.pdf'>original laboratory PDF</a>; <a href='results/Gut-Microbiota-2026-07-07/Sources.md'>transcription and method notes</a>.
+<sup>2</sup> The dysbiosis index of 3 is classified by this lab as mild dysbiosis; bacterial diversity is reported as expected, with no numerical Shannon index supplied. Group assessments reproduce the laboratory's classifications. These results are separate from the stool calprotectin and sIgA measurements; group names do not establish inflammation, infection, intestinal permeability or actual short-chain fatty acid production.
+<sup>3</sup> Marker values transcribe the plotted positions on the lab's -3 to +3 relative-abundance chart. The unnumbered central reference column is encoded as 0; negative/positive values lie to its left/right. These are ordered chart positions; the PDF supplies no percentages, absolute counts, fold changes or standard-deviation units. A nonzero position is not automatically an abnormal group assessment. The report's general health colors and trend scoring are not applied to this section. Broad marker names can cover several taxa and do not prove that a named pathogen or toxigenic strain is present.
+
 ## Stool Culture
 
 |  | 2026-07 | Unit | *Reference* |
