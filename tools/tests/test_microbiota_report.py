@@ -33,7 +33,7 @@ def markdown_rows(rendered):
 
 def literal_result(cell):
     """Remove display-only status and lab-band annotation from a source value."""
-    return re.sub(r"^[⚪🔵🟢🟡🟠🔴]\s+", "", cell).split(" — ", 1)[0]
+    return re.sub(r"^[⚪🔵🟢🟡🟠🔴]\s+", "", cell).removesuffix("†")
 
 
 class MicrobiotaReportTests(unittest.TestCase):
@@ -106,14 +106,14 @@ class MicrobiotaReportTests(unittest.TestCase):
         results = [(row, depth) for row, depth in zip(parsed.rows, parsed.row_depths) if row[0] in expected]
         self.assertEqual(Counter(row[0] for row, _ in results), Counter(expected.keys()))
         self.assertEqual(Counter(depth for _, depth in results), {0: 14, 1: 48})
-        self.assertEqual(len(parsed.details), 1)
-        self.assertNotIn("open", parsed.details[0])
+        self.assertEqual(len(parsed.details), 2)
+        self.assertTrue(all("open" not in attrs for attrs in parsed.details))
         for cells, _ in results:
             self.assertEqual(literal_result(cells[1]), expected[cells[0]])
         for header in (row for row in parsed.rows if row[0] == "Metric"):
             self.assertEqual([cell for cell in header if re.fullmatch(r"\d{4}-\d{2}", cell)], ["2026-07"])
             self.assertNotIn("Trend", header)
-            self.assertIn("Reference / target", header)
+            self.assertIn("Reference", header)
 
     def test_markdown_keeps_each_literal_result_once_with_closed_marker_details(self):
         rendered = self.report["render_microbiota_md"](self.rows)
@@ -123,8 +123,8 @@ class MicrobiotaReportTests(unittest.TestCase):
         self.assertEqual(Counter(row[0] for row in results), Counter(expected.keys()))
         for cells in results:
             self.assertEqual(literal_result(cells[1]), expected[cells[0]])
-        self.assertEqual(rendered.count("<details>"), 1)
-        self.assertEqual(rendered.count("</details>"), 1)
+        self.assertEqual(rendered.count("<details>"), 2)
+        self.assertEqual(rendered.count("</details>"), 2)
         self.assertNotRegex(rendered, r"<details\s+open")
         self.assertIn("48 results", rendered)
         self.assertTrue(all("Trend" not in row for row in parsed if row[0] == "Metric"))
@@ -187,10 +187,14 @@ class MicrobiotaReportTests(unittest.TestCase):
             rows = parsed.rows if parsed is not None else markdown_rows(rendered)
             values = {row[0]: row[1] for row in rows if row[0] in marker_names.values()}
             self.assertEqual(len(values), 48)
-            self.assertTrue(all(" — " in cell for cell in values.values()))
-            self.assertEqual(values[marker_names[305]], "🟢 -1 — small lab association")
-            self.assertEqual(values[marker_names[300]], "🟢 0 — lab reference profile")
-            self.assertEqual(values[marker_names[201]], "🟠 -1 — moderate lab association")
+            self.assertTrue(all(" — " not in cell for cell in values.values()))
+            self.assertEqual(values[marker_names[305]], "🟢 -1†")
+            self.assertEqual(values[marker_names[300]], "🟢 0")
+            self.assertEqual(values[marker_names[201]], "🟠 -1")
+            self.assertEqual(len(re.findall(r"†\s*=\s*small association with dysbiosis", rendered)), 1)
+            if output_format == "html":
+                self.assertIn('title="small lab association"', rendered)
+                self.assertIn('title="moderate lab association"', rendered)
 
     def test_report_values_are_literal_escaped_text_in_both_formats(self):
         dangerous = 'raw <script>alert(1)</script> | [label](url) & text'
@@ -202,7 +206,7 @@ class MicrobiotaReportTests(unittest.TestCase):
         self.assertIn("&lt;script&gt;alert(1)&lt;/script&gt;", html)
         parsed = TableRows()
         parsed.feed(html)
-        self.assertEqual(next(row[1] for row in parsed.rows if row[0] == changed[0]), "⚪ " + dangerous)
+        self.assertEqual(next(row[1] for row in parsed.rows if row[0] == changed[0]), dangerous)
         markdown = self.report["render_microbiota_md"](rows)
         self.assertNotIn("<script>", markdown)
         self.assertIn(r"\|", markdown)

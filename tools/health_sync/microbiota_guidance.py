@@ -181,13 +181,13 @@ def microbiota_status(marker_name, value):
 
 
 def microbiota_reference(marker_name, originalref):
-    """State source reference and target limits without inventing targets."""
+    """Return the concise source reference for a known marker."""
     if marker_name in _MARKER_IDS:
-        return "0 (lab reference); therapeutic target not established"
+        return "0"
     if marker_name in _GROUP_NAMES:
-        return "Within reference profile; no separate target"
+        return "Within reference profile"
     if marker_name == "Dysbiosis Index":
-        return "1–2 (lab reference); no separate target"
+        return "1–2"
     if marker_name == "Bacterial Diversity":
-        return "As expected; no numeric target"
+        return "As expected"
     return originalref

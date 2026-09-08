@@ -4,6 +4,7 @@ Run the commands below from the repository root.
 
 - `tools/Sync-Vitals.ps1`: import and sync monthly vitals.
 - `tools/generate_colored_report.py`: regenerate both results reports.
+- `tools/imaging_report.py`: curated imaging records, verified source links and shared report layout.
 - `tools/generate_pillbox_guide.py`: generate the physical pillbox guide.
 - `tools/tests/`: synthetic importer and sync tests.
 
@@ -97,6 +98,16 @@ The results overview groups the main vitals into smaller tables: body compositio
 Oura SpO2 aggregates equal to exactly zero are excluded as unusable readings; all positive values are retained. The source archive remains unchanged. This is a narrow data-quality rule: Oura documents missing oxygen readings but does not explicitly define a zero sentinel in the API schema. Each monthly result's coverage reflects only the retained observed days.
 
 ## Files and verification
+
+### Imaging records
+
+`tools/imaging_report.py` is the editable imaging catalog. Each examination has an exact date, modality, record-availability label, report-derived summary, date provenance and named source files. The facial CT examination and report dates remain separate. Studies without a written report are explicitly marked as images only; DICOM metadata supplies acquisition details, not clinical findings.
+
+Both results reports use the same catalog: a newest-first index links to findings grouped into facial CT, abdominal-wall follow-up and dental imaging. The preoperative hernia defect and postoperative linea alba width are different measurements and are not plotted as a trend. The main protocol links directly to this index.
+
+To add or correct an examination, update the catalog and its group membership, preserve the original medical files, then run `python -B tools/generate_colored_report.py` from the repository root. Generation validates that every catalog source is an existing file inside the repository before writing each report. View `results.html#imaging` locally for the card layout; `results.md#imaging` provides the repository-readable version. Links to PDFs/JPEGs open the source files; ZIPs and DICOMDIR are labeled for download/import, with viewing instructions in each record. On-demand vitals syncs regenerate this same imaging section without changing its dates or findings.
+
+### Generated and private files
 
 - `tools/health_sync/` and `tools/sync_vitals.py`: import, authentication and averaging code.
 - `tools/.secrets/credentials.dat`: Windows-user-encrypted OAuth configuration and tokens; ignored by Git.

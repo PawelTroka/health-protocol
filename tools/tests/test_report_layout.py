@@ -173,7 +173,8 @@ class GroupedRendererTests(unittest.TestCase):
         rendered = self.report["render_vitals_html"](self.rows)
         parsed = TableRows()
         parsed.feed(rendered)
-        expected = {row[0] for row in self.rows}
+        display = lambda name: self.report["display_metric_name"]("Vitals & Functional Health", name)
+        expected = {display(row[0]) for row in self.rows}
         actual = [row[0] for row in parsed.rows if row and row[0] in expected]
         self.assertEqual(Counter(actual), Counter(expected))
         self.assertTrue(parsed.details)
@@ -181,11 +182,11 @@ class GroupedRendererTests(unittest.TestCase):
         main = {row[0] for row, depth in zip(parsed.rows, parsed.row_depths) if depth == 0}
         self.assertTrue({"Bone", "Visceral Fat Index", "VO2max", "PWV"}.issubset(main))
         hidden = {row[0] for row, depth in zip(parsed.rows, parsed.row_depths) if depth > 0}
-        self.assertIn("Future Firmware Marker (Oura)", hidden)
+        self.assertIn(display("Future Firmware Marker (Oura)"), hidden)
 
     def test_markdown_keeps_every_row_once_and_retains_native_disclosure(self):
         rendered = self.report["render_vitals_md"](self.rows)
-        expected = {row[0] for row in self.rows}
+        expected = {self.report["display_metric_name"]("Vitals & Functional Health", row[0]) for row in self.rows}
         names = [unescape(name) for name in re.findall(r"(?m)^\| \*\*(.*?)\*\* \|", rendered)]
         self.assertEqual(Counter(name for name in names if name in expected), Counter(expected))
         self.assertIn("<details>", rendered)
@@ -216,6 +217,10 @@ class GroupedRendererTests(unittest.TestCase):
             (row[0], *(observations[row[0]].get(month, "-") for month in self.report["date_columns"]), *row[-2:])
             for row in self.rows if row[0] in observations
         ]
+        display_observations = {
+            self.report["display_metric_name"]("Vitals & Functional Health", name): values
+            for name, values in observations.items()
+        }
         for output_format in ("html", "md"):
             renderer = self.report[f"render_vitals_{output_format}"]
             with self.subTest(output_format=output_format), patch.dict(renderer.__globals__, {
@@ -235,8 +240,8 @@ class GroupedRendererTests(unittest.TestCase):
                                      expected_months)
                     self.assertEqual(len(cells), len(header))
                     for month in expected_months:
-                        self.assertEqual(cells[header.index(month)], observations[cells[0]].get(month, "-"))
-                self.assertEqual(found, set(observations))
+                        self.assertEqual(cells[header.index(month)], display_observations[cells[0]].get(month, "-"))
+                self.assertEqual(found, set(display_observations))
 
     def test_trend_header_and_cell_are_second_in_both_table_modes(self):
         values = {"2026-09": "6.1", "2026-08": "6.5", "2026-07": "7.0"}
@@ -257,16 +262,63 @@ class GroupedRendererTests(unittest.TestCase):
                     self.assertEqual(cells[header.index("Unit")], "m/s")
                     self.assertEqual(len(cells), len(header))
 
-    def test_compact_reference_includes_explicit_context_when_no_target_exists(self):
-        for renderer_name, header in (("render_result_table_html", "<i>Reference / target</i>"),
-                                      ("render_result_table_md", "*Reference / target*")):
+    def test_compact_reference_omits_empty_column_and_preserves_real_reference(self):
+        unknown = ("Future Firmware Marker (Oura)", *self.rows[0][1:])
+        for renderer_name, header in (("render_result_table_html", "<i>Reference</i>"),
+                                      ("render_result_table_md", "*Reference*")):
             renderer = self.report[renderer_name]
-            no_reference = renderer("Vitals & Functional Health", [self.rows[0]], compact=True)
+            no_reference = renderer("Vitals & Functional Health", [unknown], compact=True)
             with_reference = renderer("Vitals & Functional Health", [self.rows[3]], compact=True)
-            self.assertIn(header, no_reference)
-            self.assertIn("no clinical target", no_reference)
+            self.assertNotIn(header, no_reference)
+            self.assertNotRegex(no_reference, r"no clinical target|no separate target|[Uu]nclassified")
             self.assertIn(header, with_reference)
             self.assertIn("target &lt; 7" if renderer_name.endswith("html") else "target < 7", with_reference)
+
+    def test_single_observations_in_different_months_do_not_create_a_trend_column(self):
+        dates = self.report["date_columns"]
+        rows = [
+            ("Chest Circumference", *("105" if month == "2026-09" else "-" for month in dates), "cm", "-"),
+            ("Hip Circumference", *("97" if month == "2026-07" else "-" for month in dates), "cm", "-"),
+        ]
+        for output_format in ("html", "md"):
+            for compact in (False, True):
+                with self.subTest(output_format=output_format, compact=compact):
+                    rendered = self.report[f"render_result_table_{output_format}"](
+                        "Vitals & Functional Health", rows, compact=compact)
+                    header, *results = rendered_table_rows(rendered, output_format)
+                    self.assertNotIn("Trend", header)
+                    self.assertEqual([cell for cell in header if re.fullmatch(r"\d{4}-\d{2}", cell)],
+                                     ["2026-09", "2026-07"])
+                    self.assertEqual(len(results), 2)
+                    self.assertTrue(all(len(row) == len(header) for row in results))
+
+    def test_repeated_height_and_single_body_measurement_do_not_create_a_trend(self):
+        dates = self.report["date_columns"]
+        rows = [
+            ("Height", *("180" if month in {"2026-09", "2026-07"} else "-" for month in dates), "cm", "-"),
+            ("Chest Circumference", *("105" if month == "2026-09" else "-" for month in dates), "cm", "-"),
+        ]
+        for output_format in ("html", "md"):
+            with self.subTest(output_format=output_format):
+                rendered = self.report[f"render_result_table_{output_format}"]("Vitals & Functional Health", rows, compact=True)
+                header, *results = rendered_table_rows(rendered, output_format)
+                self.assertNotIn("Trend", header)
+                self.assertEqual(results[0][header.index("2026-09")], "180")
+                self.assertEqual(results[0][header.index("2026-07")], "180")
+
+    def test_provider_suffixes_are_removed_only_when_display_names_remain_unique(self):
+        display = self.report["display_metric_name"]
+        category = "Vitals & Functional Health"
+        original = [tuple(row) for row in self.report["data"][category]]
+        names = [row[0] for row in original]
+        labels = [display(category, name) for name in names]
+        self.assertEqual(len(labels), len(set(labels)))
+        self.assertEqual(display(category, "Future Firmware Marker (Oura)"), "Future Firmware Marker")
+        self.assertEqual(display(category, "Nerve Health Score Left Foot (Withings)"), "Nerve Health Score Left Foot")
+        self.assertEqual(display(category, "Sleep Score (Withings)"), "Sleep Score (Withings)")
+        self.assertEqual(display(category, "Sleep Score"), "Sleep Score")
+        self.assertEqual(self.report["data"][category], original)
+        self.assertIn("Average Sleeping HR (Oura)", names)
 
 
 if __name__ == "__main__":

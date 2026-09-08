@@ -129,10 +129,10 @@ class ProviderGuidanceTests(unittest.TestCase):
             with self.subTest(marker=marker):
                 self.assertIsNone(guidance.guide_status(VITALS, marker, "85"))
         self.assertIsNone(guidance.guide_reference("Other category", "Sleep Score", "lab range"))
-        waist = guidance.guide_reference(VITALS, "Waist Circumference (Narrowest Point)", "-")
-        self.assertIsNotNone(waist)
-        self.assertRegex(waist.lower(), r"narrowest|landmark|standard.*site|anatom")
-        self.assertNotRegex(waist, r"(?:<|≤|>|≥)\s*\d")
+        # An unsupported measurement-site target stays absent; explanatory
+        # measurement guidance belongs in source notes, not each result cell.
+        self.assertIsNone(guidance.guide_reference(
+            VITALS, "Waist Circumference (Narrowest Point)", "-"))
 
 
 class GuidanceRenderingTests(unittest.TestCase):
@@ -167,12 +167,12 @@ class GuidanceRenderingTests(unittest.TestCase):
                 rendered = self.report[f"render_result_table_{output_format}"](VITALS, [row], compact=True)
                 header, result = rendered_table_rows(rendered, output_format)
                 self.assertEqual(header[:2], ["Metric", "Trend"])
-                self.assertIn("Reference / target", header)
+                self.assertIn("Reference", header)
                 self.assertEqual([cell for cell in header if re.fullmatch(r"\d{4}-\d{2}", cell)], ["2026-09", "2026-07"])
                 self.assertEqual(len(header), len(result))
                 self.assertIn("90", result[header.index("2026-09")])
                 self.assertIn("🔵", result[header.index("2026-09")])
-                self.assertIn("85", result[header.index("Reference / target")])
+                self.assertIn("85", result[header.index("Reference")])
                 self.assertNotEqual(result[1], "-")
 
     def test_bone_has_numerical_change_without_a_fabricated_health_color(self):
@@ -185,7 +185,31 @@ class GuidanceRenderingTests(unittest.TestCase):
                 self.assertIn("↑ +0.1", result[1])
                 cell = result[header.index("2026-09")]
                 self.assertIn("4.2", cell)
-                self.assertFalse(any(emoji in cell for emoji in ("🔵", "🟢", "🟡", "🟠", "🔴")))
+                self.assertFalse(any(emoji in cell for emoji in ("⚪", "🔵", "🟢", "🟡", "🟠", "🔴")))
+
+    def test_unclassified_results_are_literal_values_without_neutral_dots_or_boilerplate(self):
+        row = self.row("Chest Circumference", {"2026-09": "105"}, "cm")
+        for output_format in ("html", "md"):
+            with self.subTest(output_format=output_format):
+                rendered = self.report[f"render_result_table_{output_format}"](VITALS, [row], compact=True)
+                header, result = rendered_table_rows(rendered, output_format)
+                self.assertEqual(result[header.index("2026-09")], "105")
+                self.assertNotIn("Trend", header)
+                self.assertNotIn("Reference", header)
+                self.assertNotRegex(rendered, r"⚪|[Uu]nclassified|no separate target|no clinical target")
+
+    def test_references_preserve_supplied_ranges_without_filler(self):
+        rows = [self.row("Future Laboratory Marker", {"2026-09": "12.5"})]
+        for ref in ("-", "2–20"):
+            row = (*rows[0][:-1], ref)
+            with self.subTest(ref=ref):
+                self.assertEqual(self.report["target_reference"]("Other laboratory category", row[0], ref), ref)
+                for output_format in ("html", "md"):
+                    rendered = self.report[f"render_result_table_{output_format}"]("Other laboratory category", [row])
+                    header, result = rendered_table_rows(rendered, output_format)
+                    self.assertIn("Reference", header)
+                    self.assertEqual(result[header.index("Reference")], ref)
+                    self.assertNotIn("no separate target", rendered)
 
 
 if __name__ == "__main__":
