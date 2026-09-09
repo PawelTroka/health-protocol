@@ -910,7 +910,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - BJ-ES - [Bryan Johnson Essential Softgel](https://blueprint.bryanjohnson.com/products/essential-softgels)
 - BJ-NGC - [Bryan Johnson NAC + Ginger + Curcumin](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)
 - BJ-RYG - [Bryan Johnson Red Yeast Garlic](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)
-- ⚕️ Requires [prescription (Rx)](https://erecepty24.pl)
+- ⚕️ Requires prescription (Rx): [erecepty24](https://erecepty24.pl) for ready-made medicines; [Telemedi](https://telemedi.com) for custom medicines (lek recepturowy)
 - 🔄 Automatically renewed and shipped (Subscribe & Save)
 - 💪 Muscle growth/recovery
 - ❤️ Heart health/cardiovascular benefits
