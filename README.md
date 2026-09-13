@@ -505,13 +505,6 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `44kcal · P1.8g · C0.1g · F3.9g · Fiber0.8g · Calcium · Lignans`
   - [ ] 7g [Organic Hulled Sunflower Seeds](https://allegro.pl/produkt/pestki-slonecznika-bioswena-1000-g-89b9636d-e89b-431e-9533-2b0054082fd6) 🛡️ ⏰ 👨‍🦳 ❤️
     - `42kcal · P1.6g · C0.8g · F3.4g · Vitamin E · Magnesium · Unsaturated Fat`
-- 🥑 **Optional Additional Healthy Fats — CHOOSE ONE**
-  - [ ] 13.5g (1tbsp) [Organic Early-Harvest EVOO](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶
-    - `122kcal · F13.5g · 917mg/kg Polyphenols · MUFAs · Vitamin E`
-  - [ ] 30g [Organic Avocado](https://www.frisco.pl/pid%2C81919/n%2Cfrisco-organic-avocado-bio-2-szt./stn%2Cproduct) (edible flesh) 🛡️ ⏰ ❤️ 🦠 🩸 🗿 🪶
-    - `48kcal · P0.6g · C0.5g · F4.4g · Fiber2g · Potassium · MUFAs`
-  - [x] Nothing
-    - `0kcal`
 - 🦠 **Fermented food — CHOOSE ONE**
   - [x] 400g (1bottle) [Lactose-Free Live Kefir with *L. rhamnosus*](https://www.frisco.pl/pid%2C102359/n%2Crobico-kefir-bez-laktozy-z-probiotykiem-15/stn%2Cproduct) 🛡️ 🗿 🦠 🦴
     - `172kcal · P12.4g · C16.8g · F6g · Salt0.4g · Calcium · Vitamin B12 · Live Cultures`
@@ -536,6 +529,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `1,8-Cineole · Alpha-Terpinyl Acetate`
   - [ ] 1g freshly ground [Organic Black Cumin Seed](https://allegro.pl/oferta/nasiona-czarnuszki-bio-1kg-bioswena-premium-18509879840) (*Nigella sativa*) 🛡️ 🩸
     - `Thymoquinone`
+- 🥑 **Optional Additional Healthy Fats — CHOOSE ONE**
+  - [ ] 13.5g (1tbsp) [Organic Early-Harvest EVOO](https://allegro.pl/oferta/bio-oliwa-z-oliwek-wczesny-zbior-phileos-500ml-oliwa-wysokopolifenolowa-17103396557), for cooking/finishing 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶
+    - `122kcal · F13.5g · 917mg/kg Polyphenols · MUFAs · Vitamin E`
+  - [ ] 30g [Organic Avocado](https://www.frisco.pl/pid%2C81919/n%2Cfrisco-organic-avocado-bio-2-szt./stn%2Cproduct) (edible flesh) 🛡️ ⏰ ❤️ 🦠 🩸 🗿 🪶
+    - `48kcal · P0.6g · C0.5g · F4.4g · Fiber2g · Potassium · MUFAs`
+  - [x] Nothing
+    - `0kcal`
 - 💊 [Evening supplements](#evening)
 
 ### 🌱 Weekly rhythm & adjustments
