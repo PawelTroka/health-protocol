@@ -322,7 +322,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *567kcal · P47.6g · C46.7g · F17.7g · Fiber15.3g*
 *Weigh Turkey and thawed Pollock raw (exclude glaze), starch after preparation, steamed Vegetables after preparation, Mushrooms before steaming, and raw Vegetables/Microgreens/Berries as eaten.*
 - 🥩 **Lean Protein — CHOOSE ONE**
-  - [x] 150g [organic Turkey tenderloins](https://miensko.pl/poledwiczka-z-indyka-eko-swieza-550g) 🛡️ 🗿 💪 🪶
+  - [x] 150g [organic pasture-raised Turkey tenderloins](https://miensko.pl/poledwiczka-z-indyka-eko-swieza-550g) 🛡️ 🗿 💪 🪶
     - `171kcal · P38g · C0g · F2.1g · Vitamin B3 · Vitamin B6 · Vitamin B12`
   - [ ] 200g [MSC Alaska Pollock](https://zakupy.auchan.pl/products/mintaj-filet-bez-sk%C3%B3ry-auchan-450-g/00049747) 🛡️ 🗿 💪 🪶
     - `150kcal · P34g · C<1g · F2g · Iodine · Vitamin B12 · Selenium`
@@ -333,7 +333,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🌾 **Easily Digestible Complex Carbs — CHOOSE ONE**
   - [ ] 75g boiled [organic White Quinoa](https://bioshi.pl/pl/products/quinoa-biala-komosa-ryzowa-bezglutenowa-bio-500-g-bio-planet-44499) 🛡️ 🗿 💪 🦠 🩸 🪶 🔄
     - `104kcal · P4.2g · C15.7g · F2g · Fiber3.8g · Magnesium · Folate`
-  - [x] 100g steamed [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪
+  - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Anthocyanins · Potassium`
   - [ ] 100g steamed [organic Orange Sweet Potatoes](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) 🛡️ 🗿 👁️ 🦠 💪
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Beta-Carotene · Potassium`
@@ -454,7 +454,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `79kcal · P5.3g · C9g · F0.3g · Fiber5.2g · Folate · Magnesium`
   - [ ] 50g boiled [organic Chickpeas](https://bioshi.pl/pl/products/ciecierzyca-bezglutenowa-bio-400-g-bio-planet-44932) 🛡️ ⏰ ❤️ 🦠 🩸 🌱 🔄
     - `82kcal · P4.4g · C9.9g · F1.3g · Fiber3.8g · Folate · Iron`
-  - [x] 100g steamed [Okinawan purple sweet potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪 😴
+  - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪 😴
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Anthocyanins · Potassium`
 - 🥬 **Steamed Leafy Greens — CHOOSE ONE**
   - [ ] 100g [Kale](https://zakupy.auchan.pl/products/jarmu%C5%BC-ci%C4%99ty-warzywa-auchan-300-g/00253887) 🛡️ ⏰ 🗿 👁️ 🦴
