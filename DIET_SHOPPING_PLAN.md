@@ -4,14 +4,14 @@ Prepared 2026-09-13; naming, oil sourcing and subscription opportunities recheck
 
 The inventory covers all **91 distinct linked food products** in the active Diet, counting shared oils, purple Sweet Potatoes and Oregano once. Supplement powders/pills are outside this food-shopping list; Cranberries and Rainbow Trout remain TODOs.
 
-**The four-item Bioshi fresh subscription is active and its first123.01zł order is paid. Other baskets remain unpurchased.** The tables distinguish added products from deferred rotations. Prices are checkout snapshots, not reserved quotes; fresh stock and delivery slots remain subject to the account and destination.
+**The four-item Bioshi fresh subscription is active and its first123.01zł order is paid. The90-day pantry order was accepted at460.96zł but remains unpaid; payment is on hold during the full subscription/value audit. Olini remains unpaid and under comparison.** The tables distinguish added products from deferred rotations. Prices are checkout snapshots, not reserved quotes; fresh stock and delivery slots remain subject to the account and destination.
 
 ## Prepared baskets
 
 | Store | Verified contents / amount | Discount, delivery and remaining step |
 | --- | --- | --- |
 | Olini 🔄 | Flaxseed200g ×1; **15.75zł** | Every 3months selected: 12% off and free delivery. Account authenticated; recurring-card payment remains at checkout. Newsletter confirmation opened; its 10% coupon would not stack. |
-| Bioshi pantry 🔄 |**Restored basket:**18SKUs /24packs; **460.96zł** | All18lines individually verified at90days with the original quantities. Basket shows free shipping; courier identity requires checkout verification. Separate from the active fresh subscription; no pantry order, payment or activation. The named shopping list remains a backup, without retained quantities/cycles. |
+| Bioshi pantry 🔄 |**Accepted, unpaid order:**18SKUs /24packs; **460.96zł** | All18lines verified at90days; free GLS home delivery confirmed. Payment is on hold while additional subscriptions and pack/value choices are audited. The order exposes a supported edit option; no successful payment or activated recurring card has been verified. |
 | Bioshi fresh 🔄 | **Active and first order paid:** Kiwi1.2kg, Tomatoes1kg, Shiitake200g, Oyster Mushrooms200g; **123.01zł delivered** | Every28days, free GLS home delivery. First delivery estimated17September, awaiting supplier stock; next planned15October. Account currently quotes110.70zł for renewal2; confirmation specifies10% off order2 and15% off orders3–300. Card saved for automatic renewals. |
 | Moya | Matcha Codzienna 100g ×2; **180zł** |10% newsletter discount applied; free courier. Passwordless account and newsletter confirmed. |
 | RolnikEko | Empty; **0zł** | Both Phileos bottles removed after moving the purchase to Allegro. Account/newsletter retained; no order submitted. |
@@ -66,7 +66,7 @@ The inventory covers all **91 distinct linked food products** in the active Diet
 
 **Rotation over the year:** about13 deliveries supply78 Kiwi days,130 Tomato days and69 Mushroom serving-equivalents before trimming—approximately21%,36% and19% of their respective daily-choice categories. Use these foods in concentrated batches after delivery, then rotate the other existing alternatives.28days is the reorder interval, not refrigerated shelf life. Use each Mushroom pack's remainder promptly or preserve it safely; do not retain fresh leftovers until renewal. [Mushroom preservation guidance](https://nchfp.uga.edu/how/freeze/vegetable/freezing-mushrooms/)
 
-[Bioshi's terms](https://bioshi.pl/pl/terms) require a common interval per subscription order. The separate90-day pantry basket has been restored and verified at18SKUs /24packs /460.96zł with free shipping; it remains unsubmitted. Successful123.01zł card payment and active subscription status were verified in the account after the user's Revolut approval; the card is saved for renewals. The order is awaiting supplier stock before dispatch. Its first delivery remains estimated17September, with the following delivery planned15October. Keep the pantry checkout separate.
+[Bioshi's terms](https://bioshi.pl/pl/terms) require a common interval per subscription order. The separate90-day pantry order was accepted at18SKUs /24packs /460.96zł with free GLS delivery; payment is on hold during the wider audit. Successful123.01zł card payment and active subscription status were verified in the account after the user's Revolut approval; the card is saved for renewals. The order is awaiting supplier stock before dispatch. Its first delivery remains estimated17September, with the following delivery planned15October. Keep the pantry checkout separate.
 
 ### Additional subscriptions researched, not ordered
 
@@ -84,9 +84,9 @@ Fresh organic Strawberries450g and Watercress50g showed subscription controls bu
 
 ## Products and quantities
 
-**In basket** means added and verified. **🔄** marks an automatic product subscription; the fresh group is active, while pantry and Olini remain pending. The90-day pantry group is restored in its separate basket with the quantities and cycles below verified. **Deferred / 0 first** means no item has been added: buy the stated pack when that rotation and delivery become practical. Quantities use the README's raw/cooked/edible basis; packaging, glaze, peel and cooking yield differ.
+**In basket** means added and verified. **🔄** marks an automatic product subscription; the fresh group is active, while pantry and Olini remain pending. The90-day pantry group is in an accepted unpaid order with the quantities and cycles below verified; further optimization is in progress. **Deferred / 0 first** means no item has been added: buy the stated pack when that rotation and delivery become practical. Quantities use the README's raw/cooked/edible basis; packaging, glaze, peel and cooking yield differ.
 
-### Bioshi pantry 🔄 — restored pending basket
+### Bioshi pantry 🔄 — accepted unpaid order; audit in progress
 
 | Product / pack | Protocol serving | Verified subscription quantity / first price | Replenishment |
 | --- | --- | --- | --- |
@@ -256,4 +256,4 @@ Fresh organic Strawberries450g and Watercress50g showed subscription controls bu
 - **Label checks:** Pumpkin350g retains the former-label macro estimate while panels conflict. Chia200g and Pistachio150g follow their exact-EAN manufacturer panels; Almond and Macadamia Fiber are also manufacturer-declared. HeyBio Sunflower250g supplies41kcal per7g; its Vitamin E/Magnesium highlights remain generic food composition. Turkey, skinless Salmon and purple Sweet Potato retain identified generic proxies. Oil polyphenol claims need a report matching the delivered lot.
 - **Long pantry rotations:** expiry dates from the removed MarketBio packs do not establish dates for Bioshi stock. Check each delivered batch, keep unopened packs sealed and reduce/defer an underused subscription line. Preserve the written food quantities; subscription availability alone does not justify consuming more.
 
-Olini remains prepared and unactivated. Bioshi's90-day pantry basket is restored and verified, with quantities/cycles recorded above; the four foods in the28-day fresh subscription are active and the first123.01zł order is paid. MarketBio also needs sign-in to restore its account discount. Grocery slots, stock and payment still need final checkout verification; Auchan's two preexisting unavailable Meat items gate its checkout. Only the fresh order has been submitted and paid; no other subscription was activated. Personal addresses, phone numbers and credentials are excluded from this file.
+Olini remains prepared and unactivated. Bioshi's90-day pantry order is accepted but unpaid and under further audit, with quantities/cycles recorded above; the four foods in the28-day fresh subscription are active and the first123.01zł order is paid. MarketBio also needs sign-in to restore its account discount. Grocery slots, stock and payment still need final checkout verification; Auchan's two preexisting unavailable Meat items gate its checkout. Only the fresh order is paid and confirmed active. The pantry order is submitted but unpaid; its payment and the Olini payment remain on hold during the full audit. A separate draft basket contains only1kg Carrots selected at28days to verify genuine subscription purchasing; no order was submitted for it. Personal addresses, phone numbers and credentials are excluded from this file.
