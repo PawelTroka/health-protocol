@@ -5,15 +5,16 @@ These instructions apply to the entire repository. This is a living health-proto
 ## Sources of truth and file roles
 
 - `README.md` is the canonical protocol. It owns the active stack, food plan, doses, timing windows, slot codes, display order, Notes, TODO replacements, Removed items, product links and Blueprint/BJ comparison signatures.
+- `diet/` contains the Diet shopping plans, delivery schedules, subscription audits, payment handoff and merchant support records. Keep their relative links and automation references aligned with this directory.
 - Conversation history explains intent but is not authoritative. Inspect the live files before answering or editing, and perform a fresh audit when asked to re-review.
 - `tools/generate_pillbox_guide.py` is the editable source for the physical pillbox guide. It manually mirrors pill entries from `README.md`; it does not parse the README.
-- `Supplement-Pillbox-Guide.docx` is generated, checked-in output. Never edit it manually.
+- `supplements/Supplement-Pillbox-Guide.docx` is generated, checked-in output. Never edit it manually.
 - `tools/generate_colored_report.py` contains the structured lab-result data and generates `results.md` and `results.html`. It writes files when deliberately run; do not import or execute it casually.
 - `tools/sync_vitals.py` and `tools/health_sync/` import Oura/Withings records and generate `results/vitals_monthly.json`, which overlays supported monthly means in the results generator. For an authorized on-demand sync, follow `tools/README.md` and run `tools/Sync-Vitals.ps1`; do not hand-edit generated monthly data or turn screenshots into invented averages. The user reopened July 2026 for full synchronization: import supported measurements from July 1 onward and replace corresponding July values with their actual averages, while preserving original values in source history and retaining dated manual/app-only results where no exact imported counterpart exists.
 - OAuth credentials belong only in the Windows-user-encrypted, Git-ignored `tools/.secrets/credentials.dat` vault. Never request them in chat, put them in command arguments or write plaintext copies. `.health-sync/` contains private raw exports and the normalized cache; do not commit it. An ordinary sync is on demand, not permission to create a recurring automation.
 - Keep expanded Oura and Withings metric registries synchronized with report rows and units. Preserve distinct provider definitions; never average categorical API codes or guess units. Record unavailable endpoints and preserve unrepresented cached observations during partial API fetches; API access does not establish that every device/account supports every field.
 - Treat raw medical material under `results/`—including images, DICOM data, PDFs and archives—as sensitive, immutable source material unless the user explicitly requests a scoped operation.
-- `COST_ANALYSIS.md` is derived and may lag behind the protocol. Do not update one line and leave dependent totals stale; reconcile it comprehensively only when cost analysis is in scope.
+- `cost/COST_ANALYSIS.md` is derived and may lag behind the protocol. Do not update one line and leave dependent totals stale; reconcile it comprehensively only when cost analysis is in scope.
 - Preserve unrelated modified and untracked user files. Do not add render folders, remote attachments, `__pycache__`, raw results or unrelated artifacts to a commit.
 
 ## Authorization and collaboration
@@ -137,7 +138,7 @@ Every change to an active physical pill's code, order, name, dose, multiplier, c
 - Do not place zero-series drinks or powders into pillbox cells.
 - Preserve exactly eight 3x3 pages: Morning 1/2, Lunch 1/2, Evening 1/2, Before Workout and After Workout. Each page has nine physical cells.
 - Keep the visible guide-header date current whenever the document is regenerated.
-- Never hand-edit `Supplement-Pillbox-Guide.docx`.
+- Never hand-edit `supplements/Supplement-Pillbox-Guide.docx`.
 
 After an authorized pillbox-affecting change:
 

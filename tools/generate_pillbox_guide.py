@@ -15,7 +15,7 @@ from docx.shared import Inches, Pt, RGBColor
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "Supplement-Pillbox-Guide.docx"
+OUTPUT = ROOT / "supplements" / "Supplement-Pillbox-Guide.docx"
 PILLBOX_URL = "https://gymbeam.com/adjustable-pillbox-gymbeam.html"
 
 
@@ -651,6 +651,7 @@ def build_document():
     for index, page_data in enumerate(PAGES):
         add_page(doc, page_data, index)
 
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     doc.save(OUTPUT)
     return OUTPUT
 

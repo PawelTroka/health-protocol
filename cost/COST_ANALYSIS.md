@@ -2,7 +2,7 @@
 
 **Price basis:** general model 2026-08-18; Phileos cooking EVOO checked 2026-08-22  
 **Location and currency:** Gdańsk / Poland, PLN  
-**Protocol quantities:** [README.md](README.md), updated through 2026-08-22  
+**Protocol quantities:** [README.md](../README.md), updated through 2026-08-22  
 **Purpose:** budgeting only; this is not a recommendation that every item or procedure is medically appropriate.
 
 ## Executive result
