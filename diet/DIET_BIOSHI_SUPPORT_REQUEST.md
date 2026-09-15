@@ -2,7 +2,7 @@
 
 **Sent on14September2026**, with explicit user approval, from `pawel.troka@outlook.com` to `bok@bioshi.pl`; Outlook confirmed the send. Awaiting the merchant's response. This request contains shopping configuration only; no health results or medical details.
 
-The four-group fresh proposal below is the historical sent version. The user subsequently chose six fresh groups and6 Tempeh/12 Egg dinners per28days; the [six-group amendment](DIET_BIOSHI_SUPPORT_AMENDMENT.md) is prepared but unsent. The current [delivery schedule](DIET_DELIVERY_SCHEDULE.md) owns the revised quantities and phase offsets.
+The four-group fresh proposal below is the historical sent version. The user subsequently chose six fresh groups and6 Tempeh/12 Egg dinners per28days; the [six-group amendment](DIET_BIOSHI_SUPPORT_AMENDMENT.md) was sent with explicit approval on14September2026 at22:26 Europe/Warsaw. The current [delivery schedule](DIET_DELIVERY_SCHEDULE.md) owns the revised quantities and phase offsets.
 
 **Subject:** Subskrypcje 357/359/360 – korekta ilości i rozłożenie dostaw bez duplikatów
 

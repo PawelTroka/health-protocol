@@ -1,0 +1,105 @@
+# Diet stock and first-delivery transition
+
+Recorded **14September2026**, using the user's opening-stock report and the canonical [Diet](../README.md#4-diet). **Sauerkraut jars and Kefirs are confirmed unopened.** Other opening states, purchase dates, use-by dates and most pack weights are unconfirmed. Estimates below support preparation; they are not invented stock measurements, expiry dates or booked deliveries.
+
+**Hold overlapping first purchases while existing stock is allocated.** The six-fresh/six-pantry arrangement remains a candidate. Its977.50zł/28day fresh and766.14zł/90day average pantry goods model is not a stock-adjusted shopping bill or an accepted optimum. The [payment handoff](DIET_PAYMENT_HANDOFF.md) owns actual order/payment status; the [delivery schedule](DIET_DELIVERY_SCHEDULE.md) owns the dated quotes. Changes to those accounts are separate from this document.
+
+## Optimization criteria
+
+The hard constraints are complete food-category coverage at the README's portions, the agreed variety and6 Tempeh +12 Egg +10 Fish dinners/28days,100g Sauerkraut on3–4days/week on average, free recurring home courier, budget, zero planned edible waste, native automatic renewal, and bounded, stable inventory by both quantity and age. Parcel lockers and pickup points are excluded. Initial reported stock is a transition condition, not a reason to enlarge servings or repeat the initial excess indefinitely.
+
+Use the authoritative [optimization specification](DIET_OPTIMIZATION.md#freshness-objective). Among feasible plans, minimize the fixed meal/category-weighted average of normalized storage time; within the agreed tolerance, prefer lower delivered cost and then simplicity:
+
+`F = Σ[b,e: w_e × x_be × (t_e − a_b) / L_be] / Σ[b,e: w_e × x_be]`
+
+`e` is a required meal/category event, `b` a batch and `x_be` the fraction of the written portion assigned from that batch; fractions across the same permitted food sum to one per event. `w_e` is its fixed event weight. Neither buying more packs nor splitting them creates extra weighted events. Each usable-life denominator must belong to the actual batch and its storage/opening conditions; it is not the reorder interval. Unknown arrival dates or usable lives leave the corresponding score unknown. Recording stock today does not reset its age. Consumption must follow arrival and remain inside the actual usable window. Evaluate the recurring inventory tail as well as startup: extra stock at the end of a short simulation is not a solution to waste or accumulation.
+
+No numerical total-budget ceiling has been approved. **1,320.79zł/month is only the preceding Bioshi goods model and a proposed ceiling to reduce, not an approved whole-Diet budget.** A two-day delay buffer is also a provisional planning input, not an agreed shelf-life extension or confirmed delivery lead time.
+
+The existing candidate does not yet pass these constraints: recurring courier/packing charges are unconfirmed, some foods are unavailable, the Sauerkraut label conflicts, and several stock balances rely on manual omissions, sharing or preservation. Saved lists and the daily local review are not native subscriptions. Their existence does not prove an optimal or self-running system. Resolve an infeasible constraint explicitly; do not silently trade it for extra food, recurring manual skips or a pickup service.
+
+## Opening-stock register
+
+`Reported` means the user's count/estimate. `Conditional capacity` applies only if the selected-SKU assumption is correct and the food is still usable. A category has one shared choice budget: the individual runways must not be added as simultaneous daily consumption. Dates and opening state remain unknown unless expressly stated.
+
+| Reported opening stock | Conditional capacity at written portions | Transition decision |
+| --- | --- | --- |
+| **7 Sauerkraut jars; unopened** |If each is the selected800g jar:5.6kg,56×100g. At3–4 choices/week this is14–18.7weeks of mathematical capacity, not refrigerated shelf life. Different jar sizes change the result. |Hold new F3 Sauerkraut. Read all seven labels/use-bys and identify whether they are the selected Carrot recipe before assigning meals. Do not assume all56 portions can be eaten fresh: if800g jars and seven opened days apply, seven100g choices perjar use4.9kg and leave700g outside that fresh pattern; a three-day limit gives21 fresh choices and3.5kg outside it. Unopened use-bys may further restrict these maxima. |
+| **Half a Phileos bottle** |If the original bottle is500ml:approximately250ml. At the model's illustrative0.915g/ml, about228.8g =16.9 fixed Lunch servings of13.5g. Optional Dinner use shortens this; Pamako is separate. |Measure remaining Oil and opening date; defer an overlapping first bottle until its actual need is near. A different bottle size changes the estimate. |
+| **1 Macadamia pack +1 Walnut pack** |If200g +300g:500g =25 shared20g Nut choices;10 Macadamia and15 Walnut choices. |Hold immediate duplicate Nuts. Open/use by actual condition and label, then rotate; this is not25days' coverage for each variety. |
+| **1 Pumpkin Seed pack** |If350g:50×7g Dinner Seed choices. |Hold a duplicate Pumpkin pack; count Sunflower/Tahini against the same Dinner Seed budget. |
+| **About1 Flax pack +2 Chia packs** |If approximately250g +2×200g:approximately650g =92.9 shared7g Morning Seed equivalents. Individual amounts are35.7 Flax and57.1 Chia equivalents, not two daily servings. |Hold new Flax/Chia and the previously proposed Hemp bridge. There is no coverage reason to add Hemp before this stock is allocated; retain it as a later variety option. |
+| **Some Shiitake** |Weigh usable raw Mushrooms before cooking:full choices=`floor(raw_g/75)`; record the same-species remainder. |Use within actual freshness, replacing upcoming Mushroom choices. Shiitake cannot be counted as the older model's25g Oyster opening buffer. |
+| **About200g Matcha** |About100 daily2g servings. |Defer the new200g Moya purchase. Confirm unopened/opened packs and their dates; do not treat100servings as a freshness guarantee. |
+| **2 Soy Milk packs** |If each1L of the selected fortified unsweetened Soy Milk:2L =10×200ml Soy choices. This is10days if every Milk choice is Soy, or about20days at a half share. |Hold the overlapping four-carton refill initially. Confirm pack size/formulation and opened life; open one carton at a time. |
+| **8 Kefirs; unopened** |If each400g of the selected Robico:8 full Ferment choices. The candidate's7/28day share would imply32calendar days mathematically, which is not a usable-life claim. |Remove an immediate duplicate four-bottle purchase from the proposed need. Allocate these eight by actual use-by before choosing which unopened Sauerkraut jar to open. |
+| **8 Atlantic Mackerel packs** |If each provides125g drained of the written option:8 Dinner Fish choices. Actual identity, drained weight, pack condition and dates remain to verify. |Use existing Fish in the transition; reduce new Fish purchasing. An unavailable retailer listing does not make owned stock unavailable. |
+| **5 Sardine packs** |If these are the selected120g tins with85g drained:425g =2 full170g dinners plus one sealed85g tin. If “pack” contains two tins, capacity doubles; verify count. |Hold new Sardine tins until this is reconciled. Keep the fifth tin sealed for a later paired170g serving; do not create an85g dinner or enlarge a serving. |
+| **Some Kohlrabi, Broccoli and Cauliflower** |Weigh prepared edible stock on the README basis; their combined usable prepared grams/100 share one Cruciferous choice/day. |Reduce overlapping heads/bags; identify the earliest usable batches first. No head count or gross-to-cooked yield is assumed. |
+| **Some Carrots** |Prepared edible grams/100 Colorful choices. |Reduce duplicate Carrots/other Colorful vegetables only by the measured chosen portions. |
+| **2 Kale packs** |If the current README's300g bags:600g gross; the previously used250g bags would instead mean500g. Neither is a measured cooked yield. |Use with Spinach in the shared Leafy budget; hold duplicate bags until prepared yield and freshness are known. |
+| **1 Spinach pack** |If the selected100g pack:100g raw; another retailer's150g pack would differ. Raw weight is not a100g cooked serving. |Measure/use before adding matching Spinach; do not automatically credit one full cooked choice. |
+| **About6 Tomatoes** |Count is known approximately; mass is not. As an illustration only,100–150g edible per fruit would yield600–900g, or6–9 raw100g choices. |Weigh actual raw edible stock and delay duplicate Tomatoes. Do not assume six fruits equal six servings or guarantee their usable days. |
+| **1 Paprika** |Ambiguous: a fresh Pepper would count at100g raw in Colorful Vegetables; the selected50g powdered Sweet Paprika would give50 selected1g seasoning uses. |Clarify form before removing a spice purchase or crediting a Vegetable. No assumed conversion between them. |
+| **Eggs, Tempeh, Oats and other unreported foods** |Unknown, not zero. |Confirm before filling gaps. Do not infer a full cupboard or an empty one from omission in the report. |
+
+## Immediate allocation and delayed first purchases
+
+Use **FEFO: first expiry, first out**, based on actual labels, storage and condition. Unknown dates require inspection, not an invented best-before ranking. Preserve the README's preparation rules and weighing bases.
+
+1. At the next stock check, inspect Shiitake, Leafy Greens, Tomatoes, Pepper and the other reported vegetables; weigh usable amounts and record actual use-bys where present. Choose one appropriate food in each category from those stocks before buying its replacement. Do not cook/freeze raw Tomatoes and count them as the written raw choice.
+2. Read dates on all eight unopened Kefirs and all seven unopened Sauerkraut jars. Use the earlier-expiring suitable Ferment first. Open only the next jar/carton needed for nearby written servings. A seven-day Sauerkraut claim cannot justify an eight-day opened jar; the existing3-versus7-day discrepancy remains unresolved.
+3. Measure the half bottle and inspect existing open Nuts/Seeds/Matcha. Keep batch remainders separate until their age and usable condition are known. Seed choices remain7g Morning and7g Dinner, not one7g serving from every packet.
+4. Confirm Fish species/SKU and drained mass. Retain6 Tempeh and12 Egg dinners; use the reported canned Fish within the10 Fish dinners and weekly Fish constraint, as below. Apply the README's existing Fish-Oil condition on those Fatty-Fish days; this stock change does not change a supplement dose.
+5. Before opening more short-life food, match its entire edible pack to permissible meals inside its actual usable window. Rescue arrangements for already-owned stock must be recorded honestly; they do not prove a zero-waste recurring purchase design.
+
+**Fish variety example, conditional on the reported packs:** use4 Mackerel125g +4 Salmon150g raw +2 Sardine170g dinners over28days. Compared with the previous unavailable-Mackerel fallback, new Salmon need falls from1.2kg to600g raw, and the four required Sardine tins come from stock. Four Mackerel packs and one Sardine tin remain for later choices. This preserves Salmon variety and avoids treating owned Mackerel as an indefinite replacement for every fresh Fish meal.
+
+| Weeks | Lunch pattern | Seven Dinner choices | Estimated weekly Fish |
+| --- | --- | --- | ---: |
+|1 and3 |4 Turkey150g;1 Pollock200g raw;1 Mussels150g;1 Shrimp180g |3 Tempeh200g;2 Eggs200g shell-free;1 Salmon150g raw;1 Mackerel125g drained |405g, including245g Fatty Fish |
+|2 and4 |6 Turkey150g;1 Mussels150g |4 Eggs200g shell-free;1 Salmon150g raw;1 Mackerel125g drained;1 Sardine170g drained |415g, all Fatty Fish |
+
+The Fish calculation uses the existing illustrative yields120g cooked Salmon from150g raw and160g cooked Pollock from200g raw; actual cooked/ready-to-eat weight controls the300–450g/week target. A separate coverage-only calculation shows8 Mackerel +2 Sardine dinners could supply all10 Dinner Fish choices from stock for one cycle, with410/420g weekly Fish including the same Lunch pattern. That is a short-term option if usable stock requires it, not a decision to remove Salmon variety. The existing500g thawed Salmon pack remains a poor fit for a150g meal unless a verified smaller purchase or fully allocated usable batch solves its remainder; no planned sharing is credited to the optimized route.
+
+**Ferments:** the operating target remains100g Sauerkraut on3–4days/week on average, within one daily Ferment choice. The earlier14 Sauerkraut +7 Kefir +4 Skyr +3 Kimchi example is a future variety pattern, not an instruction to buy seven more Kefirs now. Allocate the eight owned unopened Kefirs and actual usable Sauerkraut first; their chosen servings displace other Ferment purchases. One transition example with14 Sauerkraut and8 owned Kefirs leaves six choices for Skyr/Kimchi. No extra Ferments are added to use stock up, and dairy-to-Sauerkraut swaps are not equal-Protein substitutions.
+
+## Review windows, not shipment dates
+
+These are useful checkpoints under the stated pack assumptions; the existing daily review can reassess them without creating a new automation. Earlier verified use-by or an observed shortage takes precedence. None authorizes consumption after a date, establishes expiry, or books a first order.
+
+| Stock group | First useful review window | What releases a new purchase |
+| --- | --- | --- |
+| Fresh Vegetables/Shiitake; Kefirs; all Sauerkraut labels |Next check, then within1–3days |Measured usable stock cannot cover the next planned choices, and replacement timing/pack size fits actual freshness. |
+| Soy Milk |Within3–7days |Remaining usable200ml choices, current Soy share and opened-carton instructions establish the next actual need. |
+| Half Phileos bottle |Within7–10days; sooner if bottle is smaller or optional Oil is used |Measured13.5g servings approach verified delivery lead time plus any approved buffer; the provisional half500ml estimate is about17 Lunch servings. |
+| Nuts |Within14–21days |The combined measured Nut balance approaches the next20g daily choices and a correctly sized automatic arrival. |
+| Pumpkin Seeds |Within28–35days |The shared Dinner Seed plan approaches the measured balance; the50-choice estimate is conditional. |
+| Flax/Chia |Within28days to establish actual shares, then reassess against the approximately93 shared-choice estimate |Measured total and remaining pack ages justify a new seed variety; do not replenish each one independently. |
+| Matcha |Check opening/label now; quantity review around day70–85 if approximately200g remains usable |Remaining2g servings approach verified delivery lead time plus any approved buffer. This is not permission to defer a label check for70days. |
+| Canned Fish |Before the next Fish meal; reassess after the first14days |Actual meal allocations, identity/drained weights and dates establish what remains; no fixed depletion date from “8packs”. |
+| Sauerkraut replenishment |Labels now, then weekly actual balance |The seven owned jars no longer supply the planned usable portions, and a pack/label arrangement can meet freshness and zero planned waste without recurring rescue. |
+
+The earlier5/9/14/19/23/28October fresh starts are historical illustrations. Do not release six boxes merely because those dates arrive. Retain relative offsets only as a candidate rhythm; first arrival dates must follow the measured stock transition and merchant capabilities. Delay overlapping lines rather than all food needed for uncovered categories. If the merchant cannot separate them without losing required free recurring home delivery, re-optimize the group before release.
+
+## Pipeline and release gate
+
+The reported cupboard is separate from the order pipeline. On15September the refreshed subscription history shows paid243351/357 at123.01zł preparing for fulfillment. First orders243402/360 at266.00zł and243397/359 at206.62zł now show held, with no new payment confirmation. The exact reasons and dispatch dates remain unverified; unpaid reservations may expire at scheduled dispatch under the merchant terms recorded in the [morning review](DIET_PAYMENT_HANDOFF.md#15september-morning-review). These are **not delivered opening stock**. A first-order stock hold does not itself pause357’s separately active1October renewal; reconcile that future stream before replacements. The eight-pack243397 contains Oil, Oats, Walnuts, Pumpkin, Flax, Cardamom, Cinnamon and Cloves, several overlapping the new report. Future359 remains separately paused and incorrect. Do not pay/resume it as a shortcut to stock planning. The [payment handoff](DIET_PAYMENT_HANDOFF.md) records subsequent account changes and any revised quotes.
+
+An accepted incoming line can reduce another purchase only after its actual fulfillment timing is sufficiently confirmed; it does not cover a meal before arrival. Do not count both an old first order and its replacement. Unsubmitted/manual carts are proposals, not pipeline arrivals. Request delay or correction of overlapping accepted orders through the authorized account workflow; this document does not claim the merchant has agreed to delay them.
+
+A first or replacement shipment can be released only when:
+
+- The selected SKU, edible/drained weight, amount on hand, opening state, relevant dates and planned category choices establish its shortfall; coverage remains complete until arrival.
+- The proposed quantity is assigned to normal written servings within a verified usable window, with zero planned edible waste; another healthy-food purchase is not added solely to unlock shipping.
+- The actual deferred first-arrival route and subsequent native cycle exist. Product presets7/14/21/28/30/60/90days do not establish arbitrary days, start-date control or stock-aware skipping.
+- Home courier and all mandatory packing fees are verified for the actual first and recurring discounted baskets, and satisfy the approved budget/free-delivery constraint. A delivery-method “Gratis” screen alone is insufficient.
+- Existing357/359/360 overlaps and paid/unpaid orders are reconciled, the merchant confirms the relevant delay/change, and normal repeated operation yields stable quantity and age inventory without manual omissions or planned sharing.
+
+For a proposed arrival at`t`, calculate `shortfall = planned written servings due before the next feasible arrival − usable opening stock allocated to those servings − confirmed incoming stock arriving in time`, in the same edible units. Round to a pack only after its entire contents fit future permissible meals and shelf life. Unknown stock is not assigned an invented zero; verify it or show the uncertainty. No numerical arrival date is defensible until the necessary inputs are known.
+
+## Keep the inventory reproducible
+
+Track each batch with a stable identifier, exact food/SKU, measured amount and unit, label serving/drained basis, reported versus verified status, arrival/purchase date when known, opened/sealed state, opening date, use-by and storage instructions, allocated portions and remaining quantity. Keep unknown dates as unknown. Record consumption, arrival, disposal or transfer as actual events; elapsed time alone does not subtract food. Preserve the initial report instead of replacing it with a later estimate.
+
+Future optimization must compare the complete repeated age/quantity profile after the opening stock is drawn down. A delayed first order changes initial cash flow; it does not by itself lower recurring consumption or establish a cheaper steady-state plan. The current model's manual skips, preserved Mushroom carryover, Sauerkraut sharing and stock-dependent manual shopping are visible feasibility gaps to solve, not assumed features of the requested optimum.
