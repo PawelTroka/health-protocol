@@ -204,7 +204,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Synergy: Iliac lat exercise + upper back row.*
 - **Iliac Lats (Width)**: Neutral Shoulder-Width Weighted Pull-ups (or assisted): 10 × 2kg, 9 × 4kg, 8 × 6kg *(Pro-Tip: Keep elbows tucked in front; targets lower iliac lats for maximum V-taper and spares right shoulder)* 💪 ⏰ 🗿
 - **Upper/Mid Back**: Pronated Grip Chest-Supported Machine Row: 12 × 70kg, 11 × 80kg, 10 × 90kg (Saves lower back) 💪 ⏰ 🗿
-- **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 7.5kg, 11 × 10kg, 10 × 12.5kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
+- **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 15 × 12.5kg 🗿
 - **Forearms (Brachioradialis)**: Cuffed Single Arm Top Half Reverse Curl: 15 × 10kg, 13 × 12.5kg, 12 × 15kg 🗿
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
