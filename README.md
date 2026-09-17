@@ -136,7 +136,14 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ### Diagnostic Imaging
 - Abdominal USG (Yearly)
 - Neck USG (Thyroid & Lymph nodes) (Yearly)
-- [Whole Body MRI](https://tkmedica.pl/produkt/rezonans-magnetyczny-calego-ciala/) (or [STERMED alternative](https://stermed.com.pl/721/mr-whole-body-calego-ciala)) (Yearly)
+- Whole Body MRI (Yearly)
+  - [TK MEDICA](https://tkmedica.pl/produkt/rezonans-magnetyczny-calego-ciala/)
+    - Pros: private, no referral; MAGNETOM Sola 1.5T (~70cm bore); ~45min; PLN2,800; claimed head-to-feet coverage (tall patients should confirm full-feet coverage) with partial upper-limb coverage; WB-DWI b50–900 plus additional prostate/gynaecological, lung and brain dark-fluid sequences; standard protocol without contrast; ONCO-RADS; full DICOM and report via portal.
+    - Limitations to confirm: numeric size limit and full-feet coverage; ADC maps; exact anatomical sequence core; named/second reader; guaranteed same-visit targeted sequences and their price; current report turnaround.
+    - Why: its disclosed package is more operationally complete—ONCO-RADS, full DICOM/report portal, broader practical coverage and possible targeted extensions—but these are provider declarations, not independent proof of clinical superiority; reconfirm the actual coverage, protocol and add-ons when booking.
+  - (alternative) [STERMED](https://stermed.com.pl/721/mr-whole-body-calego-ciala)
+    - Pros: private, no referral; uMR 670 1.5T; explicitly confirmed low-/high-b DWI + ADC, T1/Dixon, T2/STIR, full-spine and brain FLAIR+DWI; PLN2,850/3,050; ~3-week report; report + CD.
+    - Limitations: head-to-feet at ≤175cm but only to the thighs above 175cm, no same-visit targeted sequences; its combined ONCO-RADS/experienced-reader question was answered “No”, so those components were not independently confirmed; DICOM was not confirmed.
 - [DEXA Scan](https://www.dobradiagnostyka.pl/oferta/analiza-skladu-masy-ciala/analiza-skladu-masy-ciala-gdansk) (Yearly)
 - RTG (X-Ray) imaging (As needed)
 - 3D CT Scans (As needed)
