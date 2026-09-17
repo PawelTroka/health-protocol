@@ -3,6 +3,7 @@
 from . import categorical
 from .monthly import MANAGED_START, iso_date, validate_records
 from .oura import OURA_ENDPOINTS
+from .garmin import GARMIN_ENDPOINTS
 
 
 _WITHINGS_ENDPOINTS = {
@@ -28,6 +29,8 @@ def infer_endpoint(record):
     provider = record.get("provider")
     explicit = record.get("source_endpoint")
     if provider == "oura" and explicit in OURA_ENDPOINTS:
+        return explicit
+    if provider == "garmin" and explicit in GARMIN_ENDPOINTS:
         return explicit
     if provider == "withings" and isinstance(explicit, str) and explicit in _WITHINGS_ENDPOINTS:
         return _WITHINGS_ENDPOINTS[explicit]
@@ -67,6 +70,8 @@ def _complete_endpoints(fetch_status, providers, start, end):
                 raise ValueError("Each API endpoint status must be an object.")
             if provider == "withings":
                 endpoint = _WITHINGS_ENDPOINTS.get(endpoint)
+            elif provider == "garmin":
+                endpoint = endpoint if endpoint in GARMIN_ENDPOINTS else None
             elif endpoint not in OURA_ENDPOINTS:
                 endpoint = None
             if endpoint is not None and status.get("status") == "complete":
@@ -93,7 +98,7 @@ def merge_synced(existing, incoming, providers, start, end, fetch_status, *, cla
     if start < MANAGED_START or end < start:
         raise ValueError("API reconciliation begins 2026-07-01 and requires an ordered range.")
     providers = set(providers)
-    if not providers or not providers <= {"oura", "withings"}:
+    if not providers or not providers <= {"oura", "withings", "garmin"}:
         raise ValueError("API reconciliation requires known providers.")
     validate = categorical.validate if classifications else validate_records
     existing = validate(existing)

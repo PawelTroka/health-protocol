@@ -214,4 +214,7 @@ def fetch(provider, start: date, end: date):
         return _oura(start, end)
     if provider == "withings":
         return _withings(start, end)
-    raise APIError("Unknown provider; choose oura or withings.")
+    if provider == "garmin":
+        from .garmin_client import fetch as fetch_garmin
+        return fetch_garmin(start, end)
+    raise APIError("Unknown provider; choose oura, withings or garmin.")

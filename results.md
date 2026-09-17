@@ -28,12 +28,12 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Body Mass** | ↓ -0.9 | 80.4<sup>7</sup> | 81.3<sup>7</sup> | 83.7<sup>7</sup> | kg | - |
-| **BMI** | ⚪ | 🔵<sup>7</sup> 24.8 | 🔵<sup>7</sup> 25.1 ↑ | 🔵<sup>7</sup> 25.8 ↑ | kg/m^2 | 18.5 - 24.9; target 20 - 24.9 |
-| **Body Fat** | 🟢 | 🔵<sup>7</sup> 13.6 | 🔵<sup>7</sup> 15.8 | 🟢<sup>7</sup> 18.2 | % | 10 - 20; target 10 - 15 |
-| **Muscle** | ⚪ | 🔵<sup>7</sup> 82.3 | 🔵<sup>7</sup> 80.1 | 🔵<sup>7</sup> 77.8 | % | > 70; target >= 75 |
-| **Bone** | ↑ +0.1 | 4.2<sup>7</sup> | 4.1<sup>7</sup> | 4.0<sup>7</sup> | % | 3–5 |
-| **Visceral Fat Index** | ↓ -0.2 | 🟢<sup>7</sup> 2.3 | 🟢<sup>7</sup> 2.5 | 🟢<sup>7</sup> 2.8 | index | 0–5 |
+| **Body Mass** | ↓ -1.3 | 80.0<sup>7</sup> | 81.3<sup>7</sup> | 83.7<sup>7</sup> | kg | - |
+| **BMI** | ⚪ | 🔵<sup>7</sup> 24.7 | 🔵<sup>7</sup> 25.1 ↑ | 🔵<sup>7</sup> 25.8 ↑ | kg/m^2 | 18.5 - 24.9; target 20 - 24.9 |
+| **Body Fat** | 🟢 | 🔵<sup>7</sup> 14.5 | 🔵<sup>7</sup> 15.8 | 🟢<sup>7</sup> 18.2 | % | 10 - 20; target 10 - 15 |
+| **Muscle** | ⚪ | 🔵<sup>7</sup> 81.3 | 🔵<sup>7</sup> 80.1 | 🔵<sup>7</sup> 77.8 | % | > 70; target >= 75 |
+| **Bone** | → 0 | 4.1<sup>7</sup> | 4.1<sup>7</sup> | 4.0<sup>7</sup> | % | 3–5 |
+| **Visceral Fat Index** | ↓ -0.1 | 🟢<sup>7</sup> 2.4 | 🟢<sup>7</sup> 2.5 | 🟢<sup>7</sup> 2.8 | index | 0–5 |
 
 ### Body measurements
 
@@ -62,65 +62,65 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Blood Pressure** | 🟡 | 🔵<sup>7</sup> 108.0/76.0 | 🔵<sup>7</sup> 105.0/71.0 | 🟢<sup>7</sup> 115.2/78.7 | mmHg | < 120 / < 80; target 100-115 / 60-75 |
 | **PWV** | ⚪ | 🔵<sup>7</sup> 6.1 | 🔵<sup>7</sup> 6.5 | 🔵<sup>7</sup> 6.2 | m/s | < 10; target < 7 |
 | **Estimated PWV** | ↓ -0.02 | 6.40<sup>7</sup> | 6.42<sup>7</sup> | 6.45<sup>7</sup> | m/s | - |
-| **Average Sleeping HR (Oura)** | ↓ -0.3 | 65.9<sup>7</sup> | 66.2<sup>7</sup> | 66.6<sup>7</sup> | bpm | - |
-| **Mean Nightly Lowest HR (Oura)** | ↑ +0.1 | 59.0<sup>7</sup> | 58.9<sup>7</sup> | 59.4<sup>7</sup> | bpm | - |
-| **ECG AF Classification** | - | Negative: 2<sup>8</sup> | Negative: 6<sup>8</sup> | Negative: 17<sup>8</sup> | Status | - |
+| **Average Sleeping HR (Oura)** | ↓ -0.7 | 65.5<sup>7</sup> | 66.2<sup>7</sup> | 66.6<sup>7</sup> | bpm | - |
+| **Mean Nightly Lowest HR (Oura)** | ↓ -0.4 | 58.5<sup>7</sup> | 58.9<sup>7</sup> | 59.4<sup>7</sup> | bpm | - |
+| **ECG AF Classification** | - | Negative: 5<sup>8</sup> | Negative: 6<sup>8</sup> | Negative: 17<sup>8</sup> | Status | - |
 
 ### Sleep and breathing
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sleep Duration** | ⚪ | 🔵<sup>7</sup> 7.51 | 🔵<sup>7</sup> 7.60 | 🔵<sup>7</sup> 7.68 | h | >= 7; target 7 - 9 |
-| **Time in Bed** | ↓ -0.14 | 8.86<sup>7</sup> | 9.00<sup>7</sup> | 8.97<sup>7</sup> | h | - |
-| **Sleep Efficiency** | ↑ +0.2 | 🟡<sup>7</sup> 84.8 | 🟡<sup>7</sup> 84.6 | 🟢<sup>7</sup> 85.9 | % | ≥85 |
-| **Sleep Latency** | ↓ -7.7 | 🔵<sup>7</sup> 15.0 | 22.7<sup>7</sup> | 22.0<sup>7</sup> | min | 15–20 |
-| **Sleep Score** | ↑ +2.9 | 🟢<sup>7</sup> 81.6 | 🟢<sup>7</sup> 78.7 | 🟢<sup>7</sup> 77.4 | score | 70–100; target 85–100 |
-| **REM Sleep** | ⚪ | 🔵<sup>7</sup> 1.64 | 🔵<sup>7</sup> 1.72 | 🔵<sup>7</sup> 1.75 | h | 1.5 - 2.3; target 20 - 25% of sleep |
-| **Deep Sleep** | ⚪ | 🔵<sup>7</sup> 1.14 | 🔵<sup>7</sup> 1.05 | 🔵<sup>7</sup> 1.07 | h | about 1 - 2; target 1 - 2 |
-| **Light Sleep (Oura)** | ↓ -0.09 | 4.74<sup>7</sup> | 4.83<sup>7</sup> | 4.86<sup>7</sup> | h | - |
-| **Awake Time During Sleep** | ↓ -0.04 | 1.35<sup>7</sup> | 1.39<sup>7</sup> | 1.29<sup>7</sup> | h | - |
-| **Respiratory Rate (Sleep)** | ⚪ | 🔵<sup>7</sup> 12.38 | 🔵<sup>7</sup> 12.30 | 🔵<sup>7</sup> 12.62 | /min | 12 - 20; target 12 - 16 |
-| **Average Sleeping SpO2** | → 0 | 🟡<sup>7</sup> 94.7 | 🟡<sup>7</sup> 94.7 | 🟡<sup>7</sup> 94.5 | % | 95–100 |
-| **Sleep Apnea AHI** | ⚪ | 🔵<sup>7</sup> 5.0 | 🔵<sup>7</sup> 2.7 | 🔵<sup>7</sup> 4.7 | events/h | < 5; target < 5 |
-| **Breathing Disturbance Index** | ↓ -0.2 | 0.8<sup>7</sup> | 1.0<sup>7</sup> | 1.0<sup>7</sup> | index | - |
-| **Snoring Duration** | ↑ +0.8 | 2.8<sup>7</sup> | 2.0<sup>7</sup> | 4.0<sup>7</sup> | min | - |
+| **Sleep Duration** | ⚪ | 🔵<sup>7</sup> 7.28 | 🔵<sup>7</sup> 7.60 | 🔵<sup>7</sup> 7.68 | h | >= 7; target 7 - 9 |
+| **Time in Bed** | ↓ -0.56 | 8.44<sup>7</sup> | 9.00<sup>7</sup> | 8.97<sup>7</sup> | h | - |
+| **Sleep Efficiency** | ↑ +1.7 | 🟢<sup>7</sup> 86.3 | 🟡<sup>7</sup> 84.6 | 🟢<sup>7</sup> 85.9 | % | ≥85 |
+| **Sleep Latency** | ↓ -5.9 | 🔵<sup>7</sup> 16.8 | 22.7<sup>7</sup> | 22.0<sup>7</sup> | min | 15–20 |
+| **Sleep Score** | ↑ +1.7 | 🟢<sup>7</sup> 80.4 | 🟢<sup>7</sup> 78.7 | 🟢<sup>7</sup> 77.4 | score | 70–100; target 85–100 |
+| **REM Sleep** | ⚪ | 🔵<sup>7</sup> 1.61 | 🔵<sup>7</sup> 1.72 | 🔵<sup>7</sup> 1.75 | h | 1.5 - 2.3; target 20 - 25% of sleep |
+| **Deep Sleep** | ⚪ | 🔵<sup>7</sup> 1.18 | 🔵<sup>7</sup> 1.05 | 🔵<sup>7</sup> 1.07 | h | about 1 - 2; target 1 - 2 |
+| **Light Sleep (Oura)** | ↓ -0.34 | 4.49<sup>7</sup> | 4.83<sup>7</sup> | 4.86<sup>7</sup> | h | - |
+| **Awake Time During Sleep** | ↓ -0.22 | 1.17<sup>7</sup> | 1.39<sup>7</sup> | 1.29<sup>7</sup> | h | - |
+| **Respiratory Rate (Sleep)** | ⚪ | 🔵<sup>7</sup> 12.20 | 🔵<sup>7</sup> 12.30 | 🔵<sup>7</sup> 12.62 | /min | 12 - 20; target 12 - 16 |
+| **Average Sleeping SpO2** | ↑ +0.3 | 🟢<sup>7</sup> 95.0 | 🟡<sup>7</sup> 94.7 | 🟡<sup>7</sup> 94.5 | % | 95–100 |
+| **Sleep Apnea AHI** | 🟢 | 🔵<sup>7</sup> 1.8 | 🔵<sup>7</sup> 2.7 | 🔵<sup>7</sup> 4.7 | events/h | < 5; target < 5 |
+| **Breathing Disturbance Index** | ↓ -0.3 | 0.7<sup>7</sup> | 1.0<sup>7</sup> | 1.0<sup>7</sup> | index | - |
+| **Snoring Duration** | ↑ +1.4 | 3.4<sup>7</sup> | 2.0<sup>7</sup> | 4.0<sup>7</sup> | min | - |
 
 ### Recovery and stress
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Average HRV (Sleep)** | ↓ -1.2 | 24.6<sup>7</sup> | 25.8<sup>7</sup> | 25.4<sup>7</sup> | ms | - |
-| **Readiness Score** | ↑ +2.4 | 🔵<sup>7</sup> 85.2 | 🟢<sup>7</sup> 82.8 | 🟢<sup>7</sup> 83.2 | score | 70–100; target 85–100 |
-| **Stress Day Summary** | - | Normal: 5<sup>8</sup> | Normal: 27; Restored: 3; Stressful: 1<sup>8</sup> | Normal: 26; Restored: 4; Stressful: 1<sup>8</sup> | Status | - |
-| **High Stress Time** | ↑ +0.05 | 0.95<sup>7</sup> | 0.90<sup>7</sup> | 0.91<sup>7</sup> | h | - |
-| **High Recovery Time** | ↓ -0.41 | 0.95<sup>7</sup> | 1.36<sup>7</sup> | 1.54<sup>7</sup> | h | - |
-| **Resilience Level** | - | Strong: 5<sup>8</sup> | Solid: 16; Strong: 15<sup>8</sup> | Solid: 20; Strong: 11<sup>8</sup> | Status | - |
+| **Average HRV (Sleep)** | ↓ -0.8 | 25.0<sup>7</sup> | 25.8<sup>7</sup> | 25.4<sup>7</sup> | ms | - |
+| **Readiness Score** | ↑ +0.3 | 🟢<sup>7</sup> 83.1 | 🟢<sup>7</sup> 82.8 | 🟢<sup>7</sup> 83.2 | score | 70–100; target 85–100 |
+| **Stress Day Summary** | - | Normal: 16<sup>8</sup> | Normal: 27; Restored: 3; Stressful: 1<sup>8</sup> | Normal: 26; Restored: 4; Stressful: 1<sup>8</sup> | Status | - |
+| **High Stress Time** | ↑ +0.1 | 1.00<sup>7</sup> | 0.90<sup>7</sup> | 0.91<sup>7</sup> | h | - |
+| **High Recovery Time** | ↓ -0.39 | 0.97<sup>7</sup> | 1.36<sup>7</sup> | 1.54<sup>7</sup> | h | - |
+| **Resilience Level** | - | Solid: 1; Strong: 15<sup>8</sup> | Solid: 16; Strong: 15<sup>8</sup> | Solid: 20; Strong: 11<sup>8</sup> | Status | - |
 
 ### Activity and fitness
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **VO2max** | 🟢 | 🔵<sup>5</sup> 44 | - | 🔵 43 | ml/kg/min | > 35; target >= 45 |
-| **Steps (Oura)** | ↓ -1190 | 4938<sup>7</sup> | 6128<sup>7</sup> | 5791<sup>7</sup> | steps | - |
-| **Activity Score** | ↓ -10.3 | 🟢<sup>7</sup> 78.2 | 🔵<sup>7</sup> 88.5 | 🔵<sup>7</sup> 93.6 | score | 70–100; target 85–100 |
-| **Active Duration** | ↑ +52 | - | 78.5<sup>7</sup> | 26.5<sup>7</sup> | min | - |
-| **High Activity Time** | ↓ -0.06 | 0.02<sup>7</sup> | 0.08<sup>7</sup> | 0.17<sup>7</sup> | h | - |
-| **Medium Activity Time** | ↓ -0.41 | 1.19<sup>7</sup> | 1.60<sup>7</sup> | 2.33<sup>7</sup> | h | - |
-| **Low Activity Time** | ↓ -0.22 | 3.73<sup>7</sup> | 3.95<sup>7</sup> | 3.03<sup>7</sup> | h | - |
-| **Sedentary Time** | ↑ +1.69 | 10.12<sup>7</sup> | 8.43<sup>7</sup> | 8.73<sup>7</sup> | h | - |
-| **Active Energy** | ↓ -189.7 | 593.6<sup>7</sup> | 783.3<sup>7</sup> | 968.5<sup>7</sup> | kcal | - |
-| **Total Energy Expenditure** | ↓ -229 | 2798.6<sup>7</sup> | 3027.6<sup>7</sup> | 3221.9<sup>7</sup> | kcal | - |
-| **Duration per Recorded Workout** | ↑ +1.12 | 2.00<sup>7</sup> | 0.88<sup>7</sup> | 1.42<sup>7</sup> | h | - |
-| **Distance per Recorded Workout** | ↓ -2.6 | - | 5.31<sup>7</sup> | 7.91<sup>7</sup> | km | - |
+| **Steps (Oura)** | ↓ -1177 | 4951<sup>7</sup> | 6128<sup>7</sup> | 5791<sup>7</sup> | steps | - |
+| **Activity Score** | ↓ -1.4 | 🔵<sup>7</sup> 87.1 | 🔵<sup>7</sup> 88.5 | 🔵<sup>7</sup> 93.6 | score | 70–100; target 85–100 |
+| **Active Duration** | ↓ -50.9 | 23.1<sup>7</sup> | 74.0<sup>7</sup> | 26.5<sup>7</sup> | min | - |
+| **High Activity Time** | ↑ +0.07 | 0.15<sup>7</sup> | 0.08<sup>7</sup> | 0.17<sup>7</sup> | h | - |
+| **Medium Activity Time** | ↓ -0.37 | 1.23<sup>7</sup> | 1.60<sup>7</sup> | 2.33<sup>7</sup> | h | - |
+| **Low Activity Time** | ↓ -0.42 | 3.53<sup>7</sup> | 3.95<sup>7</sup> | 3.03<sup>7</sup> | h | - |
+| **Sedentary Time** | ↑ +0.84 | 9.27<sup>7</sup> | 8.43<sup>7</sup> | 8.73<sup>7</sup> | h | - |
+| **Active Energy** | ↓ -125.7 | 657.6<sup>7</sup> | 783.3<sup>7</sup> | 968.5<sup>7</sup> | kcal | - |
+| **Total Energy Expenditure** | ↓ -211.4 | 2816.2<sup>7</sup> | 3027.6<sup>7</sup> | 3221.9<sup>7</sup> | kcal | - |
+| **Duration per Recorded Workout** | ↑ +0.71 | 1.59<sup>7</sup> | 0.88<sup>7</sup> | 1.42<sup>7</sup> | h | - |
+| **Distance per Recorded Workout** | ↑ +7.98 | 13.29<sup>7</sup> | 5.31<sup>7</sup> | 7.91<sup>7</sup> | km | - |
 
 ### Nerve health and temperature
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Nerve Health Score** | - | pending<sup>4</sup> | 🟢<sup>4</sup> 69 | 🟢<sup>4</sup> 70 | score | >50 |
-| **Nerve Health Score Feet** | ↓ -11.5 | 41.3<sup>7</sup> | 52.8<sup>7</sup> | 44.6<sup>7</sup> | score | - |
+| **Nerve Health Score Feet** | ↓ -5.8 | 47.0<sup>7</sup> | 52.8<sup>7</sup> | 44.6<sup>7</sup> | score | - |
 | **Temperature** | - | - | - | 🔵<sup>7</sup> 36.7 | C | 36.1 - 37.2; target 36.5 - 37.0 |
-| **Temperature Deviation** | ↓ -0.01 | -0.02<sup>7</sup> | -0.01<sup>7</sup> | -0.07<sup>7</sup> | °C | - |
+| **Temperature Deviation** | ↑ +0.06 | 0.05<sup>7</sup> | -0.01<sup>7</sup> | -0.07<sup>7</sup> | °C | - |
 
 <details>
 <summary id='results-vitals-details'>Detailed device measurements · 136 metrics</summary>
@@ -129,176 +129,176 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Body Water** | ↑ +0.8 | 58.1<sup>7</sup> | 57.3<sup>7</sup> | 56.3<sup>7</sup> | % | 50–65 |
-| **Bone Mass** | ↑ +0.04 | 3.36<sup>7</sup> | 3.32<sup>7</sup> | 3.32<sup>7</sup> | kg | - |
-| **Extracellular Water** | ↑ +0.03 | 17.38<sup>7</sup> | 17.35<sup>7</sup> | 17.52<sup>7</sup> | kg | - |
-| **Fat Mass** | ↓ -1.95 | 10.92<sup>7</sup> | 12.87<sup>7</sup> | 15.25<sup>7</sup> | kg | - |
-| **Fat Mass - Left Arm** | ↓ -0.07 | 0.36<sup>7</sup> | 0.43<sup>7</sup> | 0.54<sup>7</sup> | kg | - |
-| **Fat Mass - Left Leg** | ↓ -0.26 | 1.85<sup>7</sup> | 2.11<sup>7</sup> | 2.34<sup>7</sup> | kg | - |
-| **Fat Mass - Right Arm** | ↓ -0.05 | 0.37<sup>7</sup> | 0.42<sup>7</sup> | 0.53<sup>7</sup> | kg | - |
-| **Fat Mass - Right Leg** | ↓ -0.23 | 1.94<sup>7</sup> | 2.17<sup>7</sup> | 2.40<sup>7</sup> | kg | - |
-| **Fat Mass - Torso** | ↓ -1.35 | 6.39<sup>7</sup> | 7.74<sup>7</sup> | 9.44<sup>7</sup> | kg | - |
-| **Fat-Free Mass** | ↑ +1.07 | 69.51<sup>7</sup> | 68.44<sup>7</sup> | 68.49<sup>7</sup> | kg | - |
-| **Fat-Free Mass - Left Arm** | ↑ +0.15 | 4.73<sup>7</sup> | 4.58<sup>7</sup> | 4.54<sup>7</sup> | kg | - |
-| **Fat-Free Mass - Left Leg** | ↑ +0.03 | 11.86<sup>7</sup> | 11.83<sup>7</sup> | 11.98<sup>7</sup> | kg | - |
-| **Fat-Free Mass - Right Arm** | ↑ +0.03 | 4.71<sup>7</sup> | 4.68<sup>7</sup> | 4.60<sup>7</sup> | kg | - |
-| **Fat-Free Mass - Right Leg** | ↑ +0.18 | 12.01<sup>7</sup> | 11.83<sup>7</sup> | 11.98<sup>7</sup> | kg | - |
-| **Fat-Free Mass - Torso** | ↑ +0.7 | 36.21<sup>7</sup> | 35.51<sup>7</sup> | 35.39<sup>7</sup> | kg | - |
-| **Intracellular Water** | ↑ +0.07 | 29.32<sup>7</sup> | 29.25<sup>7</sup> | 29.63<sup>7</sup> | kg | - |
-| **Lean Mass** | ↑ +2.2 | 86.4<sup>7</sup> | 84.2<sup>7</sup> | 81.8<sup>7</sup> | % | - |
-| **Muscle Mass** | ↑ +1.04 | 66.16<sup>7</sup> | 65.12<sup>7</sup> | 65.17<sup>7</sup> | kg | - |
-| **Muscle Mass - Left Arm** | ↑ +0.13 | 4.56<sup>7</sup> | 4.43<sup>7</sup> | 4.40<sup>7</sup> | kg | - |
-| **Muscle Mass - Left Leg** | ↑ +0.12 | 11.20<sup>7</sup> | 11.08<sup>7</sup> | 11.21<sup>7</sup> | kg | - |
-| **Muscle Mass - Right Arm** | ↑ +0.02 | 4.56<sup>7</sup> | 4.54<sup>7</sup> | 4.47<sup>7</sup> | kg | - |
-| **Muscle Mass - Right Leg** | ↑ +0.16 | 11.16<sup>7</sup> | 11.00<sup>7</sup> | 11.15<sup>7</sup> | kg | - |
-| **Muscle Mass - Torso** | ↑ +0.6 | 34.67<sup>7</sup> | 34.07<sup>7</sup> | 33.95<sup>7</sup> | kg | - |
-| **Water Mass** | ↑ +0.1 | 46.70<sup>7</sup> | 46.60<sup>7</sup> | 47.15<sup>7</sup> | kg | - |
+| **Body Water** | ↑ +0.5 | 57.8<sup>7</sup> | 57.3<sup>7</sup> | 56.3<sup>7</sup> | % | 50–65 |
+| **Bone Mass** | ↓ -0.01 | 3.31<sup>7</sup> | 3.32<sup>7</sup> | 3.32<sup>7</sup> | kg | - |
+| **Extracellular Water** | ↓ -0.09 | 17.26<sup>7</sup> | 17.35<sup>7</sup> | 17.52<sup>7</sup> | kg | - |
+| **Fat Mass** | ↓ -1.25 | 11.62<sup>7</sup> | 12.87<sup>7</sup> | 15.25<sup>7</sup> | kg | - |
+| **Fat Mass - Left Arm** | ↓ -0.04 | 0.39<sup>7</sup> | 0.43<sup>7</sup> | 0.54<sup>7</sup> | kg | - |
+| **Fat Mass - Left Leg** | ↓ -0.16 | 1.95<sup>7</sup> | 2.11<sup>7</sup> | 2.34<sup>7</sup> | kg | - |
+| **Fat Mass - Right Arm** | ↓ -0.03 | 0.39<sup>7</sup> | 0.42<sup>7</sup> | 0.53<sup>7</sup> | kg | - |
+| **Fat Mass - Right Leg** | ↓ -0.18 | 1.99<sup>7</sup> | 2.17<sup>7</sup> | 2.40<sup>7</sup> | kg | - |
+| **Fat Mass - Torso** | ↓ -0.84 | 6.90<sup>7</sup> | 7.74<sup>7</sup> | 9.44<sup>7</sup> | kg | - |
+| **Fat-Free Mass** | ↓ -0.08 | 68.36<sup>7</sup> | 68.44<sup>7</sup> | 68.49<sup>7</sup> | kg | - |
+| **Fat-Free Mass - Left Arm** | → 0 | 4.58<sup>7</sup> | 4.58<sup>7</sup> | 4.54<sup>7</sup> | kg | - |
+| **Fat-Free Mass - Left Leg** | ↓ -0.08 | 11.75<sup>7</sup> | 11.83<sup>7</sup> | 11.98<sup>7</sup> | kg | - |
+| **Fat-Free Mass - Right Arm** | ↓ -0.07 | 4.61<sup>7</sup> | 4.68<sup>7</sup> | 4.60<sup>7</sup> | kg | - |
+| **Fat-Free Mass - Right Leg** | ↓ -0.04 | 11.79<sup>7</sup> | 11.83<sup>7</sup> | 11.98<sup>7</sup> | kg | - |
+| **Fat-Free Mass - Torso** | ↑ +0.12 | 35.63<sup>7</sup> | 35.51<sup>7</sup> | 35.39<sup>7</sup> | kg | - |
+| **Intracellular Water** | ↓ -0.32 | 28.93<sup>7</sup> | 29.25<sup>7</sup> | 29.63<sup>7</sup> | kg | - |
+| **Lean Mass** | ↑ +1.3 | 85.5<sup>7</sup> | 84.2<sup>7</sup> | 81.8<sup>7</sup> | % | - |
+| **Muscle Mass** | ↓ -0.07 | 65.05<sup>7</sup> | 65.12<sup>7</sup> | 65.17<sup>7</sup> | kg | - |
+| **Muscle Mass - Left Arm** | ↑ +0.01 | 4.44<sup>7</sup> | 4.43<sup>7</sup> | 4.40<sup>7</sup> | kg | - |
+| **Muscle Mass - Left Leg** | ↓ -0.05 | 11.03<sup>7</sup> | 11.08<sup>7</sup> | 11.21<sup>7</sup> | kg | - |
+| **Muscle Mass - Right Arm** | ↓ -0.08 | 4.46<sup>7</sup> | 4.54<sup>7</sup> | 4.47<sup>7</sup> | kg | - |
+| **Muscle Mass - Right Leg** | ↓ -0.01 | 10.99<sup>7</sup> | 11.00<sup>7</sup> | 11.15<sup>7</sup> | kg | - |
+| **Muscle Mass - Torso** | ↑ +0.07 | 34.14<sup>7</sup> | 34.07<sup>7</sup> | 33.95<sup>7</sup> | kg | - |
+| **Water Mass** | ↓ -0.41 | 46.19<sup>7</sup> | 46.60<sup>7</sup> | 47.15<sup>7</sup> | kg | - |
 
 ### Heart and circulation details
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Average Daily HR** | ↓ -0.1 | - | 106.5<sup>7</sup> | 106.6<sup>7</sup> | bpm |
-| **Average Sleeping HR (Withings)** | ↓ -0.3 | 65.5<sup>7</sup> | 65.8<sup>7</sup> | 65.9<sup>7</sup> | bpm |
-| **ECG Recorded Heart Rate** | ↓ -10.1 | 72.5<sup>7</sup> | 82.6<sup>7</sup> | 86.2<sup>7</sup> | bpm |
-| **Mean Daily Highest HR** | ↓ -4.3 | - | 134.9<sup>7</sup> | 139.2<sup>7</sup> | bpm |
-| **Mean Daily Lowest HR** | ↑ +2.3 | - | 81.8<sup>7</sup> | 79.5<sup>7</sup> | bpm |
-| **Mean Nightly Highest HR** | ↑ +0.6 | 81.0<sup>7</sup> | 80.4<sup>7</sup> | 80.8<sup>7</sup> | bpm |
-| **Mean Nightly Lowest HR (Withings)** | ↑ +1 | 55.8<sup>7</sup> | 54.8<sup>7</sup> | 55.3<sup>7</sup> | bpm |
-| **Pulse Rate** | ↓ -10.1 | 72.5<sup>7</sup> | 82.6<sup>7</sup> | 86.3<sup>7</sup> | bpm |
+| **Average Daily HR** | ↓ -17.5 | 89.0<sup>7</sup> | 106.5<sup>7</sup> | 106.6<sup>7</sup> | bpm |
+| **Average Sleeping HR (Withings)** | ↓ -1.1 | 64.7<sup>7</sup> | 65.8<sup>7</sup> | 65.9<sup>7</sup> | bpm |
+| **ECG Recorded Heart Rate** | ↓ -5.7 | 76.9<sup>7</sup> | 82.6<sup>7</sup> | 86.2<sup>7</sup> | bpm |
+| **Mean Daily Highest HR** | ↓ -5.2 | 129.7<sup>7</sup> | 134.9<sup>7</sup> | 139.2<sup>7</sup> | bpm |
+| **Mean Daily Lowest HR** | ↓ -9.5 | 72.3<sup>7</sup> | 81.8<sup>7</sup> | 79.5<sup>7</sup> | bpm |
+| **Mean Nightly Highest HR** | ↓ -2.1 | 78.3<sup>7</sup> | 80.4<sup>7</sup> | 80.8<sup>7</sup> | bpm |
+| **Mean Nightly Lowest HR (Withings)** | ↓ -0.1 | 54.7<sup>7</sup> | 54.8<sup>7</sup> | 55.3<sup>7</sup> | bpm |
+| **Pulse Rate** | ↓ -5.7 | 76.9<sup>7</sup> | 82.6<sup>7</sup> | 86.3<sup>7</sup> | bpm |
 
 ### Sleep and breathing details
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Awake Duration** | ↑ +10.5 | 48.3<sup>7</sup> | 37.8<sup>7</sup> | 40.1<sup>7</sup> | min | - |
-| **Deep Sleep (Withings)** | ↑ +0.17 | 1.02<sup>7</sup> | 0.85<sup>7</sup> | 1.16<sup>7</sup> | h | - |
-| **Light Sleep (Withings)** | ↓ -0.84 | 2.73<sup>7</sup> | 3.57<sup>7</sup> | 3.78<sup>7</sup> | h | - |
-| **Maximum Sleeping Respiratory Rate** | ↓ -0.9 | 19.2<sup>7</sup> | 20.1<sup>7</sup> | 20.3<sup>7</sup> | /min | - |
-| **Minimum Sleeping Respiratory Rate** | ↑ +0.3 | 10.7<sup>7</sup> | 10.4<sup>7</sup> | 10.3<sup>7</sup> | /min | - |
-| **Out of Bed Count** | ↓ -0.4 | 1.2<sup>7</sup> | 1.6<sup>7</sup> | 1.8<sup>7</sup> | count | - |
-| **REM Episode Count** | ↓ -1.3 | 2.2<sup>7</sup> | 3.5<sup>7</sup> | 3.1<sup>7</sup> | count | - |
-| **REM Sleep (Withings)** | ↓ -0.46 | 0.80<sup>7</sup> | 1.26<sup>7</sup> | 1.32<sup>7</sup> | h | - |
-| **Respiratory Rate During Sleep** | ↓ -0.1 | 13.7<sup>7</sup> | 13.8<sup>7</sup> | 13.7<sup>7</sup> | /min | - |
-| **Restless Periods During Sleep** | ↑ +1.8 | 215.8<sup>7</sup> | 214.0<sup>7</sup> | 207.7<sup>7</sup> | count | - |
-| **Sleep Duration (Withings)** | ↓ -1.13 | 4.55<sup>7</sup> | 5.68<sup>7</sup> | 6.26<sup>7</sup> | h | - |
-| **Sleep Efficiency (Withings)** | ↓ -3.4 | 82.9<sup>7</sup> | 86.3<sup>7</sup> | 87.4<sup>7</sup> | % | - |
-| **Sleep Latency (Withings)** | ↓ -1.4 | 23.5<sup>7</sup> | 24.9<sup>7</sup> | 25.6<sup>7</sup> | min | - |
-| **Sleep Score (Withings)** | ↓ -7.3 | 🟠<sup>7</sup> 48.4 | 🟡<sup>7</sup> 55.7 | 🟡<sup>7</sup> 59.6 | score | >75 |
-| **Sleeping Movement Duration** | ↓ -2.6 | 0.8<sup>7</sup> | 3.4<sup>7</sup> | 3.5<sup>7</sup> | min | - |
-| **Sleeping Movement Score** | ↓ -0.2 | 0.2<sup>7</sup> | 0.4<sup>7</sup> | 0.6<sup>7</sup> | score | - |
-| **Snoring Episode Count** | ↑ +0.6 | 1.0<sup>7</sup> | 0.4<sup>7</sup> | 0.6<sup>7</sup> | count | - |
-| **Time in Bed (Withings)** | ↓ -0.95 | 5.36<sup>7</sup> | 6.31<sup>7</sup> | 6.93<sup>7</sup> | h | - |
-| **Wake After Sleep Onset** | ↑ +17.6 | 45.0<sup>7</sup> | 27.4<sup>7</sup> | 38.2<sup>7</sup> | min | - |
-| **Wakeup Count** | ↑ +0.1 | 1.0<sup>7</sup> | 0.9<sup>7</sup> | 1.5<sup>7</sup> | count | - |
-| **Wakeup Latency** | ↓ -0.3 | 0.0<sup>7</sup> | 0.3<sup>7</sup> | 1.7<sup>7</sup> | min | - |
+| **Awake Duration** | ↑ +6.9 | 44.7<sup>7</sup> | 37.8<sup>7</sup> | 40.1<sup>7</sup> | min | - |
+| **Deep Sleep (Withings)** | ↑ +0.5 | 1.35<sup>7</sup> | 0.85<sup>7</sup> | 1.16<sup>7</sup> | h | - |
+| **Light Sleep (Withings)** | ↓ -0.51 | 3.06<sup>7</sup> | 3.57<sup>7</sup> | 3.78<sup>7</sup> | h | - |
+| **Maximum Sleeping Respiratory Rate** | ↓ -1.1 | 19.0<sup>7</sup> | 20.1<sup>7</sup> | 20.3<sup>7</sup> | /min | - |
+| **Minimum Sleeping Respiratory Rate** | ↓ -0.1 | 10.3<sup>7</sup> | 10.4<sup>7</sup> | 10.3<sup>7</sup> | /min | - |
+| **Out of Bed Count** | → 0 | 1.6<sup>7</sup> | 1.6<sup>7</sup> | 1.8<sup>7</sup> | count | - |
+| **REM Episode Count** | ↓ -0.9 | 2.6<sup>7</sup> | 3.5<sup>7</sup> | 3.1<sup>7</sup> | count | - |
+| **REM Sleep (Withings)** | ↓ -0.23 | 1.03<sup>7</sup> | 1.26<sup>7</sup> | 1.32<sup>7</sup> | h | - |
+| **Respiratory Rate During Sleep** | ↓ -0.4 | 13.4<sup>7</sup> | 13.8<sup>7</sup> | 13.7<sup>7</sup> | /min | - |
+| **Restless Periods During Sleep** | ↓ -6.1 | 207.9<sup>7</sup> | 214.0<sup>7</sup> | 207.7<sup>7</sup> | count | - |
+| **Sleep Duration (Withings)** | ↓ -0.24 | 5.44<sup>7</sup> | 5.68<sup>7</sup> | 6.26<sup>7</sup> | h | - |
+| **Sleep Efficiency (Withings)** | ↓ -2.1 | 84.2<sup>7</sup> | 86.3<sup>7</sup> | 87.4<sup>7</sup> | % | - |
+| **Sleep Latency (Withings)** | ↓ -1.1 | 23.8<sup>7</sup> | 24.9<sup>7</sup> | 25.6<sup>7</sup> | min | - |
+| **Sleep Score (Withings)** | ↓ -1.9 | 🟡<sup>7</sup> 53.8 | 🟡<sup>7</sup> 55.7 | 🟡<sup>7</sup> 59.6 | score | >75 |
+| **Sleeping Movement Duration** | ↓ -1.4 | 2.0<sup>7</sup> | 3.4<sup>7</sup> | 3.5<sup>7</sup> | min | - |
+| **Sleeping Movement Score** | ↓ -0.1 | 0.3<sup>7</sup> | 0.4<sup>7</sup> | 0.6<sup>7</sup> | score | - |
+| **Snoring Episode Count** | ↑ +0.3 | 0.7<sup>7</sup> | 0.4<sup>7</sup> | 0.6<sup>7</sup> | count | - |
+| **Time in Bed (Withings)** | ↓ -0.13 | 6.18<sup>7</sup> | 6.31<sup>7</sup> | 6.93<sup>7</sup> | h | - |
+| **Wake After Sleep Onset** | ↑ +12.7 | 40.1<sup>7</sup> | 27.4<sup>7</sup> | 38.2<sup>7</sup> | min | - |
+| **Wakeup Count** | ↑ +0.2 | 1.1<sup>7</sup> | 0.9<sup>7</sup> | 1.5<sup>7</sup> | count | - |
+| **Wakeup Latency** | ↑ +0.8 | 1.1<sup>7</sup> | 0.3<sup>7</sup> | 1.7<sup>7</sup> | min | - |
 
 ### Recovery and temperature details
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **HRV at Sleep End** | ↑ +1.1 | 42.4<sup>7</sup> | 41.3<sup>7</sup> | 40.2<sup>7</sup> | ms |
-| **HRV at Sleep Start** | ↑ +1.3 | 38.3<sup>7</sup> | 37.0<sup>7</sup> | 41.6<sup>7</sup> | ms |
+| **HRV at Sleep End** | ↑ +3.3 | 44.6<sup>7</sup> | 41.3<sup>7</sup> | 40.2<sup>7</sup> | ms |
+| **HRV at Sleep Start** | ↑ +3.7 | 40.7<sup>7</sup> | 37.0<sup>7</sup> | 41.6<sup>7</sup> | ms |
 | **Skin Temperature** | - | - | - | 34.9<sup>7</sup> | C |
-| **Temperature Trend Deviation** | ↑ +0.09 | 0.15<sup>7</sup> | 0.06<sup>7</sup> | -0.00<sup>7</sup> | °C |
+| **Temperature Trend Deviation** | ↑ +0.06 | 0.12<sup>7</sup> | 0.06<sup>7</sup> | -0.00<sup>7</sup> | °C |
 
 ### Nerve health details
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Nerve Health Score Left Foot** | ↓ -12.5 | 40.1<sup>7</sup> | 52.6<sup>7</sup> | 43.6<sup>7</sup> | score |
-| **Nerve Health Score Right Foot** | ↓ -11 | 40.6<sup>7</sup> | 51.6<sup>7</sup> | 44.1<sup>7</sup> | score |
+| **Nerve Health Score Left Foot** | ↓ -5.4 | 47.2<sup>7</sup> | 52.6<sup>7</sup> | 43.6<sup>7</sup> | score |
+| **Nerve Health Score Right Foot** | ↓ -6 | 45.6<sup>7</sup> | 51.6<sup>7</sup> | 44.1<sup>7</sup> | score |
 
 ### Activity and workout details
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Active Calories** | ↓ -51 | - | 53.7<sup>7</sup> | 104.7<sup>7</sup> | kcal |
-| **Activity Distance Target** | ↑ +0.25 | 10.60<sup>7</sup> | 10.35<sup>7</sup> | 10.39<sup>7</sup> | km |
-| **Activity Energy Target** | ↑ +15.2 | 570.0<sup>7</sup> | 554.8<sup>7</sup> | 550.0<sup>7</sup> | kcal |
-| **Average MET Minutes** | ↓ -0.08 | 1.53<sup>7</sup> | 1.61<sup>7</sup> | 1.71<sup>7</sup> | MET-min |
-| **Distance** | ↓ -630.7 | - | 904.5<sup>7</sup> | 1535.2<sup>7</sup> | m |
-| **Distance Remaining to Activity Target** | ↑ +3.67 | -0.34<sup>7</sup> | -4.01<sup>7</sup> | -7.46<sup>7</sup> | km |
-| **Energy per Recorded Workout** | ↑ +447.2 | 684.2<sup>7</sup> | 237.0<sup>7</sup> | 433.7<sup>7</sup> | kcal |
-| **Equivalent Walking Distance** | ↓ -3.71 | 9.82<sup>7</sup> | 13.53<sup>7</sup> | 16.48<sup>7</sup> | km |
-| **Floors Climbed** | → 0 | - | 0.0<sup>7</sup> | 0.0<sup>7</sup> | floors |
-| **High Activity MET Minutes** | ↓ -35.1 | 8.4<sup>7</sup> | 43.5<sup>7</sup> | 84.5<sup>7</sup> | MET-min |
-| **HR Intense Zone Duration** | ↑ +1 | - | 6.6<sup>7</sup> | 5.6<sup>7</sup> | min |
-| **HR Light Zone Duration** | ↑ +7.1 | - | 35.3<sup>7</sup> | 28.2<sup>7</sup> | min |
-| **HR Maximal Zone Duration** | ↓ -0.9 | - | 0.1<sup>7</sup> | 1.0<sup>7</sup> | min |
-| **HR Moderate Zone Duration** | ↓ -10.4 | - | 31.5<sup>7</sup> | 41.9<sup>7</sup> | min |
-| **Inactivity Alerts** | → 0 | 0.4<sup>7</sup> | 0.4<sup>7</sup> | 0.5<sup>7</sup> | count |
-| **Intense Activity Duration** | ↑ +40.6 | - | 59.1<sup>7</sup> | 18.5<sup>7</sup> | min |
-| **Light Activity Duration** | ↑ +504.8 | - | 549.7<sup>7</sup> | 44.9<sup>7</sup> | min |
-| **Low Activity MET Minutes** | ↓ -62.8 | 127.6<sup>7</sup> | 190.4<sup>7</sup> | 119.4<sup>7</sup> | MET-min |
-| **Medium Activity MET Minutes** | ↓ -37.6 | 316.0<sup>7</sup> | 353.6<sup>7</sup> | 524.0<sup>7</sup> | MET-min |
-| **Moderate Activity Duration** | ↑ +11.4 | - | 19.4<sup>7</sup> | 8.0<sup>7</sup> | min |
-| **Non-wear Time** | ↓ -0.15 | 0.24<sup>7</sup> | 0.39<sup>7</sup> | 0.40<sup>7</sup> | h |
-| **Resting Time** | ↓ -0.85 | 8.70<sup>7</sup> | 9.55<sup>7</sup> | 9.33<sup>7</sup> | h |
-| **Sedentary MET Minutes** | ↑ +1.7 | 12.2<sup>7</sup> | 10.5<sup>7</sup> | 9.5<sup>7</sup> | MET-min |
-| **Steps (Withings)** | ↓ -836.1 | - | 1161.9<sup>7</sup> | 1998.0<sup>7</sup> | steps |
-| **Total Calories** | ↓ -761.6 | - | 1048.4<sup>7</sup> | 1810.0<sup>7</sup> | kcal |
+| **Active Calories** | ↑ +70.9 | 124.9<sup>7</sup> | 54.0<sup>7</sup> | 104.7<sup>7</sup> | kcal |
+| **Activity Distance Target** | ↓ -0.22 | 10.13<sup>7</sup> | 10.35<sup>7</sup> | 10.39<sup>7</sup> | km |
+| **Activity Energy Target** | ↓ -29.8 | 525.0<sup>7</sup> | 554.8<sup>7</sup> | 550.0<sup>7</sup> | kcal |
+| **Average MET Minutes** | ↓ -0.05 | 1.56<sup>7</sup> | 1.61<sup>7</sup> | 1.71<sup>7</sup> | MET-min |
+| **Distance** | ↑ +1019.5 | 1903.2<sup>7</sup> | 883.7<sup>7</sup> | 1535.2<sup>7</sup> | m |
+| **Distance Remaining to Activity Target** | ↑ +1.59 | -2.42<sup>7</sup> | -4.01<sup>7</sup> | -7.46<sup>7</sup> | km |
+| **Energy per Recorded Workout** | ↑ +232 | 469.0<sup>7</sup> | 237.0<sup>7</sup> | 433.7<sup>7</sup> | kcal |
+| **Equivalent Walking Distance** | ↓ -2.34 | 11.19<sup>7</sup> | 13.53<sup>7</sup> | 16.48<sup>7</sup> | km |
+| **Floors Climbed** | → 0 | 0.0<sup>7</sup> | 0.0<sup>7</sup> | 0.0<sup>7</sup> | floors |
+| **High Activity MET Minutes** | ↑ +40.3 | 83.8<sup>7</sup> | 43.5<sup>7</sup> | 84.5<sup>7</sup> | MET-min |
+| **HR Intense Zone Duration** | ↓ -0.6 | 5.6<sup>7</sup> | 6.2<sup>7</sup> | 5.6<sup>7</sup> | min |
+| **HR Light Zone Duration** | ↑ +119.6 | 152.8<sup>7</sup> | 33.2<sup>7</sup> | 28.2<sup>7</sup> | min |
+| **HR Maximal Zone Duration** | ↓ -0.1 | 0.0<sup>7</sup> | 0.1<sup>7</sup> | 1.0<sup>7</sup> | min |
+| **HR Moderate Zone Duration** | ↓ -27.8 | 1.9<sup>7</sup> | 29.7<sup>7</sup> | 41.9<sup>7</sup> | min |
+| **Inactivity Alerts** | ↓ -0.1 | 0.3<sup>7</sup> | 0.4<sup>7</sup> | 0.5<sup>7</sup> | count |
+| **Intense Activity Duration** | ↓ -38.4 | 17.2<sup>7</sup> | 55.6<sup>7</sup> | 18.5<sup>7</sup> | min |
+| **Light Activity Duration** | ↓ -48.4 | 501.6<sup>7</sup> | 550.0<sup>7</sup> | 44.9<sup>7</sup> | min |
+| **Low Activity MET Minutes** | ↓ -51.9 | 138.5<sup>7</sup> | 190.4<sup>7</sup> | 119.4<sup>7</sup> | MET-min |
+| **Medium Activity MET Minutes** | ↓ -65.3 | 288.3<sup>7</sup> | 353.6<sup>7</sup> | 524.0<sup>7</sup> | MET-min |
+| **Moderate Activity Duration** | ↓ -12.5 | 5.9<sup>7</sup> | 18.4<sup>7</sup> | 8.0<sup>7</sup> | min |
+| **Non-wear Time** | ↑ +0.05 | 0.44<sup>7</sup> | 0.39<sup>7</sup> | 0.40<sup>7</sup> | h |
+| **Resting Time** | ↓ -0.17 | 9.38<sup>7</sup> | 9.55<sup>7</sup> | 9.33<sup>7</sup> | h |
+| **Sedentary MET Minutes** | ↑ +1.9 | 12.4<sup>7</sup> | 10.5<sup>7</sup> | 9.5<sup>7</sup> | MET-min |
+| **Steps (Withings)** | ↑ +1397.9 | 2534.5<sup>7</sup> | 1136.6<sup>7</sup> | 1998.0<sup>7</sup> | steps |
+| **Total Calories** | ↑ +188.7 | 1242.2<sup>7</sup> | 1053.5<sup>7</sup> | 1810.0<sup>7</sup> | kcal |
 
 ### Score contributors and changes
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Activity Meet Daily Targets Contributor Score** | ↓ -39 | 🟠<sup>7</sup> 42.6 | 🟢<sup>7</sup> 81.6 | 🔵<sup>7</sup> 93.3 | score | 70–100; target 85–100 |
-| **Activity Move Every Hour Contributor Score** | ↑ +1 | 🔵<sup>7</sup> 98.0 | 🔵<sup>7</sup> 97.0 | 🔵<sup>7</sup> 96.9 | score | 70–100; target 85–100 |
-| **Activity Recovery Time Contributor Score** | ↑ +13.3 | 🔵<sup>7</sup> 100.0 | 🔵<sup>7</sup> 86.7 | 🔵<sup>7</sup> 95.0 | score | 70–100; target 85–100 |
-| **Activity Stay Active Contributor Score** | ↓ -10.5 | 🟢<sup>7</sup> 70.2 | 🟢<sup>7</sup> 80.7 | 🟢<sup>7</sup> 79.2 | score | 70–100; target 85–100 |
-| **Activity Training Frequency Contributor Score** | ↓ -11.1 | 🔵<sup>7</sup> 86.8 | 🔵<sup>7</sup> 97.9 | 🔵<sup>7</sup> 100.0 | score | 70–100; target 85–100 |
-| **Activity Training Volume Contributor Score** | ↓ -9.8 | 🔵<sup>7</sup> 89.8 | 🔵<sup>7</sup> 99.6 | 🔵<sup>7</sup> 100.0 | score | 70–100; target 85–100 |
+| **Activity Meet Daily Targets Contributor Score** | ↓ -11.5 | 🟢<sup>7</sup> 70.1 | 🟢<sup>7</sup> 81.6 | 🔵<sup>7</sup> 93.3 | score | 70–100; target 85–100 |
+| **Activity Move Every Hour Contributor Score** | ↑ +1.8 | 🔵<sup>7</sup> 98.8 | 🔵<sup>7</sup> 97.0 | 🔵<sup>7</sup> 96.9 | score | 70–100; target 85–100 |
+| **Activity Recovery Time Contributor Score** | ↑ +10.5 | 🔵<sup>7</sup> 97.2 | 🔵<sup>7</sup> 86.7 | 🔵<sup>7</sup> 95.0 | score | 70–100; target 85–100 |
+| **Activity Stay Active Contributor Score** | ↓ -5.1 | 🟢<sup>7</sup> 75.6 | 🟢<sup>7</sup> 80.7 | 🟢<sup>7</sup> 79.2 | score | 70–100; target 85–100 |
+| **Activity Training Frequency Contributor Score** | ↓ -2.3 | 🔵<sup>7</sup> 95.6 | 🔵<sup>7</sup> 97.9 | 🔵<sup>7</sup> 100.0 | score | 70–100; target 85–100 |
+| **Activity Training Volume Contributor Score** | ↓ -2.8 | 🔵<sup>7</sup> 96.8 | 🔵<sup>7</sup> 99.6 | 🔵<sup>7</sup> 100.0 | score | 70–100; target 85–100 |
 | **Primary Sleep Readiness Score Change** | → 0 | 0.0<sup>7</sup> | 0.0<sup>7</sup> | 0.0<sup>7</sup> | points | - |
 | **Primary Sleep Score Change** | → 0 | 0.0<sup>7</sup> | 0.0<sup>7</sup> | 0.0<sup>7</sup> | points | - |
-| **Readiness Activity Balance Contributor Score** | ↑ +7 | 🔵<sup>7</sup> 90.2 | 🟢<sup>7</sup> 83.2 | 🟢<sup>7</sup> 73.9 | score | 70–100; target 85–100 |
-| **Readiness Body Temperature Contributor Score** | ↓ -1 | 🔵<sup>7</sup> 85.0 | 🔵<sup>7</sup> 86.0 | 🔵<sup>7</sup> 88.3 | score | 70–100; target 85–100 |
-| **Readiness HRV Balance Contributor Score** | ↑ +0.9 | 🔵<sup>7</sup> 87.2 | 🔵<sup>7</sup> 86.3 | 🔵<sup>7</sup> 88.5 | score | 70–100; target 85–100 |
-| **Readiness Previous Day Activity Contributor Score** | ↓ -0.7 | 🔵<sup>7</sup> 87.0 | 🔵<sup>7</sup> 87.7 | 🟢<sup>7</sup> 82.0 | score | 70–100; target 85–100 |
-| **Readiness Previous Night Contributor Score** | ↑ +7 | 🔵<sup>7</sup> 87.6 | 🟢<sup>7</sup> 80.6 | 🟢<sup>7</sup> 79.9 | score | 70–100; target 85–100 |
-| **Readiness Recovery Index Contributor Score** | ↓ -0.5 | 🟢<sup>7</sup> 75.6 | 🟢<sup>7</sup> 76.1 | 🟢<sup>7</sup> 81.0 | score | 70–100; target 85–100 |
-| **Readiness Resting HR Contributor Score** | ↑ +2.4 | 🔵<sup>7</sup> 87.4 | 🔵<sup>7</sup> 85.0 | 🔵<sup>7</sup> 87.4 | score | 70–100; target 85–100 |
-| **Readiness Sleep Balance Contributor Score** | ↑ +10.1 | 🔵<sup>7</sup> 97.8 | 🔵<sup>7</sup> 87.7 | 🔵<sup>7</sup> 94.7 | score | 70–100; target 85–100 |
-| **Readiness Sleep Regularity Contributor Score** | ↓ -1 | 🟢<sup>7</sup> 79.2 | 🟢<sup>7</sup> 80.2 | 🟢<sup>7</sup> 81.6 | score | 70–100; target 85–100 |
-| **Resilience Daytime Recovery Contributor Score** | ↑ +0.2 | 62.0<sup>7</sup> | 61.8<sup>7</sup> | 59.1<sup>7</sup> | score | - |
-| **Resilience Sleep Recovery Contributor Score** | ↑ +0.9 | 66.5<sup>7</sup> | 65.6<sup>7</sup> | 63.9<sup>7</sup> | score | - |
-| **Resilience Stress Contributor Score** | ↑ +1.8 | 38.0<sup>7</sup> | 36.2<sup>7</sup> | 41.1<sup>7</sup> | score | - |
-| **Sleep Deep Sleep Contributor Score** | ↑ +5.7 | 🟢<sup>7</sup> 76.8 | 🟢<sup>7</sup> 71.1 | 🟢<sup>7</sup> 71.5 | score | 70–100; target 85–100 |
-| **Sleep Efficiency Contributor Score** | ↑ +1 | 🟢<sup>7</sup> 82.8 | 🟢<sup>7</sup> 81.8 | 🟢<sup>7</sup> 84.7 | score | 70–100; target 85–100 |
-| **Sleep Latency Contributor Score** | ↑ +9.2 | 🟢<sup>7</sup> 79.6 | 🟢<sup>7</sup> 70.4 | 🟢<sup>7</sup> 74.5 | score | 70–100; target 85–100 |
-| **Sleep REM Sleep Contributor Score** | ↓ -2.8 | 🟢<sup>7</sup> 82.4 | 🔵<sup>7</sup> 85.2 | 🔵<sup>7</sup> 88.5 | score | 70–100; target 85–100 |
-| **Sleep Restfulness Contributor Score** | ↑ +4 | 🟢<sup>7</sup> 78.2 | 🟢<sup>7</sup> 74.2 | 🟢<sup>7</sup> 73.6 | score | 70–100; target 85–100 |
-| **Sleep Timing Contributor Score** | ↑ +6.9 | 🟢<sup>7</sup> 83.8 | 🟢<sup>7</sup> 76.9 | 🟠<sup>7</sup> 45.5 | score | 70–100; target 85–100 |
-| **Sleep Total Sleep Contributor Score** | ↑ +0.1 | 🟢<sup>7</sup> 83.0 | 🟢<sup>7</sup> 82.9 | 🔵<sup>7</sup> 85.5 | score | 70–100; target 85–100 |
+| **Readiness Activity Balance Contributor Score** | ↑ +6.2 | 🔵<sup>7</sup> 89.4 | 🟢<sup>7</sup> 83.2 | 🟢<sup>7</sup> 73.9 | score | 70–100; target 85–100 |
+| **Readiness Body Temperature Contributor Score** | ↑ +4.8 | 🔵<sup>7</sup> 90.8 | 🔵<sup>7</sup> 86.0 | 🔵<sup>7</sup> 88.3 | score | 70–100; target 85–100 |
+| **Readiness HRV Balance Contributor Score** | ↓ -0.7 | 🔵<sup>7</sup> 85.6 | 🔵<sup>7</sup> 86.3 | 🔵<sup>7</sup> 88.5 | score | 70–100; target 85–100 |
+| **Readiness Previous Day Activity Contributor Score** | ↓ -4.8 | 🟢<sup>7</sup> 82.9 | 🔵<sup>7</sup> 87.7 | 🟢<sup>7</sup> 82.0 | score | 70–100; target 85–100 |
+| **Readiness Previous Night Contributor Score** | ↑ +3.8 | 🟢<sup>7</sup> 84.4 | 🟢<sup>7</sup> 80.6 | 🟢<sup>7</sup> 79.9 | score | 70–100; target 85–100 |
+| **Readiness Recovery Index Contributor Score** | ↓ -6.2 | 🟡<sup>7</sup> 69.9 | 🟢<sup>7</sup> 76.1 | 🟢<sup>7</sup> 81.0 | score | 70–100; target 85–100 |
+| **Readiness Resting HR Contributor Score** | ↑ +3.3 | 🔵<sup>7</sup> 88.3 | 🔵<sup>7</sup> 85.0 | 🔵<sup>7</sup> 87.4 | score | 70–100; target 85–100 |
+| **Readiness Sleep Balance Contributor Score** | ↑ +2 | 🔵<sup>7</sup> 89.7 | 🔵<sup>7</sup> 87.7 | 🔵<sup>7</sup> 94.7 | score | 70–100; target 85–100 |
+| **Readiness Sleep Regularity Contributor Score** | ↓ -1.5 | 🟢<sup>7</sup> 78.7 | 🟢<sup>7</sup> 80.2 | 🟢<sup>7</sup> 81.6 | score | 70–100; target 85–100 |
+| **Resilience Daytime Recovery Contributor Score** | ↓ -0.9 | 60.9<sup>7</sup> | 61.8<sup>7</sup> | 59.1<sup>7</sup> | score | - |
+| **Resilience Sleep Recovery Contributor Score** | ↑ +0.8 | 66.4<sup>7</sup> | 65.6<sup>7</sup> | 63.9<sup>7</sup> | score | - |
+| **Resilience Stress Contributor Score** | ↑ +5 | 41.2<sup>7</sup> | 36.2<sup>7</sup> | 41.1<sup>7</sup> | score | - |
+| **Sleep Deep Sleep Contributor Score** | ↑ +7.3 | 🟢<sup>7</sup> 78.4 | 🟢<sup>7</sup> 71.1 | 🟢<sup>7</sup> 71.5 | score | 70–100; target 85–100 |
+| **Sleep Efficiency Contributor Score** | ↑ +4.2 | 🔵<sup>7</sup> 86.0 | 🟢<sup>7</sup> 81.8 | 🟢<sup>7</sup> 84.7 | score | 70–100; target 85–100 |
+| **Sleep Latency Contributor Score** | ↑ +7.6 | 🟢<sup>7</sup> 78.0 | 🟢<sup>7</sup> 70.4 | 🟢<sup>7</sup> 74.5 | score | 70–100; target 85–100 |
+| **Sleep REM Sleep Contributor Score** | ↓ -3.1 | 🟢<sup>7</sup> 82.1 | 🔵<sup>7</sup> 85.2 | 🔵<sup>7</sup> 88.5 | score | 70–100; target 85–100 |
+| **Sleep Restfulness Contributor Score** | ↑ +6.1 | 🟢<sup>7</sup> 80.3 | 🟢<sup>7</sup> 74.2 | 🟢<sup>7</sup> 73.6 | score | 70–100; target 85–100 |
+| **Sleep Timing Contributor Score** | ↑ +3.5 | 🟢<sup>7</sup> 80.4 | 🟢<sup>7</sup> 76.9 | 🟠<sup>7</sup> 45.5 | score | 70–100; target 85–100 |
+| **Sleep Total Sleep Contributor Score** | ↓ -3.4 | 🟢<sup>7</sup> 79.5 | 🟢<sup>7</sup> 82.9 | 🔵<sup>7</sup> 85.5 | score | 70–100; target 85–100 |
 
 ### Sensor samples
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sampled Activity MET** | ↓ -0.07 | 1.52<sup>7</sup> | 1.59<sup>7</sup> | 1.69<sup>7</sup> | MET |
-| **Sampled Awake HR** | ↑ +0.6 | 80.3<sup>7</sup> | 79.7<sup>7</sup> | 81.1<sup>7</sup> | bpm |
-| **Sampled HR During Primary Sleep** | ↓ -0.3 | 65.9<sup>7</sup> | 66.2<sup>7</sup> | 66.6<sup>7</sup> | bpm |
-| **Sampled HRV During Primary Sleep** | ↓ -0.7 | 24.5<sup>7</sup> | 25.2<sup>7</sup> | 24.8<sup>7</sup> | ms |
+| **Sampled Activity MET** | ↓ -0.05 | 1.54<sup>7</sup> | 1.59<sup>7</sup> | 1.69<sup>7</sup> | MET |
+| **Sampled Awake HR** | ↓ -0.5 | 79.2<sup>7</sup> | 79.7<sup>7</sup> | 81.1<sup>7</sup> | bpm |
+| **Sampled HR During Primary Sleep** | ↓ -0.6 | 65.6<sup>7</sup> | 66.2<sup>7</sup> | 66.6<sup>7</sup> | bpm |
+| **Sampled HRV During Primary Sleep** | ↓ -0.6 | 24.6<sup>7</sup> | 25.2<sup>7</sup> | 24.8<sup>7</sup> | ms |
 | **Sampled Live HR** | - | - | - | 70.6<sup>7</sup> | bpm |
-| **Sampled Rest HR** | ↓ -0.1 | 67.2<sup>7</sup> | 67.3<sup>7</sup> | 67.7<sup>7</sup> | bpm |
-| **Sampled Workout HR** | ↑ +0.8 | 106.0<sup>7</sup> | 105.2<sup>7</sup> | 101.8<sup>7</sup> | bpm |
+| **Sampled Rest HR** | ↓ -0.8 | 66.5<sup>7</sup> | 67.3<sup>7</sup> | 67.7<sup>7</sup> | bpm |
+| **Sampled Workout HR** | ↑ +3.1 | 108.3<sup>7</sup> | 105.2<sup>7</sup> | 101.8<sup>7</sup> | bpm |
 
 ### Device codes and classifications
 
 | Metric | 2026-09 | 2026-08 | 2026-07 | Unit |
 | :--- | :--- | :--- | :--- | :--- |
-| **Breathing Disturbance Intensity** | Device code -1: 6; Device code 0: 1; Device code 21: 1<sup>8</sup> | Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2<sup>8</sup> | Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1<sup>8</sup> | Status |
-| **Breathing Quality Assessment** | Device code -1: 6; Device code 0: 1; Device code 21: 1<sup>8</sup> | Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2<sup>8</sup> | Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1<sup>8</sup> | Status |
+| **Breathing Disturbance Intensity** | Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1<sup>8</sup> | Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2<sup>8</sup> | Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1<sup>8</sup> | Status |
+| **Breathing Quality Assessment** | Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1<sup>8</sup> | Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2<sup>8</sup> | Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1<sup>8</sup> | Status |
 | **Heart Sounds Classification** | Device code 2: 1<sup>8</sup> | Device code 0: 1<sup>8</sup> | Device code 0: 3; Device code 2: 2<sup>8</sup> | Status |
 
 ### Model estimates
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Basal Metabolic Rate** | ↑ +29.8 | 2019.0<sup>7</sup> | 1989.2<sup>7</sup> | 1995.4<sup>7</sup> | kcal/day |
+| **Basal Metabolic Rate** | ↓ -4.9 | 1984.3<sup>7</sup> | 1989.2<sup>7</sup> | 1995.4<sup>7</sup> | kcal/day |
 | **Cardiovascular Age** | ↓ -0.2 | 29.6<sup>7</sup> | 29.8<sup>7</sup> | 30.2<sup>7</sup> | years |
-| **Metabolic Age** | ↓ -1.2 | 30.0<sup>7</sup> | 31.2<sup>7</sup> | 32.9<sup>7</sup> | years |
-| **Vascular Age** | ↓ -1.3 | 33.9<sup>7</sup> | 35.2<sup>7</sup> | 33.7<sup>7</sup> | years |
+| **Metabolic Age** | ↓ -0.7 | 30.5<sup>7</sup> | 31.2<sup>7</sup> | 32.9<sup>7</sup> | years |
+| **Vascular Age** | ↓ -1.5 | 33.7<sup>7</sup> | 35.2<sup>7</sup> | 33.7<sup>7</sup> | years |
 
 ### Manual and historical observations
 
@@ -328,7 +328,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 <sup>4</sup> Original AHI snapshot: 0 on September 2; imported AHI means have a separate source note. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum. Maximum HR, HRV and device scores are context-dependent and are tracked without a universal clinical target.
 <sup>5</sup> Oura overview captured September 6: current-month VO2max 44; cardiovascular age 6.5 years younger; cumulative stress low. Typical nighttime dipping describes the last 30 days and supplies no dip percentage. The app's typical sleep score of 81 has an unspecified window; the table uses imported calendar means.
 <sup>6</sup> Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.
-<sup>7</sup> Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Oura: 2-5/6 elapsed days (month to date); 2026-09 Withings: 1-6/6 elapsed days (month to date). Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
+<sup>7</sup> Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Withings: 1-15/17 elapsed days (month to date); 2026-09 Oura: 1-16/17 elapsed days (month to date). Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
 <sup>8</sup> Imported device classifications show counts of observed labels within each calendar month; they are not numeric averages, clinical diagnoses or estimates for unrecorded days. Entries labeled Device code preserve API values with unverified meanings and may include unavailable-result codes; they are not interpreted as clinical findings. Different provider classifications retain separate rows. Coverage and exact counts: <a href='results/vitals_monthly.json'>monthly source data</a>.
 
 

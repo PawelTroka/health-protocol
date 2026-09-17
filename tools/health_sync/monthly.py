@@ -10,14 +10,16 @@ from pathlib import Path
 
 from .oura import OURA_CATEGORICAL_METRICS, OURA_METRICS
 from .withings import WITHINGS_CATEGORICAL_METRICS, WITHINGS_METRICS
+from .garmin import GARMIN_CATEGORICAL_METRICS, GARMIN_METRICS
 
 
 # The user reopened July on 2026-09-06. Original manual values remain in the
 # generator/source history; imported July cells now receive their actual means.
 MANAGED_START = date(2026, 7, 1)
-METRICS = {"oura": OURA_METRICS, "withings": WITHINGS_METRICS}
-CATEGORICAL_METRICS = {"oura": OURA_CATEGORICAL_METRICS, "withings": WITHINGS_CATEGORICAL_METRICS}
-if OURA_METRICS.keys() & WITHINGS_METRICS.keys():
+METRICS = {"oura": OURA_METRICS, "withings": WITHINGS_METRICS, "garmin": GARMIN_METRICS}
+CATEGORICAL_METRICS = {"oura": OURA_CATEGORICAL_METRICS, "withings": WITHINGS_CATEGORICAL_METRICS,
+                       "garmin": GARMIN_CATEGORICAL_METRICS}
+if sum(map(len, METRICS.values())) != len(set().union(*METRICS.values())):
     raise ValueError("Provider metric names must be distinct; preserve source identity.")
 
 
@@ -177,7 +179,7 @@ def aggregate(records, as_of):
     buckets = defaultdict(lambda: defaultdict(list))
     for record in validate_records(records):
         day = iso_date(record["day"])
-        if MANAGED_START <= day <= as_of and not (record["provider"] == "oura" and day == as_of):
+        if MANAGED_START <= day <= as_of and not (record["provider"] in {"oura", "garmin"} and day == as_of):
             buckets[(day.strftime("%Y-%m"), record["provider"], record["metric"])][record["day"]].append(record)
     months = {}
     for (month, provider, metric), days in sorted(buckets.items()):
@@ -289,9 +291,11 @@ def report_note(payload):
     for (month, provider, elapsed, partial), counts in groups.items():
         n = str(min(counts)) if min(counts) == max(counts) else f"{min(counts)}-{max(counts)}"
         coverage.append(f"{month} {provider.title()}: {n}/{elapsed} elapsed days" + (" (month to date)" if partial else ""))
+    garmin_note = (". Garmin daily summaries use Garmin's assigned calendar date; current-day Garmin data are also deferred until tomorrow"
+                   if any(entry["provider"] == "garmin" for metrics in payload["months"].values() for entry in metrics.values()) else "")
     return {
         "text": "Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. "
-        + "; ".join(coverage)
+        + "; ".join(coverage) + garmin_note
         + ". Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.",
         "markers": markers,
     }

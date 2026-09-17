@@ -7,7 +7,7 @@ from .monthly import MANAGED_START, iso_date
 def validate(events):
     unique = {}
     for event in events:
-        if not isinstance(event, dict) or event.get("provider") not in {"oura", "withings"}:
+        if not isinstance(event, dict) or event.get("provider") not in {"oura", "withings", "garmin"}:
             raise ValueError("Invalid device classification provider.")
         if any(not isinstance(event.get(key), str) or not event[key] for key in ("id", "day", "metric", "value")):
             raise ValueError("Device classifications require an ID, date, marker and text result.")
@@ -40,7 +40,7 @@ def aggregate(events, as_of):
     buckets = defaultdict(list)
     for event in validate(events):
         day = iso_date(event["day"])
-        if MANAGED_START <= day <= as_of and not (event["provider"] == "oura" and day == as_of):
+        if MANAGED_START <= day <= as_of and not (event["provider"] in {"oura", "garmin"} and day == as_of):
             buckets[(event["day"][:7], event["provider"], event["metric"])].append(event)
     months = {}
     for (month, provider, metric), observations in sorted(buckets.items()):

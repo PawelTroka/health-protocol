@@ -115,7 +115,8 @@ def reject_credentials(value):
     if isinstance(value, dict):
         for key, child in value.items():
             normalized = key.lower().replace("_", "").replace("-", "")
-            if normalized in {"accesstoken", "refreshtoken", "clientsecret", "authorization", "password", "idtoken"}:
+            if normalized in {"accesstoken", "refreshtoken", "clientsecret", "authorization", "password", "idtoken",
+                              "ditoken", "direfreshtoken", "sessionjson", "oauthtoken", "oauthtokensecret"}:
                 raise ValueError("The supplied JSON contains credential fields; export measurement data only.")
             reject_credentials(child)
     elif isinstance(value, list):
@@ -159,8 +160,25 @@ def print_summary(monthly):
             print(f"  {metric}: {entry['value']}{entry['unit']} | {entry['n_days']}/{entry['elapsed_days']} days, {entry['n_records']} readings ({entry['provider']})")
 
 
+def connection_status():
+    from tools.health_sync import auth, garmin_client
+    return {**auth.status(), "garmin": garmin_client.status()}
+
+
+def selected_providers(provider):
+    if provider == "both":
+        return ["oura", "withings"]
+    if provider != "all":
+        return [provider]
+    providers = [name for name, state in connection_status().items()
+                 if state["configured"] or state["authorized"]]
+    if not providers:
+        raise RuntimeError("No accounts connected. Run .\\tools\\Sync-Vitals.ps1 connect <provider> first.")
+    return providers
+
+
 def run_import(args):
-    from tools.health_sync import api, categorical, oura, reconcile, withings
+    from tools.health_sync import api, categorical, garmin, oura, reconcile, withings
     today = datetime.now(ZoneInfo("Europe/Warsaw")).date()
     start = iso_date(args.start)
     end = iso_date(args.end) if args.end else today
@@ -170,13 +188,15 @@ def run_import(args):
     fetch_status = {}
     classifications = []
     if args.command == "sync":
-        providers = ["oura", "withings"] if args.provider == "both" else [args.provider]
+        providers = selected_providers(args.provider)
         for provider in providers:
             print(f"Fetching {provider.title()} readings for {start} through {end}...", flush=True)
             payload = api.fetch(provider, start, end)
             fetch_status[provider] = payload.get("_sync", {})
-            records = oura.parse_api(payload) if provider == "oura" else withings.parse_api(payload, height_cm=args.height_cm)
-            inventory = oura.categorical_inventory(payload) if provider == "oura" else withings.categorical_inventory(payload)
+            reject_credentials(payload)
+            module = {"oura": oura, "withings": withings, "garmin": garmin}[provider]
+            records = module.parse_api(payload, **({"height_cm": args.height_cm} if provider == "withings" else {}))
+            inventory = module.categorical_inventory(payload)
             classifications.extend(inventory)
             sources.append((provider, json_bytes(payload), ".json", records))
     else:
@@ -195,8 +215,15 @@ def run_import(args):
                 payload = {"measure": [payload]}
             sources.append(("withings", raw, ".json", withings.parse_api(payload, height_cm=args.height_cm)))
             classifications.extend(withings.categorical_inventory(payload))
+        if args.garmin_json:
+            path = Path(args.garmin_json).resolve(strict=True)
+            raw = path.read_bytes()
+            payload = json.loads(raw)
+            reject_credentials(payload)
+            sources.append(("garmin", raw, ".json", garmin.parse_api(payload)))
+            classifications.extend(garmin.categorical_inventory(payload))
         if not sources:
-            raise ValueError("Provide --oura-csv or --withings-json for a file import.")
+            raise ValueError("Provide --oura-csv, --withings-json or --garmin-json for a file import.")
         providers = [provider for provider, _, _, _ in sources]
     classification_sources = {}
     for provider, raw, extension, records in sources:
@@ -204,7 +231,7 @@ def run_import(args):
         digest = hashlib.sha256(raw).hexdigest()
         source_path = f".health-sync/raw/{provider}/{digest}{extension}"
         classification_sources[provider] = source_path
-        incoming.extend({**record, "source_file": source_path} for record in records if not (provider == "oura" and iso_date(record["day"]) >= today))
+        incoming.extend({**record, "source_file": source_path} for record in records if not (provider in {"oura", "garmin"} and iso_date(record["day"]) >= today))
     classifications = [{**event, "source_file": classification_sources[event["provider"]]} for event in classifications]
     incomplete = any(entry.get("status") == "unavailable"
                      for status in fetch_status.values()
@@ -224,8 +251,11 @@ def run_import(args):
     else:
         classifications = categorical.merge(previous_classifications, classifications, providers, start, end, complete=False)
     monthly["categorical_months"] = categorical.aggregate(classifications, today)
-    if fetch_status:
-        monthly["sync_coverage"] = fetch_status
+    previous_monthly = ROOT / "results" / "vitals_monthly.json"
+    coverage = json.loads(previous_monthly.read_bytes()).get("sync_coverage", {}) if previous_monthly.exists() else {}
+    coverage.update(fetch_status)
+    if coverage:
+        monthly["sync_coverage"] = coverage
     reports = prepare_reports(monthly)
     print_summary(monthly)
     if args.dry_run:
@@ -247,7 +277,7 @@ def parser():
     commands.add_parser("status", help="Show account connection and local data status without secrets")
     for name in ("connect", "authorize"):
         connection = commands.add_parser(name, help="One-time account setup" if name == "connect" else "Renew account consent")
-        connection.add_argument("provider", choices=("oura", "withings"))
+        connection.add_argument("provider", choices=("oura", "withings", "garmin"))
     for name in ("sync", "import"):
         command = commands.add_parser(name, help="Fetch connected services" if name == "sync" else "Import downloaded files")
         command.add_argument("--start", default=MANAGED_START.isoformat())
@@ -255,10 +285,12 @@ def parser():
         command.add_argument("--height-cm", type=float, default=180.0, help="Recorded height for derived Withings BMI (default:180)")
         command.add_argument("--dry-run", action="store_true", help="Fetch, calculate and validate without updating reports")
         if name == "sync":
-            command.add_argument("--provider", choices=("oura", "withings", "both"), default="both")
+            command.add_argument("--provider", choices=("oura", "withings", "garmin", "both", "all"), default="all",
+                                 help="Default: all connected accounts; both means Oura and Withings")
         else:
             command.add_argument("--oura-csv")
             command.add_argument("--withings-json", help="Saved official API JSON (all pages combined), not an arbitrary app CSV")
+            command.add_argument("--garmin-json", help="Saved daily Garmin JSON envelope produced by this tool, not an arbitrary export")
     return result
 
 
@@ -268,19 +300,23 @@ def main(argv=None):
         from tools.health_sync import auth
         with sync_lock():
             if args.command == "status":
-                for provider, status in auth.status().items():
+                for provider, status in connection_status().items():
                     print(f"{provider}: configured={status['configured']}, authorized={status['authorized']}")
                 records = load_cache()
                 print(f"Local cache: {len(records)} normalized readings. Managed history begins July 2026.")
             elif args.command in ("connect", "authorize"):
-                if args.command == "connect":
+                if args.provider == "garmin":
+                    from tools.health_sync import garmin_client
+                    garmin_client.connect()
+                elif args.command == "connect":
                     if not sys.stdin.isatty():
                         raise RuntimeError("Run connect in an interactive local terminal so the client secret can be entered privately.")
                     print("Enter the credentials from your registered developer app. Secrets are encrypted locally and never printed.")
                     client_id = input("Client ID: ").strip()
                     client_secret = getpass("Client secret: ").strip()
                     auth.configure(args.provider, client_id, client_secret)
-                auth.authorize(args.provider)
+                if args.provider != "garmin":
+                    auth.authorize(args.provider)
                 print(f"{args.provider} connected. Run .\\tools\\Sync-Vitals.ps1 from the repository root to sync.")
             else:
                 run_import(args)

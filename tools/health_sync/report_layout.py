@@ -116,6 +116,7 @@ _MODEL_NAMES = {
     "Metabolic Age (Withings)", "Basal Metabolic Rate (Withings)",
 }
 _DEVICE_NAMES = {
+    "HRV Status (Garmin)",
     "Heart Sounds Classification (Withings)", "PPG AF Classification (Withings)",
     "Breathing Disturbance Intensity (Withings)",
     "Breathing Quality Assessment (Withings)", "Core Body Temperature Status (Withings)",
@@ -126,6 +127,7 @@ _BODY_NAMES = {
     "Bone Mass (Withings)", "Height (Withings)",
 }
 _HEART_NAMES = {
+    "Resting HR (Garmin)", "Daily Minimum HR (Garmin)", "Daily Maximum HR (Garmin)",
     "Average Daily HR (Withings)",
     "Pulse Rate (Withings)", "ECG Recorded Heart Rate (Withings)",
     "Average Sleeping HR (Withings)", "Mean Nightly Lowest HR (Withings)",
@@ -133,6 +135,9 @@ _HEART_NAMES = {
     "Mean Daily Highest HR (Withings)",
 }
 _SLEEP_NAMES = {
+    "Sleep Duration (Garmin)", "Deep Sleep (Garmin)", "Light Sleep (Garmin)", "REM Sleep (Garmin)",
+    "Awake Time During Sleep (Garmin)", "Nap Duration (Garmin)", "Sleep Score (Garmin)",
+    "Average Sleeping SpO2 (Garmin)", "Respiratory Rate (Sleep) (Garmin)",
     "Sleep Duration (Withings)", "Time in Bed (Withings)",
     "Sleep Efficiency (Withings)", "Sleep Latency (Withings)", "Sleep Score (Withings)",
     "REM Sleep (Withings)", "Deep Sleep (Withings)", "Light Sleep (Withings)",
@@ -144,10 +149,17 @@ _SLEEP_NAMES = {
     "Minimum Sleeping Respiratory Rate (Withings)", "Maximum Sleeping Respiratory Rate (Withings)",
 }
 _RECOVERY_NAMES = {
+    "Average Nightly HRV (Garmin)", "Highest 5-minute Nightly HRV (Garmin)", "7-day Average HRV (Garmin)",
+    "Average Stress (Garmin)", "Maximum Stress (Garmin)", "Body Battery Highest (Garmin)",
+    "Body Battery Lowest (Garmin)", "Body Battery Charged (Garmin)", "Body Battery Drained (Garmin)",
+    "Morning Training Readiness (Garmin)", "Morning Recovery Time (Garmin)",
     "HRV at Sleep Start (Withings)", "HRV at Sleep End (Withings)", "Skin Temperature (Withings)",
     "Temperature Trend Deviation (Oura)",
 }
 _ACTIVITY_NAMES = {
+    "Steps (Garmin)", "Distance (Garmin)", "Total Energy Expenditure (Garmin)",
+    "Active Energy (Garmin)", "Basal Energy Expenditure (Garmin)", "Moderate Intensity Minutes (Garmin)",
+    "Vigorous Intensity Minutes (Garmin)", "Floors Ascended (Garmin)", "Floors Descended (Garmin)",
     "Steps (Withings)", "Active Calories (Withings)", "Total Calories (Withings)",
     "Distance (Withings)", "Floors Climbed (Withings)", "Light Activity Duration (Withings)",
     "Moderate Activity Duration (Withings)", "Intense Activity Duration (Withings)",

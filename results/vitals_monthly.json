@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-06",
+  "as_of": "2026-09-17",
   "categorical_months": {
     "2026-07": {
       "Breathing Disturbance Intensity (Withings)": {
@@ -214,45 +214,47 @@
       "Breathing Disturbance Intensity (Withings)": {
         "aggregation": "observed_classification_counts",
         "counts": {
-          "Device code -1": 6,
-          "Device code 0": 1,
-          "Device code 21": 1
+          "Device code -1": 10,
+          "Device code 0": 5,
+          "Device code 21": 1,
+          "Device code 5": 1
         },
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "provider": "withings",
         "unit": "Status",
-        "value": "Device code -1: 6; Device code 0: 1; Device code 21: 1"
+        "value": "Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1"
       },
       "Breathing Quality Assessment (Withings)": {
         "aggregation": "observed_classification_counts",
         "counts": {
-          "Device code -1": 6,
-          "Device code 0": 1,
-          "Device code 21": 1
+          "Device code -1": 10,
+          "Device code 0": 5,
+          "Device code 21": 1,
+          "Device code 5": 1
         },
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "provider": "withings",
         "unit": "Status",
-        "value": "Device code -1: 6; Device code 0: 1; Device code 21: 1"
+        "value": "Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1"
       },
       "ECG AF Classification (Withings)": {
         "aggregation": "observed_classification_counts",
         "counts": {
-          "Negative": 2
+          "Negative": 5
         },
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 2,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 5,
         "provider": "withings",
         "unit": "Status",
-        "value": "Negative: 2"
+        "value": "Negative: 5"
       },
       "Heart Sounds Classification (Withings)": {
         "aggregation": "observed_classification_counts",
@@ -270,28 +272,29 @@
       "Resilience Level (Oura)": {
         "aggregation": "observed_classification_counts",
         "counts": {
-          "Strong": 5
+          "Solid": 1,
+          "Strong": 15
         },
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "provider": "oura",
         "unit": "Status",
-        "value": "Strong: 5"
+        "value": "Solid: 1; Strong: 15"
       },
       "Stress Day Summary (Oura)": {
         "aggregation": "observed_classification_counts",
         "counts": {
-          "Normal": 5
+          "Normal": 16
         },
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "provider": "oura",
         "unit": "Status",
-        "value": "Normal: 5"
+        "value": "Normal: 16"
       }
     }
   },
@@ -3025,32 +3028,32 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kcal",
-        "value": "53.7"
+        "value": "54.0"
       },
       "Active Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "78.5"
+        "value": "74.0"
       },
       "Active Energy (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -3546,16 +3549,16 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "m",
-        "value": "904.5"
+        "value": "883.7"
       },
       "Distance Remaining to Activity Target (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -3882,9 +3885,9 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
@@ -3898,41 +3901,41 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "6.6"
+        "value": "6.2"
       },
       "HR Light Zone Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "35.3"
+        "value": "33.2"
       },
       "HR Maximal Zone Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
@@ -3946,16 +3949,16 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "31.5"
+        "value": "29.7"
       },
       "HRV at Sleep End (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -4080,16 +4083,16 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "59.1"
+        "value": "55.6"
       },
       "Intracellular Water (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -4128,16 +4131,16 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "549.7"
+        "value": "550.0"
       },
       "Light Sleep (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -4383,16 +4386,16 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "19.4"
+        "value": "18.4"
       },
       "Muscle": {
         "aggregation": "mean_of_daily_means",
@@ -5478,16 +5481,16 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "steps",
-        "value": "1161.9"
+        "value": "1136.6"
       },
       "Temperature Deviation (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -5561,16 +5564,16 @@
         "calendar_days": 31,
         "elapsed_days": 31,
         "first_day": "2026-08-13",
-        "last_day": "2026-08-30",
-        "n_days": 16,
-        "n_records": 16,
+        "last_day": "2026-08-31",
+        "n_days": 17,
+        "n_records": 17,
         "partial_month": false,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kcal",
-        "value": "1048.4"
+        "value": "1053.5"
       },
       "Total Energy Expenditure (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -5695,213 +5698,261 @@
       }
     },
     "2026-09": {
+      "Active Calories (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "kcal",
+        "value": "124.9"
+      },
+      "Active Duration (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "23.1"
+      },
       "Active Energy (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "kcal",
-        "value": "593.6"
+        "value": "657.6"
       },
       "Activity Distance Target (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "km",
-        "value": "10.60"
+        "value": "10.13"
       },
       "Activity Energy Target (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "kcal",
-        "value": "570.0"
+        "value": "525.0"
       },
       "Activity Meet Daily Targets Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "42.6"
+        "value": "70.1"
       },
       "Activity Move Every Hour Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "98.0"
+        "value": "98.8"
       },
       "Activity Recovery Time Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "100.0"
+        "value": "97.2"
       },
       "Activity Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "78.2"
+        "value": "87.1"
       },
       "Activity Stay Active Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "70.2"
+        "value": "75.6"
       },
       "Activity Training Frequency Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "86.8"
+        "value": "95.6"
       },
       "Activity Training Volume Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "89.8"
+        "value": "96.8"
+      },
+      "Average Daily HR (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-03",
+        "last_day": "2026-09-05",
+        "n_days": 3,
+        "n_records": 3,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "bpm",
+        "value": "89.0"
       },
       "Average HRV (Sleep)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "ms",
-        "value": "24.6"
+        "value": "25.0"
       },
       "Average MET Minutes (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "MET-min",
-        "value": "1.53"
+        "value": "1.56"
       },
       "Average Sleeping HR (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "65.9"
+        "value": "65.5"
       },
       "Average Sleeping HR (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -5909,34 +5960,34 @@
         "daily_aggregation": [
           "sleep_duration_weighted_mean"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "65.5"
+        "value": "64.7"
       },
       "Average Sleeping SpO2 (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-03",
-        "last_day": "2026-09-05",
-        "n_days": 3,
-        "n_records": 3,
+        "last_day": "2026-09-16",
+        "n_days": 12,
+        "n_records": 12,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "94.7"
+        "value": "95.0"
       },
       "Awake Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -5944,71 +5995,71 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "48.3"
+        "value": "44.7"
       },
       "Awake Time During Sleep (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "1.35"
+        "value": "1.17"
       },
       "BMI": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg/m^2",
-        "value": "24.8"
+        "value": "24.7"
       },
       "Basal Metabolic Rate (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kcal/day",
-        "value": "2019.0"
+        "value": "1984.3"
       },
       "Blood Pressure": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
         "last_day": "2026-09-05",
         "n_days": 1,
@@ -6024,107 +6075,107 @@
       "Body Fat": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "13.6"
+        "value": "14.5"
       },
       "Body Mass": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "80.4"
+        "value": "80.0"
       },
       "Body Water (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "58.1"
+        "value": "57.8"
       },
       "Bone": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "4.2"
+        "value": "4.1"
       },
       "Bone Mass (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "3.36"
+        "value": "3.31"
       },
       "Breathing Disturbance Index (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "index",
-        "value": "0.8"
+        "value": "0.7"
       },
       "Cardiovascular Age (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
@@ -6136,18 +6187,18 @@
       "Deep Sleep": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "1.14"
+        "value": "1.18"
       },
       "Deep Sleep (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6155,107 +6206,139 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "1.02"
+        "value": "1.35"
+      },
+      "Distance (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "m",
+        "value": "1903.2"
       },
       "Distance Remaining to Activity Target (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "km",
-        "value": "-0.34"
+        "value": "-2.42"
+      },
+      "Distance per Recorded Workout (Oura)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-06",
+        "last_day": "2026-09-06",
+        "n_days": 1,
+        "n_records": 3,
+        "partial_month": true,
+        "provider": "oura",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "km",
+        "value": "13.29"
       },
       "Duration per Recorded Workout (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-04",
-        "last_day": "2026-09-05",
-        "n_days": 2,
-        "n_records": 2,
+        "last_day": "2026-09-07",
+        "n_days": 4,
+        "n_records": 7,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "2.00"
+        "value": "1.59"
       },
       "ECG Recorded Heart Rate (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 2,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 5,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "72.5"
+        "value": "76.9"
       },
       "Energy per Recorded Workout (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-04",
-        "last_day": "2026-09-05",
-        "n_days": 2,
-        "n_records": 2,
+        "last_day": "2026-09-07",
+        "n_days": 4,
+        "n_records": 7,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "kcal",
-        "value": "684.2"
+        "value": "469.0"
       },
       "Equivalent Walking Distance (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "km",
-        "value": "9.82"
+        "value": "11.19"
       },
       "Estimated PWV (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
@@ -6267,210 +6350,290 @@
       "Extracellular Water (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "17.38"
+        "value": "17.26"
       },
       "Fat Mass (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "10.92"
+        "value": "11.62"
       },
       "Fat Mass - Left Arm (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "0.36"
+        "value": "0.39"
       },
       "Fat Mass - Left Leg (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "1.85"
+        "value": "1.95"
       },
       "Fat Mass - Right Arm (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "0.37"
+        "value": "0.39"
       },
       "Fat Mass - Right Leg (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "1.94"
+        "value": "1.99"
       },
       "Fat Mass - Torso (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "6.39"
+        "value": "6.90"
       },
       "Fat-Free Mass (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "69.51"
+        "value": "68.36"
       },
       "Fat-Free Mass - Left Arm (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "4.73"
+        "value": "4.58"
       },
       "Fat-Free Mass - Left Leg (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "11.86"
+        "value": "11.75"
       },
       "Fat-Free Mass - Right Arm (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "4.71"
+        "value": "4.61"
       },
       "Fat-Free Mass - Right Leg (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "12.01"
+        "value": "11.79"
       },
       "Fat-Free Mass - Torso (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "36.21"
+        "value": "35.63"
+      },
+      "Floors Climbed (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "floors",
+        "value": "0.0"
+      },
+      "HR Intense Zone Duration (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "5.6"
+      },
+      "HR Light Zone Duration (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "152.8"
+      },
+      "HR Maximal Zone Duration (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "0.0"
+      },
+      "HR Moderate Zone Duration (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "1.9"
       },
       "HRV at Sleep End (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6478,18 +6641,18 @@
         "daily_aggregation": [
           "mean_of_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "ms",
-        "value": "42.4"
+        "value": "44.6"
       },
       "HRV at Sleep Start (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6497,146 +6660,178 @@
         "daily_aggregation": [
           "mean_of_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "ms",
-        "value": "38.3"
+        "value": "40.7"
       },
       "High Activity MET Minutes (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "MET-min",
-        "value": "8.4"
+        "value": "83.8"
       },
       "High Activity Time (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "0.02"
+        "value": "0.15"
       },
       "High Recovery Time (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "0.95"
+        "value": "0.97"
       },
       "High Stress Time (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "0.95"
+        "value": "1.00"
       },
       "Inactivity Alerts (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "count",
-        "value": "0.4"
+        "value": "0.3"
+      },
+      "Intense Activity Duration (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "17.2"
       },
       "Intracellular Water (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "29.32"
+        "value": "28.93"
       },
       "Lean Mass (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "86.4"
+        "value": "85.5"
+      },
+      "Light Activity Duration (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "501.6"
       },
       "Light Sleep (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "4.74"
+        "value": "4.49"
       },
       "Light Sleep (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6644,50 +6839,50 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "2.73"
+        "value": "3.06"
       },
       "Low Activity MET Minutes (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "MET-min",
-        "value": "127.6"
+        "value": "138.5"
       },
       "Low Activity Time (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "3.73"
+        "value": "3.53"
       },
       "Maximum Sleeping Respiratory Rate (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6695,18 +6890,50 @@
         "daily_aggregation": [
           "maximum"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "/min",
-        "value": "19.2"
+        "value": "19.0"
+      },
+      "Mean Daily Highest HR (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-03",
+        "last_day": "2026-09-05",
+        "n_days": 3,
+        "n_records": 3,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "bpm",
+        "value": "129.7"
+      },
+      "Mean Daily Lowest HR (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-03",
+        "last_day": "2026-09-05",
+        "n_days": 3,
+        "n_records": 3,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "bpm",
+        "value": "72.3"
       },
       "Mean Nightly Highest HR (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6714,34 +6941,34 @@
         "daily_aggregation": [
           "maximum"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "81.0"
+        "value": "78.3"
       },
       "Mean Nightly Lowest HR (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "59.0"
+        "value": "58.5"
       },
       "Mean Nightly Lowest HR (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6749,66 +6976,66 @@
         "daily_aggregation": [
           "minimum"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "55.8"
+        "value": "54.7"
       },
       "Medium Activity MET Minutes (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "MET-min",
-        "value": "316.0"
+        "value": "288.3"
       },
       "Medium Activity Time (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "1.19"
+        "value": "1.23"
       },
       "Metabolic Age (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "years",
-        "value": "30.0"
+        "value": "30.5"
       },
       "Minimum Sleeping Respiratory Rate (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6816,194 +7043,210 @@
         "daily_aggregation": [
           "minimum"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "/min",
-        "value": "10.7"
+        "value": "10.3"
+      },
+      "Moderate Activity Duration (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "5.9"
       },
       "Muscle": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "82.3"
+        "value": "81.3"
       },
       "Muscle Mass (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "66.16"
+        "value": "65.05"
       },
       "Muscle Mass - Left Arm (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "4.56"
+        "value": "4.44"
       },
       "Muscle Mass - Left Leg (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "11.20"
+        "value": "11.03"
       },
       "Muscle Mass - Right Arm (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "4.56"
+        "value": "4.46"
       },
       "Muscle Mass - Right Leg (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "11.16"
+        "value": "10.99"
       },
       "Muscle Mass - Torso (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "34.67"
+        "value": "34.14"
       },
       "Nerve Health Score Feet (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "41.3"
+        "value": "47.0"
       },
       "Nerve Health Score Left Foot (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "40.1"
+        "value": "47.2"
       },
       "Nerve Health Score Right Foot (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "40.6"
+        "value": "45.6"
       },
       "Non-wear Time (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "0.24"
+        "value": "0.44"
       },
       "Out of Bed Count (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7011,27 +7254,27 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "count",
-        "value": "1.2"
+        "value": "1.6"
       },
       "PWV": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
@@ -7043,11 +7286,11 @@
       "Primary Sleep Readiness Score Change (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
@@ -7059,11 +7302,11 @@
       "Primary Sleep Score Change (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
@@ -7075,18 +7318,18 @@
       "Pulse Rate (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 2,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 5,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "72.5"
+        "value": "76.9"
       },
       "REM Episode Count (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7094,34 +7337,34 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "count",
-        "value": "2.2"
+        "value": "2.6"
       },
       "REM Sleep": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "1.64"
+        "value": "1.61"
       },
       "REM Sleep (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7129,242 +7372,242 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "0.80"
+        "value": "1.03"
       },
       "Readiness Activity Balance Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "90.2"
+        "value": "89.4"
       },
       "Readiness Body Temperature Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "85.0"
+        "value": "90.8"
       },
       "Readiness HRV Balance Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "87.2"
+        "value": "85.6"
       },
       "Readiness Previous Day Activity Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "87.0"
+        "value": "82.9"
       },
       "Readiness Previous Night Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "87.6"
+        "value": "84.4"
       },
       "Readiness Recovery Index Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "75.6"
+        "value": "69.9"
       },
       "Readiness Resting HR Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "87.4"
+        "value": "88.3"
       },
       "Readiness Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "85.2"
+        "value": "83.1"
       },
       "Readiness Sleep Balance Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "97.8"
+        "value": "89.7"
       },
       "Readiness Sleep Regularity Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "79.2"
+        "value": "78.7"
       },
       "Resilience Daytime Recovery Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "62.0"
+        "value": "60.9"
       },
       "Resilience Sleep Recovery Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "66.5"
+        "value": "66.4"
       },
       "Resilience Stress Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "38.0"
+        "value": "41.2"
       },
       "Respiratory Rate (Sleep)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "/min",
-        "value": "12.38"
+        "value": "12.20"
       },
       "Respiratory Rate During Sleep (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7372,178 +7615,178 @@
         "daily_aggregation": [
           "sleep_duration_weighted_mean"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "/min",
-        "value": "13.7"
+        "value": "13.4"
       },
       "Resting Time (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "8.70"
+        "value": "9.38"
       },
       "Restless Periods During Sleep (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "count",
-        "value": "215.8"
+        "value": "207.9"
       },
       "Sampled Activity MET (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 7200,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 23040,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "MET",
-        "value": "1.52"
+        "value": "1.54"
       },
       "Sampled Awake HR (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 1619,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 4823,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "80.3"
+        "value": "79.2"
       },
       "Sampled HR During Primary Sleep (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 486,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 1509,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "65.9"
+        "value": "65.6"
       },
       "Sampled HRV During Primary Sleep (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 486,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 1509,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "ms",
-        "value": "24.5"
+        "value": "24.6"
       },
       "Sampled Rest HR (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 547,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 1785,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "67.2"
+        "value": "66.5"
       },
       "Sampled Workout HR (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 2474,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 10591,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "bpm",
-        "value": "106.0"
+        "value": "108.3"
       },
       "Sedentary MET Minutes (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "MET-min",
-        "value": "12.2"
+        "value": "12.4"
       },
       "Sedentary Time (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "10.12"
+        "value": "9.27"
       },
       "Sleep Apnea AHI": {
         "aggregation": "mean_of_daily_means",
@@ -7551,50 +7794,50 @@
         "daily_aggregation": [
           "sleep_duration_weighted_mean"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-02",
-        "last_day": "2026-09-04",
-        "n_days": 2,
-        "n_records": 2,
+        "last_day": "2026-09-15",
+        "n_days": 7,
+        "n_records": 7,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "events/h",
-        "value": "5.0"
+        "value": "1.8"
       },
       "Sleep Deep Sleep Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "76.8"
+        "value": "78.4"
       },
       "Sleep Duration": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "7.51"
+        "value": "7.28"
       },
       "Sleep Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7602,34 +7845,34 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "4.55"
+        "value": "5.44"
       },
       "Sleep Efficiency": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "84.8"
+        "value": "86.3"
       },
       "Sleep Efficiency (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7637,50 +7880,50 @@
         "daily_aggregation": [
           "ratio_of_daily_totals"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "%",
-        "value": "82.9"
+        "value": "84.2"
       },
       "Sleep Efficiency Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "82.8"
+        "value": "86.0"
       },
       "Sleep Latency": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "15.0"
+        "value": "16.8"
       },
       "Sleep Latency (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7688,82 +7931,82 @@
         "daily_aggregation": [
           "mean_of_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "23.5"
+        "value": "23.8"
       },
       "Sleep Latency Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "79.6"
+        "value": "78.0"
       },
       "Sleep REM Sleep Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "82.4"
+        "value": "82.1"
       },
       "Sleep Restfulness Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "78.2"
+        "value": "80.3"
       },
       "Sleep Score": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "81.6"
+        "value": "80.4"
       },
       "Sleep Score (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7771,50 +8014,50 @@
         "daily_aggregation": [
           "mean_of_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "48.4"
+        "value": "53.8"
       },
       "Sleep Timing Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "83.8"
+        "value": "80.4"
       },
       "Sleep Total Sleep Contributor Score (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "83.0"
+        "value": "79.5"
       },
       "Sleeping Movement Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7822,18 +8065,18 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "0.8"
+        "value": "2.0"
       },
       "Sleeping Movement Score (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7841,18 +8084,18 @@
         "daily_aggregation": [
           "mean_of_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "score",
-        "value": "0.2"
+        "value": "0.3"
       },
       "Snoring Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7860,18 +8103,18 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "2.8"
+        "value": "3.4"
       },
       "Snoring Episode Count (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7879,82 +8122,98 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "count",
-        "value": "1.0"
+        "value": "0.7"
       },
       "Steps (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "steps",
-        "value": "4938"
+        "value": "4951"
+      },
+      "Steps (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "steps",
+        "value": "2534.5"
       },
       "Temperature Deviation (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "°C",
-        "value": "-0.02"
+        "value": "0.05"
       },
       "Temperature Trend Deviation (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "°C",
-        "value": "0.15"
+        "value": "0.12"
       },
       "Time in Bed": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "8.86"
+        "value": "8.44"
       },
       "Time in Bed (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7962,66 +8221,82 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "h",
-        "value": "5.36"
+        "value": "6.18"
+      },
+      "Total Calories (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-01",
+        "last_day": "2026-09-06",
+        "n_days": 6,
+        "n_records": 6,
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "kcal",
+        "value": "1242.2"
       },
       "Total Energy Expenditure (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-05",
-        "n_days": 5,
-        "n_records": 5,
+        "last_day": "2026-09-16",
+        "n_days": 16,
+        "n_records": 16,
         "partial_month": true,
         "provider": "oura",
         "source_kinds": [
           "api"
         ],
         "unit": "kcal",
-        "value": "2798.6"
+        "value": "2816.2"
       },
       "Vascular Age (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "years",
-        "value": "33.9"
+        "value": "33.7"
       },
       "Visceral Fat Index": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "index",
-        "value": "2.3"
+        "value": "2.4"
       },
       "Wake After Sleep Onset (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -8029,18 +8304,18 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "45.0"
+        "value": "40.1"
       },
       "Wakeup Count (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -8048,18 +8323,18 @@
         "daily_aggregation": [
           "sum_nonoverlapping_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "count",
-        "value": "1.0"
+        "value": "1.1"
       },
       "Wakeup Latency (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -8067,72 +8342,72 @@
         "daily_aggregation": [
           "mean_of_sessions"
         ],
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-01",
-        "last_day": "2026-09-06",
-        "n_days": 6,
-        "n_records": 8,
+        "last_day": "2026-09-16",
+        "n_days": 15,
+        "n_records": 17,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "min",
-        "value": "0.0"
+        "value": "1.1"
       },
       "Water Mass (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
-        "elapsed_days": 6,
+        "elapsed_days": 17,
         "first_day": "2026-09-05",
-        "last_day": "2026-09-05",
-        "n_days": 1,
-        "n_records": 1,
+        "last_day": "2026-09-17",
+        "n_days": 4,
+        "n_records": 4,
         "partial_month": true,
         "provider": "withings",
         "source_kinds": [
           "api"
         ],
         "unit": "kg",
-        "value": "46.70"
+        "value": "46.19"
       }
     }
   },
   "schema_version": 1,
   "sync_coverage": {
     "oura": {
-      "end": "2026-09-06",
+      "end": "2026-09-17",
       "endpoint_status": {
         "daily_activity": {
-          "rows": 68,
+          "rows": 79,
           "status": "complete"
         },
         "daily_cardiovascular_age": {
-          "rows": 70,
+          "rows": 81,
           "status": "complete"
         },
         "daily_readiness": {
-          "rows": 70,
+          "rows": 81,
           "status": "complete"
         },
         "daily_resilience": {
-          "rows": 70,
+          "rows": 81,
           "status": "complete"
         },
         "daily_sleep": {
-          "rows": 70,
+          "rows": 81,
           "status": "complete"
         },
         "daily_spo2": {
-          "rows": 70,
+          "rows": 81,
           "status": "complete"
         },
         "daily_stress": {
-          "rows": 70,
+          "rows": 81,
           "status": "complete"
         },
         "heartrate": {
-          "rows": 93689,
+          "rows": 103437,
           "status": "complete"
         },
         "session": {
@@ -8140,7 +8415,7 @@
           "status": "complete"
         },
         "sleep": {
-          "rows": 109,
+          "rows": 125,
           "status": "complete"
         },
         "vO2_max": {
@@ -8148,29 +8423,29 @@
           "status": "complete"
         },
         "workout": {
-          "rows": 151,
+          "rows": 153,
           "status": "complete"
         }
       },
       "start": "2026-07-01"
     },
     "withings": {
-      "end": "2026-09-06",
+      "end": "2026-09-17",
       "endpoint_status": {
         "getactivity": {
-          "rows": 35,
+          "rows": 42,
           "status": "complete"
         },
         "getsummary": {
-          "rows": 64,
+          "rows": 73,
           "status": "complete"
         },
         "heart": {
-          "rows": 25,
+          "rows": 28,
           "status": "complete"
         },
         "measure": {
-          "rows": 85,
+          "rows": 97,
           "status": "complete"
         },
         "stetho": {
