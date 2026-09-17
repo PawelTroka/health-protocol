@@ -11,7 +11,7 @@ Reviewed 2026-09-17 from the two original, unchanged PDFs below. These are dated
 
 Both reports belong to the September 16 collection date. The Diagnostyka filename contains September 17, but its actual result and print timestamps are September 16. Its two different collection times are retained without choosing one or assuming which is correct. The `without medicines` wording is a specimen/order annotation, not a verified medication history or a stated washout duration.
 
-All five pages were visually checked. The Diagnostyka PDF has a broken text encoding, so its result table was transcribed from the rendered page. The documents supply complementary assays rather than duplicate reports of one test. The import contains **84 completed observations: 63 from ALAB and 21 displayed PCR result rows from Diagnostyka**, plus **14 pending ALAB tests**.
+All five pages were visually checked. The Diagnostyka PDF has a broken text encoding, so its result table was transcribed from the rendered page. The documents supply complementary assays rather than duplicate reports of one test. The initial PDF import contained **84 completed observations: 63 from ALAB and 21 displayed PCR result rows from Diagnostyka**, plus **14 pending ALAB tests**. The [September 17 portal update](#portal-update-2026-09-17) completes two of those pending tests, bringing the combined record to **86 completed observations and 12 tests still awaiting supplied results**.
 
 ## ALAB: Morphology (page 1)
 
@@ -146,7 +146,7 @@ The report does not list a separate E. coli O157 result, toxin quantity, organis
 
 ## ALAB: Pending tests (page 4)
 
-Status as of the report issued **2026-09-16 23:23**. The waiting times below are the laboratory's stated maximum business-day waits, not confirmed completion dates or a promise that results will be available on a calculated date. Pending does not mean normal, negative, absent or zero. Existing historical measurements remain intact.
+Historical status as of the report issued **2026-09-16 23:23**. This preserves the original 14-test pending list; calprotectin and pancreatic elastase were subsequently completed in the [September 17 portal update](#portal-update-2026-09-17). The waiting times below are the laboratory's stated maximum business-day waits, not confirmed completion dates or a promise that results will be available on a calculated date. Pending does not mean normal, negative, absent or zero. Existing historical measurements remain intact.
 
 | Pending test | Source wording / distinction | Stated wait, up to business days |
 | :--- | :--- | ---: |
@@ -166,3 +166,26 @@ Status as of the report issued **2026-09-16 23:23**. The waiting times below are
 | Zonulin (Stool) | Stool zonulin | 11 |
 
 The pending-test page does not provide measured values, units or reference intervals for these tests. New pending-only rows therefore carry no guessed unit or range. No change to the canonical protocol, medicine doses or supplement stack follows from this transcription.
+
+<a id="portal-update-2026-09-17"></a>
+
+## Portal update supplied 2026-09-17
+
+The three user-supplied screenshots are archived unchanged:
+
+- [Gut panel and completed calprotectin](Portal-2026-09-17-Gut-Panel.png)
+- [Completed pancreatic elastase and blood-result cards](Portal-2026-09-17-Elastase-and-Blood.png)
+- [Thyroid, complement and other blood-result cards](Portal-2026-09-17-Thyroid-and-Blood.png)
+
+| Newly completed report row | Result | Displayed unit | Displayed reference / classification | Portal date |
+| :--- | :--- | :--- | :--- | :--- |
+| Calprotectin (Stool) | < 5.0 | µg/g | <50 normal; 50-120 borderline; >120 elevated | Gut package: 17.09.2026 |
+| Pancreatic Elastase-1 (Stool) | 600.0 | µg/g | Not shown | Individual result card: 17.09.2026 |
+
+These values replace pending status in the September record. The comparison report uses the equivalent `ug/g` unit spelling. Calprotectin's inequality is preserved; neither an exact concentration of 5.0 nor zero is inferred. Elastase is exactly `600.0` as displayed, without an added inequality, reference interval, assay method or health score.
+
+September 17 is the displayed portal/package date. The screenshots do not show specimen collection timestamps or identifiers, so they do not independently establish a September 17 collection or prove specimen identity with the September 16 PDF. The results are grouped in the same September column with this provenance caveat.
+
+All other visible completed values match the earlier PDF transcription, including the stool residue findings, yeast comment, occult blood, anti-CCP, serum IgA, ASO, uric acid, RF, conventional CRP, thyroid hormones/antibodies, LDH, C3/C4 and CK. They are duplicate views rather than additional measurements. Collapsed urinalysis and morphology cards supply no new individual results. Portal dot colors do not override the PDF's numeric reference ranges and flags, including its high TSH and low C3 flags.
+
+The remaining **12 tests without supplied results** are DGP IgG, ANA IIFT/titer, ANA/ENA immunoblot, stool histamine, stool secretory sIgA, 24-hour urinary iodine, stool butyric acid, urine culture, tTG IgA, serum protein electrophoresis, selenium and stool zonulin. Their original turnaround estimates remain in the historical pending table above.

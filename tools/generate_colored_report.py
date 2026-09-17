@@ -1343,6 +1343,7 @@ data = {
         ("Giardia lamblia Antigen", "negative", "-", "-", "-", "Status", "negative"),
         ("Alpha-1 Antitrypsin (Stool)", "7.90", "-", "-", "-", "mg/dl", "< 27.50"),
         ("Calprotectin (Stool)", "291.70", "-", "-", "-", "ug/g", "< 50.00"),
+        ("Pancreatic Elastase-1 (Stool)", "-", "-", "-", "-", "ug/g", "-"),
         ("Stool Fat", "4.0", "-", "-", "-", "g/100g", "< 5.2"),
         ("Stool Water", "71.0", "-", "-", "-", "g/100g", "68.5 - 82.3"),
         ("Stool Protein", "1.5", "-", "-", "-", "g/100g", "< 1.5"),
@@ -1395,6 +1396,8 @@ data = {
 # Dated laboratory specimens, not monthly averages. Full transcription, original
 # units/ranges/flags, methods and pending assays: results/Labs-2026-09-16/Sources.md.
 # Both PDFs concern September 16 specimens, including the file named September 17.
+# Calprotectin and elastase were subsequently completed in September 17 portal
+# screenshots; those images do not establish an exact specimen collection date.
 lab_followups = {
     "2026-09": {
         "Morphology": {
@@ -1431,7 +1434,8 @@ lab_followups = {
             "Fat Droplets": "absent in preparation", "Fatty Acid Crystals": "single in preparation",
             "Muscle Fibers": "single in preparation", "Mucus": "single in preparation",
             "Yeast Cells": "present", "Occult Blood (Human Hemoglobin)": "negative",
-            "Calprotectin (Stool)": "pending", "Secretory sIgA (Stool)": "pending",
+            "Calprotectin (Stool)": "< 5.0", "Pancreatic Elastase-1 (Stool)": "600.0",
+            "Secretory sIgA (Stool)": "pending",
         },
         "Stool Pathogen PCR": {
             "Adenovirus F 40/41": "not detected",
@@ -1468,11 +1472,12 @@ for name in lab_followups["2026-09"]["Stool Pathogen PCR"]:
     no_score_markers.add(("Stool Pathogen PCR", name))
 no_score_markers.add(("Stool Analysis", "Yeast Cells"))
 
-# These are the 14 tests explicitly pending in the September 16 ALAB PDF.
+# Twelve of the original 14 pending tests remain without a supplied result after
+# the September 17 portal screenshots completed calprotectin and elastase.
 # Assays without a completed result do not acquire guessed units or references.
 lab_pending_tests = {
     "Immunology & Inflammation": ["DGP IgG", "ANA (IIFT + titre)", "ANA/ENA immunoblot", "tTG IgA"],
-    "Stool Analysis": ["Pancreatic elastase-1", "Histamine", "Secretory sIgA", "Calprotectin", "Butyric acid", "Zonulin"],
+    "Stool Analysis": ["Histamine", "Secretory sIgA", "Butyric acid", "Zonulin"],
     "Urine Chemistry": ["Iodine in 24-hour urine"],
     "Urine Culture": ["Urine culture"],
     "Proteinogram": ["Serum protein electrophoresis (whole panel)"],
@@ -1710,7 +1715,7 @@ result_notes = {
     ],
     "Stool Analysis": [
         {
-            "text": "July stool findings include calprotectin 291.70ug/g, sIgA 5023.4ug/ml and the recorded food-residue/mucus findings. September repeat calprotectin and sIgA are pending. September 16 PCR detected enteropathogenic E. coli (EPEC), shown in its own panel below; the earlier negative culture, antigen and microscopy results are different tests and remain in their original rows. These results do not establish a single cause for the gastrointestinal findings.",
+            "text": "July stool findings include calprotectin 291.70ug/g, sIgA 5023.4ug/ml and the recorded food-residue/mucus findings. The September 17 portal update reports calprotectin &lt;5.0ug/g; repeat sIgA remains pending. September 16 PCR detected enteropathogenic E. coli (EPEC), shown in its own panel below; the earlier negative culture, antigen and microscopy results are different tests and remain in their original rows. These results do not establish a single cause for the gastrointestinal findings.",
             "markers": [
                 {"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Leukocytes on Mucus", "Parasites (Stool Ova)", "Amoeba (Cysts/Trophozoites)", "Helicobacter pylori Antigen", "Giardia lamblia Antigen", "Calprotectin (Stool)", "Stool Sugar", "Secretory sIgA (Stool)"], "target": "value", "dates": ["2026-07"]},
             ],
@@ -1769,14 +1774,17 @@ for month, categories in lab_followups.items():
         if unknown:
             raise ValueError(f"Unmapped laboratory results in {category}: {sorted(unknown)}")
         laboratory = "Diagnostyka stool PCR" if category == "Stool Pathogen PCR" else "ALAB"
+        source_prefix = "September PDF" if category == "Stool Analysis" else "September"
         result_notes.setdefault(category, []).append({
-            "text": f"September laboratory entries are single specimens collected September 16, 2026 ({laboratory}), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.",
-            "markers": [{"rows": list(observations), "target": "value", "dates": [month]}],
+            "text": f"{source_prefix} laboratory entries are single specimens collected September 16, 2026 ({laboratory}), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.",
+            "markers": [{"rows": [name for name in observations if not (
+                category == "Stool Analysis" and name in {"Calprotectin (Stool)", "Pancreatic Elastase-1 (Stool)"}
+            )], "target": "value", "dates": [month]}],
         })
 
 for category, tests in lab_pending_tests.items():
     result_notes.setdefault(category, []).append({
-        "text": "Pending in the September 16 ALAB report: " + "; ".join(tests) + ". See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>complete pending-test list and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.",
+        "text": "Still awaiting supplied results after the September 17 portal update: " + "; ".join(tests) + ". See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.",
         "markers": [{"rows": [name for name, value in lab_followups["2026-09"].get(category, {}).items() if is_pending(value)], "target": "value", "dates": ["2026-09"]}],
     })
 
@@ -1795,6 +1803,10 @@ result_notes["Immunology & Inflammation"].append({
 result_notes["Stool Analysis"].append({
     "text": "September microscopy reports fairly numerous starch grains, absent fat droplets, single fatty-acid crystals, muscle fibers and mucus, plus a comment that yeast cells are present. No leukocyte-on-mucus result is supplied for September. Stool pH 8.0 is above the printed 6.5-7.5 interval even though the PDF adds no arrow. Occult blood is negative by a human-hemoglobin-specific immunochromatographic test; the report notes that concentrations below detection are not excluded.",
     "markers": [{"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Yeast Cells", "Occult Blood (Human Hemoglobin)"], "target": "value", "dates": ["2026-09"]}],
+})
+result_notes["Stool Analysis"].append({
+    "text": "Newly completed in the <a href='results/Labs-2026-09-16/Sources.md#portal-update-2026-09-17'>September 17 portal screenshots</a>: calprotectin &lt;5.0ug/g and pancreatic elastase 600.0ug/g. The inequality is retained; calprotectin is not recorded as exactly 5.0 or zero. The portal lists calprotectin &lt;50ug/g as normal, 50-120ug/g as borderline and &gt;120ug/g as elevated. No elastase reference interval or analytical method is visible, so its row is unscored. September 17 is the displayed portal date, not a confirmed collection date; duplicate values are not counted as repeat specimens.",
+    "markers": [{"rows": ["Calprotectin (Stool)", "Pancreatic Elastase-1 (Stool)"], "target": "value", "dates": ["2026-09"]}],
 })
 result_notes["Stool Pathogen PCR"].append({
     "text": "The panel title says 22 pathogens, but the PDF displays 21 result lines, including grouped targets. All 21 are transcribed: EPEC detected; the other 20 not detected. No extra result is inferred. PCR detections are shown without a severity score; the PDF supplies no reference intervals. This panel remains separate from stool cultures, antigen assays and microscopy. The filename is dated September 17, but the printed collection, analysis and issue dates are September 16; the collection header says 07:00 and the specimen note says 06:30, with both retained in the source record.",

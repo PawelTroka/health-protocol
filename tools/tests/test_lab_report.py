@@ -130,20 +130,36 @@ class SeptemberLabReportTests(unittest.TestCase):
             self.assertNotIn("Trend", table[0])
             self.assertEqual(Counter(cells[0] for cells in table[1:]), Counter(outcomes.keys()))
 
-    def test_pending_registry_keeps_14_assays_distinct_from_results(self):
+    def test_pending_registry_excludes_two_completed_portal_results(self):
         pending = [name for names in self.report["lab_pending_tests"].values() for name in names]
-        self.assertEqual(len(pending), 14)
-        self.assertEqual(len(set(pending)), 14)
+        self.assertEqual(len(pending), 12)
+        self.assertEqual(len(set(pending)), 12)
         self.assertIn("Serum protein electrophoresis (whole panel)", pending)
         self.assertIn("Iodine in 24-hour urine", pending)
         self.assertIn("tTG IgA", pending)
         self.assertNotIn("TSH", pending)
+        self.assertNotIn("Calprotectin", pending)
+        self.assertNotIn("Pancreatic elastase-1", pending)
+
+    def test_portal_completion_preserves_inequality_history_and_missing_reference(self):
+        calprotectin = self.observations("Stool Analysis", "Calprotectin (Stool)")
+        self.assertEqual(calprotectin["2026-09"], "< 5.0")
+        self.assertEqual(calprotectin["2026-07"], "291.70")
+        self.assertEqual(self.observations("Stool Analysis", "Pancreatic Elastase-1 (Stool)")["2026-09"], "600.0")
+        self.assertEqual(self.row("Stool Analysis", "Pancreatic Elastase-1 (Stool)")[-2:], ("ug/g", "-"))
+        self.assertIsNone(self.report["calculate_score"]("600.0", "-", "Stool Analysis", "Pancreatic Elastase-1 (Stool)"))
+        self.assertEqual(self.observations("Stool Analysis", "Secretory sIgA (Stool)")["2026-09"], "pending")
+        for marker in ("Calprotectin (Stool)", "Pancreatic Elastase-1 (Stool)"):
+            numbers = self.report["note_numbers"]("Stool Analysis", marker, "value", "2026-09")
+            notes = [self.report["result_notes"]["Stool Analysis"][number - 1]["text"] for number in numbers]
+            self.assertTrue(any("portal screenshots" in note for note in notes))
+            self.assertFalse(any("single specimens collected September 16" in note for note in notes))
 
     def test_all_followups_appear_in_september_in_both_generated_reports(self):
         values = [value for observations in self.report["lab_followups"]["2026-09"].values()
                   for value in observations.values()]
-        self.assertEqual(sum(value != "pending" for value in values), 84)
-        self.assertEqual(values.count("pending"), 10)
+        self.assertEqual(sum(value != "pending" for value in values), 86)
+        self.assertEqual(values.count("pending"), 9)
         for category, observations in self.report["lab_followups"]["2026-09"].items():
             rows = self.report["data"][category]
             for output_format in ("html", "md"):

@@ -422,7 +422,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 **Notes:**
 <sup>1</sup> Spot urine electrolytes are heavily affected by hydration, recent intake, timing, and supplementation. Low urine sodium/potassium/phosphate/chloride and high urine magnesium likely reflect high hydration, extremely low salt intake for looksmaxxing, and magnesium supplementation; interpret cautiously unless repeated or measured by 24h urine, especially since serum sodium, potassium, magnesium, creatinine/eGFR, urine albumin, and urine protein look good.
-<sup>2</sup> Pending in the September 16 ALAB report: Iodine in 24-hour urine. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>complete pending-test list and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
+<sup>2</sup> Still awaiting supplied results after the September 17 portal update: Iodine in 24-hour urine. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
 
 ## Urine Culture
 
@@ -441,7 +441,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 <sup>1</sup> Streptococcus agalactiae grew at 2 x 10^4 CFU/mL, but with no burning, urgency, frequency, pelvic/perineal pain, fever, testicular pain, or other urinary/systemic symptoms, and with a clean urinalysis, this is more consistent with possible contamination/colonization vs low-count asymptomatic bacteriuria; repeat a clean-catch culture if clarification is needed.
 <sup>2</sup> Susceptibility follows the PDF's EUCAST 16.0 interpretation: levofloxacin is susceptible only with increased exposure, and the nitrofurantoin result applies to uncomplicated UTI and not to other nitrofuran drugs.
 <sup>3</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>4</sup> Pending in the September 16 ALAB report: Urine culture. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>complete pending-test list and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
+<sup>4</sup> Still awaiting supplied results after the September 17 portal update: Urine culture. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
 
 ## Metabolic Health
 
@@ -524,7 +524,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 **Notes:**
 <sup>1</sup> Vitamin B12 went above range, likely from supplementation. B12 toxicity is generally low, but the plan is to lower the supplementation dose.
 <sup>2</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>3</sup> Pending in the September 16 ALAB report: Selenium. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>complete pending-test list and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
+<sup>3</sup> Still awaiting supplied results after the September 17 portal update: Selenium. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
 
 ## Immunology & Inflammation
 
@@ -546,7 +546,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 **Notes:**
 <sup>1</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>2</sup> Pending in the September 16 ALAB report: DGP IgG; ANA (IIFT + titre); ANA/ENA immunoblot; tTG IgA. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>complete pending-test list and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
+<sup>2</sup> Still awaiting supplied results after the September 17 portal update: DGP IgG; ANA (IIFT + titre); ANA/ENA immunoblot; tTG IgA. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
 <sup>3</sup> September CRP 0.7mg/L is the conventional immunoturbidimetric assay, kept separate from historical hs-CRP. TRAb is <0.14IU/L by DiaSorin LIAISON XL, with the laboratory's negative cutoff <0.550IU/L. Serum IgA is distinct from stool secretory sIgA. Inequalities are retained as reported, not replaced with exact concentrations.
 
 ## Tumor Markers
@@ -619,7 +619,8 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Helicobacter pylori Antigen** | - | - | 🔵<sup>1</sup> 0.12 (not detected) | Index | < 0.9 |
 | **Giardia lamblia Antigen** | - | - | 🔵<sup>1</sup> negative | Status | negative |
 | **Alpha-1 Antitrypsin (Stool)** | - | - | 🔵 7.90 | mg/dl | < 27.50; target < 27.50 |
-| **Calprotectin (Stool)** | - | pending<sup>2,3</sup> | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
+| **Calprotectin (Stool)** | 💎 | 🔵<sup>5</sup> < 5.0 | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
+| **Pancreatic Elastase-1 (Stool)** | - | 600.0<sup>5</sup> | - | ug/g | - |
 | **Stool Fat** | - | - | 🔵 4.0 | g/100g | < 5.2; target < 5.2 |
 | **Stool Water** | - | - | 🔵 71.0 | g/100g | 68.5 - 82.3; target 68.5 - 82.3 |
 | **Stool Protein** | - | - | 🔵 1.5 | g/100g | < 1.5; target < 1.5 |
@@ -631,10 +632,11 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Beta-defensin (Stool)** | - | - | 🔵 14.93 | ng/ml | 8.00 - 60.00; target 8 - 60 |
 
 **Notes:**
-<sup>1</sup> July stool findings include calprotectin 291.70ug/g, sIgA 5023.4ug/ml and the recorded food-residue/mucus findings. September repeat calprotectin and sIgA are pending. September 16 PCR detected enteropathogenic E. coli (EPEC), shown in its own panel below; the earlier negative culture, antigen and microscopy results are different tests and remain in their original rows. These results do not establish a single cause for the gastrointestinal findings.
-<sup>2</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>3</sup> Pending in the September 16 ALAB report: Pancreatic elastase-1; Histamine; Secretory sIgA; Calprotectin; Butyric acid; Zonulin. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>complete pending-test list and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
+<sup>1</sup> July stool findings include calprotectin 291.70ug/g, sIgA 5023.4ug/ml and the recorded food-residue/mucus findings. The September 17 portal update reports calprotectin &lt;5.0ug/g; repeat sIgA remains pending. September 16 PCR detected enteropathogenic E. coli (EPEC), shown in its own panel below; the earlier negative culture, antigen and microscopy results are different tests and remain in their original rows. These results do not establish a single cause for the gastrointestinal findings.
+<sup>2</sup> September PDF laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
+<sup>3</sup> Still awaiting supplied results after the September 17 portal update: Histamine; Secretory sIgA; Butyric acid; Zonulin. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
 <sup>4</sup> September microscopy reports fairly numerous starch grains, absent fat droplets, single fatty-acid crystals, muscle fibers and mucus, plus a comment that yeast cells are present. No leukocyte-on-mucus result is supplied for September. Stool pH 8.0 is above the printed 6.5-7.5 interval even though the PDF adds no arrow. Occult blood is negative by a human-hemoglobin-specific immunochromatographic test; the report notes that concentrations below detection are not excluded.
+<sup>5</sup> Newly completed in the <a href='results/Labs-2026-09-16/Sources.md#portal-update-2026-09-17'>September 17 portal screenshots</a>: calprotectin &lt;5.0ug/g and pancreatic elastase 600.0ug/g. The inequality is retained; calprotectin is not recorded as exactly 5.0 or zero. The portal lists calprotectin &lt;50ug/g as normal, 50-120ug/g as borderline and &gt;120ug/g as elevated. No elastase reference interval or analytical method is visible, so its row is unscored. September 17 is the displayed portal date, not a confirmed collection date; duplicate values are not counted as repeat specimens.
 
 ## Gut Microbiota (GA-map)
 
@@ -808,7 +810,7 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 
 **Notes:**
 <sup>1</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>2</sup> Pending in the September 16 ALAB report: Serum protein electrophoresis (whole panel). See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>complete pending-test list and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
+<sup>2</sup> Still awaiting supplied results after the September 17 portal update: Serum protein electrophoresis (whole panel). See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
 
 ## Hormonal Panel
 
