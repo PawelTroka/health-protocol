@@ -1,5 +1,7 @@
 # Diet delivery optimization
 
+**Latest review: [16September post-login and basket checks](DIET_PAYMENT_HANDOFF.md#16september-review).** Account access is restored; two cancellation confirmations await the user, and the five-food Frisco list/cart match45.94zł goods. Use the handoff for current actions; dated records below remain history.
+
 Adopted **2026-09-14**. Find a genuinely automatic purchasing-and-consumption schedule that supplies every required meal category and minimizes freshness loss when food is eaten, within the agreed Diet, budget and free home-courier requirement. **The current six-fresh/six-pantry proposal is a candidate, not a demonstrated feasible solution or a solved optimum.**
 
 The canonical [Diet](../README.md#4-diet) defines permitted foods, quality, preparation, portions and rotation. The [coverage model](DIET_ROTATION_COVERAGE.md) supplies provisional meal allocations; the [delivery schedule](DIET_DELIVERY_SCHEDULE.md), [shopping inventory](DIET_SHOPPING_PLAN.md), [subscription audit](DIET_SUBSCRIPTION_AUDIT.md) and [cost model](DIET_SUBSCRIPTION_COSTS.md) own current quantities, evidence and status. This specification does not activate orders, change portions or authorize substitutions. Where the older plan relies on routine skips, sharing or manual refills, those remain disclosed exceptions rather than proof of compliance with the adopted constraints.
@@ -78,6 +80,17 @@ These findings prevent a claim of full feasibility even if all twelve phase name
 3. **Separate slower pantry demand from90-day bundles.** Test actual180-day Beans/Chickpeas or native alternating compositions; derive spice replenishment from agreed choices. Both custom-cycle support and free courier for the resulting baskets remain inputs. Move only genuinely due pantry purchases into fresh shipments when this improves feasible grouping without earlier stock accumulation. IdoSell configuration flexibility does not establish Bioshi customer availability.
 4. **Build the complete meal/batch ledger first.** Use the coverage model's approved alternatives to fill every category and identify exact quantities still lacking. Seek smaller compatible packs and automatic routes for those gaps, retaining the written forms. Keep manual sourcing labelled as an unresolved automation exception. Changing to another approved alternative still requires the stated rotation/variety and full stock, price and native-capability checks.
 5. **Then compare delivery phases.** Use six fresh phases as one baseline; test additional or fewer phases only when the same needed food can arrive closer to consumption while all constraints hold. Do not add a pantry-only parcel or buy extra food merely to increase delivery count. Resolve Sauerkraut's label and fresh-use requirement before optimizing its cadence.
+
+### Numerical repair checks — 15September
+
+These calculations establish quantity rates under the stated assumptions; **none is an activated subscription or a proof of free courier, usable life, whole-Diet coverage or optimality**.
+
+| Category | Verified calculation and practical implication |
+| --- | --- |
+| Oats | Same300g pack every21days from day0 and every28days from day4 supplies exactly25g/day: seven packs/84days. With steady25g/day consumption and arrivals before use, inventory returns to0g at day84 and peaks at525g. A permanent50g reserve covers a modeled2day delivery delay and raises the nominal peak to575g; it is startup stock, not extra recurring demand. Actual SKU cycles, dates, expiry and courier grouping remain to verify. |
+| Nuts | Existing P1–P6 quantities300+500+300+350+150+200g already sum to1,800g/90days, exactly20g/day. Preserve that combined rate while phasing the four varieties and deducting opening stock; no recurring quantity increase is needed. Quantity balance alone does not verify freshness or a repeatable meal allocation. |
+| Eggs | Four10-Egg carton streams every14/21/28/60days supply `10/14+10/21+10/28+10/60=12/7 Eggs/day`:48 nominal Eggs/28days and720/420days. This matches12 Egg dinners/28days **only under the provisional four Eggs =200g shell-free assumption**. Actual edible yield, phases, expiry and qualifying mixed shipments remain necessary. |
+| Seeds | With fixed native periods7/14/21/28/30/60/90days, the common period is1,260days. Each daily7g Seed category consumes8,820g in that period. If every available pack is a multiple of50g, fixed integer-pack subscriptions can deliver only multiples of50g;8,820g leaves a20g remainder, so exact zero-drift replenishment is impossible within that restricted pack/period set. Morning650g/90days is7.222g/day, exceeding demand by20g/cycle. Seek a compatible smaller pack, additional verified interval or native variable-quantity pattern; changing the7g serving or relying on routine manual skips is not a repair within the agreed constraints. |
 
 ## Inputs and acceptance
 
