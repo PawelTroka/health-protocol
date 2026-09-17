@@ -27,6 +27,14 @@ _FOLLOWUP_GROUPS = {
     "Hormonal Panel": (
         "Thyroid Hormones", frozenset({"TSH", "Free T3 (FT3)", "Free T4 (FT4)"}),
     ),
+    "Proteinogram": (
+        "Concentrations",
+        frozenset({
+            "Total Protein", "Albumin (Concentration)", "Alpha-1 Globulin (Concentration)",
+            "Alpha-2 Globulin (Concentration)", "Beta-1 Globulin (Concentration)",
+            "Beta-2 Globulin (Concentration)", "Gamma Globulin (Concentration)",
+        }),
+    ),
 }
 
 

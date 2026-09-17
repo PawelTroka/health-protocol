@@ -285,6 +285,31 @@ class SeptemberLabReportTests(unittest.TestCase):
             self.assertEqual(values["2026-01"], "🔵 153")
             self.assertIn(rendered, self.outputs[output_format])
 
+    def test_free_psa_and_ratio_show_context_without_an_invented_normal_range(self):
+        category = "Tumor Markers"
+        expected = {
+            "PSA Free": ("⚪ 0.033", "Interpret with total PSA"),
+            "PSA Free/Total Ratio": ("⚪ 22.05", ">25; interpret with total PSA"),
+        }
+        # Preserve the original laboratory fields, including the blank free-PSA interval.
+        self.assertEqual(self.row(category, "PSA Free")[-2:], ("ng/mL", "-"))
+        self.assertEqual(self.row(category, "PSA Free/Total Ratio")[-2:], ("%", "> 25"))
+        for output_format in ("html", "md"):
+            rendered = self.report[f"render_result_table_{output_format}"](category, self.report["data"][category])
+            table = rendered_table_rows(rendered, output_format)
+            rows = {cells[0]: dict(zip(table[0], cells)) for cells in table[1:]}
+            for marker, (value, reference) in expected.items():
+                with self.subTest(marker=marker, output_format=output_format):
+                    self.assertEqual(rows[marker]["2026-07"], value)
+                    self.assertEqual(rows[marker]["Reference"], reference)
+                    self.assertEqual(rows[marker]["2026-01"], "-")
+                    self.assertIsNone(self.report["calculate_score"]("22.05", reference, category, marker))
+                    self.assertIsNone(self.report["classify_trend"](["22.05", "30"], reference, category, marker))
+                    format_cell = self.report[f"format_cell_{output_format}"]
+                    self.assertEqual(format_cell("pending", reference, category, marker), "pending")
+            self.assertEqual(rows["PSA Total"]["2026-07"], "🔵 0.15")
+            self.assertIn(rendered, self.outputs[output_format])
+
     def test_overlapping_numeric_bounds_cannot_establish_a_trend(self):
         classify = self.report["classify_trend"]
         self.assertIsNone(classify(["101.5", ">60"], ">60", "Metabolic Health", "eGFR"))
