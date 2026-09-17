@@ -53,7 +53,7 @@ def lab_groups(category, rows):
     groups = []
     if main_rows:
         groups.append({
-            "title": "Other Hormones" if category == "Hormonal Panel" else None,
+            "title": "Sex Hormones" if category == "Hormonal Panel" else None,
             "rows": main_rows,
         })
     if followup_rows:

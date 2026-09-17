@@ -268,6 +268,23 @@ class SeptemberLabReportTests(unittest.TestCase):
             self.assertNotIn("🟢", format_cell("<40", "<30"))
             self.assertIn("🟢", format_cell("<20", "<30"))
 
+    def test_ck_color_respects_the_reported_reference_limits(self):
+        category, marker, reference = "Cardiac Health & Coagulation", "Creatine Kinase (CK)", "20 - 200"
+        for value in ("19", "201", "222"):
+            score = self.report["calculate_score"](value, reference, category, marker)
+            self.assertEqual(self.report["get_color_hex"](score)[1], "🟡")
+        for value in ("20", "118", "153", "200"):
+            score = self.report["calculate_score"](value, reference, category, marker)
+            self.assertEqual(self.report["get_color_hex"](score)[1], "🔵")
+        for output_format in ("html", "md"):
+            rendered = self.report[f"render_result_table_{output_format}"](category, [self.row(category, marker)])
+            header, cells = rendered_table_rows(rendered, output_format)
+            values = dict(zip(header, cells))
+            self.assertEqual(values["2026-07"], "🟡 222 ↑")
+            self.assertEqual(values["2026-09"], "🔵 118")
+            self.assertEqual(values["2026-01"], "🔵 153")
+            self.assertIn(rendered, self.outputs[output_format])
+
     def test_overlapping_numeric_bounds_cannot_establish_a_trend(self):
         classify = self.report["classify_trend"]
         self.assertIsNone(classify(["101.5", ">60"], ">60", "Metabolic Health", "eGFR"))

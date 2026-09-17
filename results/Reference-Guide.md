@@ -20,7 +20,11 @@ A **reference** describes a comparison range; a **target** is a desired band. Ta
 | HRV and context-dependent heart-rate / temperature measurements | Personal or method-specific baseline; no universal target applied | [Oura HRV guidance](https://support.ouraring.com/hc/en-us/articles/360025441974-Heart-Rate-Variability). Baselines are not estimated from the small set of displayed monthly averages. |
 | Body circumferences and lengths | Individual anatomy; no universal health target applied | The existing waist observation is at the narrowest point. [NICE's central adiposity method](https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity) measures midway between the bottom ribs and top of the hips. Applying that method's risk thresholds to a different landmark would imply a comparison that has not been measured. |
 
-Unscored results are plain values. Categorical counts remain counts. Source names appear in row labels only where needed to distinguish otherwise identical measurements; full names remain in the source data and HTML tooltips.
+Unscored results are generally plain values; PSA fractions use ⚪ to make contextual interpretation explicit. Categorical counts remain counts. Source names appear in row labels only where needed to distinguish otherwise identical measurements; full names remain in the source data and HTML tooltips.
+
+## Free PSA
+
+Checked **2026-09-17**. The [July laboratory report](GDYNPOW-SL-00054812-20260707230614-5.pdf), pages 2–3, reports free PSA **0.033ng/mL** without a reference interval or abnormal flag; **>25%** belongs to the separate free/total ratio. [Corewell's laboratory catalog](https://www.beaumontlaboratory.com/lab-test-directory/detail?URL=free-psa-%28including-total%29&itemID=1) likewise lists no established standalone free-PSA range. [Mayo](https://oncology.testcatalog.org/show/PSAFT) describes the ratio's main use at total PSA **4–10ng/mL** and little added information below **2ng/mL**. Free PSA and its ratio therefore use a neutral ⚪ status requiring interpretation with total PSA, without an independent health score or target. The measured total PSA of **0.15ng/mL** retains its own reference-based status.
 
 ## Gut microbiota: the laboratory's scale
 

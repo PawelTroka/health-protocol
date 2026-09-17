@@ -78,6 +78,11 @@ def oura_score(marker):
 
 def guide_reference(category, marker, ref):
     """Return a compact sourced range; None preserves an existing reference."""
+    if category == "Tumor Markers":
+        if marker == "PSA Free":
+            return "Interpret with total PSA"
+        if marker == "PSA Free/Total Ratio":
+            return ">25; interpret with total PSA"
     if category != VITALS:
         return None
     if oura_score(marker):
@@ -99,6 +104,10 @@ def guide_reference(category, marker, ref):
 
 def guide_status(category, marker, value):
     """Source-specific bands or abundance; unknown data are not assumed normal."""
+    if category == "Tumor Markers" and marker in {"PSA Free", "PSA Free/Total Ratio"}:
+        if strict_number(value) is not None:
+            return (NEUTRAL[0], "⚪", "Interpret with total PSA; no standalone health grade")
+        return None
     residue_rank = stool_residue_rank(category, marker, value)
     if residue_rank is not None:
         color, emoji = (BLUE, GREEN, YELLOW, ORANGE)[residue_rank][:2]

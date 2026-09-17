@@ -253,7 +253,7 @@ target_overrides = {
     ("Cardiac Health & Coagulation", "ApoB"): low_good_target("< 1.0; target < 0.65", 0.65, 1.0),
     ("Cardiac Health & Coagulation", "Homocysteine"): low_good_target("< 10; target < 8", 8.0, 10.0),
     ("Cardiac Health & Coagulation", "NT-proBNP"): low_good_target("< 125; target < 50", 50.0, 125.0),
-    ("Cardiac Health & Coagulation", "Creatine Kinase (CK)"): low_good_target("20 - 200; target <= 200", 200.0, 350.0),
+    ("Cardiac Health & Coagulation", "Creatine Kinase (CK)"): low_good_target("20 - 200; target <= 200", 200.0, 200.0, 20.0),
     ("Cardiac Health & Coagulation", "Myoglobin"): optimal_range_target("28.00 - 72.00; target 28 - 50", 28.0, 28.0, 50.0, 72.0),
     ("Cardiac Health & Coagulation", "D-dimer"): low_good_target("< 500; target < 250", 250.0, 500.0),
     ("Cardiac Health & Coagulation", "Fibrinogen"): optimal_range_target("2.0 - 4.0; target 2.0 - 3.2", 2.0, 2.0, 3.2, 4.0),
@@ -293,7 +293,6 @@ target_overrides = {
     ("Immunology & Inflammation", "Anti-TG"): low_good_target("< 115.0; target < 20", 20.0, 115.0),
     ("Immunology & Inflammation", "ASO"): low_good_target("< 200; target < 200", 200.0, 200.0),
     ("Tumor Markers", "PSA Total"): low_good_target("< 4.0; target < 1.0", 1.0, 4.0),
-    ("Tumor Markers", "PSA Free/Total Ratio"): high_good_target("> 25; target >= 25", 25.0, 25.0),
     ("Tumor Markers", "CEA"): low_good_target("< 5.0; target < 3", 3.0, 5.0),
     ("Tumor Markers", "AFP (ng/ml)"): low_good_target("< 7.0; target < 5", 5.0, 7.0),
     ("Tumor Markers", "AFP (IU/ml)"): low_good_target("< 5.8; target < 5", 5.0, 5.8),
@@ -348,6 +347,8 @@ target_overrides = {
 }
 
 no_score_markers = {
+    ("Tumor Markers", "PSA Free"),
+    ("Tumor Markers", "PSA Free/Total Ratio"),
     ("Vitals & Functional Health", "Body Mass"),
     ("Vitals & Functional Health", "Height"),
     ("Vitals & Functional Health", "Bone"),
@@ -610,7 +611,7 @@ def qualitative_status(value):
 def format_cell_html(val, ref, category=None, marker=None):
     status = guide_status(category, marker, val)
     if status is not None:
-        return format_status(val, status)
+        return format_status(val, status, show_neutral=True)
     score = calculate_score(val, ref, category, marker)
     if score is None:
         return format_status(val, qualitative_status(val))
@@ -623,7 +624,7 @@ def format_cell_html(val, ref, category=None, marker=None):
 def format_cell_md(val, ref, category=None, marker=None):
     status = guide_status(category, marker, val)
     if status is not None:
-        return format_status(val, status, markdown=True)
+        return format_status(val, status, markdown=True, show_neutral=True)
     score = calculate_score(val, ref, category, marker)
     if score is None:
         return format_status(val, qualitative_status(val), markdown=True)
@@ -1798,9 +1799,9 @@ result_notes = {
     ],
     "Tumor Markers": [
         {
-            "text": "PSA free/total ratio is not clinically meaningful with total PSA at 0.15 ng/mL; the ratio is mainly useful when total PSA is elevated or in a diagnostic gray zone.",
+            "text": "Total PSA is low at 0.15ng/mL. Free PSA has no standalone reference range; the free/total ratio adds little information at this total PSA level.",
             "markers": [
-                {"rows": ["PSA Total", "PSA Free/Total Ratio"], "target": "value", "dates": ["2026-07"]},
+                {"rows": ["PSA Total", "PSA Free", "PSA Free/Total Ratio"], "target": "value", "dates": ["2026-07"]},
             ],
         },
     ],
@@ -1895,7 +1896,7 @@ def classification_text(value, *, markdown=False):
     return text
 
 
-def format_status(value, status, *, markdown=False):
+def format_status(value, status, *, markdown=False, show_neutral=False):
     """Show a status dot only when a classification adds information."""
     if value in {None, "", "-", "—"}:
         return "-"
@@ -1907,7 +1908,7 @@ def format_status(value, status, *, markdown=False):
         "#4CB814": "#177527", "#7CCA53": "#527d13",
     }.get(color, color)
     literal = classification_text(value, markdown=markdown)
-    if emoji == "⚪":
+    if emoji == "⚪" and not show_neutral:
         return literal
     if markdown:
         return f"{emoji} {literal}"
@@ -2292,6 +2293,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += "<li><span style='color:#ff4500; font-weight:bold;'>● Dark Orange</span>: Major deviation</li>"
     html += "<li><span style='color:#dc3545; font-weight:bold;'>● Light Red</span>: Severe abnormality</li>"
     html += "<li><span style='color:#8b0000; font-weight:bold;'>● Dark Red</span>: Critical</li>"
+    html += "<li>⚪ Context-dependent: no standalone health classification</li>"
     html += "</ul>"
     html += "<p class='note'>Single-result colors use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.</p>"
     html += "<p class='note'><a href='results/Reference-Guide.md'>Reference sources and methods</a> · <a href='results/Labs-2026-09-16/Sources.md'>September laboratory sources</a>.</p>"
@@ -2333,6 +2335,7 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     md += "*   🟡 **Watch**: Mild meaningful deviation from target or range\n"
     md += "*   🟠 **Concern**: Significant deviation from target or range\n"
     md += "*   🔴 **Critical**: Severe or critical deviation\n\n"
+    md += "*   ⚪ **Context-dependent**: No standalone health classification\n\n"
     md += "[Reference sources and methods](results/Reference-Guide.md) · [September laboratory sources](results/Labs-2026-09-16/Sources.md).\n\n"
     md += "> **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.\n\n"
     md += "### Trend Legend\n"

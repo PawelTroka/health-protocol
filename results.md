@@ -496,7 +496,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 |  | Trend | 2026-09 | 2026-07 | 2026-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Creatine Kinase (CK)** | 🟢<sup>2</sup> | 🔵<sup>2</sup> 118 | 🔵<sup>2</sup> 222 ↑ | 🔵 153 | U/L | 20 - 200; target <= 200 |
+| **Creatine Kinase (CK)** | 🔵<sup>2</sup> | 🔵<sup>2</sup> 118 | 🟡<sup>2</sup> 222 ↑ | 🔵 153 | U/L | 20 - 200; target <= 200 |
 
 **Notes:**
 <sup>1</sup> Mildly low HDL sits alongside favorable ApoB, LDL, triglycerides and inflammation markers. Focus on overall cardiovascular risk rather than raising HDL alone.
@@ -825,7 +825,7 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 
 ## Hormonal Panel
 
-### Other Hormones
+### Sex Hormones
 
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
