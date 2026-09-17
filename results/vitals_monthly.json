@@ -256,6 +256,19 @@
         "unit": "Status",
         "value": "Negative: 5"
       },
+      "HRV Status (Garmin)": {
+        "aggregation": "observed_classification_counts",
+        "counts": {
+          "NONE": 7
+        },
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "provider": "garmin",
+        "unit": "Status",
+        "value": "NONE: 7"
+      },
       "Heart Sounds Classification (Withings)": {
         "aggregation": "observed_classification_counts",
         "counts": {
@@ -5698,6 +5711,22 @@
       }
     },
     "2026-09": {
+      "7-day Average HRV (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-13",
+        "last_day": "2026-09-16",
+        "n_days": 4,
+        "n_records": 4,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "ms",
+        "value": "30.3"
+      },
       "Active Calories (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -5729,6 +5758,22 @@
         ],
         "unit": "min",
         "value": "23.1"
+      },
+      "Active Energy (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "kcal",
+        "value": "528.1"
       },
       "Active Energy (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -5938,6 +5983,22 @@
         "unit": "MET-min",
         "value": "1.56"
       },
+      "Average Nightly HRV (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "ms",
+        "value": "30.4"
+      },
       "Average Sleeping HR (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -5989,6 +6050,22 @@
         "unit": "%",
         "value": "95.0"
       },
+      "Average Stress (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "score",
+        "value": "28.4"
+      },
       "Awake Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -6007,6 +6084,22 @@
         ],
         "unit": "min",
         "value": "44.7"
+      },
+      "Awake Time During Sleep (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "h",
+        "value": "0.14"
       },
       "Awake Time During Sleep (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -6040,6 +6133,22 @@
         "unit": "kg/m^2",
         "value": "24.7"
       },
+      "Basal Energy Expenditure (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "kcal",
+        "value": "2057.4"
+      },
       "Basal Metabolic Rate (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -6071,6 +6180,70 @@
         ],
         "unit": "mmHg",
         "value": "108.0/76.0"
+      },
+      "Body Battery Charged (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "points",
+        "value": "45.5"
+      },
+      "Body Battery Drained (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "points",
+        "value": "44.1"
+      },
+      "Body Battery Highest (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "score",
+        "value": "66.0"
+      },
+      "Body Battery Lowest (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "score",
+        "value": "23.5"
       },
       "Body Fat": {
         "aggregation": "mean_of_daily_means",
@@ -6184,6 +6357,38 @@
         "unit": "years",
         "value": "29.6"
       },
+      "Daily Maximum HR (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "bpm",
+        "value": "146.1"
+      },
+      "Daily Minimum HR (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "bpm",
+        "value": "56.0"
+      },
       "Deep Sleep": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -6199,6 +6404,22 @@
         ],
         "unit": "h",
         "value": "1.18"
+      },
+      "Deep Sleep (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "h",
+        "value": "1.25"
       },
       "Deep Sleep (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6218,6 +6439,22 @@
         ],
         "unit": "h",
         "value": "1.35"
+      },
+      "Distance (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "km",
+        "value": "4.62"
       },
       "Distance (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6555,6 +6792,22 @@
         "unit": "kg",
         "value": "35.63"
       },
+      "Floors Ascended (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "floors",
+        "value": "3"
+      },
       "Floors Climbed (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -6570,6 +6823,22 @@
         ],
         "unit": "floors",
         "value": "0.0"
+      },
+      "Floors Descended (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "floors",
+        "value": "3"
       },
       "HR Intense Zone Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -6737,6 +7006,22 @@
         "unit": "h",
         "value": "1.00"
       },
+      "Highest 5-minute Nightly HRV (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "ms",
+        "value": "55.9"
+      },
       "Inactivity Alerts (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -6816,6 +7101,22 @@
         ],
         "unit": "min",
         "value": "501.6"
+      },
+      "Light Sleep (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "h",
+        "value": "4.68"
       },
       "Light Sleep (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -6902,6 +7203,22 @@
         ],
         "unit": "/min",
         "value": "19.0"
+      },
+      "Maximum Stress (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "score",
+        "value": "91.9"
       },
       "Mean Daily Highest HR (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7072,6 +7389,54 @@
         "unit": "min",
         "value": "5.9"
       },
+      "Moderate Intensity Minutes (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "17.8"
+      },
+      "Morning Recovery Time (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "h",
+        "value": "13.66"
+      },
+      "Morning Training Readiness (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-13",
+        "last_day": "2026-09-16",
+        "n_days": 4,
+        "n_records": 4,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "score",
+        "value": "64.5"
+      },
       "Muscle": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -7183,6 +7548,22 @@
         ],
         "unit": "kg",
         "value": "34.14"
+      },
+      "Nap Duration (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "h",
+        "value": "0.55"
       },
       "Nerve Health Score Feet (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7360,6 +7741,22 @@
         "n_records": 16,
         "partial_month": true,
         "provider": "oura",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "h",
+        "value": "1.61"
+      },
+      "REM Sleep (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
         "source_kinds": [
           "api"
         ],
@@ -7609,6 +8006,22 @@
         "unit": "/min",
         "value": "12.20"
       },
+      "Respiratory Rate (Sleep) (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "/min",
+        "value": "14.14"
+      },
       "Respiratory Rate During Sleep (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -7627,6 +8040,22 @@
         ],
         "unit": "/min",
         "value": "13.4"
+      },
+      "Resting HR (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "bpm",
+        "value": "61.4"
       },
       "Resting Time (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -7839,6 +8268,22 @@
         "unit": "h",
         "value": "7.28"
       },
+      "Sleep Duration (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "h",
+        "value": "7.55"
+      },
       "Sleep Duration (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -8008,6 +8453,22 @@
         "unit": "score",
         "value": "80.4"
       },
+      "Sleep Score (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-10",
+        "last_day": "2026-09-16",
+        "n_days": 7,
+        "n_records": 7,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "score",
+        "value": "78.9"
+      },
       "Sleep Score (Withings)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -8135,6 +8596,22 @@
         "unit": "count",
         "value": "0.7"
       },
+      "Steps (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "steps",
+        "value": "5399"
+      },
       "Steps (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -8250,6 +8727,22 @@
         "unit": "kcal",
         "value": "1242.2"
       },
+      "Total Energy Expenditure (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "kcal",
+        "value": "2585.5"
+      },
       "Total Energy Expenditure (Oura)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 30,
@@ -8281,6 +8774,22 @@
         ],
         "unit": "years",
         "value": "33.7"
+      },
+      "Vigorous Intensity Minutes (Garmin)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "elapsed_days": 17,
+        "first_day": "2026-09-09",
+        "last_day": "2026-09-16",
+        "n_days": 8,
+        "n_records": 8,
+        "partial_month": true,
+        "provider": "garmin",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "min",
+        "value": "20.9"
       },
       "Visceral Fat Index": {
         "aggregation": "mean_of_daily_means",
@@ -8375,6 +8884,28 @@
   },
   "schema_version": 1,
   "sync_coverage": {
+    "garmin": {
+      "end": "2026-09-17",
+      "endpoint_status": {
+        "daily_summary": {
+          "rows": 79,
+          "status": "complete"
+        },
+        "hrv": {
+          "rows": 79,
+          "status": "complete"
+        },
+        "sleep": {
+          "rows": 79,
+          "status": "complete"
+        },
+        "training_readiness": {
+          "rows": 79,
+          "status": "complete"
+        }
+      },
+      "start": "2026-07-01"
+    },
     "oura": {
       "end": "2026-09-17",
       "endpoint_status": {

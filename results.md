@@ -123,7 +123,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Temperature Deviation** | ↑ +0.06 | 0.05<sup>6</sup> | -0.01<sup>6</sup> | -0.07<sup>6</sup> | °C | - |
 
 <details>
-<summary id='results-vitals-details'>Detailed device measurements · 136 metrics</summary>
+<summary id='results-vitals-details'>Detailed device measurements · 168 metrics</summary>
 
 ### Body composition details
 
@@ -160,30 +160,41 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Average Daily HR** | ↓ -17.5 | 89.0<sup>6</sup> | 106.5<sup>6</sup> | 106.6<sup>6</sup> | bpm |
 | **Average Sleeping HR (Withings)** | ↓ -1.1 | 64.7<sup>6</sup> | 65.8<sup>6</sup> | 65.9<sup>6</sup> | bpm |
+| **Daily Maximum HR (Garmin)** | - | 146.1<sup>6</sup> | - | - | bpm |
+| **Daily Minimum HR (Garmin)** | - | 56.0<sup>6</sup> | - | - | bpm |
 | **ECG Recorded Heart Rate** | ↓ -5.7 | 76.9<sup>6</sup> | 82.6<sup>6</sup> | 86.2<sup>6</sup> | bpm |
 | **Mean Daily Highest HR** | ↓ -5.2 | 129.7<sup>6</sup> | 134.9<sup>6</sup> | 139.2<sup>6</sup> | bpm |
 | **Mean Daily Lowest HR** | ↓ -9.5 | 72.3<sup>6</sup> | 81.8<sup>6</sup> | 79.5<sup>6</sup> | bpm |
 | **Mean Nightly Highest HR** | ↓ -2.1 | 78.3<sup>6</sup> | 80.4<sup>6</sup> | 80.8<sup>6</sup> | bpm |
 | **Mean Nightly Lowest HR (Withings)** | ↓ -0.1 | 54.7<sup>6</sup> | 54.8<sup>6</sup> | 55.3<sup>6</sup> | bpm |
 | **Pulse Rate** | ↓ -5.7 | 76.9<sup>6</sup> | 82.6<sup>6</sup> | 86.3<sup>6</sup> | bpm |
+| **Resting HR (Garmin)** | - | 61.4<sup>6</sup> | - | - | bpm |
 
 ### Sleep and breathing details
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Awake Duration** | ↑ +6.9 | 44.7<sup>6</sup> | 37.8<sup>6</sup> | 40.1<sup>6</sup> | min | - |
+| **Awake Time During Sleep (Garmin)** | - | 0.14<sup>6</sup> | - | - | h | - |
+| **Deep Sleep (Garmin)** | - | 1.25<sup>6</sup> | - | - | h | - |
 | **Deep Sleep (Withings)** | ↑ +0.5 | 1.35<sup>6</sup> | 0.85<sup>6</sup> | 1.16<sup>6</sup> | h | - |
+| **Light Sleep (Garmin)** | - | 4.68<sup>6</sup> | - | - | h | - |
 | **Light Sleep (Withings)** | ↓ -0.51 | 3.06<sup>6</sup> | 3.57<sup>6</sup> | 3.78<sup>6</sup> | h | - |
 | **Maximum Sleeping Respiratory Rate** | ↓ -1.1 | 19.0<sup>6</sup> | 20.1<sup>6</sup> | 20.3<sup>6</sup> | /min | - |
 | **Minimum Sleeping Respiratory Rate** | ↓ -0.1 | 10.3<sup>6</sup> | 10.4<sup>6</sup> | 10.3<sup>6</sup> | /min | - |
+| **Nap Duration (Garmin)** | - | 0.55<sup>6</sup> | - | - | h | - |
 | **Out of Bed Count** | → 0 | 1.6<sup>6</sup> | 1.6<sup>6</sup> | 1.8<sup>6</sup> | count | - |
 | **REM Episode Count** | ↓ -0.9 | 2.6<sup>6</sup> | 3.5<sup>6</sup> | 3.1<sup>6</sup> | count | - |
+| **REM Sleep (Garmin)** | - | 1.61<sup>6</sup> | - | - | h | - |
 | **REM Sleep (Withings)** | ↓ -0.23 | 1.03<sup>6</sup> | 1.26<sup>6</sup> | 1.32<sup>6</sup> | h | - |
+| **Respiratory Rate (Sleep) (Garmin)** | - | 14.14<sup>6</sup> | - | - | /min | - |
 | **Respiratory Rate During Sleep** | ↓ -0.4 | 13.4<sup>6</sup> | 13.8<sup>6</sup> | 13.7<sup>6</sup> | /min | - |
 | **Restless Periods During Sleep** | ↓ -6.1 | 207.9<sup>6</sup> | 214.0<sup>6</sup> | 207.7<sup>6</sup> | count | - |
+| **Sleep Duration (Garmin)** | - | 7.55<sup>6</sup> | - | - | h | - |
 | **Sleep Duration (Withings)** | ↓ -0.24 | 5.44<sup>6</sup> | 5.68<sup>6</sup> | 6.26<sup>6</sup> | h | - |
 | **Sleep Efficiency (Withings)** | ↓ -2.1 | 84.2<sup>6</sup> | 86.3<sup>6</sup> | 87.4<sup>6</sup> | % | - |
 | **Sleep Latency (Withings)** | ↓ -1.1 | 23.8<sup>6</sup> | 24.9<sup>6</sup> | 25.6<sup>6</sup> | min | - |
+| **Sleep Score (Garmin)** | - | 78.9<sup>6</sup> | - | - | score | - |
 | **Sleep Score (Withings)** | ↓ -1.9 | 🟡<sup>6</sup> 53.8 | 🟡<sup>6</sup> 55.7 | 🟡<sup>6</sup> 59.6 | score | >75 |
 | **Sleeping Movement Duration** | ↓ -1.4 | 2.0<sup>6</sup> | 3.4<sup>6</sup> | 3.5<sup>6</sup> | min | - |
 | **Sleeping Movement Score** | ↓ -0.1 | 0.3<sup>6</sup> | 0.4<sup>6</sup> | 0.6<sup>6</sup> | score | - |
@@ -197,8 +208,19 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **7-day Average HRV (Garmin)** | - | 30.3<sup>6</sup> | - | - | ms |
+| **Average Nightly HRV (Garmin)** | - | 30.4<sup>6</sup> | - | - | ms |
+| **Average Stress (Garmin)** | - | 28.4<sup>6</sup> | - | - | score |
+| **Body Battery Charged (Garmin)** | - | 45.5<sup>6</sup> | - | - | points |
+| **Body Battery Drained (Garmin)** | - | 44.1<sup>6</sup> | - | - | points |
+| **Body Battery Highest (Garmin)** | - | 66.0<sup>6</sup> | - | - | score |
+| **Body Battery Lowest (Garmin)** | - | 23.5<sup>6</sup> | - | - | score |
+| **Highest 5-minute Nightly HRV (Garmin)** | - | 55.9<sup>6</sup> | - | - | ms |
 | **HRV at Sleep End** | ↑ +3.3 | 44.6<sup>6</sup> | 41.3<sup>6</sup> | 40.2<sup>6</sup> | ms |
 | **HRV at Sleep Start** | ↑ +3.7 | 40.7<sup>6</sup> | 37.0<sup>6</sup> | 41.6<sup>6</sup> | ms |
+| **Maximum Stress (Garmin)** | - | 91.9<sup>6</sup> | - | - | score |
+| **Morning Recovery Time (Garmin)** | - | 13.66<sup>6</sup> | - | - | h |
+| **Morning Training Readiness (Garmin)** | - | 64.5<sup>6</sup> | - | - | score |
 | **Skin Temperature** | - | - | - | 34.9<sup>6</sup> | C |
 | **Temperature Trend Deviation** | ↑ +0.06 | 0.12<sup>6</sup> | 0.06<sup>6</sup> | -0.00<sup>6</sup> | °C |
 
@@ -214,14 +236,19 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Active Calories** | ↑ +70.9 | 124.9<sup>6</sup> | 54.0<sup>6</sup> | 104.7<sup>6</sup> | kcal |
+| **Active Energy (Garmin)** | - | 528.1<sup>6</sup> | - | - | kcal |
 | **Activity Distance Target** | ↓ -0.22 | 10.13<sup>6</sup> | 10.35<sup>6</sup> | 10.39<sup>6</sup> | km |
 | **Activity Energy Target** | ↓ -29.8 | 525.0<sup>6</sup> | 554.8<sup>6</sup> | 550.0<sup>6</sup> | kcal |
 | **Average MET Minutes** | ↓ -0.05 | 1.56<sup>6</sup> | 1.61<sup>6</sup> | 1.71<sup>6</sup> | MET-min |
+| **Basal Energy Expenditure (Garmin)** | - | 2057.4<sup>6</sup> | - | - | kcal |
+| **Distance (Garmin)** | - | 4.62<sup>6</sup> | - | - | km |
 | **Distance** | ↑ +1019.5 | 1903.2<sup>6</sup> | 883.7<sup>6</sup> | 1535.2<sup>6</sup> | m |
 | **Distance Remaining to Activity Target** | ↑ +1.59 | -2.42<sup>6</sup> | -4.01<sup>6</sup> | -7.46<sup>6</sup> | km |
 | **Energy per Recorded Workout** | ↑ +232 | 469.0<sup>6</sup> | 237.0<sup>6</sup> | 433.7<sup>6</sup> | kcal |
 | **Equivalent Walking Distance** | ↓ -2.34 | 11.19<sup>6</sup> | 13.53<sup>6</sup> | 16.48<sup>6</sup> | km |
+| **Floors Ascended (Garmin)** | - | 3<sup>6</sup> | - | - | floors |
 | **Floors Climbed** | → 0 | 0.0<sup>6</sup> | 0.0<sup>6</sup> | 0.0<sup>6</sup> | floors |
+| **Floors Descended (Garmin)** | - | 3<sup>6</sup> | - | - | floors |
 | **High Activity MET Minutes** | ↑ +40.3 | 83.8<sup>6</sup> | 43.5<sup>6</sup> | 84.5<sup>6</sup> | MET-min |
 | **HR Intense Zone Duration** | ↓ -0.6 | 5.6<sup>6</sup> | 6.2<sup>6</sup> | 5.6<sup>6</sup> | min |
 | **HR Light Zone Duration** | ↑ +119.6 | 152.8<sup>6</sup> | 33.2<sup>6</sup> | 28.2<sup>6</sup> | min |
@@ -233,11 +260,15 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Low Activity MET Minutes** | ↓ -51.9 | 138.5<sup>6</sup> | 190.4<sup>6</sup> | 119.4<sup>6</sup> | MET-min |
 | **Medium Activity MET Minutes** | ↓ -65.3 | 288.3<sup>6</sup> | 353.6<sup>6</sup> | 524.0<sup>6</sup> | MET-min |
 | **Moderate Activity Duration** | ↓ -12.5 | 5.9<sup>6</sup> | 18.4<sup>6</sup> | 8.0<sup>6</sup> | min |
+| **Moderate Intensity Minutes (Garmin)** | - | 17.8<sup>6</sup> | - | - | min |
 | **Non-wear Time** | ↑ +0.05 | 0.44<sup>6</sup> | 0.39<sup>6</sup> | 0.40<sup>6</sup> | h |
 | **Resting Time** | ↓ -0.17 | 9.38<sup>6</sup> | 9.55<sup>6</sup> | 9.33<sup>6</sup> | h |
 | **Sedentary MET Minutes** | ↑ +1.9 | 12.4<sup>6</sup> | 10.5<sup>6</sup> | 9.5<sup>6</sup> | MET-min |
+| **Steps (Garmin)** | - | 5399<sup>6</sup> | - | - | steps |
 | **Steps (Withings)** | ↑ +1397.9 | 2534.5<sup>6</sup> | 1136.6<sup>6</sup> | 1998.0<sup>6</sup> | steps |
 | **Total Calories** | ↑ +188.7 | 1242.2<sup>6</sup> | 1053.5<sup>6</sup> | 1810.0<sup>6</sup> | kcal |
+| **Total Energy Expenditure (Garmin)** | - | 2585.5<sup>6</sup> | - | - | kcal |
+| **Vigorous Intensity Minutes (Garmin)** | - | 20.9<sup>6</sup> | - | - | min |
 
 ### Score contributors and changes
 
@@ -290,6 +321,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Breathing Disturbance Intensity** | Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1<sup>7</sup> | Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2<sup>7</sup> | Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1<sup>7</sup> | Status |
 | **Breathing Quality Assessment** | Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1<sup>7</sup> | Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2<sup>7</sup> | Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1<sup>7</sup> | Status |
 | **Heart Sounds Classification** | Device code 2: 1<sup>7</sup> | Device code 0: 1<sup>7</sup> | Device code 0: 3; Device code 2: 2<sup>7</sup> | Status |
+| **HRV Status (Garmin)** | NONE: 7<sup>7</sup> | - | - | Status |
 
 ### Model estimates
 
@@ -327,7 +359,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 <sup>3</sup> Original AHI snapshot: 0 on September 2; imported AHI means have a separate source note. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum. Maximum HR, HRV and device scores are context-dependent and are tracked without a universal clinical target.
 <sup>4</sup> Oura overview captured September 6: current-month VO2max 44; cardiovascular age 6.5 years younger; cumulative stress low. Typical nighttime dipping describes the last 30 days and supplies no dip percentage. The app's typical sleep score of 81 has an unspecified window; the table uses imported calendar means.
 <sup>5</sup> Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.
-<sup>6</sup> Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Withings: 1-15/17 elapsed days (month to date); 2026-09 Oura: 1-16/17 elapsed days (month to date). Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
+<sup>6</sup> Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Garmin: 4-8/17 elapsed days (month to date); 2026-09 Withings: 1-15/17 elapsed days (month to date); 2026-09 Oura: 1-16/17 elapsed days (month to date). Garmin daily summaries use Garmin's assigned calendar date; current-day Garmin data are also deferred until tomorrow. Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
 <sup>7</sup> Imported device classifications show counts of observed labels within each calendar month; they are not numeric averages, clinical diagnoses or estimates for unrecorded days. Entries labeled Device code preserve API values with unverified meanings and may include unavailable-result codes; they are not interpreted as clinical findings. Different provider classifications retain separate rows. Coverage and exact counts: <a href='results/vitals_monthly.json'>monthly source data</a>.
 
 
