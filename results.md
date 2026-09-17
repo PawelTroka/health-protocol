@@ -569,6 +569,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **CEA** | ⚪ | 🔵 3.0 | 🔵 2.9 | 🔵 2.2 | ng/ml | < 5.0; target < 3 |
 | **AFP (ng/ml)** | 🟢 | 🔵 1.99 | 🔵 2.84 | - | ng/ml | < 7.0; target < 5 |
 | **AFP (IU/ml)** | - | - | - | 🔵 2.0 | IU/ml | < 5.8; target < 5 |
+| **HCG-Beta** | ⚪ | 🔵 < 0.200 | 🔵 < 0.200 | - | mIU/mL | < 2.60; target < 1 |
 | **CA 19-9** | ⚪ | 🔵 4.6 | 🔵 3.8 | 🔵 5.5 | U/ml | < 34.0; target < 20 |
 | **S-100** | ⚪ | 🔵 0.10 | 🔵 0.09 | 🔵 0.05 | ug/l | < 0.15; target < 0.10 |
 
@@ -830,7 +831,7 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 
 ## Hormonal Panel
 
-### Sex Hormones
+### Reproductive Hormones & Markers
 
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -839,18 +840,27 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 | **DHT** | - | 🔵 762.3 | - | - | - | pg/ml | 250 - 990 |
 | **Estradiol (E2)** | 🟠<sup>1</sup> | 🟡<sup>1</sup> 213 ↑ | 🔵 141 | 🟡<sup>1</sup> 188 ↑ | 🟡<sup>1</sup> 176 ↑ | pmol/l | 41 - 159; target 70 - 160 |
 | **Prolactin** | 🔵 | 🔵 14.90 | 🟡<sup>2</sup> 24.00 ↑ | 🔵 9.64 | 🟡<sup>2</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20; target 5 - 15 |
-| **Cortisol** | ⚪ | 🔵 17.4 | 🔵 17.4 | 🔵 17.1 | - | ug/dl | 4.8 - 19.5; target 8 - 18 |
 | **LH** | 🔵 | 🔵 7.39 | 🟡 10.20 ↑ | 🔵 4.46 | - | mIU/mL | 1.70 - 8.60; target 2 - 8 |
 | **FSH** | ⚪ | 🔵 2.1 | 🔵 3.0 | 🔵 1.6 | 🔵 3.0 | mIU/mL | 1.5 - 12.4; target 1.5 - 6 |
 | **SHBG** | 🟠 | 🟡 54.7 ↑ | 🔵 43.2 | 🔵 35.0 | 🔵 34.3 | nmol/L | 18.3 - 54.1; target 25 - 50 |
-| **DHEA-SO4** | ⚪ | 🟢 92.9 | 🟢 97.7 | 🟢 124.0 | 🟢 111.0 | ug/dl | 88.9 - 427; target 150 - 350 |
 | **Progesterone** | 💎 | 🟡<sup>4</sup> 0.842 ↑ | 🟠<sup>4</sup> 1.390 ↑ | 🟠<sup>4</sup> 1.370 ↑ | - | nmol/l | < 0.474; target < 0.474 |
+
+### Adrenal Hormones & Precursors
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Cortisol** | ⚪ | 🔵 17.4 | 🔵 17.4 | 🔵 17.1 | - | ug/dl | 4.8 - 19.5; target 8 - 18 |
+| **DHEA-SO4** | ⚪ | 🟢 92.9 | 🟢 97.7 | 🟢 124.0 | 🟢 111.0 | ug/dl | 88.9 - 427; target 150 - 350 |
 | **17-OH Progesterone** | ⚪ | - | - | 🔵 1.59 | 🔵 2.31 | ng/ml | 0.37 - 2.87; target 0.7 - 2.5 |
 | **17-Hydroxypregnenolone** | - | 🔵 5.30 | - | - | - | ug/l | 0.90 - 11.70; target 0.90 - 11.70 |
-| **IGF-1** | 🟢 | 🔵 158 | 🔵 229 | 🔵 201 | - | ng/ml | 61 - 271; target 100 - 220 |
-| **HCG-Beta** | ⚪ | 🔵 < 0.200 | 🔵 < 0.200 | - | - | mIU/mL | < 2.60; target < 1 |
 
-### Thyroid Hormones
+### Growth Axis
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **IGF-1** | 🟢 | 🔵 158 | 🔵 229 | 🔵 201 | ng/ml | 61 - 271; target 100 - 220 |
+
+### Thyroid Function
 
 |  | Trend | 2026-09 | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

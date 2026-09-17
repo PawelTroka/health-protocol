@@ -217,7 +217,7 @@ class SeptemberLabReportTests(unittest.TestCase):
 
     def test_sparse_followups_do_not_add_empty_september_columns_to_main_tables(self):
         categories = ("Metabolic Health", "Cardiac Health & Coagulation", "Micronutrients",
-                      "Immunology & Inflammation", "Hormonal Panel")
+                      "Immunology & Inflammation")
         for category in categories:
             groups = self.report["lab_groups"](category, self.report["data"][category])
             self.assertEqual(len(groups), 2)
@@ -229,6 +229,60 @@ class SeptemberLabReportTests(unittest.TestCase):
                         self.assertEqual("2026-09" in header, index == 1)
                         self.assertIn("Unit", header)
                         self.assertIn("Reference", header)
+
+    def test_hormonal_tables_preserve_all_markers_and_only_thyroid_has_september(self):
+        category = "Hormonal Panel"
+        rows = self.report["data"][category]
+        groups = self.report["lab_groups"](category, rows)
+        expected = {
+            "Reproductive Hormones & Markers": [
+                "Testosterone (Total)", "Testosterone (Free)", "DHT", "Estradiol (E2)",
+                "Prolactin", "LH", "FSH", "SHBG", "Progesterone",
+            ],
+            "Adrenal Hormones & Precursors": [
+                "Cortisol", "DHEA-SO4", "17-OH Progesterone", "17-Hydroxypregnenolone",
+            ],
+            "Growth Axis": ["IGF-1"],
+            "Thyroid Function": ["TSH", "Free T3 (FT3)", "Free T4 (FT4)"],
+        }
+        self.assertEqual([(group["title"], [row[0] for row in group["rows"]])
+                          for group in groups], list(expected.items()))
+        self.assertEqual(Counter(id(row) for group in groups for row in group["rows"]),
+                         Counter(map(id, rows)))
+        for output_format in ("html", "md"):
+            for group in groups:
+                with self.subTest(group=group["title"], output_format=output_format):
+                    rendered = self.report[f"render_result_table_{output_format}"](category, group["rows"])
+                    table = rendered_table_rows(rendered, output_format)
+                    self.assertIn(rendered, self.outputs[output_format])
+                    self.assertEqual("2026-09" in table[0], group["title"] == "Thyroid Function")
+                    self.assertEqual([cells[0] for cells in table[1:]], expected[group["title"]])
+                    self.assertIn("Unit", table[0])
+                    self.assertIn("Reference", table[0])
+
+    def test_hcg_moves_to_tumor_markers_without_changing_results_or_scoring(self):
+        category, marker = "Tumor Markers", "HCG-Beta"
+        self.assertEqual([panel for panel, rows in self.report["data"].items()
+                          for row in rows if row[0] == marker], [category])
+        observations = self.observations(category, marker)
+        self.assertEqual({month: value for month, value in observations.items() if value != "-"},
+                         {"2026-07": "< 0.200", "2026-01": "< 0.200"})
+        self.assertEqual(self.row(category, marker)[-2:], ("mIU/mL", "< 2.60"))
+        overrides = self.report["target_overrides"]
+        self.assertNotIn(("Hormonal Panel", marker), overrides)
+        self.assertEqual(overrides[(category, marker)], {
+            "reference": "< 2.60; target < 1", "type": "low_good",
+            "optimal_max": 1.0, "high_limit": 2.6,
+        })
+        self.assertEqual(self.report["calculate_score"]("< 0.200", "< 2.60", category, marker), 0.35)
+        for output_format in ("html", "md"):
+            rendered = self.report[f"render_result_table_{output_format}"](category, self.report["data"][category])
+            table = rendered_table_rows(rendered, output_format)
+            cells = next(cells for cells in table[1:] if cells[0] == marker)
+            values = dict(zip(table[0], cells))
+            self.assertEqual(values["2026-07"], "🔵 < 0.200")
+            self.assertEqual(values["2026-01"], "🔵 < 0.200")
+            self.assertIn(rendered, self.outputs[output_format])
 
     def test_stool_abundance_changes_have_ordered_colors_and_trends(self):
         expected = {

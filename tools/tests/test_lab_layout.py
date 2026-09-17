@@ -26,7 +26,6 @@ class LabLayoutTests(unittest.TestCase):
             ("Metabolic Health", "Glucose", ["LDH", "Uric Acid"]),
             ("Micronutrients", "Vitamin D3", ["Selenium"]),
             ("Immunology & Inflammation", "CRP (hs)", ["CRP (Conventional)", "Anti-TPO", "IgA (Serum)"]),
-            ("Hormonal Panel", "Testosterone (Total)", ["TSH", "Free T3 (FT3)", "Free T4 (FT4)"]),
         )
         for category, main_name, followup_names in cases:
             with self.subTest(category=category):
@@ -39,6 +38,25 @@ class LabLayoutTests(unittest.TestCase):
                 self.assertEqual(groups[0]["rows"], [main, future])
                 self.assertEqual(groups[1]["rows"], followups)
                 self.assertTrue(groups[1]["title"])
+
+    def test_hormonal_groups_preserve_rows_and_keep_unknown_markers_separate(self):
+        rows = [row(name) for name in (
+            "TSH", "Cortisol", "Testosterone (Total)", "Future Marker", "IGF-1",
+            "SHBG", "DHEA-SO4", "Free T4 (FT4)", "Another Future Marker",
+        )]
+        groups = lab_groups("Hormonal Panel", rows)
+        self.assertEqual([(group["title"], [item[0] for item in group["rows"]])
+                          for group in groups], [
+            ("Reproductive Hormones & Markers", ["Testosterone (Total)", "SHBG"]),
+            ("Adrenal Hormones & Precursors", ["Cortisol", "DHEA-SO4"]),
+            ("Growth Axis", ["IGF-1"]),
+            ("Thyroid Function", ["TSH", "Free T4 (FT4)"]),
+            ("Additional Hormonal Markers", ["Future Marker", "Another Future Marker"]),
+        ])
+        self.assertEqual(Counter(id(item) for group in groups for item in group["rows"]),
+                         Counter(map(id, rows)))
+        self.assertEqual(lab_groups("Hormonal Panel", [rows[4]]),
+                         [{"title": "Growth Axis", "rows": [rows[4]]}])
 
     def test_partition_preserves_objects_duplicates_values_and_order(self):
         first = row("Uric Acid", september="3.0", july="3.8")

@@ -296,6 +296,7 @@ target_overrides = {
     ("Tumor Markers", "CEA"): low_good_target("< 5.0; target < 3", 3.0, 5.0),
     ("Tumor Markers", "AFP (ng/ml)"): low_good_target("< 7.0; target < 5", 5.0, 7.0),
     ("Tumor Markers", "AFP (IU/ml)"): low_good_target("< 5.8; target < 5", 5.0, 5.8),
+    ("Tumor Markers", "HCG-Beta"): low_good_target("< 2.60; target < 1", 1.0, 2.6),
     ("Tumor Markers", "CA 19-9"): low_good_target("< 34.0; target < 20", 20.0, 34.0),
     ("Tumor Markers", "S-100"): low_good_target("< 0.15; target < 0.10", 0.10, 0.15),
     ("Toxicology (Urine)", "Arsenic"): low_good_target("< 15.0; target < 15", 15.0, 15.0),
@@ -343,7 +344,6 @@ target_overrides = {
     ("Hormonal Panel", "17-OH Progesterone"): optimal_range_target("0.37 - 2.87; target 0.7 - 2.5", 0.37, 0.7, 2.5, 2.87),
     ("Hormonal Panel", "17-Hydroxypregnenolone"): optimal_range_target("0.90 - 11.70; target 0.90 - 11.70", 0.90, 0.90, 11.70, 11.70),
     ("Hormonal Panel", "IGF-1"): optimal_range_target("61 - 271; target 100 - 220", 61.0, 100.0, 220.0, 271.0),
-    ("Hormonal Panel", "HCG-Beta"): low_good_target("< 2.60; target < 1", 1.0, 2.6),
 }
 
 no_score_markers = {
@@ -1346,6 +1346,7 @@ data = {
         ("CEA", "3.0", "2.9", "2.2", "-", "ng/ml", "< 5.0"),
         ("AFP (ng/ml)", "1.99", "2.84", "-", "-", "ng/ml", "< 7.0"),
         ("AFP (IU/ml)", "-", "-", "2.0", "-", "IU/ml", "< 5.8"),
+        ("HCG-Beta", "< 0.200", "< 0.200", "-", "-", "mIU/mL", "< 2.60"),
         ("CA 19-9", "4.6", "3.8", "5.5", "-", "U/ml", "< 34.0"),
         ("S-100", "0.10", "0.09", "0.05", "-", "ug/l", "< 0.15")
     ],
@@ -1444,8 +1445,7 @@ data = {
         ("Progesterone", "0.842", "1.390", "1.370", "-", "nmol/l", "< 0.474"),
         ("17-OH Progesterone", "-", "-", "1.59", "2.31", "ng/ml", "0.37 - 2.87"),
         ("17-Hydroxypregnenolone", "5.30", "-", "-", "-", "ug/l", "0.90 - 11.70"),
-        ("IGF-1", "158", "229", "201", "-", "ng/ml", "61 - 271"),
-        ("HCG-Beta", "< 0.200", "< 0.200", "-", "-", "mIU/mL", "< 2.60")
+        ("IGF-1", "158", "229", "201", "-", "ng/ml", "61 - 271")
     ]
 }
 
