@@ -155,8 +155,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - Vision Exam (Every 2 years)
 
 ### Gastrointestinal Health
-- Colonoscopy with CO2 and polypectomy (Every 5 years)
-- Gastroscopy (Every 5 years)
+- Gastroscopy + Colonoscopy with CO2 and polypectomy (Every 5 years)
+  - [Medical Center Gunarys](https://gunarys.pl/kolonoskopia-gdansk-gdynia) with [lek. Klaudiusz Rogalski](https://www.znanylekarz.pl/klaudiusz-rogalski/chirurg-gastrolog/gdansk)
+    - Pros: selectable endoscopist; planned terminal-ileum attempt with photographic documentation; same-visit Gastroscopy; at least 2 biopsies from the terminal ileum and each colonic segment—including normal-appearing mucosa—and separate site-labelled containers can be agreed with the doctor before the procedure; small-polyp removal up to 1cm and clips are available.
+    - Limitations: room-air rather than CO₂ insufflation; Diagnostyka+ histopathology without a guaranteed named IBD Pathologist; outpatient clinic with ambulance transfer to SOR for complications.
+  - (alternative) [Clinic Dobosz](https://www.klinikadobosz.pl/kolonoskopia%2C65%2Cpl.html) with [dr n. med. Joanna Wypych](https://www.klinikadobosz.pl/dr-n-med-br-joanna-wypych%2C44%2Cpl.html) (alternative)
+    - Pros: stronger IBD-specific endoscopist profile and indicated access to Copernicus/IBD-experienced pathology; same-visit Gastroscopy, terminal-ileum attempt, separate site-labelled containers and polypectomy are available
+    - Limitations: systematic biopsies from every normal-appearing segment remain unconfirmed; room air is used and total histopathology cost remains unclear.
 
 
 
