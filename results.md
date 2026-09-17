@@ -332,59 +332,55 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 |  | Trend | 2026-09 | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Hemoglobin** | ⚪ | 🔵<sup>2,3</sup> 15.30 | 🔵 15.80 | 🔵 15.40 | 🔵 16.00 | 🔵 15.70 | g/dL | 13.0 - 18.0; target 14.0 - 16.2 |
-| **Hematocrit** | ⚪ | 🔵<sup>2</sup> 45.7 | 🔵 45.9 | 🔵 45.9 | 🔵 46.6 | 🔵 47.1 | % | 40 - 52; target 42 - 48 |
-| **Erythrocytes** | ⚪ | 🔵<sup>2,3</sup> 5.3 | 🔵 5.3 | 🔵 5.20 | 🔵 5.37 | 🔵 5.31 | 10^6/ul | 4.5 - 6.5; target 4.8 - 5.6 |
-| **MCV** | ⚪ | 🔵<sup>2</sup> 86.6 | 🔵 86.8 | 🔵 87.8 | 🔵 86.8 | 🔵 88.7 | fL | 80 - 98; target 84 - 92 |
-| **MCH** | ⚪ | 🔵<sup>2</sup> 29.0 | 🔵 29.9 | 🔵 29.4 | 🔵 29.8 | 🔵 29.6 | pg | 27 - 32; target 29 - 31 |
-| **MCHC** | ⚪ | 🔵<sup>2</sup> 33.5 | 🔵 34.4 | 🔵 33.6 | 🔵 34.3 | 🔵 33.3 | g/dL | 31 - 37; target 33 - 35 |
-| **RDW-CV** | 🟢 | 🔵<sup>2</sup> 13.2 | 🔵 13.4 | 🔵 12.5 | 🔵 12.9 | 🔵 12.9 | % | 11.5 - 14.5; target <= 13.2 |
-| **RDW-SD** | ⚪ | 🔵<sup>2</sup> 41.9 | 🔵 42.0 | 🔵 40.8 | - | 🔵 41.7 | fL | 35.1 - 43.9; target 36 - 42 |
-| **Leukocytes** | ⚪ | 🔵<sup>2,3</sup> 7.0 | 🔵 7.0 | 🔵 7.7 | 🔵 5.5 | 🔵 9.1 | 10^3/ul | 4.0 - 11.0; target 4.5 - 8.0 |
-| **Neutrophils** | 🟠 | 🟢<sup>2,3</sup> 1.9 | 🔵 2.7 | 🔵 2.3 | 🔵 2.22 | 🔵 3.83 | 10^9/L | 1.9 - 7; target 2.0 - 5.0 |
-| **Neutrophils %** | 🟠 | 🟡<sup>2</sup> 26.40 ↓ | 🟡 39.10 ↓ | 🟡 30.50 ↓ | 🟢 40.30 ↓ | 🟢 42.10 ↓ | % | 45 - 70; target 45 - 60 |
-| **Lymphocytes** | ⚪ | 🔵<sup>2</sup> 3.4 | 🔵 2.9 | 🟢 3.9 | 🔵 2.3 | 🔵 3.6 | 10^9/L | 1.5 - 4.5; target 1.5 - 3.5 |
-| **Lymphocytes %** | 🟠 | 🟡<sup>2</sup> 47.9 ↑ | 🔵 41.6 | 🟡 50.3 ↑ | 🔵 40.9 | 🔵 39.5 | % | 25 - 45; target 25 - 40 |
-| **Monocytes** | ⚪ | 🔵<sup>2</sup> 0.7 | 🔵 0.7 | 🟢 0.9 | 🔵 0.56 | 🟡 1.01 ↑ | 10^9/L | 0.1 - 0.9; target 0.2 - 0.8 |
-| **Monocytes %** | 🟢 | 🟡<sup>2</sup> 9.5 ↑ | 🟡 10.4 ↑ | 🟡 11.9 ↑ | 🟡 10.1 ↑ | 🟡 11.1 ↑ | % | 2 - 9; target 2 - 8 |
-| **Eosinophils** | 🔴 | 🟠<sup>1,2,3</sup> 1.1 ↑ | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.42 | 🟡<sup>1</sup> 0.55 ↑ | 10^9/L | < 0.5; target <= 0.3 |
-| **Eosinophils %** | 🔴<sup>1</sup> | 🔴<sup>1,2</sup> 15.5 ↑ | 🟡<sup>1</sup> 7.7 ↑ | 🟡<sup>1</sup> 6.5 ↑ | 🟡<sup>1</sup> 7.6 ↑ | 🟡<sup>1</sup> 6.0 ↑ | % | 0.00 - 5.00; target <= 3.0 |
-| **Basophils** | 🔵 | 🔵<sup>2</sup> 0.0 | 🟢 0.1 | 🟢 0.1 | 🔵 0.05 | 🔵 0.08 | 10^9/L | 0.00 - 0.10; target <= 0.08 |
-| **Basophils %** | 🔵 | 🔵<sup>2</sup> 0.6 | 🟢 0.9 | 🔵 0.7 | 🟢 0.9 | 🟢 0.9 | % | 0.00 - 1.00; target <= 0.8 |
-| **Immature Granulocytes** | ⚪ | 🔵<sup>2</sup> 0.0 | 🔵 0.0 | 🔵 0.0 | 🔵 0.01 | 🟢 0.04 | 10^9/L | < 0.04; target 0 |
-| **Immature Granulocytes %** | 🟢 | 🔵<sup>2</sup> 0.1 | 🔵 0.3 | 🔵 0.1 | 🔵 0.2 | 🟢 0.4 | % | 0.0 - 0.5; target <= 0.3 |
-| **Platelets** | ⚪ | 🔵<sup>2,3</sup> 255.0 | 🔵 230.0 | 🔵 265 | 🔵 228 | 🔵 305 | 10^3/ul | 150 - 400; target 180 - 300 |
-| **PCT** | ⚪ | 🔵<sup>2</sup> 0.27 | 🔵 0.25 | 🔵 0.30 | - | 🔵 0.31 | % | 0.12 - 0.36; target 0.18 - 0.32 |
-| **PDW** | ⚪ | 🔵<sup>2</sup> 13.5 | 🔵 14.1 | 🔵 13.8 | - | 🔵 10.9 | fL | 9.8 - 16.1; target 10 - 14 |
-| **MPV** | ⚪ | 🔵<sup>2</sup> 10.7 | 🔵 11.0 | 🔵 11.3 | 🔵 10.6 | 🔵 10.0 | fL | 7 - 12; target 8 - 11 |
-| **P-LCR** | ⚪ | 🔵<sup>2</sup> 30.8 | 🔵 33.4 | 🔵 35.3 | - | - | % | 19.2 - 47; target 20 - 40 |
+| **Hemoglobin** | ⚪ | 🔵 15.30 | 🔵 15.80 | 🔵 15.40 | 🔵 16.00 | 🔵 15.70 | g/dL | 13.0 - 18.0; target 14.0 - 16.2 |
+| **Hematocrit** | ⚪ | 🔵 45.7 | 🔵 45.9 | 🔵 45.9 | 🔵 46.6 | 🔵 47.1 | % | 40 - 52; target 42 - 48 |
+| **Erythrocytes** | ⚪ | 🔵 5.3 | 🔵 5.3 | 🔵 5.20 | 🔵 5.37 | 🔵 5.31 | 10^6/ul | 4.5 - 6.5; target 4.8 - 5.6 |
+| **MCV** | ⚪ | 🔵 86.6 | 🔵 86.8 | 🔵 87.8 | 🔵 86.8 | 🔵 88.7 | fL | 80 - 98; target 84 - 92 |
+| **MCH** | ⚪ | 🔵 29.0 | 🔵 29.9 | 🔵 29.4 | 🔵 29.8 | 🔵 29.6 | pg | 27 - 32; target 29 - 31 |
+| **MCHC** | ⚪ | 🔵 33.5 | 🔵 34.4 | 🔵 33.6 | 🔵 34.3 | 🔵 33.3 | g/dL | 31 - 37; target 33 - 35 |
+| **RDW-CV** | 🟢 | 🔵 13.2 | 🔵 13.4 | 🔵 12.5 | 🔵 12.9 | 🔵 12.9 | % | 11.5 - 14.5; target <= 13.2 |
+| **RDW-SD** | ⚪ | 🔵 41.9 | 🔵 42.0 | 🔵 40.8 | - | 🔵 41.7 | fL | 35.1 - 43.9; target 36 - 42 |
+| **Leukocytes** | ⚪ | 🔵 7.0 | 🔵 7.0 | 🔵 7.7 | 🔵 5.5 | 🔵 9.1 | 10^3/ul | 4.0 - 11.0; target 4.5 - 8.0 |
+| **Neutrophils** | 🟠 | 🟢 1.9 | 🔵 2.7 | 🔵 2.3 | 🔵 2.22 | 🔵 3.83 | 10^9/L | 1.9 - 7; target 2.0 - 5.0 |
+| **Neutrophils %** | 🟠 | 🟡 26.40 ↓ | 🟡 39.10 ↓ | 🟡 30.50 ↓ | 🟢 40.30 ↓ | 🟢 42.10 ↓ | % | 45 - 70; target 45 - 60 |
+| **Lymphocytes** | ⚪ | 🔵 3.4 | 🔵 2.9 | 🟢 3.9 | 🔵 2.3 | 🔵 3.6 | 10^9/L | 1.5 - 4.5; target 1.5 - 3.5 |
+| **Lymphocytes %** | 🟠 | 🟡 47.9 ↑ | 🔵 41.6 | 🟡 50.3 ↑ | 🔵 40.9 | 🔵 39.5 | % | 25 - 45; target 25 - 40 |
+| **Monocytes** | ⚪ | 🔵 0.7 | 🔵 0.7 | 🟢 0.9 | 🔵 0.56 | 🟡 1.01 ↑ | 10^9/L | 0.1 - 0.9; target 0.2 - 0.8 |
+| **Monocytes %** | 🟢 | 🟡 9.5 ↑ | 🟡 10.4 ↑ | 🟡 11.9 ↑ | 🟡 10.1 ↑ | 🟡 11.1 ↑ | % | 2 - 9; target 2 - 8 |
+| **Eosinophils** | 🔴 | 🟠<sup>1</sup> 1.1 ↑ | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.5 | 🟢<sup>1</sup> 0.42 | 🟡<sup>1</sup> 0.55 ↑ | 10^9/L | < 0.5; target <= 0.3 |
+| **Eosinophils %** | 🔴<sup>1</sup> | 🔴<sup>1</sup> 15.5 ↑ | 🟡<sup>1</sup> 7.7 ↑ | 🟡<sup>1</sup> 6.5 ↑ | 🟡<sup>1</sup> 7.6 ↑ | 🟡<sup>1</sup> 6.0 ↑ | % | 0.00 - 5.00; target <= 3.0 |
+| **Basophils** | 🔵 | 🔵 0.0 | 🟢 0.1 | 🟢 0.1 | 🔵 0.05 | 🔵 0.08 | 10^9/L | 0.00 - 0.10; target <= 0.08 |
+| **Basophils %** | 🔵 | 🔵 0.6 | 🟢 0.9 | 🔵 0.7 | 🟢 0.9 | 🟢 0.9 | % | 0.00 - 1.00; target <= 0.8 |
+| **Immature Granulocytes** | ⚪ | 🔵 0.0 | 🔵 0.0 | 🔵 0.0 | 🔵 0.01 | 🟢 0.04 | 10^9/L | < 0.04; target 0 |
+| **Immature Granulocytes %** | 🟢 | 🔵 0.1 | 🔵 0.3 | 🔵 0.1 | 🔵 0.2 | 🟢 0.4 | % | 0.0 - 0.5; target <= 0.3 |
+| **Platelets** | ⚪ | 🔵 255.0 | 🔵 230.0 | 🔵 265 | 🔵 228 | 🔵 305 | 10^3/ul | 150 - 400; target 180 - 300 |
+| **PCT** | ⚪ | 🔵 0.27 | 🔵 0.25 | 🔵 0.30 | - | 🔵 0.31 | % | 0.12 - 0.36; target 0.18 - 0.32 |
+| **PDW** | ⚪ | 🔵 13.5 | 🔵 14.1 | 🔵 13.8 | - | 🔵 10.9 | fL | 9.8 - 16.1; target 10 - 14 |
+| **MPV** | ⚪ | 🔵 10.7 | 🔵 11.0 | 🔵 11.3 | 🔵 10.6 | 🔵 10.0 | fL | 7 - 12; target 8 - 11 |
+| **P-LCR** | ⚪ | 🔵 30.8 | 🔵 33.4 | 🔵 35.3 | - | - | % | 19.2 - 47; target 20 - 40 |
 
 **Notes:**
-<sup>1</sup> The earlier eosinophil pattern remains under investigation. September 16 eosinophils are 1.1 x 10^9/L and 15.5%, compared with 0.5 x 10^9/L and 7.7% in July; both September results are flagged high by the laboratory. The result alone does not establish the cause.
-<sup>2</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>3</sup> September ALAB reference intervals differ from the established comparison column for WBC (4.0-10.0 x 10^9/L), RBC (4.6-6.5 x 10^12/L) and hemoglobin (13.5-18.0g/dL). WBC/platelet counts in 10^9/L and RBC counts in 10^12/L are numerically equivalent to the table's 10^3/ul and 10^6/ul. Neutrophils are printed as 1.9 x 10^9/L with a laboratory low flag despite a printed lower limit of 1.9; the rounded value is retained exactly and the source flag is preserved here. September eosinophils use a laboratory interval of 0.05-0.50 x 10^9/L.
+<sup>1</sup> Eosinophils rose from 0.5 to 1.1 x 10^9/L and from 7.7% to 15.5% since July. Both September results are high; the cause remains under investigation.
 
 ## Urinalysis (General)
 
 |  | Trend | 2026-09 | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Color** | - | 🔵<sup>2,3</sup> light yellow | 🔵 light yellow | 🔵 light yellow | 🔵 light yellow |  | - |
-| **Transparency** | ⚪ | 🔵<sup>2,3</sup> clear | 🔵 clear | 🔵 clear | 🔵 clear |  | clear |
-| **Specific Gravity** | ⚪<sup>1</sup> | 🟢<sup>2,3</sup> 1.008 | 🟢 1.008 | 🟢 1.015 | 🟢 1.015 | g/ml | 1.005 - 1.03 |
-| **pH** | 🔵 | 🟢<sup>2,3</sup> 6.5 | 🟢 5.5 | 🟢 5.5 | 🟢 6.0 |  | 5 - 8 |
-| **Protein** | ⚪ | 🔵<sup>2,3</sup> not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
-| **Glucose** | ⚪ | 🔵<sup>2,3</sup> not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
-| **Bilirubin** | ⚪ | 🔵<sup>2,3</sup> not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected |  | not detected |
-| **Urobilinogen** | ⚪ | 🔵<sup>2,3</sup> normal | 🔵 normal | 🔵 normal | 🔵 normal | mg/dL | normal |
-| **Ketones** | ⚪ | 🔵<sup>2,3</sup> not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
-| **Nitrites** | ⚪ | 🔵<sup>2,3</sup> not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected |  | not detected |
-| **Leukocytes (Strip)** | ⚪ | 🔵<sup>2,3</sup> not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | leu/uL | not detected |
-| **Erythrocytes (Strip)** | ⚪ | 🔵<sup>2,3</sup> not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | ery/uL | not detected |
+| **Color** | - | 🔵 light yellow | 🔵 light yellow | 🔵 light yellow | 🔵 light yellow |  | - |
+| **Transparency** | ⚪ | 🔵 clear | 🔵 clear | 🔵 clear | 🔵 clear |  | clear |
+| **Specific Gravity** | ⚪<sup>1</sup> | 🟢 1.008 | 🟢 1.008 | 🟢 1.015 | 🟢 1.015 | g/ml | 1.005 - 1.03 |
+| **pH** | 🔵 | 🟢 6.5 | 🟢 5.5 | 🟢 5.5 | 🟢 6.0 |  | 5 - 8 |
+| **Protein** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
+| **Glucose** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
+| **Bilirubin** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected |  | not detected |
+| **Urobilinogen** | ⚪ | 🔵 normal | 🔵 normal | 🔵 normal | 🔵 normal | mg/dL | normal |
+| **Ketones** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | mg/dL | not detected |
+| **Nitrites** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected |  | not detected |
+| **Leukocytes (Strip)** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | leu/uL | not detected |
+| **Erythrocytes (Strip)** | ⚪ | 🔵 not detected | 🔵 not detected | 🔵 not detected | 🔵 not detected | ery/uL | not detected |
 
 **Notes:**
-<sup>1</sup> Specific gravity trend likely reflects high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness; interpret alongside the clean urinalysis and kidney markers rather than as a standalone concern.
-<sup>2</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>3</sup> September urinalysis is qualitative except for pH and specific gravity; the PDF prints no urine-result units. Existing row units are retained for historical comparison and do not imply quantitative September protein, glucose or cell counts. The laboratory states microscopic verification was not required; no September sediment results are inferred.
+<sup>1</sup> Low specific gravity may reflect high hydration; interpret alongside the otherwise clean urinalysis and kidney markers.
 
 ## Urinalysis (Sediment)
 
@@ -421,14 +417,13 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Urine Chloride** | 🟡<sup>1</sup> 11 ↓ | mmol/L | 46 - 168 |
 
 **Notes:**
-<sup>1</sup> Spot urine electrolytes are heavily affected by hydration, recent intake, timing, and supplementation. Low urine sodium/potassium/phosphate/chloride and high urine magnesium likely reflect high hydration, extremely low salt intake for looksmaxxing, and magnesium supplementation; interpret cautiously unless repeated or measured by 24h urine, especially since serum sodium, potassium, magnesium, creatinine/eGFR, urine albumin, and urine protein look good.
-<sup>2</sup> Still awaiting supplied results after the September 17 portal update: Iodine in 24-hour urine. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
+<sup>1</sup> Spot urine electrolytes vary with hydration, intake and supplements. Interpret the low electrolytes and high magnesium alongside the reassuring serum electrolytes and kidney markers.
 
 ## Urine Culture
 
 |  | 2026-09 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- |
-| **Urine Culture** | pending<sup>3,4</sup> | 🟠<sup>1</sup> positive | Status | negative |
+| **Urine Culture** | pending | 🟠<sup>1</sup> positive | Status | negative |
 | **Colony Count** | - | 2 x 10^4<sup>1</sup> | CFU/mL | - |
 | **Streptococcus agalactiae** | - | 🟠<sup>1</sup> detected | Status | not detected |
 | **Penicillin** | - | susceptible |  | - |
@@ -438,10 +433,8 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Nitrofurantoin** | - | susceptible<sup>2</sup> |  | - |
 
 **Notes:**
-<sup>1</sup> Streptococcus agalactiae grew at 2 x 10^4 CFU/mL, but with no burning, urgency, frequency, pelvic/perineal pain, fever, testicular pain, or other urinary/systemic symptoms, and with a clean urinalysis, this is more consistent with possible contamination/colonization vs low-count asymptomatic bacteriuria; repeat a clean-catch culture if clarification is needed.
-<sup>2</sup> Susceptibility follows the PDF's EUCAST 16.0 interpretation: levofloxacin is susceptible only with increased exposure, and the nitrofurantoin result applies to uncomplicated UTI and not to other nitrofuran drugs.
-<sup>3</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>4</sup> Still awaiting supplied results after the September 17 portal update: Urine culture. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
+<sup>1</sup> Low-count Streptococcus agalactiae growth without symptoms and with a clean urinalysis may reflect contamination or colonization. Repeat a clean-catch culture if clarification is needed.
+<sup>2</sup> Levofloxacin susceptibility requires increased exposure. Nitrofurantoin susceptibility applies only to uncomplicated UTI and does not extend to other nitrofurans.
 
 ## Metabolic Health
 
@@ -456,16 +449,15 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Bilirubin Total** | 🔵<sup>1</sup> | - | 🔵 0.61 | 🟢 0.20 | 🔵 0.39 | - | mg/dL | < 1.20; target 0.3 - 1.0 |
 | **Bilirubin Direct** | - | - | 🟡<sup>1</sup> 0.33 ↑ | - | - | - | mg/dL | < 0.3; target <= 0.2 |
 | **ALP** | ⚪ | - | 🔵 76 | - | 🔵 89 | - | U/L | 40 - 129; target 50 - 90 |
-| **LDH** | ⚪ | 🔵<sup>2</sup> 130 | 🔵 152 | 🔵 123 | - | - | U/L | < 250; target 120 - 200 |
+| **LDH** | ⚪ | 🔵 130 | 🔵 152 | 🔵 123 | - | - | U/L | < 250; target 120 - 200 |
 | **Albumin** | - | - | 🔵 48.90 | - | - | - | g/l | 35.00 - 52.00; target 45 - 52 |
 | **Creatinine** | ⚪ | - | 🔵 0.96 | 🔵 0.93 | 🔵 0.93 | - | mg/dl | 0.70 - 1.20; target 0.80 - 1.10 |
 | **Cystatin C** | - | - | 🔵 0.80 | - | - | - | mg/l | 0.51 - 1.05; target 0.60 - 0.90 |
 | **eGFR** | 🔵 | - | 🔵 101.5 | 🟢 >60 | 🟢 >60 | - | ml/min/1.73m^2 | > 60.0; target 90 - 120 |
-| **Uric Acid** | 🟠 | 🟡<sup>2</sup> 3.0 ↓ | 🔵 3.8 | 🟡 3.2 ↓ | 🔵 4.1 | - | mg/dl | 3.4 - 7.0; target 3.5 - 5.5 |
+| **Uric Acid** | 🟠 | 🟡 3.0 ↓ | 🔵 3.8 | 🟡 3.2 ↓ | 🔵 4.1 | - | mg/dl | 3.4 - 7.0; target 3.5 - 5.5 |
 
 **Notes:**
 <sup>1</sup> Liver enzymes remain within range, but trends are interpreted in the context of isotretinoin plus Fo-Ti. Fo-Ti is being discontinued because Polygonum multiflorum has documented liver-injury risk and little upside.
-<sup>2</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
 
 ## Cardiac Health & Coagulation
 
@@ -481,7 +473,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **ApoB** | - | - | 🔵 0.60 | - | - | - | g/l | < 1.0; target < 0.65 |
 | **Homocysteine** | 🟠 | - | 🟢 9.07 | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 10; target < 8 |
 | **NT-proBNP** | 🟢 | - | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10.0 | pg/ml | < 125; target < 50 |
-| **Creatine Kinase (CK)** | 🟢<sup>2</sup> | 🔵<sup>2,3</sup> 118 | 🔵<sup>2</sup> 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200; target <= 200 |
+| **Creatine Kinase (CK)** | 🟢<sup>2</sup> | 🔵<sup>2</sup> 118 | 🔵<sup>2</sup> 222 ↑ | 🔵 153 | - | - | U/L | 20 - 200; target <= 200 |
 | **Myoglobin** | 🔵 | - | 🔵 33.40 | 🟡 24.30 ↓ | 🔵 42.60 | - | ng/ml | 28.00 - 72.00; target 28 - 50 |
 | **D-dimer** | ⚪ | - | - | 🔵 < 190 | 🔵 < 190 | 🔵 < 190 | ng/ml | < 500; target < 250 |
 | **Fibrinogen** | - | - | 🔵 3.1 | - | - | - | g/l | 2.0 - 4.0; target 2.0 - 3.2 |
@@ -491,9 +483,8 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Prothrombin Index** | - | - | 🔵 102 | - | - | - | % | 80 - 120; target 90 - 110 |
 
 **Notes:**
-<sup>1</sup> HDL is mildly low, but the overall cardiovascular profile is strong: LDL 68, non-HDL 81, ApoB 0.60, triglycerides 57, Lp(a) 7.16, hs-CRP 0.611, NT-proBNP 14.6, plus favorable BP/VO2max context. Do not chase HDL directly; prioritize ApoB/non-HDL/LDL, BP, VO2max, inflammation, and insulin sensitivity.
-<sup>2</sup> July CK was 222U/L during a new intensive training block. The September 16 repeat is 118U/L, within the laboratory's 20-200U/L range.
-<sup>3</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
+<sup>1</sup> Mildly low HDL sits alongside favorable ApoB, LDL, triglycerides and inflammation markers. Focus on overall cardiovascular risk rather than raising HDL alone.
+<sup>2</sup> CK fell from 222 to 118U/L, back within range after July's intensive training block.
 
 ## Micronutrients
 
@@ -512,7 +503,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Calcium (Total)** | 🟢 | - | 🔵 9.58 | 🟢 9.88 | 🟢 9.88 | - | mg/dL | 8.60 - 10.00; target 9.0 - 9.8 |
 | **Fosfor** | 🔵 | - | 🔵 3.10 | 🟡 4.83 ↑ | 🔵 3.7 | - | mg/dL | 2.5 - 4.5; target 3.0 - 4.0 |
 | **Iodine (Serum)** | - | - | 🔵 72 | - | - | - | ug/l | 40 - 80; target 40 - 80 |
-| **Selenium** | - | pending<sup>2,3</sup> | 🔵 108.75 | - | - | - | ug/l | 50 - 120; target 90 - 120 |
+| **Selenium** | - | pending | 🔵 108.75 | - | - | - | ug/l | 50 - 120; target 90 - 120 |
 | **Zinc** | ⚪ | - | 🔵 16.93 | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18; target 11 - 18 |
 | **Copper (Serum)** | - | - | 🔵 871.5 | - | - | - | ug/l | 560 - 1110; target 700 - 1100 |
 | **Vitamin B6** | 🟠 | - | 🟡 101.5 ↑ | - | 🟡 58.6 ↑ | - | ug/l | 5.7 - 55.1; target 10 - 50 |
@@ -523,31 +514,24 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 **Notes:**
 <sup>1</sup> Vitamin B12 went above range, likely from supplementation. B12 toxicity is generally low, but the plan is to lower the supplementation dose.
-<sup>2</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>3</sup> Still awaiting supplied results after the September 17 portal update: Selenium. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
 
 ## Immunology & Inflammation
 
 |  | Trend | 2026-09 | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **CRP (hs)** | ⚪ | - | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | not detected | mg/l | < 5.0; target < 1 |
-| **CRP (Conventional)** | - | 🔵<sup>1,3</sup> 0.7 | - | - | - | - | mg/L | < 5.0 |
+| **CRP (Conventional)** | - | 🔵 0.7 | - | - | - | - | mg/L | < 5.0 |
 | **IL-6** | ⚪ | - | 🔵 <1.5 | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0; target < 2 |
 | **Calprotectin (Circulating)** | 🟡 | - | 🔵 1.33 | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0; target < 1 |
-| **Anti-TPO** | ⚪ | 🔵<sup>1,3</sup> <9 | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0; target < 9 |
-| **Anti-TG** | ⚪ | 🔵<sup>1</sup> 18.90 | 🔵 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0; target < 20 |
-| **ASO** | 🟠 | 🟡<sup>1</sup> 390 ↑ | - | 🟡 209 ↑ | - | - | IU/mL | < 200; target < 200 |
-| **IgA (Serum)** | - | 🔵<sup>1,3</sup> 3.0 | - | - | - | - | g/L | 0.7 - 4.0 |
-| **Rheumatoid Factor (RF)** | - | 🟢<sup>1,3</sup> < 10 | - | - | - | - | IU/mL | < 14 |
-| **Anti-CCP** | - | 🔵<sup>1,3</sup> <8 | - | - | - | - | U/mL | < 17.00 |
-| **TSH Receptor Antibodies (TRAb)** | - | 🔵<sup>1,3</sup> < 0.14 | - | - | - | - | IU/L | < 0.550: negative; >= 0.550: positive |
-| **Complement C3** | - | 🟡<sup>1</sup> 89 ↓ | - | - | - | - | mg/dL | 90 - 180 |
-| **Complement C4** | - | 🟢<sup>1</sup> 14.2 | - | - | - | - | mg/dL | 10.0 - 40.0 |
-
-**Notes:**
-<sup>1</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>2</sup> Still awaiting supplied results after the September 17 portal update: DGP IgG; ANA (IIFT + titre); ANA/ENA immunoblot; tTG IgA. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
-<sup>3</sup> September CRP 0.7mg/L is the conventional immunoturbidimetric assay, kept separate from historical hs-CRP. TRAb is <0.14IU/L by DiaSorin LIAISON XL, with the laboratory's negative cutoff <0.550IU/L. Serum IgA is distinct from stool secretory sIgA. Inequalities are retained as reported, not replaced with exact concentrations.
+| **Anti-TPO** | ⚪ | 🔵 <9 | 🔵 <9 | 🔵 12.30 | - | - | IU/ml | < 34.0; target < 9 |
+| **Anti-TG** | ⚪ | 🔵 18.90 | 🔵 16.80 | 🔵 13.10 | - | - | IU/ml | < 115.0; target < 20 |
+| **ASO** | 🟠 | 🟡 390 ↑ | - | 🟡 209 ↑ | - | - | IU/mL | < 200; target < 200 |
+| **IgA (Serum)** | - | 🔵 3.0 | - | - | - | - | g/L | 0.7 - 4.0 |
+| **Rheumatoid Factor (RF)** | - | 🟢 < 10 | - | - | - | - | IU/mL | < 14 |
+| **Anti-CCP** | - | 🔵 <8 | - | - | - | - | U/mL | < 17.00 |
+| **TSH Receptor Antibodies (TRAb)** | - | 🔵 < 0.14 | - | - | - | - | IU/L | < 0.550: negative; >= 0.550: positive |
+| **Complement C3** | - | 🟡 89 ↓ | - | - | - | - | mg/dL | 90 - 180 |
+| **Complement C4** | - | 🟢 14.2 | - | - | - | - | mg/dL | 10.0 - 40.0 |
 
 ## Tumor Markers
 
@@ -604,39 +588,35 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 |  | Trend | 2026-09 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Stool pH** | ⚪ | 🟡<sup>2,4</sup> 8.0 ↑ | 🟡<sup>1</sup> 8.0 ↑ |  | 6.5 - 7.5 |
-| **Reducing Substances** | 💎 | 🔵<sup>2</sup> 0.00 | 🟢 0.25 | % | < 0.25 |
-| **Starch Grains** | - | 🟡<sup>2,4</sup> fairly numerous in preparation | 🟡<sup>1</sup> few in preparation |  | absent |
-| **Fat Droplets** | - | 🔵<sup>2,4</sup> absent in preparation | 🟡<sup>1</sup> single in preparation |  | absent |
-| **Fatty Acid Crystals** | - | 🟡<sup>2,4</sup> single in preparation | 🟡<sup>1</sup> few in preparation |  | absent |
-| **Muscle Fibers** | - | 🟡<sup>2,4</sup> single in preparation | 🟡<sup>1</sup> single in preparation |  | absent |
-| **Mucus** | - | 🟡<sup>2,4</sup> single in preparation | 🟡<sup>1</sup> few in preparation |  | absent |
-| **Leukocytes on Mucus** | - | - | 🟠<sup>1</sup> present |  | absent |
-| **Yeast Cells** | - | present<sup>2,4</sup> | - | Status | - |
-| **Occult Blood (Human Hemoglobin)** | - | 🔵<sup>2,4</sup> negative | - | Status | negative |
-| **Parasites (Stool Ova)** | - | - | 🔵<sup>1</sup> negative | Status | negative |
-| **Amoeba (Cysts/Trophozoites)** | - | - | 🔵<sup>1</sup> not detected | Status | not detected |
-| **Helicobacter pylori Antigen** | - | - | 🔵<sup>1</sup> 0.12 (not detected) | Index | < 0.9 |
-| **Giardia lamblia Antigen** | - | - | 🔵<sup>1</sup> negative | Status | negative |
+| **Stool pH** | ⚪ | 🟡 8.0 ↑ | 🟡 8.0 ↑ |  | 6.5 - 7.5 |
+| **Reducing Substances** | 💎 | 🔵 0.00 | 🟢 0.25 | % | < 0.25 |
+| **Starch Grains** | - | 🟡 fairly numerous in preparation | 🟡 few in preparation |  | absent |
+| **Fat Droplets** | - | 🔵 absent in preparation | 🟡 single in preparation |  | absent |
+| **Fatty Acid Crystals** | - | 🟡 single in preparation | 🟡 few in preparation |  | absent |
+| **Muscle Fibers** | - | 🟡 single in preparation | 🟡 single in preparation |  | absent |
+| **Mucus** | - | 🟡 single in preparation | 🟡 few in preparation |  | absent |
+| **Leukocytes on Mucus** | - | - | 🟠 present |  | absent |
+| **Yeast Cells** | - | present | - | Status | - |
+| **Occult Blood (Human Hemoglobin)** | - | 🔵 negative | - | Status | negative |
+| **Parasites (Stool Ova)** | - | - | 🔵 negative | Status | negative |
+| **Amoeba (Cysts/Trophozoites)** | - | - | 🔵 not detected | Status | not detected |
+| **Helicobacter pylori Antigen** | - | - | 🔵 0.12 (not detected) | Index | < 0.9 |
+| **Giardia lamblia Antigen** | - | - | 🔵 negative | Status | negative |
 | **Alpha-1 Antitrypsin (Stool)** | - | - | 🔵 7.90 | mg/dl | < 27.50; target < 27.50 |
-| **Calprotectin (Stool)** | 💎 | 🔵<sup>5</sup> < 5.0 | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
-| **Pancreatic Elastase-1 (Stool)** | - | 600.0<sup>5</sup> | - | ug/g | - |
+| **Calprotectin (Stool)** | 💎 | 🔵<sup>1</sup> < 5.0 | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
+| **Pancreatic Elastase-1 (Stool)** | - | 600.0 | - | ug/g | - |
 | **Stool Fat** | - | - | 🔵 4.0 | g/100g | < 5.2; target < 5.2 |
 | **Stool Water** | - | - | 🔵 71.0 | g/100g | 68.5 - 82.3; target 68.5 - 82.3 |
 | **Stool Protein** | - | - | 🔵 1.5 | g/100g | < 1.5; target < 1.5 |
 | **Stool Starch** | - | - | 🔵 5.9 | g/100g | 2.6 - 10.6; target 2.6 - 10.6 |
-| **Stool Sugar** | - | - | 🟡<sup>1</sup> 2.5 ↑ | g/100g | < 2.3; target < 2.3 |
+| **Stool Sugar** | - | - | 🟡 2.5 ↑ | g/100g | < 2.3; target < 2.3 |
 | **Bile Acids (Stool)** | - | - | 🔵 3.10 | umol/g | 0.46 - 9.96; target 0.46 - 9.96 |
-| **Secretory sIgA (Stool)** | - | pending<sup>2,3</sup> | 🟠<sup>1</sup> 5023.4 ↑ | ug/ml | 510 - 2040; target 510 - 2040 |
+| **Secretory sIgA (Stool)** | - | pending<sup>1</sup> | 🟠<sup>1</sup> 5023.4 ↑ | ug/ml | 510 - 2040; target 510 - 2040 |
 | **EPX (Stool)** | - | - | 🔵 < 74.00 | ng/ml | < 357.60; target < 357.60 |
 | **Beta-defensin (Stool)** | - | - | 🔵 14.93 | ng/ml | 8.00 - 60.00; target 8 - 60 |
 
 **Notes:**
-<sup>1</sup> July stool findings include calprotectin 291.70ug/g, sIgA 5023.4ug/ml and the recorded food-residue/mucus findings. The September 17 portal update reports calprotectin &lt;5.0ug/g; repeat sIgA remains pending. September 16 PCR detected enteropathogenic E. coli (EPEC), shown in its own panel below; the earlier negative culture, antigen and microscopy results are different tests and remain in their original rows. These results do not establish a single cause for the gastrointestinal findings.
-<sup>2</sup> September PDF laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>3</sup> Still awaiting supplied results after the September 17 portal update: Histamine; Secretory sIgA; Butyric acid; Zonulin. See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
-<sup>4</sup> September microscopy reports fairly numerous starch grains, absent fat droplets, single fatty-acid crystals, muscle fibers and mucus, plus a comment that yeast cells are present. No leukocyte-on-mucus result is supplied for September. Stool pH 8.0 is above the printed 6.5-7.5 interval even though the PDF adds no arrow. Occult blood is negative by a human-hemoglobin-specific immunochromatographic test; the report notes that concentrations below detection are not excluded.
-<sup>5</sup> Newly completed in the <a href='results/Labs-2026-09-16/Sources.md#portal-update-2026-09-17'>September 17 portal screenshots</a>: calprotectin &lt;5.0ug/g and pancreatic elastase 600.0ug/g. The inequality is retained; calprotectin is not recorded as exactly 5.0 or zero. The portal lists calprotectin &lt;50ug/g as normal, 50-120ug/g as borderline and &gt;120ug/g as elevated. No elastase reference interval or analytical method is visible, so its row is unscored. September 17 is the displayed portal date, not a confirmed collection date; duplicate values are not counted as repeat specimens.
+<sup>1</sup> Calprotectin fell from 291.70 to &lt;5.0ug/g, now within the lab's normal range. July sIgA was 5023.4ug/ml; its repeat is pending.
 
 ## Gut Microbiota (GA-map)
 
@@ -771,77 +751,70 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 
 |  | 2026-09 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
-| **Adenovirus F 40/41** | not detected<sup>1,2</sup> | Status | - |
-| **Astrovirus** | not detected<sup>1,2</sup> | Status | - |
-| **Norovirus GI/GII** | not detected<sup>1,2</sup> | Status | - |
-| **Rotavirus A** | not detected<sup>1,2</sup> | Status | - |
-| **Sapovirus (I, II, IV, V)** | not detected<sup>1,2</sup> | Status | - |
-| **Campylobacter (jejuni, coli, upsaliensis)** | not detected<sup>1,2</sup> | Status | - |
-| **Clostridioides difficile (Toxin A/B)** | not detected<sup>1,2</sup> | Status | - |
-| **Plesiomonas shigelloides** | not detected<sup>1,2</sup> | Status | - |
-| **Salmonella** | not detected<sup>1,2</sup> | Status | - |
-| **Vibrio (parahaemolyticus, vulnificus, cholerae)** | not detected<sup>1,2</sup> | Status | - |
-| **Vibrio cholerae** | not detected<sup>1,2</sup> | Status | - |
-| **Yersinia enterocolitica** | not detected<sup>1,2</sup> | Status | - |
-| **Enteroaggregative E. coli (EAEC)** | not detected<sup>1,2</sup> | Status | - |
-| **Enteropathogenic E. coli (EPEC)** | detected<sup>1,2</sup> | Status | - |
-| **Enterotoxigenic E. coli (ETEC) lt/st** | not detected<sup>1,2</sup> | Status | - |
-| **Shiga-like Toxin-producing E. coli (STEC) stx1/stx2** | not detected<sup>1,2</sup> | Status | - |
-| **Shigella/Enteroinvasive E. coli (EIEC)** | not detected<sup>1,2</sup> | Status | - |
-| **Cryptosporidium** | not detected<sup>1,2</sup> | Status | - |
-| **Cyclospora cayetanensis** | not detected<sup>1,2</sup> | Status | - |
-| **Entamoeba histolytica** | not detected<sup>1,2</sup> | Status | - |
-| **Giardia lamblia** | not detected<sup>1,2</sup> | Status | - |
+| **Adenovirus F 40/41** | not detected | Status | - |
+| **Astrovirus** | not detected | Status | - |
+| **Norovirus GI/GII** | not detected | Status | - |
+| **Rotavirus A** | not detected | Status | - |
+| **Sapovirus (I, II, IV, V)** | not detected | Status | - |
+| **Campylobacter (jejuni, coli, upsaliensis)** | not detected | Status | - |
+| **Clostridioides difficile (Toxin A/B)** | not detected | Status | - |
+| **Plesiomonas shigelloides** | not detected | Status | - |
+| **Salmonella** | not detected | Status | - |
+| **Vibrio (parahaemolyticus, vulnificus, cholerae)** | not detected | Status | - |
+| **Vibrio cholerae** | not detected | Status | - |
+| **Yersinia enterocolitica** | not detected | Status | - |
+| **Enteroaggregative E. coli (EAEC)** | not detected | Status | - |
+| **Enteropathogenic E. coli (EPEC)** | detected<sup>1</sup> | Status | - |
+| **Enterotoxigenic E. coli (ETEC) lt/st** | not detected | Status | - |
+| **Shiga-like Toxin-producing E. coli (STEC) stx1/stx2** | not detected | Status | - |
+| **Shigella/Enteroinvasive E. coli (EIEC)** | not detected | Status | - |
+| **Cryptosporidium** | not detected | Status | - |
+| **Cyclospora cayetanensis** | not detected | Status | - |
+| **Entamoeba histolytica** | not detected | Status | - |
+| **Giardia lamblia** | not detected | Status | - |
 
 **Notes:**
-<sup>1</sup> September laboratory entries are single specimens collected September 16, 2026 (Diagnostyka stool PCR), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>2</sup> The panel title says 22 pathogens, but the PDF displays 21 result lines, including grouped targets. All 21 are transcribed: EPEC detected; the other 20 not detected. No extra result is inferred. PCR detections are shown without a severity score; the PDF supplies no reference intervals. This panel remains separate from stool cultures, antigen assays and microscopy. The filename is dated September 17, but the printed collection, analysis and issue dates are September 16; the collection header says 07:00 and the specimen note says 06:30, with both retained in the source record.
+<sup>1</sup> EPEC was detected by PCR; the earlier negative stool culture tested different organisms.
 
 ## Proteinogram
 
 |  | 2026-09 | 2026-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- |
-| **Albumin** | pending<sup>1,2</sup> | 🔵 62.3 | % | 55.8 - 66.1 |
-| **Alpha-1 Globulin** | pending<sup>1,2</sup> | 🟢 2.9 | % | 2.9 - 4.9 |
-| **Alpha-2 Globulin** | pending<sup>1,2</sup> | 🟡 7.0 ↓ | % | 7.1 - 11.8 |
-| **Beta-1 Globulin** | pending<sup>1,2</sup> | 🔵 5.9 | % | 4.7 - 7.2 |
-| **Beta-2 Globulin** | pending<sup>1,2</sup> | 🔵 4.9 | % | 3.2 - 6.5 |
-| **Gamma Globulin** | pending<sup>1,2</sup> | 🔵 17.0 | % | 11.1 - 18.8 |
-
-**Notes:**
-<sup>1</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
-<sup>2</sup> Still awaiting supplied results after the September 17 portal update: Serum protein electrophoresis (whole panel). See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.
+| **Albumin** | pending | 🔵 62.3 | % | 55.8 - 66.1 |
+| **Alpha-1 Globulin** | pending | 🟢 2.9 | % | 2.9 - 4.9 |
+| **Alpha-2 Globulin** | pending | 🟡 7.0 ↓ | % | 7.1 - 11.8 |
+| **Beta-1 Globulin** | pending | 🔵 5.9 | % | 4.7 - 7.2 |
+| **Beta-2 Globulin** | pending | 🔵 4.9 | % | 3.2 - 6.5 |
+| **Gamma Globulin** | pending | 🔵 17.0 | % | 11.1 - 18.8 |
 
 ## Hormonal Panel
 
 |  | Trend | 2026-09 | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Testosterone (Total)** | 🟢<sup>1</sup> | - | 🔵<sup>1</sup> 32.10 | 🔵 27.50 | 🔵 28.60 | 🔵 28.70 | nmol/l | 9.2 - 33.0; target 20 - 33 |
+| **Testosterone (Total)** | 🟢 | - | 🔵 32.10 | 🔵 27.50 | 🔵 28.60 | 🔵 28.70 | nmol/l | 9.2 - 33.0; target 20 - 33 |
 | **Testosterone (Free)** | - | - | - | - | 🔵 19.17 | - | pg/ml | 9.10 - 32.20; target 15 - 30 |
 | **DHT** | - | - | 🔵 762.3 | - | - | - | pg/ml | 250 - 990 |
-| **Estradiol (E2)** | 🟠<sup>2</sup> | - | 🟡<sup>2</sup> 213 ↑ | 🔵 141 | 🟡<sup>2</sup> 188 ↑ | 🟡<sup>2</sup> 176 ↑ | pmol/l | 41 - 159; target 70 - 160 |
-| **Prolactin** | 🔵 | - | 🔵 14.90 | 🟡<sup>3</sup> 24.00 ↑ | 🔵 9.64 | 🟡<sup>3</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20; target 5 - 15 |
+| **Estradiol (E2)** | 🟠<sup>1</sup> | - | 🟡<sup>1</sup> 213 ↑ | 🔵 141 | 🟡<sup>1</sup> 188 ↑ | 🟡<sup>1</sup> 176 ↑ | pmol/l | 41 - 159; target 70 - 160 |
+| **Prolactin** | 🔵 | - | 🔵 14.90 | 🟡<sup>2</sup> 24.00 ↑ | 🔵 9.64 | 🟡<sup>2</sup> 22.70 ↑ | ng/mL | 4.04 - 15.20; target 5 - 15 |
 | **Cortisol** | ⚪ | - | 🔵 17.4 | 🔵 17.4 | 🔵 17.1 | - | ug/dl | 4.8 - 19.5; target 8 - 18 |
-| **TSH** | 🟢<sup>4</sup> | 🟡<sup>4,6</sup> 4.25 ↑ | 🟡<sup>4</sup> 4.57 ↑ | 🟢 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20; target 0.5 - 2.5 |
-| **Free T3 (FT3)** | ⚪ | 🔵<sup>4,6</sup> 5.66 | 🔵<sup>4</sup> 5.47 | 🔵 4.54 | 🔵 4.29 | 🔵 5.57 | pmol/L | 3.10 - 6.80; target 4.5 - 6.2 |
-| **Free T4 (FT4)** | ⚪<sup>4</sup> | 🟢<sup>4,6</sup> 19.70 | 🟢<sup>4</sup> 19.80 | 🔵 16.30 | 🟢 20.67 | 🔵 17.70 | pmol/L | 11.90 - 21.60; target 14 - 18 |
+| **TSH** | 🟢<sup>3</sup> | 🟡<sup>3</sup> 4.25 ↑ | 🟡<sup>3</sup> 4.57 ↑ | 🟢 3.17 | 🔵 1.68 | 🟢 3.54 | mIU/L | 0.27 - 4.20; target 0.5 - 2.5 |
+| **Free T3 (FT3)** | ⚪ | 🔵<sup>3</sup> 5.66 | 🔵<sup>3</sup> 5.47 | 🔵 4.54 | 🔵 4.29 | 🔵 5.57 | pmol/L | 3.10 - 6.80; target 4.5 - 6.2 |
+| **Free T4 (FT4)** | ⚪<sup>3</sup> | 🟢<sup>3</sup> 19.70 | 🟢<sup>3</sup> 19.80 | 🔵 16.30 | 🟢 20.67 | 🔵 17.70 | pmol/L | 11.90 - 21.60; target 14 - 18 |
 | **LH** | 🔵 | - | 🔵 7.39 | 🟡 10.20 ↑ | 🔵 4.46 | - | mIU/mL | 1.70 - 8.60; target 2 - 8 |
 | **FSH** | ⚪ | - | 🔵 2.1 | 🔵 3.0 | 🔵 1.6 | 🔵 3.0 | mIU/mL | 1.5 - 12.4; target 1.5 - 6 |
 | **SHBG** | 🟠 | - | 🟡 54.7 ↑ | 🔵 43.2 | 🔵 35.0 | 🔵 34.3 | nmol/L | 18.3 - 54.1; target 25 - 50 |
 | **DHEA-SO4** | ⚪ | - | 🟢 92.9 | 🟢 97.7 | 🟢 124.0 | 🟢 111.0 | ug/dl | 88.9 - 427; target 150 - 350 |
-| **Progesterone** | 💎 | - | 🟡<sup>5</sup> 0.842 ↑ | 🟠<sup>5</sup> 1.390 ↑ | 🟠<sup>5</sup> 1.370 ↑ | - | nmol/l | < 0.474; target < 0.474 |
+| **Progesterone** | 💎 | - | 🟡<sup>4</sup> 0.842 ↑ | 🟠<sup>4</sup> 1.390 ↑ | 🟠<sup>4</sup> 1.370 ↑ | - | nmol/l | < 0.474; target < 0.474 |
 | **17-OH Progesterone** | ⚪ | - | - | - | 🔵 1.59 | 🔵 2.31 | ng/ml | 0.37 - 2.87; target 0.7 - 2.5 |
 | **17-Hydroxypregnenolone** | - | - | 🔵 5.30 | - | - | - | ug/l | 0.90 - 11.70; target 0.90 - 11.70 |
 | **IGF-1** | 🟢 | - | 🔵 158 | 🔵 229 | 🔵 201 | - | ng/ml | 61 - 271; target 100 - 220 |
 | **HCG-Beta** | ⚪ | - | 🔵 < 0.200 | 🔵 < 0.200 | - | - | mIU/mL | < 2.60; target < 1 |
 
 **Notes:**
-<sup>1</sup> Total testosterone is scored with a high-normal male target: high-normal natural values are treated as favorable rather than automatically adverse.
-<sup>2</sup> Estradiol is genuinely above range and likely partly explained by high total testosterone plus previously unoptimal body fat after surgeries; the goal is to reduce body fat again. Repeat with a sensitive E2 method if possible and correlate with symptoms; do not suppress aggressively without symptoms.
-<sup>3</sup> Prior prolactin elevations were likely due to high sexual activity before testing.
-<sup>4</sup> September 16 repeat: TSH 4.25mIU/L (laboratory upper limit 4.20), FT3 5.66pmol/L and FT4 19.70pmol/L (both within the printed ranges). July testing carried preparation caveats about high-dose biotin, poor sleep, intensive training/cutting and possible high iodine intake. The September PDF does not document biotin washout or those preparation conditions. Anti-TPO, anti-TG and TRAb results are in Immunology & Inflammation; urinary iodine remains pending.
-<sup>5</sup> Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.
-<sup>6</sup> September laboratory entries are single specimens collected September 16, 2026 (ALAB), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.
+<sup>1</sup> Elevated estradiol may partly reflect high testosterone and body fat. Recheck with a sensitive E2 method and interpret with symptoms before considering suppression.
+<sup>2</sup> Prior prolactin elevations were likely due to high sexual activity before testing.
+<sup>3</sup> TSH remains slightly high at 4.25mIU/L, with FT3 and FT4 within range. July testing had biotin and preparation caveats; September washout is unknown.
+<sup>4</sup> Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.
 
 <a id='imaging'></a>
 
@@ -1004,7 +977,7 @@ Date verified from the 06.05.2024 overlay on the original JPEG.
 *   🟠 **Concern**: Significant deviation from target or range
 *   🔴 **Critical**: Severe or critical deviation
 
-[Reference sources and methods](results/Reference-Guide.md).
+[Reference sources and methods](results/Reference-Guide.md) · [September laboratory sources](results/Labs-2026-09-16/Sources.md).
 
 > **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.
 

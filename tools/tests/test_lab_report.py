@@ -149,11 +149,6 @@ class SeptemberLabReportTests(unittest.TestCase):
         self.assertEqual(self.row("Stool Analysis", "Pancreatic Elastase-1 (Stool)")[-2:], ("ug/g", "-"))
         self.assertIsNone(self.report["calculate_score"]("600.0", "-", "Stool Analysis", "Pancreatic Elastase-1 (Stool)"))
         self.assertEqual(self.observations("Stool Analysis", "Secretory sIgA (Stool)")["2026-09"], "pending")
-        for marker in ("Calprotectin (Stool)", "Pancreatic Elastase-1 (Stool)"):
-            numbers = self.report["note_numbers"]("Stool Analysis", marker, "value", "2026-09")
-            notes = [self.report["result_notes"]["Stool Analysis"][number - 1]["text"] for number in numbers]
-            self.assertTrue(any("portal screenshots" in note for note in notes))
-            self.assertFalse(any("single specimens collected September 16" in note for note in notes))
 
     def test_all_followups_appear_in_september_in_both_generated_reports(self):
         values = [value for observations in self.report["lab_followups"]["2026-09"].values()

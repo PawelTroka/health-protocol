@@ -1634,7 +1634,7 @@ result_notes = {
     ],
     "Urinalysis (General)": [
         {
-            "text": "Specific gravity trend likely reflects high hydration plus extremely low salt intake for the looksmaxxing goal of reducing facial puffiness; interpret alongside the clean urinalysis and kidney markers rather than as a standalone concern.",
+            "text": "Low specific gravity may reflect high hydration; interpret alongside the otherwise clean urinalysis and kidney markers.",
             "markers": [
                 {"row": "Specific Gravity", "target": "trend"},
             ],
@@ -1642,7 +1642,7 @@ result_notes = {
     ],
     "Morphology": [
         {
-            "text": "The earlier eosinophil pattern remains under investigation. September 16 eosinophils are 1.1 x 10^9/L and 15.5%, compared with 0.5 x 10^9/L and 7.7% in July; both September results are flagged high by the laboratory. The result alone does not establish the cause.",
+            "text": "Eosinophils rose from 0.5 to 1.1 x 10^9/L and from 7.7% to 15.5% since July. Both September results are high; the cause remains under investigation.",
             "markers": [
                 {"rows": ["Eosinophils", "Eosinophils %"], "target": "value", "dates": ["2026-09", "2026-07", "2026-01", "2025-05", "2025-01"]},
                 {"rows": ["Eosinophils %"], "target": "trend"},
@@ -1651,7 +1651,7 @@ result_notes = {
     ],
     "Urine Chemistry": [
         {
-            "text": "Spot urine electrolytes are heavily affected by hydration, recent intake, timing, and supplementation. Low urine sodium/potassium/phosphate/chloride and high urine magnesium likely reflect high hydration, extremely low salt intake for looksmaxxing, and magnesium supplementation; interpret cautiously unless repeated or measured by 24h urine, especially since serum sodium, potassium, magnesium, creatinine/eGFR, urine albumin, and urine protein look good.",
+            "text": "Spot urine electrolytes vary with hydration, intake and supplements. Interpret the low electrolytes and high magnesium alongside the reassuring serum electrolytes and kidney markers.",
             "markers": [
                 {"rows": ["Urine Potassium", "Urine Sodium", "Urine Magnesium", "Urine Phosphate", "Urine Chloride"], "target": "value", "dates": ["2026-07"]},
             ],
@@ -1659,13 +1659,13 @@ result_notes = {
     ],
     "Urine Culture": [
         {
-            "text": "Streptococcus agalactiae grew at 2 x 10^4 CFU/mL, but with no burning, urgency, frequency, pelvic/perineal pain, fever, testicular pain, or other urinary/systemic symptoms, and with a clean urinalysis, this is more consistent with possible contamination/colonization vs low-count asymptomatic bacteriuria; repeat a clean-catch culture if clarification is needed.",
+            "text": "Low-count Streptococcus agalactiae growth without symptoms and with a clean urinalysis may reflect contamination or colonization. Repeat a clean-catch culture if clarification is needed.",
             "markers": [
                 {"rows": ["Urine Culture", "Colony Count", "Streptococcus agalactiae"], "target": "value", "dates": ["2026-07"]},
             ],
         },
         {
-            "text": "Susceptibility follows the PDF's EUCAST 16.0 interpretation: levofloxacin is susceptible only with increased exposure, and the nitrofurantoin result applies to uncomplicated UTI and not to other nitrofuran drugs.",
+            "text": "Levofloxacin susceptibility requires increased exposure. Nitrofurantoin susceptibility applies only to uncomplicated UTI and does not extend to other nitrofurans.",
             "markers": [
                 {"rows": ["Levofloxacin", "Nitrofurantoin"], "target": "value", "dates": ["2026-07"]},
             ],
@@ -1682,13 +1682,13 @@ result_notes = {
     ],
     "Cardiac Health & Coagulation": [
         {
-            "text": "HDL is mildly low, but the overall cardiovascular profile is strong: LDL 68, non-HDL 81, ApoB 0.60, triglycerides 57, Lp(a) 7.16, hs-CRP 0.611, NT-proBNP 14.6, plus favorable BP/VO2max context. Do not chase HDL directly; prioritize ApoB/non-HDL/LDL, BP, VO2max, inflammation, and insulin sensitivity.",
+            "text": "Mildly low HDL sits alongside favorable ApoB, LDL, triglycerides and inflammation markers. Focus on overall cardiovascular risk rather than raising HDL alone.",
             "markers": [
                 {"row": "Cholesterol HDL", "target": "value", "dates": ["2026-07"]},
             ],
         },
         {
-            "text": "July CK was 222U/L during a new intensive training block. The September 16 repeat is 118U/L, within the laboratory's 20-200U/L range.",
+            "text": "CK fell from 222 to 118U/L, back within range after July's intensive training block.",
             "markers": [
                 {"row": "Creatine Kinase (CK)", "target": "trend"},
                 {"row": "Creatine Kinase (CK)", "target": "value", "dates": ["2026-09", "2026-07"]},
@@ -1715,9 +1715,17 @@ result_notes = {
     ],
     "Stool Analysis": [
         {
-            "text": "July stool findings include calprotectin 291.70ug/g, sIgA 5023.4ug/ml and the recorded food-residue/mucus findings. The September 17 portal update reports calprotectin &lt;5.0ug/g; repeat sIgA remains pending. September 16 PCR detected enteropathogenic E. coli (EPEC), shown in its own panel below; the earlier negative culture, antigen and microscopy results are different tests and remain in their original rows. These results do not establish a single cause for the gastrointestinal findings.",
+            "text": "Calprotectin fell from 291.70 to &lt;5.0ug/g, now within the lab's normal range. July sIgA was 5023.4ug/ml; its repeat is pending.",
             "markers": [
-                {"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Leukocytes on Mucus", "Parasites (Stool Ova)", "Amoeba (Cysts/Trophozoites)", "Helicobacter pylori Antigen", "Giardia lamblia Antigen", "Calprotectin (Stool)", "Stool Sugar", "Secretory sIgA (Stool)"], "target": "value", "dates": ["2026-07"]},
+                {"rows": ["Calprotectin (Stool)", "Secretory sIgA (Stool)"], "target": "value", "dates": ["2026-09", "2026-07"]},
+            ],
+        },
+    ],
+    "Stool Pathogen PCR": [
+        {
+            "text": "EPEC was detected by PCR; the earlier negative stool culture tested different organisms.",
+            "markers": [
+                {"row": "Enteropathogenic E. coli (EPEC)", "target": "value", "dates": ["2026-09"]},
             ],
         },
     ],
@@ -1731,14 +1739,7 @@ result_notes = {
     ],
     "Hormonal Panel": [
         {
-            "text": "Total testosterone is scored with a high-normal male target: high-normal natural values are treated as favorable rather than automatically adverse.",
-            "markers": [
-                {"row": "Testosterone (Total)", "target": "trend"},
-                {"row": "Testosterone (Total)", "target": "value", "dates": ["2026-07"]},
-            ],
-        },
-        {
-            "text": "Estradiol is genuinely above range and likely partly explained by high total testosterone plus previously unoptimal body fat after surgeries; the goal is to reduce body fat again. Repeat with a sensitive E2 method if possible and correlate with symptoms; do not suppress aggressively without symptoms.",
+            "text": "Elevated estradiol may partly reflect high testosterone and body fat. Recheck with a sensitive E2 method and interpret with symptoms before considering suppression.",
             "markers": [
                 {"row": "Estradiol (E2)", "target": "trend"},
                 {"row": "Estradiol (E2)", "target": "value", "dates": ["2026-07", "2025-05", "2025-01"]},
@@ -1751,7 +1752,7 @@ result_notes = {
             ],
         },
         {
-            "text": "September 16 repeat: TSH 4.25mIU/L (laboratory upper limit 4.20), FT3 5.66pmol/L and FT4 19.70pmol/L (both within the printed ranges). July testing carried preparation caveats about high-dose biotin, poor sleep, intensive training/cutting and possible high iodine intake. The September PDF does not document biotin washout or those preparation conditions. Anti-TPO, anti-TG and TRAb results are in Immunology & Inflammation; urinary iodine remains pending.",
+            "text": "TSH remains slightly high at 4.25mIU/L, with FT3 and FT4 within range. July testing had biotin and preparation caveats; September washout is unknown.",
             "markers": [
                 {"rows": ["TSH", "Free T4 (FT4)"], "target": "trend"},
                 {"rows": ["TSH", "Free T3 (FT3)", "Free T4 (FT4)"], "target": "value", "dates": ["2026-09", "2026-07"]},
@@ -1773,45 +1774,6 @@ for month, categories in lab_followups.items():
         unknown = set(observations) - {row[0] for row in data[category]}
         if unknown:
             raise ValueError(f"Unmapped laboratory results in {category}: {sorted(unknown)}")
-        laboratory = "Diagnostyka stool PCR" if category == "Stool Pathogen PCR" else "ALAB"
-        source_prefix = "September PDF" if category == "Stool Analysis" else "September"
-        result_notes.setdefault(category, []).append({
-            "text": f"{source_prefix} laboratory entries are single specimens collected September 16, 2026 ({laboratory}), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.",
-            "markers": [{"rows": [name for name in observations if not (
-                category == "Stool Analysis" and name in {"Calprotectin (Stool)", "Pancreatic Elastase-1 (Stool)"}
-            )], "target": "value", "dates": [month]}],
-        })
-
-for category, tests in lab_pending_tests.items():
-    result_notes.setdefault(category, []).append({
-        "text": "Still awaiting supplied results after the September 17 portal update: " + "; ".join(tests) + ". See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>original pending-test list, completed updates and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.",
-        "markers": [{"rows": [name for name, value in lab_followups["2026-09"].get(category, {}).items() if is_pending(value)], "target": "value", "dates": ["2026-09"]}],
-    })
-
-result_notes["Morphology"].append({
-    "text": "September ALAB reference intervals differ from the established comparison column for WBC (4.0-10.0 x 10^9/L), RBC (4.6-6.5 x 10^12/L) and hemoglobin (13.5-18.0g/dL). WBC/platelet counts in 10^9/L and RBC counts in 10^12/L are numerically equivalent to the table's 10^3/ul and 10^6/ul. Neutrophils are printed as 1.9 x 10^9/L with a laboratory low flag despite a printed lower limit of 1.9; the rounded value is retained exactly and the source flag is preserved here. September eosinophils use a laboratory interval of 0.05-0.50 x 10^9/L.",
-    "markers": [{"rows": ["Hemoglobin", "Erythrocytes", "Leukocytes", "Platelets", "Neutrophils", "Eosinophils"], "target": "value", "dates": ["2026-09"]}],
-})
-result_notes["Urinalysis (General)"].append({
-    "text": "September urinalysis is qualitative except for pH and specific gravity; the PDF prints no urine-result units. Existing row units are retained for historical comparison and do not imply quantitative September protein, glucose or cell counts. The laboratory states microscopic verification was not required; no September sediment results are inferred.",
-    "markers": [{"rows": list(lab_followups["2026-09"]["Urinalysis (General)"]), "target": "value", "dates": ["2026-09"]}],
-})
-result_notes["Immunology & Inflammation"].append({
-    "text": "September CRP 0.7mg/L is the conventional immunoturbidimetric assay, kept separate from historical hs-CRP. TRAb is <0.14IU/L by DiaSorin LIAISON XL, with the laboratory's negative cutoff <0.550IU/L. Serum IgA is distinct from stool secretory sIgA. Inequalities are retained as reported, not replaced with exact concentrations.",
-    "markers": [{"rows": ["CRP (Conventional)", "IgA (Serum)", "Rheumatoid Factor (RF)", "Anti-CCP", "Anti-TPO", "TSH Receptor Antibodies (TRAb)"], "target": "value", "dates": ["2026-09"]}],
-})
-result_notes["Stool Analysis"].append({
-    "text": "September microscopy reports fairly numerous starch grains, absent fat droplets, single fatty-acid crystals, muscle fibers and mucus, plus a comment that yeast cells are present. No leukocyte-on-mucus result is supplied for September. Stool pH 8.0 is above the printed 6.5-7.5 interval even though the PDF adds no arrow. Occult blood is negative by a human-hemoglobin-specific immunochromatographic test; the report notes that concentrations below detection are not excluded.",
-    "markers": [{"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Yeast Cells", "Occult Blood (Human Hemoglobin)"], "target": "value", "dates": ["2026-09"]}],
-})
-result_notes["Stool Analysis"].append({
-    "text": "Newly completed in the <a href='results/Labs-2026-09-16/Sources.md#portal-update-2026-09-17'>September 17 portal screenshots</a>: calprotectin &lt;5.0ug/g and pancreatic elastase 600.0ug/g. The inequality is retained; calprotectin is not recorded as exactly 5.0 or zero. The portal lists calprotectin &lt;50ug/g as normal, 50-120ug/g as borderline and &gt;120ug/g as elevated. No elastase reference interval or analytical method is visible, so its row is unscored. September 17 is the displayed portal date, not a confirmed collection date; duplicate values are not counted as repeat specimens.",
-    "markers": [{"rows": ["Calprotectin (Stool)", "Pancreatic Elastase-1 (Stool)"], "target": "value", "dates": ["2026-09"]}],
-})
-result_notes["Stool Pathogen PCR"].append({
-    "text": "The panel title says 22 pathogens, but the PDF displays 21 result lines, including grouped targets. All 21 are transcribed: EPEC detected; the other 20 not detected. No extra result is inferred. PCR detections are shown without a severity score; the PDF supplies no reference intervals. This panel remains separate from stool cultures, antigen assays and microscopy. The filename is dated September 17, but the printed collection, analysis and issue dates are September 16; the collection header says 07:00 and the specimen note says 06:30, with both retained in the source record.",
-    "markers": [{"rows": list(lab_followups["2026-09"]["Stool Pathogen PCR"]), "target": "value", "dates": ["2026-09"]}],
-})
 
 result_notes["Vitals & Functional Health"].append({
     "text": "Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.",
@@ -2182,7 +2144,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += "<li><span style='color:#8b0000; font-weight:bold;'>● Dark Red</span>: Critical</li>"
     html += "</ul>"
     html += "<p class='note'>Single-result colors use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.</p>"
-    html += "<p class='note'><a href='results/Reference-Guide.md'>Reference sources and methods</a>.</p>"
+    html += "<p class='note'><a href='results/Reference-Guide.md'>Reference sources and methods</a> · <a href='results/Labs-2026-09-16/Sources.md'>September laboratory sources</a>.</p>"
 
     html += "<h3>Trend Legend</h3><ul>"
     for label, definition in trend_definitions.items():
@@ -2224,7 +2186,7 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     md += "*   🟡 **Watch**: Mild meaningful deviation from target or range\n"
     md += "*   🟠 **Concern**: Significant deviation from target or range\n"
     md += "*   🔴 **Critical**: Severe or critical deviation\n\n"
-    md += "[Reference sources and methods](results/Reference-Guide.md).\n\n"
+    md += "[Reference sources and methods](results/Reference-Guide.md) · [September laboratory sources](results/Labs-2026-09-16/Sources.md).\n\n"
     md += "> **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.\n\n"
     md += "### Trend Legend\n"
     for label, definition in trend_definitions.items():
