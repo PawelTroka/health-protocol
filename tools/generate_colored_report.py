@@ -518,12 +518,16 @@ def is_inconclusive(value):
     return isinstance(value, str) and value.strip().casefold().startswith("inconclusive")
 
 
+def is_pending(value):
+    return isinstance(value, str) and value.strip().casefold() == "pending"
+
+
 def calculate_score(val_str, ref_range, category=None, marker=None):
     if category == MICROBIOTA_CATEGORY:
         return None
     if val_str in ["-", "—", None, ""]:
         return None
-    if is_inconclusive(val_str):
+    if is_inconclusive(val_str) or is_pending(val_str):
         return None
     if (category, marker) in no_score_markers:
         return None
@@ -733,7 +737,7 @@ slight_directional_improvement_percent_delta = 0.075
 def trend_score(value, ref, category, marker=None):
     if category == MICROBIOTA_CATEGORY:
         return None
-    if is_inconclusive(value):
+    if is_inconclusive(value) or is_pending(value):
         return None
     if value in missing_values or ref in missing_values or ref == "-":
         return None
@@ -822,7 +826,7 @@ def classify_trend(values, ref, category, marker=None):
     comparable = []
     for value in values:
         # An uninterpretable reading must not display a trend from older results.
-        if is_inconclusive(value):
+        if is_inconclusive(value) or is_pending(value):
             return None
         score = trend_score(value, ref, category, marker)
         if score is not None:
@@ -1273,11 +1277,18 @@ data = {
     ],
     "Immunology & Inflammation": [
         ("CRP (hs)", "0.611", "0.448", "< 0.15", "not detected", "mg/l", "< 5.0"),
+        ("CRP (Conventional)", "-", "-", "-", "-", "mg/L", "< 5.0"),
         ("IL-6", "<1.5", "< 1.5", "1.6", "-", "pg/ml", "< 7.0"),
         ("Calprotectin (Circulating)", "1.33", "0.43", "0.41", "-", "ug/mL", "< 2.0"),
         ("Anti-TPO", "<9", "12.30", "-", "-", "IU/ml", "< 34.0"),
         ("Anti-TG", "16.80", "13.10", "-", "-", "IU/ml", "< 115.0"),
-        ("ASO", "-", "209", "-", "-", "IU/mL", "< 200")
+        ("ASO", "-", "209", "-", "-", "IU/mL", "< 200"),
+        ("IgA (Serum)", "-", "-", "-", "-", "g/L", "0.7 - 4.0"),
+        ("Rheumatoid Factor (RF)", "-", "-", "-", "-", "IU/mL", "< 14"),
+        ("Anti-CCP", "-", "-", "-", "-", "U/mL", "< 17.00"),
+        ("TSH Receptor Antibodies (TRAb)", "-", "-", "-", "-", "IU/L", "< 0.550: negative; >= 0.550: positive"),
+        ("Complement C3", "-", "-", "-", "-", "mg/dL", "90 - 180"),
+        ("Complement C4", "-", "-", "-", "-", "mg/dL", "10.0 - 40.0")
     ],
     "Tumor Markers": [
         ("PSA Total", "0.15", "0.16", "0.195", "-", "ng/mL", "< 4.0"),
@@ -1324,6 +1335,8 @@ data = {
         ("Muscle Fibers", "single in preparation", "-", "-", "-", "", "absent"),
         ("Mucus", "few in preparation", "-", "-", "-", "", "absent"),
         ("Leukocytes on Mucus", "present", "-", "-", "-", "", "absent"),
+        ("Yeast Cells", "-", "-", "-", "-", "Status", "-"),
+        ("Occult Blood (Human Hemoglobin)", "-", "-", "-", "-", "Status", "negative"),
         ("Parasites (Stool Ova)", "negative", "-", "-", "-", "Status", "negative"),
         ("Amoeba (Cysts/Trophozoites)", "not detected", "-", "-", "-", "Status", "not detected"),
         ("Helicobacter pylori Antigen", "0.12 (not detected)", "-", "-", "-", "Index", "< 0.9"),
@@ -1348,6 +1361,7 @@ data = {
         ("Aeromonas species", "negative", "-", "-", "-", "Status", "negative"),
         ("Plesiomonas species", "negative", "-", "-", "-", "Status", "negative")
     ],
+    "Stool Pathogen PCR": [],
     "Proteinogram": [
         ("Albumin", "-", "62.3", "-", "-", "%", "55.8 - 66.1"),
         ("Alpha-1 Globulin", "-", "2.9", "-", "-", "%", "2.9 - 4.9"),
@@ -1376,6 +1390,93 @@ data = {
         ("IGF-1", "158", "229", "201", "-", "ng/ml", "61 - 271"),
         ("HCG-Beta", "< 0.200", "< 0.200", "-", "-", "mIU/mL", "< 2.60")
     ]
+}
+
+# Dated laboratory specimens, not monthly averages. Full transcription, original
+# units/ranges/flags, methods and pending assays: results/Labs-2026-09-16/Sources.md.
+# Both PDFs concern September 16 specimens, including the file named September 17.
+lab_followups = {
+    "2026-09": {
+        "Morphology": {
+            "Hemoglobin": "15.30", "Hematocrit": "45.7", "Erythrocytes": "5.3",
+            "MCV": "86.6", "MCH": "29.0", "MCHC": "33.5", "RDW-CV": "13.2",
+            "RDW-SD": "41.9", "Leukocytes": "7.0", "Neutrophils": "1.9",
+            "Neutrophils %": "26.40", "Lymphocytes": "3.4", "Lymphocytes %": "47.9",
+            "Monocytes": "0.7", "Monocytes %": "9.5", "Eosinophils": "1.1",
+            "Eosinophils %": "15.5", "Basophils": "0.0", "Basophils %": "0.6",
+            "Immature Granulocytes": "0.0", "Immature Granulocytes %": "0.1",
+            "Platelets": "255.0", "PCT": "0.27", "PDW": "13.5", "MPV": "10.7",
+            "P-LCR": "30.8",
+        },
+        "Urinalysis (General)": {
+            "Color": "light yellow", "Transparency": "clear", "Specific Gravity": "1.008",
+            "pH": "6.5", "Protein": "not detected", "Glucose": "not detected",
+            "Bilirubin": "not detected", "Urobilinogen": "normal", "Ketones": "not detected",
+            "Nitrites": "not detected", "Leukocytes (Strip)": "not detected",
+            "Erythrocytes (Strip)": "not detected",
+        },
+        "Urine Culture": {"Urine Culture": "pending"},
+        "Metabolic Health": {"Uric Acid": "3.0", "LDH": "130"},
+        "Cardiac Health & Coagulation": {"Creatine Kinase (CK)": "118"},
+        "Micronutrients": {"Selenium": "pending"},
+        "Immunology & Inflammation": {
+            "CRP (Conventional)": "0.7", "IgA (Serum)": "3.0", "ASO": "390",
+            "Rheumatoid Factor (RF)": "< 10", "Anti-CCP": "<8", "Anti-TG": "18.90",
+            "Anti-TPO": "<9", "TSH Receptor Antibodies (TRAb)": "< 0.14",
+            "Complement C3": "89", "Complement C4": "14.2",
+        },
+        "Stool Analysis": {
+            "Stool pH": "8.0", "Reducing Substances": "0.00",
+            "Starch Grains": "fairly numerous in preparation",
+            "Fat Droplets": "absent in preparation", "Fatty Acid Crystals": "single in preparation",
+            "Muscle Fibers": "single in preparation", "Mucus": "single in preparation",
+            "Yeast Cells": "present", "Occult Blood (Human Hemoglobin)": "negative",
+            "Calprotectin (Stool)": "pending", "Secretory sIgA (Stool)": "pending",
+        },
+        "Stool Pathogen PCR": {
+            "Adenovirus F 40/41": "not detected",
+            "Astrovirus": "not detected",
+            "Norovirus GI/GII": "not detected",
+            "Rotavirus A": "not detected",
+            "Sapovirus (I, II, IV, V)": "not detected",
+            "Campylobacter (jejuni, coli, upsaliensis)": "not detected",
+            "Clostridioides difficile (Toxin A/B)": "not detected",
+            "Plesiomonas shigelloides": "not detected",
+            "Salmonella": "not detected",
+            "Vibrio (parahaemolyticus, vulnificus, cholerae)": "not detected",
+            "Vibrio cholerae": "not detected",
+            "Yersinia enterocolitica": "not detected",
+            "Enteroaggregative E. coli (EAEC)": "not detected",
+            "Enteropathogenic E. coli (EPEC)": "detected",
+            "Enterotoxigenic E. coli (ETEC) lt/st": "not detected",
+            "Shiga-like Toxin-producing E. coli (STEC) stx1/stx2": "not detected",
+            "Shigella/Enteroinvasive E. coli (EIEC)": "not detected",
+            "Cryptosporidium": "not detected",
+            "Cyclospora cayetanensis": "not detected",
+            "Entamoeba histolytica": "not detected",
+            "Giardia lamblia": "not detected",
+        },
+        # The whole panel is pending; no fraction has a September measurement yet.
+        "Proteinogram": {row[0]: "pending" for row in data["Proteinogram"]},
+        "Hormonal Panel": {"TSH": "4.25", "Free T3 (FT3)": "5.66", "Free T4 (FT4)": "19.70"},
+    },
+}
+for name in lab_followups["2026-09"]["Stool Pathogen PCR"]:
+    data["Stool Pathogen PCR"].append(
+        (name, *("-" for _ in historical_date_columns), "Status", "-")
+    )
+    no_score_markers.add(("Stool Pathogen PCR", name))
+no_score_markers.add(("Stool Analysis", "Yeast Cells"))
+
+# These are the 14 tests explicitly pending in the September 16 ALAB PDF.
+# Assays without a completed result do not acquire guessed units or references.
+lab_pending_tests = {
+    "Immunology & Inflammation": ["DGP IgG", "ANA (IIFT + titre)", "ANA/ENA immunoblot", "tTG IgA"],
+    "Stool Analysis": ["Pancreatic elastase-1", "Histamine", "Secretory sIgA", "Calprotectin", "Butyric acid", "Zonulin"],
+    "Urine Chemistry": ["Iodine in 24-hour urine"],
+    "Urine Culture": ["Urine culture"],
+    "Proteinogram": ["Serum protein electrophoresis (whole panel)"],
+    "Micronutrients": ["Selenium"],
 }
 
 # Oura calendar means and dated Withings/app observations, reviewed 2026-09-06.
@@ -1536,9 +1637,9 @@ result_notes = {
     ],
     "Morphology": [
         {
-            "text": "Mild persistent eosinophil pattern may reflect an unidentified allergy or allergic/eosinophilic-type gut irritation; still under investigation.",
+            "text": "The earlier eosinophil pattern remains under investigation. September 16 eosinophils are 1.1 x 10^9/L and 15.5%, compared with 0.5 x 10^9/L and 7.7% in July; both September results are flagged high by the laboratory. The result alone does not establish the cause.",
             "markers": [
-                {"rows": ["Eosinophils", "Eosinophils %"], "target": "value", "dates": ["2026-07", "2026-01", "2025-05", "2025-01"]},
+                {"rows": ["Eosinophils", "Eosinophils %"], "target": "value", "dates": ["2026-09", "2026-07", "2026-01", "2025-05", "2025-01"]},
                 {"rows": ["Eosinophils %"], "target": "trend"},
             ],
         },
@@ -1582,10 +1683,10 @@ result_notes = {
             ],
         },
         {
-            "text": "CK is elevated in the context of a new intensive training block with high volume, progressive overload, running, and other workouts.",
+            "text": "July CK was 222U/L during a new intensive training block. The September 16 repeat is 118U/L, within the laboratory's 20-200U/L range.",
             "markers": [
                 {"row": "Creatine Kinase (CK)", "target": "trend"},
-                {"row": "Creatine Kinase (CK)", "target": "value", "dates": ["2026-07"]},
+                {"row": "Creatine Kinase (CK)", "target": "value", "dates": ["2026-09", "2026-07"]},
             ],
         },
     ],
@@ -1609,7 +1710,7 @@ result_notes = {
     ],
     "Stool Analysis": [
         {
-            "text": "Abnormal stool pH, mucus/food-residue findings, leukocytes on mucus, elevated fecal calprotectin, high stool sIgA, and elevated stool sugar are most likely related to the current IBS-U/gut-irritation context. With H. pylori, Giardia, amoeba, parasite ova, and bacterial stool culture negative, a classic parasite/infectious explanation is less likely; remaining considerations include dysbiosis, FODMAP or other food intolerance, bile-acid issue, mild gut inflammation, or allergic/eosinophilic-type gut irritation. Systemic CRP is excellent, but gut-specific follow-up remains valid.",
+            "text": "July stool findings include calprotectin 291.70ug/g, sIgA 5023.4ug/ml and the recorded food-residue/mucus findings. September repeat calprotectin and sIgA are pending. September 16 PCR detected enteropathogenic E. coli (EPEC), shown in its own panel below; the earlier negative culture, antigen and microscopy results are different tests and remain in their original rows. These results do not establish a single cause for the gastrointestinal findings.",
             "markers": [
                 {"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Leukocytes on Mucus", "Parasites (Stool Ova)", "Amoeba (Cysts/Trophozoites)", "Helicobacter pylori Antigen", "Giardia lamblia Antigen", "Calprotectin (Stool)", "Stool Sugar", "Secretory sIgA (Stool)"], "target": "value", "dates": ["2026-07"]},
             ],
@@ -1645,10 +1746,10 @@ result_notes = {
             ],
         },
         {
-            "text": "TSH and thyroid hormone results may be unreliable because of recent high-dose biotin, very poor sleep before testing, high training regime plus cutting, and possibly excessive iodine. Thyroid antibodies are negative, so current Hashimoto concern is lower; repeat TSH, FT3, and FT4 after 7 days off biotin to verify cleanly.",
+            "text": "September 16 repeat: TSH 4.25mIU/L (laboratory upper limit 4.20), FT3 5.66pmol/L and FT4 19.70pmol/L (both within the printed ranges). July testing carried preparation caveats about high-dose biotin, poor sleep, intensive training/cutting and possible high iodine intake. The September PDF does not document biotin washout or those preparation conditions. Anti-TPO, anti-TG and TRAb results are in Immunology & Inflammation; urinary iodine remains pending.",
             "markers": [
                 {"rows": ["TSH", "Free T4 (FT4)"], "target": "trend"},
-                {"rows": ["TSH", "Free T3 (FT3)", "Free T4 (FT4)"], "target": "value", "dates": ["2026-07"]},
+                {"rows": ["TSH", "Free T3 (FT3)", "Free T4 (FT4)"], "target": "value", "dates": ["2026-09", "2026-07"]},
             ],
         },
         {
@@ -1659,6 +1760,46 @@ result_notes = {
         },
     ],
 }
+
+for month, categories in lab_followups.items():
+    if month not in date_columns:
+        raise ValueError(f"Laboratory month missing from report columns: {month}")
+    for category, observations in categories.items():
+        unknown = set(observations) - {row[0] for row in data[category]}
+        if unknown:
+            raise ValueError(f"Unmapped laboratory results in {category}: {sorted(unknown)}")
+        laboratory = "Diagnostyka stool PCR" if category == "Stool Pathogen PCR" else "ALAB"
+        result_notes.setdefault(category, []).append({
+            "text": f"September laboratory entries are single specimens collected September 16, 2026 ({laboratory}), not monthly averages. See the <a href='results/Labs-2026-09-16/Sources.md'>source PDFs, exact collection/report times, laboratory units, reference ranges and flags</a>. Pending means explicitly awaiting a result in the supplied report; a dash means no result supplied for that month.",
+            "markers": [{"rows": list(observations), "target": "value", "dates": [month]}],
+        })
+
+for category, tests in lab_pending_tests.items():
+    result_notes.setdefault(category, []).append({
+        "text": "Pending in the September 16 ALAB report: " + "; ".join(tests) + ". See the <a href='results/Labs-2026-09-16/Sources.md#pending-alab-tests'>complete pending-test list and laboratory turnaround estimates</a>. No result, unit or reference range is inferred for an unreported assay.",
+        "markers": [{"rows": [name for name, value in lab_followups["2026-09"].get(category, {}).items() if is_pending(value)], "target": "value", "dates": ["2026-09"]}],
+    })
+
+result_notes["Morphology"].append({
+    "text": "September ALAB reference intervals differ from the established comparison column for WBC (4.0-10.0 x 10^9/L), RBC (4.6-6.5 x 10^12/L) and hemoglobin (13.5-18.0g/dL). WBC/platelet counts in 10^9/L and RBC counts in 10^12/L are numerically equivalent to the table's 10^3/ul and 10^6/ul. Neutrophils are printed as 1.9 x 10^9/L with a laboratory low flag despite a printed lower limit of 1.9; the rounded value is retained exactly and the source flag is preserved here. September eosinophils use a laboratory interval of 0.05-0.50 x 10^9/L.",
+    "markers": [{"rows": ["Hemoglobin", "Erythrocytes", "Leukocytes", "Platelets", "Neutrophils", "Eosinophils"], "target": "value", "dates": ["2026-09"]}],
+})
+result_notes["Urinalysis (General)"].append({
+    "text": "September urinalysis is qualitative except for pH and specific gravity; the PDF prints no urine-result units. Existing row units are retained for historical comparison and do not imply quantitative September protein, glucose or cell counts. The laboratory states microscopic verification was not required; no September sediment results are inferred.",
+    "markers": [{"rows": list(lab_followups["2026-09"]["Urinalysis (General)"]), "target": "value", "dates": ["2026-09"]}],
+})
+result_notes["Immunology & Inflammation"].append({
+    "text": "September CRP 0.7mg/L is the conventional immunoturbidimetric assay, kept separate from historical hs-CRP. TRAb is <0.14IU/L by DiaSorin LIAISON XL, with the laboratory's negative cutoff <0.550IU/L. Serum IgA is distinct from stool secretory sIgA. Inequalities are retained as reported, not replaced with exact concentrations.",
+    "markers": [{"rows": ["CRP (Conventional)", "IgA (Serum)", "Rheumatoid Factor (RF)", "Anti-CCP", "Anti-TPO", "TSH Receptor Antibodies (TRAb)"], "target": "value", "dates": ["2026-09"]}],
+})
+result_notes["Stool Analysis"].append({
+    "text": "September microscopy reports fairly numerous starch grains, absent fat droplets, single fatty-acid crystals, muscle fibers and mucus, plus a comment that yeast cells are present. No leukocyte-on-mucus result is supplied for September. Stool pH 8.0 is above the printed 6.5-7.5 interval even though the PDF adds no arrow. Occult blood is negative by a human-hemoglobin-specific immunochromatographic test; the report notes that concentrations below detection are not excluded.",
+    "markers": [{"rows": ["Stool pH", "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus", "Yeast Cells", "Occult Blood (Human Hemoglobin)"], "target": "value", "dates": ["2026-09"]}],
+})
+result_notes["Stool Pathogen PCR"].append({
+    "text": "The panel title says 22 pathogens, but the PDF displays 21 result lines, including grouped targets. All 21 are transcribed: EPEC detected; the other 20 not detected. No extra result is inferred. PCR detections are shown without a severity score; the PDF supplies no reference intervals. This panel remains separate from stool cultures, antigen assays and microscopy. The filename is dated September 17, but the printed collection, analysis and issue dates are September 16; the collection header says 07:00 and the specimen note says 06:30, with both retained in the source record.",
+    "markers": [{"rows": list(lab_followups["2026-09"]["Stool Pathogen PCR"]), "target": "value", "dates": ["2026-09"]}],
+})
 
 result_notes["Vitals & Functional Health"].append({
     "text": "Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.",
@@ -1696,7 +1837,14 @@ for category, rows in data.items():
             for row in rows
         ]
     else:
-        data[category] = [(row[0], *("-" for _ in followup_date_columns), *row[1:]) for row in rows]
+        data[category] = [
+            (row[0], *(
+                lab_followups.get(month, {}).get(category, {}).get(
+                    row[0], dict(zip(historical_date_columns, row[1:-2])).get(month, "-")
+                ) for month in date_columns
+            ), *row[-2:])
+            for row in rows
+        ]
 
 
 def classification_text(value, *, markdown=False):

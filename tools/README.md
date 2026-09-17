@@ -8,6 +8,12 @@ Run the commands below from the repository root.
 - `tools/generate_pillbox_guide.py`: generate the physical pillbox guide.
 - `tools/tests/`: synthetic importer and sync tests.
 
+## Dated laboratory results
+
+`tools/generate_colored_report.py` keeps the original laboratory history in `data` and adds later specimen results through `lab_followups`. Use the specimen collection month, preserve exact dates and source-specific units/ranges in a linked source record, and add new assays to their own rows when the method or specimen differs. The [September 16, 2026 source record](../results/Labs-2026-09-16/Sources.md) covers the ALAB panel and the separate Diagnostyka stool PCR panel.
+
+Explicitly awaited results use `pending`, which blocks an older trend; `-` means no supplied result. `lab_pending_tests` lists outstanding assays without inventing units or ranges. When later PDFs arrive, replace the corresponding pending entries and update the pending notes together. Regenerate both outputs from the repository root with `python -B tools/generate_colored_report.py`; this does not fetch new device data.
+
 ## On-demand vitals sync
 
 Run this in the health-protocol folder after connecting both accounts:

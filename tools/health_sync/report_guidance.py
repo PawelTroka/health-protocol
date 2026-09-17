@@ -82,8 +82,10 @@ def guide_status(category, marker, value):
     """Explicit provider bands only; no fallback assumption that data are normal."""
     if category == "Stool Analysis" and marker in {
         "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus",
-    } and value in {"single in preparation", "few in preparation"}:
+    } and value in {"single in preparation", "few in preparation", "fairly numerous in preparation"}:
         return (YELLOW[0], YELLOW[1], "Reported against an absent reference; quantity not graded")
+    if category == "Stool Analysis" and marker == "Fat Droplets" and value == "absent in preparation":
+        return (BLUE[0], BLUE[1], "Absent, as in the laboratory reference")
     if category != VITALS:
         return None
     text = str(value).strip().casefold()
