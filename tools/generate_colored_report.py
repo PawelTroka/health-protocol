@@ -1164,7 +1164,7 @@ data = {
         ("Cardiovascular Age Difference (Oura)", "-", "-", "-", "-", "years", "-"),
         ("Respiratory Rate (Sleep)", "12.4", "-", "-", "-", "/min", "12 - 20"),
         ("Body Mass", "83", "-", "-", "-", "kg", "-"),
-        ("Height", "180", "-", "-", "-", "cm", "-"),
+        ("Height", "-", "-", "-", "-", "cm", "-"),
         ("BMI", "25.6", "-", "-", "-", "kg/m^2", "18.5 - 24.9"),
         ("Body Fat", "17.4", "-", "-", "-", "%", "10 - 20"),
         ("Muscle", "78.6", "-", "-", "-", "%", "> 70"),
@@ -1661,7 +1661,6 @@ result_notes = {
             "markers": [
                 {"rows": ["Body Mass", "BMI", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-09", "2026-08", "2026-07"]},
                 {"rows": ["Bone", "Visceral Fat Index"], "target": "value", "dates": ["2026-09", "2026-08"]},
-                {"row": "Height", "target": "value", "dates": ["2026-07"]},
             ],
         },
         {

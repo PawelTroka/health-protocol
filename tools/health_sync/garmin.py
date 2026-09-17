@@ -2,14 +2,15 @@
 
 Field names and source units were checked against python-garminconnect 0.3.15
 ``garminconnect/typed.py`` and its tests on 2026-09-17:
-https://github.com/cyberjunky/python-garminconnect/blob/v0.3.15/garminconnect/typed.py
+https://github.com/cyberjunky/python-garminconnect/blob/0.3.15/garminconnect/typed.py
 
 The fetcher wraps each actual response in ``{"day": requested_day, "data": raw}``.
 Source calendar dates, when supplied, must match that requested day. Measurements
 remain Garmin-specific; they are not interchangeable with Oura/Withings values.
 Missing/null/negative sentinels are omitted. Valid zero activity/stress values
-are retained on observed days, but an entirely zero summary is not evidence of a
-day's wear. HR, HRV, respiration and SpO2 require positive values. No categorical
+are retained on observed days, but an entirely zero summary or modeled basal
+energy alone is not evidence of a day's wear. HR, HRV, respiration and SpO2
+require positive values. No categorical
 codes are averaged. The caller handles date windows and partial current days.
 
 Only AFTER_WAKEUP_RESET training-readiness snapshots enter morning summaries.
@@ -219,6 +220,8 @@ def _summary(raw: Any, endpoint: str, day: str) -> dict:
         return _morning(raw, day, context)
     document = _object(raw, context)
     _calendar_date(document, day, context)
+    if document.get("privacyProtected") is True:
+        raise GarminParseError(f"{context}: privacy-protected data is not a measurement")
     if endpoint in {"sleep", "hrv"}:
         key = "dailySleepDTO" if endpoint == "sleep" else "hrvSummary"
         document = _object(document.get(key), context)
@@ -261,8 +264,15 @@ def parse_api(payload: dict[str, list[dict]]) -> list[dict]:
             values = {field.path: _number(_path(document, field.path, context), field, context)
                       for field in fields}
             has_values = any(value is not None and value > 0 for value in values.values())
-            if endpoint == "daily_summary" and not has_values and day not in observed_sleep_days:
-                continue
+            if endpoint == "daily_summary":
+                observed = day in observed_sleep_days or any(
+                    value is not None and value > 0 and key not in {
+                        "totalKilocalories", "bmrKilocalories"}
+                    for key, value in values.items())
+                if not observed:
+                    # Garmin can populate modeled calories without a worn device.
+                    # Preserve those estimates, but not accompanying zero placeholders.
+                    values = {key: None if value == 0 else value for key, value in values.items()}
             if endpoint == "sleep" and not has_values:
                 continue
             if endpoint == "sleep" and values["sleepTimeSeconds"] == 0:

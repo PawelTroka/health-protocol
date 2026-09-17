@@ -101,6 +101,7 @@ class GarminClientTests(unittest.TestCase):
         self.assertIsNone(self.client.username)
         self.assertIsNone(self.client.password)
         self.assertIsNone(self.client.prompt_mfa)
+        self.client.client._clear_mfa_pending_state.assert_called_once()
         saved = json.dumps(self.vault)
         self.assertNotIn("private@example", saved)
         self.assertNotIn("private-password", saved)
@@ -201,6 +202,22 @@ class GarminClientTests(unittest.TestCase):
             self.fetch()
         self.assertIn("latest-refresh", self.vault["garmin"]["session_json"])
         self.assertEqual(self.vault["oura"], {"refresh_token": "other-provider"})
+
+    def test_invalid_session_dump_does_not_replace_existing_tokens(self):
+        self.client.client.dumps.return_value = "{}"
+        with patch.object(garmin_client.sys.stdin, "isatty", return_value=True), \
+             patch.object(getpass, "getpass", side_effect=["mail", "password"]):
+            with self.assertRaisesRegex(auth.AuthError, "reusable session"):
+                garmin_client.connect()
+        self.assertEqual(self.vault["garmin"]["session_json"], session())
+        self.assertFalse(self.saves)
+
+    def test_session_serialization_failure_is_sanitized(self):
+        self.client.client.dumps.side_effect = RuntimeError("private token content")
+        with self.assertRaisesRegex(auth.AuthError, "preserve the Garmin session") as error:
+            self.fetch()
+        self.assertNotIn("private token", str(error.exception))
+        self.client.client._clear_mfa_pending_state.assert_called_once()
 
     def test_session_save_failure_blocks_next_endpoint(self):
         self.client.client.dumps.return_value = session("rotated", "new-refresh")

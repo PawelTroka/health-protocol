@@ -92,6 +92,9 @@ def _clear_credentials(client):
         client.username = None
         client.password = None
         client.prompt_mfa = None
+        # MFA failures may leave response/session objects on the pinned client.
+        # Its dedicated cleanup preserves tokens but drops that transient state.
+        client.client._clear_mfa_pending_state()
 
 
 def _secret(prompt):
