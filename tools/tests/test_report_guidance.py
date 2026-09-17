@@ -135,6 +135,39 @@ class ProviderGuidanceTests(unittest.TestCase):
             VITALS, "Waist Circumference (Narrowest Point)", "-"))
 
 
+class StoolResidueGuidanceTests(unittest.TestCase):
+    def test_reported_abundance_is_ordered_for_each_residue_marker(self):
+        expected = (
+            ("absent", 0, "🔵"),
+            ("absent in preparation", 0, "🔵"),
+            ("single in preparation", 1, "🟢"),
+            ("few in preparation", 2, "🟡"),
+            ("fairly numerous in preparation", 3, "🟠"),
+        )
+        for marker in ("Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus"):
+            for value, rank, emoji in expected:
+                with self.subTest(marker=marker, value=value):
+                    self.assertEqual(guidance.stool_residue_rank("Stool Analysis", marker, value), rank)
+                    status = guidance.guide_status("Stool Analysis", marker, value)
+                    self.assertEqual(status[1], emoji)
+                    self.assertIn("absent", status[2].lower())
+
+    def test_abundance_is_not_generalized_to_other_markers_or_unknown_wording(self):
+        for category, marker, value in (
+            ("Urinalysis (Microscopic)", "Mucus", "few in preparation"),
+            ("Stool Analysis", "Yeast Cells", "few in preparation"),
+            ("Stool Analysis", "Leukocytes on Mucus", "present"),
+            ("Stool Analysis", "Starch Grains", "Pending"),
+            ("Stool Analysis", "Starch Grains", "not absent in preparation"),
+            ("Stool Analysis", "Starch Grains", "few to fairly numerous in preparation"),
+            ("Stool Analysis", "Starch Grains", "numerous in preparation"),
+            ("Stool Analysis", "Starch Grains", None),
+        ):
+            with self.subTest(category=category, marker=marker, value=value):
+                self.assertIsNone(guidance.stool_residue_rank(category, marker, value))
+                self.assertIsNone(guidance.guide_status(category, marker, value))
+
+
 class GuidanceRenderingTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

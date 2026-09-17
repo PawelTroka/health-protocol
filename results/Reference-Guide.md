@@ -35,12 +35,14 @@ The [July 7 GA-map source record](Gut-Microbiota-2026-07-07/Sources.md) identifi
 
 All 336 marker cells (48 markers × 7 positions) were checked against the PDF vector colors and rendered pixels. The observed results contain 34 dark-green, 9 light-green and 5 orange marker positions. Group assessment and individual marker band are separate findings.
 
-For the existing stool microscopy rows, “single” or “few” against an “absent” laboratory reference receives an amber comparison flag; it does not imply a quantitative severity grade or a new target.
+## Stool microscopy: reported abundance
+
+Checked **2026-09-17**. The five food-residue/mucus rows use 🔵 absent → 🟢 single → 🟡 few → 🟠 fairly numerous. “Single” (*pojedyncze*) is less abundant than “few” (*nieliczne*), consistent with [PTDL's microscopy terminology, Table II](https://ptdl.pl/ptdl/wp-content/uploads/2024/06/Zalecenia-PTDL-2019-Zalecenia-Polskiego-Towarzystwa-Diagnostyki-Laboratoryjnej-dotyczace-badania-upostaciowanych-elementow-moczu-w-medycznym-laboratorium-diagnostycznym.pdf#page=14). The [ALAB stool test is qualitative](https://www.alab.pl/badanie/kal-badanie-ogolne-i-ocena-resztek-pokarmowych-a23); the urine guideline's numerical counts are not transferred to stool. Colors and trends show reported abundance relative to the report's **absent** reference, not clinical severity or a cause; green “single” still means present.
 
 ## Reading trends
 
-- Existing health-score trend dots retain their established calculation.
+- Health-score trend dots retain their established calculation where comparable. Overlapping numeric bounds cannot establish a trend; identical bounds mean an unchanged reporting category, not equal measurements.
 - **↑ +value**, **↓ −value** and **→ 0** show the numerical change from the preceding available measurement in the row's unit. They do not label a change as healthier or less healthy. This also applies to the newly annotated provider scores.
 - Calculations use displayed values and their precision. Percentage rows change in percentage points; score rows change in points. Missing dates are skipped, so the previous observation may be more than one month earlier.
-- Only two comparable scalar observations can produce a numerical change. A single observation has no trend. Pending, inconclusive, bounded values such as `<5`, and categorical summaries cannot be turned into numeric deltas or skipped to display an older comparison.
+- Only two comparable scalar observations can produce a numerical change. A single observation has no trend. Pending, inconclusive, bounded values such as `<5`, and categorical summaries cannot be turned into numeric deltas or skipped to display an older comparison. The ordered stool descriptions above can show a direction toward or away from “absent”, without a numerical delta.
 - A table shows a Trend column only if a row has two comparable observations. Height is treated as fixed context. Trend appears immediately after the metric; empty month columns are omitted.

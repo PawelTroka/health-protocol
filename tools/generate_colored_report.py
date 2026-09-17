@@ -9,8 +9,11 @@ if __package__ in (None, ""):
 
 from tools.health_sync.monthly import METRICS, apply_report_overlay, load_monthly
 from tools.health_sync.report_layout import layout, counts
+from tools.health_sync.lab_layout import lab_groups
+from tools.health_sync.result_bounds import bound_within_reference, bounded_comparison, is_bounded
 from tools.health_sync.report_guidance import (
     NEUTRAL, guide_reference, guide_status, numerical_change,
+    STOOL_RESIDUE_MARKERS, stool_residue_rank,
 )
 from tools.health_sync.microbiota_guidance import microbiota_reference, microbiota_status
 from tools.imaging_report import (
@@ -650,6 +653,14 @@ def format_urinalysis_value(val_str, ref_range):
     if any(term in text_val for term in bad_terms):
         return "#dc3545", "🔴" # Red
 
+    if is_bounded(val_str):
+        within = bound_within_reference(val_str, ref_range)
+        if within is True:
+            return "#006400", "🟢"
+        if within is False:
+            return "#a84a00", "🟠"
+        return "#000000", ""
+
     # Numeric checks for specific gravity, ph etc.
     try:
         # Simple float parse
@@ -817,6 +828,8 @@ def target_directional_percent_delta(current_val, previous_val, target):
     return None
 
 def directional_percent_delta(current, previous, ref, category=None, marker=None):
+    if is_bounded(current) or is_bounded(previous):
+        return None  # A reporting limit is not an exact measured value.
     current_val = numeric_value(current)
     previous_val = numeric_value(previous)
     if current_val is None or previous_val is None or previous_val == 0:
@@ -835,6 +848,23 @@ def directional_percent_delta(current, previous, ref, category=None, marker=None
     return None
 
 def classify_trend(values, ref, category, marker=None):
+    if category == "Stool Analysis" and marker in STOOL_RESIDUE_MARKERS:
+        ranks = []
+        for value in values:
+            if value in missing_values:
+                continue
+            rank = stool_residue_rank(category, marker, value)
+            if rank is None:
+                return None
+            ranks.append(rank)
+            if len(ranks) == 2:
+                if ranks[0] < ranks[1]:
+                    return "Improvement"
+                if ranks[0] > ranks[1]:
+                    return "Mild Worsening"
+                return "Stable"
+        return None
+
     comparable = []
     for value in values:
         # An uninterpretable reading must not display a trend from older results.
@@ -852,6 +882,12 @@ def classify_trend(values, ref, category, marker=None):
     # Scores are health-distance values: lower is better, higher is worse.
     current_value, current_score = comparable[0]
     previous_value, previous_score = comparable[1]
+    if is_bounded(current_value) or is_bounded(previous_value):
+        comparison = bounded_comparison(current_value, previous_value)
+        if comparison is None:
+            return None
+        if comparison == "same_bound":
+            return "Stable"  # Same reported category, not equal exact values.
     delta = previous_score - current_score
     percent_delta = directional_percent_delta(current_value, previous_value, ref, category, marker)
 
@@ -1991,6 +2027,24 @@ def result_anchor(title, parent=None):
     return "results-" + re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 
 
+def render_lab_html(category, rows):
+    html = f"<h2 id='{result_anchor(category)}'>{escape(category)}</h2>"
+    for group in lab_groups(category, rows):
+        if group["title"]:
+            html += f"<h3 id='{result_anchor(group['title'], category)}'>{escape(group['title'])}</h3>"
+        html += "<div class='table-scroll'>" + render_result_table_html(category, group["rows"]) + "</div>"
+    return html + render_result_notes_html(category)
+
+
+def render_lab_md(category, rows):
+    md = f"## {category}\n\n"
+    for index, group in enumerate(lab_groups(category, rows)):
+        if group["title"]:
+            md += ("\n" if index else "") + f"### {group['title']}\n\n"
+        md += render_result_table_md(category, group["rows"])
+    return md + render_result_notes_md(category) + "\n"
+
+
 def report_contents(markdown=False):
     def anchor(title, parent=None):
         return markdown_heading_anchor(title) if markdown else result_anchor(title, parent)
@@ -2221,9 +2275,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
         elif category == MICROBIOTA_CATEGORY:
             html += render_microbiota_html(rows)
         else:
-            html += f"<h2 id='{result_anchor(category)}'>{escape(category)}</h2>"
-            html += "<div class='table-scroll'>" + render_result_table_html(category, rows) + "</div>"
-            html += render_result_notes_html(category)
+            html += render_lab_html(category, rows)
 
     html += "</div>"
     # Dated imaging records use their own source catalog, not monthly lab columns.
@@ -2269,9 +2321,7 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
         elif category == MICROBIOTA_CATEGORY:
             md += render_microbiota_md(rows)
         else:
-            md += f"## {category}\n\n"
-            md += render_result_table_md(category, rows)
-            md += render_result_notes_md(category) + "\n"
+            md += render_lab_md(category, rows)
 
     # Add Imaging Section
     md += render_imaging_md()

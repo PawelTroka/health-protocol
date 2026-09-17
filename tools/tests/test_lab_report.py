@@ -196,19 +196,84 @@ class SeptemberLabReportTests(unittest.TestCase):
         for category, observations in self.report["lab_followups"]["2026-09"].items():
             rows = self.report["data"][category]
             for output_format in ("html", "md"):
-                rendered = self.report[f"render_result_table_{output_format}"](category, rows)
-                table = rendered_table_rows(rendered, output_format)
-                header = table[0]
-                rendered_rows = {cells[0]: cells for cells in table[1:]}
+                rendered_rows = {}
+                for group in self.report["lab_groups"](category, rows):
+                    rendered = self.report[f"render_result_table_{output_format}"](category, group["rows"])
+                    table = rendered_table_rows(rendered, output_format)
+                    header = table[0]
+                    with self.subTest(category=category, group=group["title"], output_format=output_format):
+                        self.assertIn(rendered, self.outputs[output_format])
+                        self.assertNotIn("2026-08", header)
+                        self.assertEqual(len(table) - 1, len(group["rows"]))
+                    for cells in table[1:]:
+                        self.assertNotIn(cells[0], rendered_rows)
+                        rendered_rows[cells[0]] = dict(zip(header, cells))
                 with self.subTest(category=category, output_format=output_format):
-                    self.assertIn(rendered, self.outputs[output_format])
-                    self.assertIn("2026-09", header)
-                    self.assertNotIn("2026-08", header)
                     self.assertEqual(len(rendered_rows), len(rows))
                 for marker, value in observations.items():
                     with self.subTest(category=category, marker=marker, output_format=output_format):
                         self.assertEqual(self.observations(category, marker)["2026-09"], value)
-                        self.assertEqual(literal_result(rendered_rows[marker][header.index("2026-09")]), value)
+                        self.assertEqual(literal_result(rendered_rows[marker]["2026-09"]), value)
+
+    def test_sparse_followups_do_not_add_empty_september_columns_to_main_tables(self):
+        categories = ("Metabolic Health", "Cardiac Health & Coagulation", "Micronutrients",
+                      "Immunology & Inflammation", "Hormonal Panel")
+        for category in categories:
+            groups = self.report["lab_groups"](category, self.report["data"][category])
+            self.assertEqual(len(groups), 2)
+            for output_format in ("html", "md"):
+                for index, group in enumerate(groups):
+                    with self.subTest(category=category, group=group["title"], output_format=output_format):
+                        rendered = self.report[f"render_result_table_{output_format}"](category, group["rows"])
+                        header = rendered_table_rows(rendered, output_format)[0]
+                        self.assertEqual("2026-09" in header, index == 1)
+                        self.assertIn("Unit", header)
+                        self.assertIn("Reference", header)
+
+    def test_stool_abundance_changes_have_ordered_colors_and_trends(self):
+        expected = {
+            "Starch Grains": ("🟠", "🟡"),
+            "Fat Droplets": ("🔵", "🟢"),
+            "Fatty Acid Crystals": ("🟢", "🟢"),
+            "Muscle Fibers": ("🟢", "⚪"),
+            "Mucus": ("🟢", "🟢"),
+        }
+        category = "Stool Analysis"
+        for output_format in ("html", "md"):
+            rendered = self.report[f"render_result_table_{output_format}"](category, self.report["data"][category])
+            table = rendered_table_rows(rendered, output_format)
+            rows = {cells[0]: dict(zip(table[0], cells)) for cells in table[1:]}
+            for marker, (color, trend) in expected.items():
+                with self.subTest(marker=marker, output_format=output_format):
+                    self.assertTrue(rows[marker]["2026-09"].startswith(color + " "))
+                    self.assertEqual(rows[marker]["Trend"], trend)
+        classify = self.report["classify_trend"]
+        for value in ("pending", "inconclusive", "unknown wording"):
+            self.assertIsNone(classify([value, "absent", "single in preparation"], "absent", category, "Mucus"))
+
+    def test_urine_bounds_are_colored_without_losing_inequalities(self):
+        category = "Urinalysis (Sediment)"
+        for output_format in ("html", "md"):
+            rendered = self.report[f"render_result_table_{output_format}"](category, self.report["data"][category])
+            table = rendered_table_rows(rendered, output_format)
+            rows = {cells[0]: dict(zip(table[0], cells)) for cells in table[1:]}
+            count = 0
+            for row in self.report["data"][category]:
+                value = self.observations(category, row[0])["2026-01"]
+                if value.startswith("<"):
+                    count += 1
+                    self.assertEqual(rows[row[0]]["2026-01"], "🟢 " + value)
+            self.assertEqual(count, 10)
+            format_cell = self.report[f"format_cell_{output_format}_urine"]
+            self.assertNotIn("🟢", format_cell("<40", "<30"))
+            self.assertIn("🟢", format_cell("<20", "<30"))
+
+    def test_overlapping_numeric_bounds_cannot_establish_a_trend(self):
+        classify = self.report["classify_trend"]
+        self.assertIsNone(classify(["101.5", ">60"], ">60", "Metabolic Health", "eGFR"))
+        self.assertIsNone(self.report["directional_percent_delta"]("101.5", ">60", ">60"))
+        self.assertEqual(classify(["<5.0", "291.70"], "<50", "Stool Analysis", "Calprotectin (Stool)"), "Breakthrough")
+        self.assertEqual(classify(["<9", "< 9.0"], "<34", "Immunology & Inflammation", "Anti-TPO"), "Stable")
 
     def test_pending_results_are_unscored_and_block_stale_trends(self):
         pending = [(category, marker)

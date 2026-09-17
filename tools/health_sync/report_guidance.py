@@ -1,6 +1,6 @@
 """Source-specific display guidance, separate from the legacy health score.
 
-References were checked on 2026-09-07; see results/Reference-Guide.md.
+References and verification dates are in results/Reference-Guide.md.
 Provider bands describe recorded scores, including displayed monthly means.
 They do not establish a diagnosis or a personalized treatment target.
 """
@@ -15,6 +15,25 @@ GREEN = ("#008000", "🟢", "Within the provider reference range")
 BLUE = ("#00008b", "🔵", "Within the provider target band")
 YELLOW = ("#927000", "🟡", "Outside the provider comparison range")
 ORANGE = ("#a84a00", "🟠", "Provider attention band")
+
+
+STOOL_RESIDUE_MARKERS = {
+    "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus",
+}
+STOOL_RESIDUE_RANKS = {
+    "absent": 0,
+    "absent in preparation": 0,
+    "single in preparation": 1,
+    "few in preparation": 2,
+    "fairly numerous in preparation": 3,
+}
+
+
+def stool_residue_rank(category, marker, value):
+    """Order reported stool abundance only; ranks are not counts or severity."""
+    if category != "Stool Analysis" or marker not in STOOL_RESIDUE_MARKERS:
+        return None
+    return STOOL_RESIDUE_RANKS.get(value) if isinstance(value, str) else None
 
 
 def strict_number(value):
@@ -79,13 +98,17 @@ def guide_reference(category, marker, ref):
 
 
 def guide_status(category, marker, value):
-    """Explicit provider bands only; no fallback assumption that data are normal."""
-    if category == "Stool Analysis" and marker in {
-        "Starch Grains", "Fat Droplets", "Fatty Acid Crystals", "Muscle Fibers", "Mucus",
-    } and value in {"single in preparation", "few in preparation", "fairly numerous in preparation"}:
-        return (YELLOW[0], YELLOW[1], "Reported against an absent reference; quantity not graded")
-    if category == "Stool Analysis" and marker == "Fat Droplets" and value == "absent in preparation":
-        return (BLUE[0], BLUE[1], "Absent, as in the laboratory reference")
+    """Source-specific bands or abundance; unknown data are not assumed normal."""
+    residue_rank = stool_residue_rank(category, marker, value)
+    if residue_rank is not None:
+        color, emoji = (BLUE, GREEN, YELLOW, ORANGE)[residue_rank][:2]
+        labels = (
+            "Absent, as in the laboratory reference",
+            "Single: lowest reported abundance above the absent reference",
+            "Few: greater reported abundance than single; reference absent",
+            "Fairly numerous: greater reported abundance than few; reference absent",
+        )
+        return color, emoji, labels[residue_rank]
     if category != VITALS:
         return None
     text = str(value).strip().casefold()
