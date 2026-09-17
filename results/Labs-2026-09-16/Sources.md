@@ -1,17 +1,19 @@
 # Laboratory results collected 2026-09-16
 
-Reviewed 2026-09-17 from the two original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
+Reviewed 2026-09-17 from the four original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
 
 ## Source documents and dates
 
 | Source | Specimen and collection | Laboratory / issue dates |
 | :--- | :--- | :--- |
 | [ALAB report, 4 pages](../GDYNPOW-SL-00054879-20260916232343-21.pdf) | EDTA whole blood, serum, urine and stool: 2026-09-16 07:26 as printed in the specimen headers | Tests performed 2026-09-16; report issued 2026-09-16 23:23 |
-| [Diagnostyka gastrointestinal PCR report, 1 page](../wyniki-17_9_2026-7_30_42.pdf) | Stool: header gives 2026-09-16 07:00; specimen/order note separately says `pobrano 16.09.26 g:6:30; bez leków` (collected 06:30; without medicines) | Received 2026-09-16 10:03; performed 11:25:52; result issued 11:26:20; PDF/print timestamp 11:26:21 |
+| [Diagnostyka gastrointestinal PCR report, 1 page](../wyniki-17_9_2026-17_27_0.pdf) | Stool: header gives 2026-09-16 07:00; specimen/order note separately says `pobrano 16.09.26 g:6:30; bez leków` (collected 06:30; without medicines) | Received 2026-09-16 10:03; performed 11:25:52; result issued 11:26:20; PDF/print timestamp 11:26:21 |
+| [ALAB calprotectin and elastase report, 1 page](../GDYNPOW-SL-00054490-20260917162927-2.pdf) | Stool: collected 2026-09-16 07:26; received 09:32 | Analyzed 2026-09-17 10:34 / 10:35; report issued 16:29 |
+| [ALAB proteinogram report, 2 pages](../GDYNPOW-SL-00054809-20260917163044-7.pdf) | Venous serum: collected 2026-09-16 07:26; received 10:44 | Analyzed 2026-09-17 16:17; report issued 16:30 |
 
-Both reports belong to the September 16 collection date. The Diagnostyka filename contains September 17, but its actual result and print timestamps are September 16. Its two different collection times are retained without choosing one or assuming which is correct. The `without medicines` wording is a specimen/order annotation, not a verified medication history or a stated washout duration.
+All reports belong to the September 16 collection date. The Diagnostyka filename contains September 17, but its actual result and print timestamps are September 16; commit `4a521eb` renamed that file without changing its contents. Its two different collection times are retained without choosing one or assuming which is correct. The `without medicines` wording is a specimen/order annotation, not a verified medication history or a stated washout duration.
 
-All five pages were visually checked. The Diagnostyka PDF has a broken text encoding, so its result table was transcribed from the rendered page. The documents supply complementary assays rather than duplicate reports of one test. The initial PDF import contained **84 completed observations: 63 from ALAB and 21 displayed PCR result rows from Diagnostyka**, plus **14 pending ALAB tests**. The [September 17 portal update](#portal-update-2026-09-17) completes two of those pending tests, bringing the combined record to **86 completed observations and 12 tests still awaiting supplied results**.
+All eight PDF pages were visually checked. The Diagnostyka PDF has a broken text encoding, so its result table was transcribed from the rendered page. The initial import contained **84 completed observations** (63 ALAB and 21 PCR rows) plus **14 pending tests**. The [portal update](#portal-update-2026-09-17) added calprotectin and elastase; the [later PDFs](#pdf-update-2026-09-17) confirm both and add 13 proteinogram values. The combined record now contains **99 completed observations and 11 tests without supplied results**.
 
 ## ALAB: Morphology (page 1)
 
@@ -182,10 +184,40 @@ The three user-supplied screenshots are archived unchanged:
 | Calprotectin (Stool) | < 5.0 | µg/g | <50 normal; 50-120 borderline; >120 elevated | Gut package: 17.09.2026 |
 | Pancreatic Elastase-1 (Stool) | 600.0 | µg/g | Not shown | Individual result card: 17.09.2026 |
 
-These values replace pending status in the September record. The comparison report uses the equivalent `ug/g` unit spelling. Calprotectin's inequality is preserved; neither an exact concentration of 5.0 nor zero is inferred. Elastase is exactly `600.0` as displayed, without an added inequality, reference interval, assay method or health score.
+These values replaced pending status in the September record. The comparison report uses the equivalent `ug/g` unit spelling. Calprotectin's inequality is preserved; neither an exact concentration of 5.0 nor zero is inferred. Elastase is exactly `600.0` as displayed. Its reference interval and assay method were absent from the screenshots and are supplied by the later PDF below.
 
-September 17 is the displayed portal/package date. The screenshots do not show specimen collection timestamps or identifiers, so they do not independently establish a September 17 collection or prove specimen identity with the September 16 PDF. The results are grouped in the same September column with this provenance caveat.
+September 17 is the displayed portal/package date. The screenshots alone did not establish specimen collection dates; the later ALAB PDF confirms the matching results from stool collected September 16 at 07:26.
 
 All other visible completed values match the earlier PDF transcription, including the stool residue findings, yeast comment, occult blood, anti-CCP, serum IgA, ASO, uric acid, RF, conventional CRP, thyroid hormones/antibodies, LDH, C3/C4 and CK. They are duplicate views rather than additional measurements. Collapsed urinalysis and morphology cards supply no new individual results. Portal dot colors do not override the PDF's numeric reference ranges and flags, including its high TSH and low C3 flags.
 
-The remaining **12 tests without supplied results** are DGP IgG, ANA IIFT/titer, ANA/ENA immunoblot, stool histamine, stool secretory sIgA, 24-hour urinary iodine, stool butyric acid, urine culture, tTG IgA, serum protein electrophoresis, selenium and stool zonulin. Their original turnaround estimates remain in the historical pending table above.
+At this stage, **12 tests** remained without supplied results. The subsequent PDF completes the proteinogram; original turnaround estimates remain in the historical pending table above.
+
+<a id="pdf-update-2026-09-17"></a>
+
+## PDF update issued 2026-09-17
+
+The new stool report confirms calprotectin **<5.0µg/g** and pancreatic elastase **600.0µg/g**; these are confirmations of the portal values, not additional measurements. Calprotectin uses CLIA on DiaSorin LIAISON XL, with the same <50 / 50-120 / >120 classifications shown above. Elastase uses immunochemiluminescence on DiaSorin LIAISON XS: **>=200µg/g normal**, 100-<200 mild-to-moderate exocrine pancreatic insufficiency, <100 severe insufficiency.
+
+### Proteinogram
+
+Capillary electrophoresis, Sebia Capillarys 2 Flex Piercing. All 13 values are within the printed ranges; no abnormal flags are shown. Percentage fractions remain distinct from concentrations and from the standalone serum albumin assay.
+
+| Report row | Result | Source unit | Source reference interval |
+| :--- | ---: | :--- | :--- |
+| Total Protein | 74.90 | g/l | 64.0 - 83.0 |
+| Albumin | 60.1 | % | 55.8 - 66.1 |
+| Alpha-1 Globulin | 3.5 | % | 2.9 - 4.9 |
+| Alpha-2 Globulin | 7.6 | % | 7.1 - 11.8 |
+| Beta-1 Globulin | 6.4 | % | 4.7 - 7.2 |
+| Beta-2 Globulin | 4.6 | % | 3.2 - 6.5 |
+| Gamma Globulin | 17.8 | % | 11.1 - 18.8 |
+| Albumin (Concentration) | 45.0 | g/l | 40.2 - 47.6 |
+| Alpha-1 Globulin (Concentration) | 2.6 | g/l | 2.1 - 3.5 |
+| Alpha-2 Globulin (Concentration) | 5.7 | g/l | 5.1 - 8.5 |
+| Beta-1 Globulin (Concentration) | 4.8 | g/l | 3.4 - 5.2 |
+| Beta-2 Globulin (Concentration) | 3.4 | g/l | 2.3 - 4.7 |
+| Gamma Globulin (Concentration) | 13.3 | g/l | 8.0 - 13.5 |
+
+Laboratory comment: **“Podwójna frakcja alfa 2. Hemolizy brak.”** — double alpha-2 fraction; no hemolysis. No cause is specified.
+
+Both new PDFs list **10 pending tests**: DGP IgG, ANA IIFT/titer, ANA/ENA immunoblot, stool histamine, stool secretory sIgA, stool butyric acid, urine culture, tTG IgA, selenium and stool zonulin. **24-hour urinary iodine** is no longer listed, but neither PDF supplies its result; it remains outstanding in this record. Thus **11 tests still have no supplied result**.

@@ -130,31 +130,64 @@ class SeptemberLabReportTests(unittest.TestCase):
             self.assertNotIn("Trend", table[0])
             self.assertEqual(Counter(cells[0] for cells in table[1:]), Counter(outcomes.keys()))
 
-    def test_pending_registry_excludes_two_completed_portal_results(self):
+    def test_pending_registry_excludes_completed_stool_and_proteinogram_results(self):
         pending = [name for names in self.report["lab_pending_tests"].values() for name in names]
-        self.assertEqual(len(pending), 12)
-        self.assertEqual(len(set(pending)), 12)
-        self.assertIn("Serum protein electrophoresis (whole panel)", pending)
+        self.assertEqual(len(pending), 11)
+        self.assertEqual(len(set(pending)), 11)
+        self.assertNotIn("Serum protein electrophoresis (whole panel)", pending)
         self.assertIn("Iodine in 24-hour urine", pending)
         self.assertIn("tTG IgA", pending)
         self.assertNotIn("TSH", pending)
         self.assertNotIn("Calprotectin", pending)
         self.assertNotIn("Pancreatic elastase-1", pending)
 
-    def test_portal_completion_preserves_inequality_history_and_missing_reference(self):
+    def test_stool_pdf_confirms_portal_values_and_supplies_elastase_reference(self):
         calprotectin = self.observations("Stool Analysis", "Calprotectin (Stool)")
         self.assertEqual(calprotectin["2026-09"], "< 5.0")
         self.assertEqual(calprotectin["2026-07"], "291.70")
         self.assertEqual(self.observations("Stool Analysis", "Pancreatic Elastase-1 (Stool)")["2026-09"], "600.0")
-        self.assertEqual(self.row("Stool Analysis", "Pancreatic Elastase-1 (Stool)")[-2:], ("ug/g", "-"))
-        self.assertIsNone(self.report["calculate_score"]("600.0", "-", "Stool Analysis", "Pancreatic Elastase-1 (Stool)"))
+        self.assertEqual(self.row("Stool Analysis", "Pancreatic Elastase-1 (Stool)")[-2:], ("ug/g", ">= 200"))
+        score = self.report["calculate_score"]
+        args = (">= 200", "Stool Analysis", "Pancreatic Elastase-1 (Stool)")
+        self.assertEqual(score("600.0", *args), score("200", *args))
+        self.assertGreater(score("199", *args), 1.0)
         self.assertEqual(self.observations("Stool Analysis", "Secretory sIgA (Stool)")["2026-09"], "pending")
+
+    def test_completed_proteinogram_preserves_fractions_concentrations_and_history(self):
+        expected = {
+            "Total Protein": ("74.90", "g/L", "64.0 - 83.0"),
+            "Albumin": ("60.1", "%", "55.8 - 66.1"),
+            "Alpha-1 Globulin": ("3.5", "%", "2.9 - 4.9"),
+            "Alpha-2 Globulin": ("7.6", "%", "7.1 - 11.8"),
+            "Beta-1 Globulin": ("6.4", "%", "4.7 - 7.2"),
+            "Beta-2 Globulin": ("4.6", "%", "3.2 - 6.5"),
+            "Gamma Globulin": ("17.8", "%", "11.1 - 18.8"),
+            "Albumin (Concentration)": ("45.0", "g/L", "40.2 - 47.6"),
+            "Alpha-1 Globulin (Concentration)": ("2.6", "g/L", "2.1 - 3.5"),
+            "Alpha-2 Globulin (Concentration)": ("5.7", "g/L", "5.1 - 8.5"),
+            "Beta-1 Globulin (Concentration)": ("4.8", "g/L", "3.4 - 5.2"),
+            "Beta-2 Globulin (Concentration)": ("3.4", "g/L", "2.3 - 4.7"),
+            "Gamma Globulin (Concentration)": ("13.3", "g/L", "8.0 - 13.5"),
+        }
+        january = {"Albumin": "62.3", "Alpha-1 Globulin": "2.9", "Alpha-2 Globulin": "7.0",
+                   "Beta-1 Globulin": "5.9", "Beta-2 Globulin": "4.9", "Gamma Globulin": "17.0"}
+        self.assertEqual(len(self.report["data"]["Proteinogram"]), len(expected))
+        for marker, (value, unit, reference) in expected.items():
+            with self.subTest(marker=marker):
+                actual = self.observations("Proteinogram", marker)
+                self.assertEqual(actual["2026-09"], value)
+                self.assertEqual(self.row("Proteinogram", marker)[-2:], (unit, reference))
+                for month in self.report["historical_date_columns"]:
+                    self.assertEqual(actual[month], january.get(marker, "-") if month == "2026-01" else "-")
+        # Electrophoretic albumin does not replace the standalone serum assay.
+        self.assertEqual(self.observations("Metabolic Health", "Albumin")["2026-07"], "48.90")
+        self.assertEqual(self.observations("Metabolic Health", "Albumin")["2026-09"], "-")
 
     def test_all_followups_appear_in_september_in_both_generated_reports(self):
         values = [value for observations in self.report["lab_followups"]["2026-09"].values()
                   for value in observations.values()]
-        self.assertEqual(sum(value != "pending" for value in values), 86)
-        self.assertEqual(values.count("pending"), 9)
+        self.assertEqual(sum(value != "pending" for value in values), 99)
+        self.assertEqual(values.count("pending"), 3)
         for category, observations in self.report["lab_followups"]["2026-09"].items():
             rows = self.report["data"][category]
             for output_format in ("html", "md"):

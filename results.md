@@ -604,7 +604,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Giardia lamblia Antigen** | - | - | 🔵 negative | Status | negative |
 | **Alpha-1 Antitrypsin (Stool)** | - | - | 🔵 7.90 | mg/dl | < 27.50; target < 27.50 |
 | **Calprotectin (Stool)** | 💎 | 🔵<sup>1</sup> < 5.0 | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
-| **Pancreatic Elastase-1 (Stool)** | - | 600.0 | - | ug/g | - |
+| **Pancreatic Elastase-1 (Stool)** | - | 🔵 600.0 | - | ug/g | >= 200 |
 | **Stool Fat** | - | - | 🔵 4.0 | g/100g | < 5.2; target < 5.2 |
 | **Stool Water** | - | - | 🔵 71.0 | g/100g | 68.5 - 82.3; target 68.5 - 82.3 |
 | **Stool Protein** | - | - | 🔵 1.5 | g/100g | < 1.5; target < 1.5 |
@@ -778,14 +778,24 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 
 ## Proteinogram
 
-|  | 2026-09 | 2026-01 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- | :--- |
-| **Albumin** | pending | 🔵 62.3 | % | 55.8 - 66.1 |
-| **Alpha-1 Globulin** | pending | 🟢 2.9 | % | 2.9 - 4.9 |
-| **Alpha-2 Globulin** | pending | 🟡 7.0 ↓ | % | 7.1 - 11.8 |
-| **Beta-1 Globulin** | pending | 🔵 5.9 | % | 4.7 - 7.2 |
-| **Beta-2 Globulin** | pending | 🔵 4.9 | % | 3.2 - 6.5 |
-| **Gamma Globulin** | pending | 🔵 17.0 | % | 11.1 - 18.8 |
+|  | Trend | 2026-09 | 2026-01 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Total Protein** | - | 🔵 74.90 | - | g/L | 64.0 - 83.0 |
+| **Albumin** | 🟢 | 🔵 60.1 | 🔵 62.3 | % | 55.8 - 66.1 |
+| **Alpha-1 Globulin** | 🔵 | 🔵 3.5 | 🟢 2.9 | % | 2.9 - 4.9 |
+| **Alpha-2 Globulin** | 🟢 | 🟢<sup>1</sup> 7.6 | 🟡 7.0 ↓ | % | 7.1 - 11.8 |
+| **Beta-1 Globulin** | 🟠 | 🔵 6.4 | 🔵 5.9 | % | 4.7 - 7.2 |
+| **Beta-2 Globulin** | 🟡 | 🔵 4.6 | 🔵 4.9 | % | 3.2 - 6.5 |
+| **Gamma Globulin** | 🟡 | 🟢 17.8 | 🔵 17.0 | % | 11.1 - 18.8 |
+| **Albumin (Concentration)** | - | 🔵 45.0 | - | g/L | 40.2 - 47.6 |
+| **Alpha-1 Globulin (Concentration)** | - | 🔵 2.6 | - | g/L | 2.1 - 3.5 |
+| **Alpha-2 Globulin (Concentration)** | - | 🟢<sup>1</sup> 5.7 | - | g/L | 5.1 - 8.5 |
+| **Beta-1 Globulin (Concentration)** | - | 🔵 4.8 | - | g/L | 3.4 - 5.2 |
+| **Beta-2 Globulin (Concentration)** | - | 🔵 3.4 | - | g/L | 2.3 - 4.7 |
+| **Gamma Globulin (Concentration)** | - | 🟢 13.3 | - | g/L | 8.0 - 13.5 |
+
+**Notes:**
+<sup>1</sup> Protein fractions are within range. The lab notes a double alpha-2 fraction, with no hemolysis.
 
 ## Hormonal Panel
 

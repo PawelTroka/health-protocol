@@ -312,6 +312,7 @@ target_overrides = {
     # Stool markers
     ("Stool Analysis", "Alpha-1 Antitrypsin (Stool)"): low_good_target("< 27.50; target < 27.50", 27.5, 27.5),
     ("Stool Analysis", "Calprotectin (Stool)"): low_good_target("< 50.00; target < 50", 50.0, 50.0),
+    ("Stool Analysis", "Pancreatic Elastase-1 (Stool)"): high_good_target(">= 200", 200.0, 200.0),
     ("Stool Analysis", "Stool Fat"): low_good_target("< 5.2; target < 5.2", 5.2, 5.2),
     ("Stool Analysis", "Stool Water"): optimal_range_target("68.5 - 82.3; target 68.5 - 82.3", 68.5, 68.5, 82.3, 82.3),
     ("Stool Analysis", "Stool Protein"): low_good_target("< 1.5; target < 1.5", 1.5, 1.5),
@@ -1343,7 +1344,7 @@ data = {
         ("Giardia lamblia Antigen", "negative", "-", "-", "-", "Status", "negative"),
         ("Alpha-1 Antitrypsin (Stool)", "7.90", "-", "-", "-", "mg/dl", "< 27.50"),
         ("Calprotectin (Stool)", "291.70", "-", "-", "-", "ug/g", "< 50.00"),
-        ("Pancreatic Elastase-1 (Stool)", "-", "-", "-", "-", "ug/g", "-"),
+        ("Pancreatic Elastase-1 (Stool)", "-", "-", "-", "-", "ug/g", ">= 200"),
         ("Stool Fat", "4.0", "-", "-", "-", "g/100g", "< 5.2"),
         ("Stool Water", "71.0", "-", "-", "-", "g/100g", "68.5 - 82.3"),
         ("Stool Protein", "1.5", "-", "-", "-", "g/100g", "< 1.5"),
@@ -1364,12 +1365,19 @@ data = {
     ],
     "Stool Pathogen PCR": [],
     "Proteinogram": [
+        ("Total Protein", "-", "-", "-", "-", "g/L", "64.0 - 83.0"),
         ("Albumin", "-", "62.3", "-", "-", "%", "55.8 - 66.1"),
         ("Alpha-1 Globulin", "-", "2.9", "-", "-", "%", "2.9 - 4.9"),
         ("Alpha-2 Globulin", "-", "7.0", "-", "-", "%", "7.1 - 11.8"),
         ("Beta-1 Globulin", "-", "5.9", "-", "-", "%", "4.7 - 7.2"),
         ("Beta-2 Globulin", "-", "4.9", "-", "-", "%", "3.2 - 6.5"),
-        ("Gamma Globulin", "-", "17.0", "-", "-", "%", "11.1 - 18.8")
+        ("Gamma Globulin", "-", "17.0", "-", "-", "%", "11.1 - 18.8"),
+        ("Albumin (Concentration)", "-", "-", "-", "-", "g/L", "40.2 - 47.6"),
+        ("Alpha-1 Globulin (Concentration)", "-", "-", "-", "-", "g/L", "2.1 - 3.5"),
+        ("Alpha-2 Globulin (Concentration)", "-", "-", "-", "-", "g/L", "5.1 - 8.5"),
+        ("Beta-1 Globulin (Concentration)", "-", "-", "-", "-", "g/L", "3.4 - 5.2"),
+        ("Beta-2 Globulin (Concentration)", "-", "-", "-", "-", "g/L", "2.3 - 4.7"),
+        ("Gamma Globulin (Concentration)", "-", "-", "-", "-", "g/L", "8.0 - 13.5")
     ],
     "Hormonal Panel": [
         ("Testosterone (Total)", "32.10", "27.50", "28.60", "28.70", "nmol/l", "8.64 - 29.00"),
@@ -1395,9 +1403,8 @@ data = {
 
 # Dated laboratory specimens, not monthly averages. Full transcription, original
 # units/ranges/flags, methods and pending assays: results/Labs-2026-09-16/Sources.md.
-# Both PDFs concern September 16 specimens, including the file named September 17.
-# Calprotectin and elastase were subsequently completed in September 17 portal
-# screenshots; those images do not establish an exact specimen collection date.
+# September 17 PDFs complete the proteinogram and confirm the portal stool
+# results, including their September 16 collection date and elastase range.
 lab_followups = {
     "2026-09": {
         "Morphology": {
@@ -1460,8 +1467,14 @@ lab_followups = {
             "Entamoeba histolytica": "not detected",
             "Giardia lamblia": "not detected",
         },
-        # The whole panel is pending; no fraction has a September measurement yet.
-        "Proteinogram": {row[0]: "pending" for row in data["Proteinogram"]},
+        "Proteinogram": {
+            "Total Protein": "74.90", "Albumin": "60.1", "Alpha-1 Globulin": "3.5",
+            "Alpha-2 Globulin": "7.6", "Beta-1 Globulin": "6.4", "Beta-2 Globulin": "4.6",
+            "Gamma Globulin": "17.8", "Albumin (Concentration)": "45.0",
+            "Alpha-1 Globulin (Concentration)": "2.6", "Alpha-2 Globulin (Concentration)": "5.7",
+            "Beta-1 Globulin (Concentration)": "4.8", "Beta-2 Globulin (Concentration)": "3.4",
+            "Gamma Globulin (Concentration)": "13.3",
+        },
         "Hormonal Panel": {"TSH": "4.25", "Free T3 (FT3)": "5.66", "Free T4 (FT4)": "19.70"},
     },
 }
@@ -1472,15 +1485,14 @@ for name in lab_followups["2026-09"]["Stool Pathogen PCR"]:
     no_score_markers.add(("Stool Pathogen PCR", name))
 no_score_markers.add(("Stool Analysis", "Yeast Cells"))
 
-# Twelve of the original 14 pending tests remain without a supplied result after
-# the September 17 portal screenshots completed calprotectin and elastase.
+# Eleven original tests remain without supplied results after the September 17
+# PDFs. Urinary iodine is no longer listed as pending, but no result was supplied.
 # Assays without a completed result do not acquire guessed units or references.
 lab_pending_tests = {
     "Immunology & Inflammation": ["DGP IgG", "ANA (IIFT + titre)", "ANA/ENA immunoblot", "tTG IgA"],
     "Stool Analysis": ["Histamine", "Secretory sIgA", "Butyric acid", "Zonulin"],
     "Urine Chemistry": ["Iodine in 24-hour urine"],
     "Urine Culture": ["Urine culture"],
-    "Proteinogram": ["Serum protein electrophoresis (whole panel)"],
     "Micronutrients": ["Selenium"],
 }
 
@@ -1726,6 +1738,14 @@ result_notes = {
             "text": "EPEC was detected by PCR; the earlier negative stool culture tested different organisms.",
             "markers": [
                 {"row": "Enteropathogenic E. coli (EPEC)", "target": "value", "dates": ["2026-09"]},
+            ],
+        },
+    ],
+    "Proteinogram": [
+        {
+            "text": "Protein fractions are within range. The lab notes a double alpha-2 fraction, with no hemolysis.",
+            "markers": [
+                {"rows": ["Alpha-2 Globulin", "Alpha-2 Globulin (Concentration)"], "target": "value", "dates": ["2026-09"]},
             ],
         },
     ],
