@@ -594,13 +594,23 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
     # Missing/unrecognized reference text cannot establish a healthy result.
     return None
 
+def qualitative_status(value):
+    """Color completed qualitative results without assigning a severity score."""
+    text = str(value).strip().casefold()
+    if text in {"negative", "not detected", "non-reactive", "absent"}:
+        return ("#00008b", "🔵", "Negative / not detected")
+    if text in {"positive", "detected", "reactive", "present"}:
+        return ("#a84a00", "🟠", "Detected / present; qualitative result")
+    return NEUTRAL
+
+
 def format_cell_html(val, ref, category=None, marker=None):
     status = guide_status(category, marker, val)
     if status is not None:
         return format_status(val, status)
     score = calculate_score(val, ref, category, marker)
     if score is None:
-        return format_status(val, NEUTRAL)
+        return format_status(val, qualitative_status(val))
     color, emoji = get_color_hex(score)
     target = target_overrides.get((category, marker))
     arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)
@@ -613,7 +623,7 @@ def format_cell_md(val, ref, category=None, marker=None):
         return format_status(val, status, markdown=True)
     score = calculate_score(val, ref, category, marker)
     if score is None:
-        return format_status(val, NEUTRAL, markdown=True)
+        return format_status(val, qualitative_status(val), markdown=True)
     _, emoji = get_color_hex(score)
     target = target_overrides.get((category, marker))
     arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)

@@ -525,7 +525,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 |  | Trend | 2026-09 | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **CRP (hs)** | ⚪ | - | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | not detected | mg/l | < 5.0; target < 1 |
+| **CRP (hs)** | ⚪ | - | 🔵 0.611 | 🔵 0.448 | 🔵 < 0.15 | 🔵 not detected | mg/l | < 5.0; target < 1 |
 | **CRP (Conventional)** | - | 🔵 0.7 | - | - | - | - | mg/L | < 5.0 |
 | **IL-6** | ⚪ | - | 🔵 <1.5 | 🔵 < 1.5 | 🔵 1.6 | - | pg/ml | < 7.0; target < 2 |
 | **Calprotectin (Circulating)** | 🟡 | - | 🔵 1.33 | 🔵 0.43 | 🔵 0.41 | - | ug/mL | < 2.0; target < 1 |
@@ -602,7 +602,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Muscle Fibers** | - | 🟡 single in preparation | 🟡 single in preparation |  | absent |
 | **Mucus** | - | 🟡 single in preparation | 🟡 few in preparation |  | absent |
 | **Leukocytes on Mucus** | - | - | 🟠 present |  | absent |
-| **Yeast Cells** | - | present | - | Status | - |
+| **Yeast Cells** | - | 🟠 present | - | Status | - |
 | **Occult Blood (Human Hemoglobin)** | - | 🔵 negative | - | Status | negative |
 | **Parasites (Stool Ova)** | - | - | 🔵 negative | Status | negative |
 | **Amoeba (Cysts/Trophozoites)** | - | - | 🔵 not detected | Status | not detected |
@@ -757,27 +757,27 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 
 |  | 2026-09 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
-| **Adenovirus F 40/41** | not detected | Status | - |
-| **Astrovirus** | not detected | Status | - |
-| **Norovirus GI/GII** | not detected | Status | - |
-| **Rotavirus A** | not detected | Status | - |
-| **Sapovirus (I, II, IV, V)** | not detected | Status | - |
-| **Campylobacter (jejuni, coli, upsaliensis)** | not detected | Status | - |
-| **Clostridioides difficile (Toxin A/B)** | not detected | Status | - |
-| **Plesiomonas shigelloides** | not detected | Status | - |
-| **Salmonella** | not detected | Status | - |
-| **Vibrio (parahaemolyticus, vulnificus, cholerae)** | not detected | Status | - |
-| **Vibrio cholerae** | not detected | Status | - |
-| **Yersinia enterocolitica** | not detected | Status | - |
-| **Enteroaggregative E. coli (EAEC)** | not detected | Status | - |
-| **Enteropathogenic E. coli (EPEC)** | detected<sup>1</sup> | Status | - |
-| **Enterotoxigenic E. coli (ETEC) lt/st** | not detected | Status | - |
-| **Shiga-like Toxin-producing E. coli (STEC) stx1/stx2** | not detected | Status | - |
-| **Shigella/Enteroinvasive E. coli (EIEC)** | not detected | Status | - |
-| **Cryptosporidium** | not detected | Status | - |
-| **Cyclospora cayetanensis** | not detected | Status | - |
-| **Entamoeba histolytica** | not detected | Status | - |
-| **Giardia lamblia** | not detected | Status | - |
+| **Adenovirus F 40/41** | 🔵 not detected | Status | - |
+| **Astrovirus** | 🔵 not detected | Status | - |
+| **Norovirus GI/GII** | 🔵 not detected | Status | - |
+| **Rotavirus A** | 🔵 not detected | Status | - |
+| **Sapovirus (I, II, IV, V)** | 🔵 not detected | Status | - |
+| **Campylobacter (jejuni, coli, upsaliensis)** | 🔵 not detected | Status | - |
+| **Clostridioides difficile (Toxin A/B)** | 🔵 not detected | Status | - |
+| **Plesiomonas shigelloides** | 🔵 not detected | Status | - |
+| **Salmonella** | 🔵 not detected | Status | - |
+| **Vibrio (parahaemolyticus, vulnificus, cholerae)** | 🔵 not detected | Status | - |
+| **Vibrio cholerae** | 🔵 not detected | Status | - |
+| **Yersinia enterocolitica** | 🔵 not detected | Status | - |
+| **Enteroaggregative E. coli (EAEC)** | 🔵 not detected | Status | - |
+| **Enteropathogenic E. coli (EPEC)** | 🟠<sup>1</sup> detected | Status | - |
+| **Enterotoxigenic E. coli (ETEC) lt/st** | 🔵 not detected | Status | - |
+| **Shiga-like Toxin-producing E. coli (STEC) stx1/stx2** | 🔵 not detected | Status | - |
+| **Shigella/Enteroinvasive E. coli (EIEC)** | 🔵 not detected | Status | - |
+| **Cryptosporidium** | 🔵 not detected | Status | - |
+| **Cyclospora cayetanensis** | 🔵 not detected | Status | - |
+| **Entamoeba histolytica** | 🔵 not detected | Status | - |
+| **Giardia lamblia** | 🔵 not detected | Status | - |
 
 **Notes:**
 <sup>1</sup> EPEC was detected by PCR; the earlier negative stool culture tested different organisms.

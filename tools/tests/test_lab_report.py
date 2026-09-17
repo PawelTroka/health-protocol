@@ -123,12 +123,17 @@ class SeptemberLabReportTests(unittest.TestCase):
         for row in rows:
             values = self.observations("Stool Pathogen PCR", row[0])
             self.assertTrue(all(value == "-" for month, value in values.items() if month != "2026-09"))
+            self.assertIsNone(self.report["calculate_score"](values["2026-09"], row[-1], "Stool Pathogen PCR", row[0]))
         for output_format in ("html", "md"):
             rendered = self.report[f"render_result_table_{output_format}"]("Stool Pathogen PCR", rows)
             table = rendered_table_rows(rendered, output_format)
             self.assertEqual([cell for cell in table[0] if re.fullmatch(r"\d{4}-\d{2}", cell)], ["2026-09"])
             self.assertNotIn("Trend", table[0])
             self.assertEqual(Counter(cells[0] for cells in table[1:]), Counter(outcomes.keys()))
+            result_index = table[0].index("2026-09")
+            for cells in table[1:]:
+                expected_dot = "🟠" if outcomes[cells[0]] == "detected" else "🔵"
+                self.assertTrue(cells[result_index].startswith(expected_dot + " "), cells)
 
     def test_pending_registry_excludes_completed_stool_and_proteinogram_results(self):
         pending = [name for names in self.report["lab_pending_tests"].values() for name in names]
