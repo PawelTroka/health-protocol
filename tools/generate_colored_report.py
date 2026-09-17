@@ -14,7 +14,8 @@ from tools.health_sync.report_guidance import (
 )
 from tools.health_sync.microbiota_guidance import microbiota_reference, microbiota_status
 from tools.imaging_report import (
-    IMAGING_CSS, render_imaging_html, render_imaging_md, validate_imaging_sources,
+    GROUPS as IMAGING_GROUPS, IMAGING_CSS, imaging_group_anchor, markdown_heading_anchor,
+    render_imaging_html, render_imaging_md, validate_imaging_sources,
 )
 
 
@@ -1975,6 +1976,67 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
     return md
 
 
+def result_anchor(title, parent=None):
+    title = f"{parent}-{title}" if parent else title
+    return "results-" + re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+
+
+def report_contents(markdown=False):
+    def anchor(title, parent=None):
+        return markdown_heading_anchor(title) if markdown else result_anchor(title, parent)
+
+    category_groups = (
+        ("Overview", ("Biological Age", "Vitals & Functional Health")),
+        ("Blood tests", ("Morphology", "Metabolic Health", "Cardiac Health & Coagulation",
+                         "Micronutrients", "Immunology & Inflammation", "Tumor Markers",
+                         "Infectious Diseases", "Proteinogram", "Hormonal Panel")),
+        ("Urine", ("Urinalysis (General)", "Urinalysis (Sediment)", "Urine Chemistry",
+                   "Urine Culture", "Toxicology (Urine)")),
+        ("Gut", ("Stool Analysis", MICROBIOTA_CATEGORY, "Stool Culture", "Stool Pathogen PCR")),
+    )
+    sections = []
+    included = set()
+    for title, categories in category_groups:
+        links = [(category, f"#{anchor(category)}") for category in categories if category in data]
+        included.update(category for category in categories if category in data)
+        if links:
+            sections.append((title, links))
+        if title == "Overview" and "Vitals & Functional Health" in data:
+            groups = layout(data["Vitals & Functional Health"])
+            links = [(group['title'], f"#{anchor(group['title'], 'vitals')}")
+                     for group in groups if not group['details']]
+            if any(group['details'] for group in groups):
+                links.append(("Detailed device measurements", "#results-vitals-details"))
+            if links:
+                sections.append(("Vitals", links))
+    other = [(category, f"#{anchor(category)}") for category in data if category not in included]
+    if other:
+        sections.append(("Other results", other))
+    imaging_anchor = markdown_heading_anchor("Structural & Diagnostic Imaging") if markdown else "imaging"
+    sections.append(("Imaging", [("Examination index", f"#{imaging_anchor}")] + [
+        (title, f"#{markdown_heading_anchor(title) if markdown else imaging_group_anchor(title)}") for title, _ in IMAGING_GROUPS
+    ]))
+    sections.append(("Guide", [("Color legend", "#" + (markdown_heading_anchor("🎨 Color Legend") if markdown else "results-color-legend")),
+                               ("Trend legend", "#" + (markdown_heading_anchor("Trend Legend") if markdown else "results-trend-legend")),
+                               ("Testing protocol", "README.md#2-testing")]))
+    return sections
+
+
+def render_contents_html():
+    html = "<nav class='report-contents' aria-labelledby='report-contents'><h2 id='report-contents'>Contents</h2><dl>"
+    for title, links in report_contents():
+        items = "".join(f"<li><a href='{escape(href, quote=True)}'>{escape(label)}</a></li>" for label, href in links)
+        html += f"<div><dt>{escape(title)}</dt><dd><ul>{items}</ul></dd></div>"
+    return html + "</dl></nav>"
+
+
+def render_contents_md():
+    md = "## Contents\n\n"
+    for title, links in report_contents(markdown=True):
+        md += f"- **{title}:** " + " · ".join(f"[{label}]({href})" for label, href in links) + "\n"
+    return md + "\n"
+
+
 VITALS_INTRO = (
     "Monthly averages; current month to date. Dated snapshots are identified in the source notes."
 )
@@ -1988,16 +2050,17 @@ def render_vitals_html(rows):
     category = "Vitals & Functional Health"
     groups = layout(rows)
     totals = counts(groups)
-    html = f"<section class='vitals'><h2>{escape(category)}</h2>"
+    html = f"<section class='vitals' id='{result_anchor(category)}'><h2>{escape(category)}</h2>"
     html += f"<p class='section-intro'>{VITALS_INTRO}</p>"
     for detailed in (False, True):
         selected = [group for group in groups if group['details'] == detailed]
         if not selected:
             continue
         if detailed:
+            html += "<a id='results-vitals-details'></a>"
             html += f"<details><summary>Detailed device measurements · {totals['details']} metrics</summary>"
         for group in selected:
-            html += f"<section class='metric-group'><h3>{escape(group['title'])}</h3>"
+            html += f"<section class='metric-group' id='{result_anchor(group['title'], 'vitals')}'><h3>{escape(group['title'])}</h3>"
             html += "<div class='table-scroll'>"
             html += render_result_table_html(category, group['rows'], compact=True)
             html += "</div></section>"
@@ -2018,7 +2081,7 @@ def render_vitals_md(rows):
         if not selected:
             continue
         if detailed:
-            md += f"<details>\n<summary>Detailed device measurements · {totals['details']} metrics</summary>\n\n"
+            md += f"<details>\n<summary id='results-vitals-details'>Detailed device measurements · {totals['details']} metrics</summary>\n\n"
         for group in selected:
             md += f"### {group['title']}\n\n"
             md += render_result_table_md(category, group['rows'], compact=True) + "\n"
@@ -2063,7 +2126,7 @@ MICROBIOTA_SCALE = (
 def render_microbiota_html(rows):
     sections = microbiota_report_sections(rows)
     count = sum(len(section['rows']) for section in sections if section['details'])
-    html = f"<section class='microbiota'><h2>{escape(MICROBIOTA_CATEGORY)}</h2>"
+    html = f"<section class='microbiota' id='{result_anchor(MICROBIOTA_CATEGORY)}'><h2>{escape(MICROBIOTA_CATEGORY)}</h2>"
     html += f"<p class='section-intro'>{MICROBIOTA_INTRO}</p>"
     for detailed in (False, True):
         selected = [section for section in sections if section['details'] == detailed]
@@ -2113,6 +2176,11 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += ".table-notes p { margin: 3px 0; }"
     html += "sup { font-size: 0.75em; }"
     html += "h1 { font-size: 1.8rem; } h2 { margin-top: 36px; }"
+    html += "[id] { scroll-margin-top: 20px; } .report-contents { margin: 20px 0 32px; padding: 18px 22px; background: #f4f7fa; border: 1px solid #dce4ed; border-radius: 8px; }"
+    html += ".report-contents h2 { margin: 0 0 12px; font-size: 1.1rem; } .report-contents dl { margin: 0; } .report-contents dl > div { display: grid; grid-template-columns: 100px 1fr; gap: 12px; padding: 7px 0; }"
+    html += ".report-contents dt { font-weight: 600; } .report-contents dd { margin: 0; } .report-contents ul { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; margin: 0; padding: 0; }"
+    html += ".report-contents a { color: #24598c; text-underline-offset: 3px; } .report-contents a:focus-visible { outline: 2px solid #24598c; outline-offset: 3px; }"
+    html += "@media(max-width: 700px) { .report-contents { padding: 14px; font-size: .9rem; } .report-contents dl > div { grid-template-columns: 1fr; gap: 5px; } } @media print { .report-contents { display: none; } }"
     html += ".vitals { margin: 32px 0; } .vitals h2 { margin-bottom: 8px; }"
     html += ".section-intro, .group-description { color: #536278; margin: 6px 0 12px; font-size: 0.92rem; }"
     html += ".section-meta { color: #536278; font-size: 0.85rem; margin: 12px 0 24px; }"
@@ -2133,7 +2201,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += IMAGING_CSS
     html += "</style></head><body>"
     html += "<h1>Health Protocol: Results &amp; Imaging</h1>"
-    html += "<nav class='report-nav' aria-label='Report navigation'><a href='#measurements'>Measurements &amp; laboratory results</a><a href='#imaging'>Imaging &amp; reports</a><a href='README.md#2-testing'>Testing protocol</a></nav>"
+    html += render_contents_html()
     html += "<div id='measurements'>"
     # Patient info removed
     
@@ -2143,7 +2211,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
         elif category == MICROBIOTA_CATEGORY:
             html += render_microbiota_html(rows)
         else:
-            html += f"<h2>{category}</h2>"
+            html += f"<h2 id='{result_anchor(category)}'>{escape(category)}</h2>"
             html += "<div class='table-scroll'>" + render_result_table_html(category, rows) + "</div>"
             html += render_result_notes_html(category)
 
@@ -2152,7 +2220,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += render_imaging_html()
 
     # Legend
-    html += "<h3>🎨 Color Legend</h3><ul>"
+    html += "<h3 id='results-color-legend'>🎨 Color Legend</h3><ul>"
     html += "<li><span style='color:#00008b; font-weight:bold;'>● Dark Blue</span>: Target / low-risk</li>"
     html += "<li><span style='color:#00bfff; font-weight:bold;'>● Light Blue</span>: Near target / good</li>"
     html += "<li><span style='color:#006400; font-weight:bold;'>● Dark Green</span>: Acceptable</li>"
@@ -2166,7 +2234,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += "<p class='note'>Single-result colors use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.</p>"
     html += "<p class='note'><a href='results/Reference-Guide.md'>Reference sources and methods</a> · <a href='results/Labs-2026-09-16/Sources.md'>September laboratory sources</a>.</p>"
 
-    html += "<h3>Trend Legend</h3><ul>"
+    html += "<h3 id='results-trend-legend'>Trend Legend</h3><ul>"
     for label, definition in trend_definitions.items():
         html += f"<li><span style='font-weight:bold;'>{definition['emoji']} {label}</span>: {definition['description'].capitalize()}</li>"
     html += "<li><b>-</b>: not enough comparable completed results</li>"
@@ -2182,8 +2250,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
 def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     validate_imaging_sources(REPORT_ROOT)
     md = "# Health Protocol: Results & Imaging\n\n"
-    md += "[Measurements & laboratory results](#measurements) · [Imaging & reports](#imaging) · [Testing protocol](README.md#2-testing)\n\n"
-    md += "<a id='measurements'></a>\n\n"
+    md += render_contents_md()
     # Patient info removed
 
     for category, rows in data.items():

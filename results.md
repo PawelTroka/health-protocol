@@ -1,8 +1,14 @@
 # Health Protocol: Results & Imaging
 
-[Measurements & laboratory results](#measurements) · [Imaging & reports](#imaging) · [Testing protocol](README.md#2-testing)
+## Contents
 
-<a id='measurements'></a>
+- **Overview:** [Biological Age](#biological-age) · [Vitals & Functional Health](#vitals--functional-health)
+- **Vitals:** [Body composition](#body-composition) · [Body measurements](#body-measurements) · [Heart and circulation](#heart-and-circulation) · [Sleep and breathing](#sleep-and-breathing) · [Recovery and stress](#recovery-and-stress) · [Activity and fitness](#activity-and-fitness) · [Nerve health and temperature](#nerve-health-and-temperature) · [Detailed device measurements](#results-vitals-details)
+- **Blood tests:** [Morphology](#morphology) · [Metabolic Health](#metabolic-health) · [Cardiac Health & Coagulation](#cardiac-health--coagulation) · [Micronutrients](#micronutrients) · [Immunology & Inflammation](#immunology--inflammation) · [Tumor Markers](#tumor-markers) · [Infectious Diseases](#infectious-diseases) · [Proteinogram](#proteinogram) · [Hormonal Panel](#hormonal-panel)
+- **Urine:** [Urinalysis (General)](#urinalysis-general) · [Urinalysis (Sediment)](#urinalysis-sediment) · [Urine Chemistry](#urine-chemistry) · [Urine Culture](#urine-culture) · [Toxicology (Urine)](#toxicology-urine)
+- **Gut:** [Stool Analysis](#stool-analysis) · [Gut Microbiota (GA-map)](#gut-microbiota-ga-map) · [Stool Culture](#stool-culture) · [Stool Pathogen PCR](#stool-pathogen-pcr)
+- **Imaging:** [Examination index](#structural--diagnostic-imaging) · [Facial CT](#facial-ct) · [Abdominal wall · before and after repair](#abdominal-wall--before-and-after-repair) · [Dental imaging](#dental-imaging)
+- **Guide:** [Color legend](#-color-legend) · [Trend legend](#trend-legend) · [Testing protocol](README.md#2-testing)
 
 ## Biological Age
 
@@ -117,7 +123,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Temperature Deviation** | ↓ -0.01 | -0.02<sup>7</sup> | -0.01<sup>7</sup> | -0.07<sup>7</sup> | °C | - |
 
 <details>
-<summary>Detailed device measurements · 136 metrics</summary>
+<summary id='results-vitals-details'>Detailed device measurements · 136 metrics</summary>
 
 ### Body composition details
 
@@ -826,8 +832,6 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 <sup>3</sup> TSH remains slightly high at 4.25mIU/L, with FT3 and FT4 within range. July testing had biotin and preparation caveats; September washout is unknown.
 <sup>4</sup> Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.
 
-<a id='imaging'></a>
-
 ## Structural & Diagnostic Imaging
 
 Dated examinations and their source records, newest first. Written-report findings, image files and scan archives are identified separately. Imaging is not assigned a lab score or folded into monthly averages.
@@ -836,16 +840,14 @@ Dated examinations and their source records, newest first. Written-report findin
 
 | Date | Examination | Available records |
 | :--- | :--- | :--- |
-| 2026-08-14 | [Facial skeleton CT](#imaging-facial-ct-2026-08-14) | Report transcription + DICOM |
-| 2026-05-19 | [Abdominal-wall ultrasound · after repair](#imaging-abdominal-wall-2026-05-19) | Report PDF + images |
-| 2025-12-04 | [Abdominal and abdominal-wall ultrasound · before repair](#imaging-abdominal-wall-2025-12-04) | Report PDF + images |
-| 2025-10-27 | [Dental CBCT](#imaging-dental-cbct-2025-10-27) | Images only · no written report |
-| 2024-05-06 | [Panoramic dental X-ray](#imaging-dental-panoramic-2024-05-06) | Images only · no written report |
-| 2024-05-06 | [Lateral cephalometric X-ray](#imaging-dental-lateral-2024-05-06) | Images only · no written report |
+| 2026-08-14 | [Facial skeleton CT](#2026-08-14--facial-skeleton-ct) | Report transcription + DICOM |
+| 2026-05-19 | [Abdominal-wall ultrasound · after repair](#2026-05-19--abdominal-wall-ultrasound--after-repair) | Report PDF + images |
+| 2025-12-04 | [Abdominal and abdominal-wall ultrasound · before repair](#2025-12-04--abdominal-and-abdominal-wall-ultrasound--before-repair) | Report PDF + images |
+| 2025-10-27 | [Dental CBCT](#2025-10-27--dental-cbct) | Images only · no written report |
+| 2024-05-06 | [Panoramic dental X-ray](#2024-05-06--panoramic-dental-x-ray) | Images only · no written report |
+| 2024-05-06 | [Lateral cephalometric X-ray](#2024-05-06--lateral-cephalometric-x-ray) | Images only · no written report |
 
 ### Facial CT
-
-<a id='imaging-facial-ct-2026-08-14'></a>
 
 #### 2026-08-14 · Facial skeleton CT
 
@@ -871,13 +873,9 @@ The archive has 905 DICOM objects in 9 series, including four 1mm reconstruction
 
 </details>
 
-[Back to imaging index ↑](#imaging)
-
 ### Abdominal wall · before and after repair
 
 The December 2025 and May 2026 reports document the abdominal wall before and after repair. The 8×8mm hernia defect and the later linea alba width up to ~4cm are different measurements; they are not a size trend. The postoperative finding is specific to the May 19 examination.
-
-<a id='imaging-abdominal-wall-2025-12-04'></a>
 
 #### 2025-12-04 · Abdominal and abdominal-wall ultrasound · before repair
 
@@ -896,10 +894,6 @@ Examination date printed on the original ultrasound report.
 
 </details>
 
-[Back to imaging index ↑](#imaging)
-
-<a id='imaging-abdominal-wall-2026-05-19'></a>
-
 #### 2026-05-19 · Abdominal-wall ultrasound · after repair
 
 **Ultrasound (USG)** · Report PDF + images
@@ -917,11 +911,7 @@ Examination date printed on the original ultrasound report.
 
 </details>
 
-[Back to imaging index ↑](#imaging)
-
 ### Dental imaging
-
-<a id='imaging-dental-cbct-2025-10-27'></a>
 
 #### 2025-10-27 · Dental CBCT
 
@@ -940,10 +930,6 @@ The ZIP contains 347 DICOM files in one 0.15mm series and two XML files, with no
 
 </details>
 
-[Back to imaging index ↑](#imaging)
-
-<a id='imaging-dental-panoramic-2024-05-06'></a>
-
 #### 2024-05-06 · Panoramic dental X-ray
 
 **X-ray (RTG) · panoramic** · Images only · no written report
@@ -959,10 +945,6 @@ Date verified from the 06.05.2024 overlay on the original JPEG.
 
 </details>
 
-[Back to imaging index ↑](#imaging)
-
-<a id='imaging-dental-lateral-2024-05-06'></a>
-
 #### 2024-05-06 · Lateral cephalometric X-ray
 
 **X-ray (RTG) · lateral** · Images only · no written report
@@ -977,8 +959,6 @@ A lateral cephalometric radiograph is archived as a JPEG. No written interpretat
 Date verified from the 06.05.2024 overlay on the original JPEG.
 
 </details>
-
-[Back to imaging index ↑](#imaging)
 
 ### 🎨 Color Legend
 *   🔵 **Target / low-risk**: At target or very close to target

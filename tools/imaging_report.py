@@ -170,6 +170,15 @@ def _links(study, *, html):
     return " · ".join(f"[{source.label}]({quote(source.path, safe='/')})" for source in study.sources)
 
 
+def imaging_group_anchor(title):
+    return "imaging-group-" + re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+
+
+def markdown_heading_anchor(title):
+    """GitHub-style anchors for the report's plain-text Markdown headings."""
+    return re.sub(r"[^\w\- ]", "", title.lower()).replace(" ", "-")
+
+
 def render_imaging_html():
     lookup = {study.id: study for study in STUDIES}
     parts = ["<section class='imaging' id='imaging' aria-labelledby='imaging-title'>",
@@ -183,7 +192,7 @@ def render_imaging_html():
                      f"<td><a href='#imaging-{study.id}'>{escape(study.title)}</a></td><td>{escape(study.availability)}</td></tr>")
     parts.append("</tbody></table></div>")
     for title, ids in GROUPS:
-        parts.append(f"<section class='imaging-group'><h3>{escape(title)}</h3>")
+        parts.append(f"<section class='imaging-group' id='{imaging_group_anchor(title)}'><h3>{escape(title)}</h3>")
         if title.startswith("Abdominal"):
             parts.append(f"<p class='imaging-context'>{escape(COMPARISON)}</p>")
         parts.append("<div class='imaging-cards'>")
@@ -203,24 +212,24 @@ def render_imaging_html():
             parts.append(f"<p>{escape(study.date_basis)}</p>")
             if study.viewing:
                 parts.append(f"<p>{escape(study.viewing)}</p>")
-            parts.append("</details><p class='imaging-back'><a href='#imaging'>Back to imaging index ↑</a></p></article>")
+            parts.append("</details></article>")
         parts.append("</div></section>")
     return "".join(parts) + "</section>"
 
 
 def render_imaging_md():
     lookup = {study.id: study for study in STUDIES}
-    parts = ["<a id='imaging'></a>\n\n## Structural & Diagnostic Imaging", INTRO,
+    parts = ["## Structural & Diagnostic Imaging", INTRO,
              _inventory_summary() + ".",
              "| Date | Examination | Available records |\n| :--- | :--- | :--- |\n" + "\n".join(
-                 f"| {study.date} | [{study.title}](#imaging-{study.id}) | {study.availability} |" for study in STUDIES)]
+                 f"| {study.date} | [{study.title}](#{markdown_heading_anchor(f'{study.date} · {study.title}')}) | {study.availability} |" for study in STUDIES)]
     for title, ids in GROUPS:
         parts.append(f"### {title}")
         if title.startswith("Abdominal"):
             parts.append(COMPARISON)
         for study_id in ids:
             study = lookup[study_id]
-            parts.append(f"<a id='imaging-{study.id}'></a>\n\n#### {study.date} · {study.title}")
+            parts.append(f"#### {study.date} · {study.title}")
             parts.append(f"**{study.modality}** · {study.availability}")
             parts.append(study.summary)
             if study.findings:
@@ -231,7 +240,6 @@ def render_imaging_md():
             parts.append("**Source files:** " + _links(study, html=False))
             details = study.date_basis + ("\n\n" + study.viewing if study.viewing else "")
             parts.append(f"<details>\n<summary>Source details &amp; viewing</summary>\n\n{details}\n\n</details>")
-            parts.append("[Back to imaging index ↑](#imaging)")
     return "\n\n".join(parts) + "\n\n"
 
 
@@ -261,7 +269,6 @@ IMAGING_CSS = """
 .imaging details { border-top: 1px solid #e2e8f0; padding-top: 12px; font-size: .87rem; color: #536278; }
 .imaging summary { cursor: pointer; color: #344d6c; }
 .imaging summary:focus-visible, .imaging a:focus-visible { outline: 2px solid #24598c; outline-offset: 3px; }
-.imaging-back { font-size: .8rem; margin: 16px 0 0; }
 @media(max-width: 700px) { .imaging-card { padding: 16px; } .imaging-index { min-width: 0; font-size: .82rem; } .imaging-index th, .imaging-index td { padding: 8px; } }
-@media print { .imaging-card { break-inside: avoid; } .imaging-back, .report-nav { display: none; } }
+@media print { .imaging-card { break-inside: avoid; } .report-nav { display: none; } }
 """

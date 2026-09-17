@@ -198,12 +198,19 @@ class ImagingGeneratorIntegrationTests(unittest.TestCase):
             parsed.feed(rendered)
             hrefs = parsed.hrefs if output_format == "html" else markdown_links(rendered)
             ids = Counter(parsed.ids)
+            imaging_anchor = "imaging"
+            if output_format == "md":
+                ids.update(imaging_report.markdown_heading_anchor(title)
+                           for title in re.findall(r"^#{1,6} (.+)$", rendered, re.MULTILINE))
+                imaging_anchor = imaging_report.markdown_heading_anchor("Structural & Diagnostic Imaging")
             with self.subTest(output_format=output_format):
-                self.assertEqual(ids["imaging"], 1)
-                self.assertIn("#imaging", hrefs)
-                self.assertEqual(ids["measurements"], 1)
+                self.assertEqual(ids[imaging_anchor], 1)
+                self.assertIn(f"#{imaging_anchor}", hrefs)
+                if output_format == "html":
+                    self.assertEqual(ids["measurements"], 1)
                 for study in imaging_report.STUDIES:
-                    anchor = f"imaging-{study.id}"
+                    anchor = (f"imaging-{study.id}" if output_format == "html" else
+                              imaging_report.markdown_heading_anchor(f"{study.date} · {study.title}"))
                     self.assertEqual(ids[anchor], 1)
                     self.assertIn(f"#{anchor}", hrefs)
                     for source in study.sources:
