@@ -1028,7 +1028,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
   - **Anesthesia**: Deep IV sedation
   - **Rationale**: 8x8mm epigastric hernia defect present since childhood, confirmed by [ultrasound on December 4, 2025](results/AbdominalWallUltrasound-2025-12-04/Report.pdf)
   - **Details**: Quick and succesful no-mesh repair of hernia linea albea
-  - **Recovery**: Post-operative [ultrasound (May 19, 2026)](results/AbdominalWallUltrasound-2026-05-19/Report.pdf) found no features of hernia or pathological fluid collections; linea alba width at the operated site up to ~4cm, distinct from a hernia defect. See the [before-and-after reports](results.md#imaging-abdominal-wall-2025-12-04). Progression with core exercises requires caution
+  - **Recovery**: Post-operative [ultrasound (May 19, 2026)](results/AbdominalWallUltrasound-2026-05-19/Report.pdf) found no features of hernia or pathological fluid collections; linea alba width at the operated site up to ~4cm, distinct from a hernia defect. See the [before-and-after reports](results.md#2025-12-04--abdominal-and-abdominal-wall-ultrasound--before-repair). Progression with core exercises requires caution
 - **Septorhinoplasty + Conchoplasty**
   - **Date**: February 28, 2026
   - **Facility**: [Memorial Bahcelievler Hastanesi](https://www.memorial.com.tr/hastaneler-ve-tip-merkezleri/memorial-bahcelievler-hastanesi) Istanbul, Turkey
