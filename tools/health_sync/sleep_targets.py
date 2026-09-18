@@ -211,10 +211,26 @@ _add(
     reference="Algorithm contribution; not a quality score",
     direction="none", valid=(None, None),
 )
+# The API defines a 0–100 index derived from detected SpO2 drops. Fewer drops
+# support the direction, but do not establish clinical severity thresholds.
+# https://api.ouraring.com/v2/static/json/openapi-1.37.json
+# https://ouraring.com/blog/blood-oxygen-sensing-spo2/
 _add(
     ("Breathing Disturbance Index (Oura)",),
-    reference="Device index; no verified severity thresholds",
-    direction="none", valid=(0, 100),
+    reference="Lower disturbance burden; device index 0–100",
+    direction="down", valid=(0, 100), trend_min_change=0.1,
+)
+# These two API fields are numeric intensities, not category codes. Preserve
+# their identities; the provider's wellness bands are separate from AHI.
+# Sleep Analyzer manual v6, p29:
+# https://support.withings.com/hc/article_attachments/13710141655825
+_add(
+    ("Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)"),
+    reference="<30 few; 30–<60 moderate; ≥60 high",
+    direction="down", valid=(0, 100), trend_min_change=0.1,
+    bands=((60, "🟠", "Withings: high breathing disturbances"),
+           (30, "🟡", "Withings: moderate breathing disturbances"),
+           (0, "🟢", "Withings: few breathing disturbances")),
 )
 _add(
     ("Breathing Sounds Duration (Withings)",),

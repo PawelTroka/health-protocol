@@ -188,6 +188,113 @@ class SeptemberLabReportTests(unittest.TestCase):
         self.assertEqual(self.observations("Metabolic Health", "Albumin")["2026-07"], "48.90")
         self.assertEqual(self.observations("Metabolic Health", "Albumin")["2026-09"], "-")
 
+    def test_proteinogram_has_no_preferred_normal_midpoint(self):
+        score = self.report["calculate_score"]
+        classify = self.report["classify_trend"]
+        for row in self.report["data"]["Proteinogram"]:
+            marker, _, _, reference = self.report["split_result_row"](row)
+            low, high = map(float, reference.split(" - "))
+            readings = [str(low), str((low + high) / 2), str(high)]
+            with self.subTest(marker=marker):
+                scores = [score(value, reference, "Proteinogram", marker) for value in readings]
+                self.assertEqual(len(set(scores)), 1)
+                self.assertEqual(self.report["get_color_hex"](scores[0])[1], "🟢")
+                for pair in (readings[:2], readings[1:], readings[::2], readings[::-2]):
+                    self.assertEqual(classify(pair, reference, "Proteinogram", marker), "Stable")
+                just_low = str(low - (high - low) * 0.01)
+                far_low = str(low - (high - low))
+                just_high = str(high + (high - low) * 0.01)
+                far_high = str(high + (high - low))
+                for near, far in ((just_low, far_low), (just_high, far_high)):
+                    self.assertGreater(score(near, reference, "Proteinogram", marker), 1)
+                    self.assertGreater(score(far, reference, "Proteinogram", marker),
+                                       score(near, reference, "Proteinogram", marker))
+                    self.assertIn(classify([readings[1], near], reference, "Proteinogram", marker),
+                                  {"Improvement", "Major Improvement", "Breakthrough"})
+                    self.assertIn(classify([near, readings[1]], reference, "Proteinogram", marker),
+                                  {"Mild Worsening", "Major Decline", "Critical Decline"})
+        # The category-specific policy must not flatten other laboratory ranges.
+        self.assertNotEqual(score("4.7", "4.7 - 7.2"), score("5.95", "4.7 - 7.2"))
+
+    def test_current_proteinogram_preserves_normalization_without_midpoint_trends(self):
+        for row in self.report["data"]["Proteinogram"]:
+            marker, values, _, reference = self.report["split_result_row"](row)
+            if sum(value not in {"-", "", None} for value in values) < 2:
+                continue
+            with self.subTest(marker=marker):
+                expected = "Improvement" if marker == "Alpha-2 Globulin" else "Stable"
+                self.assertEqual(self.report["classify_trend"](values, reference, "Proteinogram", marker), expected)
+
+    def test_explicit_directional_lab_targets_work_in_both_directions_inside_target(self):
+        classify = self.report["classify_trend"]
+        cases = [
+            ("Cardiac Health & Coagulation", "ApoB", "0.50", "0.60"),
+            ("Cardiac Health & Coagulation", "Cholesterol LDL", "55", "65"),
+            ("Cardiac Health & Coagulation", "Cholesterol Non-HDL", "80", "95"),
+            ("Cardiac Health & Coagulation", "Triglycerides", "50", "70"),
+            ("Cardiac Health & Coagulation", "Homocysteine", "6", "7.5"),
+            ("Cardiac Health & Coagulation", "ApoA1", "1.5", "1.3"),
+            ("Cardiac Health & Coagulation", "Cholesterol HDL", "70", "60"),
+            ("Metabolic Health", "ALT", "12", "18"),
+            ("Metabolic Health", "GGTP", "14", "18"),
+            ("Metabolic Health", "Insulin", "4", "6"),
+            ("Immunology & Inflammation", "CRP (hs)", "0.4", "0.7"),
+            ("Immunology & Inflammation", "CRP (hs)", "0.0", "0.4"),
+        ]
+        for category, marker, better, worse in cases:
+            reference = self.row(category, marker)[-1]
+            with self.subTest(marker=marker):
+                self.assertEqual(classify([better, worse], reference, category, marker), "Improvement")
+                self.assertEqual(classify([worse, better], reference, category, marker), "Mild Worsening")
+                self.assertAlmostEqual(
+                    self.report["directional_percent_delta"](better, worse, reference, category, marker),
+                    -self.report["directional_percent_delta"](worse, better, reference, category, marker),
+                )
+
+    def test_lab_directional_display_filters_suppress_small_changes_symmetrically(self):
+        classify = self.report["classify_trend"]
+        cases = [
+            ("Cardiac Health & Coagulation", "ApoB", "0.59", "0.60"),
+            # Passes the relative threshold but not the absolute display floor.
+            ("Cardiac Health & Coagulation", "ApoB", "0.10", "0.11"),
+            ("Immunology & Inflammation", "CRP (hs)", "0.448", "0.611"),
+            ("Metabolic Health", "ALT", "10", "11"),
+            ("Cardiac Health & Coagulation", "ApoA1", "1.30", "1.35"),
+        ]
+        for category, marker, first, second in cases:
+            reference = self.row(category, marker)[-1]
+            with self.subTest(marker=marker):
+                for pair in ([first, second], [second, first]):
+                    self.assertEqual(classify(pair, reference, category, marker), "Stable")
+
+    def test_lab_direction_cannot_reward_low_or_high_target_overshoots(self):
+        classify = self.report["classify_trend"]
+        for category, marker, overshoot, acceptable in (
+            ("Metabolic Health", "Insulin", "1.0", "4.0"),
+            ("Metabolic Health", "Albumin", "55", "48"),
+            ("Cardiac Health & Coagulation", "Cholesterol HDL", "90", "70"),
+        ):
+            reference = self.row(category, marker)[-1]
+            with self.subTest(marker=marker):
+                for pair in ([overshoot, acceptable], [acceptable, overshoot]):
+                    self.assertIsNone(self.report["directional_percent_delta"](*pair, reference, category, marker))
+                self.assertIn(classify([overshoot, acceptable], reference, category, marker),
+                              {"Mild Worsening", "Major Decline", "Critical Decline"})
+                self.assertIn(classify([acceptable, overshoot], reference, category, marker),
+                              {"Improvement", "Major Improvement", "Breakthrough"})
+
+    def test_lab_symmetry_does_not_change_excluded_or_reference_only_fallbacks(self):
+        classify = self.report["classify_trend"]
+        for category, marker, lower, higher in (
+            ("Tumor Markers", "AFP (ng/ml)", "1.99", "2.84"),
+            ("Infectious Diseases", "Chlamydia IgM", "2.0", "2.7"),
+        ):
+            reference = self.row(category, marker)[-1]
+            self.assertEqual(classify([lower, higher], reference, category, marker), "Improvement")
+            self.assertEqual(classify([higher, lower], reference, category, marker), "Stable")
+        self.assertEqual(classify(["0.5", "1.0"], "< 10", "Unspecified", "Marker"), "Improvement")
+        self.assertEqual(classify(["1.0", "0.5"], "< 10", "Unspecified", "Marker"), "Stable")
+
     def test_all_followups_appear_in_september_in_both_generated_reports(self):
         values = [value for observations in self.report["lab_followups"]["2026-09"].values()
                   for value in observations.values()]

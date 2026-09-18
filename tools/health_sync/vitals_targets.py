@@ -148,8 +148,9 @@ for marker, pct, band, normal in (
                            "transform": ("ratio", "Body Mass", 100)}
 
 # Percentages can rise through fat loss while tissue mass stays unchanged.
-# Compare these two kg rows in kg; retain the ratio only for their value status.
-for marker, floor in (("Bone Mass (Withings)", 0.05), ("Muscle Mass (Withings)", 0.2)):
+# Compare kg rows in kg; retain the ratio only for their value status.
+for marker, floor in (("Bone Mass (Withings)", 0.05), ("Muscle Mass (Withings)", 0.2),
+                      ("Fat-Free Mass (Withings)", 0.2)):
     BODY_TARGETS[marker].update(trend_raw=True, direction="up", trend_min_change=floor,
                                 trend_guard=(None, BODY_TARGETS[marker]["target"][1]))
 for segment in ("Left Arm", "Right Arm", "Left Leg", "Right Leg", "Torso"):
@@ -316,6 +317,10 @@ def trend(values, marker, contexts=None):
         upper = rule["target"][1]
         if upper is not None and (current > upper or previous > upper):
             direction = "target"
+            # A lower tissue estimate must not become a gain just because its
+            # share moves back toward the percentage comparison range.
+            if raw_delta < 0 and distance(current, target) < distance(previous, target):
+                return "⚪"
         else:
             current, previous = raw_current, raw_previous
     if direction == "none":

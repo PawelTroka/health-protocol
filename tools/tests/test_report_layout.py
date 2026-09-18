@@ -145,6 +145,13 @@ class LayoutPartitionTests(unittest.TestCase):
         self.assertTrue(group["details"])
         self.assertEqual(group["rows"][-1][-2:], ("index", "-"))
 
+    def test_withings_breathing_indices_belong_to_numeric_sleep_details(self):
+        names = {"Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)"}
+        groups = report_layout.layout([sample_row(name) for name in names])
+        self.assertEqual([group["title"] for group in groups], ["Sleep and breathing details"])
+        self.assertEqual({row[0] for row in groups[0]["rows"]}, names)
+        self.assertTrue(all(row[-2] == "index" for row in groups[0]["rows"]))
+
 
 class GroupedRendererTests(unittest.TestCase):
     @classmethod

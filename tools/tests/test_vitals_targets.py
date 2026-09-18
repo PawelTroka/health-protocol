@@ -205,6 +205,14 @@ class MatchedObservationTests(unittest.TestCase):
 
 
 class ComponentMassTrendTests(unittest.TestCase):
+    def test_fat_free_mass_status_uses_share_but_trend_uses_kilograms(self):
+        marker = "Fat-Free Mass (Withings)"
+        current = context("withings", {marker: "68.36", "Body Mass": 80})
+        previous = context("withings", {marker: "68.44", "Body Mass": 81.3})
+        self.assertEqual(targets.status(marker, "68.36", current)[1], "🔵")
+        self.assertEqual(targets.status(marker, "68.44", previous)[1], "🟢")
+        self.assertEqual(targets.trend(["68.36", "68.44"], marker, [current, previous]), "⚪")
+
     def test_tiny_mass_losses_do_not_become_gains_when_body_mass_falls(self):
         for marker, current_kg, previous_kg in (
             ("Muscle Mass (Withings)", "65.05", "65.12"),
@@ -224,6 +232,7 @@ class ComponentMassTrendTests(unittest.TestCase):
         for marker, current_kg, previous_kg in (
             ("Muscle Mass (Withings)", "64.5", "65.1"),
             ("Bone Mass (Withings)", "3.25", "3.35"),
+            ("Fat-Free Mass (Withings)", "68.0", "68.5"),
         ):
             current = context("withings", {marker: current_kg, "Body Mass": 78})
             previous = context("withings", {marker: previous_kg, "Body Mass": 82})
@@ -237,6 +246,7 @@ class ComponentMassTrendTests(unittest.TestCase):
         for marker, current_kg, previous_kg in (
             ("Muscle Mass (Withings)", "65.3", "65.1"),
             ("Bone Mass (Withings)", "3.35", "3.30"),
+            ("Fat-Free Mass (Withings)", "68.5", "68.3"),
         ):
             current = context("withings", {marker: current_kg, "Body Mass": 80})
             previous = context("withings", {marker: previous_kg, "Body Mass": 80})
@@ -250,6 +260,7 @@ class ComponentMassTrendTests(unittest.TestCase):
         for marker, current_kg, previous_kg in (
             ("Muscle Mass (Withings)", "75", "70"),
             ("Bone Mass (Withings)", "4.5", "3.9"),
+            ("Fat-Free Mass (Withings)", "74", "70"),
         ):
             current = context("withings", {marker: current_kg, "Body Mass": 80})
             previous = context("withings", {marker: previous_kg, "Body Mass": 80})
@@ -263,6 +274,40 @@ class ComponentMassTrendTests(unittest.TestCase):
         previous = context("withings", {marker: 65.0, "Body Mass": 80})
         current["Body Mass"]["observed_days"] = ["2026-08-02", "2026-08-04"]
         self.assertEqual(targets.trend(["65.5", "65.0"], marker, [current, previous]), "-")
+
+    def test_percentage_guard_cannot_reward_a_loss_of_tissue_mass(self):
+        for marker, current_kg, previous_kg in (
+            ("Fat-Free Mass (Withings)", "73", "74"),
+            ("Muscle Mass (Withings)", "74", "75"),
+            ("Bone Mass (Withings)", "4.4", "4.5"),
+        ):
+            current = context("withings", {marker: current_kg, "Body Mass": 80})
+            previous = context("withings", {marker: previous_kg, "Body Mass": 80})
+            with self.subTest(marker=marker):
+                self.assertEqual(targets.trend([current_kg, previous_kg], marker,
+                                              [current, previous]), "⚪")
+
+
+class BreathingDisturbanceTests(unittest.TestCase):
+    def test_oura_direction_without_invented_severity(self):
+        marker = "Breathing Disturbance Index (Oura)"
+        self.assertEqual(targets.trend(["0.7", "1.0"], marker), "🟢")
+        self.assertEqual(targets.trend(["1.0", "0.7"], marker), "🟡")
+        self.assertEqual(targets.trend(["0.70", "0.75"], marker), "⚪")
+        self.assertIsNone(targets.status(marker, "0.7"))
+
+    def test_withings_bands_and_within_band_direction(self):
+        for marker in ("Breathing Disturbance Intensity (Withings)",
+                       "Breathing Quality Assessment (Withings)"):
+            with self.subTest(marker=marker):
+                for value, emoji in (("0", "🟢"), ("29.9", "🟢"), ("30", "🟡"),
+                                     ("59.9", "🟡"), ("60", "🟠"), ("100", "🟠")):
+                    self.assertEqual(targets.status(marker, value)[1], emoji)
+                self.assertEqual(targets.trend(["5", "8"], marker), "🟢")
+                self.assertEqual(targets.trend(["8", "5"], marker), "🟡")
+                for invalid in ("-1", "101", "Device code 5: 2"):
+                    self.assertIsNone(targets.status(marker, invalid))
+                    self.assertEqual(targets.trend([invalid, "8", "9"], marker), "-")
 
 
 class DeepSleepTrendTests(unittest.TestCase):

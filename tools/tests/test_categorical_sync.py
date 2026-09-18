@@ -1,3 +1,4 @@
+import copy
 from datetime import date
 import unittest
 
@@ -43,3 +44,15 @@ class ClassificationTests(unittest.TestCase):
         merged = categorical.merge([earlier], [later], ["withings"], date(2026, 7, 1),
                                    date(2026, 7, 31), complete=False)
         self.assertEqual(len(merged), 2)
+
+    def test_legacy_breathing_codes_remain_in_cache_but_are_not_averaged_or_reported(self):
+        old = [event("ecg", "2026-07-02")]
+        for name in ("Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)"):
+            old.append({**event(name, "2026-07-02", "Device code -1"), "metric": name, "source_value": -1})
+        before = copy.deepcopy(old)
+        merged = categorical.merge(old, [], ["withings"], date(2026, 7, 1),
+                                   date(2026, 7, 31), complete=False)
+        self.assertEqual(len(merged), 3)
+        summaries = categorical.aggregate(merged, date(2026, 9, 6))
+        self.assertEqual(set(summaries["2026-07"]), {"ECG AF Classification (Withings)"})
+        self.assertEqual(old, before)

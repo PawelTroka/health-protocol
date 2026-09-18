@@ -1,14 +1,15 @@
 """Synthetic API fixtures: no patient data, account access, or report writes."""
 
 import copy
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 import math
 import unittest
 
 from tools.health_sync.withings import (
-    WITHINGS_ACTIVITY_FIELDS, WITHINGS_METRICS, WITHINGS_SLEEP_FIELDS,
+    WITHINGS_ACTIVITY_FIELDS, WITHINGS_CATEGORICAL_METRICS, WITHINGS_METRICS, WITHINGS_SLEEP_FIELDS,
     categorical_inventory, parse_api,
 )
+from tools.health_sync.monthly import aggregate
 
 
 def timestamp(text):
@@ -311,6 +312,65 @@ class WithingsParserTests(unittest.TestCase):
         self.assertEqual(result["HR Maximal Zone Duration (Withings)"]["value"], 0)
         self.assertEqual(result["Steps (Withings)"]["day"], "2026-08-01")
         self.assertEqual(len(WITHINGS_ACTIVITY_FIELDS), 16)
+
+    def test_breathing_intensities_are_distinct_numeric_indices_not_classifications(self):
+        sleep = {"id": 7, "completed": True, "startdate": timestamp("2026-09-01T23:00:00"),
+                 "enddate": timestamp("2026-09-02T07:00:00"), "data": {
+                     "breathing_disturbances_intensity": 0, "breathing_quality_assessment": 100,
+                     "core_body_temperature_status": "usual"}}
+        payload = {"series": [sleep]}
+        before = copy.deepcopy(payload)
+        records = by_metric(parse_api(payload))
+        fields = {"breathing_disturbances_intensity": "Breathing Disturbance Intensity (Withings)",
+                  "breathing_quality_assessment": "Breathing Quality Assessment (Withings)"}
+        self.assertEqual(set(records), set(fields.values()))
+        for field, marker in fields.items():
+            self.assertEqual(records[marker]["value"], sleep["data"][field])
+            self.assertEqual(records[marker]["unit"], "index")
+            self.assertEqual(records[marker]["source_field"], field)
+            self.assertEqual(records[marker]["source_record_ids"], ["7"])
+            self.assertEqual(WITHINGS_SLEEP_FIELDS.count(field), 1)
+            self.assertNotIn(marker, WITHINGS_CATEGORICAL_METRICS)
+        events = categorical_inventory(payload)
+        self.assertEqual([(r["metric"], r["value"]) for r in events],
+                         [("Core Body Temperature Status (Withings)", "usual")])
+        self.assertEqual(payload, before)
+
+    def test_invalid_breathing_indices_are_excluded_without_altering_raw_source(self):
+        for invalid in [-1, -0.1, 101, float("inf"), "NaN", True, None, "unknown", {}]:
+            for field in ("breathing_disturbances_intensity", "breathing_quality_assessment"):
+                sleep = {"id": 1, "completed": True, "startdate": timestamp("2026-09-01T23:00:00"),
+                         "enddate": timestamp("2026-09-02T07:00:00"), "data": {field: invalid}}
+                payload = {"series": [sleep]}
+                before = copy.deepcopy(payload)
+                with self.subTest(field=field, invalid=invalid):
+                    self.assertEqual(parse_api(payload), [])
+                    self.assertEqual(categorical_inventory(payload), [])
+                    self.assertEqual(payload, before)
+
+    def test_breathing_indices_average_valid_sessions_then_observed_days(self):
+        def sleep(key, start, end, intensity, quality):
+            return {"id": key, "completed": True, "startdate": timestamp(start),
+                    "enddate": timestamp(end), "data": {
+                        "breathing_disturbances_intensity": intensity,
+                        "breathing_quality_assessment": quality}}
+        payload = {"series": [
+            sleep(1, "2026-09-01T00:00:00", "2026-09-01T02:00:00", 20, -1),
+            sleep(2, "2026-09-01T03:00:00", "2026-09-01T08:00:00", 60, 80),
+            sleep(3, "2026-09-02T00:00:00", "2026-09-02T08:00:00", 0, 20),
+            sleep(4, "2026-09-03T00:00:00", "2026-09-03T08:00:00", -1, -1),
+        ]}
+        records = parse_api(payload)
+        first = next(r for r in records if r["day"] == "2026-09-01"
+                     and r["metric"] == "Breathing Disturbance Intensity (Withings)")
+        self.assertEqual((first["value"], first["daily_aggregation"]), (40, "mean_of_sessions"))
+        self.assertEqual(first["source_record_ids"], ["1", "2"])
+        monthly = aggregate(records, date(2026, 9, 4))["months"]["2026-09"]
+        intensity = monthly["Breathing Disturbance Intensity (Withings)"]
+        quality = monthly["Breathing Quality Assessment (Withings)"]
+        self.assertEqual((intensity["value"], intensity["n_days"], intensity["n_records"]), ("20.0", 2, 3))
+        self.assertEqual((quality["value"], quality["n_days"], quality["n_records"]), ("50.0", 2, 2))
+        self.assertEqual(intensity["observed_days"], "2026-09-01,2026-09-02")
 
     def test_split_sleep_sums_durations_and_weights_rates_before_monthly_mean(self):
         first = {"id": 1, "completed": True, "startdate": timestamp("2026-09-01T00:00:00"),

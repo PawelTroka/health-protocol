@@ -9,7 +9,7 @@ from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 from .oura import OURA_CATEGORICAL_METRICS, OURA_METRICS
-from .withings import WITHINGS_CATEGORICAL_METRICS, WITHINGS_METRICS
+from .withings import WITHINGS_BREATHING_INDEX_METRICS, WITHINGS_CATEGORICAL_METRICS, WITHINGS_METRICS
 from .garmin import GARMIN_CATEGORICAL_METRICS, GARMIN_METRICS
 
 
@@ -269,6 +269,8 @@ def load_monthly(path):
             if not isinstance(entry, dict):
                 raise ValueError("Monthly classifications require structured entries.")
             provider = entry.get("provider")
+            if provider == "withings" and metric in WITHINGS_BREATHING_INDEX_METRICS:
+                raise ValueError("Legacy Withings breathing-index counts require rebuilding from the raw sleep source.")
             if provider not in CATEGORICAL_METRICS or metric not in CATEGORICAL_METRICS[provider]:
                 raise ValueError("Unknown monthly device classification.")
             if any(metric in registry for registry in METRICS.values()):
@@ -307,7 +309,7 @@ def report_note(payload):
     garmin_note = (". Garmin daily summaries use Garmin's assigned calendar date; current-day Garmin data are also deferred until tomorrow"
                    if any(entry["provider"] == "garmin" for metrics in payload["months"].values() for entry in metrics.values()) else "")
     return {
-        "text": "Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. "
+        "text": "Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, breathing intensity indices, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. "
         + "; ".join(coverage) + garmin_note
         + ". Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.",
         "markers": markers,

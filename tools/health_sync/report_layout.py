@@ -118,8 +118,7 @@ _MODEL_NAMES = {
 _DEVICE_NAMES = {
     "HRV Status (Garmin)",
     "Heart Sounds Classification (Withings)", "PPG AF Classification (Withings)",
-    "Breathing Disturbance Intensity (Withings)",
-    "Breathing Quality Assessment (Withings)", "Core Body Temperature Status (Withings)",
+    "Core Body Temperature Status (Withings)",
 }
 _BODY_NAMES = {
     "Lean Mass (Withings)", "Body Water (Withings)", "Water Mass (Withings)",
@@ -147,6 +146,7 @@ _SLEEP_NAMES = {
     "Sleeping Movement Duration (Withings)", "Sleeping Movement Score (Withings)",
     "Restless Periods During Sleep (Oura)", "Respiratory Rate During Sleep (Withings)",
     "Minimum Sleeping Respiratory Rate (Withings)", "Maximum Sleeping Respiratory Rate (Withings)",
+    "Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)",
 }
 _RECOVERY_NAMES = {
     "Average Nightly HRV (Garmin)", "Highest 5-minute Nightly HRV (Garmin)", "7-day Average HRV (Garmin)",

@@ -2,6 +2,7 @@
 
 from collections import Counter, defaultdict
 from .monthly import MANAGED_START, iso_date
+from .withings import WITHINGS_BREATHING_INDEX_METRICS
 
 
 def validate(events):
@@ -39,6 +40,11 @@ def merge(existing, incoming, providers, start, end, *, complete):
 def aggregate(events, as_of):
     buckets = defaultdict(list)
     for event in validate(events):
+        # Older caches misclassified these numeric indices as device codes.
+        # Retain cached events until a complete source refresh, but never emit
+        # them as classifications or infer daily means from categorical counts.
+        if event["provider"] == "withings" and event["metric"] in WITHINGS_BREATHING_INDEX_METRICS:
+            continue
         day = iso_date(event["day"])
         if MANAGED_START <= day <= as_of and not (event["provider"] in {"oura", "garmin"} and day == as_of):
             buckets[(event["day"][:7], event["provider"], event["metric"])].append(event)

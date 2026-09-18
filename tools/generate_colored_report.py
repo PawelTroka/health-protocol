@@ -562,6 +562,11 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
     if m_range:
         low = float(m_range.group(1))
         high = float(m_range.group(2))
+        # Electrophoretic fractions/concentrations have reference intervals,
+        # not a preferred midpoint. Keep the existing outside-range severity.
+        # Labcorp: https://www.labcorp.com/tests/001487/protein-electrophoresis-serum
+        if category == "Proteinogram" and low <= val <= high:
+            return 0.8  # All results within the supplied interval are acceptable.
         target = (low + high) / 2.0
         half_width = (high - low) / 2.0
         if half_width == 0: return 0
@@ -750,6 +755,60 @@ slight_improvement_score_delta = 0.06
 slight_worsening_score_delta = 0.12
 slight_directional_improvement_percent_delta = 0.075
 
+# Display filters, not assay precision estimates or clinical significance
+# thresholds. Require both a relative change and a change in the row's units.
+# Other explicit directional lab targets use 7.5% of their target boundary.
+lab_directional_change_floors = {
+    ("Cardiac Health & Coagulation", "ApoB"): 0.02,  # g/L
+    ("Cardiac Health & Coagulation", "Cholesterol LDL"): 5.0,  # mg/dL
+    ("Cardiac Health & Coagulation", "Cholesterol Non-HDL"): 5.0,  # mg/dL
+    ("Cardiac Health & Coagulation", "Triglycerides"): 5.0,  # mg/dL
+    ("Metabolic Health", "Insulin"): 1.0,  # uIU/mL
+    ("Immunology & Inflammation", "CRP (hs)"): 0.2,  # mg/L
+}
+
+
+def has_symmetric_lab_direction(category, marker):
+    target = target_overrides.get((category, marker))
+    return (category not in {"Vitals & Functional Health", "Tumor Markers", "Infectious Diseases"}
+            and target is not None
+            and target["type"] in {"low_good", "high_good", "high_good_range"})
+
+
+def lab_directional_percent_delta(current_val, previous_val, target, category, marker):
+    """Symmetric directional signal, guarded by the existing target policy."""
+    scale = max(abs(current_val), abs(previous_val))
+    if not scale:
+        return 0.0
+    target_type = target["type"]
+    lower_guard = target.get("low_limit", target.get("low"))
+    upper_guard = target.get("high_limit")
+    if lower_guard is not None and min(current_val, previous_val) < lower_guard:
+        return None
+    if target_type != "low_good" and upper_guard is not None and max(current_val, previous_val) > upper_guard:
+        return None
+    if target_type == "high_good_range" and max(current_val, previous_val) > target["optimal_max"]:
+        return None
+
+    current_score = calculate_target_score(current_val, target)
+    previous_score = calculate_target_score(previous_val, target)
+    if current_score is None or previous_score is None:
+        return None
+    direction = -1 if target_type == "low_good" else 1
+    change = direction * (current_val - previous_val)
+    score_change = previous_score - current_score
+    # A numerical direction cannot override an improvement/deterioration in
+    # distance from the guarded target (including low-value overshoots).
+    if change * score_change < -1e-12:
+        return None
+    boundary = target["optimal_max"] if target_type == "low_good" else target["optimal_min"]
+    floor = lab_directional_change_floors.get(
+        (category, marker), abs(boundary) * slight_directional_improvement_percent_delta,
+    )
+    if abs(change) + 1e-12 < floor:
+        return 0.0
+    return change / scale
+
 def trend_score(value, ref, category, marker=None):
     if category == MICROBIOTA_CATEGORY:
         return None
@@ -825,13 +884,17 @@ def directional_percent_delta(current, previous, ref, category=None, marker=None
         return None  # A reporting limit is not an exact measured value.
     current_val = numeric_value(current)
     previous_val = numeric_value(previous)
-    if current_val is None or previous_val is None or previous_val == 0:
+    if current_val is None or previous_val is None:
         return None
 
     target = target_overrides.get((category, marker))
     if target:
+        if has_symmetric_lab_direction(category, marker):
+            return lab_directional_percent_delta(current_val, previous_val, target, category, marker)
         return target_directional_percent_delta(current_val, previous_val, target)
 
+    if previous_val == 0:
+        return None
     if re.match(r'<\s*([-\d.]+)', ref):
         return (previous_val - current_val) / abs(previous_val)
 
@@ -903,6 +966,9 @@ def classify_trend(values, ref, category, marker=None):
         return "Improvement"
 
     if delta <= -slight_worsening_score_delta:
+        return "Mild Worsening"
+    if (has_symmetric_lab_direction(category, marker) and percent_delta is not None
+            and percent_delta <= -slight_directional_improvement_percent_delta):
         return "Mild Worsening"
 
     return "Stable"
@@ -2313,7 +2379,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += "<li><b>Vitals</b>: 🟢 favorable trend; 🟡 unfavorable trend; ⚪ small change, unchanged target position or context-dependent change.</li>"
     html += "<li><b>Microbiota ↑ +value / ↓ −value / → 0</b>: numerical change on the laboratory scale, not a health judgment.</li>"
     html += "</ul>"
-    html += "<p class='note'>For results with a health-target score, trend compares the latest completed result with the previous completed result; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.</p>"
+    html += "<p class='note'>Compares the latest two completed results using marker-specific targets and small-change filters. <a href='results/Reference-Guide.md#reading-trends'>Trend details</a>.</p>"
 
     html += "</body></html>"
     
@@ -2353,7 +2419,7 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     md += "*   **-**: Not enough comparable completed results\n\n"
     md += "*   **Vitals**: 🟢 Favorable trend; 🟡 unfavorable trend; ⚪ small change, unchanged target position or context-dependent change\n"
     md += "*   **Microbiota ↑ +value / ↓ −value / → 0**: Numerical change on the laboratory scale, not a health judgment\n\n"
-    md += "> **Trend method:** For results with a health-target score, compares the latest completed result with the previous completed result; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.\n\n"
+    md += "> **Trend method:** Compares the latest two completed results using marker-specific targets and small-change filters. [Trend details](results/Reference-Guide.md#reading-trends).\n\n"
     md += "> **Note:** See `results.html` for detailed color gradients.\n"
 
     with open(output_path, "w", encoding="utf-8") as f:

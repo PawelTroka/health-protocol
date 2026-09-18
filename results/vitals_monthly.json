@@ -2,56 +2,6 @@
   "as_of": "2026-09-17",
   "categorical_months": {
     "2026-07": {
-      "Breathing Disturbance Intensity (Withings)": {
-        "aggregation": "observed_classification_counts",
-        "counts": {
-          "Device code -1": 11,
-          "Device code 0": 4,
-          "Device code 1": 1,
-          "Device code 10": 2,
-          "Device code 13": 1,
-          "Device code 16": 3,
-          "Device code 18": 1,
-          "Device code 19": 2,
-          "Device code 22": 1,
-          "Device code 3": 2,
-          "Device code 5": 1,
-          "Device code 6": 1,
-          "Device code 8": 1
-        },
-        "first_day": "2026-07-01",
-        "last_day": "2026-07-31",
-        "n_days": 28,
-        "n_records": 31,
-        "provider": "withings",
-        "unit": "Status",
-        "value": "Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1"
-      },
-      "Breathing Quality Assessment (Withings)": {
-        "aggregation": "observed_classification_counts",
-        "counts": {
-          "Device code -1": 11,
-          "Device code 0": 4,
-          "Device code 1": 1,
-          "Device code 10": 2,
-          "Device code 13": 1,
-          "Device code 16": 3,
-          "Device code 18": 1,
-          "Device code 19": 2,
-          "Device code 22": 1,
-          "Device code 3": 2,
-          "Device code 5": 1,
-          "Device code 6": 1,
-          "Device code 8": 1
-        },
-        "first_day": "2026-07-01",
-        "last_day": "2026-07-31",
-        "n_days": 28,
-        "n_records": 31,
-        "provider": "withings",
-        "unit": "Status",
-        "value": "Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1"
-      },
       "ECG AF Classification (Withings)": {
         "aggregation": "observed_classification_counts",
         "counts": {
@@ -110,50 +60,6 @@
       }
     },
     "2026-08": {
-      "Breathing Disturbance Intensity (Withings)": {
-        "aggregation": "observed_classification_counts",
-        "counts": {
-          "Device code -1": 11,
-          "Device code 0": 3,
-          "Device code 13": 1,
-          "Device code 14": 1,
-          "Device code 2": 3,
-          "Device code 3": 1,
-          "Device code 4": 1,
-          "Device code 6": 1,
-          "Device code 7": 1,
-          "Device code 9": 2
-        },
-        "first_day": "2026-08-01",
-        "last_day": "2026-08-31",
-        "n_days": 22,
-        "n_records": 25,
-        "provider": "withings",
-        "unit": "Status",
-        "value": "Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2"
-      },
-      "Breathing Quality Assessment (Withings)": {
-        "aggregation": "observed_classification_counts",
-        "counts": {
-          "Device code -1": 11,
-          "Device code 0": 3,
-          "Device code 13": 1,
-          "Device code 14": 1,
-          "Device code 2": 3,
-          "Device code 3": 1,
-          "Device code 4": 1,
-          "Device code 6": 1,
-          "Device code 7": 1,
-          "Device code 9": 2
-        },
-        "first_day": "2026-08-01",
-        "last_day": "2026-08-31",
-        "n_days": 22,
-        "n_records": 25,
-        "provider": "withings",
-        "unit": "Status",
-        "value": "Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2"
-      },
       "ECG AF Classification (Withings)": {
         "aggregation": "observed_classification_counts",
         "counts": {
@@ -211,38 +117,6 @@
       }
     },
     "2026-09": {
-      "Breathing Disturbance Intensity (Withings)": {
-        "aggregation": "observed_classification_counts",
-        "counts": {
-          "Device code -1": 10,
-          "Device code 0": 5,
-          "Device code 21": 1,
-          "Device code 5": 1
-        },
-        "first_day": "2026-09-01",
-        "last_day": "2026-09-16",
-        "n_days": 15,
-        "n_records": 17,
-        "provider": "withings",
-        "unit": "Status",
-        "value": "Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1"
-      },
-      "Breathing Quality Assessment (Withings)": {
-        "aggregation": "observed_classification_counts",
-        "counts": {
-          "Device code -1": 10,
-          "Device code 0": 5,
-          "Device code 21": 1,
-          "Device code 5": 1
-        },
-        "first_day": "2026-09-01",
-        "last_day": "2026-09-16",
-        "n_days": 15,
-        "n_records": 17,
-        "provider": "withings",
-        "unit": "Status",
-        "value": "Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1"
-      },
       "ECG AF Classification (Withings)": {
         "aggregation": "observed_classification_counts",
         "counts": {
@@ -811,6 +685,46 @@
         ],
         "unit": "index",
         "value": "1.0"
+      },
+      "Breathing Disturbance Intensity (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "daily_aggregation": [
+          "mean_of_sessions"
+        ],
+        "elapsed_days": 31,
+        "first_day": "2026-07-01",
+        "last_day": "2026-07-30",
+        "n_days": 20,
+        "n_records": 20,
+        "observed_days": "2026-07-01,2026-07-03,2026-07-06,2026-07-09,2026-07-10,2026-07-11,2026-07-12,2026-07-14,2026-07-15,2026-07-16,2026-07-18,2026-07-20,2026-07-21,2026-07-22,2026-07-23,2026-07-25,2026-07-27,2026-07-28,2026-07-29,2026-07-30",
+        "partial_month": false,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "index",
+        "value": "9.3"
+      },
+      "Breathing Quality Assessment (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "daily_aggregation": [
+          "mean_of_sessions"
+        ],
+        "elapsed_days": 31,
+        "first_day": "2026-07-01",
+        "last_day": "2026-07-30",
+        "n_days": 20,
+        "n_records": 20,
+        "observed_days": "2026-07-01,2026-07-03,2026-07-06,2026-07-09,2026-07-10,2026-07-11,2026-07-12,2026-07-14,2026-07-15,2026-07-16,2026-07-18,2026-07-20,2026-07-21,2026-07-22,2026-07-23,2026-07-25,2026-07-27,2026-07-28,2026-07-29,2026-07-30",
+        "partial_month": false,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "index",
+        "value": "9.3"
       },
       "Cardiovascular Age (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -3699,6 +3613,46 @@
         ],
         "unit": "index",
         "value": "1.0"
+      },
+      "Breathing Disturbance Intensity (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "daily_aggregation": [
+          "mean_of_sessions"
+        ],
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 14,
+        "n_records": 14,
+        "observed_days": "2026-08-01,2026-08-02,2026-08-03,2026-08-06,2026-08-07,2026-08-20,2026-08-22,2026-08-23,2026-08-26,2026-08-27,2026-08-28,2026-08-29,2026-08-30,2026-08-31",
+        "partial_month": false,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "index",
+        "value": "5.1"
+      },
+      "Breathing Quality Assessment (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 31,
+        "daily_aggregation": [
+          "mean_of_sessions"
+        ],
+        "elapsed_days": 31,
+        "first_day": "2026-08-01",
+        "last_day": "2026-08-31",
+        "n_days": 14,
+        "n_records": 14,
+        "observed_days": "2026-08-01,2026-08-02,2026-08-03,2026-08-06,2026-08-07,2026-08-20,2026-08-22,2026-08-23,2026-08-26,2026-08-27,2026-08-28,2026-08-29,2026-08-30,2026-08-31",
+        "partial_month": false,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "index",
+        "value": "5.1"
       },
       "Cardiovascular Age (Oura)": {
         "aggregation": "mean_of_daily_means",
@@ -6706,6 +6660,46 @@
         ],
         "unit": "index",
         "value": "0.7"
+      },
+      "Breathing Disturbance Intensity (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "daily_aggregation": [
+          "mean_of_sessions"
+        ],
+        "elapsed_days": 17,
+        "first_day": "2026-09-02",
+        "last_day": "2026-09-15",
+        "n_days": 7,
+        "n_records": 7,
+        "observed_days": "2026-09-02,2026-09-04,2026-09-07,2026-09-08,2026-09-11,2026-09-14,2026-09-15",
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "index",
+        "value": "3.7"
+      },
+      "Breathing Quality Assessment (Withings)": {
+        "aggregation": "mean_of_daily_means",
+        "calendar_days": 30,
+        "daily_aggregation": [
+          "mean_of_sessions"
+        ],
+        "elapsed_days": 17,
+        "first_day": "2026-09-02",
+        "last_day": "2026-09-15",
+        "n_days": 7,
+        "n_records": 7,
+        "observed_days": "2026-09-02,2026-09-04,2026-09-07,2026-09-08,2026-09-11,2026-09-14,2026-09-15",
+        "partial_month": true,
+        "provider": "withings",
+        "source_kinds": [
+          "api"
+        ],
+        "unit": "index",
+        "value": "3.7"
       },
       "Cardiovascular Age (Oura)": {
         "aggregation": "mean_of_daily_means",

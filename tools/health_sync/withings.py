@@ -94,6 +94,12 @@ _SLEEP_METRICS = {
     "sleep_score": ("Sleep Score (Withings)", "score", 1, 1),
     "apnea_hypopnea_index": ("Sleep Apnea AHI", "events/h", 1, 1),
     "withings_index": ("Sleep Rx Breathing Events Index (Withings)", "events/h", 1, 1),
+    # Integer intensity indices, not categorical codes or AHI. The official
+    # getsummary schema names both separately; Sleep Analyzer manual p29 shows
+    # the 0-100 scale. Its percentage-style display does not establish a physical
+    # percent unit: https://support.withings.com/hc/article_attachments/13710141655825
+    "breathing_disturbances_intensity": ("Breathing Disturbance Intensity (Withings)", "index", 1, 1),
+    "breathing_quality_assessment": ("Breathing Quality Assessment (Withings)", "index", 1, 1),
     "mvt_score_avg": ("Sleeping Movement Score (Withings)", "score", 1, 1),
     "mvt_active_duration": ("Sleeping Movement Duration (Withings)", "min", 60, 1),
     "chest_movement_rate_wellness_average": ("Wellness Respiratory Rate (Withings)", "/min", 1, 1),
@@ -129,8 +135,7 @@ _ACTIVITY_METRICS = {
 # Include nonnumeric/under-specified fields when fetching so raw archives remain
 # complete even though those fields intentionally do not enter numeric averages.
 WITHINGS_SLEEP_FIELDS = list(_SLEEP_METRICS) + [
-    "breathing_disturbances_intensity", "breathing_quality_assessment", "night_events",
-    "core_body_temperature_status",
+    "night_events", "core_body_temperature_status",
 ]
 WITHINGS_ACTIVITY_FIELDS = list(_ACTIVITY_METRICS)
 WITHINGS_METRICS = {
@@ -151,6 +156,9 @@ WITHINGS_METRICS.update({
 })
 WITHINGS_METRICS.update({marker: (unit, places) for marker, unit, _, places in _SLEEP_METRICS.values()})
 WITHINGS_METRICS.update({marker: (unit, places) for marker, unit, _, places in _ACTIVITY_METRICS.values()})
+WITHINGS_BREATHING_INDEX_METRICS = frozenset({
+    "Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)",
+})
 
 
 def _integer(value):
@@ -288,7 +296,9 @@ _SLEEP_WEIGHTED_FIELDS = {
 _SLEEP_SESSION_MEAN_FIELDS = {
     "sleep_latency", "wakeup_latency", "rmssd_start_avg", "rmssd_end_avg",
     "sleep_score", "mvt_score_avg",
+    "breathing_disturbances_intensity", "breathing_quality_assessment",
 }
+_SLEEP_BREATHING_INDEX_FIELDS = {"breathing_disturbances_intensity", "breathing_quality_assessment"}
 
 
 def _sleep_daily_records(sleeps, zone):
@@ -316,6 +326,10 @@ def _sleep_daily_records(sleeps, zone):
 
     def valid_value(session, field, *, allow_negative=False):
         value = _number(session[3]["data"].get(field))
+        # Keep unknown sentinels (including -1) in the immutable raw response,
+        # never in a numerical mean. Zero is a valid low-disturbance result.
+        if field in _SLEEP_BREATHING_INDEX_FIELDS and (value is None or not 0 <= value <= 100):
+            return None
         if field in _SLEEP_METRICS and _SLEEP_METRICS[field][1] in {"bpm", "/min"} and value == 0:
             return None
         return value if value is not None and (allow_negative or value >= 0) else None
@@ -556,8 +570,6 @@ WITHINGS_CATEGORICAL_METRICS = {
     "ECG AF Classification (Withings)",
     "PPG AF Classification (Withings)",
     "Heart Sounds Classification (Withings)",
-    "Breathing Disturbance Intensity (Withings)",
-    "Breathing Quality Assessment (Withings)",
     "Core Body Temperature Status (Withings)",
 }
 
@@ -668,8 +680,6 @@ def categorical_inventory(payloads: dict) -> list[dict]:
         if sleep.get("completed") is not True or not isinstance(sleep.get("data"), dict):
             continue
         for field, marker in {
-            "breathing_disturbances_intensity": "Breathing Disturbance Intensity (Withings)",
-            "breathing_quality_assessment": "Breathing Quality Assessment (Withings)",
             "core_body_temperature_status": "Core Body Temperature Status (Withings)",
         }.items():
             emit(f"sleep:{key}", marker, sleep["data"].get(field), _timestamp(sleep.get("enddate"), zone))

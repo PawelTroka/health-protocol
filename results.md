@@ -82,7 +82,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Respiratory Rate (Sleep)** | ⚪ | 🟢<sup>6</sup> 12.20 | 🟢<sup>6</sup> 12.30 | 🟢<sup>6</sup> 12.62 | /min | 12–20 |
 | **Average Sleeping SpO2** | 🟢 | 🟢<sup>6</sup> 95.0 | 🟡<sup>6</sup> 94.7 | 🟡<sup>6</sup> 94.5 | % | 95–100 |
 | **Sleep Apnea AHI** | 🟢 | 🔵<sup>6</sup> 1.8 | 🔵<sup>6</sup> 2.7 | 🔵<sup>6</sup> 4.7 | events/h | <5 |
-| **Breathing Disturbance Index** | ⚪ | 0.7<sup>6</sup> | 1.0<sup>6</sup> | 1.0<sup>6</sup> | index | Device index; no verified severity thresholds |
+| **Breathing Disturbance Index** | 🟢 | 0.7<sup>6</sup> | 1.0<sup>6</sup> | 1.0<sup>6</sup> | index | Lower disturbance burden; device index 0–100 |
 | **Snoring Duration** | 🟡 | 3.4<sup>6</sup> | 2.0<sup>6</sup> | 4.0<sup>6</sup> | min | Lower snoring burden |
 
 ### Recovery and stress
@@ -138,7 +138,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Fat Mass - Right Arm** | ⚪ | 0.39<sup>6</sup> | 0.42<sup>6</sup> | 0.53<sup>6</sup> | kg | - |
 | **Fat Mass - Right Leg** | ⚪ | 1.99<sup>6</sup> | 2.17<sup>6</sup> | 2.40<sup>6</sup> | kg | - |
 | **Fat Mass - Torso** | ⚪ | 6.90<sup>6</sup> | 7.74<sup>6</sup> | 9.44<sup>6</sup> | kg | - |
-| **Fat-Free Mass** | 🟢 | 🔵<sup>6</sup> 68.36 | 🟢<sup>6</sup> 68.44 | 68.49<sup>6</sup> | kg | 80–92%; target 85–90% of body mass |
+| **Fat-Free Mass** | ⚪ | 🔵<sup>6</sup> 68.36 | 🟢<sup>6</sup> 68.44 | 68.49<sup>6</sup> | kg | 80–92%; target 85–90% of body mass |
 | **Fat-Free Mass - Left Arm** | ⚪ | 4.58<sup>6</sup> | 4.58<sup>6</sup> | 4.54<sup>6</sup> | kg | - |
 | **Fat-Free Mass - Left Leg** | ⚪ | 11.75<sup>6</sup> | 11.83<sup>6</sup> | 11.98<sup>6</sup> | kg | - |
 | **Fat-Free Mass - Right Arm** | ⚪ | 4.61<sup>6</sup> | 4.68<sup>6</sup> | 4.60<sup>6</sup> | kg | - |
@@ -176,6 +176,8 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Awake Duration** | 🟡 | 44.7<sup>6</sup> | 37.8<sup>6</sup> | 40.1<sup>6</sup> | min | Less disruption; interpret with sleep duration |
 | **Awake Time During Sleep (Garmin)** | - | 0.14<sup>6</sup> | - | - | h | Less awake time; interpret with sleep duration |
+| **Breathing Disturbance Intensity** | 🟢 | 🟢<sup>6</sup> 3.7 | 🟢<sup>6</sup> 5.1 | 🟢<sup>6</sup> 9.3 | index | <30 few; 30–<60 moderate; ≥60 high |
+| **Breathing Quality Assessment** | 🟢 | 🟢<sup>6</sup> 3.7 | 🟢<sup>6</sup> 5.1 | 🟢<sup>6</sup> 9.3 | index | <30 few; 30–<60 moderate; ≥60 high |
 | **Deep Sleep (Garmin)** | - | 🟢<sup>6</sup> 1.25 | - | - | h | Typical 13–23% of sleep |
 | **Deep Sleep (Withings)** | 🟢 | 🟡<sup>6</sup> 1.35 | 🟢<sup>6</sup> 0.85 | 🟢<sup>6</sup> 1.16 | h | Typical 13–23% of sleep |
 | **Light Sleep (Garmin)** | - | 🟡<sup>6</sup> 4.68 | - | - | h | Typical 45–55% of sleep |
@@ -318,8 +320,6 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 
 | Metric | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Breathing Disturbance Intensity** | Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1<sup>7</sup> | Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2<sup>7</sup> | Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1<sup>7</sup> | Status | - |
-| **Breathing Quality Assessment** | Device code -1: 10; Device code 0: 5; Device code 21: 1; Device code 5: 1<sup>7</sup> | Device code -1: 11; Device code 0: 3; Device code 13: 1; Device code 14: 1; Device code 2: 3; Device code 3: 1; Device code 4: 1; Device code 6: 1; Device code 7: 1; Device code 9: 2<sup>7</sup> | Device code -1: 11; Device code 0: 4; Device code 1: 1; Device code 10: 2; Device code 13: 1; Device code 16: 3; Device code 18: 1; Device code 19: 2; Device code 22: 1; Device code 3: 2; Device code 5: 1; Device code 6: 1; Device code 8: 1<sup>7</sup> | Status | - |
 | **Heart Sounds Classification** | Device code 2: 1<sup>7</sup> | Device code 0: 1<sup>7</sup> | Device code 0: 3; Device code 2: 2<sup>7</sup> | Status | - |
 | **HRV Status (Garmin)** | NONE: 7<sup>7</sup> | - | - | Status | Balanced within personal baseline |
 
@@ -359,7 +359,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 <sup>3</sup> Original AHI snapshot: 0 on September 2; imported AHI means have a separate source note. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum; it uses a different window from average nighttime HRV.
 <sup>4</sup> Oura overview captured September 6: current-month VO2max 44; cardiovascular age 6.5 years younger; cumulative stress low. Typical nighttime dipping describes the last 30 days and supplies no dip percentage. The app's typical sleep score of 81 has an unspecified window; the table uses imported calendar means.
 <sup>5</sup> Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.
-<sup>6</sup> Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Garmin: 4-8/17 elapsed days (month to date); 2026-09 Withings: 1-15/17 elapsed days (month to date); 2026-09 Oura: 1-16/17 elapsed days (month to date). Garmin daily summaries use Garmin's assigned calendar date; current-day Garmin data are also deferred until tomorrow. Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
+<sup>6</sup> Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, breathing intensity indices, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Garmin: 4-8/17 elapsed days (month to date); 2026-09 Withings: 1-15/17 elapsed days (month to date); 2026-09 Oura: 1-16/17 elapsed days (month to date). Garmin daily summaries use Garmin's assigned calendar date; current-day Garmin data are also deferred until tomorrow. Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
 <sup>7</sup> Imported device classifications show counts of observed labels within each calendar month; they are not numeric averages, clinical diagnoses or estimates for unrecorded days. Entries labeled Device code preserve API values with unverified meanings and may include unavailable-result codes; they are not interpreted as clinical findings. Different provider classifications retain separate rows. Coverage and exact counts: <a href='results/vitals_monthly.json'>monthly source data</a>.
 
 
@@ -480,9 +480,9 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Glucose** | ⚪ | 🔵 86 | 🔵 84 | 🔵 89 | 🔵 70 | mg/dl | 70 - 99; target 70 - 85 |
 | **HbA1c** | ⚪ | 🔵 5.3 | 🔵 5.18 | 🔵 5.3 | - | % | 4.8 - 5.9; target 4.8 - 5.3 |
 | **Insulin** | 🟢 | 🔵 8.6 | 🔵 11.2 | 🔵 8.9 | - | uU/mL | 2.6 - 24.9; target 2.6 - 8 |
-| **ALT** | ⚪<sup>1</sup> | 🔵 18 | 🔵 12 | 🔵 14 | - | U/L | < 41; target <= 20 |
+| **ALT** | 🟡<sup>1</sup> | 🔵 18 | 🔵 12 | 🔵 14 | - | U/L | < 41; target <= 20 |
 | **AST** | 🟡<sup>1</sup> | 🔵 33 | 🔵 20 | 🔵 25 | - | U/L | < 40; target 15 - 30 |
-| **GGTP** | ⚪ | 🔵 18 | 🔵 14 | 🔵 18 | 🔵 18 | U/L | < 60; target <= 20 |
+| **GGTP** | 🟡 | 🔵 18 | 🔵 14 | 🔵 18 | 🔵 18 | U/L | < 60; target <= 20 |
 | **Bilirubin Total** | 🔵<sup>1</sup> | 🔵 0.61 | 🟢 0.20 | 🔵 0.39 | - | mg/dL | < 1.20; target 0.3 - 1.0 |
 | **Bilirubin Direct** | - | 🟡<sup>1</sup> 0.33 ↑ | - | - | - | mg/dL | < 0.3; target <= 0.2 |
 | **ALP** | ⚪ | 🔵 76 | - | 🔵 89 | - | U/L | 40 - 129; target 50 - 90 |
@@ -581,7 +581,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **CRP (Conventional)** | - | 🔵 0.7 | - | - | mg/L | < 5.0 |
 | **Anti-TPO** | ⚪ | 🔵 <9 | 🔵 <9 | 🔵 12.30 | IU/ml | < 34.0; target < 9 |
-| **Anti-TG** | ⚪ | 🔵 18.90 | 🔵 16.80 | 🔵 13.10 | IU/ml | < 115.0; target < 20 |
+| **Anti-TG** | 🟡 | 🔵 18.90 | 🔵 16.80 | 🔵 13.10 | IU/ml | < 115.0; target < 20 |
 | **ASO** | 🟠 | 🟡 390 ↑ | - | 🟡 209 ↑ | IU/mL | < 200; target < 200 |
 | **IgA (Serum)** | - | 🔵 3.0 | - | - | g/L | 0.7 - 4.0 |
 | **Rheumatoid Factor (RF)** | - | 🟢 < 10 | - | - | IU/mL | < 14 |
@@ -628,7 +628,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Cadmium** | ⚪ | 🔵 0.1 | 🔵 0.1 | 🔵 0.1 | ug/l | < 0.8; target < 0.2 |
 | **Cobalt** | - | 🔵 0.6 | - | - | ug/l | < 1.5; target < 1.0 |
 | **Chromium** | 💎 | 🔵 0.1 | 🟡 1.0 ↑ | 🔵 0.2 | ug/l | < 0.6; target < 0.6 |
-| **Nickel** | ⚪ | 🔵 0.8 | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0; target < 1.0 |
+| **Nickel** | 🟡 | 🔵 0.8 | 🔵 0.5 | 🔵 0.2 | ug/l | < 3.0; target < 1.0 |
 | **Aluminum** | - | 🔵 < 5.0 | - | - | ug/l | < 5.0; target < 5.0 |
 | **Aluminum/Creatinine** | - | 🔵 < 8.1 | - | - | ug/g creatinine | < 15; target < 15 |
 | **Mercury** | - | 🔵 < 1.0 | - | - | ug/l | < 1.0; target < 1.0 |
@@ -838,23 +838,23 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 
 |  | Trend | 2026-09 | 2026-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Albumin** | 🟢 | 🔵 60.1 | 🔵 62.3 | % | 55.8 - 66.1 |
-| **Alpha-1 Globulin** | 🔵 | 🔵 3.5 | 🟢 2.9 | % | 2.9 - 4.9 |
+| **Albumin** | ⚪ | 🟢 60.1 | 🟢 62.3 | % | 55.8 - 66.1 |
+| **Alpha-1 Globulin** | ⚪ | 🟢 3.5 | 🟢 2.9 | % | 2.9 - 4.9 |
 | **Alpha-2 Globulin** | 🟢 | 🟢<sup>1</sup> 7.6 | 🟡 7.0 ↓ | % | 7.1 - 11.8 |
-| **Beta-1 Globulin** | 🟠 | 🔵 6.4 | 🔵 5.9 | % | 4.7 - 7.2 |
-| **Beta-2 Globulin** | 🟡 | 🔵 4.6 | 🔵 4.9 | % | 3.2 - 6.5 |
-| **Gamma Globulin** | 🟡 | 🟢 17.8 | 🔵 17.0 | % | 11.1 - 18.8 |
+| **Beta-1 Globulin** | ⚪ | 🟢 6.4 | 🟢 5.9 | % | 4.7 - 7.2 |
+| **Beta-2 Globulin** | ⚪ | 🟢 4.6 | 🟢 4.9 | % | 3.2 - 6.5 |
+| **Gamma Globulin** | ⚪ | 🟢 17.8 | 🟢 17.0 | % | 11.1 - 18.8 |
 
 ### Concentrations
 
 |  | 2026-09 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
-| **Total Protein** | 🔵 74.90 | g/L | 64.0 - 83.0 |
-| **Albumin (Concentration)** | 🔵 45.0 | g/L | 40.2 - 47.6 |
-| **Alpha-1 Globulin (Concentration)** | 🔵 2.6 | g/L | 2.1 - 3.5 |
+| **Total Protein** | 🟢 74.90 | g/L | 64.0 - 83.0 |
+| **Albumin (Concentration)** | 🟢 45.0 | g/L | 40.2 - 47.6 |
+| **Alpha-1 Globulin (Concentration)** | 🟢 2.6 | g/L | 2.1 - 3.5 |
 | **Alpha-2 Globulin (Concentration)** | 🟢<sup>1</sup> 5.7 | g/L | 5.1 - 8.5 |
-| **Beta-1 Globulin (Concentration)** | 🔵 4.8 | g/L | 3.4 - 5.2 |
-| **Beta-2 Globulin (Concentration)** | 🔵 3.4 | g/L | 2.3 - 4.7 |
+| **Beta-1 Globulin (Concentration)** | 🟢 4.8 | g/L | 3.4 - 5.2 |
+| **Beta-2 Globulin (Concentration)** | 🟢 3.4 | g/L | 2.3 - 4.7 |
 | **Gamma Globulin (Concentration)** | 🟢 13.3 | g/L | 8.0 - 13.5 |
 
 **Notes:**
@@ -1058,6 +1058,6 @@ Date verified from the 06.05.2024 overlay on the original JPEG.
 *   **Vitals**: 🟢 Favorable trend; 🟡 unfavorable trend; ⚪ small change, unchanged target position or context-dependent change
 *   **Microbiota ↑ +value / ↓ −value / → 0**: Numerical change on the laboratory scale, not a health judgment
 
-> **Trend method:** For results with a health-target score, compares the latest completed result with the previous completed result; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.
+> **Trend method:** Compares the latest two completed results using marker-specific targets and small-change filters. [Trend details](results/Reference-Guide.md#reading-trends).
 
 > **Note:** See `results.html` for detailed color gradients.

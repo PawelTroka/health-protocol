@@ -315,6 +315,19 @@ class MonthlyFileValidationTests(unittest.TestCase):
         payload = classification_payload()
         self.assertEqual(load_monthly(self.write(payload)), payload)
 
+    def test_numeric_breathing_indices_roundtrip_and_old_code_counts_require_rebuild(self):
+        names = ("Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)")
+        payload = aggregate([measurement(name, value=12, metric=name, unit="index") for name in names],
+                            date(2026, 9, 5))
+        self.assertEqual(load_monthly(self.write(payload)), payload)
+        for name in names:
+            legacy = classification_payload("Device code 12")
+            entry = legacy["categorical_months"]["2026-07"].pop("Stress Day Summary (Oura)")
+            entry["provider"] = "withings"
+            legacy["categorical_months"]["2026-07"][name] = entry
+            with self.subTest(metric=name), self.assertRaisesRegex(ValueError, "rebuilding from the raw sleep source"):
+                load_monthly(self.write(legacy))
+
     def test_classification_count_schema_and_provider_cannot_be_forged(self):
         changes = [{"unit": "score"}, {"aggregation": "mean_of_daily_means"}, {"provider": "withings"},
                    {"counts": {"Relaxed": True}}, {"counts": {"Relaxed": 0}}, {"counts": {}},
