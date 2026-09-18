@@ -154,7 +154,7 @@ class VitalsTrendTests(unittest.TestCase):
             ("Sleep Efficiency", ["86.3", "84.6"], "🟢"),
             ("Sleep Efficiency", ["95", "90"], "⚪"),
             ("Average Sleeping SpO2 (Oura)", ["95", "94.7"], "🟢"),
-            ("Visceral Fat Index", ["2.4", "2.5"], "⚪"),
+            ("Visceral Fat Index", ["2.4", "2.5"], "🟢"),
             ("Visceral Fat Index", ["5", "6"], "🟢"),
             ("Sleep Score (Withings)", ["76", "74"], "🟢"),
             # Ambiguous category boundaries do not erase a known numerical
@@ -265,14 +265,14 @@ class GuidanceRenderingTests(unittest.TestCase):
                 self.assertIn("85", result[header.index("Reference")])
                 self.assertNotEqual(result[1], "-")
 
-    def test_bone_uses_comparison_color_and_flat_trend_within_its_range(self):
+    def test_bone_uses_comparison_color_and_higher_share_trend_within_its_range(self):
         row = self.row("Bone", {"2026-09": "4.2", "2026-07": "4.1"}, "%")
         for output_format in ("html", "md"):
             with self.subTest(output_format=output_format):
                 rendered = self.report[f"render_result_table_{output_format}"](VITALS, [row], compact=True)
                 header, result = rendered_table_rows(rendered, output_format)
                 self.assertEqual(header[:2], ["Metric", "Trend"])
-                self.assertEqual(result[1], "⚪")
+                self.assertEqual(result[1], "🟢")
                 cell = result[header.index("2026-09")]
                 self.assertIn("4.2", cell)
                 self.assertIn("🟢", cell)

@@ -127,11 +127,14 @@ BODY_TARGETS = {
                   "transform": ("scale", 1 / 1.8 ** 2)},
     "BMI": {"reference": "18.5–24.9; target 20–24.9", "normal": (18.5, 24.9), "target": (20, 24.9)},
     "Body Fat": {"reference": "8–20; practical target 10–15", "normal": (8, 20), "target": (10, 15), "valid": (0, 100)},
-    "Muscle": {"reference": "75–89", "target": (75, 89), "valid": (0, 100)},
-    "Bone": {"reference": "3–5", "target": (3, 5), "valid": (0, 100)},
+    "Muscle": {"reference": "75–89", "target": (75, 89), "valid": (0, 100),
+               "trend_target": (89, 89), "trend_guard": (None, 89), "trend_min_change": 0.2},
+    "Bone": {"reference": "3–5", "target": (3, 5), "valid": (0, 100),
+             "trend_target": (5, 5), "trend_guard": (None, 5), "trend_min_change": 0.1},
     "Body Water (Withings)": {"reference": "50–65", "target": (50, 65), "valid": (0, 100)},
     "Lean Mass (Withings)": {"reference": "80–92; practical target 85–90", "normal": (80, 92), "target": (85, 90), "valid": (0, 100)},
-    "Visceral Fat Index": {"reference": "0–5", "target": (0, 5), "valid": (0, 20), "outside_emoji": "🟠"},
+    "Visceral Fat Index": {"reference": "0–5", "target": (0, 5), "valid": (0, 20),
+                          "outside_emoji": "🟠", "direction": "down", "trend_min_change": 0.1},
 }
 for marker, pct, band, normal in (
     ("Fat Mass (Withings)", "10–15", (10, 15), (8, 20)),
@@ -144,20 +147,35 @@ for marker, pct, band, normal in (
     BODY_TARGETS[marker] = {"reference": f"{comparison} of body mass", "target": band, "normal": normal,
                            "transform": ("ratio", "Body Mass", 100)}
 
+# Percentages can rise through fat loss while tissue mass stays unchanged.
+# Compare these two kg rows in kg; retain the ratio only for their value status.
+for marker, floor in (("Bone Mass (Withings)", 0.05), ("Muscle Mass (Withings)", 0.2)):
+    BODY_TARGETS[marker].update(trend_raw=True, direction="up", trend_min_change=floor,
+                                trend_guard=(None, BODY_TARGETS[marker]["target"][1]))
+for segment in ("Left Arm", "Right Arm", "Left Leg", "Right Leg", "Torso"):
+    BODY_TARGETS[f"Muscle Mass - {segment} (Withings)"] = {
+        "reference": "Maintain / build muscle", "direction": "up",
+        "trend_min_change": 0.05, "trend_min_relative_change": 0.01,
+    }
+
 # Retain existing protocol HR targets, now also applying to exact resting /
 # overnight counterparts. Do not apply them to daytime averages or maxima.
 HEART_TARGETS = {}
 for marker in ("Sleeping Heart Rate", "Average Sleeping HR (Oura)", "Average Sleeping HR (Withings)",
                "Mean Nightly Lowest HR (Oura)", "Mean Nightly Lowest HR (Withings)",
                "Sampled HR During Primary Sleep (Oura)", "Sampled Sleeping HR (Oura)"):
-    HEART_TARGETS[marker] = {"reference": "40–100; practical target 45–60", "normal": (40, 100), "target": (45, 60)}
+    HEART_TARGETS[marker] = {"reference": "40–100; practical target 45–60", "normal": (40, 100), "target": (45, 60),
+                             "trend_target": (45, 45), "trend_guard": (45, None), "trend_min_change": 0.5}
 for marker in ("Resting Heart Rate", "Resting HR (Garmin)", "Sampled Rest HR (Oura)"):
-    HEART_TARGETS[marker] = {"reference": "40–100; practical target 50–70", "normal": (40, 100), "target": (50, 70)}
+    HEART_TARGETS[marker] = {"reference": "40–100; practical target 50–70", "normal": (40, 100), "target": (50, 70),
+                             "trend_target": (50, 50), "trend_guard": (50, None), "trend_min_change": 0.5}
 for marker in ("ECG Heart Rate", "ECG Recorded Heart Rate (Withings)", "Pulse Rate (Withings)"):
-    HEART_TARGETS[marker] = {"reference": "50–100; practical target 50–80", "normal": (50, 100), "target": (50, 80)}
+    HEART_TARGETS[marker] = {"reference": "50–100; practical target 50–80", "normal": (50, 100), "target": (50, 80),
+                             "trend_target": (50, 50), "trend_guard": (50, None), "trend_min_change": 0.5}
 for marker in ("PWV", "Estimated PWV (Oura)"):
     HEART_TARGETS[marker] = {"reference": "<10; practical target <7", "normal": (0, 10), "target": (0, 7),
-                             "normal_open": (False, True), "target_open": (False, True)}
+                             "normal_open": (False, True), "target_open": (False, True),
+                             "valid": (0.01, None), "direction": "down", "trend_min_change": 0.1}
 for marker in ("Cardiovascular Age (Oura)", "Vascular Age (Withings)", "Metabolic Age (Withings)"):
     HEART_TARGETS[marker] = {"reference": "Below chronological age", "direction": "down"}
 HEART_TARGETS["Cardiovascular Age Difference (Oura)"] = {
@@ -260,11 +278,12 @@ def status(marker, value, context=None):
 
 
 def trend(values, marker, contexts=None):
-    """Compare target distance or supported device direction, at shown precision."""
+    """Separate value ranges from trend direction and modest display floors."""
     rule = rule_for(marker)
     if not rule:
         return None
     pair = []
+    raw_pair = []
     for idx, raw in enumerate(values):
         if raw in MISSING:
             continue
@@ -272,12 +291,33 @@ def trend(values, marker, contexts=None):
         if val is None:
             return "-"  # Never skip an unknown newest result to grade older data.
         pair.append(val)
+        raw_pair.append(number(raw))
         if len(pair) == 2:
             break
     if len(pair) != 2:
         return "-"
     current, previous = pair
+    comparison_current, comparison_previous = pair
+    raw_current, raw_previous = raw_pair
+    raw_delta = raw_current - raw_previous
+    # These are display sensitivity settings, not statistical significance,
+    # clinical minimum important differences or device accuracy claims.
+    floor = max(Decimal(str(rule.get("trend_min_change", 0))),
+                abs(raw_previous) * Decimal(str(rule.get("trend_min_relative_change", 0))))
+    if abs(raw_delta) < floor:
+        return "⚪"
+    if abs(current - previous) < Decimal(str(rule.get("trend_min_evaluated_change", 0))):
+        return "⚪"
     direction = rule.get("direction", "target")
+    target = rule.get("trend_target", rule.get("target"))
+    if rule.get("trend_raw"):
+        # Do not reward increasing tissue estimates beyond the comparison's
+        # upper bound. Outside that bound, compare distance back to the range.
+        upper = rule["target"][1]
+        if upper is not None and (current > upper or previous > upper):
+            direction = "target"
+        else:
+            current, previous = raw_current, raw_previous
     if direction == "none":
         return "⚪"
     if direction == "up":
@@ -286,9 +326,16 @@ def trend(values, marker, contexts=None):
         change = previous - current
     elif direction == "zero":
         change = abs(previous) - abs(current)
-    elif rule.get("target"):
-        change = distance(previous, rule["target"]) - distance(current, rule["target"])
+    elif target:
+        change = distance(previous, target) - distance(current, target)
     else:
         return "⚪"
+    if rule.get("trend_agreement") and change * raw_delta < 0:
+        return "⚪"  # More stage share from less total sleep is not more stage time.
+    guard = rule.get("trend_guard")
+    if guard and (not within(comparison_current, guard) or not within(comparison_previous, guard)):
+        # Crossing beyond a lower-HR or upper-composition guard is never an
+        # improvement simply because the new value is nearer the endpoint.
+        change = distance(comparison_previous, guard) - distance(comparison_current, guard)
     # This is a display direction, not significance or a clinical effect size.
     return "🟢" if change > 0 else "🟡" if change < 0 else "⚪"

@@ -31,9 +31,9 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Body Mass** | 🟢 | 🔵<sup>6</sup> 80.0 | 🟡<sup>6</sup> 81.3 | 🟡<sup>6</sup> 83.7 | kg | 59.9–80.7; BMI-derived target 64.8–80.7 |
 | **BMI** | 🟢 | 🔵<sup>6</sup> 24.7 | 🟡<sup>6</sup> 25.1 | 🟡<sup>6</sup> 25.8 | kg/m^2 | 18.5–24.9; target 20–24.9 |
 | **Body Fat** | 🟢 | 🔵<sup>6</sup> 14.5 | 🟢<sup>6</sup> 15.8 | 🟢<sup>6</sup> 18.2 | % | 8–20; practical target 10–15 |
-| **Muscle** | ⚪ | 🟢<sup>6</sup> 81.3 | 🟢<sup>6</sup> 80.1 | 🟢<sup>6</sup> 77.8 | % | 75–89 |
+| **Muscle** | 🟢 | 🟢<sup>6</sup> 81.3 | 🟢<sup>6</sup> 80.1 | 🟢<sup>6</sup> 77.8 | % | 75–89 |
 | **Bone** | ⚪ | 🟢<sup>6</sup> 4.1 | 🟢<sup>6</sup> 4.1 | 🟢<sup>6</sup> 4.0 | % | 3–5 |
-| **Visceral Fat Index** | ⚪ | 🟢<sup>6</sup> 2.4 | 🟢<sup>6</sup> 2.5 | 🟢<sup>6</sup> 2.8 | index | 0–5 |
+| **Visceral Fat Index** | 🟢 | 🟢<sup>6</sup> 2.4 | 🟢<sup>6</sup> 2.5 | 🟢<sup>6</sup> 2.8 | index | 0–5 |
 
 ### Body measurements
 
@@ -60,7 +60,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Blood Pressure** | 🟡 | 🔵<sup>6</sup> 108.0/76.0 | 🔵<sup>6</sup> 105.0/71.0 | 🟢<sup>6</sup> 115.2/78.7 | mmHg | < 120 / < 80; target 100-115 / 60-75 |
-| **PWV** | ⚪ | 🔵<sup>6</sup> 6.1 | 🔵<sup>6</sup> 6.5 | 🔵<sup>6</sup> 6.2 | m/s | <10; practical target <7 |
+| **PWV** | 🟢 | 🔵<sup>6</sup> 6.1 | 🔵<sup>6</sup> 6.5 | 🔵<sup>6</sup> 6.2 | m/s | <10; practical target <7 |
 | **Estimated PWV** | ⚪ | 🔵<sup>6</sup> 6.40 | 🔵<sup>6</sup> 6.42 | 🔵<sup>6</sup> 6.45 | m/s | <10; practical target <7 |
 | **Average Sleeping HR (Oura)** | 🟢 | 🟢<sup>6</sup> 65.5 | 🟢<sup>6</sup> 66.2 | 🟢<sup>6</sup> 66.6 | bpm | 40–100; practical target 45–60 |
 | **Mean Nightly Lowest HR (Oura)** | ⚪ | 🔵<sup>6</sup> 58.5 | 🔵<sup>6</sup> 58.9 | 🔵<sup>6</sup> 59.4 | bpm | 40–100; practical target 45–60 |
@@ -76,7 +76,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Sleep Latency** | 🟢 | 🔵<sup>6</sup> 16.8 | 🟢<sup>6</sup> 22.7 | 🟢<sup>6</sup> 22.0 | min | ≤30; practical target 15–20 |
 | **Sleep Score** | 🟢 | 🟢<sup>6</sup> 80.4 | 🟢<sup>6</sup> 78.7 | 🟢<sup>6</sup> 77.4 | score | 70–100; target 85–100 |
 | **REM Sleep** | ⚪ | 🟢<sup>6</sup> 1.61 | 🟢<sup>6</sup> 1.72 | 🟢<sup>6</sup> 1.75 | h | Typical 20–25% of sleep |
-| **Deep Sleep** | ⚪ | 🟢<sup>6</sup> 1.18 | 🟢<sup>6</sup> 1.05 | 🟢<sup>6</sup> 1.07 | h | Typical 13–23% of sleep |
+| **Deep Sleep** | 🟢 | 🟢<sup>6</sup> 1.18 | 🟢<sup>6</sup> 1.05 | 🟢<sup>6</sup> 1.07 | h | Typical 13–23% of sleep |
 | **Light Sleep (Oura)** | 🟢 | 🟡<sup>6</sup> 4.49 | 🟡<sup>6</sup> 4.83 | 🟡<sup>6</sup> 4.86 | h | Typical 45–55% of sleep |
 | **Awake Time During Sleep** | 🟢 | 1.17<sup>6</sup> | 1.39<sup>6</sup> | 1.29<sup>6</sup> | h | Less awake time; interpret with sleep duration |
 | **Respiratory Rate (Sleep)** | ⚪ | 🟢<sup>6</sup> 12.20 | 🟢<sup>6</sup> 12.30 | 🟢<sup>6</sup> 12.62 | /min | 12–20 |
@@ -147,11 +147,11 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Intracellular Water** | ⚪ | 28.93<sup>6</sup> | 29.25<sup>6</sup> | 29.63<sup>6</sup> | kg | - |
 | **Lean Mass** | 🟢 | 🔵<sup>6</sup> 85.5 | 🟢<sup>6</sup> 84.2 | 🟢<sup>6</sup> 81.8 | % | 80–92; practical target 85–90 |
 | **Muscle Mass** | ⚪ | 🟢<sup>6</sup> 65.05 | 🟢<sup>6</sup> 65.12 | 65.17<sup>6</sup> | kg | 75–89% of body mass |
-| **Muscle Mass - Left Arm** | ⚪ | 4.44<sup>6</sup> | 4.43<sup>6</sup> | 4.40<sup>6</sup> | kg | - |
-| **Muscle Mass - Left Leg** | ⚪ | 11.03<sup>6</sup> | 11.08<sup>6</sup> | 11.21<sup>6</sup> | kg | - |
-| **Muscle Mass - Right Arm** | ⚪ | 4.46<sup>6</sup> | 4.54<sup>6</sup> | 4.47<sup>6</sup> | kg | - |
-| **Muscle Mass - Right Leg** | ⚪ | 10.99<sup>6</sup> | 11.00<sup>6</sup> | 11.15<sup>6</sup> | kg | - |
-| **Muscle Mass - Torso** | ⚪ | 34.14<sup>6</sup> | 34.07<sup>6</sup> | 33.95<sup>6</sup> | kg | - |
+| **Muscle Mass - Left Arm** | ⚪ | 4.44<sup>6</sup> | 4.43<sup>6</sup> | 4.40<sup>6</sup> | kg | Maintain / build muscle |
+| **Muscle Mass - Left Leg** | ⚪ | 11.03<sup>6</sup> | 11.08<sup>6</sup> | 11.21<sup>6</sup> | kg | Maintain / build muscle |
+| **Muscle Mass - Right Arm** | 🟡 | 4.46<sup>6</sup> | 4.54<sup>6</sup> | 4.47<sup>6</sup> | kg | Maintain / build muscle |
+| **Muscle Mass - Right Leg** | ⚪ | 10.99<sup>6</sup> | 11.00<sup>6</sup> | 11.15<sup>6</sup> | kg | Maintain / build muscle |
+| **Muscle Mass - Torso** | ⚪ | 34.14<sup>6</sup> | 34.07<sup>6</sup> | 33.95<sup>6</sup> | kg | Maintain / build muscle |
 | **Water Mass** | ⚪ | 🟢<sup>6</sup> 46.19 | 🟢<sup>6</sup> 46.60 | 47.15<sup>6</sup> | kg | 50–65% of body mass |
 
 ### Heart and circulation details
@@ -177,7 +177,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Awake Duration** | 🟡 | 44.7<sup>6</sup> | 37.8<sup>6</sup> | 40.1<sup>6</sup> | min | Less disruption; interpret with sleep duration |
 | **Awake Time During Sleep (Garmin)** | - | 0.14<sup>6</sup> | - | - | h | Less awake time; interpret with sleep duration |
 | **Deep Sleep (Garmin)** | - | 🟢<sup>6</sup> 1.25 | - | - | h | Typical 13–23% of sleep |
-| **Deep Sleep (Withings)** | 🟡 | 🟡<sup>6</sup> 1.35 | 🟢<sup>6</sup> 0.85 | 🟢<sup>6</sup> 1.16 | h | Typical 13–23% of sleep |
+| **Deep Sleep (Withings)** | 🟢 | 🟡<sup>6</sup> 1.35 | 🟢<sup>6</sup> 0.85 | 🟢<sup>6</sup> 1.16 | h | Typical 13–23% of sleep |
 | **Light Sleep (Garmin)** | - | 🟡<sup>6</sup> 4.68 | - | - | h | Typical 45–55% of sleep |
 | **Light Sleep (Withings)** | 🟢 | 🟡<sup>6</sup> 3.06 | 🟡<sup>6</sup> 3.57 | 🟡<sup>6</sup> 3.78 | h | Typical 45–55% of sleep |
 | **Maximum Sleeping Respiratory Rate** | ⚪ | 19.0<sup>6</sup> | 20.1<sup>6</sup> | 20.3<sup>6</sup> | /min | Nightly extrema; compare with personal baseline |
@@ -311,7 +311,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Sampled HR During Primary Sleep** | 🟢 | 🟢<sup>6</sup> 65.6 | 🟢<sup>6</sup> 66.2 | 🟢<sup>6</sup> 66.6 | bpm | 40–100; practical target 45–60 |
 | **Sampled HRV During Primary Sleep** | 🟡 | 24.6<sup>6</sup> | 25.2<sup>6</sup> | 24.8<sup>6</sup> | ms | Personal baseline; sustained recovery trend |
 | **Sampled Live HR** | - | - | - | 70.6<sup>6</sup> | bpm | - |
-| **Sampled Rest HR** | ⚪ | 🔵<sup>6</sup> 66.5 | 🔵<sup>6</sup> 67.3 | 🔵<sup>6</sup> 67.7 | bpm | 40–100; practical target 50–70 |
+| **Sampled Rest HR** | 🟢 | 🔵<sup>6</sup> 66.5 | 🔵<sup>6</sup> 67.3 | 🔵<sup>6</sup> 67.7 | bpm | 40–100; practical target 50–70 |
 | **Sampled Workout HR** | ⚪ | 108.3<sup>6</sup> | 105.2<sup>6</sup> | 101.8<sup>6</sup> | bpm | - |
 
 ### Device codes and classifications
@@ -1055,7 +1055,7 @@ Date verified from the 06.05.2024 overlay on the original JPEG.
 *   🔴 **Critical Decline**: Severe worsening
 *   **-**: Not enough comparable completed results
 
-*   **Vitals**: 🟢 Toward target / favorable recovery or device trend; 🟡 away from target / unfavorable trend; ⚪ unchanged target position or context-dependent change
+*   **Vitals**: 🟢 Favorable trend; 🟡 unfavorable trend; ⚪ small change, unchanged target position or context-dependent change
 *   **Microbiota ↑ +value / ↓ −value / → 0**: Numerical change on the laboratory scale, not a health judgment
 
 > **Trend method:** For results with a health-target score, compares the latest completed result with the previous completed result; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.

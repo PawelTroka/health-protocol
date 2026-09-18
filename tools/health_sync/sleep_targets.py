@@ -126,6 +126,15 @@ for _provider, _sleep_marker in (
             target=(_low, _high), valid=(0, 24),
             transform=("ratio", _sleep_marker, 100),
         )
+        if _stage == "Deep Sleep":
+            # Favor a rise in both actual deep time and its sleep share, even
+            # within the typical band. Saturate at23%; that typical upper end
+            # is not a harmful threshold or an unlimited more-is-better goal.
+            # 5min /1 percentage point are display sensitivity settings only.
+            TARGETS[_marker].update(
+                trend_target=(23, None), trend_min_change=5 / 60,
+                trend_min_evaluated_change=1, trend_agreement=True,
+            )
 
 # Less excessive awake time/movement reflects better continuity.  These source
 # fields do not all mean WASO, so they receive a direction without a fabricated

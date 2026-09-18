@@ -37,7 +37,6 @@ class TargetDirectionTests(unittest.TestCase):
     def test_target_plateaus_do_not_reward_arbitrary_midpoints(self):
         for marker, values in (
             ("Body Fat", ["12", "15"]),
-            ("Bone", ["4.2", "4.1"]),
             ("Sleep Efficiency", ["95", "90"]),
             ("Steps (Garmin)", ["11000", "8500"]),
             ("Sleep Duration", ["8", "7.2"]),
@@ -50,6 +49,43 @@ class TargetDirectionTests(unittest.TestCase):
         self.assertEqual(targets.trend(["7", "16"], "Body Fat"), "🟡")
         self.assertEqual(targets.trend(["16", "22"], "Sleep Latency"), "🟢")
         self.assertEqual(targets.trend(["16", "22"], "Body Fat"), "🟢")
+
+    def test_composition_and_cardiovascular_directions_continue_within_normal_ranges(self):
+        for marker, current, previous in (
+            ("Muscle", "81.3", "80.1"),
+            ("Bone", "4.2", "4.1"),
+            ("Visceral Fat Index", "2.4", "2.5"),
+            ("PWV", "6.1", "6.5"),
+            ("Average Sleeping HR (Oura)", "55.5", "56.0"),
+            ("Resting HR (Garmin)", "59.5", "60.0"),
+        ):
+            with self.subTest(marker=marker):
+                self.assertEqual(targets.trend([current, previous], marker), "🟢")
+                self.assertEqual(targets.trend([previous, current], marker), "🟡")
+
+    def test_display_noise_floors_suppress_small_changes_without_claiming_significance(self):
+        for marker, values in (
+            ("Muscle", ["80.2", "80.1"]),
+            ("Bone", ["4.15", "4.1"]),
+            ("Visceral Fat Index", ["2.41", "2.5"]),
+            ("PWV", ["6.40", "6.42"]),
+            ("Estimated PWV (Oura)", ["6.40", "6.42"]),
+            ("Average Sleeping HR (Oura)", ["56.1", "56.5"]),
+            ("Resting HR (Garmin)", ["60.1", "60.5"]),
+        ):
+            with self.subTest(marker=marker):
+                self.assertEqual(targets.trend(values, marker), "⚪")
+
+    def test_preferred_endpoints_preserve_overshoot_and_low_heart_rate_guards(self):
+        self.assertEqual(targets.trend(["5.2", "4.9"], "Bone"), "🟡")
+        self.assertEqual(targets.trend(["89.8", "88.5"], "Muscle"), "🟡")
+        self.assertEqual(targets.trend(["49", "50"], "Resting HR (Garmin)"), "🟡")
+        self.assertEqual(targets.trend(["50", "49"], "Resting HR (Garmin)"), "🟢")
+        self.assertEqual(targets.trend(["44", "45"], "Average Sleeping HR (Oura)"), "🟡")
+        self.assertEqual(targets.trend(["45", "44"], "Average Sleeping HR (Oura)"), "🟢")
+        for marker in ("PWV", "Estimated PWV (Oura)"):
+            self.assertIsNone(targets.status(marker, "0"))
+            self.assertEqual(targets.trend(["0", "6"], marker), "-")
 
     def test_temperature_deviation_uses_distance_from_zero_in_both_directions(self):
         marker = "Temperature Deviation (Oura)"
@@ -166,6 +202,115 @@ class MatchedObservationTests(unittest.TestCase):
         self.assertEqual(ctx, original)
         ctx["Body Mass"]["observed_days"] = ["2026-08-02", "2026-08-03"]
         self.assertIsNone(targets.status("Fat Mass (Withings)", "10", ctx))
+
+
+class ComponentMassTrendTests(unittest.TestCase):
+    def test_tiny_mass_losses_do_not_become_gains_when_body_mass_falls(self):
+        for marker, current_kg, previous_kg in (
+            ("Muscle Mass (Withings)", "65.05", "65.12"),
+            ("Bone Mass (Withings)", "3.31", "3.32"),
+        ):
+            current = context("withings", {marker: current_kg, "Body Mass": 80.0})
+            previous = context("withings", {marker: previous_kg, "Body Mass": 81.3})
+            with self.subTest(marker=marker):
+                # Status still compares the paired percentage with its range.
+                self.assertGreater(targets.evaluated_value(marker, current_kg, current),
+                                   targets.evaluated_value(marker, previous_kg, previous))
+                self.assertEqual(targets.status(marker, current_kg, current)[1], "🟢")
+                self.assertEqual(targets.trend([current_kg, previous_kg], marker,
+                                              [current, previous]), "⚪")
+
+    def test_material_raw_mass_loss_remains_a_decline_despite_a_higher_percentage(self):
+        for marker, current_kg, previous_kg in (
+            ("Muscle Mass (Withings)", "64.5", "65.1"),
+            ("Bone Mass (Withings)", "3.25", "3.35"),
+        ):
+            current = context("withings", {marker: current_kg, "Body Mass": 78})
+            previous = context("withings", {marker: previous_kg, "Body Mass": 82})
+            with self.subTest(marker=marker):
+                self.assertGreater(targets.evaluated_value(marker, current_kg, current),
+                                   targets.evaluated_value(marker, previous_kg, previous))
+                self.assertEqual(targets.trend([current_kg, previous_kg], marker,
+                                              [current, previous]), "🟡")
+
+    def test_raw_mass_change_at_the_display_floor_receives_a_direction(self):
+        for marker, current_kg, previous_kg in (
+            ("Muscle Mass (Withings)", "65.3", "65.1"),
+            ("Bone Mass (Withings)", "3.35", "3.30"),
+        ):
+            current = context("withings", {marker: current_kg, "Body Mass": 80})
+            previous = context("withings", {marker: previous_kg, "Body Mass": 80})
+            with self.subTest(marker=marker):
+                self.assertEqual(targets.trend([current_kg, previous_kg], marker,
+                                              [current, previous]), "🟢")
+                self.assertEqual(targets.trend([previous_kg, current_kg], marker,
+                                              [previous, current]), "🟡")
+
+    def test_raw_mass_gain_does_not_override_an_upper_comparison_guard(self):
+        for marker, current_kg, previous_kg in (
+            ("Muscle Mass (Withings)", "75", "70"),
+            ("Bone Mass (Withings)", "4.5", "3.9"),
+        ):
+            current = context("withings", {marker: current_kg, "Body Mass": 80})
+            previous = context("withings", {marker: previous_kg, "Body Mass": 80})
+            with self.subTest(marker=marker):
+                self.assertEqual(targets.trend([current_kg, previous_kg], marker,
+                                              [current, previous]), "🟡")
+
+    def test_raw_mass_trend_still_requires_matched_composition_coverage(self):
+        marker = "Muscle Mass (Withings)"
+        current = context("withings", {marker: 65.5, "Body Mass": 80})
+        previous = context("withings", {marker: 65.0, "Body Mass": 80})
+        current["Body Mass"]["observed_days"] = ["2026-08-02", "2026-08-04"]
+        self.assertEqual(targets.trend(["65.5", "65.0"], marker, [current, previous]), "-")
+
+
+class DeepSleepTrendTests(unittest.TestCase):
+    def test_more_deep_sleep_within_typical_architecture_can_improve(self):
+        for provider, marker, total in (
+            ("oura", "Deep Sleep", "Sleep Duration"),
+            ("withings", "Deep Sleep (Withings)", "Sleep Duration (Withings)"),
+            ("garmin", "Deep Sleep (Garmin)", "Sleep Duration (Garmin)"),
+        ):
+            current = context(provider, {marker: 1.18, total: 7.28})
+            previous = context(provider, {marker: 1.05, total: 7.60})
+            with self.subTest(marker=marker):
+                self.assertEqual(targets.status(marker, "1.18", current)[1], "🟢")
+                self.assertEqual(targets.status(marker, "1.05", previous)[1], "🟢")
+                self.assertEqual(targets.trend(["1.18", "1.05"], marker,
+                                              [current, previous]), "🟢")
+
+    def test_raw_hours_and_percentage_must_both_clear_their_display_floors(self):
+        marker, total = "Deep Sleep", "Sleep Duration"
+        for current_h, previous_h, current_total, previous_total in (
+            ("1.06", "1.05", "7.6", "7.6"),  # Less than five minutes.
+            ("1.06", "1.05", "6", "7.6"),  # Percentage alone is insufficient.
+            ("1.15", "1.05", "8", "7.6"),  # >5min, but <1 percentage point.
+        ):
+            current = context("oura", {marker: current_h, total: current_total})
+            previous = context("oura", {marker: previous_h, total: previous_total})
+            with self.subTest(current_h=current_h, current_total=current_total):
+                self.assertEqual(targets.trend([current_h, previous_h], marker,
+                                              [current, previous]), "⚪")
+
+    def test_disagreeing_hours_and_proportions_do_not_receive_a_health_direction(self):
+        marker, total = "Deep Sleep", "Sleep Duration"
+        for current_h, previous_h, current_total, previous_total in (
+            ("1.2", "1.4", "6", "8"),  # Hours decrease, proportion increases.
+            ("1.5", "1.4", "9", "7"),  # Hours increase, proportion decreases.
+        ):
+            current = context("oura", {marker: current_h, total: current_total})
+            previous = context("oura", {marker: previous_h, total: previous_total})
+            with self.subTest(current_h=current_h):
+                self.assertEqual(targets.trend([current_h, previous_h], marker,
+                                              [current, previous]), "⚪")
+
+    def test_values_above_the_typical_upper_fraction_do_not_imply_unlimited_benefit(self):
+        marker, total = "Deep Sleep", "Sleep Duration"
+        current = context("oura", {marker: 2.4, total: 8})
+        previous = context("oura", {marker: 2.0, total: 8})
+        self.assertEqual(targets.trend(["2.4", "2.0"], marker, [current, previous]), "⚪")
+        self.assertEqual(targets.trend(["2.0", "2.4"], marker, [previous, current]), "⚪")
 
 
 class CombinedActivityTests(unittest.TestCase):

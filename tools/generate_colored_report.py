@@ -2310,7 +2310,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     for label, definition in trend_definitions.items():
         html += f"<li><span style='font-weight:bold;'>{definition['emoji']} {label}</span>: {definition['description'].capitalize()}</li>"
     html += "<li><b>-</b>: not enough comparable completed results</li>"
-    html += "<li><b>Vitals</b>: 🟢 toward target / favorable recovery or device trend; 🟡 away from target / unfavorable trend; ⚪ unchanged target position or context-dependent change.</li>"
+    html += "<li><b>Vitals</b>: 🟢 favorable trend; 🟡 unfavorable trend; ⚪ small change, unchanged target position or context-dependent change.</li>"
     html += "<li><b>Microbiota ↑ +value / ↓ −value / → 0</b>: numerical change on the laboratory scale, not a health judgment.</li>"
     html += "</ul>"
     html += "<p class='note'>For results with a health-target score, trend compares the latest completed result with the previous completed result; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.</p>"
@@ -2351,7 +2351,7 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     for label, definition in trend_definitions.items():
         md += f"*   {definition['emoji']} **{label}**: {definition['description'].capitalize()}\n"
     md += "*   **-**: Not enough comparable completed results\n\n"
-    md += "*   **Vitals**: 🟢 Toward target / favorable recovery or device trend; 🟡 away from target / unfavorable trend; ⚪ unchanged target position or context-dependent change\n"
+    md += "*   **Vitals**: 🟢 Favorable trend; 🟡 unfavorable trend; ⚪ small change, unchanged target position or context-dependent change\n"
     md += "*   **Microbiota ↑ +value / ↓ −value / → 0**: Numerical change on the laboratory scale, not a health judgment\n\n"
     md += "> **Trend method:** For results with a health-target score, compares the latest completed result with the previous completed result; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.\n\n"
     md += "> **Note:** See `results.html` for detailed color gradients.\n"
