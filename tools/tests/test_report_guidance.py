@@ -96,22 +96,30 @@ class ProviderGuidanceTests(unittest.TestCase):
             with self.subTest(invalid=value):
                 self.assertIsNone(guidance.guide_status(VITALS, "Visceral Fat Index", value))
 
-    def test_nerve_health_normality_does_not_invent_an_unpublished_boundary_or_foot_equivalence(self):
+    def test_nerve_health_preserves_boundary_and_separates_confirmed_from_api_means(self):
         self.assert_status("Nerve Health Score", "49", "🟠")
         self.assert_status("Nerve Health Score", "51", "🟢")
         for value in ("50", "pending", "-1", "101"):
             with self.subTest(value=value):
                 self.assertIsNone(guidance.guide_status(VITALS, "Nerve Health Score", value))
-        for marker in ("Nerve Health Score Left Foot (Withings)", "Nerve Health Score Right Foot (Withings)"):
+        for marker in ("Nerve Health Score Feet (Withings)",
+                       "Nerve Health Score Left Foot (Withings)", "Nerve Health Score Right Foot (Withings)"):
             with self.subTest(marker=marker):
-                self.assertIsNone(guidance.guide_status(VITALS, marker, "69"))
+                self.assert_status(marker, "69", "🟢")
+                self.assert_status(marker, "49", "🟡")
+                self.assertIsNone(guidance.guide_status(VITALS, marker, "50"))
+                self.assertIn("comparison", guidance.guide_reference(VITALS, marker, "-"))
 
     def test_sleep_latency_is_not_monotonically_better_when_shorter(self):
         for value in ("15", "20"):
             self.assert_status("Sleep Latency", value, "🔵")
-        for value in ("0", "5", "14.9", "20.1", "45", "-1"):
+        for value in ("5", "14.9", "20.1", "30"):
             with self.subTest(value=value):
-                self.assertIsNone(guidance.guide_status(VITALS, "Sleep Latency", value))
+                self.assert_status("Sleep Latency", value, "🟢")
+        for value in ("0", "4.9", "30.1", "45"):
+            with self.subTest(value=value):
+                self.assert_status("Sleep Latency", value, "🟡")
+        self.assertIsNone(guidance.guide_status(VITALS, "Sleep Latency", "-1"))
 
     def test_sleep_efficiency_and_oxygen_saturation_do_not_accept_impossible_percentages(self):
         for marker, low, threshold in (("Sleep Efficiency", "84.9", "85"),
@@ -124,7 +132,7 @@ class ProviderGuidanceTests(unittest.TestCase):
                     self.assertIsNone(guidance.guide_status(VITALS, marker, value))
 
     def test_unknown_and_anthropometric_metrics_do_not_receive_invented_healthy_targets(self):
-        for marker in ("Bone", "Height", "Right Foot Length", "Chest Circumference",
+        for marker in ("Height", "Right Foot Length", "Chest Circumference",
                        "Waist Circumference (Narrowest Point)", "Future Firmware Marker (Oura)"):
             with self.subTest(marker=marker):
                 self.assertIsNone(guidance.guide_status(VITALS, marker, "85"))
@@ -133,6 +141,55 @@ class ProviderGuidanceTests(unittest.TestCase):
         # measurement guidance belongs in source notes, not each result cell.
         self.assertIsNone(guidance.guide_reference(
             VITALS, "Waist Circumference (Narrowest Point)", "-"))
+
+
+class VitalsTrendTests(unittest.TestCase):
+    def test_supported_directions_and_target_changes_use_emoji_without_magnitude_claims(self):
+        cases = (
+            ("Sleep Score", ["80.4", "78.7"], "🟢"),
+            ("Sleep Score", ["90", "80"], "🟢"),
+            ("Sleep Score", ["90", "55"], "🟢"),
+            ("Readiness Score (Oura)", ["69.9", "76.1"], "🟡"),
+            ("Sleep Efficiency Contributor Score (Oura)", ["86", "81.8"], "🟢"),
+            ("Sleep Efficiency", ["86.3", "84.6"], "🟢"),
+            ("Sleep Efficiency", ["95", "90"], "⚪"),
+            ("Average Sleeping SpO2 (Oura)", ["95", "94.7"], "🟢"),
+            ("Visceral Fat Index", ["2.4", "2.5"], "⚪"),
+            ("Visceral Fat Index", ["5", "6"], "🟢"),
+            ("Sleep Score (Withings)", ["76", "74"], "🟢"),
+            # Ambiguous category boundaries do not erase a known numerical
+            # direction toward a target or a better provider quality score.
+            ("Sleep Score (Withings)", ["75", "49"], "🟢"),
+            ("Nerve Health Score", ["50", "49"], "🟢"),
+            ("Nerve Health Score", ["51", "49"], "🟢"),
+        )
+        for marker, values, expected in cases:
+            with self.subTest(marker=marker, values=values):
+                self.assertEqual(guidance.vitals_trend(values, marker), expected)
+
+    def test_latency_target_entry_exit_and_outside_changes(self):
+        for values, expected in ((["16.8", "22.7"], "🟢"), (["5", "16"], "🟡"),
+                                 (["5", "22"], "🟡"), (["18", "16"], "⚪")):
+            with self.subTest(values=values):
+                self.assertEqual(guidance.vitals_trend(values, "Sleep Latency"), expected)
+
+    def test_context_dependent_and_future_metrics_never_invent_a_direction(self):
+        for marker in ("Max HRV", "Highest 5-minute Nightly HRV (Garmin)",
+                       "Resilience Stress Contributor Score (Oura)",
+                       "Primary Sleep Score Change (Oura)", "Future Firmware Marker"):
+            for values in (["90", "50"], ["50", "90"], ["50", "50"]):
+                with self.subTest(marker=marker, values=values):
+                    self.assertEqual(guidance.vitals_trend(values, marker), "⚪")
+
+    def test_newest_unknown_or_incomparable_result_blocks_older_trends(self):
+        for values in ([], ["80"], ["pending", "90", "80"], ["unknown", "90", "80"],
+                       ["inconclusive", "90", "80"], ["<90", "80", "70"],
+                       ["Negative: 5", "Negative: 6"], ["80", "unknown", "70"]):
+            with self.subTest(values=values):
+                self.assertEqual(guidance.vitals_trend(values, "Sleep Score"), "-")
+        self.assertEqual(guidance.vitals_trend(["-", "90", "-", "80"], "Sleep Score"), "🟢")
+        self.assertEqual(guidance.vitals_trend(["180", "180"], "Height"), "-")
+        self.assertEqual(guidance.vitals_trend(["180", "180"], "Height (Withings)"), "-")
 
 
 class StoolResidueGuidanceTests(unittest.TestCase):
@@ -208,17 +265,39 @@ class GuidanceRenderingTests(unittest.TestCase):
                 self.assertIn("85", result[header.index("Reference")])
                 self.assertNotEqual(result[1], "-")
 
-    def test_bone_has_numerical_change_without_a_fabricated_health_color(self):
+    def test_bone_uses_comparison_color_and_flat_trend_within_its_range(self):
         row = self.row("Bone", {"2026-09": "4.2", "2026-07": "4.1"}, "%")
         for output_format in ("html", "md"):
             with self.subTest(output_format=output_format):
                 rendered = self.report[f"render_result_table_{output_format}"](VITALS, [row], compact=True)
                 header, result = rendered_table_rows(rendered, output_format)
                 self.assertEqual(header[:2], ["Metric", "Trend"])
-                self.assertIn("↑ +0.1", result[1])
+                self.assertEqual(result[1], "⚪")
                 cell = result[header.index("2026-09")]
                 self.assertIn("4.2", cell)
-                self.assertFalse(any(emoji in cell for emoji in ("⚪", "🔵", "🟢", "🟡", "🟠", "🔴")))
+                self.assertIn("🟢", cell)
+                self.assertEqual(result[header.index("Reference")], "3–5")
+
+    def test_both_renderers_use_emoji_for_known_and_unknown_vital_trends(self):
+        cases = (("Sleep Efficiency", "86.3", "84.6", "🟢"),
+                 ("Sleep Score", "80.4", "78.7", "🟢"),
+                 ("Sleep Latency", "16.8", "22.7", "🟢"),
+                 ("Steps (Garmin)", "5000", "4000", "🟢"),
+                 ("Future Firmware Marker", "12", "11", "⚪"))
+        for marker, current, previous, expected in cases:
+            for output_format in ("html", "md"):
+                with self.subTest(marker=marker, format=output_format):
+                    row = self.row(marker, {"2026-09": current, "2026-07": previous})
+                    rendered = self.report[f"render_result_table_{output_format}"](VITALS, [row], compact=True)
+                    header, result = rendered_table_rows(rendered, output_format)
+                    self.assertEqual(result[header.index("Trend")], expected)
+
+    def test_scored_vitals_do_not_reuse_older_pairs_after_unknown_result(self):
+        for output_format in ("html", "md"):
+            formatter = self.report[f"format_trend_{output_format}"]
+            self.assertEqual(formatter(["unknown", "18", "25"], "10 - 20", VITALS, "Body Fat"), "-")
+            self.assertEqual(formatter(["15", "unknown", "25"], "10 - 20", VITALS, "Body Fat"), "-")
+            self.assertEqual(formatter(["12", "15"], "10 - 20", VITALS, "Body Fat"), "⚪")
 
     def test_unclassified_results_are_literal_values_without_neutral_dots_or_boilerplate(self):
         row = self.row("Chest Circumference", {"2026-09": "105"}, "cm")

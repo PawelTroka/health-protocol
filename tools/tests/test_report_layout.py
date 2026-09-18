@@ -272,7 +272,7 @@ class GroupedRendererTests(unittest.TestCase):
             self.assertNotIn(header, no_reference)
             self.assertNotRegex(no_reference, r"no clinical target|no separate target|[Uu]nclassified")
             self.assertIn(header, with_reference)
-            self.assertIn("target &lt; 7" if renderer_name.endswith("html") else "target < 7", with_reference)
+            self.assertIn("target &lt;7" if renderer_name.endswith("html") else "target <7", with_reference)
 
     def test_single_observations_in_different_months_do_not_create_a_trend_column(self):
         dates = self.report["date_columns"]

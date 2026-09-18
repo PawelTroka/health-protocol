@@ -126,6 +126,8 @@ The results overview groups the main vitals into smaller tables: body compositio
 
 `tools/health_sync/report_layout.py` controls this presentation independently of the import registry and clinical scoring. Newly imported measurements default to the detailed tables until explicitly selected for the overview. Future on-demand syncs regenerate the same layout in both Markdown and HTML.
 
+Vitals use sourced ranges and targets from `tools/health_sync/vitals_targets.py` and its sleep, activity and recovery modules, documented in [Reference-Guide.md](../results/Reference-Guide.md). 🟢 indicates movement toward a target or a favorable recovery/device trend; 🟡 indicates the reverse. Provider scores can improve within a color band. ⚪ means an unchanged target position or a context-dependent change; single, pending and incomparable observations keep `-`. Sleep-stage percentages and combined activity volume require matching provider observation days. Source values and units remain unchanged.
+
 Oura SpO2 aggregates equal to exactly zero are excluded as unusable readings; all positive values are retained. The source archive remains unchanged. This is a narrow data-quality rule: Oura documents missing oxygen readings but does not explicitly define a zero sentinel in the API schema. Each monthly result's coverage reflects only the retained observed days.
 
 ## Files and verification

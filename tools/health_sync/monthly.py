@@ -196,6 +196,7 @@ def aggregate(records, as_of):
             "value": "/".join(averages), "unit": unit, "provider": provider,
             "n_days": len(days), "n_records": sum(r.get("source_count", 1) for readings in days.values() for r in readings),
             "first_day": min(days), "last_day": max(days),
+            "observed_days": ",".join(sorted(days)),
             "calendar_days": calendar_days, "elapsed_days": elapsed_days,
             "partial_month": (first.year, first.month) == (as_of.year, as_of.month),
             "aggregation": "mean_of_daily_means",
@@ -245,6 +246,18 @@ def load_monthly(path):
                 raise ValueError("Invalid monthly-vitals reading count.")
             if not first <= iso_date(entry["first_day"]) <= iso_date(entry["last_day"]) <= as_of or entry["last_day"][:7] != month:
                 raise ValueError("Invalid monthly-vitals observation dates.")
+            if "observed_days" in entry:
+                if not isinstance(entry["observed_days"], str):
+                    raise ValueError("Invalid monthly-vitals observed-day coverage.")
+                observed_days = entry["observed_days"].split(",")
+                if len(observed_days) != entry["n_days"]:
+                    raise ValueError("Invalid monthly-vitals observed-day coverage.")
+                parsed_days = [iso_date(day) for day in observed_days]
+                if (observed_days != sorted(set(observed_days))
+                        or observed_days[0] != entry["first_day"]
+                        or observed_days[-1] != entry["last_day"]
+                        or any(day.strftime("%Y-%m") != month or day > as_of for day in parsed_days)):
+                    raise ValueError("Monthly-vitals observed days do not match coverage.")
     categorical_months = payload.get("categorical_months", {})
     if not isinstance(categorical_months, dict):
         raise ValueError("Monthly device classifications must be an object.")

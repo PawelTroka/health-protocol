@@ -12,10 +12,11 @@ from tools.health_sync.report_layout import layout, counts
 from tools.health_sync.lab_layout import lab_groups
 from tools.health_sync.result_bounds import bound_within_reference, bounded_comparison, is_bounded
 from tools.health_sync.report_guidance import (
-    NEUTRAL, guide_reference, guide_status, numerical_change,
+    NEUTRAL, guide_reference, guide_status, numerical_change, vitals_trend,
     STOOL_RESIDUE_MARKERS, stool_residue_rank,
 )
 from tools.health_sync.microbiota_guidance import microbiota_reference, microbiota_status
+from tools.health_sync.vitals_targets import rule_for as vital_rule, classification_parts
 from tools.imaging_report import (
     GROUPS as IMAGING_GROUPS, IMAGING_CSS, imaging_group_anchor, markdown_heading_anchor,
     render_imaging_html, render_imaging_md, validate_imaging_sources,
@@ -203,27 +204,14 @@ target_overrides = {
     ("Morphology", "MPV"): optimal_range_target("7 - 12; target 8 - 11", 7.0, 8.0, 11.0, 12.0),
     ("Morphology", "P-LCR"): optimal_range_target("19.2 - 47; target 20 - 40", 19.2, 20.0, 40.0, 47.0),
 
-    # Vitals, body composition, sleep, and wearables
+    # Remaining legacy vitals; sourced wearable/body targets live in vitals_targets.py.
     ("Vitals & Functional Health", "Blood Pressure"): blood_pressure_target(
         "< 120 / < 80; target 100-115 / 60-75",
         {"low_limit": 90.0, "optimal_min": 100.0, "optimal_max": 115.0, "high_limit": 120.0},
         {"low_limit": 55.0, "optimal_min": 60.0, "optimal_max": 75.0, "high_limit": 80.0},
     ),
     ("Vitals & Functional Health", "Nighttime BP Dip"): optimal_range_target("10 - 20; target 10 - 20", 0.0, 10.0, 20.0, 25.0),
-    ("Vitals & Functional Health", "Resting Heart Rate"): optimal_range_target("60 - 100; target 50 - 70", 40.0, 50.0, 70.0, 100.0),
-    ("Vitals & Functional Health", "Sleeping Heart Rate"): optimal_range_target("40 - 80; target 45 - 60", 35.0, 45.0, 60.0, 80.0),
-    ("Vitals & Functional Health", "ECG Heart Rate"): optimal_range_target("50 - 100; target 50 - 80", 40.0, 50.0, 80.0, 100.0),
-    ("Vitals & Functional Health", "PWV"): low_good_target("< 10; target < 7", 7.0, 10.0),
-    ("Vitals & Functional Health", "VO2max"): high_good_target("> 35; target >= 45", 35.0, 45.0),
-    ("Vitals & Functional Health", "Respiratory Rate (Sleep)"): optimal_range_target("12 - 20; target 12 - 16", 10.0, 12.0, 16.0, 20.0),
-    ("Vitals & Functional Health", "BMI"): optimal_range_target("18.5 - 24.9; target 20 - 24.9", 18.5, 20.0, 24.9, 30.0),
-    ("Vitals & Functional Health", "Body Fat"): optimal_range_target("10 - 20; target 10 - 15", 8.0, 10.0, 15.0, 20.0),
-    ("Vitals & Functional Health", "Muscle"): high_good_target("> 70; target >= 75", 70.0, 75.0),
     ("Vitals & Functional Health", "Temperature"): optimal_range_target("36.1 - 37.2; target 36.5 - 37.0", 36.1, 36.5, 37.0, 37.2),
-    ("Vitals & Functional Health", "Sleep Apnea AHI"): low_good_target("< 5; target < 5", 5.0, 10.0),
-    ("Vitals & Functional Health", "Sleep Duration"): high_good_range_target(">= 7; target 7 - 9", 5.0, 7.0, 9.0, 10.5),
-    ("Vitals & Functional Health", "REM Sleep"): optimal_range_target("1.5 - 2.3; target 20 - 25% of sleep", 0.8, 1.5, 2.3, 3.0),
-    ("Vitals & Functional Health", "Deep Sleep"): optimal_range_target("about 1 - 2; target 1 - 2", 0.5, 1.0, 2.0, 3.0),
 
     # Metabolic, liver, kidney
     ("Metabolic Health", "Glucose"): optimal_range_target("70 - 99; target 70 - 85", 70.0, 70.0, 85.0, 99.0),
@@ -512,6 +500,8 @@ def calculate_blood_pressure_score(val_str, target):
 def target_reference(category, marker, ref):
     if category == MICROBIOTA_CATEGORY:
         return microbiota_reference(marker, ref)
+    if category == "Vitals & Functional Health" and vital_rule(marker):
+        return guide_reference(category, marker, ref)
     target = target_overrides.get((category, marker))
     if target:
         return target["reference"]
@@ -535,6 +525,8 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
         return None
     if is_inconclusive(val_str) or is_pending(val_str):
         return None
+    if category == "Vitals & Functional Health" and vital_rule(marker):
+        return None  # The sourced rule owns both status and trend, including context.
     if (category, marker) in no_score_markers:
         return None
 
@@ -608,8 +600,8 @@ def qualitative_status(value):
     return NEUTRAL
 
 
-def format_cell_html(val, ref, category=None, marker=None):
-    status = guide_status(category, marker, val)
+def format_cell_html(val, ref, category=None, marker=None, context=None):
+    status = guide_status(category, marker, val, context)
     if status is not None:
         return format_status(val, status, show_neutral=True)
     score = calculate_score(val, ref, category, marker)
@@ -621,8 +613,8 @@ def format_cell_html(val, ref, category=None, marker=None):
     suffix = f" {arrow}" if arrow else ""
     return f'<span style="color:{color}; font-weight:bold;">{emoji} {escape(val)}{suffix}</span>'
 
-def format_cell_md(val, ref, category=None, marker=None):
-    status = guide_status(category, marker, val)
+def format_cell_md(val, ref, category=None, marker=None, context=None):
+    status = guide_status(category, marker, val, context)
     if status is not None:
         return format_status(val, status, markdown=True, show_neutral=True)
     score = calculate_score(val, ref, category, marker)
@@ -849,6 +841,9 @@ def directional_percent_delta(current, previous, ref, category=None, marker=None
     return None
 
 def classify_trend(values, ref, category, marker=None):
+    if category == "Vitals & Functional Health":
+        # Do not skip a newer uninterpretable vital to compare older readings.
+        values = [value for value in values if value not in missing_values][:2]
     if category == "Stool Analysis" and marker in STOOL_RESIDUE_MARKERS:
         ranks = []
         for value in values:
@@ -918,7 +913,7 @@ def format_trend_html(values, ref, category, marker=None):
         return raw_change
     trend = classify_trend(values, ref, category, marker)
     if trend is None:
-        return "-"
+        return vitals_trend(values, marker) if category == "Vitals & Functional Health" else "-"
 
     definition = trend_definitions[trend]
     return definition["emoji"]
@@ -929,7 +924,7 @@ def format_trend_md(values, ref, category, marker=None):
         return raw_change
     trend = classify_trend(values, ref, category, marker)
     if trend is None:
-        return "-"
+        return vitals_trend(values, marker) if category == "Vitals & Functional Health" else "-"
 
     definition = trend_definitions[trend]
     return definition["emoji"]
@@ -939,11 +934,15 @@ def unscored_change(values, ref, category, marker):
         return None
     if marker == "Height":
         return "-"
-    if category == MICROBIOTA_CATEGORY or (category, marker) in no_score_markers:
+    if category == MICROBIOTA_CATEGORY:
         return numerical_change(values)
+    if vital_rule(marker):
+        return vitals_trend(values, marker, vital_contexts)
+    if (category, marker) in no_score_markers:
+        return vitals_trend(values, marker)
     # New provider classifications are display guidance, not legacy health scores.
     if any(guide_status(category, marker, value) is not None for value in values):
-        return numerical_change(values)
+        return vitals_trend(values, marker)
     return None
 
 
@@ -1676,7 +1675,7 @@ result_notes = {
             ],
         },
         {
-            "text": "Original AHI snapshot: 0 on September 2; imported AHI means have a separate source note. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum. Maximum HR, HRV and device scores are context-dependent and are tracked without a universal clinical target.",
+            "text": "Original AHI snapshot: 0 on September 2; imported AHI means have a separate source note. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum; it uses a different window from average nighttime HRV.",
             "markers": [
                 {"row": "Sleep Apnea AHI", "target": "value", "dates": ["2026-09"]},
                 {"rows": ["Max HRV", "Nerve Health Score"], "target": "value", "dates": ["2026-09", "2026-07"]},
@@ -1865,6 +1864,7 @@ for metric in sorted(categorical_markers):
         )
         existing_vitals.add(metric)
     no_score_markers.add(("Vitals & Functional Health", metric))
+vital_contexts = [synced_monthly["months"].get(month, {}) for month in date_columns]
 for category, rows in data.items():
     if category == "Vitals & Functional Health":
         # Overlay both follow-up and historical month positions. In particular,
@@ -1932,6 +1932,11 @@ def display_metric_name(category, name):
     return short
 
 
+def format_vital_classification(marker, value, *, markdown=False):
+    return "; ".join(format_status(text, status or NEUTRAL, markdown=markdown)
+                     for text, status in classification_parts(marker, value))
+
+
 def render_result_table_html(category, rows, active_indexes=None, compact=False):
     if active_indexes is None:
         active_indexes = active_date_indexes(rows)
@@ -1955,11 +1960,13 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
         if category == MICROBIOTA_CATEGORY:
             cells = [format_microbiota_cell(values[idx], name) for idx in active_indexes]
         elif category == "Vitals & Functional Health" and name in categorical_markers:
-            cells = [format_status(values[idx], NEUTRAL) for idx in active_indexes]
+            cells = [format_vital_classification(name, values[idx]) for idx in active_indexes]
         elif "Urinalysis" in category:
             cells = [format_cell_html_urine(values[idx], ref) for idx in active_indexes]
         else:
-            cells = [format_cell_html(values[idx], display_ref, category, name) for idx in active_indexes]
+            cells = [format_cell_html(values[idx], display_ref, category, name,
+                                      vital_contexts[idx] if category == "Vitals & Functional Health" else None)
+                     for idx in active_indexes]
         html += f'<tr><td title="{escape(name, quote=True)}"><b>{escape(display_metric_name(category, name))}</b></td>'
         if include_trend:
             trend_cell = format_trend_html(values, display_ref, category, name)
@@ -2002,11 +2009,13 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
         if category == MICROBIOTA_CATEGORY:
             cells = [format_microbiota_cell(values[idx], name, markdown=True) for idx in active_indexes]
         elif category == "Vitals & Functional Health" and name in categorical_markers:
-            cells = [format_status(values[idx], NEUTRAL, markdown=True) for idx in active_indexes]
+            cells = [format_vital_classification(name, values[idx], markdown=True) for idx in active_indexes]
         elif "Urinalysis" in category:
             cells = [format_cell_md_urine(values[idx], ref) for idx in active_indexes]
         else:
-            cells = [format_cell_md(values[idx], display_ref, category, name) for idx in active_indexes]
+            cells = [format_cell_md(values[idx], display_ref, category, name,
+                                    vital_contexts[idx] if category == "Vitals & Functional Health" else None)
+                     for idx in active_indexes]
         line = f"| **{display_metric_name(category, name)}** |"
         if include_trend:
             trend_cell = format_trend_md(values, display_ref, category, name)
@@ -2301,9 +2310,10 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     for label, definition in trend_definitions.items():
         html += f"<li><span style='font-weight:bold;'>{definition['emoji']} {label}</span>: {definition['description'].capitalize()}</li>"
     html += "<li><b>-</b>: not enough comparable completed results</li>"
-    html += "<li><b>↑ +value / ↓ −value / → 0</b>: numerical change in the row's unit; not a health judgment. Percentage rows use percentage points.</li>"
+    html += "<li><b>Vitals</b>: 🟢 toward target / favorable recovery or device trend; 🟡 away from target / unfavorable trend; ⚪ unchanged target position or context-dependent change.</li>"
+    html += "<li><b>Microbiota ↑ +value / ↓ −value / → 0</b>: numerical change on the laboratory scale, not a health judgment.</li>"
     html += "</ul>"
-    html += "<p class='note'>Trend compares the latest completed result with the previous completed result using the health-target score; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.</p>"
+    html += "<p class='note'>For results with a health-target score, trend compares the latest completed result with the previous completed result; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.</p>"
 
     html += "</body></html>"
     
@@ -2341,8 +2351,9 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     for label, definition in trend_definitions.items():
         md += f"*   {definition['emoji']} **{label}**: {definition['description'].capitalize()}\n"
     md += "*   **-**: Not enough comparable completed results\n\n"
-    md += "*   **↑ +value / ↓ −value / → 0**: Numerical change in the row's unit, not a health judgment; percentage rows use percentage points\n\n"
-    md += "> **Trend method:** Compares the latest completed result with the previous completed result using the health-target score; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.\n\n"
+    md += "*   **Vitals**: 🟢 Toward target / favorable recovery or device trend; 🟡 away from target / unfavorable trend; ⚪ unchanged target position or context-dependent change\n"
+    md += "*   **Microbiota ↑ +value / ↓ −value / → 0**: Numerical change on the laboratory scale, not a health judgment\n\n"
+    md += "> **Trend method:** For results with a health-target score, compares the latest completed result with the previous completed result; lower score is better. For directional targets, a directional improvement of at least 7.5% also counts as slight improvement.\n\n"
     md += "> **Note:** See `results.html` for detailed color gradients.\n"
 
     with open(output_path, "w", encoding="utf-8") as f:
