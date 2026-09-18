@@ -179,6 +179,7 @@ def selected_providers(provider):
 
 def run_import(args):
     from tools.health_sync import api, categorical, garmin, oura, reconcile, withings
+    from tools.health_sync import ecg_records
     today = datetime.now(ZoneInfo("Europe/Warsaw")).date()
     start = iso_date(args.start)
     end = iso_date(args.end) if args.end else today
@@ -187,6 +188,7 @@ def run_import(args):
     sources, incoming, providers = [], [], []
     fetch_status = {}
     classifications = []
+    ecg_inventory = []
     if args.command == "sync":
         providers = selected_providers(args.provider)
         for provider in providers:
@@ -198,6 +200,12 @@ def run_import(args):
             records = module.parse_api(payload, **({"height_cm": args.height_cm} if provider == "withings" else {}))
             inventory = module.categorical_inventory(payload)
             classifications.extend(inventory)
+            if provider == "withings":
+                signals = withings.ecg_signal_inventory(payload)
+                ecg_inventory.extend(signals)
+                signal_coverage = fetch_status[provider].get("endpoint_status", {}).get("heart_signals", {})
+                if signal_coverage.get("status") == "complete" and len(signals) < len(payload.get("heart_signals", [])):
+                    signal_coverage.update(status="unavailable", reason="Some recordings lacked supported waveform data")
             sources.append((provider, json_bytes(payload), ".json", records))
     else:
         if args.oura_csv:
@@ -215,6 +223,7 @@ def run_import(args):
                 payload = {"measure": [payload]}
             sources.append(("withings", raw, ".json", withings.parse_api(payload, height_cm=args.height_cm)))
             classifications.extend(withings.categorical_inventory(payload))
+            ecg_inventory.extend(withings.ecg_signal_inventory(payload))
         if args.garmin_json:
             path = Path(args.garmin_json).resolve(strict=True)
             raw = path.read_bytes()
@@ -244,17 +253,30 @@ def run_import(args):
         records = merge_file_records(load_cache(), incoming, providers, start, end)
     monthly = aggregate(records, today)
     cache_path = CACHE / "records.json"
-    previous_classifications = json.loads(cache_path.read_bytes()).get("classifications", []) if cache_path.exists() else []
+    previous_cache = json.loads(cache_path.read_bytes()) if cache_path.exists() else {}
+    previous_classifications = previous_cache.get("classifications", [])
     if args.command == "sync":
         classifications = reconcile.merge_synced(previous_classifications, classifications, providers, start, end,
                                                 fetch_status, classifications=True)
     else:
         classifications = categorical.merge(previous_classifications, classifications, providers, start, end, complete=False)
     monthly["categorical_months"] = categorical.aggregate(classifications, today)
+    ecg_summaries = ecg_records.merge_summaries(
+        previous_cache.get("ecg_recordings", []),
+        ecg_records.summarize_inventory(ecg_inventory, classification_sources.get("withings", "")),
+        start, end,
+        complete=(args.command == "sync" and fetch_status.get("withings", {}).get(
+            "endpoint_status", {}).get("heart_signals", {}).get("status") == "complete"),
+    )
+    if ecg_summaries:
+        monthly["ecg_recordings"] = ecg_records.public_summaries(ecg_summaries)
     previous_monthly = ROOT / "results" / "vitals_monthly.json"
     coverage = json.loads(previous_monthly.read_bytes()).get("sync_coverage", {}) if previous_monthly.exists() else {}
     coverage.update(fetch_status)
     if coverage:
+        signal_status = coverage.get("withings", {}).get("endpoint_status", {}).get("heart_signals", {})
+        if "unavailable_signals" in signal_status:
+            signal_status["unavailable_count"] = len(signal_status.pop("unavailable_signals"))
         monthly["sync_coverage"] = coverage
     reports = prepare_reports(monthly)
     print_summary(monthly)
@@ -264,7 +286,8 @@ def run_import(args):
     for provider, raw, extension, _ in sources:
         archive(provider, raw, extension)
     atomic_commit({
-        CACHE / "records.json": json_bytes({"schema_version": 1, "records": records, "classifications": classifications}),
+        CACHE / "records.json": json_bytes({"schema_version": 1, "records": records, "classifications": classifications,
+                                           **({"ecg_recordings": ecg_summaries} if ecg_summaries else {})}),
         ROOT / "results" / "vitals_monthly.json": json_bytes(monthly),
         **reports,
     })

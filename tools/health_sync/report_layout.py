@@ -61,6 +61,7 @@ _MAIN_GROUPS = (
         "Fitness estimates, daily activity and recorded workout summaries retain their source notes.",
         (
             "VO2max", "VO2 Max (Oura)", "VO2max (Withings)", "Steps (Oura)",
+            "VO2 Max Running (Garmin)", "VO2 Max Cycling (Garmin)",
             "Activity Score (Oura)", "Active Duration (Withings)",
             "High Activity Time (Oura)", "Medium Activity Time (Oura)",
             "Low Activity Time (Oura)", "Sedentary Time (Oura)",
@@ -85,6 +86,8 @@ _DETAIL_GROUPS = (
      "Additional heart-rate measurements and event-specific readings from each source."),
     ("Sleep and breathing details",
      "Additional sleep summaries, breathing ranges and recorded sleep events."),
+    ("Sleep schedule and consistency",
+     "Local sleep timing, schedule variability, recorded short sleeps and observed-night frequencies."),
     ("Recovery and temperature details",
      "Additional HRV and temperature observations retain their original definitions."),
     ("Nerve health details",
@@ -99,23 +102,18 @@ _DETAIL_GROUPS = (
      "Additional recorded device labels and codes, with their source notes."),
     ("Model estimates",
      "Device-reported age and metabolic estimates retain their specific model definitions."),
-    ("Manual and historical observations",
-     "Original manual observations and snapshots retain their dates and source notes."),
     ("Additional measurements",
      "Further measurements are retained here as they become available."),
 )
 
-_LEGACY_NAMES = {
-    "Resting Heart Rate", "Sleeping Heart Rate", "Maximum Heart Rate",
-    "ECG Rhythm", "ECG Heart Rate", "Heart Sounds", "Nighttime BP Dip",
-    "Nighttime BP Pattern", "Max HRV", "Stress",
-    "Cardiovascular Age Difference (Oura)",
-}
 _MODEL_NAMES = {
+    "Fitness Age (Garmin)", "Achievable Fitness Age (Garmin)",
     "Cardiovascular Age (Oura)", "Vascular Age (Withings)",
     "Metabolic Age (Withings)", "Basal Metabolic Rate (Withings)",
+    "Cardiovascular Age Difference (Oura)",
 }
 _DEVICE_NAMES = {
+    "Training Status Feedback (Garmin)", "Training Load Status (Garmin)", "Workout Training Effect (Garmin)",
     "HRV Status (Garmin)",
     "Heart Sounds Classification (Withings)", "PPG AF Classification (Withings)",
     "Core Body Temperature Status (Withings)",
@@ -126,14 +124,19 @@ _BODY_NAMES = {
     "Bone Mass (Withings)", "Height (Withings)",
 }
 _HEART_NAMES = {
+    "Resting Heart Rate", "Sleeping Heart Rate", "Maximum Heart Rate",
+    "ECG Rhythm", "ECG Heart Rate", "Heart Sounds", "Nighttime BP Dip", "Nighttime BP Pattern",
     "Resting HR (Garmin)", "Daily Minimum HR (Garmin)", "Daily Maximum HR (Garmin)",
     "Average Daily HR (Withings)",
+    "Average Sleeping HR (Garmin)",
     "Pulse Rate (Withings)", "ECG Recorded Heart Rate (Withings)",
     "Average Sleeping HR (Withings)", "Mean Nightly Lowest HR (Withings)",
     "Mean Nightly Highest HR (Withings)", "Mean Daily Lowest HR (Withings)",
     "Mean Daily Highest HR (Withings)",
 }
 _SLEEP_NAMES = {
+    "Awakening Count (Garmin)", "Restless Moments (Garmin)",
+    "Sleep Coach Recommendation (Garmin)", "Sleep Coach Shortfall (Garmin)",
     "Sleep Duration (Garmin)", "Deep Sleep (Garmin)", "Light Sleep (Garmin)", "REM Sleep (Garmin)",
     "Awake Time During Sleep (Garmin)", "Nap Duration (Garmin)", "Sleep Score (Garmin)",
     "Average Sleeping SpO2 (Garmin)", "Respiratory Rate (Sleep) (Garmin)",
@@ -149,6 +152,10 @@ _SLEEP_NAMES = {
     "Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)",
 }
 _RECOVERY_NAMES = {
+    "Average Sleeping Stress (Garmin)", "Body Battery at Wakeup (Garmin)",
+    "Skin Temperature Deviation (Garmin)",
+    "Sampled Sleep RMSSD (Withings)", "Sampled Sleep SDNN1 (Withings)",
+    "Max HRV", "Stress",
     "Average Nightly HRV (Garmin)", "Highest 5-minute Nightly HRV (Garmin)", "7-day Average HRV (Garmin)",
     "Average Stress (Garmin)", "Maximum Stress (Garmin)", "Body Battery Highest (Garmin)",
     "Body Battery Lowest (Garmin)", "Body Battery Charged (Garmin)", "Body Battery Drained (Garmin)",
@@ -157,6 +164,11 @@ _RECOVERY_NAMES = {
     "Temperature Trend Deviation (Oura)",
 }
 _ACTIVITY_NAMES = {
+    "Morning Acute Training Load (Garmin)", "Acute Training Load (Garmin)",
+    "Chronic Training Load (Garmin)", "Acute/Chronic Training Load Ratio (Garmin)",
+    "Aerobic Training Effect per Workout (Garmin)", "Anaerobic Training Effect per Workout (Garmin)",
+    "Training Load per Workout (Garmin)",
+    *(f"Workout HR Zone {zone} Duration (Garmin)" for zone in range(1, 6)),
     "Steps (Garmin)", "Distance (Garmin)", "Total Energy Expenditure (Garmin)",
     "Active Energy (Garmin)", "Basal Energy Expenditure (Garmin)", "Moderate Intensity Minutes (Garmin)",
     "Vigorous Intensity Minutes (Garmin)", "Floors Ascended (Garmin)", "Floors Descended (Garmin)",
@@ -176,11 +188,12 @@ _ACTIVITY_NAMES = {
 
 
 def _detail_title(name):
-    if name in _LEGACY_NAMES:
-        return "Manual and historical observations"
-    if name.startswith("Sampled "):
+    if name.startswith(("Bedtime (", "Wake-up Time (", "Sleep Midpoint (", "Sleep Midpoint Variability (",
+                        "Short Sleep Nights (", "AHI ≥5 Nights (", "Recorded Short-Sleep ")):
+        return "Sleep schedule and consistency"
+    if name.startswith("Sampled ") and name not in _RECOVERY_NAMES:
         return "Sensor samples"
-    if " Contributor Score (" in name or name in {
+    if " Contributor Score (" in name or name.endswith(" Contributor (Garmin)") or name in {
         "Primary Sleep Readiness Score Change (Oura)", "Primary Sleep Score Change (Oura)",
     }:
         return "Score contributors and changes"

@@ -1,7 +1,7 @@
 """Isolated sync transactions; all fixtures are synthetic and networking is mocked."""
 
 from contextlib import redirect_stderr, redirect_stdout
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 import io
 import json
 from pathlib import Path
@@ -10,7 +10,7 @@ import unittest
 from unittest.mock import patch
 
 from tools import sync_vitals as cli
-from tools.health_sync import api, auth, oura
+from tools.health_sync import api, auth, garmin, monthly, oura
 
 
 class FixedDateTime(datetime):
@@ -34,6 +34,20 @@ def withings_group(identifier=101, weight=80400):
         "attrib": 0,
         "date": int(datetime(2026, 8, 3, 12, tzinfo=timezone.utc).timestamp()),
         "measures": [{"type": 1, "value": weight, "unit": -3}],
+    }
+
+
+def withings_ecg_payload():
+    return {
+        "measuregrps": [withings_group()],
+        "heart_signals": [{
+            "signalid": "synthetic-private-signal", "timestamp": withings_group()["date"],
+            "model": 44, "data": {"signal": [-125, 0, 250, -50], "sampling_frequency": 500},
+        }],
+        "_sync": {"start": "2026-08-01", "end": "2026-09-05", "endpoint_status": {
+            "measure": {"status": "complete", "rows": 1},
+            "heart_signals": {"status": "complete", "rows": 1},
+        }},
     }
 
 
@@ -103,6 +117,105 @@ class SyncCliTests(unittest.TestCase):
     def run_quietly(self, args):
         with redirect_stdout(io.StringIO()):
             cli.run_import(args)
+
+    def sync_ecg(self, payload=None):
+        self.fetch.side_effect = None
+        self.fetch.return_value = withings_ecg_payload() if payload is None else payload
+        self.run_quietly(self.args("sync", "--provider", "withings", "--start", "2026-08-01",
+                                  "--end", "2026-09-05"))
+        private = json.loads((self.cache / "records.json").read_bytes())
+        public = json.loads((self.root / "results" / "vitals_monthly.json").read_bytes())
+        return private, public
+
+    def test_sync_archives_ecg_waveform_once_and_projects_only_dated_metadata(self):
+        payload = withings_ecg_payload()
+        private, public = self.sync_ecg(payload)
+        self.assertEqual(len(private["ecg_recordings"]), 1)
+        record = private["ecg_recordings"][0]
+        self.assertEqual(record["recorded_at"], "2026-08-03T14:00:00+02:00")
+        self.assertEqual(record["sample_count"], 4)
+        self.assertEqual(record["sampling_frequency_hz"], 500)
+        self.assertEqual(record["duration_seconds"], .008)
+        self.assertEqual(record["signalid"], "synthetic-private-signal")
+        self.assertEqual(record["amplitude_unit"], "uV")
+        self.assertNotIn("signal_uv", record)
+        self.assertNotIn("signal", record)
+        archive = self.root / record["source_file"]
+        self.assertEqual(json.loads(archive.read_bytes()), payload)
+        self.assertEqual(len(list((self.cache / "raw" / "withings").glob("*.json"))), 1)
+        projected = public["ecg_recordings"]
+        self.assertEqual(projected, [{
+            "recorded_at": "2026-08-03T14:00:00+02:00", "provider": "withings",
+            "sample_count": 4, "sampling_frequency_hz": 500, "duration_seconds": .008,
+        }])
+        self.assertFalse({"id", "signalid", "source_file", "signal_uv", "signal"} & set(projected[0]))
+        # Repeating a complete snapshot does not duplicate recording metadata or raw archives.
+        again_private, again_public = self.sync_ecg(payload)
+        self.assertEqual(again_private["ecg_recordings"], private["ecg_recordings"])
+        self.assertEqual(again_public["ecg_recordings"], projected)
+        self.assertEqual(len(list((self.cache / "raw" / "withings").glob("*.json"))), 1)
+
+    def test_oura_and_garmin_only_sync_preserve_withings_ecg_inventory(self):
+        private, public = self.sync_ecg()
+        for provider, module, metric, unit, value, endpoint in (
+            ("oura", oura, "Sleep Duration", "h", 7.5, "sleep"),
+            ("garmin", garmin, "Steps (Garmin)", "steps", 8000, "daily_summary"),
+        ):
+            with self.subTest(provider=provider):
+                self.fetch.return_value = {"_sync": {"endpoint_status": {endpoint: {"status": "complete"}}}}
+                parsed = [reading(f"{provider}:synthetic", "2026-08-03", value,
+                                  provider=provider, metric=metric, unit=unit)]
+                with patch.object(module, "parse_api", return_value=parsed), \
+                        patch.object(module, "categorical_inventory", return_value=[]):
+                    self.run_quietly(self.args("sync", "--provider", provider, "--start", "2026-08-01",
+                                              "--end", "2026-09-05"))
+                saved = json.loads((self.cache / "records.json").read_bytes())
+                report = json.loads((self.root / "results" / "vitals_monthly.json").read_bytes())
+                self.assertEqual(saved["ecg_recordings"], private["ecg_recordings"])
+                self.assertEqual(report["ecg_recordings"], public["ecg_recordings"])
+
+    def test_unavailable_heart_signals_preserve_previous_ecg_inventory(self):
+        private, public = self.sync_ecg()
+        payload = withings_ecg_payload()
+        payload["heart_signals"] = []
+        payload["_sync"]["endpoint_status"]["heart_signals"] = {
+            "status": "unavailable", "rows": 0, "http_status": 403,
+        }
+        saved, report = self.sync_ecg(payload)
+        self.assertEqual(saved["ecg_recordings"], private["ecg_recordings"])
+        self.assertEqual(report["ecg_recordings"], public["ecg_recordings"])
+        self.assertEqual(report["sync_coverage"]["withings"]["endpoint_status"]["heart_signals"]["status"],
+                         "unavailable")
+
+    def test_invalid_waveform_downgrades_complete_coverage_without_erasing_inventory(self):
+        private, public = self.sync_ecg()
+        for invalid in ({"signal": [1, 2], "sampling_frequency": 0},
+                        {"signal": [], "sampling_frequency": 500},
+                        {"signal": [True, 2], "sampling_frequency": 500}):
+            with self.subTest(data=invalid):
+                payload = withings_ecg_payload()
+                payload["heart_signals"][0]["data"] = invalid
+                saved, report = self.sync_ecg(payload)
+                self.assertEqual(saved["ecg_recordings"], private["ecg_recordings"])
+                self.assertEqual(report["ecg_recordings"], public["ecg_recordings"])
+                coverage = report["sync_coverage"]["withings"]["endpoint_status"]["heart_signals"]
+                self.assertEqual(coverage["status"], "unavailable")
+                self.assertIn("supported waveform", coverage["reason"])
+
+    def test_monthly_partial_file_merge_invokes_hrv_sample_coverage_guard(self):
+        metric = "Sampled Sleep RMSSD (Withings)"
+        at = withings_group()["date"]
+        existing = {**reading(f"withings:sleep_detail:daily-2026-08-03:{metric}", "2026-08-03", 45,
+                               metric=metric, unit="ms"),
+                    "source_count": 1, "source_record_ids": ["night"], "sample_count": 2,
+                    "source_sample_timestamps": [at, at + 60]}
+        incoming = {**existing, "value": 30, "sample_count": 1, "source_sample_timestamps": [at]}
+        before = cli.json_bytes([existing, incoming])
+        for partial_api in (False, True):
+            with self.subTest(partial_api=partial_api), self.assertRaisesRegex(ValueError, "all known samples"):
+                monthly.merge_file_records([existing], [incoming], ["withings"],
+                                           date(2026, 8, 1), date(2026, 8, 31), partial_api=partial_api)
+        self.assertEqual(cli.json_bytes([existing, incoming]), before)
 
     def test_second_provider_failure_preserves_cache_reports_and_raw_archives(self):
         self.fetch.side_effect = [{"sleep": [], "daily_sleep": []}, RuntimeError("Withings unavailable")]

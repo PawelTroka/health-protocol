@@ -33,12 +33,16 @@ CATEGORIES = {
     "HRV Status (Garmin)": {
         "Balanced": ("🟢", 3), "Unbalanced": ("🟡", 2), "Low": ("🟠", 1), "Poor": ("🔴", 0),
     },
+    "Training Load Status (Garmin)": {
+        "OPTIMAL": ("🟢", 1), "LOW": ("🟡", 0), "HIGH": ("🟡", 0), "VERY_HIGH": ("🟠", 0),
+    },
 }
 CATEGORY_REFERENCES = {
     "ECG AF Classification (Withings)": "Negative",
     "Stress Day Summary (Oura)": "Normal / Restored",
     "Resilience Level (Oura)": "Solid or better; target Strong–Exceptional",
     "HRV Status (Garmin)": "Balanced within personal baseline",
+    "Training Load Status (Garmin)": "OPTIMAL within Garmin's personal load range",
 }
 
 
@@ -163,6 +167,7 @@ for segment in ("Left Arm", "Right Arm", "Left Leg", "Right Leg", "Torso"):
 # overnight counterparts. Do not apply them to daytime averages or maxima.
 HEART_TARGETS = {}
 for marker in ("Sleeping Heart Rate", "Average Sleeping HR (Oura)", "Average Sleeping HR (Withings)",
+               "Average Sleeping HR (Garmin)",
                "Mean Nightly Lowest HR (Oura)", "Mean Nightly Lowest HR (Withings)",
                "Sampled HR During Primary Sleep (Oura)", "Sampled Sleeping HR (Oura)"):
     HEART_TARGETS[marker] = {"reference": "40–100; practical target 45–60", "normal": (40, 100), "target": (45, 60),

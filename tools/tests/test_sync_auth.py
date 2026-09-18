@@ -305,14 +305,15 @@ class APITests(unittest.TestCase):
     def test_withings_fetches_measure_sleep_and_activity_and_keeps_coverage(self):
         with patch.object(api, "_withings_measure", return_value={"measuregrps": [{"grpid": 1}]}), \
              patch.object(api, "_withings_daily", side_effect=[[{"id": "sleep1"}], [{"date": "2026-07-01"}]]) as daily, \
-             patch.object(api, "_withings_signals", return_value=[]) as signals:
+             patch.object(api, "_withings_signals", return_value=[]) as signals, \
+             patch.object(api, "_withings_sleep_details", return_value=[]):
             result = api.fetch("withings", date(2026, 7, 1), date(2026, 9, 6))
-        self.assertEqual(set(result), {"measuregrps", "series", "activities", "heart_series", "stetho_series", "_sync"})
+        self.assertEqual(set(result), {"measuregrps", "series", "activities", "heart_series", "stetho_series", "sleep_detail_series", "heart_signals", "_sync"})
         self.assertEqual(daily.call_args_list[0].args[:3], ("sleep", "getsummary", "series"))
         self.assertEqual(daily.call_args_list[1].args[:3], ("measure", "getactivity", "activities"))
         self.assertIn("apnea_hypopnea_index", daily.call_args_list[0].args[3])
         self.assertIn("steps", daily.call_args_list[1].args[3])
-        self.assertEqual(set(result["_sync"]["endpoint_status"]), {"measure", "getsummary", "getactivity", "heart", "stetho"})
+        self.assertEqual(set(result["_sync"]["endpoint_status"]), {"measure", "getsummary", "getactivity", "heart", "stetho", "sleep_details", "heart_signals"})
         self.assertEqual([call.args[0] for call in signals.call_args_list], ["heart", "stetho"])
 
     def test_withings_daily_chunks_and_offsets_have_no_missing_days(self):
@@ -334,7 +335,8 @@ class APITests(unittest.TestCase):
     def test_withings_optional_gaps_preserve_successful_measurements(self):
         with patch.object(api, "_withings_measure", return_value={"measuregrps": [{"grpid": 1}]}), \
              patch.object(api, "_withings_daily", side_effect=[api.APIError("Forbidden", status=403), []]), \
-             patch.object(api, "_withings_signals", side_effect=[[], api.APIError("Absent", status=404)]):
+             patch.object(api, "_withings_signals", side_effect=[[], api.APIError("Absent", status=404)]), \
+             patch.object(api, "_withings_sleep_details", side_effect=api.APIError("Forbidden", status=403)):
             result = api.fetch("withings", date(2026, 7, 1), date(2026, 9, 6))
         self.assertEqual(result["measuregrps"], [{"grpid": 1}])
         self.assertNotIn("series", result)

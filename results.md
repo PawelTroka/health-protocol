@@ -22,7 +22,7 @@
 
 ## Vitals & Functional Health
 
-Monthly averages; current month to date. Dated snapshots are identified in the source notes.
+Monthly summaries; current month to date. Dated snapshots are identified in the source notes.
 
 ### Body composition
 
@@ -61,9 +61,9 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Blood Pressure** | 🟡 | 🔵<sup>6</sup> 108.0/76.0 | 🔵<sup>6</sup> 105.0/71.0 | 🟢<sup>6</sup> 115.2/78.7 | mmHg | < 120 / < 80; target 100-115 / 60-75 | Withings |
 | **PWV** | 🟢 | 🔵<sup>6</sup> 6.1 | 🔵<sup>6</sup> 6.5 | 🔵<sup>6</sup> 6.2 | m/s | <10; practical target <7 | Withings |
-| **Estimated PWV** | ⚪ | 🔵<sup>6</sup> 6.40 | 🔵<sup>6</sup> 6.42 | 🔵<sup>6</sup> 6.45 | m/s | <10; practical target <7 | Oura |
-| **Average Sleeping HR** | 🟢 | 🟢<sup>6</sup> 65.5 | 🟢<sup>6</sup> 66.2 | 🟢<sup>6</sup> 66.6 | bpm | 40–100; practical target 45–60 | Oura |
-| **Mean Nightly Lowest HR** | ⚪ | 🔵<sup>6</sup> 58.5 | 🔵<sup>6</sup> 58.9 | 🔵<sup>6</sup> 59.4 | bpm | 40–100; practical target 45–60 | Oura |
+| **Estimated PWV** | ⚪ | 🔵<sup>6</sup> 6.42 | 🔵<sup>6</sup> 6.42 | 🔵<sup>6</sup> 6.45 | m/s | <10; practical target <7 | Oura |
+| **Average Sleeping HR** | 🟢 | 🟢<sup>6</sup> 65.3 | 🟢<sup>6</sup> 66.2 | 🟢<sup>6</sup> 66.6 | bpm | 40–100; practical target 45–60 | Oura |
+| **Mean Nightly Lowest HR** | 🟢 | 🔵<sup>6</sup> 58.2 | 🔵<sup>6</sup> 58.9 | 🔵<sup>6</sup> 59.4 | bpm | 40–100; practical target 45–60 | Oura |
 | **ECG AF Classification** | ⚪ | 🔵<sup>7</sup> Negative: 5 | 🔵<sup>7</sup> Negative: 6 | 🔵<sup>7</sup> Negative: 17 | Status | Negative | Withings |
 
 ### Sleep and breathing
@@ -71,45 +71,45 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Sleep Duration** | ⚪ | 🔵<sup>6</sup> 7.28 | 🔵<sup>6</sup> 7.60 | 🔵<sup>6</sup> 7.68 | h | ≥7; target 7–9 | Oura |
-| **Time in Bed** | ⚪ | 8.44<sup>6</sup> | 9.00<sup>6</sup> | 8.97<sup>6</sup> | h | Allow enough time for 7–9h of sleep | Oura |
-| **Sleep Efficiency** | 🟢 | 🟢<sup>6</sup> 86.3 | 🟡<sup>6</sup> 84.6 | 🟢<sup>6</sup> 85.9 | % | ≥85 | Oura |
-| **Sleep Latency** | 🟢 | 🔵<sup>6</sup> 16.8 | 🟢<sup>6</sup> 22.7 | 🟢<sup>6</sup> 22.0 | min | ≤30; practical target 15–20 | Oura |
+| **Time in Bed** | ⚪ | 8.43<sup>6</sup> | 9.00<sup>6</sup> | 8.97<sup>6</sup> | h | Allow enough time for 7–9h of sleep | Oura |
+| **Sleep Efficiency** | 🟢 | 🟢<sup>6</sup> 86.4 | 🟡<sup>6</sup> 84.6 | 🟢<sup>6</sup> 85.9 | % | ≥85 | Oura |
+| **Sleep Latency** | 🟢 | 🔵<sup>6</sup> 17.1 | 🟢<sup>6</sup> 22.7 | 🟢<sup>6</sup> 22.0 | min | ≤30; practical target 15–20 | Oura |
 | **Sleep Score** | 🟢 | 🟢<sup>6</sup> 80.4 | 🟢<sup>6</sup> 78.7 | 🟢<sup>6</sup> 77.4 | score | 70–100; target 85–100 | Oura |
 | **REM Sleep** | ⚪ | 🟢<sup>6</sup> 1.61 | 🟢<sup>6</sup> 1.72 | 🟢<sup>6</sup> 1.75 | h | Typical 20–25% of sleep | Oura |
 | **Deep Sleep** | 🟢 | 🟢<sup>6</sup> 1.18 | 🟢<sup>6</sup> 1.05 | 🟢<sup>6</sup> 1.07 | h | Typical 13–23% of sleep | Oura |
-| **Light Sleep** | 🟢 | 🟡<sup>6</sup> 4.49 | 🟡<sup>6</sup> 4.83 | 🟡<sup>6</sup> 4.86 | h | Typical 45–55% of sleep | Oura |
-| **Awake Time During Sleep** | 🟢 | 1.17<sup>6</sup> | 1.39<sup>6</sup> | 1.29<sup>6</sup> | h | Less awake time; interpret with sleep duration | Oura |
-| **Respiratory Rate (Sleep)** | ⚪ | 🟢<sup>6</sup> 12.20 | 🟢<sup>6</sup> 12.30 | 🟢<sup>6</sup> 12.62 | /min | 12–20 | Oura |
-| **Average Sleeping SpO2** | 🟢 | 🟢<sup>6</sup> 95.0 | 🟡<sup>6</sup> 94.7 | 🟡<sup>6</sup> 94.5 | % | 95–100 | Oura |
+| **Light Sleep** | 🟢 | 🟡<sup>6</sup> 4.48 | 🟡<sup>6</sup> 4.83 | 🟡<sup>6</sup> 4.86 | h | Typical 45–55% of sleep | Oura |
+| **Awake Time During Sleep** | 🟢 | 1.15<sup>6</sup> | 1.39<sup>6</sup> | 1.29<sup>6</sup> | h | Less awake time; interpret with sleep duration | Oura |
+| **Respiratory Rate (Sleep)** | ⚪ | 🟢<sup>6</sup> 12.24 | 🟢<sup>6</sup> 12.30 | 🟢<sup>6</sup> 12.62 | /min | 12–20 | Oura |
+| **Average Sleeping SpO2** | 🟢 | 🟢<sup>6</sup> 95.1 | 🟡<sup>6</sup> 94.7 | 🟡<sup>6</sup> 94.5 | % | 95–100 | Oura |
 | **Sleep Apnea AHI** | 🟢 | 🔵<sup>6</sup> 1.8 | 🔵<sup>6</sup> 2.7 | 🔵<sup>6</sup> 4.7 | events/h | <5 | Withings |
 | **Breathing Disturbance Index** | 🟢 | 0.7<sup>6</sup> | 1.0<sup>6</sup> | 1.0<sup>6</sup> | index | Lower disturbance burden; device index 0–100 | Oura |
-| **Snoring Duration** | 🟡 | 3.4<sup>6</sup> | 2.0<sup>6</sup> | 4.0<sup>6</sup> | min | Lower snoring burden | Withings |
+| **Snoring Duration** | 🟡 | 3.2<sup>6</sup> | 2.0<sup>6</sup> | 4.0<sup>6</sup> | min | Lower snoring burden | Withings |
 
 ### Recovery and stress
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Average HRV (Sleep)** | 🟡 | 25.0<sup>6</sup> | 25.8<sup>6</sup> | 25.4<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Oura |
-| **Readiness Score** | 🟢 | 🟢<sup>6</sup> 83.1 | 🟢<sup>6</sup> 82.8 | 🟢<sup>6</sup> 83.2 | score | 70–100; target 85–100 | Oura |
+| **Average HRV (Sleep)** | 🟡 | 25.3<sup>6</sup> | 25.8<sup>6</sup> | 25.4<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Oura |
+| **Readiness Score** | 🟢 | 🟢<sup>6</sup> 83.2 | 🟢<sup>6</sup> 82.8 | 🟢<sup>6</sup> 83.2 | score | 70–100; target 85–100 | Oura |
 | **Stress Day Summary** | ⚪ | 🟢<sup>7</sup> Normal: 16 | 🟢<sup>7</sup> Normal: 27; 🔵 Restored: 3; 🟡 Stressful: 1 | 🟢<sup>7</sup> Normal: 26; 🔵 Restored: 4; 🟡 Stressful: 1 | Status | Normal / Restored | Oura |
-| **High Stress Time** | 🟡 | 1.00<sup>6</sup> | 0.90<sup>6</sup> | 0.91<sup>6</sup> | h | Balance sustained stress with recovery | Oura |
-| **High Recovery Time** | 🟡 | 0.97<sup>6</sup> | 1.36<sup>6</sup> | 1.54<sup>6</sup> | h | Regular daytime recovery | Oura |
-| **Resilience Level** | 🟢 | 🟢<sup>7</sup> Solid: 1; 🔵 Strong: 15 | 🟢<sup>7</sup> Solid: 16; 🔵 Strong: 15 | 🟢<sup>7</sup> Solid: 20; 🔵 Strong: 11 | Status | Solid or better; target Strong–Exceptional | Oura |
+| **High Stress Time** | 🟡 | 0.94<sup>6</sup> | 0.90<sup>6</sup> | 0.91<sup>6</sup> | h | Balance sustained stress with recovery | Oura |
+| **High Recovery Time** | 🟡 | 0.91<sup>6</sup> | 1.36<sup>6</sup> | 1.54<sup>6</sup> | h | Regular daytime recovery | Oura |
+| **Resilience Level** | 🟢 | 🟢<sup>7</sup> Solid: 2; 🔵 Strong: 15 | 🟢<sup>7</sup> Solid: 16; 🔵 Strong: 15 | 🟢<sup>7</sup> Solid: 20; 🔵 Strong: 11 | Status | Solid or better; target Strong–Exceptional | Oura |
 
 ### Activity and fitness
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **VO2max** | 🟢 | 🟢<sup>4</sup> 44 | - | 🟢 43 | ml/kg/min | >35; practical target ≥45 | - |
-| **Steps** | 🟡 | 🟡<sup>6</sup> 4951 | 🟡<sup>6</sup> 6128 | 🟡<sup>6</sup> 5791 | steps | ≥7000; practical target ≥8000/day | Oura |
-| **Activity Score** | 🟡 | 🔵<sup>6</sup> 87.1 | 🔵<sup>6</sup> 88.5 | 🔵<sup>6</sup> 93.6 | score | 70–100; target 85–100 | Oura |
+| **Steps** | 🟡 | 🟡<sup>6</sup> 4774 | 🟡<sup>6</sup> 6128 | 🟡<sup>6</sup> 5791 | steps | ≥7000; practical target ≥8000/day | Oura |
+| **Activity Score** | 🟡 | 🔵<sup>6</sup> 87.8 | 🔵<sup>6</sup> 88.5 | 🔵<sup>6</sup> 93.6 | score | 70–100; target 85–100 | Oura |
 | **Active Duration** | 🟡 | 🟢<sup>6</sup> 23.1 | 🔵<sup>6</sup> 74.0 | 🔵<sup>6</sup> 26.5 | min | Combined M+2V: ≥21.4; target 42.9 min/day | Withings |
-| **High Activity Time** | ⚪ | 🔵<sup>6</sup> 0.15 | 🔵<sup>6</sup> 0.08 | 🔵<sup>6</sup> 0.17 | h | Combined M+2V: ≥21.4; target 42.9 min/day | Oura |
-| **Medium Activity Time** | ⚪ | 🔵<sup>6</sup> 1.23 | 🔵<sup>6</sup> 1.60 | 🔵<sup>6</sup> 2.33 | h | Combined M+2V: ≥21.4; target 42.9 min/day | Oura |
-| **Low Activity Time** | 🟡 | 🟢<sup>6</sup> 3.53 | 🟢<sup>6</sup> 3.95 | 🟡<sup>6</sup> 3.03 | h | ≥3.5; practical target ~6 (observational) | Oura |
-| **Sedentary Time** | 🟡 | 🟡<sup>6</sup> 9.27 | 🟡<sup>6</sup> 8.43 | 🟡<sup>6</sup> 8.73 | h | ≤8; practical target ≤5 | Oura |
-| **Active Energy** | ⚪ | 657.6<sup>6</sup> | 783.3<sup>6</sup> | 968.5<sup>6</sup> | kcal | - | Oura |
-| **Total Energy Expenditure** | ⚪ | 2816.2<sup>6</sup> | 3027.6<sup>6</sup> | 3221.9<sup>6</sup> | kcal | - | Oura |
+| **High Activity Time** | ⚪ | 🔵<sup>6</sup> 0.14 | 🔵<sup>6</sup> 0.08 | 🔵<sup>6</sup> 0.17 | h | Combined M+2V: ≥21.4; target 42.9 min/day | Oura |
+| **Medium Activity Time** | ⚪ | 🔵<sup>6</sup> 1.30 | 🔵<sup>6</sup> 1.60 | 🔵<sup>6</sup> 2.33 | h | Combined M+2V: ≥21.4; target 42.9 min/day | Oura |
+| **Low Activity Time** | 🟡 | 🟡<sup>6</sup> 3.36 | 🟢<sup>6</sup> 3.95 | 🟡<sup>6</sup> 3.03 | h | ≥3.5; practical target ~6 (observational) | Oura |
+| **Sedentary Time** | 🟡 | 🟡<sup>6</sup> 8.79 | 🟡<sup>6</sup> 8.43 | 🟡<sup>6</sup> 8.73 | h | ≤8; practical target ≤5 | Oura |
+| **Active Energy** | ⚪ | 661.6<sup>6</sup> | 783.3<sup>6</sup> | 968.5<sup>6</sup> | kcal | - | Oura |
+| **Total Energy Expenditure** | ⚪ | 2804.8<sup>6</sup> | 3027.6<sup>6</sup> | 3221.9<sup>6</sup> | kcal | - | Oura |
 | **Duration per Recorded Workout** | ⚪ | 1.59<sup>6</sup> | 0.88<sup>6</sup> | 1.42<sup>6</sup> | h | - | Oura |
 | **Distance per Recorded Workout** | ⚪ | 13.29<sup>6</sup> | 5.31<sup>6</sup> | 7.91<sup>6</sup> | km | - | Oura |
 
@@ -123,7 +123,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | **Temperature Deviation** | 🟡 | 0.05<sup>6</sup> | -0.01<sup>6</sup> | -0.07<sup>6</sup> | °C | Near personal baseline (0) | Oura |
 
 <details>
-<summary id='results-vitals-details'>Detailed device measurements · 168 metrics</summary>
+<summary id='results-vitals-details'>Detailed device measurements · 204 metrics</summary>
 
 ### Body composition details
 
@@ -159,71 +159,106 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Average Daily HR** | ⚪ | 89.0<sup>6</sup> | 106.5<sup>6</sup> | 106.6<sup>6</sup> | bpm | - | Withings |
-| **Average Sleeping HR** | 🟢 | 🟢<sup>6</sup> 64.7 | 🟢<sup>6</sup> 65.8 | 🟢<sup>6</sup> 65.9 | bpm | 40–100; practical target 45–60 | Withings |
-| **Daily Maximum HR** | - | 146.1<sup>6</sup> | - | - | bpm | - | Garmin |
-| **Daily Minimum HR** | - | 56.0<sup>6</sup> | - | - | bpm | - | Garmin |
+| **Average Sleeping HR** | - | 🟢<sup>6</sup> 65.8 | - | - | bpm | 40–100; practical target 45–60 | Garmin |
+| **Average Sleeping HR** | 🟢 | 🟢<sup>6</sup> 64.5 | 🟢<sup>6</sup> 65.8 | 🟢<sup>6</sup> 65.9 | bpm | 40–100; practical target 45–60 | Withings |
+| **Daily Maximum HR** | - | 147.2<sup>6</sup> | - | - | bpm | - | Garmin |
+| **Daily Minimum HR** | - | 55.7<sup>6</sup> | - | - | bpm | - | Garmin |
 | **ECG Recorded Heart Rate** | 🟢 | 🔵<sup>6</sup> 76.9 | 🟢<sup>6</sup> 82.6 | 🟢<sup>6</sup> 86.2 | bpm | 50–100; practical target 50–80 | Withings |
+| **ECG Rhythm** | ⚪ | 🔵<sup>2</sup> normal sinus rhythm | 🔵<sup>2</sup> normal sinus rhythm | 🔵 normal sinus rhythm | Status | normal sinus rhythm | - |
+| **Heart Sounds** | - | inconclusive<sup>2</sup> | 🔵<sup>2</sup> normal (apex area) | 🔵 normal (no signs of valvular heart disease) | Status | normal | - |
+| **Maximum Heart Rate** | - | - | - | 190<sup>3</sup> | bpm | - | - |
 | **Mean Daily Highest HR** | ⚪ | 129.7<sup>6</sup> | 134.9<sup>6</sup> | 139.2<sup>6</sup> | bpm | - | Withings |
 | **Mean Daily Lowest HR** | ⚪ | 72.3<sup>6</sup> | 81.8<sup>6</sup> | 79.5<sup>6</sup> | bpm | - | Withings |
-| **Mean Nightly Highest HR** | ⚪ | 78.3<sup>6</sup> | 80.4<sup>6</sup> | 80.8<sup>6</sup> | bpm | - | Withings |
-| **Mean Nightly Lowest HR** | ⚪ | 🔵<sup>6</sup> 54.7 | 🔵<sup>6</sup> 54.8 | 🔵<sup>6</sup> 55.3 | bpm | 40–100; practical target 45–60 | Withings |
+| **Mean Nightly Highest HR** | ⚪ | 78.1<sup>6</sup> | 80.4<sup>6</sup> | 80.8<sup>6</sup> | bpm | - | Withings |
+| **Mean Nightly Lowest HR** | ⚪ | 🔵<sup>6</sup> 54.6 | 🔵<sup>6</sup> 54.8 | 🔵<sup>6</sup> 55.3 | bpm | 40–100; practical target 45–60 | Withings |
+| **Nighttime BP Dip** | - | - | - | 🔵 16.7 | % | 10 - 20; target 10 - 20 | - |
+| **Nighttime BP Pattern** | - | 🟢<sup>4</sup> typical dipping | - | - | Status | typical dipping | - |
 | **Pulse Rate** | 🟢 | 🔵<sup>6</sup> 76.9 | 🟢<sup>6</sup> 82.6 | 🟢<sup>6</sup> 86.3 | bpm | 50–100; practical target 50–80 | Withings |
-| **Resting HR** | - | 🔵<sup>6</sup> 61.4 | - | - | bpm | 40–100; practical target 50–70 | Garmin |
+| **Resting HR** | - | 🔵<sup>6</sup> 60.9 | - | - | bpm | 40–100; practical target 50–70 | Garmin |
 
 ### Sleep and breathing details
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Awake Duration** | 🟡 | 44.7<sup>6</sup> | 37.8<sup>6</sup> | 40.1<sup>6</sup> | min | Less disruption; interpret with sleep duration | Withings |
-| **Awake Time During Sleep** | - | 0.14<sup>6</sup> | - | - | h | Less awake time; interpret with sleep duration | Garmin |
+| **Awake Duration** | 🟡 | 46.1<sup>6</sup> | 37.8<sup>6</sup> | 40.1<sup>6</sup> | min | Less disruption; interpret with sleep duration | Withings |
+| **Awake Time During Sleep** | - | 0.13<sup>6</sup> | - | - | h | Less awake time; interpret with sleep duration | Garmin |
+| **Awakening Count** | - | 0.5<sup>6</sup> | - | - | count | Fewer disruptions | Garmin |
 | **Breathing Disturbance Intensity** | 🟢 | 🟢<sup>6</sup> 3.7 | 🟢<sup>6</sup> 5.1 | 🟢<sup>6</sup> 9.3 | index | <30 few; 30–<60 moderate; ≥60 high | Withings |
 | **Breathing Quality Assessment** | 🟢 | 🟢<sup>6</sup> 3.7 | 🟢<sup>6</sup> 5.1 | 🟢<sup>6</sup> 9.3 | index | <30 few; 30–<60 moderate; ≥60 high | Withings |
-| **Deep Sleep** | - | 🟢<sup>6</sup> 1.25 | - | - | h | Typical 13–23% of sleep | Garmin |
-| **Deep Sleep** | 🟢 | 🟡<sup>6</sup> 1.35 | 🟢<sup>6</sup> 0.85 | 🟢<sup>6</sup> 1.16 | h | Typical 13–23% of sleep | Withings |
-| **Light Sleep** | - | 🟡<sup>6</sup> 4.68 | - | - | h | Typical 45–55% of sleep | Garmin |
-| **Light Sleep** | 🟢 | 🟡<sup>6</sup> 3.06 | 🟡<sup>6</sup> 3.57 | 🟡<sup>6</sup> 3.78 | h | Typical 45–55% of sleep | Withings |
-| **Maximum Sleeping Respiratory Rate** | ⚪ | 19.0<sup>6</sup> | 20.1<sup>6</sup> | 20.3<sup>6</sup> | /min | Nightly extrema; compare with personal baseline | Withings |
+| **Deep Sleep** | - | 🟢<sup>6</sup> 1.33 | - | - | h | Typical 13–23% of sleep | Garmin |
+| **Deep Sleep** | 🟢 | 🟡<sup>6</sup> 1.30 | 🟢<sup>6</sup> 0.85 | 🟢<sup>6</sup> 1.16 | h | Typical 13–23% of sleep | Withings |
+| **Light Sleep** | - | 🟡<sup>6</sup> 4.60 | - | - | h | Typical 45–55% of sleep | Garmin |
+| **Light Sleep** | 🟢 | 🟡<sup>6</sup> 3.05 | 🟡<sup>6</sup> 3.57 | 🟡<sup>6</sup> 3.78 | h | Typical 45–55% of sleep | Withings |
+| **Maximum Sleeping Respiratory Rate** | ⚪ | 19.1<sup>6</sup> | 20.1<sup>6</sup> | 20.3<sup>6</sup> | /min | Nightly extrema; compare with personal baseline | Withings |
 | **Minimum Sleeping Respiratory Rate** | ⚪ | 10.3<sup>6</sup> | 10.4<sup>6</sup> | 10.3<sup>6</sup> | /min | Nightly extrema; compare with personal baseline | Withings |
-| **Nap Duration** | - | 0.55<sup>6</sup> | - | - | h | Interpret with nighttime sleep and nap timing | Garmin |
+| **Nap Duration** | - | 0.48<sup>6</sup> | - | - | h | Interpret with nighttime sleep and nap timing | Garmin |
 | **Out of Bed Count** | ⚪ | 1.6<sup>6</sup> | 1.6<sup>6</sup> | 1.8<sup>6</sup> | count | Fewer disruptions | Withings |
 | **REM Episode Count** | ⚪ | 2.6<sup>6</sup> | 3.5<sup>6</sup> | 3.1<sup>6</sup> | count | Interpret with sleep duration and continuity | Withings |
-| **REM Sleep** | - | 🟢<sup>6</sup> 1.61 | - | - | h | Typical 20–25% of sleep | Garmin |
-| **REM Sleep** | 🟡 | 🟡<sup>6</sup> 1.03 | 🟢<sup>6</sup> 1.26 | 🟢<sup>6</sup> 1.32 | h | Typical 20–25% of sleep | Withings |
-| **Respiratory Rate (Sleep)** | - | 🟢<sup>6</sup> 14.14 | - | - | /min | 12–20 | Garmin |
+| **REM Sleep** | - | 🟢<sup>6</sup> 1.65 | - | - | h | Typical 20–25% of sleep | Garmin |
+| **REM Sleep** | 🟡 | 🟡<sup>6</sup> 1.04 | 🟢<sup>6</sup> 1.26 | 🟢<sup>6</sup> 1.32 | h | Typical 20–25% of sleep | Withings |
+| **Respiratory Rate (Sleep)** | - | 🟢<sup>6</sup> 14.00 | - | - | /min | 12–20 | Garmin |
 | **Respiratory Rate During Sleep** | ⚪ | 🟢<sup>6</sup> 13.4 | 🟢<sup>6</sup> 13.8 | 🟢<sup>6</sup> 13.7 | /min | 12–20 | Withings |
-| **Restless Periods During Sleep** | 🟢 | 207.9<sup>6</sup> | 214.0<sup>6</sup> | 207.7<sup>6</sup> | count | Fewer disruptions | Oura |
-| **Sleep Duration** | - | 🔵<sup>6</sup> 7.55 | - | - | h | ≥7; target 7–9 | Garmin |
-| **Sleep Duration** | 🟡 | 🟡<sup>6</sup> 5.44 | 🟡<sup>6</sup> 5.68 | 🟡<sup>6</sup> 6.26 | h | ≥7; target 7–9 | Withings |
-| **Sleep Efficiency** | 🟡 | 🟡<sup>6</sup> 84.2 | 🟢<sup>6</sup> 86.3 | 🟢<sup>6</sup> 87.4 | % | ≥85 | Withings |
-| **Sleep Latency** | 🟢 | 🟢<sup>6</sup> 23.8 | 🟢<sup>6</sup> 24.9 | 🟢<sup>6</sup> 25.6 | min | ≤30; practical target 15–20 | Withings |
-| **Sleep Score** | - | 🟡<sup>6</sup> 78.9 | - | - | score | ≥80 good; target ≥90 | Garmin |
-| **Sleep Score** | 🟡 | 🟡<sup>6</sup> 53.8 | 🟡<sup>6</sup> 55.7 | 🟡<sup>6</sup> 59.6 | score | >75; higher is better | Withings |
-| **Sleeping Movement Duration** | 🟢 | 2.0<sup>6</sup> | 3.4<sup>6</sup> | 3.5<sup>6</sup> | min | Less disruption; interpret with sleep duration | Withings |
+| **Restless Moments** | - | 46.3<sup>6</sup> | - | - | count | Fewer disruptions | Garmin |
+| **Restless Periods During Sleep** | 🟢 | 209.9<sup>6</sup> | 214.0<sup>6</sup> | 207.7<sup>6</sup> | count | Fewer disruptions | Oura |
+| **Sleep Coach Recommendation** | - | 7.58<sup>6</sup> | - | - | h | Personal Garmin recommendation | Garmin |
+| **Sleep Coach Shortfall** | - | 🟡<sup>6</sup> 0.46 | - | - | h | 0 relative to Sleep Coach | Garmin |
+| **Sleep Duration** | - | 🔵<sup>6</sup> 7.58 | - | - | h | ≥7; target 7–9 | Garmin |
+| **Sleep Duration** | 🟡 | 🟡<sup>6</sup> 5.39 | 🟡<sup>6</sup> 5.68 | 🟡<sup>6</sup> 6.26 | h | ≥7; target 7–9 | Withings |
+| **Sleep Efficiency** | 🟡 | 🟡<sup>6</sup> 84.0 | 🟢<sup>6</sup> 86.3 | 🟢<sup>6</sup> 87.4 | % | ≥85 | Withings |
+| **Sleep Latency** | 🟢 | 🟢<sup>6</sup> 24.1 | 🟢<sup>6</sup> 24.9 | 🟢<sup>6</sup> 25.6 | min | ≤30; practical target 15–20 | Withings |
+| **Sleep Score** | - | 🟢<sup>6</sup> 80.4 | - | - | score | ≥80 good; target ≥90 | Garmin |
+| **Sleep Score** | 🟡 | 🟡<sup>6</sup> 52.5 | 🟡<sup>6</sup> 55.7 | 🟡<sup>6</sup> 59.6 | score | >75; higher is better | Withings |
+| **Sleeping Movement Duration** | 🟢 | 2.1<sup>6</sup> | 3.4<sup>6</sup> | 3.5<sup>6</sup> | min | Less disruption; interpret with sleep duration | Withings |
 | **Sleeping Movement Score** | 🟢 | 0.3<sup>6</sup> | 0.4<sup>6</sup> | 0.6<sup>6</sup> | score | Less movement; device scale 0–255 | Withings |
 | **Snoring Episode Count** | 🟡 | 0.7<sup>6</sup> | 0.4<sup>6</sup> | 0.6<sup>6</sup> | count | Fewer snoring episodes | Withings |
-| **Time in Bed** | ⚪ | 6.18<sup>6</sup> | 6.31<sup>6</sup> | 6.93<sup>6</sup> | h | Allow enough time for 7–9h of sleep | Withings |
-| **Wake After Sleep Onset** | 🟡 | 🟡<sup>6</sup> 40.1 | 🟡<sup>6</sup> 27.4 | 🟡<sup>6</sup> 38.2 | min | ≤20 | Withings |
+| **Time in Bed** | ⚪ | 6.16<sup>6</sup> | 6.31<sup>6</sup> | 6.93<sup>6</sup> | h | Allow enough time for 7–9h of sleep | Withings |
+| **Wake After Sleep Onset** | 🟡 | 🟡<sup>6</sup> 38.6 | 🟡<sup>6</sup> 27.4 | 🟡<sup>6</sup> 38.2 | min | ≤20 | Withings |
 | **Wakeup Count** | 🟡 | 1.1<sup>6</sup> | 0.9<sup>6</sup> | 1.5<sup>6</sup> | count | Fewer disruptions | Withings |
-| **Wakeup Latency** | ⚪ | 1.1<sup>6</sup> | 0.3<sup>6</sup> | 1.7<sup>6</sup> | min | Time in bed after waking; contextual | Withings |
+| **Wakeup Latency** | ⚪ | 1.0<sup>6</sup> | 0.3<sup>6</sup> | 1.7<sup>6</sup> | min | Time in bed after waking; contextual | Withings |
+
+### Sleep schedule and consistency
+
+| Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **AHI ≥5 Nights** | 🟢 | 🟡<sup>6</sup> 14.3 \(1/7\) | 🟡<sup>6</sup> 15.4 \(2/13\) | 🟡<sup>6</sup> 50.0 \(10/20\) | % | Target 0% of observed nights | Withings |
+| **Bedtime** | - | 01:43<sup>6</sup> | 01:56<sup>6</sup> | 01:29<sup>6</sup> | hh:mm | Local sleep schedule | Oura |
+| **Bedtime** | - | 02:22<sup>6</sup> | 02:08<sup>6</sup> | 01:45<sup>6</sup> | hh:mm | Local sleep schedule | Withings |
+| **Recorded Short-Sleep Duration** | ⚪ | 3.49<sup>6</sup> | 3.79<sup>6</sup> | 5.99<sup>6</sup> | h | Recorded monthly total | Oura |
+| **Recorded Short-Sleep Periods** | ⚪ | 9<sup>6</sup> | 19<sup>6</sup> | 15<sup>6</sup> | periods | Recorded monthly total | Oura |
+| **Short Sleep Nights** | 🟢 | 🟡<sup>6</sup> 23.5 \(4/17\) | 🟡<sup>6</sup> 29.0 \(9/31\) | 🟡<sup>6</sup> 16.7 \(5/30\) | % | Target 0% of observed nights | Oura |
+| **Short Sleep Nights** | 🟢 | 🟡<sup>6</sup> 53.8 \(7/13\) | 🟡<sup>6</sup> 61.1 \(11/18\) | 🟡<sup>6</sup> 56.0 \(14/25\) | % | Target 0% of observed nights | Withings |
+| **Sleep Midpoint** | - | 05:57<sup>6</sup> | 06:25<sup>6</sup> | 05:58<sup>6</sup> | hh:mm | Local sleep schedule | Oura |
+| **Sleep Midpoint** | - | 05:45<sup>6</sup> | 05:50<sup>6</sup> | 05:32<sup>6</sup> | hh:mm | Local sleep schedule | Withings |
+| **Sleep Midpoint Variability** | 🟡 | 86<sup>6</sup> | 66<sup>6</sup> | 61<sup>6</sup> | min | Lower variability; regular schedule | Oura |
+| **Sleep Midpoint Variability** | 🟢 | 80<sup>6</sup> | 149<sup>6</sup> | 85<sup>6</sup> | min | Lower variability; regular schedule | Withings |
+| **Wake-up Time** | - | 10:12<sup>6</sup> | 10:54<sup>6</sup> | 10:28<sup>6</sup> | hh:mm | Local sleep schedule | Oura |
+| **Wake-up Time** | - | 09:08<sup>6</sup> | 09:42<sup>6</sup> | 09:26<sup>6</sup> | hh:mm | Local sleep schedule | Withings |
 
 ### Recovery and temperature details
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **7-day Average HRV** | - | 30.3<sup>6</sup> | - | - | ms | Within personal HRV baseline (Balanced) | Garmin |
-| **Average Nightly HRV** | - | 30.4<sup>6</sup> | - | - | ms | Within personal HRV baseline (Balanced) | Garmin |
-| **Average Stress** | - | 🟢<sup>6</sup> 28.4 | - | - | score | 0–25 resting; 26–50 low | Garmin |
-| **Body Battery Charged** | - | 45.5<sup>6</sup> | - | - | points | Recovery and prior depletion | Garmin |
-| **Body Battery Drained** | - | 44.1<sup>6</sup> | - | - | points | Activity and stress dependent | Garmin |
-| **Body Battery Highest** | - | 🟢<sup>6</sup> 66.0 | - | - | score | 51–100 high reserve; target 76–100 | Garmin |
-| **Body Battery Lowest** | - | 🟠<sup>6</sup> 23.5 | - | - | score | 0–25 low; 51–100 high reserve | Garmin |
-| **Highest 5-minute Nightly HRV** | - | 55.9<sup>6</sup> | - | - | ms | Personal baseline for the same window | Garmin |
-| **HRV at Sleep End** | 🟢 | 44.6<sup>6</sup> | 41.3<sup>6</sup> | 40.2<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Withings |
-| **HRV at Sleep Start** | 🟢 | 40.7<sup>6</sup> | 37.0<sup>6</sup> | 41.6<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Withings |
-| **Maximum Stress** | - | 🟠<sup>6</sup> 91.9 | - | - | score | 0–25 resting; 76–100 high peak | Garmin |
-| **Morning Recovery Time** | - | 13.66<sup>6</sup> | - | - | h | 0 before the next hard workout | Garmin |
-| **Morning Training Readiness** | - | 🟢<sup>6</sup> 64.5 | - | - | score | 50–100 ready; target 75–100 | Garmin |
+| **7-day Average HRV** | - | 30.4<sup>6</sup> | - | - | ms | Within personal HRV baseline (Balanced) | Garmin |
+| **Average Nightly HRV** | - | 31.0<sup>6</sup> | - | - | ms | Within personal HRV baseline (Balanced) | Garmin |
+| **Average Sleeping Stress** | - | 🔵<sup>6</sup> 21.5 | - | - | score | 0–25 resting; 26–50 low | Garmin |
+| **Average Stress** | - | 🟢<sup>6</sup> 28.1 | - | - | score | 0–25 resting; 26–50 low | Garmin |
+| **Body Battery at Wakeup** | - | 🟢<sup>6</sup> 73.1 | - | - | score | 51–100 high reserve; target 76–100 | Garmin |
+| **Body Battery Charged** | - | 46.6<sup>6</sup> | - | - | points | Recovery and prior depletion | Garmin |
+| **Body Battery Drained** | - | 45.4<sup>6</sup> | - | - | points | Activity and stress dependent | Garmin |
+| **Body Battery Highest** | - | 🟢<sup>6</sup> 68.0 | - | - | score | 51–100 high reserve; target 76–100 | Garmin |
+| **Body Battery Lowest** | - | 🟠<sup>6</sup> 24.0 | - | - | score | 0–25 low; 51–100 high reserve | Garmin |
+| **Highest 5-minute Nightly HRV** | - | 56.6<sup>6</sup> | - | - | ms | Personal baseline for the same window | Garmin |
+| **HRV at Sleep End** | 🟢 | 44.5<sup>6</sup> | 41.3<sup>6</sup> | 40.2<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Withings |
+| **HRV at Sleep Start** | 🟢 | 40.9<sup>6</sup> | 37.0<sup>6</sup> | 41.6<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Withings |
+| **Max HRV** | ⚪ | 51<sup>3</sup> | - | 48<sup>3</sup> | ms | Personal baseline for the same window | - |
+| **Maximum Stress** | - | 🟠<sup>6</sup> 91.1 | - | - | score | 0–25 resting; 76–100 high peak | Garmin |
+| **Morning Recovery Time** | - | 13.39<sup>6</sup> | - | - | h | 0 before the next hard workout | Garmin |
+| **Morning Training Readiness** | - | 🟢<sup>6</sup> 66.6 | - | - | score | 50–100 ready; target 75–100 | Garmin |
+| **Sampled Sleep RMSSD** | ⚪ | 49.5<sup>6</sup> | 49.1<sup>6</sup> | 49.7<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Withings |
+| **Sampled Sleep SDNN1** | ⚪ | 57.3<sup>6</sup> | 57.4<sup>6</sup> | 57.6<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Withings |
 | **Skin Temperature** | - | - | - | 34.9<sup>6</sup> | C | Personal peripheral-temperature baseline | Withings |
+| **Skin Temperature Deviation** | - | 0.1<sup>6</sup> | - | - | °C | Near personal baseline (0) | Garmin |
+| **Stress** | - | 🟢<sup>4</sup> low | - | 🟢 minor |  | low/minor | - |
 | **Temperature Trend Deviation** | 🟡 | 0.12<sup>6</sup> | 0.06<sup>6</sup> | -0.00<sup>6</sup> | °C | Near personal baseline (0) | Oura |
 
 ### Nerve health details
@@ -238,115 +273,154 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Active Calories** | ⚪ | 124.9<sup>6</sup> | 54.0<sup>6</sup> | 104.7<sup>6</sup> | kcal | - | Withings |
-| **Active Energy** | - | 528.1<sup>6</sup> | - | - | kcal | - | Garmin |
-| **Activity Distance Target** | ⚪ | 10.13<sup>6</sup> | 10.35<sup>6</sup> | 10.39<sup>6</sup> | km | - | Oura |
-| **Activity Energy Target** | ⚪ | 525.0<sup>6</sup> | 554.8<sup>6</sup> | 550.0<sup>6</sup> | kcal | - | Oura |
-| **Average MET Minutes** | ⚪ | 1.56<sup>6</sup> | 1.61<sup>6</sup> | 1.71<sup>6</sup> | MET-min | - | Oura |
-| **Basal Energy Expenditure** | - | 2057.4<sup>6</sup> | - | - | kcal | - | Garmin |
-| **Distance** | - | 4.62<sup>6</sup> | - | - | km | - | Garmin |
+| **Active Energy** | - | 533.1<sup>6</sup> | - | - | kcal | - | Garmin |
+| **Activity Distance Target** | ⚪ | 10.18<sup>6</sup> | 10.35<sup>6</sup> | 10.39<sup>6</sup> | km | - | Oura |
+| **Activity Energy Target** | ⚪ | 526.5<sup>6</sup> | 554.8<sup>6</sup> | 550.0<sup>6</sup> | kcal | - | Oura |
+| **Acute Training Load** | - | 409.4<sup>6</sup> | - | - | load | Personal training range and recovery | Garmin |
+| **Aerobic Training Effect per Workout** | - | 🟢<sup>6</sup> 2.39 | - | - | score | 2 maintain; 3–4 improve; 5 overreach | Garmin |
+| **Anaerobic Training Effect per Workout** | - | 0.98<sup>6</sup> | - | - | score | 2 maintain; 3–4 improve; 5 overreach | Garmin |
+| **Average MET Minutes** | ⚪ | 1.63<sup>6</sup> | 1.61<sup>6</sup> | 1.71<sup>6</sup> | MET-min | - | Oura |
+| **Basal Energy Expenditure** | - | 2059.9<sup>6</sup> | - | - | kcal | - | Garmin |
+| **Chronic Training Load** | - | 398.0<sup>6</sup> | - | - | load | Personal training range and recovery | Garmin |
+| **Distance** | - | 4.42<sup>6</sup> | - | - | km | - | Garmin |
 | **Distance** | ⚪ | 1903.2<sup>6</sup> | 883.7<sup>6</sup> | 1535.2<sup>6</sup> | m | - | Withings |
-| **Distance Remaining to Activity Target** | ⚪ | 🟢<sup>6</sup> -2.42 | 🟢<sup>6</sup> -4.01 | 🟢<sup>6</sup> -7.46 | km | ≤0; daily activity goal achieved | Oura |
+| **Distance Remaining to Activity Target** | ⚪ | 🟢<sup>6</sup> -2.47 | 🟢<sup>6</sup> -4.01 | 🟢<sup>6</sup> -7.46 | km | ≤0; daily activity goal achieved | Oura |
 | **Energy per Recorded Workout** | ⚪ | 469.0<sup>6</sup> | 237.0<sup>6</sup> | 433.7<sup>6</sup> | kcal | - | Oura |
-| **Equivalent Walking Distance** | ⚪ | 11.19<sup>6</sup> | 13.53<sup>6</sup> | 16.48<sup>6</sup> | km | - | Oura |
+| **Equivalent Walking Distance** | ⚪ | 11.31<sup>6</sup> | 13.53<sup>6</sup> | 16.48<sup>6</sup> | km | - | Oura |
 | **Floors Ascended** | - | 3<sup>6</sup> | - | - | floors | - | Garmin |
 | **Floors Climbed** | ⚪ | 0.0<sup>6</sup> | 0.0<sup>6</sup> | 0.0<sup>6</sup> | floors | - | Withings |
 | **Floors Descended** | - | 3<sup>6</sup> | - | - | floors | - | Garmin |
-| **High Activity MET Minutes** | ⚪ | 🔵<sup>6</sup> 83.8 | 🔵<sup>6</sup> 43.5 | 🔵<sup>6</sup> 84.5 | MET-min | Combined medium+high: ≥107.1; target 285.7 MET-min/day | Oura |
+| **High Activity MET Minutes** | ⚪ | 🔵<sup>6</sup> 78.8 | 🔵<sup>6</sup> 43.5 | 🔵<sup>6</sup> 84.5 | MET-min | Combined medium+high: ≥107.1; target 285.7 MET-min/day | Oura |
 | **HR Intense Zone Duration** | ⚪ | 5.6<sup>6</sup> | 6.2<sup>6</sup> | 5.6<sup>6</sup> | min | - | Withings |
 | **HR Light Zone Duration** | ⚪ | 152.8<sup>6</sup> | 33.2<sup>6</sup> | 28.2<sup>6</sup> | min | - | Withings |
 | **HR Maximal Zone Duration** | ⚪ | 0.0<sup>6</sup> | 0.1<sup>6</sup> | 1.0<sup>6</sup> | min | - | Withings |
 | **HR Moderate Zone Duration** | ⚪ | 1.9<sup>6</sup> | 29.7<sup>6</sup> | 41.9<sup>6</sup> | min | - | Withings |
-| **Inactivity Alerts** | 🟢 | 🟡<sup>6</sup> 0.3 | 🟡<sup>6</sup> 0.4 | 🟡<sup>6</sup> 0.5 | count | 0; break up prolonged inactivity | Oura |
+| **Inactivity Alerts** | 🟢 | 🟡<sup>6</sup> 0.2 | 🟡<sup>6</sup> 0.4 | 🟡<sup>6</sup> 0.5 | count | 0; break up prolonged inactivity | Oura |
 | **Intense Activity Duration** | 🟡 | 🟢<sup>6</sup> 17.2 | 🔵<sup>6</sup> 55.6 | 🔵<sup>6</sup> 18.5 | min | Combined M+2V: ≥21.4; target 42.9 min/day | Withings |
 | **Light Activity Duration** | ⚪ | 501.6<sup>6</sup> | 550.0<sup>6</sup> | 44.9<sup>6</sup> | min | - | Withings |
-| **Low Activity MET Minutes** | ⚪ | 138.5<sup>6</sup> | 190.4<sup>6</sup> | 119.4<sup>6</sup> | MET-min | - | Oura |
-| **Medium Activity MET Minutes** | ⚪ | 🔵<sup>6</sup> 288.3 | 🔵<sup>6</sup> 353.6 | 🔵<sup>6</sup> 524.0 | MET-min | Combined medium+high: ≥107.1; target 285.7 MET-min/day | Oura |
+| **Low Activity MET Minutes** | ⚪ | 131.4<sup>6</sup> | 190.4<sup>6</sup> | 119.4<sup>6</sup> | MET-min | - | Oura |
+| **Medium Activity MET Minutes** | ⚪ | 🔵<sup>6</sup> 304.8 | 🔵<sup>6</sup> 353.6 | 🔵<sup>6</sup> 524.0 | MET-min | Combined medium+high: ≥107.1; target 285.7 MET-min/day | Oura |
 | **Moderate Activity Duration** | 🟡 | 🟢<sup>6</sup> 5.9 | 🔵<sup>6</sup> 18.4 | 🔵<sup>6</sup> 8.0 | min | Combined M+2V: ≥21.4; target 42.9 min/day | Withings |
-| **Moderate Intensity Minutes** | - | 🔵<sup>6</sup> 17.8 | - | - | min | Combined M+2V: ≥21.4; target 42.9 min/day | Garmin |
-| **Non-wear Time** | ⚪ | 0.44<sup>6</sup> | 0.39<sup>6</sup> | 0.40<sup>6</sup> | h | - | Oura |
-| **Resting Time** | ⚪ | 9.38<sup>6</sup> | 9.55<sup>6</sup> | 9.33<sup>6</sup> | h | - | Oura |
-| **Sedentary MET Minutes** | ⚪ | 12.4<sup>6</sup> | 10.5<sup>6</sup> | 9.5<sup>6</sup> | MET-min | - | Oura |
-| **Steps** | - | 🟡<sup>6</sup> 5399 | - | - | steps | ≥7000; practical target ≥8000/day | Garmin |
+| **Moderate Intensity Minutes** | - | 🔵<sup>6</sup> 21.4 | - | - | min | Combined M+2V: ≥21.4; target 42.9 min/day | Garmin |
+| **Morning Acute Training Load** | - | 405.0<sup>6</sup> | - | - | load | Personal training range and recovery | Garmin |
+| **Non-wear Time** | ⚪ | 0.41<sup>6</sup> | 0.39<sup>6</sup> | 0.40<sup>6</sup> | h | - | Oura |
+| **Resting Time** | ⚪ | 9.01<sup>6</sup> | 9.55<sup>6</sup> | 9.33<sup>6</sup> | h | - | Oura |
+| **Sedentary MET Minutes** | ⚪ | 11.8<sup>6</sup> | 10.5<sup>6</sup> | 9.5<sup>6</sup> | MET-min | - | Oura |
+| **Steps** | - | 🟡<sup>6</sup> 5185 | - | - | steps | ≥7000; practical target ≥8000/day | Garmin |
 | **Steps** | 🟢 | 🟡<sup>6</sup> 2534.5 | 🟡<sup>6</sup> 1136.6 | 🟡<sup>6</sup> 1998.0 | steps | ≥7000; practical target ≥8000/day | Withings |
 | **Total Calories** | ⚪ | 1242.2<sup>6</sup> | 1053.5<sup>6</sup> | 1810.0<sup>6</sup> | kcal | - | Withings |
-| **Total Energy Expenditure** | - | 2585.5<sup>6</sup> | - | - | kcal | - | Garmin |
+| **Total Energy Expenditure** | - | 2593.0<sup>6</sup> | - | - | kcal | - | Garmin |
+| **Training Load per Workout** | - | 68.3<sup>6</sup> | - | - | load | Personal training range and recovery | Garmin |
 | **Vigorous Intensity Minutes** | - | 🔵<sup>6</sup> 20.9 | - | - | min | Combined M+2V: ≥21.4; target 42.9 min/day | Garmin |
+| **Workout HR Zone 1 Duration** | - | 22.4<sup>6</sup> | - | - | min | Per recorded workout day; balance intensity | Garmin |
+| **Workout HR Zone 2 Duration** | - | 13.7<sup>6</sup> | - | - | min | Per recorded workout day; balance intensity | Garmin |
+| **Workout HR Zone 3 Duration** | - | 6.2<sup>6</sup> | - | - | min | Per recorded workout day; balance intensity | Garmin |
+| **Workout HR Zone 4 Duration** | - | 8.3<sup>6</sup> | - | - | min | Per recorded workout day; balance intensity | Garmin |
+| **Workout HR Zone 5 Duration** | - | 0.9<sup>6</sup> | - | - | min | Per recorded workout day; balance intensity | Garmin |
 
 ### Score contributors and changes
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Activity Meet Daily Targets Contributor Score** | 🟡 | 🟢<sup>6</sup> 70.1 | 🟢<sup>6</sup> 81.6 | 🔵<sup>6</sup> 93.3 | score | 70–100; target 85–100 | Oura |
+| **Activity Meet Daily Targets Contributor Score** | 🟡 | 🟢<sup>6</sup> 71.5 | 🟢<sup>6</sup> 81.6 | 🔵<sup>6</sup> 93.3 | score | 70–100; target 85–100 | Oura |
 | **Activity Move Every Hour Contributor Score** | 🟢 | 🔵<sup>6</sup> 98.8 | 🔵<sup>6</sup> 97.0 | 🔵<sup>6</sup> 96.9 | score | 70–100; target 85–100 | Oura |
-| **Activity Recovery Time Contributor Score** | 🟢 | 🔵<sup>6</sup> 97.2 | 🔵<sup>6</sup> 86.7 | 🔵<sup>6</sup> 95.0 | score | 70–100; target 85–100 | Oura |
-| **Activity Stay Active Contributor Score** | 🟡 | 🟢<sup>6</sup> 75.6 | 🟢<sup>6</sup> 80.7 | 🟢<sup>6</sup> 79.2 | score | 70–100; target 85–100 | Oura |
-| **Activity Training Frequency Contributor Score** | 🟡 | 🔵<sup>6</sup> 95.6 | 🔵<sup>6</sup> 97.9 | 🔵<sup>6</sup> 100.0 | score | 70–100; target 85–100 | Oura |
-| **Activity Training Volume Contributor Score** | 🟡 | 🔵<sup>6</sup> 96.8 | 🔵<sup>6</sup> 99.6 | 🔵<sup>6</sup> 100.0 | score | 70–100; target 85–100 | Oura |
+| **Activity Recovery Time Contributor Score** | 🟢 | 🔵<sup>6</sup> 97.4 | 🔵<sup>6</sup> 86.7 | 🔵<sup>6</sup> 95.0 | score | 70–100; target 85–100 | Oura |
+| **Activity Stay Active Contributor Score** | 🟡 | 🟢<sup>6</sup> 76.9 | 🟢<sup>6</sup> 80.7 | 🟢<sup>6</sup> 79.2 | score | 70–100; target 85–100 | Oura |
+| **Activity Training Frequency Contributor Score** | 🟡 | 🔵<sup>6</sup> 95.9 | 🔵<sup>6</sup> 97.9 | 🔵<sup>6</sup> 100.0 | score | 70–100; target 85–100 | Oura |
+| **Activity Training Volume Contributor Score** | 🟡 | 🔵<sup>6</sup> 97.0 | 🔵<sup>6</sup> 99.6 | 🔵<sup>6</sup> 100.0 | score | 70–100; target 85–100 | Oura |
+| **Morning Load Contributor** | - | 91.0<sup>6</sup> | - | - | score | Higher readiness contribution | Garmin |
+| **Morning Recovery Time Contributor** | - | 75.8<sup>6</sup> | - | - | score | Higher readiness contribution | Garmin |
+| **Morning Sleep History Contributor** | - | 66.8<sup>6</sup> | - | - | score | Higher readiness contribution | Garmin |
+| **Morning Sleep Score Contributor** | - | 74.4<sup>6</sup> | - | - | score | Higher readiness contribution | Garmin |
+| **Morning Stress History Contributor** | - | 92.4<sup>6</sup> | - | - | score | Higher readiness contribution | Garmin |
 | **Primary Sleep Readiness Score Change** | ⚪ | 0.0<sup>6</sup> | 0.0<sup>6</sup> | 0.0<sup>6</sup> | points | Algorithm contribution; not a quality score | Oura |
 | **Primary Sleep Score Change** | ⚪ | 0.0<sup>6</sup> | 0.0<sup>6</sup> | 0.0<sup>6</sup> | points | Algorithm contribution; not a quality score | Oura |
-| **Readiness Activity Balance Contributor Score** | 🟢 | 🔵<sup>6</sup> 89.4 | 🟢<sup>6</sup> 83.2 | 🟢<sup>6</sup> 73.9 | score | 70–100; target 85–100 | Oura |
-| **Readiness Body Temperature Contributor Score** | 🟢 | 🔵<sup>6</sup> 90.8 | 🔵<sup>6</sup> 86.0 | 🔵<sup>6</sup> 88.3 | score | 70–100; target 85–100 | Oura |
-| **Readiness HRV Balance Contributor Score** | 🟡 | 🔵<sup>6</sup> 85.6 | 🔵<sup>6</sup> 86.3 | 🔵<sup>6</sup> 88.5 | score | 70–100; target 85–100 | Oura |
-| **Readiness Previous Day Activity Contributor Score** | 🟡 | 🟢<sup>6</sup> 82.9 | 🔵<sup>6</sup> 87.7 | 🟢<sup>6</sup> 82.0 | score | 70–100; target 85–100 | Oura |
+| **Readiness Activity Balance Contributor Score** | 🟢 | 🔵<sup>6</sup> 89.2 | 🟢<sup>6</sup> 83.2 | 🟢<sup>6</sup> 73.9 | score | 70–100; target 85–100 | Oura |
+| **Readiness Body Temperature Contributor Score** | 🟢 | 🔵<sup>6</sup> 91.4 | 🔵<sup>6</sup> 86.0 | 🔵<sup>6</sup> 88.3 | score | 70–100; target 85–100 | Oura |
+| **Readiness HRV Balance Contributor Score** | 🟡 | 🔵<sup>6</sup> 85.5 | 🔵<sup>6</sup> 86.3 | 🔵<sup>6</sup> 88.5 | score | 70–100; target 85–100 | Oura |
+| **Readiness Previous Day Activity Contributor Score** | 🟡 | 🟢<sup>6</sup> 83.3 | 🔵<sup>6</sup> 87.7 | 🟢<sup>6</sup> 82.0 | score | 70–100; target 85–100 | Oura |
 | **Readiness Previous Night Contributor Score** | 🟢 | 🟢<sup>6</sup> 84.4 | 🟢<sup>6</sup> 80.6 | 🟢<sup>6</sup> 79.9 | score | 70–100; target 85–100 | Oura |
-| **Readiness Recovery Index Contributor Score** | 🟡 | 🟡<sup>6</sup> 69.9 | 🟢<sup>6</sup> 76.1 | 🟢<sup>6</sup> 81.0 | score | 70–100; target 85–100 | Oura |
-| **Readiness Resting HR Contributor Score** | 🟢 | 🔵<sup>6</sup> 88.3 | 🔵<sup>6</sup> 85.0 | 🔵<sup>6</sup> 87.4 | score | 70–100; target 85–100 | Oura |
-| **Readiness Sleep Balance Contributor Score** | 🟢 | 🔵<sup>6</sup> 89.7 | 🔵<sup>6</sup> 87.7 | 🔵<sup>6</sup> 94.7 | score | 70–100; target 85–100 | Oura |
-| **Readiness Sleep Regularity Contributor Score** | 🟡 | 🟢<sup>6</sup> 78.7 | 🟢<sup>6</sup> 80.2 | 🟢<sup>6</sup> 81.6 | score | 70–100; target 85–100 | Oura |
-| **Resilience Daytime Recovery Contributor Score** | 🟡 | 🟡<sup>6</sup> 60.9 | 🟡<sup>6</sup> 61.8 | 🟠<sup>6</sup> 59.1 | score | 70–100; target 85–100 | Oura |
-| **Resilience Sleep Recovery Contributor Score** | 🟢 | 🟡<sup>6</sup> 66.4 | 🟡<sup>6</sup> 65.6 | 🟡<sup>6</sup> 63.9 | score | 70–100; target 85–100 | Oura |
-| **Resilience Stress Contributor Score** | ⚪ | 41.2<sup>6</sup> | 36.2<sup>6</sup> | 41.1<sup>6</sup> | score | Balance stress load with recovery | Oura |
-| **Sleep Deep Sleep Contributor Score** | 🟢 | 🟢<sup>6</sup> 78.4 | 🟢<sup>6</sup> 71.1 | 🟢<sup>6</sup> 71.5 | score | 70–100; target 85–100 | Oura |
-| **Sleep Efficiency Contributor Score** | 🟢 | 🔵<sup>6</sup> 86.0 | 🟢<sup>6</sup> 81.8 | 🟢<sup>6</sup> 84.7 | score | 70–100; target 85–100 | Oura |
+| **Readiness Recovery Index Contributor Score** | 🟡 | 🟢<sup>6</sup> 70.4 | 🟢<sup>6</sup> 76.1 | 🟢<sup>6</sup> 81.0 | score | 70–100; target 85–100 | Oura |
+| **Readiness Resting HR Contributor Score** | 🟢 | 🔵<sup>6</sup> 88.7 | 🔵<sup>6</sup> 85.0 | 🔵<sup>6</sup> 87.4 | score | 70–100; target 85–100 | Oura |
+| **Readiness Sleep Balance Contributor Score** | 🟢 | 🔵<sup>6</sup> 89.4 | 🔵<sup>6</sup> 87.7 | 🔵<sup>6</sup> 94.7 | score | 70–100; target 85–100 | Oura |
+| **Readiness Sleep Regularity Contributor Score** | 🟡 | 🟢<sup>6</sup> 78.6 | 🟢<sup>6</sup> 80.2 | 🟢<sup>6</sup> 81.6 | score | 70–100; target 85–100 | Oura |
+| **Resilience Daytime Recovery Contributor Score** | 🟡 | 🟡<sup>6</sup> 60.7 | 🟡<sup>6</sup> 61.8 | 🟠<sup>6</sup> 59.1 | score | 70–100; target 85–100 | Oura |
+| **Resilience Sleep Recovery Contributor Score** | 🟢 | 🟡<sup>6</sup> 66.1 | 🟡<sup>6</sup> 65.6 | 🟡<sup>6</sup> 63.9 | score | 70–100; target 85–100 | Oura |
+| **Resilience Stress Contributor Score** | ⚪ | 41.3<sup>6</sup> | 36.2<sup>6</sup> | 41.1<sup>6</sup> | score | Balance stress load with recovery | Oura |
+| **Sleep Deep Sleep Contributor Score** | 🟢 | 🟢<sup>6</sup> 78.8 | 🟢<sup>6</sup> 71.1 | 🟢<sup>6</sup> 71.5 | score | 70–100; target 85–100 | Oura |
+| **Sleep Efficiency Contributor Score** | 🟢 | 🔵<sup>6</sup> 86.4 | 🟢<sup>6</sup> 81.8 | 🟢<sup>6</sup> 84.7 | score | 70–100; target 85–100 | Oura |
 | **Sleep Latency Contributor Score** | 🟢 | 🟢<sup>6</sup> 78.0 | 🟢<sup>6</sup> 70.4 | 🟢<sup>6</sup> 74.5 | score | 70–100; target 85–100 | Oura |
-| **Sleep REM Sleep Contributor Score** | 🟡 | 🟢<sup>6</sup> 82.1 | 🔵<sup>6</sup> 85.2 | 🔵<sup>6</sup> 88.5 | score | 70–100; target 85–100 | Oura |
+| **Sleep REM Sleep Contributor Score** | 🟡 | 🟢<sup>6</sup> 82.6 | 🔵<sup>6</sup> 85.2 | 🔵<sup>6</sup> 88.5 | score | 70–100; target 85–100 | Oura |
 | **Sleep Restfulness Contributor Score** | 🟢 | 🟢<sup>6</sup> 80.3 | 🟢<sup>6</sup> 74.2 | 🟢<sup>6</sup> 73.6 | score | 70–100; target 85–100 | Oura |
-| **Sleep Timing Contributor Score** | 🟢 | 🟢<sup>6</sup> 80.4 | 🟢<sup>6</sup> 76.9 | 🟠<sup>6</sup> 45.5 | score | 70–100; target 85–100 | Oura |
-| **Sleep Total Sleep Contributor Score** | 🟡 | 🟢<sup>6</sup> 79.5 | 🟢<sup>6</sup> 82.9 | 🔵<sup>6</sup> 85.5 | score | 70–100; target 85–100 | Oura |
+| **Sleep Timing Contributor Score** | 🟢 | 🟢<sup>6</sup> 78.5 | 🟢<sup>6</sup> 76.9 | 🟠<sup>6</sup> 45.5 | score | 70–100; target 85–100 | Oura |
+| **Sleep Total Sleep Contributor Score** | 🟡 | 🟢<sup>6</sup> 79.6 | 🟢<sup>6</sup> 82.9 | 🔵<sup>6</sup> 85.5 | score | 70–100; target 85–100 | Oura |
 
 ### Sensor samples
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sampled Activity MET** | ⚪ | 1.54<sup>6</sup> | 1.59<sup>6</sup> | 1.69<sup>6</sup> | MET | - | Oura |
-| **Sampled Awake HR** | ⚪ | 79.2<sup>6</sup> | 79.7<sup>6</sup> | 81.1<sup>6</sup> | bpm | - | Oura |
-| **Sampled HR During Primary Sleep** | 🟢 | 🟢<sup>6</sup> 65.6 | 🟢<sup>6</sup> 66.2 | 🟢<sup>6</sup> 66.6 | bpm | 40–100; practical target 45–60 | Oura |
-| **Sampled HRV During Primary Sleep** | 🟡 | 24.6<sup>6</sup> | 25.2<sup>6</sup> | 24.8<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Oura |
+| **Sampled Activity MET** | ⚪ | 1.53<sup>6</sup> | 1.59<sup>6</sup> | 1.69<sup>6</sup> | MET | - | Oura |
+| **Sampled Awake HR** | ⚪ | 81.6<sup>6</sup> | 79.7<sup>6</sup> | 81.1<sup>6</sup> | bpm | - | Oura |
+| **Sampled HR During Primary Sleep** | 🟢 | 🟢<sup>6</sup> 65.4 | 🟢<sup>6</sup> 66.2 | 🟢<sup>6</sup> 66.6 | bpm | 40–100; practical target 45–60 | Oura |
+| **Sampled HRV During Primary Sleep** | 🟡 | 24.9<sup>6</sup> | 25.2<sup>6</sup> | 24.8<sup>6</sup> | ms | Personal baseline; sustained recovery trend | Oura |
 | **Sampled Live HR** | - | - | - | 70.6<sup>6</sup> | bpm | - | Oura |
-| **Sampled Rest HR** | 🟢 | 🔵<sup>6</sup> 66.5 | 🔵<sup>6</sup> 67.3 | 🔵<sup>6</sup> 67.7 | bpm | 40–100; practical target 50–70 | Oura |
-| **Sampled Workout HR** | ⚪ | 108.3<sup>6</sup> | 105.2<sup>6</sup> | 101.8<sup>6</sup> | bpm | - | Oura |
+| **Sampled Rest HR** | 🟢 | 🔵<sup>6</sup> 66.2 | 🔵<sup>6</sup> 67.3 | 🔵<sup>6</sup> 67.7 | bpm | 40–100; practical target 50–70 | Oura |
+| **Sampled Workout HR** | ⚪ | 106.8<sup>6</sup> | 105.2<sup>6</sup> | 101.8<sup>6</sup> | bpm | - | Oura |
 
 ### Device codes and classifications
 
 | Metric | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Heart Sounds Classification** | Device code 2: 1<sup>7</sup> | Device code 0: 1<sup>7</sup> | Device code 0: 3; Device code 2: 2<sup>7</sup> | Status | - | Withings |
-| **HRV Status** | NONE: 7<sup>7</sup> | - | - | Status | Balanced within personal baseline | Garmin |
+| **Training Load Status** | 🟢<sup>7</sup> OPTIMAL: 2 | - | - | Status | OPTIMAL within Garmin's personal load range | Garmin |
+| **Workout Training Effect** | AEROBIC\_BASE: 3; ANAEROBIC\_CAPACITY: 2; LACTATE\_THRESHOLD: 2; RECOVERY: 1; TEMPO: 1<sup>7</sup> | - | - | Status | - | Garmin |
 
 ### Model estimates
 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Basal Metabolic Rate** | ⚪ | 1984.3<sup>6</sup> | 1989.2<sup>6</sup> | 1995.4<sup>6</sup> | kcal/day | - | Withings |
-| **Cardiovascular Age** | 🟢 | 29.6<sup>6</sup> | 29.8<sup>6</sup> | 30.2<sup>6</sup> | years | Below chronological age | Oura |
+| **Cardiovascular Age** | ⚪ | 29.8<sup>6</sup> | 29.8<sup>6</sup> | 30.2<sup>6</sup> | years | Below chronological age | Oura |
 | **Metabolic Age** | 🟢 | 30.5<sup>6</sup> | 31.2<sup>6</sup> | 32.9<sup>6</sup> | years | Below chronological age | Withings |
 | **Vascular Age** | 🟢 | 33.7<sup>6</sup> | 35.2<sup>6</sup> | 33.7<sup>6</sup> | years | Below chronological age | Withings |
 
-### Manual and historical observations
+</details>
 
-| Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Cardiovascular Age Difference** | - | 🔵<sup>4</sup> -6.5 | - | - | years | Within ±5; target ≤−6 | Oura |
-| **ECG Heart Rate** | - | - | - | 🔵 68 | bpm | 50–100; practical target 50–80 | - |
-| **ECG Rhythm** | ⚪ | 🔵<sup>2</sup> normal sinus rhythm | 🔵<sup>2</sup> normal sinus rhythm | 🔵 normal sinus rhythm | Status | normal sinus rhythm | - |
-| **Heart Sounds** | - | inconclusive<sup>2</sup> | 🔵<sup>2</sup> normal (apex area) | 🔵 normal (no signs of valvular heart disease) | Status | normal | - |
-| **Max HRV** | ⚪ | 51<sup>3</sup> | - | 48<sup>3</sup> | ms | Personal baseline for the same window | - |
-| **Maximum Heart Rate** | - | - | - | 190<sup>3</sup> | bpm | - | - |
-| **Nighttime BP Dip** | - | - | - | 🔵 16.7 | % | 10 - 20; target 10 - 20 | - |
-| **Nighttime BP Pattern** | - | 🟢<sup>4</sup> typical dipping | - | - | Status | typical dipping | - |
-| **Resting Heart Rate** | - | - | - | 🔵 ~65 | bpm | 40–100; practical target 50–70 | - |
-| **Sleeping Heart Rate** | - | - | - | 🔵 56 | bpm | 40–100; practical target 45–60 | - |
-| **Stress** | - | 🟢<sup>4</sup> low | - | 🟢 minor |  | low/minor | - |
+<details>
+<summary>Recorded ECG traces · 28 recordings</summary>
+
+Waveforms are retained in the private sync archive.
+
+| Date/time | Duration (s) | Sampling frequency (Hz) | Source |
+| :--- | ---: | ---: | :--- |
+| 2026-09-17 14:19:14+02:00 | 30 | 500 | Withings |
+| 2026-09-16 00:04:56+02:00 | 30 | 500 | Withings |
+| 2026-09-07 13:04:04+02:00 | 30 | 500 | Withings |
+| 2026-09-05 23:15:56+02:00 | 30 | 500 | Withings |
+| 2026-09-05 22:36:52+02:00 | 30 | 500 | Withings |
+| 2026-08-28 15:53:15+02:00 | 30 | 500 | Withings |
+| 2026-08-26 14:27:13+02:00 | 30 | 500 | Withings |
+| 2026-08-26 01:04:39+02:00 | 30 | 500 | Withings |
+| 2026-08-25 18:49:59+02:00 | 30 | 500 | Withings |
+| 2026-08-08 15:43:48+02:00 | 30 | 500 | Withings |
+| 2026-08-06 18:35:20+02:00 | 30 | 500 | Withings |
+| 2026-07-31 13:17:49+02:00 | 30 | 500 | Withings |
+| 2026-07-25 20:39:49+02:00 | 30 | 500 | Withings |
+| 2026-07-25 20:34:46+02:00 | 30 | 500 | Withings |
+| 2026-07-22 16:54:39+02:00 | 30 | 500 | Withings |
+| 2026-07-20 01:00:15+02:00 | 30 | 500 | Withings |
+| 2026-07-19 16:44:43+02:00 | 30 | 500 | Withings |
+| 2026-07-13 11:22:56+02:00 | 30 | 500 | Withings |
+| 2026-07-11 11:35:07+02:00 | 30 | 500 | Withings |
+| 2026-07-09 16:47:20+02:00 | 30 | 500 | Withings |
+| 2026-07-06 17:49:46+02:00 | 30 | 500 | Withings |
+| 2026-07-06 17:47:31+02:00 | 30 | 500 | Withings |
+| 2026-07-06 17:43:38+02:00 | 30 | 500 | Withings |
+| 2026-07-03 15:33:40+02:00 | 30 | 500 | Withings |
+| 2026-07-03 11:13:33+02:00 | 30 | 500 | Withings |
+| 2026-07-03 11:09:07+02:00 | 30 | 500 | Withings |
+| 2026-07-02 13:21:51+02:00 | 30 | 500 | Withings |
+| 2026-07-01 16:56:31+02:00 | 30 | 500 | Withings |
 
 </details>
 
@@ -359,7 +433,7 @@ Monthly averages; current month to date. Dated snapshots are identified in the s
 <sup>3</sup> Original AHI snapshot: 0 on September 2; imported AHI means have a separate source note. Nerve health 69 is the confirmed August score; September is pending. Max HRV 51ms is the maximum shown for September 3, not a monthly maximum; it uses a different window from average nighttime HRV.
 <sup>4</sup> Oura overview captured September 6: current-month VO2max 44; cardiovascular age 6.5 years younger; cumulative stress low. Typical nighttime dipping describes the last 30 days and supplies no dip percentage. The app's typical sleep score of 81 has an unspecified window; the table uses imported calendar means.
 <sup>5</sup> Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.
-<sup>6</sup> Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, breathing intensity indices, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Garmin: 4-8/17 elapsed days (month to date); 2026-09 Withings: 1-15/17 elapsed days (month to date); 2026-09 Oura: 1-16/17 elapsed days (month to date). Garmin daily summaries use Garmin's assigned calendar date; current-day Garmin data are also deferred until tomorrow. Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
+<sup>6</sup> Imported monthly summaries from July 2026 onward: ordinary measurements use equally weighted daily means. Clock times use circular means; midpoint variability is circular SD. Short-sleep totals count recorded periods; frequency cells show percentages (affected/observed nights). Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, breathing intensity indices, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Garmin: 2-9/18 elapsed days (month to date); 2026-09 Withings: 1-16/18 elapsed days (month to date); 2026-09 Oura: 1-17/18 elapsed days (month to date). Garmin daily summaries use Garmin's assigned calendar date; current-day Garmin data are also deferred until tomorrow. Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
 <sup>7</sup> Imported device classifications show counts of observed labels within each calendar month; they are not numeric averages, clinical diagnoses or estimates for unrecorded days. Entries labeled Device code preserve API values with unverified meanings and may include unavailable-result codes; they are not interpreted as clinical findings. Different provider classifications retain separate rows. Coverage and exact counts: <a href='results/vitals_monthly.json'>monthly source data</a>.
 
 

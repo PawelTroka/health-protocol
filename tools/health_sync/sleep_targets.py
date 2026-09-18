@@ -15,6 +15,33 @@ def _add(markers, **rule):
         TARGETS[marker] = dict(rule)
 
 
+# Frequency rows show measured nights, not prevalence or diagnostic severity.
+# AASM >=7h and AHI<5 comparisons are the same as the underlying nightly rows.
+_add(
+    ("Short Sleep Nights (Oura)", "Short Sleep Nights (Withings)", "AHI ≥5 Nights (Withings)"),
+    reference="Target 0% of observed nights", target=(0, 0), valid=(0, 100),
+    direction="down", trend_min_change=1,
+)
+# Consistency is supported by NHLBI; there is no universal ideal clock time
+# or clinical cutoff for this circular standard deviation.
+# https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits
+for _provider in ("Oura", "Withings"):
+    _add((f"Sleep Midpoint Variability ({_provider})",),
+         reference="Lower variability; regular schedule", valid=(0, None),
+         direction="down", trend_min_change=5)
+    _add(tuple(f"{name} ({_provider})" for name in ("Bedtime", "Wake-up Time", "Sleep Midpoint")),
+         reference="Local sleep schedule", direction="none")
+_add(("Recorded Short-Sleep Periods (Oura)", "Recorded Short-Sleep Duration (Oura)"),
+     reference="Recorded monthly total", direction="none")
+# Compare actual completed-night sleep with its own Garmin recommendation.
+# https://www.garmin.com/en-GB/garmin-technology/health-science/sleep-coach/
+_add(("Sleep Coach Recommendation (Garmin)",),
+     reference="Personal Garmin recommendation", valid=(6.5, 9.5), direction="none")
+_add(("Sleep Coach Shortfall (Garmin)",),
+     reference="0 relative to Sleep Coach", target=(0, 0), valid=(0, 24),
+     direction="down", trend_min_change=5 / 60)
+
+
 # AASM/SRS: >=7 h for adults, with no universal harmful upper boundary.
 # Oura/NSF use 7–9 h as a practical full-night range.  More than 9 h remains
 # within the broad recommendation; distance to the typical range is not risk.
@@ -155,6 +182,7 @@ _add(
 )
 _add(
     ("Restless Periods During Sleep (Oura)", "Wakeup Count (Withings)",
+     "Awakening Count (Garmin)", "Restless Moments (Garmin)",
      "Out of Bed Count (Withings)"),
     reference="Fewer disruptions", direction="down", valid=(0, None),
 )

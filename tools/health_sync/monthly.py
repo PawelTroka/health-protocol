@@ -9,8 +9,13 @@ from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 from .oura import OURA_CATEGORICAL_METRICS, OURA_METRICS
-from .withings import WITHINGS_BREATHING_INDEX_METRICS, WITHINGS_CATEGORICAL_METRICS, WITHINGS_METRICS
+from .withings import (WITHINGS_BREATHING_INDEX_METRICS, WITHINGS_CATEGORICAL_METRICS,
+                       WITHINGS_METRICS, check_detail_file_coverage)
 from .garmin import GARMIN_CATEGORICAL_METRICS, GARMIN_METRICS
+from .summary_statistics import (
+    CLOCK_METRICS, EVENT_RATE_METRICS, TOTAL_METRICS, VARIABILITY_METRICS,
+    aggregation_for, circular_summary, clock_text, report_value, valid_clock,
+)
 
 
 # The user reopened July on 2026-09-06. Original manual values remain in the
@@ -55,6 +60,14 @@ def validate_records(records):
             raise ValueError("Blood pressure requires a same-reading systolic/diastolic pair.")
         if any(isinstance(v, bool) or not isinstance(v, (int, float)) or not math.isfinite(v) for v in numbers):
             raise ValueError(f"Non-finite or nonnumeric measurement: {metric}.")
+        if metric in CLOCK_METRICS and not 0 <= value < 1440:
+            raise ValueError("Clock observations must be local minutes since midnight.")
+        if metric in EVENT_RATE_METRICS and value not in (0, 100):
+            raise ValueError("Night-frequency observations must be 0 or 100 percent.")
+        if metric in VARIABILITY_METRICS:
+            raise ValueError("Monthly schedule variability must be derived from clock observations.")
+        if metric in TOTAL_METRICS and (value < 0 or (metric == "Recorded Short-Sleep Periods (Oura)" and value != int(value))):
+            raise ValueError("Recorded short-sleep totals must be nonnegative; period counts must be integers.")
         if record.get("source_kind") not in {"api", "csv"}:
             raise ValueError("Expected an API or CSV source.")
         if type(record.get("source_count", 1)) is not int or record.get("source_count", 1) < 1:
@@ -150,6 +163,7 @@ def merge_file_records(existing, incoming, providers, start, end, *, partial_api
     # Reuse range/provider/input checks without treating a file as a full fetch.
     incoming = merge_records([], incoming, providers, start, end)
     existing = validate_records(existing)
+    check_detail_file_coverage(existing, incoming)
     sleep_cells = _check_sleep_file_coverage(existing, incoming)
 
     def key(record):
@@ -188,7 +202,18 @@ def aggregate(records, as_of):
         averages = []
         for component in range(components):
             daily = [_mean([r["value"][component] if components == 2 else r["value"] for r in readings]) for readings in days.values()]
-            averages.append(_rounded(_mean(daily), places))
+            if metric in CLOCK_METRICS | EVENT_RATE_METRICS | TOTAL_METRICS and any(len(readings) != 1 for readings in days.values()):
+                raise ValueError(f"Expected one normalized daily observation for {metric}.")
+            if metric in CLOCK_METRICS:
+                clock_mean, clock_sd = circular_summary(daily)
+                if clock_mean is None:
+                    break
+                averages.append(clock_text(clock_mean))
+            else:
+                value = sum(daily) if metric in TOTAL_METRICS else _mean(daily)
+                averages.append(_rounded(value, places))
+        if not averages:
+            continue
         first = iso_date(month + "-01")
         calendar_days = calendar.monthrange(first.year, first.month)[1]
         elapsed_days = min((as_of - first).days + 1, calendar_days)
@@ -199,14 +224,24 @@ def aggregate(records, as_of):
             "observed_days": ",".join(sorted(days)),
             "calendar_days": calendar_days, "elapsed_days": elapsed_days,
             "partial_month": (first.year, first.month) == (as_of.year, as_of.month),
-            "aggregation": "mean_of_daily_means",
+            "aggregation": aggregation_for(metric),
             "source_kinds": sorted({r["source_kind"] for readings in days.values() for r in readings}),
         }
         daily_methods = sorted({r["daily_aggregation"] for readings in days.values() for r in readings
                                 if r.get("daily_aggregation")})
         if daily_methods:
             entry["daily_aggregation"] = daily_methods
+        if metric in EVENT_RATE_METRICS:
+            entry["n_matching_days"] = sum(value == 100 for value in daily)
         months.setdefault(month, {})[metric] = entry
+        for variability, midpoint in VARIABILITY_METRICS.items():
+            if metric == midpoint and len(days) >= 2:
+                sd_unit, sd_places = METRICS[provider][variability]
+                months[month][variability] = {
+                    **entry, "value": _rounded(Decimal(str(clock_sd)), sd_places),
+                    "unit": sd_unit, "aggregation": aggregation_for(variability),
+                    "derived_from": midpoint,
+                }
     return {"schema_version": 1, "as_of": as_of.isoformat(), "months": months}
 
 
@@ -226,17 +261,32 @@ def load_monthly(path):
             provider = entry["provider"]
             if provider not in METRICS or metric not in METRICS[provider]:
                 raise ValueError("Unknown monthly-vitals metric.")
-            if entry["unit"] != METRICS[provider][metric][0] or entry["aggregation"] != "mean_of_daily_means":
+            if entry["unit"] != METRICS[provider][metric][0] or entry["aggregation"] != aggregation_for(metric):
                 raise ValueError("Unexpected monthly-vitals unit or aggregation.")
             values = entry["value"].split("/")
+            if metric in CLOCK_METRICS:
+                if not valid_clock(entry["value"]):
+                    raise ValueError("Invalid monthly clock value.")
+                values = ["0"]  # Clock text was validated independently above.
             try:
                 finite = all(Decimal(v).is_finite() for v in values)
             except ArithmeticError as error:
                 raise ValueError("Invalid monthly-vitals numeric text.") from error
             if len(values) != (2 if metric == "Blood Pressure" else 1) or not finite:
                 raise ValueError("Invalid monthly-vitals value.")
+            if metric in TOTAL_METRICS | set(VARIABILITY_METRICS) and Decimal(entry["value"]) < 0:
+                raise ValueError("A monthly total or schedule deviation cannot be negative.")
             if not 0 < entry["n_days"] <= entry["elapsed_days"] <= entry["calendar_days"] <= 31:
                 raise ValueError("Invalid monthly-vitals coverage.")
+            if metric in EVENT_RATE_METRICS:
+                matches = entry.get("n_matching_days")
+                if type(matches) is not int or not 0 <= matches <= entry["n_days"]:
+                    raise ValueError("Invalid matching-night count.")
+                expected = _rounded(Decimal(matches) * 100 / entry["n_days"], METRICS[provider][metric][1])
+                if entry["value"] != expected:
+                    raise ValueError("Night frequency does not match its observed-night counts.")
+            if metric in VARIABILITY_METRICS and (entry["n_days"] < 2 or entry.get("derived_from") != VARIABILITY_METRICS[metric]):
+                raise ValueError("Schedule variability requires at least two observed nights.")
             expected_days = calendar.monthrange(first.year, first.month)[1]
             if entry["calendar_days"] != expected_days or entry["elapsed_days"] != min((as_of - first).days + 1, expected_days):
                 raise ValueError("Monthly-vitals calendar coverage does not match the date.")
@@ -309,7 +359,7 @@ def report_note(payload):
     garmin_note = (". Garmin daily summaries use Garmin's assigned calendar date; current-day Garmin data are also deferred until tomorrow"
                    if any(entry["provider"] == "garmin" for metrics in payload["months"].values() for entry in metrics.values()) else "")
     return {
-        "text": "Imported monthly means from July 2026 onward: each observed day has equal weight. Repeated ordinary measurements are averaged within the day first. Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, breathing intensity indices, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. "
+        "text": "Imported monthly summaries from July 2026 onward: ordinary measurements use equally weighted daily means. Clock times use circular means; midpoint variability is circular SD. Short-sleep totals count recorded periods; frequency cells show percentages (affected/observed nights). Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, breathing intensity indices, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. "
         + "; ".join(coverage) + garmin_note
         + ". Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.",
         "markers": markers,
@@ -323,7 +373,7 @@ def apply_report_overlay(followups, notes, payload):
     automated = numeric | categorical
     for collection in (payload["months"], payload.get("categorical_months", {})):
         for month, metrics in collection.items():
-            followups.setdefault(month, {}).update({metric: entry["value"] for metric, entry in metrics.items()})
+            followups.setdefault(month, {}).update({metric: report_value(metric, entry) for metric, entry in metrics.items()})
     if not automated:
         return
     filtered_notes = []

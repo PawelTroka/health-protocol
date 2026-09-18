@@ -11,6 +11,8 @@ _WITHINGS_ENDPOINTS = {
     "sleep": "getsummary", "series": "getsummary", "getsummary": "getsummary",
     "activity": "getactivity", "activities": "getactivity", "getactivity": "getactivity",
     "heart": "heart", "heart_series": "heart", "stetho": "stetho", "stetho_series": "stetho",
+    "sleep_detail": "sleep_details", "sleep_details": "sleep_details", "sleep_detail_series": "sleep_details",
+    "heart_signals": "heart_signals",
 }
 _LEGACY_OURA_SLEEP = {
     "Sleep Duration", "REM Sleep", "Deep Sleep", "Average Sleeping HR (Oura)",

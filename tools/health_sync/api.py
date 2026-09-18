@@ -179,6 +179,73 @@ def _withings_signals(endpoint, start, end):
     raise APIError("Withings exceeded the page limit; fetch a smaller date range.")
 
 
+def _withings_sleep_details(start, end):
+    """Fetch documented sample fields in windows no longer than 24 hours."""
+    from .withings import WITHINGS_SLEEP_DETAIL_FIELDS
+    zone = ZoneInfo("Europe/Warsaw")
+    first = int(datetime.combine(start, time.min, zone).timestamp())
+    stop = int(datetime.combine(end + timedelta(days=1), time.min, zone).timestamp())
+    rows = []
+    while first < stop:
+        last = min(first + 86400, stop) - 1
+        params = {"action": "get", "startdate": first, "enddate": last,
+                  "data_fields": ",".join(WITHINGS_SLEEP_DETAIL_FIELDS)}
+        seen = {0}
+        for _ in range(MAX_PAGES):
+            payload = _request("withings", "https://wbsapi.withings.net/v2/sleep", form=params)
+            if type(payload.get("status")) is not int or payload["status"] != 0 or not isinstance(payload.get("body"), dict):
+                raise APIError("Withings sleep samples returned an unsuccessful response.")
+            body = payload["body"]
+            for row in _rows(body, "series"):
+                rows.append({**({"model": body["model"]} if "model" in body else {}), **row})
+            more = body.get("more", 0)
+            if more not in (0, 1, False, True):
+                raise APIError("Withings returned an invalid pagination flag.")
+            if not more:
+                break
+            offset = body.get("offset")
+            if type(offset) is not int or offset <= params.get("offset", 0) or offset in seen:
+                raise APIError("Withings sleep-sample pagination did not advance.")
+            seen.add(offset)
+            params["offset"] = offset
+        else:
+            raise APIError("Withings exceeded the sleep-sample page limit.")
+        first = last + 1
+    return rows
+
+
+def _withings_heart_details(series):
+    """Read ECG signals already enumerated by the account's heart collection."""
+    signals = {}
+    for row in series:
+        ecg = row.get("ecg")
+        identifier = ecg.get("signalid") if isinstance(ecg, dict) else None
+        if identifier is None:
+            continue
+        if isinstance(identifier, bool) or not isinstance(identifier, (int, str)) or not str(identifier).strip():
+            raise APIError("Withings returned an invalid ECG signal identifier.")
+        signals.setdefault(str(identifier), row)
+    if len(signals) > MAX_PAGES:
+        raise APIError("Too many ECG recordings; fetch a smaller date range.")
+    rows, unavailable = [], []
+    for identifier, metadata in sorted(signals.items()):
+        try:
+            payload = _request("withings", "https://wbsapi.withings.net/v2/heart",
+                               form={"action": "get", "signalid": identifier})
+        except APIError as error:
+            if error.status not in (403, 404):
+                raise
+            unavailable.append({"signalid": identifier, "http_status": error.status})
+            if error.status == 403:
+                break
+            continue
+        if type(payload.get("status")) is not int or payload["status"] != 0 or not isinstance(payload.get("body"), dict):
+            raise APIError("Withings ECG signal returned an unsuccessful response.")
+        rows.append({"signalid": identifier, "timestamp": metadata.get("timestamp"),
+                     "model": metadata.get("model"), "data": payload["body"]})
+    return rows, unavailable
+
+
 def _withings(start, end):
     from .withings import WITHINGS_SLEEP_FIELDS, WITHINGS_ACTIVITY_FIELDS
     result = _withings_measure(start, end)
@@ -202,6 +269,23 @@ def _withings(start, end):
             statuses[endpoint] = {"status": "unavailable", "http_status": error.status}
         else:
             statuses[endpoint] = {"status": "complete", "rows": len(result[endpoint + "_series"])}
+    try:
+        # A night assigned to the first wake date may start the previous evening.
+        result["sleep_detail_series"] = _withings_sleep_details(start - timedelta(days=1), end)
+    except APIError as error:
+        if error.status not in (403, 404):
+            raise
+        statuses["sleep_details"] = {"status": "unavailable", "http_status": error.status}
+    else:
+        statuses["sleep_details"] = {"status": "complete", "rows": len(result["sleep_detail_series"])}
+    if statuses["heart"]["status"] == "complete":
+        result["heart_signals"], unavailable = _withings_heart_details(result["heart_series"])
+        statuses["heart_signals"] = {"status": "unavailable" if unavailable else "complete",
+                                     "rows": len(result["heart_signals"])}
+        if unavailable:
+            statuses["heart_signals"]["unavailable_signals"] = unavailable
+    else:
+        statuses["heart_signals"] = {"status": "unavailable", "reason": "heart collection unavailable"}
     result["_sync"] = {"endpoint_status": statuses, "start": start.isoformat(), "end": end.isoformat()}
     return result
 

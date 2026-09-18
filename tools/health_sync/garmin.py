@@ -28,8 +28,10 @@ from datetime import date, datetime
 from typing import Any
 
 
-GARMIN_ENDPOINTS = ["daily_summary", "sleep", "hrv", "training_readiness"]
-GARMIN_CATEGORICAL_METRICS = {"HRV Status (Garmin)"}
+GARMIN_ENDPOINTS = ["daily_summary", "sleep", "hrv", "training_readiness",
+                    "max_metrics", "fitness_age", "training_status", "activities", "activity_hr_zones"]
+GARMIN_CATEGORICAL_METRICS = {"HRV Status (Garmin)", "Training Status Feedback (Garmin)",
+                              "Training Load Status (Garmin)", "Workout Training Effect (Garmin)"}
 _DAY_RE = re.compile(r"\d{4}-\d{2}-\d{2}\Z")
 
 
@@ -46,10 +48,11 @@ class _Field:
     decimals: int = 1
     positive: bool = False
     maximum: float | None = None
+    signed: bool = False
 
 
-def _field(path, marker, unit, divisor=1, decimals=1, positive=False, maximum=None):
-    return _Field(path, f"{marker} (Garmin)", unit, divisor, decimals, positive, maximum)
+def _field(path, marker, unit, divisor=1, decimals=1, positive=False, maximum=None, signed=False):
+    return _Field(path, f"{marker} (Garmin)", unit, divisor, decimals, positive, maximum, signed)
 
 
 _FIELDS = {
@@ -72,6 +75,7 @@ _FIELDS = {
         _field("bodyBatteryLowestValue", "Body Battery Lowest", "score", maximum=100),
         _field("bodyBatteryChargedValue", "Body Battery Charged", "points"),
         _field("bodyBatteryDrainedValue", "Body Battery Drained", "points"),
+        _field("bodyBatteryAtWakeTime", "Body Battery at Wakeup", "score", maximum=100),
     ),
     "sleep": (
         _field("sleepTimeSeconds", "Sleep Duration", "h", 3600, 2),
@@ -84,6 +88,9 @@ _FIELDS = {
         _field("avgSpO2", "Average Sleeping SpO2", "%", positive=True, maximum=100),
         _field("averageRespirationValue", "Respiratory Rate (Sleep)", "/min",
                decimals=2, positive=True),
+        _field("avgHeartRate", "Average Sleeping HR", "bpm", positive=True),
+        _field("avgSleepStress", "Average Sleeping Stress", "score", maximum=100),
+        _field("awakeCount", "Awakening Count", "count"),
     ),
     "hrv": (
         _field("lastNightAvg", "Average Nightly HRV", "ms", positive=True),
@@ -93,12 +100,26 @@ _FIELDS = {
     "training_readiness": (
         _field("score", "Morning Training Readiness", "score", positive=True, maximum=100),
         _field("recoveryTime", "Morning Recovery Time", "h", 60, 2),
+        _field("acuteLoad", "Morning Acute Training Load", "load"),
+        *(_field(field + "FactorPercent", "Morning " + label + " Contributor", "score", maximum=100)
+          for field, label in (("sleepScore", "Sleep Score"), ("sleepHistory", "Sleep History"),
+                               ("stressHistory", "Stress History"), ("hrv", "HRV"),
+                               ("recoveryTime", "Recovery Time"), ("acwr", "Load"))),
     ),
 }
 GARMIN_METRICS = {
     field.marker: (field.unit, field.decimals)
     for fields in _FIELDS.values() for field in fields
 }
+_SLEEP_ROOT_FIELDS = (
+    _field("restlessMomentsCount", "Restless Moments", "count"),
+    _field("avgSkinTempDeviationC", "Skin Temperature Deviation", "°C", signed=True),
+)
+GARMIN_METRICS.update({field.marker: (field.unit, field.decimals) for field in _SLEEP_ROOT_FIELDS})
+GARMIN_METRICS.update({
+    "Sleep Coach Recommendation (Garmin)": ("h", 2),
+    "Sleep Coach Shortfall (Garmin)": ("h", 2),
+})
 
 
 def _day(value: Any, context: str) -> str:
@@ -164,7 +185,7 @@ def _number(value: Any, field: _Field, context: str) -> float | None:
         raise GarminParseError(f"{context}: {field.path} must be finite") from exc
     if not math.isfinite(result):
         raise GarminParseError(f"{context}: {field.path} must be finite")
-    if result < 0 or (field.positive and result == 0):
+    if (result < 0 and not field.signed) or (field.positive and result == 0):
         return None
     if field.maximum is not None and result > field.maximum:
         raise GarminParseError(f"{context}: {field.path} exceeds {field.maximum}")
@@ -249,7 +270,7 @@ def parse_api(payload: dict[str, list[dict]]) -> list[dict]:
     summaries = {
         endpoint: [(day, _summary(raw, endpoint, day))
                    for day, raw in _documents(payload, endpoint)]
-        for endpoint in GARMIN_ENDPOINTS
+        for endpoint in _FIELDS
     }
     sleep_duration = _FIELDS["sleep"][0]
     observed_sleep_days = {
@@ -281,6 +302,14 @@ def parse_api(payload: dict[str, list[dict]]) -> list[dict]:
                 values = {key: value if key == "napTimeSeconds" else None
                           for key, value in values.items()}
             if endpoint == "training_readiness":
+                # Zero with NONE feedback denotes an uninitialized contributor.
+                # Scores are contributions, never the actual acute:chronic ratio.
+                for field in fields:
+                    feedback_field = ("acwrFactorFeedback" if field.path == "acuteLoad"
+                                      else field.path.replace("Percent", "Feedback"))
+                    if field.path == "acuteLoad" or field.path.endswith("FactorPercent"):
+                        if document.get(feedback_field) in (None, "", "NONE", "UNKNOWN", "NO_DATA"):
+                            values[field.path] = None
                 phrase = document.get("recoveryTimeChangePhrase")
                 if phrase is not None and not isinstance(phrase, str):
                     raise GarminParseError(f"{context}: recoveryTimeChangePhrase must be text")
@@ -291,6 +320,33 @@ def parse_api(payload: dict[str, list[dict]]) -> list[dict]:
                 if value is not None:
                     records.append(_record(endpoint, day, field.marker,
                                            value / field.divisor, field.path, field.unit))
+    for day, raw in _documents(payload, "sleep"):
+        root = _object(raw, f"Garmin sleep {day}")
+        document = _summary(raw, "sleep", day)
+        duration = _number(document.get("sleepTimeSeconds"), sleep_duration, f"Garmin sleep {day}")
+        if not duration or duration <= 0:
+            continue
+        for field in _SLEEP_ROOT_FIELDS:
+            value = _number(root.get(field.path), field, f"Garmin sleep {day}")
+            if value is not None:
+                records.append(_record("sleep", day, field.marker, value, field.path, field.unit))
+        need = _object(document.get("sleepNeed"), f"Garmin sleep need {day}")
+        # A matched explicit calendar date prevents tomorrow's changing advice
+        # (nextSleepNeed) from being compared with the preceding main sleep.
+        if need.get("calendarDate") != day:
+            continue
+        need_field = _field("dailySleepDTO.sleepNeed.actual", "Sleep Coach Recommendation", "h", 60,
+                            positive=True)
+        minutes = _number(need.get("actual"), need_field, f"Garmin sleep need {day}")
+        if minutes is not None:
+            records.append(_record("sleep", day, need_field.marker, minutes / 60, need_field.path, "h"))
+            shortfall = _record("sleep", day, "Sleep Coach Shortfall (Garmin)",
+                                max(minutes * 60 - duration, 0) / 3600,
+                                "dailySleepDTO.sleepNeed.actual;dailySleepDTO.sleepTimeSeconds", "h")
+            shortfall["derivation"] = "max(same-date sleep need minutes * 60 - main sleep seconds, 0) / 3600; naps remain separate"
+            records.append(shortfall)
+    from .garmin_performance import parse_performance
+    records.extend(parse_performance(payload))
     return sorted(records, key=lambda record: (record["day"], record["metric"], record["id"]))
 
 
@@ -304,9 +360,20 @@ def categorical_inventory(payload: dict[str, list[dict]]) -> list[dict]:
         value = document.get("status")
         if value is None:
             continue
+        feedback = document.get("feedbackPhrase")
+        if value == "NONE" and isinstance(feedback, str) and feedback.startswith("ONBOARDING_"):
+            # Garmin needs an established personal baseline before HRV status
+            # exists. Keep this explicit onboarding sentinel only in the raw.
+            continue
         if not isinstance(value, str) or not value.strip():
             raise GarminParseError(f"Garmin hrv {day}: status must be nonempty text or null")
         record = _record("hrv", day, "HRV Status (Garmin)", value, "status")
         record["source_value"] = value
         records.append(record)
+    from .garmin_performance import performance_classifications
+    records.extend(performance_classifications(payload))
     return records
+
+
+from .garmin_performance import PERFORMANCE_METRICS
+GARMIN_METRICS.update(PERFORMANCE_METRICS)

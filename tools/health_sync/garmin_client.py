@@ -25,7 +25,12 @@ ENDPOINTS = {
     "sleep": "get_sleep_data",
     "hrv": "get_hrv_data",
     "training_readiness": "get_training_readiness",
+    "max_metrics": "get_max_metrics",
+    "fitness_age": "get_fitnessage_data",
+    "training_status": "get_training_status",
 }
+ACTIVITY_PAGE_SIZE = 100
+MAX_ACTIVITY_PAGES = 10
 SESSION_KEYS = {"di_token", "di_refresh_token", "di_client_id"}
 
 
@@ -156,7 +161,7 @@ def connect():
 
 
 def _validate_payload(endpoint, value):
-    allowed = (dict, list) if endpoint == "training_readiness" else (dict,)
+    allowed = (dict, list) if endpoint in {"training_readiness", "max_metrics", "activities", "activity_hr_zones"} else (dict,)
     if value is None and endpoint != "daily_summary":
         return
     if not isinstance(value, allowed) or isinstance(value, list) and any(not isinstance(row, dict) for row in value):
@@ -167,6 +172,89 @@ def _validate_payload(endpoint, value):
         raise APIError("Garmin returned malformed records; no incomplete data was imported.") from None
     if size > auth.MAX_RESPONSE_BYTES:
         raise APIError("Garmin response exceeded the safe response size.")
+
+
+def _fetch_activity_collections(client, library, vault, start, end):
+    """Bound pagination and child requests; an incomplete zone day is omitted.
+
+    The pinned get_activities_by_date uses up to 2000 pages. This wrapper uses
+    the same read endpoint/parameters with a smaller explicit bound and fails
+    instead of truncating. No routes or location detail endpoint is fetched.
+    """
+    from .garmin_performance import activity_identity
+    days = [(start + timedelta(days=n)).isoformat() for n in range((end - start).days + 1)]
+    grouped = {day: [] for day in days}
+    seen = {}
+    try:
+        for page in range(MAX_ACTIVITY_PAGES):
+            try:
+                rows = client.connectapi(client.garmin_connect_activities, params={
+                    "startDate": start.isoformat(), "endDate": end.isoformat(),
+                    "start": str(page * ACTIVITY_PAGE_SIZE), "limit": str(ACTIVITY_PAGE_SIZE),
+                })
+            finally:
+                _save_session(client, vault)
+            _validate_payload("activities", rows)
+            if rows is None or rows == []:
+                break
+            if not isinstance(rows, list):
+                raise APIError("Garmin returned malformed activity records.")
+            if len(rows) > ACTIVITY_PAGE_SIZE:
+                raise APIError("Garmin activity page exceeded the requested bound.")
+            added = 0
+            for row in rows:
+                stamp = row.get("startTimeLocal")
+                day = stamp[:10] if isinstance(stamp, str) else ""
+                if day not in grouped:
+                    raise APIError("Garmin activity date is outside the requested range.")
+                ident = activity_identity(row, day)
+                if ident in seen:
+                    if seen[ident] != row:
+                        raise APIError("Garmin returned conflicting activity records.")
+                    continue
+                added += 1
+                seen[ident] = row
+                grouped[day].append(row)
+            if not added:
+                raise APIError("Garmin activity pagination repeated a page.")
+            if len(rows) < ACTIVITY_PAGE_SIZE:
+                break
+        else:
+            raise APIError("Garmin activity pagination limit reached; use a shorter date range.")
+    except library.GarminConnectNotFoundError:
+        status = {"status": "unavailable", "http_status": 404, "rows": 0}
+        return {"activities": [], "activity_hr_zones": []}, {"activities": status, "activity_hr_zones": dict(status)}
+
+    zones, unavailable_days = [], []
+    all_ids = set(seen)
+    for day, activities in grouped.items():
+        daily, unavailable = [], False
+        for activity in activities:
+            if str(activity.get("parentId")) in all_ids:
+                continue
+            ident = str(activity["activityId"])
+            try:
+                value = client.get_activity_hr_in_timezones(ident)
+            except library.GarminConnectNotFoundError:
+                unavailable = True
+                continue
+            finally:
+                _save_session(client, vault)
+            _validate_payload("activity_hr_zones", value)
+            daily.append({"activityId": ident, "startTimeLocal": activity["startTimeLocal"], "zones": value})
+        if unavailable:
+            # A partial sum must not replace a previously complete daily total.
+            unavailable_days.append(day)
+        else:
+            zones.append({"day": day, "data": daily})
+    result = {"activities": [{"day": day, "data": values} for day, values in grouped.items()],
+              "activity_hr_zones": zones}
+    statuses = {"activities": {"status": "complete", "rows": len(days)},
+                "activity_hr_zones": {"status": "complete", "rows": len(zones)}}
+    if unavailable_days:
+        statuses["activity_hr_zones"].update(status="unavailable", http_status=404,
+                                            unavailable_days=unavailable_days)
+    return result, statuses
 
 
 def fetch(start: date, end: date):
@@ -217,6 +305,9 @@ def fetch(start: date, end: date):
                                           "unavailable_days": unavailable_days}
                 else:
                     statuses[endpoint] = {"status": "complete", "rows": len(rows)}
+            activity_result, activity_status = _fetch_activity_collections(client, library, vault, start, end)
+            result.update(activity_result)
+            statuses.update(activity_status)
             result["_sync"] = {"endpoint_status": statuses, "start": start.isoformat(), "end": end.isoformat()}
             return result
         except (auth.AuthError, APIError):

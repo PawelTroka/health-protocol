@@ -9,6 +9,7 @@ if __package__ in (None, ""):
 
 from tools.health_sync.monthly import CATEGORICAL_METRICS, METRICS, apply_report_overlay, load_monthly
 from tools.health_sync.report_layout import layout, counts
+from tools.health_sync.ecg_records import render_ecg_html, render_ecg_md
 from tools.health_sync.lab_layout import lab_groups
 from tools.health_sync.result_bounds import bound_within_reference, bounded_comparison, is_bounded
 from tools.health_sync.report_guidance import (
@@ -2004,6 +2005,35 @@ def metric_source(category, name):
     return suffix[1] if suffix else "-"
 
 
+def visible_vitals_rows(rows):
+    """Prefer imported series over superseded app snapshots in covered months.
+
+    These are presentation replacements, not numerical aliases: the original
+    snapshots keep their dates, definitions and values in the source history.
+    Both mean and minimum sleeping HR must be present because the old July
+    transcriptions did not establish which summary they represented.
+    """
+    replacements = {
+        "Resting Heart Rate": ("Average Sleeping HR (Oura)", "Mean Nightly Lowest HR (Oura)"),
+        "Sleeping Heart Rate": ("Average Sleeping HR (Oura)", "Mean Nightly Lowest HR (Oura)"),
+        "ECG Heart Rate": ("ECG Recorded Heart Rate (Withings)",),
+        "Cardiovascular Age Difference (Oura)": ("Cardiovascular Age (Oura)",),
+    }
+    displayed = {row[0]: dict(zip(date_columns, row[1:-2])) for row in rows}
+    visible = []
+    for row in rows:
+        counterparts = replacements.get(row[0], ())
+        months = [month for month, value in zip(date_columns, row[1:-2]) if value not in missing_values]
+        covered = counterparts and months and all(
+            synced_monthly["months"].get(month, {}).get(name, {}).get("value") not in missing_values
+            and displayed.get(name, {}).get(month) not in missing_values
+            for month in months for name in counterparts
+        )
+        if not covered:
+            visible.append(row)
+    return visible
+
+
 def format_vital_classification(marker, value, *, markdown=False):
     return "; ".join(format_status(text, status or NEUTRAL, markdown=markdown)
                      for text, status in classification_parts(marker, value))
@@ -2159,7 +2189,7 @@ def report_contents(markdown=False):
         if links:
             sections.append((title, links))
         if title == "Overview" and "Vitals & Functional Health" in data:
-            groups = layout(data["Vitals & Functional Health"])
+            groups = layout(visible_vitals_rows(data["Vitals & Functional Health"]))
             links = [(group['title'], f"#{anchor(group['title'], 'vitals')}")
                      for group in groups if not group['details']]
             if any(group['details'] for group in groups):
@@ -2195,7 +2225,7 @@ def render_contents_md():
 
 
 VITALS_INTRO = (
-    "Monthly averages; current month to date. Dated snapshots are identified in the source notes."
+    "Monthly summaries; current month to date. Dated snapshots are identified in the source notes."
 )
 VITALS_DETAILS_INTRO = (
     "Additional source-specific measurements, body segments, estimates and score components. "
@@ -2205,7 +2235,7 @@ VITALS_DETAILS_INTRO = (
 
 def render_vitals_html(rows):
     category = "Vitals & Functional Health"
-    groups = layout(rows)
+    groups = layout(visible_vitals_rows(rows))
     totals = counts(groups)
     html = f"<section class='vitals' id='{result_anchor(category)}'><h2>{escape(category)}</h2>"
     html += f"<p class='section-intro'>{VITALS_INTRO}</p>"
@@ -2223,6 +2253,7 @@ def render_vitals_html(rows):
             html += "</div></section>"
         if detailed:
             html += "</details>"
+    html += render_ecg_html(synced_monthly.get("ecg_recordings", []))
     html += "<details class='source-notes'><summary>Sources &amp; calculation notes</summary>"
     html += render_result_notes_html(category) + "</details></section>"
     return html
@@ -2230,7 +2261,7 @@ def render_vitals_html(rows):
 
 def render_vitals_md(rows):
     category = "Vitals & Functional Health"
-    groups = layout(rows)
+    groups = layout(visible_vitals_rows(rows))
     totals = counts(groups)
     md = f"## {category}\n\n{VITALS_INTRO}\n\n"
     for detailed in (False, True):
@@ -2244,6 +2275,7 @@ def render_vitals_md(rows):
             md += render_result_table_md(category, group['rows'], compact=True) + "\n"
         if detailed:
             md += "</details>\n\n"
+    md += render_ecg_md(synced_monthly.get("ecg_recordings", [])) + "\n\n"
     md += "<details>\n<summary>Sources &amp; calculation notes</summary>\n\n"
     md += render_result_notes_md(category).lstrip() + "\n\n</details>\n\n"
     return md

@@ -1,7 +1,7 @@
 """Pure Oura trends CSV and comprehensive API v2 health-metric parsers.
 
 Official schema, checked 2026-09-06:
-https://cloud.ouraring.com/v2/static/json/openapi-1.37.json
+https://api.ouraring.com/v2/static/json/openapi-1.39.json
 https://cloud.ouraring.com/v2/docs
 VO2 unit: https://support.ouraring.com/hc/en-us/articles/28336620578835
 The live API additionally requires heart_health for cardiovascular age/VO2 and
@@ -11,7 +11,8 @@ calls it spo2Daily). Authentication and paginated fetching belong to api.py.
 
 CSV rows are Oura's exported daily observations. API observations use the longest
 completed ``long_sleep`` period assigned to each Oura ``day``; naps and rests are
-excluded. The daily sleep score can include other contributing sleep periods and
+excluded from primary-night measurements. Confirmed short sleep has separate
+daily counts and durations. The daily sleep score can include other periods and
 comes independently from ``daily_sleep.score``. This primary-night policy need not
 reproduce every CSV aggregate. In addition, the API documents that its mean and
 lowest HR use 30-second samples, whereas the app uses aggregated 5-minute samples.
@@ -27,9 +28,10 @@ Daily summaries use Oura's assigned day (activity days start at 04:00), not a
 timestamp converted to another date. Discrete HR samples use Europe/Warsaw days.
 Workout/session quantities are per recorded event, so a downstream mean of daily
 means is not mislabeled as a daily total. Stress/resilience categories are exposed
-separately by ``categorical_inventory`` for counts. Clock times, profile values
-without historical dates, ring diagnostics, and classification sequences are not
-numerical health observations; they remain available in source archives.
+separately by ``categorical_inventory`` for counts. Primary sleep clock times use
+local minutes internally and require circular aggregation, never ordinary means.
+Profile values without historical dates, ring diagnostics and classification
+sequences remain available in source archives.
 The CSV parser intentionally retains the eleven verified sleep export columns;
 the broader schema below describes API fields, not guessed CSV column names.
 """
@@ -206,6 +208,14 @@ OURA_METRICS.update({
     "Duration per Recorded Workout (Oura)": ("h", 2),
     "Duration per Recorded Session (Oura)": ("min", 1),
     "Sampled Activity MET (Oura)": ("MET", 2),
+    "Bedtime (Oura)": ("hh:mm", 0),
+    "Wake-up Time (Oura)": ("hh:mm", 0),
+    "Sleep Midpoint (Oura)": ("hh:mm", 0),
+    # Registry-only: the monthly aggregator derives circular SD from midpoints.
+    "Sleep Midpoint Variability (Oura)": ("min", 0),
+    "Short Sleep Nights (Oura)": ("%", 1),
+    "Recorded Short-Sleep Periods (Oura)": ("periods", 0),
+    "Recorded Short-Sleep Duration (Oura)": ("h", 2),
 })
 
 _CATEGORICAL_FIELDS = {
@@ -580,6 +590,116 @@ def categorical_inventory(payloads: dict[str, list[dict]]) -> list[dict]:
     return _sort(records)
 
 
+def _sleep_schedule_records(document, values, end):
+    """Keep local clock readings distinct from elapsed sleep durations.
+
+    The public API provides numeric UTC offsets, not an IANA timezone. Equal
+    offsets define a local frame; the home zone resolves its DST transitions.
+    A different offset change has no known local midpoint (for example travel),
+    so only its observed start/end clock readings are emitted.
+    """
+    start_time = datetime.fromisoformat(document["bedtime_start"])
+    end_time = datetime.fromisoformat(end)
+    middle = datetime.fromtimestamp((start_time.timestamp() + end_time.timestamp()) / 2,
+                                   timezone.utc)
+    home_zone = ZoneInfo("Europe/Warsaw")
+    if all(stamp.utcoffset() == stamp.astimezone(home_zone).utcoffset()
+           for stamp in (start_time, end_time)):
+        middle = middle.astimezone(home_zone)
+    elif start_time.utcoffset() == end_time.utcoffset():
+        middle = middle.astimezone(start_time.tzinfo)
+    else:
+        middle = None
+    records = []
+    for marker, stamp, field in (
+        ("Bedtime (Oura)", start_time, "bedtime_start"),
+        ("Wake-up Time (Oura)", end_time, "bedtime_end"),
+        ("Sleep Midpoint (Oura)", middle, "midpoint(bedtime_start,bedtime_end)"),
+    ):
+        if stamp is None:
+            continue
+        minutes = stamp.hour * 60 + stamp.minute + stamp.second / 60 + stamp.microsecond / 60_000_000
+        records.append(_api_record(
+            document["day"], "sleep", document["id"], marker, minutes, "hh:mm", end, field,
+            aggregation="circular_local_clock", local_time=stamp.isoformat(),
+            utc_offset_seconds=int(stamp.utcoffset().total_seconds()),
+            derived_from=["bedtime_start", "bedtime_end"] if marker == "Sleep Midpoint (Oura)" else [field],
+        ))
+    records.append(_api_record(
+        document["day"], "sleep", document["id"], "Short Sleep Nights (Oura)",
+        100.0 if values["total_sleep_duration"] < 7 * 3600 else 0.0, "%", end,
+        "total_sleep_duration<25200", threshold_seconds=7 * 3600,
+        derived_from=["total_sleep_duration"],
+    ))
+    return records
+
+
+def _short_sleep_records(payloads, documents, primary):
+    """Daily sums of confirmed short sleep; rejected naps never count.
+
+    The public schema names confirmed short periods ``sleep`` and ``late_nap``.
+    Preserve the API-assigned day, including late naps credited to another sleep
+    day. Explicit complete collection metadata plus a primary night is required
+    to infer an observed zero; absent/incomplete nights stay absent.
+    """
+    periods, incomplete = {}, set()
+    for document in documents:
+        if document.get("type") not in {"sleep", "late_nap"}:
+            continue
+        context = "Oura confirmed short sleep"
+        day = document["day"]
+        duration = _number(document.get("total_sleep_duration"), "total_sleep_duration", context)
+        bed = _number(document.get("time_in_bed"), "time_in_bed", context)
+        start = _timestamp(document.get("bedtime_start"), context)
+        end = _timestamp(document.get("bedtime_end"), context)
+        if duration is None or not bed or not start or not end:
+            incomplete.add(day)
+            continue
+        start_time, end_time = datetime.fromisoformat(start), datetime.fromisoformat(end)
+        if end_time.timestamp() <= start_time.timestamp() or duration > bed + 1:
+            raise OuraParseError(f"{context}: invalid duration or bedtime interval")
+        periods.setdefault(day, []).append((document, duration, start_time, end_time))
+    # Duplicate IDs were removed upstream. Distinct overlapping periods cannot
+    # safely be added, including a nap that overlaps the primary night.
+    intervals = [(start.timestamp(), end.timestamp(), day)
+                 for day, items in periods.items() for _, _, start, end in items]
+    intervals.extend((datetime.fromisoformat(item[1]["bedtime_start"]).timestamp(),
+                      datetime.fromisoformat(item[3]).timestamp(), day)
+                     for day, item in primary.items())
+    intervals.sort()
+    for index, (start, end, day) in enumerate(intervals):
+        for following_start, _, following_day in intervals[index + 1:]:
+            if following_start >= end:
+                break
+            incomplete.update((day, following_day))
+    sync = payloads.get("_sync", {})
+    statuses = sync.get("endpoint_status", {}) if isinstance(sync, dict) else {}
+    status = statuses.get("sleep", {}) if isinstance(statuses, dict) else {}
+    complete = isinstance(status, dict) and status.get("status") == "complete"
+    zero_days = {day for day in primary
+                 if complete and "sleep" in payloads
+                 and (not sync.get("start") or day >= sync["start"])
+                 and (not sync.get("end") or day <= sync["end"])}
+    days = set(periods) | zero_days
+    records = []
+    for day in sorted(days - incomplete):
+        items = sorted(periods.get(day, []), key=lambda item: (item[2].timestamp(), item[0]["id"]))
+        ids = [item[0]["id"] for item in items]
+        stamp = max((item[3] for item in items), key=lambda time: time.timestamp()).isoformat() if items else primary[day][3]
+        metadata = {"source_record_ids": ids, "source_period_types": [item[0]["type"] for item in items],
+                    "daily_aggregation": "sum_confirmed_short_sleep", "sleep_collection_complete": complete}
+        if not items:
+            metadata["zero_evidence_primary_sleep_id"] = primary[day][1]["id"]
+        for marker, value, unit, field in (
+            ("Recorded Short-Sleep Periods (Oura)", len(items), "periods", "count(type=sleep|late_nap)"),
+            ("Recorded Short-Sleep Duration (Oura)", sum(item[1] for item in items) / 3600,
+             "h", "sum(total_sleep_duration,type=sleep|late_nap)"),
+        ):
+            records.append(_api_record(day, "sleep", f"short-sleep-{day}", marker, value, unit,
+                                       stamp, field, **metadata))
+    return records
+
+
 def parse_api(payloads: dict[str, list[dict]]) -> list[dict]:
     """Normalize already-fetched and fully paginated health endpoint documents.
 
@@ -596,7 +716,8 @@ def parse_api(payloads: dict[str, list[dict]]) -> list[dict]:
     if not isinstance(payloads, dict):
         raise OuraParseError("Oura API payloads must be a dictionary of endpoint lists")
     primary: dict[str, tuple[tuple, dict, dict, str]] = {}
-    for document in _documents(payloads, "sleep"):
+    sleep_documents = _documents(payloads, "sleep")
+    for document in sleep_documents:
         kind = document.get("type")
         if kind is not None and not isinstance(kind, str):
             raise OuraParseError("Oura sleep: sleep-period type must be text or null")
@@ -635,9 +756,11 @@ def parse_api(payloads: dict[str, list[dict]]) -> list[dict]:
                     values[field] / divisor, unit, end, field,
                 ))
         records.extend(_field_records(document, "sleep", _SLEEP_FIELDS, end))
+        records.extend(_sleep_schedule_records(document, values, end))
         for path, marker, unit in _PRIMARY_SLEEP_SAMPLES:
             records.extend(_sample_records(document, "sleep", path, marker, unit))
 
+    records.extend(_short_sleep_records(payloads, sleep_documents, primary))
     records.extend(_daily_records(payloads))
     records.extend(_event_records(payloads))
     records.extend(_heartrate_records(payloads))

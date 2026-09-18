@@ -116,7 +116,8 @@ TARGETS["Distance Remaining to Activity Target (Oura)"] = {
 # sex norms vary; higher measured fitness has favorable outcome associations.
 # https://pmc.ncbi.nlm.nih.gov/articles/PMC6324439/
 # https://support.ouraring.com/hc/en-us/articles/28336620578835-Cardio-Capacity-VO2-Max
-for _marker in ("VO2max", "VO2 Max (Oura)", "VO2max (Withings)"):
+for _marker in ("VO2max", "VO2 Max (Oura)", "VO2max (Withings)",
+                "VO2 Max Running (Garmin)", "VO2 Max Cycling (Garmin)"):
     TARGETS[_marker] = {
         "reference": ">35; practical target ≥45",
         "target": (45, None),
@@ -124,6 +125,30 @@ for _marker in ("VO2max", "VO2 Max (Oura)", "VO2max (Withings)"):
         "normal_open": (True, False),
         "direction": "up",
     }
+
+for _marker in ("Morning Acute Training Load (Garmin)", "Acute Training Load (Garmin)",
+                "Chronic Training Load (Garmin)", "Training Load per Workout (Garmin)"):
+    TARGETS[_marker] = {"reference": "Personal training range and recovery", "direction": "none"}
+TARGETS["Acute/Chronic Training Load Ratio (Garmin)"] = {
+    # Garmin manuals show0.8–1.4 green and1.5 high; current support rounds the
+    # upper boundary to1.5. Leave the disputed boundary ungraded.
+    "reference": "Garmin balanced 0.8–<1.5", "target": (0.8, 1.5),
+    "target_open": (False, True), "neutral_at": (1.5,), "trend_min_change": 0.05,
+}
+for _marker in ("Aerobic Training Effect per Workout (Garmin)", "Anaerobic Training Effect per Workout (Garmin)"):
+    TARGETS[_marker] = {
+        "reference": "2 maintain; 3–4 improve; 5 overreach", "valid": (0, 5), "direction": "none",
+        "bands": ((5, "🟠", "Garmin: overreaching training effect"),
+                  (4, "🔵", "Garmin: highly improving training effect"),
+                  (3, "🟢", "Garmin: improving training effect"),
+                  (2, "🟢", "Garmin: maintaining training effect")),
+    }
+for _zone in range(1, 6):
+    TARGETS[f"Workout HR Zone {_zone} Duration (Garmin)"] = {
+        "reference": "Per recorded workout day; balance intensity", "direction": "none",
+    }
+TARGETS["Fitness Age (Garmin)"] = {"reference": "Below chronological age", "direction": "down"}
+TARGETS["Achievable Fitness Age (Garmin)"] = {"reference": "Garmin model goal", "direction": "none"}
 
 # Per-workout duration/distance/energy are event averages, not weekly volume.
 # Calorie totals and goal settings depend on size, energy balance and recovery.

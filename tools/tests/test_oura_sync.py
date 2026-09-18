@@ -177,7 +177,7 @@ class OuraAPITests(unittest.TestCase):
     def test_primary_sleep_mapping_and_daily_score(self):
         result = by_metric(parse_api({"sleep": [sleep_document()],
                                       "daily_sleep": [daily_document()]}))
-        self.assertEqual(len(result), 15)
+        self.assertEqual(len(result), 19)
         self.assertEqual(OURA_ENDPOINTS, [
             "sleep", "daily_sleep", "daily_readiness", "daily_activity", "daily_spo2",
             "daily_cardiovascular_age", "vO2_max", "daily_stress", "daily_resilience",
@@ -196,14 +196,16 @@ class OuraAPITests(unittest.TestCase):
         shorter = sleep_document("shorter", total_sleep_duration=18000,
                                  light_sleep_duration=8400, average_heart_rate=70)
         longer = sleep_document("longer")
-        nap = sleep_document("nap", type="sleep", total_sleep_duration=35000)
+        nap = sleep_document("nap", type="sleep", total_sleep_duration=1800, time_in_bed=2400,
+                             bedtime_start="2026-08-01T14:00:00+02:00",
+                             bedtime_end="2026-08-01T14:40:00+02:00")
         rejected = sleep_document("rejected", type="rest")
         deleted = sleep_document("deleted", type="deleted")
         records = [shorter, nap, rejected, longer, deleted]
         first = parse_api({"sleep": records})
         second = parse_api({"sleep": list(reversed(records))})
         self.assertEqual(first, second)
-        self.assertEqual(len(first), 11)
+        self.assertEqual(len(first), 17)
         self.assertEqual(by_metric(first)["Average Sleeping HR (Oura)"]["value"], 65.25)
 
     def test_tied_periods_choose_latest_end_then_stable_id(self):
@@ -242,7 +244,7 @@ class OuraAPITests(unittest.TestCase):
     def test_identical_ids_deduplicate_conflicting_ids_rejected(self):
         document = sleep_document()
         result = parse_api({"sleep": [document, document]})
-        self.assertEqual(len(result), 11)
+        self.assertEqual(len(result), 15)
         with self.assertRaisesRegex(OuraParseError, "conflicting duplicate"):
             parse_api({"sleep": [document, sleep_document(average_hrv=99)]})
         with self.assertRaisesRegex(OuraParseError, "conflicting duplicate"):

@@ -138,6 +138,19 @@ TARGETS = {
     },
 }
 
+TARGETS["Average Sleeping Stress (Garmin)"] = dict(TARGETS["Average Stress (Garmin)"])
+TARGETS["Body Battery at Wakeup (Garmin)"] = dict(TARGETS["Body Battery Highest (Garmin)"])
+for _name in ("Sleep Score", "Sleep History", "Stress History", "HRV", "Recovery Time", "Load"):
+    TARGETS[f"Morning {_name} Contributor (Garmin)"] = {
+        "reference": "Higher readiness contribution", "valid": (0, 100),
+        "direction": "up", "trend_min_change": 1,
+    }
+for _marker in ("Sampled Sleep RMSSD (Withings)", "Sampled Sleep SDNN1 (Withings)"):
+    TARGETS[_marker] = {
+        "reference": "Personal baseline; sustained recovery trend", "direction": "up",
+        "trend_min_change": 1,
+    }
+
 
 # Official API identifies these as NHS, not electrochemical conductance:
 # https://developer.withings.com/developer-guide/v3/integration-guide/surveys/data-api/all-available-health-data-body-scan/
@@ -212,6 +225,7 @@ for _marker in (
 for _marker in (
     "Temperature Deviation (Oura)",
     "Temperature Trend Deviation (Oura)",
+    "Skin Temperature Deviation (Garmin)",
 ):
     TARGETS[_marker] = {
         "reference": "Near personal baseline (0)",

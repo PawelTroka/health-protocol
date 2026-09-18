@@ -1,7 +1,7 @@
 """Pure Withings API parsing; no requests, file access, or report mutation.
 
 The current official schema is https://developer.withings.com/openapi.yaml
-(measure-getmeas and sleepv2-getsummary, checked 2026-09-06). CSV export units
+(measure-getmeas, sleepv2-getsummary/get and heartv2-get, checked 2026-09-18). CSV export units
 depend on account preferences and the official export guide does not specify
 exact headers, so this module intentionally does not guess a CSV schema.
 """
@@ -138,6 +138,22 @@ WITHINGS_SLEEP_FIELDS = list(_SLEEP_METRICS) + [
     "night_events", "core_body_temperature_status",
 ]
 WITHINGS_ACTIVITY_FIELDS = list(_ACTIVITY_METRICS)
+# Sleep/get provides timestamped samples rather than getsummary's edge windows.
+# Units/window definitions: https://developer.withings.com/api-reference/#operation/sleepv2-get
+WITHINGS_SLEEP_DETAIL_FIELDS = ("rmssd", "sdnn_1", "hrv_quality")
+_SLEEP_DETAIL_METRICS = {
+    "rmssd": ("Sampled Sleep RMSSD (Withings)", "few_seconds"),
+    "sdnn_1": ("Sampled Sleep SDNN1 (Withings)", "one_minute"),
+}
+WITHINGS_SCHEDULE_METRICS = {
+    "Bedtime (Withings)": ("hh:mm", 0),
+    "Wake-up Time (Withings)": ("hh:mm", 0),
+    "Sleep Midpoint (Withings)": ("hh:mm", 0),
+    # Monthly aggregation derives this from the midpoint observations.
+    "Sleep Midpoint Variability (Withings)": ("min", 0),
+    "Short Sleep Nights (Withings)": ("%", 1),
+    "AHI ≥5 Nights (Withings)": ("%", 1),
+}
 WITHINGS_METRICS = {
     "Body Mass": ("kg", 1), "Height (Withings)": ("cm", 1), "BMI": ("kg/m^2", 1),
     "Body Fat": ("%", 1), "Muscle": ("%", 1), "Bone": ("%", 1),
@@ -156,6 +172,8 @@ WITHINGS_METRICS.update({
 })
 WITHINGS_METRICS.update({marker: (unit, places) for marker, unit, _, places in _SLEEP_METRICS.values()})
 WITHINGS_METRICS.update({marker: (unit, places) for marker, unit, _, places in _ACTIVITY_METRICS.values()})
+WITHINGS_METRICS.update({marker: ("ms", 1) for marker, _ in _SLEEP_DETAIL_METRICS.values()})
+WITHINGS_METRICS.update(WITHINGS_SCHEDULE_METRICS)
 WITHINGS_BREATHING_INDEX_METRICS = frozenset({
     "Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)",
 })
@@ -382,13 +400,224 @@ def _sleep_daily_records(sleeps, zone):
                                    daily_aggregation=aggregation, source_count=len(contributors),
                                    source_record_ids=[period[2] for period in contributors],
                                    source_intervals=intervals))
+        records.extend(_sleep_schedule_records(day, periods, zone))
+    # This indicator uses the same observed daily, sleep-duration-weighted AHI
+    # already reported above; it does not impute zero on unmeasured nights.
+    for ahi in list(records):
+        if ahi["metric"] == "Sleep Apnea AHI":
+            marker = "AHI ≥5 Nights (Withings)"
+            records.append({**ahi, "id": f"withings:sleep:daily-{ahi['day']}:{marker}",
+                            "metric": marker, "value": 100.0 if ahi["value"] >= 5 else 0.0,
+                            "unit": "%", "daily_aggregation": "threshold_of_daily_weighted_ahi",
+                            "derived_from": {"daily_ahi": ahi["value"], "threshold_events_per_hour": 5},
+                            "monthly_aggregation": "mean_of_daily_indicators"})
     return records
+
+
+def _sleep_schedule_records(day, periods, zone):
+    """Derive one conservative primary/composite sleep interval per wake date.
+
+    These are local clock times of the summary interval, not reconstructed
+    sleep onset/final wake events. Withings night_events can be edited or
+    inconsistent. The <=2h gaps / <=16h span are grouping heuristics, not
+    clinical definitions; ambiguous separate naps suppress these derived rows.
+    Existing duration/stage aggregation is unchanged.
+    """
+    first, last = periods[0][0], periods[-1][1]
+    if last.timestamp() - first.timestamp() > 16 * 3600:
+        return []
+    if any(current[0].timestamp() - previous[1].timestamp() > 2 * 3600
+           for previous, current in zip(periods, periods[1:])):
+        return []
+    metadata = {
+        "source_field": "startdate,enddate", "source_day": day,
+        "started_at": first.isoformat(), "daily_aggregation": "primary_or_adjacent_sleep_intervals",
+        "source_count": len(periods), "source_record_ids": [period[2] for period in periods],
+        "source_intervals": [{"id": period[2], "started_at": period[0].isoformat(),
+                              "ended_at": period[1].isoformat()} for period in periods],
+        "clock_timezone": str(zone),
+    }
+    midpoint = datetime.fromtimestamp((first.timestamp() + last.timestamp()) / 2, zone)
+    records = []
+    for marker, instant in (("Bedtime (Withings)", first), ("Wake-up Time (Withings)", last),
+                            ("Sleep Midpoint (Withings)", midpoint)):
+        minutes = instant.hour * 60 + instant.minute + instant.second / 60
+        records.append(_record(f"daily-{day}", marker, minutes, "hh:mm", last, kind="sleep",
+                               monthly_aggregation="circular_mean", **metadata))
+    seconds = [_number(period[3]["data"].get("total_sleep_time")) for period in periods]
+    if all(value is not None and 0 < value <= period[1].timestamp() - period[0].timestamp()
+           for value, period in zip(seconds, periods)):
+        slept = sum(seconds)
+        records.append(_record(f"daily-{day}", "Short Sleep Nights (Withings)",
+                               100.0 if slept < 7 * 3600 else 0.0, "%", last, kind="sleep",
+                               monthly_aggregation="mean_of_daily_indicators",
+                               derived_from={"sleep_seconds": slept, "threshold_hours": 7}, **metadata))
+    return records
+
+
+def _sleep_detail_records(details, sleeps, zone):
+    """Mean sampled HRV windows within completed sleep, never a whole-night SDNN.
+
+    Sleep/get documents RMSSD over a few seconds and SDNN over one minute, in
+    milliseconds. Quality codes have no published scale: preserve coverage and
+    values in provenance without inventing a cutoff. Invalid/nonpositive HRV
+    samples and awake/manual/unspecified states are excluded, never zero-filled.
+    """
+    summaries = []
+    for key, sleep in _latest_unique(sleeps, "id"):
+        if sleep.get("completed") is not True or not isinstance(sleep.get("data"), dict):
+            continue
+        start, end = (_timestamp(sleep.get(field), zone) for field in ("startdate", "enddate"))
+        if start is not None and end is not None and end.timestamp() > start.timestamp():
+            summaries.append((start, end, key, sleep))
+    samples = {}
+    for detail in details:
+        if _integer(detail.get("state")) not in {1, 2, 3}:
+            continue
+        start, end = (_timestamp(detail.get(field), zone) for field in ("startdate", "enddate"))
+        if start is None or end is None or end.timestamp() <= start.timestamp():
+            continue
+        qualities = detail.get("hrv_quality")
+        qualities = qualities if isinstance(qualities, dict) else {}
+        for field in _SLEEP_DETAIL_METRICS:
+            values = detail.get(field)
+            if not isinstance(values, dict):
+                continue
+            for raw_stamp, raw_value in values.items():
+                stamp, value = _integer(raw_stamp), _number(raw_value)
+                recorded = _timestamp(stamp, zone)
+                if recorded is None or value is None or value <= 0 or not start.timestamp() <= stamp < end.timestamp():
+                    continue
+                matched = [summary for summary in summaries
+                           if summary[0].timestamp() <= stamp < summary[1].timestamp()
+                           and (detail.get("model_id") is None or summary[3].get("model_id") is None
+                                or detail["model_id"] == summary[3]["model_id"])]
+                if len(matched) != 1:
+                    continue
+                summary = matched[0]
+                quality = _number(qualities.get(raw_stamp, qualities.get(str(stamp))))
+                quality = quality if quality is not None and quality >= 0 else None
+                key = (summary[1].date().isoformat(), field, stamp)
+                if key in samples and samples[key][0] != value:
+                    raise ValueError("Conflicting Withings sleep HRV samples share a field and timestamp")
+                if key not in samples or samples[key][1] is None:
+                    samples[key] = (value, quality, summary)
+    days = {}
+    for (day, field, stamp), value in samples.items():
+        days.setdefault((day, field), []).append((stamp, *value))
+    records = []
+    for (day, field), points in sorted(days.items()):
+        points.sort(key=lambda point: point[0])
+        marker, window = _SLEEP_DETAIL_METRICS[field]
+        contributors = {point[3][2]: point[3] for point in points}
+        intervals = sorted(contributors.values(), key=lambda period: period[0].timestamp())
+        last = intervals[-1][1]
+        qualities = [point[2] for point in points if point[2] is not None]
+        records.append(_record(f"daily-{day}", marker, sum(point[1] for point in points) / len(points),
+                               "ms", last, kind="sleep_detail", source_field=field,
+                               source_day=day, daily_aggregation="mean_of_valid_sleep_samples",
+                               sample_window=window, sample_count=len(points),
+                               first_sample_at=datetime.fromtimestamp(points[0][0], zone).isoformat(),
+                               last_sample_at=datetime.fromtimestamp(points[-1][0], zone).isoformat(),
+                               sampled_minutes=len({point[0] // 60 for point in points}),
+                               quality_sample_count=len(qualities),
+                               quality_values=sorted(set(qualities)),
+                               source_count=len(intervals), source_record_ids=list(contributors),
+                               source_sample_timestamps=[point[0] for point in points],
+                               source_intervals=[{"id": period[2], "started_at": period[0].isoformat(),
+                                                  "ended_at": period[1].isoformat()} for period in intervals]))
+    return records
+
+
+def ecg_signal_inventory(payloads):
+    """Return dated private ECG waveforms, separate from monthly observations.
+
+    Input heart_signals entries: signalid, timestamp and data (heart/get body).
+    Signal units are explicitly microvolts and sampling_frequency is Hz in:
+    https://developer.withings.com/api-reference/#operation/heartv2-get
+    """
+    if not isinstance(payloads, dict) or not isinstance(payloads.get("heart_signals", []), list):
+        raise ValueError("Withings heart_signals must be a list")
+    zone, signals = ZoneInfo("Europe/Warsaw"), {}
+    for item in payloads.get("heart_signals", []):
+        if not isinstance(item, dict) or not isinstance(item.get("data"), dict):
+            continue
+        key, recorded = _identifier(item.get("signalid")), _timestamp(item.get("timestamp"), zone)
+        data = item["data"]
+        signal, frequency = data.get("signal"), _number(data.get("sampling_frequency"))
+        if (key is None or recorded is None or frequency is None or frequency <= 0
+                or not isinstance(signal, list) or not signal or any(_number(value) is None for value in signal)):
+            continue
+        record = {"provider": "withings", "id": f"withings:ecg_signal:{key}", "signalid": key,
+                  "day": recorded.date().isoformat(), "recorded_at": recorded.isoformat(),
+                  "kind": "ecg_waveform", "source_kind": "api", "amplitude_unit": "uV",
+                  "sampling_frequency_hz": frequency, "sample_count": len(signal),
+                  "duration_seconds": len(signal) / frequency, "signal_uv": list(signal),
+                  "model": data.get("model", item.get("model")), "wearposition": data.get("wearposition")}
+        if key in signals and signals[key] != record:
+            raise ValueError("Conflicting Withings ECG waveforms share a signal identifier")
+        signals[key] = record
+    return sorted(signals.values(), key=lambda record: (record["recorded_at"], record["id"]))
+
+
+def check_detail_file_coverage(existing, incoming):
+    """Reject partial amendments that would discard sampled daily HRV coverage.
+
+    Complete API synchronization has its own reconciliation rules. This guard
+    belongs before file/partial-API merging: a replacement daily mean must
+    include every previously known sample timestamp and sleep-summary ID.
+    Cells absent from the amendment remain untouched by the caller's merge.
+    """
+    detail_markers = {marker for marker, _ in _SLEEP_DETAIL_METRICS.values()}
+
+    def cell(record):
+        if (record.get("provider") == "withings"
+                and (record.get("metric") in detail_markers
+                     or str(record.get("id", "")).startswith("withings:sleep_detail:")
+                     or record.get("source_endpoint") == "sleep_details")):
+            return record.get("day"), record.get("metric")
+        return None
+
+    def coverage(record):
+        ids, stamps = record.get("source_record_ids"), record.get("source_sample_timestamps")
+        if (not isinstance(ids, list) or not ids
+                or not all(isinstance(value, str) and value.strip() for value in ids)
+                or len(set(ids)) != len(ids)
+                or type(record.get("source_count")) is not int
+                or record.get("source_count") != len(ids)
+                or not isinstance(stamps, list) or not stamps
+                or not all(type(value) is int and value > 0 for value in stamps)
+                or len(set(stamps)) != len(stamps)
+                or type(record.get("sample_count")) is not int
+                or record.get("sample_count") != len(stamps)):
+            return None
+        return set(ids), set(stamps)
+
+    old_cells, new_cells = {}, {}
+    for rows, cells in ((existing, old_cells), (incoming, new_cells)):
+        for record in rows:
+            key = cell(record)
+            if key is not None:
+                cells.setdefault(key, []).append(record)
+    for (day, marker), replacements in new_cells.items():
+        message = (f"The Withings sleep-detail file cannot replace all known samples for {day} / {marker}. "
+                   "Run a full API sync for this date range; existing results were preserved.")
+        if len(replacements) != 1:
+            raise ValueError(message)
+        replacement = coverage(replacements[0])
+        if replacement is None:
+            raise ValueError(message)
+        for previous in old_cells.get((day, marker), []):
+            known = coverage(previous)
+            if known is None or not known[0] <= replacement[0] or not known[1] <= replacement[1]:
+                raise ValueError(message)
 
 
 def parse_api(payloads: dict, *, height_cm: float | None = 180.0) -> list[dict]:
     """Normalize one authenticated user's measurements in Europe/Warsaw.
 
-    Accepted flattened keys: measuregrps, series (sleep), activities, heart_series.
+    Accepted flattened keys: measuregrps, series (sleep), activities, heart_series,
+    sleep_detail_series (sleep/get). ECG waveforms remain a separate inventory.
     Full response page keys: measure, sleep, activity, heart. Stetho and categorical
     observations are available separately through categorical_inventory.
     The caller must finish pagination before passing results. Explicitly mixed
@@ -416,6 +645,7 @@ def parse_api(payloads: dict, *, height_cm: float | None = 180.0) -> list[dict]:
     sleeps = _collect(payloads, "series", "sleep", user_ids)
     activities = _collect(payloads, "activities", "activity", user_ids)
     hearts = _collect(payloads, "heart_series", "heart", user_ids, "series")
+    sleep_details = _collect(payloads, "sleep_detail_series", "sleep_detail", user_ids, "series")
     if len(user_ids) > 1:
         raise ValueError("Withings payloads contain more than one user")
     records = []
@@ -515,6 +745,7 @@ def parse_api(payloads: dict, *, height_cm: float | None = 180.0) -> list[dict]:
     # Completed summaries retain their own Withings identities; they never
     # replace Oura metrics or relabel the Sleep Rx index as medical AHI.
     records.extend(_sleep_daily_records(sleeps, zone))
+    records.extend(_sleep_detail_records(sleep_details, sleeps, zone))
 
     # getactivity returns daily aggregates. Revisions replace a date rather than
     # adding another full day's steps/calories or averaging duplicate snapshots.

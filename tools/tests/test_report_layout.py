@@ -152,6 +152,32 @@ class LayoutPartitionTests(unittest.TestCase):
         self.assertEqual({row[0] for row in groups[0]["rows"]}, names)
         self.assertTrue(all(row[-2] == "index" for row in groups[0]["rows"]))
 
+    def test_withings_sleep_hrv_is_grouped_with_recovery(self):
+        rows = [sample_row(name, "ms") for name in
+                ("Sampled Sleep RMSSD (Withings)", "Sampled Sleep SDNN1 (Withings)")]
+        groups = report_layout.layout(rows)
+        self.assertEqual([group["title"] for group in groups], ["Recovery and temperature details"])
+
+    def test_unique_snapshots_are_grouped_by_subject_and_preserve_source_literals(self):
+        subjects = {
+            "Max HRV": ("51", "Recovery and temperature details"),
+            "Stress": ("low", "Recovery and temperature details"),
+            "Maximum Heart Rate": ("190", "Heart and circulation details"),
+            "ECG Rhythm": ("normal sinus rhythm", "Heart and circulation details"),
+            "Heart Sounds": ("inconclusive", "Heart and circulation details"),
+            "Nighttime BP Dip": ("16.7", "Heart and circulation details"),
+            "Nighttime BP Pattern": ("typical dipping", "Heart and circulation details"),
+        }
+        rows = [sample_row(name, value=value) for name, (value, _) in subjects.items()]
+        original = list(rows)
+        groups = report_layout.layout(rows)
+        self.assertNotIn("Manual and historical observations", [group["title"] for group in groups])
+        actual = {row[0]: (row[1], group["title"]) for group in groups for row in group["rows"]}
+        self.assertEqual(actual, subjects)
+        self.assertEqual(rows, original)
+        self.assertEqual(Counter(id(row) for group in groups for row in group["rows"]),
+                         Counter(map(id, rows)))
+
 
 class GroupedRendererTests(unittest.TestCase):
     @classmethod
@@ -352,6 +378,89 @@ class GroupedRendererTests(unittest.TestCase):
                                  [("Sleep Duration", "7.5", "Oura"), ("Sleep Duration", "6.0", "Withings"),
                                   ("Sleep Duration", "7.8", "Garmin")])
                 self.assertTrue(all(len(row) == len(header) for row in rendered_rows))
+
+    def snapshot_fixture(self):
+        old = {"Resting Heart Rate": "~65", "Sleeping Heart Rate": "56",
+               "ECG Heart Rate": "68", "Cardiovascular Age Difference (Oura)": "-6.5"}
+        replacements = {"Average Sleeping HR (Oura)": "65.9", "Mean Nightly Lowest HR (Oura)": "59.0",
+                        "ECG Recorded Heart Rate (Withings)": "67.5", "Cardiovascular Age (Oura)": "29.0"}
+        unique = {"Max HRV": "51", "Maximum Heart Rate": "190", "Stress": "low",
+                  "ECG Rhythm": "normal sinus rhythm", "Heart Sounds": "inconclusive",
+                  "Nighttime BP Dip": "16.7", "Nighttime BP Pattern": "typical dipping"}
+        rows = [(name, *(value if month in {"2026-09", "2026-07"} else "-"
+                         for month in self.report["date_columns"]), "index", "-")
+                for name, value in {**old, **replacements, **unique}.items()]
+        monthly = {"months": {month: {name: {"value": value} for name, value in replacements.items()}
+                              for month in ("2026-07", "2026-09")}}
+        return rows, monthly, set(old)
+
+    def test_import_coverage_hides_only_superseded_snapshots_without_mutating_source_rows(self):
+        rows, monthly, superseded = self.snapshot_fixture()
+        original = list(rows)
+        visible = self.report["visible_vitals_rows"]
+        with patch.dict(visible.__globals__, {"synced_monthly": monthly}):
+            actual = visible(rows)
+        self.assertEqual({row[0] for row in rows} - {row[0] for row in actual}, superseded)
+        self.assertEqual(rows, original)
+        self.assertEqual(Counter(map(id, actual)), Counter(id(row) for row in rows if row[0] not in superseded))
+
+    def test_snapshot_remains_if_import_or_displayed_counterpart_coverage_is_incomplete(self):
+        visible = self.report["visible_vitals_rows"]
+        for case in ("missing-month", "missing-second-oura-import",
+                     "absent-counterpart-row", "empty-counterpart-month", "earlier-snapshot"):
+            rows, monthly, _ = self.snapshot_fixture()
+            counterpart = "Mean Nightly Lowest HR (Oura)"
+            if case == "missing-month":
+                del monthly["months"]["2026-07"]
+            elif case == "missing-second-oura-import":
+                del monthly["months"]["2026-07"][counterpart]
+            elif case == "absent-counterpart-row":
+                rows = [row for row in rows if row[0] != counterpart]
+            else:
+                marker, month, value = ((counterpart, "2026-07", "-") if case == "empty-counterpart-month"
+                                        else ("Resting Heart Rate", "2026-01", "63"))
+                index = self.report["date_columns"].index(month) + 1
+                rows = [tuple(value if i == index else cell for i, cell in enumerate(row))
+                        if row[0] == marker else row for row in rows]
+            original = list(rows)
+            with self.subTest(case=case), patch.dict(visible.__globals__, {"synced_monthly": monthly}):
+                actual = visible(rows)
+                self.assertIn("Resting Heart Rate", {row[0] for row in actual})
+                if case != "earlier-snapshot":
+                    self.assertIn("Sleeping Heart Rate", {row[0] for row in actual})
+                self.assertEqual(rows, original)
+
+    def test_both_vitals_outputs_hide_covered_snapshots_and_keep_unique_observations(self):
+        rows, monthly, superseded = self.snapshot_fixture()
+        original = list(rows)
+        expected = {self.report["display_metric_name"]("Vitals & Functional Health", row[0])
+                    for row in rows if row[0] not in superseded}
+        for output_format in ("html", "md"):
+            renderer = self.report[f"render_vitals_{output_format}"]
+            with self.subTest(output_format=output_format), patch.dict(renderer.__globals__, {"synced_monthly": monthly}):
+                rendered = renderer(rows)
+            names = [cells[0] for cells in rendered_table_rows(rendered, output_format) if cells[0] != "Metric"]
+            self.assertEqual(Counter(names), Counter(expected))
+            self.assertNotIn("Manual and historical observations", rendered)
+            self.assertIn("Heart and circulation details", rendered)
+            self.assertIn("Recovery and temperature details", rendered)
+            self.assertEqual(rows, original)
+
+    def test_contents_details_link_tracks_filtered_rows_in_both_formats(self):
+        rows, monthly, _ = self.snapshot_fixture()
+        names = {"Resting Heart Rate", "Average Sleeping HR (Oura)", "Mean Nightly Lowest HR (Oura)"}
+        rows = [row for row in rows if row[0] in names]
+        contents = self.report["report_contents"]
+        for covered in (True, False):
+            for output_format in ("html", "md"):
+                with self.subTest(covered=covered, output_format=output_format), patch.dict(contents.__globals__, {
+                    "data": {"Vitals & Functional Health": rows},
+                    "synced_monthly": monthly if covered else {"months": {}},
+                }):
+                    links = [href for _, entries in contents(markdown=output_format == "md") for _, href in entries]
+                    rendered = self.report[f"render_vitals_{output_format}"](rows)
+                self.assertEqual("#results-vitals-details" in links, not covered)
+                self.assertEqual("Detailed device measurements" in rendered, not covered)
 
 
 if __name__ == "__main__":

@@ -44,6 +44,11 @@ class GarminClientTests(unittest.TestCase):
         self.client.get_sleep_data.return_value = {"dailySleepDTO": {"sleepTimeSeconds": 24000}}
         self.client.get_hrv_data.return_value = None
         self.client.get_training_readiness.return_value = [{"score": 70}]
+        self.client.get_max_metrics.return_value = []
+        self.client.get_fitnessage_data.return_value = {}
+        self.client.get_training_status.return_value = {}
+        self.client.connectapi.return_value = []
+        self.client.get_activity_hr_in_timezones.return_value = []
         self.library = SimpleNamespace(Garmin=MagicMock(return_value=self.client),
                                        GarminConnectAuthenticationError=AuthenticationError,
                                        GarminConnectTooManyRequestsError=RateLimitError,
@@ -147,8 +152,8 @@ class GarminClientTests(unittest.TestCase):
         self.assertEqual(result["hrv"][1], {"day": "2026-09-16", "data": None})
         self.assertEqual(result["_sync"]["start"], "2026-09-15")
         self.assertEqual(result["_sync"]["end"], "2026-09-16")
-        self.assertEqual(set(result) - {"_sync"}, set(garmin_client.ENDPOINTS))
-        for endpoint in garmin_client.ENDPOINTS:
+        self.assertEqual(set(result) - {"_sync"}, set(garmin_client.ENDPOINTS) | {"activities", "activity_hr_zones"})
+        for endpoint in set(garmin_client.ENDPOINTS) | {"activities", "activity_hr_zones"}:
             self.assertEqual(result["_sync"]["endpoint_status"][endpoint], {"status": "complete", "rows": 2})
         self.client.client.dump.assert_not_called()
         self.client.client.load.assert_not_called()

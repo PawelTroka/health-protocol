@@ -7,5 +7,5 @@ if (-not ((Test-Path -LiteralPath (Join-Path $garminEnvironment '.ready')) -and 
         $vitalsPython = (Get-Command python -ErrorAction Stop).Source
     }
 }
-& $vitalsPython -B (Join-Path $PSScriptRoot 'sync_vitals.py') @args
+& $vitalsPython -B -X utf8 (Join-Path $PSScriptRoot 'sync_vitals.py') @args
 exit $LASTEXITCODE

@@ -33,12 +33,14 @@ def morning(**changes):
 
 class GarminParserTests(unittest.TestCase):
     def test_registry_covers_only_verified_fields_with_provider_suffixes(self):
-        self.assertEqual(GARMIN_ENDPOINTS, ["daily_summary", "sleep", "hrv", "training_readiness"])
-        self.assertEqual(len(GARMIN_METRICS), 32)
+        self.assertEqual(GARMIN_ENDPOINTS, ["daily_summary", "sleep", "hrv", "training_readiness",
+                                          "max_metrics", "fitness_age", "training_status", "activities", "activity_hr_zones"])
+        self.assertEqual(len(GARMIN_METRICS), 62)
         self.assertTrue(all(name.endswith(" (Garmin)") for name in GARMIN_METRICS))
-        self.assertEqual(GARMIN_CATEGORICAL_METRICS, {"HRV Status (Garmin)"})
+        self.assertEqual(GARMIN_CATEGORICAL_METRICS, {"HRV Status (Garmin)", "Training Status Feedback (Garmin)",
+                                                    "Training Load Status (Garmin)", "Workout Training Effect (Garmin)"})
         self.assertEqual(GARMIN_METRICS["Morning Recovery Time (Garmin)"], ("h", 2))
-        self.assertEqual(parse_api({"max_metrics": [{"vo2Max": 55}]}), [])
+        self.assertEqual(parse_api({"unsupported_endpoint": [{"vo2Max": 55}]}), [])
 
     def test_daily_field_mapping_and_exact_source_units(self):
         values = by_metric(parse_api(payload("daily_summary", {

@@ -212,7 +212,7 @@ class WithingsParserTests(unittest.TestCase):
                           "total_sleep_time": 24000}}
         result = parse_api({"sleep": [{"status": 0, "body": {"series": [sleep], "more": False}}]})
         values = by_metric(result)
-        self.assertEqual(len(result), 4)
+        self.assertEqual(len(result), 9)  # Four source metrics plus schedule/night indicators.
         self.assertEqual(values["Sleep Apnea AHI"]["value"], 0)
         self.assertEqual(values["Sleep Apnea AHI"]["day"], "2026-09-02")
         self.assertEqual(values["Sleep Apnea AHI"]["unit"], "events/h")
@@ -323,7 +323,9 @@ class WithingsParserTests(unittest.TestCase):
         records = by_metric(parse_api(payload))
         fields = {"breathing_disturbances_intensity": "Breathing Disturbance Intensity (Withings)",
                   "breathing_quality_assessment": "Breathing Quality Assessment (Withings)"}
-        self.assertEqual(set(records), set(fields.values()))
+        self.assertEqual(set(records), set(fields.values()) | {
+            "Bedtime (Withings)", "Wake-up Time (Withings)", "Sleep Midpoint (Withings)",
+        })
         for field, marker in fields.items():
             self.assertEqual(records[marker]["value"], sleep["data"][field])
             self.assertEqual(records[marker]["unit"], "index")
@@ -344,7 +346,9 @@ class WithingsParserTests(unittest.TestCase):
                 payload = {"series": [sleep]}
                 before = copy.deepcopy(payload)
                 with self.subTest(field=field, invalid=invalid):
-                    self.assertEqual(parse_api(payload), [])
+                    self.assertEqual(set(by_metric(parse_api(payload))), {
+                        "Bedtime (Withings)", "Wake-up Time (Withings)", "Sleep Midpoint (Withings)",
+                    })
                     self.assertEqual(categorical_inventory(payload), [])
                     self.assertEqual(payload, before)
 
