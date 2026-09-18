@@ -994,10 +994,6 @@ Even if you do everything right you can be exposed to harmful environment, so it
   5mg / 2.5ml  
   2mg / ml  
   0.5mg-1mg -> 25-50IU/week
-- AOD-9604 5mg  
-  5mg / 3ml  
-  1.67mg / ml  
-  250mcg-500mcg -> 15-30IU/day
 
 
 ## 11. Surgeries
@@ -1306,6 +1302,7 @@ Notes are included only when totals, dose uncertainty, timing, safety or another
 
 
 ## Removed / unhealthy / redundant items
+- **AOD-9604 5mg vial (injectable; former 250–500mcg/day)** — *Removed to simplify the protocol: expected marginal fat-loss benefit is low and uncertain, while repeated injections add unresolved research-peptide risk. The larger oral obesity trial failed to show a significant weight-loss advantage over Placebo; efficacy of daily subcutaneous use remains unestablished. FDA highlights potential immune reactions from peptide impurities/aggregation and insufficient subcutaneous and long-term safety data. Oral/short-term intravenous tolerability does not establish safety for repeated subcutaneous injections.* [FDA efficacy and safety assessment](https://www.fda.gov/media/183584/download) [FDA peptide safety concerns](https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks)
 - **Former canned Vegetable / Pulse products** — 100g [organic Canned Tomatoes](https://zakupy.auchan.pl/products/bio-pomidory-ca%C5%82e-auchan-400-g/00868203), 40g drained [organic Black Beans](https://marketbio.pl/fasola-czarna-w-zalewie-bio-400g-240g-amaizin.html) and 42g drained [organic Chickpeas](https://bioshi.pl/pl/products/ciecierzyca-konserwowa-bio-400-g-naturavena-89490) — *Replaced by fresh Tomatoes and Pulses cooked from dried to follow the user’s packaging preference. Existing canned Fish remains the agreed exception. The change is not evidence that these exact former products were unsafe; see the Diet food forms Note for preparation and calculation differences.*
 - **Former Lunch Chicken option** — 200g [organic pasture-raised Chicken tenderloins](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) — *Replaced by Turkey as the preferred Poultry option to simplify the rotation.*
 - **Former Dinner Chicken + Rice combination** — 150g raw [organic pasture-raised Chicken tenderloins](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) + 125g cooked [organic White Basmati Rice](https://marketbio.pl/ryz-basmati-bialy-bio-1-kg-bio-planet.html) — *Removed as an inappropriate Fatty Protein option; Dinner already has a separate Carbohydrate choice.*
