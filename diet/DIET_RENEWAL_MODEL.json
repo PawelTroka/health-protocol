@@ -1,0 +1,908 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-18",
+  "purpose": "Executable quantity and phase comparison, separate from verified retailer configuration. No proposed new group is booked or proved to have free delivery.",
+  "sources": [
+    "../README.md#4-diet",
+    "DIET_OPTIMIZATION.md",
+    "DIET_STOCK_TRANSITION.md",
+    "DIET_ROTATION_COVERAGE.md",
+    "DIET_PAYMENT_HANDOFF.md#18september-review",
+    "DIET_SUBSCRIPTION_COSTS.md",
+    "DIET_DELIVERY_SCHEDULE.md"
+  ],
+  "steady_state_anchor": "2026-10-01",
+  "verified_interval_choices_days": [
+    7,
+    14,
+    21,
+    28,
+    30,
+    60,
+    90
+  ],
+  "interval_caveat": "Observed Bioshi options, not proof every SKU/composition accepts every interval or that no other native interval can be configured.",
+  "constraints": {
+    "maximum_matched_delivered_subscription_premium_percent": 25,
+    "premium_scope": "Same meaningful product/form, normalized amount and tax; mandatory shipping/packing included on both routes. No unrelated-product savings may hide an over-cap substitution.",
+    "absolute_food_budget_pln": null,
+    "free_home_courier_required": true,
+    "parcel_lockers_allowed": false,
+    "surplus_for_shipping_allowed": false,
+    "exact_product_and_portion_preserved": true,
+    "no_stock_depletion_inferred_from_time": true,
+    "shelf_life": "Delivered label and actual usable condition; never renewal interval.",
+    "no_new_financial_commitment_from_this_model": true,
+    "retailer_native_subscriptions_only": true,
+    "routine_codex_ordering_or_rescheduling_allowed": false,
+    "routine_manual_skip_or_bridge_allowed": false
+  },
+  "protocol_requirements": {
+    "period_days": 28,
+    "dinner_rotation": {
+      "tempeh_meals": 6,
+      "tempeh_g": 200,
+      "egg_meals": 12,
+      "egg_shell_free_g": 200,
+      "nominal_medium_eggs_per_meal": 4,
+      "fish_meals": 10
+    },
+    "steady_14_day_dinner_pattern_after_tempeh_arrival": [
+      "Tempeh",
+      "Tempeh",
+      "Tempeh",
+      "Eggs",
+      "Salmon",
+      "Eggs",
+      "Mackerel",
+      "Eggs",
+      "Salmon",
+      "Eggs",
+      "Mackerel",
+      "Eggs",
+      "Sardines",
+      "Eggs"
+    ],
+    "lunch_28_day_example": {
+      "turkey_raw_g": 3000,
+      "pollock_raw_excluding_glaze_g": 400,
+      "mussels_g": 600,
+      "shrimp_raw_g": 360
+    },
+    "lunch_alignment": "Count Lunch Pollock in the weekly300–450g cooked/ready-to-eat Fish target. Place it in appropriate weeks using actual ready-to-eat yields; Shellfish separate.",
+    "daily": {
+      "oats_dry_g": 25,
+      "exact_sante_bran_g": 10,
+      "nuts_g": 20,
+      "morning_seeds_g": 7,
+      "dinner_seeds_g": 7,
+      "matcha_g": 2,
+      "milk_ml": 200,
+      "pamako_g": 13.5,
+      "phileos_g": 13.5
+    },
+    "not_supplied_by_active_renewals": [
+      "28 Lunch Proteins",
+      "10 Dinner Fish meals",
+      "28 Lunch starch choices",
+      "28 Dinner starch choices including8–16 Pulses",
+      "28 Cruciferous choices",
+      "28 Leafy choices",
+      "28 Microgreen choices",
+      "28 Ferment choices",
+      "5.6L Milk",
+      "560g Nuts",
+      "196g Morning Seeds",
+      "196g Dinner Seeds",
+      "700g Oats",
+      "280g exact Bran",
+      "56g Matcha",
+      "378g each fixed Oil",
+      "selected Herbs/Spices"
+    ]
+  },
+  "active_streams": [
+    {
+      "subscription": 357,
+      "days": 28,
+      "next_delivery": "2026-10-01",
+      "next_quote_pln": 110.7,
+      "home_courier_pln": 0,
+      "quote_scope": "Current recorded renewal only",
+      "foods": {
+        "kiwi_gross_g": 1200,
+        "tomato_g": 1000,
+        "shiitake_raw_g": 200,
+        "oyster_raw_g": 200
+      },
+      "first_order": {
+        "id": 243351,
+        "paid_pln": 123.01,
+        "status": "delivered18September2026 at14:44 Europe/Warsaw; no consumption inferred",
+        "delivered_at": "2026-09-18T14:44:00+02:00"
+      },
+      "next_payment_date": "2026-09-26"
+    },
+    {
+      "subscription": 361,
+      "days": 14,
+      "next_delivery": "2026-10-09",
+      "next_quote_pln": null,
+      "home_courier_pln": 0,
+      "quote_scope": "104.09zł was verified earlier18September. Evening overview shows115.66zł base; detail hides totals. No newly verified payable renewal total or price change.",
+      "foods": {
+        "eggs_count": 10,
+        "orange_gross_g": 1000,
+        "butternut_gross_g": 1000,
+        "tempeh_packs_200g": 3,
+        "strawberry_gross_g": 450
+      },
+      "first_order": {
+        "id": 243898,
+        "paid_pln": 201.61,
+        "status": "paid; planned21September dispatch. GLS label created18September, no carrier handover confirmed; no arrival or consumption credited.",
+        "first_only": {
+          "oats_g": 1000,
+          "cinnamon_g": 50,
+          "cardamom_pods_g": 40,
+          "cloves_g": 30,
+          "orange_sweet_potato_gross_g": 1000
+        }
+      },
+      "next_payment_date": "2026-10-02",
+      "following_delivery_date": "2026-10-23",
+      "last_verified_renewal_quote_pln": 104.09,
+      "latest_overview_base_pln": 115.66
+    }
+  ],
+  "opening_stock": {
+    "reported_on": "2026-09-14",
+    "status": "Reported counts and conditional pack estimates; no actual consumption deducted and no expiry invented.",
+    "estimated_g": {
+      "walnuts": 300,
+      "macadamias": 200,
+      "morning_flax_chia_total": 650,
+      "pumpkin": 350,
+      "matcha": 200
+    },
+    "reported_counts": {
+      "sauerkraut_jars_unopened": 7,
+      "kefir_bottles_unopened": 8,
+      "soy_milk_packs": 2,
+      "mackerel_packs": 8,
+      "sardine_tins": 5,
+      "kale_packs": 2,
+      "spinach_packs": 1,
+      "tomatoes_approximate": 6
+    },
+    "phileos_remaining_ml_estimate": 250,
+    "unknown": [
+      "Eggs",
+      "current Oats",
+      "Pamako",
+      "exact edible vegetable weights",
+      "remaining Mushroom weight",
+      "all unreported foods",
+      "most label/use-by/opening dates"
+    ],
+    "purchase_release_rule": "Compute actual upcoming written-choice need minus usable allocated stock and confirmed incoming stock arriving in time. Prepare before the coverage gap using actual supplier lead time. Estimates may inform a scenario but never certify a shipment is due.",
+    "confirmed_new_arrivals": [
+      {
+        "date": "2026-09-18",
+        "order": 243351,
+        "foods_gross_g": {
+          "kiwi": 1200,
+          "tomatoes": 1000,
+          "shiitake": 200,
+          "oyster": 200
+        },
+        "quantity_status": "Ordered pack amounts; weigh actual received edible quantities; arrival verified by root.",
+        "delivered_at": "2026-09-18T14:44:00+02:00"
+      }
+    ]
+  },
+  "dated_price_references": {
+    "source": "Existing14September price ledger; browser must refresh comparable checkout prices and mandatory fees.",
+    "oats_300_first_pln": 5.39,
+    "oats_1000_first_pln": 14.59,
+    "oats_equivalent_1000_manual_pln": 11.92,
+    "eggs_10_first_pln": 23.56,
+    "walnuts_300_first_pln": 22.99,
+    "pistachios_150_first_pln": 45.89,
+    "almonds_350_first_pln": 29.99,
+    "macadamias_200_first_pln": 33.69,
+    "phileos_500_first_pln": 82.99,
+    "phileos_500_manual_pln": 62,
+    "arugula_100_first_pln": 24.29,
+    "arugula_100_manual_pln": 8.79
+  },
+  "priority_browser_tests": [
+    {
+      "priority": 1,
+      "action": "Price and native-interval test for additional10-Egg streams /21,/28,/60days. /28 can potentially join active357; other cores require independently qualifying mixed baskets.",
+      "no_activation_until": "Actual first dates/owned Eggs, saved exact quantities, current <=25% matched delivered premium and free home-courier renewal verified.",
+      "current_status": "Exact Egg SKU45382 unavailable for new checkout at23.59zł on18September. Existing paid361 reservation not inferred missing."
+    },
+    {
+      "priority": 2,
+      "action": "Quote verified Bioshi52572 organic gluten-free rolled Oats500g:11.89first/10.70renewal versus same-product9.65manual. Compare500g/30days+500g/60days against1kg/60days+500g/60days phased40days. Both exactly25g/day; all mandatory fees and first starts remain to verify.",
+      "old_candidate": "300g/21+28days is superseded if its current25% delivered premium screen fails.",
+      "current_status": "Standalone pantryB quoted79.27zł goods +9.49zł GLS =88.76zł, rejected. Other compositions/cycles require separate quotes."
+    },
+    {
+      "priority": 3,
+      "action": "Phase the existing1.8kg/90day Nut mix after owned500g is allocated; compare six mixed groups with eight smaller single-pack phases. Do not buy standalone parcels unless their own courier quote qualifies.",
+      "no_activation_until": "<=25% matched delivered premium, native phase/cycle, food-specific20g remainder handling and actual opened life verified."
+    },
+    {
+      "priority": 4,
+      "action": "Fill remaining fresh Berry/Mushroom/Vegetable choices in small usable batches, preferring native food routes within25% delivered premium. Their current group quantities are not inferred from the historical6F lists.",
+      "practical_tests": [
+        "125g Blueberries: one full written portion if exact SKU returns",
+        "150g Maitake: two75g meals",
+        "250g King Oyster: five50g meals only within delivered usable window",
+        "150g Raspberry/350g or other exact pack: reconcile100g portions; do not assume same-food remainder survives next shipment",
+        "100g Arugula: two50g meals, but dated Bioshi price exceeds25% cap"
+      ]
+    },
+    {
+      "priority": 5,
+      "action": "Defer new Ferments, Seeds, Matcha and overlapping Fish while reported stock is allocated. Native availability alone does not justify immediate purchases or high-premium substitutes."
+    }
+  ],
+  "first_start_policy": {
+    "eggs": "Set retailer-native delayed first starts against the forecast dinner plan and incoming carton. Unreported owned Eggs remain unknown. No manual bridge is claimed as part of a native-only solution.",
+    "oats": "Paid1kg supplies40 written25g servings after actual consumption starts. New Oat streams need retailer-supported delayed first starts before the forecast gap; no managed reorder fallback.",
+    "nuts": "Owned500g estimate equals25 shared choices; actual remaining stock governs staged start. New90-day packs must not all arrive together.",
+    "fresh_food": "Use actual batch arrival, edible yield and label dates; no freshness certificate from a28/90day interval.",
+    "dates": "Use expected consumption under the approved rotation to propose first dates, distinguish forecast from observed depletion, and verify retailer-native first-start support. No routine date edits or skips count as native automation."
+  },
+  "derived_analysis": {
+    "as_of": "2026-09-18",
+    "operational_evidence_separate_from_arithmetic": {
+      "recorded_on": "2026-09-18",
+      "source": "Root live Opera/account/checkout verification; distinct from offline quantity forecasts.",
+      "357": {
+        "delivered_at": "2026-09-18T14:44:00+02:00",
+        "next_payment_date": "2026-09-26",
+        "next_delivery_date": "2026-10-01"
+      },
+      "361": {
+        "next_payment_date": "2026-10-02",
+        "next_delivery_dates": [
+          "2026-10-09",
+          "2026-10-23"
+        ],
+        "earlier_verified_renewal_quote_pln": 104.09,
+        "evening_overview_base_pln": 115.66,
+        "current_payable_renewal_total_verified": false,
+        "first_order_243898": "paid; planned21September dispatch;18September GLS label only, no handover confirmation"
+      },
+      "pantry_B_checkout": {
+        "foods": {
+          "organic_gluten_free_rolled_oats_500g_sku52572": 1,
+          "organic_macadamia_200g": 2
+        },
+        "goods_pln": 79.27,
+        "gls_home_courier_pln": 9.49,
+        "checkout_total_pln": 88.76,
+        "free_method": "pickup only; unacceptable for user",
+        "native_plan_status": "rejected_paid_home_courier",
+        "order_submitted": false,
+        "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler."
+      },
+      "egg_product": {
+        "sku": 45382,
+        "observed_price_pln": 23.59,
+        "available_for_new_checkout": false,
+        "implication": "Cannot add new10-Egg streams to the tested basket. Does not establish loss/unavailability of already-paid361 reservation."
+      }
+    },
+    "active_coverage_per_28_days": {
+      "recurring_food_count": 9,
+      "tempeh_dinners": {
+        "supplied": 6,
+        "required": 6
+      },
+      "nominal_eggs": {
+        "supplied": 20.0,
+        "required": 48,
+        "gap": 28
+      },
+      "egg_dinners_approximate": {
+        "supplied": 5,
+        "required": 12,
+        "gap": 7
+      },
+      "fish_dinners": {
+        "supplied": 0,
+        "required": 10
+      },
+      "lunch_protein_choices": {
+        "supplied": 0,
+        "required": 28
+      },
+      "berries": {
+        "strawberry_g_gross": 900,
+        "maximum_portion_equivalents_before_hulling": 6,
+        "required": 28,
+        "minimum_gap": 22
+      },
+      "mushrooms": {
+        "full_75g_choices": 4,
+        "separate_oyster_remainder_g": 50,
+        "separate_shiitake_remainder_g": 50,
+        "required": 28
+      },
+      "whole_fruit": {
+        "gross_g": 3200,
+        "upper_150g_equivalents_before_peeling": 21.333333,
+        "required": 28
+      },
+      "mediterranean_vegetable_choices": {
+        "nominal_tomato_choices": 10,
+        "required": 28
+      },
+      "colorful_vegetable_choices": {
+        "butternut_gross_g": 2000,
+        "upper_choices_before_preparation": 20,
+        "required": 28
+      },
+      "other_categories": [
+        "28 Lunch Proteins",
+        "10 Dinner Fish meals",
+        "28 Lunch starch choices",
+        "28 Dinner starch choices including8–16 Pulses",
+        "28 Cruciferous choices",
+        "28 Leafy choices",
+        "28 Microgreen choices",
+        "28 Ferment choices",
+        "5.6L Milk",
+        "560g Nuts",
+        "196g Morning Seeds",
+        "196g Dinner Seeds",
+        "700g Oats",
+        "280g exact Bran",
+        "56g Matcha",
+        "378g each fixed Oil",
+        "selected Herbs/Spices"
+      ]
+    },
+    "egg_oat_minimum_new_interval_proposal": {
+      "selection_rule": "Lowest modeled Egg peak, then Oat peak, then Egg mean stock; preserve both active delivery phases. Not a global freshness optimum.",
+      "phase_search_count": 1260,
+      "anchor_date": "2026-10-01",
+      "phase_21_days": 5,
+      "phase_60_days": 9,
+      "illustrative_21_day_date": "2026-10-06",
+      "illustrative_60_day_date": "2026-10-10",
+      "date_status": "Relative steady-state model only; no first date is booked or released against estimated opening stock.",
+      "eggs": {
+        "period_days": 420,
+        "supply": 720.0,
+        "demand": 720.0,
+        "net_change_per_period": 0.0,
+        "quantity_balanced": true,
+        "minimum_synthetic_opening_buffer": 6.0,
+        "peak_after_delivery_with_that_buffer": 30.0,
+        "mean_end_of_day_stock_with_that_buffer": 15.833333,
+        "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
+      },
+      "oats": {
+        "period_days": 84,
+        "supply": 2100.0,
+        "demand": 2100.0,
+        "net_change_per_period": 0.0,
+        "quantity_balanced": true,
+        "minimum_synthetic_opening_buffer": 50.0,
+        "peak_after_delivery_with_that_buffer": 550.0,
+        "mean_end_of_day_stock_with_that_buffer": 266.071429,
+        "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
+      },
+      "proposed_baskets": [
+        {
+          "id": "A28-amendment",
+          "days": 28,
+          "phase": 0,
+          "additions": {
+            "eggs_10": 1,
+            "oats_300": 1
+          },
+          "status": "Not saved; Oat price gate must pass; existing357 contents/quote must be reverified after any change."
+        },
+        {
+          "id": "C21",
+          "days": 21,
+          "phase": 5,
+          "contents": {
+            "eggs_10": 1,
+            "oats_300": 1
+          },
+          "status": "Test basket only. Add only separately due approved food; never shipping filler. Free courier unverified."
+        },
+        {
+          "id": "D60",
+          "days": 60,
+          "phase": 9,
+          "contents": {
+            "eggs_10": 1
+          },
+          "status": "A core to share with genuinely due60-day food, not a free-delivery Egg-only promise."
+        }
+      ]
+    },
+    "oat_price_screen": {
+      "first": {
+        "premium_percent": 50.727069,
+        "within_goods_only_cap": false,
+        "limitations": "Goods-only screen; current matching delivered prices, compulsory fees and tax still require checkout verification."
+      },
+      "ten_percent_example": {
+        "premium_percent": 35.626398,
+        "within_goods_only_cap": false,
+        "limitations": "Goods-only screen; current matching delivered prices, compulsory fees and tax still require checkout verification."
+      },
+      "fifteen_percent_example": {
+        "premium_percent": 28.076063,
+        "within_goods_only_cap": false,
+        "limitations": "Goods-only screen; current matching delivered prices, compulsory fees and tax still require checkout verification."
+      },
+      "decision": "Hold300g route if current delivered comparison confirms more than25% premium. Do not compensate using savings on unrelated foods."
+    },
+    "nut_comparisons": {
+      "existing_proposal_six_groups": {
+        "streams": [
+          {
+            "quantity": 300,
+            "days": 90,
+            "phase": 0
+          },
+          {
+            "quantity": 500,
+            "days": 90,
+            "phase": 15
+          },
+          {
+            "quantity": 300,
+            "days": 90,
+            "phase": 30
+          },
+          {
+            "quantity": 350,
+            "days": 90,
+            "phase": 45
+          },
+          {
+            "quantity": 150,
+            "days": 90,
+            "phase": 60
+          },
+          {
+            "quantity": 200,
+            "days": 90,
+            "phase": 75
+          }
+        ],
+        "inventory_g": {
+          "period_days": 90,
+          "supply": 1800.0,
+          "demand": 1800.0,
+          "net_change_per_period": 0.0,
+          "quantity_balanced": true,
+          "minimum_synthetic_opening_buffer": 0.0,
+          "peak_after_delivery_with_that_buffer": 550.0,
+          "mean_end_of_day_stock_with_that_buffer": 265.0,
+          "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
+        }
+      },
+      "same_mix_eight_pack_phases": {
+        "streams": [
+          {
+            "quantity": 300,
+            "days": 90,
+            "phase": 0,
+            "food": "walnuts"
+          },
+          {
+            "quantity": 150,
+            "days": 90,
+            "phase": 15,
+            "food": "pistachios"
+          },
+          {
+            "quantity": 350,
+            "days": 90,
+            "phase": 22,
+            "food": "almonds"
+          },
+          {
+            "quantity": 300,
+            "days": 90,
+            "phase": 40,
+            "food": "walnuts"
+          },
+          {
+            "quantity": 150,
+            "days": 90,
+            "phase": 55,
+            "food": "pistachios"
+          },
+          {
+            "quantity": 200,
+            "days": 90,
+            "phase": 62,
+            "food": "macadamias"
+          },
+          {
+            "quantity": 200,
+            "days": 90,
+            "phase": 72,
+            "food": "macadamias"
+          },
+          {
+            "quantity": 150,
+            "days": 90,
+            "phase": 82,
+            "food": "pistachios"
+          }
+        ],
+        "inventory_g": {
+          "period_days": 90,
+          "supply": 1800.0,
+          "demand": 1800.0,
+          "net_change_per_period": 0.0,
+          "quantity_balanced": true,
+          "minimum_synthetic_opening_buffer": 0.0,
+          "peak_after_delivery_with_that_buffer": 360.0,
+          "mean_end_of_day_stock_with_that_buffer": 120.0,
+          "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
+        },
+        "status": "No standalone Nut orders authorized or shipping verified. Co-group only with genuinely due food on the same cycle.",
+        "portion_caveat": "150g Pistachio and350g Almond packs leave10g at20g portions. The report is a mass lower bound, not a species-level eating plan. Resolve the same-food remainder and its opened life; never combine different Nuts into a CHOOSE ONE serving."
+      },
+      "four_one_pack_stream_alternatives": [
+        {
+          "periods_walnut_pistachio_almond_macadamia": [
+            60,
+            60,
+            60,
+            30
+          ],
+          "daily_grams": [
+            5.0,
+            2.5,
+            5.833333,
+            6.666667
+          ],
+          "status": "Quantity alternative only; changes the prior variety shares and is not selected."
+        },
+        {
+          "periods_walnut_pistachio_almond_macadamia": [
+            90,
+            90,
+            30,
+            60
+          ],
+          "daily_grams": [
+            3.333333,
+            1.666667,
+            11.666667,
+            3.333333
+          ],
+          "status": "Quantity alternative only; changes the prior variety shares and is not selected."
+        }
+      ]
+    },
+    "practical_additional_alternatives": {
+      "monthly_egg_clusters": {
+        "streams": [
+          {
+            "quantity": 10,
+            "days": 14,
+            "phase": 8
+          },
+          {
+            "quantity": 10,
+            "days": 30,
+            "phase": 1
+          },
+          {
+            "quantity": 10,
+            "days": 30,
+            "phase": 11
+          },
+          {
+            "quantity": 10,
+            "days": 30,
+            "phase": 21
+          }
+        ],
+        "inventory_eggs": {
+          "period_days": 210,
+          "supply": 360.0,
+          "demand": 360.0,
+          "net_change_per_period": 0.0,
+          "quantity_balanced": true,
+          "minimum_synthetic_opening_buffer": 8.0,
+          "peak_after_delivery_with_that_buffer": 22.0,
+          "mean_end_of_day_stock_with_that_buffer": 10.714286,
+          "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
+        },
+        "benefit": "Three new monthly fresh cores10days apart, retaining361. More evenly spaced new grocery cores than21/28/60, but dates drift across weekdays and free delivery remains unverified.",
+        "status": "Alternative to the21/28/60 additions, not additional to them."
+      },
+      "oats_500_30_plus_60": {
+        "streams": [
+          {
+            "quantity": 500,
+            "days": 30,
+            "phase": 0
+          },
+          {
+            "quantity": 500,
+            "days": 60,
+            "phase": 20
+          }
+        ],
+        "inventory_g": {
+          "period_days": 60,
+          "supply": 1500.0,
+          "demand": 1500.0,
+          "net_change_per_period": 0.0,
+          "quantity_balanced": true,
+          "minimum_synthetic_opening_buffer": 0.0,
+          "peak_after_delivery_with_that_buffer": 750.0,
+          "mean_end_of_day_stock_with_that_buffer": 320.833333,
+          "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
+        },
+        "verified_new_product": {
+          "shop": "Bioshi",
+          "sku": 52572,
+          "ean": "5902837810416",
+          "form": "organic plain gluten-free rolled mountain Oats",
+          "pack_g": 500,
+          "first_pln": 11.89,
+          "observed_renewal_pln": 10.7,
+          "same_product_manufacturer_manual_pln": 9.99,
+          "same_product_marketbio_manual_pln": 9.65,
+          "verified_by": "Root live product/price research18September",
+          "goods_premium_first_vs_marketbio_percent": 23.212,
+          "goods_premium_renewal_vs_marketbio_percent": 10.881,
+          "status": "Within25% goods-only cap; actual first/renewal mandatory delivery fees and mixed basket still need verification."
+        },
+        "status": "Exact25g/day. Two native rate cores; dates/composition/courier need checkout."
+      },
+      "two_pantry_groups_60_days": {
+        "A": {
+          "phase": 0,
+          "days": 60,
+          "contents": {
+            "oats_1000": 1,
+            "walnuts_300": 1,
+            "pistachios_150": 1,
+            "almonds_350": 1
+          },
+          "first_goods_reference_pln": 113.46,
+          "illustrative_ten_percent_goods_pln": 102.11
+        },
+        "B": {
+          "phase": 40,
+          "days": 60,
+          "contents": {
+            "oats_500": 1,
+            "macadamias_200": 2
+          },
+          "first_goods_reference_pln": 79.27,
+          "illustrative_ten_percent_goods_pln": 71.34,
+          "live_checkout": {
+            "foods": {
+              "organic_gluten_free_rolled_oats_500g_sku52572": 1,
+              "organic_macadamia_200g": 2
+            },
+            "goods_pln": 79.27,
+            "gls_home_courier_pln": 9.49,
+            "checkout_total_pln": 88.76,
+            "free_method": "pickup only; unacceptable for user",
+            "native_plan_status": "rejected_paid_home_courier",
+            "order_submitted": false,
+            "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler."
+          },
+          "accepted_for_activation": false
+        },
+        "oats_inventory_g": {
+          "period_days": 60,
+          "supply": 1500.0,
+          "demand": 1500.0,
+          "net_change_per_period": 0.0,
+          "quantity_balanced": true,
+          "minimum_synthetic_opening_buffer": 0.0,
+          "peak_after_delivery_with_that_buffer": 1000.0,
+          "mean_end_of_day_stock_with_that_buffer": 404.166667,
+          "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
+        },
+        "nuts_inventory_g": {
+          "period_days": 60,
+          "supply": 1200.0,
+          "demand": 1200.0,
+          "net_change_per_period": 0.0,
+          "quantity_balanced": true,
+          "minimum_synthetic_opening_buffer": 0.0,
+          "peak_after_delivery_with_that_buffer": 800.0,
+          "mean_end_of_day_stock_with_that_buffer": 323.333333,
+          "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
+        },
+        "nut_grams_per_60_days": {
+          "walnuts": 300,
+          "pistachios": 150,
+          "almonds": 350,
+          "macadamias": 400
+        },
+        "tradeoff": "Only two60-day pantry groups with exact aggregate25g Oats/day and20g Nuts/day. Nut peak800g is higher than the360g eight-phase lower bound; four varieties remain, but Walnut/Pistachio shares fall relative to the previous90-day mix. No claim that changed shares improve health.20g same-food portions and10g species remnants still need a feasible consumption allocation.",
+        "shipping": "Standalone B rejected:79.27zł goods +9.49zł GLS home courier =88.76zł; only pickup is free. A remains unquoted. Arithmetic balance does not make this pair an accepted schedule. No filler or assumed fee waiver.",
+        "transition": "Existing Nuts and paid1kg Oats have different runways. Configure retailer-supported delayed first starts that preserve coverage. If the retailer cannot express them without manual bridge purchases or routine edits, this grouped candidate is not an accepted native-only solution."
+      }
+    },
+    "forecast_stock_reviews": {
+      "assumptions": "Written daily demand starts14September against the reported/estimated full packs. Forecasts are useful scheduling estimates, not observed consumption or expiry. A review can refine the model without requiring daily user confirmation.",
+      "reviews": [
+        {
+          "food": "combined Nuts",
+          "forecast_remaining_before_today_use": 420.0,
+          "first_forecast_not_fully_supplied_day": "2026-10-09",
+          "review_no_later_than": "2026-10-02",
+          "forecast_only": true
+        },
+        {
+          "food": "combined Flax/Chia",
+          "forecast_remaining_before_today_use": 622.0,
+          "first_forecast_not_fully_supplied_day": "2026-12-15",
+          "review_no_later_than": "2026-12-01",
+          "forecast_only": true
+        },
+        {
+          "food": "Pumpkin",
+          "forecast_remaining_before_today_use": 322.0,
+          "first_forecast_not_fully_supplied_day": "2026-11-03",
+          "review_no_later_than": "2026-10-27",
+          "forecast_only": true
+        },
+        {
+          "food": "Matcha",
+          "forecast_remaining_before_today_use": 192.0,
+          "first_forecast_not_fully_supplied_day": "2026-12-23",
+          "review_no_later_than": "2026-12-09",
+          "forecast_only": true
+        },
+        {
+          "food": "Phileos",
+          "forecast_remaining_before_today_use": 174.75,
+          "first_forecast_not_fully_supplied_day": "2026-09-30",
+          "review_no_later_than": "2026-09-23",
+          "forecast_only": true
+        },
+        {
+          "food": "Soy Milk if chosen every day",
+          "forecast_remaining_before_today_use": 1200.0,
+          "first_forecast_not_fully_supplied_day": "2026-09-24",
+          "review_no_later_than": "2026-09-18",
+          "forecast_only": true
+        }
+      ],
+      "oat_rule": "Paid1kg supplies40 written servings after actual consumption begins. Forecast replenishment for day40 and review7days beforehand; actual arrival/start remains unknown. A planned21September dispatch is not an arrival date.",
+      "fresh_stock": "357 parcel arrived18September, reported by root's live review. Use its Kiwi/Tomatoes/Mushrooms by actual condition, measured yield and label dates; do not infer today's consumption.",
+      "native_only": "Forecasts inform initial retailer configuration. No routine skips, date corrections, manual bridge purchases or Codex-managed reorder cycle count as an accepted solution."
+    },
+    "restricted_native_impossibilities": [
+      {
+        "food": "each7g/day Seed category",
+        "native_period_lcm_days": 1260,
+        "required_g": 8820,
+        "pack_quantum_g": 50,
+        "remainder_g": 20,
+        "scope": "Only if all usable pack sizes are multiples of50g and only the seven documented intervals exist. A new pack/cycle/native variable pattern can change the result."
+      },
+      {
+        "food": "25g/day Oats using only1kg bags",
+        "native_period_lcm_days": 1260,
+        "required_g": 31500,
+        "pack_quantum_g": 1000,
+        "remainder_g": 500,
+        "scope": "Same restricted intervals; mixed smaller packs or a verified40-day1kg native cycle can solve quantity without changing the diet."
+      }
+    ],
+    "native_only_verdict": "Current whole-Diet candidate is not feasible with demonstrated routes. Exact subcategory rates below are candidates only: remaining exact-food native routes, free courier, price caps, first starts and usable lives are unresolved. Restricted Seed/1kg-Oat arithmetic impossibilities are not claims about every possible future retailer offer.",
+    "not_proven": [
+      "Full diet automation",
+      "New-basket free home courier",
+      "Actual usable lives",
+      "Food-specific opening-stock depletion",
+      "Future discount tiers",
+      "Global freshness optimality"
+    ]
+  },
+  "new_verified_oat500": {
+    "shop": "Bioshi",
+    "sku": 52572,
+    "ean": "5902837810416",
+    "form": "organic plain gluten-free rolled mountain Oats",
+    "pack_g": 500,
+    "first_pln": 11.89,
+    "observed_renewal_pln": 10.7,
+    "same_product_manufacturer_manual_pln": 9.99,
+    "same_product_marketbio_manual_pln": 9.65,
+    "verified_by": "Root live product/price research18September",
+    "goods_premium_first_vs_marketbio_percent": 23.212,
+    "goods_premium_renewal_vs_marketbio_percent": 10.881,
+    "status": "Within25% goods-only cap; actual first/renewal mandatory delivery fees and mixed basket still need verification."
+  },
+  "native_first_start_forecast": {
+    "status": "Forecast inputs for one-time native configuration, not bookings, observed depletion, or permission for managed ordering.",
+    "nuts_combined_forecast_first_need": "2026-10-09",
+    "nuts_review_by": "2026-10-02",
+    "nuts_assumption": "500g on14September,20g/day. Actual remainder/expiry may differ.",
+    "paid_oat_first_need_rule": "40 written servings after actual consumption starts; actual arrival remains unknown.",
+    "grouping_constraint": "Native retailer first-start dates must accommodate these different runways. No manual bridge, routine skip or repeated Codex edit may make an otherwise infeasible schedule appear compliant."
+  },
+  "native_whole_diet_status": {
+    "status": "not_demonstrated_feasible",
+    "current_candidate_infeasible": true,
+    "reason": "Active nine-food supply is partial. Restricted pack/cycle arithmetic and remaining exact-food native-source, price, free-courier and shelf-life gaps prevent a complete native-only schedule.",
+    "known_native_source_gaps": [
+      "Turkey tenderloins",
+      "skinless Salmon",
+      "exact Pollock/Mussels/Shrimps",
+      "exact selected Milk",
+      "exact Robico Kefir and Maluta Skyr",
+      "exact High-Fiber6% Bran",
+      "several fresh Leafy/Microgreen choices",
+      "exact Pamako delivered Polish route"
+    ],
+    "concrete_quantity_conflicts": [
+      "7g daily Seeds cannot be exactly replenished by packs all divisible by50g using only documented7/14/21/28/30/60/90-day periods.",
+      "Selected800g Sauerkraut needs eight100g choices; competing three/seven-day opened instructions do not establish a fresh no-waste recurring pattern.",
+      "Small Nut packs leave10g same-species remnants; aggregate rate balance does not establish their usable-life allocation."
+    ],
+    "what_would_change_it": "Verified compatible retailer-native packs/cycles/first starts and exact source routes within25% delivered premium, with no paid courier or surplus filler.",
+    "concrete_checkout_failure": "PantryB Oats500g plus2×Macadamia200g requires9.49zł home courier. Free pickup does not satisfy the constraint.",
+    "current_stock_block": "Exact Egg SKU45382 unavailable for new subscription checkout; existing paid361 reserve is separate."
+  },
+  "operational_evidence": {
+    "recorded_on": "2026-09-18",
+    "source": "Root live Opera/account/checkout verification; distinct from offline quantity forecasts.",
+    "357": {
+      "delivered_at": "2026-09-18T14:44:00+02:00",
+      "next_payment_date": "2026-09-26",
+      "next_delivery_date": "2026-10-01"
+    },
+    "361": {
+      "next_payment_date": "2026-10-02",
+      "next_delivery_dates": [
+        "2026-10-09",
+        "2026-10-23"
+      ],
+      "earlier_verified_renewal_quote_pln": 104.09,
+      "evening_overview_base_pln": 115.66,
+      "current_payable_renewal_total_verified": false,
+      "first_order_243898": "paid; planned21September dispatch;18September GLS label only, no handover confirmation"
+    },
+    "pantry_B_checkout": {
+      "foods": {
+        "organic_gluten_free_rolled_oats_500g_sku52572": 1,
+        "organic_macadamia_200g": 2
+      },
+      "goods_pln": 79.27,
+      "gls_home_courier_pln": 9.49,
+      "checkout_total_pln": 88.76,
+      "free_method": "pickup only; unacceptable for user",
+      "native_plan_status": "rejected_paid_home_courier",
+      "order_submitted": false,
+      "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler."
+    },
+    "egg_product": {
+      "sku": 45382,
+      "observed_price_pln": 23.59,
+      "available_for_new_checkout": false,
+      "implication": "Cannot add new10-Egg streams to the tested basket. Does not establish loss/unavailability of already-paid361 reservation."
+    }
+  }
+}

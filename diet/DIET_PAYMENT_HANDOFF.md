@@ -1,5 +1,47 @@
 # Diet purchase handoff
 
+## 18September review
+
+**Evening update — retailer subscriptions only:** the [current renewal plan](DIET_RENEWAL_PLAN.md) supersedes older launch proposals. The user excludes routine Codex reorders/date repairs and caps each comparable product at25% above delivered manual cost. Only357/361 remain active; no new subscription or payment was submitted.
+
+- **357:** GLS confirms243351 delivered18September14:44:13 Warsaw; contents/condition remain uninspected. Next payment26September, next delivery1October, then29October;110.70zł detailed quote/free GLS.
+- **361:** next payment now displays2October, with delivery9October, then23October.104.09zł/free GLS was verified earlier today; the evening overview shows115.66zł base and detail hides its total while linking the existing first order. Preserve this distinction until the actual renewal notice resolves it. Paid243898 has planned21September dispatch; the18September18:05 GLS email confirms label creation only, not handover or arrival.
+- **New pantry test rejected:** Oats500g + Macadamias200g×2 every60days costs79.27zł goods +9.49zł GLS =88.76zł. The basket's free-delivery headline meant pickup. No order was submitted, and the test basket was emptied and verified.
+- **Egg availability:** selected SKU45382 is unavailable for new purchases at23.59zł. This blocks testing the additional10-Egg/60-day allocation; it does not establish any shortage in the paid361 reservation.
+- **Old unpaid orders:** cancellation of243397/243402/243364 remains unconfirmed. Do not pay or resume them. No further merchant message was sent.
+
+There is **no new payment or sign-in action** for the user. The remaining native-only coverage gaps and release conditions are recorded in the current plan. Daily monitoring is an exception check, not an automatic ordering substitute.
+
+### Earlier11:17 account snapshot
+
+**18September11:17 post-login check:** account access is restored; only357 and361 are active. Order243898 remains paid201.61zł/preparing; Bioshi's09:07:23 Warsaw email reports a product-completion delay and planned **21September dispatch, not arrival**. Subscription357's detail shows next payment26September, next delivery1October, every28days at110.70zł/free GLS; its overview still displays the123.01zł base amount. Subscription361 retains9October delivery, every14days at104.09zł/free GLS; its15September payment field is stale and does not verify a future debit date. Old243397206.62zł,243402266zł and243364460.96zł remain unpaid/held; cancellation is not confirmed. **No immediate payment or further login is needed.**
+
+**Authorized follow-through:** the daily09:00 review monitors and prepares qualifying retailer-native offers within the current plan. Routine Codex ordering, skips and quantity/date repairs are excluded; final new payment or terms actions follow the applicable checkout requirements.
+
+### Earlier09:00 review — superseded account-access snapshot
+
+**Order243351 is confirmed shipped.** GLS acknowledged receiving the parcel on17September at15:12:23 Europe/Warsaw; Bioshi confirmed dispatch at16:43:41. Its123.01zł was already paid, with0zł delivery/payment fees in the shipping notice. On18September morning, the [GLS tracking page](https://gls-group.com/PL/pl/sledzenie-paczek/) says the parcel is travelling to the delivery branch; delivery and an arrival time are not confirmed. Kiwi, Tomatoes and Mushrooms remain incoming stock until actually received and checked.
+
+**Order243898 has no newly verified dispatch or delivery.** Its201.61zł payment was verified previously;18September remains an earlier estimate, not a confirmed arrival. The18–20September Tempeh/Strawberry meal allocation remains conditional. Preserve the paid order and use available approved foods if arrival slips; do not add duplicate Tempeh/Strawberries or count undelivered food as available.
+
+No incoming response confirms cancellation of243397/243402/243364 or stopped collection attempts after the17September approved reply. No further message was sent. The Opera account route now redirects to sign-in, so today's order table, renewal settings and cancellation state could not be refreshed. The last verified future deliveries remain357 on1October/110.70zł and361 on9October/104.09zł, both free GLS; these are17September observations, not new quotes. The prepared Bioshi sign-in tab is the next account-access step; no payment or contract approval is requested.
+
+No stock was deducted or credited. Frisco and MarketBio's completed reductions remain in place as last verified; their held carts are not new payment instructions. A new Bioshi shipment email advertises code`kk11`, up to10% for60days, excluding combination with other discounts/promotions. It was not applied and is not assumed to stack with subscription prices.
+
+**On receipt:** check the actual produce condition, edible weights and labels, then allocate the short-life Mushrooms first within the existing rotation. No purchase, charge, card entry, subscription edit, canonical Diet change or outgoing merchant message occurred during this review.
+
+## 17September review
+
+Account access works. The fresh order list confirms **243898 paid201.61zł/preparing** and **243351 paid123.01zł/processing**; neither has a newly verified dispatch or delivery. Only357 and361 remain active:357 quotes110.70zł/free GLS home courier every28days, next delivery1October;361 quotes104.09zł/free GLS home courier every14days, next delivery9October. No further payment is required for these paid orders; delivery dates are not verified debit dates.
+
+Old243397206.62zł and243364460.96zł still await payment;243402266zł remains held/unpaid with no cancellation control. Today's observed243397 cancellation route returned **“Nie można anulować tego zamówienia.”** No cancellation is verified. Earlier native confirmation dialogs are closed; pressing OK or signing in again is no longer the current action.
+
+Bioshi's **16September13:12 Warsaw reply** asks whether the unpaid orders should be cancelled. The [precise Polish reply](DIET_BIOSHI_CANCELLATION_REPLY.md) requests cancellation only of243397/243402/243364 and their pending payment attempts, preserving both paid orders and active357/361. **Sent with explicit user approval on17September2026 at07:44:59 Europe/Warsaw; the outgoing reply was independently retrieved and verified. Merchant confirmation of cancellation and stopped payment attempts is pending.** Do not pay an obsolete request. Frisco's last verified gap list/cart remains45.94zł goods, held pending delivery/packing consolidation; no new grocery payment is ready.
+
+The dated records below are history. This review supersedes their login, native-dialog and “no support reply” statements; it does not establish complete Diet coverage.
+
+**17September09:00 scheduled review:** Bioshi's order and active-subscription lists remain unchanged; no incoming cancellation or dispatch confirmation was found after the07:44 sent reply. Removed the unneeded Hemp200g from the [MarketBio basket](https://marketbio.pl/basket/index), deferring19.19zł against the reported Flax/Chia stock. Paprika powder50g×1 remains17.69zł; selected Pocztex home courier12.99zł gives a verified basket quote of30.68zł. This is held because delivery is charged; no filler, order or payment was added. The old final-review URL no longer works, and the current logged-out basket has no prepared billing details. No new user action is needed.
+
 ## 16September review
 
 **16September post-login check:** the user restored account access. The order table verifies both intended orders paid:243898201.61zł preparing and243351123.01zł processing. Old243397206.62zł and243364460.96zł expose cancellation controls, but the browser tool stalls on their native confirmation dialogs; the user has been asked to press **OK** in both. Neither cancellation is verified. Old243402266zł remains held/unpaid and exposes no cancellation control. No16September Bioshi email was found. Recheck account status after confirmation; another login is not currently required.

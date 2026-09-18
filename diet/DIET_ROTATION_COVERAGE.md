@@ -1,6 +1,6 @@
 # Diet rotation coverage
 
-**Latest review: [16September post-login and basket checks](DIET_PAYMENT_HANDOFF.md#16september-review).** Account access is restored; two cancellation confirmations await the user, and the five-food Frisco list/cart match45.94zł goods. Use the handoff for current actions; dated records below remain history.
+**Current plan: [18September native-only renewal plan](DIET_RENEWAL_PLAN.md).** Retailer subscriptions only, free home courier and maximum25% delivered premium per comparable product. Only357/361 are active;243351 was delivered18September, and paid243898 has planned21September dispatch. No additional payment is ready. The older schedules and quotations below are historical candidates, not activation instructions.
 
 ## Current self-service repair —15September
 
