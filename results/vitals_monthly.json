@@ -204,196 +204,280 @@
   },
   "ecg_recordings": [
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-09-17_14-19-14_c4e7abff12df.svg",
+      "heart_rate_bpm": 89.0,
       "provider": "withings",
       "recorded_at": "2026-09-17T14:19:14+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-09-16_00-04-56_9cb9a778960d.svg",
+      "heart_rate_bpm": 68.0,
       "provider": "withings",
       "recorded_at": "2026-09-16T00:04:56+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-09-07_13-04-04_509fde48f98a.svg",
+      "heart_rate_bpm": 78.0,
       "provider": "withings",
       "recorded_at": "2026-09-07T13:04:04+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-09-05_23-15-56_35d26c627fcc.svg",
+      "heart_rate_bpm": 63.0,
       "provider": "withings",
       "recorded_at": "2026-09-05T23:15:56+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-09-05_22-36-52_3546c14bcbb7.svg",
+      "heart_rate_bpm": 82.0,
       "provider": "withings",
       "recorded_at": "2026-09-05T22:36:52+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-08-28_15-53-15_4c840b99138c.svg",
+      "heart_rate_bpm": 87.0,
       "provider": "withings",
       "recorded_at": "2026-08-28T15:53:15+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-08-26_14-27-13_6b5140b95b86.svg",
+      "heart_rate_bpm": 80.0,
       "provider": "withings",
       "recorded_at": "2026-08-26T14:27:13+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-08-26_01-04-39_6934414ad974.svg",
+      "heart_rate_bpm": 58.0,
       "provider": "withings",
       "recorded_at": "2026-08-26T01:04:39+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-08-25_18-49-59_02b0d9a5a772.svg",
+      "heart_rate_bpm": 95.0,
       "provider": "withings",
       "recorded_at": "2026-08-25T18:49:59+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-08-08_15-43-48_403c39cdee85.svg",
+      "heart_rate_bpm": 78.0,
       "provider": "withings",
       "recorded_at": "2026-08-08T15:43:48+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-08-06_18-35-20_527660847492.svg",
+      "heart_rate_bpm": 84.0,
       "provider": "withings",
       "recorded_at": "2026-08-06T18:35:20+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-31_13-17-49_82d913682169.svg",
+      "heart_rate_bpm": 97.0,
       "provider": "withings",
       "recorded_at": "2026-07-31T13:17:49+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-25_20-39-49_5eaf9be54cc1.svg",
+      "heart_rate_bpm": 58.0,
       "provider": "withings",
       "recorded_at": "2026-07-25T20:39:49+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-25_20-34-46_f21ea6fd7000.svg",
+      "heart_rate_bpm": 82.0,
       "provider": "withings",
       "recorded_at": "2026-07-25T20:34:46+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-22_16-54-39_7137bf245211.svg",
+      "heart_rate_bpm": 92.0,
       "provider": "withings",
       "recorded_at": "2026-07-22T16:54:39+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-20_01-00-15_3f88901556d0.svg",
+      "heart_rate_bpm": 79.0,
       "provider": "withings",
       "recorded_at": "2026-07-20T01:00:15+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-19_16-44-43_66e0c61b61ea.svg",
+      "heart_rate_bpm": 82.0,
       "provider": "withings",
       "recorded_at": "2026-07-19T16:44:43+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-13_11-22-56_bbd37963dbdc.svg",
+      "heart_rate_bpm": 92.0,
       "provider": "withings",
       "recorded_at": "2026-07-13T11:22:56+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-11_11-35-07_3663c4b9cb0e.svg",
+      "heart_rate_bpm": 95.0,
       "provider": "withings",
       "recorded_at": "2026-07-11T11:35:07+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-09_16-47-20_9e4a2c7412f4.svg",
+      "heart_rate_bpm": 98.0,
       "provider": "withings",
       "recorded_at": "2026-07-09T16:47:20+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-06_17-49-46_5b51bfd13e0a.svg",
+      "heart_rate_bpm": 68.0,
       "provider": "withings",
       "recorded_at": "2026-07-06T17:49:46+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-06_17-47-31_0b21284016d3.svg",
+      "heart_rate_bpm": 64.0,
       "provider": "withings",
       "recorded_at": "2026-07-06T17:47:31+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-06_17-43-38_b73f3d81295c.svg",
+      "heart_rate_bpm": 66.0,
       "provider": "withings",
       "recorded_at": "2026-07-06T17:43:38+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-03_15-33-40_b38e17727c9a.svg",
+      "heart_rate_bpm": 74.0,
       "provider": "withings",
       "recorded_at": "2026-07-03T15:33:40+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-03_11-13-33_7d02b64c5bb5.svg",
+      "heart_rate_bpm": 85.0,
       "provider": "withings",
       "recorded_at": "2026-07-03T11:13:33+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-03_11-09-07_8f8e1a78b80d.svg",
+      "heart_rate_bpm": 80.0,
       "provider": "withings",
       "recorded_at": "2026-07-03T11:09:07+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-02_13-21-51_c54895470e4f.svg",
+      "heart_rate_bpm": 89.0,
       "provider": "withings",
       "recorded_at": "2026-07-02T13:21:51+02:00",
       "sample_count": 15000,
       "sampling_frequency_hz": 500.0
     },
     {
+      "af_classification": "Negative",
       "duration_seconds": 30.0,
+      "graph_path": "results/ECG/2026-07-01_16-56-31_66b39ef581f4.svg",
+      "heart_rate_bpm": 95.0,
       "provider": "withings",
       "recorded_at": "2026-07-01T16:56:31+02:00",
       "sample_count": 15000,

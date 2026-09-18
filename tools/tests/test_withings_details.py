@@ -217,6 +217,33 @@ class WithingsDetailTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Conflicting.*ECG"):
             ecg_signal_inventory({"heart_signals": [first, second]})
 
+    def test_ecg_results_join_by_signal_id_even_when_heart_rate_timestamp_differs(self):
+        at = stamp("2026-09-02T01:00:00+02:00")
+        signal = {"signalid": 123, "timestamp": at,
+                  "data": {"signal": [-100, 0, 200], "sampling_frequency": 500,
+                           "heart_rate": {"value": 67, "date": at - 90, "is_deleted": False}}}
+        for code, label in ((0, "Negative"), (1, "Positive"), (2, "Inconclusive")):
+            with self.subTest(code=code):
+                payload = {"heart_signals": [signal], "heart_series": [
+                    {"timestamp": at, "heart_rate": 99, "ecg": {"signalid": 999, "afib": 1}},
+                    {"timestamp": at, "heart_rate": 67, "ecg": {"signalid": "123", "afib": code}},
+                ]}
+                original = copy.deepcopy(payload)
+                row = ecg_signal_inventory(payload)[0]
+                self.assertEqual(row["heart_rate_bpm"], 67)
+                self.assertEqual(row["af_classification"], label)
+                self.assertEqual(row["recorded_at"], "2026-09-02T01:00:00+02:00")
+                self.assertEqual(original, payload)
+        unknown = ecg_signal_inventory({"heart_signals": [signal], "heart_series": [
+            {"heart_rate": -1, "ecg": {"signalid": 123, "afib": 99}}]})[0]
+        self.assertNotIn("heart_rate_bpm", unknown)
+        self.assertNotIn("af_classification", unknown)
+        with self.assertRaisesRegex(ValueError, "Conflicting.*ECG results"):
+            ecg_signal_inventory({"heart_signals": [signal], "heart_series": [
+                {"heart_rate": 67, "ecg": {"signalid": 123, "afib": 0}},
+                {"heart_rate": 68, "ecg": {"signalid": 123, "afib": 0}},
+            ]})
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -389,38 +389,36 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 <details>
 <summary>Recorded ECG traces · 28 recordings</summary>
 
-Waveforms are retained in the private sync archive.
-
-| Date/time | Duration (s) | Sampling frequency (Hz) | Source |
-| :--- | ---: | ---: | :--- |
-| 2026-09-17 14:19:14+02:00 | 30 | 500 | Withings |
-| 2026-09-16 00:04:56+02:00 | 30 | 500 | Withings |
-| 2026-09-07 13:04:04+02:00 | 30 | 500 | Withings |
-| 2026-09-05 23:15:56+02:00 | 30 | 500 | Withings |
-| 2026-09-05 22:36:52+02:00 | 30 | 500 | Withings |
-| 2026-08-28 15:53:15+02:00 | 30 | 500 | Withings |
-| 2026-08-26 14:27:13+02:00 | 30 | 500 | Withings |
-| 2026-08-26 01:04:39+02:00 | 30 | 500 | Withings |
-| 2026-08-25 18:49:59+02:00 | 30 | 500 | Withings |
-| 2026-08-08 15:43:48+02:00 | 30 | 500 | Withings |
-| 2026-08-06 18:35:20+02:00 | 30 | 500 | Withings |
-| 2026-07-31 13:17:49+02:00 | 30 | 500 | Withings |
-| 2026-07-25 20:39:49+02:00 | 30 | 500 | Withings |
-| 2026-07-25 20:34:46+02:00 | 30 | 500 | Withings |
-| 2026-07-22 16:54:39+02:00 | 30 | 500 | Withings |
-| 2026-07-20 01:00:15+02:00 | 30 | 500 | Withings |
-| 2026-07-19 16:44:43+02:00 | 30 | 500 | Withings |
-| 2026-07-13 11:22:56+02:00 | 30 | 500 | Withings |
-| 2026-07-11 11:35:07+02:00 | 30 | 500 | Withings |
-| 2026-07-09 16:47:20+02:00 | 30 | 500 | Withings |
-| 2026-07-06 17:49:46+02:00 | 30 | 500 | Withings |
-| 2026-07-06 17:47:31+02:00 | 30 | 500 | Withings |
-| 2026-07-06 17:43:38+02:00 | 30 | 500 | Withings |
-| 2026-07-03 15:33:40+02:00 | 30 | 500 | Withings |
-| 2026-07-03 11:13:33+02:00 | 30 | 500 | Withings |
-| 2026-07-03 11:09:07+02:00 | 30 | 500 | Withings |
-| 2026-07-02 13:21:51+02:00 | 30 | 500 | Withings |
-| 2026-07-01 16:56:31+02:00 | 30 | 500 | Withings |
+| Date/time | Heart rate | Result | ECG | Source |
+| :--- | ---: | :--- | :--- | :--- |
+| 2026-09-17 14:19:14+02:00 | 89 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-09-17_14-19-14_c4e7abff12df.svg) | Withings |
+| 2026-09-16 00:04:56+02:00 | 68 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-09-16_00-04-56_9cb9a778960d.svg) | Withings |
+| 2026-09-07 13:04:04+02:00 | 78 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-09-07_13-04-04_509fde48f98a.svg) | Withings |
+| 2026-09-05 23:15:56+02:00 | 63 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-09-05_23-15-56_35d26c627fcc.svg) | Withings |
+| 2026-09-05 22:36:52+02:00 | 82 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-09-05_22-36-52_3546c14bcbb7.svg) | Withings |
+| 2026-08-28 15:53:15+02:00 | 87 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-08-28_15-53-15_4c840b99138c.svg) | Withings |
+| 2026-08-26 14:27:13+02:00 | 80 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-08-26_14-27-13_6b5140b95b86.svg) | Withings |
+| 2026-08-26 01:04:39+02:00 | 58 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-08-26_01-04-39_6934414ad974.svg) | Withings |
+| 2026-08-25 18:49:59+02:00 | 95 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-08-25_18-49-59_02b0d9a5a772.svg) | Withings |
+| 2026-08-08 15:43:48+02:00 | 78 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-08-08_15-43-48_403c39cdee85.svg) | Withings |
+| 2026-08-06 18:35:20+02:00 | 84 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-08-06_18-35-20_527660847492.svg) | Withings |
+| 2026-07-31 13:17:49+02:00 | 97 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-31_13-17-49_82d913682169.svg) | Withings |
+| 2026-07-25 20:39:49+02:00 | 58 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-25_20-39-49_5eaf9be54cc1.svg) | Withings |
+| 2026-07-25 20:34:46+02:00 | 82 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-25_20-34-46_f21ea6fd7000.svg) | Withings |
+| 2026-07-22 16:54:39+02:00 | 92 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-22_16-54-39_7137bf245211.svg) | Withings |
+| 2026-07-20 01:00:15+02:00 | 79 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-20_01-00-15_3f88901556d0.svg) | Withings |
+| 2026-07-19 16:44:43+02:00 | 82 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-19_16-44-43_66e0c61b61ea.svg) | Withings |
+| 2026-07-13 11:22:56+02:00 | 92 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-13_11-22-56_bbd37963dbdc.svg) | Withings |
+| 2026-07-11 11:35:07+02:00 | 95 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-11_11-35-07_3663c4b9cb0e.svg) | Withings |
+| 2026-07-09 16:47:20+02:00 | 98 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-09_16-47-20_9e4a2c7412f4.svg) | Withings |
+| 2026-07-06 17:49:46+02:00 | 68 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-06_17-49-46_5b51bfd13e0a.svg) | Withings |
+| 2026-07-06 17:47:31+02:00 | 64 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-06_17-47-31_0b21284016d3.svg) | Withings |
+| 2026-07-06 17:43:38+02:00 | 66 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-06_17-43-38_b73f3d81295c.svg) | Withings |
+| 2026-07-03 15:33:40+02:00 | 74 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-03_15-33-40_b38e17727c9a.svg) | Withings |
+| 2026-07-03 11:13:33+02:00 | 85 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-03_11-13-33_7d02b64c5bb5.svg) | Withings |
+| 2026-07-03 11:09:07+02:00 | 80 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-03_11-09-07_8f8e1a78b80d.svg) | Withings |
+| 2026-07-02 13:21:51+02:00 | 89 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-02_13-21-51_c54895470e4f.svg) | Withings |
+| 2026-07-01 16:56:31+02:00 | 95 bpm | 🔵 No AF detected | [View trace](results/ECG/2026-07-01_16-56-31_66b39ef581f4.svg) | Withings |
 
 </details>
 

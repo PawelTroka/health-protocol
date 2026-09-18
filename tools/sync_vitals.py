@@ -179,7 +179,7 @@ def selected_providers(provider):
 
 def run_import(args):
     from tools.health_sync import api, categorical, garmin, oura, reconcile, withings
-    from tools.health_sync import ecg_records
+    from tools.health_sync import ecg_plots, ecg_records
     today = datetime.now(ZoneInfo("Europe/Warsaw")).date()
     start = iso_date(args.start)
     end = iso_date(args.end) if args.end else today
@@ -268,6 +268,7 @@ def run_import(args):
         complete=(args.command == "sync" and fetch_status.get("withings", {}).get(
             "endpoint_status", {}).get("heart_signals", {}).get("status") == "complete"),
     )
+    ecg_summaries, ecg_graphs = ecg_plots.prepare_ecg_graphs(ROOT, ecg_summaries, ecg_inventory)
     if ecg_summaries:
         monthly["ecg_recordings"] = ecg_records.public_summaries(ecg_summaries)
     previous_monthly = ROOT / "results" / "vitals_monthly.json"
@@ -286,6 +287,7 @@ def run_import(args):
     for provider, raw, extension, _ in sources:
         archive(provider, raw, extension)
     atomic_commit({
+        **ecg_graphs,
         CACHE / "records.json": json_bytes({"schema_version": 1, "records": records, "classifications": classifications,
                                            **({"ecg_recordings": ecg_summaries} if ecg_summaries else {})}),
         ROOT / "results" / "vitals_monthly.json": json_bytes(monthly),
@@ -294,10 +296,38 @@ def run_import(args):
     print("\nUpdated results.md, results.html and results/vitals_monthly.json.")
 
 
+def render_ecg():
+    """Expose existing recorded signals without fetching or re-averaging vitals."""
+    from tools.health_sync import ecg_plots, ecg_records
+    from tools.health_sync.monthly import load_monthly
+    load_cache()  # Validate the cache before changing any output.
+    cache_path = CACHE / "records.json"
+    if not cache_path.exists():
+        print("No recorded ECGs in the local cache.")
+        return
+    cache = json.loads(cache_path.read_bytes())
+    summaries = cache.get("ecg_recordings", [])
+    ecg_records.public_summaries(summaries)  # Validate dated private metadata.
+    if not summaries:
+        print("No recorded ECGs in the local cache.")
+        return
+    monthly_path = ROOT / "results" / "vitals_monthly.json"
+    if not monthly_path.exists():
+        raise ValueError("The monthly summary is missing; run a vitals sync first.")
+    monthly = load_monthly(monthly_path)
+    enriched, graphs = ecg_plots.prepare_ecg_graphs(ROOT, summaries)
+    cache["ecg_recordings"] = enriched
+    monthly["ecg_recordings"] = ecg_records.public_summaries(enriched)
+    reports = prepare_reports(monthly)
+    atomic_commit({**graphs, cache_path: json_bytes(cache), monthly_path: json_bytes(monthly), **reports})
+    print(f"Updated {len(enriched)} ECG results with waveform links in results.md and results.html.")
+
+
 def parser():
     result = argparse.ArgumentParser(description=__doc__)
     commands = result.add_subparsers(dest="command", required=True)
     commands.add_parser("status", help="Show account connection and local data status without secrets")
+    commands.add_parser("render-ecg", help="Rebuild ECG results and graphs from the saved private archive")
     for name in ("connect", "authorize"):
         connection = commands.add_parser(name, help="One-time account setup" if name == "connect" else "Renew account consent")
         connection.add_argument("provider", choices=("oura", "withings", "garmin"))
@@ -341,6 +371,8 @@ def main(argv=None):
                 if args.provider != "garmin":
                     auth.authorize(args.provider)
                 print(f"{args.provider} connected. Run .\\tools\\Sync-Vitals.ps1 from the repository root to sync.")
+            elif args.command == "render-ecg":
+                render_ecg()
             else:
                 run_import(args)
         return 0

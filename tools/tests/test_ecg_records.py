@@ -55,6 +55,52 @@ class ECGRecordsTests(unittest.TestCase):
                                        "duration_seconds", "sampling_frequency_hz"})
         self.assertEqual(entries, original)
 
+    def test_optional_provider_results_and_safe_graph_path_reach_public_rows(self):
+        path = "results/ECG/2026-09-01_12-00-00_abcdef123456.svg"
+        entry = summary(heart_rate_bpm=62, af_classification="Negative", graph_path=path)
+        row = public_summaries([entry])[0]
+        self.assertEqual(row["heart_rate_bpm"], 62)
+        self.assertEqual(row["af_classification"], "Negative")
+        self.assertEqual(row["graph_path"], path)
+        self.assertEqual(set(row), {"recorded_at", "provider", "sample_count", "duration_seconds",
+                                    "sampling_frequency_hz", "heart_rate_bpm", "af_classification", "graph_path"})
+        self.assertEqual(public_summaries([summary(heart_rate_bpm=None, af_classification=None, graph_path=None)]),
+                         public_summaries([summary()]))
+
+    def test_provider_classifications_are_not_reinterpreted_as_sinus_rhythm(self):
+        path = "results/ECG/2026-09-01_12-00-00_abcdef123456.svg"
+        for classification, label in (("Negative", "🔵 No AF detected"), ("Positive", "🟠 AF detected"),
+                                      ("Inconclusive", "⚪ Inconclusive")):
+            rows = public_summaries([summary(heart_rate_bpm=62.5, af_classification=classification, graph_path=path)])
+            for render in (render_ecg_html, render_ecg_md):
+                with self.subTest(classification=classification, render=render.__name__):
+                    text = render(rows)
+                    self.assertIn(label, text)
+                    self.assertIn("62.5 bpm", text)
+                    self.assertIn(path, text)
+                    self.assertIn("View trace", text)
+                    self.assertNotIn("sinus", text.lower())
+                    self.assertNotIn("private sync archive", text)
+        self.assertIn(f'<a href="{path}">View trace</a>', render_ecg_html(rows))
+        self.assertIn(f"[View trace]({path})", render_ecg_md(rows))
+
+    def test_unsafe_graph_paths_and_invalid_results_are_rejected(self):
+        invalid_paths = ["javascript:alert(1)", "https://example.com/trace.svg", ".health-sync/raw/signal.json",
+                         "results/ECG/../private.svg", "results/ECG/%2e%2e/private.svg",
+                         "results/ECG/2026-09-01_12-00-00_ABCDEF123456.svg",
+                         "results/ECG/2026-09-01_12-00-00_abcdef123456.svg?private=secret",
+                         "results/ECG/2026-09-01_12-00-00_abcdef123456.svg\n", "", 123]
+        for path in invalid_paths:
+            with self.subTest(path=path), self.assertRaises(ValueError):
+                summary(graph_path=path)
+            for render in (render_ecg_html, render_ecg_md):
+                with self.subTest(path=path, render=render.__name__), self.assertRaises(ValueError):
+                    render([{**public_summaries([summary()])[0], "graph_path": path}])
+        for changes in ({"heart_rate_bpm": 0}, {"heart_rate_bpm": True}, {"heart_rate_bpm": float("inf")},
+                        {"af_classification": "Normal sinus rhythm"}, {"af_classification": []}):
+            with self.subTest(changes=changes), self.assertRaises(ValueError):
+                summary(**changes)
+
     def test_partial_merge_amends_ids_and_retains_unrepresented_dates(self):
         old = [summary("july", "2026-07-01"), summary("one"), summary("two", "2026-09-02")]
         replacement = summary("one", model=99)
@@ -95,15 +141,17 @@ class ECGRecordsTests(unittest.TestCase):
             self.assertIn("Recorded ECG traces · 1 recordings", text)
             self.assertIn("2026-09-01 12:00:00+02:00", text)
             self.assertIn("Withings", text)
-            self.assertIn("Waveforms are retained in the private sync archive.", text)
+            self.assertNotIn("private sync archive", text)
+            self.assertNotIn("View trace", text)
+            self.assertIn("—", text)
             self.assertNotIn("<details open", text)
             for secret in ("withings:ecg_signal:one", ".health-sync", "private.json", "signal_uv", "wearposition"):
                 self.assertNotIn(secret, text)
             self.assertEqual(render([]), "")
 
     def test_both_renderers_escape_fields_and_markdown_cannot_add_rows_or_columns(self):
-        rows = [{"recorded_at": '<script>alert("x")</script>|\nextra', "duration_seconds": "<img>",
-                 "sampling_frequency_hz": "100 & 200", "provider": "withings"}]
+        rows = [{"recorded_at": '<script>alert("x")</script>|\nextra [private](secret)',
+                 "heart_rate_bpm": "<img>100 & 200", "provider": "withings"}]
         for render in (render_ecg_html, render_ecg_md):
             text = render(rows)
             self.assertNotIn("<script>", text)
@@ -113,6 +161,7 @@ class ECGRecordsTests(unittest.TestCase):
         markdown = render_ecg_md(rows)
         self.assertIn("&#124;", markdown)
         self.assertNotIn("\nextra", markdown)
+        self.assertIn(r"\[private\](secret)", markdown)
         self.assertEqual(sum(line.startswith("|") for line in markdown.splitlines()), 3)
 
 

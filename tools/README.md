@@ -101,7 +101,7 @@ Garmin can also reimport a saved measurement envelope from this tool with `impor
 | Source | Automatically imported |
 | :--- | :--- |
 | Oura | Sleep, readiness and activity values/contributors; sleep timing, midpoint variability, short-night frequency and recorded short-sleep totals; SpO2 and breathing-disturbance index; cardiovascular age/PWV and VO2max; stress/recovery and resilience; source-specific heart rate; workout/session quantities |
-| Withings | Body composition; blood pressure/pulse; SpO2, PWV, age/fitness estimates; nerve/temperature/urinary measurements; sleep/activity summaries; sleep timing/variability and short-night/AHI frequencies; available sleep RMSSD/SDNN1 samples; dated ECG inventory |
+| Withings | Body composition; blood pressure/pulse; SpO2, PWV, age/fitness estimates; nerve/temperature/urinary measurements; sleep/activity summaries; sleep timing/variability and short-night/AHI frequencies; available sleep RMSSD/SDNN1 samples; dated ECG results and waveform graphs |
 | Garmin | Daily activity, heart rate, stress and Body Battery; sleep/coaching and overnight recovery; HRV, readiness/recovery and contributors; temperature deviation; dated fitness/load estimates; recorded workout training effects and HR-zone time |
 
 The precise numeric registries are `OURA_METRICS`, `WITHINGS_METRICS` and `GARMIN_METRICS` in their respective modules under `tools/health_sync/`. New report rows appear only when observations are returned. Provider-specific names distinguish related measurements with different definitions; adding an API field does not invent a clinical reference range or assign a health score.
@@ -117,7 +117,8 @@ Oura requests `sleep`, `daily_sleep`, `daily_readiness`, `daily_activity`, `dail
 - Missing days are excluded, never converted to zero. Each metric records its actual observation count, number of days, first/last date, and elapsed/calendar days. Current calendar months are marked as month to date, including the last day of that month.
 - Bedtime, wake-up and sleep midpoint are local clock times with circular monthly means, so23:50 and00:10 average to00:00. Midpoint variability is circular population SD in minutes and requires at least two nights. Oura timestamps retain source-local time; Withings uses Europe/Warsaw. Withings schedule rows require an unambiguous night (split sessions separated by no more than2h, overall span no more than16h). Frequency cells show the percentage and affected/observed-night count: primary sleep<7h, or valid Withings AHI≥5. These are observed-night summaries, not population prevalence or diagnoses.
 - Garmin Sleep Coach shortfall is the mean positive difference between the same night's recommendation and actual sleep; it is not cumulative sleep debt. Recommendation, overnight HR/stress, wake-up Body Battery and signed skin-temperature deviation stay separate from existing daily metrics. Undated or carried-forward fitness/VO2/load snapshots are not new daily observations. HR-zone durations sum recorded workouts within each day; workout effects remain per-workout means within observed days. Training load and workout effects depend on the training plan and recovery.
-- Withings sampled RMSSD and SDNN1 are daily means of available short-window samples during confirmed asleep states, followed by monthly means. SDNN1 describes one-minute windows; neither row reconstructs whole-night HRV from beat intervals. Sample timestamps/coverage remain in the private cache. A partial file cannot replace an existing daily mean with fewer known samples. Validated ECG traces remain in the private raw archive; the report exposes recording dates, duration and sample rate only.
+- Withings sampled RMSSD and SDNN1 are daily means of available short-window samples during confirmed asleep states, followed by monthly means. SDNN1 describes one-minute windows; neither row reconstructs whole-night HRV from beat intervals. Sample timestamps/coverage remain in the private cache. A partial file cannot replace an existing daily mean with fewer known samples. Recorded ECGs show heart rate, the device's AF result and a link to the full SVG trace. Graphs retain every supplied sample without filtering, convert the API's µV to mV and use a calibrated ECG grid. The original JSON stays in the private archive.
+
 - Body fat, muscle and bone percentages use the same measurement group's weight and component mass; lean mass is not relabeled as muscle. Bone mass from API type 88 is converted from kilograms to percentage using that same reading's weight. Visceral fat from type 170 retains the Withings **0–20 index**, which cannot be converted to a percentage. BMI uses the recorded **180cm** height. Use `--height-cm` to change this explicit assumption if needed; derivation details remain in the local records.
 - Average HRV and nightly minima are separate from maximum HRV. Oura and Withings sleep estimates, vascular-age measures and provider-specific VO2max remain separate. API nerve conductance/response scores do not replace the app's confirmed monthly nerve health score.
 - Withings HRV during the first and last 90 minutes of sleep is imported separately in milliseconds, as documented in [Withings Sleep HRV](https://support.withings.com/hc/en-us/articles/35762631441681-Sleep-U-S-Nighttime-Heart-Rate-Variability-HRV).
@@ -125,6 +126,16 @@ Oura requests `sleep`, `daily_sleep`, `daily_readiness`, `daily_activity`, `dail
 - Supported device classifications appear in separate provider-specific rows as **observed label counts per month**. They are not averaged codes, health scores, clinical diagnoses or estimates for unrecorded days. App ECG rhythm, readable heart sounds, the confirmed nerve score and nighttime dipping remain distinct where imports lack the same information. Unrecognized classification values are shown explicitly as device codes with unverified meanings, which may include unavailable-result codes; their original values also remain archived. Under-specified ECG interval and ESC fields remain raw and are not averaged. Units and labels are not guessed.
 
 ## Report layout
+
+Recorded ECGs link to full waveform graphs in `results/ECG/`. Each graph displays its recording time, heart rate, device AF classification, duration and sampling frequency. A negative AF result is the device's classification, not a broader rhythm diagnosis. [Withings signal and classification definitions](https://developer.withings.com/openapi.yaml).
+
+To rebuild ECG graphs from saved recordings without fetching or changing monthly averages:
+
+```powershell
+.\tools\Sync-Vitals.ps1 render-ecg
+```
+
+ECG plotting requires `tools/requirements-ecg.txt` in the Python environment used by `Sync-Vitals.ps1`; the Garmin installer includes it.
 
 Vitals tables identify Oura, Withings and Garmin in a compact **Source** column after Reference (or Unit when Reference is empty). Displayed metric names omit provider suffixes; canonical metric identities, separate provider rows and source notes are preserved. Tables with no identified provider omit Source.
 

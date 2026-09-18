@@ -1,0 +1,2 @@
+# Static, zoomable ECG waveform graphs.
+matplotlib==3.10.8

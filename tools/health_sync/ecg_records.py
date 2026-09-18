@@ -1,18 +1,29 @@
-"""Private ECG metadata reconciliation and a waveform-free public index."""
+"""Private ECG metadata reconciliation and dated results with graph links."""
 
 from copy import deepcopy
 from datetime import date, datetime
 from html import escape
 import math
+import re
 
 
 _PRIVATE_FIELDS = {
     "provider", "id", "signalid", "day", "recorded_at", "kind", "source_kind",
     "amplitude_unit", "sampling_frequency_hz", "sample_count", "duration_seconds",
-    "model", "wearposition", "source_file",
+    "model", "wearposition", "source_file", "heart_rate_bpm", "af_classification", "graph_path",
 }
 _PUBLIC_FIELDS = ("recorded_at", "provider", "sample_count", "duration_seconds", "sampling_frequency_hz")
-_CAPTION = "Waveforms are retained in the private sync archive."
+_OPTIONAL_PUBLIC_FIELDS = ("heart_rate_bpm", "af_classification", "graph_path")
+_AF_LABELS = {"Negative": "🔵 No AF detected", "Positive": "🟠 AF detected", "Inconclusive": "⚪ Inconclusive"}
+_GRAPH_PATH = re.compile(r"results/ECG/[0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2}_[0-9a-f]{12}\.svg")
+
+
+def _graph_path(value):
+    if value is None:
+        return None
+    if not isinstance(value, str) or not _GRAPH_PATH.fullmatch(value):
+        raise ValueError("An ECG graph must be a dated SVG in results/ECG.")
+    return value
 
 
 def _date(value):
@@ -51,6 +62,17 @@ def _private_entries(entries):
         if not math.isclose(record["duration_seconds"],
                             record["sample_count"] / record["sampling_frequency_hz"], rel_tol=1e-9):
             raise ValueError("ECG duration disagrees with its samples and frequency.")
+        for key in _OPTIONAL_PUBLIC_FIELDS:
+            if record.get(key) is None:
+                record.pop(key, None)
+        heart_rate = record.get("heart_rate_bpm")
+        if heart_rate is not None and (isinstance(heart_rate, bool) or not isinstance(heart_rate, (int, float))
+                                       or not math.isfinite(heart_rate) or heart_rate <= 0):
+            raise ValueError("ECG heart rate must be a positive finite number.")
+        classification = record.get("af_classification")
+        if classification is not None and (not isinstance(classification, str) or classification not in _AF_LABELS):
+            raise ValueError("Unsupported provider ECG AF classification.")
+        _graph_path(record.get("graph_path"))
         identifier = record["id"]
         if identifier in unique and unique[identifier] != record:
             raise ValueError("Conflicting ECG summaries share an identifier.")
@@ -86,7 +108,7 @@ def merge_summaries(existing, incoming, start, end, complete=False):
 
 def public_summaries(privateentries):
     """Return only dated, non-identifying recording metadata, newest first."""
-    return [{key: record[key] for key in _PUBLIC_FIELDS}
+    return [{key: record[key] for key in (*_PUBLIC_FIELDS, *_OPTIONAL_PUBLIC_FIELDS) if key in record}
             for record in reversed(_private_entries(privateentries))]
 
 
@@ -100,8 +122,9 @@ def _cells(row):
     # Restrict rendering to the public fields even if a caller passes a private
     # record by mistake. Never interpolate an entire record or link its source.
     return (str(row.get("recorded_at", "")).replace("T", " ", 1),
-            _text(row.get("duration_seconds", "")),
-            _text(row.get("sampling_frequency_hz", "")),
+            _text(row["heart_rate_bpm"]) + " bpm" if row.get("heart_rate_bpm") is not None else "—",
+            _AF_LABELS.get(row.get("af_classification"), "—"),
+            _graph_path(row.get("graph_path")),
             str(row.get("provider", "")).title())
 
 
@@ -109,11 +132,14 @@ def render_ecg_html(rows):
     if not rows:
         return ""
     heading = f"Recorded ECG traces · {len(rows)} recordings"
-    body = "\n".join("<tr>" + "".join(f"<td>{escape(cell, quote=True)}</td>" for cell in _cells(row)) + "</tr>"
-                     for row in rows)
-    return (f"<details><summary>{heading}</summary>\n<p>{_CAPTION}</p>\n"
-            "<div class='table-scroll'><table><thead><tr><th>Date/time</th><th>Duration (s)</th>"
-            "<th>Sampling frequency (Hz)</th><th>Source</th></tr></thead>"
+    def cells(row):
+        recorded_at, heart_rate, result, path, provider = _cells(row)
+        link = f'<a href="{escape(path, quote=True)}">View trace</a>' if path else "—"
+        return [escape(cell, quote=True) for cell in (recorded_at, heart_rate, result)] + [link, escape(provider, quote=True)]
+    body = "\n".join("<tr>" + "".join(f"<td>{cell}</td>" for cell in cells(row)) + "</tr>" for row in rows)
+    return (f"<details><summary>{heading}</summary>\n"
+            "<div class='table-scroll'><table><thead><tr><th>Date/time</th><th>Heart rate</th>"
+            "<th>Result</th><th>ECG</th><th>Source</th></tr></thead>"
             f"<tbody>\n{body}\n</tbody></table></div>\n</details>")
 
 
@@ -121,10 +147,14 @@ def render_ecg_md(rows):
     if not rows:
         return ""
     def cell_text(cell):
-        return escape(cell, quote=True).replace("|", "&#124;").replace("\r", " ").replace("\n", " ")
-    body = "\n".join("| " + " | ".join(cell_text(cell) for cell in _cells(row)) + " |" for row in rows)
+        text = escape(cell, quote=True).replace("|", "&#124;").replace("\r", " ").replace("\n", " ")
+        return re.sub(r"([\\`*_\[\]{}])", r"\\\1", text)
+    def cells(row):
+        recorded_at, heart_rate, result, path, provider = _cells(row)
+        link = f"[View trace]({path})" if path else "—"
+        return [cell_text(cell) for cell in (recorded_at, heart_rate, result)] + [link, cell_text(provider)]
+    body = "\n".join("| " + " | ".join(cells(row)) + " |" for row in rows)
     return (f"<details>\n<summary>Recorded ECG traces · {len(rows)} recordings</summary>\n\n"
-            f"{_CAPTION}\n\n"
-            "| Date/time | Duration (s) | Sampling frequency (Hz) | Source |\n"
-            "| :--- | ---: | ---: | :--- |\n"
+            "| Date/time | Heart rate | Result | ECG | Source |\n"
+            "| :--- | ---: | :--- | :--- | :--- |\n"
             f"{body}\n\n</details>")

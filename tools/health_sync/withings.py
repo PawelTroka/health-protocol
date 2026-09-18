@@ -539,6 +539,23 @@ def ecg_signal_inventory(payloads):
     if not isinstance(payloads, dict) or not isinstance(payloads.get("heart_signals", []), list):
         raise ValueError("Withings heart_signals must be a list")
     zone, signals = ZoneInfo("Europe/Warsaw"), {}
+    results = {}
+    for series in _collect(payloads, "heart_series", "heart", set(), "series"):
+        if not isinstance(series, dict) or not isinstance(series.get("ecg"), dict):
+            continue
+        key = _identifier(series["ecg"].get("signalid"))
+        if key is None:
+            continue
+        result = {}
+        rate = _number(series.get("heart_rate"))
+        if rate is not None and rate > 0:
+            result["heart_rate_bpm"] = rate
+        classification = {0: "Negative", 1: "Positive", 2: "Inconclusive"}.get(_integer(series["ecg"].get("afib")))
+        if classification is not None:
+            result["af_classification"] = classification
+        if key in results and results[key] != result:
+            raise ValueError("Conflicting Withings ECG results share a signal identifier")
+        results[key] = result
     for item in payloads.get("heart_signals", []):
         if not isinstance(item, dict) or not isinstance(item.get("data"), dict):
             continue
@@ -554,6 +571,9 @@ def ecg_signal_inventory(payloads):
                   "sampling_frequency_hz": frequency, "sample_count": len(signal),
                   "duration_seconds": len(signal) / frequency, "signal_uv": list(signal),
                   "model": data.get("model", item.get("model")), "wearposition": data.get("wearposition")}
+        # Join the ECG classification by signal ID: the associated heart-rate
+        # measurement can have a different timestamp from the ECG recording.
+        record.update(results.get(key, {}))
         if key in signals and signals[key] != record:
             raise ValueError("Conflicting Withings ECG waveforms share a signal identifier")
         signals[key] = record

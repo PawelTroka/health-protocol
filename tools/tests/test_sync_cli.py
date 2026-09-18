@@ -10,7 +10,7 @@ import unittest
 from unittest.mock import patch
 
 from tools import sync_vitals as cli
-from tools.health_sync import api, auth, garmin, monthly, oura
+from tools.health_sync import api, auth, ecg_records, garmin, monthly, oura
 
 
 class FixedDateTime(datetime):
@@ -44,6 +44,8 @@ def withings_ecg_payload():
             "signalid": "synthetic-private-signal", "timestamp": withings_group()["date"],
             "model": 44, "data": {"signal": [-125, 0, 250, -50], "sampling_frequency": 500},
         }],
+        "heart_series": [{"timestamp": withings_group()["date"], "heart_rate": 62,
+                          "ecg": {"signalid": "synthetic-private-signal", "afib": 0}}],
         "_sync": {"start": "2026-08-01", "end": "2026-09-05", "endpoint_status": {
             "measure": {"status": "complete", "rows": 1},
             "heart_signals": {"status": "complete", "rows": 1},
@@ -91,9 +93,10 @@ class SyncCliTests(unittest.TestCase):
 
     def prepared_reports(self, monthly):
         data = cli.json_bytes(monthly)
+        ecgs = monthly.get("ecg_recordings", [])
         return {
-            self.root / "results.md": b"Synthetic Markdown\n" + data,
-            self.root / "results.html": b"Synthetic HTML\n" + data,
+            self.root / "results.md": b"Synthetic Markdown\n" + data + ecg_records.render_ecg_md(ecgs).encode("utf-8"),
+            self.root / "results.html": b"Synthetic HTML\n" + data + ecg_records.render_ecg_html(ecgs).encode("utf-8"),
         }
 
     def snapshot(self):
@@ -138,6 +141,9 @@ class SyncCliTests(unittest.TestCase):
         self.assertEqual(record["duration_seconds"], .008)
         self.assertEqual(record["signalid"], "synthetic-private-signal")
         self.assertEqual(record["amplitude_unit"], "uV")
+        self.assertEqual(record["heart_rate_bpm"], 62)
+        self.assertEqual(record["af_classification"], "Negative")
+        self.assertRegex(record["graph_path"], r"^results/ECG/2026-08-03_14-00-00_[0-9a-f]{12}\.svg$")
         self.assertNotIn("signal_uv", record)
         self.assertNotIn("signal", record)
         archive = self.root / record["source_file"]
@@ -147,13 +153,104 @@ class SyncCliTests(unittest.TestCase):
         self.assertEqual(projected, [{
             "recorded_at": "2026-08-03T14:00:00+02:00", "provider": "withings",
             "sample_count": 4, "sampling_frequency_hz": 500, "duration_seconds": .008,
+            "heart_rate_bpm": 62, "af_classification": "Negative", "graph_path": record["graph_path"],
         }])
         self.assertFalse({"id", "signalid", "source_file", "signal_uv", "signal"} & set(projected[0]))
+        graph = self.root / record["graph_path"]
+        self.assertTrue(graph.is_file())
+        self.assertIn("ecg-samples-0-4", graph.read_text(encoding="utf-8"))
+        for output in ("results.md", "results.html"):
+            text = (self.root / output).read_text(encoding="utf-8")
+            self.assertIn(record["graph_path"], text)
+            self.assertIn("View trace", text)
+            self.assertIn("🔵 No AF detected", text)
+            self.assertIn("62 bpm", text)
+        for output in (graph, self.root / "results.md", self.root / "results.html",
+                       self.root / "results" / "vitals_monthly.json"):
+            text = output.read_text(encoding="utf-8")
+            for private_detail in ("synthetic-private-signal", record["source_file"], "signal_uv", "[-125, 0, 250, -50]"):
+                self.assertNotIn(private_detail, text)
         # Repeating a complete snapshot does not duplicate recording metadata or raw archives.
         again_private, again_public = self.sync_ecg(payload)
         self.assertEqual(again_private["ecg_recordings"], private["ecg_recordings"])
         self.assertEqual(again_public["ecg_recordings"], projected)
         self.assertEqual(len(list((self.cache / "raw" / "withings").glob("*.json"))), 1)
+        self.assertEqual(len(list((self.root / "results" / "ECG").glob("*.svg"))), 1)
+
+    def test_offline_render_ecg_rebuilds_legacy_metadata_and_missing_graph_without_changing_other_results(self):
+        private, public = self.sync_ecg()
+        graph = self.root / public["ecg_recordings"][0]["graph_path"]
+        expected_graph = graph.read_bytes()
+        graph.unlink()
+        for collection in (private["ecg_recordings"], public["ecg_recordings"]):
+            for row in collection:
+                for key in ("heart_rate_bpm", "af_classification", "graph_path"):
+                    row.pop(key, None)
+        cache_path = self.cache / "records.json"
+        monthly_path = self.root / "results" / "vitals_monthly.json"
+        cache_path.write_bytes(cli.json_bytes(private))
+        monthly_path.write_bytes(cli.json_bytes(public))
+        raw_before = {path: path.read_bytes() for path in (self.cache / "raw").rglob("*") if path.is_file()}
+        non_ecg_private = {key: value for key, value in private.items() if key != "ecg_recordings"}
+        non_ecg_public = {key: value for key, value in public.items() if key != "ecg_recordings"}
+        self.fetch.reset_mock()
+        self.fetch.side_effect = AssertionError("Offline rendering must not access an API")
+        self.assertEqual(self.args("render-ecg").command, "render-ecg")
+        with redirect_stdout(io.StringIO()):
+            cli.render_ecg()
+        saved = json.loads(cache_path.read_bytes())
+        report = json.loads(monthly_path.read_bytes())
+        self.assertEqual({key: value for key, value in saved.items() if key != "ecg_recordings"}, non_ecg_private)
+        self.assertEqual({key: value for key, value in report.items() if key != "ecg_recordings"}, non_ecg_public)
+        self.assertEqual({path: path.read_bytes() for path in (self.cache / "raw").rglob("*") if path.is_file()}, raw_before)
+        self.assertEqual(graph.read_bytes(), expected_graph)
+        self.assertEqual(report["ecg_recordings"][0]["heart_rate_bpm"], 62)
+        self.assertEqual(report["ecg_recordings"][0]["af_classification"], "Negative")
+        self.assertIn(report["ecg_recordings"][0]["graph_path"], (self.root / "results.md").read_text(encoding="utf-8"))
+        after = self.snapshot()
+        with redirect_stdout(io.StringIO()):
+            cli.render_ecg()
+        self.assertEqual(self.snapshot(), after)
+        self.fetch.assert_not_called()
+
+    def test_ecg_dry_run_prepares_linked_results_without_writing_graphs_cache_or_archives(self):
+        args = self.import_file(withings_ecg_payload(), dry_run=True)
+        before = self.snapshot()
+        self.run_quietly(args)
+        self.assertEqual(self.snapshot(), before)
+        self.assertFalse((self.root / "results" / "ECG").exists())
+        prepared = self.prepare.call_args.args[0]["ecg_recordings"]
+        self.assertEqual(prepared[0]["af_classification"], "Negative")
+        self.assertIn("graph_path", prepared[0])
+        self.fetch.assert_not_called()
+
+    def test_offline_ecg_rebuild_failure_rolls_back_metadata_reports_and_graph(self):
+        private, public = self.sync_ecg()
+        graph = self.root / public["ecg_recordings"][0]["graph_path"]
+        graph.unlink()
+        cache_path = self.cache / "records.json"
+        monthly_path = self.root / "results" / "vitals_monthly.json"
+        for collection in (private["ecg_recordings"], public["ecg_recordings"]):
+            for row in collection:
+                row.pop("graph_path")
+        cache_path.write_bytes(cli.json_bytes(private))
+        monthly_path.write_bytes(cli.json_bytes(public))
+        before = self.snapshot()
+        actual_replace = cli.os.replace
+        calls = []
+        def fail_after_graph(source, destination):
+            calls.append(Path(destination).resolve())
+            if Path(destination).resolve() == monthly_path.resolve():
+                raise OSError("Synthetic ECG metadata commit failure")
+            return actual_replace(source, destination)
+        self.fetch.reset_mock()
+        with patch.object(cli.os, "replace", side_effect=fail_after_graph), redirect_stdout(io.StringIO()):
+            with self.assertRaisesRegex(OSError, "metadata commit failure"):
+                cli.render_ecg()
+        self.assertIn(graph.resolve(), calls)
+        self.assertFalse(graph.exists())
+        self.assertEqual(self.snapshot(), before)
+        self.fetch.assert_not_called()
 
     def test_oura_and_garmin_only_sync_preserve_withings_ecg_inventory(self):
         private, public = self.sync_ecg()
@@ -231,7 +328,7 @@ class SyncCliTests(unittest.TestCase):
         self.prepare.assert_not_called()
 
     def test_report_preparation_failure_preserves_every_existing_output(self):
-        args = self.import_file()
+        args = self.import_file(withings_ecg_payload())
         before = self.snapshot()
         self.prepare.side_effect = RuntimeError("Synthetic generator failure")
         with self.assertRaisesRegex(RuntimeError, "generator failure"):

@@ -1,3 +1,4 @@
-# Optional Garmin Connect transport; existing providers use the standard library.
+# Garmin Connect transport and shared ECG graph rendering.
 garminconnect==0.3.15
 tzdata>=2025.2
+-r requirements-ecg.txt
