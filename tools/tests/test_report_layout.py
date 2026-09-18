@@ -313,19 +313,45 @@ class GroupedRendererTests(unittest.TestCase):
                 self.assertEqual(results[0][header.index("2026-09")], "180")
                 self.assertEqual(results[0][header.index("2026-07")], "180")
 
-    def test_provider_suffixes_are_removed_only_when_display_names_remain_unique(self):
+    def test_provider_suffixes_move_to_source_without_changing_canonical_names(self):
         display = self.report["display_metric_name"]
+        source = self.report["metric_source"]
         category = "Vitals & Functional Health"
         original = [tuple(row) for row in self.report["data"][category]]
         names = [row[0] for row in original]
-        labels = [display(category, name) for name in names]
-        self.assertEqual(len(labels), len(set(labels)))
+        identities = [(display(category, name), source(category, name)) for name in names]
+        self.assertEqual(len(identities), len(set(identities)))
         self.assertEqual(display(category, "Future Firmware Marker (Oura)"), "Future Firmware Marker")
         self.assertEqual(display(category, "Nerve Health Score Left Foot (Withings)"), "Nerve Health Score Left Foot")
-        self.assertEqual(display(category, "Sleep Score (Withings)"), "Sleep Score (Withings)")
+        self.assertEqual(display(category, "Sleep Score (Withings)"), "Sleep Score")
+        self.assertEqual(display(category, "Resting HR (Garmin)"), "Resting HR")
         self.assertEqual(display(category, "Sleep Score"), "Sleep Score")
+        self.assertEqual(display(category, "Respiratory Rate (Sleep) (Garmin)"), "Respiratory Rate (Sleep)")
+        for name, provider in (("Sleep Score", "Oura"), ("Muscle", "Withings"),
+                               ("Sleep Score (Withings)", "Withings"), ("Resting HR (Garmin)", "Garmin"),
+                               ("ECG AF Classification (Withings)", "Withings"),
+                               ("Future Firmware Marker (Oura)", "Oura"), ("Height", "-")):
+            self.assertEqual(source(category, name), provider)
+        self.assertEqual(source("Proteinogram", "Albumin"), "-")
         self.assertEqual(self.report["data"][category], original)
         self.assertIn("Average Sleeping HR (Oura)", names)
+
+    def test_same_metric_from_different_providers_keeps_values_and_source_in_both_formats(self):
+        category = "Vitals & Functional Health"
+        rows = [(name, *(value if month == "2026-09" else "-" for month in self.report["date_columns"]), "h", "-")
+                for name, value in (("Sleep Duration", "7.5"), ("Sleep Duration (Withings)", "6.0"),
+                                    ("Sleep Duration (Garmin)", "7.8"))]
+        for output_format in ("html", "md"):
+            with self.subTest(output_format=output_format):
+                renderer = self.report[f"render_result_table_{output_format}"]
+                with patch.dict(renderer.__globals__, {f"format_cell_{output_format}": lambda value, *_: str(value)}):
+                    header, *rendered_rows = rendered_table_rows(renderer(category, rows, compact=True), output_format)
+                self.assertEqual(header[-2:], ["Reference", "Source"])
+                self.assertEqual([(row[0], row[header.index("2026-09")].split("<sup>")[0], row[-1])
+                                  for row in rendered_rows],
+                                 [("Sleep Duration", "7.5", "Oura"), ("Sleep Duration", "6.0", "Withings"),
+                                  ("Sleep Duration", "7.8", "Garmin")])
+                self.assertTrue(all(len(row) == len(header) for row in rendered_rows))
 
 
 if __name__ == "__main__":

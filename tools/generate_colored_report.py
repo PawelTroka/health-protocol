@@ -7,7 +7,7 @@ from pathlib import Path
 if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from tools.health_sync.monthly import METRICS, apply_report_overlay, load_monthly
+from tools.health_sync.monthly import CATEGORICAL_METRICS, METRICS, apply_report_overlay, load_monthly
 from tools.health_sync.report_layout import layout, counts
 from tools.health_sync.lab_layout import lab_groups
 from tools.health_sync.result_bounds import bound_within_reference, bounded_comparison, is_bounded
@@ -1987,15 +1987,21 @@ def format_microbiota_cell(value, marker, *, markdown=False):
 
 
 def display_metric_name(category, name):
-    """Keep provider names only where removing them would create ambiguity."""
+    """Keep provider identity in Source, not in the displayed metric label."""
     if category != "Vitals & Functional Health":
         return name
-    shorten = lambda value: re.sub(r" \((?:Oura|Withings)\)$", "", value)
-    short = shorten(name)
-    if short != name and any(row[0] != name and shorten(row[0]) == short
-                             for row in data.get(category, [])):
-        return name
-    return short
+    return re.sub(r" \((?:Oura|Withings|Garmin)\)$", "", name)
+
+
+def metric_source(category, name):
+    """Resolve explicit provider identity without guessing manual provenance."""
+    if category != "Vitals & Functional Health":
+        return "-"
+    for provider, label in (("oura", "Oura"), ("withings", "Withings"), ("garmin", "Garmin")):
+        if name in METRICS[provider] or name in CATEGORICAL_METRICS[provider]:
+            return label
+    suffix = re.search(r" \((Oura|Withings|Garmin)\)$", name)
+    return suffix[1] if suffix else "-"
 
 
 def format_vital_classification(marker, value, *, markdown=False):
@@ -2010,6 +2016,7 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
     include_reference = not compact or any(
         target_reference(category, row[0], row[-1]) not in ("-", "") for row in rows
     )
+    include_source = any(metric_source(category, row[0]) != "-" for row in rows)
     html = "<table class='has-reference'>" if include_reference else "<table>"
     html += "<tr><th>Metric</th>" if compact else "<tr><th></th>"
     if include_trend:
@@ -2019,6 +2026,8 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
     html += "<th>Unit</th>"
     if include_reference:
         html += "<th><i>Reference</i></th>"
+    if include_source:
+        html += "<th class='source-cell'>Source</th>"
     html += "</tr>"
     for row in rows:
         name, values, unit, ref = split_result_row(row)
@@ -2043,7 +2052,10 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
             html += f"<td>{cell}</td>"
         html += f"<td>{unit}</td>"
         if include_reference:
-            html += f"<td>{escape(display_ref)}</td>"
+            reference_class = " class='reference-cell'" if category == "Vitals & Functional Health" else ""
+            html += f"<td{reference_class}>{escape(display_ref)}</td>"
+        if include_source:
+            html += f"<td class='source-cell'>{metric_source(category, name)}</td>"
         html += "</tr>"
     return html + "</table>"
 
@@ -2055,6 +2067,7 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
     include_reference = not compact or any(
         target_reference(category, row[0], row[-1]) not in ("-", "") for row in rows
     )
+    include_source = any(metric_source(category, row[0]) != "-" for row in rows)
     header = "| Metric |" if compact else "|  |"
     sep = "| :--- |"
     if include_trend:
@@ -2067,6 +2080,9 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
     sep += " :--- |"
     if include_reference:
         header += " *Reference* |"
+        sep += " :--- |"
+    if include_source:
+        header += " Source |"
         sep += " :--- |"
     md = header + "\n" + sep + "\n"
     for row in rows:
@@ -2093,6 +2109,8 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
         line += f" {unit} |"
         if include_reference:
             line += f" {display_ref} |"
+        if include_source:
+            line += f" {metric_source(category, name)} |"
         md += line + "\n"
     return md
 
@@ -2334,7 +2352,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += ".vitals details[open] > summary { margin-bottom: 20px; } .vitals .table-notes { margin: 0; } .vitals .table-notes p { margin: 10px 0; }"
     html += ".microbiota details { border: 1px solid #dce4ed; border-radius: 8px; margin: 16px 0 24px; padding: 16px 20px; } .microbiota summary { cursor: pointer; font-weight: 600; color: #344d6c; }"
     html += ".microbiota .metric-group h3 { margin-bottom: 12px; } .microbiota td:first-child { width: 42%; } .microbiota .table-notes p { margin: 10px 0; }"
-    html += ".vitals table.has-reference td:last-child { min-width: 200px; }"
+    html += ".vitals td.reference-cell { min-width: 200px; } .vitals .source-cell { width: 1%; min-width: 0; white-space: nowrap; font-size: .8rem; color: #536278; }"
     html += ".microbiota table { min-width: 620px; overflow-wrap: normal; } .microbiota th { white-space: nowrap; } @media(max-width: 700px) { .microbiota td:first-child { width: 160px; min-width: 160px; max-width: 160px; } }"
     html += "@media(max-width: 700px) { body { padding: 12px; overflow-wrap: anywhere; } h1 { font-size: 1.4rem; } .vitals details { padding: 12px; } .vitals td:first-child { width: 150px; min-width: 150px; max-width: 150px; } .vitals td { padding: 8px; } }"
     html += IMAGING_CSS

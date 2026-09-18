@@ -123,6 +123,8 @@ Oura requests `sleep`, `daily_sleep`, `daily_readiness`, `daily_activity`, `dail
 
 ## Report layout
 
+Vitals tables identify Oura, Withings and Garmin in a compact **Source** column after Reference (or Unit when Reference is empty). Displayed metric names omit provider suffixes; canonical metric identities, separate provider rows and source notes are preserved. Tables with no identified provider omit Source.
+
 The results overview groups the main vitals into smaller tables: body composition, body measurements, heart and circulation, sleep and breathing, recovery and stress, activity and fitness, and nerve health and temperature. Bone percentage and the Withings visceral fat index remain in the main body-composition table. Self-reported body sizes occupy their own table as dated snapshots, with measurement methods and source dates in the notes; they are retained during device syncs. Expand **Detailed device measurements** for additional source-specific readings, body segments, score contributors, sensor samples, model estimates and historical snapshots; expand **Sources & calculation notes** for provenance and averaging rules. Every measurement remains available. Each table shows only months containing a measurement in that table; empty reference columns are also omitted from the smaller tables. When present, Trend always follows Metric before the month columns.
 
 `tools/health_sync/report_layout.py` controls this presentation independently of the import registry and clinical scoring. Newly imported measurements default to the detailed tables until explicitly selected for the overview. Future on-demand syncs regenerate the same layout in both Markdown and HTML.
