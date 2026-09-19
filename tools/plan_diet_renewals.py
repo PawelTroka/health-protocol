@@ -320,8 +320,11 @@ def markdown(result):
               "- Mixed60-day groups A/B40days apart:1kg/500g Oats and800g/400g Nuts; peaks1kg Oats/800g Nuts. " + practical['two_pantry_groups_60_days']['shipping'],
               f"- Eggs14/30/30/30days: exact48/28days; three added monthly cores10days apart; peak {practical['monthly_egg_clusters']['inventory_eggs']['peak_after_delivery_with_that_buffer']:g} nominal Eggs."]
     operational = result.get("operational_evidence_separate_from_arithmetic", {})
-    if operational.get("egg_product", {}).get("available_for_new_checkout") is False:
-        lines.append("- Exact Egg SKU45382 currently unavailable for a new checkout at23.59zł. Additional Egg streams cannot be treated as purchasable; this does not establish a problem with paid361's reserved carton.")
+    selected_eggs = operational.get("selected_organic_eggs", operational.get("egg_product", {}))
+    if selected_eggs.get("available_for_new_checkout") is False:
+        lines.append(f"- Selected Egg SKU{selected_eggs.get('sku', 'unverified')} is unavailable for a new checkout. Additional Egg streams cannot be treated as purchasable; this does not establish a problem with paid361's reserved carton.")
+    elif selected_eggs.get("available_for_new_checkout") is True:
+        lines.append(f"- Selected Egg SKU{selected_eggs.get('sku', 'unverified')} is listed available; its own matched delivered-price, free-courier and remaining-life checks still control activation. Paid361's original carton remains separate.")
     lines += ["", "Retailer subscriptions only: no managed routine skipping, manual bridge shopping or Codex reordering is counted as coverage.", "New baskets do not inherit existing free delivery. Never add unused food to reach a threshold. More than25% matched delivered premium is not permitted."]
     return "\n".join(lines)
 

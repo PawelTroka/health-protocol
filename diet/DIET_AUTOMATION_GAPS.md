@@ -9,8 +9,12 @@ Reviewed 18 September 2026 against the canonical [Diet](../README.md#4-diet), [s
 - **Use retailer subscriptions only.** The user explicitly rejected routine Codex-managed reordering. Saved lists may document needs, but uncovered foods remain uncovered by automation; do not schedule assistant purchases as a substitute.
 - Require a real recurring order and automatic payment, a deliverable matching product, a usable pack/cadence, and free home courier at both the first purchase and renewal.
 - Apply the user's new maximum **25% premium** against a comparable manual purchase, including delivery and compulsory packing fees. Compare the same usable quantity and formulation. A one-time coupon cannot establish the future renewal comparator.
-- Do not replace a retained product or change portions merely to acquire a subscription. Product unavailability, missing automatic payment or an unusable opened shelf life is not solved by paying more.
+- Do not replace a retained product or change portions merely to acquire a subscription. **Egg selection19September:** the user chose organic green-legged-hen M10 SKU46125 after permitting organic alternatives; preserve200g shell-free portions and the agreed rotation. Product unavailability, missing automatic payment or an unusable opened shelf life is not solved by paying more.
 - Opening stock defers matching purchases. The reported existing Fish and dairy do not establish a perpetual supply schedule, and their quantity estimates do not establish expiry dates.
+
+## Organic Eggs: selected green-legged-hen product19September
+
+[Organic green-legged-hen M Eggs10](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125), EAN5907814665997, is the user's selected product, replacing the earlier Ekowital candidate. The current page lists24.99zł first/about22.49zł from delivery2 and native subscriptions. The [current plan](DIET_RENEWAL_PLAN.md#selected-organic-eggs-19september) records the remaining matched-price, whole-shipment courier and consumption checks. Do not transfer Ekowital's price clearance or10day remaining-life guarantee to this SKU. No purchase or subscription change has been submitted.
 
 ## High-impact gaps
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-18",
+  "as_of": "2026-09-19",
   "purpose": "Executable quantity and phase comparison, separate from verified retailer configuration. No proposed new group is booked or proved to have free delivery.",
   "sources": [
     "../README.md#4-diet",
@@ -30,6 +30,9 @@
     "parcel_lockers_allowed": false,
     "surplus_for_shipping_allowed": false,
     "exact_product_and_portion_preserved": true,
+    "authorized_product_exceptions": {
+      "eggs": "User19September selected organic green-legged-hen M10 SKU46125 after permitting organic alternatives. Preserve200g shell-free portions and12 dinners/28days; previous Ekowital candidate is superseded."
+    },
     "no_stock_depletion_inferred_from_time": true,
     "shelf_life": "Delivered label and actual usable condition; never renewal interval.",
     "no_new_financial_commitment_from_this_model": true,
@@ -108,7 +111,7 @@
       "next_delivery": "2026-10-01",
       "next_quote_pln": 110.7,
       "home_courier_pln": 0,
-      "quote_scope": "Current recorded renewal only",
+      "quote_scope": "Created renewal245125 for1October; email19September08:30 Warsaw and live account. Not the15%29October template.",
       "foods": {
         "kiwi_gross_g": 1200,
         "tomato_g": 1000,
@@ -121,7 +124,29 @@
         "status": "delivered18September2026 at14:44 Europe/Warsaw; no consumption inferred",
         "delivered_at": "2026-09-18T14:44:00+02:00"
       },
-      "next_payment_date": "2026-09-26"
+      "next_payment_date": "2026-09-25",
+      "previous_payment_field_observed_2026_09_18": "2026-09-26",
+      "created_renewal": {
+        "order_id": 245125,
+        "created_at": "2026-09-19T08:29:58+02:00",
+        "payment_date": "2026-09-25",
+        "total_pln": 110.7,
+        "home_courier_pln": 0,
+        "payment_fee_pln": 0,
+        "lines_pln": {
+          "kiwi_1200g": 63.92,
+          "tomato_1000g": 23.58,
+          "shiitake_200g": 14.21,
+          "oyster_200g": 8.99
+        },
+        "kiwi_delivered_premium_check": "unresolved; +33.2% against47.976PLN normalized Frisco goods; manual delivered comparator must reach51.136PLN for25% cap"
+      },
+      "following_template": {
+        "delivery_date": "2026-10-29",
+        "quote_pln": 104.55,
+        "discount_percent": 15,
+        "home_courier_pln": 0
+      }
     },
     {
       "subscription": 361,
@@ -221,7 +246,7 @@
       "priority": 1,
       "action": "Price and native-interval test for additional10-Egg streams /21,/28,/60days. /28 can potentially join active357; other cores require independently qualifying mixed baskets.",
       "no_activation_until": "Actual first dates/owned Eggs, saved exact quantities, current <=25% matched delivered premium and free home-courier renewal verified.",
-      "current_status": "Exact Egg SKU45382 unavailable for new checkout at23.59zł on18September. Existing paid361 reservation not inferred missing."
+      "current_status": "User19September selected organic green-legged-hen M10 SKU46125 at24.99PLN, advertised10% from delivery2. Verify this SKU's matched delivered-price comparison, free-courier group and actual remaining life; earlier Ekowital clearance does not transfer. Original paid361 carton remains separate."
     },
     {
       "priority": 2,
@@ -258,14 +283,35 @@
     "dates": "Use expected consumption under the approved rotation to propose first dates, distinguish forecast from observed depletion, and verify retailer-native first-start support. No routine date edits or skips count as native automation."
   },
   "derived_analysis": {
-    "as_of": "2026-09-18",
+    "as_of": "2026-09-19",
     "operational_evidence_separate_from_arithmetic": {
-      "recorded_on": "2026-09-18",
-      "source": "Root live Opera/account/checkout verification; distinct from offline quantity forecasts.",
+      "recorded_on": "2026-09-19",
+      "source": "Dated merchant email and live Opera subscription verification19September; earlier checkout/stock observations retain their original scope.",
       "357": {
         "delivered_at": "2026-09-18T14:44:00+02:00",
-        "next_payment_date": "2026-09-26",
-        "next_delivery_date": "2026-10-01"
+        "next_payment_date": "2026-09-25",
+        "next_delivery_date": "2026-10-01",
+        "created_renewal": {
+          "order_id": 245125,
+          "created_at": "2026-09-19T08:29:58+02:00",
+          "payment_date": "2026-09-25",
+          "total_pln": 110.7,
+          "home_courier_pln": 0,
+          "payment_fee_pln": 0,
+          "lines_pln": {
+            "kiwi_1200g": 63.92,
+            "tomato_1000g": 23.58,
+            "shiitake_200g": 14.21,
+            "oyster_200g": 8.99
+          },
+          "kiwi_delivered_premium_check": "unresolved; +33.2% against47.976PLN normalized Frisco goods; manual delivered comparator must reach51.136PLN for25% cap"
+        },
+        "following_template": {
+          "delivery_date": "2026-10-29",
+          "quote_pln": 104.55,
+          "discount_percent": 15,
+          "home_courier_pln": 0
+        }
       },
       "361": {
         "next_payment_date": "2026-10-02",
@@ -276,7 +322,8 @@
         "earlier_verified_renewal_quote_pln": 104.09,
         "evening_overview_base_pln": 115.66,
         "current_payable_renewal_total_verified": false,
-        "first_order_243898": "paid; planned21September dispatch;18September GLS label only, no handover confirmation"
+        "first_order_243898": "paid; planned21September dispatch;18September GLS label only, no handover confirmation",
+        "last_checked": "2026-09-19"
       },
       "pantry_B_checkout": {
         "foods": {
@@ -289,13 +336,45 @@
         "free_method": "pickup only; unacceptable for user",
         "native_plan_status": "rejected_paid_home_courier",
         "order_submitted": false,
-        "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler."
+        "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler.",
+        "observed_on": "2026-09-18"
       },
       "egg_product": {
         "sku": 45382,
         "observed_price_pln": 23.59,
         "available_for_new_checkout": false,
-        "implication": "Cannot add new10-Egg streams to the tested basket. Does not establish loss/unavailability of already-paid361 reservation."
+        "implication": "Cannot add new10-Egg streams to the tested basket. Does not establish loss/unavailability of already-paid361 reservation.",
+        "observed_on": "2026-09-18",
+        "superseded_for_sourcing": "User selected organic green-legged-hen SKU46125 below. Historical stock observation remains valid for45382 and does not block the selected product."
+      },
+      "selected_organic_eggs": {
+        "observed_on": "2026-09-19",
+        "sku": 46125,
+        "ean": "5907814665997",
+        "url": "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125",
+        "identity": "Certified organic green-legged-hen Eggs, M10",
+        "available_for_new_checkout": true,
+        "availability_evidence": "Public retailer page states available; actual checkout not submitted.",
+        "first_price_pln": 24.99,
+        "advertised_renewal_discount_percent_from_delivery2": 10,
+        "estimated_renewal_price_pln": 22.49,
+        "guaranteed_remaining_life_days": null,
+        "observed_native_intervals_days": [
+          7,
+          14,
+          21,
+          28,
+          30,
+          60,
+          90
+        ],
+        "manual_comparator": {
+          "status": "Selected green-legged product needs its own matched delivered-price comparison; prior Ekowital clearance does not transfer. The25% cap remains in force."
+        },
+        "selected_for": "User-selected README product and future Egg sourcing using existing10-count patterns; not an activated stream or a replacement of the paid first361 carton.",
+        "husbandry_evidence": "Retailer describes certified organic production, access to runs/pastures and organic feed; not an independent farm audit.",
+        "whole_shipment_free_home_courier_verified": false,
+        "order_or_subscription_submitted": false
       }
     },
     "active_coverage_per_28_days": {
@@ -705,7 +784,8 @@
             "free_method": "pickup only; unacceptable for user",
             "native_plan_status": "rejected_paid_home_courier",
             "order_submitted": false,
-            "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler."
+            "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler.",
+            "observed_on": "2026-09-18"
           },
           "accepted_for_activation": false
         },
@@ -747,44 +827,44 @@
       "reviews": [
         {
           "food": "combined Nuts",
-          "forecast_remaining_before_today_use": 420.0,
+          "forecast_remaining_before_today_use": 400.0,
           "first_forecast_not_fully_supplied_day": "2026-10-09",
           "review_no_later_than": "2026-10-02",
           "forecast_only": true
         },
         {
           "food": "combined Flax/Chia",
-          "forecast_remaining_before_today_use": 622.0,
+          "forecast_remaining_before_today_use": 615.0,
           "first_forecast_not_fully_supplied_day": "2026-12-15",
           "review_no_later_than": "2026-12-01",
           "forecast_only": true
         },
         {
           "food": "Pumpkin",
-          "forecast_remaining_before_today_use": 322.0,
+          "forecast_remaining_before_today_use": 315.0,
           "first_forecast_not_fully_supplied_day": "2026-11-03",
           "review_no_later_than": "2026-10-27",
           "forecast_only": true
         },
         {
           "food": "Matcha",
-          "forecast_remaining_before_today_use": 192.0,
+          "forecast_remaining_before_today_use": 190.0,
           "first_forecast_not_fully_supplied_day": "2026-12-23",
           "review_no_later_than": "2026-12-09",
           "forecast_only": true
         },
         {
           "food": "Phileos",
-          "forecast_remaining_before_today_use": 174.75,
+          "forecast_remaining_before_today_use": 161.25,
           "first_forecast_not_fully_supplied_day": "2026-09-30",
           "review_no_later_than": "2026-09-23",
           "forecast_only": true
         },
         {
           "food": "Soy Milk if chosen every day",
-          "forecast_remaining_before_today_use": 1200.0,
+          "forecast_remaining_before_today_use": 1000.0,
           "first_forecast_not_fully_supplied_day": "2026-09-24",
-          "review_no_later_than": "2026-09-18",
+          "review_no_later_than": "2026-09-19",
           "forecast_only": true
         }
       ],
@@ -867,12 +947,33 @@
     "current_stock_block": "Exact Egg SKU45382 unavailable for new subscription checkout; existing paid361 reserve is separate."
   },
   "operational_evidence": {
-    "recorded_on": "2026-09-18",
-    "source": "Root live Opera/account/checkout verification; distinct from offline quantity forecasts.",
+    "recorded_on": "2026-09-19",
+    "source": "Dated merchant email and live Opera subscription verification19September; earlier checkout/stock observations retain their original scope.",
     "357": {
       "delivered_at": "2026-09-18T14:44:00+02:00",
-      "next_payment_date": "2026-09-26",
-      "next_delivery_date": "2026-10-01"
+      "next_payment_date": "2026-09-25",
+      "next_delivery_date": "2026-10-01",
+      "created_renewal": {
+        "order_id": 245125,
+        "created_at": "2026-09-19T08:29:58+02:00",
+        "payment_date": "2026-09-25",
+        "total_pln": 110.7,
+        "home_courier_pln": 0,
+        "payment_fee_pln": 0,
+        "lines_pln": {
+          "kiwi_1200g": 63.92,
+          "tomato_1000g": 23.58,
+          "shiitake_200g": 14.21,
+          "oyster_200g": 8.99
+        },
+        "kiwi_delivered_premium_check": "unresolved; +33.2% against47.976PLN normalized Frisco goods; manual delivered comparator must reach51.136PLN for25% cap"
+      },
+      "following_template": {
+        "delivery_date": "2026-10-29",
+        "quote_pln": 104.55,
+        "discount_percent": 15,
+        "home_courier_pln": 0
+      }
     },
     "361": {
       "next_payment_date": "2026-10-02",
@@ -883,7 +984,8 @@
       "earlier_verified_renewal_quote_pln": 104.09,
       "evening_overview_base_pln": 115.66,
       "current_payable_renewal_total_verified": false,
-      "first_order_243898": "paid; planned21September dispatch;18September GLS label only, no handover confirmation"
+      "first_order_243898": "paid; planned21September dispatch;18September GLS label only, no handover confirmation",
+      "last_checked": "2026-09-19"
     },
     "pantry_B_checkout": {
       "foods": {
@@ -896,13 +998,45 @@
       "free_method": "pickup only; unacceptable for user",
       "native_plan_status": "rejected_paid_home_courier",
       "order_submitted": false,
-      "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler."
+      "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler.",
+      "observed_on": "2026-09-18"
     },
     "egg_product": {
       "sku": 45382,
       "observed_price_pln": 23.59,
       "available_for_new_checkout": false,
-      "implication": "Cannot add new10-Egg streams to the tested basket. Does not establish loss/unavailability of already-paid361 reservation."
+      "implication": "Cannot add new10-Egg streams to the tested basket. Does not establish loss/unavailability of already-paid361 reservation.",
+      "observed_on": "2026-09-18",
+      "superseded_for_sourcing": "User selected organic green-legged-hen SKU46125 below. Historical stock observation remains valid for45382 and does not block the selected product."
+    },
+    "selected_organic_eggs": {
+      "observed_on": "2026-09-19",
+      "sku": 46125,
+      "ean": "5907814665997",
+      "url": "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125",
+      "identity": "Certified organic green-legged-hen Eggs, M10",
+      "available_for_new_checkout": true,
+      "availability_evidence": "Public retailer page states available; actual checkout not submitted.",
+      "first_price_pln": 24.99,
+      "advertised_renewal_discount_percent_from_delivery2": 10,
+      "estimated_renewal_price_pln": 22.49,
+      "guaranteed_remaining_life_days": null,
+      "observed_native_intervals_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "manual_comparator": {
+        "status": "Selected green-legged product needs its own matched delivered-price comparison; prior Ekowital clearance does not transfer. The25% cap remains in force."
+      },
+      "selected_for": "User-selected README product and future Egg sourcing using existing10-count patterns; not an activated stream or a replacement of the paid first361 carton.",
+      "husbandry_evidence": "Retailer describes certified organic production, access to runs/pastures and organic feed; not an independent farm audit.",
+      "whole_shipment_free_home_courier_verified": false,
+      "order_or_subscription_submitted": false
     }
   }
 }

@@ -1,5 +1,19 @@
 # Diet purchase handoff
 
+## 19September organic Egg substitution
+
+The user selected [organic green-legged-hen M Eggs10](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125), replacing the earlier Ekowital candidate. The README link and “green-legged hens” wording now match this choice. The retailer lists24.99zł first/about22.49zł renewal; the10-Egg pack fits the existing quantity patterns. The [current plan](DIET_RENEWAL_PLAN.md#selected-organic-eggs-19september) requires a fresh matched-price comparison, free first/renewal home courier, stock-adjusted start and actual remaining-life check for this SKU. **No new payment or subscription was submitted;357/361 and the paid first361 carton are unchanged.**
+
+## 19September review
+
+**Bioshi created native renewal245125 for subscription357; its110.70zł automatic charge is scheduled25September, not the previous26September field.** The19September08:30:41 Warsaw email and live Opera profile agree. Delivery remains1October, with0zł GLS home courier and0zł payment fees. Goods are Kiwi1.2kg63.92zł, Tomatoes1kg23.58zł, Shiitake200g14.21zł and Oyster200g8.99zł. The104.55zł/15% figure now visible in the subscription editor belongs to the following29October template; it does not replace the created110.70zł order. Changes to that template cannot be assumed to alter245125.
+
+The [matched product-price check](DIET_SUBSCRIPTION_COSTS.md#19september--created-renewal245125) finds Kiwi33.2% above Frisco's normalized public goods price before compulsory manual fees. Its delivered comparison remains open, requiring at least3.16zł of properly attributable manual costs to meet25%. Tomatoes and both Mushrooms pass against their public goods-price comparators. Final destination availability/fee allocation remains unverified; no automatic cancellation or quantity change was made based on an incomplete comparison.
+
+Only357 and361 appear in the live active list.361 still displays2October payment,9October delivery and14-day recurrence; paid243898 remainsREALIZOWANE with no newer dispatch confirmation. The newest GLS message remains18September label creation, and planned dispatch remains21September. No reply confirms cancellation of obsolete243364/243397/243402. The order-detail page for245125 requests additional sign-in, although subscription pages are readable; no payment/login request was sent to the user merely to repeat yesterday's review.
+
+No purchase, subscription change, outgoing email or stock-consumption deduction occurred. **Do not manually pay245125 in addition to its scheduled card collection, and do not pay the obsolete requests.** Resolve the Kiwi delivered-price comparison before25September; the daily monitor remains active.
+
 ## 18September review
 
 **Evening update — retailer subscriptions only:** the [current renewal plan](DIET_RENEWAL_PLAN.md) supersedes older launch proposals. The user excludes routine Codex reorders/date repairs and caps each comparable product at25% above delivered manual cost. Only357/361 remain active; no new subscription or payment was submitted.

@@ -1,6 +1,6 @@
 # Diet delivery optimization
 
-**Current plan: [18September native-only renewal plan](DIET_RENEWAL_PLAN.md).** Retailer subscriptions only, free home courier and maximum25% delivered premium per comparable product. Only357/361 are active;243351 was delivered18September, and paid243898 has planned21September dispatch. No additional payment is ready. The older schedules and quotations below are historical candidates, not activation instructions.
+**Current plan: [current native-only renewal plan](DIET_RENEWAL_PLAN.md).** Retailer subscriptions only, free home courier and maximum25% delivered premium per comparable product. Only357/361 are active;243351 was delivered18September, and paid243898 has planned21September dispatch. Created357 renewal245125 will collect110.70zł on25September for1October; its Kiwi delivered-price comparison remains open. No separate manual payment is needed. The older schedules and quotations below are historical candidates, not activation instructions.
 
 Adopted **2026-09-14**. Find a genuinely automatic purchasing-and-consumption schedule that supplies every required meal category and minimizes freshness loss when food is eaten, within the agreed Diet, budget and free home-courier requirement. **The current six-fresh/six-pantry proposal is a candidate, not a demonstrated feasible solution or a solved optimum.**
 
