@@ -662,6 +662,30 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Complement C3** | - | 🟡 89 ↓ | - | - | mg/dL | 90 - 180 |
 | **Complement C4** | - | 🟢 14.2 | - | - | mg/dL | 10.0 - 40.0 |
 
+### ANA/ENA Immunoblot
+
+|  | 2026-09 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **DFS70** | 🔵 negative | Status | negative |
+| **AMA-M2** | 🔵 negative | Status | negative |
+| **Ribosomal Protein P** | 🔵 negative | Status | negative |
+| **Histones** | 🔵 negative | Status | negative |
+| **Nucleosomes** | 🔵 negative | Status | negative |
+| **dsDNA** | 🔵 negative | Status | negative |
+| **PCNA** | 🔵 negative | Status | negative |
+| **Centromere B** | 🟡<sup>1</sup> equivocal \(+\) | Status | negative |
+| **Jo-1** | 🔵 negative | Status | negative |
+| **PM-Scl100** | 🔵 negative | Status | negative |
+| **Scl-70** | 🔵 negative | Status | negative |
+| **SS-B** | 🔵 negative | Status | negative |
+| **Ro-52 Recombinant** | 🔵 negative | Status | negative |
+| **SS-A Native (60kDa)** | 🔵 negative | Status | negative |
+| **Sm** | 🔵 negative | Status | negative |
+| **Sm, RNP/Sm** | 🔵 negative | Status | negative |
+
+**Notes:**
+<sup>1</sup> Centromere B is equivocal (+); the other 15 immunoblot antibodies are negative. ANA IIFT/titre is pending.
+
 ## Tumor Markers
 
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |

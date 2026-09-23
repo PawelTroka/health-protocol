@@ -6,6 +6,13 @@ Unrecognized metrics remain visible until deliberately assigned to a group.
 """
 
 
+ANA_ENA_MARKERS = (
+    "DFS70", "AMA-M2", "Ribosomal Protein P", "Histones", "Nucleosomes", "dsDNA",
+    "PCNA", "Centromere B", "Jo-1", "PM-Scl100", "Scl-70", "SS-B",
+    "Ro-52 Recombinant", "SS-A Native (60kDa)", "Sm", "Sm, RNP/Sm",
+)
+
+
 _FOLLOWUP_GROUPS = {
     "Cardiac Health & Coagulation": (
         "Creatine Kinase (CK)", frozenset({"Creatine Kinase (CK)"}),
@@ -58,6 +65,11 @@ def lab_groups(category, rows):
     rows = list(rows)
     if not rows:
         return []
+    if category == "Immunology & Inflammation":
+        immunoblot = [row for row in rows if row[0] in ANA_ENA_MARKERS]
+        if immunoblot:
+            remaining = [row for row in rows if row[0] not in ANA_ENA_MARKERS]
+            return lab_groups(category, remaining) + [{"title": "ANA/ENA Immunoblot", "rows": immunoblot}]
     if category == "Hormonal Panel":
         groups = []
         known_names = set()

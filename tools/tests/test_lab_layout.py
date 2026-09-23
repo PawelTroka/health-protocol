@@ -58,6 +58,23 @@ class LabLayoutTests(unittest.TestCase):
         self.assertEqual(lab_groups("Hormonal Panel", [rows[4]]),
                          [{"title": "Growth Axis", "rows": [rows[4]]}])
 
+    def test_immunoblot_has_its_own_table_and_preserves_all_other_markers(self):
+        rows = [row(name, september="negative", july="-") for name in (
+            "DFS70", "CRP (hs)", "Centromere B", "Anti-TPO", "Sm", "Future Marker",
+            "Sm, RNP/Sm", "IgA (Serum)",
+        )]
+        groups = lab_groups("Immunology & Inflammation", rows)
+        self.assertEqual([(group["title"], [item[0] for item in group["rows"]])
+                          for group in groups], [
+            (None, ["CRP (hs)", "Future Marker"]),
+            ("Immune Markers & Antibodies", ["Anti-TPO", "IgA (Serum)"]),
+            ("ANA/ENA Immunoblot", ["DFS70", "Centromere B", "Sm", "Sm, RNP/Sm"]),
+        ])
+        self.assertEqual(Counter(id(item) for group in groups for item in group["rows"]),
+                         Counter(map(id, rows)))
+        self.assertEqual(lab_groups("Immunology & Inflammation", [rows[2]]),
+                         [{"title": "ANA/ENA Immunoblot", "rows": [rows[2]]}])
+
     def test_partition_preserves_objects_duplicates_values_and_order(self):
         first = row("Uric Acid", september="3.0", july="3.8")
         second = row("Uric Acid", september="3.1", july="3.9")

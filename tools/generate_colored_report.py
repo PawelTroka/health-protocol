@@ -10,7 +10,7 @@ if __package__ in (None, ""):
 from tools.health_sync.monthly import CATEGORICAL_METRICS, METRICS, apply_report_overlay, load_monthly
 from tools.health_sync.report_layout import layout, counts
 from tools.health_sync.ecg_records import render_ecg_html, render_ecg_md
-from tools.health_sync.lab_layout import lab_groups
+from tools.health_sync.lab_layout import ANA_ENA_MARKERS, lab_groups
 from tools.health_sync.result_bounds import bound_within_reference, bounded_comparison, is_bounded
 from tools.health_sync.report_guidance import (
     NEUTRAL, guide_reference, guide_status, numerical_change, vitals_trend,
@@ -512,7 +512,7 @@ def target_reference(category, marker, ref):
     return ref or "-"
 
 def is_inconclusive(value):
-    return isinstance(value, str) and value.strip().casefold().startswith("inconclusive")
+    return isinstance(value, str) and value.strip().casefold().startswith(("inconclusive", "equivocal"))
 
 
 def is_pending(value):
@@ -603,6 +603,8 @@ def qualitative_status(value):
         return ("#00008b", "🔵", "Negative / not detected")
     if text in {"positive", "detected", "reactive", "present"}:
         return ("#a84a00", "🟠", "Detected / present; qualitative result")
+    if text in {"equivocal", "equivocal (+)"}:
+        return ("#927000", "🟡", "Equivocal laboratory result; not confirmed positive")
     return NEUTRAL
 
 
@@ -1519,6 +1521,7 @@ data = {
 # units/ranges/flags, methods and pending assays: results/Labs-2026-09-16/Sources.md.
 # September 17 PDFs complete the proteinogram and confirm the portal stool
 # results, including their September 16 collection date and elastase range.
+# September 18 immunoblot completes 16 qualitative antibody results.
 lab_followups = {
     "2026-09": {
         "Morphology": {
@@ -1599,11 +1602,21 @@ for name in lab_followups["2026-09"]["Stool Pathogen PCR"]:
     no_score_markers.add(("Stool Pathogen PCR", name))
 no_score_markers.add(("Stool Analysis", "Yeast Cells"))
 
-# Eleven original tests remain without supplied results after the September 17
-# PDFs. Urinary iodine is no longer listed as pending, but no result was supplied.
+# ANA/ENA source '-' means negative; it must not become a missing report cell.
+for name in ANA_ENA_MARKERS:
+    data["Immunology & Inflammation"].append(
+        (name, *("-" for _ in historical_date_columns), "Status", "negative")
+    )
+    lab_followups["2026-09"]["Immunology & Inflammation"][name] = (
+        "equivocal (+)" if name == "Centromere B" else "negative"
+    )
+    no_score_markers.add(("Immunology & Inflammation", name))
+
+# Ten original tests remain without supplied results after the September 18
+# immunoblot. An assay disappearing from a waiting list is not a completed result.
 # Assays without a completed result do not acquire guessed units or references.
 lab_pending_tests = {
-    "Immunology & Inflammation": ["DGP IgG", "ANA (IIFT + titre)", "ANA/ENA immunoblot", "tTG IgA"],
+    "Immunology & Inflammation": ["DGP IgG", "ANA (IIFT + titre)", "tTG IgA"],
     "Stool Analysis": ["Histamine", "Secretory sIgA", "Butyric acid", "Zonulin"],
     "Urine Chemistry": ["Iodine in 24-hour urine"],
     "Urine Culture": ["Urine culture"],
@@ -1826,6 +1839,14 @@ result_notes = {
             "markers": [
                 {"row": "Vitamin B12", "target": "trend"},
                 {"row": "Vitamin B12", "target": "value", "dates": ["2026-07", "2025-05"]},
+            ],
+        },
+    ],
+    "Immunology & Inflammation": [
+        {
+            "text": "Centromere B is equivocal (+); the other 15 immunoblot antibodies are negative. ANA IIFT/titre is pending.",
+            "markers": [
+                {"row": "Centromere B", "target": "value", "dates": ["2026-09"]},
             ],
         },
     ],

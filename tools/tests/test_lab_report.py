@@ -15,6 +15,7 @@ from tools.tests.test_report_layout import rendered_table_rows
 
 def literal_result(cell):
     """Strip display status while retaining the literal measurement/inequality."""
+    cell = re.sub(r"\\([()])", r"\1", cell)
     return re.sub(r"\s+[↑↓]$", "", re.sub(r"^[⚪🔵🟢🟡🟠🔴]\s+", "", cell))
 
 
@@ -137,14 +138,62 @@ class SeptemberLabReportTests(unittest.TestCase):
 
     def test_pending_registry_excludes_completed_stool_and_proteinogram_results(self):
         pending = [name for names in self.report["lab_pending_tests"].values() for name in names]
-        self.assertEqual(len(pending), 11)
-        self.assertEqual(len(set(pending)), 11)
+        self.assertEqual(len(pending), 10)
+        self.assertEqual(len(set(pending)), 10)
         self.assertNotIn("Serum protein electrophoresis (whole panel)", pending)
+        self.assertNotIn("ANA/ENA immunoblot", pending)
+        self.assertIn("ANA (IIFT + titre)", pending)
         self.assertIn("Iodine in 24-hour urine", pending)
         self.assertIn("tTG IgA", pending)
         self.assertNotIn("TSH", pending)
         self.assertNotIn("Calprotectin", pending)
         self.assertNotIn("Pancreatic elastase-1", pending)
+
+    def test_immunoblot_preserves_all_components_and_equivocal_centromere(self):
+        category = "Immunology & Inflammation"
+        expected_names = [
+            "DFS70", "AMA-M2", "Ribosomal Protein P", "Histones", "Nucleosomes",
+            "dsDNA", "PCNA", "Centromere B", "Jo-1", "PM-Scl100", "Scl-70",
+            "SS-B", "Ro-52 Recombinant", "SS-A Native (60kDa)", "Sm", "Sm, RNP/Sm",
+        ]
+        group = next(group for group in self.report["lab_groups"](category, self.report["data"][category])
+                     if group["title"] == "ANA/ENA Immunoblot")
+        self.assertEqual([row[0] for row in group["rows"]], expected_names)
+        for marker in expected_names:
+            with self.subTest(marker=marker):
+                observations = self.observations(category, marker)
+                expected = "equivocal (+)" if marker == "Centromere B" else "negative"
+                self.assertEqual(observations["2026-09"], expected)
+                self.assertTrue(all(value == "-" for month, value in observations.items()
+                                    if month != "2026-09"))
+                self.assertEqual(self.row(category, marker)[-2:], ("Status", "negative"))
+        for output_format in ("html", "md"):
+            with self.subTest(output_format=output_format):
+                rendered = self.report[f"render_result_table_{output_format}"](category, group["rows"])
+                table = rendered_table_rows(rendered, output_format)
+                self.assertIn(rendered, self.outputs[output_format])
+                self.assertEqual([cell for cell in table[0] if re.fullmatch(r"\d{4}-\d{2}", cell)],
+                                 ["2026-09"])
+                self.assertNotIn("Trend", table[0])
+                result_index = table[0].index("2026-09")
+                self.assertEqual(Counter((cells[result_index][0], literal_result(cells[result_index]))
+                                         for cells in table[1:]),
+                                 {("🔵", "negative"): 15, ("🟡", "equivocal (+)"): 1})
+
+    def test_equivocal_immunoblot_is_unscored_and_blocks_stale_trends(self):
+        category, marker, reference = "Immunology & Inflammation", "Centromere B", "negative"
+        value = "equivocal (+)"
+        self.assertTrue(self.report["is_inconclusive"](value))
+        self.assertEqual(self.report["qualitative_status"](value)[1], "🟡")
+        self.assertIsNone(self.report["calculate_score"](value, reference, category, marker))
+        self.assertIsNone(self.report["trend_score"](value, reference, category, marker))
+        for values in ([value, "negative", "positive"], ["negative", value, "positive"],
+                       ["-", value, "negative", "positive"]):
+            with self.subTest(values=values):
+                self.assertIsNone(self.report["classify_trend"](values, reference, category, marker))
+                for output_format in ("html", "md"):
+                    self.assertEqual(self.report[f"format_trend_{output_format}"](
+                        values, reference, category, marker), "-")
 
     def test_stool_pdf_confirms_portal_values_and_supplies_elastase_reference(self):
         calprotectin = self.observations("Stool Analysis", "Calprotectin (Stool)")
@@ -298,7 +347,7 @@ class SeptemberLabReportTests(unittest.TestCase):
     def test_all_followups_appear_in_september_in_both_generated_reports(self):
         values = [value for observations in self.report["lab_followups"]["2026-09"].values()
                   for value in observations.values()]
-        self.assertEqual(sum(value != "pending" for value in values), 99)
+        self.assertEqual(sum(value != "pending" for value in values), 115)
         self.assertEqual(values.count("pending"), 3)
         for category, observations in self.report["lab_followups"]["2026-09"].items():
             rows = self.report["data"][category]
@@ -327,13 +376,13 @@ class SeptemberLabReportTests(unittest.TestCase):
                       "Immunology & Inflammation")
         for category in categories:
             groups = self.report["lab_groups"](category, self.report["data"][category])
-            self.assertEqual(len(groups), 2)
+            self.assertEqual(len(groups), 3 if category == "Immunology & Inflammation" else 2)
             for output_format in ("html", "md"):
                 for index, group in enumerate(groups):
                     with self.subTest(category=category, group=group["title"], output_format=output_format):
                         rendered = self.report[f"render_result_table_{output_format}"](category, group["rows"])
                         header = rendered_table_rows(rendered, output_format)[0]
-                        self.assertEqual("2026-09" in header, index == 1)
+                        self.assertEqual("2026-09" in header, index > 0)
                         self.assertIn("Unit", header)
                         self.assertIn("Reference", header)
 

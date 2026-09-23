@@ -1,6 +1,6 @@
 # Laboratory results collected 2026-09-16
 
-Reviewed 2026-09-17 from the four original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
+Reviewed through 2026-09-22 from the five original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
 
 ## Source documents and dates
 
@@ -10,10 +10,11 @@ Reviewed 2026-09-17 from the four original, unchanged PDFs below. These are date
 | [Diagnostyka gastrointestinal PCR report, 1 page](../wyniki-17_9_2026-17_27_0.pdf) | Stool: header gives 2026-09-16 07:00; specimen/order note separately says `pobrano 16.09.26 g:6:30; bez leków` (collected 06:30; without medicines) | Received 2026-09-16 10:03; performed 11:25:52; result issued 11:26:20; PDF/print timestamp 11:26:21 |
 | [ALAB calprotectin and elastase report, 1 page](../GDYNPOW-SL-00054490-20260917162927-2.pdf) | Stool: collected 2026-09-16 07:26; received 09:32 | Analyzed 2026-09-17 10:34 / 10:35; report issued 16:29 |
 | [ALAB proteinogram report, 2 pages](../GDYNPOW-SL-00054809-20260917163044-7.pdf) | Venous serum: collected 2026-09-16 07:26; received 10:44 | Analyzed 2026-09-17 16:17; report issued 16:30 |
+| [ALAB ANA/ENA immunoblot, 1 page](../ZAWODZI-SL-00090247-20260918180829-76.pdf) | Venous serum: collected 2026-09-16 07:26; received 2026-09-18 09:24 | Analyzed 2026-09-18 17:16; report issued 18:09 |
 
 All reports belong to the September 16 collection date. The Diagnostyka filename contains September 17, but its actual result and print timestamps are September 16; commit `4a521eb` renamed that file without changing its contents. Its two different collection times are retained without choosing one or assuming which is correct. The `without medicines` wording is a specimen/order annotation, not a verified medication history or a stated washout duration.
 
-All eight PDF pages were visually checked. The Diagnostyka PDF has a broken text encoding, so its result table was transcribed from the rendered page. The initial import contained **84 completed observations** (63 ALAB and 21 PCR rows) plus **14 pending tests**. The [portal update](#portal-update-2026-09-17) added calprotectin and elastase; the [later PDFs](#pdf-update-2026-09-17) confirm both and add 13 proteinogram values. The combined record now contains **99 completed observations and 11 tests without supplied results**.
+All nine PDF pages were visually checked. The Diagnostyka PDF has a broken text encoding, so its result table was transcribed from the rendered page. The initial import contained **84 completed observations** (63 ALAB and 21 PCR rows) plus **14 pending tests**. The [portal update](#portal-update-2026-09-17) added calprotectin and elastase; the [later PDFs](#pdf-update-2026-09-17) confirm both and add 13 proteinogram values. The [September 18 immunoblot](#anaena-immunoblot-issued-2026-09-18) adds 16 antibody results. The combined record now contains **115 completed observations and 10 tests without supplied results**.
 
 ## ALAB: Morphology (page 1)
 
@@ -220,4 +221,31 @@ Capillary electrophoresis, Sebia Capillarys 2 Flex Piercing. All 13 values are w
 
 Laboratory comment: **“Podwójna frakcja alfa 2. Hemolizy brak.”** — double alpha-2 fraction; no hemolysis. No cause is specified.
 
-Both new PDFs list **10 pending tests**: DGP IgG, ANA IIFT/titer, ANA/ENA immunoblot, stool histamine, stool secretory sIgA, stool butyric acid, urine culture, tTG IgA, selenium and stool zonulin. **24-hour urinary iodine** is no longer listed, but neither PDF supplies its result; it remains outstanding in this record. Thus **11 tests still have no supplied result**.
+Both September 17 PDFs listed **10 pending tests**: DGP IgG, ANA IIFT/titer, ANA/ENA immunoblot, stool histamine, stool secretory sIgA, stool butyric acid, urine culture, tTG IgA, selenium and stool zonulin. **24-hour urinary iodine** was no longer listed, but neither PDF supplied its result. At that stage, **11 tests had no supplied result**.
+
+## ANA/ENA immunoblot issued 2026-09-18
+
+Western-Blot, EuroBlotOne analyzer, Euroimmun reagents (instructions 06-2019). Serum collected September 16; dates are recorded in the source table above.
+
+| Antibody | Source symbol | Report result |
+| :--- | :---: | :--- |
+| DFS70 | - | negative |
+| AMA-M2 | - | negative |
+| Ribosomal Protein P | - | negative |
+| Histones | - | negative |
+| Nucleosomes | - | negative |
+| dsDNA | - | negative |
+| PCNA | - | negative |
+| Centromere B | (+) | equivocal (+) |
+| Jo-1 | - | negative |
+| PM-Scl100 | - | negative |
+| Scl-70 | - | negative |
+| SS-B | - | negative |
+| Ro-52 Recombinant | - | negative |
+| SS-A Native (60kDa) | - | negative |
+| Sm | - | negative |
+| Sm, RNP/Sm | - | negative |
+
+The laboratory legend defines `-` as negative, `(+)` as equivocal (`Wątpliwy`), `+` and `++` as positive, and `+++` as highly positive. The 15 negative symbols are completed results, not missing data. No numeric unit or reference interval is supplied; `Status` and `negative` in the comparison table identify the qualitative result and expected-negative category. The final `Sm, RNP/Sm` entry is retained as one source row.
+
+ANA/ENA immunoblot is now complete. This PDF explicitly lists **ANA IIFT/titre** and **stool secretory sIgA** as pending, each with a stated wait of up to 10 business days. The other eight outstanding tests have no supplied result here: DGP IgG, tTG IgA, stool histamine, stool butyric acid, stool zonulin, urine culture, selenium and 24-hour urinary iodine. They remain outstanding even though they are absent from this PDF's waiting list.
