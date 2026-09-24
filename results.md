@@ -656,8 +656,11 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Anti-TG** | 🟡 | 🔵 18.90 | 🔵 16.80 | 🔵 13.10 | IU/ml | < 115.0; target < 20 |
 | **ASO** | 🟠 | 🟡 390 ↑ | - | 🟡 209 ↑ | IU/mL | < 200; target < 200 |
 | **IgA (Serum)** | - | 🔵 3.0 | - | - | g/L | 0.7 - 4.0 |
+| **tTG IgA** | - | 🔵 < 2.00 | - | - | RU/ml | < 20.0: negative; >= 20.0: positive |
+| **DGP IgG** | - | 🔵 < 2.0 | - | - | RU/ml | < 25: negative; >= 25: positive |
 | **Rheumatoid Factor (RF)** | - | 🟢 < 10 | - | - | IU/mL | < 14 |
 | **Anti-CCP** | - | 🔵 <8 | - | - | U/mL | < 17.00 |
+| **ANA IIFT** | - | 🔵 negative at 1:80 | - | - | Status | negative |
 | **TSH Receptor Antibodies (TRAb)** | - | 🔵 < 0.14 | - | - | IU/L | < 0.550: negative; >= 0.550: positive |
 | **Complement C3** | - | 🟡 89 ↓ | - | - | mg/dL | 90 - 180 |
 | **Complement C4** | - | 🟢 14.2 | - | - | mg/dL | 10.0 - 40.0 |
@@ -684,7 +687,7 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Sm, RNP/Sm** | 🔵 negative | Status | negative |
 
 **Notes:**
-<sup>1</sup> Centromere B is equivocal (+); the other 15 immunoblot antibodies are negative. ANA IIFT/titre is pending.
+<sup>1</sup> Centromere B is equivocal (+); the other 15 immunoblot antibodies are negative.
 
 ## Tumor Markers
 
@@ -759,18 +762,19 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Alpha-1 Antitrypsin (Stool)** | - | - | 🔵 7.90 | mg/dl | < 27.50; target < 27.50 |
 | **Calprotectin (Stool)** | 💎 | 🔵<sup>1</sup> < 5.0 | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
 | **Pancreatic Elastase-1 (Stool)** | - | 🔵 600.0 | - | ug/g | >= 200 |
+| **M2-PK (Stool)** | - | 🔵 < 1.00 | - | U/ml | 0.0 - 4.0 |
 | **Stool Fat** | - | - | 🔵 4.0 | g/100g | < 5.2; target < 5.2 |
 | **Stool Water** | - | - | 🔵 71.0 | g/100g | 68.5 - 82.3; target 68.5 - 82.3 |
 | **Stool Protein** | - | - | 🔵 1.5 | g/100g | < 1.5; target < 1.5 |
 | **Stool Starch** | - | - | 🔵 5.9 | g/100g | 2.6 - 10.6; target 2.6 - 10.6 |
 | **Stool Sugar** | - | - | 🟡 2.5 ↑ | g/100g | < 2.3; target < 2.3 |
 | **Bile Acids (Stool)** | - | - | 🔵 3.10 | umol/g | 0.46 - 9.96; target 0.46 - 9.96 |
-| **Secretory sIgA (Stool)** | - | pending<sup>1</sup> | 🟠<sup>1</sup> 5023.4 ↑ | ug/ml | 510 - 2040; target 510 - 2040 |
+| **Secretory sIgA (Stool)** | 💎 | 🟡<sup>1</sup> 339.8 ↓ | 🟠<sup>1</sup> 5023.4 ↑ | ug/ml | 510 - 2040; target 510 - 2040 |
 | **EPX (Stool)** | - | - | 🔵 < 74.00 | ng/ml | < 357.60; target < 357.60 |
 | **Beta-defensin (Stool)** | - | - | 🔵 14.93 | ng/ml | 8.00 - 60.00; target 8 - 60 |
 
 **Notes:**
-<sup>1</sup> Calprotectin fell from 291.70 to &lt;5.0ug/g, now within the lab's normal range. July sIgA was 5023.4ug/ml; its repeat is pending.
+<sup>1</sup> Calprotectin fell from 291.70 to &lt;5.0ug/g, within the lab's normal range. Stool sIgA fell from 5023.4 to 339.8ug/ml, now below the 510-2040 reference range.
 
 ## Gut Microbiota (GA-map)
 

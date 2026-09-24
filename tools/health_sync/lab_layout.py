@@ -27,7 +27,8 @@ _FOLLOWUP_GROUPS = {
         "Immune Markers & Antibodies",
         frozenset({
             "CRP (Conventional)", "Anti-TPO", "Anti-TG", "ASO", "IgA (Serum)",
-            "Rheumatoid Factor (RF)", "Anti-CCP", "TSH Receptor Antibodies (TRAb)",
+            "tTG IgA", "DGP IgG",
+            "Rheumatoid Factor (RF)", "Anti-CCP", "ANA IIFT", "TSH Receptor Antibodies (TRAb)",
             "Complement C3", "Complement C4",
         }),
     ),

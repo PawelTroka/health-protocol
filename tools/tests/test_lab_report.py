@@ -136,18 +136,124 @@ class SeptemberLabReportTests(unittest.TestCase):
                 expected_dot = "🟠" if outcomes[cells[0]] == "detected" else "🔵"
                 self.assertTrue(cells[result_index].startswith(expected_dot + " "), cells)
 
-    def test_pending_registry_excludes_completed_stool_and_proteinogram_results(self):
+    def test_pending_registry_excludes_all_completed_assays(self):
         pending = [name for names in self.report["lab_pending_tests"].values() for name in names]
-        self.assertEqual(len(pending), 10)
-        self.assertEqual(len(set(pending)), 10)
+        self.assertEqual(Counter(pending), Counter([
+            "Histamine", "Butyric acid", "Zonulin", "Iodine in 24-hour urine",
+            "Urine culture", "Selenium",
+        ]))
         self.assertNotIn("Serum protein electrophoresis (whole panel)", pending)
         self.assertNotIn("ANA/ENA immunoblot", pending)
-        self.assertIn("ANA (IIFT + titre)", pending)
-        self.assertIn("Iodine in 24-hour urine", pending)
-        self.assertIn("tTG IgA", pending)
+        for completed in ("ANA (IIFT + titre)", "DGP IgG", "tTG IgA", "Secretory sIgA"):
+            self.assertNotIn(completed, pending)
         self.assertNotIn("TSH", pending)
         self.assertNotIn("Calprotectin", pending)
         self.assertNotIn("Pancreatic elastase-1", pending)
+
+    def test_invalid_or_missing_urine_assays_do_not_become_results(self):
+        excluded = {"ANA (IIFT + titre)", "Cystine", "Urine Cystine",
+                    "Iodine in 24-hour urine"}
+        for category, rows in self.report["data"].items():
+            with self.subTest(category=category):
+                self.assertTrue(excluded.isdisjoint(row[0] for row in rows))
+        for category, observations in self.report["lab_followups"]["2026-09"].items():
+            with self.subTest(category=category):
+                self.assertTrue(excluded.isdisjoint(observations))
+        # The new urine PDFs supply no usable chemistry measurements.
+        # Repeat-required wording must not replace the historical concentrations.
+        july = {
+            "Urine Creatinine": "59.1", "Urine Albumin (Microalbuminuria)": "<3",
+            "Urine Protein": "0.06", "Urine Amylase": "98", "Urine Potassium": "7.12",
+            "Urine Sodium": "15.5", "Urine Urea": "2249", "Urine Calcium": "11.3",
+            "Urine Magnesium": "7.1", "Urine Phosphate": "26.40", "Urine Chloride": "11",
+        }
+        rows = self.report["data"]["Urine Chemistry"]
+        self.assertEqual({row[0] for row in rows}, set(july))
+        for marker, previous in july.items():
+            with self.subTest(marker=marker):
+                values = self.observations("Urine Chemistry", marker)
+                self.assertEqual(values["2026-09"], "-")
+                self.assertEqual(values["2026-07"], previous)
+        for output_format in ("html", "md"):
+            rendered = self.report[f"render_result_table_{output_format}"]("Urine Chemistry", rows)
+            table = rendered_table_rows(rendered, output_format)
+            self.assertNotIn("2026-09", table[0])
+            self.assertNotIn("Trend", table[0])
+
+    def test_completed_celiac_and_stool_m2pk_assays_appear_in_main_tables(self):
+        expected = {
+            ("Immunology & Inflammation", "tTG IgA"):
+                ("< 2.00", "RU/ml", "< 20.0: negative; >= 20.0: positive"),
+            ("Immunology & Inflammation", "DGP IgG"):
+                ("< 2.0", "RU/ml", "< 25: negative; >= 25: positive"),
+            ("Stool Analysis", "M2-PK (Stool)"):
+                ("< 1.00", "U/ml", "0.0 - 4.0"),
+        }
+        for (category, marker), (value, unit, reference) in expected.items():
+            with self.subTest(marker=marker):
+                observations = self.observations(category, marker)
+                self.assertEqual(observations["2026-09"], value)
+                self.assertTrue(all(result == "-" for month, result in observations.items()
+                                    if month != "2026-09"))
+                self.assertEqual(self.row(category, marker)[-2:], (unit, reference))
+                group = next(group for group in self.report["lab_groups"](
+                    category, self.report["data"][category])
+                    if marker in [row[0] for row in group["rows"]])
+                if category == "Immunology & Inflammation":
+                    self.assertEqual(group["title"], "Immune Markers & Antibodies")
+                for output_format, output in self.outputs.items():
+                    with self.subTest(output_format=output_format):
+                        rendered = self.report[f"render_result_table_{output_format}"](
+                            category, group["rows"])
+                        self.assertIn(rendered, output)
+                        table = rendered_table_rows(rendered, output_format)
+                        cells = next(row for row in table[1:] if row[0] == marker)
+                        displayed = dict(zip(table[0], cells))
+                        self.assertEqual(displayed["2026-09"], "🔵 " + value)
+                        self.assertEqual(displayed["Unit"], unit)
+                        self.assertEqual(displayed["Trend"], "-")
+                        for month in self.report["historical_date_columns"]:
+                            if month in displayed:
+                                self.assertEqual(displayed[month], "-")
+                        if output_format == "html":
+                            self.assertEqual(displayed["Reference"], reference)
+                        else:
+                            # The generic Markdown text extractor treats paired
+                            # '< ... >=' bounds as tags; inspect this cell literally.
+                            line = next(line for line in rendered.splitlines()
+                                        if line.startswith(f"| **{marker}** |"))
+                            self.assertEqual(line.rstrip(" |").split("|")[-1].strip(), reference)
+
+    def test_ana_iift_is_a_separate_qualitative_result_without_changing_immunoblot(self):
+        category, marker, value = "Immunology & Inflammation", "ANA IIFT", "negative at 1:80"
+        observations = self.observations(category, marker)
+        self.assertEqual(observations["2026-09"], value)
+        self.assertTrue(all(result == "-" for month, result in observations.items()
+                            if month != "2026-09"))
+        self.assertEqual(self.row(category, marker)[-2:], ("Status", "negative"))
+        self.assertEqual(self.report["qualitative_status"](value)[1], "🔵")
+        self.assertIsNone(self.report["calculate_score"](value, "negative", category, marker))
+        self.assertIsNone(self.report["classify_trend"](
+            [value, "-", "-", "-", "-"], "negative", category, marker))
+        group = next(group for group in self.report["lab_groups"](category, self.report["data"][category])
+                     if group["title"] == "Immune Markers & Antibodies")
+        self.assertIn(marker, [row[0] for row in group["rows"]])
+        for output_format, output in self.outputs.items():
+            with self.subTest(output_format=output_format):
+                rendered = self.report[f"render_result_table_{output_format}"](category, group["rows"])
+                self.assertIn(rendered, output)
+                table = rendered_table_rows(rendered, output_format)
+                result_index = table[0].index("2026-09")
+                row = next(row for row in table[1:] if row[0] == marker)
+                self.assertEqual(row[result_index], "🔵 " + value)
+                self.assertEqual(row[table[0].index("Trend")], "-")
+                notes = self.report[f"render_result_notes_{output_format}"](category)
+                self.assertNotIn("ANA IIFT", notes)
+                self.assertNotIn("ANA IIFT is negative at 1:80.", output)
+                self.assertNotIn("ANA IIFT/titre is pending", output)
+                self.assertIn("Centromere B is equivocal (+)", output)
+        self.assertEqual(self.observations("Immunology & Inflammation", "Centromere B")["2026-09"],
+                         "equivocal (+)")
 
     def test_immunoblot_preserves_all_components_and_equivocal_centromere(self):
         category = "Immunology & Inflammation"
@@ -205,7 +311,22 @@ class SeptemberLabReportTests(unittest.TestCase):
         args = (">= 200", "Stool Analysis", "Pancreatic Elastase-1 (Stool)")
         self.assertEqual(score("600.0", *args), score("200", *args))
         self.assertGreater(score("199", *args), 1.0)
-        self.assertEqual(self.observations("Stool Analysis", "Secretory sIgA (Stool)")["2026-09"], "pending")
+
+    def test_completed_stool_siga_preserves_history_units_and_low_status(self):
+        category, marker = "Stool Analysis", "Secretory sIgA (Stool)"
+        values = self.observations(category, marker)
+        self.assertEqual(values["2026-09"], "339.8")
+        self.assertEqual(values["2026-07"], "5023.4")
+        self.assertEqual(self.row(category, marker)[-2:], ("ug/ml", "510.0 - 2040.0"))
+        for output_format in ("html", "md"):
+            with self.subTest(output_format=output_format):
+                rendered = self.report[f"render_result_table_{output_format}"](
+                    category, [self.row(category, marker)])
+                header, cells = rendered_table_rows(rendered, output_format)
+                displayed = dict(zip(header, cells))
+                self.assertEqual(displayed["2026-09"], "🟡 339.8 ↓")
+                self.assertEqual(literal_result(displayed["2026-07"]), "5023.4")
+                self.assertNotIn("its repeat is pending", self.outputs[output_format])
 
     def test_completed_proteinogram_preserves_fractions_concentrations_and_history(self):
         expected = {
@@ -347,8 +468,8 @@ class SeptemberLabReportTests(unittest.TestCase):
     def test_all_followups_appear_in_september_in_both_generated_reports(self):
         values = [value for observations in self.report["lab_followups"]["2026-09"].values()
                   for value in observations.values()]
-        self.assertEqual(sum(value != "pending" for value in values), 115)
-        self.assertEqual(values.count("pending"), 3)
+        self.assertEqual(sum(value != "pending" for value in values), 120)
+        self.assertEqual(values.count("pending"), 2)
         for category, observations in self.report["lab_followups"]["2026-09"].items():
             rows = self.report["data"][category]
             for output_format in ("html", "md"):

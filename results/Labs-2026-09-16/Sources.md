@@ -1,6 +1,6 @@
 # Laboratory results collected 2026-09-16
 
-Reviewed through 2026-09-22 from the five original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
+Reviewed through 2026-09-24 from the original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
 
 ## Source documents and dates
 
@@ -11,10 +11,17 @@ Reviewed through 2026-09-22 from the five original, unchanged PDFs below. These 
 | [ALAB calprotectin and elastase report, 1 page](../GDYNPOW-SL-00054490-20260917162927-2.pdf) | Stool: collected 2026-09-16 07:26; received 09:32 | Analyzed 2026-09-17 10:34 / 10:35; report issued 16:29 |
 | [ALAB proteinogram report, 2 pages](../GDYNPOW-SL-00054809-20260917163044-7.pdf) | Venous serum: collected 2026-09-16 07:26; received 10:44 | Analyzed 2026-09-17 16:17; report issued 16:30 |
 | [ALAB ANA/ENA immunoblot, 1 page](../ZAWODZI-SL-00090247-20260918180829-76.pdf) | Venous serum: collected 2026-09-16 07:26; received 2026-09-18 09:24 | Analyzed 2026-09-18 17:16; report issued 18:09 |
+| [ALAB stool sIgA, 1 page](../ZAWODZI-SL-00103869-20260923124604-33.pdf) | Stool: collected 2026-09-16 07:26; received 2026-09-18 10:23 | Analyzed 2026-09-23 12:36; report issued 12:47 |
+| [ALAB ANA IIFT, 1 page](../ZAWODZI-SL-00090247-20260924162430-65.pdf) | Venous serum: collected 2026-09-16 07:26; received 2026-09-18 09:24 | Analyzed 2026-09-24 16:23; report issued 16:25 |
+| [ALAB DGP IgG, 1 page](../GDYNPOW-SL-00054809-20260924164929-11.pdf) | Venous serum: collected 2026-09-16 07:26; received 10:44 | Analyzed 2026-09-24 16:13; report issued 16:49 |
+| [ALAB tTG IgA, 1 page](../GDYNPOW-SL-00054486-20260924173443-32.pdf) | Venous serum: collected 2026-09-16 07:26; received 10:44 | Analyzed 2026-09-24 17:22; report issued 17:35 |
+| [ALAB rejected 24-hour urine, 2 pages](../GDYNPOW-SL-00054490-20260916150457-68.pdf) | 24-hour urine: collection recorded as 2026-09-16 10:41; received 14:42 (chemistry) / 14:43 (cortisol) | Report issued 2026-09-16 15:05; invalid collection, no usable results |
+| [ALAB urine cystine, 1 page](../GDYNPOW-SL-00054812-20260923134441-3.pdf) | Urine: collection recorded as 2026-09-16 10:41; received 2026-09-17 08:54 | Report issued 2026-09-23 13:44; repeat required, no result |
+| [Diagnostyka stool M2-PK, 1 page](../wyniki-24_9_2026-21_58_51.pdf) | Stool: collected 2026-09-16 06:30; received 15:40 | Analyzed 2026-09-23 12:18:47; report and PDF issued 17:01:03 |
 
 All reports belong to the September 16 collection date. The Diagnostyka filename contains September 17, but its actual result and print timestamps are September 16; commit `4a521eb` renamed that file without changing its contents. Its two different collection times are retained without choosing one or assuming which is correct. The `without medicines` wording is a specimen/order annotation, not a verified medication history or a stated washout duration.
 
-All nine PDF pages were visually checked. The Diagnostyka PDF has a broken text encoding, so its result table was transcribed from the rendered page. The initial import contained **84 completed observations** (63 ALAB and 21 PCR rows) plus **14 pending tests**. The [portal update](#portal-update-2026-09-17) added calprotectin and elastase; the [later PDFs](#pdf-update-2026-09-17) confirm both and add 13 proteinogram values. The [September 18 immunoblot](#anaena-immunoblot-issued-2026-09-18) adds 16 antibody results. The combined record now contains **115 completed observations and 10 tests without supplied results**.
+All 17 PDF pages were visually checked. The Diagnostyka PDFs have broken text encoding, so their result tables were transcribed from the rendered pages. The initial import contained **84 completed observations** (63 ALAB and 21 PCR rows) plus **14 pending tests**. The [portal update](#portal-update-2026-09-17) added calprotectin and elastase; the [later PDFs](#pdf-update-2026-09-17) confirm both and add 13 proteinogram values. The [September 18 immunoblot](#anaena-immunoblot-issued-2026-09-18) adds 16 antibody results. The [September 23-24 reports](#pdf-updates-issued-2026-09-23-and-2026-09-24) complete sIgA, ANA IIFT, DGP IgG and tTG IgA and supply stool M2-PK: **120 completed observations and six original tests without supplied results**. All 120 completed observations are included in the comparison tables.
 
 ## ALAB: Morphology (page 1)
 
@@ -248,4 +255,24 @@ Western-Blot, EuroBlotOne analyzer, Euroimmun reagents (instructions 06-2019). S
 
 The laboratory legend defines `-` as negative, `(+)` as equivocal (`Wątpliwy`), `+` and `++` as positive, and `+++` as highly positive. The 15 negative symbols are completed results, not missing data. No numeric unit or reference interval is supplied; `Status` and `negative` in the comparison table identify the qualitative result and expected-negative category. The final `Sm, RNP/Sm` entry is retained as one source row.
 
-ANA/ENA immunoblot is now complete. This PDF explicitly lists **ANA IIFT/titre** and **stool secretory sIgA** as pending, each with a stated wait of up to 10 business days. The other eight outstanding tests have no supplied result here: DGP IgG, tTG IgA, stool histamine, stool butyric acid, stool zonulin, urine culture, selenium and 24-hour urinary iodine. They remain outstanding even though they are absent from this PDF's waiting list.
+The September 18 PDF completed ANA/ENA immunoblot and listed **ANA IIFT/titre** and **stool secretory sIgA** as pending, each with a stated wait of up to 10 business days. At that stage, eight other tests had no supplied result: DGP IgG, tTG IgA, stool histamine, stool butyric acid, stool zonulin, urine culture, selenium and 24-hour urinary iodine. Their absence from that PDF's waiting list did not establish completion.
+
+## PDF updates issued 2026-09-23 and 2026-09-24
+
+| Test | Result | Source unit | Source reference / classification | Source flag | Report update |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Secretory sIgA (Stool) | 339.8 | µg/ml | 510.0 - 2040.0 | Low | Replaces September pending; July 5023.4 retained |
+| ANA (IIFT + titre) | Not detected at 1:80 | - | Negative screening result at the tested dilution | - | ANA IIFT result row added; pending status resolved |
+| DGP IgG | < 2.0 | RU/ml | <25 negative; >=25 positive | - | Result row added; pending status resolved |
+| tTG IgA | < 2.00 | RU/ml | <20.0 negative; >=20.0 positive | - | Result row added; pending status resolved |
+| M2-PK (Stool) | < 1.00 | U/ml | 0.0 - 4.0 | - | Result row added |
+
+Stool sIgA was measured by ELISA on Analyzer I using Immundiagnostik AG reagents (instructions 11-02-2022). ANA was screened by indirect immunofluorescence on HEp-2 cells using Euroimmun EUROLabWorkstation IFA and EUROPattern. `1:80` is the tested dilution, not a positive antibody titre; this separate negative screen does not replace the equivocal Centromere B immunoblot result. DGP IgG and tTG IgA used Euroimmun ELISA; their inequalities and precision are retained.
+
+Stool M2-PK used ELISA on ANALYZER I with the ScheBo® Tumor M2-PK™ ELISA Stool Test. Its filename is dated September 24, but the report's performance and issue timestamps are September 23. Both its collection header and specimen note give September 16 at 06:30.
+
+The earlier DGP report still lists tTG IgA as pending; the later completed tTG report supersedes it. The six original tests still lacking supplied results are stool histamine, stool butyric acid, stool zonulin, urine culture, selenium and 24-hour urinary iodine.
+
+### Excluded unusable urine results
+
+The September 16 urine report marks all 12 assays **“Nieprawidłowe pobranie - materiał niediagnostyczny”** (incorrect collection, non-diagnostic specimen): protein, chloride, glucose, potassium, creatinine, magnesium, sodium, copper, uric acid, urea, microalbumin and cortisol. The September 23 cystine report states **“Badanie wymaga powtórzenia”** (repeat required). Neither provides usable measurements. These entries do not replace historical results or create September values; missing and pending-only entries are also left out.

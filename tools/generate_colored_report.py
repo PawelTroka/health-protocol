@@ -599,7 +599,7 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
 def qualitative_status(value):
     """Color completed qualitative results without assigning a severity score."""
     text = str(value).strip().casefold()
-    if text in {"negative", "not detected", "non-reactive", "absent"}:
+    if text in {"negative", "not detected", "non-reactive", "absent"} or re.fullmatch(r"negative at 1:\d+", text):
         return ("#00008b", "🔵", "Negative / not detected")
     if text in {"positive", "detected", "reactive", "present"}:
         return ("#a84a00", "🟠", "Detected / present; qualitative result")
@@ -1401,8 +1401,11 @@ data = {
         ("Anti-TG", "16.80", "13.10", "-", "-", "IU/ml", "< 115.0"),
         ("ASO", "-", "209", "-", "-", "IU/mL", "< 200"),
         ("IgA (Serum)", "-", "-", "-", "-", "g/L", "0.7 - 4.0"),
+        ("tTG IgA", "-", "-", "-", "-", "RU/ml", "< 20.0: negative; >= 20.0: positive"),
+        ("DGP IgG", "-", "-", "-", "-", "RU/ml", "< 25: negative; >= 25: positive"),
         ("Rheumatoid Factor (RF)", "-", "-", "-", "-", "IU/mL", "< 14"),
         ("Anti-CCP", "-", "-", "-", "-", "U/mL", "< 17.00"),
+        ("ANA IIFT", "-", "-", "-", "-", "Status", "negative"),
         ("TSH Receptor Antibodies (TRAb)", "-", "-", "-", "-", "IU/L", "< 0.550: negative; >= 0.550: positive"),
         ("Complement C3", "-", "-", "-", "-", "mg/dL", "90 - 180"),
         ("Complement C4", "-", "-", "-", "-", "mg/dL", "10.0 - 40.0")
@@ -1462,6 +1465,7 @@ data = {
         ("Alpha-1 Antitrypsin (Stool)", "7.90", "-", "-", "-", "mg/dl", "< 27.50"),
         ("Calprotectin (Stool)", "291.70", "-", "-", "-", "ug/g", "< 50.00"),
         ("Pancreatic Elastase-1 (Stool)", "-", "-", "-", "-", "ug/g", ">= 200"),
+        ("M2-PK (Stool)", "-", "-", "-", "-", "U/ml", "0.0 - 4.0"),
         ("Stool Fat", "4.0", "-", "-", "-", "g/100g", "< 5.2"),
         ("Stool Water", "71.0", "-", "-", "-", "g/100g", "68.5 - 82.3"),
         ("Stool Protein", "1.5", "-", "-", "-", "g/100g", "< 1.5"),
@@ -1522,6 +1526,7 @@ data = {
 # September 17 PDFs complete the proteinogram and confirm the portal stool
 # results, including their September 16 collection date and elastase range.
 # September 18 immunoblot completes 16 qualitative antibody results.
+# September 23-24 reports complete stool sIgA, M2-PK, ANA IIFT, tTG IgA and DGP IgG.
 lab_followups = {
     "2026-09": {
         "Morphology": {
@@ -1551,6 +1556,8 @@ lab_followups = {
             "Rheumatoid Factor (RF)": "< 10", "Anti-CCP": "<8", "Anti-TG": "18.90",
             "Anti-TPO": "<9", "TSH Receptor Antibodies (TRAb)": "< 0.14",
             "Complement C3": "89", "Complement C4": "14.2",
+            "ANA IIFT": "negative at 1:80",
+            "tTG IgA": "< 2.00", "DGP IgG": "< 2.0",
         },
         "Stool Analysis": {
             "Stool pH": "8.0", "Reducing Substances": "0.00",
@@ -1559,7 +1566,8 @@ lab_followups = {
             "Muscle Fibers": "single in preparation", "Mucus": "single in preparation",
             "Yeast Cells": "present", "Occult Blood (Human Hemoglobin)": "negative",
             "Calprotectin (Stool)": "< 5.0", "Pancreatic Elastase-1 (Stool)": "600.0",
-            "Secretory sIgA (Stool)": "pending",
+            "Secretory sIgA (Stool)": "339.8",
+            "M2-PK (Stool)": "< 1.00",
         },
         "Stool Pathogen PCR": {
             "Adenovirus F 40/41": "not detected",
@@ -1601,6 +1609,7 @@ for name in lab_followups["2026-09"]["Stool Pathogen PCR"]:
     )
     no_score_markers.add(("Stool Pathogen PCR", name))
 no_score_markers.add(("Stool Analysis", "Yeast Cells"))
+no_score_markers.add(("Immunology & Inflammation", "ANA IIFT"))
 
 # ANA/ENA source '-' means negative; it must not become a missing report cell.
 for name in ANA_ENA_MARKERS:
@@ -1612,12 +1621,12 @@ for name in ANA_ENA_MARKERS:
     )
     no_score_markers.add(("Immunology & Inflammation", name))
 
-# Ten original tests remain without supplied results after the September 18
-# immunoblot. An assay disappearing from a waiting list is not a completed result.
+# Six original tests remain without supplied results after the September 23-24
+# reports. All completed assays have result rows.
+# An assay disappearing from a waiting list is not a completed result.
 # Assays without a completed result do not acquire guessed units or references.
 lab_pending_tests = {
-    "Immunology & Inflammation": ["DGP IgG", "ANA (IIFT + titre)", "tTG IgA"],
-    "Stool Analysis": ["Histamine", "Secretory sIgA", "Butyric acid", "Zonulin"],
+    "Stool Analysis": ["Histamine", "Butyric acid", "Zonulin"],
     "Urine Chemistry": ["Iodine in 24-hour urine"],
     "Urine Culture": ["Urine culture"],
     "Micronutrients": ["Selenium"],
@@ -1844,7 +1853,7 @@ result_notes = {
     ],
     "Immunology & Inflammation": [
         {
-            "text": "Centromere B is equivocal (+); the other 15 immunoblot antibodies are negative. ANA IIFT/titre is pending.",
+            "text": "Centromere B is equivocal (+); the other 15 immunoblot antibodies are negative.",
             "markers": [
                 {"row": "Centromere B", "target": "value", "dates": ["2026-09"]},
             ],
@@ -1861,7 +1870,7 @@ result_notes = {
     ],
     "Stool Analysis": [
         {
-            "text": "Calprotectin fell from 291.70 to &lt;5.0ug/g, now within the lab's normal range. July sIgA was 5023.4ug/ml; its repeat is pending.",
+            "text": "Calprotectin fell from 291.70 to &lt;5.0ug/g, within the lab's normal range. Stool sIgA fell from 5023.4 to 339.8ug/ml, now below the 510-2040 reference range.",
             "markers": [
                 {"rows": ["Calprotectin (Stool)", "Secretory sIgA (Stool)"], "target": "value", "dates": ["2026-09", "2026-07"]},
             ],
