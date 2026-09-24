@@ -1,6 +1,48 @@
 # Diet subscription costs — 43-food core, 2 stock-driven additions and historical benchmark
 
-**Current plan: [current native-only renewal plan](DIET_RENEWAL_PLAN.md).** Retailer subscriptions only, free home courier and maximum25% delivered premium per comparable product. Only357/361 are active;243351 was delivered18September, and paid243898 has planned21September dispatch. Created357 renewal245125 will collect110.70zł on25September for1October; its Kiwi delivered-price comparison remains open. No separate manual payment is needed. The older schedules and quotations below are historical candidates, not activation instructions.
+## 23September22:40 — Nut A order246975 paid133.61zł
+
+After explicit user approval and an email-coupon check, returning-customer code `kk11` from the17September shipping email applied10%, saving14.85zł on148.46zł. Bioshi accepted **order246975** and created [Nut A subscription370](https://bioshi.pl/pl/subscription.html?id=370), every90days. The user completed payment: the success page verifies **133.61zł paid** and order status **realizowane** at23September22:40 Warsaw. The merchant email confirms **GLS home courier0zł and payment fee0zł**. No additional charge appears in the total.
+
+The profile verifies **133.61zł for the next renewal, free GLS,90days and24December**; its creation email specifies10% from shipment2 and15% from shipment3–300.25September remains an estimated first delivery, not dispatch confirmation. IdoPay explicitly confirms an active saved card for370; Bioshi displays it while its update/verification is finalizing. Its23September payment-date field does not establish the next collection date. Do not pay246975 again.
+
+| Exact matching Bio Planet pack | Bioshi paid unit price after coupon | MarketBio public price | MarketBio after5% loyalty | Bioshi premium against5% |
+| --- | ---: | ---: | ---: | ---: |
+| [Walnuts300g](https://marketbio.pl/orzechy-wloskie-bio-300-g-bio-planet.html) |20.69zł |24.99zł |23.74zł |−12.85% |
+| [Pistachios150g](https://marketbio.pl/pistacje-luskane-bio-150-g-bio-planet.html) |41.30zł;82.60zł for two packs |47.99zł |45.59zł |−9.41% |
+| [Macadamias200g](https://marketbio.pl/orzechy-macadamia-bio-200-g-bio-planet.html) |30.32zł |34.99zł |33.24zł |−8.78% |
+
+Fresh23September public checks matched manufacturer, pack and composition; MarketBio's readable extracts did not expose barcode fields. Even before the coupon, Bioshi22.99/45.89/33.69zł passed against MarketBio's maximum15% loyalty tier with zero manual shipping assumed: premiums8.24%/12.50%/13.28%. This does not assume the user has that tier. [MarketBio loyalty rules](https://marketbio.pl/webpage/rabaty-w-sklepie-marketbio-pl.html). The verified `kk11` coupon was valid60days from the17September email and is not stacked with subscription or loyalty discounts; Bioshi's [terms](https://bioshi.pl/pl/terms) apply the best single eligible discount. Its first-order saving is not an additional recurring annual saving.
+
+
+**20September user direction:** stop pursuing the current Kiwi comparison and leave that subscription unchanged. The dated calculations below remain evidence, not an active user action or deadline. Retain the general25% cap for other products/new subscriptions.
+
+**Current plan: [current native-only renewal plan](DIET_RENEWAL_PLAN.md).**357/361/370 are active;370's first246975 is paid and its active card is confirmed in IdoPay, with Bioshi's final verification still processing.243898 remains paid but undelivered after a missing-stock hold.245125 will collect110.70zł automatically25September for1October; leave the current Kiwi purchase unchanged. Bioshi rejected obsolete243402 on23September;243364/243397 remain unresolved. The older schedules and quotations below are historical candidates, not payment instructions.
+
+## 22September — both Nut first-checkout courier quotes verified
+
+After the user restored sign-in, Opera checkout verified these exact baskets, all lines on90-day subscriptions:
+
+| Candidate | Packs | First goods | GLS home courier | First displayed total |
+| --- | --- | ---: | ---: | ---: |
+| A |Walnuts300g×1; Pistachios150g×2; Macadamias200g×1 |148.46zł |0zł |148.46zł |
+| B |Walnuts300g×1; Pistachios150g×1; Almonds350g×1; Macadamias200g×1 |132.56zł |0zł |132.56zł |
+
+The checkout separately listed “GLS - dostawa do punktu” and **“GLS”**, both free; the latter is the home-courier option. No added packing or payment fee appeared at this step. This supersedes the21September incomplete first-courier test and B's arithmetic-only status. The exact pack prices remain22.99/45.89/29.99/33.69zł, and all four product pages displayed stock. They advertise10% from delivery2;133.61zł/119.30zł remain calculated renewal goods estimates, **not verified discounted renewal delivered quotes**. Existing per-product manual comparisons were not refreshed in this bounded checkout test; recheck at activation. Neither first-order date, future delivered price nor freshness is guaranteed by today's quote. No order or subscription was submitted, and the temporary basket was emptied and verified.
+
+## 21September — selected Eggs and Nut group test
+
+Exact green-legged-hen M10 Eggs, Bioshi46125/EAN5907814665997: [Bioshi24.99zł](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125), advertised10% from delivery2 gives approximately22.49zł. [PyszneEKO](https://pyszneeko.pl/product-pol-8526-Jaja-kury-zielononozki-ekologiczne-roz-M-10-szt-Bio-Planet-EKO.html) shows the exact available single pack22.99zł. First/renewal premiums against goods alone are8.7%/−2.2%; therefore they pass25% if Bioshi home courier and compulsory fees are0zł. This is not a delivered checkout quote. PyszneEKO's19.99zł per pack requires three packs and is not the same single-pack purchase. No Bioshi remaining-life guarantee was found; [Freshme's14days](https://freshme.pl/pl/products/jaja-kury-zielononozki-m-bio-10-szt-1795.html) and [Organic24's at least7days](https://organic24.pl/jajka-ekologiczne-0-od-kur-zielononozek-m-10szt-bio-planet-bio.html) apply to those retailers, currently unavailable, and cannot be transferred.
+
+Opera's temporary90-day Nut A basket verified Walnuts300g22.99zł, Pistachios150g×2 at91.78zł and Macadamias200g33.69zł: **148.46zł goods/800g**. A new checkout required sign-in before the home-courier selection, so no delivered quote was established. The generic basket's “Gratis” remains insufficient. Companion B (one Walnut, Pistachio, Almond350g and Macadamia pack) is **132.56zł/1kg by arithmetic**, not a checkout. Advertised10% renewal estimates are133.61zł and119.30zł using per-pack rounding, with delivery still unverified. No fee or renewal price is assumed from an older basket. Both90-day groups preserve1.8kg/90day supply, subject to the [portion, storage and startup conditions](DIET_RENEWAL_PLAN.md#checkout-test-and-stock-comparison). The test cart was emptied and verified; nothing was ordered.
+
+## 20September — destination basket check
+
+Opera's signed-in Frisco account confirms the selected Gdańsk home-delivery destination and organic green Kiwi availability at39.98zł/kg. A temporary three-pack comparison, approximately1.5kg at59.97zł, increased the existing44.44zł grocery basket to104.41zł goods. The actual basket quoted14zł home delivery +5.50zł packing =123.91zł. The original basket already quoted the same19.50zł fees, but was below Frisco's100zł goods minimum. No checkout, slot reservation or order was submitted. The temporary Kiwi line was removed and the original five priced food lines/44.44zł goods were verified restored.
+
+The1.2kg goods-normalized comparator remains47.976zł. Allocating the tested shipment's fees proportionally by goods value would assign8.96zł to that quantity, giving56.94zł delivered and a12.3% Bioshi premium. **This is a sensitivity calculation, not clearance:** the marginal fee difference was0zł, the without-Kiwi basket was not independently orderable, and the actual otherwise-needed manual shipment has not been settled. Do not choose a fee allocation solely because it passes25%. Auchan still publicly lists14.89zł/four organic Hayward fruits; its session requires sign-in, so current destination stock and basket fees were not established. The cheaper matched manual route and fair compulsory-cost allocation remain to resolve before25September.
+
+Created Bioshi order245125 is now readable in Opera and confirms all four19September line prices and110.70zł awaiting payment. It exposes change/cancel links; neither was activated. Subscription357 still schedules automatic collection25September and free GLS for1October. Its104.55zł following-template quote remains separate. No manual payment is needed.
 
 ## 19September — created renewal245125
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-19",
+  "as_of": "2026-09-24",
   "purpose": "Executable quantity and phase comparison, separate from verified retailer configuration. No proposed new group is booked or proved to have free delivery.",
   "sources": [
     "../README.md#4-diet",
@@ -139,7 +139,7 @@
           "shiitake_200g": 14.21,
           "oyster_200g": 8.99
         },
-        "kiwi_delivered_premium_check": "unresolved; +33.2% against47.976PLN normalized Frisco goods; manual delivered comparator must reach51.136PLN for25% cap"
+        "kiwi_delivered_premium_check": "Historical comparison closed to further investigation by user20September; leave existing purchase unchanged. Not a verified price-compliance finding."
       },
       "following_template": {
         "delivery_date": "2026-10-29",
@@ -152,9 +152,9 @@
       "subscription": 361,
       "days": 14,
       "next_delivery": "2026-10-09",
-      "next_quote_pln": null,
+      "next_quote_pln": 104.09,
       "home_courier_pln": 0,
-      "quote_scope": "104.09zł was verified earlier18September. Evening overview shows115.66zł base; detail hides totals. No newly verified payable renewal total or price change.",
+      "quote_scope": "Discounted renewal template visible22-23September, freeGLS; not a newly created debit. Actual created renewal still requires verification.",
       "foods": {
         "eggs_count": 10,
         "orange_gross_g": 1000,
@@ -165,7 +165,7 @@
       "first_order": {
         "id": 243898,
         "paid_pln": 201.61,
-        "status": "paid; planned21September dispatch. GLS label created18September, no carrier handover confirmed; no arrival or consumption credited.",
+        "status": "Paid201.61PLN;22September signed-in detail held for missing merchant stock, no revised ETA; user23September confirms not received. No arrival or consumption credited.",
         "first_only": {
           "oats_g": 1000,
           "cinnamon_g": 50,
@@ -177,7 +177,36 @@
       "next_payment_date": "2026-10-02",
       "following_delivery_date": "2026-10-23",
       "last_verified_renewal_quote_pln": 104.09,
-      "latest_overview_base_pln": 115.66
+      "latest_overview_base_pln": 115.66,
+      "egg_sku": 45382,
+      "requested_egg_sku": 46125,
+      "egg_replacement_saved": false
+    },
+    {
+      "subscription": 370,
+      "retailer_status": "Aktywna",
+      "payment_status": "first_order_paid_card_attached",
+      "days": 90,
+      "first_order": {
+        "id": 246975,
+        "total_pln": 133.61,
+        "paid_pln": 133.61,
+        "status": "being_prepared_not_received"
+      },
+      "first_delivery_estimate": "2026-09-25",
+      "next_delivery": "2026-12-24",
+      "next_quote_pln": 133.61,
+      "home_courier": "GLS",
+      "home_courier_pln": 0,
+      "foods": {
+        "walnut_g": 300,
+        "pistachio_g": 300,
+        "macadamia_g": 200
+      },
+      "coverage_credited": false,
+      "reason": "Funded incoming800g, not on-hand stock;40 prescribed Nut choices when received, not complete90-day coverage.",
+      "next_payment_date": null,
+      "quote_scope": "Live profile370 next-renewal quote23September; date of next collection not yet reliable, parent still showed first-payment date."
     }
   ],
   "opening_stock": {
@@ -246,18 +275,19 @@
       "priority": 1,
       "action": "Price and native-interval test for additional10-Egg streams /21,/28,/60days. /28 can potentially join active357; other cores require independently qualifying mixed baskets.",
       "no_activation_until": "Actual first dates/owned Eggs, saved exact quantities, current <=25% matched delivered premium and free home-courier renewal verified.",
-      "current_status": "User19September selected organic green-legged-hen M10 SKU46125 at24.99PLN, advertised10% from delivery2. Verify this SKU's matched delivered-price comparison, free-courier group and actual remaining life; earlier Ekowital clearance does not transfer. Original paid361 carton remains separate."
+      "current_status": "Selected46125 passes dated per-product comparison conditionally. Actual existing361 replacement and additional qualifying shipments remain incomplete."
     },
     {
       "priority": 2,
       "action": "Quote verified Bioshi52572 organic gluten-free rolled Oats500g:11.89first/10.70renewal versus same-product9.65manual. Compare500g/30days+500g/60days against1kg/60days+500g/60days phased40days. Both exactly25g/day; all mandatory fees and first starts remain to verify.",
       "old_candidate": "300g/21+28days is superseded if its current25% delivered premium screen fails.",
-      "current_status": "Standalone pantryB quoted79.27zł goods +9.49zł GLS =88.76zł, rejected. Other compositions/cycles require separate quotes."
+      "current_status": "Oats0g23September; held paid1kg cannot cover current meals. No accepted free-courier group. Retired60day Macadamia basket does not solve it."
     },
     {
       "priority": 3,
-      "action": "Phase the existing1.8kg/90day Nut mix after owned500g is allocated; compare six mixed groups with eight smaller single-pack phases. Do not buy standalone parcels unless their own courier quote qualifies.",
-      "no_activation_until": "<=25% matched delivered premium, native phase/cycle, food-specific20g remainder handling and actual opened life verified."
+      "action": "Monitor actual arrival of active Nut A370/order246975 without recreating or repaying it. Prepare Nut B only near A actual arrival+40days.",
+      "no_activation_until": "Nut B: actual stock/timing, exact goods, price cap and free home courier must qualify. Nut A already submitted; do not duplicate.",
+      "current_status": "Nut A paid133.61PLN after kk11; active card verified in IdoPay; live next-renewal133.61PLN/freeGLS. No user action remains."
     },
     {
       "priority": 4,
@@ -276,17 +306,17 @@
     }
   ],
   "first_start_policy": {
-    "eggs": "Set retailer-native delayed first starts against the forecast dinner plan and incoming carton. Unreported owned Eggs remain unknown. No manual bridge is claimed as part of a native-only solution.",
-    "oats": "Paid1kg supplies40 written25g servings after actual consumption starts. New Oat streams need retailer-supported delayed first starts before the forecast gap; no managed reorder fallback.",
-    "nuts": "Owned500g estimate equals25 shared choices; actual remaining stock governs staged start. New90-day packs must not all arrive together.",
+    "eggs": "About10 owned Eggs reported23September. Existing10/14days plus three10/30day additions balance48 nominal Eggs/28days; actual arrival,200g meals and usable life still need allocation. Held first carton is not on hand.",
+    "oats": "Oats0g23September. No accepted free-courier refill. A new500g/60day stream can start before paid1kg only if its timely arrival and later1kg/60day first purchase are reconciled. Do not treat held paid stock as available.",
+    "nuts": "User estimate100g combined23September. Nut A800g/90days activated23September as370/order246975, paid133.61PLN and active recurring card verified. First arrival estimate25September is not receipt. Nut B remains unactivated, targeting A actual arrival+40days. Open packs sequentially; same-food Pistachio remainders are allocated. Delivered labels prevail.",
     "fresh_food": "Use actual batch arrival, edible yield and label dates; no freshness certificate from a28/90day interval.",
     "dates": "Use expected consumption under the approved rotation to propose first dates, distinguish forecast from observed depletion, and verify retailer-native first-start support. No routine date edits or skips count as native automation."
   },
   "derived_analysis": {
-    "as_of": "2026-09-19",
+    "as_of": "2026-09-24",
     "operational_evidence_separate_from_arithmetic": {
-      "recorded_on": "2026-09-19",
-      "source": "Dated merchant email and live Opera subscription verification19September; earlier checkout/stock observations retain their original scope.",
+      "recorded_on": "2026-09-24",
+      "source": "Live Opera checks22-23September, signed-in Nut checkout22September, user stock/receipt report23September. Historical evidence keeps its original dates. 24September profile, email and reversible Egg/Oat basket checks; no new stock observation.",
       "357": {
         "delivered_at": "2026-09-18T14:44:00+02:00",
         "next_payment_date": "2026-09-25",
@@ -304,7 +334,8 @@
             "shiitake_200g": 14.21,
             "oyster_200g": 8.99
           },
-          "kiwi_delivered_premium_check": "unresolved; +33.2% against47.976PLN normalized Frisco goods; manual delivered comparator must reach51.136PLN for25% cap"
+          "kiwi_delivered_premium_check": "Historical comparison closed to further investigation by user20September; leave existing purchase unchanged. Not a verified price-compliance finding.",
+          "payment_reminder_received_at": "2026-09-24T08:01:42+02:00"
         },
         "following_template": {
           "delivery_date": "2026-10-29",
@@ -322,8 +353,13 @@
         "earlier_verified_renewal_quote_pln": 104.09,
         "evening_overview_base_pln": 115.66,
         "current_payable_renewal_total_verified": false,
-        "first_order_243898": "paid; planned21September dispatch;18September GLS label only, no handover confirmation",
-        "last_checked": "2026-09-19"
+        "first_order_243898": "Paid201.61PLN;22September signed-in detail held for missing merchant stock, no revised ETA; user23September confirms not received. No arrival or consumption credited.",
+        "last_checked": "2026-09-24",
+        "visible_discounted_template_pln": 104.09,
+        "home_courier_pln": 0,
+        "egg_sku": 45382,
+        "replacement_sku46125_saved": false,
+        "history_status_24sep": "realizowane; detail requires additional sign-in. Does not establish release of22September stock hold, dispatch or replacement ETA."
       },
       "pantry_B_checkout": {
         "foods": {
@@ -334,9 +370,9 @@
         "gls_home_courier_pln": 9.49,
         "checkout_total_pln": 88.76,
         "free_method": "pickup only; unacceptable for user",
-        "native_plan_status": "rejected_paid_home_courier",
+        "native_plan_status": "retired_paid_courier_and_excess_macadamia_rate",
         "order_submitted": false,
-        "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler.",
+        "implication": "Do not activate this60day composition: paid home courier and200g excess Macadamia/90days. Later NutA/B90day checkout evidence is separate.",
         "observed_on": "2026-09-18"
       },
       "egg_product": {
@@ -348,7 +384,7 @@
         "superseded_for_sourcing": "User selected organic green-legged-hen SKU46125 below. Historical stock observation remains valid for45382 and does not block the selected product."
       },
       "selected_organic_eggs": {
-        "observed_on": "2026-09-19",
+        "observed_on": "2026-09-22",
         "sku": 46125,
         "ean": "5907814665997",
         "url": "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125",
@@ -369,12 +405,126 @@
           90
         ],
         "manual_comparator": {
-          "status": "Selected green-legged product needs its own matched delivered-price comparison; prior Ekowital clearance does not transfer. The25% cap remains in force."
+          "observed_on": "2026-09-21",
+          "retailer": "PyszneEKO",
+          "pack_price_pln": 22.99,
+          "first_premium_percent": 8.7,
+          "renewal_premium_percent": -2.2,
+          "status": "Same EAN goods comparison passes25% conditional on free Bioshi home courier and no mandatory fees."
         },
         "selected_for": "User-selected README product and future Egg sourcing using existing10-count patterns; not an activated stream or a replacement of the paid first361 carton.",
         "husbandry_evidence": "Retailer describes certified organic production, access to runs/pastures and organic feed; not an independent farm audit.",
         "whole_shipment_free_home_courier_verified": false,
-        "order_or_subscription_submitted": false
+        "order_or_subscription_submitted": false,
+        "editor_state": "Authenticated search returned no selected product; current361 still has45382. No replacement saved."
+      },
+      "nut_groups": {
+        "observed_on": "2026-09-22",
+        "interval_days": 90,
+        "first_home_courier": "GLS",
+        "first_home_courier_pln": 0,
+        "A": {
+          "walnut_g": 300,
+          "pistachio_g": 300,
+          "macadamia_g": 200,
+          "first_goods_pln": 148.46,
+          "calculated_discounted_goods_pln": 133.61
+        },
+        "B": {
+          "walnut_g": 300,
+          "pistachio_g": 150,
+          "almond_g": 350,
+          "macadamia_g": 200,
+          "first_goods_pln": 132.56,
+          "calculated_discounted_goods_pln": 119.3
+        },
+        "renewal_home_courier_verified": false,
+        "batch_and_opened_life_verified": false,
+        "order_submitted": false,
+        "basket_restored_empty": true,
+        "price_status": "Four per-product comparisons passed25% conditional on free courier; discounted goods are arithmetic, not complete renewal quotes."
+      },
+      "nut_A_final_checkout": {
+        "observed_on": "2026-09-23",
+        "status": "active_paid_card_attached",
+        "url": "https://bioshi.pl/pl/subscription.html?id=370",
+        "foods": {
+          "walnut300g": 1,
+          "pistachio150g": 2,
+          "macadamia200g": 1
+        },
+        "interval_days": 90,
+        "first_total_pln": 133.61,
+        "selected_home_courier": "GLS",
+        "home_courier_pln": 0,
+        "displayed_recurring_charge_pln": 133.61,
+        "advertised_discount_from_second_percent": 10,
+        "calculated_discounted_goods_pln": 133.61,
+        "discounted_renewal_quote_verified": true,
+        "estimated_first_delivery": "2026-09-25",
+        "displayed_next_delivery": "2026-12-24",
+        "terms_accepted": true,
+        "order_submitted": true,
+        "new_saved_list_verified": false,
+        "storage_assessment": "Practical40-day rotation using exact manufacturer cool/dry guidance and sequential pack opening; received label/condition prevails. Not a90-day opened-pack assumption.",
+        "order_id": 246975,
+        "subscription_id": 370,
+        "order_submitted_at": "2026-09-23T22:39:18+02:00",
+        "first_before_coupon_pln": 148.46,
+        "coupon": "kk11",
+        "coupon_discount_pln": 14.85,
+        "coupon_evidence": "Returning-customer shipping email17September, valid60days, nonstacking; applied10% at checkout and confirmed in order email23September.",
+        "lines_pln": {
+          "walnut300g": 20.69,
+          "pistachio150g_x2": 82.6,
+          "macadamia200g": 30.32
+        },
+        "renewal_quote_scope": "Live profile370 next-renewal quote23September, selected GLS free; future prices may change.",
+        "payment_fee_pln": 0,
+        "user_approved": true,
+        "retailer_profile_status": "Aktywna",
+        "card_on_profile": true,
+        "initial_payment_verified": true,
+        "payment_status": "Paid133.61PLN verified on order success page; order being prepared. No repeat payment needed.",
+        "discount_tiers": {
+          "shipment2_percent": 10,
+          "shipments3_to_300_percent": 15
+        },
+        "initial_paid_pln": 133.61,
+        "paid_at_display": "2026-09-23 22:40 Europe/Warsaw",
+        "card_verification": "IdoPay embedded settings explicitly showed Aktywna karta dla subskrypcji nr370 after payment; parent profile temporarily still showed missing card.",
+        "shipment_status": "GLS email23September22:44 Warsaw confirms sender preparation only, no carrier handover; no receipt verified24September.",
+        "parent_card_status": "After reload parent displays masked card and verification-in-progress notice; IdoPay already explicitly confirms active card. Monitor synchronization; do not repay or request duplicate card entry.",
+        "last_checked": "2026-09-24",
+        "payment_processor_confirmation": {
+          "received_at": "2026-09-23T22:40:47+02:00",
+          "order_id": 246975,
+          "charged_pln": 133.61,
+          "source": "IdoPay email confirms recurring-card charge; not a second purchase."
+        }
+      },
+      "obsolete_order_243402": {
+        "status": "merchant_rejected",
+        "email_received_at": "2026-09-23T12:26:35+02:00",
+        "subject": "BIOSHI - Zamówienie nr 243402 zostało odrzucone",
+        "instruction": "Do not pay. This resolves order disposition only; no refund or independent bank-release confirmation is inferred.243364/243397 cancellation remains unconfirmed."
+      },
+      "egg_oat_small_basket_24sep": {
+        "observed_on": "2026-09-24",
+        "foods": {
+          "organic_green_legged_eggs10_sku46125": 1,
+          "organic_rolled_oats500g_sku52572": 1
+        },
+        "interval_days": 30,
+        "goods_pln": 36.88,
+        "basket_shipping_unspecified_pln": 6.99,
+        "basket_total_pln": 43.87,
+        "home_courier_verified": false,
+        "renewal_total_verified": false,
+        "checkout_access": "Requested sign-in before courier selection. Subscription profiles remain readable. No user login request because route is not otherwise ready.",
+        "readiness": "Not qualified; reconcile held paid1kg Oats and startup meal allocation, then verify first/renewal free home courier.30day candidate is not an activated replacement of earlier Oat streams.",
+        "order_submitted": false,
+        "basket_restored_empty": true
       }
     },
     "active_coverage_per_28_days": {
@@ -529,6 +679,77 @@
       "decision": "Hold300g route if current delivered comparison confirms more than25% premium. Do not compensate using savings on unrelated foods."
     },
     "nut_comparisons": {
+      "current_two_groups_90_days": {
+        "streams": [
+          {
+            "quantity": 800,
+            "days": 90,
+            "phase": 0
+          },
+          {
+            "quantity": 1000,
+            "days": 90,
+            "phase": 40
+          }
+        ],
+        "inventory_g": {
+          "period_days": 90,
+          "supply": 1800.0,
+          "demand": 1800.0,
+          "net_change_per_period": 0.0,
+          "quantity_balanced": true,
+          "minimum_synthetic_opening_buffer": 0.0,
+          "peak_after_delivery_with_that_buffer": 1000.0,
+          "mean_end_of_day_stock_with_that_buffer": 445.555556,
+          "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
+        },
+        "nut_grams_per_90_days": {
+          "walnuts": 600,
+          "pistachios": 450,
+          "almonds": 350,
+          "macadamias": 400
+        },
+        "A_contents_g": {
+          "walnuts": 300,
+          "pistachios": 300,
+          "macadamias": 200
+        },
+        "B_contents_g": {
+          "walnuts": 300,
+          "pistachios": 150,
+          "almonds": 350,
+          "macadamias": 200
+        },
+        "dated_checkout_evidence": {
+          "observed_on": "2026-09-22",
+          "interval_days": 90,
+          "first_home_courier": "GLS",
+          "first_home_courier_pln": 0,
+          "A": {
+            "walnut_g": 300,
+            "pistachio_g": 300,
+            "macadamia_g": 200,
+            "first_goods_pln": 148.46,
+            "calculated_discounted_goods_pln": 133.61
+          },
+          "B": {
+            "walnut_g": 300,
+            "pistachio_g": 150,
+            "almond_g": 350,
+            "macadamia_g": 200,
+            "first_goods_pln": 132.56,
+            "calculated_discounted_goods_pln": 119.3
+          },
+          "renewal_home_courier_verified": false,
+          "batch_and_opened_life_verified": false,
+          "order_submitted": false,
+          "basket_restored_empty": true,
+          "price_status": "Four per-product comparisons passed25% conditional on free courier; discounted goods are arithmetic, not complete renewal quotes."
+        },
+        "accepted_for_activation": false,
+        "status": "Current preparation candidate. Both repeat every90days, B40days after A. Exact aggregate20g/day and preserved90day species shares; not an activated subscription or a species-level usable-life proof.",
+        "portion_caveat": "150g Pistachio and350g Almond packs leave10g at20g portions. Verify same-food remainder use and opened life; unknown combined opening Nuts do not establish species-specific coverage."
+      },
       "existing_proposal_six_groups": {
         "streams": [
           {
@@ -572,7 +793,8 @@
           "peak_after_delivery_with_that_buffer": 550.0,
           "mean_end_of_day_stock_with_that_buffer": 265.0,
           "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
-        }
+        },
+        "status": "Historical arithmetic comparison; not the current activation proposal."
       },
       "same_mix_eight_pack_phases": {
         "streams": [
@@ -636,7 +858,7 @@
           "mean_end_of_day_stock_with_that_buffer": 120.0,
           "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
         },
-        "status": "No standalone Nut orders authorized or shipping verified. Co-group only with genuinely due food on the same cycle.",
+        "status": "Historical lower-stock arithmetic comparison; no standalone Nut orders authorized or shipping verified. Co-group only with genuinely due food on the same cycle.",
         "portion_caveat": "150g Pistachio and350g Almond packs leave10g at20g portions. The report is a mass lower bound, not a species-level eating plan. Resolve the same-food remainder and its opened life; never combine different Nuts into a CHOOSE ONE serving."
       },
       "four_one_pack_stream_alternatives": [
@@ -671,6 +893,21 @@
           "status": "Quantity alternative only; changes the prior variety shares and is not selected."
         }
       ]
+    },
+    "activation_rollout": {
+      "as_of": "2026-09-23",
+      "document": "diet/DIET_ACTIVATION_ROLLOUT.md",
+      "new_streams_activated": 1,
+      "nut_A_activation_target": "2026-09-23",
+      "nut_A_arrival_preference": "2026-09-25",
+      "nut_A_status": "active_paid_card_attached",
+      "nut_B_arrival_rule": "A actual arrival+40days, subject to native dates/usable reserve; each90days",
+      "oats_current_gap": true,
+      "full_automation_completion_date": null,
+      "completion_date_reason": "Exact-food native routes, complete free-courier groups, usable life and repeated stock balance remain unverified; no promised full-automation date.",
+      "new_streams_created": 1,
+      "nut_A_subscription": 370,
+      "nut_A_order": 246975
     },
     "practical_additional_alternatives": {
       "monthly_egg_clusters": {
@@ -752,6 +989,9 @@
         "status": "Exact25g/day. Two native rate cores; dates/composition/courier need checkout."
       },
       "two_pantry_groups_60_days": {
+        "retired": true,
+        "accepted_for_activation": false,
+        "status": "Retired historical composition:600g Macadamia/90days exceeds the intended400g by200g, despite aggregate Nut mass balancing. The tested B also failed free home courier. Do not revive as a current proposal.",
         "A": {
           "phase": 0,
           "days": 60,
@@ -782,9 +1022,9 @@
             "gls_home_courier_pln": 9.49,
             "checkout_total_pln": 88.76,
             "free_method": "pickup only; unacceptable for user",
-            "native_plan_status": "rejected_paid_home_courier",
+            "native_plan_status": "retired_paid_courier_and_excess_macadamia_rate",
             "order_submitted": false,
-            "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler.",
+            "implication": "Do not activate this60day composition: paid home courier and200g excess Macadamia/90days. Later NutA/B90day checkout evidence is separate.",
             "observed_on": "2026-09-18"
           },
           "accepted_for_activation": false
@@ -817,58 +1057,104 @@
           "almonds": 350,
           "macadamias": 400
         },
-        "tradeoff": "Only two60-day pantry groups with exact aggregate25g Oats/day and20g Nuts/day. Nut peak800g is higher than the360g eight-phase lower bound; four varieties remain, but Walnut/Pistachio shares fall relative to the previous90-day mix. No claim that changed shares improve health.20g same-food portions and10g species remnants still need a feasible consumption allocation.",
+        "tradeoff": "Historical arithmetic only: exact aggregate25g Oats/day and20g Nuts/day, but600g Macadamia/90days instead of the intended400g, plus altered shares of the other Nuts. This composition does not preserve the agreed rotation.",
         "shipping": "Standalone B rejected:79.27zł goods +9.49zł GLS home courier =88.76zł; only pickup is free. A remains unquoted. Arithmetic balance does not make this pair an accepted schedule. No filler or assumed fee waiver.",
-        "transition": "Existing Nuts and paid1kg Oats have different runways. Configure retailer-supported delayed first starts that preserve coverage. If the retailer cannot express them without manual bridge purchases or routine edits, this grouped candidate is not an accepted native-only solution."
+        "transition": "Retired: do not configure this pair. The current NutA/B90day candidate is separate from the outstanding Oat route."
       }
     },
     "forecast_stock_reviews": {
-      "assumptions": "Written daily demand starts14September against the reported/estimated full packs. Forecasts are useful scheduling estimates, not observed consumption or expiry. A review can refine the model without requiring daily user confirmation.",
+      "assumptions": "Use the latest dated stock observation on or before as_of for each exact group/unit; otherwise retain the original opening-stock estimate. Forecast daily use from that reference, assuming the balance precedes that day's serving. Before/after-serving timing, measured quantities, consumption and expiry remain unverified. Combined Nut mass does not identify species or guarantee complete same-food portions. Incoming orders are excluded until receipt is established.",
       "reviews": [
         {
           "food": "combined Nuts",
-          "forecast_remaining_before_today_use": 400.0,
-          "first_forecast_not_fully_supplied_day": "2026-10-09",
-          "review_no_later_than": "2026-10-02",
+          "stock_reported_on": "2026-09-23",
+          "stock_reference_quantity": 100.0,
+          "unit": "g",
+          "stock_source": "User estimate; species and whether today's serving was already eaten are unknown.",
+          "forecast_remaining_before_today_use": 80.0,
+          "first_forecast_not_fully_supplied_day": "2026-09-28",
+          "review_no_later_than": "2026-09-24",
           "forecast_only": true
         },
         {
           "food": "combined Flax/Chia",
-          "forecast_remaining_before_today_use": 615.0,
+          "stock_reported_on": "2026-09-14",
+          "stock_reference_quantity": 650.0,
+          "unit": "g",
+          "stock_source": "Original opening-stock estimate",
+          "forecast_remaining_before_today_use": 580.0,
           "first_forecast_not_fully_supplied_day": "2026-12-15",
           "review_no_later_than": "2026-12-01",
           "forecast_only": true
         },
         {
           "food": "Pumpkin",
-          "forecast_remaining_before_today_use": 315.0,
+          "stock_reported_on": "2026-09-14",
+          "stock_reference_quantity": 350.0,
+          "unit": "g",
+          "stock_source": "Original opening-stock estimate",
+          "forecast_remaining_before_today_use": 280.0,
           "first_forecast_not_fully_supplied_day": "2026-11-03",
           "review_no_later_than": "2026-10-27",
           "forecast_only": true
         },
         {
           "food": "Matcha",
-          "forecast_remaining_before_today_use": 190.0,
+          "stock_reported_on": "2026-09-14",
+          "stock_reference_quantity": 200.0,
+          "unit": "g",
+          "stock_source": "Original opening-stock estimate",
+          "forecast_remaining_before_today_use": 180.0,
           "first_forecast_not_fully_supplied_day": "2026-12-23",
           "review_no_later_than": "2026-12-09",
           "forecast_only": true
         },
         {
           "food": "Phileos",
-          "forecast_remaining_before_today_use": 161.25,
+          "stock_reported_on": "2026-09-14",
+          "stock_reference_quantity": 228.75,
+          "unit": "g",
+          "stock_source": "Original opening-stock estimate",
+          "forecast_remaining_before_today_use": 93.75,
           "first_forecast_not_fully_supplied_day": "2026-09-30",
-          "review_no_later_than": "2026-09-23",
+          "review_no_later_than": "2026-09-24",
           "forecast_only": true
         },
         {
           "food": "Soy Milk if chosen every day",
-          "forecast_remaining_before_today_use": 1000.0,
+          "stock_reported_on": "2026-09-14",
+          "stock_reference_quantity": 2000.0,
+          "unit": "ml",
+          "stock_source": "Original opening-stock estimate",
+          "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-24",
-          "review_no_later_than": "2026-09-19",
+          "review_no_later_than": "2026-09-24",
+          "forecast_only": true
+        },
+        {
+          "food": "Rolled Oats",
+          "stock_reported_on": "2026-09-23",
+          "stock_reference_quantity": 0.0,
+          "unit": "g",
+          "stock_source": "User report; paid incoming1kg has not arrived.",
+          "forecast_remaining_before_today_use": 0.0,
+          "first_forecast_not_fully_supplied_day": "2026-09-23",
+          "review_no_later_than": "2026-09-24",
           "forecast_only": true
         }
       ],
-      "oat_rule": "Paid1kg supplies40 written servings after actual consumption begins. Forecast replenishment for day40 and review7days beforehand; actual arrival/start remains unknown. A planned21September dispatch is not an arrival date.",
+      "observations_without_depletion_forecast": [
+        {
+          "food": "Eggs",
+          "stock_reported_on": "2026-09-23",
+          "reported_quantity": 10,
+          "unit": "count",
+          "stock_source": "User estimate; actual shell-free mass and meal allocation unknown.",
+          "forecast_depletion_date": null,
+          "reason": "Apply the actual dinner rotation and edible weights; no daily-average depletion or incoming carton is assumed."
+        }
+      ],
+      "oat_rule": "Forecast currently reported Oats separately from incoming food. The paid1kg supplies40 written servings only after actual receipt and consumption begin; those dates remain unknown. An empty current balance is an immediate coverage gap, not covered by a dispatch estimate.",
       "fresh_stock": "357 parcel arrived18September, reported by root's live review. Use its Kiwi/Tomatoes/Mushrooms by actual condition, measured yield and label dates; do not infer today's consumption.",
       "native_only": "Forecasts inform initial retailer configuration. No routine skips, date corrections, manual bridge purchases or Codex-managed reorder cycle count as an accepted solution."
     },
@@ -917,16 +1203,17 @@
   },
   "native_first_start_forecast": {
     "status": "Forecast inputs for one-time native configuration, not bookings, observed depletion, or permission for managed ordering.",
-    "nuts_combined_forecast_first_need": "2026-10-09",
-    "nuts_review_by": "2026-10-02",
-    "nuts_assumption": "500g on14September,20g/day. Actual remainder/expiry may differ.",
-    "paid_oat_first_need_rule": "40 written servings after actual consumption starts; actual arrival remains unknown.",
-    "grouping_constraint": "Native retailer first-start dates must accommodate these different runways. No manual bridge, routine skip or repeated Codex edit may make an otherwise infeasible schedule appear compliant."
+    "nuts_combined_forecast_first_need": "2026-09-28",
+    "nuts_review_by": "2026-09-24",
+    "nuts_assumption": "100g reported23September; up to five20g same-food choices, depending on variety split. Aggregate first need28September if before today's serving,29September if after; an earlier gap is possible. Not observed future depletion.",
+    "paid_oat_first_need_rule": "Oats0g reported23September: immediate gap. Held paid1kg is not usable stock. First-purchase schedule must include actual arrival and any interim pack.",
+    "grouping_constraint": "Native retailer first-start dates must accommodate these different runways. No manual bridge, routine skip or repeated Codex edit may make an otherwise infeasible schedule appear compliant.",
+    "rollout_file": "diet/DIET_ACTIVATION_ROLLOUT.md"
   },
   "native_whole_diet_status": {
     "status": "not_demonstrated_feasible",
     "current_candidate_infeasible": true,
-    "reason": "Active nine-food supply is partial. Restricted pack/cycle arithmetic and remaining exact-food native-source, price, free-courier and shelf-life gaps prevent a complete native-only schedule.",
+    "reason": "Active357/361/370 provide partial supply. Nut A supplies40 Nut portions/90days and is paid/incoming, not received. Nut B and remaining native-source, price, free-courier and stock-balance gaps prevent complete native-only coverage.",
     "known_native_source_gaps": [
       "Turkey tenderloins",
       "skinless Salmon",
@@ -940,15 +1227,15 @@
     "concrete_quantity_conflicts": [
       "7g daily Seeds cannot be exactly replenished by packs all divisible by50g using only documented7/14/21/28/30/60/90-day periods.",
       "Selected800g Sauerkraut needs eight100g choices; competing three/seven-day opened instructions do not establish a fresh no-waste recurring pattern.",
-      "Small Nut packs leave10g same-species remnants; aggregate rate balance does not establish their usable-life allocation."
+      "Nut A Pistachio same-food remainders allocated across its two packs; future Nut B Almond remainder allocation still needs delivered-label storage assessment."
     ],
     "what_would_change_it": "Verified compatible retailer-native packs/cycles/first starts and exact source routes within25% delivered premium, with no paid courier or surplus filler.",
     "concrete_checkout_failure": "PantryB Oats500g plus2×Macadamia200g requires9.49zł home courier. Free pickup does not satisfy the constraint.",
-    "current_stock_block": "Exact Egg SKU45382 unavailable for new subscription checkout; existing paid361 reserve is separate."
+    "current_stock_block": "Selected46125 available22September but no qualifying new Egg shipment; authenticated replacement search failed. Oats0g and Nuts100g reported23September; paid Nut A now incoming, first arrival unconfirmed."
   },
   "operational_evidence": {
-    "recorded_on": "2026-09-19",
-    "source": "Dated merchant email and live Opera subscription verification19September; earlier checkout/stock observations retain their original scope.",
+    "recorded_on": "2026-09-24",
+    "source": "Live Opera checks22-23September, signed-in Nut checkout22September, user stock/receipt report23September. Historical evidence keeps its original dates. 24September profile, email and reversible Egg/Oat basket checks; no new stock observation.",
     "357": {
       "delivered_at": "2026-09-18T14:44:00+02:00",
       "next_payment_date": "2026-09-25",
@@ -966,7 +1253,8 @@
           "shiitake_200g": 14.21,
           "oyster_200g": 8.99
         },
-        "kiwi_delivered_premium_check": "unresolved; +33.2% against47.976PLN normalized Frisco goods; manual delivered comparator must reach51.136PLN for25% cap"
+        "kiwi_delivered_premium_check": "Historical comparison closed to further investigation by user20September; leave existing purchase unchanged. Not a verified price-compliance finding.",
+        "payment_reminder_received_at": "2026-09-24T08:01:42+02:00"
       },
       "following_template": {
         "delivery_date": "2026-10-29",
@@ -984,8 +1272,13 @@
       "earlier_verified_renewal_quote_pln": 104.09,
       "evening_overview_base_pln": 115.66,
       "current_payable_renewal_total_verified": false,
-      "first_order_243898": "paid; planned21September dispatch;18September GLS label only, no handover confirmation",
-      "last_checked": "2026-09-19"
+      "first_order_243898": "Paid201.61PLN;22September signed-in detail held for missing merchant stock, no revised ETA; user23September confirms not received. No arrival or consumption credited.",
+      "last_checked": "2026-09-24",
+      "visible_discounted_template_pln": 104.09,
+      "home_courier_pln": 0,
+      "egg_sku": 45382,
+      "replacement_sku46125_saved": false,
+      "history_status_24sep": "realizowane; detail requires additional sign-in. Does not establish release of22September stock hold, dispatch or replacement ETA."
     },
     "pantry_B_checkout": {
       "foods": {
@@ -996,9 +1289,9 @@
       "gls_home_courier_pln": 9.49,
       "checkout_total_pln": 88.76,
       "free_method": "pickup only; unacceptable for user",
-      "native_plan_status": "rejected_paid_home_courier",
+      "native_plan_status": "retired_paid_courier_and_excess_macadamia_rate",
       "order_submitted": false,
-      "implication": "Standalone B does not satisfy free home courier. Do not activate the exact A/B proposal or add surplus filler.",
+      "implication": "Do not activate this60day composition: paid home courier and200g excess Macadamia/90days. Later NutA/B90day checkout evidence is separate.",
       "observed_on": "2026-09-18"
     },
     "egg_product": {
@@ -1010,7 +1303,7 @@
       "superseded_for_sourcing": "User selected organic green-legged-hen SKU46125 below. Historical stock observation remains valid for45382 and does not block the selected product."
     },
     "selected_organic_eggs": {
-      "observed_on": "2026-09-19",
+      "observed_on": "2026-09-22",
       "sku": 46125,
       "ean": "5907814665997",
       "url": "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125",
@@ -1031,12 +1324,172 @@
         90
       ],
       "manual_comparator": {
-        "status": "Selected green-legged product needs its own matched delivered-price comparison; prior Ekowital clearance does not transfer. The25% cap remains in force."
+        "observed_on": "2026-09-21",
+        "retailer": "PyszneEKO",
+        "pack_price_pln": 22.99,
+        "first_premium_percent": 8.7,
+        "renewal_premium_percent": -2.2,
+        "status": "Same EAN goods comparison passes25% conditional on free Bioshi home courier and no mandatory fees."
       },
       "selected_for": "User-selected README product and future Egg sourcing using existing10-count patterns; not an activated stream or a replacement of the paid first361 carton.",
       "husbandry_evidence": "Retailer describes certified organic production, access to runs/pastures and organic feed; not an independent farm audit.",
       "whole_shipment_free_home_courier_verified": false,
-      "order_or_subscription_submitted": false
+      "order_or_subscription_submitted": false,
+      "editor_state": "Authenticated search returned no selected product; current361 still has45382. No replacement saved."
+    },
+    "nut_groups": {
+      "observed_on": "2026-09-22",
+      "interval_days": 90,
+      "first_home_courier": "GLS",
+      "first_home_courier_pln": 0,
+      "A": {
+        "walnut_g": 300,
+        "pistachio_g": 300,
+        "macadamia_g": 200,
+        "first_goods_pln": 148.46,
+        "calculated_discounted_goods_pln": 133.61
+      },
+      "B": {
+        "walnut_g": 300,
+        "pistachio_g": 150,
+        "almond_g": 350,
+        "macadamia_g": 200,
+        "first_goods_pln": 132.56,
+        "calculated_discounted_goods_pln": 119.3
+      },
+      "renewal_home_courier_verified": false,
+      "batch_and_opened_life_verified": false,
+      "order_submitted": false,
+      "basket_restored_empty": true,
+      "price_status": "Four per-product comparisons passed25% conditional on free courier; discounted goods are arithmetic, not complete renewal quotes."
+    },
+    "nut_A_final_checkout": {
+      "observed_on": "2026-09-23",
+      "status": "active_paid_card_attached",
+      "url": "https://bioshi.pl/pl/subscription.html?id=370",
+      "foods": {
+        "walnut300g": 1,
+        "pistachio150g": 2,
+        "macadamia200g": 1
+      },
+      "interval_days": 90,
+      "first_total_pln": 133.61,
+      "selected_home_courier": "GLS",
+      "home_courier_pln": 0,
+      "displayed_recurring_charge_pln": 133.61,
+      "advertised_discount_from_second_percent": 10,
+      "calculated_discounted_goods_pln": 133.61,
+      "discounted_renewal_quote_verified": true,
+      "estimated_first_delivery": "2026-09-25",
+      "displayed_next_delivery": "2026-12-24",
+      "terms_accepted": true,
+      "order_submitted": true,
+      "new_saved_list_verified": false,
+      "storage_assessment": "Practical40-day rotation using exact manufacturer cool/dry guidance and sequential pack opening; received label/condition prevails. Not a90-day opened-pack assumption.",
+      "order_id": 246975,
+      "subscription_id": 370,
+      "order_submitted_at": "2026-09-23T22:39:18+02:00",
+      "first_before_coupon_pln": 148.46,
+      "coupon": "kk11",
+      "coupon_discount_pln": 14.85,
+      "coupon_evidence": "Returning-customer shipping email17September, valid60days, nonstacking; applied10% at checkout and confirmed in order email23September.",
+      "lines_pln": {
+        "walnut300g": 20.69,
+        "pistachio150g_x2": 82.6,
+        "macadamia200g": 30.32
+      },
+      "renewal_quote_scope": "Live profile370 next-renewal quote23September, selected GLS free; future prices may change.",
+      "payment_fee_pln": 0,
+      "user_approved": true,
+      "retailer_profile_status": "Aktywna",
+      "card_on_profile": true,
+      "initial_payment_verified": true,
+      "payment_status": "Paid133.61PLN verified on order success page; order being prepared. No repeat payment needed.",
+      "discount_tiers": {
+        "shipment2_percent": 10,
+        "shipments3_to_300_percent": 15
+      },
+      "initial_paid_pln": 133.61,
+      "paid_at_display": "2026-09-23 22:40 Europe/Warsaw",
+      "card_verification": "IdoPay embedded settings explicitly showed Aktywna karta dla subskrypcji nr370 after payment; parent profile temporarily still showed missing card.",
+      "shipment_status": "GLS email23September22:44 Warsaw confirms sender preparation only, no carrier handover; no receipt verified24September.",
+      "parent_card_status": "After reload parent displays masked card and verification-in-progress notice; IdoPay already explicitly confirms active card. Monitor synchronization; do not repay or request duplicate card entry.",
+      "last_checked": "2026-09-24",
+      "payment_processor_confirmation": {
+        "received_at": "2026-09-23T22:40:47+02:00",
+        "order_id": 246975,
+        "charged_pln": 133.61,
+        "source": "IdoPay email confirms recurring-card charge; not a second purchase."
+      }
+    },
+    "obsolete_order_243402": {
+      "status": "merchant_rejected",
+      "email_received_at": "2026-09-23T12:26:35+02:00",
+      "subject": "BIOSHI - Zamówienie nr 243402 zostało odrzucone",
+      "instruction": "Do not pay. This resolves order disposition only; no refund or independent bank-release confirmation is inferred.243364/243397 cancellation remains unconfirmed."
+    },
+    "egg_oat_small_basket_24sep": {
+      "observed_on": "2026-09-24",
+      "foods": {
+        "organic_green_legged_eggs10_sku46125": 1,
+        "organic_rolled_oats500g_sku52572": 1
+      },
+      "interval_days": 30,
+      "goods_pln": 36.88,
+      "basket_shipping_unspecified_pln": 6.99,
+      "basket_total_pln": 43.87,
+      "home_courier_verified": false,
+      "renewal_total_verified": false,
+      "checkout_access": "Requested sign-in before courier selection. Subscription profiles remain readable. No user login request because route is not otherwise ready.",
+      "readiness": "Not qualified; reconcile held paid1kg Oats and startup meal allocation, then verify first/renewal free home courier.30day candidate is not an activated replacement of earlier Oat streams.",
+      "order_submitted": false,
+      "basket_restored_empty": true
     }
+  },
+  "stock_observations": [
+    {
+      "reported_on": "2026-09-23",
+      "group": "combined Nuts",
+      "quantity": 100,
+      "unit": "g",
+      "source": "User estimate; species and whether today's serving was already eaten are unknown."
+    },
+    {
+      "reported_on": "2026-09-23",
+      "group": "Rolled Oats",
+      "quantity": 0,
+      "unit": "g",
+      "source": "User report; paid incoming1kg has not arrived."
+    },
+    {
+      "reported_on": "2026-09-23",
+      "group": "Eggs",
+      "quantity": 10,
+      "unit": "count",
+      "source": "User estimate; actual shell-free mass and meal allocation unknown."
+    }
+  ],
+  "receipt_observations": [
+    {
+      "reported_on": "2026-09-23",
+      "order_id": 243898,
+      "received": false,
+      "source": "User confirmation."
+    }
+  ],
+  "activation_rollout": {
+    "as_of": "2026-09-23",
+    "document": "diet/DIET_ACTIVATION_ROLLOUT.md",
+    "new_streams_activated": 1,
+    "nut_A_activation_target": "2026-09-23",
+    "nut_A_arrival_preference": "2026-09-25",
+    "nut_A_status": "active_paid_card_attached",
+    "nut_B_arrival_rule": "A actual arrival+40days, subject to native dates/usable reserve; each90days",
+    "oats_current_gap": true,
+    "full_automation_completion_date": null,
+    "completion_date_reason": "Exact-food native routes, complete free-courier groups, usable life and repeated stock balance remain unverified; no promised full-automation date.",
+    "new_streams_created": 1,
+    "nut_A_subscription": 370,
+    "nut_A_order": 246975
   }
 }

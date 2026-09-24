@@ -1,6 +1,6 @@
 # Diet delivery optimization
 
-**Current plan: [current native-only renewal plan](DIET_RENEWAL_PLAN.md).** Retailer subscriptions only, free home courier and maximum25% delivered premium per comparable product. Only357/361 are active;243351 was delivered18September, and paid243898 has planned21September dispatch. Created357 renewal245125 will collect110.70zł on25September for1October; its Kiwi delivered-price comparison remains open. No separate manual payment is needed. The older schedules and quotations below are historical candidates, not activation instructions.
+**Current state23September:** Bioshi357/361/370 are active. Nut A370/order246975 is paid133.61zł with free GLS; IdoPay confirms its active card while the parent verification notice updates. Use the [renewal plan](DIET_RENEWAL_PLAN.md), [activation calendar](DIET_ACTIVATION_ROLLOUT.md) and [payment handoff](DIET_PAYMENT_HANDOFF.md) for current dates and required actions. Older schedules and quotes below are historical; they are not activation instructions.
 
 Adopted **2026-09-14**. Find a genuinely automatic purchasing-and-consumption schedule that supplies every required meal category and minimizes freshness loss when food is eaten, within the agreed Diet, budget and free home-courier requirement. **The current six-fresh/six-pantry proposal is a candidate, not a demonstrated feasible solution or a solved optimum.**
 

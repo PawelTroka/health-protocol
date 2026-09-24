@@ -1,5 +1,80 @@
 # Diet purchase handoff
 
+## 24September morning — no new manual action
+
+The08:01 Warsaw Bioshi reminder reconfirms **110.70zł automatic collection25September for245125**, delivery1October. This is the known created-order price, not a new increase. IdoPay's23September22:40 email independently confirms the **133.61zł charge for246975**; live370 still has its masked card/verification notice,133.61zł renewal quote and free GLS. No repeat payment or card entry is needed. The GLS message is label preparation only, without carrier handover.
+
+Live361 retains104.09zł/free GLS,2October payment and9October/23October delivery dates; its original Egg45382 remains. First243898 now appears as **realizowane** in subscription history, but order details require additional sign-in. No new email establishes release of the22September stock hold, dispatch or a replacement ETA. No receipt or stock depletion is inferred.
+
+A reversible **Egg46125×1 + Rolled Oats500g52572×1, both30days** basket test gave **36.88zł goods +6.99zł unspecified shipping**. Checkout then requested sign-in before home-courier selection; this is not a GLS quote or a qualifying activation. The two test lines were removed and the empty basket verified. The paid incoming1kg Oats still requires startup reconciliation. No new terms, order, payment, subscription, merchant message or user login request was submitted.
+
+## 23September evening — Nut A paid and automatic card confirmed
+
+After the user's explicit approval and coupon check, Bioshi accepted **order246975** and created [Nut A subscription370](https://bioshi.pl/pl/subscription.html?id=370): **Walnuts300g×1, Pistachios150g×2 and Macadamias200g×1 every90days**. The returning-customer coupon `kk11` from17September applied10%, saving14.85zł. The user completed payment; the23September22:40 Warsaw success page confirms **133.61zł paid** and order status **realizowane**. The merchant email confirms **GLS home courier0zł and payment fee0zł**. Discounted lines are20.69zł,82.60zł for both Pistachio packs, and30.32zł.
+
+**No further user action is needed for Nut A. Do not pay246975 again.**370 is **Aktywna**, and IdoPay's embedded payment settings explicitly confirm **“Aktywna karta dla subskrypcji nr370”**. Bioshi now displays the masked card and a notice that its update/verification is still processing; monitor completion rather than request another card entry.357/361/370 are active. No new saved list was verified, and the paid800g has not arrived.
+
+The370 profile verifies **133.61zł next-renewal quote, free GLS,90days and24December**. The creation email gives25September as the estimated first delivery,10% from shipment2 and15% from shipment3–300. The profile's23September payment date is stale; the next collection date is not yet verified. A tracking number has been assigned, but dispatch/arrival is unconfirmed. The initial coupon does not establish a permanent extra discount.
+
+**Obsolete order243402 was rejected by Bioshi in its23September12:26 Warsaw email.** Do not pay it.243364/243397 remain unresolved; profiles358/359/360 are already ended. The rejection is not a new payment or refund confirmation.
+
+The dry-Nut storage assessment is now sufficient for practical preparation: the exact Bio Planet products specify cool, dry storage without a short after-opening limit. Nut A supplies40×20g choices; open packs sequentially, joining the two10g Pistachio remnants into one same-food serving. Its packs need not remain open for90days. Normal delivered-label/condition inspection remains necessary; a missing batch-specific guarantee is not by itself a reason to postpone this dry-food purchase. Nut B remains a later separate group, approximately40days after A's actual arrival.
+
+
+## Earlier23September stock update and dated rollout — superseded by payment handoff above
+
+**No new subscription is payment-ready.** The [activation calendar](DIET_ACTIVATION_ROLLOUT.md) is now the current source for proposed first dates. User reports Oats0g, Eggsabout10, Nutsabout100g and no receipt of paid243898. NutA preparation moves to this week; the old early-October/9October forecast is superseded. Oats need immediate coverage rather than a refill40days after a parcel that has not arrived. No new order, terms, card authorization or subscription was submitted.
+
+The existing automatic payments remain25September/2October. Do not repay243898 or the excluded old orders. New Nut, Egg and Oat calendar targets remain conditional on complete stock, usable-life, price and free first/renewal home-courier verification; they are not payment instructions.
+
+## 23September morning — no new action ready
+
+357/361 remain active with automatic payment25September/2October, delivery1October/9October and free GLS.357's created245125 is110.70zł, separate from its104.55zł later template;361 currently quotes104.09zł. The original EggSKU45382 remains in361. Paid243898 is still “Przygotowanie do realizacji” in subscription history. Order details now request additional sign-in, although both subscription pages are readable; retain22September's verified missing-stock hold as the latest detailed explanation, rather than claiming it was reread today.
+
+Outlook has no new operational Bioshi/GLS dispatch, payment, cancellation or support message since last evening. The23:41 abandoned-cart newsletter is not a new order; the temporary Nut basket was verified emptied22September. No new purchase, account edit, outgoing message or payment request was made.
+
+The [selected Egg page](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125), [delivery policy](https://bioshi.pl/pl/delivery) and [terms](https://bioshi.pl/pl/terms) still do not establish a Bioshi-specific remaining-life guarantee or a universal free-GLS renewal rule. Yesterday's free first-checkout Nut quotes remain valid dated evidence, not proof of renewal shipping. Stock, usable life and complete qualifying shipments still prevent a final activation handoff; no repeat login or payment is requested.
+
+## 22September late evening — next activation candidates
+
+The signed-in checkout now quotes **free GLS home courier** for Nut A800g/148.46zł and Nut B1kg/132.56zł, with every line on90days. These are first-purchase quotes, not new orders or verified discounted renewal totals. Product pages advertise10% from delivery2. The temporary basket was emptied and verified; no terms, payment, order or new subscription was submitted.
+
+The [activation sequence](DIET_RENEWAL_PLAN.md#additional-native-streams-worth-configuring-once-their-whole-shipments-qualify) prioritizes extra green-legged Eggs, then Nut A in the then-estimated early-October window and Nut B40days later (**superseded by23September actual stock above**). Existing Nut stock, pack usable life and renewal courier remain to settle. The Oat500g/1kg streams start only against the actual arrival/use of the already-paid1kg; the held parcel leaves their calendar dates unknown. No payment handoff is ready today, and sign-in is not a remaining blocker.
+
+## 22September after sign-in — upcoming deliveries and held first parcel
+
+**Sign-in is resolved. No new payment or activation is requested.** Live357 confirms110.70zł automatic collection25September for1October, with29October following; live361 confirms2October collection and9October delivery, followed by23October.361 currently quotes104.09zł/free GLS, while357's104.55zł quote belongs to its later template. Both remain active with free GLS home delivery.
+
+Paid first order243898 is now readable and explicitly **held pending missing stock**. It confirms201.61zł already paid, does not identify the unavailable lines, and gives no reliable new arrival date.21September was the prior dispatch estimate; do not interpret the subscription's9October banner as a replacement ETA for this first parcel. Keep its food incoming and do not pay twice.
+
+The authorized green-legged Egg replacement remains incomplete: the authenticated editor still returns no product for “zielononóżki”, although selectedSKU46125 is available on its product page.361 still contains originalSKU45382, quantity1/14days. No product was removed or added, and no new order or subscription was submitted. Do not ask for another sign-in on this evidence. Nut/Oat/additional Egg groups remain candidates without activation dates.
+
+## 22September evening — sign-in to finish the Egg change
+
+**No new subscription payment is ready.** The README correctly names and links organic Eggs from pasture-raised green-legged hens, SKU46125. Live Bioshi361 still contains the formerSKU45382 carton; the account change is incomplete. Its current editor quotes104.09zł/free GLS, with edits stated to apply from23October. The already-created order remains separate.
+
+The requested46125 carton is currently available at24.99zł and offers native subscription cycles. The editor's add-product search returned no result for its EAN, variety name or the broader “jaja”; no old carton was removed and no second carton was added. Bioshi's login page currently requests the existing password. The user was asked to sign in in the prepared Opera tab so the replacement can be retried. This is an observed current login requirement, not a claim that sign-in will necessarily resolve the search problem. No payment, terms acceptance or new subscription was requested.
+
+357/361 retain their25September/2October payment dates. Outlook has no new relevant message since21September through this evening: paid243898 has no confirmed dispatch after its planned21September dispatch, and the obsolete-order cancellations remain unconfirmed. Nothing was ordered or sent to the merchant. Preserve the existing basket, which remains empty.
+
+## 21September — no activation action ready
+
+357/361 remain active with unchanged payment dates25September/2October.361's paid first-order history shows “Przygotowanie do realizacji”; no new relevant Bioshi/GLS email confirms dispatch, delivery, failed collection or cancellation.21September is its planned dispatch day. No repeat payment is needed.
+
+The selected green-legged Eggs now pass a fresh single-pack price comparison, conditional on free courier; their Bioshi remaining-life guarantee is unresolved. A two-group90-day Nut candidate preserves the intended variety without the earlier Macadamia oversupply. A temporary800g/148.46zł group was verified in the basket, but checkout requested fresh sign-in before any home-courier quote. Existing subscription pages remain readable. No login request was sent because shelf life, courier and stock-adjusted first timing still prevent a usable activation handoff. The test basket was emptied and verified; no order, subscription, terms acceptance or outgoing message was submitted. Details are in the [current plan](DIET_RENEWAL_PLAN.md#checkout-test-and-stock-comparison).
+
+## 20September — activation-only follow-up
+
+The user asked to leave Kiwi alone and focus on any manual action needed to activate another subscription. The live Bioshi account confirms357/361 active and an empty basket. **No new payment, Revolut approval, terms acceptance or login is needed now.** Additional green-legged Egg, Nut/Oat and produce groups require further preparation before a concrete activation handoff; the current Kiwi comparison is not a blocker. The existing monitor was updated to this priority while preserving retailer-only supply, free home courier and the price cap for other products/new subscriptions. No subscription or order was changed.
+
+## 20September review
+
+Paid243898 now shows **PAKOWANE** in subscription361. No new Bioshi/GLS email confirms courier handover or delivery;21September remains the planned dispatch date.357 still schedules110.70zł collection25September for1October, and361 retains2October payment/9October delivery. Created245125's order detail is now readable and shows the expected four lines and change/cancel links; no control was activated and no manual payment is requested.
+
+The [Frisco destination-basket check](DIET_SUBSCRIPTION_COSTS.md#20september--destination-basket-check) verifies local Kiwi availability and14zł courier +5.50zł packing. Fee allocation remains consequential: the illustrative proportional comparison passes, while incremental fees were unchanged and the original basket was below minimum. The25% cap therefore remains unverified; do not treat that sensitivity as approval. Temporary Kiwi additions were removed, restoring the existing44.44zł basket. Auchan currently requires sign-in; no repeated login request was sent.
+
+No new support/cancellation reply, payment failure, usable native route or final payment action was found. No order, subscription, outgoing message or stock-consumption entry was made. The selected green-legged Eggs remain a planned substitution, not a verified account change.
+
 ## 19September organic Egg substitution
 
 The user selected [organic green-legged-hen M Eggs10](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125), replacing the earlier Ekowital candidate. The README link and “green-legged hens” wording now match this choice. The retailer lists24.99zł first/about22.49zł renewal; the10-Egg pack fits the existing quantity patterns. The [current plan](DIET_RENEWAL_PLAN.md#selected-organic-eggs-19september) requires a fresh matched-price comparison, free first/renewal home courier, stock-adjusted start and actual remaining-life check for this SKU. **No new payment or subscription was submitted;357/361 and the paid first361 carton are unchanged.**

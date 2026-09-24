@@ -1,6 +1,30 @@
 # Diet stock and first-delivery transition
 
-**Current plan: [current native-only renewal plan](DIET_RENEWAL_PLAN.md).** Retailer subscriptions only, free home courier and maximum25% delivered premium per comparable product. Only357/361 are active;243351 was delivered18September, and paid243898 has planned21September dispatch. Created357 renewal245125 will collect110.70zł on25September for1October; its Kiwi delivered-price comparison remains open. No separate manual payment is needed. The older schedules and quotations below are historical candidates, not activation instructions.
+## 23September user stock update
+
+| Food | Reported available | Planning consequence |
+| --- | --- | --- |
+| Rolled Oats |0g |Immediate gap. Held paid1kg is incoming only. |
+| Eggs |About10 |About two200g dinners plus a nominal two-Egg remainder; weigh shell-free portions. No precise depletion date without meal allocation. |
+| Nuts |About100g combined |Up to five20g same-food choices; aggregate first need28September if before today's serving,29September if after. Unknown variety split may mean an earlier gap; opening dates unknown. |
+| Paid243898 |Not received |User confirmation; retain as incoming with no reliable revised ETA. |
+| Nut A order246975 / subscription370 |800g ordered;133.61zł payment verified23September22:40 Warsaw |Walnuts300g, Pistachios150g×2 and Macadamias200g. First arrival estimated25September; no dispatch or receipt confirmed. Keep separate from the reported100g on hand. |
+
+This report supersedes14September's conditional500g Nut estimate and unknown Egg/Oat amounts for current planning, without rewriting that historical register. Other foods have no new observed balance. The [activation calendar](DIET_ACTIVATION_ROLLOUT.md) supersedes the9October Nut forecast and separates conditional targets from actual retailer bookings. No consumption was inferred from elapsed days. Nut A is paid incoming supply only; its tracking-number assignment does not establish courier handover. Nut B remains a separate future group targeted40days after A's actual arrival.
+
+## Earlier observations
+
+**23September morning:** subscription361 still lists paid243898 as preparing; no new merchant/courier email confirms dispatch or arrival. The detailed missing-stock hold was last verified22September; today's order-detail page requires additional sign-in. Keep the parcel incoming, including Oats1kg, and do not advance the relative Oat start dates or deduct forecast consumption from opening stock. No new receipt, physical-stock update or purchase was recorded.
+
+**22September after sign-in:** paid243898 explicitly shows fulfillment held because some products are missing from the merchant's stock. The page confirms201.61zł paid, but does not identify the missing products or establish a revised arrival. Its previously planned21September dispatch has not been confirmed. Keep all contents incoming, including first-only Oats and Spices; do not assume receipt, consume their modeled stock or place duplicates.1October/9October remain the active subscriptions' displayed future delivery dates, separate from the unconfirmed first361 parcel. No physical stock update or new purchase was recorded.
+
+**21September:** no new receipt or consumption was observed. Paid243898 remains incoming; its account history says “Przygotowanie do realizacji” and no new courier message confirms handover. The [two90-day Nut groups](DIET_RENEWAL_PLAN.md#checkout-test-and-stock-comparison) are only candidates: the estimated500g reported14September must offset their first purchases, without assuming it has since been eaten. Neither the temporary basket nor its displayed future renewal date created an order or deferred first shipment. The test basket is empty; no new payment action is ready.
+
+**20September user direction:** leave the current Kiwi subscription alone and prioritize concrete manual actions needed for additional subscription activation. No new activation checkout is ready; the existing subscriptions need no repeat payment. This supersedes the earlier Kiwi-comparison follow-up below.
+
+**20September receipt check:** paid243898 now shows **PAKOWANE**; no newer merchant/courier message confirms handover or arrival. Keep its foods incoming, with21September planned dispatch. No observed consumption or new usable stock was recorded. The Frisco Kiwi comparison was temporary and fully removed; it is not a purchase or incoming food.
+
+**Current plan: [current native-only renewal plan](DIET_RENEWAL_PLAN.md).**357/361/370 are active;370's first246975 is paid and IdoPay confirms its active saved card, with Bioshi's final verification still processing. None of Nut A's800g is on hand yet.243351 was delivered18September; paid243898 remains undelivered after the22September missing-stock hold.245125 will collect110.70zł automatically25September for1October; leave Kiwi unchanged. Obsolete243402 was rejected by Bioshi23September12:26 Warsaw;243364/243397 remain unresolved. Do not repay any paid or obsolete order. Older schedules below remain historical.
 
 **Historical self-service snapshot —15September:** order243898 is verified **paid201.61zł and preparing**, with18September estimated first delivery. Subscription361 is **active**, every14days with a saved card:115.66zł goods −11.57zł10% = **104.09zł next renewal, free GLS home delivery**. Next delivery **9October** was saved and verified after reload, separating it from357's1October date;2October is superseded. Delivery dates are not verified charge dates. No further361 payment action is needed; later15% pricing and future shipping quotes remain unverified. Old359/360 are now **ended**, leaving only357/361 active. Their old orders243397206.62zł and243402266.00zł, plus obsolete243364460.96zł, were last verified unpaid; cancellation is not confirmed. The existing daily09:00 review automation was updated to this state. The [payment handoff](DIET_PAYMENT_HANDOFF.md#16september-review) owns subsequent changes.
 
@@ -79,7 +103,7 @@ These are useful checkpoints under the stated pack assumptions; the existing dai
 | Fresh Vegetables/Shiitake; Kefirs; all Sauerkraut labels |Next check, then within1–3days |Measured usable stock cannot cover the next planned choices, and replacement timing/pack size fits actual freshness. |
 | Soy Milk |Within3–7days |Remaining usable200ml choices, current Soy share and opened-carton instructions establish the next actual need. |
 | Half Phileos bottle |Within7–10days; sooner if bottle is smaller or optional Oil is used |Measured13.5g servings approach verified delivery lead time plus any approved buffer; the provisional half500ml estimate is about17 Lunch servings. |
-| Nuts |Within14–21days |The combined measured Nut balance approaches the next20g daily choices and a correctly sized automatic arrival. |
+| Nuts |100g reported23September; Nut A order246975 paid,25September arrival estimate |Verify actual arrival before crediting800g; Nut B targets40days after A's actual receipt. |
 | Pumpkin Seeds |Within28–35days |The shared Dinner Seed plan approaches the measured balance; the50-choice estimate is conditional. |
 | Flax/Chia |Within28days to establish actual shares, then reassess against the approximately93 shared-choice estimate |Measured total and remaining pack ages justify a new seed variety; do not replenish each one independently. |
 | Matcha |Check opening/label now; quantity review around day70–85 if approximately200g remains usable |Remaining2g servings approach verified delivery lead time plus any approved buffer. This is not permission to defer a label check for70days. |

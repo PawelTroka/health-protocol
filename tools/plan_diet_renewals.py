@@ -129,7 +129,9 @@ def phase_candidates(anchor):
     }
 
 
-def nut_scenarios():
+def nut_scenarios(operational=None):
+    operational = operational or {}
+    current = [stream(800, 90, 0), stream(1000, 90, 40)]
     old = [stream(g, 90, p) for g, p in zip(
         (300, 500, 300, 350, 150, 200), (0, 15, 30, 45, 60, 75))]
     # Same exact90-day food mix, each pack separate. Integer-day phases near its
@@ -146,10 +148,22 @@ def nut_scenarios():
                          "daily_grams": [number(Fraction(s["quantity"], s["days"])) for s in ss],
                          "status": "Quantity alternative only; changes the prior variety shares and is not selected."})
     return {
-        "existing_proposal_six_groups": {"streams": old, "inventory_g": inventory(old, 20)},
+        "current_two_groups_90_days": {
+            "streams": current,
+            "inventory_g": inventory(current, 20),
+            "nut_grams_per_90_days": {"walnuts": 600, "pistachios": 450, "almonds": 350, "macadamias": 400},
+            "A_contents_g": {"walnuts": 300, "pistachios": 300, "macadamias": 200},
+            "B_contents_g": {"walnuts": 300, "pistachios": 150, "almonds": 350, "macadamias": 200},
+            "dated_checkout_evidence": operational.get("nut_groups", {}),
+            "accepted_for_activation": False,
+            "status": "Current preparation candidate. Both repeat every90days, B40days after A. Exact aggregate20g/day and preserved90day species shares; not an activated subscription or a species-level usable-life proof.",
+            "portion_caveat": "150g Pistachio and350g Almond packs leave10g at20g portions. Verify same-food remainder use and opened life; unknown combined opening Nuts do not establish species-specific coverage.",
+        },
+        "existing_proposal_six_groups": {"streams": old, "inventory_g": inventory(old, 20),
+                                         "status": "Historical arithmetic comparison; not the current activation proposal."},
         "same_mix_eight_pack_phases": {
             "streams": packs, "inventory_g": inventory(packs, 20),
-            "status": "No standalone Nut orders authorized or shipping verified. Co-group only with genuinely due food on the same cycle.",
+            "status": "Historical lower-stock arithmetic comparison; no standalone Nut orders authorized or shipping verified. Co-group only with genuinely due food on the same cycle.",
             "portion_caveat": "150g Pistachio and350g Almond packs leave10g at20g portions. The report is a mass lower bound, not a species-level eating plan. Resolve the same-food remainder and its opened life; never combine different Nuts into a CHOOSE ONE serving.",
         },
         "four_one_pack_stream_alternatives": four,
@@ -159,7 +173,8 @@ def nut_scenarios():
 def practical_alternatives(model):
     operational = model.get("operational_evidence", {})
     pantry_b_quote = operational.get("pantry_B_checkout", {})
-    pantry_b_rejected = pantry_b_quote.get("native_plan_status") == "rejected_paid_home_courier"
+    pantry_b_rejected = pantry_b_quote.get("native_plan_status") in {
+        "rejected_paid_home_courier", "retired_paid_courier_and_excess_macadamia_rate"}
     monthly = []
     for phase in range(10):
         streams = [stream(10, 14, 8)] + [stream(10, 30, phase + p) for p in (0, 10, 20)]
@@ -187,6 +202,9 @@ def practical_alternatives(model):
             "status": "Exact25g/day. Two native rate cores; dates/composition/courier need checkout."
         },
         "two_pantry_groups_60_days": {
+            "retired": True,
+            "accepted_for_activation": False,
+            "status": "Retired historical composition:600g Macadamia/90days exceeds the intended400g by200g, despite aggregate Nut mass balancing. The tested B also failed free home courier. Do not revive as a current proposal.",
             "A": {"phase": 0, "days": 60,
                   "contents": {"oats_1000": 1, "walnuts_300": 1, "pistachios_150": 1, "almonds_350": 1},
                   "first_goods_reference_pln": 113.46,
@@ -200,21 +218,28 @@ def practical_alternatives(model):
             "oats_inventory_g": inventory([stream(1000, 60), stream(500, 60, 40)], 25),
             "nuts_inventory_g": inventory([stream(800, 60), stream(400, 60, 40)], 20),
             "nut_grams_per_60_days": {"walnuts": 300, "pistachios": 150, "almonds": 350, "macadamias": 400},
-            "tradeoff": "Only two60-day pantry groups with exact aggregate25g Oats/day and20g Nuts/day. Nut peak800g is higher than the360g eight-phase lower bound; four varieties remain, but Walnut/Pistachio shares fall relative to the previous90-day mix. No claim that changed shares improve health.20g same-food portions and10g species remnants still need a feasible consumption allocation.",
+            "tradeoff": "Historical arithmetic only: exact aggregate25g Oats/day and20g Nuts/day, but600g Macadamia/90days instead of the intended400g, plus altered shares of the other Nuts. This composition does not preserve the agreed rotation.",
             "shipping": (
                 "Standalone B rejected:79.27zł goods +9.49zł GLS home courier =88.76zł; only pickup is free. A remains unquoted. Arithmetic balance does not make this pair an accepted schedule. No filler or assumed fee waiver."
                 if pantry_b_rejected else
                 "Both groups unquoted. Group B's79.27zł cannot inherit free shipping. Do not add filler; if no genuinely due compatible items qualify, keep this alternative unaccepted."
             ),
-            "transition": "Existing Nuts and paid1kg Oats have different runways. Configure retailer-supported delayed first starts that preserve coverage. If the retailer cannot express them without manual bridge purchases or routine edits, this grouped candidate is not an accepted native-only solution."
+            "transition": "Retired: do not configure this pair. The current NutA/B90day candidate is separate from the outstanding Oat route."
         }
     }
 
 
 def forecast_reviews(model):
-    start = date.fromisoformat(model["opening_stock"]["reported_on"])
+    opening_date = date.fromisoformat(model["opening_stock"]["reported_on"])
     today = date.fromisoformat(model["as_of"])
-    days = (today - start).days
+    latest = {}
+    for observation in model.get("stock_observations", []):
+        reported_on = date.fromisoformat(observation["reported_on"])
+        if reported_on > today or reported_on < opening_date:
+            continue
+        key = (observation["group"], observation["unit"])
+        if key not in latest or reported_on >= latest[key][0]:
+            latest[key] = (reported_on, observation)
     values = [
         ("combined Nuts", Fraction(500), Fraction(20), 7),
         ("combined Flax/Chia", Fraction(650), Fraction(7), 14),
@@ -222,22 +247,54 @@ def forecast_reviews(model):
         ("Matcha", Fraction(200), Fraction(2), 14),
         ("Phileos", Fraction(250) * Fraction(915, 1000), Fraction(27, 2), 7),
         ("Soy Milk if chosen every day", Fraction(2000), Fraction(200), 7),
+        # There is no observed opening Oat balance in the historical register.
+        # A paid/incoming bag is not stock available to consume.
+        ("Rolled Oats", None, Fraction(25), 7),
     ]
     result = []
     for name, initial, daily, lead in values:
+        unit = "ml" if name == "Soy Milk if chosen every day" else "g"
+        start = opening_date
+        source = "Original opening-stock estimate"
+        if (name, unit) in latest:
+            start, observation = latest[(name, unit)]
+            initial = Fraction(str(observation["quantity"]))
+            source = observation.get("source", "Dated stock observation")
+        if initial is None:
+            continue
+        if initial < 0:
+            raise ValueError(f"Negative stock observation for {name}")
+        days = (today - start).days
         complete = initial // daily
         next_need = start + timedelta(days=int(complete))
         result.append({
             "food": name,
+            "stock_reported_on": start.isoformat(),
+            "stock_reference_quantity": number(initial),
+            "unit": unit,
+            "stock_source": source,
             "forecast_remaining_before_today_use": number(max(0, initial - days * daily)),
             "first_forecast_not_fully_supplied_day": next_need.isoformat(),
             "review_no_later_than": max(today, next_need - timedelta(days=lead)).isoformat(),
             "forecast_only": True,
         })
+    observations_without_depletion = []
+    if ("Eggs", "count") in latest:
+        reported_on, eggs = latest[("Eggs", "count")]
+        observations_without_depletion.append({
+            "food": "Eggs",
+            "stock_reported_on": reported_on.isoformat(),
+            "reported_quantity": eggs["quantity"],
+            "unit": "count",
+            "stock_source": eggs.get("source", "Dated stock observation"),
+            "forecast_depletion_date": None,
+            "reason": "Apply the actual dinner rotation and edible weights; no daily-average depletion or incoming carton is assumed.",
+        })
     return {
-        "assumptions": "Written daily demand starts14September against the reported/estimated full packs. Forecasts are useful scheduling estimates, not observed consumption or expiry. A review can refine the model without requiring daily user confirmation.",
+        "assumptions": "Use the latest dated stock observation on or before as_of for each exact group/unit; otherwise retain the original opening-stock estimate. Forecast daily use from that reference, assuming the balance precedes that day's serving. Before/after-serving timing, measured quantities, consumption and expiry remain unverified. Combined Nut mass does not identify species or guarantee complete same-food portions. Incoming orders are excluded until receipt is established.",
         "reviews": result,
-        "oat_rule": "Paid1kg supplies40 written servings after actual consumption begins. Forecast replenishment for day40 and review7days beforehand; actual arrival/start remains unknown. A planned21September dispatch is not an arrival date.",
+        "observations_without_depletion_forecast": observations_without_depletion,
+        "oat_rule": "Forecast currently reported Oats separately from incoming food. The paid1kg supplies40 written servings only after actual receipt and consumption begin; those dates remain unknown. An empty current balance is an immediate coverage gap, not covered by a dispatch estimate.",
         "fresh_stock": "357 parcel arrived18September, reported by root's live review. Use its Kiwi/Tomatoes/Mushrooms by actual condition, measured yield and label dates; do not infer today's consumption.",
         "native_only": "Forecasts inform initial retailer configuration. No routine skips, date corrections, manual bridge purchases or Codex-managed reorder cycle count as an accepted solution."
     }
@@ -283,7 +340,8 @@ def derive(model):
             "fifteen_percent_example": premium(round(oat_price * .85, 2), 300, manual, 1000, 25),
             "decision": "Hold300g route if current delivered comparison confirms more than25% premium. Do not compensate using savings on unrelated foods.",
         },
-        "nut_comparisons": nut_scenarios(),
+        "nut_comparisons": nut_scenarios(model.get("operational_evidence", {})),
+        "activation_rollout": model.get("activation_rollout", {}),
         "practical_additional_alternatives": practical_alternatives(model),
         "forecast_stock_reviews": forecast_reviews(model),
         "restricted_native_impossibilities": [
@@ -301,25 +359,49 @@ def derive(model):
 
 def markdown(result):
     p = result["egg_oat_minimum_new_interval_proposal"]
-    lines = ["# Diet renewal quantity model", "", f"As of {result['as_of']}. Offline proposal; no retailer changes.", "",
-             "| Calculation | Result |", "| --- | --- |",
+    stock = result["forecast_stock_reviews"]
+    practical = result["practical_additional_alternatives"]
+    current_nuts = result["nut_comparisons"]["current_two_groups_90_days"]
+    operational = result.get("operational_evidence_separate_from_arithmetic", {})
+    rollout = result.get("activation_rollout", {})
+    nut_a = operational.get("nut_A_final_checkout", {})
+    nut_status = (f"Nut A subscription{nut_a['subscription_id']}: {nut_a['status']}; Nut B remains unactivated."
+                  if nut_a.get("order_submitted") else
+                  "Unactivated; renewal courier, usable life and remainder allocation remain to verify.")
+    lines = ["# Diet subscription rollout: stock and native candidates", "",
+             f"As of {result['as_of']}. Offline analysis; no retailer changes or new activations.", "",
+             "| Latest stock reference | Reported balance | Estimated first uncovered day |",
+             "| --- | --- | --- |"]
+    for item in stock["reviews"]:
+        if item["food"] in {"combined Nuts", "Rolled Oats"}:
+            lines.append(f"| {item['food']} ({item['stock_reported_on']}) | {item['stock_reference_quantity']:g}{item['unit']} | {item['first_forecast_not_fully_supplied_day']} |")
+    for item in stock["observations_without_depletion_forecast"]:
+        lines.append(f"| {item['food']} ({item['stock_reported_on']}) | {item['reported_quantity']} {item['unit']} | Unassigned: actual dinner rotation and edible weight required |")
+    lines += ["", "Stock dates assume the reported balance precedes that day's serving. Estimates are not observed depletion; incoming food is not credited before receipt. Combined Nut mass does not establish complete same-food portions.", "",
+              "| Current native candidate | Quantity model and readiness |", "| --- | --- |",
+              f"| NutA800g + NutB1000g, each every90days | B40days after A; exact20g/day; aggregate peak{current_nuts['inventory_g']['peak_after_delivery_with_that_buffer']:g}g. {nut_status} |",
+              f"| Oats500g/30days +500g/60days | Exact25g/day; aggregate peak{practical['oats_500_30_plus_60']['inventory_g']['peak_after_delivery_with_that_buffer']:g}g. Qualifying shipments and first starts unverified. |",
+              f"| Existing Eggs10/14days + three10/30day cores | Exact48 nominal Eggs/28days; extra monthly cores10days apart; modeled peak{practical['monthly_egg_clusters']['inventory_eggs']['peak_after_delivery_with_that_buffer']:g}. Free courier and usable life unverified. |"]
+    nut_quote = current_nuts["dated_checkout_evidence"]
+    if nut_quote:
+        lines += ["", f"Historical NutA/B first-checkout evidence ({nut_quote['observed_on']}): {nut_quote['A']['first_goods_pln']:.2f} / {nut_quote['B']['first_goods_pln']:.2f}zł goods, {nut_quote['first_home_courier_pln']:.2f}zł {nut_quote['first_home_courier']} home courier. These earlier first quotes alone do not establish discounted renewals."]
+    if nut_a.get("order_submitted"):
+        lines += ["", f"Nut A order{nut_a['order_id']}: {nut_a['first_total_pln']:.2f}zł after coupon{nut_a.get('coupon', '')}; initial payment verified: {nut_a.get('initial_payment_verified', False)}; recurring card verified: {nut_a.get('card_on_profile', False)}. Current renewal quote{nut_a['displayed_recurring_charge_pln']:.2f}zł with{nut_a['home_courier_pln']:.2f}zł home courier. Delivery/consumption are not inferred from payment."]
+    if rollout:
+        lines += ["", f"NutA activation target: {rollout.get('nut_A_activation_target', 'unassigned')} ({rollout.get('nut_A_status', 'not released')}). NutB timing: {rollout.get('nut_B_arrival_rule', 'unassigned')}.",
+                  "Full-automation completion date: " + (rollout.get("full_automation_completion_date") or "unassigned; qualifying routes and repeated whole-diet coverage are not yet established.")]
+    lines += ["", "| Existing recurring coverage | Result |", "| --- | --- |",
              "| Active Tempeh |6/6 dinners per28days |",
              "| Active Eggs |20/48 nominal Eggs; approximately7 Egg dinners still uncovered |",
-             "| Active Berries |At most6/28 portions before hulling |",
-             f"| Proposed Eggs |10 every14/21/28/60days; peak {p['eggs']['peak_after_delivery_with_that_buffer']:g} Eggs; synthetic buffer {p['eggs']['minimum_synthetic_opening_buffer']:g} |",
-             f"| Proposed Oats |300g every21/28days; peak {p['oats']['peak_after_delivery_with_that_buffer']:g}g; price gate unresolved/failing dated benchmark |",
-             f"| Illustrative added phases |/21day {p['phase_21_days']}; /60day {p['phase_60_days']}, relative to {p['anchor_date']} |", "",
-             "Dates are model phases, not approved first shipments. Opening stock and actual incoming batches must be reconciled before configuring starts.", ""]
+             "| Active Berries |At most6/28 portions before hulling |"]
+    lines += ["", "Historical arithmetic comparisons (not activation instructions):", "",
+              f"- Earlier Eggs10/14/21/28/60days: peak{p['eggs']['peak_after_delivery_with_that_buffer']:g}, synthetic buffer{p['eggs']['minimum_synthetic_opening_buffer']:g}. The buffer is not owned stock.",
+              f"- Earlier Oats300g/21days +300g/28days: peak{p['oats']['peak_after_delivery_with_that_buffer']:g}g; dated price benchmark fails the cap. Relative phases21day:{p['phase_21_days']},60day:{p['phase_60_days']} against{p['anchor_date']} are not booked dates.",
+              "- Retired mixed60-day PantryA/B: " + practical['two_pantry_groups_60_days']['tradeoff'] + " " + practical['two_pantry_groups_60_days']['shipping']]
     for name, scenario in result["nut_comparisons"].items():
-        if isinstance(scenario, dict) and "inventory_g" in scenario:
+        if name != "current_two_groups_90_days" and isinstance(scenario, dict) and "inventory_g" in scenario:
             inv = scenario["inventory_g"]
             lines.append(f"- {name}: peak {inv['peak_after_delivery_with_that_buffer']:g}g; net drift {inv['net_change_per_period']:g}g/{inv['period_days']}days. Aggregate only; species remnants and courier require checks.")
-    practical = result["practical_additional_alternatives"]
-    lines += ["", "Verified500g Oats now gives practical alternatives:",
-              f"- 500g/30days +500g/60days: exact25g/day; peak {practical['oats_500_30_plus_60']['inventory_g']['peak_after_delivery_with_that_buffer']:g}g.",
-              "- Mixed60-day groups A/B40days apart:1kg/500g Oats and800g/400g Nuts; peaks1kg Oats/800g Nuts. " + practical['two_pantry_groups_60_days']['shipping'],
-              f"- Eggs14/30/30/30days: exact48/28days; three added monthly cores10days apart; peak {practical['monthly_egg_clusters']['inventory_eggs']['peak_after_delivery_with_that_buffer']:g} nominal Eggs."]
-    operational = result.get("operational_evidence_separate_from_arithmetic", {})
     selected_eggs = operational.get("selected_organic_eggs", operational.get("egg_product", {}))
     if selected_eggs.get("available_for_new_checkout") is False:
         lines.append(f"- Selected Egg SKU{selected_eggs.get('sku', 'unverified')} is unavailable for a new checkout. Additional Egg streams cannot be treated as purchasable; this does not establish a problem with paid361's reserved carton.")
@@ -339,6 +421,11 @@ def self_test():
     for value in nut_scenarios().values():
         if isinstance(value, dict) and "inventory_g" in value:
             assert value["inventory_g"]["quantity_balanced"]
+    nut_pair = nut_scenarios()["current_two_groups_90_days"]
+    assert nut_pair["inventory_g"]["supply"] == 1800
+    assert nut_pair["inventory_g"]["peak_after_delivery_with_that_buffer"] == 1000
+    assert nut_pair["nut_grams_per_90_days"]["macadamias"] == 400
+    assert sum(nut_pair["nut_grams_per_90_days"].values()) == 1800
     assert not premium(4.85, 300, 11.92, 1000, 25)["within_goods_only_cap"]
     probe = {"new_verified_oat500": {}, "operational_evidence": {
         "pantry_B_checkout": {"native_plan_status": "rejected_paid_home_courier"}}}
@@ -348,7 +435,39 @@ def self_test():
     assert "Standalone B rejected" in pair["shipping"]
     assert pair["oats_inventory_g"]["quantity_balanced"]
     assert options["monthly_egg_clusters"]["inventory_eggs"]["quantity_balanced"]
-    print("Exact rates, discrete Egg pattern, Oat drift, Nut balance and price-cap checks passed.")
+    probe["operational_evidence"]["pantry_B_checkout"]["native_plan_status"] = "retired_paid_courier_and_excess_macadamia_rate"
+    retired_pair = practical_alternatives(probe)["two_pantry_groups_60_days"]
+    assert retired_pair["retired"] and not retired_pair["accepted_for_activation"]
+    assert "Standalone B rejected" in retired_pair["shipping"]
+    assert "Both groups unquoted" not in retired_pair["shipping"]
+    assert "200g" in retired_pair["status"]
+    stock_probe = {
+        "opening_stock": {"reported_on": "2026-09-14"},
+        "as_of": "2026-09-23",
+        "stock_observations": [
+            {"reported_on": "2026-09-23", "group": "combined Nuts", "quantity": 100, "unit": "g", "source": "user estimate"},
+            {"reported_on": "2026-09-20", "group": "combined Nuts", "quantity": 180, "unit": "g"},
+            {"reported_on": "2026-09-24", "group": "combined Nuts", "quantity": 800, "unit": "g"},
+            {"reported_on": "2026-09-23", "group": "Rolled Oats", "quantity": 0, "unit": "g"},
+            {"reported_on": "2026-09-23", "group": "Eggs", "quantity": 10, "unit": "count"},
+        ],
+    }
+    stock_check = forecast_reviews(stock_probe)
+    by_food = {item["food"]: item for item in stock_check["reviews"]}
+    assert by_food["combined Nuts"]["stock_reported_on"] == "2026-09-23"
+    assert by_food["combined Nuts"]["forecast_remaining_before_today_use"] == 100
+    assert by_food["combined Nuts"]["first_forecast_not_fully_supplied_day"] == "2026-09-28"
+    assert by_food["combined Nuts"]["stock_source"] == "user estimate"
+    assert by_food["Rolled Oats"]["first_forecast_not_fully_supplied_day"] == "2026-09-23"
+    assert by_food["Rolled Oats"]["forecast_remaining_before_today_use"] == 0
+    assert by_food["Matcha"]["stock_reported_on"] == "2026-09-14"
+    assert "Eggs" not in by_food
+    assert stock_check["observations_without_depletion_forecast"][0]["forecast_depletion_date"] is None
+    stock_probe["stock_observations"] = []
+    fallback = {item["food"]: item for item in forecast_reviews(stock_probe)["reviews"]}
+    assert fallback["combined Nuts"]["first_forecast_not_fully_supplied_day"] == "2026-10-09"
+    assert "Rolled Oats" not in fallback
+    print("Exact rates, discrete Egg pattern, Oat drift, Nut balance, price-cap and dated stock forecast checks passed.")
 
 
 def main():
