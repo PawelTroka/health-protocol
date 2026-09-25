@@ -632,9 +632,9 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 
 ### Selenium
 
-|  | 2026-09 | 2026-07 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- | :--- |
-| **Selenium** | pending | 🔵 108.75 | ug/l | 50 - 120; target 90 - 120 |
+|  | Trend | 2026-09 | 2026-07 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Selenium** | ⚪ | 🔵 90.60 | 🔵 108.75 | ug/l | 50 - 120; target 90 - 120 |
 
 **Notes:**
 <sup>1</sup> Vitamin B12 went above range, likely from supplementation. B12 toxicity is generally low, but the plan is to lower the supplementation dose.

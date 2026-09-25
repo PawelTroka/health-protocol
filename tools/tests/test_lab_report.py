@@ -140,11 +140,11 @@ class SeptemberLabReportTests(unittest.TestCase):
         pending = [name for names in self.report["lab_pending_tests"].values() for name in names]
         self.assertEqual(Counter(pending), Counter([
             "Histamine", "Butyric acid", "Zonulin", "Iodine in 24-hour urine",
-            "Urine culture", "Selenium",
+            "Urine culture",
         ]))
         self.assertNotIn("Serum protein electrophoresis (whole panel)", pending)
         self.assertNotIn("ANA/ENA immunoblot", pending)
-        for completed in ("ANA (IIFT + titre)", "DGP IgG", "tTG IgA", "Secretory sIgA"):
+        for completed in ("ANA (IIFT + titre)", "DGP IgG", "tTG IgA", "Secretory sIgA", "Selenium"):
             self.assertNotIn(completed, pending)
         self.assertNotIn("TSH", pending)
         self.assertNotIn("Calprotectin", pending)
@@ -328,6 +328,27 @@ class SeptemberLabReportTests(unittest.TestCase):
                 self.assertEqual(literal_result(displayed["2026-07"]), "5023.4")
                 self.assertNotIn("its repeat is pending", self.outputs[output_format])
 
+    def test_completed_selenium_preserves_history_and_appears_in_its_followup_table(self):
+        category, marker = "Micronutrients", "Selenium"
+        values = self.observations(category, marker)
+        self.assertEqual(values["2026-09"], "90.60")
+        self.assertEqual(values["2026-07"], "108.75")
+        self.assertEqual(self.row(category, marker)[-2:], ("ug/l", "50 - 120"))
+        group = next(group for group in self.report["lab_groups"](
+            category, self.report["data"][category]) if group["title"] == marker)
+        self.assertEqual([row[0] for row in group["rows"]], [marker])
+        for output_format in ("html", "md"):
+            with self.subTest(output_format=output_format):
+                rendered = self.report[f"render_result_table_{output_format}"](category, group["rows"])
+                self.assertIn(rendered, self.outputs[output_format])
+                header, cells = rendered_table_rows(rendered, output_format)
+                displayed = dict(zip(header, cells))
+                self.assertEqual(displayed["2026-09"], "🔵 90.60")
+                self.assertEqual(displayed["2026-07"], "🔵 108.75")
+                self.assertEqual(displayed["Unit"], "ug/l")
+                self.assertEqual(displayed["Reference"], "50 - 120; target 90 - 120")
+                self.assertEqual(displayed["Trend"], "⚪")
+
     def test_completed_proteinogram_preserves_fractions_concentrations_and_history(self):
         expected = {
             "Total Protein": ("74.90", "g/L", "64.0 - 83.0"),
@@ -468,8 +489,8 @@ class SeptemberLabReportTests(unittest.TestCase):
     def test_all_followups_appear_in_september_in_both_generated_reports(self):
         values = [value for observations in self.report["lab_followups"]["2026-09"].values()
                   for value in observations.values()]
-        self.assertEqual(sum(value != "pending" for value in values), 120)
-        self.assertEqual(values.count("pending"), 2)
+        self.assertEqual(sum(value != "pending" for value in values), 121)
+        self.assertEqual(values.count("pending"), 1)
         for category, observations in self.report["lab_followups"]["2026-09"].items():
             rows = self.report["data"][category]
             for output_format in ("html", "md"):

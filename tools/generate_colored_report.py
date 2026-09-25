@@ -1527,6 +1527,7 @@ data = {
 # results, including their September 16 collection date and elastase range.
 # September 18 immunoblot completes 16 qualitative antibody results.
 # September 23-24 reports complete stool sIgA, M2-PK, ANA IIFT, tTG IgA and DGP IgG.
+# September 25 report completes serum selenium from the September 16 specimen.
 lab_followups = {
     "2026-09": {
         "Morphology": {
@@ -1550,7 +1551,7 @@ lab_followups = {
         "Urine Culture": {"Urine Culture": "pending"},
         "Metabolic Health": {"Uric Acid": "3.0", "LDH": "130"},
         "Cardiac Health & Coagulation": {"Creatine Kinase (CK)": "118"},
-        "Micronutrients": {"Selenium": "pending"},
+        "Micronutrients": {"Selenium": "90.60"},
         "Immunology & Inflammation": {
             "CRP (Conventional)": "0.7", "IgA (Serum)": "3.0", "ASO": "390",
             "Rheumatoid Factor (RF)": "< 10", "Anti-CCP": "<8", "Anti-TG": "18.90",
@@ -1621,7 +1622,7 @@ for name in ANA_ENA_MARKERS:
     )
     no_score_markers.add(("Immunology & Inflammation", name))
 
-# Six original tests remain without supplied results after the September 23-24
+# Five original tests remain without supplied results after the September 25
 # reports. All completed assays have result rows.
 # An assay disappearing from a waiting list is not a completed result.
 # Assays without a completed result do not acquire guessed units or references.
@@ -1629,7 +1630,6 @@ lab_pending_tests = {
     "Stool Analysis": ["Histamine", "Butyric acid", "Zonulin"],
     "Urine Chemistry": ["Iodine in 24-hour urine"],
     "Urine Culture": ["Urine culture"],
-    "Micronutrients": ["Selenium"],
 }
 
 # Oura calendar means and dated Withings/app observations, reviewed 2026-09-06.
