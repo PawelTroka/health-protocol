@@ -1,5 +1,15 @@
 # Diet purchase handoff
 
+## 25September morning — payment succeeded; both first parcels out for delivery
+
+**No new payment, card entry or subscription activation is needed.** IdoPay's25September00:09 Warsaw email confirms **110.70zł collected for245125**.357 remains active, with1October delivery and free GLS. Its25September payment-date field has not yet advanced; the following collection date is unverified.
+
+GLS confirms collection of **243898 on24September17:32 Warsaw** and **Nut A246975 at17:28**. Both live tracking pages now say **out for delivery**. This supersedes the missing-stock hold and label-only status; it does not establish receipt, complete contents or usable condition. Keep the1kg Oats and800g Nuts incoming until arrival. Nut B remains targeted40days after Nut A's actual arrival.
+
+Live370 shows its saved card **without the earlier verification-in-progress notice**, active status and133.61zł/free-GLS renewal quote. The profile still shows23September as payment date; do not invent a future charge date.361 remains active with original Egg45382,2October payment and9October next delivery; its first243898 history says **wysłane**. No account or basket changes were made.
+
+The exact Sante Bran check found no new native route: the official200g pack is3.29zł through ordinary checkout, and Bioshi's Bran catalogue does not list the selected formulation. It cannot make yesterday's small Egg/Oat basket qualify. No new activation is ready, and no routine sign-in or payment request is sent. Obsolete243364/243397 remain excluded without new cancellation confirmation;243402 remains rejected.
+
 ## 24September morning — no new manual action
 
 The08:01 Warsaw Bioshi reminder reconfirms **110.70zł automatic collection25September for245125**, delivery1October. This is the known created-order price, not a new increase. IdoPay's23September22:40 email independently confirms the **133.61zł charge for246975**; live370 still has its masked card/verification notice,133.61zł renewal quote and free GLS. No repeat payment or card entry is needed. The GLS message is label preparation only, without carrier handover.

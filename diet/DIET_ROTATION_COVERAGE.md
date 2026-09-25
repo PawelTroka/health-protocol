@@ -1,6 +1,6 @@
 # Diet rotation coverage
 
-**Current state23September:** Bioshi357/361/370 are active. Nut A370/order246975 is paid133.61zł with free GLS; IdoPay confirms its active card while the parent verification notice updates. Use the [renewal plan](DIET_RENEWAL_PLAN.md), [activation calendar](DIET_ACTIVATION_ROLLOUT.md) and [payment handoff](DIET_PAYMENT_HANDOFF.md) for current dates and required actions. Older schedules and quotes below are historical; they are not activation instructions.
+**Current state25September:** Bioshi357/361/370 are active. 245125 was automatically charged110.70zł; paid243898 and Nut A246975 are out for delivery, not yet credited as received.370's saved card is verified and the parent verification notice has cleared. Use the [renewal plan](DIET_RENEWAL_PLAN.md), [activation calendar](DIET_ACTIVATION_ROLLOUT.md) and [payment handoff](DIET_PAYMENT_HANDOFF.md) for current dates and required actions. Older schedules and quotes below are historical; they are not activation instructions.
 
 ## Current self-service repair —15September
 

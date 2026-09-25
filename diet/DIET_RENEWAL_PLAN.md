@@ -1,6 +1,6 @@
 # Diet renewals — current decision and native-only plan
 
-**24September check:** no new user action.357's email reconfirms tomorrow's110.70zł collection;370's payment is independently confirmed by IdoPay and its parent verification notice remains pending.361's104.09zł/free-GLS template and original Egg45382 remain. The small Egg/Oat basket did not establish free home courier and was restored empty. Details and access limits are in the [current handoff](DIET_PAYMENT_HANDOFF.md#24september-morning--no-new-manual-action); no arrival or new activation is inferred.
+**25September check:** IdoPay confirms110.70zł collected for245125;1October remains its delivery date. GLS has collected243898 and246975 and both are now out for delivery, with receipt unverified.370's parent card-verification notice has cleared. No repeat payment/card entry or new activation is required. The [current handoff](DIET_PAYMENT_HANDOFF.md#25september-morning--payment-succeeded-both-first-parcels-out-for-delivery) owns the dated evidence; old stock holds and label-only observations below are historical.
 
 ## 23September evening — Nut A paid and automatic card confirmed
 
@@ -11,7 +11,7 @@ The user approved terms and submission after the coupon check. Bioshi accepted *
 The dry-Nut storage assessment is now sufficient for practical preparation: the exact Bio Planet products specify cool, dry storage without a short after-opening limit. Nut A supplies40×20g choices; open packs sequentially, joining the two10g Pistachio remnants into one same-food serving. Its packs need not remain open for90days. Normal delivered-label/condition inspection remains necessary; a missing batch-specific guarantee is not by itself a reason to postpone this dry-food purchase. Nut B remains a later separate group, approximately40days after A's actual arrival.
 
 
-Updated23September2026. This is the concise current purchasing decision. The [README Diet](../README.md#4-diet) remains canonical for food identities, portions and rotation. Earlier F/P schedules are research records, not booked deliveries.
+Updated25September2026. This is the concise current purchasing decision. The [README Diet](../README.md#4-diet) remains canonical for food identities, portions and rotation. Earlier F/P schedules are research records, not booked deliveries.
 
 ## Dated rollout and current stock
 

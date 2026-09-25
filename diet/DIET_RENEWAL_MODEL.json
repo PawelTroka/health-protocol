@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "purpose": "Executable quantity and phase comparison, separate from verified retailer configuration. No proposed new group is booked or proved to have free delivery.",
   "sources": [
     "../README.md#4-diet",
@@ -124,7 +124,7 @@
         "status": "delivered18September2026 at14:44 Europe/Warsaw; no consumption inferred",
         "delivered_at": "2026-09-18T14:44:00+02:00"
       },
-      "next_payment_date": "2026-09-25",
+      "next_payment_date": null,
       "previous_payment_field_observed_2026_09_18": "2026-09-26",
       "created_renewal": {
         "order_id": 245125,
@@ -139,14 +139,22 @@
           "shiitake_200g": 14.21,
           "oyster_200g": 8.99
         },
-        "kiwi_delivered_premium_check": "Historical comparison closed to further investigation by user20September; leave existing purchase unchanged. Not a verified price-compliance finding."
+        "kiwi_delivered_premium_check": "Historical comparison closed to further investigation by user20September; leave existing purchase unchanged. Not a verified price-compliance finding.",
+        "payment_confirmation": {
+          "status": "charged",
+          "charged_pln": 110.7,
+          "confirmation_received_at": "2026-09-25T00:09:38+02:00",
+          "source": "IdoPay email for245125-1"
+        }
       },
       "following_template": {
         "delivery_date": "2026-10-29",
         "quote_pln": 104.55,
         "discount_percent": 15,
         "home_courier_pln": 0
-      }
+      },
+      "last_payment_date": "2026-09-25",
+      "displayed_payment_date_25sep": "2026-09-25"
     },
     {
       "subscription": 361,
@@ -165,13 +173,21 @@
       "first_order": {
         "id": 243898,
         "paid_pln": 201.61,
-        "status": "Paid201.61PLN;22September signed-in detail held for missing merchant stock, no revised ETA; user23September confirms not received. No arrival or consumption credited.",
+        "status": "Paid201.61PLN; GLS confirms collection24September17:32 Warsaw; live tracking25September out for delivery. Supersedes22September stock hold. No receipt/contents/consumption credited.",
         "first_only": {
           "oats_g": 1000,
           "cinnamon_g": 50,
           "cardamom_pods_g": 40,
           "cloves_g": 30,
           "orange_sweet_potato_gross_g": 1000
+        },
+        "shipment": {
+          "carrier": "GLS",
+          "carrier_collection_confirmation_received_at": "2026-09-24T17:32:15+02:00",
+          "tracking_checked_on": "2026-09-25",
+          "tracking_status": "out_for_delivery",
+          "receipt_verified": false,
+          "contents_condition_verified": false
         }
       },
       "next_payment_date": "2026-10-02",
@@ -191,7 +207,15 @@
         "id": 246975,
         "total_pln": 133.61,
         "paid_pln": 133.61,
-        "status": "being_prepared_not_received"
+        "status": "out_for_delivery_not_received",
+        "shipment": {
+          "carrier": "GLS",
+          "carrier_collection_confirmation_received_at": "2026-09-24T17:28:32+02:00",
+          "tracking_checked_on": "2026-09-25",
+          "tracking_status": "out_for_delivery",
+          "receipt_verified": false,
+          "contents_condition_verified": false
+        }
       },
       "first_delivery_estimate": "2026-09-25",
       "next_delivery": "2026-12-24",
@@ -206,7 +230,8 @@
       "coverage_credited": false,
       "reason": "Funded incoming800g, not on-hand stock;40 prescribed Nut choices when received, not complete90-day coverage.",
       "next_payment_date": null,
-      "quote_scope": "Live profile370 next-renewal quote23September; date of next collection not yet reliable, parent still showed first-payment date."
+      "quote_scope": "Live370 profile25September quotes133.61PLN with freeGLS. Stale23September payment date; next collection unverified.24December following delivery remains the creation-email date.",
+      "parent_card_verification_pending": false
     }
   ],
   "opening_stock": {
@@ -307,19 +332,19 @@
   ],
   "first_start_policy": {
     "eggs": "About10 owned Eggs reported23September. Existing10/14days plus three10/30day additions balance48 nominal Eggs/28days; actual arrival,200g meals and usable life still need allocation. Held first carton is not on hand.",
-    "oats": "Oats0g23September. No accepted free-courier refill. A new500g/60day stream can start before paid1kg only if its timely arrival and later1kg/60day first purchase are reconciled. Do not treat held paid stock as available.",
-    "nuts": "User estimate100g combined23September. Nut A800g/90days activated23September as370/order246975, paid133.61PLN and active recurring card verified. First arrival estimate25September is not receipt. Nut B remains unactivated, targeting A actual arrival+40days. Open packs sequentially; same-food Pistachio remainders are allocated. Delivered labels prevail.",
+    "oats": "Oats0g reported23September. Paid1kg is out for delivery25September, not yet on hand. Reconcile actual arrival/use and any interim pack before adding a new Oat stream; no accepted free-courier group.",
+    "nuts": "User100g combined23September. Paid Nut A800g/90days is out for delivery25September; do not infer receipt or depletion. Nut B remains unactivated, targeted40days after actual A arrival. Open packs sequentially; allocate same-food remainders.",
     "fresh_food": "Use actual batch arrival, edible yield and label dates; no freshness certificate from a28/90day interval.",
     "dates": "Use expected consumption under the approved rotation to propose first dates, distinguish forecast from observed depletion, and verify retailer-native first-start support. No routine date edits or skips count as native automation."
   },
   "derived_analysis": {
-    "as_of": "2026-09-24",
+    "as_of": "2026-09-25",
     "operational_evidence_separate_from_arithmetic": {
-      "recorded_on": "2026-09-24",
-      "source": "Live Opera checks22-23September, signed-in Nut checkout22September, user stock/receipt report23September. Historical evidence keeps its original dates. 24September profile, email and reversible Egg/Oat basket checks; no new stock observation.",
+      "recorded_on": "2026-09-25",
+      "source": "Dated merchant/IdoPay/GLS emails and live Opera subscription/tracking checks through25September; stock remains the23September user report. Historical evidence retains its original dates.",
       "357": {
         "delivered_at": "2026-09-18T14:44:00+02:00",
-        "next_payment_date": "2026-09-25",
+        "next_payment_date": null,
         "next_delivery_date": "2026-10-01",
         "created_renewal": {
           "order_id": 245125,
@@ -335,14 +360,22 @@
             "oyster_200g": 8.99
           },
           "kiwi_delivered_premium_check": "Historical comparison closed to further investigation by user20September; leave existing purchase unchanged. Not a verified price-compliance finding.",
-          "payment_reminder_received_at": "2026-09-24T08:01:42+02:00"
+          "payment_reminder_received_at": "2026-09-24T08:01:42+02:00",
+          "payment_confirmation": {
+            "status": "charged",
+            "charged_pln": 110.7,
+            "confirmation_received_at": "2026-09-25T00:09:38+02:00",
+            "source": "IdoPay email for245125-1"
+          }
         },
         "following_template": {
           "delivery_date": "2026-10-29",
           "quote_pln": 104.55,
           "discount_percent": 15,
           "home_courier_pln": 0
-        }
+        },
+        "last_checked": "2026-09-25",
+        "payment_date_field": "Still25September, now paid; following collection date unverified."
       },
       "361": {
         "next_payment_date": "2026-10-02",
@@ -353,13 +386,14 @@
         "earlier_verified_renewal_quote_pln": 104.09,
         "evening_overview_base_pln": 115.66,
         "current_payable_renewal_total_verified": false,
-        "first_order_243898": "Paid201.61PLN;22September signed-in detail held for missing merchant stock, no revised ETA; user23September confirms not received. No arrival or consumption credited.",
-        "last_checked": "2026-09-24",
+        "first_order_243898": "Paid201.61PLN; GLS confirms collection24September17:32 Warsaw; live tracking25September out for delivery. Supersedes22September stock hold. No receipt/contents/consumption credited.",
+        "last_checked": "2026-09-25",
         "visible_discounted_template_pln": 104.09,
         "home_courier_pln": 0,
         "egg_sku": 45382,
         "replacement_sku46125_saved": false,
-        "history_status_24sep": "realizowane; detail requires additional sign-in. Does not establish release of22September stock hold, dispatch or replacement ETA."
+        "history_status_24sep": "realizowane; detail requires additional sign-in. Does not establish release of22September stock hold, dispatch or replacement ETA.",
+        "history_status_25sep": "wysłane"
       },
       "pantry_B_checkout": {
         "foods": {
@@ -479,13 +513,13 @@
           "pistachio150g_x2": 82.6,
           "macadamia200g": 30.32
         },
-        "renewal_quote_scope": "Live profile370 next-renewal quote23September, selected GLS free; future prices may change.",
+        "renewal_quote_scope": "Live370 profile25September quotes133.61PLN with freeGLS. Stale23September payment date; next collection unverified.24December following delivery remains the creation-email date.",
         "payment_fee_pln": 0,
         "user_approved": true,
         "retailer_profile_status": "Aktywna",
         "card_on_profile": true,
         "initial_payment_verified": true,
-        "payment_status": "Paid133.61PLN verified on order success page; order being prepared. No repeat payment needed.",
+        "payment_status": "Paid133.61PLN; dispatched and out for delivery, not received. No repeat payment needed.",
         "discount_tiers": {
           "shipment2_percent": 10,
           "shipments3_to_300_percent": 15
@@ -493,15 +527,16 @@
         "initial_paid_pln": 133.61,
         "paid_at_display": "2026-09-23 22:40 Europe/Warsaw",
         "card_verification": "IdoPay embedded settings explicitly showed Aktywna karta dla subskrypcji nr370 after payment; parent profile temporarily still showed missing card.",
-        "shipment_status": "GLS email23September22:44 Warsaw confirms sender preparation only, no carrier handover; no receipt verified24September.",
-        "parent_card_status": "After reload parent displays masked card and verification-in-progress notice; IdoPay already explicitly confirms active card. Monitor synchronization; do not repay or request duplicate card entry.",
-        "last_checked": "2026-09-24",
+        "shipment_status": "GLS collected24September17:28 Warsaw; live25September tracking out for delivery. Receipt/contents not verified.",
+        "parent_card_status": "25September parent shows masked saved card without verification-in-progress notice; active subscription. IdoPay active card already confirmed23September. No duplicate entry/payment needed.",
+        "last_checked": "2026-09-25",
         "payment_processor_confirmation": {
           "received_at": "2026-09-23T22:40:47+02:00",
           "order_id": 246975,
           "charged_pln": 133.61,
           "source": "IdoPay email confirms recurring-card charge; not a second purchase."
-        }
+        },
+        "parent_card_verification_pending": false
       },
       "obsolete_order_243402": {
         "status": "merchant_rejected",
@@ -525,6 +560,35 @@
         "readiness": "Not qualified; reconcile held paid1kg Oats and startup meal allocation, then verify first/renewal free home courier.30day candidate is not an activated replacement of earlier Oat streams.",
         "order_submitted": false,
         "basket_restored_empty": true
+      },
+      "shipments_25sep": {
+        "243898": {
+          "carrier": "GLS",
+          "carrier_collection_confirmation_received_at": "2026-09-24T17:32:15+02:00",
+          "tracking_checked_on": "2026-09-25",
+          "tracking_status": "out_for_delivery",
+          "receipt_verified": false,
+          "contents_condition_verified": false
+        },
+        "246975": {
+          "carrier": "GLS",
+          "carrier_collection_confirmation_received_at": "2026-09-24T17:28:32+02:00",
+          "tracking_checked_on": "2026-09-25",
+          "tracking_status": "out_for_delivery",
+          "receipt_verified": false,
+          "contents_condition_verified": false
+        }
+      },
+      "sante_bran_route_25sep": {
+        "observed_on": "2026-09-25",
+        "exact_pack_g": 200,
+        "official_shop_price_pln": 3.29,
+        "native_route_found": false,
+        "sources": [
+          "https://sklep.sante.pl/produkty/otreby-owsiane-wysokoblonnikowe-200g-premium",
+          "https://bioshi.pl/pl/menu/na-sniadanie/otreby-4445"
+        ],
+        "conclusion": "Ordinary official checkout only; selected formulation not in checked Bioshi catalogue. No substitution or added stock to qualify Egg/Oat basket."
       }
     },
     "active_coverage_per_28_days": {
@@ -895,7 +959,7 @@
       ]
     },
     "activation_rollout": {
-      "as_of": "2026-09-23",
+      "as_of": "2026-09-25",
       "document": "diet/DIET_ACTIVATION_ROLLOUT.md",
       "new_streams_activated": 1,
       "nut_A_activation_target": "2026-09-23",
@@ -907,7 +971,8 @@
       "completion_date_reason": "Exact-food native routes, complete free-courier groups, usable life and repeated stock balance remain unverified; no promised full-automation date.",
       "new_streams_created": 1,
       "nut_A_subscription": 370,
-      "nut_A_order": 246975
+      "nut_A_order": 246975,
+      "current_incoming_status": "243898 and246975 out for delivery25September, no receipt verified."
     },
     "practical_additional_alternatives": {
       "monthly_egg_clusters": {
@@ -1071,9 +1136,9 @@
           "stock_reference_quantity": 100.0,
           "unit": "g",
           "stock_source": "User estimate; species and whether today's serving was already eaten are unknown.",
-          "forecast_remaining_before_today_use": 80.0,
+          "forecast_remaining_before_today_use": 60.0,
           "first_forecast_not_fully_supplied_day": "2026-09-28",
-          "review_no_later_than": "2026-09-24",
+          "review_no_later_than": "2026-09-25",
           "forecast_only": true
         },
         {
@@ -1082,7 +1147,7 @@
           "stock_reference_quantity": 650.0,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 580.0,
+          "forecast_remaining_before_today_use": 573.0,
           "first_forecast_not_fully_supplied_day": "2026-12-15",
           "review_no_later_than": "2026-12-01",
           "forecast_only": true
@@ -1093,7 +1158,7 @@
           "stock_reference_quantity": 350.0,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 280.0,
+          "forecast_remaining_before_today_use": 273.0,
           "first_forecast_not_fully_supplied_day": "2026-11-03",
           "review_no_later_than": "2026-10-27",
           "forecast_only": true
@@ -1104,7 +1169,7 @@
           "stock_reference_quantity": 200.0,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 180.0,
+          "forecast_remaining_before_today_use": 178.0,
           "first_forecast_not_fully_supplied_day": "2026-12-23",
           "review_no_later_than": "2026-12-09",
           "forecast_only": true
@@ -1115,9 +1180,9 @@
           "stock_reference_quantity": 228.75,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 93.75,
+          "forecast_remaining_before_today_use": 80.25,
           "first_forecast_not_fully_supplied_day": "2026-09-30",
-          "review_no_later_than": "2026-09-24",
+          "review_no_later_than": "2026-09-25",
           "forecast_only": true
         },
         {
@@ -1128,7 +1193,7 @@
           "stock_source": "Original opening-stock estimate",
           "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-24",
-          "review_no_later_than": "2026-09-24",
+          "review_no_later_than": "2026-09-25",
           "forecast_only": true
         },
         {
@@ -1139,7 +1204,7 @@
           "stock_source": "User report; paid incoming1kg has not arrived.",
           "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-23",
-          "review_no_later_than": "2026-09-24",
+          "review_no_later_than": "2026-09-25",
           "forecast_only": true
         }
       ],
@@ -1234,11 +1299,11 @@
     "current_stock_block": "Selected46125 available22September but no qualifying new Egg shipment; authenticated replacement search failed. Oats0g and Nuts100g reported23September; paid Nut A now incoming, first arrival unconfirmed."
   },
   "operational_evidence": {
-    "recorded_on": "2026-09-24",
-    "source": "Live Opera checks22-23September, signed-in Nut checkout22September, user stock/receipt report23September. Historical evidence keeps its original dates. 24September profile, email and reversible Egg/Oat basket checks; no new stock observation.",
+    "recorded_on": "2026-09-25",
+    "source": "Dated merchant/IdoPay/GLS emails and live Opera subscription/tracking checks through25September; stock remains the23September user report. Historical evidence retains its original dates.",
     "357": {
       "delivered_at": "2026-09-18T14:44:00+02:00",
-      "next_payment_date": "2026-09-25",
+      "next_payment_date": null,
       "next_delivery_date": "2026-10-01",
       "created_renewal": {
         "order_id": 245125,
@@ -1254,14 +1319,22 @@
           "oyster_200g": 8.99
         },
         "kiwi_delivered_premium_check": "Historical comparison closed to further investigation by user20September; leave existing purchase unchanged. Not a verified price-compliance finding.",
-        "payment_reminder_received_at": "2026-09-24T08:01:42+02:00"
+        "payment_reminder_received_at": "2026-09-24T08:01:42+02:00",
+        "payment_confirmation": {
+          "status": "charged",
+          "charged_pln": 110.7,
+          "confirmation_received_at": "2026-09-25T00:09:38+02:00",
+          "source": "IdoPay email for245125-1"
+        }
       },
       "following_template": {
         "delivery_date": "2026-10-29",
         "quote_pln": 104.55,
         "discount_percent": 15,
         "home_courier_pln": 0
-      }
+      },
+      "last_checked": "2026-09-25",
+      "payment_date_field": "Still25September, now paid; following collection date unverified."
     },
     "361": {
       "next_payment_date": "2026-10-02",
@@ -1272,13 +1345,14 @@
       "earlier_verified_renewal_quote_pln": 104.09,
       "evening_overview_base_pln": 115.66,
       "current_payable_renewal_total_verified": false,
-      "first_order_243898": "Paid201.61PLN;22September signed-in detail held for missing merchant stock, no revised ETA; user23September confirms not received. No arrival or consumption credited.",
-      "last_checked": "2026-09-24",
+      "first_order_243898": "Paid201.61PLN; GLS confirms collection24September17:32 Warsaw; live tracking25September out for delivery. Supersedes22September stock hold. No receipt/contents/consumption credited.",
+      "last_checked": "2026-09-25",
       "visible_discounted_template_pln": 104.09,
       "home_courier_pln": 0,
       "egg_sku": 45382,
       "replacement_sku46125_saved": false,
-      "history_status_24sep": "realizowane; detail requires additional sign-in. Does not establish release of22September stock hold, dispatch or replacement ETA."
+      "history_status_24sep": "realizowane; detail requires additional sign-in. Does not establish release of22September stock hold, dispatch or replacement ETA.",
+      "history_status_25sep": "wysłane"
     },
     "pantry_B_checkout": {
       "foods": {
@@ -1398,13 +1472,13 @@
         "pistachio150g_x2": 82.6,
         "macadamia200g": 30.32
       },
-      "renewal_quote_scope": "Live profile370 next-renewal quote23September, selected GLS free; future prices may change.",
+      "renewal_quote_scope": "Live370 profile25September quotes133.61PLN with freeGLS. Stale23September payment date; next collection unverified.24December following delivery remains the creation-email date.",
       "payment_fee_pln": 0,
       "user_approved": true,
       "retailer_profile_status": "Aktywna",
       "card_on_profile": true,
       "initial_payment_verified": true,
-      "payment_status": "Paid133.61PLN verified on order success page; order being prepared. No repeat payment needed.",
+      "payment_status": "Paid133.61PLN; dispatched and out for delivery, not received. No repeat payment needed.",
       "discount_tiers": {
         "shipment2_percent": 10,
         "shipments3_to_300_percent": 15
@@ -1412,15 +1486,16 @@
       "initial_paid_pln": 133.61,
       "paid_at_display": "2026-09-23 22:40 Europe/Warsaw",
       "card_verification": "IdoPay embedded settings explicitly showed Aktywna karta dla subskrypcji nr370 after payment; parent profile temporarily still showed missing card.",
-      "shipment_status": "GLS email23September22:44 Warsaw confirms sender preparation only, no carrier handover; no receipt verified24September.",
-      "parent_card_status": "After reload parent displays masked card and verification-in-progress notice; IdoPay already explicitly confirms active card. Monitor synchronization; do not repay or request duplicate card entry.",
-      "last_checked": "2026-09-24",
+      "shipment_status": "GLS collected24September17:28 Warsaw; live25September tracking out for delivery. Receipt/contents not verified.",
+      "parent_card_status": "25September parent shows masked saved card without verification-in-progress notice; active subscription. IdoPay active card already confirmed23September. No duplicate entry/payment needed.",
+      "last_checked": "2026-09-25",
       "payment_processor_confirmation": {
         "received_at": "2026-09-23T22:40:47+02:00",
         "order_id": 246975,
         "charged_pln": 133.61,
         "source": "IdoPay email confirms recurring-card charge; not a second purchase."
-      }
+      },
+      "parent_card_verification_pending": false
     },
     "obsolete_order_243402": {
       "status": "merchant_rejected",
@@ -1444,6 +1519,35 @@
       "readiness": "Not qualified; reconcile held paid1kg Oats and startup meal allocation, then verify first/renewal free home courier.30day candidate is not an activated replacement of earlier Oat streams.",
       "order_submitted": false,
       "basket_restored_empty": true
+    },
+    "shipments_25sep": {
+      "243898": {
+        "carrier": "GLS",
+        "carrier_collection_confirmation_received_at": "2026-09-24T17:32:15+02:00",
+        "tracking_checked_on": "2026-09-25",
+        "tracking_status": "out_for_delivery",
+        "receipt_verified": false,
+        "contents_condition_verified": false
+      },
+      "246975": {
+        "carrier": "GLS",
+        "carrier_collection_confirmation_received_at": "2026-09-24T17:28:32+02:00",
+        "tracking_checked_on": "2026-09-25",
+        "tracking_status": "out_for_delivery",
+        "receipt_verified": false,
+        "contents_condition_verified": false
+      }
+    },
+    "sante_bran_route_25sep": {
+      "observed_on": "2026-09-25",
+      "exact_pack_g": 200,
+      "official_shop_price_pln": 3.29,
+      "native_route_found": false,
+      "sources": [
+        "https://sklep.sante.pl/produkty/otreby-owsiane-wysokoblonnikowe-200g-premium",
+        "https://bioshi.pl/pl/menu/na-sniadanie/otreby-4445"
+      ],
+      "conclusion": "Ordinary official checkout only; selected formulation not in checked Bioshi catalogue. No substitution or added stock to qualify Egg/Oat basket."
     }
   },
   "stock_observations": [
@@ -1478,7 +1582,7 @@
     }
   ],
   "activation_rollout": {
-    "as_of": "2026-09-23",
+    "as_of": "2026-09-25",
     "document": "diet/DIET_ACTIVATION_ROLLOUT.md",
     "new_streams_activated": 1,
     "nut_A_activation_target": "2026-09-23",
@@ -1490,6 +1594,7 @@
     "completion_date_reason": "Exact-food native routes, complete free-courier groups, usable life and repeated stock balance remain unverified; no promised full-automation date.",
     "new_streams_created": 1,
     "nut_A_subscription": 370,
-    "nut_A_order": 246975
+    "nut_A_order": 246975,
+    "current_incoming_status": "243898 and246975 out for delivery25September, no receipt verified."
   }
 }
