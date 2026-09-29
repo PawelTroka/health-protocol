@@ -180,7 +180,7 @@ class SeptemberLabReportTests(unittest.TestCase):
             self.assertNotIn("2026-09", table[0])
             self.assertNotIn("Trend", table[0])
 
-    def test_completed_celiac_and_stool_m2pk_assays_appear_in_main_tables(self):
+    def test_completed_celiac_and_stool_bounded_assays_appear_in_main_tables(self):
         expected = {
             ("Immunology & Inflammation", "tTG IgA"):
                 ("< 2.00", "RU/ml", "< 20.0: negative; >= 20.0: positive"),
@@ -188,9 +188,12 @@ class SeptemberLabReportTests(unittest.TestCase):
                 ("< 2.0", "RU/ml", "< 25: negative; >= 25: positive"),
             ("Stool Analysis", "M2-PK (Stool)"):
                 ("< 1.00", "U/ml", "0.0 - 4.0"),
+            ("Stool Analysis", "Lactoferrin (Stool)"):
+                ("< 0.10", "ug/ml", "0.00 - 7.20"),
         }
         for (category, marker), (value, unit, reference) in expected.items():
             with self.subTest(marker=marker):
+                self.assertEqual(sum(row[0] == marker for row in self.report["data"][category]), 1)
                 observations = self.observations(category, marker)
                 self.assertEqual(observations["2026-09"], value)
                 self.assertTrue(all(result == "-" for month, result in observations.items()
@@ -207,9 +210,11 @@ class SeptemberLabReportTests(unittest.TestCase):
                             category, group["rows"])
                         self.assertIn(rendered, output)
                         table = rendered_table_rows(rendered, output_format)
+                        self.assertEqual(sum(row[0] == marker for row in table[1:]), 1)
                         cells = next(row for row in table[1:] if row[0] == marker)
                         displayed = dict(zip(table[0], cells))
-                        self.assertEqual(displayed["2026-09"], "🔵 " + value)
+                        expected_dot = "🟢" if marker == "Lactoferrin (Stool)" else "🔵"
+                        self.assertEqual(displayed["2026-09"], expected_dot + " " + value)
                         self.assertEqual(displayed["Unit"], unit)
                         self.assertEqual(displayed["Trend"], "-")
                         for month in self.report["historical_date_columns"]:
@@ -523,7 +528,7 @@ class SeptemberLabReportTests(unittest.TestCase):
     def test_all_followups_appear_in_september_in_both_generated_reports(self):
         values = [value for observations in self.report["lab_followups"]["2026-09"].values()
                   for value in observations.values()]
-        self.assertEqual(sum(value != "pending" for value in values), 124)
+        self.assertEqual(sum(value != "pending" for value in values), 125)
         self.assertEqual(values.count("pending"), 1)
         for category, observations in self.report["lab_followups"]["2026-09"].items():
             rows = self.report["data"][category]

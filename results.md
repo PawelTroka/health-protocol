@@ -761,6 +761,7 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Giardia lamblia Antigen** | - | - | 🔵 negative | Status | negative |
 | **Alpha-1 Antitrypsin (Stool)** | - | - | 🔵 7.90 | mg/dl | < 27.50; target < 27.50 |
 | **Calprotectin (Stool)** | 💎 | 🔵<sup>1</sup> < 5.0 | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
+| **Lactoferrin (Stool)** | - | 🟢 < 0.10 | - | ug/ml | 0.00 - 7.20 |
 | **Pancreatic Elastase-1 (Stool)** | - | 🔵 600.0 | - | ug/g | >= 200 |
 | **M2-PK (Stool)** | - | 🔵 < 1.00 | - | U/ml | 0.0 - 4.0 |
 | **Zonulin (Stool)** | - | 🔴 217.0 ↑ | - | uU/g | < 60.1 |

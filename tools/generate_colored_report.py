@@ -1464,6 +1464,7 @@ data = {
         ("Giardia lamblia Antigen", "negative", "-", "-", "-", "Status", "negative"),
         ("Alpha-1 Antitrypsin (Stool)", "7.90", "-", "-", "-", "mg/dl", "< 27.50"),
         ("Calprotectin (Stool)", "291.70", "-", "-", "-", "ug/g", "< 50.00"),
+        ("Lactoferrin (Stool)", "-", "-", "-", "-", "ug/ml", "0.00 - 7.20"),
         ("Pancreatic Elastase-1 (Stool)", "-", "-", "-", "-", "ug/g", ">= 200"),
         ("M2-PK (Stool)", "-", "-", "-", "-", "U/ml", "0.0 - 4.0"),
         ("Zonulin (Stool)", "-", "-", "-", "-", "uU/g", "< 60.1"),
@@ -1532,6 +1533,7 @@ data = {
 # September 23-24 reports complete stool sIgA, M2-PK, ANA IIFT, tTG IgA and DGP IgG.
 # September 25 report completes serum selenium from the September 16 specimen.
 # September 29 reports complete stool zonulin and both butyric acid measurements.
+# The September 29 Diagnostyka report adds lactoferrin and confirms M2-PK.
 lab_followups = {
     "2026-09": {
         "Morphology": {
@@ -1573,6 +1575,7 @@ lab_followups = {
             "Calprotectin (Stool)": "< 5.0", "Pancreatic Elastase-1 (Stool)": "600.0",
             "Secretory sIgA (Stool)": "339.8",
             "M2-PK (Stool)": "< 1.00",
+            "Lactoferrin (Stool)": "< 0.10",
             "Zonulin (Stool)": "217.0",
             "Butyric Acid (Stool)": "14.4", "Butyric Acid (Stool) %": "14.8",
         },
