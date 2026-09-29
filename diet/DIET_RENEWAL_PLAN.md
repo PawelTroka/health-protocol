@@ -1,6 +1,6 @@
 # Diet renewals — current decision and native-only plan
 
-**25September check:** IdoPay confirms110.70zł collected for245125;1October remains its delivery date. GLS has collected243898 and246975 and both are now out for delivery, with receipt unverified.370's parent card-verification notice has cleared. No repeat payment/card entry or new activation is required. The [current handoff](DIET_PAYMENT_HANDOFF.md#25september-morning--payment-succeeded-both-first-parcels-out-for-delivery) owns the dated evidence; old stock holds and label-only observations below are historical.
+**29September check:** paid245125 is being processed for1October/free GLS; its GLS label is assigned but carrier handover has not occurred.247410 remains104.09zł for automatic payment2October and9October/free GLS; the23October98.31zł template is separate.26September evidence still confirms243898/246975 delivered25September14:57 Warsaw and370 payment17December/delivery24December. Contents, condition and current stock remain uninspected. No new manual payment or activation is ready. The [current handoff](DIET_PAYMENT_HANDOFF.md) owns the latest evidence; earlier dated observations below remain historical.
 
 ## 23September evening — Nut A paid and automatic card confirmed
 
@@ -11,11 +11,11 @@ The user approved terms and submission after the coupon check. Bioshi accepted *
 The dry-Nut storage assessment is now sufficient for practical preparation: the exact Bio Planet products specify cool, dry storage without a short after-opening limit. Nut A supplies40×20g choices; open packs sequentially, joining the two10g Pistachio remnants into one same-food serving. Its packs need not remain open for90days. Normal delivered-label/condition inspection remains necessary; a missing batch-specific guarantee is not by itself a reason to postpone this dry-food purchase. Nut B remains a later separate group, approximately40days after A's actual arrival.
 
 
-Updated25September2026. This is the concise current purchasing decision. The [README Diet](../README.md#4-diet) remains canonical for food identities, portions and rotation. Earlier F/P schedules are research records, not booked deliveries.
+Updated26September2026. This is the concise current purchasing decision. The [README Diet](../README.md#4-diet) remains canonical for food identities, portions and rotation. Earlier F/P schedules are research records, not booked deliveries.
 
 ## Dated rollout and current stock
 
-The [activation calendar](DIET_ACTIVATION_ROLLOUT.md) separates booked renewals, paid incoming orders and unscheduled categories. On23September the user reported **Oats0g, Eggsabout10 and Nutsabout100g**, and confirmed paid243898 has **not arrived**. Nut A is now paid with automatic card setup verified; aggregate first need remains around28–29September, potentially earlier if varieties leave incomplete servings. Oats are already uncovered. No verified100%-automation completion date exists.
+The [activation calendar](DIET_ACTIVATION_ROLLOUT.md) separates booked renewals, paid incoming orders and unscheduled categories. On23September the user reported **Oats0g, Eggsabout10 and Nutsabout100g**, and confirmed paid243898 has **not arrived**. GLS confirms243898 and Nut A arrived25September; the earlier Oat gap and28–29September Nut forecast describe pre-delivery stock only. Offset the delivered1kg Oats and800g Nuts without inventing a measured current balance or first-use date. No verified100%-automation completion date exists.
 
 ## Decision
 
@@ -43,15 +43,15 @@ No new Bioshi/GLS email through22September evening confirms dispatch of paid2438
 
 | Profile | Foods | Repeat | Next payment | Scheduled delivery | Courier / price evidence |
 | --- | --- | --- | --- | --- | --- |
-| [Bioshi357](https://bioshi.pl/pl/subscription.html?id=357) | Kiwi1.2kg gross; Tomatoes1kg; Shiitake200g; Oyster Mushrooms200g |28days |25September |1October, then29October |Created order245125:110.70zł/free GLS. The29October template separately shows104.55zł at15%; it is not the imminent debit. |
-| [Bioshi361](https://bioshi.pl/pl/subscription.html?id=361) | Eggs10; Oranges1kg gross; Butternut1kg gross; Tempeh200g×3; Strawberries450g |14days |2October |9October, then23October |Free GLS;104.09zł discounted quote visible22–23September (115.66zł base less11.57zł). Recheck the actual created renewal notice; paid first243898 is separate. |
-| [Bioshi370 — Nut A](https://bioshi.pl/pl/subscription.html?id=370) | Walnuts300g; Pistachios150g×2; Macadamias200g |90days |Initial133.61zł paid; next charge date unverified |25September first estimate;24December next displayed date |Order246975 paid; free GLS and0zł payment fee. Active profile and saved card verified in IdoPay;133.61zł/free GLS next-renewal quote verified. |
+| [Bioshi357](https://bioshi.pl/pl/subscription.html?id=357) | Kiwi1.2kg gross; Tomatoes1kg; Shiitake200g; Oyster Mushrooms200g |28days |25September paid; following collection unverified |1October, then29October |Created order245125:110.70zł/free GLS. The29October template separately shows104.55zł at15%; it is not the imminent debit. |
+| [Bioshi361](https://bioshi.pl/pl/subscription.html?id=361) | Eggs10; Oranges1kg gross; Butternut1kg gross; Tempeh200g×3; Strawberries450g |14days |2October |9October, then23October |Created247410:104.09zł, GLS/payment fees0zł; automatic2October. Following23October template98.31zł at15% is separate. First243898 delivered25September. |
+| [Bioshi370 — Nut A](https://bioshi.pl/pl/subscription.html?id=370) | Walnuts300g; Pistachios150g×2; Macadamias200g |90days |17December; initial133.61zł already paid |25September first delivered;24December next displayed date |Order246975 paid; free GLS and0zł payment fee. Active profile and saved card verified in IdoPay;133.61zł/free GLS next-renewal quote verified. |
 
 **19September change:** Bioshi created renewal245125 at08:29:58 Warsaw. Its08:30 email and live Opera subscription agree on automatic payment **25September**, one day earlier than yesterday's field. The1October delivery and110.70zł amount remain unchanged. Its four lines are Kiwi1.2kg63.92zł, Tomatoes1kg23.58zł, Shiitake200g14.21zł and Oyster200g8.99zł; courier/payment fees are0zł. The profile's104.55zł quote is now the following15%-discount template for29October. The order-detail page requests additional sign-in; its actual edit controls were not verified. No second/manual payment is requested.
 
 The [19September per-product comparison](DIET_SUBSCRIPTION_COSTS.md#19september--created-renewal245125) clears Tomatoes and both Mushrooms against available public goods prices, conditional on local availability. The Kiwi calculations remain historical evidence; the user stopped further investigation on20September. This is a user-directed decision to leave the current purchase alone, not a verified price-compliance finding. No renewal was changed or cancelled.
 
-357's first order243351 was paid123.01zł; GLS marked delivery18September at14:44 Warsaw. Contents, edible weights and condition have not been inspected. 361's first order243898 was paid201.61zł; Bioshi planned **21September dispatch**, and the18September18:05 GLS notification was label creation only. Do not mistake its future subscription dates for the actual first-parcel arrival. The detail banner currently links that first order to the future9October date, so account labels alone do not resolve the dispatch discrepancy.
+357's first order243351 was paid123.01zł; GLS marked delivery18September at14:44 Warsaw. Contents, edible weights and condition have not been inspected. 361's first order243898 was paid201.61zł and GLS confirms delivery25September14:57 Warsaw. Its delayed fulfillment is now resolved at carrier level; contents/condition are uninspected. The9October banner now links the separate renewal247410.
 
 Paid243898 also contains **one-off** Oats1kg, Cinnamon50g, Cardamom40g, Cloves30g and orange Sweet Potatoes1kg. None has an active renewal. Old profiles358/359/360 are ended. Bioshi's23September12:26 Warsaw email rejects243402; cancellation of243364/243397 remains unresolved. Do not pay or resume those obsolete records.
 

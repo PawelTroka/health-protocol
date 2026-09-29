@@ -229,6 +229,29 @@ def practical_alternatives(model):
     }
 
 
+def later_receipt_scope(model, food, stock_date, as_of):
+    """Qualify an old stock reference without crediting uninspected deliveries."""
+    later = []
+    for receipt in model.get("receipt_observations", []):
+        reported_on = date.fromisoformat(receipt["reported_on"])
+        if (receipt.get("received") is not True or reported_on > as_of
+                or food not in receipt.get("affected_groups", [])):
+            continue
+        delivered_on = date.fromisoformat(
+            receipt.get("delivered_at", receipt["reported_on"])[:10])
+        if stock_date < delivered_on <= as_of:
+            later.append({key: receipt[key] for key in (
+                "order_id", "reported_on", "delivered_at", "source",
+                "contents_condition_verified") if key in receipt})
+    if not later:
+        return {}
+    return {
+        "subsequent_receipts_excluded": later,
+        "current_shortage_inference_supported": False,
+        "forecast_scope": "Dated stock reference only; excludes subsequent deliveries. Reconcile their contents, condition and consumption before inferring a current shortage. No delivered quantity is credited here.",
+    }
+
+
 def forecast_reviews(model):
     opening_date = date.fromisoformat(model["opening_stock"]["reported_on"])
     today = date.fromisoformat(model["as_of"])
@@ -277,6 +300,7 @@ def forecast_reviews(model):
             "first_forecast_not_fully_supplied_day": next_need.isoformat(),
             "review_no_later_than": max(today, next_need - timedelta(days=lead)).isoformat(),
             "forecast_only": True,
+            **later_receipt_scope(model, name, start, today),
         })
     observations_without_depletion = []
     if ("Eggs", "count") in latest:
@@ -289,12 +313,13 @@ def forecast_reviews(model):
             "stock_source": eggs.get("source", "Dated stock observation"),
             "forecast_depletion_date": None,
             "reason": "Apply the actual dinner rotation and edible weights; no daily-average depletion or incoming carton is assumed.",
+            **later_receipt_scope(model, "Eggs", reported_on, today),
         })
     return {
-        "assumptions": "Use the latest dated stock observation on or before as_of for each exact group/unit; otherwise retain the original opening-stock estimate. Forecast daily use from that reference, assuming the balance precedes that day's serving. Before/after-serving timing, measured quantities, consumption and expiry remain unverified. Combined Nut mass does not identify species or guarantee complete same-food portions. Incoming orders are excluded until receipt is established.",
+        "assumptions": "Use the latest dated stock observation on or before as_of for each exact group/unit; otherwise retain the original opening-stock estimate. Forecast daily use from that reference, assuming the balance precedes that day's serving. Before/after-serving timing, measured quantities, consumption and expiry remain unverified. Combined Nut mass does not identify species or guarantee complete same-food portions. Later receipts qualify the old reference but do not automatically credit usable stock; reconcile contents, condition and consumption before inferring a current shortage.",
         "reviews": result,
         "observations_without_depletion_forecast": observations_without_depletion,
-        "oat_rule": "Forecast currently reported Oats separately from incoming food. The paid1kg supplies40 written servings only after actual receipt and consumption begin; those dates remain unknown. An empty current balance is an immediate coverage gap, not covered by a dispatch estimate.",
+        "oat_rule": "Forecast the dated reported Oat balance separately from later deliveries. The paid1kg represents40 written servings if received contents are usable; carrier delivery alone does not establish usable quantity or when consumption began. A zero old reference cannot establish a current gap after a subsequent receipt; a dispatch estimate alone is not stock.",
         "fresh_stock": "357 parcel arrived18September, reported by root's live review. Use its Kiwi/Tomatoes/Mushrooms by actual condition, measured yield and label dates; do not infer today's consumption.",
         "native_only": "Forecasts inform initial retailer configuration. No routine skips, date corrections, manual bridge purchases or Codex-managed reorder cycle count as an accepted solution."
     }
@@ -370,14 +395,23 @@ def markdown(result):
                   "Unactivated; renewal courier, usable life and remainder allocation remain to verify.")
     lines = ["# Diet subscription rollout: stock and native candidates", "",
              f"As of {result['as_of']}. Offline analysis; no retailer changes or new activations.", "",
-             "| Latest stock reference | Reported balance | Estimated first uncovered day |",
+             "| Latest stock reference | Reported balance | Reference-only depletion estimate |",
              "| --- | --- | --- |"]
+    def receipt_note(item):
+        receipts = item.get("subsequent_receipts_excluded", [])
+        if not receipts:
+            return ""
+        refs = ", ".join(
+            f"order{r.get('order_id', 'unknown')} ({r.get('delivered_at', r['reported_on'])[:10]})"
+            for r in receipts)
+        return f"; excludes later delivery {refs}; not a current shortage inference"
+
     for item in stock["reviews"]:
         if item["food"] in {"combined Nuts", "Rolled Oats"}:
-            lines.append(f"| {item['food']} ({item['stock_reported_on']}) | {item['stock_reference_quantity']:g}{item['unit']} | {item['first_forecast_not_fully_supplied_day']} |")
+            lines.append(f"| {item['food']} ({item['stock_reported_on']}) | {item['stock_reference_quantity']:g}{item['unit']} | {item['first_forecast_not_fully_supplied_day']}{receipt_note(item)} |")
     for item in stock["observations_without_depletion_forecast"]:
-        lines.append(f"| {item['food']} ({item['stock_reported_on']}) | {item['reported_quantity']} {item['unit']} | Unassigned: actual dinner rotation and edible weight required |")
-    lines += ["", "Stock dates assume the reported balance precedes that day's serving. Estimates are not observed depletion; incoming food is not credited before receipt. Combined Nut mass does not establish complete same-food portions.", "",
+        lines.append(f"| {item['food']} ({item['stock_reported_on']}) | {item['reported_quantity']} {item['unit']} | Unassigned: actual dinner rotation and edible weight required{receipt_note(item)} |")
+    lines += ["", "Stock dates assume the reported balance precedes that day's serving. Estimates are not observed depletion. Later deliveries are identified but not credited as usable food; reconcile their contents, condition and consumption before inferring a current shortage. Combined Nut mass does not establish complete same-food portions.", "",
               "| Current native candidate | Quantity model and readiness |", "| --- | --- |",
               f"| NutA800g + NutB1000g, each every90days | B40days after A; exact20g/day; aggregate peak{current_nuts['inventory_g']['peak_after_delivery_with_that_buffer']:g}g. {nut_status} |",
               f"| Oats500g/30days +500g/60days | Exact25g/day; aggregate peak{practical['oats_500_30_plus_60']['inventory_g']['peak_after_delivery_with_that_buffer']:g}g. Qualifying shipments and first starts unverified. |",
@@ -463,11 +497,42 @@ def self_test():
     assert by_food["Matcha"]["stock_reported_on"] == "2026-09-14"
     assert "Eggs" not in by_food
     assert stock_check["observations_without_depletion_forecast"][0]["forecast_depletion_date"] is None
+    receipt_probe = {
+        **stock_probe,
+        "as_of": "2026-09-26",
+        "stock_observations": [o for o in stock_probe["stock_observations"]
+                               if o["reported_on"] <= "2026-09-23"],
+        "receipt_observations": [
+            {"reported_on": "2026-09-26", "delivered_at": "2026-09-25T14:57:00+02:00",
+             "order_id": 1, "received": True, "affected_groups": ["Rolled Oats", "Eggs"],
+             "source": "Carrier delivery", "contents_condition_verified": False},
+            {"reported_on": "2026-09-26", "delivered_at": "2026-09-25T14:57:00+02:00",
+             "order_id": 2, "received": True, "affected_groups": ["combined Nuts"]},
+            {"reported_on": "2026-09-26", "received": False,
+             "order_id": 3, "affected_groups": ["combined Nuts"]},
+            {"reported_on": "2026-09-27", "received": True,
+             "order_id": 4, "affected_groups": ["combined Nuts"]},
+        ],
+    }
+    receipt_check = forecast_reviews(receipt_probe)
+    delivered_food = {item["food"]: item for item in receipt_check["reviews"]}
+    # Delivery qualifies old zero/gap forecasts, without inventing stock credit.
+    assert delivered_food["Rolled Oats"]["forecast_remaining_before_today_use"] == 0
+    assert delivered_food["combined Nuts"]["forecast_remaining_before_today_use"] == 40
+    assert delivered_food["combined Nuts"]["first_forecast_not_fully_supplied_day"] == "2026-09-28"
+    for name, order_id in (("Rolled Oats", 1), ("combined Nuts", 2)):
+        assert delivered_food[name]["current_shortage_inference_supported"] is False
+        assert [r["order_id"] for r in delivered_food[name]["subsequent_receipts_excluded"]] == [order_id]
+    eggs_after_delivery = receipt_check["observations_without_depletion_forecast"][0]
+    assert eggs_after_delivery["reported_quantity"] == 10
+    assert eggs_after_delivery["current_shortage_inference_supported"] is False
+    assert "subsequent_receipts_excluded" not in delivered_food["Matcha"]
+    assert not later_receipt_scope(receipt_probe, "Rolled Oats", date(2026, 9, 26), date(2026, 9, 26))
     stock_probe["stock_observations"] = []
     fallback = {item["food"]: item for item in forecast_reviews(stock_probe)["reviews"]}
     assert fallback["combined Nuts"]["first_forecast_not_fully_supplied_day"] == "2026-10-09"
     assert "Rolled Oats" not in fallback
-    print("Exact rates, discrete Egg pattern, Oat drift, Nut balance, price-cap and dated stock forecast checks passed.")
+    print("Exact rates, discrete Egg pattern, Oat drift, Nut balance, price-cap, dated stock forecast and later-receipt scope checks passed.")
 
 
 def main():

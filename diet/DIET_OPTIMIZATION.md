@@ -1,6 +1,6 @@
 # Diet delivery optimization
 
-**Current state25September:** Bioshi357/361/370 are active. 245125 was automatically charged110.70zł; paid243898 and Nut A246975 are out for delivery, not yet credited as received.370's saved card is verified and the parent verification notice has cleared. Use the [renewal plan](DIET_RENEWAL_PLAN.md), [activation calendar](DIET_ACTIVATION_ROLLOUT.md) and [payment handoff](DIET_PAYMENT_HANDOFF.md) for current dates and required actions. Older schedules and quotes below are historical; they are not activation instructions.
+**Current state26September:** Bioshi357/361/370 remain active. GLS confirms243898 and Nut A246975 delivered25September14:57; contents/condition are uninspected.245125 is paid for1October. Created247410 will collect104.09zł automatically2October for9October, with free GLS; the23October98.31zł template is separate.370 next payment is17December, delivery24December. No new payment or activation is needed. Use the [renewal plan](DIET_RENEWAL_PLAN.md), [activation calendar](DIET_ACTIVATION_ROLLOUT.md) and [payment handoff](DIET_PAYMENT_HANDOFF.md) for current decisions. Older schedules below are historical.
 
 Adopted **2026-09-14**. Find a genuinely automatic purchasing-and-consumption schedule that supplies every required meal category and minimizes freshness loss when food is eaten, within the agreed Diet, budget and free home-courier requirement. **The current six-fresh/six-pantry proposal is a candidate, not a demonstrated feasible solution or a solved optimum.**
 

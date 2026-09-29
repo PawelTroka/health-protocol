@@ -1,5 +1,21 @@
 # Diet purchase handoff
 
+**Last checked29September:** paid245125 is being processed for1October/free GLS. Its new [GLS tracking](https://gls-group.eu/track/33685059789) confirms a label only: Bioshi has not handed the parcel to GLS.247410 remains104.09zł for automatic payment2October and9October/free GLS; the separate23October template is98.31zł. No payment failure, actionable merchant reply or fully prepared new activation was found. No manual action is needed; stock offsets and later activation targets remain unchanged. No retailer settings, baskets or orders were changed.
+
+## 27September — no new manual action
+
+No new Bioshi/GLS email was found since26September. Live357 remains active with paid245125 preparing for1October/free GLS; its following29October104.55zł template remains separate.361 still links247410 for9October, with2October automatic payment/free GLS. The26September created-order104.09zł evidence remains authoritative; no repeat payment is needed.
+
+The selected Egg's exact-EAN editor search again returned no product after loading; the search was cleared without account or basket changes. Its public product page still offers24.99zł/10 and native30days, but a fresh companion shipment is not ready: Cauliflower is unavailable and the checked Berries/Kohlrabi/Carrots are on order without confirmed dispatch. No new first/renewal free-home-courier quote is established. Sources and scope are recorded in the [renewal model](DIET_RENEWAL_MODEL.json). Keep26September's rollout and carrier-delivered Oat/Nut offsets; no new stock balance, activation, payment, merchant message or login request was created.
+
+## 26September — delivered parcels and confirmed October renewal
+
+**No manual payment, card entry or new activation is needed.** GLS tracking confirms both first parcels, **243898 and Nut A246975, delivered25September14:57 Warsaw**. Contents, condition and consumption remain uninspected; the older missing-stock hold and out-for-delivery status are superseded. The paid1kg Oats and800g Nuts must offset subsequent purchases. Nut B targets **4November**,40days after A's carrier-confirmed arrival, subject to usable reserve and its qualifying checkout.
+
+Bioshi created **361 renewal247410 on25September09:25 Warsaw**: **104.09zł automatic collection2October**, **9October delivery**, GLS home courier0zł and payment fee0zł. Its five lines are original Egg45382×1 carton21.23zł, Oranges1kg11.60zł, Butternut1kg8.99zł, Tempeh200g×3 34.53zł and Strawberries450g27.74zł. The live editor's **98.31zł at15% for23October** is a separate following template; it does not alter247410. Green-legged Egg46125 is still not saved into361.
+
+Live370 now verifies **17December automatic payment**, **24December delivery**,133.61zł/free GLS and a saved card without the earlier verification notice.245125 remains paid110.70zł for1October. No new qualifying native route or actionable merchant reply was found; no account, basket, order, payment or subscription was changed. Obsolete243364/243397 remain excluded and243402 rejected.
+
 ## 25September morning — payment succeeded; both first parcels out for delivery
 
 **No new payment, card entry or subscription activation is needed.** IdoPay's25September00:09 Warsaw email confirms **110.70zł collected for245125**.357 remains active, with1October delivery and free GLS. Its25September payment-date field has not yet advanced; the following collection date is unverified.
