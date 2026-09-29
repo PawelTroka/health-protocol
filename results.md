@@ -763,6 +763,9 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Calprotectin (Stool)** | 💎 | 🔵<sup>1</sup> < 5.0 | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
 | **Pancreatic Elastase-1 (Stool)** | - | 🔵 600.0 | - | ug/g | >= 200 |
 | **M2-PK (Stool)** | - | 🔵 < 1.00 | - | U/ml | 0.0 - 4.0 |
+| **Zonulin (Stool)** | - | 🔴 217.0 ↑ | - | uU/g | < 60.1 |
+| **Butyric Acid (Stool)** | - | 🟡 14.4 ↓ | - | umol/g | 15.0 - 36.5 |
+| **Butyric Acid (Stool) %** | - | 🟡 14.8 ↓ | - | % of fatty acids | 15.0 - 23.0 |
 | **Stool Fat** | - | - | 🔵 4.0 | g/100g | < 5.2; target < 5.2 |
 | **Stool Water** | - | - | 🔵 71.0 | g/100g | 68.5 - 82.3; target 68.5 - 82.3 |
 | **Stool Protein** | - | - | 🔵 1.5 | g/100g | < 1.5; target < 1.5 |

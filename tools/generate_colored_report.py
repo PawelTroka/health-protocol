@@ -1466,6 +1466,9 @@ data = {
         ("Calprotectin (Stool)", "291.70", "-", "-", "-", "ug/g", "< 50.00"),
         ("Pancreatic Elastase-1 (Stool)", "-", "-", "-", "-", "ug/g", ">= 200"),
         ("M2-PK (Stool)", "-", "-", "-", "-", "U/ml", "0.0 - 4.0"),
+        ("Zonulin (Stool)", "-", "-", "-", "-", "uU/g", "< 60.1"),
+        ("Butyric Acid (Stool)", "-", "-", "-", "-", "umol/g", "15.0 - 36.5"),
+        ("Butyric Acid (Stool) %", "-", "-", "-", "-", "% of fatty acids", "15.0 - 23.0"),
         ("Stool Fat", "4.0", "-", "-", "-", "g/100g", "< 5.2"),
         ("Stool Water", "71.0", "-", "-", "-", "g/100g", "68.5 - 82.3"),
         ("Stool Protein", "1.5", "-", "-", "-", "g/100g", "< 1.5"),
@@ -1528,6 +1531,7 @@ data = {
 # September 18 immunoblot completes 16 qualitative antibody results.
 # September 23-24 reports complete stool sIgA, M2-PK, ANA IIFT, tTG IgA and DGP IgG.
 # September 25 report completes serum selenium from the September 16 specimen.
+# September 29 reports complete stool zonulin and both butyric acid measurements.
 lab_followups = {
     "2026-09": {
         "Morphology": {
@@ -1569,6 +1573,8 @@ lab_followups = {
             "Calprotectin (Stool)": "< 5.0", "Pancreatic Elastase-1 (Stool)": "600.0",
             "Secretory sIgA (Stool)": "339.8",
             "M2-PK (Stool)": "< 1.00",
+            "Zonulin (Stool)": "217.0",
+            "Butyric Acid (Stool)": "14.4", "Butyric Acid (Stool) %": "14.8",
         },
         "Stool Pathogen PCR": {
             "Adenovirus F 40/41": "not detected",
@@ -1622,12 +1628,12 @@ for name in ANA_ENA_MARKERS:
     )
     no_score_markers.add(("Immunology & Inflammation", name))
 
-# Five original tests remain without supplied results after the September 25
+# Three original tests remain without supplied results after the September 29
 # reports. All completed assays have result rows.
 # An assay disappearing from a waiting list is not a completed result.
 # Assays without a completed result do not acquire guessed units or references.
 lab_pending_tests = {
-    "Stool Analysis": ["Histamine", "Butyric acid", "Zonulin"],
+    "Stool Analysis": ["Histamine"],
     "Urine Chemistry": ["Iodine in 24-hour urine"],
     "Urine Culture": ["Urine culture"],
 }

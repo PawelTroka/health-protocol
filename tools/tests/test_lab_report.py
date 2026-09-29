@@ -139,12 +139,12 @@ class SeptemberLabReportTests(unittest.TestCase):
     def test_pending_registry_excludes_all_completed_assays(self):
         pending = [name for names in self.report["lab_pending_tests"].values() for name in names]
         self.assertEqual(Counter(pending), Counter([
-            "Histamine", "Butyric acid", "Zonulin", "Iodine in 24-hour urine",
-            "Urine culture",
+            "Histamine", "Iodine in 24-hour urine", "Urine culture",
         ]))
         self.assertNotIn("Serum protein electrophoresis (whole panel)", pending)
         self.assertNotIn("ANA/ENA immunoblot", pending)
-        for completed in ("ANA (IIFT + titre)", "DGP IgG", "tTG IgA", "Secretory sIgA", "Selenium"):
+        for completed in ("ANA (IIFT + titre)", "DGP IgG", "tTG IgA", "Secretory sIgA",
+                          "Selenium", "Butyric acid", "Zonulin"):
             self.assertNotIn(completed, pending)
         self.assertNotIn("TSH", pending)
         self.assertNotIn("Calprotectin", pending)
@@ -328,6 +328,40 @@ class SeptemberLabReportTests(unittest.TestCase):
                 self.assertEqual(literal_result(displayed["2026-07"]), "5023.4")
                 self.assertNotIn("its repeat is pending", self.outputs[output_format])
 
+    def test_completed_zonulin_and_butyrate_appear_as_distinct_stool_results(self):
+        category = "Stool Analysis"
+        expected = {
+            "Zonulin (Stool)": ("217.0", "uU/g", "< 60.1", "🔴", "↑"),
+            "Butyric Acid (Stool)": ("14.4", "umol/g", "15.0 - 36.5", "🟡", "↓"),
+            "Butyric Acid (Stool) %":
+                ("14.8", "% of fatty acids", "15.0 - 23.0", "🟡", "↓"),
+        }
+        for marker, (value, unit, reference, color, arrow) in expected.items():
+            with self.subTest(marker=marker):
+                observations = self.observations(category, marker)
+                self.assertEqual(observations["2026-09"], value)
+                self.assertTrue(all(result == "-" for month, result in observations.items()
+                                    if month != "2026-09"))
+                self.assertEqual(self.row(category, marker)[-2:], (unit, reference))
+                group = next(group for group in self.report["lab_groups"](
+                    category, self.report["data"][category])
+                    if marker in [row[0] for row in group["rows"]])
+                for output_format, output in self.outputs.items():
+                    with self.subTest(output_format=output_format):
+                        rendered = self.report[f"render_result_table_{output_format}"](
+                            category, group["rows"])
+                        self.assertIn(rendered, output)
+                        table = rendered_table_rows(rendered, output_format)
+                        cells = next(row for row in table[1:] if row[0] == marker)
+                        displayed = dict(zip(table[0], cells))
+                        self.assertEqual(displayed["2026-09"], f"{color} {value} {arrow}")
+                        self.assertEqual(displayed["Unit"], unit)
+                        self.assertEqual(displayed["Reference"], reference)
+                        self.assertEqual(displayed["Trend"], "-")
+                        for month in self.report["historical_date_columns"]:
+                            if month in displayed:
+                                self.assertEqual(displayed[month], "-")
+
     def test_completed_selenium_preserves_history_and_appears_in_its_followup_table(self):
         category, marker = "Micronutrients", "Selenium"
         values = self.observations(category, marker)
@@ -489,7 +523,7 @@ class SeptemberLabReportTests(unittest.TestCase):
     def test_all_followups_appear_in_september_in_both_generated_reports(self):
         values = [value for observations in self.report["lab_followups"]["2026-09"].values()
                   for value in observations.values()]
-        self.assertEqual(sum(value != "pending" for value in values), 121)
+        self.assertEqual(sum(value != "pending" for value in values), 124)
         self.assertEqual(values.count("pending"), 1)
         for category, observations in self.report["lab_followups"]["2026-09"].items():
             rows = self.report["data"][category]

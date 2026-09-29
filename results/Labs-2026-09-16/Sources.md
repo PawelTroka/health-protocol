@@ -1,6 +1,6 @@
 # Laboratory results collected 2026-09-16
 
-Reviewed through 2026-09-25 from the original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
+Reviewed through 2026-09-29 from the original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
 
 ## Source documents and dates
 
@@ -19,10 +19,12 @@ Reviewed through 2026-09-25 from the original, unchanged PDFs below. These are d
 | [ALAB urine cystine, 1 page](../GDYNPOW-SL-00054812-20260923134441-3.pdf) | Urine: collection recorded as 2026-09-16 10:41; received 2026-09-17 08:54 | Report issued 2026-09-23 13:44; repeat required, no result |
 | [Diagnostyka stool M2-PK, 1 page](../wyniki-24_9_2026-21_58_51.pdf) | Stool: collected 2026-09-16 06:30; received 15:40 | Analyzed 2026-09-23 12:18:47; report and PDF issued 17:01:03 |
 | [ALAB selenium, 1 page](../LUBLINC-SL-00090109-20260925110927-54.pdf) | Venous serum: collected 2026-09-16 07:26; received 2026-09-18 11:03 | Analyzed 2026-09-25 11:05; report issued 11:09 |
+| [ALAB / GANZIMMUN zonulin, 1 page](../LIMBACH-SL-00104271-20260929155611-1.pdf) | Stool: collected 2026-09-16 07:26; received 2026-09-18 10:14 | Analyzed 2026-09-24 14:32; report issued 2026-09-29 15:56 |
+| [ALAB / GANZIMMUN butyric acid, 1 page](../LIMBACH-SL-00104271-20260929163008-2.pdf) | Stool: collected 2026-09-16 07:26; received 2026-09-18 10:14 | Analyzed 2026-09-28 08:54; report issued 2026-09-29 16:30 |
 
 All reports belong to the September 16 collection date. The Diagnostyka filename contains September 17, but its actual result and print timestamps are September 16; commit `4a521eb` renamed that file without changing its contents. Its two different collection times are retained without choosing one or assuming which is correct. The `without medicines` wording is a specimen/order annotation, not a verified medication history or a stated washout duration.
 
-All 18 PDF pages were visually checked. The Diagnostyka PDFs have broken text encoding, so their result tables were transcribed from the rendered pages. The initial import contained **84 completed observations** (63 ALAB and 21 PCR rows) plus **14 pending tests**. The [portal update](#portal-update-2026-09-17) added calprotectin and elastase; the [later PDFs](#pdf-update-2026-09-17) confirm both and add 13 proteinogram values. The [September 18 immunoblot](#anaena-immunoblot-issued-2026-09-18) adds 16 antibody results. The [September 23-24 reports](#pdf-updates-issued-2026-09-23-and-2026-09-24) complete sIgA, ANA IIFT, DGP IgG and tTG IgA and supply stool M2-PK. The [September 25 report](#selenium-issued-2026-09-25) completes selenium: **121 completed observations and five original tests without supplied results**. All 121 completed observations are included in the comparison tables.
+All 20 PDF pages were visually checked. The Diagnostyka PDFs have broken text encoding, so their result tables were transcribed from the rendered pages. The initial import contained **84 completed observations** (63 ALAB and 21 PCR rows) plus **14 pending tests**. The [portal update](#portal-update-2026-09-17) added calprotectin and elastase; the [later PDFs](#pdf-update-2026-09-17) confirm both and add 13 proteinogram values. The [September 18 immunoblot](#anaena-immunoblot-issued-2026-09-18) adds 16 antibody results. The [September 23-24 reports](#pdf-updates-issued-2026-09-23-and-2026-09-24) complete sIgA, ANA IIFT, DGP IgG and tTG IgA and supply stool M2-PK. The [September 25 report](#selenium-issued-2026-09-25) completes selenium; the [September 29 reports](#stool-zonulin-and-butyric-acid-issued-2026-09-29) add zonulin and two butyric acid measurements: **124 completed observations and three original tests without supplied results**. All 124 completed observations are included in the comparison tables.
 
 ## ALAB: Morphology (page 1)
 
@@ -284,4 +286,14 @@ The September 16 urine report marks all 12 assays **“Nieprawidłowe pobranie -
 | :--- | ---: | :--- | :--- | :--- |
 | Selenium | 90.60 | µg/l | 50 - 120 | - |
 
-ICP-MS, Shimadzu ICPMS-2030LF. Replaces September pending; July 108.75µg/l is retained. Five original tests still lack supplied results: stool histamine, stool butyric acid, stool zonulin, urine culture and 24-hour urinary iodine.
+ICP-MS, Shimadzu ICPMS-2030LF. Replaces September pending; July 108.75µg/l is retained. At this stage, five original tests still lacked supplied results: stool histamine, stool butyric acid, stool zonulin, urine culture and 24-hour urinary iodine.
+
+## Stool zonulin and butyric acid issued 2026-09-29
+
+| Report row | Result | Source unit | Source reference interval | Source flag |
+| :--- | ---: | :--- | :--- | :--- |
+| Zonulin (Stool) | 217.0 | µU/g | < 60.1 | High |
+| Butyric Acid (Stool) | 14.4 | µmol/g | 15.0 - 36.5 | Low |
+| Butyric Acid (Stool) % | 14.8 | % of fatty acids (`kw. tłuszczowych %`) | 15.0 - 23.0 | Low |
+
+GANZIMMUN, Mainz, via ALAB. Zonulin used ELISA; the butyric acid report does not state a method. All three results are included in the September stool-analysis table; concentration and fatty-acid percentage remain separate measurements. Three original tests still lack supplied results: stool histamine, urine culture and 24-hour urinary iodine.
