@@ -991,7 +991,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
   15mg / 1.5ml  
   10mg / ml  
   1.0mg -> 10IU/week
-- CJC-1295 with DAC 5mg  
+- [CJC-1295 with DAC 5mg](https://pro-body.com/pl/produkt/cjc-1295-with-dac-5mg/)  
   5mg / 2.5ml  
   2mg / ml  
   0.5mg-1mg -> 25-50IU/week
