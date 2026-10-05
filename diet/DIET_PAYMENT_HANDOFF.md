@@ -1,6 +1,66 @@
 # Diet purchase handoff
 
-**Last checked29September:** paid245125 is being processed for1October/free GLS. Its new [GLS tracking](https://gls-group.eu/track/33685059789) confirms a label only: Bioshi has not handed the parcel to GLS.247410 remains104.09zł for automatic payment2October and9October/free GLS; the separate23October template is98.31zł. No payment failure, actionable merchant reply or fully prepared new activation was found. No manual action is needed; stock offsets and later activation targets remain unchanged. No retailer settings, baskets or orders were changed.
+## 5October — renewal in transit; next candidate tested
+
+**247410 is now with GLS**, confirmed by the carrier's email received4October20:53:02 Warsaw after Bioshi's19:27:17 dispatch email. These are message receipt times, not separate handover-event timestamps. Live [tracking](https://gls-group.eu/track/33685064015) on5October says it is on the way to the delivery depot; receipt remains unconfirmed.361's history now says “wysłane” at104.09zł.9October remains the retailer schedule; no repayment is needed.
+
+**Paid249850 still shows preparation.**399 is active with its saved card and freeGLS/30days. Its banner advanced to4November and changes from4December, but the “created order” link still points to first249850 and history lists only that order. This is not evidence of a new renewal order or a revised November arrival for the held first parcel. The original5October estimate is unconfirmed. The payment field now displays31October as a future schedule; no new charge is recorded. Product rows/future totals did not render, so previous quotes and Egg identities retain their original evidence dates. No new merchant-stock update, Egg-replacement reply, cancellation confirmation or payment failure was found.
+
+The next monthly Egg/Blueberry candidate was reversibly tested: **selected green-legged Eggs46125×1 carton plus Blueberries55183×6 packs125g, both every30days**, verified in the basket at **141.33zł** (23.79zł+117.54zł). Its displayed recurring total is also141.33zł before any accepted coupon. Generic basket shipping says “Gratis”, but the next screen requires sign-in before the home-courier/destination/final-fee checks. Neither free HOME courier nor the final delivered price is verified. The first date must still respect399's actual arrival and stock. No new activation is ready, so no login/payment request is made. Only the two temporary test lines were removed; the basket is verified empty again.
+
+No new order, subscription, payment, contract acceptance, merchant message, physical-stock balance or received parcel was recorded. Normal dispatch progress and incomplete preparation are recorded quietly.
+
+## 4October — packed renewal; no manual action
+
+**247410 is packed and awaiting courier**, confirmed by Bioshi's email received3October13:39:43 Warsaw and today's361 history, “gotowe do wysłania / odbioru.” Neither establishes carrier handover; no newer GLS confirmation was found. The104.09zł payment remains settled and9October remains scheduled.361 is active with its saved card,14days and freeGLS;23October is the following delivery.
+
+399 is active with its saved card,30days and freeGLS. Paid249850's history still shows “Przygotowanie do realizacji” and99.25zł; no resolution of the previously recorded stock hold, affected SKU or revised ETA is known.5October remains an estimate and4November the following delivery. Order details still require additional sign-in; both profiles are readable, but their product rows and future totals did not render today. No login or duplicate payment is requested. Keep the last dated Egg/renewal-template evidence; no reply to the30September Egg request was found.
+
+Bioshi's email received2October13:39:41 Warsaw clarifies that245125's Tomatoes were reduced by **approximately0.5kg** for quality/availability reasons, with a proportional refund issued to the original payment account. It does not specify the exact packed weight or a new refund amount; retain the earlier11.79zł refund and98.91zł order-history evidence without counting another refund. Bank receipt remains unverified. This later message's future-dispatch wording does not override GLS-confirmed delivery1October.
+
+No new receipt, measured stock, payment problem, cancellation confirmation or qualifying activation is established. Four subscriptions remain active. No retailer settings, basket, orders, payments or messages were changed.
+
+## 2October — renewal247410 paid; label created
+
+**IdoPay's email received2October00:29:54 Warsaw confirms104.09zł successfully collected for247410, with transaction date2October. No manual repayment is needed.** The00:31:57 GLS email assigns parcel [33685064015](https://gls-group.eu/track/33685064015) but explicitly says the sender has not handed it to GLS.9October remains the delivery schedule; a label is not dispatch or receipt. Active361 retains original Egg45382 and the separate98.31zł template for23October. No reply to the Egg replacement request was found.
+
+399 remains active with a saved card,99.25zł/free GLS every30days and4November next delivery. Paid249850's history still says “Przygotowanie do realizacji”;5October remains the original estimate. The1October missing-stock explanation has no confirmed resolution, named missing SKU or revised ETA. Order details now request additional sign-in, while the profile is accessible; no further login is needed for this check.
+
+Four subscriptions remain active:357,361,370 and399. No new stock observation, qualifying activation or user action is established. Existing later activation targets remain unchanged.
+
+## 1October evening — subscription399 active and paid; first order held for stock
+
+**[Subscription399](https://bioshi.pl/pl/subscription.html?id=399) is active, with a saved card and no verification warning. [Order249850](https://bioshi.pl/pl/orderdetails.html?order_number=249850) is paid99.25zł:** IdoPay confirms card collection1October22:30:24 Warsaw; Bioshi created the order at22:28:37. No further payment or card action is needed; **do not repay249850**. The current renewal quote is99.25zł every30days, with free GLS home courier and next delivery4November. The displayed1October payment date refers to the first payment; the next collection date is unverified.
+
+**The first order is held for missing merchant goods**, showing “Przygotowanie do realizacji.” No missing SKU or revised ETA is identified.5October remains the original first-delivery estimate, not a confirmed dispatch or arrival; no usable stock is credited from payment.
+
+The user authorized activation on1October: “not much, we can activate subscription now.” This confirms qualitatively low owned stock of Eggs, Carrots, Cauliflower and Raspberries and resolves the first-purchase stock check without invented weights or counts. Terms were accepted and the order submitted under that authorization; the user then completed payment directly.
+
+The expanded basket and final review confirm four foods, each repeating every30days. Coupon **kk11** was accepted, reducing110.29zł by11.04zł to **99.25zł**:
+
+| Food / exact SKU | Quantity per shipment | One-off goods | Checkout after coupon |
+| --- | --- | --- | --- |
+| Green-legged organic Eggs46125 |10×1 carton |23.79zł |21.41zł |
+| Cauliflower45883 |Approximately800g×1 |18.99zł |17.09zł |
+| Carrots84795 |1kg×1 |7.59zł |6.83zł |
+| Raspberries88768 |125g×4 |59.92zł |53.92zł |
+| **Total** |**Four foods, seven purchase units** |**110.29zł** |**99.25zł** |
+
+**GLS home courier and payment fees are0zł**, confirmed by the order email; the live renewal also quotes free GLS. The paid first total and current recurring quote are both **99.25zł every30days**. The earlier Saturday-dispatch product-page claim does not override the first order's stock hold. Each line is approximately10% below the same available Bioshi one-off product, passing the25% price cap without assigning extra shipping costs to the manual comparator. Eggs also compare favorably with Bee's21.99zł and Carrots with Frisco's11.09zł. Unavailable Ekoj Cauliflower and unavailable, ambiguously sized Freshme Raspberries were excluded as purchasable comparators.
+
+Four subscriptions are now active:357,361,370 and399. This is one additional monthly Egg stream; the other two remain unprepared. Together361 and399 supply **29.33 nominal Eggs/28days** (`10×28/14 +10×28/30`), against48 required, before shell-free mass and meal timing. The separate request to replace361's original Eggs remains pending. Check received labels and condition as usual; no batch expiry, full diet coverage or global optimum is assumed.
+
+GLS confirms **245125 delivered1October**, without an event time. Contents, condition and the reduced Tomato weight remain unchecked. The11.79zł merchant-issued refund and98.91zł revised order history remain separate from the110.70zł already collected; bank refund receipt is unverified. Bioshi's10:34:47 Warsaw reminder confirms **247410's104.09zł automatic collection2October**; it is not a payment failure or request for manual repayment. Nut B retains its provisional30October–2November activation window for4November arrival.
+
+## 30September — Egg replacement requested from Bioshi
+
+The user completed a fresh sign-in. The authenticated361 editor still finds no Egg product; selected46125 remains available at24.99zł on its product page. The alternate route reaches a separate order with24.99zł goods+9.49zł GLS, with no existing-subscription merge offered on the inspected screens. No order was placed. Both temporary-cart attempts were cleared, and the final basket is verified empty.
+
+**The replacement is not saved.**361 was reloaded and still contains original45382, one carton/14days, with98.31zł/free GLS for23October. Created247410 remains104.09zł for automatic payment2October and delivery9October. README already has the chosen green-legged Eggs. No further login or payment is requested. The user-approved [exact merchant request](DIET_EGG_REPLACEMENT_REQUEST.md) was sent30September10:59 Warsaw and its Outlook copy verified. It requests the one-for-one replacement from23October, preserving freeGLS and all other settings, capped at99.50zł for the currently quoted renewal. Await merchant confirmation and then verify361; **sending the request does not establish that the Eggs have been changed**. No further login, payment or duplicate message is needed now.
+
+**1October morning snapshot, superseded by the evening update above:** GLS confirmed collection of245125's parcel30September17:14 Warsaw; [live tracking](https://gls-group.eu/track/33685059789) showed transit to the delivery depot, without confirmed receipt. The1October estimate remained. Bioshi reported a reduced Tomato quantity and issued11.79zł back; live357 history showed **98.91zł**, down from the110.70zł collected. Bank receipt of the refund and the remaining Tomato weight were unverified: order details requested additional sign-in. Do not credit the original1kg as incoming usable stock;500g would be an inference from the refund, not a verified packing quantity. The recurring template still contained1kg Tomatoes and quoted104.55zł/free GLS for29October.
+
+247410 remains **104.09zł for automatic payment2October**, with9October/free GLS; its23October98.31zł template is separate. Original Egg45382 is still in361, and no incoming reply to the approved replacement request was found. No new payment failure or user action is established. No new qualifying activation is ready; later Nut/Oat targets remain conditional. No retailer settings, baskets, orders or messages were changed.
 
 ## 27September — no new manual action
 

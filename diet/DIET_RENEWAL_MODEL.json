@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-05",
   "purpose": "Executable quantity and phase comparison, separate from verified retailer configuration. No proposed new group is booked or proved to have free delivery.",
   "sources": [
     "../README.md#4-diet",
@@ -109,9 +109,9 @@
       "subscription": 357,
       "days": 28,
       "next_delivery": "2026-10-01",
-      "next_quote_pln": 110.7,
+      "next_quote_pln": 98.91,
       "home_courier_pln": 0,
-      "quote_scope": "Created renewal245125 for1October; email19September08:30 Warsaw and live account. Not the15%29October template.",
+      "quote_scope": "Revised shipped245125 history total98.91PLN verified1October after merchant-issued11.79PLN refund; original110.70PLN collected25September. Not a new debit or the unchanged29October104.55PLN recurring template.",
       "foods": {
         "kiwi_gross_g": 1200,
         "tomato_g": 1000,
@@ -151,12 +151,39 @@
           "tracking_number": "33685059789",
           "tracking_url": "https://gls-group.eu/track/33685059789",
           "label_notification_received_at": "2026-09-28T19:04:38+02:00",
-          "tracking_checked_on": "2026-09-29",
-          "tracking_status": "label_created_awaiting_sender_handover",
-          "handed_to_carrier": false,
-          "receipt_verified": false,
-          "merchant_status": "realizowane",
-          "scope": "GLS email and live tracking agree: sender assigned a parcel number but has not handed the parcel to GLS. Subscription still estimates1October; label creation is not dispatch or receipt."
+          "tracking_checked_on": "2026-10-01",
+          "tracking_status": "delivered_carrier_email",
+          "handed_to_carrier": true,
+          "receipt_verified": true,
+          "merchant_status": "wysłane",
+          "scope": "GLS email received13:13:39 Warsaw says delivered today1October. No exact event time, product list or usable quantities provided. Morning transit is superseded.",
+          "carrier_collection_confirmation_received_at": "2026-09-30T17:14:29+02:00",
+          "delivered_on": "2026-10-01",
+          "delivery_confirmation_received_at": "2026-10-01T13:13:39+02:00",
+          "contents_condition_verified": false
+        },
+        "creation_amount_scope": "total_pln and lines_pln preserve19September creation evidence. Use revised_total_pln for1October current order history; reduced Tomato packing weight and current line detail remain unverified.",
+        "revised_total_pln": 98.91,
+        "revised_total_observed_on": "2026-10-01",
+        "tomato_reduction": {
+          "merchant_notice_received_at": "2026-09-30T15:10:52+02:00",
+          "remaining_weight_g": null,
+          "remaining_weight_verified": false,
+          "original_weight_g": 1000,
+          "scope": "Merchant reported reduced Tomatoes without a replacement weight.11.79PLN is half the original23.58PLN line, but500g is only an inference. Order detail requests additional sign-in; future357 template still has1000g.",
+          "follow_up_02oct": {
+            "received_at": "2026-10-02T13:39:41+02:00",
+            "approximate_reduction_g": 500,
+            "exact_remaining_weight_g": null,
+            "source": "Bioshi says Tomatoes in245125 were reduced by approximately0.5kg because of quality/availability and proportional refund issued to original payment account. No exact packed weight or refund amount in this follow-up.",
+            "scope": "Additional quantity context only. Does not create a second refund or override GLS-confirmed1October delivery; the later email's future-dispatch wording is stale/inconsistent."
+          }
+        },
+        "refund": {
+          "issued_pln": 11.79,
+          "merchant_confirmation_received_at": "2026-09-30T14:09:55+02:00",
+          "bank_receipt_verified": false,
+          "source": "Incoming Bioshi refund confirmation;1October subscription history separately shows98.91PLN."
         }
       },
       "following_template": {
@@ -174,7 +201,7 @@
       "next_delivery": "2026-10-09",
       "next_quote_pln": 104.09,
       "home_courier_pln": 0,
-      "quote_scope": "Created renewal247410 for9October:104.09PLN, automatic collection2October, freeGLS/payment0. Separate23October template98.31PLN at15% observed26September.",
+      "quote_scope": "Created247410104.09PLN charged2October;9October scheduled/freeGLS/payment0. Following23October template98.31PLN at15% remains separate. Displayed2October payment date is not a verified later collection.",
       "foods": {
         "eggs_count": 10,
         "orange_gross_g": 1000,
@@ -206,7 +233,7 @@
         },
         "delivered_at": "2026-09-25T14:57:00+02:00"
       },
-      "next_payment_date": "2026-10-02",
+      "next_payment_date": null,
       "following_delivery_date": "2026-10-23",
       "last_verified_renewal_quote_pln": 104.09,
       "latest_overview_base_pln": 115.66,
@@ -228,17 +255,48 @@
           "tempeh200g_x3": 34.53,
           "strawberry450g": 27.74
         },
-        "payment_status": "scheduled_automatic_not_yet_collected",
-        "source": "Bioshi creation email received25September09:25:46 Warsaw; live361 links247410 on26September."
+        "payment_status": "charged",
+        "source": "Bioshi creation email received25September09:25:46 Warsaw; live361 links247410 on26September.",
+        "payment_confirmation": {
+          "status": "charged",
+          "charged_pln": 104.09,
+          "confirmation_received_at": "2026-10-02T00:29:54+02:00",
+          "transaction": "247410-1",
+          "source": "IdoPay incoming email explicitly confirms104.09PLN card collection dated2October."
+        },
+        "shipment": {
+          "carrier": "GLS",
+          "tracking_number": "33685064015",
+          "label_confirmation_received_at": "2026-10-02T00:31:57+02:00",
+          "tracking_status": "in_transit_to_delivery_depot",
+          "carrier_handover_verified": true,
+          "receipt_verified": false,
+          "source": "Bioshi dispatch email confirms247410 paid104.09PLN/delivery0. GLS separately confirms receipt from sender. Live GLS5October: Paczka w drodze do filii doreczajacej. Email receipt timestamps are not handover-event times; no delivered food credited.",
+          "merchant_packing_notice": {
+            "received_at": "2026-10-03T13:39:43+02:00",
+            "source": "Bioshi incoming email: order247410 packed and awaiting courier.",
+            "separate_event_timestamp": null,
+            "carrier_handover_established": false
+          },
+          "merchant_status_observed_04oct": "gotowe do wysłania / odbioru",
+          "merchant_dispatch_confirmation_received_at": "2026-10-04T19:27:17+02:00",
+          "carrier_receipt_confirmation_received_at": "2026-10-04T20:53:02+02:00",
+          "carrier_handover_event_at": null,
+          "tracking_checked_on": "2026-10-05",
+          "merchant_status_observed_05oct": "wysłane"
+        }
       },
       "following_template": {
         "delivery_date": "2026-10-23",
         "quote_pln": 98.31,
         "discount_percent": 15,
         "home_courier_pln": 0,
-        "observed_on": "2026-09-26",
+        "observed_on": "2026-10-01",
         "scope": "Following template only; does not change created247410."
-      }
+      },
+      "last_payment_date": "2026-10-02",
+      "displayed_payment_date_02oct": "2026-10-02",
+      "profile_observation_05oct": "Active/savedcard/14days/freeGLS;247410 historywysłane104.09PLN. Page shows9October delivery and stale2October payment. Future23October template/product rows not reverified today."
     },
     {
       "subscription": 370,
@@ -278,6 +336,63 @@
       "next_payment_date": "2026-12-17",
       "quote_scope": "Live37026September:133.61PLN/freeGLS, next automatic payment17December and delivery24December; saved card present without verification notice.",
       "parent_card_verification_pending": false
+    },
+    {
+      "subscription": 399,
+      "retailer_status": "Aktywna",
+      "payment_status": "first_order_paid_card_attached",
+      "days": 30,
+      "first_order": {
+        "id": 249850,
+        "created_at": "2026-10-01T22:28:37+02:00",
+        "total_pln": 99.25,
+        "paid_pln": 99.25,
+        "payment_confirmed_at": "2026-10-01T22:30:24+02:00",
+        "status": "Przygotowanie do realizacji: temporarily held for missing merchant stock; exact goods/revised ETA not identified.",
+        "payment_fee_pln": 0,
+        "shipment": {
+          "carrier": "GLS",
+          "tracking_status": "not_dispatched_stock_hold",
+          "receipt_verified": false,
+          "contents_condition_verified": false
+        },
+        "history_observation_04oct": "PRZYGOTOWANIE DO REALIZACJI;99.25PLN. Profile active, saved card,30days,5October first estimate/4November following delivery and freeGLS. Detail page requires additional sign-in."
+      },
+      "first_delivery_estimate": "2026-10-05",
+      "next_delivery": "2026-11-04",
+      "next_quote_pln": 99.25,
+      "next_payment_date": "2026-10-31",
+      "displayed_payment_date": "2026-10-31",
+      "home_courier": "GLS",
+      "home_courier_pln": 0,
+      "foods": {
+        "eggs_count": 10,
+        "cauliflower_gross_g": 800,
+        "carrot_gross_g": 1000,
+        "raspberry_gross_g": 500
+      },
+      "egg_sku": 46125,
+      "card_on_profile": true,
+      "parent_card_verification_pending": false,
+      "quote_scope": "Live399 active/saved card,99.25PLN next renewal/freeGLS/every30days for4November. First24985099.25PLN paid; creation email verifies homecourier/payment0. Future prices are not fixed. Displayed1October payment date does not establish next collection.",
+      "coverage_scope": "Recurring ordered rates only. First order is held for merchant stock, not on-hand food. Actual edible yields, usable life and meal allocation control coverage.",
+      "profile_observation_05oct": {
+        "observed_on": "2026-10-05",
+        "active": true,
+        "saved_card_visible": true,
+        "history_order_id": 249850,
+        "history_total_pln": 99.25,
+        "history_status": "Przygotowanie do realizacji",
+        "banner_delivery": "2026-11-04",
+        "banner_order_link": 249850,
+        "following_delivery": "2026-12-04",
+        "displayed_next_payment_date": "2026-10-31",
+        "home_courier_pln": 0,
+        "native_days": 30,
+        "scope": "The banner advanced from5October to4November but still links first249850; history contains only that order. This does not establish a new renewal order or a revised first-order ETA. Original5October first estimate remains unconfirmed. Product rows/future total absent; retain dated quote.31October is a displayed future collection schedule, not a debit."
+      },
+      "next_payment_date_scope": "Live profile5October displays31October; scheduled only, no newly created renewal or charge verified.",
+      "following_delivery_date": "2026-12-04"
     }
   ],
   "opening_stock": {
@@ -346,19 +461,19 @@
       "priority": 1,
       "action": "Price and native-interval test for additional10-Egg streams /21,/28,/60days. /28 can potentially join active357; other cores require independently qualifying mixed baskets.",
       "no_activation_until": "Actual first dates/owned Eggs, saved exact quantities, current <=25% matched delivered premium and free home-courier renewal verified.",
-      "current_status": "Selected46125 passes dated per-product comparison conditionally. Actual existing361 replacement and additional qualifying shipments remain incomplete."
+      "current_status": "Selected46125 now in active399,10Eggs/30days, alongside361 original10/14days. Two further qualifying monthly cores remain unprepared; replacement inside361 awaits merchant response."
     },
     {
       "priority": 2,
       "action": "Quote verified Bioshi52572 organic gluten-free rolled Oats500g:11.89first/10.70renewal versus same-product9.65manual. Compare500g/30days+500g/60days against1kg/60days+500g/60days phased40days. Both exactly25g/day; all mandatory fees and first starts remain to verify.",
       "old_candidate": "300g/21+28days is superseded if its current25% delivered premium screen fails.",
-      "current_status": "Oats0g23September; held paid1kg cannot cover current meals. No accepted free-courier group. Retired60day Macadamia basket does not solve it."
+      "current_status": "Paid1kg Oats was carrier-delivered25September in243898; usable contents, first use and any interim purchase are unconfirmed. Offset it before new purchases. No accepted free-courier group; retired60day Macadamia basket remains rejected."
     },
     {
       "priority": 3,
-      "action": "Monitor actual arrival of active Nut A370/order246975 without recreating or repaying it. Prepare Nut B only near A actual arrival+40days.",
+      "action": "Prepare Nut B near provisional30October-2November activation for4November arrival,40days after Nut A carrier-delivered25September. Confirm remaining reserve, lead time and qualifying quote; do not recreate or repay Nut A.",
       "no_activation_until": "Nut B: actual stock/timing, exact goods, price cap and free home courier must qualify. Nut A already submitted; do not duplicate.",
-      "current_status": "Nut A paid133.61PLN after kk11; active card verified in IdoPay; live next-renewal133.61PLN/freeGLS. No user action remains."
+      "current_status": "Nut A paid133.61PLN and carrier-delivered25September; active saved card verified. Live26September next payment17December, delivery24December,133.61PLN/freeGLS. Contents/condition uninspected; no new immediate Nut purchase needed."
     },
     {
       "priority": 4,
@@ -377,17 +492,17 @@
     }
   ],
   "first_start_policy": {
-    "eggs": "About10 owned Eggs reported23September. Paid first361 carton is carrier-delivered25September, contents/condition uninspected; current balance unknown. Existing10/14days plus three10/30day additions still require actual200g meal allocation and usable-life verification.",
+    "eggs": "User1October reports not much Eggs and approves additional399 first purchase; no numeric balance inferred.39910/30days plus36110/14days provide29.33 nominalEggs/28days in steady state, below48 required. First399 is paid but merchant-stock-held, not on-hand food. Two further10/30day cores remain candidates; allocate actual200g dinners and usable life before release.",
     "oats": "Oats0g reported23September; paid1kg carrier-delivered25September, contents/first use uninspected. If its first serving is on t, model500g/60days from t+40 and1kg/60days from t+60. Offset any interim pack; no accepted free-courier group yet.",
     "nuts": "User100g combined23September; Nut A800g carrier-delivered25September. Nut B target4November=A arrival+40days, subject to usable reserve and complete native checkout. No September duplicate purchase. Open packs sequentially; allocate same-food remainders.",
     "fresh_food": "Use actual batch arrival, edible yield and label dates; no freshness certificate from a28/90day interval.",
     "dates": "Use expected consumption under the approved rotation to propose first dates, distinguish forecast from observed depletion, and verify retailer-native first-start support. No routine date edits or skips count as native automation."
   },
   "derived_analysis": {
-    "as_of": "2026-09-29",
+    "as_of": "2026-10-05",
     "operational_evidence_separate_from_arithmetic": {
-      "recorded_on": "2026-09-26",
-      "source": "Dated merchant/IdoPay/GLS emails and live Opera checks through26September. User stock remains23September; carrier delivery does not verify contents, condition or consumption. Historical evidence retains original dates.",
+      "recorded_on": "2026-10-05",
+      "source": "Dated incoming merchant/payment/carrier emails and supported Opera UI observations; latest check5October2026. Individual evidence dates and access limits remain explicit.",
       "357": {
         "delivered_at": "2026-09-18T14:44:00+02:00",
         "next_payment_date": null,
@@ -412,6 +527,13 @@
             "charged_pln": 110.7,
             "confirmation_received_at": "2026-09-25T00:09:38+02:00",
             "source": "IdoPay email for245125-1"
+          },
+          "tomato_reduction_follow_up_02oct": {
+            "received_at": "2026-10-02T13:39:41+02:00",
+            "approximate_reduction_g": 500,
+            "exact_remaining_weight_g": null,
+            "source": "Bioshi says Tomatoes in245125 were reduced by approximately0.5kg because of quality/availability and proportional refund issued to original payment account. No exact packed weight or refund amount in this follow-up.",
+            "scope": "Additional quantity context only. Does not create a second refund or override GLS-confirmed1October delivery; the later email's future-dispatch wording is stale/inconsistent."
           }
         },
         "following_template": {
@@ -424,7 +546,7 @@
         "payment_date_field": "Still25September, now paid; following collection date unverified."
       },
       "361": {
-        "next_payment_date": "2026-10-02",
+        "next_payment_date": null,
         "next_delivery_dates": [
           "2026-10-09",
           "2026-10-23"
@@ -433,7 +555,7 @@
         "evening_overview_base_pln": 115.66,
         "current_payable_renewal_total_verified": true,
         "first_order_243898": "GLS-delivered25September14:57 Warsaw; verified26September. Contents, condition and consumption uninspected.",
-        "last_checked": "2026-09-26",
+        "last_checked": "2026-10-02",
         "visible_discounted_template_pln": 98.31,
         "home_courier_pln": 0,
         "egg_sku": 45382,
@@ -455,18 +577,49 @@
             "tempeh200g_x3": 34.53,
             "strawberry450g": 27.74
           },
-          "payment_status": "scheduled_automatic_not_yet_collected",
-          "source": "Bioshi creation email received25September09:25:46 Warsaw; live361 links247410 on26September."
+          "payment_status": "charged",
+          "source": "Bioshi creation email received25September09:25:46 Warsaw; live361 links247410 on26September.",
+          "payment_confirmation": {
+            "status": "charged",
+            "charged_pln": 104.09,
+            "confirmation_received_at": "2026-10-02T00:29:54+02:00",
+            "transaction": "247410-1",
+            "source": "IdoPay incoming email explicitly confirms104.09PLN card collection dated2October."
+          },
+          "shipment": {
+            "carrier": "GLS",
+            "tracking_number": "33685064015",
+            "label_confirmation_received_at": "2026-10-02T00:31:57+02:00",
+            "tracking_status": "in_transit_to_delivery_depot",
+            "carrier_handover_verified": true,
+            "receipt_verified": false,
+            "source": "Bioshi dispatch email confirms247410 paid104.09PLN/delivery0. GLS separately confirms receipt from sender. Live GLS5October: Paczka w drodze do filii doreczajacej. Email receipt timestamps are not handover-event times; no delivered food credited.",
+            "merchant_packing_notice": {
+              "received_at": "2026-10-03T13:39:43+02:00",
+              "source": "Bioshi incoming email: order247410 packed and awaiting courier.",
+              "separate_event_timestamp": null,
+              "carrier_handover_established": false
+            },
+            "merchant_status_observed_04oct": "gotowe do wysłania / odbioru",
+            "merchant_dispatch_confirmation_received_at": "2026-10-04T19:27:17+02:00",
+            "carrier_receipt_confirmation_received_at": "2026-10-04T20:53:02+02:00",
+            "carrier_handover_event_at": null,
+            "tracking_checked_on": "2026-10-05",
+            "merchant_status_observed_05oct": "wysłane"
+          }
         },
         "following_template": {
           "delivery_date": "2026-10-23",
           "quote_pln": 98.31,
           "discount_percent": 15,
           "home_courier_pln": 0,
-          "observed_on": "2026-09-26",
+          "observed_on": "2026-10-02",
           "scope": "Following template only; does not change created247410."
         },
-        "visible_template_scope": "23October following template, separate from created247410104.09PLN."
+        "visible_template_scope": "23October following template, separate from created247410104.09PLN.",
+        "last_payment_date": "2026-10-02",
+        "profile_observation_04oct": "Active/14days/savedcard/freeGLS,9October created-order schedule and23October following delivery.247410 history104.09PLN and ready to send/collect. Product rows/following quote did not render; Egg replacement not reverified today.",
+        "profile_observation_05oct": "Active14days/savedcard/freeGLS;247410 historywysłane104.09PLN and9October schedule. Product rows and following quote not visible; no fresh Egg substitution verification."
       },
       "pantry_B_checkout": {
         "foods": {
@@ -491,13 +644,13 @@
         "superseded_for_sourcing": "User selected organic green-legged-hen SKU46125 below. Historical stock observation remains valid for45382 and does not block the selected product."
       },
       "selected_organic_eggs": {
-        "observed_on": "2026-09-22",
+        "observed_on": "2026-09-30",
         "sku": 46125,
         "ean": "5907814665997",
         "url": "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125",
         "identity": "Certified organic green-legged-hen Eggs, M10",
         "available_for_new_checkout": true,
-        "availability_evidence": "Public retailer page states available; actual checkout not submitted.",
+        "availability_evidence": "Live Opera product page30September:598 cartons,24.99PLN, dispatch today advertised. One-carton14day test accepted into basket; no order submitted, and test fully removed.",
         "first_price_pln": 24.99,
         "advertised_renewal_discount_percent_from_delivery2": 10,
         "estimated_renewal_price_pln": 22.49,
@@ -523,7 +676,7 @@
         "husbandry_evidence": "Retailer describes certified organic production, access to runs/pastures and organic feed; not an independent farm audit.",
         "whole_shipment_free_home_courier_verified": false,
         "order_or_subscription_submitted": false,
-        "editor_state": "Authenticated search returned no selected product; current361 still has45382. No replacement saved."
+        "editor_state": "30September: fresh user sign-in did not fix product search. Test basket emptied;361 still original45382,1carton/14days,98.31PLN/freeGLS, future edits23October. User-approved exact replacement request sent10:59 Warsaw and Outlook copy verified; replacement awaits merchant action, not another user login/payment."
       },
       "nut_groups": {
         "observed_on": "2026-09-22",
@@ -724,35 +877,329 @@
         "stock": "No new user stock observation; carrier-confirmed25September receipts retained. No duplicate Oat/Nut purchase or inferred consumption."
       },
       "monitoring_latest": {
-        "observed_on": "2026-09-29",
-        "mail_since": "2026-09-28",
-        "mail_result": "New GLS label email28September19:04:38 Warsaw for245125, parcel33685059789, explicitly awaiting sender handover. No new payment failure,247410 update,243364/243397 cancellation confirmation, substantive merchant response or coupon.",
-        "live357": "Active; history245125 realizowane at110.70PLN, already paid25September. Scheduled1October with freeGLS; following29October remains separate. Displayed payment field remains25September, not a new collection request.",
-        "tracking245125": "Live29September GLS confirms label assigned, not handed to courier. No dispatch or receipt credited;1October estimate remains, without an actionable delay established.",
-        "order_detail245125": "Additional sign-in was requested28September, while subscriptions remained readable. No repeat detail-page attempt or login request29September: current subscription and GLS evidence sufficed for this check.",
-        "live361": "Active; created247410 history104.09PLN awaiting scheduled automatic collection2October, delivery9October/freeGLS. Separate following23October template98.31PLN. Awaiting-payment history before2October does not establish payment failure or a manual-payment need.",
-        "new_activation": "No new fully qualifying activation prepared. Preserve27September route findings and later Nut B/Oat stock offsets; no repeat rejected basket or commitment.",
-        "stock": "No new user balance or inspected contents. Preserve carrier-delivered25September Oat/Nut offsets; older pre-delivery forecasts do not establish a current shortage.",
+        "observed_on": "2026-10-05",
+        "period": "morning",
+        "mail_since": "2026-10-04T14:30:00+02:00",
+        "mail_result": "Bioshi4October19:27:17 confirms247410 dispatch;GLS20:53:02 confirms senderhandover. No new249850, Eggreplacement, obsoletecancellation or paymentfailure message.",
+        "live361": "Active14days/savedcard/freeGLS;247410 historywysłane104.09PLN and9October schedule. Product rows and following quote not visible; no fresh Egg substitution verification.",
+        "live399": "The banner advanced from5October to4November but still links first249850; history contains only that order. This does not establish a new renewal order or a revised first-order ETA. Original5October first estimate remains unconfirmed. Product rows/future total absent; retain dated quote.31October is a displayed future collection schedule, not a debit.",
+        "new_activation": "None ready. Temporary Egg/Blueberry30day basket verified141.33PLN; login prevents actual home-courier checkout, and first timing remains unresolved. Basket restored empty; no login/payment requested.",
+        "stock": "No new observed balance or receipt.247410 now carrier-held/in transit, not on-hand.249850 first estimate5October remains unconfirmed.",
+        "temporary_basket_test": true,
+        "account_or_subscription_changes": false,
+        "basket_restored": true,
+        "user_action_needed": false,
+        "notification": "quiet"
+      },
+      "egg_replacement_attempt_30sep": {
+        "requested_action": "Replace45382 with user-selected46125 inside existing361, preserving1carton/14days.",
+        "status": "merchant_request_sent_replacement_awaiting_confirmation",
+        "product_available": true,
+        "product_price_pln": 24.99,
+        "product_live_quantity_cartons": 598,
+        "editor_results": "No product for zielononozki or jaja after search loaded; earlier same-day EAN also returned none.",
+        "profile_effective_delivery_if_saved": "2026-10-23",
+        "created_order_unchanged": 247410,
+        "current_profile_quote_pln": 98.31,
+        "cart_probe": "One46125 carton/14days showed24.99PLN goods+6.99PLN unspecified shipping. No existing-subscription merge control visible in cart. Next step displayed fresh login with password required. Test carton removed;0PLN empty basket verified.",
+        "subscription_changed": false,
+        "new_order_created": false,
+        "test_basket_empty_verified": true,
+        "user_step": "None currently. Approved merchant request sent and Outlook copy verified. Await merchant confirmation and verify live361 before marking replacement complete. Do not send a duplicate request or ask for another login on this evidence.",
+        "sign_in_completed_by_user": true,
+        "authenticated_editor_result": "After user confirmed fresh sign-in, broad jaja search still returned no product. Login was not a sufficient fix.",
+        "authenticated_cart_probe": "Exact46125 carton/14days reached signed-in payment/delivery page as a separate order:24.99PLN goods+9.49PLN selectedGLS=34.48PLN. No merge into361 offered on observed product/cart/payment-delivery UI. No order placed; carton removed, empty0PLN basket verified.",
+        "subscription_reloaded_and_verified_unchanged": true,
+        "merchant_request": {
+          "explicit_send_approval": true,
+          "sent_from": "pawel.troka@outlook.com",
+          "sent_to": "bok@bioshi.pl",
+          "subject": "Subskrypcja361 — zamiana jaj45382 na zielononóżki46125",
+          "sent_copy_timestamp": "2026-09-30T10:59:27+02:00",
+          "send_tool_succeeded": true,
+          "outlook_copy_verified": true,
+          "requested_effective_delivery": "2026-10-23",
+          "current_renewal_cap_pln": 99.5,
+          "preserve_free_gls": true,
+          "created_order247410_unchanged_requested": true,
+          "merchant_applied_change": false,
+          "last_checked_on": "2026-10-01",
+          "merchant_reply_found": false,
+          "live_replacement_verified": false
+        }
+      },
+      "monitoring_30sep": {
+        "observed_on": "2026-09-30",
+        "mail_since": "2026-09-29",
+        "mail_result": "No new relevant Bioshi,GLS,IdoPay,support or order-specific mail; no handover confirmation, payment failure,243364/243397 cancellation confirmation or coupon.",
+        "live357": "Active;245125 realizowane at110.70PLN, already paid25September. Scheduled1October/freeGLS; following29October104.55PLN template remains separate. Displayed payment field remains25September, not a new debit.",
+        "tracking245125": "Live GLS30September: parcel33685059789 still awaits sender handover. Subscription1October estimate is not a carrier guarantee. No confirmed missed delivery or action requiring the user yet.",
+        "live361": "Active;247410104.09PLN awaits scheduled automatic collection2October for9October/freeGLS. Following23October98.31PLN template remains separate. No failed payment or manual-payment requirement.",
+        "egg_editor": "Exact EAN5907814665997 submitted in361 product search; after loading it returned Nie znaleziono produktow. Cleared search and verified empty search field and0PLN basket. No replacement saved; original45382 retained.",
+        "bounded_route_refresh": "Public search for selected Egg46125,Cauliflower45883 and Blueberry55183 returned2-3-day-old indexed product snapshots, not newly verified dispatch stock. Eggs still list24.99PLN/10 and native cycles; Cauliflower unavailable and Blueberries on order in those snapshots. No material verified improvement or qualifying first/renewal home-courier basket established.",
+        "route_sources": [
+          "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125",
+          "https://bioshi.pl/pl/products/kalafior-swiezy-bio-okolo-0-80-kg-45883",
+          "https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183"
+        ],
+        "new_activation": "No new fully qualifying activation prepared. Preserve later Nut B timing and Oat stock offsets; no duplicate first purchase or retired basket.",
+        "stock": "No new measured balance or inspected contents. Preserve carrier-delivered25September Oat/Nut offsets without assuming consumption or a current shortage from old forecasts.",
         "account_or_basket_changes": false,
         "user_action_needed": false,
         "notification": "quiet"
+      },
+      "additional_egg_produce_01oct": {
+        "status": "active_paid_saved_card_first_order_stock_hold",
+        "new_order_submitted": true,
+        "subscription_activated": true,
+        "terms_accepted": true,
+        "user_sign_in_completed": true,
+        "native_days": 30,
+        "items": [
+          {
+            "sku": 46125,
+            "name": "Green-legged organic M Eggs10",
+            "packs": 1,
+            "oneoff_goods_pln": 23.79,
+            "discounted_line_pln": 21.41
+          },
+          {
+            "sku": 45883,
+            "name": "organic Cauliflower approximately800g",
+            "packs": 1,
+            "oneoff_goods_pln": 18.99,
+            "discounted_line_pln": 17.09
+          },
+          {
+            "sku": 84795,
+            "name": "organic Carrots1kg",
+            "packs": 1,
+            "oneoff_goods_pln": 7.59,
+            "discounted_line_pln": 6.83
+          },
+          {
+            "sku": 88768,
+            "name": "organic Raspberries125g",
+            "packs": 4,
+            "oneoff_goods_pln": 14.98,
+            "discounted_line_pln": 53.92
+          }
+        ],
+        "goods_before_discount_pln": 110.29,
+        "coupon": "kk11",
+        "discount_pln": 11.04,
+        "first_total_pln": 99.25,
+        "displayed_recurring_total_pln": 99.25,
+        "home_courier": "GLS",
+        "home_courier_pln": 0,
+        "other_displayed_fees_pln": 0,
+        "courier_scope": "Signed-in delivery and final review after coupon: selected GLS home courier Gratis. Checkout recurring statement99.25PLN. Future prices/discount tiers are not a permanent price guarantee.",
+        "estimated_first_delivery": "2026-10-05",
+        "displayed_following_delivery": "2026-11-04",
+        "dates_booked": true,
+        "price_comparison": "Each final line is about10% below its exact Bioshi one-off goods price observed1October, without allocated manual shipping. Egg21.41PLN also below Bee21.99PLN; Carrot6.83 below Frisco11.09. Ekoj Cauliflower and Freshme Raspberry unavailable; Freshme125g/200g ambiguity excluded. No basket averaging used.",
+        "meal_allocation": "Raspberries500g supplies5x100g choices, prioritized after arrival subject to quality/label. Carrot/Cauliflower actual cooked edible yields control servings; neither gross pack mass is guaranteed edible yield. Eggs add one10/30day stream alongside361, not all three needed streams. No added Oats/Nuts/Tempeh/Fish.",
+        "remaining_gate": "No further user payment or card action. Monitor merchant stock hold and verify dispatch/actual receipt. Do not repay249850.",
+        "browser_tab_id": "1546890637",
+        "checkout_url": "https://bioshi.pl/order2.php",
+        "order_id": 249850,
+        "subscription_id": 399,
+        "paid": true,
+        "payment_status": "Order details confirms99.25PLN paid by card; IdoPay email confirms successful249850-1 collection.",
+        "stock_confirmation": {
+          "reported_on": "2026-10-01",
+          "groups": [
+            "Eggs",
+            "Carrots",
+            "Cauliflower",
+            "Raspberries"
+          ],
+          "qualitative_stock": "not much",
+          "source": "User confirmed low stock and explicitly authorized activation of the99.25PLN monthly group. No numeric balances inferred.",
+          "first_purchase_authorized": true
+        },
+        "payment_url": "https://bioshi.pl/pl/orderdetails.html?order_number=249850&message=order",
+        "delivery_date_scope": "Profile schedules4November next renewal; first5October remains an estimate while249850 is held for missing merchant stock. No revised ETA or affected SKU identified.",
+        "paid_pln": 99.25,
+        "payment_confirmed_at": "2026-10-01T22:30:24+02:00",
+        "order_created_at": "2026-10-01T22:28:37+02:00",
+        "retailer_status": "Aktywna",
+        "card_on_profile": true,
+        "parent_card_verification_pending": false,
+        "next_payment_date": "2026-10-31",
+        "displayed_payment_date": "2026-10-31",
+        "payment_date_scope": "5October profile now displays future31October. Schedule only; no new charge or renewal-order identity verified.",
+        "first_order_stock_hold": true,
+        "missing_goods_identified": false,
+        "payment_fee_pln": 0,
+        "subscription_url": "https://bioshi.pl/subscription.php?id=399",
+        "last_profile_verified_on": "2026-10-05",
+        "order_detail_access_02oct": "Additional sign-in requested; active profile/history remain readable. No user action requested.",
+        "order_detail_access_04oct": "Additional sign-in requested for249850 detail; profile/history readable. No login requested for unchanged hold.",
+        "profile_observation_05oct": {
+          "observed_on": "2026-10-05",
+          "active": true,
+          "saved_card_visible": true,
+          "history_order_id": 249850,
+          "history_total_pln": 99.25,
+          "history_status": "Przygotowanie do realizacji",
+          "banner_delivery": "2026-11-04",
+          "banner_order_link": 249850,
+          "following_delivery": "2026-12-04",
+          "displayed_next_payment_date": "2026-10-31",
+          "home_courier_pln": 0,
+          "native_days": 30,
+          "scope": "The banner advanced from5October to4November but still links first249850; history contains only that order. This does not establish a new renewal order or a revised first-order ETA. Original5October first estimate remains unconfirmed. Product rows/future total absent; retain dated quote.31October is a displayed future collection schedule, not a debit."
+        }
+      },
+      "monitoring_01oct_morning": {
+        "observed_on": "2026-10-01",
+        "mail_since": "2026-09-30",
+        "mail_result": "Bioshi reported reduced Tomatoes, issued11.79PLN refund and GLS confirmed collection of245125 on30September. No incoming Egg replacement reply,247410 failure or new243364/243397 cancellation confirmation.",
+        "live357": "Active.245125 history now wyslane at98.91PLN, versus110.70PLN collected25September. FreeGLS and1October estimate remain. Future29October template unchanged at104.55PLN with1000g Tomatoes. Current order detail requires additional sign-in; no login requested for this non-actionable quantity check.",
+        "tracking245125": "Parcel33685059789 in transit to delivery depot. Carrier handover verified, receipt not verified.",
+        "tomato_quantity": "Reduced quantity confirmed, weight unverified. Original1000g is not a current incoming-stock quantity;500g remains arithmetic inference only. Merchant refund issued, bank receipt unverified.",
+        "live361": "Active;247410104.09PLN awaits scheduled automatic collection2October for9October/freeGLS. Following23October98.31PLN template remains separate. No failed payment or manual-payment requirement.",
+        "egg_replacement": "Original45382 still visibly in361, one carton/14days. The30September approved merchant request is pending; no duplicate request, editor retry or payment.",
+        "new_activation": "No new fully qualifying activation prepared. Preserve later Nut B timing and Oat stock offsets; no duplicate first purchase or retired basket.",
+        "stock": "No new observed balance, receipt or inspected contents. Preserve25September carrier-delivered Oat/Nut offsets and distinguish template quantities from reduced245125 contents.",
+        "account_or_basket_changes": false,
+        "user_action_needed": false,
+        "notification": "quiet"
+      },
+      "monitoring_01oct_evening": {
+        "observed_on": "2026-10-01",
+        "mail_since": "2026-09-30",
+        "mail_result": "GLS confirms245125 delivered1October. Bioshi10:34:47Warsaw reminder confirms247410104.09PLN scheduled2October. No new Egg replacement reply,coupon or payment failure.",
+        "live357": "Active.245125 history now wyslane at98.91PLN, versus110.70PLN collected25September. FreeGLS and1October estimate remain. Future29October template unchanged at104.55PLN with1000g Tomatoes. Current order detail requires additional sign-in; no login requested for this non-actionable quantity check.",
+        "tracking245125": "Delivered1October per GLS email;13:13:39 is email receipt time, not delivery event time. Contents/condition and reduced Tomato weight unverified.",
+        "tomato_quantity": "Reduced quantity confirmed, weight unverified. Original1000g is not a current incoming-stock quantity;500g remains arithmetic inference only. Merchant refund issued, bank receipt unverified.",
+        "live361": "Active;247410104.09PLN awaits scheduled automatic collection2October for9October/freeGLS. Following23October98.31PLN template remains separate. No failed payment or manual-payment requirement.",
+        "egg_replacement": "Original45382 still visibly in361, one carton/14days. The30September approved merchant request is pending; no duplicate request, editor retry or payment.",
+        "new_activation": "New399 active every30days, order249850 paid99.25PLN1October22:30:24Warsaw, saved card present, freeGLS/paymentfee0. Next profile quote99.25PLN for4November. First order held for missing merchant stock;5October estimate unresolved, no exact held SKU identified.",
+        "stock": "User1October reports not much Eggs/Carrots/Cauliflower/Raspberries and approves first purchase. Qualitative report supersedes old Egg count for startup, with no invented grams. Carrier245125 delivered1October; contents not inspected.",
+        "account_or_basket_changes": true,
+        "user_action_needed": false,
+        "notification": "activation_completion_and_first_order_stock_hold",
+        "period": "evening",
+        "changes_scope": "Authorized subscription399 created and user funded its first249850. Existing357/361/370 unchanged, including pending361 Egg replacement."
+      },
+      "monitoring_02oct": {
+        "observed_on": "2026-10-02",
+        "period": "morning",
+        "mail_since": "2026-10-01T22:30:24+02:00",
+        "mail_result": "247410104.09PLN charged perIdoPay00:29:54Warsaw. GLS00:31:57assigned33685064015 but explicitly nohandover. No new249850 hold/egg-replacement/cancellation reply or paymentfailure.",
+        "live361": "Active,created247410 for9October; following23October98.31PLN/freeGLS, originalEgg45382 still present. Displayed payment2October; no later collectiondateverified.",
+        "live399": "Active/savedcard99.25PLN/freeGLS/30days;249850 historystillPRZYGOTOWANIE DO REALIZACJI,5Octoberestimate/4Novemberrenewal. Detailrequestsadditional sign-in, profileisreadable. No sign-in requested for unchanged check.",
+        "bounded_route_refresh": "Kohlrabi80241,Blueberries55183,Spinach45129 public excerpts still on-order, aged5days/1day/2weeks respectively. No newly verified stock improvement, matched price clearance or qualifying newshipment.",
+        "new_activation": "None prepared or needed today. Do notduplicate399; later twoEggcores andNutB need their own timing/readiness.",
+        "stock": "No new user balance, receipt or usable quantity.1Octoberqualitative lowstock and priorcarrierreceipts remain dated.",
+        "account_or_basket_changes": false,
+        "user_action_needed": false,
+        "notification": "quiet",
+        "automation_prompt_updated": "Refreshed stale23September baseline tofouractiveprofiles and current payment/receipt facts; keptdaily9amschedule and quietnotificationintent."
+      },
+      "egg_blueberry_candidate_04oct": {
+        "observed_on": "2026-10-04",
+        "status": "research_candidate_not_configured_or_activated",
+        "native_days_publicly_offered": 30,
+        "items": [
+          {
+            "sku": 46125,
+            "food": "Selected green-legged organic M Eggs10",
+            "packs": 1,
+            "one_off_unit_pln": 24.99,
+            "source": "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125"
+          },
+          {
+            "sku": 55183,
+            "food": "organic fresh Blueberries125g",
+            "packs": 6,
+            "one_off_unit_pln": 19.59,
+            "source": "https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183"
+          }
+        ],
+        "goods_before_discount_pln": 142.53,
+        "advertised_10_percent_renewal_arithmetic_pln": [
+          128.27,
+          128.28
+        ],
+        "rounding_scope": "Unit-versus-basket rounding differs by0.01PLN. No accepted coupon or checkout total; future prices are not fixed.",
+        "blueberry_stock_signal": "Live Opera: Produkt na zamówienie;485units shown with Tuesday dispatch claim. This does not guarantee destination shipment or remaining usable life.",
+        "blueberry_storage": "Retailer1–4°C;750g allocates five canonical150g portions near arrival, not30days of refrigerated storage.",
+        "manual_comparator": "Same available Bioshi one-off goods:0% goods premium initially, approximately-10% renewal. Frisco organic125g currently withdrawn with0.00 placeholder, excluded. Delivered-price test pending compulsory fees; no global cheapest claim.",
+        "withdrawn_comparator_url": "https://www.frisco.pl/pid,100179/n,frisco-organic-borowka-amerykanska-bio/stn,product",
+        "first_home_courier_quote_pln": null,
+        "renewal_home_courier_quote_pln": null,
+        "first_date": null,
+        "first_date_scope": "Later monthly Egg stream, stagger after399 actual first arrival/remaining stock. Not an immediate duplicate purchase.",
+        "remaining_gates": [
+          "Exact destination whole checkout and compulsory fees",
+          "Free HOME courier first and renewal",
+          "First timing relative to399 actual arrival and stock",
+          "Usable fruit condition/life and meal allocation"
+        ],
+        "basket_or_account_changed": false,
+        "ready_for_payment": false
+      },
+      "monitoring_04oct": {
+        "observed_on": "2026-10-04",
+        "period": "afternoon",
+        "mail_since": "2026-10-02T09:00:00+02:00",
+        "mail_result": "Bioshi2October13:39:41 clarifies approximate500g Tomato reduction in245125 and issued proportional refund, without exact final weight/new amount.3October13:39:43 says247410 packed awaiting courier. No newGLS/IdoPay,249850 update,Egg replacement reply,payment failure or243364/243397 cancellation found.",
+        "live361": "Active/14days/savedcard/freeGLS,9October created-order schedule and23October following delivery.247410 history104.09PLN and ready to send/collect. Product rows/following quote did not render; Egg replacement not reverified today.",
+        "live399": "Active/savedcard/30days/freeGLS;249850 history99.25PLN still preparing.5October remains first estimate,4November following delivery. Detail asks for login; no request made. Product rows/renewal total did not render, so retain dated prior quote without claiming fresh verification.",
+        "new_activation": "None ready today.399 is already paid; remaining monthly Egg streams need separate qualifying shipments and staggered timing. NutB remains later.",
+        "stock": "No new observed balance, receipt or usable quantity. Do not infer depletion or duplicate paid food.",
+        "account_or_basket_changes": false,
+        "user_action_needed": false,
+        "notification": "quiet",
+        "bounded_route_refresh": "Exact Blueberries55183 live19.59PLN/125g with on-order/Tuesdayshipment claim and native30days. SelectedEggs46125 public24.99PLN. Eggcarton+6Blueberrypacks candidate142.53PLN goods,128.27–128.28 advertised10% renewal arithmetic; no configured whole shipment/courier quote/date. Frisco matched organic125g withdrawn, not a usable current comparator."
+      },
+      "egg_blueberry_checkout_test_05oct": {
+        "observed_on": "2026-10-05",
+        "exact_packs": {
+          "eggs46125_10": 1,
+          "blueberry55183_125g": 6
+        },
+        "native_days_verified_in_basket": 30,
+        "goods_pln": 141.33,
+        "egg_line_pln": 23.79,
+        "blueberry_line_pln": 117.54,
+        "basket_displayed_recurring_pln": 141.33,
+        "coupon_applied": false,
+        "basket_shipping_label": "Gratis",
+        "home_courier_quote_verified": false,
+        "destination_and_fees_verified": false,
+        "blocking_screen": "Przejdz dalej reaches login; no destination delivery-method/final quote inspected.",
+        "first_date_booked": false,
+        "timing_scope": "Not ready for immediate activation;399 first arrival/stock still unresolved and another Egg stream needs staggering. No sign-in requested for this incomplete future route.",
+        "basket_start_empty": true,
+        "temporary_goods_removed": true,
+        "basket_end_empty_verified": true,
+        "order_or_subscription_created": false,
+        "ready_for_payment": false,
+        "scope": "141.33PLN supersedes4October142.53PLN goods for this dated basket only. Generic free shipping is not proof of free HOME courier. Same Bioshi one-off goods comparison remains0% before fees; no cheapest-market claim."
       }
     },
     "active_coverage_per_28_days": {
-      "recurring_food_count": 9,
+      "scope": "Long-run rates averaged over28days from active_streams, excluding first-only foods. Gross produce equivalents precede edible/preparation losses. Neither timing, receipt nor usable meal coverage is established.",
+      "recurring_food_count": 15,
+      "recurring_food_count_definition": "Distinct positive recurring food keys across all active streams, including Nuts; repeated foods count once.",
       "tempeh_dinners": {
-        "supplied": 6,
-        "required": 6
+        "supplied": 6.0,
+        "required": 6,
+        "gap": 0.0
       },
       "nominal_eggs": {
-        "supplied": 20.0,
+        "supplied": 29.333333,
         "required": 48,
-        "gap": 28
+        "gap": 18.666667
       },
       "egg_dinners_approximate": {
-        "supplied": 5,
+        "supplied": 7.333333,
         "required": 12,
-        "gap": 7
+        "gap": 4.666667
       },
       "fish_dinners": {
         "supplied": 0,
@@ -763,10 +1210,11 @@
         "required": 28
       },
       "berries": {
-        "strawberry_g_gross": 900,
-        "maximum_portion_equivalents_before_hulling": 6,
+        "strawberry_g_gross": 900.0,
+        "raspberry_g_gross": 466.666667,
+        "maximum_portion_equivalents_before_hulling": 10.666667,
         "required": 28,
-        "minimum_gap": 22
+        "minimum_gap": 17.333333
       },
       "mushrooms": {
         "full_75g_choices": 4,
@@ -775,30 +1223,39 @@
         "required": 28
       },
       "whole_fruit": {
-        "gross_g": 3200,
+        "gross_g": 3200.0,
         "upper_150g_equivalents_before_peeling": 21.333333,
         "required": 28
       },
       "mediterranean_vegetable_choices": {
-        "nominal_tomato_choices": 10,
+        "nominal_tomato_choices": 10.0,
         "required": 28
       },
       "colorful_vegetable_choices": {
-        "butternut_gross_g": 2000,
-        "upper_choices_before_preparation": 20,
+        "butternut_gross_g": 2000.0,
+        "carrot_gross_g": 933.333333,
+        "upper_choices_before_preparation": 29.333333,
         "required": 28
+      },
+      "cruciferous_vegetable_choices": {
+        "cauliflower_gross_g": 746.666667,
+        "upper_choices_before_preparation": 7.466667,
+        "required": 28
+      },
+      "nuts_g": {
+        "supplied": 248.888889,
+        "required": 560,
+        "gap": 311.111111
       },
       "other_categories": [
         "28 Lunch Proteins",
         "10 Dinner Fish meals",
         "28 Lunch starch choices",
         "28 Dinner starch choices including8–16 Pulses",
-        "28 Cruciferous choices",
         "28 Leafy choices",
         "28 Microgreen choices",
         "28 Ferment choices",
         "5.6L Milk",
-        "560g Nuts",
         "196g Morning Seeds",
         "196g Dinner Seeds",
         "700g Oats",
@@ -1106,9 +1563,9 @@
       ]
     },
     "activation_rollout": {
-      "as_of": "2026-09-26",
+      "as_of": "2026-10-05",
       "document": "diet/DIET_ACTIVATION_ROLLOUT.md",
-      "new_streams_activated": 1,
+      "new_streams_activated": 2,
       "nut_A_activation_target": "2026-09-23",
       "nut_A_arrival_preference": "2026-09-25",
       "nut_A_status": "active_paid_card_attached",
@@ -1116,13 +1573,16 @@
       "oats_current_gap": null,
       "full_automation_completion_date": null,
       "completion_date_reason": "Exact-food native routes, complete free-courier groups, usable life and repeated stock balance remain unverified; no promised full-automation date.",
-      "new_streams_created": 1,
+      "new_streams_created": 2,
       "nut_A_subscription": 370,
       "nut_A_order": 246975,
-      "current_incoming_status": "243898 and246975 carrier-delivered25September14:57; contents/condition uninspected.245125 paid for1October;247410 scheduled payment2October/delivery9October.",
+      "current_incoming_status": "247410 paid104.09PLN; merchant dispatch andGLS receipt confirmed4October, live5October in transit to delivery depot;9October retailer schedule, no receipt.399first249850paid99.25PLN stillpreparing; first5Octoberestimate unconfirmed.399banner now4November stilllinks249850, following4December and displayedpayment31October; not a revised first ETA/neworder. Prioractualreceipts unchanged.",
       "nut_A_actual_delivery": "2026-09-25",
       "nut_B_arrival_target": "2026-11-04",
-      "oats_current_gap_scope": "Earlier0g user balance predates carrier-delivered1kg; current usable balance/first use not observed."
+      "oats_current_gap_scope": "Earlier0g user balance predates carrier-delivered1kg; current usable balance/first use not observed.",
+      "egg_produce_subscription": 399,
+      "egg_produce_order": 249850,
+      "egg_produce_status": "active_paid_saved_card_first_order_stock_hold"
     },
     "practical_additional_alternatives": {
       "monthly_egg_clusters": {
@@ -1288,7 +1748,7 @@
           "stock_source": "User estimate; species and whether today's serving was already eaten are unknown.",
           "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-28",
-          "review_no_later_than": "2026-09-29",
+          "review_no_later_than": "2026-10-05",
           "forecast_only": true,
           "subsequent_receipts_excluded": [
             {
@@ -1308,7 +1768,7 @@
           "stock_reference_quantity": 650.0,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 545.0,
+          "forecast_remaining_before_today_use": 503.0,
           "first_forecast_not_fully_supplied_day": "2026-12-15",
           "review_no_later_than": "2026-12-01",
           "forecast_only": true
@@ -1319,7 +1779,7 @@
           "stock_reference_quantity": 350.0,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 245.0,
+          "forecast_remaining_before_today_use": 203.0,
           "first_forecast_not_fully_supplied_day": "2026-11-03",
           "review_no_later_than": "2026-10-27",
           "forecast_only": true
@@ -1330,7 +1790,7 @@
           "stock_reference_quantity": 200.0,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 170.0,
+          "forecast_remaining_before_today_use": 158.0,
           "first_forecast_not_fully_supplied_day": "2026-12-23",
           "review_no_later_than": "2026-12-09",
           "forecast_only": true
@@ -1341,9 +1801,9 @@
           "stock_reference_quantity": 228.75,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 26.25,
+          "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-30",
-          "review_no_later_than": "2026-09-29",
+          "review_no_later_than": "2026-10-05",
           "forecast_only": true
         },
         {
@@ -1354,7 +1814,7 @@
           "stock_source": "Original opening-stock estimate",
           "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-24",
-          "review_no_later_than": "2026-09-29",
+          "review_no_later_than": "2026-10-05",
           "forecast_only": true
         },
         {
@@ -1365,7 +1825,7 @@
           "stock_source": "User report; paid incoming1kg has not arrived.",
           "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-23",
-          "review_no_later_than": "2026-09-29",
+          "review_no_later_than": "2026-10-05",
           "forecast_only": true,
           "subsequent_receipts_excluded": [
             {
@@ -1427,7 +1887,7 @@
     "native_only_verdict": "Current whole-Diet candidate is not feasible with demonstrated routes. Exact subcategory rates below are candidates only: remaining exact-food native routes, free courier, price caps, first starts and usable lives are unresolved. Restricted Seed/1kg-Oat arithmetic impossibilities are not claims about every possible future retailer offer.",
     "not_proven": [
       "Full diet automation",
-      "New-basket free home courier",
+      "Free home courier for remaining unconfigured groups",
       "Actual usable lives",
       "Food-specific opening-stock depletion",
       "Future discount tiers",
@@ -1482,8 +1942,8 @@
     "current_stock_block": "Selected46125 available22September but no qualifying new Egg shipment; authenticated replacement search failed. Oats0g and Nuts100g reported23September; paid Nut A now incoming, first arrival unconfirmed."
   },
   "operational_evidence": {
-    "recorded_on": "2026-09-26",
-    "source": "Dated merchant/IdoPay/GLS emails and live Opera checks through26September. User stock remains23September; carrier delivery does not verify contents, condition or consumption. Historical evidence retains original dates.",
+    "recorded_on": "2026-10-05",
+    "source": "Dated incoming merchant/payment/carrier emails and supported Opera UI observations; latest check5October2026. Individual evidence dates and access limits remain explicit.",
     "357": {
       "delivered_at": "2026-09-18T14:44:00+02:00",
       "next_payment_date": null,
@@ -1508,6 +1968,13 @@
           "charged_pln": 110.7,
           "confirmation_received_at": "2026-09-25T00:09:38+02:00",
           "source": "IdoPay email for245125-1"
+        },
+        "tomato_reduction_follow_up_02oct": {
+          "received_at": "2026-10-02T13:39:41+02:00",
+          "approximate_reduction_g": 500,
+          "exact_remaining_weight_g": null,
+          "source": "Bioshi says Tomatoes in245125 were reduced by approximately0.5kg because of quality/availability and proportional refund issued to original payment account. No exact packed weight or refund amount in this follow-up.",
+          "scope": "Additional quantity context only. Does not create a second refund or override GLS-confirmed1October delivery; the later email's future-dispatch wording is stale/inconsistent."
         }
       },
       "following_template": {
@@ -1520,7 +1987,7 @@
       "payment_date_field": "Still25September, now paid; following collection date unverified."
     },
     "361": {
-      "next_payment_date": "2026-10-02",
+      "next_payment_date": null,
       "next_delivery_dates": [
         "2026-10-09",
         "2026-10-23"
@@ -1529,7 +1996,7 @@
       "evening_overview_base_pln": 115.66,
       "current_payable_renewal_total_verified": true,
       "first_order_243898": "GLS-delivered25September14:57 Warsaw; verified26September. Contents, condition and consumption uninspected.",
-      "last_checked": "2026-09-26",
+      "last_checked": "2026-10-02",
       "visible_discounted_template_pln": 98.31,
       "home_courier_pln": 0,
       "egg_sku": 45382,
@@ -1551,18 +2018,49 @@
           "tempeh200g_x3": 34.53,
           "strawberry450g": 27.74
         },
-        "payment_status": "scheduled_automatic_not_yet_collected",
-        "source": "Bioshi creation email received25September09:25:46 Warsaw; live361 links247410 on26September."
+        "payment_status": "charged",
+        "source": "Bioshi creation email received25September09:25:46 Warsaw; live361 links247410 on26September.",
+        "payment_confirmation": {
+          "status": "charged",
+          "charged_pln": 104.09,
+          "confirmation_received_at": "2026-10-02T00:29:54+02:00",
+          "transaction": "247410-1",
+          "source": "IdoPay incoming email explicitly confirms104.09PLN card collection dated2October."
+        },
+        "shipment": {
+          "carrier": "GLS",
+          "tracking_number": "33685064015",
+          "label_confirmation_received_at": "2026-10-02T00:31:57+02:00",
+          "tracking_status": "in_transit_to_delivery_depot",
+          "carrier_handover_verified": true,
+          "receipt_verified": false,
+          "source": "Bioshi dispatch email confirms247410 paid104.09PLN/delivery0. GLS separately confirms receipt from sender. Live GLS5October: Paczka w drodze do filii doreczajacej. Email receipt timestamps are not handover-event times; no delivered food credited.",
+          "merchant_packing_notice": {
+            "received_at": "2026-10-03T13:39:43+02:00",
+            "source": "Bioshi incoming email: order247410 packed and awaiting courier.",
+            "separate_event_timestamp": null,
+            "carrier_handover_established": false
+          },
+          "merchant_status_observed_04oct": "gotowe do wysłania / odbioru",
+          "merchant_dispatch_confirmation_received_at": "2026-10-04T19:27:17+02:00",
+          "carrier_receipt_confirmation_received_at": "2026-10-04T20:53:02+02:00",
+          "carrier_handover_event_at": null,
+          "tracking_checked_on": "2026-10-05",
+          "merchant_status_observed_05oct": "wysłane"
+        }
       },
       "following_template": {
         "delivery_date": "2026-10-23",
         "quote_pln": 98.31,
         "discount_percent": 15,
         "home_courier_pln": 0,
-        "observed_on": "2026-09-26",
+        "observed_on": "2026-10-02",
         "scope": "Following template only; does not change created247410."
       },
-      "visible_template_scope": "23October following template, separate from created247410104.09PLN."
+      "visible_template_scope": "23October following template, separate from created247410104.09PLN.",
+      "last_payment_date": "2026-10-02",
+      "profile_observation_04oct": "Active/14days/savedcard/freeGLS,9October created-order schedule and23October following delivery.247410 history104.09PLN and ready to send/collect. Product rows/following quote did not render; Egg replacement not reverified today.",
+      "profile_observation_05oct": "Active14days/savedcard/freeGLS;247410 historywysłane104.09PLN and9October schedule. Product rows and following quote not visible; no fresh Egg substitution verification."
     },
     "pantry_B_checkout": {
       "foods": {
@@ -1587,13 +2085,13 @@
       "superseded_for_sourcing": "User selected organic green-legged-hen SKU46125 below. Historical stock observation remains valid for45382 and does not block the selected product."
     },
     "selected_organic_eggs": {
-      "observed_on": "2026-09-22",
+      "observed_on": "2026-09-30",
       "sku": 46125,
       "ean": "5907814665997",
       "url": "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125",
       "identity": "Certified organic green-legged-hen Eggs, M10",
       "available_for_new_checkout": true,
-      "availability_evidence": "Public retailer page states available; actual checkout not submitted.",
+      "availability_evidence": "Live Opera product page30September:598 cartons,24.99PLN, dispatch today advertised. One-carton14day test accepted into basket; no order submitted, and test fully removed.",
       "first_price_pln": 24.99,
       "advertised_renewal_discount_percent_from_delivery2": 10,
       "estimated_renewal_price_pln": 22.49,
@@ -1619,7 +2117,7 @@
       "husbandry_evidence": "Retailer describes certified organic production, access to runs/pastures and organic feed; not an independent farm audit.",
       "whole_shipment_free_home_courier_verified": false,
       "order_or_subscription_submitted": false,
-      "editor_state": "Authenticated search returned no selected product; current361 still has45382. No replacement saved."
+      "editor_state": "30September: fresh user sign-in did not fix product search. Test basket emptied;361 still original45382,1carton/14days,98.31PLN/freeGLS, future edits23October. User-approved exact replacement request sent10:59 Warsaw and Outlook copy verified; replacement awaits merchant action, not another user login/payment."
     },
     "nut_groups": {
       "observed_on": "2026-09-22",
@@ -1820,18 +2318,309 @@
       "stock": "No new user stock observation; carrier-confirmed25September receipts retained. No duplicate Oat/Nut purchase or inferred consumption."
     },
     "monitoring_latest": {
-      "observed_on": "2026-09-29",
-      "mail_since": "2026-09-28",
-      "mail_result": "New GLS label email28September19:04:38 Warsaw for245125, parcel33685059789, explicitly awaiting sender handover. No new payment failure,247410 update,243364/243397 cancellation confirmation, substantive merchant response or coupon.",
-      "live357": "Active; history245125 realizowane at110.70PLN, already paid25September. Scheduled1October with freeGLS; following29October remains separate. Displayed payment field remains25September, not a new collection request.",
-      "tracking245125": "Live29September GLS confirms label assigned, not handed to courier. No dispatch or receipt credited;1October estimate remains, without an actionable delay established.",
-      "order_detail245125": "Additional sign-in was requested28September, while subscriptions remained readable. No repeat detail-page attempt or login request29September: current subscription and GLS evidence sufficed for this check.",
-      "live361": "Active; created247410 history104.09PLN awaiting scheduled automatic collection2October, delivery9October/freeGLS. Separate following23October template98.31PLN. Awaiting-payment history before2October does not establish payment failure or a manual-payment need.",
-      "new_activation": "No new fully qualifying activation prepared. Preserve27September route findings and later Nut B/Oat stock offsets; no repeat rejected basket or commitment.",
-      "stock": "No new user balance or inspected contents. Preserve carrier-delivered25September Oat/Nut offsets; older pre-delivery forecasts do not establish a current shortage.",
+      "observed_on": "2026-10-05",
+      "period": "morning",
+      "mail_since": "2026-10-04T14:30:00+02:00",
+      "mail_result": "Bioshi4October19:27:17 confirms247410 dispatch;GLS20:53:02 confirms senderhandover. No new249850, Eggreplacement, obsoletecancellation or paymentfailure message.",
+      "live361": "Active14days/savedcard/freeGLS;247410 historywysłane104.09PLN and9October schedule. Product rows and following quote not visible; no fresh Egg substitution verification.",
+      "live399": "The banner advanced from5October to4November but still links first249850; history contains only that order. This does not establish a new renewal order or a revised first-order ETA. Original5October first estimate remains unconfirmed. Product rows/future total absent; retain dated quote.31October is a displayed future collection schedule, not a debit.",
+      "new_activation": "None ready. Temporary Egg/Blueberry30day basket verified141.33PLN; login prevents actual home-courier checkout, and first timing remains unresolved. Basket restored empty; no login/payment requested.",
+      "stock": "No new observed balance or receipt.247410 now carrier-held/in transit, not on-hand.249850 first estimate5October remains unconfirmed.",
+      "temporary_basket_test": true,
+      "account_or_subscription_changes": false,
+      "basket_restored": true,
+      "user_action_needed": false,
+      "notification": "quiet"
+    },
+    "egg_replacement_attempt_30sep": {
+      "requested_action": "Replace45382 with user-selected46125 inside existing361, preserving1carton/14days.",
+      "status": "merchant_request_sent_replacement_awaiting_confirmation",
+      "product_available": true,
+      "product_price_pln": 24.99,
+      "product_live_quantity_cartons": 598,
+      "editor_results": "No product for zielononozki or jaja after search loaded; earlier same-day EAN also returned none.",
+      "profile_effective_delivery_if_saved": "2026-10-23",
+      "created_order_unchanged": 247410,
+      "current_profile_quote_pln": 98.31,
+      "cart_probe": "One46125 carton/14days showed24.99PLN goods+6.99PLN unspecified shipping. No existing-subscription merge control visible in cart. Next step displayed fresh login with password required. Test carton removed;0PLN empty basket verified.",
+      "subscription_changed": false,
+      "new_order_created": false,
+      "test_basket_empty_verified": true,
+      "user_step": "None currently. Approved merchant request sent and Outlook copy verified. Await merchant confirmation and verify live361 before marking replacement complete. Do not send a duplicate request or ask for another login on this evidence.",
+      "sign_in_completed_by_user": true,
+      "authenticated_editor_result": "After user confirmed fresh sign-in, broad jaja search still returned no product. Login was not a sufficient fix.",
+      "authenticated_cart_probe": "Exact46125 carton/14days reached signed-in payment/delivery page as a separate order:24.99PLN goods+9.49PLN selectedGLS=34.48PLN. No merge into361 offered on observed product/cart/payment-delivery UI. No order placed; carton removed, empty0PLN basket verified.",
+      "subscription_reloaded_and_verified_unchanged": true,
+      "merchant_request": {
+        "explicit_send_approval": true,
+        "sent_from": "pawel.troka@outlook.com",
+        "sent_to": "bok@bioshi.pl",
+        "subject": "Subskrypcja361 — zamiana jaj45382 na zielononóżki46125",
+        "sent_copy_timestamp": "2026-09-30T10:59:27+02:00",
+        "send_tool_succeeded": true,
+        "outlook_copy_verified": true,
+        "requested_effective_delivery": "2026-10-23",
+        "current_renewal_cap_pln": 99.5,
+        "preserve_free_gls": true,
+        "created_order247410_unchanged_requested": true,
+        "merchant_applied_change": false,
+        "last_checked_on": "2026-10-01",
+        "merchant_reply_found": false,
+        "live_replacement_verified": false
+      }
+    },
+    "monitoring_30sep": {
+      "observed_on": "2026-09-30",
+      "mail_since": "2026-09-29",
+      "mail_result": "No new relevant Bioshi,GLS,IdoPay,support or order-specific mail; no handover confirmation, payment failure,243364/243397 cancellation confirmation or coupon.",
+      "live357": "Active;245125 realizowane at110.70PLN, already paid25September. Scheduled1October/freeGLS; following29October104.55PLN template remains separate. Displayed payment field remains25September, not a new debit.",
+      "tracking245125": "Live GLS30September: parcel33685059789 still awaits sender handover. Subscription1October estimate is not a carrier guarantee. No confirmed missed delivery or action requiring the user yet.",
+      "live361": "Active;247410104.09PLN awaits scheduled automatic collection2October for9October/freeGLS. Following23October98.31PLN template remains separate. No failed payment or manual-payment requirement.",
+      "egg_editor": "Exact EAN5907814665997 submitted in361 product search; after loading it returned Nie znaleziono produktow. Cleared search and verified empty search field and0PLN basket. No replacement saved; original45382 retained.",
+      "bounded_route_refresh": "Public search for selected Egg46125,Cauliflower45883 and Blueberry55183 returned2-3-day-old indexed product snapshots, not newly verified dispatch stock. Eggs still list24.99PLN/10 and native cycles; Cauliflower unavailable and Blueberries on order in those snapshots. No material verified improvement or qualifying first/renewal home-courier basket established.",
+      "route_sources": [
+        "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125",
+        "https://bioshi.pl/pl/products/kalafior-swiezy-bio-okolo-0-80-kg-45883",
+        "https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183"
+      ],
+      "new_activation": "No new fully qualifying activation prepared. Preserve later Nut B timing and Oat stock offsets; no duplicate first purchase or retired basket.",
+      "stock": "No new measured balance or inspected contents. Preserve carrier-delivered25September Oat/Nut offsets without assuming consumption or a current shortage from old forecasts.",
       "account_or_basket_changes": false,
       "user_action_needed": false,
       "notification": "quiet"
+    },
+    "additional_egg_produce_01oct": {
+      "status": "active_paid_saved_card_first_order_stock_hold",
+      "new_order_submitted": true,
+      "subscription_activated": true,
+      "terms_accepted": true,
+      "user_sign_in_completed": true,
+      "native_days": 30,
+      "items": [
+        {
+          "sku": 46125,
+          "name": "Green-legged organic M Eggs10",
+          "packs": 1,
+          "oneoff_goods_pln": 23.79,
+          "discounted_line_pln": 21.41
+        },
+        {
+          "sku": 45883,
+          "name": "organic Cauliflower approximately800g",
+          "packs": 1,
+          "oneoff_goods_pln": 18.99,
+          "discounted_line_pln": 17.09
+        },
+        {
+          "sku": 84795,
+          "name": "organic Carrots1kg",
+          "packs": 1,
+          "oneoff_goods_pln": 7.59,
+          "discounted_line_pln": 6.83
+        },
+        {
+          "sku": 88768,
+          "name": "organic Raspberries125g",
+          "packs": 4,
+          "oneoff_goods_pln": 14.98,
+          "discounted_line_pln": 53.92
+        }
+      ],
+      "goods_before_discount_pln": 110.29,
+      "coupon": "kk11",
+      "discount_pln": 11.04,
+      "first_total_pln": 99.25,
+      "displayed_recurring_total_pln": 99.25,
+      "home_courier": "GLS",
+      "home_courier_pln": 0,
+      "other_displayed_fees_pln": 0,
+      "courier_scope": "Signed-in delivery and final review after coupon: selected GLS home courier Gratis. Checkout recurring statement99.25PLN. Future prices/discount tiers are not a permanent price guarantee.",
+      "estimated_first_delivery": "2026-10-05",
+      "displayed_following_delivery": "2026-11-04",
+      "dates_booked": true,
+      "price_comparison": "Each final line is about10% below its exact Bioshi one-off goods price observed1October, without allocated manual shipping. Egg21.41PLN also below Bee21.99PLN; Carrot6.83 below Frisco11.09. Ekoj Cauliflower and Freshme Raspberry unavailable; Freshme125g/200g ambiguity excluded. No basket averaging used.",
+      "meal_allocation": "Raspberries500g supplies5x100g choices, prioritized after arrival subject to quality/label. Carrot/Cauliflower actual cooked edible yields control servings; neither gross pack mass is guaranteed edible yield. Eggs add one10/30day stream alongside361, not all three needed streams. No added Oats/Nuts/Tempeh/Fish.",
+      "remaining_gate": "No further user payment or card action. Monitor merchant stock hold and verify dispatch/actual receipt. Do not repay249850.",
+      "browser_tab_id": "1546890637",
+      "checkout_url": "https://bioshi.pl/order2.php",
+      "order_id": 249850,
+      "subscription_id": 399,
+      "paid": true,
+      "payment_status": "Order details confirms99.25PLN paid by card; IdoPay email confirms successful249850-1 collection.",
+      "stock_confirmation": {
+        "reported_on": "2026-10-01",
+        "groups": [
+          "Eggs",
+          "Carrots",
+          "Cauliflower",
+          "Raspberries"
+        ],
+        "qualitative_stock": "not much",
+        "source": "User confirmed low stock and explicitly authorized activation of the99.25PLN monthly group. No numeric balances inferred.",
+        "first_purchase_authorized": true
+      },
+      "payment_url": "https://bioshi.pl/pl/orderdetails.html?order_number=249850&message=order",
+      "delivery_date_scope": "Profile schedules4November next renewal; first5October remains an estimate while249850 is held for missing merchant stock. No revised ETA or affected SKU identified.",
+      "paid_pln": 99.25,
+      "payment_confirmed_at": "2026-10-01T22:30:24+02:00",
+      "order_created_at": "2026-10-01T22:28:37+02:00",
+      "retailer_status": "Aktywna",
+      "card_on_profile": true,
+      "parent_card_verification_pending": false,
+      "next_payment_date": "2026-10-31",
+      "displayed_payment_date": "2026-10-31",
+      "payment_date_scope": "5October profile now displays future31October. Schedule only; no new charge or renewal-order identity verified.",
+      "first_order_stock_hold": true,
+      "missing_goods_identified": false,
+      "payment_fee_pln": 0,
+      "subscription_url": "https://bioshi.pl/subscription.php?id=399",
+      "last_profile_verified_on": "2026-10-05",
+      "order_detail_access_02oct": "Additional sign-in requested; active profile/history remain readable. No user action requested.",
+      "order_detail_access_04oct": "Additional sign-in requested for249850 detail; profile/history readable. No login requested for unchanged hold.",
+      "profile_observation_05oct": {
+        "observed_on": "2026-10-05",
+        "active": true,
+        "saved_card_visible": true,
+        "history_order_id": 249850,
+        "history_total_pln": 99.25,
+        "history_status": "Przygotowanie do realizacji",
+        "banner_delivery": "2026-11-04",
+        "banner_order_link": 249850,
+        "following_delivery": "2026-12-04",
+        "displayed_next_payment_date": "2026-10-31",
+        "home_courier_pln": 0,
+        "native_days": 30,
+        "scope": "The banner advanced from5October to4November but still links first249850; history contains only that order. This does not establish a new renewal order or a revised first-order ETA. Original5October first estimate remains unconfirmed. Product rows/future total absent; retain dated quote.31October is a displayed future collection schedule, not a debit."
+      }
+    },
+    "monitoring_01oct_morning": {
+      "observed_on": "2026-10-01",
+      "mail_since": "2026-09-30",
+      "mail_result": "Bioshi reported reduced Tomatoes, issued11.79PLN refund and GLS confirmed collection of245125 on30September. No incoming Egg replacement reply,247410 failure or new243364/243397 cancellation confirmation.",
+      "live357": "Active.245125 history now wyslane at98.91PLN, versus110.70PLN collected25September. FreeGLS and1October estimate remain. Future29October template unchanged at104.55PLN with1000g Tomatoes. Current order detail requires additional sign-in; no login requested for this non-actionable quantity check.",
+      "tracking245125": "Parcel33685059789 in transit to delivery depot. Carrier handover verified, receipt not verified.",
+      "tomato_quantity": "Reduced quantity confirmed, weight unverified. Original1000g is not a current incoming-stock quantity;500g remains arithmetic inference only. Merchant refund issued, bank receipt unverified.",
+      "live361": "Active;247410104.09PLN awaits scheduled automatic collection2October for9October/freeGLS. Following23October98.31PLN template remains separate. No failed payment or manual-payment requirement.",
+      "egg_replacement": "Original45382 still visibly in361, one carton/14days. The30September approved merchant request is pending; no duplicate request, editor retry or payment.",
+      "new_activation": "No new fully qualifying activation prepared. Preserve later Nut B timing and Oat stock offsets; no duplicate first purchase or retired basket.",
+      "stock": "No new observed balance, receipt or inspected contents. Preserve25September carrier-delivered Oat/Nut offsets and distinguish template quantities from reduced245125 contents.",
+      "account_or_basket_changes": false,
+      "user_action_needed": false,
+      "notification": "quiet"
+    },
+    "monitoring_01oct_evening": {
+      "observed_on": "2026-10-01",
+      "mail_since": "2026-09-30",
+      "mail_result": "GLS confirms245125 delivered1October. Bioshi10:34:47Warsaw reminder confirms247410104.09PLN scheduled2October. No new Egg replacement reply,coupon or payment failure.",
+      "live357": "Active.245125 history now wyslane at98.91PLN, versus110.70PLN collected25September. FreeGLS and1October estimate remain. Future29October template unchanged at104.55PLN with1000g Tomatoes. Current order detail requires additional sign-in; no login requested for this non-actionable quantity check.",
+      "tracking245125": "Delivered1October per GLS email;13:13:39 is email receipt time, not delivery event time. Contents/condition and reduced Tomato weight unverified.",
+      "tomato_quantity": "Reduced quantity confirmed, weight unverified. Original1000g is not a current incoming-stock quantity;500g remains arithmetic inference only. Merchant refund issued, bank receipt unverified.",
+      "live361": "Active;247410104.09PLN awaits scheduled automatic collection2October for9October/freeGLS. Following23October98.31PLN template remains separate. No failed payment or manual-payment requirement.",
+      "egg_replacement": "Original45382 still visibly in361, one carton/14days. The30September approved merchant request is pending; no duplicate request, editor retry or payment.",
+      "new_activation": "New399 active every30days, order249850 paid99.25PLN1October22:30:24Warsaw, saved card present, freeGLS/paymentfee0. Next profile quote99.25PLN for4November. First order held for missing merchant stock;5October estimate unresolved, no exact held SKU identified.",
+      "stock": "User1October reports not much Eggs/Carrots/Cauliflower/Raspberries and approves first purchase. Qualitative report supersedes old Egg count for startup, with no invented grams. Carrier245125 delivered1October; contents not inspected.",
+      "account_or_basket_changes": true,
+      "user_action_needed": false,
+      "notification": "activation_completion_and_first_order_stock_hold",
+      "period": "evening",
+      "changes_scope": "Authorized subscription399 created and user funded its first249850. Existing357/361/370 unchanged, including pending361 Egg replacement."
+    },
+    "monitoring_02oct": {
+      "observed_on": "2026-10-02",
+      "period": "morning",
+      "mail_since": "2026-10-01T22:30:24+02:00",
+      "mail_result": "247410104.09PLN charged perIdoPay00:29:54Warsaw. GLS00:31:57assigned33685064015 but explicitly nohandover. No new249850 hold/egg-replacement/cancellation reply or paymentfailure.",
+      "live361": "Active,created247410 for9October; following23October98.31PLN/freeGLS, originalEgg45382 still present. Displayed payment2October; no later collectiondateverified.",
+      "live399": "Active/savedcard99.25PLN/freeGLS/30days;249850 historystillPRZYGOTOWANIE DO REALIZACJI,5Octoberestimate/4Novemberrenewal. Detailrequestsadditional sign-in, profileisreadable. No sign-in requested for unchanged check.",
+      "bounded_route_refresh": "Kohlrabi80241,Blueberries55183,Spinach45129 public excerpts still on-order, aged5days/1day/2weeks respectively. No newly verified stock improvement, matched price clearance or qualifying newshipment.",
+      "new_activation": "None prepared or needed today. Do notduplicate399; later twoEggcores andNutB need their own timing/readiness.",
+      "stock": "No new user balance, receipt or usable quantity.1Octoberqualitative lowstock and priorcarrierreceipts remain dated.",
+      "account_or_basket_changes": false,
+      "user_action_needed": false,
+      "notification": "quiet",
+      "automation_prompt_updated": "Refreshed stale23September baseline tofouractiveprofiles and current payment/receipt facts; keptdaily9amschedule and quietnotificationintent."
+    },
+    "egg_blueberry_candidate_04oct": {
+      "observed_on": "2026-10-04",
+      "status": "research_candidate_not_configured_or_activated",
+      "native_days_publicly_offered": 30,
+      "items": [
+        {
+          "sku": 46125,
+          "food": "Selected green-legged organic M Eggs10",
+          "packs": 1,
+          "one_off_unit_pln": 24.99,
+          "source": "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125"
+        },
+        {
+          "sku": 55183,
+          "food": "organic fresh Blueberries125g",
+          "packs": 6,
+          "one_off_unit_pln": 19.59,
+          "source": "https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183"
+        }
+      ],
+      "goods_before_discount_pln": 142.53,
+      "advertised_10_percent_renewal_arithmetic_pln": [
+        128.27,
+        128.28
+      ],
+      "rounding_scope": "Unit-versus-basket rounding differs by0.01PLN. No accepted coupon or checkout total; future prices are not fixed.",
+      "blueberry_stock_signal": "Live Opera: Produkt na zamówienie;485units shown with Tuesday dispatch claim. This does not guarantee destination shipment or remaining usable life.",
+      "blueberry_storage": "Retailer1–4°C;750g allocates five canonical150g portions near arrival, not30days of refrigerated storage.",
+      "manual_comparator": "Same available Bioshi one-off goods:0% goods premium initially, approximately-10% renewal. Frisco organic125g currently withdrawn with0.00 placeholder, excluded. Delivered-price test pending compulsory fees; no global cheapest claim.",
+      "withdrawn_comparator_url": "https://www.frisco.pl/pid,100179/n,frisco-organic-borowka-amerykanska-bio/stn,product",
+      "first_home_courier_quote_pln": null,
+      "renewal_home_courier_quote_pln": null,
+      "first_date": null,
+      "first_date_scope": "Later monthly Egg stream, stagger after399 actual first arrival/remaining stock. Not an immediate duplicate purchase.",
+      "remaining_gates": [
+        "Exact destination whole checkout and compulsory fees",
+        "Free HOME courier first and renewal",
+        "First timing relative to399 actual arrival and stock",
+        "Usable fruit condition/life and meal allocation"
+      ],
+      "basket_or_account_changed": false,
+      "ready_for_payment": false
+    },
+    "monitoring_04oct": {
+      "observed_on": "2026-10-04",
+      "period": "afternoon",
+      "mail_since": "2026-10-02T09:00:00+02:00",
+      "mail_result": "Bioshi2October13:39:41 clarifies approximate500g Tomato reduction in245125 and issued proportional refund, without exact final weight/new amount.3October13:39:43 says247410 packed awaiting courier. No newGLS/IdoPay,249850 update,Egg replacement reply,payment failure or243364/243397 cancellation found.",
+      "live361": "Active/14days/savedcard/freeGLS,9October created-order schedule and23October following delivery.247410 history104.09PLN and ready to send/collect. Product rows/following quote did not render; Egg replacement not reverified today.",
+      "live399": "Active/savedcard/30days/freeGLS;249850 history99.25PLN still preparing.5October remains first estimate,4November following delivery. Detail asks for login; no request made. Product rows/renewal total did not render, so retain dated prior quote without claiming fresh verification.",
+      "new_activation": "None ready today.399 is already paid; remaining monthly Egg streams need separate qualifying shipments and staggered timing. NutB remains later.",
+      "stock": "No new observed balance, receipt or usable quantity. Do not infer depletion or duplicate paid food.",
+      "account_or_basket_changes": false,
+      "user_action_needed": false,
+      "notification": "quiet",
+      "bounded_route_refresh": "Exact Blueberries55183 live19.59PLN/125g with on-order/Tuesdayshipment claim and native30days. SelectedEggs46125 public24.99PLN. Eggcarton+6Blueberrypacks candidate142.53PLN goods,128.27–128.28 advertised10% renewal arithmetic; no configured whole shipment/courier quote/date. Frisco matched organic125g withdrawn, not a usable current comparator."
+    },
+    "egg_blueberry_checkout_test_05oct": {
+      "observed_on": "2026-10-05",
+      "exact_packs": {
+        "eggs46125_10": 1,
+        "blueberry55183_125g": 6
+      },
+      "native_days_verified_in_basket": 30,
+      "goods_pln": 141.33,
+      "egg_line_pln": 23.79,
+      "blueberry_line_pln": 117.54,
+      "basket_displayed_recurring_pln": 141.33,
+      "coupon_applied": false,
+      "basket_shipping_label": "Gratis",
+      "home_courier_quote_verified": false,
+      "destination_and_fees_verified": false,
+      "blocking_screen": "Przejdz dalej reaches login; no destination delivery-method/final quote inspected.",
+      "first_date_booked": false,
+      "timing_scope": "Not ready for immediate activation;399 first arrival/stock still unresolved and another Egg stream needs staggering. No sign-in requested for this incomplete future route.",
+      "basket_start_empty": true,
+      "temporary_goods_removed": true,
+      "basket_end_empty_verified": true,
+      "order_or_subscription_created": false,
+      "ready_for_payment": false,
+      "scope": "141.33PLN supersedes4October142.53PLN goods for this dated basket only. Generic free shipping is not proof of free HOME courier. Same Bioshi one-off goods comparison remains0% before fees; no cheapest-market claim."
     }
   },
   "stock_observations": [
@@ -1886,12 +2675,27 @@
       "affected_groups": [
         "combined Nuts"
       ]
+    },
+    {
+      "reported_on": "2026-10-01",
+      "order_id": 245125,
+      "received": true,
+      "delivered_on": "2026-10-01",
+      "confirmation_received_at": "2026-10-01T13:13:39+02:00",
+      "source": "GLS delivery-confirmation email: today, without exact event time or contents.",
+      "contents_condition_verified": false,
+      "affected_groups": [
+        "Kiwi",
+        "Tomatoes",
+        "Shiitake",
+        "Oyster Mushrooms"
+      ]
     }
   ],
   "activation_rollout": {
-    "as_of": "2026-09-26",
+    "as_of": "2026-10-05",
     "document": "diet/DIET_ACTIVATION_ROLLOUT.md",
-    "new_streams_activated": 1,
+    "new_streams_activated": 2,
     "nut_A_activation_target": "2026-09-23",
     "nut_A_arrival_preference": "2026-09-25",
     "nut_A_status": "active_paid_card_attached",
@@ -1899,12 +2703,15 @@
     "oats_current_gap": null,
     "full_automation_completion_date": null,
     "completion_date_reason": "Exact-food native routes, complete free-courier groups, usable life and repeated stock balance remain unverified; no promised full-automation date.",
-    "new_streams_created": 1,
+    "new_streams_created": 2,
     "nut_A_subscription": 370,
     "nut_A_order": 246975,
-    "current_incoming_status": "243898 and246975 carrier-delivered25September14:57; contents/condition uninspected.245125 paid for1October;247410 scheduled payment2October/delivery9October.",
+    "current_incoming_status": "247410 paid104.09PLN; merchant dispatch andGLS receipt confirmed4October, live5October in transit to delivery depot;9October retailer schedule, no receipt.399first249850paid99.25PLN stillpreparing; first5Octoberestimate unconfirmed.399banner now4November stilllinks249850, following4December and displayedpayment31October; not a revised first ETA/neworder. Prioractualreceipts unchanged.",
     "nut_A_actual_delivery": "2026-09-25",
     "nut_B_arrival_target": "2026-11-04",
-    "oats_current_gap_scope": "Earlier0g user balance predates carrier-delivered1kg; current usable balance/first use not observed."
+    "oats_current_gap_scope": "Earlier0g user balance predates carrier-delivered1kg; current usable balance/first use not observed.",
+    "egg_produce_subscription": 399,
+    "egg_produce_order": 249850,
+    "egg_produce_status": "active_paid_saved_card_first_order_stock_hold"
   }
 }

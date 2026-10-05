@@ -333,10 +333,61 @@ def premium(subscription_price, pack_g, manual_price, manual_g, cap):
             "limitations": "Goods-only screen; current matching delivered prices, compulsory fees and tax still require checkout verification."}
 
 
-def derive(model):
-    eggs_current = [stream(10, 14, 8)]
-    six_tempeh = 3 * 28 // 14
+def active_coverage(model):
+    """Long-run 28-day rates, not arrivals, usable stock or meal coverage."""
+    totals = {}
+    for active in model["active_streams"]:
+        for food, quantity in active["foods"].items():
+            if quantity > 0:
+                totals[food] = totals.get(food, Fraction()) + Fraction(
+                    str(quantity)) * 28 / active["days"]
+
+    def amount(food):
+        return totals.get(food, Fraction())
+
+    def covered(supplied, required):
+        return {"supplied": number(supplied), "required": required,
+                "gap": number(max(0, required - supplied))}
+
     portions = model["protocol_requirements"]
+    rotation = portions["dinner_rotation"]
+    eggs = amount("eggs_count")
+    eggs_per_meal = rotation["nominal_medium_eggs_per_meal"]
+    berries = amount("strawberry_gross_g") / 150 + amount("raspberry_gross_g") / 100
+    fruit = amount("kiwi_gross_g") + amount("orange_gross_g")
+    colorful = amount("butternut_gross_g") + amount("carrot_gross_g")
+    cruciferous = amount("cauliflower_gross_g")
+    nuts = sum((amount(food) for food in
+                ("walnut_g", "pistachio_g", "almond_g", "macadamia_g")), Fraction())
+    return {
+        "scope": "Long-run rates averaged over28days from active_streams, excluding first-only foods. Gross produce equivalents precede edible/preparation losses. Neither timing, receipt nor usable meal coverage is established.",
+        "recurring_food_count": len(totals),
+        "recurring_food_count_definition": "Distinct positive recurring food keys across all active streams, including Nuts; repeated foods count once.",
+        "tempeh_dinners": covered(amount("tempeh_packs_200g") * 200 / rotation["tempeh_g"], rotation["tempeh_meals"]),
+        "nominal_eggs": covered(eggs, rotation["egg_meals"] * eggs_per_meal),
+        "egg_dinners_approximate": covered(eggs / eggs_per_meal, rotation["egg_meals"]),
+        "fish_dinners": {"supplied": 0, "required": rotation["fish_meals"]},
+        "lunch_protein_choices": {"supplied": 0, "required": 28},
+        "berries": {"strawberry_g_gross": number(amount("strawberry_gross_g")),
+                    "raspberry_g_gross": number(amount("raspberry_gross_g")),
+                    "maximum_portion_equivalents_before_hulling": number(berries),
+                    "required": 28, "minimum_gap": number(max(0, 28 - berries))},
+        "mushrooms": {"full_75g_choices": 4, "separate_oyster_remainder_g": 50, "separate_shiitake_remainder_g": 50, "required": 28},
+        "whole_fruit": {"gross_g": number(fruit), "upper_150g_equivalents_before_peeling": number(fruit / 150), "required": 28},
+        "mediterranean_vegetable_choices": {"nominal_tomato_choices": number(amount("tomato_g") / 100), "required": 28},
+        "colorful_vegetable_choices": {"butternut_gross_g": number(amount("butternut_gross_g")),
+                                       "carrot_gross_g": number(amount("carrot_gross_g")),
+                                       "upper_choices_before_preparation": number(colorful / 100), "required": 28},
+        "cruciferous_vegetable_choices": {"cauliflower_gross_g": number(cruciferous),
+                                          "upper_choices_before_preparation": number(cruciferous / 100), "required": 28},
+        "nuts_g": covered(nuts, portions["daily"]["nuts_g"] * 28),
+        "other_categories": [item for item in portions["not_supplied_by_active_renewals"]
+                             if not (cruciferous and "Cruciferous" in item)
+                             and not (nuts and "Nuts" in item)],
+    }
+
+
+def derive(model):
     anchor = date.fromisoformat(model["steady_state_anchor"])
     prices = model["dated_price_references"]
     oat_price = prices["oats_300_first_pln"]
@@ -344,20 +395,7 @@ def derive(model):
     return {
         "as_of": model["as_of"],
         "operational_evidence_separate_from_arithmetic": model.get("operational_evidence", {}),
-        "active_coverage_per_28_days": {
-            "recurring_food_count": 9,
-            "tempeh_dinners": {"supplied": six_tempeh, "required": 6},
-            "nominal_eggs": {"supplied": number(rate(eggs_current) * 28), "required": 48, "gap": 28},
-            "egg_dinners_approximate": {"supplied": 5, "required": 12, "gap": 7},
-            "fish_dinners": {"supplied": 0, "required": 10},
-            "lunch_protein_choices": {"supplied": 0, "required": 28},
-            "berries": {"strawberry_g_gross": 900, "maximum_portion_equivalents_before_hulling": 6, "required": 28, "minimum_gap": 22},
-            "mushrooms": {"full_75g_choices": 4, "separate_oyster_remainder_g": 50, "separate_shiitake_remainder_g": 50, "required": 28},
-            "whole_fruit": {"gross_g": 3200, "upper_150g_equivalents_before_peeling": number(Fraction(3200, 150)), "required": 28},
-            "mediterranean_vegetable_choices": {"nominal_tomato_choices": 10, "required": 28},
-            "colorful_vegetable_choices": {"butternut_gross_g": 2000, "upper_choices_before_preparation": 20, "required": 28},
-            "other_categories": portions["not_supplied_by_active_renewals"],
-        },
+        "active_coverage_per_28_days": active_coverage(model),
         "egg_oat_minimum_new_interval_proposal": phase_candidates(anchor),
         "oat_price_screen": {
             "first": premium(oat_price, 300, manual, 1000, 25),
@@ -378,7 +416,7 @@ def derive(model):
              "scope": "Same restricted intervals; mixed smaller packs or a verified40-day1kg native cycle can solve quantity without changing the diet."},
         ],
         "native_only_verdict": "Current whole-Diet candidate is not feasible with demonstrated routes. Exact subcategory rates below are candidates only: remaining exact-food native routes, free courier, price caps, first starts and usable lives are unresolved. Restricted Seed/1kg-Oat arithmetic impossibilities are not claims about every possible future retailer offer.",
-        "not_proven": ["Full diet automation", "New-basket free home courier", "Actual usable lives", "Food-specific opening-stock depletion", "Future discount tiers", "Global freshness optimality"],
+        "not_proven": ["Full diet automation", "Free home courier for remaining unconfigured groups", "Actual usable lives", "Food-specific opening-stock depletion", "Future discount tiers", "Global freshness optimality"],
     }
 
 
@@ -389,6 +427,7 @@ def markdown(result):
     current_nuts = result["nut_comparisons"]["current_two_groups_90_days"]
     operational = result.get("operational_evidence_separate_from_arithmetic", {})
     rollout = result.get("activation_rollout", {})
+    coverage = result["active_coverage_per_28_days"]
     nut_a = operational.get("nut_A_final_checkout", {})
     nut_status = (f"Nut A subscription{nut_a['subscription_id']}: {nut_a['status']}; Nut B remains unactivated."
                   if nut_a.get("order_submitted") else
@@ -425,9 +464,13 @@ def markdown(result):
         lines += ["", f"NutA activation target: {rollout.get('nut_A_activation_target', 'unassigned')} ({rollout.get('nut_A_status', 'not released')}). NutB timing: {rollout.get('nut_B_arrival_rule', 'unassigned')}.",
                   "Full-automation completion date: " + (rollout.get("full_automation_completion_date") or "unassigned; qualifying routes and repeated whole-diet coverage are not yet established.")]
     lines += ["", "| Existing recurring coverage | Result |", "| --- | --- |",
-             "| Active Tempeh |6/6 dinners per28days |",
-             "| Active Eggs |20/48 nominal Eggs; approximately7 Egg dinners still uncovered |",
-             "| Active Berries |At most6/28 portions before hulling |"]
+              f"| Recurring foods |{coverage['recurring_food_count']} distinct foods, including Nuts; first-only foods excluded |",
+              f"| Active Tempeh |{coverage['tempeh_dinners']['supplied']:g}/{coverage['tempeh_dinners']['required']:g} dinner equivalents per28days |",
+              f"| Active Eggs |{coverage['nominal_eggs']['supplied']:g}/{coverage['nominal_eggs']['required']:g} nominal Eggs; approximately{coverage['egg_dinners_approximate']['gap']:g} Egg dinner equivalents still uncovered |",
+              f"| Active Berries |At most{coverage['berries']['maximum_portion_equivalents_before_hulling']:g}/{coverage['berries']['required']:g} portion equivalents before edible losses |",
+              f"| Active Cruciferous Vegetables |{coverage['cruciferous_vegetable_choices']['upper_choices_before_preparation']:g}/28 gross100g equivalents before preparation |",
+              f"| Active Colorful Vegetables |{coverage['colorful_vegetable_choices']['upper_choices_before_preparation']:g}/28 gross100g equivalents before preparation |",
+              "", coverage["scope"]]
     lines += ["", "Historical arithmetic comparisons (not activation instructions):", "",
               f"- Earlier Eggs10/14/21/28/60days: peak{p['eggs']['peak_after_delivery_with_that_buffer']:g}, synthetic buffer{p['eggs']['minimum_synthetic_opening_buffer']:g}. The buffer is not owned stock.",
               f"- Earlier Oats300g/21days +300g/28days: peak{p['oats']['peak_after_delivery_with_that_buffer']:g}g; dated price benchmark fails the cap. Relative phases21day:{p['phase_21_days']},60day:{p['phase_60_days']} against{p['anchor_date']} are not booked dates.",
@@ -446,6 +489,41 @@ def markdown(result):
 
 
 def self_test():
+    coverage_probe = {
+        "protocol_requirements": {
+            "dinner_rotation": {"tempeh_meals": 6, "tempeh_g": 200, "egg_meals": 12,
+                                "nominal_medium_eggs_per_meal": 4, "fish_meals": 10},
+            "daily": {"nuts_g": 20},
+            "not_supplied_by_active_renewals": ["28 Cruciferous choices", "560g Nuts", "700g Oats"],
+        },
+        "active_streams": [
+            {"days": 28, "foods": {"kiwi_gross_g": 1200, "tomato_g": 1000,
+                                   "shiitake_raw_g": 200, "oyster_raw_g": 200}},
+            {"days": 14, "foods": {"eggs_count": 10, "orange_gross_g": 1000,
+                                   "butternut_gross_g": 1000, "tempeh_packs_200g": 3,
+                                   "strawberry_gross_g": 450},
+             "first_order": {"first_only": {"oats_g": 1000}}},
+            {"days": 90, "foods": {"walnut_g": 300, "pistachio_g": 300, "macadamia_g": 200}},
+        ],
+    }
+    old_coverage = active_coverage(coverage_probe)
+    assert old_coverage["recurring_food_count"] == 12
+    assert old_coverage["nominal_eggs"] == {"supplied": 20, "required": 48, "gap": 28}
+    assert old_coverage["berries"]["maximum_portion_equivalents_before_hulling"] == 6
+    assert old_coverage["tempeh_dinners"]["supplied"] == 6
+    coverage_probe["active_streams"].append({"days": 30, "foods": {
+        "eggs_count": 10, "raspberry_gross_g": 500,
+        "cauliflower_gross_g": 800, "carrot_gross_g": 1000}})
+    new_coverage = active_coverage(coverage_probe)
+    assert new_coverage["recurring_food_count"] == 15  # Repeated Eggs count once.
+    assert new_coverage["nominal_eggs"] == {"supplied": 29.333333, "required": 48, "gap": 18.666667}
+    assert new_coverage["egg_dinners_approximate"]["gap"] == 4.666667
+    assert new_coverage["berries"]["maximum_portion_equivalents_before_hulling"] == 10.666667
+    assert new_coverage["cruciferous_vegetable_choices"]["cauliflower_gross_g"] == 746.666667
+    assert new_coverage["colorful_vegetable_choices"]["carrot_gross_g"] == 933.333333
+    assert new_coverage["colorful_vegetable_choices"]["upper_choices_before_preparation"] == 29.333333
+    assert new_coverage["nuts_g"]["supplied"] == old_coverage["nuts_g"]["supplied"]
+    assert new_coverage["other_categories"] == ["700g Oats"]
     balanced = inventory([stream(300, 21), stream(300, 28, 4)], 25)
     assert balanced["quantity_balanced"] and balanced["supply"] == 2100
     assert rate([stream(10, p) for p in (14, 21, 28, 60)]) * 28 == 48
@@ -532,7 +610,7 @@ def self_test():
     fallback = {item["food"]: item for item in forecast_reviews(stock_probe)["reviews"]}
     assert fallback["combined Nuts"]["first_forecast_not_fully_supplied_day"] == "2026-10-09"
     assert "Rolled Oats" not in fallback
-    print("Exact rates, discrete Egg pattern, Oat drift, Nut balance, price-cap, dated stock forecast and later-receipt scope checks passed.")
+    print("Active-stream coverage, exact rates, discrete Egg pattern, Oat drift, Nut balance, price-cap, dated stock forecast and later-receipt scope checks passed.")
 
 
 def main():

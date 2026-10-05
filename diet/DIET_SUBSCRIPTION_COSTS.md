@@ -1,5 +1,22 @@
 # Diet subscription costs — 43-food core, 2 stock-driven additions and historical benchmark
 
+**5October basket test:** the same monthly Egg/Blueberry candidate now totals141.33zł (Eggs23.79zł; six Blueberry packs117.54zł), also displayed as the recurring amount before coupons. Both30day settings and pack counts were verified. The generic “Gratis” shipping label is not a home-courier quote; sign-in is required before destination delivery/fee checks. No coupon, order or subscription was submitted, and the temporary basket was restored empty. No additional recurring spend is booked.
+
+**4October later Egg/Blueberry candidate, goods-only:** [Egg46125](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125) carton10 at24.99zł plus [Blueberry55183](https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183)125g×6 at19.59zł gives142.53zł before fees/discounts; advertised10% renewal arithmetic gives128.27–128.28zł depending on rounding. Against the same available Bioshi manual goods, that is0% initially and approximately−10% on renewal. [Frisco organic125g](https://www.frisco.pl/pid,100179/n,frisco-organic-borowka-amerykanska-bio/stn,product) now says “Produkt wycofany”; its0.00zł placeholder and historical15.29/16.79zł are not current purchasable comparators. This does not establish the cheapest market offer, accepted coupon, delivered-price compliance, free home courier or a ready activation. No new purchase is included in recurring totals.
+
+## 1October — monthly Egg/produce399 active, order249850 paid99.25zł
+
+The user confirmed low stock and authorized activation. Bioshi accepted **order249850 for99.25zł**, after coupon `kk11` saved11.04zł against110.29zł. Signed-in final review verified **GLS home courier0zł**, no other displayed compulsory fee, every30days for all four foods, and a displayed recurring total99.25zł. The user paid99.25zł, confirmed by IdoPay1October22:30:24 Warsaw and the live order page. Subscription399 is active with a saved card,99.25zł/freeGLS next-renewal quote and4November next delivery. The creation email confirms payment fee0zł. First249850 is merchant-stock-held:5October remains an estimate without revised ETA. The profile's1October payment field does not establish a future collection date; future prices are not fixed by this quote. No further user action or repayment is needed.
+
+| Exact food / quantity | Same Bioshi one-off goods | Accepted first line |
+| --- | ---: | ---: |
+| Green-legged organic M Eggs10, SKU46125×1 |23.79zł |21.41zł |
+| organic Cauliflower approximately800g, SKU45883×1 |18.99zł |17.09zł |
+| organic Carrots1kg, SKU84795×1 |7.59zł |6.83zł |
+| organic Raspberries125g, SKU88768×4 |59.92zł |53.92zł |
+
+Every line is approximately10% below its live matching Bioshi manual goods price, with no manual shipping cost added to manufacture a pass. Eggs also compare favorably with [Bee21.99zł](https://www.bee.pl/jaja-jajka-kury-zielononozki-m-ekologiczne-10-szt-bio_p1353704.html), matched by EAN5907814665997, and Carrots with [Frisco11.09zł/kg](https://www.frisco.pl/pid,11878/n,frisco-organic-marchew-swieza-bio/stn,product). The unavailable Ekoj Cauliflower and unavailable/pack-ambiguous Freshme Raspberry were excluded as purchasable alternatives. This is a per-product25% cap check, not a claim to the lowest market price. No loyalty points were spent.
+
 ## 23September22:40 — Nut A order246975 paid133.61zł
 
 After explicit user approval and an email-coupon check, returning-customer code `kk11` from the17September shipping email applied10%, saving14.85zł on148.46zł. Bioshi accepted **order246975** and created [Nut A subscription370](https://bioshi.pl/pl/subscription.html?id=370), every90days. The user completed payment: the success page verifies **133.61zł paid** and order status **realizowane** at23September22:40 Warsaw. The merchant email confirms **GLS home courier0zł and payment fee0zł**. No additional charge appears in the total.

@@ -1,5 +1,7 @@
 # Diet rotation coverage
 
+**1October evening update:**399 is now active alongside357/361/370. Its paid99.25zł/freeGLS first order249850 is held for missing merchant stock;5October remains an estimate, followed by a scheduled4November renewal every30days. Green-legged Eggs10, Cauliflower approximately800g, Carrots1kg and Raspberries500g add recurring quantities, not on-hand food. The two active Egg streams average29.33 nominal Eggs/28days against48 required; Strawberries/Raspberries provide at most10.67 written Berry-portion equivalents/28days before usable losses. Other approved choices still fill the gaps, and actual fresh batches are consumed near arrival. The30day interval is not a shelf-life claim. Existing361 still contains its original Egg carton pending merchant replacement. Earlier dated coverage tables remain historical; use the current renewal model and handoff.
+
 **Current state26September:** Bioshi357/361/370 remain active. GLS confirms243898 and Nut A246975 delivered25September14:57; contents/condition are uninspected.245125 is paid for1October. Created247410 will collect104.09zł automatically2October for9October, with free GLS; the23October98.31zł template is separate.370 next payment is17December, delivery24December. No new payment or activation is needed. Use the [renewal plan](DIET_RENEWAL_PLAN.md), [activation calendar](DIET_ACTIVATION_ROLLOUT.md) and [payment handoff](DIET_PAYMENT_HANDOFF.md) for current decisions. Older schedules below are historical.
 
 ## Current self-service repair —15September
