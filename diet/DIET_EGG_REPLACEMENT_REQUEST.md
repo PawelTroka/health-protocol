@@ -1,5 +1,7 @@
 # Bioshi — replacement of Eggs in subscription361
 
+**6October update:**361 is now paused. Original45382 has been removed; selected46125 has not been added there. The saved template now contains only Squash, Oranges and Tempeh/28days. The sent30September message below is historical and must not be used to restore the old14day group or resume361.399 already contains the selected Egg. The new quality complaint was sent6October after explicit approval and asks Bioshi to leave361 paused. Its approved follow-up covers the earlier spoiled pack; both are recorded in DIET_BIOSHI_QUALITY_CLAIM.md.
+
 **Sent30September2026 at10:59 Warsaw**, after explicit user approval, from pawel.troka@outlook.com to bok@bioshi.pl. The send action succeeded and the matching Outlook copy was verified. **Merchant application of the replacement is still unconfirmed.** The message below is the sent record; do not resend it.
 
 To: bok@bioshi.pl

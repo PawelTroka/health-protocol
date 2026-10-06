@@ -1,10 +1,29 @@
 # Diet rotation coverage
 
+## Current correction —6October
+
+**Order247410 arrived6October.** The user reports most Strawberries spoiled again; no exact edible remainder is known. Its original Egg carton is dated17October,11calendar days after receipt, and is not the selected green-legged product. Count only inspected usable food in the stock transition; the purchased450g Strawberries cannot be credited as three edible meals. The [quality claim and approved follow-up](DIET_BIOSHI_QUALITY_CLAIM.md) were sent6October, requesting58.56zł for the two spoiled Strawberry packs; no refund is confirmed.
+
+**Active subscriptions are357,370 and399.361 is paused.** Its saved template is now28days with Oranges1kg, Butternut1kg and Tempeh200g×3; Strawberries and original Egg45382 are removed. The displayed52.06zł/freeGLS quote has no booked next delivery while paused. Selected green-legged Eggs46125 remain in399 and were not added to361.
+
+| Requirement |6October decision and verified supply state |
+| --- | --- |
+| Dinner rotation |The user's half-Tempeh decision changes the plan to **3 Tempeh +12 Egg +10 Fish dinners/28days, plus3 unallocated dinners**. Keep the200g Tempeh/Egg portions and existing Fish portions. Do not assign the remaining dinners to extra Eggs or Fish without a decision. |
+| Tempeh |Paused361's3×200g/28days matches the new half-rate target when resumed; it currently supplies no scheduled renewals. Received packs are separate stock. |
+| Butternut and Oranges |Paused361 now holds1kg of each/28days, half the former rate. These are gross purchase weights, not guaranteed edible portions. No current recurring supply is credited while paused. |
+| Mushrooms |Requested total is200g/28days, half357's existing400g. Proposed implementation keeps Oyster200g and removes Shiitake200g while retaining Kiwi/Tomatoes. This reduction is **not yet applied** because the product editor is unavailable;357 still renews both Mushroom packs. |
+| Eggs |Only399 currently provides recurring Eggs:10/30days, averaging **9.33 nominal Eggs/28days** against approximately48 for the unchanged12×200g dinners. Actual shell-free weight and expiry control coverage. The old361 carton has been removed from its paused template, so its former20 Eggs/28days must not be counted. |
+| Berries |Strawberries have been removed from361;399's500g Raspberries/30days remains active. Its first arrival/condition is not established by the receipt of247410. Do not count spoiled Strawberries or unreceived Raspberries as usable food. |
+
+**New fresh-food activations are on hold; the provisional16October Egg/Blueberry target is withdrawn.** Reconcile the received food and quality correction before setting replacement first orders. These revisions reduce unwanted purchasing without claiming full automatic coverage. The [renewal model](DIET_RENEWAL_MODEL.json), [current plan](DIET_RENEWAL_PLAN.md) and [payment handoff](DIET_PAYMENT_HANDOFF.md) own the live state. All earlier snapshots and meal examples below are historical and do not authorize resumption or duplicate orders.
+
+## Historical evidence
+
 **1October evening update:**399 is now active alongside357/361/370. Its paid99.25zł/freeGLS first order249850 is held for missing merchant stock;5October remains an estimate, followed by a scheduled4November renewal every30days. Green-legged Eggs10, Cauliflower approximately800g, Carrots1kg and Raspberries500g add recurring quantities, not on-hand food. The two active Egg streams average29.33 nominal Eggs/28days against48 required; Strawberries/Raspberries provide at most10.67 written Berry-portion equivalents/28days before usable losses. Other approved choices still fill the gaps, and actual fresh batches are consumed near arrival. The30day interval is not a shelf-life claim. Existing361 still contains its original Egg carton pending merchant replacement. Earlier dated coverage tables remain historical; use the current renewal model and handoff.
 
 **Current state26September:** Bioshi357/361/370 remain active. GLS confirms243898 and Nut A246975 delivered25September14:57; contents/condition are uninspected.245125 is paid for1October. Created247410 will collect104.09zł automatically2October for9October, with free GLS; the23October98.31zł template is separate.370 next payment is17December, delivery24December. No new payment or activation is needed. Use the [renewal plan](DIET_RENEWAL_PLAN.md), [activation calendar](DIET_ACTIVATION_ROLLOUT.md) and [payment handoff](DIET_PAYMENT_HANDOFF.md) for current decisions. Older schedules below are historical.
 
-## Current self-service repair —15September
+## Historical self-service repair —15September
 
 **Fresh B is active as subscription361. First order243898 is paid at201.61zł and preparing for fulfillment; its first delivery is estimated for18September.** The exact five recurring foods are verified in the account and its [saved list](https://bioshi.pl/pl/shoppinglist/2f294f0655b3dd311ed21c47968664f6). The account now shows the next361 delivery on **9October**, then every14days, quoted at **104.09zł:115.66zł goods −11.57zł current10% discount, GLS home delivery Gratis**. This staggers Fresh B from357's1October delivery; the resulting21-day initial gap is addressed below. No further payment is required for the first order. The [payment handoff](DIET_PAYMENT_HANDOFF.md#16september-review) owns old-order reconciliation and subsequent payment status.
 
@@ -14,7 +33,7 @@
 
 **Blueberries125g per choice is now user-approved**, but the three-pack checkout failed for insufficient stock of SKU55183. No Blueberry supply is counted in the replacement phase. The former301.52zł draft and six-fresh/six-pantry plan below are historical comparisons, not instructions to activate additional orders.
 
-### Active 14-day Fresh B phase —361
+### Former active14-day Fresh B phase —361
 
 | Food | Verified recurring delivery |Steady28-day coverage |
 | --- | --- | --- |

@@ -1,5 +1,29 @@
 # Diet purchase handoff
 
+## 6October afternoon — failed fresh delivery corrected; no payment
+
+The user confirms247410 arrived; GLS delivery email for33685064015 was received14:26:40 Warsaw. Most450g Strawberries were spoiled again. The delivered old Egg45382 carton is dated17October according to the user,11days after receipt; label wording/photo unverified. The live order specifies the old SKU, so this is not evidence of a merchant substitution. The30September replacement request concerned23October and excluded247410; it was never confirmed applied.
+
+**Saved and verified in Opera:**361 is **Wstrzymana**. Its interval is now28days and it contains only Oranges1kg, Butternut1kg and Tempeh200g×3. This halves the prior purchasing rate. Strawberry77418 and original Egg45382 are removed; no replacement Egg was added. The paused template quotes61.25zł goods−9.19zł discount=52.06zł with selectedGLS Gratis. Do not resume: first timing must use actual excess stock and acceptable product quality. The old9/23October dates and2October payment field are not future bookings while paused. No new charge or order was created.
+
+**User-approved demand:** Squash1kg, Oranges1kg, Tempeh3×200g and Mushrooms200g combined per28days. Meal portions remain unchanged. Tempeh now occupies3 dinners/28days;12Egg and10Fish dinners remain, with3 dinner choices unallocated. Do not silently increase Eggs or Fish to fill them.
+
+**Mushroom reduction remains unsaved.**357's product rows and removal controls did not load after a reload and navigation through the account's own settings link. Its list still indicates the existing four foods. The intended simple reduction is retain Oyster200g and remove Shiitake200g; check resulting free home courier before accepting it. Do not halve Kiwi/Tomatoes, add filler or remove both Mushrooms. No new sign-in is requested merely for this editor failure.
+
+Three profiles remain active:357/370/399.399 still has the selected green-legged Egg46125; its paid first249850 was processing with label-only evidence this morning, separate from today's247410. Its arrival must not be inferred. The new Egg/Blueberry group is held for quality review as well as its9.49zł courier failure; the tentative16October target is withdrawn.
+
+The [Strawberry refund claim](DIET_BIOSHI_QUALITY_CLAIM.md) and user-approved follow-up were sent and their Outlook copies verified6October15:32:08 and15:34:46 Warsaw. They request27.74zł for247410 plus30.82zł for prior243898, totaling58.56zł; neither refund is confirmed. Photos of the fruit/label can support it but are not asserted as attached. The pause is an exceptional response to failed quality and excess purchases, not the ongoing supply mechanism. No new payment is needed.
+
+## 6October — next group fails free home courier; no payment needed
+
+The user reports **6 Eggs and2 Blueberry packs at home**; the pack weights are unknown. Paid incoming361 has10 Eggs/450g Strawberries and399 has10 Eggs/500g Raspberries. Incoming food is not on-hand stock. A **16October first arrival** for the next monthly Egg/Blueberry group is provisional, subject to actual arrivals, condition and use; no date is booked and no native deferral of the first purchase was verified.
+
+The exact test group is selected green-legged Egg46125×1 carton10 plus Blueberry55183×6 packs125g, both every30days. Goods142.53zł minus accepted returning-customer couponkk11 (14.26zł) gives **128.27zł**. Authenticated destination checkout charges **9.49zł GLS home courier**, making137.76zł delivered. Removing the coupon still produces9.49zł courier and152.02zł delivered. The basket's generic “Gratis” is insufficient; pickup is the free displayed route. This group fails the user's free-home-courier requirement. The [published99zł GLS threshold](https://bioshi.pl/pl/delivery) is already exceeded, so no filler was added. The cause of the checkout discrepancy is unresolved, and free renewal courier is unverified. First checkout estimates8October; a future next-renewal date cannot defer that purchase.
+
+**249850 now says “Zamówienie realizowane”**, with99.25zł already paid and the selected green-legged Egg46125 visible. [GLS33685070070](https://gls-group.eu/track/33685070070) is assigned, but the carrier's email received5October20:04:27 Warsaw explicitly says it has not received the parcel. Processing supersedes the old explicit preparation/hold wording without establishing dispatch, resolved stock or a revised ETA.361's247410 remains carrier-held; no new delivery confirmation or reply applying its Egg replacement was found. No duplicate payment is needed.
+
+New saved-list creation did not produce a verified list. The exact held candidate is recorded in the [rollout](DIET_ACTIVATION_ROLLOUT.md); the temporary basket was restored to its verified empty starting state. Four active subscriptions remain unchanged. No new order, recurring commitment, contract acceptance, payment, merchant message, commit or push occurred.
+
 ## 5October — renewal in transit; next candidate tested
 
 **247410 is now with GLS**, confirmed by the carrier's email received4October20:53:02 Warsaw after Bioshi's19:27:17 dispatch email. These are message receipt times, not separate handover-event timestamps. Live [tracking](https://gls-group.eu/track/33685064015) on5October says it is on the way to the delivery depot; receipt remains unconfirmed.361's history now says “wysłane” at104.09zł.9October remains the retailer schedule; no repayment is needed.
