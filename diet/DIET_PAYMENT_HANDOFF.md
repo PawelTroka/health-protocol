@@ -1,5 +1,17 @@
 # Diet purchase handoff
 
+## 7October — sign-in resolved; green-legged Eggs removed from249850
+
+Authenticated order249850 confirms the selected green-legged Egg46125 carton was removed. The expanded list contains only Cauliflower45883×1 (17.09zł), Carrots84795×1 (6.83zł) and Raspberries88768×4 (53.92zł), totaling **77.84zł**. Original card payment was99.25zł; the order and Bioshi's email received08:41:16 Warsaw show **21.41zł refund issued**. Bank receipt is unverified. This is now a confirmed product removal, superseding the earlier inference from the amount alone.
+
+The status is **Zamówienie wstrzymane**. Its generic notice lists possible contact, data and payment issues and asks for contact; none is established as the actual cause. No specific removal reason, revised dispatch/arrival date or new payment demand is verified. Today's relevant email search found only the refund notice, with no new GLS33685070070 handover or substantive explanation. **Nothing needs paying.** A [focused inquiry](DIET_ORDER_249850_HOLD_REQUEST.md) asks for the hold/removal reason, confirmation that the remaining goods are fully paid, and their dispatch/arrival and fresh condition. It is prepared but not sent; explicit approval is pending.
+
+**399 remains active** with its unchanged future four-food template, including selected green-legged Eggs10, every30days at99.25zł/freeGLS. Its4November banner still links249850 and says later edits apply4December; this does not establish a new order or a revised first-arrival date. Do not credit Eggs to first249850, or any of its remaining food as received. Do not repay, reorder or replace the removed carton automatically.
+
+The21.41zł refund is separate from the **58.56zł Strawberry claim** for247410/243898. No substantive reply or refund for that claim is verified; both approved messages are already sent and must not be repeated.
+
+361 remains **Wstrzymana**, with Oranges1kg, Butternut1kg and Tempeh200g×3 every28days at52.06zł/freeGLS.357's product rows/removal controls still did not render after the user's fresh sign-in; no Mushroom reduction was saved. No further sign-in request is warranted for that unchanged editor failure. No retailer settings, baskets, orders, payments, outgoing messages, measured stock, commits or pushes were changed during this signed-in check.
+
 ## 6October afternoon — failed fresh delivery corrected; no payment
 
 The user confirms247410 arrived; GLS delivery email for33685064015 was received14:26:40 Warsaw. Most450g Strawberries were spoiled again. The delivered old Egg45382 carton is dated17October according to the user,11days after receipt; label wording/photo unverified. The live order specifies the old SKU, so this is not evidence of a merchant substitution. The30September replacement request concerned23October and excluded247410; it was never confirmed applied.

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-06",
+  "as_of": "2026-10-07",
   "purpose": "Executable quantity and phase comparison, separate from verified retailer configuration. No proposed new group is booked or proved to have free delivery.",
   "sources": [
     "../README.md#4-diet",
@@ -213,7 +213,7 @@
         "candidate_retain": "Oyster200g",
         "candidate_remove": "Shiitake200g",
         "saved": false,
-        "blocker": "Product controls absent; must verify resulting freeGLS."
+        "blocker": "Product rows/removal controls still absent after7October fresh user sign-in; no change saved. Must verify resulting freeGLS after any supported edit. Do not repeat sign-in requests for the same editor failure."
       }
     },
     {
@@ -266,7 +266,7 @@
         "total_pln": 99.25,
         "paid_pln": 99.25,
         "payment_confirmed_at": "2026-10-01T22:30:24+02:00",
-        "status": "Zamówienie realizowane; observed6October. Staff completing/preparing order. Previous explicit stock-hold wording superseded, but no revised ETA or carrier handover confirmed.",
+        "status": "Zamówienie wstrzymane; authenticated7October details confirm selectedEgg46125 removed, remaining three products77.84PLN. Generic notice asks contact; actual hold/removal cause and revised ETA unverified. No new payment demand verified.",
         "payment_fee_pln": 0,
         "shipment": {
           "carrier": "GLS",
@@ -278,7 +278,56 @@
           "carrier_handover_verified": false,
           "source": "GLS email explicitly says sender has not handed over the parcel. Live order details6October show the same tracking number; processing is not dispatch."
         },
-        "history_observation_04oct": "PRZYGOTOWANIE DO REALIZACJI;99.25PLN. Profile active, saved card,30days,5October first estimate/4November following delivery and freeGLS. Detail page requires additional sign-in."
+        "history_observation_04oct": "PRZYGOTOWANIE DO REALIZACJI;99.25PLN. Profile active, saved card,30days,5October first estimate/4November following delivery and freeGLS. Detail page requires additional sign-in.",
+        "status_before_07oct": "Zamówienie realizowane; observed6October. Staff completing/preparing order. Previous explicit stock-hold wording superseded, but no revised ETA or carrier handover confirmed.",
+        "revised_total_pln": 77.84,
+        "revised_total_observed_on": "2026-10-07",
+        "refund": {
+          "issued_pln": 21.41,
+          "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+          "bank_receipt_verified": false,
+          "affected_sku": 46125,
+          "reason_verified": false,
+          "source": "7October Bioshi refund email and authenticated expanded order249850: only Cauliflower/Carrots/Raspberries remain, totaling77.84PLN.",
+          "scope": "Egg46125 removal is verified from current expanded order lines, not merely amount matching. Reason and bank receipt unverified. Separate from58.56PLN Strawberry claims; no repayment or extra purchase authorized."
+        },
+        "current_lines": [
+          {
+            "sku": 45883,
+            "food": "Cauliflower",
+            "packs": 1,
+            "nominal_gross_g": 800,
+            "line_pln": 17.09
+          },
+          {
+            "sku": 84795,
+            "food": "Carrots",
+            "packs": 1,
+            "nominal_gross_g": 1000,
+            "line_pln": 6.83
+          },
+          {
+            "sku": 88768,
+            "food": "Raspberries",
+            "packs": 4,
+            "pack_g": 125,
+            "nominal_gross_g": 500,
+            "line_pln": 53.92
+          }
+        ],
+        "current_lines_verified_on": "2026-10-07",
+        "removed_lines": [
+          {
+            "sku": 46125,
+            "food": "selected green-legged Eggs",
+            "packs": 1,
+            "eggs_count": 10,
+            "original_line_pln": 21.41,
+            "removal_verified_on": "2026-10-07",
+            "reason": null
+          }
+        ],
+        "confirmed_incoming_eggs_count": 0
       },
       "first_delivery_estimate": "2026-10-05",
       "next_delivery": "2026-11-04",
@@ -297,7 +346,7 @@
       "card_on_profile": true,
       "parent_card_verification_pending": false,
       "quote_scope": "Live399 active/saved card,99.25PLN next renewal/freeGLS/every30days for4November. First24985099.25PLN paid; creation email verifies homecourier/payment0. Future prices are not fixed. Displayed1October payment date does not establish next collection.",
-      "coverage_scope": "Recurring ordered rates only. First order is processing, not verified on-hand food; usable life, edible yields and meal allocation control coverage.",
+      "coverage_scope": "Recurring ordered rates only. First249850 is held with Egg46125 removed; its other three foods are not verified received or usable. Future399 template still contains10 selectedEggs. Usable life, edible yields and meal allocation control coverage.",
       "profile_observation_05oct": {
         "observed_on": "2026-10-05",
         "active": true,
@@ -315,7 +364,23 @@
       },
       "next_payment_date_scope": "Live profile5October displays31October; scheduled only, no newly created renewal or charge verified.",
       "following_delivery_date": "2026-12-04",
-      "profile_observation_06oct": "Active/saved card/30days/freeGLS; history249850REALIZOWANE99.25PLN. Order details readable without additional login, show paid99.25 and selectedEgg46125. Banner4November still links first order;31October payment is a schedule, not a new debit."
+      "profile_observation_06oct": "Active/saved card/30days/freeGLS; history249850REALIZOWANE99.25PLN. Order details readable without additional login, show paid99.25 and selectedEgg46125. Banner4November still links first order;31October payment is a schedule, not a new debit.",
+      "profile_observation_07oct": {
+        "observed_on": "2026-10-07",
+        "retailer_status": "Aktywna",
+        "days": 30,
+        "foods_unchanged": true,
+        "selected_egg_sku": 46125,
+        "quote_pln": 99.25,
+        "home_courier_pln": 0,
+        "history_order_id": 249850,
+        "history_status": "wstrzymane",
+        "history_total_pln": 77.84,
+        "banner_delivery": "2026-11-04",
+        "banner_order_link": 249850,
+        "changes_apply_from": "2026-12-04",
+        "scope": "Recurring four-food template remains unchanged, including10 selectedEggs. Banner still links first249850, not a new November order or revised first ETA. Later7October user sign-in resolved order-detail access and confirmed Egg removal from249850 only."
+      }
     }
   ],
   "opening_stock": {
@@ -422,7 +487,7 @@
     "dates": "Use expected consumption under the approved rotation to propose first dates, distinguish forecast from observed depletion, and verify retailer-native first-start support. No routine date edits or skips count as native automation."
   },
   "derived_analysis": {
-    "as_of": "2026-10-06",
+    "as_of": "2026-10-07",
     "operational_evidence_separate_from_arithmetic": {
       "recorded_on": "2026-10-06",
       "source": "Dated incoming emails, user stock reports and supported Opera UI observations; latest check6October2026. Individual evidence dates remain explicit.",
@@ -475,7 +540,7 @@
         "evening_overview_base_pln": 115.66,
         "current_payable_renewal_total_verified": false,
         "first_order_243898": "GLS-delivered25September14:57 Warsaw; verified26September. Contents, condition and consumption uninspected.",
-        "last_checked": "2026-10-06",
+        "last_checked": "2026-10-07",
         "visible_discounted_template_pln": 52.06,
         "home_courier_pln": 0,
         "egg_sku": null,
@@ -568,7 +633,8 @@
           "orange_gross_g": 1000,
           "butternut_gross_g": 1000,
           "tempeh_packs_200g": 3
-        }
+        },
+        "profile_observation_07oct": "VerifiedWstrzymana,28days,Oranges1kg/Butternut1kg/Tempeh200g×3,52.06PLN/freeGLS. NoEggs/Strawberries restored.6October15:19:50 edit email retainedold14day snapshot; live later28day setting prevails."
       },
       "pantry_B_checkout": {
         "foods": {
@@ -826,22 +892,34 @@
         "stock": "No new user stock observation; carrier-confirmed25September receipts retained. No duplicate Oat/Nut purchase or inferred consumption."
       },
       "monitoring_latest": {
-        "observed_on": "2026-10-06",
-        "scope": "User-triggered delivery-quality correction after morning monitoring.",
-        "mail_result": "GLS confirms247410 received6October. User-approved complaint and follow-up sent15:32:08/15:34:46 Warsaw, sent copies verified.58.56PLN requested for two spoiled Strawberry packs. No refund/replacement resolution verified.",
-        "new_activation": "No fresh activation ready; quality review and actual stock replace prior16October target.",
-        "account_or_subscription_changes": true,
-        "changes": "361 paused, corrected to28days, removed Strawberries and oldEgg;3remainingfoods52.06/freeGLS.357 unchanged: product editor missing.",
-        "active_subscriptions": [
-          357,
-          370,
-          399
-        ],
-        "paused_subscriptions": [
-          361
-        ],
-        "user_action_needed": false,
-        "outstanding_work": "Await quality/refund response;361 stays paused.357 Mushroom reduction to200g/28days remains unsaved because product controls absent. No new fresh activation is ready."
+        "observed_on": "2026-10-07",
+        "new_refund_249850": {
+          "issued_pln": 21.41,
+          "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+          "bank_receipt_verified": false,
+          "affected_sku": 46125,
+          "reason_verified": false,
+          "source": "7October Bioshi refund email and authenticated expanded order249850: only Cauliflower/Carrots/Raspberries remain, totaling77.84PLN.",
+          "scope": "Egg46125 removal is verified from current expanded order lines, not merely amount matching. Reason and bank receipt unverified. Separate from58.56PLN Strawberry claims; no repayment or extra purchase authorized."
+        },
+        "399_status": "Zamówienie wstrzymane; authenticated7October details confirm selectedEgg46125 removed, remaining three products77.84PLN. Generic notice asks contact; actual hold/removal cause and revised ETA unverified. No new payment demand verified. Future399 remains unchanged with10selectedEggs,99.25PLN/freeGLS every30days.",
+        "361_status": "VerifiedWstrzymana,28days,Oranges1kg/Butternut1kg/Tempeh200g×3,52.06PLN/freeGLS. NoEggs/Strawberries restored.6October15:19:50 edit email retainedold14day snapshot; live later28day setting prevails.",
+        "357_status": "Product rows/removal controls still absent after7October fresh user sign-in; no change saved. Must verify resulting freeGLS after any supported edit. Do not repeat sign-in requests for the same editor failure.",
+        "strawberry_claim_status": "No substantive incoming response/refund verified for58.56PLN claim.21.41PLN belongs to separate249850.",
+        "new_activation_ready": false,
+        "account_or_subscription_changes": false,
+        "outgoing_messages": false,
+        "stock_update": false,
+        "receipt_verified": false,
+        "user_action_needed": "Approval to send prepared DIET_ORDER_249850_HOLD_REQUEST.md; no payment or fresh sign-in needed.",
+        "notification": "SelectedEgg removed from249850 confirmed; remaining77.84PLN held without explanation/ETA. Prepared concise merchant inquiry awaiting explicit send approval.",
+        "scope": "7October signed-in follow-up supersedes the morning request for sign-in.",
+        "merchant_inquiry": {
+          "document": "diet/DIET_ORDER_249850_HOLD_REQUEST.md",
+          "status": "prepared_awaiting_send_approval",
+          "sent": false
+        },
+        "sign_in_resolved": true
       },
       "egg_replacement_attempt_30sep": {
         "requested_action": "Replace45382 with user-selected46125 inside existing361, preserving1carton/14days.",
@@ -1267,6 +1345,95 @@
           "243898": 30.82
         },
         "photos_attached": false
+      },
+      "monitoring_06oct_afternoon": {
+        "observed_on": "2026-10-06",
+        "scope": "User-triggered delivery-quality correction after morning monitoring.",
+        "mail_result": "GLS confirms247410 received6October. User-approved complaint and follow-up sent15:32:08/15:34:46 Warsaw, sent copies verified.58.56PLN requested for two spoiled Strawberry packs. No refund/replacement resolution verified.",
+        "new_activation": "No fresh activation ready; quality review and actual stock replace prior16October target.",
+        "account_or_subscription_changes": true,
+        "changes": "361 paused, corrected to28days, removed Strawberries and oldEgg;3remainingfoods52.06/freeGLS.357 unchanged: product editor missing.",
+        "active_subscriptions": [
+          357,
+          370,
+          399
+        ],
+        "paused_subscriptions": [
+          361
+        ],
+        "user_action_needed": false,
+        "outstanding_work": "Await quality/refund response;361 stays paused.357 Mushroom reduction to200g/28days remains unsaved because product controls absent. No new fresh activation is ready."
+      },
+      "monitoring_07oct": {
+        "observed_on": "2026-10-07",
+        "new_refund_249850": {
+          "issued_pln": 21.41,
+          "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+          "bank_receipt_verified": false,
+          "affected_sku": null,
+          "reason_verified": false,
+          "source": "Bioshi incoming email for249850 confirms21.41PLN paid out using the selected method. Live399 history showswstrzymane77.84PLN.",
+          "scope": "Amount matches the original discounted Egg46125 line, but this does NOT establish Egg removal. This refund concerns249850, not Strawberry claims247410/243898. No repayment or extra purchase authorized."
+        },
+        "399_status": "Active30days, unchangedfourfoods includingselectedEgg46125,99.25PLN/freeGLS; first249850 nowheld77.84PLN. No firstdelivery/affectedline/reason verified.",
+        "361_status": "VerifiedWstrzymana,28days,Oranges1kg/Butternut1kg/Tempeh200g×3,52.06PLN/freeGLS. NoEggs/Strawberries restored.6October15:19:50 edit email retainedold14day snapshot; live later28day setting prevails.",
+        "357_status": "Product rows/removal controls still absent after page loading; no change saved. Preserve200gMushroomtarget and Kiwi/Tomato28day quantities. No new order beyond245125 in visiblehistory.",
+        "strawberry_claim_status": "No substantive incoming response/refund verified for58.56PLN claim.21.41PLN belongs to separate249850.",
+        "new_activation_ready": false,
+        "account_or_subscription_changes": false,
+        "outgoing_messages": false,
+        "stock_update": false,
+        "receipt_verified": false,
+        "user_action_needed": "Fresh Bioshi sign-in to inspect a newlyheld/partiallyrefunded249850 and identify affected goods. PreparedOpera signin tab; no payment needed.",
+        "notification": "Material new delivery change: pending249850 held,21.41PLN merchantrefund, contents unresolved. Ask only for sign-in to investigate, not activation/payment."
+      },
+      "refund_249850_07oct": {
+        "issued_pln": 21.41,
+        "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+        "bank_receipt_verified": false,
+        "affected_sku": null,
+        "reason_verified": false,
+        "source": "Bioshi incoming email for249850 confirms21.41PLN paid out using the selected method. Live399 history showswstrzymane77.84PLN.",
+        "scope": "Amount matches the original discounted Egg46125 line, but this does NOT establish Egg removal. This refund concerns249850, not Strawberry claims247410/243898. No repayment or extra purchase authorized."
+      },
+      "monitoring_07oct_signed_in": {
+        "observed_on": "2026-10-07",
+        "new_refund_249850": {
+          "issued_pln": 21.41,
+          "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+          "bank_receipt_verified": false,
+          "affected_sku": 46125,
+          "reason_verified": false,
+          "source": "7October Bioshi refund email and authenticated expanded order249850: only Cauliflower/Carrots/Raspberries remain, totaling77.84PLN.",
+          "scope": "Egg46125 removal is verified from current expanded order lines, not merely amount matching. Reason and bank receipt unverified. Separate from58.56PLN Strawberry claims; no repayment or extra purchase authorized."
+        },
+        "399_status": "Zamówienie wstrzymane; authenticated7October details confirm selectedEgg46125 removed, remaining three products77.84PLN. Generic notice asks contact; actual hold/removal cause and revised ETA unverified. No new payment demand verified. Future399 remains unchanged with10selectedEggs,99.25PLN/freeGLS every30days.",
+        "361_status": "VerifiedWstrzymana,28days,Oranges1kg/Butternut1kg/Tempeh200g×3,52.06PLN/freeGLS. NoEggs/Strawberries restored.6October15:19:50 edit email retainedold14day snapshot; live later28day setting prevails.",
+        "357_status": "Product rows/removal controls still absent after7October fresh user sign-in; no change saved. Must verify resulting freeGLS after any supported edit. Do not repeat sign-in requests for the same editor failure.",
+        "strawberry_claim_status": "No substantive incoming response/refund verified for58.56PLN claim.21.41PLN belongs to separate249850.",
+        "new_activation_ready": false,
+        "account_or_subscription_changes": false,
+        "outgoing_messages": false,
+        "stock_update": false,
+        "receipt_verified": false,
+        "user_action_needed": "Approval to send prepared DIET_ORDER_249850_HOLD_REQUEST.md; no payment or fresh sign-in needed.",
+        "notification": "SelectedEgg removed from249850 confirmed; remaining77.84PLN held without explanation/ETA. Prepared concise merchant inquiry awaiting explicit send approval.",
+        "scope": "7October signed-in follow-up supersedes the morning request for sign-in.",
+        "merchant_inquiry": {
+          "document": "diet/DIET_ORDER_249850_HOLD_REQUEST.md",
+          "status": "prepared_awaiting_send_approval",
+          "sent": false
+        },
+        "sign_in_resolved": true
+      },
+      "refund_249850_07oct_authenticated": {
+        "issued_pln": 21.41,
+        "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+        "bank_receipt_verified": false,
+        "affected_sku": 46125,
+        "reason_verified": false,
+        "source": "7October Bioshi refund email and authenticated expanded order249850: only Cauliflower/Carrots/Raspberries remain, totaling77.84PLN.",
+        "scope": "Egg46125 removal is verified from current expanded order lines, not merely amount matching. Reason and bank receipt unverified. Separate from58.56PLN Strawberry claims; no repayment or extra purchase authorized."
       }
     },
     "active_coverage_per_28_days": {
@@ -1650,7 +1817,7 @@
       ]
     },
     "activation_rollout": {
-      "as_of": "2026-10-06",
+      "as_of": "2026-10-07",
       "document": "diet/DIET_ACTIVATION_ROLLOUT.md",
       "new_streams_activated": 2,
       "nut_A_activation_target": "2026-09-23",
@@ -1663,13 +1830,13 @@
       "new_streams_created": 2,
       "nut_A_subscription": 370,
       "nut_A_order": 246975,
-      "current_incoming_status": "247410 received6October with repeated spoiledStrawberries and Egg date17October.361 paused/corrected; no further361arrival booked.249850 paid/processing, label33685070070 only as of morning6October; no receipt inferred.",
+      "current_incoming_status": "249850 held: authenticated7October contents ONLY Cauliflower/Carrots/Raspberries77.84PLN; selectedEgg46125 removed and21.41PLN merchantrefund issued. Reason/ETA/bank receipt unknown. Sign-in resolved; inquiry drafted awaiting send approval.399 future four-food template unchanged.247410 received6October with quality issues;361paused.",
       "nut_A_actual_delivery": "2026-09-25",
       "nut_B_arrival_target": "2026-11-04",
       "oats_current_gap_scope": "Earlier0g user balance predates carrier-delivered1kg; current usable balance/first use not observed.",
       "egg_produce_subscription": 399,
       "egg_produce_order": 249850,
-      "egg_produce_status": "active_paid_saved_card_first_order_processing",
+      "egg_produce_status": "active_paid_saved_card_first_order_held_partial_refund",
       "fresh_activation_hold": "6October quality review;16October proposedEggBlueberryarrival withdrawn. No new payment action.",
       "dinner_rotation_status": "Rebuild28day allocation with3Tempeh/12Egg/10Fish and3unallocated dinners. Historical14daypattern is retired; no replacement purchases inferred."
     },
@@ -1837,7 +2004,7 @@
           "stock_source": "User estimate; species and whether today's serving was already eaten are unknown.",
           "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-28",
-          "review_no_later_than": "2026-10-06",
+          "review_no_later_than": "2026-10-07",
           "forecast_only": true,
           "subsequent_receipts_excluded": [
             {
@@ -1857,7 +2024,7 @@
           "stock_reference_quantity": 650.0,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 496.0,
+          "forecast_remaining_before_today_use": 489.0,
           "first_forecast_not_fully_supplied_day": "2026-12-15",
           "review_no_later_than": "2026-12-01",
           "forecast_only": true
@@ -1868,7 +2035,7 @@
           "stock_reference_quantity": 350.0,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 196.0,
+          "forecast_remaining_before_today_use": 189.0,
           "first_forecast_not_fully_supplied_day": "2026-11-03",
           "review_no_later_than": "2026-10-27",
           "forecast_only": true
@@ -1879,7 +2046,7 @@
           "stock_reference_quantity": 200.0,
           "unit": "g",
           "stock_source": "Original opening-stock estimate",
-          "forecast_remaining_before_today_use": 156.0,
+          "forecast_remaining_before_today_use": 154.0,
           "first_forecast_not_fully_supplied_day": "2026-12-23",
           "review_no_later_than": "2026-12-09",
           "forecast_only": true
@@ -1892,7 +2059,7 @@
           "stock_source": "Original opening-stock estimate",
           "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-30",
-          "review_no_later_than": "2026-10-06",
+          "review_no_later_than": "2026-10-07",
           "forecast_only": true
         },
         {
@@ -1903,7 +2070,7 @@
           "stock_source": "Original opening-stock estimate",
           "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-24",
-          "review_no_later_than": "2026-10-06",
+          "review_no_later_than": "2026-10-07",
           "forecast_only": true
         },
         {
@@ -1914,7 +2081,7 @@
           "stock_source": "User report; paid incoming1kg has not arrived.",
           "forecast_remaining_before_today_use": 0.0,
           "first_forecast_not_fully_supplied_day": "2026-09-23",
-          "review_no_later_than": "2026-10-06",
+          "review_no_later_than": "2026-10-07",
           "forecast_only": true,
           "subsequent_receipts_excluded": [
             {
@@ -2017,7 +2184,7 @@
     ],
     "what_would_change_it": "Verified compatible retailer-native packs/cycles/first starts and exact source routes within25% delivered premium, with no paid courier or surplus filler.",
     "concrete_checkout_failure": "PantryB Oats500g plus2×Macadamia200g requires9.49zł home courier. Free pickup does not satisfy the constraint.",
-    "current_stock_block": "6October prearrival6Eggs/twoBlueberrypacks, weights unknown;247410 then received with mostStrawberries spoiled and Egg date17October. No postarrival total or consumption inferred. User confirms excessSquash/Tempeh/Mushrooms/Oranges and approves half-rates."
+    "current_stock_block": "6October prearrival6Eggs/twoBlueberrypacks, weights unknown;247410 then received with mostStrawberries spoiled and Egg date17October. No postarrival total or consumption inferred. User confirms excessSquash/Tempeh/Mushrooms/Oranges and approves half-rates.7October249850held: selectedEgg removed; remaining Cauliflower/Carrots/Raspberries not received. No Egg coverage from this first order."
   },
   "operational_evidence": {
     "recorded_on": "2026-10-06",
@@ -2071,7 +2238,7 @@
       "evening_overview_base_pln": 115.66,
       "current_payable_renewal_total_verified": false,
       "first_order_243898": "GLS-delivered25September14:57 Warsaw; verified26September. Contents, condition and consumption uninspected.",
-      "last_checked": "2026-10-06",
+      "last_checked": "2026-10-07",
       "visible_discounted_template_pln": 52.06,
       "home_courier_pln": 0,
       "egg_sku": null,
@@ -2164,7 +2331,8 @@
         "orange_gross_g": 1000,
         "butternut_gross_g": 1000,
         "tempeh_packs_200g": 3
-      }
+      },
+      "profile_observation_07oct": "VerifiedWstrzymana,28days,Oranges1kg/Butternut1kg/Tempeh200g×3,52.06PLN/freeGLS. NoEggs/Strawberries restored.6October15:19:50 edit email retainedold14day snapshot; live later28day setting prevails."
     },
     "pantry_B_checkout": {
       "foods": {
@@ -2422,22 +2590,34 @@
       "stock": "No new user stock observation; carrier-confirmed25September receipts retained. No duplicate Oat/Nut purchase or inferred consumption."
     },
     "monitoring_latest": {
-      "observed_on": "2026-10-06",
-      "scope": "User-triggered delivery-quality correction after morning monitoring.",
-      "mail_result": "GLS confirms247410 received6October. User-approved complaint and follow-up sent15:32:08/15:34:46 Warsaw, sent copies verified.58.56PLN requested for two spoiled Strawberry packs. No refund/replacement resolution verified.",
-      "new_activation": "No fresh activation ready; quality review and actual stock replace prior16October target.",
-      "account_or_subscription_changes": true,
-      "changes": "361 paused, corrected to28days, removed Strawberries and oldEgg;3remainingfoods52.06/freeGLS.357 unchanged: product editor missing.",
-      "active_subscriptions": [
-        357,
-        370,
-        399
-      ],
-      "paused_subscriptions": [
-        361
-      ],
-      "user_action_needed": false,
-      "outstanding_work": "Await quality/refund response;361 stays paused.357 Mushroom reduction to200g/28days remains unsaved because product controls absent. No new fresh activation is ready."
+      "observed_on": "2026-10-07",
+      "new_refund_249850": {
+        "issued_pln": 21.41,
+        "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+        "bank_receipt_verified": false,
+        "affected_sku": 46125,
+        "reason_verified": false,
+        "source": "7October Bioshi refund email and authenticated expanded order249850: only Cauliflower/Carrots/Raspberries remain, totaling77.84PLN.",
+        "scope": "Egg46125 removal is verified from current expanded order lines, not merely amount matching. Reason and bank receipt unverified. Separate from58.56PLN Strawberry claims; no repayment or extra purchase authorized."
+      },
+      "399_status": "Zamówienie wstrzymane; authenticated7October details confirm selectedEgg46125 removed, remaining three products77.84PLN. Generic notice asks contact; actual hold/removal cause and revised ETA unverified. No new payment demand verified. Future399 remains unchanged with10selectedEggs,99.25PLN/freeGLS every30days.",
+      "361_status": "VerifiedWstrzymana,28days,Oranges1kg/Butternut1kg/Tempeh200g×3,52.06PLN/freeGLS. NoEggs/Strawberries restored.6October15:19:50 edit email retainedold14day snapshot; live later28day setting prevails.",
+      "357_status": "Product rows/removal controls still absent after7October fresh user sign-in; no change saved. Must verify resulting freeGLS after any supported edit. Do not repeat sign-in requests for the same editor failure.",
+      "strawberry_claim_status": "No substantive incoming response/refund verified for58.56PLN claim.21.41PLN belongs to separate249850.",
+      "new_activation_ready": false,
+      "account_or_subscription_changes": false,
+      "outgoing_messages": false,
+      "stock_update": false,
+      "receipt_verified": false,
+      "user_action_needed": "Approval to send prepared DIET_ORDER_249850_HOLD_REQUEST.md; no payment or fresh sign-in needed.",
+      "notification": "SelectedEgg removed from249850 confirmed; remaining77.84PLN held without explanation/ETA. Prepared concise merchant inquiry awaiting explicit send approval.",
+      "scope": "7October signed-in follow-up supersedes the morning request for sign-in.",
+      "merchant_inquiry": {
+        "document": "diet/DIET_ORDER_249850_HOLD_REQUEST.md",
+        "status": "prepared_awaiting_send_approval",
+        "sent": false
+      },
+      "sign_in_resolved": true
     },
     "egg_replacement_attempt_30sep": {
       "requested_action": "Replace45382 with user-selected46125 inside existing361, preserving1carton/14days.",
@@ -2863,6 +3043,95 @@
         "243898": 30.82
       },
       "photos_attached": false
+    },
+    "monitoring_06oct_afternoon": {
+      "observed_on": "2026-10-06",
+      "scope": "User-triggered delivery-quality correction after morning monitoring.",
+      "mail_result": "GLS confirms247410 received6October. User-approved complaint and follow-up sent15:32:08/15:34:46 Warsaw, sent copies verified.58.56PLN requested for two spoiled Strawberry packs. No refund/replacement resolution verified.",
+      "new_activation": "No fresh activation ready; quality review and actual stock replace prior16October target.",
+      "account_or_subscription_changes": true,
+      "changes": "361 paused, corrected to28days, removed Strawberries and oldEgg;3remainingfoods52.06/freeGLS.357 unchanged: product editor missing.",
+      "active_subscriptions": [
+        357,
+        370,
+        399
+      ],
+      "paused_subscriptions": [
+        361
+      ],
+      "user_action_needed": false,
+      "outstanding_work": "Await quality/refund response;361 stays paused.357 Mushroom reduction to200g/28days remains unsaved because product controls absent. No new fresh activation is ready."
+    },
+    "monitoring_07oct": {
+      "observed_on": "2026-10-07",
+      "new_refund_249850": {
+        "issued_pln": 21.41,
+        "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+        "bank_receipt_verified": false,
+        "affected_sku": null,
+        "reason_verified": false,
+        "source": "Bioshi incoming email for249850 confirms21.41PLN paid out using the selected method. Live399 history showswstrzymane77.84PLN.",
+        "scope": "Amount matches the original discounted Egg46125 line, but this does NOT establish Egg removal. This refund concerns249850, not Strawberry claims247410/243898. No repayment or extra purchase authorized."
+      },
+      "399_status": "Active30days, unchangedfourfoods includingselectedEgg46125,99.25PLN/freeGLS; first249850 nowheld77.84PLN. No firstdelivery/affectedline/reason verified.",
+      "361_status": "VerifiedWstrzymana,28days,Oranges1kg/Butternut1kg/Tempeh200g×3,52.06PLN/freeGLS. NoEggs/Strawberries restored.6October15:19:50 edit email retainedold14day snapshot; live later28day setting prevails.",
+      "357_status": "Product rows/removal controls still absent after page loading; no change saved. Preserve200gMushroomtarget and Kiwi/Tomato28day quantities. No new order beyond245125 in visiblehistory.",
+      "strawberry_claim_status": "No substantive incoming response/refund verified for58.56PLN claim.21.41PLN belongs to separate249850.",
+      "new_activation_ready": false,
+      "account_or_subscription_changes": false,
+      "outgoing_messages": false,
+      "stock_update": false,
+      "receipt_verified": false,
+      "user_action_needed": "Fresh Bioshi sign-in to inspect a newlyheld/partiallyrefunded249850 and identify affected goods. PreparedOpera signin tab; no payment needed.",
+      "notification": "Material new delivery change: pending249850 held,21.41PLN merchantrefund, contents unresolved. Ask only for sign-in to investigate, not activation/payment."
+    },
+    "refund_249850_07oct": {
+      "issued_pln": 21.41,
+      "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+      "bank_receipt_verified": false,
+      "affected_sku": null,
+      "reason_verified": false,
+      "source": "Bioshi incoming email for249850 confirms21.41PLN paid out using the selected method. Live399 history showswstrzymane77.84PLN.",
+      "scope": "Amount matches the original discounted Egg46125 line, but this does NOT establish Egg removal. This refund concerns249850, not Strawberry claims247410/243898. No repayment or extra purchase authorized."
+    },
+    "monitoring_07oct_signed_in": {
+      "observed_on": "2026-10-07",
+      "new_refund_249850": {
+        "issued_pln": 21.41,
+        "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+        "bank_receipt_verified": false,
+        "affected_sku": 46125,
+        "reason_verified": false,
+        "source": "7October Bioshi refund email and authenticated expanded order249850: only Cauliflower/Carrots/Raspberries remain, totaling77.84PLN.",
+        "scope": "Egg46125 removal is verified from current expanded order lines, not merely amount matching. Reason and bank receipt unverified. Separate from58.56PLN Strawberry claims; no repayment or extra purchase authorized."
+      },
+      "399_status": "Zamówienie wstrzymane; authenticated7October details confirm selectedEgg46125 removed, remaining three products77.84PLN. Generic notice asks contact; actual hold/removal cause and revised ETA unverified. No new payment demand verified. Future399 remains unchanged with10selectedEggs,99.25PLN/freeGLS every30days.",
+      "361_status": "VerifiedWstrzymana,28days,Oranges1kg/Butternut1kg/Tempeh200g×3,52.06PLN/freeGLS. NoEggs/Strawberries restored.6October15:19:50 edit email retainedold14day snapshot; live later28day setting prevails.",
+      "357_status": "Product rows/removal controls still absent after7October fresh user sign-in; no change saved. Must verify resulting freeGLS after any supported edit. Do not repeat sign-in requests for the same editor failure.",
+      "strawberry_claim_status": "No substantive incoming response/refund verified for58.56PLN claim.21.41PLN belongs to separate249850.",
+      "new_activation_ready": false,
+      "account_or_subscription_changes": false,
+      "outgoing_messages": false,
+      "stock_update": false,
+      "receipt_verified": false,
+      "user_action_needed": "Approval to send prepared DIET_ORDER_249850_HOLD_REQUEST.md; no payment or fresh sign-in needed.",
+      "notification": "SelectedEgg removed from249850 confirmed; remaining77.84PLN held without explanation/ETA. Prepared concise merchant inquiry awaiting explicit send approval.",
+      "scope": "7October signed-in follow-up supersedes the morning request for sign-in.",
+      "merchant_inquiry": {
+        "document": "diet/DIET_ORDER_249850_HOLD_REQUEST.md",
+        "status": "prepared_awaiting_send_approval",
+        "sent": false
+      },
+      "sign_in_resolved": true
+    },
+    "refund_249850_07oct_authenticated": {
+      "issued_pln": 21.41,
+      "merchant_confirmation_received_at": "2026-10-07T08:41:16+02:00",
+      "bank_receipt_verified": false,
+      "affected_sku": 46125,
+      "reason_verified": false,
+      "source": "7October Bioshi refund email and authenticated expanded order249850: only Cauliflower/Carrots/Raspberries remain, totaling77.84PLN.",
+      "scope": "Egg46125 removal is verified from current expanded order lines, not merely amount matching. Reason and bank receipt unverified. Separate from58.56PLN Strawberry claims; no repayment or extra purchase authorized."
     }
   },
   "stock_observations": [
@@ -3008,7 +3277,7 @@
     }
   ],
   "activation_rollout": {
-    "as_of": "2026-10-06",
+    "as_of": "2026-10-07",
     "document": "diet/DIET_ACTIVATION_ROLLOUT.md",
     "new_streams_activated": 2,
     "nut_A_activation_target": "2026-09-23",
@@ -3021,13 +3290,13 @@
     "new_streams_created": 2,
     "nut_A_subscription": 370,
     "nut_A_order": 246975,
-    "current_incoming_status": "247410 received6October with repeated spoiledStrawberries and Egg date17October.361 paused/corrected; no further361arrival booked.249850 paid/processing, label33685070070 only as of morning6October; no receipt inferred.",
+    "current_incoming_status": "249850 held: authenticated7October contents ONLY Cauliflower/Carrots/Raspberries77.84PLN; selectedEgg46125 removed and21.41PLN merchantrefund issued. Reason/ETA/bank receipt unknown. Sign-in resolved; inquiry drafted awaiting send approval.399 future four-food template unchanged.247410 received6October with quality issues;361paused.",
     "nut_A_actual_delivery": "2026-09-25",
     "nut_B_arrival_target": "2026-11-04",
     "oats_current_gap_scope": "Earlier0g user balance predates carrier-delivered1kg; current usable balance/first use not observed.",
     "egg_produce_subscription": 399,
     "egg_produce_order": 249850,
-    "egg_produce_status": "active_paid_saved_card_first_order_processing",
+    "egg_produce_status": "active_paid_saved_card_first_order_held_partial_refund",
     "fresh_activation_hold": "6October quality review;16October proposedEggBlueberryarrival withdrawn. No new payment action.",
     "dinner_rotation_status": "Rebuild28day allocation with3Tempeh/12Egg/10Fish and3unallocated dinners. Historical14daypattern is retired; no replacement purchases inferred."
   },
@@ -3202,7 +3471,8 @@
           "243898": 30.82
         },
         "photos_attached": false
-      }
+      },
+      "profile_observation_07oct": "VerifiedWstrzymana,28days,Oranges1kg/Butternut1kg/Tempeh200g×3,52.06PLN/freeGLS. NoEggs/Strawberries restored.6October15:19:50 edit email retainedold14day snapshot; live later28day setting prevails."
     }
   ]
 }

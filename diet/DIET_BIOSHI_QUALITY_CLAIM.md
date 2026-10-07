@@ -1,5 +1,7 @@
 # Bioshi — order247410 quality claim
 
+**7October monitoring:** no substantive response or refund for the58.56zł Strawberry claim is verified. Today's21.41zł merchant refund explicitly concerns separate order249850; do not offset it against either Strawberry claim. See the [handoff](DIET_PAYMENT_HANDOFF.md) for that order's new hold. No further message sent.
+
 **Sent6October2026 after explicit user approval**, from pawel.troka@outlook.com to bok@bioshi.pl. Outlook sent copy verified at15:32:08 Warsaw. The user reports repeated spoiled Strawberries and Eggs dated17October in the parcel received6October. Live order247410 confirms27.74zł for Strawberries450g and21.23zł for original Egg45382. No photographs were attached. Requested refund is not an approved or received refund.
 
 ## Sent message — preserve this record

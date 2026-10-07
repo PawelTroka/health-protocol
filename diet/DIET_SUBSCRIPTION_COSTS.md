@@ -1,5 +1,9 @@
 # Diet subscription costs — 43-food core, 2 stock-driven additions and historical benchmark
 
+## 7October —249850 refund, separate from Strawberry complaint
+
+Bioshi reports21.41zł refunded for249850 at08:41:16 Warsaw; live399 history is77.84zł and held. Preserve99.25zł as the original payment,21.41zł as merchant-issued refund and77.84zł as revised order history. After the user signed in, expanded249850 confirmed Egg46125 removed: remaining Cauliflower17.09zł + Carrots6.83zł + Raspberries53.92zł =77.84zł. Bank receipt and the removal/hold reason remain unverified.399's future recurring quote remains99.25zł/freeGLS with selectedEgg46125 present. No new debit or subscription saving is inferred. The58.56zł Strawberry claim has no verified refund. [Handoff](DIET_PAYMENT_HANDOFF.md).
+
 ## 6October — paused spend and failed-quality batch
 
 361 is paused and excluded from active forward spend. Corrected stored template: Oranges1kg10.96zł, Butternut1kg8.49zł and Tempeh3×200g32.61zł every28days, totaling52.06zł/freeGLS as displayed after saving. No renewal is booked while paused; this is not an activated52.06zł charge. Removed Strawberries and original Eggs cannot be used as shipping filler. Active357/370/399 remain separate, and their dated quotes are not a guaranteed whole-Diet cost.
