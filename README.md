@@ -170,10 +170,10 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ### Ultimate Optimized Daily Activity & Training Routine: Aesthetics, Longevity & Sexual Health
 
 #### Core Philosophy:
-- **Looksmaxxing (Aesthetics):** Focuses heavily on the V-taper (broad shoulders/lats), an upper chest "shelf", a masculine neck, and thick forearms. **Zero direct oblique work** and stomach vacuums are included to keep the waist tight. Direct quad work is minimized to prevent a "blocky" lower half, focusing instead on longevity, mobility and an athletic posterior chain.
-- **Longevity & Health:** Ego lifting is removed. Use a **3-0-1-0 tempo** (3 seconds lowering, 1 second lifting) to protect joints and maximize hypertrophy. **Hernia & Diastasis Recti Care:** Exhale on the concentric (lifting) phase—no Valsalva maneuver—to manage intra-abdominal pressure. **The No-Doming/No-Coning Rule:** Focus on deep Transverse Abdominis (TVA) drawing (belly button to spine) and prevent any stomach doming/coning (midline ridge) during core work. Spinal loading is minimized by prioritizing chest-supported back exercises and dumbbell variations over heavy barbell lifts.
+- **Looksmaxxing (Aesthetics):** Focuses heavily on the V-taper (broad shoulders/lats), an upper chest "shelf", a masculine neck, and thick forearms. Direct oblique isolation is not prioritized for appearance; waist shape also depends on body composition and genetics. Direct quad work is minimized to prevent a "blocky" lower half, focusing instead on longevity, mobility and an athletic posterior chain.
+- **Longevity & Health:** Ego lifting is removed. Use controlled repetitions (approximately 2-3 seconds lowering, purposeful lifting); no single tempo is proven to maximize hypertrophy or prevent injury. **Hernia & Diastasis Recti Care:** Use manageable loads, breathe without prolonged straining, and progress abdominal-wall loading gradually. Reduce the lever/load for pain, new bulging or uncontrolled midline distortion; these signs warrant reassessment rather than a claim that a specific breathing cue guarantees safety. Spinal loading is minimized by prioritizing chest-supported back exercises and dumbbell variations over heavy barbell lifts.
 - **Sexual Health:** Heavy emphasis on glutes, hamstrings, and hip hinge movements (like Hip Thrusts) for hip power and pelvic floor health. Mandatory Zone 2 cardio is included for cardiovascular and endothelial health.
-- **Synergy:** Workouts are structured to minimize overlap. Push days alternate between (Chest Press + Lateral Raise) and (Shoulder Press + Pec Fly). Pull days alternate Iliac/Upper Back with Thoracic/Kelso Shrugs. Gym workouts are compressed into **5 consecutive weekdays**, leaving your weekends completely free of typical gym lifts to focus on outdoor conditioning and socializing. Four weekday workouts finish with 20 minutes of easy Zone 2 cardio; the timing and modalities are selected to limit interference with lifting while supporting cardiovascular health.
+- **Synergy:** Workouts are structured to minimize overlap. Push days alternate between (Chest Press + Lateral Raise) and (Shoulder Press + Pec Fly). Pull days alternate Iliac/Upper Back with Thoracic/Kelso Shrugs. Gym workouts are compressed into **5 consecutive weekdays**, leaving your weekends completely free of typical gym lifts to focus on outdoor conditioning and socializing. Four weekday workouts begin with 20 minutes of easy aerobic cardio, progressing toward 25-30 minutes only as recovery allows; the timing and modalities are selected to limit interference with lifting while supporting cardiovascular health.
 - **Personal Structural Assessment:** Fairly aesthetic frame overall. My proportions are actually closer to athletic aesthetic build, "men's physique" type frame, than to ultra-wide comic-book "classic physique" clavicle genetics.
   - **Neck:** slightly on the **longer side**. It gives a more "model/athletic" silhouette rather than compact powerlifter proportions. Traps are not overpowering the neck, which accentuates this further.
   - **Clavicles:** **medium** length, maybe *slightly short relative to muscularity*, but not genuinely "short clavicles." Shoulders don't look narrow. The issue is more that arm/chest mass dominates the frame, which can visually compress shoulder width. Getting leaner makes the structure actually looks broader.
@@ -197,6 +197,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ---
 
+**Progression and tolerance:** Prioritize consistent pain-free technique over reference weights. For hypertrophy sets use approximately 2-3 reps in reserve on compounds and 1-3 on isolations; rest ~2-3mins for compounds and ~1-2mins for accessories. Increase load only after reaching the top of the rep range with the target effort on two exposures. New variants need new baseline loads. Use a conversational talk test for aerobic work; progress 20→25→30mins across weeks only if total activity, sleep and leg recovery permit. If right shoulder/scapular pain or clicking worsens during or after training, reduce load/range and seek sports-medicine/physiotherapy assessment for persistent symptoms; new abdominal bulging or repair-site pain likewise warrants review. See [evidence and tradeoffs](exercise/2026-10-10-audit.md).
+
 #### **Monday: Push (Upper Chest, Width, Triceps, Neck)**
 *Focus: Upper chest shelf, shoulder width, and neck thickness.*
 *Synergy: Chest Press + Lateral Raise.*
@@ -205,34 +207,34 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Side Delts**: Cable Lateral Raises (Behind the back): 15 × 7.5kg, 13 × 10kg, 12 × 12.5kg *(Use wrist cuffs to maximize lateral delt isolation & V-taper; Pro-Tip: Set pulley at hip/wrist height to overload the lateral delt in the stretched position)* 🗿
 - **Triceps**: Single Arm Cuff Pushdown (or V-bar): 15 × 15kg, 13 × 17.5kg, 12 × 20kg 🗿
 - **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 🗿
-- **Core**: Standing Cable Crunches: 20 × 20kg, 18 × 25kg, 16 × 30kg (Exhale fully on contraction; TVA focus: draw in, keep stomach flat, prevent coning, stop if midline ridge forms) 💪 🗿
+- **Core**: Standing Cable Crunches: 2 × 10-15 reps at a symptom-tolerated load (controlled trunk flexion; regress if abdominal-wall discomfort or new bulging occurs) 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: StairMaster: 20mins at level 6/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: StairMaster: 20-30mins at level 6/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
 
 ---
 
 #### **Tuesday: Pull (Iliac Lats, Upper Back, Biceps, Forearms)**
 *Focus: V-Taper width, bicep peaks, and forearm veins.*
 *Synergy: Iliac lat exercise + upper back row.*
-- **Iliac Lats (Width)**: Neutral Shoulder-Width Weighted Pull-ups (or assisted): 10 × 2kg, 9 × 4kg, 8 × 6kg *(Pro-Tip: Keep elbows tucked in front; targets lower iliac lats for maximum V-taper and spares right shoulder)* 💪 ⏰ 🗿
+- **Lats (Width)**: Neutral-Grip Lat Pulldown: 3 × 8-12 reps (re-baseline load and overhead range; weighted/assisted pull-ups only if repeatedly symptom-free) 💪 ⏰ 🗿
 - **Upper/Mid Back**: Pronated Grip Chest-Supported Machine Row: 12 × 70kg, 11 × 80kg, 10 × 90kg (Saves lower back) 💪 ⏰ 🗿
 - **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 15 × 12.5kg 🗿
-- **Forearms (Brachioradialis)**: Cuffed Single Arm Top Half Reverse Curl: 15 × 10kg, 13 × 12.5kg, 12 × 15kg 🗿
-- **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
-- **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
+- **Scapular Control**: Forearm Wall Slides: 2 × 8-12 easy reps (reach upward with comfortable scapular rotation; no shrugging or forcing overhead range) 🦴
+- **Core**: Supine Reverse Crunches: 2 × 8-15 controlled reps (curl pelvis, no momentum; regress to dead bugs if abdominal-wall symptoms appear) 💪 🗿
+- **Post-Workout Zone 2 Cardio**: Stationary Bike: 20-30mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
 
 ---
 
 #### **Wednesday: Legs (Glute/Hamstring Dominant)**
 *Focus: Hip strength and control, an athletic posterior chain, and physical function.*
 - **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Glute strength and hip-extension control. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes) 💪 🗿
-- **Hamstrings/Glutes**: Stiff-Legged Deadlift (SLDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg (Safer than barbell for spinal loading) 💪 ⏰ 🗿
+- **Hamstrings/Glutes**: Dumbbell Romanian Deadlift (RDL): 3 × 8-12 reps (re-baseline load; soft knees, hinge at hips, stop before lumbar position changes; no claim of inherently lower spinal loading) 💪 ⏰ 🗿
 - **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)* 💪 ⏰ 🗿
-- **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 🗿
-- **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 5kg, 15 × 10kg, 15 × 15kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)* 💪 🗿
+- **Hamstrings (Knee Flexion)**: Seated Leg Curl: 3 × 10-15 reps (controlled full tolerable range; prone curl if seated setup is unavailable) 💪 🗿
+
 - **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 15 × 110kg (Slow negative) 🗿
-- **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
+- **Core**: Dead Bugs: 2 × 6-10 controlled reps per side (breathe normally; shorten lever if abdominal-wall symptoms occur; not proven to prevent hernia recurrence) 💪
 
 **Recovery:**
 - **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, hydrate with electrolytes)* ❤️
@@ -243,28 +245,29 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: The "capped" 3D shoulder look, upper chest shelf, and masculine neck.*
 - **Shoulders**: Machine Shoulder Press (Pronated grip): 10 × 50kg, 9 × 55kg, 8 × 59kg *(Shoulder Pro-Tip: If right shoulder triggers, swap to Seated Neutral-Grip DB Press)* 💪 ⏰ 🗿
 - **Upper Chest**: Seated Low-to-High Cable Fly (Cuffed) or Seated low-to-high Pec Deck Machine: 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg (Best upper pec fly) 🗿
-- **Upper Chest/Ribs**: Dumbbell Pullover (Cross-bench): 12 × 20kg, 11 × 22.5kg, 10 × 25kg *(Stretch focus; Pro-Tip: Keep hips locked/stationary in a flat tabletop; do not dynamically sink hips as weight goes overhead)* 🗿
+
 - **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 🗿
-- (*Optional*) **Side Delts**: Cable Lateral Raises: 3 × 12-15 reps *(Mandatory for V-taper; Pro-Tip: pulley at wrist/hip height to overload stretched position)* 🗿
+- **Side Delts**: Supported Cable or Machine Lateral Raises: 3 × 12-20 reps (planned priority work; comfortable range, no forced deep stretch; re-baseline load) 🗿
 - **Neck**: Resistance Band Neck Extensions: 20 × 2.5kg, 18 × 3.75kg, 16 × 5kg 🗿
-- **Core**: Reverse Crunches: 30 reps, 25 reps, 20 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
+
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 10/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Elliptical: 20-30mins at level 10/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
 
 ---
 
 #### **Friday: Pull 2 (Thoracic Lats, Traps, Mid-Bicep)**
 *Focus: Back thickness, posture, bicep peaks, and rotator cuff prehab.*
 *Synergy: Thoracic lat + upper back/Kelso shrug.*
-- **Thoracic Lats**: One Arm Dumbbell Row: 12 × 25kg, 11 × 27.5kg, 10 × 30kg per side *(Pro-Tip: Pull dumbbell back in a sweeping arc toward your hip pocket, keeping forearm vertical)* 💪 ⏰ 🗿
-- **Traps/Upper Back**: Chest-Supported DB Kelso Shrug (30-45° Incline) or T-Bar Kelso Shrug: 12 × 22.5kg, 11 × 25kg, 10 × 27.5kg *(Posture Pro-Tip: Focus on maximum scapular retraction to pull rounded shoulders back & open chest frame)* 💪 🗿
+- **Lats**: Chest-Supported One-Arm Row (machine or incline bench): 3 × 8-12 reps per side (re-baseline load; pull toward hip without trunk twisting; avoid pad pressure on repair) 💪 ⏰ 🗿
+- **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 2 × 8-12 easy reps (light load; no painful arc or forced end range) 🦴
 - **Rear Delts**: Reverse Pec Deck: 20 × 23kg, 18 × 27kg, 15 × 32kg 💪 🗿
 - **Biceps (Mid-range)**: Seated Dumbbell Curls (S-Tier): 12 × 10kg, 11 × 12.5kg, 10 × 15kg 🗿
 - **Forearms**: Cable Reverse Curl or Dumbbell Reverse Curl or Hammer Curls: 15 × 10kg, 14 × 12.5kg, 12 × 15kg 🗿
+- **Scapular Control**: Forearm Wall Slides: 2 × 8-12 easy reps (same comfortable movement as Tuesday) 🦴
 - **Prehab**: Face Pulls: 20 × 12.5kg, 16 × 15kg, 15 × 17.5kg (Rotator cuff health & posture; pull with hands high at peak for external rotation) 🦴 🗿
 - **Mobility**: Thoracic spine extensions: 3 × 60s; Couch Stretch: 1min/leg; static stretching: 30s/leg 🦴
-- **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
-- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
+
+- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20-30mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -275,15 +278,15 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ---
 
-#### **Sunday: Weekend Sprints & Social Sports**
-*Focus: High Growth Hormone, visceral fat melting, and social play on 100% fresh legs.*
+#### **Sunday: Weekend Conditioning & Social Sports**
+*Focus: aerobic capacity, athletic function, and social play without obligatory all-out sprints.*
 
 **HIIT:**
-- **Sprints**: 200m-300m for 20mins *(2-3 series, with 2-3mins walking rest between sprints)* 🫁 ⏰
+- **Aerobic Intervals**: 3 × 2-3mins hard but controlled, with 2-3mins easy recovery (warm up and cool down; progress gradually, never all-out) 🫁 ⏰
 - OR
-- **Incline Hill Sprints**: 4-6 rounds of 8-10s *(Max effort uphill with 1.5-2mins rest)* 🫁 ⏰
+- **Short Hill Accelerations**: 4-6 × 8-10s at controlled fast effort with full walking recovery (speed/power alternative, not equivalent VO2max dose) 🫁 ⏰
 
-**Cardio:**
+**Cardio (instead of intervals if vigorous):**
 - **Joker**: A random sport used for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)* 🫁 ⏰
 
 
