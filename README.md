@@ -801,7 +801,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Face Moisturizer [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) or [CeraVe Moisturizing Cream](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) (daily) 👨‍🦳 💧
 - Sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (water/sweat resistant) or [EltaMD UV Clear SPF46](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) (hybrid Zinc Oxide + Octinoxate; not water resistant) (Morning; reapply at least every 2h outdoors and after swimming, sweating or toweling; choose water-resistant protection for these activities)
 - Lip Care [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
-- Tretinoin 0.05-0.1% or [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (Weekly or bi-weekly; only under a prescriber-coordinated plan with E.1.1 and current dryness) 👨‍🦳 ⏰ ⚕️
+- [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (Once weekly; current use confirmed, coordinate with the E.1.1 prescriber given dryness) 👨‍🦳 ⏰ ⚕️
 - SNAP-8 peptide 👨‍🦳 ⏰
 - GHK-Cu peptide 👨‍🦳 ⏰
 - Botox (Glabella, Forehead, Crow's feet) (mid February, mid June, mid October)
