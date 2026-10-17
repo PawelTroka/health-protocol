@@ -245,11 +245,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Upper Chest**: Seated Low-to-High Cable Fly (Cuffed) or Seated low-to-high Pec Deck Machine: 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg (Best upper pec fly) 🗿
 - **Upper Chest/Ribs**: Dumbbell Pullover (Cross-bench): 12 × 20kg, 11 × 22.5kg, 10 × 25kg *(Stretch focus; Pro-Tip: Keep hips locked/stationary in a flat tabletop; do not dynamically sink hips as weight goes overhead)* 🗿
 - **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 🗿
-- (*Optional*) **Side Delts**: Cable Lateral Raises: 3 × 12-15 reps *(Mandatory for V-taper; Pro-Tip: pulley at wrist/hip height to overload stretched position)* 🗿
+- **Side Delts**: Cable Lateral Raises: 3 × 12-15 reps *(Planned priority work; pulley at wrist/hip height, comfortable range without forced deep stretch)* 🗿
 - **Neck**: Resistance Band Neck Extensions: 20 × 2.5kg, 18 × 3.75kg, 16 × 5kg 🗿
 - **Core**: Reverse Crunches: 30 reps, 25 reps, 20 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
 - **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 10/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
+
+**Thursday priority Note:** Lateral raises become planned work for the shoulder-width goal; preserve the other exercises for this first iteration. Use a comfortable range and pause or regress the movement if shoulder symptoms increase. A small eight-week trial found similar lateral-delt growth with cable and dumbbell raises, so this is a consistency and preference decision, with no established special advantage from forcing a stretched position. [Lateral-raise trial](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1611468/full)
 
 ---
 
