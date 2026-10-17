@@ -207,7 +207,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 🗿
 - **Core**: Standing Cable Crunches: 20 × 20kg, 18 × 25kg, 16 × 30kg (Exhale fully on contraction; TVA focus: draw in, keep stomach flat, prevent coning, stop if midline ridge forms) 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: StairMaster: 20mins at level 6/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: StairMaster: 20→25→30mins as tolerated; reference level 6/20, adjusted to talk-test pace *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -220,7 +220,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 15 × 12.5kg 🗿
 - **Forearms (Brachioradialis)**: Cuffed Single Arm Top Half Reverse Curl: 15 × 10kg, 13 × 12.5kg, 12 × 15kg 🗿
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
-- **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Stationary Bike: 20→25→30mins as tolerated; reference level 12/20, adjusted to talk-test pace *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -249,7 +249,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Neck**: Resistance Band Neck Extensions: 20 × 2.5kg, 18 × 3.75kg, 16 × 5kg 🗿
 - **Core**: Reverse Crunches: 30 reps, 25 reps, 20 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 10/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Elliptical: 20→25→30mins as tolerated; reference level 10/25, adjusted to talk-test pace *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -264,7 +264,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Prehab**: Face Pulls: 20 × 12.5kg, 16 × 15kg, 15 × 17.5kg (Rotator cuff health & posture; pull with hands high at peak for external rotation) 🦴 🗿
 - **Mobility**: Thoracic spine extensions: 3 × 60s; Couch Stretch: 1min/leg; static stretching: 30s/leg 🦴
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
-- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20→25→30mins as tolerated; reference 20% incline and 4.5km/h, adjusted to talk-test pace *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -272,6 +272,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: Nature conditioning, joint lubrication, and lung capacity. (No Gym Lifts).*
 **Cardio:**
 - **Zone 2**: 60mins *(Running near the beach, swimming in the ocean, cycling near the beach, or running in the forest)* ❤️ ⏰ 🍆
+
+**Aerobic progression Note:** Keep cardio after lifting; the philosophy's 20-minute schedule is the starting point. Add 5mins to one weekday session at a time, then hold until leg recovery, sleep and lifting performance remain stable; 30mins is a destination, not a deadline. Adjust machine settings to maintain easy conversation. With all four weekday sessions at 20/25/30mins plus Saturday's 60mins, planned easy aerobic time is 140/160/180mins/week, before walking or sport. WHO adult guidance is 150-300mins of moderate activity or its vigorous equivalent; the prior schedule is not automatically inadequate because other activity also counts. [WHO activity guidelines](https://www.who.int/publications/i/item/9789240015128)
 
 ---
 
