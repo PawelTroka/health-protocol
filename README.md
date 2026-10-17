@@ -3,7 +3,7 @@
 
 ## Table of Importance
 - [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
-- [1. Promote good behaviors](#1-promote-good-behaviors)
+- [1. Sleep & recovery](#1-sleep--recovery)
 - [2. Testing](#2-testing)
 - [3. Exercise](#3-exercise)
 - [4. Diet](#4-diet)
@@ -31,14 +31,24 @@
 - ⚠️ sleep schedule disruptions
 - ⚠️ overthinking and overanalyzing things out of your control
 
-## 1. Promote good behaviors
-- Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
+## 1. Sleep & recovery
+
+### Sleep
+- **Schedule**: Keep a consistent wake time and bedtime, including weekends; allow enough time for 7-9 hours of sleep. 😴 ⏰
+- **Daylight & evening**: Get outdoor daylight during the day; use the final 30-60mins before bed for quieter activities and dimmer light. 😴 😌
+- **Bedroom**: Keep it dark, quiet and comfortably cool; reserve the bed for sleep and intimacy. 😴
+- **Caffeine & meals**: Check the last Caffeine dose against bedtime, especially the 200mg in daily BULK; retain the Diet's Dinner-to-sleep interval. See the timing Note below. 😴
+- **Review**: Use the existing [Sleep Tracking](#daily-tracking) together with daytime alertness and perceived sleep quality; review trends, not a single score. 😴
+
+**Sleep Note:** The routine supports regularity and adequate sleep opportunity; 7-9 hours is a general adult range, adjusted to recovery and daytime function. [Sleep habits](https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits) [Sleep duration](https://www.nhlbi.nih.gov/heart-truth/get-quality-sleep-and-reduce-stress) Caffeine sensitivity depends on dose and timing: a 2025 crossover trial tested 100mg and 400mg, so it does not establish an exact cutoff for the current 200mg BULK dose. Preserve the existing Matcha separation; a late BULK-to-bedtime interval needs its own timing/formulation review before changing the stack. [Caffeine trial](https://pubmed.ncbi.nlm.nih.gov/39377163/) Persistent difficulty sleeping with daytime impairment deserves assessment; CBT-I is the recommended behavioral treatment for chronic insomnia, while sleep habits alone are insufficient. [AASM guideline](https://pubmed.ncbi.nlm.nih.gov/33164742/)
+
+### Other recovery habits
+- **Sauna**: See the [Exercise recovery entry](#wednesday-legs-glutehamstring-dominant) for the current plan. 🔥 🛡️ ⏰
 - Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
 - Cold exposure	(4 times a week) 🔥 🛡️ ⚡
 - Meditation / breathwork (daily) 🧠 😌
 - Walks (daily) 🫁 ❤️
 - Stretching (6 times a week) 🦴 💪
-- Sleep tracking (daily) 😴
 
 ## 2. Testing
 
