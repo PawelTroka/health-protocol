@@ -227,7 +227,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### **Wednesday: Legs (Glute/Hamstring Dominant)**
 *Focus: Hip strength and control, an athletic posterior chain, and physical function.*
 - **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Glute strength and hip-extension control. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes) 💪 🗿
-- **Hamstrings/Glutes**: Stiff-Legged Deadlift (SLDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg (Safer than barbell for spinal loading) 💪 ⏰ 🗿
+- **Hamstrings/Glutes**: Stiff-Legged Deadlift (SLDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg (Controlled hip hinge within comfortable range; keep Dumbbells close) 💪 ⏰ 🗿
 - **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)* 💪 ⏰ 🗿
 - **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 🗿
 - **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 5kg, 15 × 10kg, 15 × 15kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)* 💪 🗿
