@@ -227,13 +227,12 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### **Wednesday: Legs (Glute/Hamstring Dominant)**
 *Focus: Hip strength and control, an athletic posterior chain, and physical function.*
 - **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Glute strength and hip-extension control. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes) 💪 🗿
-- **Hamstrings/Glutes**: Dumbbell Romanian Deadlift (RDL): 3 × 8-12 reps *(Set a fresh load; soft knees, hinge at hips, stop before lumbar position changes; reduce load/range for abdominal-wall symptoms)* 💪 ⏰ 🗿
+- **Hamstrings/Glutes**: Stiff-Legged Deadlift (SLDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg (Controlled hip hinge within comfortable range; keep Dumbbells close) 💪 ⏰ 🗿
 - **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)* 💪 ⏰ 🗿
-- **Hamstrings (Knee Flexion)**: Seated Leg Curl: 3 × 10-15 reps *(Set a fresh load; controlled comfortable range; prone curl if the seated setup is unavailable or uncomfortable)* 💪 🗿
+- **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 🗿
+- **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 5kg, 15 × 10kg, 15 × 15kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)* 💪 🗿
 - **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 15 × 110kg (Slow negative) 🗿
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
-
-**Hamstring-training Note:** A seated curl supplies knee-flexion work while hip thrusts and the RDL retain hip extension. In one 12-week, 20-person study, seated curls produced more hamstring growth than prone curls; this is not a direct comparison with kickbacks or proof of the same effect in an experienced lifter. The RDL choice emphasizes a repeatable hip hinge, without assuming dumbbells are inherently safer for the spine. Start the new movements conservatively and keep the existing README progression workflow. [Leg-curl trial](https://pubmed.ncbi.nlm.nih.gov/33009197/)
 
 **Recovery:**
 - **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, hydrate with electrolytes)* ❤️
@@ -801,7 +800,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - [Anti-large pores cleanser](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) (daily) 👨‍🦳 💧
 - Face Moisturizer [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) or [CeraVe Moisturizing Cream](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) (daily) 👨‍🦳 💧
 - [Resurfacing retinol serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (nightly)
-- SPF50 [mineral](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) or [with Bemotrizinol](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html)
+- Sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (water/sweat resistant) or [EltaMD UV Clear SPF46](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) (hybrid Zinc Oxide + Octinoxate; not water resistant) (Morning; reapply at least every 2h outdoors and after swimming, sweating or toweling; choose water-resistant protection for these activities)
 - Lip Care [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
 - Tretinoin 0.05-0.1% or [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (Weekly or bi-weekly) 👨‍🦳 ⏰ ⚕️
 - [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
