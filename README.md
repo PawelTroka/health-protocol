@@ -3,7 +3,7 @@
 
 ## Table of Importance
 - [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
-- [1. Promote good behaviors](#1-promote-good-behaviors)
+- [1. Sleep](#1-sleep)
 - [2. Testing](#2-testing)
 - [3. Exercise](#3-exercise)
 - [4. Diet](#4-diet)
@@ -31,14 +31,22 @@
 - ⚠️ sleep schedule disruptions
 - ⚠️ overthinking and overanalyzing things out of your control
 
-## 1. Promote good behaviors
+## 1. Sleep
+- **Schedule**: Get into bed at least 9h before the planned wake time, aiming for ~8h net sleep; keep bedtime and wake time consistent. 😴 ⏰
+- **Daylight**: Get outdoor daylight after waking and during the day. 😴
+- **Wind-down**: Use the final 30-60mins for quieter activities and dim red lights; turn lights off for sleep. 😴 😌
+- **Bedroom**: 18°C when comfortable, 100% blackout blinds, quiet surroundings; reserve the bed for sleep and intimacy. 😴
+- **Phone**: Do Not Disturb 00:00–09:55. 😴
+- **Caffeine & meals**: Keep Matcha at least 8h before bed and Dinner 2–3h before sleep; check the last 200mg Caffeine from daily BULK against actual bedtime. 😴
+- **Review**: Use existing [Sleep Tracking](#daily-tracking) and daytime alertness; distinguish time in bed from actual sleep and review trends. 😴
+
+### Other recovery habits
 - Sauna (3 times a week; 60min visit including cooling/rest; see [Exercise recovery](#wednesday-legs-glutehamstring-dominant)) 🔥 🛡️ ⏰
 - Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
 - Cold exposure	(4 times a week) 🔥 🛡️ ⚡
 - Meditation / breathwork (daily) 🧠 😌
 - Walks (daily) 🫁 ❤️
 - Stretching (6 times a week) 🦴 💪
-- Sleep tracking (daily) 😴
 
 ## 2. Testing
 
