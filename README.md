@@ -3,7 +3,7 @@
 
 ## Table of Importance
 - [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
-- [1. Sleep & recovery](#1-sleep--recovery)
+- [1. Sleep](#1-sleep)
 - [2. Testing](#2-testing)
 - [3. Exercise](#3-exercise)
 - [4. Diet](#4-diet)
@@ -31,19 +31,17 @@
 - ⚠️ sleep schedule disruptions
 - ⚠️ overthinking and overanalyzing things out of your control
 
-## 1. Sleep & recovery
-
-### Sleep
-- **Schedule**: Keep a consistent wake time and bedtime, including weekends; allow enough time for 7-9 hours of sleep. 😴 ⏰
-- **Daylight & evening**: Get outdoor daylight during the day; use the final 30-60mins before bed for quieter activities and dimmer light. 😴 😌
-- **Bedroom**: Keep it dark, quiet and comfortably cool; reserve the bed for sleep and intimacy. 😴
-- **Caffeine & meals**: Check the last Caffeine dose against bedtime, especially the 200mg in daily BULK; retain the Diet's Dinner-to-sleep interval. See the timing Note below. 😴
-- **Review**: Use the existing [Sleep Tracking](#daily-tracking) together with daytime alertness and perceived sleep quality; review trends, not a single score. 😴
-
-**Sleep Note:** The routine supports regularity and adequate sleep opportunity; 7-9 hours is a general adult range, adjusted to recovery and daytime function. [Sleep habits](https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits) [Sleep duration](https://www.nhlbi.nih.gov/heart-truth/get-quality-sleep-and-reduce-stress) Caffeine sensitivity depends on dose and timing: a 2025 crossover trial tested 100mg and 400mg, so it does not establish an exact cutoff for the current 200mg BULK dose. Preserve the existing Matcha separation; a late BULK-to-bedtime interval needs its own timing/formulation review before changing the stack. [Caffeine trial](https://pubmed.ncbi.nlm.nih.gov/39377163/) Persistent difficulty sleeping with daytime impairment deserves assessment; CBT-I is the recommended behavioral treatment for chronic insomnia, while sleep habits alone are insufficient. [AASM guideline](https://pubmed.ncbi.nlm.nih.gov/33164742/)
+## 1. Sleep
+- **Schedule**: Get into bed at least 9h before the planned wake time, aiming for ~8h net sleep; keep bedtime and wake time consistent. 😴 ⏰
+- **Daylight**: Get outdoor daylight after waking and during the day. 😴
+- **Wind-down**: Use the final 30-60mins for quieter activities and dim red lights; turn lights off for sleep. 😴 😌
+- **Bedroom**: 18°C when comfortable, 100% blackout blinds, quiet surroundings; reserve the bed for sleep and intimacy. 😴
+- **Phone**: Do Not Disturb 00:00–09:55. 😴
+- **Caffeine & meals**: Keep Matcha at least 8h before bed and Dinner 2–3h before sleep; check the last 200mg Caffeine from daily BULK against actual bedtime. 😴
+- **Review**: Use existing [Sleep Tracking](#daily-tracking) and daytime alertness; distinguish time in bed from actual sleep and review trends. 😴
 
 ### Other recovery habits
-- **Sauna**: See the [Exercise recovery entry](#wednesday-legs-glutehamstring-dominant) for the current plan. 🔥 🛡️ ⏰
+- Sauna (3 times a week; 60min visit including cooling/rest; see [Exercise recovery](#wednesday-legs-glutehamstring-dominant)) 🔥 🛡️ ⏰
 - Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
 - Cold exposure	(4 times a week) 🔥 🛡️ ⚡
 - Meditation / breathwork (daily) 🧠 😌
@@ -245,7 +243,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
 **Recovery:**
-- **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, hydrate with electrolytes)* ❤️
+- **Sauna**: 60mins per visit, 3 times a week *(Includes seated cooling/rest between comfortable heat rounds; hydrate per IW.0.2; finish early for dizziness, nausea or unusual palpitations)* ❤️
 
 ---
 
@@ -810,7 +808,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - [Anti-large pores cleanser](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) (daily) 👨‍🦳 💧
 - Face Moisturizer [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) or [CeraVe Moisturizing Cream](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) (daily) 👨‍🦳 💧
 - [Resurfacing retinol serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (nightly)
-- SPF50 [mineral](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) or [with Bemotrizinol](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html)
+- Sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (water/sweat resistant) or [EltaMD UV Clear SPF46](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) (hybrid Zinc Oxide + Octinoxate; not water resistant) (Morning; reapply at least every 2h outdoors and after swimming, sweating or toweling; choose water-resistant protection for these activities)
 - Lip Care [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
 - Tretinoin 0.05-0.1% or [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (Weekly or bi-weekly) 👨‍🦳 ⏰ ⚕️
 - [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
