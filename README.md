@@ -173,7 +173,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Looksmaxxing (Aesthetics):** Focuses heavily on the V-taper (broad shoulders/lats), an upper chest "shelf", a masculine neck, and thick forearms. **Zero direct oblique work** and stomach vacuums are included to keep the waist tight. Direct quad work is minimized to prevent a "blocky" lower half, focusing instead on longevity, mobility and an athletic posterior chain.
 - **Longevity & Health:** Ego lifting is removed. Use a **3-0-1-0 tempo** (3 seconds lowering, 1 second lifting) to protect joints and maximize hypertrophy. **Hernia & Diastasis Recti Care:** Exhale on the concentric (lifting) phase—no Valsalva maneuver—to manage intra-abdominal pressure. **The No-Doming/No-Coning Rule:** Focus on deep Transverse Abdominis (TVA) drawing (belly button to spine) and prevent any stomach doming/coning (midline ridge) during core work. Spinal loading is minimized by prioritizing chest-supported back exercises and dumbbell variations over heavy barbell lifts.
 - **Sexual Health:** Heavy emphasis on glutes, hamstrings, and hip hinge movements (like Hip Thrusts) for hip power and pelvic floor health. Mandatory Zone 2 cardio is included for cardiovascular and endothelial health.
-- **Synergy:** Workouts are structured to minimize overlap. Push days alternate between (Chest Press + Lateral Raise) and (Shoulder Press + Pec Fly). Pull days combine lat work, chest-supported rows and brief scapular-control drills. Gym workouts are compressed into **5 consecutive weekdays**, leaving your weekends completely free of typical gym lifts to focus on outdoor conditioning and socializing. Four weekday workouts finish with 20 minutes of easy Zone 2 cardio; the timing and modalities are selected to limit interference with lifting while supporting cardiovascular health.
+- **Synergy:** Workouts are structured to minimize overlap. Push days alternate between (Chest Press + Lateral Raise) and (Shoulder Press + Pec Fly). Pull days combine lat work, chest-supported rows and brief scapular-control drills. Gym workouts are compressed into **5 consecutive weekdays**, leaving your weekends completely free of typical gym lifts to focus on outdoor conditioning and socializing. Four weekday workouts finish with 22 minutes of easy Zone 2 cardio; the timing and modalities are selected to limit interference with lifting while supporting cardiovascular health.
 - **Personal Structural Assessment:** Fairly aesthetic frame overall. My proportions are actually closer to athletic aesthetic build, "men's physique" type frame, than to ultra-wide comic-book "classic physique" clavicle genetics.
   - **Neck:** slightly on the **longer side**. It gives a more "model/athletic" silhouette rather than compact powerlifter proportions. Traps are not overpowering the neck, which accentuates this further.
   - **Clavicles:** **medium** length, maybe *slightly short relative to muscularity*, but not genuinely "short clavicles." Shoulders don't look narrow. The issue is more that arm/chest mass dominates the frame, which can visually compress shoulder width. Getting leaner makes the structure actually looks broader.
@@ -207,7 +207,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 🗿
 - **Core**: Standing Cable Crunches: 20 × 20kg, 18 × 25kg, 16 × 30kg (Exhale fully on contraction; TVA focus: draw in, keep stomach flat, prevent coning, stop if midline ridge forms) 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: StairMaster: 20mins at level 6/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: StairMaster: 22mins at level 8/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -220,7 +220,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 15 × 12.5kg 🗿
 - **Scapular Control**: Forearm Wall Slides with Foam Roller: 3 × 10-12 easy reps *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
-- **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Stationary Bike: 22mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -249,7 +249,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Neck**: Resistance Band Neck Extensions: 20 × 2.5kg, 18 × 3.75kg, 16 × 5kg 🗿
 - **Core**: Reverse Crunches: 30 reps, 25 reps, 20 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 10/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Elliptical: 22mins at level 12/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -264,7 +264,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Prehab**: Face Pulls: 20 × 12.5kg, 16 × 15kg, 15 × 17.5kg (Rotator cuff health & posture; pull with hands high at peak for external rotation) 🦴 🗿
 - **Mobility**: Thoracic spine extensions: 3 × 60s; Couch Stretch: 1min/leg; static stretching: 30s/leg 🦴
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
-- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 22mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
 
 ---
 
