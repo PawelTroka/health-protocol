@@ -25,7 +25,7 @@
 - ❌️ carbonated drinks, colored drinks
 - ❌️ sunbathing
 - ❌️ unprotected sex
-- ✋️ low productivity activities, low value-adding activities that can be outsourced
+- ✋️ work or scrolling that routinely displaces sleep, relationships or restorative leisure
 - ✋️ excessive social media usage
 - ⚠️ excessive gaming and TV
 - ⚠️ sleep schedule disruptions
@@ -35,10 +35,16 @@
 - Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
 - Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
 - Cold exposure	(4 times a week) 🔥 🛡️ ⚡
-- Meditation / breathwork (daily) 🧠 😌
 - Walks (daily) 🫁 ❤️
 - Stretching (6 times a week) 🦴 💪
 - Sleep tracking (daily) 😴
+
+### Social connection & psychological wellbeing
+- **Daily connection**: Make room for an attentive conversation or shared activity with a partner, friend or family member. 😌
+- **Weekly social plan**: Arrange one enjoyable plan; a walk, shared meal, cooperative game or the existing Sunday sport can count. Keep friendships/family contact alongside the relationship. 😌 ⏰
+- **Mental reset**: Meditation or comfortable paced breathing, 5-10mins daily; use a relaxing walk instead if the exercise feels unpleasant. 🧠 😌
+- **Work boundaries & enjoyment**: Set a practical stopping point for work and protect satisfying leisure without requiring a productivity outcome. 😌
+- **Weekly check-in**: Briefly review mood, stress, enjoyment and feeling connected; choose one useful adjustment if needed. 🧠 😌
 
 ## 2. Testing
 
