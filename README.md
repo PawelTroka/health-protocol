@@ -173,7 +173,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Looksmaxxing (Aesthetics):** Focuses heavily on the V-taper (broad shoulders/lats), an upper chest "shelf", a masculine neck, and thick forearms. **Zero direct oblique work** and stomach vacuums are included to keep the waist tight. Direct quad work is minimized to prevent a "blocky" lower half, focusing instead on longevity, mobility and an athletic posterior chain.
 - **Longevity & Health:** Ego lifting is removed. Use a **3-0-1-0 tempo** (3 seconds lowering, 1 second lifting) to protect joints and maximize hypertrophy. **Hernia & Diastasis Recti Care:** Exhale on the concentric (lifting) phase—no Valsalva maneuver—to manage intra-abdominal pressure. **The No-Doming/No-Coning Rule:** Focus on deep Transverse Abdominis (TVA) drawing (belly button to spine) and prevent any stomach doming/coning (midline ridge) during core work. Spinal loading is minimized by prioritizing chest-supported back exercises and dumbbell variations over heavy barbell lifts.
 - **Sexual Health:** Heavy emphasis on glutes, hamstrings, and hip hinge movements (like Hip Thrusts) for hip power and pelvic floor health. Mandatory Zone 2 cardio is included for cardiovascular and endothelial health.
-- **Synergy:** Workouts are structured to minimize overlap. Push days alternate between (Chest Press + Lateral Raise) and (Shoulder Press + Pec Fly). Pull days alternate Iliac/Upper Back with Thoracic/Kelso Shrugs. Gym workouts are compressed into **5 consecutive weekdays**, leaving your weekends completely free of typical gym lifts to focus on outdoor conditioning and socializing. Four weekday workouts finish with 20 minutes of easy Zone 2 cardio; the timing and modalities are selected to limit interference with lifting while supporting cardiovascular health.
+- **Synergy:** Workouts are structured to minimize overlap. Push days alternate between (Chest Press + Lateral Raise) and (Shoulder Press + Pec Fly). Pull days combine lat work, chest-supported rows and brief scapular-control drills. Gym workouts are compressed into **5 consecutive weekdays**, leaving your weekends completely free of typical gym lifts to focus on outdoor conditioning and socializing. Four weekday workouts finish with 22 minutes of easy Zone 2 cardio; the timing and modalities are selected to limit interference with lifting while supporting cardiovascular health.
 - **Personal Structural Assessment:** Fairly aesthetic frame overall. My proportions are actually closer to athletic aesthetic build, "men's physique" type frame, than to ultra-wide comic-book "classic physique" clavicle genetics.
   - **Neck:** slightly on the **longer side**. It gives a more "model/athletic" silhouette rather than compact powerlifter proportions. Traps are not overpowering the neck, which accentuates this further.
   - **Clavicles:** **medium** length, maybe *slightly short relative to muscularity*, but not genuinely "short clavicles." Shoulders don't look narrow. The issue is more that arm/chest mass dominates the frame, which can visually compress shoulder width. Getting leaner makes the structure actually looks broader.
@@ -207,20 +207,20 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 🗿
 - **Core**: Standing Cable Crunches: 20 × 20kg, 18 × 25kg, 16 × 30kg (Exhale fully on contraction; TVA focus: draw in, keep stomach flat, prevent coning, stop if midline ridge forms) 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: StairMaster: 20→25→30mins as tolerated; reference level 6/20, adjusted to talk-test pace *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: StairMaster: 22mins at level 8/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
 
 ---
 
 #### **Tuesday: Pull (Iliac Lats, Upper Back, Biceps, Forearms)**
 *Focus: V-Taper width, bicep peaks, and forearm veins.*
 *Synergy: Iliac lat exercise + upper back row.*
-- **Iliac Lats (Width)**: Neutral Shoulder-Width Weighted Pull-ups (or assisted): 10 × 2kg, 9 × 4kg, 8 × 6kg *(Pro-Tip: Keep elbows tucked in front; targets lower iliac lats for maximum V-taper and spares right shoulder)* 💪 ⏰ 🗿
+- **Lats (Width)**: Neutral-Grip Lat Pulldown: 8-12 × 50kg, 8-12 × 60kg, 8-12 × 70kg *(Comfortable overhead range; keep elbows slightly in front and avoid trunk swinging)* 💪 ⏰ 🗿
 - **Upper/Mid Back**: Pronated Grip Chest-Supported Machine Row: 12 × 70kg, 11 × 80kg, 10 × 90kg (Saves lower back) 💪 ⏰ 🗿
 - **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 15 × 12.5kg 🗿
-- **Forearms (Brachioradialis)**: Cuffed Single Arm Top Half Reverse Curl: 15 × 10kg, 13 × 12.5kg, 12 × 15kg 🗿
+- **Scapular Control**: Forearm Wall Slides with Foam Roller: 3 × 10-12 easy reps *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
-- **Post-Workout Zone 2 Cardio**: Stationary Bike: 20→25→30mins as tolerated; reference level 12/20, adjusted to talk-test pace *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Stationary Bike: 22mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -249,22 +249,22 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Neck**: Resistance Band Neck Extensions: 20 × 2.5kg, 18 × 3.75kg, 16 × 5kg 🗿
 - **Core**: Reverse Crunches: 30 reps, 25 reps, 20 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: Elliptical: 20→25→30mins as tolerated; reference level 10/25, adjusted to talk-test pace *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Elliptical: 22mins at level 12/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
 
 ---
 
 #### **Friday: Pull 2 (Thoracic Lats, Traps, Mid-Bicep)**
 *Focus: Back thickness, posture, bicep peaks, and rotator cuff prehab.*
-*Synergy: Thoracic lat + upper back/Kelso shrug.*
+*Synergy: Thoracic lat row + lower-trap/scapular control.*
 - **Thoracic Lats**: One Arm Dumbbell Row: 12 × 25kg, 11 × 27.5kg, 10 × 30kg per side *(Pro-Tip: Pull dumbbell back in a sweeping arc toward your hip pocket, keeping forearm vertical)* 💪 ⏰ 🗿
-- **Traps/Upper Back**: Chest-Supported DB Kelso Shrug (30-45° Incline) or T-Bar Kelso Shrug: 12 × 22.5kg, 11 × 25kg, 10 × 27.5kg *(Posture Pro-Tip: Focus on maximum scapular retraction to pull rounded shoulders back & open chest frame)* 💪 🗿
+- **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 2 × 8-12 easy reps *(Light load, comfortable range; avoid painful arcs and uncomfortable pad pressure on the abdominal repair)* 🦴
 - **Rear Delts**: Reverse Pec Deck: 20 × 23kg, 18 × 27kg, 15 × 32kg 💪 🗿
 - **Biceps (Mid-range)**: Seated Dumbbell Curls (S-Tier): 12 × 10kg, 11 × 12.5kg, 10 × 15kg 🗿
 - **Forearms**: Cable Reverse Curl or Dumbbell Reverse Curl or Hammer Curls: 15 × 10kg, 14 × 12.5kg, 12 × 15kg 🗿
 - **Prehab**: Face Pulls: 20 × 12.5kg, 16 × 15kg, 15 × 17.5kg (Rotator cuff health & posture; pull with hands high at peak for external rotation) 🦴 🗿
 - **Mobility**: Thoracic spine extensions: 3 × 60s; Couch Stretch: 1min/leg; static stretching: 30s/leg 🦴
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
-- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20→25→30mins as tolerated; reference 20% incline and 4.5km/h, adjusted to talk-test pace *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 22mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -272,8 +272,6 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: Nature conditioning, joint lubrication, and lung capacity. (No Gym Lifts).*
 **Cardio:**
 - **Zone 2**: 60mins *(Running near the beach, swimming in the ocean, cycling near the beach, or running in the forest)* ❤️ ⏰ 🍆
-
-**Aerobic progression Note:** Keep cardio after lifting; the philosophy's 20-minute schedule is the starting point. Add 5mins to one weekday session at a time, then hold until leg recovery, sleep and lifting performance remain stable; 30mins is a destination, not a deadline. Adjust machine settings to maintain easy conversation. With all four weekday sessions at 20/25/30mins plus Saturday's 60mins, planned easy aerobic time is 140/160/180mins/week, before walking or sport. WHO adult guidance is 150-300mins of moderate activity or its vigorous equivalent; the prior schedule is not automatically inadequate because other activity also counts. [WHO activity guidelines](https://www.who.int/publications/i/item/9789240015128)
 
 ---
 
@@ -802,7 +800,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - [Anti-large pores cleanser](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) (daily) 👨‍🦳 💧
 - Face Moisturizer [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) or [CeraVe Moisturizing Cream](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) (daily) 👨‍🦳 💧
 - [Resurfacing retinol serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (nightly)
-- SPF50 [mineral](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) or [with Bemotrizinol](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html)
+- Sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (water/sweat resistant) or [EltaMD UV Clear SPF46](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) (hybrid Zinc Oxide + Octinoxate; not water resistant) (Morning; reapply at least every 2h outdoors and after swimming, sweating or toweling; choose water-resistant protection for these activities)
 - Lip Care [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
 - Tretinoin 0.05-0.1% or [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (Weekly or bi-weekly) 👨‍🦳 ⏰ ⚕️
 - [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
