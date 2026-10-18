@@ -173,7 +173,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Looksmaxxing (Aesthetics):** Focuses heavily on the V-taper (broad shoulders/lats), an upper chest "shelf", a masculine neck, and thick forearms. **Zero direct oblique work** and stomach vacuums are included to keep the waist tight. Direct quad work is minimized to prevent a "blocky" lower half, focusing instead on longevity, mobility and an athletic posterior chain.
 - **Longevity & Health:** Ego lifting is removed. Use a **3-0-1-0 tempo** (3 seconds lowering, 1 second lifting) to protect joints and maximize hypertrophy. **Hernia & Diastasis Recti Care:** Exhale on the concentric (lifting) phase—no Valsalva maneuver—to manage intra-abdominal pressure. **The No-Doming/No-Coning Rule:** Focus on deep Transverse Abdominis (TVA) drawing (belly button to spine) and prevent any stomach doming/coning (midline ridge) during core work. Spinal loading is minimized by prioritizing chest-supported back exercises and dumbbell variations over heavy barbell lifts.
 - **Sexual Health:** Heavy emphasis on glutes, hamstrings, and hip hinge movements (like Hip Thrusts) for hip power and pelvic floor health. Mandatory Zone 2 cardio is included for cardiovascular and endothelial health.
-- **Synergy:** Workouts are structured to minimize overlap. Push days alternate between (Chest Press + Lateral Raise) and (Shoulder Press + Pec Fly). Pull days alternate Iliac/Upper Back with Thoracic/Kelso Shrugs. Gym workouts are compressed into **5 consecutive weekdays**, leaving your weekends completely free of typical gym lifts to focus on outdoor conditioning and socializing. Four weekday workouts finish with 20 minutes of easy Zone 2 cardio; the timing and modalities are selected to limit interference with lifting while supporting cardiovascular health.
+- **Synergy:** Workouts are structured to minimize overlap. Push days alternate between (Chest Press + Lateral Raise) and (Shoulder Press + Pec Fly). Pull days combine lat work, chest-supported rows and brief scapular-control drills. Gym workouts are compressed into **5 consecutive weekdays**, leaving your weekends completely free of typical gym lifts to focus on outdoor conditioning and socializing. Four weekday workouts finish with 20 minutes of easy Zone 2 cardio; the timing and modalities are selected to limit interference with lifting while supporting cardiovascular health.
 - **Personal Structural Assessment:** Fairly aesthetic frame overall. My proportions are actually closer to athletic aesthetic build, "men's physique" type frame, than to ultra-wide comic-book "classic physique" clavicle genetics.
   - **Neck:** slightly on the **longer side**. It gives a more "model/athletic" silhouette rather than compact powerlifter proportions. Traps are not overpowering the neck, which accentuates this further.
   - **Clavicles:** **medium** length, maybe *slightly short relative to muscularity*, but not genuinely "short clavicles." Shoulders don't look narrow. The issue is more that arm/chest mass dominates the frame, which can visually compress shoulder width. Getting leaner makes the structure actually looks broader.
@@ -214,11 +214,11 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### **Tuesday: Pull (Iliac Lats, Upper Back, Biceps, Forearms)**
 *Focus: V-Taper width, bicep peaks, and forearm veins.*
 *Synergy: Iliac lat exercise + upper back row.*
-- **Iliac Lats (Width)**: Neutral Shoulder-Width Weighted Pull-ups (or assisted): 10 × 2kg, 9 × 4kg, 8 × 6kg *(Pro-Tip: Keep elbows tucked in front; targets lower iliac lats for maximum V-taper and spares right shoulder)* 💪 ⏰ 🗿
+- **Lats (Width)**: Neutral-Grip Lat Pulldown: 8-12 × 50kg, 8-12 × 60kg, 8-12 × 70kg *(Comfortable overhead range; keep elbows slightly in front and avoid trunk swinging)* 💪 ⏰ 🗿
 - **Upper/Mid Back**: Pronated Grip Chest-Supported Machine Row: 12 × 70kg, 11 × 80kg, 10 × 90kg (Saves lower back) 💪 ⏰ 🗿
 - **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 15 × 12.5kg 🗿
-- **Forearms (Brachioradialis)**: Cuffed Single Arm Top Half Reverse Curl: 15 × 10kg, 13 × 12.5kg, 12 × 15kg 🗿
+- **Scapular Control**: Forearm Wall Slides with Foam Roller: 3 × 10-12 easy reps *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
 - **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
 
@@ -255,9 +255,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### **Friday: Pull 2 (Thoracic Lats, Traps, Mid-Bicep)**
 *Focus: Back thickness, posture, bicep peaks, and rotator cuff prehab.*
-*Synergy: Thoracic lat + upper back/Kelso shrug.*
+*Synergy: Thoracic lat row + lower-trap/scapular control.*
 - **Thoracic Lats**: One Arm Dumbbell Row: 12 × 25kg, 11 × 27.5kg, 10 × 30kg per side *(Pro-Tip: Pull dumbbell back in a sweeping arc toward your hip pocket, keeping forearm vertical)* 💪 ⏰ 🗿
-- **Traps/Upper Back**: Chest-Supported DB Kelso Shrug (30-45° Incline) or T-Bar Kelso Shrug: 12 × 22.5kg, 11 × 25kg, 10 × 27.5kg *(Posture Pro-Tip: Focus on maximum scapular retraction to pull rounded shoulders back & open chest frame)* 💪 🗿
+- **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 2 × 8-12 easy reps *(Light load, comfortable range; avoid painful arcs and uncomfortable pad pressure on the abdominal repair)* 🦴
 - **Rear Delts**: Reverse Pec Deck: 20 × 23kg, 18 × 27kg, 15 × 32kg 💪 🗿
 - **Biceps (Mid-range)**: Seated Dumbbell Curls (S-Tier): 12 × 10kg, 11 × 12.5kg, 10 × 15kg 🗿
 - **Forearms**: Cable Reverse Curl or Dumbbell Reverse Curl or Hammer Curls: 15 × 10kg, 14 × 12.5kg, 12 × 15kg 🗿
