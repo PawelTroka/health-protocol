@@ -1187,27 +1187,28 @@ Notes are included only when totals, dose uncertainty, timing, safety or another
 2. **Kijimea IBS PRO replacement trial**
 3. **PHGG fiber-substitution trial**
 4. **Colpermin symptom-targeted trial**
-5. **AprèsFlex® Boswellia replacement trial for diagnosed OA or persistent joint pain**
-6. **Prescription crystalline Glucosamine Sulfate replacement for symptomatic OA**
-7. **Silexan® replacement trial for clinically meaningful Anxiety**
-8. **Sodium Bicarbonate for selected glycolytic sessions**
-9. **CherryActive® Montmorency Tart Cherry for short recovery-pressure blocks**
-10. **Fernblock® for high-UV exposure**
-11. **HMB for aggressive restriction, injury or low-Protein periods**
-12. **Standalone MGCPQQ® PQQ experiment**
-13. **Synapsa® Bacopa replacement experiment**
-14. **Hansen CaAKG verification and pill-reduction replacement**
-15. **Sports Research Omega-3 convenience replacement**
-16. **Pure Encapsulations combined CoQ10/PQQ replacement**
-17. **BioResponse DIM® replacement trial**
-18. **NOW Lyc-O-Mato® Lycopene formulation replacement**
-19. **Sports Research Suntheanine® L-Theanine provenance replacement**
-20. **VemoHerb Tribuscin® standardized Tribulus replacement trial**
-21. **Glycerol hyperhydration watchlist**
-22. **Low-dose Lithium experiment after medical clearance**
-23. **Empagliflozin only after a future approved indication**
-24. **Luteolin formulation watchlist**
-25. **PABA Gray-hair experiment**
+5. **Caffeine-free pre-workout replacement after label reconciliation**
+6. **AprèsFlex® Boswellia replacement trial for diagnosed OA or persistent joint pain**
+7. **Prescription crystalline Glucosamine Sulfate replacement for symptomatic OA**
+8. **Silexan® replacement trial for clinically meaningful Anxiety**
+9. **Sodium Bicarbonate for selected glycolytic sessions**
+10. **CherryActive® Montmorency Tart Cherry for short recovery-pressure blocks**
+11. **Fernblock® for high-UV exposure**
+12. **HMB for aggressive restriction, injury or low-Protein periods**
+13. **Standalone MGCPQQ® PQQ experiment**
+14. **Synapsa® Bacopa replacement experiment**
+15. **Hansen CaAKG verification and pill-reduction replacement**
+16. **Sports Research Omega-3 convenience replacement**
+17. **Pure Encapsulations combined CoQ10/PQQ replacement**
+18. **BioResponse DIM® replacement trial**
+19. **NOW Lyc-O-Mato® Lycopene formulation replacement**
+20. **Sports Research Suntheanine® L-Theanine provenance replacement**
+21. **VemoHerb Tribuscin® standardized Tribulus replacement trial**
+22. **Glycerol hyperhydration watchlist**
+23. **Low-dose Lithium experiment after medical clearance**
+24. **Empagliflozin only after a future approved indication**
+25. **Luteolin formulation watchlist**
+26. **PABA Gray-hair experiment**
 
 ### Investigational / unavailable watchlist rank
 1. **PP405**
@@ -1239,6 +1240,7 @@ Notes are included only when totals, dose uncertainty, timing, safety or another
 
 ### Candidate details
 - **Iron repletion — formulation and route selected only after repeat CBC, Ferritin, TSAT and cause evaluation** 🩸 💪 🧠 - *This is the highest-priority dormant TODO because confirmed Iron deficiency would be clinically actionable, but the current Ferritin 42ng/ml, Hemoglobin 15.8g/dl and estimated TSAT ~30% do not establish deficiency. Repeat CBC, Ferritin, Iron/Transferrin or TIBC, TSAT and CRP, and investigate the cause—particularly alongside Fecal Calprotectin 291.7µg/g—before supplementing. If mild deficiency is confirmed and bowel disease is inactive, [SiderAL Forte Sucrosomial® Iron 30mg + Vitamin C 70mg](https://www.gdziepolek.pl/produkty/99037/sideral-forte-kapsulki/apteki) is a Poland-stocked, tolerability-first oral candidate rather than a universal winner; active IBD, clinically important Anaemia, intolerance or poor response may favor clinician-selected IV Iron. Recheck CBC, Ferritin and TSAT after approximately 4–8 weeks and keep treatment target-driven rather than permanent.* [Official label](https://www.phamily.pl/dokumenty_url/SiderAL_Forte_ulotka.pdf) [AIS guidance](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/medical-supplements2/iron/how-and-when-do-i-use-it) [IBD pilot](https://pubmed.ncbi.nlm.nih.gov/30499070/) [ECCO guideline](https://academic.oup.com/ecco-jcc/article/18/1/1/7205776)
+- [Legion Pulse Stim-Free — Fruit Punch 438g, 2scoops (21.9g)](https://pl.iherb.com/pr/legion-athletics-pulse-stim-free-pre-workout-drink-fruit-punch-0-97-lbs-438-g/142084) 💪 - *First-choice ready-made caffeine-free replacement candidate for B.0.2: Citrulline Malate 2:1 8g, Beta-Alanine 3.6g and TMG 2.5g, without BULK's added B6/Zinc/Piperine. The exact SKU is stocked through iHerb's Poland-facing import route; this is a formulation-fit advantage, not proven superior Health or performance. Keep conditional until the purchased panel and lot match: the manufacturer's older Fruit Punch image has different serving/mineral values. Erythritol quantity is undisclosed, and Citrulline remains relevant to Blood-Pressure tolerance with L.1.2 Tadalafil and E.2 Minoxidil. If activated, replace BULK, retain standalone Collagen, Creatine and intra-workout HBCD, and accept 3.6g/day Beta-Alanine without stacking another pre-workout or automatic top-up. The replacement removes BULK's5mg B6 and10mg Zinc while preserving daily TMG3g; calculate final totals with whichever WPI/EAA products are active. Full comparison, losses and exposure calculations belong in the separate pre-workout PR.* [Manufacturer](https://legionathletics.com/products/supplements/pulse-stim-free/) [Current label photo](https://s3.images-iherb.com/lga/lga67671/l/12.jpg)
 - [Life Extension 5-LOX Inhibitor with AprèsFlex® — Boswellia serrata Gum-Resin Extract 100mg (AKBA 20mg)](https://www.lifeextensioneurope.com/5-lox-inhibitor-with-apresflex) 🦴 🔥 - *Consider only after diagnosed Osteoarthritis or clinical assessment of persistent function-limiting joint pain, as an 8–12-week replacement trial for A.9 Glucosamine Sulfate 2KCl—not another layer on the existing joint stack. One capsule/day supplies the exact AprèsFlex® 100mg extract standardized to 20% AKBA used in small knee-OA trials. Pain and function signals are promising, but the trials were ingredient-industry funded and broader reviews remain heterogeneous, so this is symptom-targeted rather than preventive or disease-modifying. Track one fixed WOMAC, KOOS or pain/function measure and analgesic use, and retain it only for a clear reproducible benefit without gastrointestinal or bleeding-tolerance cost. The exact SKU is ordinarily orderable in Poland.* [Polish availability](https://www.ceneo.pl/110919931) [Thirty-day trial](https://pubmed.ncbi.nlm.nih.gov/22022214/) [2024 meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC11634824/)
 - **Prescription crystalline Glucosamine Sulfate 1,500mg/day — Dona® powder for oral solution** 🦴 - *Consider only after diagnosed symptomatic Osteoarthritis and clinician review, as an outcome-provenance replacement for A.9—never as an additional Glucosamine product or simultaneous AprèsFlex® trial. The prescription crystalline product at 1,500mg once daily is the formulation used in several favorable symptom/function programs, but the current 1,400mg Glucosamine Sulfate 2KCl dose is already close. A 2025 randomized double-blind crossover pilot in ten healthy adults found no significant difference in Glucosamine or Glucosamine-6-Sulfate exposure between crystalline and regular Glucosamine Sulfate, so crystallinity is not a proven absorption upgrade and does not justify a preventive switch in an asymptomatic person. Dona® is authorized as a medicine in several EU countries but no normal Polish retail channel was verified; pursue it only through a clinician and an authorized EU pharmacy if an OA indication makes the product-specific outcome provenance worth the access friction. If activated, remove A.9 and track a fixed WOMAC, KOOS or pain/function outcome for 8–12 weeks.* [Dona® product leaflet](https://www.hpra.ie/img/uploaded/swedocuments/afe687b5-caf3-4371-b77b-b116b7277677.pdf) [2025 crossover study](https://pubmed.ncbi.nlm.nih.gov/40806074/) [Glucosamine umbrella review](https://pubmed.ncbi.nlm.nih.gov/33488785/)
 - [Active Edge CherryActive® 100% Montmorency Tart-Cherry Juice Concentrate — 30ml 2x/day for 7 days](https://strefaregeneracji.pl/produkt/cherry-active-473ml/) 💪 🔥 😴 - *Consider only around an unusually muscle-damaging block, multi-day competition or short turnaround—not as another daily antioxidant. This exact finished concentrate has been used in multiple recovery trials and is available through ordinary Polish retailers. The clean study-style course is 30ml twice daily for four days before the event, the event day and two days after; one 473ml bottle covers it. The current official panel makes 60ml/day approximately 216kcal, 52g Carbohydrate and 40g Sugars, so count it during the cut and avoid it when gastrointestinal tolerance is poor. Evidence is mixed and heterogeneous, with selected Strength-recovery signals but no reliable pooled improvement in Soreness, CK or most inflammatory markers; do not increase beyond 60ml/day or dose-chase a disputed Anthocyanin label claim.* [Official product](https://active-edge.co.uk/collections/all-products/products/active-edge-cherryactive-concentrate-473ml) [AIS guidance](https://www.ausport.gov.au/ais/nutrition/supplements/group_b/food-polyphenols/fruit-derived-polyphenols/how-and-when-do-i-use-it) [Exact-product trial](https://pubmed.ncbi.nlm.nih.gov/27455316/) [2026 meta-analysis](https://pubmed.ncbi.nlm.nih.gov/41945263/)
