@@ -245,7 +245,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Upper Chest**: Seated Low-to-High Cable Fly (Cuffed) or Seated low-to-high Pec Deck Machine: 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg (Best upper pec fly) 🗿
 - **Upper Chest/Ribs**: Dumbbell Pullover (Cross-bench): 12 × 20kg, 11 × 22.5kg, 10 × 25kg *(Stretch focus; Pro-Tip: Keep hips locked/stationary in a flat tabletop; do not dynamically sink hips as weight goes overhead)* 🗿
 - **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 🗿
-- (*Optional*) **Side Delts**: Cable Lateral Raises: 3 × 12-15 reps *(Mandatory for V-taper; Pro-Tip: pulley at wrist/hip height to overload stretched position)* 🗿
+- **Side Delts**: Machine Lateral Raises: 12-15 × 24kg, 12-15 × 29kg, 12-15 × 34kg *(Mandatory for V-taper; Pro-Tip: align shoulders with the machine pivot and keep torso still)* 🗿
 - **Neck**: Resistance Band Neck Extensions: 20 × 2.5kg, 18 × 3.75kg, 16 × 5kg 🗿
 - **Core**: Reverse Crunches: 30 reps, 25 reps, 20 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
