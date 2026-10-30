@@ -796,6 +796,9 @@ There are actual studies that confirm if you look younger and better you are mor
 - Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Monthly)
 
 ### Face
+
+#### Skin care
+
 - Avoid sun exposure
 - [Anti-large pores cleanser](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) (daily) 👨‍🦳 💧
 - Face Moisturizer [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) or [CeraVe Moisturizing Cream](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) (daily) 👨‍🦳 💧
@@ -806,6 +809,9 @@ There are actual studies that confirm if you look younger and better you are mor
 - [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
 - SNAP-8 peptide 👨‍🦳 ⏰
 - GHK-Cu peptide 👨‍🦳 ⏰
+
+#### Procedures and devices
+
 - Botox (Glabella, Forehead, Crow's feet) (mid February, mid June, mid October)
 - Sculptra (2026-02-01, 2026-04-01, then every year) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
 - Radiesse (yearly, 1st of December) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
