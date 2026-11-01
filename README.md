@@ -300,6 +300,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 **How to use:** every CHOOSE list ranks options by evidence-weighted Health, Longevity, Looksmaxxing and Sexual Health benefit at the listed portions, adjusted for GI tolerance and stack fit. Fixed items plus checked choices form the reference day. Choose Spices & Herbs at their individual portions; rotate foods across the week and recalculate Macros for substitutions.
 
+**Staining awareness:** 🦷 flags potential tooth/bonding staining; [precautions and evidence](#dental-staining).
+
 **Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 75g Mushrooms, 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Variety accumulates across the week; every alternative need not be bought or eaten.
 
 > **GI fit:** 43–46g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the GI options below.
@@ -326,7 +328,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `Cinnamaldehyde · Proanthocyanidins`
   - [ ] 0.25g freshly ground [organic Cloves](https://bioshi.pl/pl/products/gozdziki-cale-bio-30-g-dary-natury-46303) 🛡️ 🪶 🔄
     - `Eugenol · Ellagitannins`
-  - [ ] 30mg [Eurofins-tested ISO 3632 Category I Saffron Threads](https://saffrona.eu/produkt/safran-0-5g-kaufen/) *(occasional culinary rotation; steep before blending)* 🛡️ 😌 🧠 🪶
+  - [ ] 30mg [Eurofins-tested ISO 3632 Category I Saffron Threads](https://saffrona.eu/produkt/safran-0-5g-kaufen/) *(occasional culinary rotation; steep before blending)* 🛡️ 😌 🧠 🪶 🦷
     - `Crocins · Safranal · Picrocrocin · Kaempferol Glycosides`
 - 🫒 13.5g (1tbsp) [Pamako ultra-premium EVOO](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶
   - `122kcal · F13.5g · 2,081mg/kg Polyphenols · Oleocanthal · Oleacein · MUFAs · Vitamin E · Squalene · Phytosterols`
@@ -347,7 +349,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🌾 **Easily Digestible Complex Carbs — CHOOSE ONE**
   - [ ] 75g boiled [organic White Quinoa](https://bioshi.pl/pl/products/quinoa-biala-komosa-ryzowa-bezglutenowa-bio-500-g-bio-planet-44499) 🛡️ 🗿 💪 🦠 🩸 🪶 🔄
     - `104kcal · P4.2g · C15.7g · F2g · Fiber3.8g · Magnesium · Folate · Flavonol Glycosides`
-  - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪
+  - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪 🦷
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Anthocyanins · Chlorogenic Acids · Potassium`
   - [ ] 100g steamed [organic Orange Sweet Potatoes](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) 🛡️ 🗿 👁️ 🦠 💪 🔄
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Beta-Carotene · Chlorogenic Acids · Potassium`
@@ -378,7 +380,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `26kcal · P0.8g · C4.2g · F0.2g · Fiber2g · Vitamin C · Capsanthin/Capsorubin · Beta-Carotene · Beta-Cryptoxanthin · Zeaxanthin`
   - [ ] 100g steamed [organic Orange-fleshed Butternut Squash](https://bioshi.pl/pl/products/dynia-pizmowa-butternut-swieza-bio-okolo-0-70-kg-64110) *(edible flesh)* 🛡️ ⏰ 🗿 👁️ 🦠 🔄
     - `40kcal · P0.9g · C7.3g · F0.1g · Fiber3.2g · Beta-Carotene · Alpha-Carotene · Potassium`
-  - [ ] 100g steamed [Purple Carrots](https://www.lokalnywarzywniak.pl/pl/warzywa/309-39-marchew-fioletowa-swieza.html) *(select Fioletowy)* 🛡️ ⏰ 🗿 👁️
+  - [ ] 100g steamed [Purple Carrots](https://www.lokalnywarzywniak.pl/pl/warzywa/309-39-marchew-fioletowa-swieza.html) *(select Fioletowy)* 🛡️ ⏰ 🗿 👁️ 🦷
     - `35kcal · P0.8g · C5.2g · F0.2g · Fiber3g · Anthocyanins · Chlorogenic Acid · Potassium · Falcarinol-type Polyacetylenes`
 - 🌱 **Microgreens — CHOOSE ONE**
   - [ ] 30g thoroughly steamed [Broccoli Sprouts](https://sklepkupiec.pl/salaty-ziola-natki/148815-uniflora-kielki-brokulu-50-g.html) 🛡️ 🦠 ⏰
@@ -392,15 +394,15 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - [ ] 30g thoroughly steamed [organic Radish Sprouts](https://bioshi.pl/pl/products/kielki-rzodkiewki-swieze-bio-okolo-50-g-46190) 🛡️ 🦠 🔄
     - `18kcal · P1.4g · C1.6g · F0.4g · Fiber1.1g · Glucoraphenin`
 - 🫐 **Berries — CHOOSE ONE**
-  - [x] 150g fresh [organic Blueberries](https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183) 🛡️ ⏰ 🗿 🧠 ❤️ 👁️ 👨‍🦳 🪶 🔄
+  - [x] 150g fresh [organic Blueberries](https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183) 🛡️ ⏰ 🗿 🧠 ❤️ 👁️ 👨‍🦳 🪶 🔄 🦷
     - `86kcal · P1.1g · C18.2g · F0.5g · Fiber3.6g · Anthocyanins · Vitamin C · Vitamin K1 · Manganese · Proanthocyanidins · Chlorogenic Acids · Flavonols`
-  - [ ] 100g frozen [Wild Bilberries](https://zakupy.auchan.pl/products/jagoda-czarna-pewni-dobrego-200-g/00073105) 🛡️ ⏰ 🗿 🧠 👁️
+  - [ ] 100g frozen [Wild Bilberries](https://zakupy.auchan.pl/products/jagoda-czarna-pewni-dobrego-200-g/00073105) 🛡️ ⏰ 🗿 🧠 👁️ 🦷
     - `61kcal · P0.8g · C12g · F0.8g · Fiber3g · Anthocyanins · Vitamin E · Proanthocyanidins · Chlorogenic Acids · Flavonols`
-  - [ ] 100g frozen [Polish Blackcurrants](https://zakupy.auchan.pl/products/czarna-porzeczka-auchan-350-g/00561302) 🛡️ ⏰ 🗿 ❤️ 👁️
+  - [ ] 100g frozen [Polish Blackcurrants](https://zakupy.auchan.pl/products/czarna-porzeczka-auchan-350-g/00561302) 🛡️ ⏰ 🗿 ❤️ 👁️ 🦷
     - `56kcal · P1.4g · C7.6g · F1g · Fiber5g · Anthocyanins · Vitamin C · Proanthocyanidins · Flavonols`
-  - [ ] 150g fresh [organic Strawberries](https://bioshi.pl/pl/products/truskawka-swieza-bio-polska-opakowanie-ok-0-45-kg-77418) 🛡️ ⏰ 🗿 ❤️ 👨‍🦳 🔄
+  - [ ] 150g fresh [organic Strawberries](https://bioshi.pl/pl/products/truskawka-swieza-bio-polska-opakowanie-ok-0-45-kg-77418) 🛡️ ⏰ 🗿 ❤️ 👨‍🦳 🔄 🦷
     - `48kcal · P1.1g · C8.6g · F0.5g · Fiber3g · Vitamin C · Anthocyanins · Ellagitannins · Proanthocyanidins`
-  - [ ] 100g fresh [organic Raspberries](https://bioshi.pl/pl/products/maliny-swieze-bio-polska-okolo-0-125-kg-bio-planet-88768) 🛡️ ⏰ 🗿 ❤️ 🦠 👨‍🦳 🔄
+  - [ ] 100g fresh [organic Raspberries](https://bioshi.pl/pl/products/maliny-swieze-bio-polska-okolo-0-125-kg-bio-planet-88768) 🛡️ ⏰ 🗿 ❤️ 🦠 👨‍🦳 🔄 🦷
     - `52kcal · P1.2g · C5.5g · F0.7g · Fiber6.5g · Ellagitannins · Anthocyanins · Vitamin C · Proanthocyanidins`
 - 🌿 **Spices & Herbs — CHOOSE ANY**
   - [ ] 1g freshly ground [organic Brown Mustard Seed](https://www.olium.pl/gorczyca-brazowa-ziarno-bio-100-g-p451) 🛡️ 🪶
@@ -415,7 +417,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `Linalool`
   - [x] 1g freshly ground [organic Cumin Seed](https://bioshi.pl/pl/products/kmin-rzymski-cale-nasiona-bio-30-g-dary-natury-46593) 🛡️ 🪶 🔄
     - `Cuminaldehyde`
-  - [ ] 1g [organic Sweet Paprika](https://marketbio.pl/papryka-slodka-bio-50-g-lebensbaum.html) 🛡️ 🪶
+  - [ ] 1g [organic Sweet Paprika](https://marketbio.pl/papryka-slodka-bio-50-g-lebensbaum.html) 🛡️ 🪶 🦷
     - `Capsanthin · Capsorubin · Beta-Carotene · Zeaxanthin`
 - 🫒 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶 🔄
   - `122kcal · F13.5g · 917mg/kg Polyphenols · Oleocanthal · Oleacein · MUFAs · Vitamin E · Squalene · Phytosterols`
@@ -424,7 +426,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### 🍵 Afternoon drink (3pm; at least 2 hours after Lunch and 8 hours before sleep — Matcha & Protein)
 *71kcal · P7.2g · C<0.1g · F3.7g · Fiber2g*
 - **Matcha Latte**
-  - 2g [organic Matcha](https://moyamatcha.com/products/moya-matcha-codzienna-organiczna-japonska-herbata) 🛡️ 🧠
+  - 2g [organic Matcha](https://moyamatcha.com/products/moya-matcha-codzienna-organiczna-japonska-herbata) 🛡️ 🧠 🦷
     - `5kcal · P0.6g · C<0.1g · F0.1g · Fiber0.8g · Tea Catechins (including EGCG) · L-Theanine · Caffeine · Rutin · Phenolic Acids`
   - 🥛 **Milk — CHOOSE ONE**
     - [x] 200ml [fortified unsweetened Soy Milk](https://www.frisco.pl/pid,2530/n,alpro-napoj-sojowy-bez-cukru/stn,product) 🛡️ 🗿 ❤️ 🦴 🌱
@@ -468,7 +470,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `79kcal · P5.3g · C9g · F0.3g · Fiber5.2g · Folate · Magnesium · Resistant Starch · Phenolic Acids`
   - [ ] 50g boiled [organic Chickpeas](https://bioshi.pl/pl/products/ciecierzyca-bezglutenowa-bio-400-g-bio-planet-44932) 🛡️ ⏰ ❤️ 🦠 🩸 🌱 🔄
     - `82kcal · P4.4g · C9.9g · F1.3g · Fiber3.8g · Folate · Iron · Resistant Starch · Saponins`
-  - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪 😴
+  - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪 😴 🦷
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Anthocyanins · Chlorogenic Acids · Potassium`
 - 🥬 **Steamed Leafy Greens — CHOOSE ONE**
   - [ ] 100g [Kale](https://zakupy.auchan.pl/products/jarmu%C5%BC-ci%C4%99ty-warzywa-auchan-300-g/00253887) 🛡️ ⏰ 🗿 👁️ 🦴
@@ -495,13 +497,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `88kcal · P1.6g · C16.6g · F0.6g · Fiber4.6g · Vitamin C · Actinidin · Pectin`
   - [ ] 150g [organic Orange](https://bioshi.pl/pl/products/pomarancze-bio-1-kg-49176) 🛡️ ⏰ 🗿 ❤️ 👨‍🦳 🔄
     - `71kcal · P1.4g · C14.1g · F0.2g · Fiber3.6g · Vitamin C · Citrus Flavanones (Hesperidin/Narirutin) · Folate`
-  - [ ] 130g [Pomegranate](https://zakupy.auchan.pl/products/granat-kaliber-%C5%9Bredni-owoce-auchan-sztuka/00031949) *(Arils)* 🛡️ ⏰ ❤️
+  - [ ] 130g [Pomegranate](https://zakupy.auchan.pl/products/granat-kaliber-%C5%9Bredni-owoce-auchan-sztuka/00031949) *(Arils)* 🛡️ ⏰ ❤️ 🦷
     - `108kcal · P2.2g · C19.1g · F1.6g · Fiber5.2g · Anthocyanins · Folate · Potassium`
   - [ ] 150g fresh [Guava](https://www.lokalnywarzywniak.pl/pl/owoce/124-guawa-gujawa-gruszla.html) *(well-ripened)* 🛡️ ⏰ 🗿 👨‍🦳
     - `102kcal · P3.9g · C13.4g · F1.5g · Fiber8.1g · Vitamin C · Phenolic Acids`
   - [ ] 200g [organic Mango](https://bioshi.pl/pl/products/mango-swieze-bio-okolo-0-30-kg-68991) 🛡️ ⏰ 🗿 👁️
     - `120kcal · P1.6g · C26.8g · F0.8g · Fiber3.2g · Carotenoids · Vitamin C · Folate · Gallotannins`
-  - [ ] 100g frozen [Polish Tart Cherries](https://zakupy.auchan.pl/products/wi%C5%9Bnie-bez-pestek-auchan-400-g/00179831) 🛡️ ⏰ 😴 🔥
+  - [ ] 100g frozen [Polish Tart Cherries](https://zakupy.auchan.pl/products/wi%C5%9Bnie-bez-pestek-auchan-400-g/00179831) 🛡️ ⏰ 😴 🔥 🦷
     - `49kcal · P0.9g · C9.9g · F0.5g · Fiber1g · Anthocyanins · Chlorogenic Acids · Flavonols`
 - 🌰 **Nuts — CHOOSE ONE**
   - [x] 20g [organic Walnuts](https://bioshi.pl/pl/products/orzechy-wloskie-bio-300-g-bio-planet-44492) 🛡️ ⏰ 🍆 ❤️ 🧠 🦠 🪶 🔄
@@ -526,7 +528,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `104kcal · P18g · C7.8g · F0g · Calcium · Vitamin B12 · Live Yogurt Cultures`
   - [ ] 100g [organic Unpasteurized Sauerkraut with Carrot](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) 🛡️ 🦠 🔄
     - `17kcal · P0.9g · C2.3g · F0.2g · Salt0.8g · Lactic Acid · Live Cultures`
-  - [ ] 75g [onion-free vegan mild Kimchi](https://www.frisco.pl/pid,133569/n,old-friends-kimchi-vegan-mild/stn,product) 🛡️ 🦠
+  - [ ] 75g [onion-free vegan mild Kimchi](https://www.frisco.pl/pid,133569/n,old-friends-kimchi-vegan-mild/stn,product) 🛡️ 🦠 🦷
     - `22kcal · P1.3g · C2.4g · F0.4g · Fiber1.8g · Salt0.71g · Lactic Acid · Live Cultures`
 - 🌿 **Spices & Herbs — CHOOSE ANY**
   - [ ] 15g fresh [organic Basil](https://zakupy.auchan.pl/products/bio-bazylia-pewni-dobrego-sztuka/00473592) 🛡️ 🦴 👁️
@@ -786,7 +788,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Mandibular osteotomy (Bilateral Sagittal Split Osteotomy (BSSO) / jawline advancement) if orthodontics alone are not enough to fix bite/jaw alignment issues
 - Wear retainers (nightly) if after orthodontic treatment
 - Mouthwash protocol:
-  - After professional dentist cleaning: 0.2% chlorhexidine mouthwash like [Curasept](https://allegro.pl/oferta/plyn-do-plukania-curasept-ads-dna-220-chlorhexidine-0-20-200-ml-16510740761) (for a week)
+  - After professional dentist cleaning: 0.2% chlorhexidine mouthwash like [Curasept](https://allegro.pl/oferta/plyn-do-plukania-curasept-ads-dna-220-chlorhexidine-0-20-200-ml-16510740761) (for a week) 🦷
   - When using orthodontic braces: [Eludril Ortho](https://allegro.pl/produkt/eludril-ortho-ortodontyczny-plyn-do-plukania-jamy-ustnej-500-ml-a905bf84-1178-4f98-b31b-3da919da2410) (Twice daily)
   - For normal care: non-alcohol mouthwash like [Listerine Zero](https://allegro.pl/oferta/listerine-cool-mint-zero-bez-alkoholu-plyn-do-plukania-ust-1l-1000ml-9775677304) (Twice daily)
 - Water flosser [waterpik ultra professional WP660](https://www.amazon.pl/Waterpik-Professional-Zaawansowana-Ci%C5%9Bnienia-WP-660EU) (Twice daily)
@@ -1089,6 +1091,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - 🟤 Liver/Organ function
 - 🪶 Low-FODMAP
 - 🎈 High-FODMAP
+- 🦷 Staining caution for natural/whitened teeth or composite bonding — [care and evidence](#dental-staining)
 
 *FODMAP tags apply to the listed portion/preparation; unmarked = unverified. [Serving checks](#diet-fodmap-tags).*
 
@@ -1184,6 +1187,23 @@ Notes are included only when totals, dose uncertainty, timing, safety or another
     - **Preparation and stack context:** Cooked Black Beans retain other phenolics, but a 2024 analysis found Anthocyanins undetectable after cooking in four of five samples; their raw seed-coat pigment is therefore not promised in the boiled/drained serving. Food Ergothioneine, Spermidine, Astaxanthin, Creatine and Taurine add to M.10, M.18, M.13, B.0.1 and B.3/B.0.2 respectively. Food amounts remain unquantified; count them as additional dietary exposure when reassessing the stack, without inferring precise daily totals or automatic supplement-dose changes. The existing quantitative exposure Notes remain the place for verified label amounts; qualitative additions here do not change portions, Macros or the supplement schedule. [Black-Bean cooking analysis](https://pubs.rsc.org/en/content/articlehtml/2024/fo/d4fo01238k)
 
 60. **Diet purchasing — exact products and practical replenishment** Purchase links were checked on 2026-09-13–14. Prefer fresh produce; seasonal frozen Berries and Brussels Sprouts remain availability fallbacks. Buy Salmon without skin. The preferred Auchan Pewni Dobrego product is sold thawed: keep at 0–2°C and do not refreeze. Its nominal 500g pack varies by actual weight; Macros retain the raw skinless-Salmon composition estimate. If unavailable, leave the purchase pending rather than substitute skin-on Fish. Keep Maluta's actual Lactose-Free Skyr (EAN 5904467212110); Auchan's similarly named high-protein Yogurt (EAN 5904467432181) is a separate product. Retain fortified unsweetened Alpro, Sante High-Fiber Premium Bran and Moya Codzienna 100g. Walnut Macros follow the [manufacturer](https://bioplanet.pl/orzechy-wloskie-bio-300-g-bio-planet/p351/m), whose panel differs from Bioshi. The Pumpkin Seed 350g retailer and [manufacturer panels](https://bioplanet.pl/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-350-g-bio-planet/p215/m) conflict; existing Macros/minerals retain the former 1kg label estimate pending the delivered label. Hemp 200g follows the [manufacturer panel](https://bioplanet.pl/nasiona-konopi-luskane-bio-200-g-bio-planet-superfoods/p209); Pistachios follow their [same-EAN manufacturer panel](https://bioplanet.pl/pistacje-luskane-bio-150-g-bio-planet/p10241), ahead of conflicting retailer panels. Chia 200g follows its manufacturer; HeyBio Flax 250g and Sunflower 250g use their linked labels. Lebensbaum ground Ceylon Cinnamon50g, Dary Natury whole Cloves30g and whole Green Cardamom40g retain the selected organic forms in smaller packs. Their first packs are one-off; accept a native refill cadence only when it fits the selected rotation and usable stock. Discard Cardamom husks. Dary Natury Coriander 30g, Cumin 30g, Rosemary 30g, Oregano 20g, Thyme 20g and Nigella 50g preserve the selected plain organic forms; Paprika 50g retains Lebensbaum. Pack weights follow current labels rather than URL slugs. The selected Bioshi Phileos 500ml is the same early-harvest EVOO, EAN 5205541001843; [Organic24](https://organic24.pl/oliwa-z-oliwek-extra-virgin-wczesny-zbior-phileos-500ml.html) remains a backup. **Use retailer subscriptions only**, with free home courier and a maximum25% delivered-price premium per comparable product. The [current renewal plan](diet/DIET_RENEWAL_PLAN.md) owns verified activation, dates, prices and remaining coverage gaps; the [optimization criteria](diet/DIET_OPTIMIZATION.md) preserve portions, rotation and usable stock before comparing freshness. Routine Codex orders, manual skips and repeated quantity/date repairs are excluded. The [opening-stock register](diet/DIET_STOCK_TRANSITION.md) governs first purchases; the [activation calendar](diet/DIET_ACTIVATION_ROLLOUT.md) separates booked renewals from conditional new starts. Keep6 Tempeh,12 Egg and10 Fish dinners per28days, and100g Sauerkraut on3–4 days per week on average. Bioshi357/361/370 are active; Nut A370 was created23September, paid133.61zł with free GLS and an active card verified in IdoPay. Its90-day renewal currently quotes133.61zł; the parent card-verification notice cleared by25September. Old358/359/360 are ended. Paid243351 was delivered18September. On25September IdoPay confirmed110.70zł collected for245125, scheduled for1October. GLS confirms243898 and Nut A246975 delivered25September14:57 Warsaw; contents/condition are uninspected. Created361 renewal247410 will collect104.09zł automatically2October for9October, with free GLS; the23October98.31zł template is separate.370 next payment is17December for24December delivery, verified26September. Bioshi rejected obsolete243402 on23September; unpaid243364/243397 remain excluded pending cancellation confirmation. The former six-fresh/six-pantry lists are historical candidates, not scheduled shipments. The daily09:00 review monitors exceptions and newly qualifying native offers; it does not supply missing foods. See the [payment handoff](diet/DIET_PAYMENT_HANDOFF.md) before paying and the [remaining-route audit](diet/DIET_AUTOMATION_GAPS.md) for uncovered categories. Use fresh deliveries in concentrated rotation days, then choose other listed foods; the delivery interval is not a shelf life. The Kiwi photo supports green flesh without a declared cultivar. Bioshi's earlier confirmation advertised10% off order2 and15% off orders3–300, while current public pages advertise10% from delivery2; use the actual renewal quote rather than assuming either future tier or coupon stacking. 🔄 marks an identified automatic purchase route, not activation, payment or verified complete coverage. Rolled Oats carries this marker; Oat Bran does not. The Bran link now selects Frisco's exact Sante6% product, EAN5900617010919; no portion or Macro change. Arugula retains its cheaper manual link; the [automatic100g route](https://bioshi.pl/pl/products/rukola-swieza-niemyta-bio-okolo-0-10-kg-44667) remains excluded unless its delivered premium meets25%. Checked foods define the macro reference day, not daily purchasing mandates. The shopping plan, [91-food subscription audit](diet/DIET_SUBSCRIPTION_AUDIT.md) and [subscription cost comparison](diet/DIET_SUBSCRIPTION_COSTS.md) record exact packs, activation status, delivery costs and rotation budgets; opening carryover delays first purchases, while accepted renewals must balance without routine corrections.
+
+61. <a id="dental-staining"></a>**Dental staining — food, drink and oral-contact products** The 🦷 marker is a cosmetic staining precaution for natural teeth (including whitened teeth) and/or composite bonding. Use it to manage contact while retaining nutritious foods. It is not a severity score; unmarked items are not certified stain-free. Risk depends on the consumed form, concentration, frequency, contact time and restoration material/finish. [ADA staining overview](https://www.ada.org/resources/ada-library/oral-health-topics/whitening)
+
+    - **After marked foods/drinks:** rinse with plain Water promptly after finishing. Avoid swishing or prolonged sipping; for a suitable cool/lukewarm drink, an optional straw positioned behind the front teeth can reduce contact. These measures cannot guarantee stain prevention. **After acidic intake, rinse first and wait about 1 hour before brushing**; this also applies to unmarked acidic items. Acid erosion and pigment staining are separate concerns. Use the usual gentle brushing routine rather than scrubbing immediately to remove pigment. [ADA contact-reduction guidance](https://www.ada.org/resources/ada-library/oral-health-topics/dental-erosion) [ADA brushing interval](https://www.mouthhealthy.org/all-topics-a-z/dietary-acids-and-your-teeth)
+
+    | Marked foods/drinks | Evidence and interpretation |
+    | --- | --- |
+    | Matcha; Blueberries, Bilberries and Blackcurrants | Tea and dark fruits are established stain-source categories. The exact Matcha Latte and whole-berry portions have no quantified staining risk; adding Soy/lactose-free Milk does not establish protection. Blueberry-juice composite experiments support caution but use prolonged immersion. [Blueberry study](https://pubmed.ncbi.nlm.nih.gov/27814264/) |
+    | Strawberries, Raspberries, Pomegranate arils and Tart Cherries | Precautionary flags for pigmented fruit; evidence is less direct for these whole-fruit servings. Pomegranate/sour-cherry composite studies used juice, with material-dependent results. Do not interpret all Berries as equally staining. [Pomegranate study](https://pubmed.ncbi.nlm.nih.gov/28174359/) [Sour-cherry study](https://pubmed.ncbi.nlm.nih.gov/19262731/) |
+    | Sweet Paprika and Saffron | Laboratory studies show composite discoloration after extended spice-solution exposure. Visible staining from the listed 1g Paprika or 30mg Saffron serving has not been established. [Paprika study](https://pubmed.ncbi.nlm.nih.gov/24320904/) [Saffron study](https://pubmed.ncbi.nlm.nih.gov/29652015/) |
+    | Purple Sweet Potatoes at both meals, Purple Carrots and red Kimchi | Conservative pigment-contact inferences, with weaker evidence for the actual servings. Purple pigments and Kimchi's gochugaru seasoning justify a rinse reminder; they do not prove visible enamel or bonding stains after ordinary eating. The [linked Kimchi listing](https://www.frisco.pl/pid,133569/n,old-friends-kimchi-vegan-mild/stn,product) identifies gochugaru; no product-specific dental test is assumed. |
+
+    - **Supplement form matters:** L.6-7 Cocoa Flavanols and L.10 Curcumin remain unmarked when swallowed as intact capsules/softgels. Their contents do not have the same tooth exposure as Cocoa/Turmeric drinks. Plain WPI, EAA, Collagen and Creatine are not flagged merely because they are powders. Reassess any new liquid, chewable or pigmented mixed-drink formulation; liquid Iron is a documented staining exception if it is ever prescribed. [NHS liquid-Iron advice](https://www.nhs.uk/medicines/ferrous-sulfate/side-effects-of-ferrous-sulfate/)
+
+    - **Whitening and bonding:** natural teeth and composite can both discolor, but peroxide whitening does not predictably lighten composite like natural enamel. Persistent bonding discoloration needs a dentist's assessment for suitable cleaning/polishing or other care. Follow treatment-specific instructions after whitening or bonding; this marker does not impose a universal 48–72-hour white-food diet. [ADA whitening/restoration guidance](https://www.ada.org/resources/ada-library/oral-health-topics/whitening)
+
+    - **Oral-care exception:** the existing 0.2% Chlorhexidine/Curasept entry is also marked because Chlorhexidine can stain teeth and restorations. Curasept's ADS system aims to reduce staining rather than guarantee none. Follow its existing course and the dentist/product instructions; **do not apply the food/drink water-rinse rule immediately after therapeutic mouthwash**. [Curasept formulation](https://curasept.com/product/curasept-ads-dna-220-mouthwash/) [Chlorhexidine staining and use instructions](https://medlineplus.gov/druginfo/meds/a625015.html)
 
 ## TODOs / Things to consider
 *The intervention candidates are ranked from highest to lowest current expected marginal value and practical actionability for this protocol. Every item remains conditional: a confirmed indication can move a lower candidate sharply upward, while a missing trigger keeps it dormant.*
