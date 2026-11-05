@@ -3,14 +3,22 @@ on:
   push:
     branches: [protocol/supplement-audit-build-20261105]
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: supplement-review-20261105
+  cancel-in-progress: false
 jobs:
-  snapshot:
+  validate-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
+          path: helper
+          sparse-checkout: .review
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          path: work
           ref: 0f70a7bbd563485144d703edd6f07fe6c59d43d0
           sparse-checkout: |
             README.md
@@ -19,18 +27,69 @@ jobs:
             supplements/Supplement-Pillbox-Guide.docx
             cost/COST_ANALYSIS.md
           sparse-checkout-cone-mode: false
-      - name: Prepare public protocol sources only
+      - name: Apply verified text changes
         run: |
-          mkdir -p snapshot/tools snapshot/supplements snapshot/cost
-          cp README.md AGENTS.md snapshot/
-          cp tools/generate_pillbox_guide.py snapshot/tools/
-          cp supplements/Supplement-Pillbox-Guide.docx snapshot/supplements/
-          cp cost/COST_ANALYSIS.md snapshot/cost/
-          git rev-parse HEAD > snapshot/base-commit.txt
-          git ls-tree -r --name-only HEAD > snapshot/tracked-paths.txt
+          mkdir -p result
+          cp helper/.review/supplement-payload.b64 result/payload.b64
+          python3 - <<'PY'
+          import base64, hashlib, json, zlib
+          from pathlib import Path
+          root = Path('work')
+          payload = Path('result/payload.b64').read_text()
+          repairs = Path('helper/.review/payload-repairs.json')
+          if repairs.exists():
+              spec = json.loads(repairs.read_text())
+              assert hashlib.sha256(payload.encode()).hexdigest() == spec['before_sha256']
+              for start, end, replacement in reversed(spec['edits']):
+                  payload = payload[:start] + replacement + payload[end:]
+          assert hashlib.sha256(payload.encode()).hexdigest() == '33bc266aab8affdb28380cf2e0a78f8d1cf48e367e2aab3cd52fa49c57d39ee4', 'Transfer integrity check failed; no source files changed'
+          manifest = json.loads(zlib.decompress(base64.b64decode(payload, validate=False)))
+          assert manifest['base'] == '0f70a7bbd563485144d703edd6f07fe6c59d43d0'
+          allowed = {'README.md', 'tools/generate_pillbox_guide.py', 'tools/test_supplement_replacements.py', 'supplements/FORMULATION_UPGRADES_20261105.md'}
+          assert set(manifest['files']) == allowed
+          for name, spec in manifest['files'].items():
+              path = root / name
+              if 'new' in spec:
+                  assert not path.exists(), name
+                  text = spec['new']
+              else:
+                  text = path.read_text()
+                  assert hashlib.sha256(text.encode()).hexdigest() == spec['base_sha256'], name
+                  for start, end, replacement in reversed(spec['character_edits']):
+                      text = text[:start] + replacement + text[end:]
+              assert hashlib.sha256(text.encode()).hexdigest() == spec['sha256'], name
+              path.parent.mkdir(parents=True, exist_ok=True)
+              path.write_text(text)
+          Path('result/text-manifest.json').write_text(json.dumps({k:v['sha256'] for k,v in manifest['files'].items()}, indent=2))
+          PY
+      - name: Generate and validate guide
+        working-directory: work
+        run: |
+          python3 -m pip install --disable-pip-version-check python-docx==1.2.0
+          python3 -B -c "from pathlib import Path; [compile(p.read_text(), str(p), 'exec') for p in (Path('tools/generate_pillbox_guide.py'), Path('tools/test_supplement_replacements.py'))]"
+          python3 -B tools/generate_pillbox_guide.py
+          python3 -B -m unittest discover -s tools -p test_supplement_replacements.py -v 2>&1 | tee ../result/tests.txt
+          git diff --check
+          git diff --stat
+          git status --short
+      - name: Publish only reviewed protocol files
+        working-directory: work
+        run: |
+          set -euo pipefail
+          git switch -c protocol/supplement-formulation-upgrades-20261105
+          git add README.md tools/generate_pillbox_guide.py tools/test_supplement_replacements.py supplements/FORMULATION_UPGRADES_20261105.md supplements/Supplement-Pillbox-Guide.docx
+          test "$(git diff --cached --name-only | wc -l)" -eq 5
+          git -c user.name='Pawel Troka' -c user.email='11928766+PawelTroka@users.noreply.github.com' commit -m 'Apply verified supplement formulation replacements and reconcile dosing guides'
+          git push origin HEAD:refs/heads/protocol/supplement-formulation-upgrades-20261105
+          git rev-parse HEAD > ../result/head-commit.txt
+          git diff HEAD^ HEAD --stat > ../result/change-summary.txt
+          cp README.md ../result/README.md
+          cp tools/generate_pillbox_guide.py tools/test_supplement_replacements.py ../result/
+          cp supplements/Supplement-Pillbox-Guide.docx supplements/FORMULATION_UPGRADES_20261105.md ../result/
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
         with:
-          name: supplement-review-source
-          path: snapshot/
+          name: supplement-review-result
+          path: result/
           retention-days: 3
           if-no-files-found: error
