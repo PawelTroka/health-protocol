@@ -1,0 +1,36 @@
+name: Supplement review build
+on:
+  push:
+    branches: [protocol/supplement-audit-build-20261105]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: 0f70a7bbd563485144d703edd6f07fe6c59d43d0
+          sparse-checkout: |
+            README.md
+            AGENTS.md
+            tools/generate_pillbox_guide.py
+            supplements/Supplement-Pillbox-Guide.docx
+            cost/COST_ANALYSIS.md
+          sparse-checkout-cone-mode: false
+      - name: Prepare public protocol sources only
+        run: |
+          mkdir -p snapshot/tools snapshot/supplements snapshot/cost
+          cp README.md AGENTS.md snapshot/
+          cp tools/generate_pillbox_guide.py snapshot/tools/
+          cp supplements/Supplement-Pillbox-Guide.docx snapshot/supplements/
+          cp cost/COST_ANALYSIS.md snapshot/cost/
+          git rev-parse HEAD > snapshot/base-commit.txt
+          git ls-tree -r --name-only HEAD > snapshot/tracked-paths.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: supplement-review-source
+          path: snapshot/
+          retention-days: 3
+          if-no-files-found: error
