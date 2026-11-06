@@ -716,7 +716,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥈 **B.6** 2x [Fenugreek Seed Extract 300mg](https://gemini.pl/kenay-ekstrakt-z-kozieradki-testofen-60-kapsulek-vege-0092834) 🍆 🩸 🚽
   - Testofen®; Fenuside™ Saponins 150mg (50%)
 - 🥉 **B.7** [Tribulus Terrestris 1500mg](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-testosteron-1500mg-90-14876230440) 🍆
-- 🥉 **B.8-9** 2x2 [Calcium Alpha-Ketoglutarate (CaAKG) 500mg](https://sklep.sfd.pl/SFD_NUTRITION_Ca-AKG_Alfa-Ketoglutaran_Wapnia-opis44968.html) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
+- 🥉 **B.8-9** 4x [Calcium Alpha-Ketoglutarate (CaAKG) 500mg](https://sklep.sfd.pl/SFD_NUTRITION_Ca-AKG_Alfa-Ketoglutaran_Wapnia-opis44968.html) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
   - Calcium 100mg; Vitamin D3 500IU; Vitamin K2 MK-7 25mcg per tablet
 
 ### During workout
