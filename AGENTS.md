@@ -97,7 +97,7 @@ These are workflow constraints, not immutable medical facts. Preserve them unles
 - Keep the protocol and Notes positive, energetic, constructive and forward-looking. Lead with what is working, what is promising and the practical path to improvement before discussing limitations.
 - Avoid gloomy, cynical, scolding, defeatist or catastrophizing language. Do not make a sophisticated protocol sound like a catalogue of failures, and do not write in a persistently depressed tone.
 - Positivity must remain evidence-honest: state material risks clearly, calmly and proportionately, then pair them with an actionable mitigation, monitoring plan, better formulation or next research step. Never hide a safety issue to preserve an upbeat tone.
-- Use compact number-unit forms everywhere in the protocol and guide: `1g`, `250mg`, `1,000IU`, `1scoop`, `1tbsp`, `1pill`, `200mln CFU`. Leave natural prose durations such as “12 weeks” readable.
+- Use compact number-unit forms everywhere in the protocol and guide: `1g`, `250mg`, `1,000IU`, `1scoop`, `1tbsp`, `1pill`, `200mln CFU`. Use grams for doses of 1g or more. Leave natural prose durations such as “12 weeks” readable.
 - Use `~` only for a genuine estimate, not for a labeled scoop or capsule count.
 - Keep timing sections compact. Do not insert gratuitous blank lines directly after timing headings, before `🥤 drink:`, before `🥤 intra-workout drink:`, or between the final drink entry and `💊 pills:`.
 - Active protocol names should normally lead with the ingredient, form, strain, plant part or meaningful standardization rather than marketing copy.
