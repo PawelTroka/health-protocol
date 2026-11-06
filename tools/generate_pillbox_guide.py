@@ -63,16 +63,17 @@ TIER_BY_CODE = {
     "M.13": "🥈",
     "M.14": "🥉",
     "M.15": "🥉",
+    "M.16": "🥉",
     "M.18": "🥉",
     "L.2": "🥇",
     "L.3": "🥇",
-    "L.4": "🥇",
     "L.5": "🥈",
     "L.6": "🥈",
     "L.7": "🥈",
     "L.9": "🥈",
     "L.10": "🥈",
     "L.11": "🥈",
+    "L.12": "🥉",
     "L.13": "🥉",
     "L.14": "🥈",
     "L.15": "🥈",
@@ -107,6 +108,7 @@ TIER_BY_CODE = {
     "A.2": "🥈",
     "A.3": "🥈",
     "A.4": "🥈",
+    "A.8": "🥈",
     "A.9": "🥈",
 }
 
@@ -194,7 +196,13 @@ PAGES = [
                 icons="🧠 ⚡",
                 same_slot_count=3,
             ),
-            empty("M.16"),
+            item(
+                "M.16",
+                "Trimethylglycine (TMG / Betaine Anhydrous)",
+                "1,000mg",
+                icons="🧠 ❤️ 🔄",
+                note="Keep in original bottle; load just before use",
+            ),
             empty("M.17"),
             item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons="⏰ 🧠"),
         ],
@@ -203,7 +211,7 @@ PAGES = [
         "title": "LUNCH • BOX 1",
         "range": "L.1–L.9",
         "accent": "lunch",
-        "callout": "Omega-3 is conditional: use L.2–L.4 on non-Fatty-Fish days only.",
+        "callout": "Omega-3 is conditional: use L.2–L.3 on non-Fatty-Fish days only.",
         "cells": [
             {
                 "code": "L.1",
@@ -214,9 +222,9 @@ PAGES = [
                     item("L.1.2", "Tadalafil", "5 mg", icons="🍆 ❤️ 🫀 🍅 ⚕️", kind="rx"),
                 ],
             },
-            item("L.2", "Omega 3", "500 mg EPA • 250 mg DHA", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
-            item("L.3", "Omega 3", "500 mg EPA • 250 mg DHA", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
-            item("L.4", "Omega 3", "500 mg EPA • 250 mg DHA", icons="🧠 ❤️ 👁️ 🔥", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
+            item("L.2", "Omega 3 (Triglyceride Form)", "690mg EPA • 310mg DHA", icons="🧠 ❤️ 👁️ 🔥 🔄", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
+            item("L.3", "Omega 3 (Triglyceride Form)", "690mg EPA • 310mg DHA", icons="🧠 ❤️ 👁️ 🔥 🔄", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
+            empty("L.4"),
             item("L.5", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
             item("L.6", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠"),
             item("L.7", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠"),
@@ -238,7 +246,13 @@ PAGES = [
                 note="Advanced Curcumin Elite™ • Gingerols 60mg • Turmerones 75mg",
             ),
             item("L.11", "Ceratiq® Wheat Oil Extract", "350 mg", icons="👨‍🦳 💧 🔄", note="Phytoceramides • glycosylceramides • glycolipids"),
-            empty("L.12"),
+            item(
+                "L.12",
+                "Trimethylglycine (TMG / Betaine Anhydrous)",
+                "1,000mg",
+                icons="🧠 ❤️ 🔄",
+                note="Keep in original bottle; load just before use",
+            ),
             item("L.13", "Broccoli Seed Extract", "200 mg", icons="🛡️ 🍅 🔥", note="Glucoraphanin 20 mg • Myrosinase"),
             item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽"),
             item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🛡️ 🔄", note="SAC 2.5 mg • standardized to 0.5%"),
@@ -338,8 +352,8 @@ PAGES = [
             empty("A.5"),
             empty("A.6"),
             empty("A.7"),
-            empty("A.8"),
-            item("A.9", "Glucosamine Sulfate 2KCl", "1,400 mg", icons="🦴 🛡️"),
+            item("A.8", "Glucosamine Sulfate", "750mg", icons="🦴 👨‍🦳 🛡️ 🔄", note="From 1,047.5mg Glucosamine Potassium Sulfate Complex"),
+            item("A.9", "Glucosamine Sulfate", "750mg", icons="🦴 👨‍🦳 🛡️ 🔄", note="From 1,047.5mg Glucosamine Potassium Sulfate Complex"),
         ],
     },
 ]
@@ -640,7 +654,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 26 AUG 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 06 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
