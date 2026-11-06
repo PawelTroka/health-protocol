@@ -177,7 +177,7 @@ PAGES = [
         "title": "MORNING • BOX 2",
         "range": "M.10–M.18",
         "accent": "morning",
-        "callout": "M.15 holds all three NR capsules together.",
+        "callout": "M.15 holds all three small NR capsules together.",
         "cells": [
             item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 🛡️ 🔄", note="ErgoActive® • Vitamin C 5 mg"),
             item("M.11", "NAC", "1 g", icons="🛡️ 🫁 🔄"),
@@ -191,9 +191,9 @@ PAGES = [
             ),
             item(
                 "M.15",
-                "Nicotinamide Riboside Chloride",
+                "Nicotinamide Riboside",
                 "300 mg",
-                icons="⏰ 🧠 ❤️ 💪",
+                icons="🧠 ⚡",
                 same_slot_count=3,
             ),
             item(
