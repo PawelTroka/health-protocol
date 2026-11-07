@@ -4,16 +4,17 @@
 ## Table of Importance
 - [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
 - [1. Promote good behaviors](#1-promote-good-behaviors)
-- [2. Testing](#2-testing)
-- [3. Exercise](#3-exercise)
-- [4. Diet](#4-diet)
-- [5. Supplements and drugs](#5-supplements-and-drugs)
-- [6. Looksmaxxing](#6-looksmaxxing)
-- [7. Cookware](#7-cookware)
-- [8. Environment](#8-environment)
-- [9. Vaccines](#9-vaccines)
-- [10. Peptides](#10-peptides)
-- [11. Surgeries](#11-surgeries)
+- [2. Social connection & psychological wellbeing](#2-social-connection--psychological-wellbeing)
+- [3. Testing](#3-testing)
+- [4. Exercise](#4-exercise)
+- [5. Diet](#5-diet)
+- [6. Supplements and drugs](#6-supplements-and-drugs)
+- [7. Looksmaxxing](#7-looksmaxxing)
+- [8. Cookware](#8-cookware)
+- [9. Environment](#9-environment)
+- [10. Vaccines](#10-vaccines)
+- [11. Peptides](#11-peptides)
+- [12. Surgeries](#12-surgeries)
 - [Legend](#legend)
 - [Notes](#notes)
 - [TODOs / Things to consider](#todos--things-to-consider)
@@ -26,6 +27,7 @@
 - ❌️ sunbathing
 - ❌️ unprotected sex
 - ✋️ low productivity activities, low value-adding activities that can be outsourced
+- ✋️ work or scrolling that routinely displaces sleep, relationships or restorative leisure
 - ✋️ excessive social media usage
 - ⚠️ excessive gaming and TV
 - ⚠️ sleep schedule disruptions
@@ -35,12 +37,22 @@
 - Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
 - Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
 - Cold exposure	(4 times a week) 🔥 🛡️ ⚡
-- Meditation / breathwork (daily) 🧠 😌
 - Walks (daily) 🫁 ❤️
 - Stretching (6 times a week) 🦴 💪
 - Sleep tracking (daily) 😴
 
-## 2. Testing
+<a id="social-connection--psychological-wellbeing"></a>
+
+## 2. Social connection & psychological wellbeing
+- **Daily connection**: Make room for an attentive conversation or shared activity with a partner, friend or family member. 😌
+- **Weekly social plan**: Arrange one enjoyable plan; a walk, shared meal, cooperative game or the existing Sunday sport can count. Keep friendships/family contact alongside the relationship. 😌 ⏰
+- **Mental reset**: Meditation or comfortable paced breathing, 5-10mins daily; use a relaxing walk instead if the exercise feels unpleasant. 🧠 😌
+- **Work boundaries & enjoyment**: Set a practical stopping point for work and protect satisfying leisure without requiring a productivity outcome. 😌
+- **Weekly check-in**: Briefly review mood, stress, enjoyment and feeling connected; choose one useful adjustment if needed. 🧠 😌
+
+<a id="2-testing"></a>
+
+## 3. Testing
 
 ### Daily Tracking
 We are following "bleeding-edge" approach when it comes to daily tracking, always pushing for the best in each category.
@@ -165,7 +177,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 
 
-## 3. Exercise
+<a id="3-exercise"></a>
+
+## 4. Exercise
 
 ### Ultimate Optimized Daily Activity & Training Routine: Aesthetics, Longevity & Sexual Health
 
@@ -287,7 +301,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Joker**: A random sport used for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)* 🫁 ⏰
 
 
-## 4. Diet
+<a id="4-diet"></a>
+
+## 5. Diet
 
 ### Protein-sparing Mediterranean Caloric-Restriction diet
 
@@ -592,7 +608,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Sources and calculation details: Diet Notes below. Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
 
 
-## 5. Supplements and drugs
+<a id="5-supplements-and-drugs"></a>
+
+## 6. Supplements and drugs
 Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
 Within each timing, entries are ordered roughly by evidence-weighted expected net benefit; multi-ingredient products can contain components with different evidence ranks. Active entries generally use generic ingredient names, while exact manufacturer, product, branded-formulation or strain names remain where identity or provenance materially defines the selected intervention; the links identify the exact selected products, and the Notes explain deeper formulation evidence. Numeric quantities use compact number-unit formatting, such as `1g`, `250mg` and `1scoop`. List order does not create additional timing windows. Evidence medals precede supplement codes: 🥇 Gold marks the strongest relevant human evidence plus meaningful expected benefit, 🥈 Silver marks supportive but smaller, indirect or limited human evidence and/or a more modest marginal benefit, and 🥉 Bronze marks an exploratory intervention supported mainly by mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit. A medal grades the exact active intervention in this protocol—not product purity, safety, organizer order or a guaranteed individual response; Bronze is not automatically a removal recommendation, and an indication, biomarker or reproducible response can change a tier. Drugs, Water and EVOO remain intentionally unmedalled, and blend medals apply to the overall intervention rather than every nested ingredient.
 The Morning, Lunch and Evening organizers each use two linked 9-compartment [GymBeam Adjustable PillBoxes](https://gymbeam.com/adjustable-pillbox-gymbeam.html), while Before Workout and After Workout each use one. Timing codes map the protocol directly to preparation: `M`, `L`, `B`, `IW`, `A` and `E` mean Morning, Lunch, Before Workout, Intra-Workout, After Workout and Evening; numbered pill codes are physical organizer compartments; `.1` and `.2` divide one compartment between two small, clearly distinguishable pills; a range such as `L.2-3` means one large pill in each listed compartment; and a multiplier within one code, such as `M.15 3x`, means the small pills share that compartment. Zero-series codes such as `M.0.2` identify drinks or powders outside the pill organizer and do not consume a compartment. In a deeper code such as `M.0.3.2.1`, the next number identifies the bold ingredient subgroup and the final number identifies that ingredient's position within the subgroup. Slot-code superscripts on nested ingredients point to the corresponding Notes topic and never consume organizer compartments. Empty compartments remain strategically positioned at the largest practical evidence-benefit gaps.
@@ -769,7 +787,9 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 🧠 😌 🩸
 - 🥉 **E.18** [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924) 😴 😌
 
-## 6. Looksmaxxing
+<a id="6-looksmaxxing"></a>
+
+## 7. Looksmaxxing
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
 
 ### Oral health / teethmaxxing
@@ -862,7 +882,9 @@ There are actual studies that confirm if you look younger and better you are mor
 - Hand Cream [CeraVe Hand Repair Cream](https://allegro.pl/produkt/cerave-regenerujacy-krem-do-bardzo-suchej-skory-rak-3-ceramidy-100-ml-96a251fc-9016-4a0c-948d-9d79c262b0f8) or [Avène Cicalfate Hand Cream](https://allegro.pl/oferta/avene-cicalfate-repair-barrier-cream-regenerujacy-krem-do-rak-100-ml-18155514088) 👨‍🦳 💧
 
 
-## 7. Cookware
+<a id="7-cookware"></a>
+
+## 8. Cookware
 My kitchen is equipped only with materials that prioritize health and safety. I avoid microplastics and synthetic materials in favor of biologically neutral, natural options including:
 - Stainless steel
 - Natural untreated wood
@@ -911,7 +933,9 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 - Recommended: [Stainless Steel Kitchen Tool Set](https://allegro.pl/oferta/komplet-przyborow-ze-stali-nierdzewnej-6-elementowy-zestaw-akcesoria-17957470946)
   *Complete set of durable, sanitary cooking implements*
 
-## 8. Environment
+<a id="8-environment"></a>
+
+## 9. Environment
 Even if you do everything right you can be exposed to harmful environment, so it is crucial to do everything to have a healthy environment.
 
 ### Clean water
@@ -966,7 +990,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - **Maintenance:** check the filter after each load; clean filters, seals and spray holes as needed. Every 1–2 months: [Siemens 00311994, 250ml](https://www.siemens-home.bsh-group.com/pl/pl/product/produkty-do-czyszczenia-i-pielegnacji/cleaningandcaredishwashing/cleaningandcaredishwashingcleaners/00311994), 1 bottle in an empty ≥65°C cycle, following the label; no detergent.
 - **Persistent limescale:** correct softener settings first. Use [Sonett 1l](https://ekologiczny.pl/p/54/1545/sonett-odkamieniacz-1-litr-zmywarka-zmywanie-srodki-czystosci-kosmetyki-sonett.html) in an empty machine only if its manual permits; follow the label and never mix cleaners.
 
-## 9. Vaccines
+<a id="9-vaccines"></a>
+
+## 10. Vaccines
 - Tuberculosis (BCG)	(given in childhood) ✅
 - Haemophilus influenzae type b (Hib) (given in childhood) ✅
 - Diphtheria‑Pertussis-Tetanus-Polio (dTpa-IPV) (every 10 years, next 2029-08-21) ✅
@@ -987,7 +1013,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Shingles (Herpes Zoster, Shingrix) (2doses when 50+ years old)
 - Pneumococcal (PCV20 (Prevnar 20)) (1dose when 65+ years old)
 
-## 10. Peptides
+<a id="10-peptides"></a>
+
+## 11. Peptides
 - [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) 🦴 🛡️ 🫀  
   10mg / 4ml  
   2.5mg / ml  
@@ -1011,7 +1039,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
   1-2mg -> 5-10IU/day
 
 
-## 11. Surgeries
+<a id="11-surgeries"></a>
+
+## 12. Surgeries
 
 - **Sapphire FUE Hair Transplant**
   - **Date**: November 19, 2021
