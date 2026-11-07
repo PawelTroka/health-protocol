@@ -207,7 +207,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 🗿
 - **Core**: Standing Cable Crunches: 20 × 20kg, 18 × 25kg, 16 × 30kg (Exhale fully on contraction; TVA focus: draw in, keep stomach flat, prevent coning, stop if midline ridge forms) 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: StairMaster: 20mins at level 6/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: StairMaster: 20mins at level 8/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
 
 ---
 
@@ -249,7 +249,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Neck**: Resistance Band Neck Extensions: 20 × 2.5kg, 18 × 3.75kg, 16 × 5kg 🗿
 - **Core**: Reverse Crunches: 30 reps, 25 reps, 20 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
 - **Waist**: Stomach Vacuums: 3x 60s 🗿
-- **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 10/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 12/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
 
 ---
 
