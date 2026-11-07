@@ -300,6 +300,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 **How to use:** every CHOOSE list ranks options by evidence-weighted Health, Longevity, Looksmaxxing and Sexual Health benefit at the listed portions, adjusted for GI tolerance and stack fit. Fixed items plus checked choices form the reference day. Choose Spices & Herbs at their individual portions; rotate foods across the week and recalculate Macros for substitutions.
 
+**Dental staining:** 🟡 marks a possible staining source for natural/whitened teeth or composite bonding. Evidence varies; use the [care guide and evidence tiers](#dental-staining) to manage contact while keeping nutritious foods.
+
 **Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 75g Mushrooms, 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Variety accumulates across the week; every alternative need not be bought or eaten.
 
 > **GI fit:** 43–46g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the GI options below.
@@ -326,7 +328,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `Cinnamaldehyde · Proanthocyanidins`
   - [ ] 0.25g freshly ground [organic Cloves](https://bioshi.pl/pl/products/gozdziki-cale-bio-30-g-dary-natury-46303) 🛡️ 🪶 🔄
     - `Eugenol · Ellagitannins`
-  - [ ] 30mg [Eurofins-tested ISO 3632 Category I Saffron Threads](https://saffrona.eu/produkt/safran-0-5g-kaufen/) *(occasional culinary rotation; steep before blending)* 🛡️ 😌 🧠 🪶
+  - [ ] 30mg [Eurofins-tested ISO 3632 Category I Saffron Threads](https://saffrona.eu/produkt/safran-0-5g-kaufen/) *(occasional culinary rotation; steep before blending)* 🛡️ 😌 🧠 🪶 🟡
     - `Crocins · Safranal · Picrocrocin · Kaempferol Glycosides`
 - 🫒 13.5g (1tbsp) [Pamako ultra-premium EVOO](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶
   - `122kcal · F13.5g · 2,081mg/kg Polyphenols · Oleocanthal · Oleacein · MUFAs · Vitamin E · Squalene · Phytosterols`
@@ -392,15 +394,15 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - [ ] 30g thoroughly steamed [organic Radish Sprouts](https://bioshi.pl/pl/products/kielki-rzodkiewki-swieze-bio-okolo-50-g-46190) 🛡️ 🦠 🔄
     - `18kcal · P1.4g · C1.6g · F0.4g · Fiber1.1g · Glucoraphenin`
 - 🫐 **Berries — CHOOSE ONE**
-  - [x] 150g fresh [organic Blueberries](https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183) 🛡️ ⏰ 🗿 🧠 ❤️ 👁️ 👨‍🦳 🪶 🔄
+  - [x] 150g fresh [organic Blueberries](https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183) 🛡️ ⏰ 🗿 🧠 ❤️ 👁️ 👨‍🦳 🪶 🔄 🟡
     - `86kcal · P1.1g · C18.2g · F0.5g · Fiber3.6g · Anthocyanins · Vitamin C · Vitamin K1 · Manganese · Proanthocyanidins · Chlorogenic Acids · Flavonols`
-  - [ ] 100g frozen [Wild Bilberries](https://zakupy.auchan.pl/products/jagoda-czarna-pewni-dobrego-200-g/00073105) 🛡️ ⏰ 🗿 🧠 👁️
+  - [ ] 100g frozen [Wild Bilberries](https://zakupy.auchan.pl/products/jagoda-czarna-pewni-dobrego-200-g/00073105) 🛡️ ⏰ 🗿 🧠 👁️ 🟡
     - `61kcal · P0.8g · C12g · F0.8g · Fiber3g · Anthocyanins · Vitamin E · Proanthocyanidins · Chlorogenic Acids · Flavonols`
-  - [ ] 100g frozen [Polish Blackcurrants](https://zakupy.auchan.pl/products/czarna-porzeczka-auchan-350-g/00561302) 🛡️ ⏰ 🗿 ❤️ 👁️
+  - [ ] 100g frozen [Polish Blackcurrants](https://zakupy.auchan.pl/products/czarna-porzeczka-auchan-350-g/00561302) 🛡️ ⏰ 🗿 ❤️ 👁️ 🟡
     - `56kcal · P1.4g · C7.6g · F1g · Fiber5g · Anthocyanins · Vitamin C · Proanthocyanidins · Flavonols`
   - [ ] 150g fresh [organic Strawberries](https://bioshi.pl/pl/products/truskawka-swieza-bio-polska-opakowanie-ok-0-45-kg-77418) 🛡️ ⏰ 🗿 ❤️ 👨‍🦳 🔄
     - `48kcal · P1.1g · C8.6g · F0.5g · Fiber3g · Vitamin C · Anthocyanins · Ellagitannins · Proanthocyanidins`
-  - [ ] 100g fresh [organic Raspberries](https://bioshi.pl/pl/products/maliny-swieze-bio-polska-okolo-0-125-kg-bio-planet-88768) 🛡️ ⏰ 🗿 ❤️ 🦠 👨‍🦳 🔄
+  - [ ] 100g fresh [organic Raspberries](https://bioshi.pl/pl/products/maliny-swieze-bio-polska-okolo-0-125-kg-bio-planet-88768) 🛡️ ⏰ 🗿 ❤️ 🦠 👨‍🦳 🔄 🟡
     - `52kcal · P1.2g · C5.5g · F0.7g · Fiber6.5g · Ellagitannins · Anthocyanins · Vitamin C · Proanthocyanidins`
 - 🌿 **Spices & Herbs — CHOOSE ANY**
   - [ ] 1g freshly ground [organic Brown Mustard Seed](https://www.olium.pl/gorczyca-brazowa-ziarno-bio-100-g-p451) 🛡️ 🪶
@@ -415,7 +417,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `Linalool`
   - [x] 1g freshly ground [organic Cumin Seed](https://bioshi.pl/pl/products/kmin-rzymski-cale-nasiona-bio-30-g-dary-natury-46593) 🛡️ 🪶 🔄
     - `Cuminaldehyde`
-  - [ ] 1g [organic Sweet Paprika](https://marketbio.pl/papryka-slodka-bio-50-g-lebensbaum.html) 🛡️ 🪶
+  - [ ] 1g [organic Sweet Paprika](https://marketbio.pl/papryka-slodka-bio-50-g-lebensbaum.html) 🛡️ 🪶 🟡
     - `Capsanthin · Capsorubin · Beta-Carotene · Zeaxanthin`
 - 🫒 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶 🔄
   - `122kcal · F13.5g · 917mg/kg Polyphenols · Oleocanthal · Oleacein · MUFAs · Vitamin E · Squalene · Phytosterols`
@@ -424,7 +426,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### 🍵 Afternoon drink (3pm; at least 2 hours after Lunch and 8 hours before sleep — Matcha & Protein)
 *71kcal · P7.2g · C<0.1g · F3.7g · Fiber2g*
 - **Matcha Latte**
-  - 2g [organic Matcha](https://moyamatcha.com/products/moya-matcha-codzienna-organiczna-japonska-herbata) 🛡️ 🧠
+  - 2g [organic Matcha](https://moyamatcha.com/products/moya-matcha-codzienna-organiczna-japonska-herbata) 🛡️ 🧠 🟡
     - `5kcal · P0.6g · C<0.1g · F0.1g · Fiber0.8g · Tea Catechins (including EGCG) · L-Theanine · Caffeine · Rutin · Phenolic Acids`
   - 🥛 **Milk — CHOOSE ONE**
     - [x] 200ml [fortified unsweetened Soy Milk](https://www.frisco.pl/pid,2530/n,alpro-napoj-sojowy-bez-cukru/stn,product) 🛡️ 🗿 ❤️ 🦴 🌱
@@ -495,13 +497,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `88kcal · P1.6g · C16.6g · F0.6g · Fiber4.6g · Vitamin C · Actinidin · Pectin`
   - [ ] 150g [organic Orange](https://bioshi.pl/pl/products/pomarancze-bio-1-kg-49176) 🛡️ ⏰ 🗿 ❤️ 👨‍🦳 🔄
     - `71kcal · P1.4g · C14.1g · F0.2g · Fiber3.6g · Vitamin C · Citrus Flavanones (Hesperidin/Narirutin) · Folate`
-  - [ ] 130g [Pomegranate](https://zakupy.auchan.pl/products/granat-kaliber-%C5%9Bredni-owoce-auchan-sztuka/00031949) *(Arils)* 🛡️ ⏰ ❤️
+  - [ ] 130g [Pomegranate](https://zakupy.auchan.pl/products/granat-kaliber-%C5%9Bredni-owoce-auchan-sztuka/00031949) *(Arils)* 🛡️ ⏰ ❤️ 🟡
     - `108kcal · P2.2g · C19.1g · F1.6g · Fiber5.2g · Anthocyanins · Folate · Potassium`
   - [ ] 150g fresh [Guava](https://www.lokalnywarzywniak.pl/pl/owoce/124-guawa-gujawa-gruszla.html) *(well-ripened)* 🛡️ ⏰ 🗿 👨‍🦳
     - `102kcal · P3.9g · C13.4g · F1.5g · Fiber8.1g · Vitamin C · Phenolic Acids`
   - [ ] 200g [organic Mango](https://bioshi.pl/pl/products/mango-swieze-bio-okolo-0-30-kg-68991) 🛡️ ⏰ 🗿 👁️
     - `120kcal · P1.6g · C26.8g · F0.8g · Fiber3.2g · Carotenoids · Vitamin C · Folate · Gallotannins`
-  - [ ] 100g frozen [Polish Tart Cherries](https://zakupy.auchan.pl/products/wi%C5%9Bnie-bez-pestek-auchan-400-g/00179831) 🛡️ ⏰ 😴 🔥
+  - [ ] 100g frozen [Polish Tart Cherries](https://zakupy.auchan.pl/products/wi%C5%9Bnie-bez-pestek-auchan-400-g/00179831) 🛡️ ⏰ 😴 🔥 🟡
     - `49kcal · P0.9g · C9.9g · F0.5g · Fiber1g · Anthocyanins · Chlorogenic Acids · Flavonols`
 - 🌰 **Nuts — CHOOSE ONE**
   - [x] 20g [organic Walnuts](https://bioshi.pl/pl/products/orzechy-wloskie-bio-300-g-bio-planet-44492) 🛡️ ⏰ 🍆 ❤️ 🧠 🦠 🪶 🔄
@@ -775,7 +777,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Mandibular osteotomy (Bilateral Sagittal Split Osteotomy (BSSO) / jawline advancement) if orthodontics alone are not enough to fix bite/jaw alignment issues
 - Wear retainers (nightly) if after orthodontic treatment
 - Mouthwash protocol:
-  - After professional dentist cleaning: 0.2% chlorhexidine mouthwash like [Curasept](https://allegro.pl/oferta/plyn-do-plukania-curasept-ads-dna-220-chlorhexidine-0-20-200-ml-16510740761) (for a week)
+  - After professional dentist cleaning: 0.2% chlorhexidine mouthwash like [Curasept](https://allegro.pl/oferta/plyn-do-plukania-curasept-ads-dna-220-chlorhexidine-0-20-200-ml-16510740761) (for a week) 🟡
   - When using orthodontic braces: [Eludril Ortho](https://allegro.pl/produkt/eludril-ortho-ortodontyczny-plyn-do-plukania-jamy-ustnej-500-ml-a905bf84-1178-4f98-b31b-3da919da2410) (Twice daily)
   - For normal care: non-alcohol mouthwash like [Listerine Zero](https://allegro.pl/oferta/listerine-cool-mint-zero-bez-alkoholu-plyn-do-plukania-ust-1l-1000ml-9775677304) (Twice daily)
 - Water flosser [waterpik ultra professional WP660](https://www.amazon.pl/Waterpik-Professional-Zaawansowana-Ci%C5%9Bnienia-WP-660EU) (Twice daily)
@@ -1093,6 +1095,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - 🟤 Liver/Organ function
 - 🪶 Low-FODMAP
 - 🎈 High-FODMAP
+- 🟡 Tooth/bonding staining precaution; evidence varies — [care and evidence](#dental-staining)
 
 *FODMAP tags apply to the listed portion/preparation; unmarked = unverified. [Serving checks](#diet-fodmap-tags).*
 
@@ -1195,6 +1198,21 @@ Notes are included only when totals, dose uncertainty, timing, safety or another
 61. **B.0.2** EvoBomb 2.0 Lemon replaces daily BULK. Mix 20g in 300ml Water. Caffeine 200mg and Beta-Alanine 4g remain; actual Citrulline rises from approximately 5.33g to 8g. AstraGin is not equivalent to Alpha-GPC; the removed GPC, Theanine, Theobromine, SenActiv and BioPerine are not automatically replaced. E.6 retains Theanine 400mg. Review the higher Citrulline dose with the prescriber alongside Tadalafil and oral Minoxidil, using seated/standing Blood Pressure and symptoms, especially around Sauna. Timing separation does not remove systemic effects. Lemon has no listed colouring; assess GI tolerance to the sweeteners. Sodium and other carrier minerals remain unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95)
 
 62. **B.8-9** SFD CaAKG supplies 2g/day from four 500mg tablets. It also adds Calcium 400mg, D3 2,000IU and K2 MK-7 100mcg. With MicroVitamin+, D3 reaches 3,000IU/day; quantified supplemental Calcium is 572mg ordinarily or 652mg on Sauna days before food and unquantified carriers. The nutrition table gives 25mcg D3 per two tablets, equal to 1,000IU; its prose conversion is inconsistent. All four tablets remain Before Workout for the requested layout, consolidating the label's two-with-meals twice-daily schedule. The 2g dose matches the selected Blueprint comparison, but superiority over 1.5g and Longevity benefit remain unproven; a completed 2g trial has no posted results. Recheck 25-OH Vitamin D and Calcium after 8–12 weeks. [SFD label](https://sklep.sfd.pl/SFD_NUTRITION_Ca-AKG_Alfa-Ketoglutaran_Wapnia-opis44968.html) [2g trial](https://clinicaltrials.gov/study/NCT07114536)
+
+63. <a id="dental-staining"></a>**Dental staining — evidence and practical care** 🟡 is a contact-management reminder for possible staining of natural teeth (including whitened teeth) and/or composite bonding. It is not a severity ranking, proof that the listed serving stains, or a reason to remove nutritious foods. Unmarked items are not certified stain-free. The [full item-by-item audit](diet/DENTAL_STAINING_AUDIT.md) records the 2026-11-07 review, including removed flags, conflicting results and current formulations.
+
+    | Marked item | Evidence tier and practical interpretation |
+    | --- | --- |
+    | 0.2% Chlorhexidine/Curasept | Established human staining risk. ADS aims to reduce staining; it does not guarantee none. Keep the dentist/product instructions separate from food/drink rinsing. [Clinical trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC3469897/) [Curasept](https://curasept.com/product/curasept-ads-dna-220-mouthwash/) |
+    | Matcha | Established Tea category plus a direct Matcha/composite experiment. The studies used prolonged immersion, not this 2g Latte; everyday risk and Milk protection are unquantified. [ADA](https://www.ada.org/resources/ada-library/oral-health-topics/whitening) [Matcha experiment](https://pmc.ncbi.nlm.nih.gov/articles/PMC12263494/) |
+    | Blueberries, Bilberries and Blackcurrants | Dark-fruit precaution; Blueberry-juice experiments support composite staining potential. Exact whole-fruit portions and species cannot be ranked by these data. [Blueberry experiment](https://pubmed.ncbi.nlm.nih.gov/27814264/) |
+    | Raspberries, Pomegranate arils and Tart Cherries | Indirect, lower-confidence whole-fruit precautions based on juice/composite experiments. The Raspberry report also lacks juice composition/pH characterization. [Raspberry experiment](https://jpmsonline.com/article/download/1078/) [Pomegranate experiment](https://pubmed.ncbi.nlm.nih.gov/28174359/) [Cherry experiment](https://pmc.ncbi.nlm.nih.gov/articles/PMC2647959/) |
+    | Sweet Paprika (1g) and Saffron (30mg) | Laboratory-only composite cautions, not demonstrated clinical stains from these culinary servings. Saffron is a low-priority precaution at this small occasional dose: the original 2018 study found no difference from Water, while later studies found staining in other conditions. [Paprika](https://pubmed.ncbi.nlm.nih.gov/24320904/) [Saffron 2018](https://pubmed.ncbi.nlm.nih.gov/29652015/) [Spices 2019](https://pubmed.ncbi.nlm.nih.gov/31797832/) [Saffron 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12366667/) |
+
+    - **After marked foods/drinks:** rinse with plain Water after finishing and avoid swishing, holding drinks or prolonged sipping. A straw positioned behind the front teeth may reduce contact for suitable cool/lukewarm drinks; it is not proven protection against staining. After acidic intake, including unmarked items, rinse first and wait about 1 hour before brushing. Acid erosion and pigment staining are different concerns. [Contact study](https://pubmed.ncbi.nlm.nih.gov/9785633/) [ADA erosion care](https://www.ada.org/resources/ada-library/oral-health-topics/dental-erosion) [Brushing interval](https://www.mouthhealthy.org/all-topics-a-z/dietary-acids-and-your-teeth)
+    - **Mouthwash exception:** do not rinse away therapeutic Chlorhexidine immediately with Water; follow the product/dentist instructions. Tea can increase Chlorhexidine-related staining. Persistent discoloration, especially of bonding, is a reason to ask the dentist about appropriate cleaning/polishing. [Use instructions](https://medlineplus.gov/druginfo/meds/a625015.html) [CHX dietary interaction](https://www.medicines.org.uk/emc/product/529/smpc)
+    - **Assignments and formulations:** Strawberries, Purple Sweet Potatoes at both meals, Purple Carrots and mild Kimchi have no active badge after this audit; the evidence reviewed does not justify a routine flag for their listed forms. Pigment colour alone is insufficient. MicroVitamin+ contains carotenoid particles but has no identified dental-staining study; EvoBomb 2.0 Lemon has no listed colouring, which does not establish erosion safety. Intact swallowed Cocoa-Flavanol/Curcumin and other pigmented capsules remain unmarked. Eludril Ortho and Listerine Zero are assessed by formulation, rather than being treated as Chlorhexidine; the audit records limitations and older mouthwash experiments. Reassess opened capsules, chewables, changed drink flavours or prescribed liquid Iron. [MicroVitamin+](https://microvitamin.com/pages/microvitamin-plus-faq) [EvoBomb Lemon](https://www.hsnstore.eu/brands/sport-series/evobomb)
+    - **Whitening and bonding:** composite does not whiten predictably like natural teeth. Clinical evidence does not support a universal strict white-food diet during bleaching, but this does not establish zero long-term staining or composite protection. Follow treatment-specific dental instructions. [ADA restoration guidance](https://www.ada.org/resources/ada-library/oral-health-topics/whitening) [Clinical evidence synthesis](https://pubmed.ncbi.nlm.nih.gov/39557282/)
 
 ## TODOs / Things to consider
 *The intervention candidates are ranked from highest to lowest current expected marginal value and practical actionability for this protocol. Every item remains conditional: a confirmed indication can move a lower candidate sharply upward, while a missing trigger keeps it dormant.*
