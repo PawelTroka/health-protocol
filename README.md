@@ -257,7 +257,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: Back thickness, posture, bicep peaks, and rotator cuff prehab.*
 *Synergy: Thoracic lat row + lower-trap/scapular control.*
 - **Thoracic Lats**: One Arm Dumbbell Row: 12 × 25kg, 11 × 27.5kg, 10 × 30kg per side *(Pro-Tip: Pull dumbbell back in a sweeping arc toward your hip pocket, keeping forearm vertical)* 💪 ⏰ 🗿
-- **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 2 × 8-12 easy reps *(Light load, comfortable range; avoid painful arcs and uncomfortable pad pressure on the abdominal repair)* 🦴
+- **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 14 x 6kg, 12 x 8kg, 10 x 10kg *(Light load, comfortable range; avoid painful arcs and uncomfortable pad pressure on the abdominal repair)* 🦴
 - **Rear Delts**: Reverse Pec Deck: 20 × 23kg, 18 × 27kg, 15 × 32kg 💪 🗿
 - **Biceps (Mid-range)**: Seated Dumbbell Curls (S-Tier): 12 × 10kg, 11 × 12.5kg, 10 × 15kg 🗿
 - **Forearms**: Cable Reverse Curl or Dumbbell Reverse Curl or Hammer Curls: 15 × 10kg, 14 × 12.5kg, 12 × 15kg 🗿
