@@ -3,7 +3,7 @@
 
 ## Table of Importance
 - [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
-- [1. Promote good behaviors](#1-promote-good-behaviors)
+- [1. Sleep](#1-sleep)
 - [2. Testing](#2-testing)
 - [3. Exercise](#3-exercise)
 - [4. Diet](#4-diet)
@@ -31,14 +31,31 @@
 - ⚠️ sleep schedule disruptions
 - ⚠️ overthinking and overanalyzing things out of your control
 
-## 1. Promote good behaviors
-- Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
+## 1. Sleep
+- **Duration & consistency:** Allow ~9h in bed for ~8h of actual sleep (adjust to daytime alertness); keep bed/wake times within ~30–60min, including weekends. 😴 ⏰
+- **Bedroom:**
+  - **Temperature / humidity:** 17–19°C (preferred: 18°C); 40–50% relative humidity, without condensation or mold. 🌡️ 💧
+  - **Light / noise:** Near-total darkness (blackout blinds, cover LEDs) and quiet (ideally <30 dBA); use quiet AC or low-volume steady noise only if helpful. 🌑 🔇
+  - **Bed:** Reserve for sleep and intimacy. 🛏️
+- **Air quality** (see [Clean air](#clean-air)):
+  - **PM2.5:** Aim for <10 µg/m³ overnight (lower is better); use a HEPA purifier sized for ~4–5 equivalent air changes/hour at its **actual nighttime fan speed**.
+  - **CO₂:** Prefer <800 ppm, or <1,000 ppm where practical, using fresh-air ventilation (filtered when outdoor air is polluted); a purifier or ordinary split AC does not remove CO₂.
+  - **Sources / upkeep:** Avoid smoke, scented candles, fragrances and ozone generators; maintain filters and clean humidifiers regularly.
+- **Daylight & wind-down:** Get 20–30min outdoors soon after waking plus daylight during the day (with UV protection as needed); dim lights 1–2h before bed and spend the final 30–60min relaxing without stimulating work or bright screens. Dim warm/red lights are fine. 😴 😌
+- **Phone:** Do Not Disturb **00:00–10:14**. 😴
+- **Caffeine:** Stop ≥8–10h before bed (earlier after high doses or if sensitive); check Matcha and the daily HSN EvoBomb 2.0 200mg Caffeine dose against bedtime. 😴
+- **Meals & alcohol:** Finish large meals ≥2–3h before sleep (a light snack is fine); avoid alcohol, especially in the evening. 😴
+- **Exercise:** Train regularly; move intense evening sessions earlier if they disrupt sleep. 💪
+- **Sleep problems:** Avoid extended frustrated wakefulness in bed; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
+- **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
+
+### Other recovery habits
+- Sauna (3 times a week; 60min visit including cooling/rest; if used for evening relaxation, finish ~1–2h before bed and rehydrate; see [Exercise recovery](#wednesday-legs-glutehamstring-dominant)) 🔥 🛡️ ⏰
 - Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
 - Cold exposure	(4 times a week) 🔥 🛡️ ⚡
 - Meditation / breathwork (daily) 🧠 😌
 - Walks (daily) 🫁 ❤️
 - Stretching (6 times a week) 🦴 💪
-- Sleep tracking (daily) 😴
 
 ## 2. Testing
 
@@ -235,7 +252,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
 **Recovery:**
-- **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, hydrate with electrolytes)* ❤️
+- **Sauna**: 60mins per visit, 3 times a week *(Includes seated cooling/rest between comfortable heat rounds; hydrate per IW.0.2; finish early for dizziness, nausea or unusual palpitations)* ❤️
 
 ---
 
