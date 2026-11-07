@@ -19,10 +19,9 @@ _MAIN_GROUPS = (
         "Body measurements",
         "Self-reported sizes, with dated snapshots and measurement methods identified in the source notes.",
         (
-            "Height", "Waist Circumference", "Waist Circumference (Narrowest Point)", "Hip Circumference",
+            "Height", "Waist Circumference (Narrowest Point)", "Hip Circumference",
             "Chest Circumference", "Shoulder Circumference", "Neck Circumference",
-            "Right Upper Arm Circumference", "Left Upper Arm Circumference",
-            "Right Upper Arm Circumference (Flexed)",
+            "Right Upper Arm Circumference (Flexed)", "Left Upper Arm Circumference (Flexed)",
             "Right Forearm Circumference", "Left Forearm Circumference",
             "Right Wrist Circumference", "Right Thigh Circumference", "Left Thigh Circumference",
             "Right Calf Circumference", "Left Calf Circumference",
