@@ -992,15 +992,11 @@ Even if you do everything right you can be exposed to harmful environment, so it
   10mg / 4ml  
   2.5mg / ml  
   250mcg-500mcg -> 10-20IU/day
-- [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳 🛡️  
-  50mg / 2.5ml  
-  20mg / ml  
-  1-2mg -> 5-10IU/day
 - [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🦴 🥊  
   10mg / 2ml  
   5mg / ml  
   2mg -> 40IU/week
-- [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.0mg weekly) 🩸 ❤️ ⏰  
+- [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⏰  
   - (alternative) [Mounjaro 2.4ml](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) 🩸 ❤️ ⏰ ⚕️
   15mg / 1.5ml  
   10mg / ml  
@@ -1009,6 +1005,10 @@ Even if you do everything right you can be exposed to harmful environment, so it
   5mg / 2.5ml  
   2mg / ml  
   0.5mg-1mg -> 25-50IU/week
+- (optional) [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳 🛡️  
+  50mg / 2.5ml  
+  20mg / ml  
+  1-2mg -> 5-10IU/day
 
 
 ## 11. Surgeries
