@@ -953,6 +953,15 @@ Even if you do everything right you can be exposed to harmful environment, so it
   - [For colored fabrics](https://allegro.pl/produkt/denkmit-ultra-sensitive-proszek-1-35kg-20-de-5c3bae07-8156-4e9f-bb31-888d171ef30a)
 
 
+### Dishwasher care
+
+- **Detergent:** [Denkmit All-in-One 30tablets](https://www.dm.pl/p/d/1230710/denkmit-tabletki-do-zmywarki), fragrance-free; 1 whole tablet in a dry dispenser, film intact. Use a full Auto cycle.
+- **Salt:** [Denkmit 2kg](https://www.dm.pl/p/d/1004727/denkmit-sol-do-zmywarki). Refill the salt reservoir; set the softener to measured water hardness using your machine's manual.
+- **Rinse aid:** [KLAR EcoSensitive 500ml](https://www.ecosplendo.pl/klar/plyn-nablyszczajacy-do-zmywarek-1), fragrance-free; refill its reservoir and use the lowest setting that dries without streaks.
+- **Shakers:** rinse promptly, separate removable parts and brush trapped residue; aim openings toward the spray. Follow the shaker's care limits. Use Intensive only for heat-safe dishes. Rewash anything with food or detergent residue; air-dry fully.
+- **Maintenance:** check the filter after each load; clean filters, seals and spray holes as needed. Every 1–2 months: [Siemens 00311994, 250ml](https://www.siemens-home.bsh-group.com/pl/pl/product/produkty-do-czyszczenia-i-pielegnacji/cleaningandcaredishwashing/cleaningandcaredishwashingcleaners/00311994), 1 bottle in an empty ≥65°C cycle, following the label; no detergent.
+- **Persistent limescale:** correct softener settings first. Use [Sonett 1l](https://ekologiczny.pl/p/54/1545/sonett-odkamieniacz-1-litr-zmywarka-zmywanie-srodki-czystosci-kosmetyki-sonett.html) in an empty machine only if its manual permits; follow the label and never mix cleaners.
+
 ## 9. Vaccines
 - Tuberculosis (BCG)	(given in childhood) ✅
 - Haemophilus influenzae type b (Hib) (given in childhood) ✅
