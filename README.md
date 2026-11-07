@@ -804,9 +804,8 @@ There are actual studies that confirm if you look younger and better you are mor
 #### Professional procedures
 - Microneedling (monthly) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
 - Botox (Glabella, Forehead, Crow's feet) (every 4 months)
-- (optional) ResurFX 1565nm fractional non-ablative laser for enlarged pores at [Da Vinci Beauty Clinic](https://booksy.com/pl-pl/239368_da-vinci-beauty-clinic_medycyna-estetyczna_20383_gdansk) (First option to evaluate) 👨‍🦳 ⏰ ⚕️
-- (optional alternative) Fractional CO2 laser for cheek pores at [Wileńska Beauty Clinic](https://booksy.com/pl-pl/239381_wilenska-beauty-clinic-r_medycyna-estetyczna_20383_gdansk) (Lower-cost targeted option; allow more recovery) 👨‍🦳 ⏰ ⚕️
-- (optional alternative) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
+- [ResurFX 1565nm fractional non-ablative laser for enlarged pores](https://booksy.com/pl-pl/239368_da-vinci-beauty-clinic_medycyna-estetyczna_20383_gdansk) or [Fractional CO2 laser for cheeks](https://booksy.com/pl-pl/239381_wilenska-beauty-clinic-r_medycyna-estetyczna_20383_gdansk) (yearly) 👨‍🦳 ⏰ ⚕️
+- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
 - (optional) Sculptra (yearly) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
 - (optional) Radiesse (yearly) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
 
