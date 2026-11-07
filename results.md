@@ -37,32 +37,30 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 
 ### Body measurements
 
-| Metric | Trend | 2026-11 | 2026-09 | Unit |
+| Metric | Trend | 2026-11<sup>8</sup> | 2026-09<sup>5</sup> | Unit |
 | :--- | :--- | :--- | :--- | :--- |
-| **Height** | - | - | 180<sup>5</sup> | cm |
-| **Waist Circumference** | - | 80.5<sup>8</sup> | - | cm |
-| **Waist Circumference (Narrowest Point)** | - | - | 85<sup>5</sup> | cm |
-| **Hip Circumference** | ⚪ | 96<sup>8</sup> | 99<sup>5</sup> | cm |
-| **Chest Circumference** | ⚪ | 105<sup>8</sup> | 106<sup>5</sup> | cm |
-| **Shoulder Circumference** | ⚪ | 120<sup>8</sup> | 117.5<sup>5</sup> | cm |
-| **Neck Circumference** | ⚪ | 38.5<sup>8</sup> | 38.5<sup>5</sup> | cm |
-| **Right Upper Arm Circumference** | - | 37<sup>8</sup> | - | cm |
-| **Left Upper Arm Circumference** | - | 37<sup>8</sup> | - | cm |
-| **Right Upper Arm Circumference (Flexed)** | - | - | 38<sup>5</sup> | cm |
-| **Right Forearm Circumference** | ⚪ | 31.5<sup>8</sup> | 32<sup>5</sup> | cm |
-| **Left Forearm Circumference** | - | 30.5<sup>8</sup> | - | cm |
-| **Right Wrist Circumference** | - | - | 15.5<sup>5</sup> | cm |
-| **Right Thigh Circumference** | ⚪ | 59<sup>8</sup> | 60<sup>5</sup> | cm |
-| **Left Thigh Circumference** | - | 58.5<sup>8</sup> | - | cm |
-| **Right Calf Circumference** | ⚪ | 36<sup>8</sup> | 36<sup>5</sup> | cm |
-| **Left Calf Circumference** | - | 35.5<sup>8</sup> | - | cm |
-| **Right Ankle Circumference** | - | - | 24<sup>5</sup> | cm |
-| **Right Above-Ankle Circumference** | - | - | 21<sup>5</sup> | cm |
-| **Right Foot Length** | - | - | 25.5<sup>5</sup> | cm |
-| **Head Circumference** | ⚪ | 57<sup>8</sup> | 57<sup>5</sup> | cm |
-| **Upper Facial Third Length** | - | 6<sup>8</sup> | - | cm |
-| **Middle Facial Third Length** | - | 6<sup>8</sup> | - | cm |
-| **Lower Facial Third Length** | - | 6<sup>8</sup> | - | cm |
+| **Height** | - | 180 | 180 | cm |
+| **Waist Circumference (Narrowest Point)** | 🟢 | 80.5 | 85 | cm |
+| **Hip Circumference** | ⚪ | 96 | 99 | cm |
+| **Chest Circumference** | ⚪ | 105 | 106 | cm |
+| **Shoulder Circumference** | ⚪ | 120 | 117.5 | cm |
+| **Neck Circumference** | ⚪ | 38.5 | 38.5 | cm |
+| **Right Upper Arm Circumference (Flexed)** | ⚪ | 37 | 38 | cm |
+| **Left Upper Arm Circumference (Flexed)** | - | 37 | - | cm |
+| **Right Forearm Circumference** | ⚪ | 31.5 | 32 | cm |
+| **Left Forearm Circumference** | - | 30.5 | - | cm |
+| **Right Wrist Circumference** | ⚪ | 15.5 | 15.5 | cm |
+| **Right Thigh Circumference** | ⚪ | 59 | 60 | cm |
+| **Left Thigh Circumference** | - | 58.5 | - | cm |
+| **Right Calf Circumference** | ⚪ | 36 | 36 | cm |
+| **Left Calf Circumference** | - | 35.5 | - | cm |
+| **Right Ankle Circumference** | ⚪ | 24 | 24 | cm |
+| **Right Above-Ankle Circumference** | ⚪ | 21 | 21 | cm |
+| **Right Foot Length** | ⚪ | 25.5 | 25.5 | cm |
+| **Head Circumference** | ⚪ | 57 | 57 | cm |
+| **Upper Facial Third Length** | - | 6 | - | cm |
+| **Middle Facial Third Length** | - | 6 | - | cm |
+| **Lower Facial Third Length** | - | 6 | - | cm |
 
 ### Heart and circulation
 
@@ -442,7 +440,7 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 <sup>5</sup> Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.
 <sup>6</sup> Imported monthly summaries from July 2026 onward: ordinary measurements use equally weighted daily means. Clock times use circular means; midpoint variability is circular SD. Short-sleep totals count recorded periods; frequency cells show percentages (affected/observed nights). Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, breathing intensity indices, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. 2026-07 Withings: 2-28/31 elapsed days; 2026-07 Oura: 1-31/31 elapsed days; 2026-08 Withings: 1-22/31 elapsed days; 2026-08 Oura: 4-31/31 elapsed days; 2026-09 Garmin: 2-9/18 elapsed days (month to date); 2026-09 Withings: 1-16/18 elapsed days (month to date); 2026-09 Oura: 1-17/18 elapsed days (month to date). Garmin daily summaries use Garmin's assigned calendar date; current-day Garmin data are also deferred until tomorrow. Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.
 <sup>7</sup> Imported device classifications show counts of observed labels within each calendar month; they are not numeric averages, clinical diagnoses or estimates for unrecorded days. Entries labeled Device code preserve API values with unverified meanings and may include unavailable-result codes; they are not interpreted as clinical findings. Different provider classifications retain separate rows. Coverage and exact counts: <a href='results/vitals_monthly.json'>monthly source data</a>.
-<sup>8</sup> Body and facial sizes were self-reported on November 7, 2026; the measurement date was not specified. Waist landmark and upper-arm flexion were not supplied, so those readings remain separate from September's narrowest-waist and flexed-arm measurements. Head circumference was taken at the forehead; facial-third landmarks were unspecified. These are snapshots, not monthly averages. See the <a href='results/Body-Measurements-2026-11-07/Sources.md'>November measurement record</a>.
+<sup>8</sup> November 7, 2026: waist at the narrowest point; upper arms flexed. Height and the previous right wrist, ankle, above-ankle and foot measurements are retained from September. The green waist trend marks progress toward the narrower-waist goal. <a href='results/Body-Measurements-2026-11-07/Sources.md'>Source and measurement details</a>.
 
 
 </details>

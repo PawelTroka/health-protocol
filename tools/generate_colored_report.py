@@ -1005,6 +1005,12 @@ def unscored_change(values, ref, category, marker):
         return "-"
     if category == MICROBIOTA_CATEGORY:
         return numerical_change(values)
+    goal_dates = body_measurement_goal_comparisons.get(marker)
+    if goal_dates:
+        observed_dates = tuple(month for month, value in zip(date_columns, values)
+                               if value not in missing_values)[:2]
+        if observed_dates == goal_dates and numerical_change(values).startswith("↓"):
+            return "🟢"
     if vital_rule(marker):
         return vitals_trend(values, marker, vital_contexts)
     if (category, marker) in no_score_markers:
@@ -1103,8 +1109,8 @@ def render_result_notes_md(category):
         md += f"<sup>{number}</sup> {note['text']}\n"
     return md
 
-# Historical tuples retain their original four date columns. Dated follow-ups
-# are merged below; a missing measurement is never carried into a newer month.
+# Historical lab tuples retain their original four date columns. Dated lab
+# follow-ups are merged below without carrying missing results forward.
 # ALAB FloraGen / GA-map Dysbiosis Test Lx v2: one stool specimen, not a monthly mean.
 # Collected 2026-07-07, received 2026-07-09, report issued 2026-08-04.
 # Marker positions were transcribed visually and checked against the PDF dot coordinates.
@@ -1719,9 +1725,9 @@ body_measurements_2026_09 = {
     "Right Foot Length": "25.5",
     "Head Circumference": "57",
 }
-# Reported November 7; waist landmark and upper-arm flexion were not specified.
+# November review confirms the narrowest waist and flexed upper-arm measurements.
 body_measurements_2026_11 = {
-    "Waist Circumference": "80.5",
+    "Waist Circumference (Narrowest Point)": "80.5",
     "Chest Circumference": "105",
     "Neck Circumference": "38.5",
     "Head Circumference": "57",
@@ -1731,13 +1737,22 @@ body_measurements_2026_11 = {
     "Hip Circumference": "96",
     "Right Thigh Circumference": "59",
     "Left Thigh Circumference": "58.5",
-    "Right Upper Arm Circumference": "37",
-    "Left Upper Arm Circumference": "37",
+    "Right Upper Arm Circumference (Flexed)": "37",
+    "Left Upper Arm Circumference (Flexed)": "37",
     "Right Forearm Circumference": "31.5",
     "Left Forearm Circumference": "30.5",
     "Shoulder Circumference": "120",
     "Right Calf Circumference": "36",
     "Left Calf Circumference": "35.5",
+}
+# Retain the last known sizes where the user supplied no November update.
+body_measurements_2026_11_carried_forward = {
+    name: value for name, value in body_measurements_2026_09.items()
+    if name not in body_measurements_2026_11
+}
+# User-confirmed progress for this comparison; not a clinical waist target.
+body_measurement_goal_comparisons = {
+    "Waist Circumference (Narrowest Point)": ("2026-11", "2026-09"),
 }
 existing_manual_markers = {row[0] for row in data["Vitals & Functional Health"]}
 for name in body_measurements_2026_09 | body_measurements_2026_11:
@@ -1747,7 +1762,9 @@ for name in body_measurements_2026_09 | body_measurements_2026_11:
         )
     no_score_markers.add(("Vitals & Functional Health", name))
 vitals_followups["2026-09"].update(body_measurements_2026_09)
-vitals_followups.setdefault("2026-11", {}).update(body_measurements_2026_11)
+vitals_followups.setdefault("2026-11", {}).update(
+    body_measurements_2026_11_carried_forward | body_measurements_2026_11
+)
 
 vitals_markers = {row[0] for row in data["Vitals & Functional Health"]}
 for followup_date, measurements in vitals_followups.items():
@@ -1974,8 +1991,8 @@ result_notes["Vitals & Functional Health"].append({
 })
 apply_report_overlay(vitals_followups, result_notes["Vitals & Functional Health"], synced_monthly)
 result_notes["Vitals & Functional Health"].append({
-    "text": "Body and facial sizes were self-reported on November 7, 2026; the measurement date was not specified. Waist landmark and upper-arm flexion were not supplied, so those readings remain separate from September's narrowest-waist and flexed-arm measurements. Head circumference was taken at the forehead; facial-third landmarks were unspecified. These are snapshots, not monthly averages. See the <a href='results/Body-Measurements-2026-11-07/Sources.md'>November measurement record</a>.",
-    "markers": [{"rows": list(body_measurements_2026_11), "target": "value", "dates": ["2026-11"]}],
+    "text": "November 7, 2026: waist at the narrowest point; upper arms flexed. Height and the previous right wrist, ankle, above-ankle and foot measurements are retained from September. The green waist trend marks progress toward the narrower-waist goal. <a href='results/Body-Measurements-2026-11-07/Sources.md'>Source and measurement details</a>.",
+    "markers": [{"rows": list(body_measurements_2026_11 | body_measurements_2026_11_carried_forward), "target": "value", "dates": ["2026-11"]}],
 })
 existing_vitals = {row[0] for row in data["Vitals & Functional Health"]}
 observed_metrics = {metric for metrics in synced_monthly["months"].values() for metric in metrics}
@@ -2103,7 +2120,12 @@ def format_vital_classification(marker, value, *, markdown=False):
                      for text, status in classification_parts(marker, value))
 
 
-def render_result_table_html(category, rows, active_indexes=None, compact=False):
+def column_note_numbers(category, rows, index):
+    return sorted({number for row in rows if row[index + 1] not in missing_values
+                   for number in note_numbers(category, row[0], "value", date_columns[index])})
+
+
+def render_result_table_html(category, rows, active_indexes=None, compact=False, notes_in_header=False):
     if active_indexes is None:
         active_indexes = active_date_indexes(rows)
     include_trend = category_has_trends(rows, category)
@@ -2116,7 +2138,10 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
     if include_trend:
         html += "<th>Trend</th>"
     for idx in active_indexes:
-        html += f"<th>{date_columns[idx]}</th>"
+        label = date_columns[idx]
+        if notes_in_header:
+            label = add_note_sup_html(label, column_note_numbers(category, rows, idx))
+        html += f"<th>{label}</th>"
     html += "<th>Unit</th>"
     if include_reference:
         html += "<th><i>Reference</i></th>"
@@ -2142,7 +2167,8 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
             trend_cell = add_note_sup_html(trend_cell, note_numbers(category, name, "trend"))
             html += f"<td>{trend_cell}</td>"
         for idx, cell in zip(active_indexes, cells):
-            cell = add_note_sup_html(cell, note_numbers(category, name, "value", date_columns[idx]))
+            if not notes_in_header:
+                cell = add_note_sup_html(cell, note_numbers(category, name, "value", date_columns[idx]))
             html += f"<td>{cell}</td>"
         html += f"<td>{unit}</td>"
         if include_reference:
@@ -2154,7 +2180,7 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False)
     return html + "</table>"
 
 
-def render_result_table_md(category, rows, active_indexes=None, compact=False):
+def render_result_table_md(category, rows, active_indexes=None, compact=False, notes_in_header=False):
     if active_indexes is None:
         active_indexes = active_date_indexes(rows)
     include_trend = category_has_trends(rows, category)
@@ -2168,7 +2194,10 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
         header += " Trend |"
         sep += " :--- |"
     for idx in active_indexes:
-        header += f" {date_columns[idx]} |"
+        label = date_columns[idx]
+        if notes_in_header:
+            label = add_note_sup_md(label, column_note_numbers(category, rows, idx))
+        header += f" {label} |"
         sep += " :--- |"
     header += " Unit |"
     sep += " :--- |"
@@ -2198,7 +2227,8 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False):
             trend_cell = add_note_sup_md(trend_cell, note_numbers(category, name, "trend"))
             line += f" {trend_cell} |"
         for idx, cell in zip(active_indexes, cells):
-            cell = add_note_sup_md(cell, note_numbers(category, name, "value", date_columns[idx]))
+            if not notes_in_header:
+                cell = add_note_sup_md(cell, note_numbers(category, name, "value", date_columns[idx]))
             line += f" {cell} |"
         line += f" {unit} |"
         if include_reference:
@@ -2313,7 +2343,8 @@ def render_vitals_html(rows):
         for group in selected:
             html += f"<section class='metric-group' id='{result_anchor(group['title'], 'vitals')}'><h3>{escape(group['title'])}</h3>"
             html += "<div class='table-scroll'>"
-            html += render_result_table_html(category, group['rows'], compact=True)
+            html += render_result_table_html(category, group['rows'], compact=True,
+                                             notes_in_header=group['title'] == "Body measurements")
             html += "</div></section>"
         if detailed:
             html += "</details>"
@@ -2336,7 +2367,8 @@ def render_vitals_md(rows):
             md += f"<details>\n<summary id='results-vitals-details'>Detailed device measurements · {totals['details']} metrics</summary>\n\n"
         for group in selected:
             md += f"### {group['title']}\n\n"
-            md += render_result_table_md(category, group['rows'], compact=True) + "\n"
+            md += render_result_table_md(category, group['rows'], compact=True,
+                                         notes_in_header=group['title'] == "Body measurements") + "\n"
         if detailed:
             md += "</details>\n\n"
     md += render_ecg_md(synced_monthly.get("ecg_recordings", [])) + "\n\n"
