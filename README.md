@@ -785,55 +785,61 @@ There are actual studies that confirm if you look younger and better you are mor
 - Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Monthly)
 
 ### Face
-
-#### Skin care
-
+#### Skincare
 - Avoid sun exposure
-- [Anti-large pores cleanser](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) (daily) 👨‍🦳 💧
-- Face Moisturizer [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) or [CeraVe Moisturizing Cream](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) (daily) 👨‍🦳 💧
-- [Resurfacing retinol serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (nightly)
-- Sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (water/sweat resistant) or [EltaMD UV Clear SPF46](https://savora.pl/pl/p/ELTA-MD-Skincare-UV-Clear-BROAD-SPECTRUM-SPF-46/202) (hybrid Zinc Oxide + Octinoxate; not water resistant) (Morning; reapply at least every 2h outdoors and after swimming, sweating or toweling; choose water-resistant protection for these activities)
-- Lip Care [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
-- Tretinoin 0.05-0.1% or [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (Weekly or bi-weekly) 👨‍🦳 ⏰ ⚕️
-- [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
-- SNAP-8 peptide 👨‍🦳 ⏰
-- GHK-Cu peptide 👨‍🦳 ⏰
+- Anti-large pores cleanser [CeraVe Blemish Control Cleanser](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) (Twice daily) 👨‍🦳 💧
+- Moisturizer [CeraVe Moisturizing Cream](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) or [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) (Twice daily) 👨‍🦳 💧
+- Anti-aging GHK-Cu peptide cream [Theramid Copper Peptide 3%](https://drogeriadrzdrowie.pl/pl/p/Theramid-Copper-Peptide-3-terapia-przeciwstarzeniowa-z-peptydami-miedzi-3-30ml/77444) 👨‍🦳 ⏰
+- SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (daily)
+- Anti-aging retinoid cream [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.05-0.1% (weekly) 👨‍🦳 ⏰ ⚕️
+- (optional) [SNAP-8 peptide cream](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) 👨‍🦳 ⏰
 
-#### Procedures and devices
-
-- Botox (Glabella, Forehead, Crow's feet) (mid February, mid June, mid October)
-- Sculptra (2026-02-01, 2026-04-01, then every year) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
-- Radiesse (yearly, 1st of December) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
-- Microneedling (mid January, mid March, mid May, mid September, mid November) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
-- (Optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
-- Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
+#### Home procedures
 - [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week)
+- Chemical peeling [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) (monthly) 👨‍🦳 ⏰
+- (optional) Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
+
+#### Professional procedures
+- Microneedling (monthly) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
+- Botox (Glabella, Forehead, Crow's feet) (every 4 months)
+- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
+- (optional) Sculptra (yearly) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
+- (optional) Radiesse (yearly) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
+
+### Lips
+- Moisturizing lip balm [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
 
 ### Eyes
-- Under Eye PRF (7th January, 7th March, 7th May, then twice yearly - 7th of March and 7th of September) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk)
-- (Optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
-- (Optional) INFINI Premium VE at [WILENSKA CLINIC](https://booksy.com/pl-pl/239381_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
+- Under-eye moisturizer [Bioderma Atoderm Intensive Eye 100ml](https://www.doz.pl/p/bioderma-atoderm-intensive-eye-kojacy-krem-3w1-100-ml-146776) or [La Roche-Posay Toleriane Dermallergo Eyes 20ml](https://www.e-zikoapteka.pl/la-roche-posay-toleriane-dermallergo-okolice-oczu-20-ml.html) (Twice daily) 👨‍🦳 💧
+- (optional) Under-eye PRF (Twice yearly) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk)
+- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
+- (optional) INFINI Premium VE at [WILENSKA CLINIC](https://booksy.com/pl-pl/239381_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
 
 ### Hair
+#### Haircare
 - Regular visits to [a good hairdresser](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a month) 💇‍♂️
 - Use of [Philip Kingsley No Scent No Colour Shampoo 1,000ml](https://www.ceneo.pl/140483947) (Normal washing days; one application, mainly on the scalp) 💇‍♂️
 - Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (Once a week when indicated for dandruff, seborrhoeic dermatitis or recurrent scaling; the only shampoo used that wash) 💇‍♂️ 🍄
 - Use of [Philip Kingsley No Scent No Colour Conditioner](https://www.flaconi.pl/wlosy/philip-kingsley/no-scent-no-colour/philip-kingsley-no-scent-no-colour-odzywka.html) (After every shampoo; half a pea to one pea for short, fine hair, applied lightly to the hair shafts) 💇‍♂️ 💧
-- Use of [hair mask](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419) (alternative to conditioner) 💇‍♂️ 💧
 - Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (Every second day) ⚕️ 💇‍♂️ 🍅
-- Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (Twice per day) 💇‍♂️
-- Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (Twice per day) 💇‍♂️
-- Use of [hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) / [dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) / [dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) to increase absorption
-- [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304)
-- PRP (mid March, mid July) at Elizaveta Purtova (+48-501-329-921) (Twice a year)
-- Exosomes (mid November) at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (Once a year)
+- Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (Twice daily) 💇‍♂️
+- Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (Twice daily) 💇‍♂️
+
+#### Home procedures
+- Use of [Hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) (Twice daily)
+- [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304) (daily)
+- [Dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) or [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
+
+#### Professional procedures
+- Scalp PRP at Elizaveta Purtova (+48-501-329-921) (every 3-4 months)
+- (optional) Exosomes (mid November) at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (Once a year)
 
 ### Eyebrows
-- Styling (every month) at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk)
-- Microblading (5th of January every year) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
-- Daily application of minoxidil 5% 🧔
-- Daily application of [castor oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-100-naturalny-na-rzesy-brwi-wlosy-100ml-7686264382)
-- Light use of [dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194)
+- [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily)
+- Minoxidil 5% (daily) 🧔
+- [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
+- Styling (monthly) at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk)
+- (optional) Microblading (5th of January every year) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
 
 ### Beard
 - Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a week) 🧔
@@ -841,8 +847,8 @@ There are actual studies that confirm if you look younger and better you are mor
 - Daily use of beard oil 🧔 💧
 
 ### ABS
-- Aqualyx 4vials (monthly for 4 months) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
-- EmSculpt Neo (4-6 sessions, once per week) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk)
+- Aqualyx 4vials (monthly for 4 months; then yearly) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
+- EmSculpt Neo (4-6 sessions, once per week; then yearly) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk)
 - (Optional) VASER High-Definition Lipo
 
 ### Body
@@ -1098,6 +1104,9 @@ Notes are included only when totals, dose uncertainty, timing, safety or another
 13. **M.0.3 / L.9** Supplemental Lycopene is 30mg/day (M.0.3 MicroVitamin+ 10mg in the Morning + L.9 standalone Microencapsulated Lycopene 20mg at Lunch). The checked 100g fresh-Tomato ingredient at Dinner adds approximately 2.57mg using a generic raw-red-Tomato reference, bringing estimated all-source intake to approximately 32.6mg/day. This is a generic raw-food estimate, not an assay of the purchased Tomatoes; cultivar, ripeness, preparation and food rotations change exposure. [Raw-Tomato composition](https://fdc.nal.usda.gov/food-details/170457/nutrients) This is an intentional maximalist skin/Looksmaxxing-biased dose. Ten milligrams/day is already biologically active and human photoprotection trials using approximately 15–16mg/day have reported reductions in UV-induced erythema and molecular markers of photodamage after 10–12 weeks. There is also a biological rationale for going beyond 20mg: in an eight-week dose-response RCT comparing 6.5mg, 15mg and 30mg of purified Lycopene, all doses raised plasma Lycopene, but the significant reductions in the reported DNA oxidative-damage markers occurred at 30mg. That finding does not establish that 30mg improves visible appearance, longevity or photoprotection more than 20mg, and several skin trials used tomato paste or mixed Tomato Carotenoids rather than isolated Lycopene. Therefore, 30mg is defensible for this stated priority but should be recorded as a high, diminishing-returns dose—not a scientifically proven optimum. Taking both doses with EVOO or a fat-containing meal supports absorption. [16mg skin-photoprotection trial](https://pubmed.ncbi.nlm.nih.gov/20854436/) [15mg randomized photoprotection trial](https://pubmed.ncbi.nlm.nih.gov/30836363/) [6.5–30mg dose-response trial](https://pubmed.ncbi.nlm.nih.gov/18689558/) [Blood-pressure meta-analysis](https://pubmed.ncbi.nlm.nih.gov/24051501/)
 14. **L.10** One Life Extension Advanced Curcumin Elite™ softgel with Lunch replaces both the former L.10 Longvida® Curcumin and L.12 standalone Ginger capsules. Its 500mg Curcumin Elite™ CGM blend supplies Curcuminoids 200mg, Turmerones 15mg and Fenugreek Galactomannans 150mg; the same softgel adds Gingerols 60mg from Ginger-Root CO₂ Extract and another 60mg Turmerones from Turmeric-Rhizome Oil, for 75mg declared Turmerones. This is a clean potency-and-convenience upgrade: labeled Curcuminoids rise from ≥80mg to 200mg and Gingerols from 40mg to 60mg while one daily pill is saved; L.12 is now used for TMG. Shogaols are no longer quantified, but no human evidence establishes 6.72mg Shogaols as a required target. Do not confuse this selected Advanced product with plain Curcumin Elite™ item 02407, which has the same 500mg CGM base but lacks the 60mg Gingerols and separate 60mg Turmeric-Oil Turmerones. Human crossover pharmacokinetics support the underlying Curcumin–Fenugreek galactomannan platform versus unformulated Curcumin, but it has not been compared head-to-head with Longvida® and the exact finished Advanced combination has no published human outcome trial. The former 400mg/day Longvida® dose retains stronger exact-formulation provenance for selected Working-Memory, Attention, Mood, Fatigue and exercise-recovery outcomes, so this is a broader systemic-coverage and convenience choice rather than proven clinical superiority. Use one softgel only: two would provide Curcuminoids 400mg, Gingerols 120mg and Turmerones 150mg, exceed the product's one-softgel regimen, eliminate the pill-saving benefit and lack a demonstrated dose-response advantage. Lunch provides a consistent food-and-fat window; no special clock-time benefit is established. BULK's 5mg BioPerine is removed with the EvoBomb switch; do not add Piperine to compensate. Use no overlapping Curcumin or Ginger supplement, and recheck ALT, AST, ALP, GGT and Total/Direct Bilirubin after approximately 6–8 weeks because enhanced-bioavailability Curcumin products can rarely cause Liver injury and weekly Isotretinoin is also present. Stop and review for Jaundice, dark Urine, marked Fatigue, persistent Nausea or abdominal pain; also monitor reproducible gastrointestinal intolerance or unusual bruising/bleeding. [Official Advanced Curcumin Elite™ label](https://www.lifeextension.com/vitamins-supplements/item02324/advanced-curcumin-elite-ginger-turmerones-turmeric-extract) [Curcumin–Fenugreek human pharmacokinetics](https://doi.org/10.1016/j.jff.2016.01.039) [Four-week Longvida® trial](https://pubmed.ncbi.nlm.nih.gov/25277322/) [Twelve-week Longvida® trial](https://pubmed.ncbi.nlm.nih.gov/32512782/) [Longvida® exercise trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4802396/) [TGA Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury)
 15. **L.11** Ceratiq® intake is 350mg/day of the clinically studied Robertet Wheat Oil Extract from one Life Extension Skin Restoring Ceramides liquid vegetarian capsule with Lunch. This is 350mg of the complete Wheat Oil Extract—not 350mg of isolated Ceramides: the material used in the twelve-week randomized trial supplied 70mg Glycolipids, principally DGDG, 9.5mg Sphingolipids including Ceramides and Glycosylceramides, 35mg Phospholipids and 235.5mg Triglycerides and other Lipids. In 64 women aged 45–60 with dry, wrinkled skin, 350mg/day reduced the Crow's-Feet Lemperle score by 1.00 point versus 0.34 with placebo and improved selected facial and leg Hydration, Dryness, Roughness and Radiance measures; a separate 51-woman randomized trial also found improved arm and leg Hydration after twelve weeks. This makes 350mg/day a credible evidence-mapped Looksmaxxing and Skin-barrier dose, with changes plausibly assessed after four to twelve weeks, but not a proven longevity intervention or guaranteed visible benefit in a younger man: the trials were small, industry-linked and conducted in women selected for dry or aging Skin. No dose-response evidence shows that 750mg is superior, so retain 350mg/day for a measured twelve-week trial and assess standardized photographs, Skin Dryness and texture rather than increasing it automatically. Lunch is used because the product label specifies taking it with food and Lunch is a consistent fat-containing meal; no human evidence establishes a clock-time or extra-fat advantage. The selected standalone product exactly matches the studied Ceratiq® oil dose and avoids redundant Hyaluronic Acid or supplemental Vitamin A; MicroVitamin+ already supplies Hyaluronic Acid 200mg/day, and avoiding extra Vitamin A is preferable while weekly Isotretinoin is present. Sports Research Ceratiq® 350mg is a biologically near-equivalent alternative, but offers no demonstrated efficacy advantage. The product is labeled Gluten-Free yet Contains Wheat, so it should be avoided with a true Wheat Allergy. [Official product label](https://www.lifeextension.com/vitamins-supplements/item02096/skin-restoring-ceramides) [Twelve-week Ceratiq® trial](https://pubmed.ncbi.nlm.nih.gov/31033133/) [Three-month Hydration trial](https://pubmed.ncbi.nlm.nih.gov/20646083/) [Oral-Ceramide meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9201759/)
+
+**Eyes — dry-skin barrier care.** Try Dermallergo Eyes first for a lighter feel; Atoderm Intensive Eye is the richer alternative if dry patches need more occlusion. Both are fragrance-free eye-area moisturizers; no direct comparative trial establishes a universal winner. Choose one at a time and assess comfort and flaking over about 2 weeks. Keep Adapalene, cosmetic Retinol and acid peels away from eyelids/under-eyes; stop a moisturizer that causes persistent stinging, swelling or worsening redness. The reported problem is external dry skin; Isotretinoin can contribute. Persistent red/scaly eyelids need assessment for dermatitis rather than an endless sequence of new creams. [Dermallergo formulation](https://www.laroche-posay.co.uk/en_GB/toleriane-dermallergo-soothing-eye-cream/LRP_132.html) [Atoderm formulation](https://www.bioderma.pl/produkty/atoderm/intensive-eye) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
+
 16. **E.5** One Melisen capsule is taken nightly in place of the previous standalone Melatonin, retaining its 1mg Melatonin dose while adding four plausible sleep-supporting botanicals. The strongest additional rationale is its 30mg Saffron Extract, which is within the 20–30mg/day range that improved Insomnia symptoms, perceived sleep quality and stress in a 2025 randomized trial; however, Melisen declares a generic 10:1 Saffron Extract rather than the trial's standardized Safr'Inside™ material, so dose similarity does not establish equivalence. Passionflower has randomized evidence for a modest increase in objectively measured total sleep time, while Lemon Balm and Hops have more formulation-dependent evidence. The complete Melisen combination has not itself been tested in a randomized trial and overlaps with other Evening sleep agents. Use it instead of—not alongside—standalone Melatonin, and retain it only if sleep latency, awakenings or next-day function improve without morning grogginess. The manufacturer advises against combining it with sedative, hypnotic or antiepileptic medicines. [Melisen product and batch testing](https://bmpharma.pl/products/melisen) [Saffron sleep trial](https://pubmed.ncbi.nlm.nih.gov/40698027/) [Passionflower sleep trial](https://pubmed.ncbi.nlm.nih.gov/31714321/)
 17. **E.7** Ashwagandha intake is 500mg KSM-66 Root Extract standardized to 5% Withanolides, or 25mg Withanolides. This sits within the commonly studied 300–600mg/day extract range; its human evidence for short-term stress, anxiety and sleep outcomes supports placement above Glycine and the weaker GABA, Inositol and Apigenin tail of the Evening stack. Long-term safety and a health or longevity optimum are not established, and rare Liver injury has been reported. Track whether it produces a reproducible stress or sleep benefit rather than assuming benefit from the dose alone, and review it if Liver-test abnormalities or compatible symptoms emerge. [Product label](https://gymbeam.com/ashwagandha-ksm-66r-500mg-gymbeam.html) [Stress meta-analysis](https://pubmed.ncbi.nlm.nih.gov/39348746/) [NCCIH safety summary](https://www.nccih.nih.gov/health/ashwagandha)
 18. **E.8-10** Standalone Glycine intake is 3g/day in the Evening, plus Glycine naturally contained in Collagen Peptides and a minor amount from Magnesium Glycinate. Small sleep studies generally use approximately 3g before bed, so the Evening dose already matches the studied protocol and further increasing the dose has no established advantage.
