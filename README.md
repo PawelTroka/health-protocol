@@ -796,50 +796,61 @@ There are actual studies that confirm if you look younger and better you are mor
 - Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Monthly)
 
 ### Face
+#### Skincare
 - Avoid sun exposure
-- [Anti-large pores cleanser](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) (Twice daily) 👨‍🦳 💧
-- Face Moisturizer [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) or [CeraVe Moisturizing Cream](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) (Twice daily) 👨‍🦳 💧
-- [Resurfacing retinol serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (nightly)
-- Sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (daily)
-- Lip Care [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
-- [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.05-0.1% (weekly or bi-weekly) 👨‍🦳 ⏰ ⚕️
-- [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) chemical peeling (monthly or bi-monthly) 👨‍🦳 ⏰
-- SNAP-8 peptide 👨‍🦳 ⏰
-- GHK-Cu peptide 👨‍🦳 ⏰
-- Botox (Glabella, Forehead, Crow's feet) (mid February, mid June, mid October)
-- Sculptra (2026-02-01, 2026-04-01, then every year) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
-- Radiesse (yearly, 1st of December) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
-- Microneedling (mid January, mid March, mid May, mid September, mid November) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
-- (Optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
-- Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
+- Anti-large pores cleanser [CeraVe Blemish Control Cleanser](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) (Twice daily) 👨‍🦳 💧
+- Moisturizer [CeraVe Moisturizing Cream](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) or [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) (Twice daily) 👨‍🦳 💧
+- Anti-aging GHK-Cu peptide cream [Theramid Copper Peptide 3%](https://drogeriadrzdrowie.pl/pl/p/Theramid-Copper-Peptide-3-terapia-przeciwstarzeniowa-z-peptydami-miedzi-3-30ml/77444) 👨‍🦳 ⏰
+- SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (daily)
+- Anti-aging retinoid cream [Adalapene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.05-0.1% (weekly) 👨‍🦳 ⏰ ⚕️
+- (optional) [SNAP-8 peptide cream](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) 👨‍🦳 ⏰
+
+#### Home procedures
 - [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week)
+- Chemical peeling [AHA 30% BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (or [alternative](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306)) (monthly) 👨‍🦳 ⏰
+- (optional) Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
+
+#### Professional procedures
+- Microneedling (monthly) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
+- Botox (Glabella, Forehead, Crow's feet) (every 4 months)
+- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
+- (optional) Sculptra (yearly) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
+- (optional) Radiesse (yearly) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
+
+### Lips
+- Moisturizing lip balm [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
 
 ### Eyes
 - Under-eye moisturizer [Bioderma Atoderm Intensive Eye 100ml](https://www.doz.pl/p/bioderma-atoderm-intensive-eye-kojacy-krem-3w1-100-ml-146776) or [La Roche-Posay Toleriane Dermallergo Eyes 20ml](https://www.e-zikoapteka.pl/la-roche-posay-toleriane-dermallergo-okolice-oczu-20-ml.html) (Twice daily) 👨‍🦳 💧
-- Under Eye PRF (7th January, 7th March, 7th May, then twice yearly - 7th of March and 7th of September) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk)
-- (Optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
-- (Optional) INFINI Premium VE at [WILENSKA CLINIC](https://booksy.com/pl-pl/239381_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
+- (optional) Under-eye PRF (Twice yearly) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk)
+- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
+- (optional) INFINI Premium VE at [WILENSKA CLINIC](https://booksy.com/pl-pl/239381_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
 
 ### Hair
+#### Haircare
 - Regular visits to [a good hairdresser](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a month) 💇‍♂️
 - Use of [Philip Kingsley No Scent No Colour Shampoo 1,000ml](https://www.ceneo.pl/140483947) (Normal washing days; one application, mainly on the scalp) 💇‍♂️
 - Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (Once a week when indicated for dandruff, seborrhoeic dermatitis or recurrent scaling; the only shampoo used that wash) 💇‍♂️ 🍄
 - Use of [Philip Kingsley No Scent No Colour Conditioner](https://www.flaconi.pl/wlosy/philip-kingsley/no-scent-no-colour/philip-kingsley-no-scent-no-colour-odzywka.html) (After every shampoo; half a pea to one pea for short, fine hair, applied lightly to the hair shafts) 💇‍♂️ 💧
-- Use of [hair mask](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419) (alternative to conditioner) 💇‍♂️ 💧
 - Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (Every second day) ⚕️ 💇‍♂️ 🍅
-- Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (Twice per day) 💇‍♂️
-- Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (Twice per day) 💇‍♂️
-- Use of [hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) / [dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) / [dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) to increase absorption
-- [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304)
-- PRP (mid March, mid July) at Elizaveta Purtova (+48-501-329-921) (Twice a year)
-- Exosomes (mid November) at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (Once a year)
+- Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (Twice daily) 💇‍♂️
+- Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (Twice daily) 💇‍♂️
+
+#### Home procedures
+- Use of [Hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) (Twice daily)
+- [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304) (daily)
+- [Dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) or [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
+
+#### Professional procedures
+- Scalp PRP at Elizaveta Purtova (+48-501-329-921) (every 3-4 months)
+- (optional) Exosomes (mid November) at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (Once a year)
 
 ### Eyebrows
-- Styling (every month) at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk)
-- Microblading (5th of January every year) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
-- Daily application of minoxidil 5% 🧔
-- Daily application of [castor oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-100-naturalny-na-rzesy-brwi-wlosy-100ml-7686264382)
-- Light use of [dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194)
+- [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily)
+- Minoxidil 5% (daily) 🧔
+- [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
+- Styling (monthly) at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk)
+- (optional) Microblading (5th of January every year) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
 
 ### Beard
 - Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a week) 🧔
@@ -847,8 +858,8 @@ There are actual studies that confirm if you look younger and better you are mor
 - Daily use of beard oil 🧔 💧
 
 ### ABS
-- Aqualyx 4vials (monthly for 4 months) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
-- EmSculpt Neo (4-6 sessions, once per week) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk)
+- Aqualyx 4vials (monthly for 4 months; then yearly) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
+- EmSculpt Neo (4-6 sessions, once per week; then yearly) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk)
 - (Optional) VASER High-Definition Lipo
 
 ### Body
