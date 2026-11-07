@@ -25,6 +25,7 @@
 - ❌️ carbonated drinks, colored drinks
 - ❌️ sunbathing
 - ❌️ unprotected sex
+- ✋️ low productivity activities, low value-adding activities that can be outsourced
 - ✋️ work or scrolling that routinely displaces sleep, relationships or restorative leisure
 - ✋️ excessive social media usage
 - ⚠️ excessive gaming and TV
