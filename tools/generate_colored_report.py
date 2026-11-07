@@ -703,7 +703,7 @@ def format_cell_md_urine(val, ref):
 # Data Reorganized
 # Using "-" for missing values as requested
 historical_date_columns = ["2026-07", "2026-01", "2025-05", "2025-01"]
-followup_date_columns = sorted({"2026-09", "2026-08", *synced_monthly["months"], *synced_monthly.get("categorical_months", {})} - set(historical_date_columns), reverse=True)
+followup_date_columns = sorted({"2026-11", "2026-09", "2026-08", *synced_monthly["months"], *synced_monthly.get("categorical_months", {})} - set(historical_date_columns), reverse=True)
 date_columns = followup_date_columns + historical_date_columns
 missing_values = {"-", None, ""}
 
@@ -1719,14 +1719,35 @@ body_measurements_2026_09 = {
     "Right Foot Length": "25.5",
     "Head Circumference": "57",
 }
+# Reported November 7; waist landmark and upper-arm flexion were not specified.
+body_measurements_2026_11 = {
+    "Waist Circumference": "80.5",
+    "Chest Circumference": "105",
+    "Neck Circumference": "38.5",
+    "Head Circumference": "57",
+    "Upper Facial Third Length": "6",
+    "Middle Facial Third Length": "6",
+    "Lower Facial Third Length": "6",
+    "Hip Circumference": "96",
+    "Right Thigh Circumference": "59",
+    "Left Thigh Circumference": "58.5",
+    "Right Upper Arm Circumference": "37",
+    "Left Upper Arm Circumference": "37",
+    "Right Forearm Circumference": "31.5",
+    "Left Forearm Circumference": "30.5",
+    "Shoulder Circumference": "120",
+    "Right Calf Circumference": "36",
+    "Left Calf Circumference": "35.5",
+}
 existing_manual_markers = {row[0] for row in data["Vitals & Functional Health"]}
-for name in body_measurements_2026_09:
+for name in body_measurements_2026_09 | body_measurements_2026_11:
     if name not in existing_manual_markers:
         data["Vitals & Functional Health"].append(
             (name, *("-" for _ in historical_date_columns), "cm", "-")
         )
     no_score_markers.add(("Vitals & Functional Health", name))
 vitals_followups["2026-09"].update(body_measurements_2026_09)
+vitals_followups.setdefault("2026-11", {}).update(body_measurements_2026_11)
 
 vitals_markers = {row[0] for row in data["Vitals & Functional Health"]}
 for followup_date, measurements in vitals_followups.items():
@@ -1952,6 +1973,10 @@ result_notes["Vitals & Functional Health"].append({
     "markers": [{"rows": list(body_measurements_2026_09), "target": "value", "dates": ["2026-09"]}],
 })
 apply_report_overlay(vitals_followups, result_notes["Vitals & Functional Health"], synced_monthly)
+result_notes["Vitals & Functional Health"].append({
+    "text": "Body and facial sizes were self-reported on November 7, 2026; the measurement date was not specified. Waist landmark and upper-arm flexion were not supplied, so those readings remain separate from September's narrowest-waist and flexed-arm measurements. Head circumference was taken at the forehead; facial-third landmarks were unspecified. These are snapshots, not monthly averages. See the <a href='results/Body-Measurements-2026-11-07/Sources.md'>November measurement record</a>.",
+    "markers": [{"rows": list(body_measurements_2026_11), "target": "value", "dates": ["2026-11"]}],
+})
 existing_vitals = {row[0] for row in data["Vitals & Functional Health"]}
 observed_metrics = {metric for metrics in synced_monthly["months"].values() for metric in metrics}
 for provider_metrics in METRICS.values():
