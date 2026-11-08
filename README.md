@@ -1410,10 +1410,6 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ## Removed / unhealthy / redundant items
 
-### Training replacements
-
-- **Dumbbell Pullover (Cross-bench):** replaced its Thursday slot with Lat Pulldowns for the current lat priority. [Activation study](https://pubmed.ncbi.nlm.nih.gov/21975179/)
-
 ### Product replacements
 
 - **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2).
