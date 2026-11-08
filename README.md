@@ -257,7 +257,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
 **Recovery:**
-- **Sauna**: 60mins per visit, 3 times a week *(Includes seated cooling/rest between comfortable heat rounds; hydrate per IW.0.2; finish early for dizziness, nausea or unusual palpitations)* ❤️
+- **Sauna**: 60mins per visit, 3 times a week *(Post-workout recovery, cardiovascular health & skin health, hydrate with electrolytes)* ❤️
 
 ---
 
