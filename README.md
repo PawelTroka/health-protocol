@@ -2,8 +2,8 @@
 ## *optimized for Health, Longevity, Looksmaxxing & Sexual Health*
 
 ## Table of Importance
-- [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
-- [1. Promote good behaviors](#1-promote-good-behaviors)
+- [0. Behaviors](#0-behaviors)
+- [1. Sleep](#1-sleep)
 - [2. Testing](#2-testing)
 - [3. Exercise](#3-exercise)
 - [4. Diet](#4-diet)
@@ -18,27 +18,57 @@
 - [Notes](#notes)
 - [TODOs / Things to consider](#todos--things-to-consider)
 
-## 0. Get rid of bad behaviors
+## 0. Behaviors
+
+### Avoid
 - ⛔️ smoking, vaping, drugs, alcohol
 - 🚫 sugar, sweets, junk food, fast food
 - ❌️ restaurants, "diet catering", take away, comfort food
 - ❌️ carbonated drinks, colored drinks
 - ❌️ sunbathing
+- ❌️ polluted/toxic environments
 - ❌️ unprotected sex
+- ❌️ PFAS/PFOA/PCB/dioxins "forever" chemicals
 - ✋️ low productivity activities, low value-adding activities that can be outsourced
 - ✋️ excessive social media usage
+- ✋️ microplastics and artificial materials
 - ⚠️ excessive gaming and TV
+- ⚠️ excessive noise
+- ⚠️ stimulants
 - ⚠️ sleep schedule disruptions
 - ⚠️ overthinking and overanalyzing things out of your control
 
-## 1. Promote good behaviors
+### Promote
 - Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
+- Physical activity & active/deep recovery
+- Social connection & psychological wellbeing
 - Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
 - Cold exposure	(4 times a week) 🔥 🛡️ ⚡
 - Meditation / breathwork (daily) 🧠 😌
 - Walks (daily) 🫁 ❤️
 - Stretching (6 times a week) 🦴 💪
-- Sleep tracking (daily) 😴
+- Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
+- Natural materials
+
+## 1. Sleep
+Sleep is your number 1 priority. It is more important than diet, more important than exercise, more important than anything else; your whole life should be optimized around sleep. If I were to chose skipping breakfast but getting 1 hour of additional sleep I would gladly do it, same with exercise.
+- **Duration & consistency:** Allow ~9h in bed for ~8h of actual sleep (adjust to daytime alertness); keep bed/wake times within ~30–60min, including weekends. 😴 ⏰
+- **Bedroom:**
+  - **Temperature / humidity:** 17–19°C (preferred: 18°C); 40–50% relative humidity, without condensation or mold. 🌡️ 💧
+  - **Light / noise:** Near-total darkness (blackout blinds, cover LEDs) and quiet (ideally <30 dBA); use quiet AC or low-volume steady noise only if helpful. 🌑 🔇
+  - **Bed:** Reserve for sleep and intimacy. 🛏️
+- **Air quality** (see [Clean air](#clean-air)):
+  - **PM2.5:** Aim for <10 µg/m³ overnight (lower is better); use a HEPA purifier sized for ~4–5 equivalent air changes/hour at its **actual nighttime fan speed**.
+  - **CO₂:** Prefer <800 ppm, or <1,000 ppm where practical, using fresh-air ventilation (filtered when outdoor air is polluted); a purifier or ordinary split AC does not remove CO₂.
+  - **Sources / upkeep:** Avoid smoke, scented candles, fragrances and ozone generators; maintain filters and clean humidifiers regularly.
+- **Daylight & wind-down:** Get 20–30min outdoors soon after waking plus daylight during the day (with UV protection); dim lights 1–2h before bed and spend the final 30–60min relaxing without stimulating work or bright screens. Dim warm/red lights are fine. 😴 😌
+- **Devices:** Turned off or "Do Not Disturb" **00:00–10:14**. 😴
+- **Stimulants:** Stop any caffeine or other stimulants ≥8–10h before bed (earlier after high doses or if sensitive); check Matcha and the daily HSN EvoBomb 2.0 200mg Caffeine dose against bedtime. 😴
+- **Meals & alcohol:** Finish large meals ≥2–3h before sleep (a light snack is fine); avoid alcohol, especially in the evening. 😴
+- **Exercise:** Train regularly; move intense evening sessions earlier if they disrupt sleep. 💪
+- **Sleep problems:** Avoid extended frustrated wakefulness in bed; if you truly cannot fall asleep read a book or even go back to work; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
+- **Sex & Sauna:*** Could make it easier to fall asleep if used strategically. Use Sauna 1-3h before sleep to relax, use good sex 0-1h before sleep to make it easier to fall asleep.
+- **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
 
 ## 2. Testing
 
