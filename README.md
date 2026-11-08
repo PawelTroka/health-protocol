@@ -773,6 +773,8 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 ## 6. Looksmaxxing
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
 
+Shopping: [personal-care and household subscription audit, prices and manual alternatives](shopping/OTHER_SUBSCRIPTIONS.md).
+
 ### Oral health / teethmaxxing
 - [Incognito](https://orthodonticassoc.com/treatments/incognito/) lingual orthodontic braces if uneven/crooked teeth or bite
 - Mandibular osteotomy (Bilateral Sagittal Split Osteotomy (BSSO) / jawline advancement) if orthodontics alone are not enough to fix bite/jaw alignment issues
@@ -955,7 +957,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 ### Laundry
 - Use **Denkmit Ultra Sensitive laundry powder** as the preferred low-irritant option. The formulas have no added perfume, dyes, or preservatives and are suitable for allergy-sensitive skin:
   - [For white and light fabrics](https://allegro.pl/oferta/denkmit-ultra-sensitive-proszek-alergia-20-40-9204338053)
-  - [For colored fabrics](https://allegro.pl/produkt/denkmit-ultra-sensitive-proszek-1-35kg-20-de-5c3bae07-8156-4e9f-bb31-888d171ef30a)
+  - [For colored fabrics](https://www.dm.pl/p/d/1675190/denkmit-proszek-do-prania-tkanin-kolorowych-ultra-sensitive-1-35-kg)
 
 
 ### Dishwasher care
