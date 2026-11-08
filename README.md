@@ -26,15 +26,20 @@
 - ❌️ restaurants, "diet catering", take away, comfort food
 - ❌️ carbonated drinks, colored drinks
 - ❌️ sunbathing
+- ❌️ polluted/toxic environments
 - ❌️ unprotected sex
 - ✋️ low productivity activities, low value-adding activities that can be outsourced
 - ✋️ excessive social media usage
 - ⚠️ excessive gaming and TV
+- ⚠️ excessive noise
+- ⚠️ stimulants
 - ⚠️ sleep schedule disruptions
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ### Promote
 - Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
+- Physical activity & active/deep recovery
+- Social connection & psychological wellbeing
 - Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
 - Cold exposure	(4 times a week) 🔥 🛡️ ⚡
 - Meditation / breathwork (daily) 🧠 😌
