@@ -350,4 +350,3 @@ The14September Allegro checkout now combines the exact [MienskoPL organic Turkey
 | **Saving per matching purchase** |**−9.22zł** |**30.99zł** |**21.77zł** |
 
 Turkey alone is94.01zł with verified Smart home delivery0zł, versus84.79zł +30.99zł for direct Miensko DPD Food. Before the stock pass, the combined checkout contained one Turkey pack, four Sardine tins, one1kg Purple Sweet Potato pack and one500ml Pamako bottle; the four new tins have now been removed. Turkey/Potatoes were estimated for17September; Sardines/Pamako for16September. The direct Turkey cart was emptied, the saved Allegro Diet list updated and the obsolete checkout closed. **No purchase or payment was submitted.** This saves one payment step; it does not reduce four sellers to one parcel, create a subscription or change the43-food Bioshi budget.
-
