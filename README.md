@@ -232,7 +232,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: Upper chest shelf, shoulder width, and neck thickness.*
 *Synergy: Chest Press + Lateral Raise.*
 - **Upper Chest**: Reverse Grip Smith Machine Press (or Tucked Elbow Incline Press): 12 × 50kg, 11 × 55kg, 10 × 60kg, 9 x 65kg *(Shoulder Pro-Tip: Press in scapular plane with elbows tucked at 30-45°; keep grip slightly wider than shoulder-width to prevent wrist strain)* 💪 ⏰ 🗿
-- **Chest Isolation**: Pec Deck Machine (Seated low-to-high if possible): 12 × 30kg, 11 × 35kg, 10 × 40kg 🗿
+- **Chest Isolation**: Pec Deck Machine (Seated low-to-high if possible): 14 × 30kg, 12 × 35kg, 10 × 40kg, 8 × 50kg 🗿
 - **Side Delts**: Cable Lateral Raises (Behind the back): 15 × 7.5kg, 13 × 10kg, 12 × 12.5kg *(Use wrist cuffs to maximize lateral delt isolation & V-taper; Pro-Tip: Set pulley at hip/wrist height to overload the lateral delt in the stretched position)* 🗿
 - **Triceps**: Single Arm Cuff Pushdown (or V-bar): 15 × 15kg, 13 × 17.5kg, 12 × 20kg 🗿
 - **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 🗿
