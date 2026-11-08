@@ -248,7 +248,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Lats (Width)**: Wide-Grip Lat Pulldown: 14 × 50kg, 12 × 60kg, 10 × 70kg *(Comfortable overhead range; keep elbows slightly in front and avoid trunk swinging)* 💪 ⏰ 🗿
 - **Upper/Mid Back**: Pronated Grip Chest-Supported Machine Row: 12 × 70kg, 11 × 80kg, 10 × 90kg (Saves lower back) 💪 ⏰ 🗿
 - **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
-- **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 15 × 12.5kg 🗿
+- **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 16 × 12.5kg 🗿
 - **Scapular Control**: Forearm Wall Slides with Foam Roller: 20x, 18x, 16x *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
 - **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
