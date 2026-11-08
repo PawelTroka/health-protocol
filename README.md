@@ -22,7 +22,7 @@
 
 ### Avoid
 - ⛔️ smoking, vaping, drugs, alcohol
-- 🚫 [sugar, sweets, junk food, fast food](#4-diet)
+- 🚫 sugar, sweets, junk food, fast food
 - ❌️ restaurants, "diet catering", take away, comfort food
 - ❌️ carbonated drinks, colored drinks
 - ❌️ [sunbathing](#skincare)
@@ -34,7 +34,7 @@
 - ✋️ [microplastics and artificial materials](#8-environment)
 - ⚠️ excessive gaming and TV
 - ⚠️ excessive noise
-- ⚠️ [stimulants](#timing--training)
+- ⚠️ stimulants
 - ⚠️ [sleep schedule disruptions](#1-sleep)
 - ⚠️ overthinking and overanalyzing things out of your control
 
