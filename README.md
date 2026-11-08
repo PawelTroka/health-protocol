@@ -61,12 +61,12 @@ Sleep is your number 1 priority. It is more important than diet, more important 
   - **PM2.5:** Aim for <10 µg/m³ overnight (lower is better); use a HEPA purifier sized for ~4–5 equivalent air changes/hour at its **actual nighttime fan speed**.
   - **CO₂:** Prefer <800 ppm, or <1,000 ppm where practical, using fresh-air ventilation (filtered when outdoor air is polluted); a purifier or ordinary split AC does not remove CO₂.
   - **Sources / upkeep:** Avoid smoke, scented candles, fragrances and ozone generators; maintain filters and clean humidifiers regularly.
-- **Daylight & wind-down:** Get 20–30min outdoors soon after waking plus daylight during the day (with UV protection as needed); dim lights 1–2h before bed and spend the final 30–60min relaxing without stimulating work or bright screens. Dim warm/red lights are fine. 😴 😌
+- **Daylight & wind-down:** Get 20–30min outdoors soon after waking plus daylight during the day (with UV protection); dim lights 1–2h before bed and spend the final 30–60min relaxing without stimulating work or bright screens. Dim warm/red lights are fine. 😴 😌
 - **Phone:** Do Not Disturb **00:00–10:14**. 😴
 - **Caffeine:** Stop ≥8–10h before bed (earlier after high doses or if sensitive); check Matcha and the daily HSN EvoBomb 2.0 200mg Caffeine dose against bedtime. 😴
 - **Meals & alcohol:** Finish large meals ≥2–3h before sleep (a light snack is fine); avoid alcohol, especially in the evening. 😴
 - **Exercise:** Train regularly; move intense evening sessions earlier if they disrupt sleep. 💪
-- **Sleep problems:** Avoid extended frustrated wakefulness in bed; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
+- **Sleep problems:** Avoid extended frustrated wakefulness in bed; if you truly cannot fall asleep read a book or even go back to work; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
 - **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
 
 ## 2. Testing
