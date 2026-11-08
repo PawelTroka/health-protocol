@@ -34,6 +34,7 @@
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ### Promote
+- Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
 - Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
 - Cold exposure	(4 times a week) 🔥 🛡️ ⚡
 - Meditation / breathwork (daily) 🧠 😌
@@ -58,9 +59,6 @@ Sleep is your number 1 priority. It is more important than diet, more important 
 - **Exercise:** Train regularly; move intense evening sessions earlier if they disrupt sleep. 💪
 - **Sleep problems:** Avoid extended frustrated wakefulness in bed; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
 - **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
-
-### Other recovery habits
-- Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
 
 ## 2. Testing
 
