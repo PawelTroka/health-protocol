@@ -2,7 +2,7 @@
 ## *optimized for Health, Longevity, Looksmaxxing & Sexual Health*
 
 ## Table of Importance
-- [0. Get rid of bad behaviors](#0-get-rid-of-bad-behaviors)
+- [0. Behaviors](#0-behaviors)
 - [1. Sleep](#1-sleep)
 - [2. Testing](#2-testing)
 - [3. Exercise](#3-exercise)
@@ -18,7 +18,9 @@
 - [Notes](#notes)
 - [TODOs / Things to consider](#todos--things-to-consider)
 
-## 0. Get rid of bad behaviors
+## 0. Behaviors
+
+### Avoid
 - ⛔️ smoking, vaping, drugs, alcohol
 - 🚫 sugar, sweets, junk food, fast food
 - ❌️ restaurants, "diet catering", take away, comfort food
@@ -31,7 +33,15 @@
 - ⚠️ sleep schedule disruptions
 - ⚠️ overthinking and overanalyzing things out of your control
 
+### Promote
+- Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
+- Cold exposure	(4 times a week) 🔥 🛡️ ⚡
+- Meditation / breathwork (daily) 🧠 😌
+- Walks (daily) 🫁 ❤️
+- Stretching (6 times a week) 🦴 💪
+
 ## 1. Sleep
+Sleep is your number 1 priority. It is more important than diet, more important than exercise, more important than anything else; your whole life should be optimized around sleep. If I were to chose skipping breakfast but getting 1 hour of additional sleep I would gladly do it, same with exercise.
 - **Duration & consistency:** Allow ~9h in bed for ~8h of actual sleep (adjust to daytime alertness); keep bed/wake times within ~30–60min, including weekends. 😴 ⏰
 - **Bedroom:**
   - **Temperature / humidity:** 17–19°C (preferred: 18°C); 40–50% relative humidity, without condensation or mold. 🌡️ 💧
@@ -51,11 +61,6 @@
 
 ### Other recovery habits
 - Sauna (3 times a week; 60min visit including cooling/rest; if used for evening relaxation, finish ~1–2h before bed and rehydrate; see [Exercise recovery](#wednesday-legs-glutehamstring-dominant)) 🔥 🛡️ ⏰
-- Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
-- Cold exposure	(4 times a week) 🔥 🛡️ ⚡
-- Meditation / breathwork (daily) 🧠 😌
-- Walks (daily) 🫁 ❤️
-- Stretching (6 times a week) 🦴 💪
 
 ## 2. Testing
 
