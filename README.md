@@ -295,7 +295,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Forearms**: Cable Reverse Curl or Dumbbell Reverse Curl or Hammer Curls: 15 × 10kg, 14 × 12.5kg, 12 × 15kg 🗿
 - **Prehab**: Face Pulls: 20 × 12.5kg, 16 × 15kg, 15 × 17.5kg *(Pull toward eye level with controlled external rotation; avoid shrugging or jutting the chin)* 🦴 🗿
 - **Mobility**: Thoracic spine extensions: 3 × 75s; Couch Stretch: 1min/leg; static stretching: 30s/leg 🦴
-- **Core**: Incline Bench Leg–Hip Raises (bent knees): 3 × 10–15 reps, bodyweight *(Head higher than hips; curl pelvis off the bench, exhale, and lower without swinging)* 💪 🗿
+- **Core**: Incline Bench Leg–Hip Raises: 16x, 14x, 12x *(Head higher than hips; curl pelvis off the bench, exhale, and lower without swinging)* 💪 🗿
 - **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
 
 ---
