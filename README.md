@@ -74,9 +74,9 @@ Sleep is your number 1 priority. It is more important than diet, more important 
 
 ### Daily Tracking
 We are following "bleeding-edge" approach when it comes to daily tracking, always pushing for the best in each category.
-- **[Sleep Tracking](#1-sleep)**: [Oura Ring 5](https://ouraring.com/store/rings/oura-ring-5) 😴 😌 ⏰
-- **[Activity Tracking](#3-exercise)**: [Garmin fēnix® 9 Pro inReach® 51mm Carbon Gray DLC Titanium with Black/Pebble Gray Silicone Band](https://www.garmin.com/en-US/p/1953453/pn/010-04337-10) 🫁 ❤️ 🥊
-- **[Meal Tracking](#4-diet)**: [Qalzy AI](https://www.qalzy.com) 🍎 🚽 🩸
+- **Sleep Tracking**: [Oura Ring 5](https://ouraring.com/store/rings/oura-ring-5) 😴 😌 ⏰
+- **Activity Tracking**: [Garmin fēnix® 9 Pro inReach® 51mm Carbon Gray DLC Titanium with Black/Pebble Gray Silicone Band](https://www.garmin.com/en-US/p/1953453/pn/010-04337-10) 🫁 ❤️ 🥊
+- **Meal Tracking**: [Qalzy AI](https://www.qalzy.com) 🍎 🚽 🩸
 - **Body Composition**: [Withings Body Scan](https://www.withings.com/eu/en/body-scan) 🩸 💪
 - **Heart Health**: [Withings BPM Core](https://www.withings.com/eu/en/bpm-core) ❤️ 🫀
 
