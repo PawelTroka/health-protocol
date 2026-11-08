@@ -246,7 +246,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### **Tuesday: Pull (Iliac Lats, Upper Back, Biceps, Forearms)**
 *Focus: V-Taper width, bicep peaks, and forearm veins.*
 *Synergy: Iliac lat exercise + upper back row.*
-- **Lats (Width)**: Neutral Shoulder-Width Weighted Pull-ups (or assisted): 10 × +2kg, 9 × +4kg, 8 × +6kg *(Added loads; comfortable overhead range; no swinging)* 💪 ⏰ 🗿
+- **Lats (Width)**: Neutral Shoulder-Width Weighted Pull-ups: 10 × 2kg, 9 × 4kg, 8 × 6kg *(comfortable overhead range; no swinging)* 💪 ⏰ 🗿
 - **Upper/Mid Back**: Pronated Grip Chest-Supported Machine Row: 12 × 70kg, 11 × 80kg, 10 × 90kg (Saves lower back) 💪 ⏰ 🗿
 - **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 15 × 12.5kg per side + 1 left-only back-off set of 15–20 reps *(Left first)* 🗿
