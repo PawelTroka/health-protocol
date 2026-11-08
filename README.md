@@ -22,33 +22,33 @@
 
 ### Avoid
 - ⛔️ smoking, vaping, drugs, alcohol
-- 🚫 sugar, sweets, junk food, fast food
+- 🚫 [sugar, sweets, junk food, fast food](#4-diet)
 - ❌️ restaurants, "diet catering", take away, comfort food
 - ❌️ carbonated drinks, colored drinks
-- ❌️ sunbathing
-- ❌️ polluted/toxic environments
+- ❌️ [sunbathing](#skincare)
+- ❌️ [polluted/toxic environments](#clean-air)
 - ❌️ unprotected sex
-- ❌️ PFAS/PFOA/PCB/dioxins "forever" chemicals
+- ❌️ [PFAS/PFOA/PCB/dioxins "forever" chemicals](#7-cookware)
 - ✋️ low productivity activities, low value-adding activities that can be outsourced
 - ✋️ excessive social media usage
-- ✋️ microplastics and artificial materials
+- ✋️ [microplastics and artificial materials](#8-environment)
 - ⚠️ excessive gaming and TV
 - ⚠️ excessive noise
-- ⚠️ stimulants
-- ⚠️ sleep schedule disruptions
+- ⚠️ [stimulants](#timing--training)
+- ⚠️ [sleep schedule disruptions](#1-sleep)
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ### Promote
 - 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
-- 🥇 Physical activity & active/deep recovery
+- 🥇 [Physical activity & active/deep recovery](#3-exercise)
 - 🥇 Social connection & psychological wellbeing
-- 🥈 Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
+- 🥈 [Red Light Therapy](#home-procedures) ❤️ 🛡️ 👨‍🦳 ⏰
 - 🥈 Cold exposure	(4 times a week) 🔥 🛡️ ⚡
 - 🥈 Meditation / breathwork (daily) 🧠 😌
 - 🥈 Walks (daily) 🫁 ❤️
 - 🥈 Stretching (6 times a week) 🦴 💪
 - 🥉 Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
-- 🥉 Natural materials
+- 🥉 [Natural materials](#bedding-and-textiles)
 
 ## 1. Sleep
 Sleep is your number 1 priority. It is more important than diet, more important than exercise, more important than anything else; your whole life should be optimized around sleep. If I were to chose skipping breakfast but getting 1 hour of additional sleep I would gladly do it, same with exercise.
@@ -74,9 +74,9 @@ Sleep is your number 1 priority. It is more important than diet, more important 
 
 ### Daily Tracking
 We are following "bleeding-edge" approach when it comes to daily tracking, always pushing for the best in each category.
-- **Sleep Tracking**: [Oura Ring 5](https://ouraring.com/store/rings/oura-ring-5) 😴 😌 ⏰
-- **Activity Tracking**: [Garmin fēnix® 9 Pro inReach® 51mm Carbon Gray DLC Titanium with Black/Pebble Gray Silicone Band](https://www.garmin.com/en-US/p/1953453/pn/010-04337-10) 🫁 ❤️ 🥊
-- **Meal Tracking**: [Qalzy AI](https://www.qalzy.com) 🍎 🚽 🩸
+- **[Sleep Tracking](#1-sleep)**: [Oura Ring 5](https://ouraring.com/store/rings/oura-ring-5) 😴 😌 ⏰
+- **[Activity Tracking](#3-exercise)**: [Garmin fēnix® 9 Pro inReach® 51mm Carbon Gray DLC Titanium with Black/Pebble Gray Silicone Band](https://www.garmin.com/en-US/p/1953453/pn/010-04337-10) 🫁 ❤️ 🥊
+- **[Meal Tracking](#4-diet)**: [Qalzy AI](https://www.qalzy.com) 🍎 🚽 🩸
 - **Body Composition**: [Withings Body Scan](https://www.withings.com/eu/en/body-scan) 🩸 💪
 - **Heart Health**: [Withings BPM Core](https://www.withings.com/eu/en/bpm-core) ❤️ 🫀
 
@@ -181,7 +181,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ### Specialist Screenings
 - Skin Cancer Check (Dermatoscopy) (Yearly)
 - Prostate Screening (PSA + Digital Rectal Exam) (Yearly)
-- Dental Checkup & Cleaning (Every 2 months)
+- [Dental Checkup & Cleaning](#oral-health--teethmaxxing) (Every 2 months)
 - Vision Exam (Every 2 years)
 
 ### Gastrointestinal Health
@@ -266,7 +266,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
 **Recovery:**
-- **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, hydrate with electrolytes)* ❤️
+- **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, [hydrate with electrolytes](#during-workout))* ❤️
 
 ---
 
@@ -324,7 +324,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 *Turkey + Salmon + Kefir day at 80kg: ~2,396kcal · P196g · C152g · F88g · Fiber43–46g.*
 
-**Protein:** 170g without Collagen (2.13g/kg), plus 25.5g Collagen. The retained 10g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in Notes.
+**Protein:** 170g without Collagen (2.13g/kg), plus 25.5g Collagen. The retained 10g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
 
 
 **Food forms:** fresh or plain frozen Vegetables, prepared as listed; Pulses cooked from dried. The existing Sardine and Mackerel options are the only canned-food exceptions.
@@ -335,7 +335,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 **Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 75g Mushrooms, 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Variety accumulates across the week; every alternative need not be bought or eaten.
 
-> **GI fit:** 43–46g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the GI options below.
+> **GI fit:** 43–46g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
 *474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
@@ -618,13 +618,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Sprouts:** rinse Broccoli/Radish Sprouts and steam until steaming hot throughout. Washing or light warming does not reliably remove their bacterial risk. [Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
 - **Fat & flavor:** Fixed EVOO is 27g/day: 13.5g (1tbsp) Pamako Morning + 13.5g (1tbsp) Phileos Lunch. Dinner's Optional Additional Healthy Fats offers EVOO13.5g, Avocado30g or Nothing; Nothing is checked. Count added cooking/packing Oil; retained Oil is already included in drained-Fish labels. Avoid smoking or repeatedly reusing Oil.
 - **Fresh herbs:** Rinse, chop and add after steaming; weigh only edible leaves and tender stems.
-- **Food contact:** use food-safe glass, ceramic or stainless steel; avoid heating food in unsuitable plastic and maintain Water filters to their instructions.
+- **Food contact:** use [food-safe glass, ceramic or stainless steel](#7-cookware); avoid heating food in unsuitable plastic and maintain [Water filters](#clean-water) to their instructions.
 
-*Sources and calculation details: Diet Notes below. Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
+*Sources and calculation details: [Diet Notes below](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
 
 
 ## 5. Supplements and drugs
-Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics (sleep, diet, exercise) does bring you more health benefits but supplements help even if you don't.
+Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics ([sleep](#1-sleep), [diet](#4-diet), [exercise](#3-exercise)) does bring you more health benefits but supplements help even if you don't.
 Within each timing, entries are ordered roughly by evidence-weighted expected net benefit; multi-ingredient products can contain components with different evidence ranks. Active entries generally use generic ingredient names, while exact manufacturer, product, branded-formulation or strain names remain where identity or provenance materially defines the selected intervention; the links identify the exact selected products, and the Notes explain deeper formulation evidence. Numeric quantities use compact number-unit formatting, such as `1g`, `250mg` and `1scoop`. List order does not create additional timing windows. Evidence medals precede supplement codes: 🥇 Gold marks the strongest relevant human evidence plus meaningful expected benefit, 🥈 Silver marks supportive but smaller, indirect or limited human evidence and/or a more modest marginal benefit, and 🥉 Bronze marks an exploratory intervention supported mainly by mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit. A medal grades the exact active intervention in this protocol—not product purity, safety, organizer order or a guaranteed individual response; Bronze is not automatically a removal recommendation, and an indication, biomarker or reproducible response can change a tier. Drugs, Water and EVOO remain intentionally unmedalled, and blend medals apply to the overall intervention rather than every nested ingredient.
 The Morning, Lunch and Evening organizers each use two linked 9-compartment [GymBeam Adjustable PillBoxes](https://gymbeam.com/adjustable-pillbox-gymbeam.html), while Before Workout and After Workout each use one. Timing codes map the protocol directly to preparation: `M`, `L`, `B`, `IW`, `A` and `E` mean Morning, Lunch, Before Workout, Intra-Workout, After Workout and Evening; numbered pill codes are physical organizer compartments; `.1` and `.2` divide one compartment between two small, clearly distinguishable pills; a range such as `L.2-3` means one large pill in each listed compartment; and a multiplier within one code, such as `M.15 3x`, means the small pills share that compartment. Zero-series codes such as `M.0.2` identify drinks or powders outside the pill organizer and do not consume a compartment. In a deeper code such as `M.0.3.2.1`, the next number identifies the bold ingredient subgroup and the final number identifies that ingredient's position within the subgroup. Slot-code superscripts on nested ingredients point to the corresponding Notes topic and never consume organizer compartments. Empty compartments remain strategically positioned at the largest practical evidence-benefit gaps.
 
@@ -952,11 +952,11 @@ Even if you do everything right you can be exposed to harmful environment, so it
 ### Clean air
 - Monitor [outside air quality](https://www.iqair.com/air-quality-map/poland/pomerania/gdansk) religiously and don't go out when its worse than moderate, limit going out when its moderate
 - Monitor inside air quality using [Airthings View Plus](https://www.airthings.com/view-plus) or [IQAir AirVisual Pro](https://www.iqair.com/products/air-quality-monitors/airvisual-pro-indoor-monitor)
-- Use extremely strong air purifier at home (especially bedroom) with 600+ CADR, at least 3 filtration stages, 1100+ ml/h humidifier and 50,000+ ions/cm³ Plasmacluster like [Sharp KI-TX100EU-W](https://loveair.pl/oczyszczacz/sharp-ki-tx100eu-w)
+- Use extremely strong air purifier at home (especially [bedroom](#1-sleep)) with 600+ CADR, at least 3 filtration stages, 1100+ ml/h humidifier and 50,000+ ions/cm³ Plasmacluster like [Sharp KI-TX100EU-W](https://loveair.pl/oczyszczacz/sharp-ki-tx100eu-w)
 - (alternative) If you already have optimal humidity, use a dedicated high-performance purifier like [IQAir HealthPro Plus](https://www.iqair.com/us/products/air-purifiers/healthpro-plus?Model=XE)
 
 ### Bedding and textiles
-- **Bed baseline:** bare mattress 193x203cm (76x80in US King); keep the bedroom at 18°C.
+- **Bed baseline:** bare mattress 193x203cm (76x80in US King); keep the [bedroom at 18°C](#1-sleep).
 - **Duvets (2x purchased — primary bed + guest bed):** [Poldaun Ecotton 220x240cm all-season duvet](https://polskiekoldry.pl/koldra-220x240-bawelniana-100-bio-ecotton-caloroczna-poldaun) — natural cream, with a 100% organic-Cotton shell and 100% unbleached, chemically untreated Cotton fill; 300g/m², 1,600g fill and 2,700g total product weight. Use one as the shared primary-bed duvet and one on the guest bed. The maker identifies the shell fabric as GOTS-certified and made without artificial dyes or optical brighteners. Orient the 240cm side across the primary mattress for better shared coverage.
   - **Important limitations:** the care label allows only a 30°C wash, the retailer does not document OEKO-TEX® STANDARD 100 Product Class I for this exact finished duvet, and the listed warmth is low. At the fixed 18°C bedroom temperature, confirm thermal comfort during the return window.
 - **Guest pillows (2x purchased):** [Poldaun Ecotton flat pillow, 40x60cm](https://polskiekoldry.pl/poduszka-40x60-bawelniana-100-bio-ecotton-plaska-poldaun) — Polish-made, low-profile pillows with a natural-cream, 100% organic-Cotton sanforized shell without optical brighteners and 100g of natural, unbleached, chemically untreated Cotton fill; the quilted construction keeps the fill distributed. Reserve both for the guest bed rather than the primary sleepers' existing pillows.
