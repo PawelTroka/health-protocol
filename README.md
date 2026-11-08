@@ -297,6 +297,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 **Protein:** 170g without Collagen (2.13g/kg), plus 25.5g Collagen. The retained 10g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in Notes.
 
 
+**Food purchasing:** [91-food price and subscription audit — 8Nov2026](diet/FOOD_SUBSCRIPTIONS_2026-11.md). Bioshi now requires confirmation/payment for each repeat; current automatic candidates and premiums are identified in the audit.
+
 **Food forms:** fresh or plain frozen Vegetables, prepared as listed; Pulses cooked from dried. The existing Sardine and Mackerel options are the only canned-food exceptions.
 
 **How to use:** every CHOOSE list ranks options by evidence-weighted Health, Longevity, Looksmaxxing and Sexual Health benefit at the listed portions, adjusted for GI tolerance and stack fit. Fixed items plus checked choices form the reference day. Choose Spices & Herbs at their individual portions; rotate foods across the week and recalculate Macros for substitutions.
@@ -311,23 +313,23 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
 - 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 1scoop) 🛡️ 🗿 💪 🦴 👨‍🦳
   - `166kcal · P40.5g · C0.4g · F0.3g`
-- 25g dry [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪 🔄
+- 25g dry [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪
   - `93kcal · P3.3g · C15g · F1.7g · Fiber2.4g · Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
 - 10g dry [High-Fiber Oat Bran](https://www.frisco.pl/pid,13582/n,sante-otreby-owsiane-wysokoblonnikowe/stn,product) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪
   - `37kcal · P1.6g · C5.2g · F0.7g · Fiber1.8g · ≥0.6g Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
 - 10g Psyllium Husk (7.5g standalone + 2.5g in MicroVitamin+) 🚽 🦠 🩸
   - `20kcal · C1g · Fiber7–9g · Gel-Forming Arabinoxylan (Soluble Fiber)`
 - 🌱 **Seeds — CHOOSE ONE**
-  - [x] 7g freshly ground [organic Flaxseed](https://bioshi.pl/pl/products/siemie-lniane-brazowe-bio-nasiona-lnu-250-g-heybio-101259) 🛡️ ⏰ ❤️ 🦠 🩸 🪶 🔄
+  - [x] 7g freshly ground [organic Flaxseed](https://bioshi.pl/pl/products/siemie-lniane-brazowe-bio-nasiona-lnu-250-g-heybio-101259) 🛡️ ⏰ ❤️ 🦠 🩸 🪶
     - `35kcal · P1.3g · C1.2g · F2.2g · Fiber2g · Lignans (SDG) · ALA Omega-3 · Mucilage`
-  - [ ] 7g [organic Chia Seeds](https://bioshi.pl/pl/products/chia-nasiona-szalwii-hiszpanskiej-bio-200-g-45944) 🛡️ ⏰ ❤️ 🦠 🧠 🪶 🔄
+  - [ ] 7g [organic Chia Seeds](https://bioshi.pl/pl/products/chia-nasiona-szalwii-hiszpanskiej-bio-200-g-45944) 🛡️ ⏰ ❤️ 🦠 🧠 🪶
     - `31kcal · P1.2g · C0.5g · F2.2g · Fiber2.4g · ALA Omega-3 · Calcium · Magnesium · Mucilage · Rosmarinic Acid`
   - [ ] 7g [organic Hulled Hemp Seeds](https://marketbio.pl/nasiona-konopi-luskane-bio-200-g-bio-planet.html) 🛡️ ⏰ 💪 ❤️ 🦴
     - `41kcal · P2.4g · C0.2g · F3.4g · Fiber0.4g · ALA Omega-3 · GLA Omega-6 · Magnesium · Zinc`
 - 🌿 **Spices & Herbs — CHOOSE ONE**
-  - [x] 0.5g [organic Ceylon Cinnamon](https://bioshi.pl/pl/products/cynamon-cejlonski-mielony-bio-50-g-lebensbaum-44566) 🛡️ 🪶 🔄
+  - [x] 0.5g [organic Ceylon Cinnamon](https://bioshi.pl/pl/products/cynamon-cejlonski-mielony-bio-50-g-lebensbaum-44566) 🛡️ 🪶
     - `Cinnamaldehyde · Proanthocyanidins`
-  - [ ] 0.25g freshly ground [organic Cloves](https://bioshi.pl/pl/products/gozdziki-cale-bio-30-g-dary-natury-46303) 🛡️ 🪶 🔄
+  - [ ] 0.25g freshly ground [organic Cloves](https://bioshi.pl/pl/products/gozdziki-cale-bio-30-g-dary-natury-46303) 🛡️ 🪶
     - `Eugenol · Ellagitannins`
   - [ ] 30mg [Eurofins-tested ISO 3632 Category I Saffron Threads](https://saffrona.eu/produkt/safran-0-5g-kaufen/) *(occasional culinary rotation; steep before blending)* 🛡️ 😌 🧠 🪶 🟡
     - `Crocins · Safranal · Picrocrocin · Kaempferol Glycosides`
@@ -348,18 +350,18 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - [ ] 180g [Wild-caught Argentinian Red Shrimps](https://zakupy.auchan.pl/products/krewetki-argentyńskie-surowe-obrane-30-40-auchan-collection-180-g/00130448) (rinse with Water before cooking) 🛡️ 🗿 💪 🍆 🪶
     - `121kcal · P27g · C0g · F1.4g · Vitamin B12 · Selenium · Zinc · EPA/DHA · Taurine`
 - 🌾 **Easily Digestible Complex Carbs — CHOOSE ONE**
-  - [ ] 75g boiled [organic White Quinoa](https://bioshi.pl/pl/products/quinoa-biala-komosa-ryzowa-bezglutenowa-bio-500-g-bio-planet-44499) 🛡️ 🗿 💪 🦠 🩸 🪶 🔄
+  - [ ] 75g boiled [organic White Quinoa](https://bioshi.pl/pl/products/quinoa-biala-komosa-ryzowa-bezglutenowa-bio-500-g-bio-planet-44499) 🛡️ 🗿 💪 🦠 🩸 🪶
     - `104kcal · P4.2g · C15.7g · F2g · Fiber3.8g · Magnesium · Folate · Flavonol Glycosides`
   - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Anthocyanins · Chlorogenic Acids · Potassium`
-  - [ ] 100g steamed [organic Orange Sweet Potatoes](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) 🛡️ 🗿 👁️ 🦠 💪 🔄
+  - [ ] 100g steamed [organic Orange Sweet Potatoes](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) 🛡️ 🗿 👁️ 🦠 💪
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Beta-Carotene · Chlorogenic Acids · Potassium`
-  - [ ] 80g steamed peeled [organic Potatoes](https://bioshi.pl/pl/products/ziemniaki-zolte-swieze-bio-polska-2-kg-100207) 🛡️ 🗿 💪 🩸 🔄
+  - [ ] 80g steamed peeled [organic Potatoes](https://bioshi.pl/pl/products/ziemniaki-zolte-swieze-bio-polska-2-kg-100207) 🛡️ 🗿 💪 🩸
     - `75kcal · P1.8g · C15.9g · F0.1g · Fiber1.6g · Potassium · Vitamin B6 · Chlorogenic Acids`
 - 🍄 **Steamed Mushrooms — CHOOSE ONE**
-  - [x] 75g [organic Oyster Mushrooms](https://bioshi.pl/pl/products/grzyby-boczniaki-swieze-bio-polska-okolo-0-20-kg-bio-planet-97014) 🛡️ ⏰ 🧠 🦠 🪶 🔄
+  - [x] 75g [organic Oyster Mushrooms](https://bioshi.pl/pl/products/grzyby-boczniaki-swieze-bio-polska-okolo-0-20-kg-bio-planet-97014) 🛡️ ⏰ 🧠 🦠 🪶
     - `25kcal · P2.5g · C2.9g · F0.3g · Fiber1.7g · Ergothioneine · Beta-Glucans · Glutathione · Spermidine`
-  - [ ] 75g fresh [organic Shiitake](https://bioshi.pl/pl/products/grzyby-shiitake-swieze-bio-polska-okolo-0-20-kg-97013) 🛡️ ⏰ 🧠 🦠 🎈 🔄
+  - [ ] 75g fresh [organic Shiitake](https://bioshi.pl/pl/products/grzyby-shiitake-swieze-bio-polska-okolo-0-20-kg-97013) 🛡️ ⏰ 🧠 🦠 🎈
     - `26kcal · P1.7g · C3.2g · F0.4g · Fiber1.9g · Beta-Glucans · Ergothioneine · Copper · Glutathione · Eritadenine · Spermidine`
   - [ ] 75g fresh [Maitake](https://allegro.pl/produkt/grzyby-maitake-unikat-swieze-150g-tzw-tanczacy-grzyb-paczka-cc240c3c-a551-4852-a00c-afc4c145e033) 🛡️ ⏰ 🧠
     - `23kcal · P1.5g · C3.2g · F0.1g · Fiber2g · Beta-Glucans · Ergothioneine · Glutathione`
@@ -370,16 +372,16 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `35kcal · P2.4g · C3.9g · F0.4g · Fiber3.3g · Glucosinolates · Folate · Vitamin C · Vitamin K1 · Flavonol Glycosides`
   - [ ] 100g [Brussels Sprouts](https://zakupy.auchan.pl/products/brukselka-mro%C5%BCona-auchan-450-g/00883799) 🛡️ ⏰ ❤️ 🦠
     - `36kcal · P2.6g · C4.5g · F0.5g · Fiber2.6g · Glucosinolates · Folate · Vitamin C · Vitamin K1 · Flavonol Glycosides`
-  - [ ] 100g [organic Cauliflower](https://bioshi.pl/pl/products/kalafior-swiezy-bio-okolo-0-80-kg-45883) 🛡️ ⏰ 🦠 🔄
+  - [ ] 100g [organic Cauliflower](https://bioshi.pl/pl/products/kalafior-swiezy-bio-okolo-0-80-kg-45883) 🛡️ ⏰ 🦠
     - `23kcal · P1.8g · C1.8g · F0.5g · Fiber2.3g · Glucosinolates · Vitamin C · Folate · Flavonol Glycosides`
-  - [ ] 100g [organic Kohlrabi](https://bioshi.pl/pl/products/kalarepa-swieza-bio-polska-okolo-0-20-kg-80241) *(peeled)* 🛡️ ⏰ 🦠 🔄
+  - [ ] 100g [organic Kohlrabi](https://bioshi.pl/pl/products/kalarepa-swieza-bio-polska-okolo-0-20-kg-80241) *(peeled)* 🛡️ ⏰ 🦠
     - `29kcal · P1.8g · C5.6g · F0.1g · Fiber1.1g · Glucosinolates · Vitamin C · Potassium`
 - 🥕 **Colorful Vegetables — CHOOSE ONE**
-  - [x] 100g steamed [organic Orange Carrots](https://bioshi.pl/pl/products/marchew-niemyta-swieza-bio-polska-okolo-1-00-kg-84795) 🛡️ ⏰ 🗿 👁️ 🦠 🔄
+  - [x] 100g steamed [organic Orange Carrots](https://bioshi.pl/pl/products/marchew-niemyta-swieza-bio-polska-okolo-1-00-kg-84795) 🛡️ ⏰ 🗿 👁️ 🦠
     - `35kcal · P0.8g · C5.2g · F0.2g · Fiber3g · Beta-Carotene · Alpha-Carotene · Potassium · Falcarinol-type Polyacetylenes`
   - [ ] 100g raw [Red Bell Pepper](https://zakupy.auchan.pl/products/papryka-czerwona-warzywa-auchan-na-wag%C4%99-ok-500-g/00034222) 🛡️ ⏰ 🗿 👁️
     - `26kcal · P0.8g · C4.2g · F0.2g · Fiber2g · Vitamin C · Capsanthin/Capsorubin · Beta-Carotene · Beta-Cryptoxanthin · Zeaxanthin`
-  - [ ] 100g steamed [organic Orange-fleshed Butternut Squash](https://bioshi.pl/pl/products/dynia-pizmowa-butternut-swieza-bio-okolo-0-70-kg-64110) *(edible flesh)* 🛡️ ⏰ 🗿 👁️ 🦠 🔄
+  - [ ] 100g steamed [organic Orange-fleshed Butternut Squash](https://bioshi.pl/pl/products/dynia-pizmowa-butternut-swieza-bio-okolo-0-70-kg-64110) *(edible flesh)* 🛡️ ⏰ 🗿 👁️ 🦠
     - `40kcal · P0.9g · C7.3g · F0.1g · Fiber3.2g · Beta-Carotene · Alpha-Carotene · Potassium`
   - [ ] 100g steamed [Purple Carrots](https://www.lokalnywarzywniak.pl/pl/warzywa/309-39-marchew-fioletowa-swieza.html) *(select Fioletowy)* 🛡️ ⏰ 🗿 👁️
     - `35kcal · P0.8g · C5.2g · F0.2g · Fiber3g · Anthocyanins · Chlorogenic Acid · Potassium · Falcarinol-type Polyacetylenes`
@@ -390,20 +392,20 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `6kcal · P1.2g · C0.4g · F0.1g · Fiber0.3g · Gluconasturtiin · Lutein · Vitamin K1`
   - [ ] 30g raw [Watercress Microgreens](https://stolicazakupow.pl/produkt/mikroliscie-rukiew-wodna-50-g-pokarm-zycia/) 🛡️ ❤️ 👁️
     - `3kcal · P0.7g · C0.2g · F0g · Fiber0.2g · Glucosinolates · Carotenoids`
-  - [x] 50g raw [organic Arugula Leaves](https://www.frisco.pl/pid,147325/n,frisco-organic-rukola-swieza-niemyta-bio/stn,product) 🛡️ ⏰ 🗿 ❤️ 👁️ 🪶 🔄
+  - [x] 50g raw [organic Arugula Leaves](https://www.frisco.pl/pid,92781/n,fit-easy-rukola-bio/stn,product) 🛡️ ⏰ 🗿 ❤️ 👁️ 🪶
     - `13kcal · P1.3g · C1g · F0.3g · Fiber0.8g · Nitrates · Glucosinolates · Vitamin K1 · Folate · Flavonol Glycosides`
-  - [ ] 30g thoroughly steamed [organic Radish Sprouts](https://bioshi.pl/pl/products/kielki-rzodkiewki-swieze-bio-okolo-50-g-46190) 🛡️ 🦠 🔄
+  - [ ] 30g thoroughly steamed [organic Radish Sprouts](https://bioshi.pl/pl/products/kielki-rzodkiewki-swieze-bio-okolo-50-g-46190) 🛡️ 🦠
     - `18kcal · P1.4g · C1.6g · F0.4g · Fiber1.1g · Glucoraphenin`
 - 🫐 **Berries — CHOOSE ONE**
-  - [x] 150g fresh [organic Blueberries](https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183) 🛡️ ⏰ 🗿 🧠 ❤️ 👁️ 👨‍🦳 🪶 🔄 🟡
+  - [x] 150g fresh [organic Blueberries](https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183) 🛡️ ⏰ 🗿 🧠 ❤️ 👁️ 👨‍🦳 🪶 🟡
     - `86kcal · P1.1g · C18.2g · F0.5g · Fiber3.6g · Anthocyanins · Vitamin C · Vitamin K1 · Manganese · Proanthocyanidins · Chlorogenic Acids · Flavonols`
   - [ ] 100g frozen [Wild Bilberries](https://zakupy.auchan.pl/products/jagoda-czarna-pewni-dobrego-200-g/00073105) 🛡️ ⏰ 🗿 🧠 👁️ 🟡
     - `61kcal · P0.8g · C12g · F0.8g · Fiber3g · Anthocyanins · Vitamin E · Proanthocyanidins · Chlorogenic Acids · Flavonols`
   - [ ] 100g frozen [Polish Blackcurrants](https://zakupy.auchan.pl/products/czarna-porzeczka-auchan-350-g/00561302) 🛡️ ⏰ 🗿 ❤️ 👁️ 🟡
     - `56kcal · P1.4g · C7.6g · F1g · Fiber5g · Anthocyanins · Vitamin C · Proanthocyanidins · Flavonols`
-  - [ ] 150g fresh [organic Strawberries](https://bioshi.pl/pl/products/truskawka-swieza-bio-polska-opakowanie-ok-0-45-kg-77418) 🛡️ ⏰ 🗿 ❤️ 👨‍🦳 🔄
+  - [ ] 150g fresh [organic Strawberries](https://bioshi.pl/pl/products/truskawka-swieza-bio-polska-opakowanie-ok-0-45-kg-77418) 🛡️ ⏰ 🗿 ❤️ 👨‍🦳
     - `48kcal · P1.1g · C8.6g · F0.5g · Fiber3g · Vitamin C · Anthocyanins · Ellagitannins · Proanthocyanidins`
-  - [ ] 100g fresh [organic Raspberries](https://bioshi.pl/pl/products/maliny-swieze-bio-polska-okolo-0-125-kg-bio-planet-88768) 🛡️ ⏰ 🗿 ❤️ 🦠 👨‍🦳 🔄 🟡
+  - [ ] 100g fresh [organic Raspberries](https://bioshi.pl/pl/products/maliny-swieze-bio-polska-okolo-0-125-kg-bio-planet-88768) 🛡️ ⏰ 🗿 ❤️ 🦠 👨‍🦳 🟡
     - `52kcal · P1.2g · C5.5g · F0.7g · Fiber6.5g · Ellagitannins · Anthocyanins · Vitamin C · Proanthocyanidins`
 - 🌿 **Spices & Herbs — CHOOSE ANY**
   - [ ] 1g freshly ground [organic Brown Mustard Seed](https://www.olium.pl/gorczyca-brazowa-ziarno-bio-100-g-p451) 🛡️ 🪶
@@ -412,15 +414,15 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `7kcal · P0.6g · C0.6g · F0.2g · Fiber0.7g · Vitamin C · Vitamin K1 · Apigenin Glycosides · Lutein · Beta-Carotene`
   - [ ] 15g fresh [organic Coriander Leaves (Cilantro)](https://zakupy.auchan.pl/products/bio-kolendra-pewni-dobrego-sztuka/00987760) 🛡️ 👁️
     - `4kcal · P0.3g · C0.2g · F0.1g · Fiber0.5g · Beta-Carotene · Vitamin C · Quercetin Glycosides · Phenolic Acids`
-  - [ ] 0.5g [organic Oregano](https://bioshi.pl/pl/products/oregano-bio-20-g-dary-natury-46317) 🛡️ ❤️ 🪶 🔄
+  - [ ] 0.5g [organic Oregano](https://bioshi.pl/pl/products/oregano-bio-20-g-dary-natury-46317) 🛡️ ❤️ 🪶
     - `Rosmarinic Acid · Carvacrol`
-  - [x] 0.5g freshly ground [organic Coriander Seed](https://bioshi.pl/pl/products/kolendra-ziarno-bio-30-g-dary-natury-46308) 🛡️ 🦠 🪶 🔄
+  - [x] 0.5g freshly ground [organic Coriander Seed](https://bioshi.pl/pl/products/kolendra-ziarno-bio-30-g-dary-natury-46308) 🛡️ 🦠 🪶
     - `Linalool`
-  - [x] 1g freshly ground [organic Cumin Seed](https://bioshi.pl/pl/products/kmin-rzymski-cale-nasiona-bio-30-g-dary-natury-46593) 🛡️ 🪶 🔄
+  - [x] 1g freshly ground [organic Cumin Seed](https://bioshi.pl/pl/products/kmin-rzymski-cale-nasiona-bio-30-g-dary-natury-46593) 🛡️ 🪶
     - `Cuminaldehyde`
   - [ ] 1g [organic Sweet Paprika](https://marketbio.pl/papryka-slodka-bio-50-g-lebensbaum.html) 🛡️ 🪶 🟡
     - `Capsanthin · Capsorubin · Beta-Carotene · Zeaxanthin`
-- 🫒 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶 🔄
+- 🫒 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶
   - `122kcal · F13.5g · 917mg/kg Polyphenols · Oleocanthal · Oleacein · MUFAs · Vitamin E · Squalene · Phytosterols`
 - 💊 [Lunch supplements](#lunch)
 
@@ -456,20 +458,20 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🐟 **Fatty Protein — CHOOSE ONE**
   - [x] 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🛡️ ⏰ 🗿 🍆 🧠 ❤️ 👁️ 🪶
     - `335kcal · P29.9g · C0g · F23.9g · EPA/DHA · Vitamin D3 · Vitamin B12 · Selenium · Astaxanthin · Anserine · Creatine · Taurine`
-  - [ ] 170g (2x85g) drained wild-caught [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🛡️ ⏰ 🗿 🍆 ❤️ 🧠 👁️ 🪶
+  - [ ] 170g (2x85g) drained wild-caught [sardines](https://www.frisco.pl/pid,122403/n,delicius-filety-z-sardynek-w-oliwie-z-oliwek/stn,product) 🛡️ ⏰ 🗿 🍆 ❤️ 🧠 👁️ 🪶
     - `432kcal · P38.3g · C0g · F30.1g · EPA/DHA · Vitamin B12 · Taurine`
   - [ ] 125g [Atlantic Mackerel fillets](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🛡️ ⏰ 🗿 🍆 ❤️ 🧠 👁️ 🪶
     - `346kcal · P27.5g · C0g · F26.3g · EPA/DHA · Vitamin B12 · Vitamin D3 · Selenium · Taurine`
-  - [ ] 200g [organic Tempeh](https://bioshi.pl/pl/products/tempeh-naturalny-bio-200-g-merapi-67128) 🛡️ ⏰ 🗿 💪 ❤️ 🦠 🌱 🔄
+  - [ ] 200g [organic Tempeh](https://bioshi.pl/pl/products/tempeh-naturalny-bio-200-g-merapi-67128) 🛡️ ⏰ 🗿 💪 ❤️ 🦠 🌱
     - `364kcal · P38g · C7g · F16g · Isoflavones · Magnesium · Calcium · Spermidine · Soyasaponins`
-  - [ ] 200g [organic Eggs from pasture-raised green-legged hens fed organic feed](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125) 🛡️ 🗿 💪 🧠 👁️ 🍆 🪶 🔄
+  - [ ] 200g [organic Eggs from pasture-raised green-legged hens fed organic feed](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125) 🛡️ 🗿 💪 🧠 👁️ 🍆 🪶
     - `298kcal · P26g · C0.6g · F21.4g · Choline · Vitamin B12 · Selenium · Lutein/Zeaxanthin · Phospholipids (Phosphatidylcholine)`
 - 🌾 **Complex Carbs — CHOOSE ONE**
-  - [ ] 65g boiled [organic Beluga Black Lentils](https://bioshi.pl/pl/products/soczewica-czarna-beluga-bio-400-g-bio-planet-44959) 🛡️ ⏰ ❤️ 🦠 🩸 🌱 🔄
+  - [ ] 65g boiled [organic Beluga Black Lentils](https://bioshi.pl/pl/products/soczewica-czarna-beluga-bio-400-g-bio-planet-44959) 🛡️ ⏰ ❤️ 🦠 🩸 🌱
     - `75kcal · P5.9g · C7.9g · F0.2g · Fiber5.1g · Folate · Iron · Resistant Starch · Proanthocyanidins · Saponins`
-  - [ ] 60g boiled [organic Black Beans](https://bioshi.pl/pl/products/fasolka-czarna-bio-500-g-bio-planet-49356) 🛡️ ⏰ ❤️ 🦠 🩸 🌱 🔄
+  - [ ] 60g boiled [organic Black Beans](https://bioshi.pl/pl/products/fasolka-czarna-bio-500-g-bio-planet-49356) 🛡️ ⏰ ❤️ 🦠 🩸 🌱
     - `79kcal · P5.3g · C9g · F0.3g · Fiber5.2g · Folate · Magnesium · Resistant Starch · Phenolic Acids`
-  - [ ] 50g boiled [organic Chickpeas](https://bioshi.pl/pl/products/ciecierzyca-bezglutenowa-bio-400-g-bio-planet-44932) 🛡️ ⏰ ❤️ 🦠 🩸 🌱 🔄
+  - [ ] 50g boiled [organic Chickpeas](https://bioshi.pl/pl/products/ciecierzyca-bezglutenowa-bio-400-g-bio-planet-44932) 🛡️ ⏰ ❤️ 🦠 🩸 🌱
     - `82kcal · P4.4g · C9.9g · F1.3g · Fiber3.8g · Folate · Iron · Resistant Starch · Saponins`
   - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪 😴
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Anthocyanins · Chlorogenic Acids · Potassium`
@@ -478,25 +480,25 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `36kcal · P3g · C1.4g · F1.2g · Fiber4g · Lutein · Vitamin K1 · Calcium · Glucosinolates · Flavonol Glycosides`
   - [x] 100g [Bok Choy](https://zakupy.auchan.pl/products/sa%C5%82ata-pak-choi-warzywa-auchan-sztuka/00248845) 🛡️ ⏰ 🗿 🦴
     - `12kcal · P1.6g · C0.8g · F0.1g · Fiber1.1g · Calcium · Glucosinolates · Vitamin K1 · Folate · Flavonol Glycosides`
-  - [ ] 100g [organic Spinach](https://bioshi.pl/pl/products/szpinak-baby-swiezy-niemyty-bio-okolo-0-10-kg-45129) 🛡️ ⏰ 🗿 👁️ 🦴 🔄
+  - [ ] 100g [organic Spinach](https://bioshi.pl/pl/products/szpinak-baby-swiezy-niemyty-bio-okolo-0-10-kg-45129) 🛡️ ⏰ 🗿 👁️ 🦴
     - `23kcal · P2.9g · C1.3g · F0.3g · Fiber2.4g · Folate · Lutein · Magnesium · Vitamin K1 · Nitrates · Betaine · Spinacetin/Patuletin Glycosides`
   - [ ] 100g [organic Swiss Chard](https://ekoj.pl/produkt/563/burak-lisciowy-bio-peczek-gospodarstwo-kwiatkowscy.html) *(Mangold / Bietola leaves and edible stalks)* 🛡️ ⏰ 🗿 👁️ 🦴
     - `20kcal · P1.9g · C2g · F0.1g · Fiber2.1g · Vitamin K1 · Lutein · Magnesium`
 - 🍅 **Mediterranean Vegetables — CHOOSE ONE**
-  - [x] 100g raw [fresh organic Tomatoes](https://bioshi.pl/pl/products/pomidory-okragle-swieze-tacki-bio-polska-88631) 🛡️ ⏰ 🗿 ❤️ 🍅 👨‍🦳 🔄
+  - [x] 100g raw [fresh organic Tomatoes](https://bioshi.pl/pl/products/pomidory-okragle-swieze-tacki-bio-polska-88631) 🛡️ ⏰ 🗿 ❤️ 🍅 👨‍🦳
     - `18kcal · P0.9g · C2.7g · F0.2g · Fiber1.2g · Lycopene · Potassium · Vitamin C · Phytoene/Phytofluene · Naringenin Chalcone`
   - [ ] 100g boiled [organic Green Beans](https://zakupy.auchan.pl/products/bio-fasolka-szparagowa-mro%C5%BCona-2bebio-450-g/00045259) 🛡️ ⏰ 🦠 ❤️
     - `35kcal · P1.9g · C4.7g · F0.3g · Fiber3.2g · Folate · Vitamin K1 · Quercetin/Kaempferol Glycosides`
   - [ ] 75g steamed [fresh Okra (Bhindi)](https://eco-india.pl/produkt/okra-swieza-bhindi-1-kg-swieze-warzywa/) 🛡️ ⏰ 🦠 ❤️ 🪶
     - `21kcal · P1.4g · C2.3g · F0.2g · Fiber2.3g · Folate · Mucilage (Soluble Fiber) · Vitamin C · Quercetin Glycosides`
-  - [ ] 75g steamed [organic Celeriac (Celery Root)](https://bioshi.pl/pl/products/seler-swiezy-bio-polska-okolo-1-00-kg-80061) 🛡️ ⏰ 🦠 ❤️ 🔄
+  - [ ] 75g steamed [organic Celeriac (Celery Root)](https://bioshi.pl/pl/products/seler-swiezy-bio-polska-okolo-1-00-kg-80061) 🛡️ ⏰ 🦠 ❤️
     - `17kcal · P1g · C1.9g · F0g · Fiber2.3g · Potassium · Folate · Falcarinol-type Polyacetylenes`
   - [ ] 75g steamed [fresh organic Green Asparagus](https://www.ekologiczny-grzegorz.pl/sklep/warzywa-i-owoce/warzywa-swieze/szparagi-zielone-swieze-bio-ok-250-g/) 🛡️ ⏰ 🦠 👁️ 🎈
     - `17kcal · P1.7g · C1.5g · F0.1g · Fiber1.5g · Folate · Carotenoids · Rutin`
 - 🥝 **Whole Fruit — CHOOSE ONE**
-  - [x] 150g [organic Green Kiwifruit](https://bioshi.pl/pl/products/kiwi-swieze-bio-okolo-0-60-kg-80086) 🛡️ ⏰ 🗿 🚽 🦠 👨‍🦳 🪶 🔄
+  - [x] 150g [organic Green Kiwifruit](https://bioshi.pl/pl/products/kiwi-swieze-bio-okolo-0-60-kg-80086) 🛡️ ⏰ 🗿 🚽 🦠 👨‍🦳 🪶
     - `88kcal · P1.6g · C16.6g · F0.6g · Fiber4.6g · Vitamin C · Actinidin · Pectin`
-  - [ ] 150g [organic Orange](https://bioshi.pl/pl/products/pomarancze-bio-1-kg-49176) 🛡️ ⏰ 🗿 ❤️ 👨‍🦳 🔄
+  - [ ] 150g [organic Orange](https://bioshi.pl/pl/products/pomarancze-bio-1-kg-49176) 🛡️ ⏰ 🗿 ❤️ 👨‍🦳
     - `71kcal · P1.4g · C14.1g · F0.2g · Fiber3.6g · Vitamin C · Citrus Flavanones (Hesperidin/Narirutin) · Folate`
   - [ ] 130g [Pomegranate](https://zakupy.auchan.pl/products/granat-kaliber-%C5%9Bredni-owoce-auchan-sztuka/00031949) *(Arils)* 🛡️ ⏰ ❤️ 🟡
     - `108kcal · P2.2g · C19.1g · F1.6g · Fiber5.2g · Anthocyanins · Folate · Potassium`
@@ -507,27 +509,27 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - [ ] 100g frozen [Polish Tart Cherries](https://zakupy.auchan.pl/products/wi%C5%9Bnie-bez-pestek-auchan-400-g/00179831) 🛡️ ⏰ 😴 🔥 🟡
     - `49kcal · P0.9g · C9.9g · F0.5g · Fiber1g · Anthocyanins · Chlorogenic Acids · Flavonols`
 - 🌰 **Nuts — CHOOSE ONE**
-  - [x] 20g [organic Walnuts](https://bioshi.pl/pl/products/orzechy-wloskie-bio-300-g-bio-planet-44492) 🛡️ ⏰ 🍆 ❤️ 🧠 🦠 🪶 🔄
+  - [x] 20g [organic Walnuts](https://bioshi.pl/pl/products/orzechy-wloskie-bio-300-g-bio-planet-44492) 🛡️ ⏰ 🍆 ❤️ 🧠 🦠 🪶
     - `140kcal · P3g · C2.8g · F12.8g · Fiber1.2g · ALA Omega-3 · Ellagitannins · Proanthocyanidins · Vitamin B6 · Phytosterols`
-  - [ ] 20g [organic raw unsalted Pistachios](https://bioshi.pl/pl/products/pistacje-luskane-bio-150-g-bio-planet-53019) 🛡️ ⏰ 🍆 ❤️ 👁️ 🦠 🔄
+  - [ ] 20g [organic raw unsalted Pistachios](https://bioshi.pl/pl/products/pistacje-luskane-bio-150-g-bio-planet-53019) 🛡️ ⏰ 🍆 ❤️ 👁️ 🦠
     - `118kcal · P4.8g · C2.2g · F9.6g · Fiber1.9g · Lutein · Vitamin B6 · Unsaturated Fat · Proanthocyanidins · Phytosterols`
-  - [ ] 20g [organic Almonds](https://bioshi.pl/pl/products/migdaly-bio-350-g-bio-planet-45420) 🛡️ ⏰ 🍆 ❤️ 👨‍🦳 🦠 🔄
+  - [ ] 20g [organic Almonds](https://bioshi.pl/pl/products/migdaly-bio-350-g-bio-planet-45420) 🛡️ ⏰ 🍆 ❤️ 👨‍🦳 🦠
     - `121kcal · P4.4g · C0.8g · F10.6g · Fiber2.6g · Vitamin E · Magnesium · Vitamin B2 · Proanthocyanidins · Phytosterols`
-  - [ ] 20g [organic Macadamias](https://bioshi.pl/pl/products/orzechy-macadamia-bio-200-g-bio-planet-44472) 🛡️ ⏰ 🍆 ❤️ 🧠 🪶 🔄
+  - [ ] 20g [organic Macadamias](https://bioshi.pl/pl/products/orzechy-macadamia-bio-200-g-bio-planet-44472) 🛡️ ⏰ 🍆 ❤️ 🧠 🪶
     - `161kcal · P1.6g · C2.8g · F15.6g · Fiber1.7g · MUFAs (Oleic/Palmitoleic Acids) · Vitamin B1 · Phytosterols`
 - 🌱 **Seeds — CHOOSE ONE**
-  - [x] 7g [organic Pumpkin Seeds](https://bioshi.pl/pl/products/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-350-g-bio-planet-44428) 🛡️ ⏰ 💪 🦴 ❤️ 🪶 🔄
+  - [x] 7g [organic Pumpkin Seeds](https://bioshi.pl/pl/products/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-350-g-bio-planet-44428) 🛡️ ⏰ 💪 🦴 ❤️ 🪶
     - `42kcal · P2.1g · C0.3g · F3.4g · Fiber0.4g · Magnesium · Zinc · Iron · Phytosterols · Squalene`
   - [ ] 7g [organic Whole-Seed Tahini](https://allegro.pl/oferta/bio-tahini-ciemne-pasta-sezamowa-100-sezam-nieluskany-bez-cukru-250g-14135522211) 🛡️ ⏰ 🦴 ❤️ 🪶
     - `44kcal · P1.8g · C0.1g · F3.9g · Fiber0.8g · Calcium · Lignans (Sesamin/Sesamolin) · Phytosterols`
-  - [ ] 7g [organic Hulled Sunflower Seeds](https://bioshi.pl/pl/products/slonecznik-luskany-bio-ziarna-slonecznika-250-g-heybio-101536) 🛡️ ⏰ 👨‍🦳 ❤️ 🔄
+  - [ ] 7g [organic Hulled Sunflower Seeds](https://bioshi.pl/pl/products/slonecznik-luskany-bio-ziarna-slonecznika-250-g-heybio-101536) 🛡️ ⏰ 👨‍🦳 ❤️
     - `41kcal · P1.5g · C0.8g · F3.6g · Fiber0.6g · Vitamin E · Magnesium · Unsaturated Fat · Chlorogenic Acid · Phytosterols`
 - 🦠 **Fermented food — CHOOSE ONE**
   - [x] 400g [Lactose-Free Live Kefir with *L. rhamnosus*](https://www.frisco.pl/pid%2C102359/n%2Crobico-kefir-bez-laktozy-z-probiotykiem-15/stn%2Cproduct) 🛡️ 🗿 🦠 🦴
     - `172kcal · P12.4g · C16.8g · F6g · Salt0.4g · Calcium · Vitamin B12 · Live Cultures`
   - [ ] 200g [Lactose-Free Natural Skyr](https://www.maluta.pl/pl/produkty/8/jogurty/skyr-jogurt-naturalny-typu-islandzkiego-200g-bez-laktozy/) 🛡️ 🗿 💪 🦠 🦴
     - `104kcal · P18g · C7.8g · F0g · Calcium · Vitamin B12 · Live Yogurt Cultures`
-  - [ ] 100g [organic Unpasteurized Sauerkraut with Carrot](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) 🛡️ 🦠 🔄
+  - [ ] 100g [organic Unpasteurized Sauerkraut with Carrot](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) 🛡️ 🦠
     - `17kcal · P0.9g · C2.3g · F0.2g · Salt0.8g · Lactic Acid · Live Cultures`
   - [ ] 75g [onion-free vegan mild Kimchi](https://www.frisco.pl/pid,133569/n,old-friends-kimchi-vegan-mild/stn,product) 🛡️ 🦠
     - `22kcal · P1.3g · C2.4g · F0.4g · Fiber1.8g · Salt0.71g · Lactic Acid · Live Cultures`
@@ -536,20 +538,20 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `3kcal · P0.5g · C0.2g · F0.1g · Fiber0.2g · Vitamin K1 · Carotenoids · Rosmarinic Acid · Chicoric Acid`
   - [ ] 15g fresh [Dill](https://zakupy.auchan.pl/products/koperek-p%C4%99czek-warzywa-auchan-sztuka/00029582) 🛡️ 🗿
     - `6kcal · P0.5g · C0.7g · F0.2g · Fiber0.3g · Vitamin C · Folate · Chlorogenic Acid · Quercetin Glycosides`
-  - [x] 0.5g [organic Rosemary](https://bioshi.pl/pl/products/rozmaryn-bio-30-g-dary-natury-46323) 🛡️ 🪶 🔄
+  - [x] 0.5g [organic Rosemary](https://bioshi.pl/pl/products/rozmaryn-bio-30-g-dary-natury-46323) 🛡️ 🪶
     - `Carnosic Acid · Carnosol · Rosmarinic Acid`
-  - [x] 0.5g [organic Oregano](https://bioshi.pl/pl/products/oregano-bio-20-g-dary-natury-46317) 🛡️ 🪶 🔄
+  - [x] 0.5g [organic Oregano](https://bioshi.pl/pl/products/oregano-bio-20-g-dary-natury-46317) 🛡️ 🪶
     - `Rosmarinic Acid · Carvacrol`
-  - [x] 0.5g [organic Thyme](https://bioshi.pl/pl/products/tymianek-bio-20-g-dary-natury-46325) 🛡️ 🪶 🔄
+  - [x] 0.5g [organic Thyme](https://bioshi.pl/pl/products/tymianek-bio-20-g-dary-natury-46325) 🛡️ 🪶
     - `Thymol · Rosmarinic Acid`
-  - [ ] 0.5g freshly ground [organic Green Cardamom Seeds](https://bioshi.pl/pl/products/kardamon-ziarno-bio-40-g-dary-natury-47796) *(discard the husks)* 🛡️ ❤️ 🪶 🔄
+  - [ ] 0.5g freshly ground [organic Green Cardamom Seeds](https://bioshi.pl/pl/products/kardamon-ziarno-bio-40-g-dary-natury-47796) *(discard the husks)* 🛡️ ❤️ 🪶
     - `1,8-Cineole · Alpha-Terpinyl Acetate`
-  - [ ] 1g freshly ground [organic Black Cumin Seed](https://bioshi.pl/pl/products/czarnuszka-bio-50-g-dary-natury-46298) (*Nigella sativa*) 🛡️ 🩸 🔄
+  - [ ] 1g freshly ground [organic Black Cumin Seed](https://bioshi.pl/pl/products/czarnuszka-bio-50-g-dary-natury-46298) (*Nigella sativa*) 🛡️ 🩸
     - `Thymoquinone · Saponins (Alpha-Hederin)`
 - 🥑 **Optional Additional Healthy Fats — CHOOSE ONE**
-  - [ ] 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶 🔄
+  - [ ] 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing 🛡️ ⏰ 🍆 ❤️ 🧠 🔥 🪶
     - `122kcal · F13.5g · 917mg/kg Polyphenols · Oleocanthal · Oleacein · MUFAs · Vitamin E · Squalene · Phytosterols`
-  - [ ] 30g [organic Avocado](https://bioshi.pl/pl/products/awokado-bio-1-szt-51623) (edible flesh) 🛡️ ⏰ ❤️ 🦠 🩸 🗿 🪶 🔄
+  - [ ] 30g [organic Avocado](https://bioshi.pl/pl/products/awokado-bio-1-szt-51623) (edible flesh) 🛡️ ⏰ ❤️ 🦠 🩸 🗿 🪶
     - `48kcal · P0.6g · C0.5g · F4.4g · Fiber2g · Potassium · MUFAs · Lutein · Phytosterols`
   - [x] Nothing
     - `0kcal`
@@ -1061,7 +1063,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - BJ-NGC - [Bryan Johnson NAC + Ginger + Curcumin](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)
 - BJ-RYG - [Bryan Johnson Red Yeast Garlic](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)
 - ⚕️ Requires prescription (Rx): [erecepty24](https://erecepty24.pl) for ready-made medicines; [Telemedi](https://telemedi.com) for custom medicines (lek recepturowy)
-- 🔄 Automatically renewed and shipped (Subscribe & Save)
+- 🔄 Identified retailer Subscribe & Save route; activation, exact-SKU eligibility and current renewal terms require verification
 - 💪 Muscle growth/recovery
 - ❤️ Heart health/cardiovascular benefits
 - 🧠 Brain health/cognitive function
@@ -1298,6 +1300,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 ### Shopping
 
 - **Subscriptions:** retailer subscriptions only, free home courier, maximum 25% delivered-price premium per comparable product. 🔄 marks an identified route, not activation or complete coverage. Keep rotation and usable stock ahead of automatic ordering.
+- **Latest food sourcing:** [8Nov2026 audit](diet/FOOD_SUBSCRIPTIONS_2026-11.md) supersedes earlier automatic-coverage and price assumptions; Bioshi has required manual confirmation/payment since23Oct2026. Historical account and delivery records retain their original dates.
 - **Status and dates:** use the [renewal plan](diet/DIET_RENEWAL_PLAN.md), [activation calendar](diet/DIET_ACTIVATION_ROLLOUT.md), [opening-stock register](diet/DIET_STOCK_TRANSITION.md) and [payment handoff](diet/DIET_PAYMENT_HANDOFF.md). Coverage and costs live in the [subscription audit](diet/DIET_SUBSCRIPTION_AUDIT.md), [cost comparison](diet/DIET_SUBSCRIPTION_COSTS.md), [remaining-route audit](diet/DIET_AUTOMATION_GAPS.md) and [optimization criteria](diet/DIET_OPTIMIZATION.md).
 - **Identity checks:** buy skinless Salmon; the selected thawed product stays at 0–2°C and must not be refrozen. Keep Maluta Lactose-Free Skyr (EAN 5904467212110), not the similarly named high-protein Yogurt. Confirm Vilgain Mackerel species on delivery because its ingredient list and support response conflict. Match EVOO harvest/lot reports before assigning the advertised Polyphenol values to a bottle.
 
