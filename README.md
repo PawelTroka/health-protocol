@@ -39,16 +39,16 @@
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ### Promote
-- Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
-- Physical activity & active/deep recovery
-- Social connection & psychological wellbeing
-- Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
-- Cold exposure	(4 times a week) 🔥 🛡️ ⚡
-- Meditation / breathwork (daily) 🧠 😌
-- Walks (daily) 🫁 ❤️
-- Stretching (6 times a week) 🦴 💪
-- Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
-- Natural materials
+- 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
+- 🥇 Physical activity & active/deep recovery
+- 🥇 Social connection & psychological wellbeing
+- 🥈 Red Light Therapy ❤️ 🛡️ 👨‍🦳 ⏰
+- 🥈 Cold exposure	(4 times a week) 🔥 🛡️ ⚡
+- 🥈 Meditation / breathwork (daily) 🧠 😌
+- 🥈 Walks (daily) 🫁 ❤️
+- 🥈 Stretching (6 times a week) 🦴 💪
+- 🥉 Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
+- 🥉 Natural materials
 
 ## 1. Sleep
 Sleep is your number 1 priority. It is more important than diet, more important than exercise, more important than anything else; your whole life should be optimized around sleep. If I were to chose skipping breakfast but getting 1 hour of additional sleep I would gladly do it, same with exercise.
