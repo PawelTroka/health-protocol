@@ -28,8 +28,10 @@
 - ❌️ sunbathing
 - ❌️ polluted/toxic environments
 - ❌️ unprotected sex
+- ❌️ PFAS/PFOA/PCB/dioxins "forever" chemicals
 - ✋️ low productivity activities, low value-adding activities that can be outsourced
 - ✋️ excessive social media usage
+- ✋️ microplastics and artificial materials
 - ⚠️ excessive gaming and TV
 - ⚠️ excessive noise
 - ⚠️ stimulants
@@ -45,6 +47,8 @@
 - Meditation / breathwork (daily) 🧠 😌
 - Walks (daily) 🫁 ❤️
 - Stretching (6 times a week) 🦴 💪
+- Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
+- Natural materials
 
 ## 1. Sleep
 Sleep is your number 1 priority. It is more important than diet, more important than exercise, more important than anything else; your whole life should be optimized around sleep. If I were to chose skipping breakfast but getting 1 hour of additional sleep I would gladly do it, same with exercise.
