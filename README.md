@@ -262,7 +262,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)* 💪 ⏰ 🗿
 - **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 🗿
 - **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 10kg, 15 × 15kg, 15 × 20kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)* 💪 🗿
-- **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 15 × 110kg (Slow negative) 🗿
+- **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 14 × 110kg, 12 x 120kg, 10 x 130kg (Slow negative) 🗿
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
 **Recovery:**
