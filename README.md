@@ -275,8 +275,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: The "capped" 3D shoulder look, upper chest shelf, and masculine neck.*
 - **Shoulders**: Machine Shoulder Press (Pronated grip): 10 × 50kg, 9 × 55kg, 8 × 59kg *(Shoulder Pro-Tip: If right shoulder triggers, swap to Seated Neutral-Grip DB Press)* 💪 ⏰ 🗿
 - **Upper Chest**: Seated Low-to-High Cable Fly (Cuffed) or Seated low-to-high Pec Deck Machine: 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg (Best upper pec fly) 🗿
-- **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 🗿
 - **Side Delts**: Machine Lateral Raises: 18 × 24kg, 16 × 29kg, 14 × 34kg, 12 x 44kg *(Align shoulders with the machine pivot and keep torso still)* 🗿
+- **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 🗿
 - **Neck**: Resistance Band Neck Extensions: 20 × 3.75kg, 18 × 5kg, 16 × 6.25kg 🗿
 - **Scapular Control**: Forearm Wall Slides with Foam Roller: 20x, 18x, 16x *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴
 - **Core**: Reverse Crunches: 35 reps, 30 reps, 25 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
