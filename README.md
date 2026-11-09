@@ -636,7 +636,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥇 **M.0.2** [Psyllium Husk 7.5g (1tbsp)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
 - 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g (1scoop)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠
+- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g (1scoop)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
    - **Structural / performance / digestive blend**
      - Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴 💇‍♂️
      - Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🧠 🥊
