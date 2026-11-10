@@ -466,6 +466,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
       - `90kcal · P6.4g · C9.4g · F3g · Calcium · Vitamin B2 · Vitamin B12`
 
 #### 🦴 Before workout
+
+[Powder shopping and subscription audit](supplements/POWDER_SUBSCRIPTIONS.md) — exact products, Polish delivery, ongoing prices and convenience premiums.
+
 *~119kcal · P13g · C2.5g*
 - 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 13g + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
   - `~119kcal · P13g · C2.5g`
