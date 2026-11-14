@@ -339,7 +339,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
 *474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
-- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 1scoop) 🛡️ 🗿 💪 🦴 👨‍🦳
+- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 1scoop (ml unverified)) 🛡️ 🗿 💪 🦴 👨‍🦳
   - `166kcal · P40.5g · C0.4g · F0.3g`
 - 25g dry [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪 🔄
   - `93kcal · P3.3g · C15g · F1.7g · Fiber2.4g · Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
@@ -472,7 +472,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### ⚡ During workout
 *94kcal · C24g*
-- 💊 [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 1scoop) ⚡ 💧 🗿
+- 💊 [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 1scoop (ml unverified)) ⚡ 💧 🗿
   - `94kcal · C24g`
 
 #### 💪 Right after workout
@@ -633,10 +633,10 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 ### Morning
 🥤 drink:
 - **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️ 🧠 🔥 ⏰
-- 🥇 **M.0.2** [Psyllium Husk 7.5g (1tbsp)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
-- 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
+- 🥇 **M.0.2** [Psyllium Husk 7.5g — 1tbsp (15ml measuring spoon)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
+- 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g (1scoop)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
+- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (ml unverified)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
    - **Structural / performance / digestive blend**
      - Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴 💇‍♂️
      - Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🧠 🥊
@@ -725,10 +725,10 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 ### Before workout
 🥤 drink:
-- 🥈 **B.0.3** [Collagen Peptides 13g (4scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+- 🥈 **B.0.3** [Collagen Peptides 13g — ~4scoops (ml unverified; weigh)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
   - Protein 13g; Fat 0g; Carbohydrates 0g; 52kcal
-- 🥇 **B.0.1** [Creatine monohydrate 5g (1scoop)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
-- 🥈 **B.0.2** [HSN EvoBomb 2.0 20g (2scoops)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 💪 🧠 🩸
+- 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (ml unverified; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
+- 🥈 **B.0.2** [HSN EvoBomb 2.0 20g — 2scoops (2x15ml)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 💪 🧠 🩸
    - **Pump / blood flow**
      - L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base)
    - **Endurance / fatigue resistance**
@@ -755,17 +755,17 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 ### During workout
 🥤 intra-workout drink:
 - **IW.0.1** 2.5L Water 💧
-- 🥇 **IW.0.2** [ALLHydrate Electrolytes Neutral 2.73g (1scoop)](https://allegro.pl/oferta/allhydrate-by-aliness-neutral-elektrolity-205-g-50-porcji-17359439491)
+- 🥇 **IW.0.2** [ALLHydrate Electrolytes Neutral 2.73g — 1scoop (ml unverified)](https://allegro.pl/oferta/allhydrate-by-aliness-neutral-elektrolity-205-g-50-porcji-17359439491)
   - Sodium 667mg; Chloride 1.095g; Potassium 200mg; Magnesium 40mg<sup>E.12</sup>; Calcium 80mg; Phosphorus 70mg; 0kcal
-  - During Sauna sessions: +2.73g (1scoop) 🔥 💧
-- 🥈 **IW.0.3** [Highly Branched Cyclic Dextrin (Cluster Dextrin®) 25g](https://www.hsnstore.pl/marki/raw-series/cluster-dextrin-silnie-rozgaleziona-cykliczna-dekstryna-w-proszku) ⚡ 💪
+  - During Sauna sessions: +2.73g — 1scoop (ml unverified) 🔥 💧
+- 🥈 **IW.0.3** [Highly Branched Cyclic Dextrin (Cluster Dextrin®) 25g — 1scoop (50ml)](https://www.hsnstore.pl/marki/raw-series/cluster-dextrin-silnie-rozgaleziona-cykliczna-dekstryna-w-proszku) ⚡ 💪
   - Carbohydrates 24g; Sugars 0g; 94kcal
 
 ### After workout
 🥤 drink:
-- 🥇 **A.0.1** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
+- 🥇 **A.0.1** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 10g](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
+- 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 10g (weigh; manufacturer scoop 25ml)](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
   - Free Essential Amino Acids 9.459g; L-Leucine 3.14g; L-Lysine 1.684g; L-Isoleucine 1.124g; L-Valine 1.124g; L-Threonine 1.034g; L-Histidine 510mg; L-Methionine 281mg; L-Phenylalanine 281mg; L-Tryptophan 281mg
 
 💊 pills:
@@ -1246,12 +1246,23 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 - **M.0.2 Psyllium:** keep oral prescription medicines at least 2 hours away; this is why Tadalafil sits at Lunch. [Psyllium label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d030b0-df97-4dd6-88ba-e9fe863c95ea)
 - **Matcha/Caffeine:** keep Matcha at least 2 hours after the Iron-containing Lunch and 8 hours before sleep. EvoBomb's 200mg Caffeine is the larger late-day exposure; its timing must also fit bedtime. Cocoa Flavanols remain at Lunch. [Tea/Iron study](https://pubmed.ncbi.nlm.nih.gov/29046302/) [Caffeine/sleep review](https://pubmed.ncbi.nlm.nih.gov/36870101/)
-- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA. Weigh EAA 10g; the old two-scoop count does not apply. Swallow A.1 UC-II and the other After Workout pills before starting WPI/EAA. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
-- **IW.0.2/IW.0.3 hydration:** prepare the 2.5L electrolyte drink, put HBCD in the first portion that will be finished, then drink the remainder to thirst. Use pre/post dry body weight; fluid intake should not cause weight gain. Sauna adds one ALLHydrate scoop, **no second HBCD serving**. Two scoops exceed the manufacturer's 1.5scoop serving, so review sweat losses, Blood Pressure and GI tolerance. [ALLHydrate label](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [Fluid-replacement guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5634236/)
+- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA. Weigh EAA 10g; see [scoop sizes](#powder-scoop-sizes). Swallow A.1 UC-II and the other After Workout pills before starting WPI/EAA. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
+- **IW.0.2/IW.0.3 hydration:** prepare the 2.5L electrolyte drink, put HBCD in the first portion that will be finished, then drink the remainder to thirst. Use pre/post dry body weight; fluid intake should not cause weight gain. Sauna adds the same IW.0.2 serving, **no second HBCD serving**. The combined dose exceeds the manufacturer's 4.1g serving, so review sweat losses, Blood Pressure and GI tolerance. [ALLHydrate label](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [Fluid-replacement guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5634236/)
 - **L.2-3 Omega-3:** skip capsules on the listed Salmon, Sardine or Mackerel days; Pollock does not qualify. Salmon 150g provides an estimated 1.8g EPA+DHA and Sardines 170g ~3.25g. The selected 180-softgel formula is 690mg EPA/310mg DHA per softgel. Two/day exceeds its usual one/day label direction and remains a review point. Do not increase; higher-dose trials show an Atrial-Fibrillation signal. Match the purchased lot to IFOS and review weekly intake/RBC Omega-3 Index. [Selected label](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) [Sardine label](https://leclerc.com.pl/delicius-filety-z-sardynek-w-oliwie-z-oliwek) [Dose/AF evidence](https://pubmed.ncbi.nlm.nih.gov/34612056/)
 - **M.11 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
 
 ### Supplement details
+
+#### Powder scoop sizes
+
+`1scoop (70ml)` gives the capacity of one scoop; `2scoops (2x15ml)` means two separate 15ml measures. Gram amounts remain the dose targets because scoop-to-mass equivalents are approximate. The HSN values are manufacturer-specified capacities; a scoop is not necessarily included with the product. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
+
+- **EAA / A.0.2:** the 25ml scoop corresponds to ~15g. Weigh the scheduled 10g; it is not one full scoop. [Exact RawSeries EAA label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor)
+- **Collagen / B.0.3:** KFD specifies 5g per 1.5scoops. The 13g target is therefore ~3.9scoops; `~4scoops` is a practical approximation. Weigh 13g. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html)
+- **Unverified volumes:** MicroVitamin+, both KFD powders and ALLHydrate have no physical scoop capacity verified in the checked sources. Keep their gram targets and confirm the actual scoop's ml/cc marking or obtain manufacturer confirmation before selecting a replacement by volume.
+- **Psyllium / M.0.2:** 15ml identifies a metric measuring tablespoon, not a supplied GymBeam scoop. GymBeam gives 5g per 2tsp; retain 7.5g by weight. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
+
+See the [product-by-product scoop reference](supplements/POWDER_SCOOP_REFERENCE.md) for sources, variant checks, uncertainty and how to confirm the remaining capacities. Research checked 2026-11-13.
 
 #### Training, Skin & joints
 
@@ -1415,7 +1426,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ### Product replacements
 
-- **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2).
+- **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop (ml unverified)](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2).
 - **[Biały Puch WPI Unflavored](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701)** → HSN RawSeries WPI; keeps both 30g servings without added B6.
 - **[Biały Puch EAA Unflavored 10g](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807)** → HSN RawSeries EAA 10g powder; keeps the post-workout serving without added B6.
 - **[GymBeam Cluster Dextrin® 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html)** → HSN RawSeries Cluster Dextrin® at the same dose and timing.
