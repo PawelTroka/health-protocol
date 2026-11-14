@@ -51,24 +51,33 @@
 - 🥉 [Natural materials](#bedding-and-textiles)
 
 ## 1. Sleep
-Sleep is your number 1 priority. It is more important than diet, more important than exercise, more important than anything else; your whole life should be optimized around sleep. If I were to chose skipping breakfast but getting 1 hour of additional sleep I would gladly do it, same with exercise.
-- **Duration & consistency:** Allow ~9h in bed for ~8h of actual sleep (adjust to daytime alertness); keep bed/wake times within ~30–60min, including weekends. 😴 ⏰
-- **Bedroom:**
-  - **Temperature / humidity:** 17–19°C (preferred: 18°C); 40–50% relative humidity, without condensation or mold. 🌡️ 💧
-  - **Light / noise:** Near-total darkness (blackout blinds, cover LEDs) and quiet (ideally <30 dBA); use quiet AC or low-volume steady noise only if helpful. 🌑 🔇
-  - **Bed:** Reserve for sleep and intimacy. 🛏️
-- **Air quality** (see [Clean air](#clean-air)):
-  - **PM2.5:** Aim for <10 µg/m³ overnight (lower is better); use a HEPA purifier sized for ~4–5 equivalent air changes/hour at its **actual nighttime fan speed**.
-  - **CO₂:** Prefer <800 ppm, or <1,000 ppm where practical, using fresh-air ventilation (filtered when outdoor air is polluted); a purifier or ordinary split AC does not remove CO₂.
-  - **Sources / upkeep:** Avoid smoke, scented candles, fragrances and ozone generators; maintain filters and clean humidifiers regularly.
-- **Daylight & wind-down:** Get 20–30min outdoors soon after waking plus daylight during the day (with UV protection); dim lights 1–2h before bed and spend the final 30–60min relaxing without stimulating work or bright screens. Dim warm/red lights are fine. 😴 😌
-- **Devices:** Turned off or "Do Not Disturb" **00:00–10:14**. 😴
-- **Stimulants:** Stop any caffeine or other stimulants ≥8–10h before bed (earlier after high doses or if sensitive); check Matcha and the daily HSN EvoBomb 2.0 200mg Caffeine dose against bedtime. 😴
-- **Meals & alcohol:** Finish large meals ≥2–3h before sleep (a light snack is fine); avoid alcohol, especially in the evening. 😴
-- **Exercise:** Train regularly; move intense evening sessions earlier if they disrupt sleep. 💪
-- **Sleep problems:** Avoid extended frustrated wakefulness in bed; if you truly cannot fall asleep read a book or even go back to work; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
-- **Sex & Sauna:*** Could make it easier to fall asleep if used strategically. Use Sauna 1-3h before sleep to relax, use good sex 0-1h before sleep to make it easier to fall asleep.
-- **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
+
+**Target ~8h asleep; reserve ~9h for sleep.** Keep bed/wake times within **30–60min**, including weekends; adjust to daytime alertness.
+
+| When | Routine |
+|---|---|
+| After waking | **20–30min in outdoor daylight**; bright daytime light with [UV protection](#skincare). |
+| ≥8h before bed | Finish caffeine, including [Matcha + HSN EvoBomb 2.0 (200mg)](#timing--training); prefer **≥10h for EvoBomb**. |
+| **3h before bed** | **Dim red lights** and screens; **≤10lx melanopic EDI at the eye** ([measurement](#sleep--bedroom-targets)). |
+| 2–3h before bed | Finish large meals; light snack if needed. Avoid alcohol. |
+| Final 30–60min | Quiet reading/relaxation; finish stimulating work. |
+| **00:00–10:14** | Devices off / **Do Not Disturb**; extend to cover actual sleep. |
+
+| Bedroom | Target / action |
+|---|---|
+| 🌡️ Temperature | **18°C**; adjust [bedding](#bedding-and-textiles) for comfort. |
+| 💧 Humidity | **50% RH**; do not humidify above this; lower if condensation appears. |
+| 🌑 Light | **Blackout** blinds, covered LEDs; lights off. |
+| 🔇 [Noise](https://www.who.int/europe/news-room/fact-sheets/item/noise) | **<30dBA overnight average** at the bed; minimize abrupt peaks. |
+| CO₂ | **<800ppm**; increase fresh air for repeated **≥1,000ppm**. |
+| PM2.5 | **<10µg/m³ overnight mean**; run HEPA throughout sleep. |
+| Filtration | **~5 filtered room volumes/h** at the **actual overnight fan speed** ([sizing](#sleep--bedroom-targets)). |
+
+- **Review:** [Oura + daytime alertness](#daily-tracking) over **2–4 weeks**; compare duration/awakenings, not nightly stage scores. Log bedroom readings overnight.
+- **Troubleshoot:** bed for sleep/intimacy; if wide awake/frustrated, read elsewhere in dim light; return when sleepy. Persistent insomnia → [assessment / CBT-I](https://www.nhlbi.nih.gov/health/insomnia/treatment); snoring/gasping or unexplained daytime sleepiness → assessment.
+- **Optional:** finish Sauna 1–3h before bed; intimacy in the last hour if relaxing. Move intense late [training](#3-exercise) earlier if sleep worsens.
+
+[Setup & evidence](#sleep--bedroom-targets) · [Evening supplements](#evening)
 
 ## 2. Testing
 
@@ -1250,6 +1259,15 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 - **IW.0.2/IW.0.3 hydration:** prepare the 2.5L electrolyte drink, put HBCD in the first portion that will be finished, then drink the remainder to thirst. Use pre/post dry body weight; fluid intake should not cause weight gain. Sauna adds one ALLHydrate scoop, **no second HBCD serving**. Two scoops exceed the manufacturer's 1.5scoop serving, so review sweat losses, Blood Pressure and GI tolerance. [ALLHydrate label](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [Fluid-replacement guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5634236/)
 - **L.2-3 Omega-3:** skip capsules on the listed Salmon, Sardine or Mackerel days; Pollock does not qualify. Salmon 150g provides an estimated 1.8g EPA+DHA and Sardines 170g ~3.25g. The selected 180-softgel formula is 690mg EPA/310mg DHA per softgel. Two/day exceeds its usual one/day label direction and remains a review point. Do not increase; higher-dose trials show an Atrial-Fibrillation signal. Match the purchased lot to IFOS and review weekly intake/RBC Omega-3 Index. [Selected label](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) [Sardine label](https://leclerc.com.pl/delicius-filety-z-sardynek-w-oliwie-z-oliwek) [Dose/AF evidence](https://pubmed.ncbi.nlm.nih.gov/34612056/)
 - **M.11 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
+
+### Sleep & bedroom targets
+
+- **Defaults:** schedule buffers, sleep opportunity, temperature, humidity and caffeine buffers are personal settings. Move caffeine earlier if sleep suffers; the [timing trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC11985402/) tested 100mg/400mg, not EvoBomb's 200mg.
+- **Light:** melanopic EDI = melanopic equivalent daylight illuminance. Consensus targets: **≥250lx during daytime**, **≤10lx from 3h before bed**, **≤1lx during sleep**, measured at the eye in the direction of view (vertical when seated), including screens. Ordinary lux or lamp colour alone cannot establish EDI; use a suitable spectral meter. [Consensus](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001571)
+- **Monitoring:** log CO₂, PM2.5, temperature and RH with [air monitors](#clean-air). Use **NDIR CO₂**, at sleeping head height, >50cm from faces and away from windows/vents; calibrate per manual. [Placement](https://www.hse.gov.uk/ventilation/using-co2-monitors.htm)
+- **Air targets:** CO₂ is a ventilation proxy; 800/1,000ppm are personal control points, not toxicity thresholds. The overnight PM2.5 goal is personal; WHO uses **5µg/m³ annual / 15µg/m³ 24-hour means**. [ASHRAE](https://www.ashrae.org/file%20library/about/position%20documents/pd-on-indoor-carbon-dioxide-english.pdf) · [WHO](https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/types-of-pollutants)
+- **Filtration:** CADR [m³/h] ÷ bedroom volume [m³] ≈ **5h⁻¹**. Example: **20m² × 2.7m → 54m³ → 270m³/h at overnight speed**. This is a sizing target. HEPA/split AC do not remove CO₂; use filtered fresh air when outdoors is polluted. [EPA](https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home)
+- **Upkeep:** avoid smoke, incense, scented candles and ozone generators; replace filters per manual. Empty/dry/refill humidifier tanks daily; clean per manual and fix dampness. [Humidity & care](https://www.epa.gov/indoor-air-quality-iaq/use-and-care-home-humidifiers)
 
 ### Supplement details
 
