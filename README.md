@@ -641,7 +641,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
      - Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴 💇‍♂️
      - Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🧠 🥊
      - Psyllium Husk (Soluble Fiber) 2.5g<sup>M.0.2</sup> 🚽 🦠 🩸
-     - Taurine 1g<sup>B.3-4</sup> ❤️ 💪 🧠
+     - Taurine 1g<sup>B.3</sup> ❤️ 💪 🧠
    - **Cognition / methylation**
      - Betaine (TMG) 500mg 🧠 ❤️<sup>M.0.3.2.1</sup>
      - Choline Bitartrate 181.5mg 🧠
@@ -743,7 +743,8 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥈 **B.1** [Pycnogenol 100mg (OPC 65mg)](https://allegro.pl/produkt/suplement-diety-kenayag-pycnogenol-kora-sosny-kapsulki-60-szt-5c57cb7c-1dc9-4bea-b5b8-6d67b3436704) 🫀 🦴 👨‍🦳 ❤️
 - 🥈 **B.2** [Rhodiola rosea Root Extract 500mg](https://kenay.com.pl/759-rozeniec-gorski-rhodiola-rosea-rhodiolife-60-kapsulek.html) 🧠 😌 ⚡ 🍆
   - Rosavins 15mg (3%); Salidroside 5mg (1%)
-- 🥈 **B.3-4** 2x [Taurine 1.5g](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
+- 🥈 **B.3** [Taurine 1.5g](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ❤️ 💪 🫁 🧠
+- **B.4** (empty)
 - 🥈 **B.5** [Raw Maca Root 6:1 Concentrate 750mg](https://pl.iherb.com/pr/now-foods-raw-maca-750-mg-90-veg-capsules/18046) 🍆 ⚡ 😌 🔄
   - Gelatinized; equivalent to 4.5g fresh Maca Root
 - 🥈 **B.6** 2x [Fenugreek Seed Extract 300mg](https://gemini.pl/kenay-ekstrakt-z-kozieradki-testofen-60-kapsulek-vege-0092834) 🍆 🩸 🚽
@@ -1172,7 +1173,7 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 | Psyllium Husk | 10g | M.0.3 MicroVitamin+ 2.5g + M.0.2 standalone 7.5g |
 | Collagen Peptides | 25.5g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 13g |
 | Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.16/L.12 standalone 1g each |
-| Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
+| Free Taurine | 2.5g | M.0.3 MicroVitamin+ 1g + B.3 standalone 1.5g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
 | Caffeine | 223mg supplemental; ~252–291mg with Matcha | B.0.2 EvoBomb 200mg + L.6-7 Cocoa Flavanols 23mg + Diet Matcha 2g (~29–68mg) |
 | Lycopene | 30mg supplemental; ~32.6mg with checked Tomatoes | M.0.3 MicroVitamin+ 10mg + L.9 standalone 20mg + Diet Tomatoes 100g (~2.57mg) |
 | Omega-3 | 2g EPA+DHA on non-Fatty-Fish days | L.2-3: EPA 1.38g + DHA 620mg; no capsules on the listed Salmon/Sardine/Mackerel days |
@@ -1296,7 +1297,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 - **GI inflammation:** Calprotectin 291.7µg/g with Mucus/Leukocytes warrants Gastroenterology assessment and clinician-directed repeat testing if outstanding. Probiotics, Butyrate and food trials must not delay this. Active disease or unintended weight loss takes priority over the cut. [IBD nutrition guidance](https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/)
 - **B6/Zinc:** B6 was 101.5µg/L; avoid extra B6 and arrange review/retesting despite the lower current intake. New tingling, numbness or balance symptoms need assessment. Do not add Zinc; review Copper status if the current exposure continues. [B6 assessment](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8006) [Zinc guidance](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/)
 - **Magnesium:** conservative supplemental accounting exceeds EFSA 250mg/day in all scenarios; Sauna also exceeds US 350mg/day. These limits mainly concern GI effects and exclude food Magnesium. Keep E.12 only for a repeatable benefit without GI effects; do not restore the second capsule. Kidney impairment needs particular review. [EFSA limits](https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf) [NIH guidance](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/)
-- **Blood Pressure:** review Citrulline 8g alongside Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna. Check seated/standing BP, especially during the first 1–2 weeks after the Garlic switch; review dizziness, near-fainting or unusual weakness. Separating doses does not remove systemic interactions. Free Taurine 4g also exceeds the standalone product's one-capsule directions. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) [Taurine label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)
+- **Blood Pressure:** review Citrulline 8g alongside Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna. Check seated/standing BP, especially during the first 1–2 weeks after the Garlic switch; review dizziness, near-fainting or unusual weakness. Separating doses does not remove systemic interactions. The Taurine trial uses 1capsule (1.5g) plus MicroVitamin+ 1g; compare BP, tolerance and training response over 4–8 weeks before retaining the lower dose. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) [Taurine label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)
 - **Berberine:** reassess Glucose/HbA1c, ApoB/lipids, Liver tests, BP and GI tolerance after 8–12 weeks. The existing fallback for intolerance is Lunch-only. Its CYP interaction potential persists with split dosing. TMG follow-up uses Homocysteine and lipids. [Human Berberine interaction study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4898966/) [TMG review](https://pubmed.ncbi.nlm.nih.gov/33764214/)
 - **Liver/bleeding:** after the Curcumin change, recheck ALT/AST/ALP/GGT and Total/Direct Bilirubin at 6–8 weeks; Milk Thistle follow-up is 8–12 weeks. Stop Curcumin and seek review for jaundice, dark urine, marked fatigue, persistent nausea or abdominal pain. Review unusual bruising/bleeding and disclose Garlic/Curcumin/Ginger/Omega-3 before surgery or with anticoagulants, Aspirin or NSAIDs. [Curcumin Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury) [Garlic safety](https://www.nccih.nih.gov/health/garlic)
 - **Astaxanthin / M.13:** 18mg alone exceeds the ~16mg all-source ADI at 80kg. This is a chronic-exposure benchmark, not an acute-toxicity threshold. Do not increase or stack it; take with the existing fat-containing Breakfast. [EFSA assessment](https://doi.org/10.2903/j.efsa.2020.5993)
