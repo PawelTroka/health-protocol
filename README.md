@@ -4,6 +4,10 @@
 ## Table of Importance
 - [0. Behaviors](#0-behaviors)
 - [1. Sleep](#1-sleep)
+  - [Schedule & wind-down](#schedule--wind-down)
+  - [Bedroom setup](#bedroom-setup)
+  - [Air quality](#air-quality)
+  - [Tracking & troubleshooting](#tracking--troubleshooting)
 - [2. Testing](#2-testing)
 - [3. Exercise](#3-exercise)
 - [4. Diet](#4-diet)
@@ -56,7 +60,7 @@
 
 ### Schedule & wind-down
 
-- **Sleep:** ~8h asleep; reserve ~9h in bed. Keep bed/wake times within 30–60min, including weekends.
+- **Sleep:** **~8h asleep**; allow **~9h for sleep**. Keep bed/wake times within 30–60min, including weekends.
 
 | When | Action |
 |---|---|
@@ -75,20 +79,20 @@
 | Setting | Personal target |
 |---|---|
 | 🌡️ Temperature | **18°C**; adjust [bedding](#bedding-and-textiles) for comfort. |
-| 💧 Humidity | **50% RH**; lower if condensation appears. |
+| 💧 Humidity | **50% RH**; do not humidify above this; lower if condensation appears. |
 | 🌑 Light | **Blackout** blinds, covered LEDs; lights off for sleep. |
-| 🔇 Noise | **<30dBA** overnight; quiet fans. |
+| 🔇 [Noise](https://www.who.int/europe/news-room/fact-sheets/item/noise) | **<30dBA** overnight average at the bed; quiet fans. |
 | 🛏️ Bed | Sleep and intimacy only. |
 
 ### Air quality
 
 | Measure | Overnight target | Action |
 |---|---|---|
-| **CO₂** | **<800ppm** | Increase fresh-air ventilation if repeatedly **≥1,000ppm**. |
+| **CO₂** | **<800ppm** | Ventilate throughout the night; increase fresh air if repeatedly **≥1,000ppm**. |
 | **PM2.5** | **<10µg/m³**; lower is better | Run **HEPA filtration all night**; increase speed if readings stay high. |
 
-- **Monitor:** log CO₂, PM2.5, temperature and RH with [air-quality monitors](#clean-air). Use NDIR for CO₂; place at head height, >50cm from sleepers, away from windows/vents.
-- **Size:** **CADR (m³/h) ≥5 × bedroom volume (m³)** at the **actual overnight fan speed**.
+- **Monitor:** log CO₂, PM2.5, temperature and RH **overnight** with [air-quality monitors](#clean-air). Use NDIR for CO₂; place at sleeping head height, >50cm from faces, away from windows/doors/vents.
+- **Size:** **CADR ≥5 × bedroom volume per hour** at your **overnight fan speed** ([example](#sleep--bedroom-targets)).
 - **Ventilate:** check [outdoor air](https://www.iqair.com/air-quality-map/poland/pomerania/gdansk); use filtered fresh air when polluted. HEPA and ordinary split AC do not remove CO₂.
 - **Upkeep:** no smoke, scented candles, incense or ozone generators. Replace filters per manual; empty/dry/refill humidifier tanks daily and clean per manual. Fix dampness/mold at its source.
 
@@ -1283,10 +1287,11 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 ### Sleep & bedroom targets
 
-- **Personal settings:** 18°C and 50% RH are chosen defaults; comfort and condensation guide adjustments. Avoid humidifying above 50%. [Bedroom guidance](https://www.sath.nhs.uk/patients-visitors/your-health/) · [Humidity & cleaning](https://www.epa.gov/indoor-air-quality-iaq/use-and-care-home-humidifiers)
+- **Bedroom:** 18°C and 50% RH are personal defaults; adjust for comfort and condensation. [Temperature](https://www.sath.nhs.uk/patients-visitors/your-health/) · [Humidity & cleaning](https://www.epa.gov/indoor-air-quality-iaq/use-and-care-home-humidifiers)
 - **Evening light:** reduce light exposure from 3h before bed; dim red is the chosen implementation. Brightness still matters. [Light consensus](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001571)
-- **Air targets:** CO₂ <800ppm and PM2.5 <10µg/m³ are personal overnight goals. CO₂ indicates ventilation; it does not measure all pollutants. WHO PM2.5 guidelines are **5µg/m³ annual** and **15µg/m³ 24-hour averages**. [Bedroom ventilation trial](https://doi.org/10.1016/j.buildenv.2023.111118) · [Monitor placement](https://www.hse.gov.uk/ventilation/using-co2-monitors.htm) · [WHO values](https://www.ncbi.nlm.nih.gov/books/NBK574582/table/fm-ch1.tab1/)
-- **Purifier sizing:** 5 filtered room volumes/hour is a rounded design target, not a sleep threshold. A 20m² × 2.7m room needs ~270m³/h CADR **at the selected speed**. [EPA sizing guide](https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home)
+- **CO₂:** <800ppm is the overnight goal; ≥1,000ppm is a personal trigger to increase ventilation, not a toxicity threshold. CO₂ indicates ventilation, not all pollutants. [Bedroom ventilation trial](https://doi.org/10.1016/j.buildenv.2023.111118) · [Monitor placement](https://www.hse.gov.uk/ventilation/using-co2-monitors.htm)
+- **PM2.5:** <10µg/m³ is a personal overnight goal. WHO guidelines use different averaging periods: **5µg/m³ annual** and **15µg/m³ 24-hour averages**. [WHO values](https://www.ncbi.nlm.nih.gov/books/NBK574582/table/fm-ch1.tab1/)
+- **Purifier sizing:** 5 filtered room volumes/hour is a rounded design target, not a sleep threshold. Example: **20m² × 2.7m = 54m³ → CADR ≥270m³/h at the overnight speed**. [EPA sizing guide](https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home)
 
 ### Supplement details
 
