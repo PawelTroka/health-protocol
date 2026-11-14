@@ -4,6 +4,7 @@
 ## Table of Importance
 - [0. Behaviors](#0-behaviors)
 - [1. Sleep](#1-sleep)
+- [Psychological wellbeing & social connection](#psychological-wellbeing)
 - [2. Testing](#2-testing)
 - [3. Exercise](#3-exercise)
 - [4. Diet](#4-diet)
@@ -29,22 +30,21 @@
 - ❌️ [polluted/toxic environments](#clean-air)
 - ❌️ unprotected sex
 - ❌️ [PFAS/PFOA/PCB/dioxins "forever" chemicals](#7-cookware)
-- ✋️ low productivity activities, low value-adding activities that can be outsourced
-- ✋️ excessive social media usage
+- ✋️ avoidable busywork that can be automated or outsourced; protect deliberate rest and leisure
+- ✋️ [unplanned scrolling that displaces sleep, relationships or chosen activities](#psychological-wellbeing)
 - ✋️ [microplastics and artificial materials](#8-environment)
 - ⚠️ excessive gaming and TV
 - ⚠️ excessive noise
 - ⚠️ stimulants
 - ⚠️ [sleep schedule disruptions](#1-sleep)
-- ⚠️ overthinking and overanalyzing things out of your control
+- ⚠️ [getting stuck in repetitive worry instead of useful action or rest](#psychological-wellbeing)
 
 ### Promote
 - 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
 - 🥇 [Physical activity & active/deep recovery](#3-exercise)
-- 🥇 Social connection & psychological wellbeing
+- 🥇 [Social connection & psychological wellbeing](#psychological-wellbeing)
 - 🥈 [Red Light Therapy](#home-procedures) ❤️ 🛡️ 👨‍🦳 ⏰
 - 🥈 Cold exposure	(4 times a week) 🔥 🛡️ ⚡
-- 🥈 Meditation / breathwork (daily) 🧠 😌
 - 🥈 Walks (daily) 🫁 ❤️
 - 🥈 Stretching (6 times a week) 🦴 💪
 - 🥉 Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
@@ -69,6 +69,22 @@ Sleep is your number 1 priority. It is more important than diet, more important 
 - **Sleep problems:** Avoid extended frustrated wakefulness in bed; if you truly cannot fall asleep read a book or even go back to work; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
 - **Sex & Sauna:*** Could make it easier to fall asleep if used strategically. Use Sauna 1-3h before sleep to relax, use good sex 0-1h before sleep to make it easier to fall asleep.
 - **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
+
+<a id="psychological-wellbeing"></a>
+
+## Psychological wellbeing & social connection
+
+**Aim:** more enjoyment, connection and room to recover. Start with connection + protected leisure; shared activities can cover both. Time targets are practical starting points, not treatment doses; shorten them if burdensome.
+
+- **Connection:** most days, make 10min for attentive conversation or a shared activity with someone you trust; arrange one shared plan each week. Focus on mutual interest and support. 🤝
+- **Enjoyment & meaning:** daily, protect 20min for a chosen activity (music, a walk, dancing, a hobby or cooperative gaming). Schedule it; when motivation is low, start with 5min. 😌
+- **Work shutdown:** after the final work block, spend 2min recording the next action and when/where to resume; close work channels. Protect leisure and the [sleep wind-down](#1-sleep) from work notifications and scrolling. If work repeatedly consumes recovery, reduce or defer commitments.
+- **Worry / rumination:** notice and name the loop → if actionable, choose one next step and time → otherwise, feel your feet, notice your surroundings and return to the chosen activity. Let the thought remain without solving it again. 🧠
+- **Optional reset — choose one:** 5min of gentle breathing (count comfortably 1–5 in, then 1–5 out; no forcing or holds) OR guided attention to sounds/breath, gently returning when distracted. If breath focus feels worse, use eyes-open grounding; stop if dizzy.
+
+**Practice guides:** [Grounding & unhooking, including Polish audio](https://www.who.int/publications/i/item/9789240003927) · [Gentle breathing](https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/) · [Problem-solving](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/problem-solving/).
+
+**Persistent distress or difficulty functioning:** arrange a psychological assessment alongside these habits; start now if this is already ongoing. [When to seek help](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health).
 
 ## 2. Testing
 
