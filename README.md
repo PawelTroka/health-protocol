@@ -630,6 +630,8 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 [Printable Supplement Pillbox Guide (Word)](supplements/Supplement-Pillbox-Guide.docx) — an eight-page, label-ready 3x3 layout for Morning 1/2, Lunch 1/2, Evening 1/2, Before Workout and After Workout.
 
+[Supplement shopping and subscription audit](supplements/SUBSCRIPTION_SHOPPING.md) — exact products, recurring-delivery eligibility, manual alternatives, price premiums and formulation holds; checked2026-11-08.
+
 ### Morning
 🥤 drink:
 - **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️ 🧠 🔥 ⏰
@@ -748,7 +750,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
   - Gelatinized; equivalent to 4.5g fresh Maca Root
 - 🥈 **B.6** 2x [Fenugreek Seed Extract 300mg](https://gemini.pl/kenay-ekstrakt-z-kozieradki-testofen-60-kapsulek-vege-0092834) 🍆 🩸 🚽
   - Testofen®; Fenuside™ Saponins 150mg (50%)
-- 🥉 **B.7** [Tribulus Terrestris 1.5g](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-testosteron-1500mg-90-14876230440) 🍆
+- 🥉 **B.7** [Tribulus Terrestris 1.5g](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-90-testosteron-libido-12249412752) 🍆
 - 🥉 **B.8-9** 4x [Calcium Alpha-Ketoglutarate (CaAKG) 500mg](https://sklep.sfd.pl/SFD_NUTRITION_Ca-AKG_Alfa-Ketoglutaran_Wapnia-opis44968.html) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 💪 🦴
   - Calcium 400mg; Vitamin D3 2,000IU; Vitamin K2 MK-7 100mcg
 
