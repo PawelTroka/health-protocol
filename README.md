@@ -322,9 +322,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Protein-sparing Mediterranean Caloric-Restriction diet
 
-*Turkey + Salmon + Kefir day at 80kg: ~2,417kcal · P196g · C152g · F88g · Fiber43–46g.*
+*Turkey + Salmon + Kefir day at 80kg: ~2,509kcal · P196g · C176g · F89g · Fiber44–47g.*
 
-**Protein:** 170g without Collagen (2.13g/kg), plus ~25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
+**Protein:** 169.8g without Collagen (2.12g/kg), plus ~25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
 
 
 **Food forms:** fresh or plain frozen Vegetables, prepared as listed; Pulses cooked from dried. The existing Sardine and Mackerel options are the only canned-food exceptions.
@@ -335,7 +335,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 **Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 75g Mushrooms, 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Variety accumulates across the week; every alternative need not be bought or eaten.
 
-> **GI fit:** 43–46g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
+> **GI fit:** 44–47g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
 *474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
@@ -366,7 +366,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 500–1,000ml Filtered Water 💧 🪶
 
 #### 🍽️ Lunch (1pm — Lean Protein, Training Fuel & Colorful Plants)
-*567kcal · P47.6g · C46.7g · F17.7g · Fiber15.3g*
+*613kcal · P47.5g · C58.7g · F17.9g · Fiber15.8g*
 *Weigh Turkey and thawed Pollock raw (exclude glaze), starch after preparation, steamed Vegetables after preparation, Mushrooms/Sprouts before steaming, and raw Vegetables/Microgreens/Berries as eaten.*
 - 🥩 **Lean Protein — CHOOSE ONE**
   - [x] 150g [organic pasture-raised Turkey tenderloins](https://allegro.pl/oferta/poledwiczka-z-indyka-eko-500-g-18514942496) 🛡️ 🗿 💪 🪶
@@ -380,8 +380,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🌾 **Easily Digestible Complex Carbs — CHOOSE ONE**
   - [ ] 75g boiled [organic White Quinoa](https://bioshi.pl/pl/products/quinoa-biala-komosa-ryzowa-bezglutenowa-bio-500-g-bio-planet-44499) 🛡️ 🗿 💪 🦠 🩸 🪶 🔄
     - `104kcal · P4.2g · C15.7g · F2g · Fiber3.8g · Magnesium · Folate · Flavonol Glycosides`
-  - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪
-    - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Anthocyanins · Chlorogenic Acids · Potassium`
+  - [x] 100g steamed peeled [Purple Sweet Potatoes](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪
+    - `122kcal · P1.2g · C27.2g · F0.3g · Fiber3g · Anthocyanins · Chlorogenic Acids · Potassium`
   - [ ] 100g steamed [organic Orange Sweet Potatoes](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) 🛡️ 🗿 👁️ 🦠 💪 🔄
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Beta-Carotene · Chlorogenic Acids · Potassium`
   - [ ] 80g steamed peeled [organic Potatoes](https://bioshi.pl/pl/products/ziemniaki-zolte-swieze-bio-polska-2-kg-100207) 🛡️ 🗿 💪 🩸 🔄
@@ -481,7 +481,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - `176kcal · P28g dietary Protein + 15g EAA · C0.4g · F0.3g`
 
 #### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — Recovery, Leafy Greens & Whole Fruit)
-*888kcal · P53g · C55.6g · F47.4g · Fiber12–13g*
+*934kcal · P52.9g · C67.6g · F47.6g · Fiber12.5–13.5g*
 *Weigh Salmon, Eggs (without shells), Tomatoes, Okra, Asparagus and peeled Celeriac raw; starch after preparation; remaining cooked Vegetables after preparation; Fruit, Nuts, Seeds and Fermented foods as eaten.*
 - 🐟 **Fatty Protein — CHOOSE ONE**
   - [x] 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🛡️ ⏰ 🗿 🍆 🧠 ❤️ 👁️ 🪶
@@ -501,8 +501,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `79kcal · P5.3g · C9g · F0.3g · Fiber5.2g · Folate · Magnesium · Resistant Starch · Phenolic Acids`
   - [ ] 50g boiled [organic Chickpeas](https://bioshi.pl/pl/products/ciecierzyca-bezglutenowa-bio-400-g-bio-planet-44932) 🛡️ ⏰ ❤️ 🦠 🩸 🌱 🔄
     - `82kcal · P4.4g · C9.9g · F1.3g · Fiber3.8g · Folate · Iron · Resistant Starch · Saponins`
-  - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪 😴
-    - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Anthocyanins · Chlorogenic Acids · Potassium`
+  - [x] 100g steamed peeled [Purple Sweet Potatoes](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪 😴
+    - `122kcal · P1.2g · C27.2g · F0.3g · Fiber3g · Anthocyanins · Chlorogenic Acids · Potassium`
 - 🥬 **Steamed Leafy Greens — CHOOSE ONE**
   - [ ] 100g [Kale](https://zakupy.auchan.pl/products/jarmu%C5%BC-ci%C4%99ty-warzywa-auchan-300-g/00253887) 🛡️ ⏰ 🗿 👁️ 🦴
     - `36kcal · P3g · C1.4g · F1.2g · Fiber4g · Lutein · Vitamin K1 · Calcium · Glucosinolates · Flavonol Glycosides`
@@ -1140,14 +1140,14 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 | Daily intake | Estimate |
 | --- | --- |
-| Energy | 2,417kcal |
-| Protein | 195.8g, including 25.8g Collagen |
-| Protein without Collagen | 170g / 2.13g/kg |
-| Available Carbohydrate | 152.2g |
-| Fat | 88.1g |
-| Fiber | 42.8–45.8g |
+| Energy | 2,509kcal |
+| Protein | 195.6g, including 25.8g Collagen |
+| Protein without Collagen | 169.8g / 2.12g/kg |
+| Available Carbohydrate | 176.2g |
+| Fat | 88.5g |
+| Fiber | 43.8–46.8g |
 
-EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 474 + Lunch 567 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 176 + Dinner 888 + other supplements 27kcal.
+EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 474 + Lunch 613 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 176 + Dinner 934 + other supplements 27kcal.
 
 #### Diet rotations
 
@@ -1155,9 +1155,9 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 
 | Change | Daily kcal | Protein without Collagen | Available Carbohydrate | Fat |
 | --- | --- | --- | --- | --- |
-| Skyr 200g instead of Kefir 400g | 2,349 | 175.6g | 143.2g | 82.1g |
-| Tempeh 200g instead of Salmon 150g | 2,476 | 178.1g | 159.2g | 83.2g |
-| Eggs 200g instead of Salmon 150g | 2,410 | 166.1g | 152.8g | 88.6g |
+| Skyr 200g instead of Kefir 400g | 2,441 | 175.4g | 167.2g | 82.5g |
+| Tempeh 200g instead of Salmon 150g | 2,568 | 177.9g | 183.2g | 83.6g |
+| Eggs 200g instead of Salmon 150g | 2,502 | 165.9g | 176.8g | 89g |
 
 - **Replacing Kefir:** Sauerkraut 100g removes 155kcal/11.5g Protein; Kimchi 75g removes 150kcal/11.1g Protein; skipping it removes 172kcal/12.4g Protein. An extra 50g raw Turkey supplies 12.7g Protein/57kcal if replacing the lost Protein.
 - **Lunch Protein:** compared with Turkey 150g, Pollock 200g supplies 4g less Protein, Mussels 150g supplies 14g less and Shrimps 180g supplies 11g less. Matching the Turkey serving takes about 240g cooked Mussels or 255g raw Shrimps; recalculate the meal, including Mussels' higher Salt.
@@ -1225,7 +1225,7 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 | Sardines / Mackerel | Drained: 2×85g tins / 125g jar contents; retained Oil is already counted |
 | Whole Fruit | Edible flesh; exclude discarded peel, stones and membranes |
 
-- Turkey tenderloins use a raw-breast proxy. Purple Sweet Potato uses generic cooked-food values; the linked product verifies purple flesh, not Beni-imo identity. Several steamed Vegetables use cooked-food proxies.
+- Turkey tenderloins use a raw-breast proxy. Purple Sweet Potato uses the [MEXT peeled, steamed purple-flesh entry](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=2_02049_7), with 27.2g available Carbohydrate by mass per 100g; cultivar and water content can vary, and the linked listing does not establish Beni-imo identity. Several steamed Vegetables use cooked-food proxies.
 - The current Pumpkin-Seed 350g panels conflict; retain the former 1kg label estimate until the delivered label is checked. Manufacturer panels take priority over conflicting retailer data for Nuts/Seeds. [Pumpkin 350g](https://bioplanet.pl/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-350-g-bio-planet/p215/m) [Current proxy](https://bioplanet.pl/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-1-kg-bio-planet/p10207)
 - Boil Green Beans thoroughly. Add the 1g Brown Mustard Seed after cooking Broccoli; heating Sprouts can inactivate their Myrosinase. [Green-Bean safety](https://www.bfr.bund.de/en/opinions/lectins-in-plant-based-foods-is-there-a-health-risk/) [Mustard/Broccoli study](https://pubmed.ncbi.nlm.nih.gov/29806738/)
 - Sauerkraut's manufacturer gives 7 days after opening, the retailer 3: plan for 3 until the delivered label confirms otherwise. Onion-free Kimchi still contains Garlic, Chili and Soy/Wheat. [Sauerkraut label](https://sklep-satyrz.pl/produkt/kapusta-kiszona-z-marchewka-900ml/) [Retailer storage](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) [Kimchi ingredients](https://oldfriendskimchi.pl/oferta/)
