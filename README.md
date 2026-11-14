@@ -256,13 +256,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ---
 
-#### **Wednesday: Legs (Glute/Hamstring Dominant)**
-*Focus: Hip strength and control, an athletic posterior chain, and physical function.*
-- **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Glute strength and hip-extension control. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes) 💪 🗿
-- **Hamstrings/Glutes**: Romanian Deadlift (RDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg (Slight knee bend; hinge hips back, keep Dumbbells close and spine neutral; use a controlled, comfortable range) 💪 ⏰ 🗿
-- **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)* 💪 ⏰ 🗿
+#### **Wednesday: Legs (Glutes, Calves & Thigh Maintenance)**
+*Focus: Glute and calf development, hip strength, and maintaining preferred thigh size.*
+- **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg *(Squeeze glutes at the top; control ribs and pelvis, finish without lumbar hyperextension and breathe through the repetition)* 💪 🗿
+- **Hamstrings/Glutes**: Romanian Deadlift (RDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg *(Thigh-maintenance intent: 2–3RIR, controlled comfortable hinge; sustain performance and reassess before adding volume)* 💪 ⏰ 🗿
+- **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Controlled stance and comfortable range; keep the modest two-set allocation and monitor thigh size/performance)* 💪 ⏰ 🗿
 - **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 🗿
-- **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 10kg, 15 × 15kg, 15 × 20kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)* 💪 🗿
+- **Upper/Side Glutes**: Supported Cable Hip Abduction: 2 × 12–20 reps/side *(2–3RIR; keep pelvis still and use a comfortable range)* 🗿
 - **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 14 × 110kg, 12 x 120kg, 10 x 130kg (Slow negative) 🗿
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
@@ -1411,6 +1411,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ### Training replacements
 
+- **45° Back Extensions (3sets):** → 2sets of Supported Cable Hip Abduction to vary glute work while reducing repeated hip-hinge loading. [Regional glute hypertrophy trial](https://doi.org/10.1519/JSC.0000000000005701)
 - **Dumbbell Pullover (Cross-bench):** → Friday Lat Pulldowns to prioritize lat training. [Activation study](https://pubmed.ncbi.nlm.nih.gov/21975179/)
 
 ### Product replacements
