@@ -555,7 +555,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🦠 **Fermented food — CHOOSE ONE**
   - [x] 400g [Lactose-Free Live Kefir with *L. rhamnosus*](https://www.frisco.pl/pid%2C102359/n%2Crobico-kefir-bez-laktozy-z-probiotykiem-15/stn%2Cproduct) 🛡️ 🗿 🦠 🦴
     - `172kcal · P12.4g · C16.8g · F6g · Salt0.4g · Calcium · Vitamin B12 · Live Cultures`
-  - [ ] 200g [Lactose-Free Natural Skyr](https://www.maluta.pl/pl/produkty/8/jogurty/skyr-jogurt-naturalny-typu-islandzkiego-200g-bez-laktozy/) 🛡️ 🗿 💪 🦠 🦴
+  - [ ] 200g [Lactose-Free Natural Skyr](https://zakupy.auchan.pl/products/skyr-jogurt-typu-islandzkiego-naturalny-bez-laktozy-maluta-200-g/00863824) 🛡️ 🗿 💪 🦠 🦴
     - `104kcal · P18g · C7.8g · F0g · Calcium · Vitamin B12 · Live Yogurt Cultures`
   - [ ] 100g [organic Unpasteurized Sauerkraut with Carrot](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) 🛡️ 🦠 🔄
     - `17kcal · P0.9g · C2.3g · F0.2g · Salt0.8g · Lactic Acid · Live Cultures`
