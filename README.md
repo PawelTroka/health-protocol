@@ -696,7 +696,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥉 **M.15** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - 🥉 **M.16** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🧠 ❤️ 🔄
 - **M.17** (empty)
-- 🥉 **M.18** [Spermidine HCl 50mg (Spermidine 28mg)](https://allegro.pl/produkt/suplement-diety-forest-vitamin-spermidyna-50-mg-60-kapsulek-79220a55-116b-48d8-8d18-23106df5521f?offerId=18841623878) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
+- **M.18** (empty)
 
 ### Lunch
 - **L.1.1** [Ezetimibe 10mg](https://www.mp.pl/pacjent/leki/lek/93836,Ezoleta-tabletki) ❤️ 🩸 ⚕️
@@ -1278,7 +1278,6 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 - **Ergothioneine / M.10:** 25mg ErgoActive® matches the studied ingredient, but its trial missed the primary memory endpoint. Assess any Skin, sleep or cognition response after 12–16 weeks; do not stack another product. The EU adult supplement level is 30mg/day. [Trial](https://doi.org/10.3390/nutraceuticals5030015) [EU authorization](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018R0462)
 - **Phosphatidylserine / L.16:** 300mg evidence comes mainly from older adults with memory complaints. Avoid recalled NOW lots 3316650 and 3309243, which had inconsistent potency. [Trial](https://pubmed.ncbi.nlm.nih.gov/21103034/) [Recall](https://www.nowfoods.com/about-now/press-room/press-releases/now-health-group-issues-voluntary-recall-phosphatidyl-serine)
 - **NR / M.15:** 900mg remains an experimental dose; raising NAD is not proven to extend human life. There is no established reason to split the dose. [900mg study](https://pubmed.ncbi.nlm.nih.gov/39044608/) [Review](https://pubmed.ncbi.nlm.nih.gov/41655607/)
-- **Spermidine / M.18:** 50mg HCl supplies 28mg actual Spermidine. This is a high experimental dose; short studies do not establish chronic benefit or lifetime safety. Do not increase. [High-dose safety trial](https://pubmed.ncbi.nlm.nih.gov/39405978/)
 - **CaAKG / B.8-9:** the SFD nutrition table, not its inconsistent prose conversion, supplies the D3 figures above. All four tablets remain Before Workout, consolidating the label's divided meal schedule. Superiority of 2g over 1.5g and Longevity benefit remain unproven. [Label](https://sklep.sfd.pl/SFD_NUTRITION_Ca-AKG_Alfa-Ketoglutaran_Wapnia-opis44968.html) [2g trial](https://clinicaltrials.gov/study/NCT07114536)
 
 #### Sleep & sexual health
@@ -1451,6 +1450,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **Proferrin 20mg:** not used without confirmed Iron deficiency.
 - **Lactobacillus acidophilus (4bln CFU)** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — removed in favor of the selected 35624® and Gastrus® strains.
 - **[Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450):** removed from permanent daily use for the current IBS pattern. Retain as a situational medicine for diarrhea when indicated. [IBS evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC12898053/) · [Enterol indications](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/7890/characteristic)
+- **[Spermidine trihydrochloride 50mg (Spermidine ~28mg)](https://allegro.pl/produkt/suplement-diety-forest-vitamin-spermidyna-50-mg-60-kapsulek-79220a55-116b-48d8-8d18-23106df5521f?offerId=18841623878)** [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — pause the routine high-dose experiment. The promising [6mg immune pilot](https://pubmed.ncbi.nlm.nih.gov/42169618/) used Wheat-Germ Extract in older adults, with signals in vaccine nonresponders; it does not establish benefit from 28mg/day here. Revisit a verified lower-dose formulation rather than increase or automatically substitute.
 
 ### Tolerance & safety concerns
 
