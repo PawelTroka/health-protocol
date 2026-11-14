@@ -339,7 +339,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
 *474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
-- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 26g — ~1scoop (ml unverified)) 🛡️ 🗿 💪 🦴 👨‍🦳
+- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 26g — ~1scoop (~60ml est.)) 🛡️ 🗿 💪 🦴 👨‍🦳
   - `166kcal · P40.5g · C0.4g · F0.3g`
 - 25g dry [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪 🔄
   - `93kcal · P3.3g · C15g · F1.7g · Fiber2.4g · Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
@@ -467,12 +467,12 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🦴 Before workout
 *~120kcal · P13.3g · C2.5g*
-- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 4scoops (~13.33g) + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
+- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 4scoops (4x~10ml est.; ~13.33g) + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
   - `~120kcal · P13.3g · C2.5g`
 
 #### ⚡ During workout
 *94kcal · C24g*
-- 💊 [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 1scoop (ml unverified)) ⚡ 💧 🗿
+- 💊 [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 1scoop (~3ml est.)) ⚡ 💧 🗿
   - `94kcal · C24g`
 
 #### 💪 Right after workout
@@ -636,7 +636,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥇 **M.0.2** [Psyllium Husk 7.5g — ~1tbsp (15ml measuring spoon)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
 - 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — ~1scoop (ml unverified)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
+- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — ~1scoop (~60ml est.)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
    - **Structural / performance / digestive blend**
      - Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴 💇‍♂️
      - Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🧠 🥊
@@ -725,9 +725,9 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 ### Before workout
 🥤 drink:
-- 🥈 **B.0.3** [Collagen Peptides ~13.33g — 4scoops (ml unverified)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+- 🥈 **B.0.3** [Collagen Peptides ~13.33g — 4scoops (4x~10ml est.)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
   - Protein ~13.33g; Fat 0g; Carbohydrates 0g; ~53kcal
-- 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (ml unverified; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
+- 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (~10ml est.; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - 🥈 **B.0.2** [HSN EvoBomb 2.0 20g — 2scoops (2x15ml)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 💪 🧠 🩸
    - **Pump / blood flow**
      - L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base)
@@ -755,9 +755,9 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 ### During workout
 🥤 intra-workout drink:
 - **IW.0.1** 2.5L Water 💧
-- 🥇 **IW.0.2** [ALLHydrate Electrolytes Neutral 2.73g — 1scoop (ml unverified)](https://allegro.pl/oferta/allhydrate-by-aliness-neutral-elektrolity-205-g-50-porcji-17359439491)
+- 🥇 **IW.0.2** [ALLHydrate Electrolytes Neutral 2.73g — 1scoop (~3ml est.)](https://allegro.pl/oferta/allhydrate-by-aliness-neutral-elektrolity-205-g-50-porcji-17359439491)
   - Sodium 667mg; Chloride 1.095g; Potassium 200mg; Magnesium 40mg<sup>E.12</sup>; Calcium 80mg; Phosphorus 70mg; 0kcal
-  - During Sauna sessions: +2.73g — 1scoop (ml unverified) 🔥 💧
+  - During Sauna sessions: +2.73g — 1scoop (~3ml est.) 🔥 💧
 - 🥈 **IW.0.3** [Highly Branched Cyclic Dextrin (Cluster Dextrin®) 25g — 1scoop (50ml)](https://www.hsnstore.pl/marki/raw-series/cluster-dextrin-silnie-rozgaleziona-cykliczna-dekstryna-w-proszku) ⚡ 💪
   - Carbohydrates 24g; Sugars 0g; 94kcal
 
@@ -1255,14 +1255,14 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 #### Powder scoop sizes
 
-`1scoop (70ml)` gives the capacity of one scoop; `2scoops (2x15ml)` means two separate 15ml measures. Scoop-to-mass equivalents are approximate. Gram amounts are the dose targets except B.0.3 Collagen, whose chosen target is exactly 4scoops; its gram figure is an estimate for nutrition calculations. The HSN values are manufacturer-specified capacities; a scoop is not necessarily included with the product. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
+`1scoop (70ml)` gives the capacity of one scoop; `2scoops (2x15ml)` means two separate 15ml measures. `est.` marks a calculated or observational estimate of scoop capacity, with the assumptions and sensitivity ranges in the reference. Gram amounts are the dose targets except B.0.3 Collagen, whose chosen target is exactly 4 original product scoops; its gram figure is an estimate for nutrition calculations. The HSN values are manufacturer-specified capacities; a scoop is not necessarily included with the product. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
 
 - **EAA / A.0.2:** use 15g — 1scoop (25ml), matching the manufacturer's serving. The amino-acid amounts and energy allowance use this 15g dose. [Exact RawSeries EAA label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor)
 - **Collagen / B.0.3:** use exactly 4scoops. KFD specifies 5g per 1.5scoops, giving `4 x 5 / 1.5 = ~13.33g`; the scoop count is the target. The exact-product manufacturer sheet confirms the ratio but gives neither ml nor a level/heaped convention. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
-- **Unverified volumes:** the expanded label, manufacturer-document and image checks still do not establish physical scoop capacities for MicroVitamin+, either KFD powder or ALLHydrate. Use their product-specific measures and written targets; confirm the actual scoop's ml/cc marking or obtain manufacturer confirmation before selecting a replacement by volume. The [research reference](supplements/POWDER_SCOOP_REFERENCE.md) records the additional evidence and remaining gaps.
+- **Estimated capacities:** MicroVitamin+ ~60ml (broad model range ~40–100ml), KFD Collagen ~10ml per scoop (~5–15ml), KFD Creatine ~10ml (~7–12ml), ALLHydrate ~3ml (~2–4ml), and retired BULK White Cherry ~35ml (~25–50ml; current-formula proxy). These are working estimates, not manufacturer-confirmed dimensions or dosing tolerances. Keep the written targets and calibrate a replacement by powder mass; for Collagen, use the mass of four original scoops. The [research reference](supplements/POWDER_SCOOP_REFERENCE.md) records sources, calculations and fill/packing assumptions.
 - **Psyllium / M.0.2:** GymBeam gives 5g per 2tsp. Scaling that ratio gives 7.5g per ~3tsp; using 5ml metric teaspoons gives ~1tbsp (15ml). This is an approximate powder equivalence, not proof of a supplied GymBeam scoop or a level/heaped fill; retain 7.5g by weight. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
 
-See the [product-by-product scoop reference](supplements/POWDER_SCOOP_REFERENCE.md) for sources, variant checks, uncertainty and how to confirm the remaining capacities. Research checked 2026-11-13.
+See the [product-by-product scoop reference](supplements/POWDER_SCOOP_REFERENCE.md) for verified capacities, numerical estimates, variant checks and measurement methods. Research checked 2026-11-14.
 
 #### Training, Skin & joints
 
@@ -1426,7 +1426,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ### Product replacements
 
-- **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop (ml unverified)](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2). [White Cherry label verification](supplements/POWDER_SCOOP_REFERENCE.md#retired-scoop-entry).
+- **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop (~35ml est.)](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2). [White Cherry scoop estimate](supplements/POWDER_SCOOP_REFERENCE.md#retired-scoop-entry).
 - **[Biały Puch WPI Unflavored](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701)** → HSN RawSeries WPI; keeps both 30g servings without added B6.
 - **[Biały Puch EAA Unflavored 10g](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807)** → HSN RawSeries EAA 15g powder — 1scoop (25ml); aligns the post-workout serving with the manufacturer's measure without added B6.
 - **[GymBeam Cluster Dextrin® 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html)** → HSN RawSeries Cluster Dextrin® at the same dose and timing.
