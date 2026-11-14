@@ -435,6 +435,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `48kcal · P1.1g · C8.6g · F0.5g · Fiber3g · Vitamin C · Anthocyanins · Ellagitannins · Proanthocyanidins`
   - [ ] 100g fresh [organic Raspberries](https://bioshi.pl/pl/products/maliny-swieze-bio-polska-okolo-0-125-kg-bio-planet-88768) 🛡️ ⏰ 🗿 ❤️ 🦠 👨‍🦳 🔄 🟡
     - `52kcal · P1.2g · C5.5g · F0.7g · Fiber6.5g · Ellagitannins · Anthocyanins · Vitamin C · Proanthocyanidins`
+  - [ ] 150g plain frozen [organic Strawberries](https://zakupy.auchan.pl/products/bio-truskawka-mro%C5%BCona-2bebio-300-g/00748243) *(thaw in the fridge)* 🛡️ ⏰ 🗿 ❤️ 👨‍🦳
+    - `50kcal · P1.1g · C8.7g · F0.6g · Vitamin C · Anthocyanins · Ellagitannins · Proanthocyanidins`
 - 🌿 **Spices & Herbs — CHOOSE ANY**
   - [ ] 1g freshly ground [organic Brown Mustard Seed](https://www.olium.pl/gorczyca-brazowa-ziarno-bio-100-g-p451) 🛡️ 🪶
     - `Sinigrin · Myrosinase`
@@ -1229,6 +1231,7 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 - The current Pumpkin-Seed 350g panels conflict; retain the former 1kg label estimate until the delivered label is checked. Manufacturer panels take priority over conflicting retailer data for Nuts/Seeds. [Pumpkin 350g](https://bioplanet.pl/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-350-g-bio-planet/p215/m) [Current proxy](https://bioplanet.pl/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-1-kg-bio-planet/p10207)
 - Boil Green Beans thoroughly. Add the 1g Brown Mustard Seed after cooking Broccoli; heating Sprouts can inactivate their Myrosinase. [Green-Bean safety](https://www.bfr.bund.de/en/opinions/lectins-in-plant-based-foods-is-there-a-health-risk/) [Mustard/Broccoli study](https://pubmed.ncbi.nlm.nih.gov/29806738/)
 - Sauerkraut's manufacturer gives 7 days after opening, the retailer 3: plan for 3 until the delivered label confirms otherwise. Onion-free Kimchi still contains Garlic, Chili and Soy/Wheat. [Sauerkraut label](https://sklep-satyrz.pl/produkt/kapusta-kiszona-z-marchewka-900ml/) [Retailer storage](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) [Kimchi ingredients](https://oldfriendskimchi.pl/oferta/)
+- **Frozen Strawberries:** the [2beBIO 300g pack](https://bioplanet.pl/truskawka-mrozona-bio-300-g-2bebio/p12283) provides two 150g Berry choices and is ready to eat after thawing. Keep at −18°C; thaw only the needed portion, eat plain with its juices and do not refreeze. Its panel does not quantify Fiber. Use as a seasonal alternative within the Berry rotation.
 - Culinary Saffron 30mg is occasional; E.5 already contains Saffron Extract 30mg. Black Pepper stays to taste, with no added Piperine target.
 
 <a id="diet-fodmap-tags"></a>
