@@ -168,4 +168,3 @@ The existing daily09:00 review may **monitor and prepare** native offers. It mus
 - If no native route fits, record the exact missing capability once. Notify only on a newly usable route, a material renewal problem or a concrete final action; do not repeat the same unresolved audit every day.
 
 Nut A order246975 is paid and subscription370's automatic card is verified after user approval23September.357/361 retain their established automatic renewals. Full native-only coverage and a global freshness optimum are not claimed.
-
