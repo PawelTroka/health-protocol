@@ -780,7 +780,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 ### Evening
 - **E.1.1** [Isotretinoin 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) (weekly) 👨‍🦳 ⏰ ⚕️
-- **E.1.2** [Dutasteride 0.5mg](https://www.mp.pl/pacjent/leki/lek/92051,Adadut-kapsulki-miekkie) (e2d) 💇‍♂️ 🍅 ⚕️
+- **E.1.2** [Dutasteride 0.5mg](https://www.doz.pl/p/findarts-05-mg-kapsulki-miekkie-90-szt-161352) (e2d) 💇‍♂️ 🍅 ⚕️
 - **E.2** [Minoxidil 5mg](https://hairrepairclinic.co.uk/product/oral-minoxidil-5mg) 💇‍♂️ 🧔 ⚕️
 - 🥈 **E.3** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠 🩸
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
