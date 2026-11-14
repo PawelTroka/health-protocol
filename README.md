@@ -462,7 +462,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - 🥛 **Milk — CHOOSE ONE**
     - [x] 200ml [fortified unsweetened Soy Milk](https://www.frisco.pl/pid,2530/n,alpro-napoj-sojowy-bez-cukru/stn,product) 🛡️ 🗿 ❤️ 🦴 🌱
       - `66kcal · P6.6g · C0g · F3.6g · Fiber1.2g · Calcium · Vitamin B2 · Vitamin B12 · Vitamin D2 · Isoflavones · Soyasaponins`
-    - [ ] 200ml [Lactose-Free Milk 1.5%](https://mlekovita.com.pl/pl/produkt/szczegoly/mleko-i-napoje-mleczne/wydojone-bez-laktozy-1-l-uht-1-5-tl) 🛡️ 🗿 💪 🦴 🪶
+    - [ ] 200ml [Lactose-Free Milk 1.5%](https://www.frisco.pl/pid,101661/n,mlekovita-wydojone-mleko-uht-bez-laktozy-15/stn,product) 🛡️ 🗿 💪 🦴 🪶
       - `90kcal · P6.4g · C9.4g · F3g · Calcium · Vitamin B2 · Vitamin B12`
 
 #### 🦴 Before workout
