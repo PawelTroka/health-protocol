@@ -852,7 +852,7 @@ There are actual studies that confirm if you look younger and better you are mor
 ### Hair
 #### Haircare
 - Regular visits to [a good hairdresser](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (every 3 weeks) 💇‍♂️
-- Use of [Philip Kingsley No Scent No Colour Shampoo 1,000ml](https://www.ceneo.pl/140483947) (2-3 times weekly) 💇‍♂️
+- Use of [Philip Kingsley No Scent No Colour Shampoo 1,000ml](https://www.philipkingsley.co.uk/philip-kingsley-no-scent-no-colour-shampoo-1000ml.html) (2-3 times weekly) 💇‍♂️
 - Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (weekly) 💇‍♂️ 🍄
 - Use of [Philip Kingsley No Scent No Colour Conditioner](https://www.flaconi.pl/wlosy/philip-kingsley/no-scent-no-colour/philip-kingsley-no-scent-no-colour-odzywka.html) (after every shampoo) 💇‍♂️ 💧
 - Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (every second day) ⚕️ 💇‍♂️ 🍅
