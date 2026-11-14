@@ -250,7 +250,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Rear Delts**: Reverse Pec Deck: 20 × 23kg, 18 × 27kg, 15 × 32kg 💪 🗿
 - **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 14 x 6kg, 12 x 8kg, 10 x 10kg *(Light load, comfortable range; avoid painful arcs and uncomfortable pad pressure on the abdominal repair)* 🦴
 - **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
-- **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 16 × 12.5kg 🗿
+- **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 16 × 12.5kg per side + 1 left-only back-off set of 15–20 reps *(Left first; extra set at 1–2 reps in reserve)* 🗿
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
 - **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
 
