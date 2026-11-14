@@ -29,6 +29,7 @@
 - ❌️ [polluted/toxic environments](#clean-air)
 - ❌️ unprotected sex
 - ❌️ [PFAS/PFOA/PCB/dioxins "forever" chemicals](#7-cookware)
+- ✋️ low productivity activities, low value-adding activities that can be outsourced
 - ✋️ work or scrolling that routinely displaces sleep, relationships or restorative leisure
 - ✋️ excessive social media usage
 - ✋️ [microplastics and artificial materials](#8-environment)
