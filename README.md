@@ -181,7 +181,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ### Specialist Screenings
 - Skin Cancer Check (Dermatoscopy) (Yearly)
 - Prostate Screening (PSA + Digital Rectal Exam) (Yearly)
-- [Dental Checkup & Cleaning](#oral-health--teethmaxxing) (Every 2 months)
+- [Dental Checkup & Cleaning](#oral-health--teethmaxxing) (Dentist-set review and cleaning intervals)
 - Vision Exam (Every 2 years)
 
 ### Gastrointestinal Health
@@ -812,78 +812,74 @@ There are actual studies that confirm if you look younger and better you are mor
   - When using orthodontic braces: [Eludril Ortho](https://allegro.pl/produkt/eludril-ortho-ortodontyczny-plyn-do-plukania-jamy-ustnej-500-ml-a905bf84-1178-4f98-b31b-3da919da2410) (Twice daily)
   - For normal care: non-alcohol mouthwash like [ApaCare OraLactin Liquid](https://allegro.pl/produkt/apacare-liquid-enamel-plyn-remineralizujacy-do-plukania-jamy-ustnej-200-ml-df2d1e7e-50aa-4824-8b54-3c1169092719?offerId=17121623399) (Twice daily)
 - Water flosser [waterpik ultra professional WP660](https://www.amazon.pl/Waterpik-Professional-Zaawansowana-Ci%C5%9Bnienia-WP-660EU) (Twice daily)
-- Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and medical-grade toothpaste with aminofluoride like [Elmex Sensitive Professional](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) or nano-hydroxyapatite (n-HA) alternative like Risewell Mineral if afraid of fluoride (Twice daily)
+- Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and [Elmex Sensitive Professional Repair & Prevent](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) (1,450ppm Fluoride; 8% Arginine) (Twice daily; spit, do not immediately rinse)
 - Tongue scraper (daily)
-- Floss [Oral-B SuperFloss](https://allegro.pl/oferta/nic-dentystyczna-oral-b-superfloss-dental-floss-threader-50-szt-17333503650) (Weekly)
-- Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Monthly)
+- Interdental brushes where they fit; [Oral-B SuperFloss](https://allegro.pl/oferta/nic-dentystyczna-oral-b-superfloss-dental-floss-threader-50-szt-17333503650) for tight contacts/retainers (Daily, before brushing)
+- Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Dentist-set procedures/interval for plaque, gums, orthodontics and staining; [smile plan](looksmaxxing/REVIEW_2026-11.md#teeth-and-smile))
 
 ### Face
 #### Skincare
-- Avoid sun exposure
-- Anti-large pores cleanser [CeraVe Blemish Control](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) (Twice daily) 👨‍🦳 💧
+- Avoid intentional tanning; use shade, clothing and sunscreen outdoors
+- Gentle cleanser [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) (Evening; Morning if needed); [CeraVe Blemish Control](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) only for tolerated oily/congested areas within the agreed Isotretinoin plan 👨‍🦳 💧
 - Moisturizer [CeraVe Facial Moisturizing Cream 52ml](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) or [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) (Twice daily) 👨‍🦳 💧
-- Anti-aging GHK-Cu peptide cream [Theramid Copper Peptide 3%](https://drogeriadrzdrowie.pl/pl/p/Theramid-Copper-Peptide-3-terapia-przeciwstarzeniowa-z-peptydami-miedzi-3-30ml/77444) 👨‍🦳 ⏰
-- SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (daily)
+- (optional) Copper peptide treatment [Theramid Copper Peptide 3%](https://drogeriadrzdrowie.pl/pl/p/Theramid-Copper-Peptide-3-terapia-przeciwstarzeniowa-z-peptydami-miedzi-3-30ml/77444) 👨‍🦳 ⏰
+- SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (Morning: face, neck, ears and exposed hands; reapply every 2h outdoors and after swimming/sweating)
 - Anti-aging retinoid cream [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.05-0.1% (weekly) 👨‍🦳 ⏰ ⚕️
 - (optional) [SNAP-8 peptide cream](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) 👨‍🦳 ⏰
 
 #### Home procedures
 - [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week)
-- (optional) Chemical peeling [The Ordinary AHA 30% + BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (monthly) 👨‍🦳 ⏰
-- (optional) Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
+- (optional) DHA self-tan [Bondi Sands Pure Self Tanning Sleep Mask 75ml](https://bondisands.eu/products/pure-self-tanning-sleep-mask) for extra colour (Intact skin; patch test first; [use and Polish access](looksmaxxing/REVIEW_2026-11.md#skin-products-and-next-options))
 
 #### Professional procedures
-- Microneedling (monthly) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
-- Botox (Glabella, Forehead, Crow's feet) (every 4 months)
-- [ResurFX 1565nm fractional non-ablative laser for enlarged pores](https://booksy.com/pl-pl/239368_da-vinci-beauty-clinic_medycyna-estetyczna_20383_gdansk) or [Fractional CO2 laser for cheeks](https://booksy.com/pl-pl/239381_wilenska-beauty-clinic-r_medycyna-estetyczna_20383_gdansk) (yearly) 👨‍🦳 ⏰ ⚕️
-- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
-- (optional) Sculptra (yearly) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
-- (optional) Radiesse (yearly) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
+- Microneedling at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk) (Optional alternative course for a defined texture/scar target; coordinate with laser/Tixel)
+- Botox (Glabella, Forehead, Crow's feet) (Review around 4 months; repeat according to returning movement and brow/eyelid position)
+- [ResurFX 1565nm fractional non-ablative laser for enlarged pores](https://booksy.com/pl-pl/239368_da-vinci-beauty-clinic_medycyna-estetyczna_20383_gdansk) or [Fractional CO2 laser for cheeks](https://booksy.com/pl-pl/239381_wilenska-beauty-clinic-r_medycyna-estetyczna_20383_gdansk) or [fractional 1064nm picosecond laser](https://pubmed.ncbi.nlm.nih.gov/36718089/) (Choose one clinician-planned course; [compare recovery and reassess before maintenance](looksmaxxing/REVIEW_2026-11.md#face-and-eye-procedures)) 👨‍🦳 ⏰ ⚕️
+- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk) (Persistent texture/fine lines after dryness settles; current device instructions and prescriber clearance; one coordinated course)
+- (optional) Sculptra (Reassess existing result; repeat only for a documented volume/skin-quality target) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
+- (optional) Radiesse (Reassess existing result; select for a documented contour/skin-quality target) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
 
 ### Lips
+- SPF50+ lip balm [Avène 3g](https://www.eau-thermale-avene.pl/p/pomadka-do-ust-spf-50-3282770204797-808759b4) (Outdoors; reapply during exposure and after eating/drinking)
 - Moisturizing lip balm [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
 
 ### Eyes
-- Under-eye moisturizer [Bioderma Atoderm Intensive Eye 100ml](https://www.doz.pl/p/bioderma-atoderm-intensive-eye-kojacy-krem-3w1-100-ml-146776) or [La Roche-Posay Toleriane Dermallergo Eyes 20ml](https://www.e-zikoapteka.pl/la-roche-posay-toleriane-dermallergo-okolice-oczu-20-ml.html) (Twice daily) 👨‍🦳 💧
-- (optional) Under-eye PRF (Twice yearly) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk)
-- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
-- (optional) INFINI Premium VE at [WILENSKA CLINIC](https://booksy.com/pl-pl/239381_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
+- Under-eye moisturizer [La Roche-Posay Toleriane Dermallergo Eyes 20ml](https://www.e-zikoapteka.pl/la-roche-posay-toleriane-dermallergo-okolice-oczu-20-ml.html) or [Bioderma Atoderm Intensive Eye 100ml](https://www.doz.pl/p/bioderma-atoderm-intensive-eye-kojacy-krem-3w1-100-ml-146776) (Twice daily) 👨‍🦳 💧
+- (optional) Under-eye PRF (Defined texture/dark-circle target; reassess response before repeating) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk)
+- (optional) Tixel face+eyelids: the same course listed under [Face procedures](#professional-procedures)
+- (optional) INFINI Premium VE at [WILENSKA CLINIC](https://booksy.com/pl-pl/239381_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk) (Injectable; review exact formulation and eye-area indication first)
 
 ### Hair
 #### Haircare
 - Regular visits to [a good hairdresser](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (every 3 weeks) 💇‍♂️
 - Use of [Philip Kingsley No Scent No Colour Shampoo 1,000ml](https://www.ceneo.pl/140483947) (2-3 times weekly) 💇‍♂️
-- Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (weekly) 💇‍♂️ 🍄
+- Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (Weekly maintenance when needed for recurrent dandruff/seborrhoeic dermatitis) 💇‍♂️ 🍄
 - Use of [Philip Kingsley No Scent No Colour Conditioner](https://www.flaconi.pl/wlosy/philip-kingsley/no-scent-no-colour/philip-kingsley-no-scent-no-colour-odzywka.html) (after every shampoo) 💇‍♂️ 💧
 - Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (every second day) ⚕️ 💇‍♂️ 🍅
-- Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (twice daily) 💇‍♂️
-- Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (twice daily) 💇‍♂️
+- Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (twice daily; [review alongside E.2 and facial applications](looksmaxxing/REVIEW_2026-11.md#hair-brows-and-beard)) 💇‍♂️
 
 #### Home procedures
 - Use of [Hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) (twice daily)
 - [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304) (3-5 times weekly)
-- [Dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) or [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
+- (optional) [Dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) or [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (Clinician-defined scalp protocol and topical restart plan)
 
 #### Professional procedures
-- Scalp PRP at Elizaveta Purtova (+48-501-329-921) (every 3-4 months)
-- (optional) Exosomes at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (Once a year)
+- (optional) Scalp PRP at Elizaveta Purtova (+48-501-329-921) (Maintenance only after documented photographic/trichoscopic benefit)
 
 ### Eyebrows
-- [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily)
+- [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily; off-label brow use, following the prescriber plan; avoid eyes/eyelids)
 - Minoxidil 5% (daily) 🧔
-- [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
 - Styling (monthly) at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk)
-- (optional) Microblading (5th of January every year) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
+- (optional) Microblading (Only for residual gaps/faded pigment after brow growth is assessed) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
 
 ### Beard
 - Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a week) 🧔
 - Daily application of minoxidil 5% 🧔
-- [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
 - Daily use of beard oil 🧔 💧
 
 ### ABS
-- Aqualyx 4vials (monthly for 4 months; then yearly) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
-- EmSculpt Neo (4-6 sessions, once per week; then yearly) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk)
+- (optional) Aqualyx (Only after product-specific and abdominal-wall assessment; individualized treatment plan) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
+- (optional) EmSculpt Neo (Clinician-planned course after hernia-repair review; repeat only for documented benefit) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk)
 - (Optional) VASER High-Definition Lipo
 
 ### Body
@@ -1305,7 +1301,9 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 ### Skin & teeth
 
 - **Dry eyelids:** Dermallergo Eyes first for a lighter feel; Atoderm Intensive Eye if richer coverage is needed. Test one for about 2 weeks. Keep retinoids/acids off eyelids and under-eyes; stop for persistent stinging, swelling or redness. Persistent red/scaly skin needs assessment. [Dermallergo](https://www.laroche-posay.co.uk/en_GB/toleriane-dermallergo-soothing-eye-cream/LRP_132.html) [Atoderm](https://www.bioderma.pl/produkty/atoderm/intensive-eye)
-- **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Salicylic Acid/peel use with the prescriber; separate nights do not resolve that compatibility question. Retain one weekly topical retinoid, Adapalene OR Tretinoin, as listed. If the optional monthly peel is appropriate: dry skin, maximum 10 minutes, avoid eyes, then plain moisturizer; no topical retinoid, Salicylic Acid cleanser, SNAP-8 or GHK-Cu that routine. Pause acids for redness, stinging or peeling. The professional Bielenda 40% blend is not a home substitute. [Peel label](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
+- **Skin actives:** Hydrating Cleanser is the default during dryness. With E.1.1 Isotretinoin, agree exfoliating actives with the prescriber; separate nights do not establish compatibility. Retain one weekly Adapalene OR Tretinoin as listed. The [retinoid review and conditional Skinoren 15% option](looksmaxxing/REVIEW_2026-11.md#skin-products-and-next-options) are proposals, not added doses. [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
+- **Looksmaxxing review:** [priorities, product comparisons, procedure choices and emerging treatments](looksmaxxing/REVIEW_2026-11.md). Use consistent photos before a change and at its planned reassessment; evaluate one new skin active or procedure course at a time.
+- **Teeth:** use daily fitted interdental cleaning and keep the selected OraLactin routine. To preserve toothpaste Fluoride, use rinses at a different time from brushing; this follows [general dental guidance](https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/), while OraLactin's leaflet specifies after brushing. Agree timing with the dentist; [formulation and smile-planning details](looksmaxxing/REVIEW_2026-11.md#teeth-and-smile).
 
 <a id="dental-staining"></a>
 
@@ -1375,8 +1373,8 @@ Pending options. Try one change at a time; replacements take the place of the na
 
 Revisit evidence and safe Polish/EU access before selecting any of these.
 
-- [ ] **PP405** — hair density.
-- [ ] **Pyrilutamide (KX-826)** — hair density.
+- [ ] **Clascoterone 5% scalp solution / PP405 / Pyrilutamide (KX-826):** [current trial status and Polish/EU access gates](looksmaxxing/REVIEW_2026-11.md#emerging-options). Investigational/authorization status and exact formulation matter; none is added to the active routine.
+- [ ] **RLX-201 / Re-Q serum:** [early controlled photoaging study](looksmaxxing/REVIEW_2026-11.md#emerging-options); reassess after independent replication and verified Polish/EU access.
 - [ ] **[Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/)** — body composition; investigational.
 - [ ] **Tesamorelin** — abdominal fat; proposed use is outside its approved indication.
 - [ ] **Tongkat Ali** — libido/sexual-function candidate.
@@ -1422,6 +1420,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **[OstroVit Omega 3 Extreme 3capsules (EPA 1.5g + DHA 750mg)](https://ostrovit.com/pl/products/ostrovit-omega-3-extreme-90-kapsulek-25585.html)** → 2 Sports Research triglyceride-form softgels on non-Fatty-Fish days (L.2-3).
 - **[OstroVit Glucosamine Sulfate 2KCl 1.4g](https://ostrovit.com/pl/products/ostrovit-glukozamina-1400-mg-90-kapsulek-26571.html)** → 2 NOW Glucosamine Sulfate 750mg capsules (A.8-9). The former 1.4g described the whole salt complex.
 - **[Longvida® SLCP™ Curcumin 400mg](https://allegro.pl/oferta/now-foods-kurkumina-curcubrain-400mg-50-kapsulek-zoptymalizowana-kurkuma-18729912439)** (Curcuminoids ≥80mg) [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] + **[Ginger 400mg](https://allegro.pl/oferta/imbir-lekarski-intense-400mg-80-kaps-trawienie-odpornosc-suplement-17192004243)** (Gingerols 40mg; Shogaols 6.72mg) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] → one [Advanced Curcumin Elite™](https://www.lifeextension.com/vitamins-supplements/item02324/advanced-curcumin-elite-ginger-turmerones-turmeric-extract) softgel (L.10). Saves a pill; clinical superiority over Longvida® is unproven. [Longvida® trial](https://pubmed.ncbi.nlm.nih.gov/32512782/)
+- **[RiseWell Original Mineral toothpaste](https://risewell.com/products/mineral-toothpaste) (formerly alternative):** contains 10% micro-hydroxyapatite, not the previously described nano form. Keep the selected Fluoride toothpaste; exact-product equivalence was not established. [Dental review](looksmaxxing/REVIEW_2026-11.md#teeth-and-smile)
 
 ### Food & menu changes
 
@@ -1435,11 +1434,15 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ### Hair & skin simplification
 
+- **[The Ordinary AHA 30% + BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (formerly monthly):** removed from the routine while coordinating Isotretinoin, topical retinoid and procedural care; prioritize a tolerable, goal-specific skin plan. [Rationale](looksmaxxing/REVIEW_2026-11.md#skin-products-and-next-options)
+- **[Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/):** removed as a cosmetic injection; optional topical DHA offers colour without increasing UV exposure. [Evidence and replacement](looksmaxxing/REVIEW_2026-11.md#skin-products-and-next-options)
+- **[RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (formerly twice daily):** removed from routine care; the 2026 human study demonstrates systemic exposure, not established hair-growth benefit or long-term safety. [Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC13487499/)
+- **Annual [scalp Exosomes](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk):** moved out of routine maintenance pending exact product, route and credible clinical/quality evidence. Weekly brow/beard dermastamping also leaves the routine; scalp evidence does not validate those sites. [Hair review](looksmaxxing/REVIEW_2026-11.md#hair-brows-and-beard)
 - **Rotating Hair products:** [anti-hair-loss shampoo](https://allegro.pl/oferta/anti-hair-loss-szampon-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132003412), [Anwen Emollient Iris conditioner](https://allegro.pl/oferta/anwen-odzywka-do-wlosow-emolientowy-irys-200-ml-9334623745), [Anwen Protein Magnolia conditioner](https://allegro.pl/oferta/anwen-odzywka-proteinowa-magnolia-aluminiowa-100ml-11386316729), [anti-hair-loss conditioner](https://allegro.pl/oferta/anti-hair-loss-odzywka-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132018183), [Anwen Grow Us Tender warming scalp tonic](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) and [Castor Oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) → the fragrance-free Philip Kingsley shampoo/conditioner pair. Fewer products and easier irritation tracking.
 - **[More4Care Cryotherapy Hair Mask 200ml](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419):** removed; the regular conditioner covers this step.
 - **[Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (formerly daily):** CeraVe replaced the daily step; optional SNAP-8 remains in Skincare.
 - **[CeraVe Resurfacing Retinol Serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (formerly nightly):** removed the extra cosmetic retinoid; retain one weekly Adapalene OR Tretinoin.
-- **[Bielenda Professional 40% acid peel](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306):** professional pH2 blend, unsuitable as a direct home substitute for The Ordinary. Its [professional program](https://bielendaprofessional.pl/zabiegi-kosmetyczne-na-twarz/anti-acne-program) lists retinoid treatment as a contraindication.
+- **[Bielenda Professional 40% acid peel](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306):** professional pH2 blend, unsuitable as a home peel in the current retinoid/procedure plan; The Ordinary strong peel is also retired. Its [professional program](https://bielendaprofessional.pl/zabiegi-kosmetyczne-na-twarz/anti-acne-program) lists retinoid treatment as a contraindication.
 
 ### Limited benefit or overlap
 
