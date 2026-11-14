@@ -923,7 +923,7 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
     *Medium-size, highly recommended option for most daily meals*
   - (Optional) [YATO Professional Kitchen Equipment 24cm](https://allegro.pl/oferta/yato-patelnia-gastronomiczna-indukcja-gaz-pro-24cm-14023675438)
     *Smaller pan*
-  - (Optional) [SKOTTSBERG STAINLESS STEEL 24CM INDUCTION K3](https://allegro.pl/oferta/skottsberg-patelnia-ze-stali-nierdzewnej-stainless-steel-24-cm-indukcja-k3-17004514428)
+  - (Optional) [SKOTTSBERG STAINLESS STEEL 24CM INDUCTION K3](https://www.mediaexpert.pl/agd-male/do-kuchni/patelnie/patelnia-ze-stali-nierdzewnej-24-cm-skottsberg)
     *Alternative smaller option with excellent heat distribution*
   - (Optional) [YATO Professional Kitchen Equipment 36cm](https://allegro.pl/oferta/patelnia-ze-stali-nierdzewnej-36cm-16370023721)
     *Larger pan for family-sized meals and batch cooking*
