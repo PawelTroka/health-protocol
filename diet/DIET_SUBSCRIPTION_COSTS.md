@@ -1,5 +1,7 @@
 # Diet subscription costs — 43-food core, 2 stock-driven additions and historical benchmark
 
+> **8November2026 — current sourcing update:** [Food price and subscription audit](FOOD_SUBSCRIPTIONS_2026-11.md). [Bioshi’s current terms, §5](https://bioshi.pl/pl/terms) require confirmation and payment for repeat orders from23October2026; the earlier automatic-coverage and price assumptions below are historical. Preserve dated account/order/refund evidence as recorded; this notice does not establish the present status of an individual order or account plan.
+
 ## 7October —249850 refund, separate from Strawberry complaint
 
 Bioshi reports21.41zł refunded for249850 at08:41:16 Warsaw; live399 history is77.84zł and held. Preserve99.25zł as the original payment,21.41zł as merchant-issued refund and77.84zł as revised order history. After the user signed in, expanded249850 confirmed Egg46125 removed: remaining Cauliflower17.09zł + Carrots6.83zł + Raspberries53.92zł =77.84zł. Bank receipt and the removal/hold reason remain unverified.399's future recurring quote remains99.25zł/freeGLS with selectedEgg46125 present. No new debit or subscription saving is inferred. The58.56zł Strawberry claim has no verified refund. [Handoff](DIET_PAYMENT_HANDOFF.md).
@@ -348,3 +350,4 @@ The14September Allegro checkout now combines the exact [MienskoPL organic Turkey
 | **Saving per matching purchase** |**−9.22zł** |**30.99zł** |**21.77zł** |
 
 Turkey alone is94.01zł with verified Smart home delivery0zł, versus84.79zł +30.99zł for direct Miensko DPD Food. Before the stock pass, the combined checkout contained one Turkey pack, four Sardine tins, one1kg Purple Sweet Potato pack and one500ml Pamako bottle; the four new tins have now been removed. Turkey/Potatoes were estimated for17September; Sardines/Pamako for16September. The direct Turkey cart was emptied, the saved Allegro Diet list updated and the obsolete checkout closed. **No purchase or payment was submitted.** This saves one payment step; it does not reduce four sellers to one parcel, create a subscription or change the43-food Bioshi budget.
+
