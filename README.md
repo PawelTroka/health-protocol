@@ -789,7 +789,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
   - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>M.0.3.3.5</sup>
 - 🥈 **E.6** [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-480-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17286271854) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
 - 🥈 **E.7** [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://gymbeam.pl/ashwagandha-ksm-66r-500mg-gymbeam.html) 😌 😴 🍆 🧠
-- 🥈 **E.8-10** 3x [Glycine 1g](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 🍅 ⏰
+- 🥈 **E.8-10** 3x [Glycine 1g](https://sklep.sport-max.pl/product-pol-25028-NOW-FOODS-Glycine-Glicyna-1000mg-100-vkaps.html) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 🍅 ⏰
 - 🥈 **E.11** [Berberine HCl 490mg](https://bmpharma.pl/products/berberine) 🩸 🚽 🛡️
 - 🥈 **E.12** [Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 ❤️ 🦴
 - 🥈 **E.13** [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064) 🛡️ 🚽 🔄
