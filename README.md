@@ -420,7 +420,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `6kcal · P1.2g · C0.4g · F0.1g · Fiber0.3g · Gluconasturtiin · Lutein · Vitamin K1`
   - [ ] 30g raw [Watercress Microgreens](https://stolicazakupow.pl/produkt/mikroliscie-rukiew-wodna-50-g-pokarm-zycia/) 🛡️ ❤️ 👁️
     - `3kcal · P0.7g · C0.2g · F0g · Fiber0.2g · Glucosinolates · Carotenoids`
-  - [x] 50g raw [organic Arugula Leaves](https://www.frisco.pl/pid,147325/n,frisco-organic-rukola-swieza-niemyta-bio/stn,product) 🛡️ ⏰ 🗿 ❤️ 👁️ 🪶 🔄
+  - [x] 50g raw [organic Arugula Leaves](https://zakupy.auchan.pl/products/bio-rukola-myta-fit-easy-80-g/00917703) 🛡️ ⏰ 🗿 ❤️ 👁️ 🪶
     - `13kcal · P1.3g · C1g · F0.3g · Fiber0.8g · Nitrates · Glucosinolates · Vitamin K1 · Folate · Flavonol Glycosides`
   - [ ] 30g thoroughly steamed [organic Radish Sprouts](https://bioshi.pl/pl/products/kielki-rzodkiewki-swieze-bio-okolo-50-g-46190) 🛡️ 🦠 🔄
     - `18kcal · P1.4g · C1.6g · F0.4g · Fiber1.1g · Glucoraphenin`
