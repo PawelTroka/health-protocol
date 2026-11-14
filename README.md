@@ -1230,6 +1230,7 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 - Boil Green Beans thoroughly. Add the 1g Brown Mustard Seed after cooking Broccoli; heating Sprouts can inactivate their Myrosinase. [Green-Bean safety](https://www.bfr.bund.de/en/opinions/lectins-in-plant-based-foods-is-there-a-health-risk/) [Mustard/Broccoli study](https://pubmed.ncbi.nlm.nih.gov/29806738/)
 - Sauerkraut's manufacturer gives 7 days after opening, the retailer 3: plan for 3 until the delivered label confirms otherwise. Onion-free Kimchi still contains Garlic, Chili and Soy/Wheat. [Sauerkraut label](https://sklep-satyrz.pl/produkt/kapusta-kiszona-z-marchewka-900ml/) [Retailer storage](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) [Kimchi ingredients](https://oldfriendskimchi.pl/oferta/)
 - Culinary Saffron 30mg is occasional; E.5 already contains Saffron Extract 30mg. Black Pepper stays to taste, with no added Piperine target.
+- **EVOO phenolics (Diet/M.0.1):** [Pamako's published 2,081mg/kg](https://www.pamako.co.uk/) and the [Phileos 2025/26 sample's 917mg/kg](https://www.huilemielolives.com/img/cms/POLYPHENOLES_2025.pdf) are sample-specific figures. Match the purchased harvest/batch to its certificate before using them as intake estimates; retain the existing 13.5g portions.
 
 <a id="diet-fodmap-tags"></a>
 
