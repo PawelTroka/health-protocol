@@ -39,7 +39,7 @@
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ### Promote
-- 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
+- 🥇 [Sauna](#sauna) (3 times a week; use the heat bouts and cooling breaks below) 🔥 🛡️ ⏰
 - 🥇 [Physical activity & active/deep recovery](#3-exercise)
 - 🥇 Social connection & psychological wellbeing
 - 🥈 [Red Light Therapy](#home-procedures) ❤️ 🛡️ 👨‍🦳 ⏰
@@ -267,7 +267,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
 **Recovery:**
-- **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, [hydrate with electrolytes](#during-workout))* ❤️
+<a id="sauna"></a>
+
+- **Sauna**: Start with 10–15mins in the heat; optionally repeat once after cooling and feeling recovered *(A longer visit includes cooling/rest. Leave earlier for lightheadedness or nausea; [rehydrate](#during-workout))* ❤️
 
 ---
 
