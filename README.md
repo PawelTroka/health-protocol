@@ -513,7 +513,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - [ ] 100g [organic Swiss Chard](https://ekoj.pl/produkt/563/burak-lisciowy-bio-peczek-gospodarstwo-kwiatkowscy.html) *(Mangold / Bietola leaves and edible stalks)* 🛡️ ⏰ 🗿 👁️ 🦴
     - `20kcal · P1.9g · C2g · F0.1g · Fiber2.1g · Vitamin K1 · Lutein · Magnesium`
 - 🍅 **Mediterranean Vegetables — CHOOSE ONE**
-  - [x] 100g raw [fresh organic Tomatoes](https://bioshi.pl/pl/products/pomidory-okragle-swieze-tacki-bio-polska-88631) 🛡️ ⏰ 🗿 ❤️ 🍅 👨‍🦳 🔄
+  - [x] 100g raw [fresh organic Tomatoes](https://www.frisco.pl/pid,81911/n,frisco-organic-pomidory-okragle-bio-4-6szt.-(400g-600g)/stn,product) 🛡️ ⏰ 🗿 ❤️ 🍅 👨‍🦳
     - `18kcal · P0.9g · C2.7g · F0.2g · Fiber1.2g · Lycopene · Potassium · Vitamin C · Phytoene/Phytofluene · Naringenin Chalcone`
   - [ ] 100g boiled [organic Green Beans](https://zakupy.auchan.pl/products/bio-fasolka-szparagowa-mro%C5%BCona-2bebio-450-g/00045259) 🛡️ ⏰ 🦠 ❤️
     - `35kcal · P1.9g · C4.7g · F0.3g · Fiber3.2g · Folate · Vitamin K1 · Quercetin/Kaempferol Glycosides`
