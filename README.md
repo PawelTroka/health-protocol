@@ -29,7 +29,7 @@
 - ❌️ [polluted/toxic environments](#clean-air)
 - ❌️ unprotected sex
 - ❌️ [PFAS/PFOA/PCB/dioxins "forever" chemicals](#7-cookware)
-- ✋️ low productivity activities, low value-adding activities that can be outsourced
+- ✋️ work or scrolling that routinely displaces sleep, relationships or restorative leisure
 - ✋️ excessive social media usage
 - ✋️ [microplastics and artificial materials](#8-environment)
 - ⚠️ excessive gaming and TV
@@ -44,7 +44,6 @@
 - 🥇 Social connection & psychological wellbeing
 - 🥈 [Red Light Therapy](#home-procedures) ❤️ 🛡️ 👨‍🦳 ⏰
 - 🥈 Cold exposure	(4 times a week) 🔥 🛡️ ⚡
-- 🥈 Meditation / breathwork (daily) 🧠 😌
 - 🥈 Walks (daily) 🫁 ❤️
 - 🥈 Stretching (6 times a week) 🦴 💪
 - 🥉 Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
@@ -69,6 +68,15 @@ Sleep is your number 1 priority. It is more important than diet, more important 
 - **Sleep problems:** Avoid extended frustrated wakefulness in bed; if you truly cannot fall asleep read a book or even go back to work; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
 - **Sex & Sauna:*** Could make it easier to fall asleep if used strategically. Use Sauna 1-3h before sleep to relax, use good sex 0-1h before sleep to make it easier to fall asleep.
 - **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
+
+### Social connection & psychological wellbeing
+- **Daily connection**: Make room for an attentive conversation or shared activity with a partner, friend or family member. 😌
+- **Weekly social plan**: Arrange one enjoyable plan; a walk, shared meal, cooperative game or the existing Sunday sport can count. Keep friendships/family contact alongside the relationship. 😌 ⏰
+- **Mental reset**: Meditation or comfortable paced breathing, 5-10mins daily; use a relaxing walk instead if the exercise feels unpleasant. 🧠 😌
+- **Work boundaries & enjoyment**: Set a practical stopping point for work and protect satisfying leisure without requiring a productivity outcome. 😌
+- **Weekly check-in**: Briefly review mood, stress, enjoyment and feeling connected; choose one useful adjustment if needed. 🧠 😌
+
+**Wellbeing Note:** These are flexible starting habits, not a prescribed number of contacts or a new tracking project. Relationship quality and support matter alongside frequency. [WHO social connection](https://www.who.int/news-room/questions-and-answers/item/social-connection) Use leisure and manageable relaxation to support recovery; if low mood, anxiety or loss of interest persist or interfere with daily functioning, seek professional support rather than adding another supplement. [NIMH self-care and support](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health)
 
 ## 2. Testing
 
