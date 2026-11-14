@@ -89,9 +89,14 @@ These are workflow constraints, not immutable medical facts. Preserve them unles
 
 ## Protocol writing and formatting
 
-- Keep the active protocol concise, operational and easy to scan. It should primarily show what is taken or done, the exact dose or quantity, timing, slot code, meaningful formulation identity and product link; place supporting rationale, evidence, uncertainties, alternatives, cumulative-exposure analysis, monitoring and reassessment details in Notes.
-- Avoid duplicating the same explanation in an active entry and its Note. Retain a short active-entry detail only when it is necessary to identify the intervention correctly or use it safely.
-- Keep diffs minimal and preserve unaffected wording. Write short, operational entries; keep technical uncertainty in Notes. Avoid qualifiers such as `declared`, `checked` and `label-based` unless they change the meaning.
+Treat `README.md` as a practical cheat sheet for use at the gym, in the kitchen and while planning. Make the next action easy to find and understand within seconds.
+
+- Lead with what to do or take, the exact dose or quantity, timing and frequency. Retain relevant slot codes, meaningful formulation details and product links.
+- Write short, natural entries in plain language. Cut filler, repetition and explanations of the obvious; avoid qualifiers such as `declared`, `checked` and `label-based` unless they change the meaning.
+- Make lookup easy with descriptive headings, focused subsections and consistent names. Keep table-of-contents and cross-reference links aligned with their target sections and subsections.
+- Keep Notes, TODOs and Removed items concise too. Use short bullets or compact tables when they aid lookup. Include only decision-relevant explanations, totals, evidence links and next steps; put detailed research and long explanations in the PR description or link to existing supporting material.
+- Keep essential conditions, technique cues and safety instructions beside the relevant action. Preserve exact quantities, formulation identity and uncertainty that changes how an entry should be used or understood.
+- Keep diffs minimal and preserve unaffected wording. State each explanation once and link to it where needed.
 - Make every change conform strictly to the live file's established formatting. Preserve the surrounding heading hierarchy, list structure, indentation, spacing, slot-code placement, compact number-unit style, emoji placement, links, signatures and local wording pattern unless the user explicitly requests a formatting change.
 - Always sort every `CHOOSE ONE` and `CHOOSE ANY` list by evidence-weighted expected benefit for Health, Longevity, Looksmaxxing and Sexual Health at the written portion/form, adjusted for GI tolerance, cumulative risk and current-stack fit. Place new options at their justified benefit position. Treat uncertain distinctions as close ties and keep their order stable; shopping convenience is a secondary tie-breaker. When only display order changes, keep each food's quantity, product link, Macros, emojis and checked state attached to it, and update any Notes that describe the order.
 - Keep the protocol and Notes positive, energetic, constructive and forward-looking. Lead with what is working, what is promising and the practical path to improvement before discussing limitations.
