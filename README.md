@@ -1067,7 +1067,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
   - **Details**: Removal of a tumor succesful
 - **Repair of Epigastric Hernia (Hernia Linea Alba)**
   - **Date**: January 13, 2026
-  - **Facility**: [Garden Clinic Hospital](https://gardenclinic.pl/hospital) Gdansk, Poland
+  - **Facility**: [Garden Clinic Hospital](https://gardenclinic.pl/pl/garden-clinic-hospital) Gdansk, Poland
   - **Surgeon**: [Dr. Andrzej Lehmann](https://drlehmann.pl)
   - **Anesthesia**: Deep IV sedation
   - **Rationale**: 8x8mm epigastric hernia defect present since childhood, confirmed by [ultrasound on December 4, 2025](results/AbdominalWallUltrasound-2025-12-04/Report.pdf)
