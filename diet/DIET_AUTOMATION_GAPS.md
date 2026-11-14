@@ -53,6 +53,8 @@ The retained supplier links establish identities; destination stock, final price
 
 ## Useful current change: Mackerel availability
 
+**Species correction —14November2026:** the [current Vilgain ingredients and customer-service correction](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) identify *Scomber japonicus* (Chub Mackerel), superseding the older *Scomber scombrus* observation below. The 125g drained serving is unchanged. Owned jars still require their own label check; the earlier price/stock observation is not a current quote.
+
 The exact [Vilgain190g Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) public page now displays18.99zł and Add to cart, plus125g drained solids and **Scomber scombrus** in the ingredient list. This updates the previous unavailable/species-unresolved public-page observation. The geographical origin list is broad; inspect the actual delivered label when replenishing. No automatic subscription control was found. The banner's free-delivery offer from99zł and first-purchase coupon do not establish an enduring free-home-courier route. Eight reported owned packs defer buying more.
 
 ## Practical routing decision
