@@ -682,7 +682,8 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - **M.3** (empty)
 - 🥈 **M.4** [CoQ10 (Ubiquinone) 100mg](https://gemini.pl/bio-quinon-active-q10-gold-100-mg-90-kapsulek-0085000) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
   - Ubiquinone 100mg; Riboflavin 1.4mg
-- 🥈 **M.5-6** 2x [Acetyl-L-Carnitine 750mg](https://pl.iherb.com/pr/now-foods-acetyl-l-carnitine-750-mg-90-tablets/6110) 🧠 ⚡ 🔄
+- **M.5** (empty)
+- **M.6** (empty)
 - **M.7** (empty)
 - 🥈 **M.8** [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194) 💇‍♂️ 👨‍🦳 🦴
 - 🥈 **M.9** 2x [Lion's Mane Fruiting-Body Extract 500mg](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892) 🧠 🛡️ 🔄
@@ -1444,6 +1445,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 ### Limited benefit or overlap
 
 - **3x [Catalase 6,250IU](https://www.amazon.pl/dp/B00LPJLZSG):** no established oral-treatment benefit for gray-hair repigmentation. [Review](https://onlinelibrary.wiley.com/doi/full/10.1111/ics.12090)
+- **2x [Acetyl-L-Carnitine 750mg](https://pl.iherb.com/pr/now-foods-acetyl-l-carnitine-750-mg-90-tablets/6110):** pause routine 1.5g/day; compare mental energy, attention and GI tolerance over 4 weeks with other interventions stable. Reconsider if a meaningful benefit is lost. Healthy-adult cognitive benefit is unestablished; a small [human metabolism study](https://pubmed.ncbi.nlm.nih.gov/41243468/) raises questions but does not establish cardiovascular harm.
 - **[L-Glutathione Reduced 200mg](https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199)** [[BJ-LM 250mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] — little expected added value alongside NAC, Glycine and adequate Protein.
 - **[Forest Vitamin Cotinus coggygria Extract 400mg](https://forestvitamin.pl/produkt/forest-vitamin-fisetyna-400mg-60-kapsulek/)** (50% Fisetin ≈200mg) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — daily use lacks established senolytic/Longevity benefit. Keep removed pending robust human-outcome evidence. [200mg trial](https://pubmed.ncbi.nlm.nih.gov/41683255/) · [Pilot](https://pubmed.ncbi.nlm.nih.gov/39269340/)
 - **Nicotinamide Mononucleotide (NMN):** overlaps with NR 900mg/day; no demonstrated added benefit from combining them. [NR/NMN comparison](https://pubmed.ncbi.nlm.nih.gov/41540253/) · [Review](https://pubmed.ncbi.nlm.nih.gov/41655607/)

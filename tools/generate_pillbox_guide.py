@@ -54,8 +54,6 @@ TIER_BY_CODE = {
     "M.1": "🥇",
     "M.2": "🥈",
     "M.4": "🥈",
-    "M.5": "🥈",
-    "M.6": "🥈",
     "M.8": "🥈",
     "M.9": "🥈",
     "M.10": "🥉",
@@ -159,8 +157,8 @@ PAGES = [
                 icons="❤️ 🧠 🛡️",
                 note="Heat-dispersed soy-oil softgel • riboflavin 1.4 mg",
             ),
-            item("M.5", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡ 🔄"),
-            item("M.6", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡ 🔄"),
+            empty("M.5"),
+            empty("M.6"),
             empty("M.7"),
             item("M.8", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
@@ -615,8 +613,13 @@ def add_page(document, page_data, page_index):
     add_hyperlink(p, "GymBeam Adjustable PillBox", PILLBOX_URL, color=accent)
     run = p.add_run(" • Full doses and evidence notes: README.md")
     set_repeatable_font(run, 7.3, color=COLORS["muted"])
-    run = p.add_run(" • 🥇 strongest • 🥈 supportive • 🥉 exploratory")
-    set_repeatable_font(run, 6.8, color=COLORS["muted"], name="Segoe UI Emoji")
+    for medal, label in (("🥇", "strongest"), ("🥈", "supportive"), ("🥉", "exploratory")):
+        run = p.add_run(" • ")
+        set_repeatable_font(run, 6.8, color=COLORS["muted"])
+        run = p.add_run(medal)
+        set_repeatable_font(run, 6.8, color=COLORS["muted"], name="Segoe UI Emoji")
+        run = p.add_run(" " + label)
+        set_repeatable_font(run, 6.8, color=COLORS["muted"])
 
     if page_index < len(PAGES) - 1:
         p = document.add_paragraph()
@@ -652,7 +655,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 06 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 14 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
