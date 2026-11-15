@@ -856,7 +856,6 @@ There are actual studies that confirm if you look younger and better you are mor
 - Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (weekly) 💇‍♂️ 🍄
 - Use of [Philip Kingsley No Scent No Colour Conditioner](https://www.flaconi.pl/wlosy/philip-kingsley/no-scent-no-colour/philip-kingsley-no-scent-no-colour-odzywka.html) (after every shampoo) 💇‍♂️ 💧
 - Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (every second day) ⚕️ 💇‍♂️ 🍅
-- Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (twice daily) 💇‍♂️
 - Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (twice daily) 💇‍♂️
 
 #### Home procedures
@@ -1451,6 +1450,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 - **Rotating Hair products:** [anti-hair-loss shampoo](https://allegro.pl/oferta/anti-hair-loss-szampon-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132003412), [Anwen Emollient Iris conditioner](https://allegro.pl/oferta/anwen-odzywka-do-wlosow-emolientowy-irys-200-ml-9334623745), [Anwen Protein Magnolia conditioner](https://allegro.pl/oferta/anwen-odzywka-proteinowa-magnolia-aluminiowa-100ml-11386316729), [anti-hair-loss conditioner](https://allegro.pl/oferta/anti-hair-loss-odzywka-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132018183), [Anwen Grow Us Tender warming scalp tonic](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) and [Castor Oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) → the fragrance-free Philip Kingsley shampoo/conditioner pair. Fewer products and easier irritation tracking.
 - **[More4Care Cryotherapy Hair Mask 200ml](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419):** removed; the regular conditioner covers this step.
+- **[RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (formerly twice daily):** removed from routine care; human data confirm systemic exposure without establishing the linked product's hair-growth benefit or long-term safety. [Human study](https://pmc.ncbi.nlm.nih.gov/articles/PMC13487499/)
 - **[Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (formerly daily):** CeraVe replaced the daily step; optional SNAP-8 remains in Skincare.
 - **[CeraVe Resurfacing Retinol Serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (formerly nightly):** removed the extra cosmetic retinoid; retain one weekly Adapalene OR Tretinoin.
 - **[Bielenda Professional 40% acid peel](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306):** professional pH2 blend, unsuitable as a direct home substitute for The Ordinary. Its [professional program](https://bielendaprofessional.pl/zabiegi-kosmetyczne-na-twarz/anti-acne-program) lists retinoid treatment as a contraindication.
