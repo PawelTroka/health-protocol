@@ -677,8 +677,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 💊 pills:
 - 🥇 **M.1** [Bifidobacterium longum 35624® 1bln CFU](https://mollo.pl/symbiosys-alflorex-30-kapsulek-2993-p) 🦠 🚽 🛡️
-- 🥈 **M.2** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠 🩸
-  - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
+- 🥈 **M.2** 2x [Bifidobacterium bifidum HI-MIMBb75 (Kijimea IBS PRO) 500mln heat-inactivated cells](https://kijimea.pl/products/kijimea-ibs-pro) (eight-week trial) 🚽 🦠
 - **M.3** (empty)
 - 🥈 **M.4** [CoQ10 (Ubiquinone) 100mg](https://gemini.pl/bio-quinon-active-q10-gold-100-mg-90-kapsulek-0085000) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
   - Ubiquinone 100mg; Riboflavin 1.4mg
@@ -782,8 +781,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - **E.1.1** [Isotretinoin 10mg](https://www.mp.pl/pacjent/leki/lek/90377,Izotek-kapsulki-miekkie) (weekly) 👨‍🦳 ⏰ ⚕️
 - **E.1.2** [Dutasteride 0.5mg](https://www.doz.pl/p/findarts-05-mg-kapsulki-miekkie-90-szt-161352) (e2d) 💇‍♂️ 🍅 ⚕️
 - **E.2** [Minoxidil 5mg](https://hairrepairclinic.co.uk/product/oral-minoxidil-5mg) 💇‍♂️ 🧔 ⚕️
-- 🥈 **E.3** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠 🩸
-  - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
+- **E.3** (empty)
 - 🥈 **E.4** [Sodium Butyrate 500mg (Butyric acid 400mg)](https://gemini.pl/debutir-max-60-kapsulek-9086424) 🦠 🧠 🛡️ ⏰
 - 🥈 **E.5** [Melatonin 1mg + Botanical Extract Blend](https://bmpharma.pl/products/melisen) 😴 😌 ⏰
   - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>M.0.3.3.5</sup>
@@ -1266,7 +1264,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 #### Gut & metabolic support
 
-- **Probiotics / M.1/M.2/E.3:** B. longum 35624® is the former B. infantis 35624 name. Gastrus® provides 400mln CFU/day across its two strains combined, not that amount per strain. Keep each for a measurable symptom response; the Gastrus® trial showed improvement around week 6. [Strain identity](https://www.symbiosys.pl/symbiosys-alflorex-46225.html) [Gastrus® trial](https://pubmed.ncbi.nlm.nih.gov/41821785/)
+- **Kijimea IBS PRO / M.2:** take both capsules together once daily, swallowed intact with Water: 1bln heat-inactivated HI-MIMBb75 cells/day, not CFU. Replace both Gastrus® doses; keep M.1 35624® stable only if it already has a clear personal benefit. This preserves the earlier replacement plan, but the two-product combination has no established advantage and makes attribution less clean than Kijimea alone. Record daily pain 0–10, weekly adequate relief and IBS-SSS at baseline, week 4 and week 8. Continue only for worthwhile relief; stop after eight weeks without benefit or sooner if symptoms worsen. A 443-person trial found its pain-plus-global-relief response in 34% versus 19% with placebo; it was industry-funded, excluded IBD and did not compare Gastrus® or 35624®. [Trial](https://pubmed.ncbi.nlm.nih.gov/32277872/) [Polish label](https://kijimea.pl/products/kijimea-ibs-pro)
 - **Butyrate / L.5/E.4:** 1g Sodium Butyrate supplies ~790mg Butyrate Ion (~800mg Butyric Acid equivalent). Debutir MAX's newer release system differs from the Forte used in the UC trial; clinical superiority is unproven. For IBD it remains an adjunct, with response assessed through symptoms and Calprotectin. [MAX label](https://polpharma.pl/produkty/debutir-max-500-mg-x-60-kaps/) [UC trial](https://pubmed.ncbi.nlm.nih.gov/41422374/)
 - **Berberine / L.14/E.11:** 500mg extract at 98% supplies 490mg HCl per capsule, 980mg/day. Published contaminant/microbiology reports do not verify potency. Assess the added value against the existing metabolic results. [Product and reports](https://bmpharma.pl/products/berberine)
 - **Garlic / L.15:** Garlzac® supplies 2.5mg SAC. Its higher marker content is not a proportional benefit claim; the exact ingredient has limited trial evidence. [Label](https://www.lifeextension.com/vitamins-supplements/item02530/aged-black-garlic) [Aged-Garlic review](https://pubmed.ncbi.nlm.nih.gov/40628369/)
@@ -1339,7 +1337,6 @@ Pending options. Try one change at a time; replacements take the place of the na
 ### Symptoms & follow-up
 
 - [ ] **Iron:** repeat CBC, Ferritin, Iron/Transferrin or TIBC, TSAT and CRP; investigate any confirmed abnormality using current symptoms and the [latest results](results.md#stool-analysis); September Calprotectin was <5µg/g, improved from July 291.7µg/g. July Ferritin 42ng/ml/estimated TSAT ~30% and September Hemoglobin 15.3g/dl do not establish deficiency. If confirmed, discuss [SiderAL Forte Sucrosomial® Iron 30mg + Vitamin C 70mg](https://www.gdziepolek.pl/produkty/99037/sideral-forte-kapsulki/apteki) for mild deficiency with inactive bowel disease; active IBD, significant anaemia or oral-treatment failure may favor clinician-selected IV Iron. Recheck after 4–8 weeks. [Label](https://www.phamily.pl/dokumenty_url/SiderAL_Forte_ulotka.pdf) · [ECCO guidance](https://academic.oup.com/ecco-jcc/article/18/1/1/7205776)
-- [ ] **[Kijimea IBS PRO](https://kijimea.pl/products/kijimea-ibs-pro):** an eight-week trial of 2capsules/day, supplying 1bln heat-inactivated HI-MIMBb75 cells. Replace both Gastrus® doses (M.2/E.3); keep 35624® (M.1). Track IBS-SSS and the main symptoms. Polish product; supported by a large, industry-funded [IBS trial](https://pubmed.ncbi.nlm.nih.gov/32277872/).
 - [ ] **[KENAY Sunfiber® AG (PHGG) 5–6g/day](https://kenay.com.pl/742-blonnik-sunfiber-ag-140-g-.html):** try for persistent bloating/gas despite Psyllium. Replace 5g standalone Psyllium, leaving 2.5g standalone + 2.5g in MicroVitamin+ = 5g/day Psyllium. The [trial](https://pubmed.ncbi.nlm.nih.gov/26855665/) improved bloating, not overall IBS severity; keep only if symptoms improve.
 - [ ] **[Colpermin® Peppermint Oil 187mg](https://www.colpermin.com/):** a short trial for IBS pain/cramping/bloating. Label: 1 intact capsule 3x/day, ≥2 hours from food and separated from antacids/acid-suppressing medicines. Check access and timing fit. Can worsen reflux; avoid with Peanut/Soya allergy and check biliary/liver contraindications. It does not treat IBD. [Product information](https://www.medicines.org.uk/emc/product/1076/smpc) · [Evidence](https://pubmed.ncbi.nlm.nih.gov/35942669/)
 - [ ] **[Life Extension AprèsFlex® Boswellia 100mg (AKBA 20mg)](https://www.lifeextensioneurope.com/5-lox-inhibitor-with-apresflex):** replace A.8-9 only for diagnosed OA or assessed, function-limiting joint pain. Trial 1capsule/day for 8–12 weeks; track pain/function and GI or bleeding problems. [Polish listing](https://www.ceneo.pl/110919931); small [OA trials](https://pubmed.ncbi.nlm.nih.gov/22022214/).
@@ -1445,13 +1442,14 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ### Limited benefit or overlap
 
+- **[Limosilactobacillus reuteri Gastrus® 200mln CFU twice daily](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392)** (DSM 17938 + ATCC PTA 6475; formerly M.2/E.3): paused for the eight-week Kijimea IBS PRO replacement trial. This tests individual response; it does not establish Gastrus® inefficacy or Kijimea superiority. [Gastrus® trial](https://pubmed.ncbi.nlm.nih.gov/41821785/)
 - **3x [Catalase 6,250IU](https://www.amazon.pl/dp/B00LPJLZSG):** no established oral-treatment benefit for gray-hair repigmentation. [Review](https://onlinelibrary.wiley.com/doi/full/10.1111/ics.12090)
 - **[L-Glutathione Reduced 200mg](https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199)** [[BJ-LM 250mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] — little expected added value alongside NAC, Glycine and adequate Protein.
 - **[Forest Vitamin Cotinus coggygria Extract 400mg](https://forestvitamin.pl/produkt/forest-vitamin-fisetyna-400mg-60-kapsulek/)** (50% Fisetin ≈200mg) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — daily use lacks established senolytic/Longevity benefit. Keep removed pending robust human-outcome evidence. [200mg trial](https://pubmed.ncbi.nlm.nih.gov/41683255/) · [Pilot](https://pubmed.ncbi.nlm.nih.gov/39269340/)
 - **Nicotinamide Mononucleotide (NMN):** overlaps with NR 900mg/day; no demonstrated added benefit from combining them. [NR/NMN comparison](https://pubmed.ncbi.nlm.nih.gov/41540253/) · [Review](https://pubmed.ncbi.nlm.nih.gov/41655607/)
 - **BCAA:** food, WPI and the complete EAA serving already supply them; no established extra muscle benefit. [Training trial](https://pubmed.ncbi.nlm.nih.gov/24620007/)
 - **Proferrin 20mg:** not used without confirmed Iron deficiency.
-- **Lactobacillus acidophilus (4bln CFU)** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — removed in favor of the selected 35624® and Gastrus® strains.
+- **Lactobacillus acidophilus (4bln CFU)** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — remains removed during the selected 35624® and HI-MIMBb75 regimen.
 - **[Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450):** removed from permanent daily use for the current IBS pattern. Retain as a situational medicine for diarrhea when indicated. [IBS evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC12898053/) · [Enterol indications](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/7890/characteristic)
 
 ### Tolerance & safety concerns

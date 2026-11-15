@@ -80,7 +80,6 @@ TIER_BY_CODE = {
     "L.16": "🥈",
     "L.17": "🥈",
     "L.18": "🥉",
-    "E.3": "🥈",
     "E.4": "🥈",
     "E.5": "🥈",
     "E.6": "🥈",
@@ -146,10 +145,12 @@ PAGES = [
             item("M.1", "Bifidobacterium longum 35624®", "1 bln CFU", icons="🦠 🚽"),
             item(
                 "M.2",
-                "Limosilactobacillus reuteri Gastrus®",
-                "200 mln CFU",
-                icons="🦠 🚽",
-                note="Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475",
+                "Bifidobacterium bifidum HI-MIMBb75 (Kijimea IBS PRO)",
+                "500mln heat-inactivated cells",
+                icons="🚽 🦠",
+                note="8-WEEK TRIAL • Both capsules together once daily",
+                kind="warning",
+                same_slot_count=2,
             ),
             empty("M.3"),
             item(
@@ -275,13 +276,7 @@ PAGES = [
                 ],
             },
             item("E.2", "Minoxidil", "5 mg", icons="💇‍♂️ 🧔 ⚕️", kind="rx"),
-            item(
-                "E.3",
-                "Limosilactobacillus reuteri Gastrus®",
-                "200 mln CFU",
-                icons="🦠 🚽",
-                note="Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475",
-            ),
+            empty("E.3"),
             item("E.4", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
             item("E.5", "Melatonin + Botanical Extract Blend", "1 mg", icons="😴 😌", note="Passionflower • lemon balm • hops • saffron • Vitamin B6"),
             item("E.6", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
@@ -615,8 +610,13 @@ def add_page(document, page_data, page_index):
     add_hyperlink(p, "GymBeam Adjustable PillBox", PILLBOX_URL, color=accent)
     run = p.add_run(" • Full doses and evidence notes: README.md")
     set_repeatable_font(run, 7.3, color=COLORS["muted"])
-    run = p.add_run(" • 🥇 strongest • 🥈 supportive • 🥉 exploratory")
-    set_repeatable_font(run, 6.8, color=COLORS["muted"], name="Segoe UI Emoji")
+    for medal, label in (("🥇", "strongest"), ("🥈", "supportive"), ("🥉", "exploratory")):
+        run = p.add_run(" • ")
+        set_repeatable_font(run, 6.8, color=COLORS["muted"])
+        run = p.add_run(medal)
+        set_repeatable_font(run, 6.8, color=COLORS["muted"], name="Segoe UI Emoji")
+        run = p.add_run(f" {label}")
+        set_repeatable_font(run, 6.8, color=COLORS["muted"])
 
     if page_index < len(PAGES) - 1:
         p = document.add_paragraph()
@@ -652,7 +652,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 06 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
