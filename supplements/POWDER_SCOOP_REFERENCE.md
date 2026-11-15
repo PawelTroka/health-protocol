@@ -6,6 +6,8 @@ Research checked **2026-11-14** for [PR #53](https://github.com/PawelTroka/healt
 
 ## How to read the annotations
 
+Use `mass — measure count (volume)` in supplement entries, Diet summaries and repeated serving annotations. Keep the mass first and the scoop count outside parentheses.
+
 - `1scoop (70ml)` gives one scoop's capacity; `2scoops (2x15ml)` means two 15ml measures.
 - `26g — 1scoop (40ml)`: MicroVitamin+'s reported 39cc scoop, rounded for display.
 - `1scoop (~3ml)`: `~` marks the estimated volume.
@@ -23,7 +25,7 @@ The table covers all nine distinct active supplement powders. WPI appears twice;
 | M.0.2 | GymBeam Psyllium Husks, 7.5g | **15ml metric tablespoon** | Standard measuring spoon; approximate powder equivalence, not a supplied-scoop claim. `1tbsp (15ml)`. [Method](#psyllium-a-measuring-spoon-not-a-branded-scoop) |
 | M.0.4 / A.0.1 | HSN RawSeries 100% Whey Protein Isolate, Unflavored, 2kg; 30g Morning + 30g After Workout | **70ml** | Manufacturer panel: approximately 30g per scoop. Both entries: `1scoop (70ml)`. [Exact label](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) |
 | M.0.3 | MicroVitamin+ Unflavored v8, variant 50000745464093; 26g | **40ml** | User-reported 39cc, rounded for display. `1scoop (40ml)`. [Details](#microvitamin-scoop-capacity) |
-| B.0.3 | KFD Ultra Pure Joint Collagen, 300g; **exactly 4scoops (13.33g)** | **~10ml each**; ~5–15ml | Low confidence; FORTIGEL density proxy and explicit fill sensitivity. `4scoops (4x~10ml)`. [Calculation](#kfd-collagen-estimate) |
+| B.0.3 | KFD Ultra Pure Joint Collagen, 300g; **13.33g — 4scoops** | **~10ml each**; ~5–15ml | Low confidence; FORTIGEL density proxy and explicit fill sensitivity. `13.33g — 4scoops (4x~10ml)`. [Calculation](#kfd-collagen-estimate) |
 | B.0.1 | KFD Premium Creatine, 500g; natural/pure-monohydrate interpretation; 5g | **~10ml**; ~7–12ml | Moderate confidence as a working estimate: historical marked-scoop reports plus density cross-check. Current lot not confirmed. `1scoop (~10ml; level)`. [Evidence](#kfd-creatine-estimate) |
 | B.0.2 | HSN EvoBomb 2.0, Lemon; 20g | **15ml** | Dedicated manufacturer panels specify 2x15ml per approximately 20g. `2scoops (2x15ml)`. [Panel](https://www.hsnstore.eu/brands/sport-series/evobomb) |
 | IW.0.2 | ALLHydrate Electrolytes Neutral, 205g; 2.73g and sauna +2.73g | **~3ml**; ~2–4ml | Low confidence in physical capacity; ingredient bulk-volume model. All three README mentions: `1scoop (~3ml)`. [Calculation](#allhydrate-estimate) |
@@ -169,6 +171,6 @@ The current manufacturer page describes a level scoop. The estimate does not est
 
 Annotations cover all active powders, repeated Diet entries, the ALLHydrate sauna addition and retired BULK. MicroVitamin+ uses the user's 39cc report, rounded to 40ml; the remaining estimated capacities retain their calculations and sensitivity ranges. No manufacturer contact or independent scoop measurement was performed.
 
-The earlier review's authorized doses remain **EAA 15g — 1scoop (25ml)** and **Collagen exactly 4scoops (13.33g)**. Its reconciled amino-acid quantities, meal estimates, daily totals, Diet rotations and replacement notes are retained: After Workout 176kcal, Before Workout 120kcal and the reference day 2,417kcal with 195.8g dietary Protein, including 25.8g Collagen. The existing EAA allowance remains 60kcal. These updates change no powder doses, nutrient totals, timing, protocol product/BJ links or physical pillbox entries.
+The earlier review's authorized doses remain **EAA 15g — 1scoop (25ml)** and **Collagen 13.33g — 4scoops (4x~10ml)**. Its reconciled amino-acid quantities, meal estimates, daily totals, Diet rotations and replacement notes are retained: After Workout 176kcal, Before Workout 120kcal and the reference day 2,417kcal with 195.8g dietary Protein, including 25.8g Collagen. The existing EAA allowance remains 60kcal. These updates change no powder doses, nutrient totals, timing, protocol product/BJ links or physical pillbox entries.
 
 [fortigel-spec]: https://www.dkshdiscover.com/medias/FORTIGEL-B-PD-Version-6-05-2018.pdf?attachment=true&context=bWFzdGVyfGJhY2tvZmZpY2VleGNlbGltcG9ydHw0ODkwNTl8YXBwbGljYXRpb24vcGRmfGFHTXpMMmd3TWk4NU1ESXhPREUxTVRZd09EWXlMMFpQVWxSSlIwVk1JRUpmVUVRZ0xTQldaWEp6YVc5dUlEWWdMU0F3TlMweU1ERTRMbkJrWmd8NzM0ZThiNjFlOGU0MjY0ZDAzOWQ0MTcyOWE1NDFhNmY3NWVlNGU2ZWI2YmFhNWZlMDIxOThhNjY3MGI4MWE4Mg
