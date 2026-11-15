@@ -611,16 +611,16 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### 🍳 Preparation & food safety
 
-- **Batch simply:** choose a few Vegetable rotations per shopping trip. Steam the marked Vegetables, Potatoes/Sweet Potatoes and Mushrooms until appropriately tender; follow the separate Quinoa, Pulse and food-safety instructions. Cool cooked leftovers promptly, refrigerate and reheat safely.
-- **Pulses:** soak dried Black Beans/Chickpeas for at least 12 hours, discard the Water and rinse. Boil in fresh Water for approximately 60 minutes until tender, following the label; do not use a low-temperature slow cooker alone. Rinse Lentils and boil for approximately 30 minutes until tender. Drain, rinse and weigh the cooked serving.
-- **Cook safely:** Poultry 74°C and Fish 63°C at the core, or a validated time–temperature equivalent. Cook Eggs, Shellfish and Mushrooms thoroughly; oven temperature alone does not establish safety. [Safe temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) Keep the skinless Salmon at 0–2°C and follow its delivered use-by date; it is sold thawed, so do not refreeze.
-- **Raw produce:** wash Tomatoes, Peppers, salad Leaves and Microgreens under running Water unless labeled washed/ready-to-eat; refrigerate cut produce, Greens and Sprouts. Watercress Leaves/Microgreens and Arugula need no routine cooking. [Produce preparation](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) For Spinach/Chard, boiling and discarding the Water remains an optional preparation to reduce oxalates. [Oxalate preparation study](https://pubmed.ncbi.nlm.nih.gov/15826055/)
-- **Sprouts:** rinse Broccoli/Radish Sprouts and steam until steaming hot throughout. Washing or light warming does not reliably remove their bacterial risk. [Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
-- **Fat & flavor:** Fixed EVOO is 27g/day: 13.5g (1tbsp) Pamako Morning + 13.5g (1tbsp) Phileos Lunch. Dinner's Optional Additional Healthy Fats offers EVOO13.5g, Avocado30g or Nothing; Nothing is checked. Count added cooking/packing Oil; retained Oil is already included in drained-Fish labels. Avoid smoking or repeatedly reusing Oil.
-- **Fresh herbs:** Rinse, chop and add after steaming; weigh only edible leaves and tender stems.
-- **Food contact:** use [food-safe glass, ceramic or stainless steel](#7-cookware); avoid heating food in unsuitable plastic and maintain [Water filters](#clean-water) to their instructions.
+- **Pulses:** dried Black Beans/Chickpeas: soak ≥12 hours, discard Water and rinse; boil in fresh Water for ~60 minutes until tender, following the label. No low-temperature slow cooker alone. Lentils: rinse, boil ~30 minutes until tender. Drain, rinse and weigh cooked.
+- **Cooking:** Poultry 74°C/Fish 63°C at the core, or a validated time–temperature equivalent. Cook Eggs, Shellfish and Mushrooms thoroughly; steam marked Vegetables, Potatoes/Sweet Potatoes and Mushrooms until tender.
+- **Skinless Salmon:** store at 0–2°C, follow the delivered use-by date and do not refreeze the thawed product.
+- **Produce:** wash Tomatoes, Peppers, salad Leaves and Microgreens under running Water unless labeled washed/ready-to-eat; refrigerate cut produce, Greens and Sprouts.
+- **Sprouts:** rinse Broccoli/Radish Sprouts; steam until steaming hot throughout.
+- **Leftovers:** cool promptly, refrigerate and reheat safely.
+- **Oil & Herbs:** count added cooking/packing Oil; avoid smoking or repeatedly reusing Oil. Rinse/chop fresh Herbs, add after steaming and weigh edible leaves/tender stems.
+- **Equipment:** use [food-safe glass, ceramic or stainless steel](#7-cookware); avoid heating food in unsuitable plastic and maintain [Water filters](#clean-water) to their instructions.
 
-*Sources and calculation details: [Diet Notes below](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
+*[Preparation sources](#diet-food-preparation) · [Calculation details](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
 
 
 ## 5. Supplements and drugs
@@ -1214,6 +1214,16 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 - **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies 14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as 13.33g Protein/53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium contributes ~20kcal/7–9g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
 - **EvoBomb:** ~67kcal is modeled from free amino acids, Malate and estimated Maltodextrin; the plausible range is 61–73kcal pending a complete nutrition panel. Its free amino acids are kept outside dietary Protein. Other blend/carrier energy remains partly unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [EU energy factors](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011R1169)
 - **Carbohydrate:** Fiber is separate. USDA proxies use total Carbohydrate minus Fiber; labels and Norwegian data already reporting available Carbohydrate are used directly. Portions, cooking losses and incomplete panels make the daily figures estimates.
+
+<a id="diet-food-preparation"></a>
+
+#### Preparation details and sources
+
+- **Batching:** choose a few Vegetable rotations per shopping trip; follow the separate Quinoa, Pulse and food-safety instructions.
+- **Cooking temperatures:** oven temperature alone does not establish safety. [Safe temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures)
+- **Raw produce:** Watercress Leaves/Microgreens and Arugula need no routine cooking. [Produce preparation](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) For Spinach/Chard, boiling and discarding the Water remains an optional preparation to reduce oxalates. [Oxalate preparation study](https://pubmed.ncbi.nlm.nih.gov/15826055/)
+- **Sprouts:** washing or light warming does not reliably remove their bacterial risk. [Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
+- **Fat & flavor:** Fixed EVOO is 27g/day: 13.5g (1tbsp) Pamako Morning + 13.5g (1tbsp) Phileos Lunch. Dinner's [Optional Additional Healthy Fats](#diet-rotations) offers EVOO13.5g, Avocado30g or Nothing; Nothing is checked. Retained Oil is already included in drained-Fish labels.
 
 #### Diet food forms
 
