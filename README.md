@@ -712,8 +712,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥈 **L.11** [Ceratiq® Wheat Oil Extract 350mg](https://pl.iherb.com/pr/life-extension-skin-restoring-ceramides-30-liquid-vegetarian-capsules/84506) 👨‍🦳 💧 🛡️ 🔄
   - phytoceramides; glycosylceramides; glycolipids
 - 🥉 **L.12** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🧠 ❤️ 🔄
-- 🥉 **L.13** [Broccoli Seed Extract 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
-  - Glucoraphanin 20mg; Myrosinase 17.7µM/g
+- 🥉 **L.13** 2x [Stabilized Sulforaphane (Sulfodyne®) 10mg](https://vitality-pro.com/products/nutrinov-prostaphane-sulforaphane) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🛡️ 🍅 🔥
 - 🥈 **L.14** [Berberine HCl 490mg](https://bmpharma.pl/products/berberine) 🩸 🚽 🛡️
 - 🥈 **L.15** [Aged Black-Garlic Extract 500mg](https://pl.iherb.com/pr/life-extension-aged-black-garlic-30-vegetarian-capsules-500-mg-per-capsule/143295) [[BJ-RYG 1.2g](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🛡️ 🩸 🍆 🔄
   - S-Allyl-L-Cysteine (SAC) 2.5mg; standardized to 0.5% SAC
@@ -1271,6 +1270,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 - **Berberine / L.14/E.11:** 500mg extract at 98% supplies 490mg HCl per capsule, 980mg/day. Published contaminant/microbiology reports do not verify potency. Assess the added value against the existing metabolic results. [Product and reports](https://bmpharma.pl/products/berberine)
 - **Garlic / L.15:** Garlzac® supplies 2.5mg SAC. Its higher marker content is not a proportional benefit claim; the exact ingredient has limited trial evidence. [Label](https://www.lifeextension.com/vitamins-supplements/item02530/aged-black-garlic) [Aged-Garlic review](https://pubmed.ncbi.nlm.nih.gov/40628369/)
 - **Milk Thistle / L.17/E.13:** the full daily regimen supplies 480mg Silymarin, 48mg Isosilybin A/B and 227.52mg Silybin across both blends (180mg +47.52mg from 160mg SILIPHOS®). Higher absorption does not establish prevention or Longevity benefit. Contains Soy. [Label](https://www.lifeextension.com/vitamins-supplements/item01922/european-milk-thistle) [Human absorption study](https://pubmed.ncbi.nlm.nih.gov/30635055/)
+- **Sulforaphane / L.13:** Prostaphane® supplies 20mg actual stabilized Sulforaphane/day, replacing Glucoraphanin plus Myrosinase. Human absorption data support this delivery choice; added clinical benefit remains unproven. Refrigerate reserve stock and pack only 1 week, protected from heat/moisture. Keep Broccoli/Mustard and planned thyroid follow-up. Review tolerance, storage adherence and cost after 12 weeks; stop for persistent GI intolerance or unacceptable burden. No home endpoint validates Nrf2 or Longevity benefit. The BJ link refers to its different precursor formula. [Label](https://www.prostaphane.com/prostaphane/) · [Absorption study](https://pubmed.ncbi.nlm.nih.gov/27935214/) · [Storage](https://www.prostaphane.com/faq/)
 
 #### Cognition & Longevity experiments
 
@@ -1424,6 +1424,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **[OstroVit Omega 3 Extreme 3capsules (EPA 1.5g + DHA 750mg)](https://ostrovit.com/pl/products/ostrovit-omega-3-extreme-90-kapsulek-25585.html)** → 2 Sports Research triglyceride-form softgels on non-Fatty-Fish days (L.2-3).
 - **[OstroVit Glucosamine Sulfate 2KCl 1.4g](https://ostrovit.com/pl/products/ostrovit-glukozamina-1400-mg-90-kapsulek-26571.html)** → 2 NOW Glucosamine Sulfate 750mg capsules (A.8-9). The former 1.4g described the whole salt complex.
 - **[Longvida® SLCP™ Curcumin 400mg](https://allegro.pl/oferta/now-foods-kurkumina-curcubrain-400mg-50-kapsulek-zoptymalizowana-kurkuma-18729912439)** (Curcuminoids ≥80mg) [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] + **[Ginger 400mg](https://allegro.pl/oferta/imbir-lekarski-intense-400mg-80-kaps-trawienie-odpornosc-suplement-17192004243)** (Gingerols 40mg; Shogaols 6.72mg) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] → one [Advanced Curcumin Elite™](https://www.lifeextension.com/vitamins-supplements/item02324/advanced-curcumin-elite-ginger-turmerones-turmeric-extract) softgel (L.10). Saves a pill; clinical superiority over Longvida® is unproven. [Longvida® trial](https://pubmed.ncbi.nlm.nih.gov/32512782/)
+- **[Kenay BroccoRaphanin Activated Broccoli Seed Extract 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995)** (Glucoraphanin 20mg; Myrosinase 17.7µM/g) → Prostaphane® Sulfodyne® 20mg actual Sulforaphane at L.13. This bypasses precursor conversion and increases exposure; better clinical outcomes have not been established. [Absorption study](https://pubmed.ncbi.nlm.nih.gov/27935214/)
 
 ### Food & menu changes
 
