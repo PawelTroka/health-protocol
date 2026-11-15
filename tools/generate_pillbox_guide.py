@@ -154,11 +154,11 @@ PAGES = [
             ),
             item(
                 "M.3",
-                "Sucrosomial® Iron + Vitamin C",
-                "Iron 30mg • Vitamin C 70mg",
+                "Sucrosomial® Iron + Vitamin C + Vitamin B12",
+                "Iron 14mg • Vitamin C 60mg\nVitamin B12 0.375mcg",
                 qty="1capsule daily",
                 icons="🩸",
-                note="SiderAL Forte • ONLY AFTER confirmed deficiency + clinician review",
+                note="SiderAL • ONLY AFTER confirmed deficiency + clinician review",
                 kind="warning",
             ),
             item(
