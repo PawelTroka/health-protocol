@@ -624,9 +624,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 
 ## 5. Supplements and drugs
-Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics ([sleep](#1-sleep), [diet](#4-diet), [exercise](#3-exercise)) does bring you more health benefits but supplements help even if you don't.
-Within each timing, entries are ordered roughly by evidence-weighted expected net benefit; multi-ingredient products can contain components with different evidence ranks. Active entries generally use generic ingredient names, while exact manufacturer, product, branded-formulation or strain names remain where identity or provenance materially defines the selected intervention; the links identify the exact selected products, and the Notes explain deeper formulation evidence. Numeric quantities use compact number-unit formatting, such as `1g`, `250mg` and `1scoop`. List order does not create additional timing windows. Evidence medals precede supplement codes: 🥇 Gold marks the strongest relevant human evidence plus meaningful expected benefit, 🥈 Silver marks supportive but smaller, indirect or limited human evidence and/or a more modest marginal benefit, and 🥉 Bronze marks an exploratory intervention supported mainly by mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit. A medal grades the exact active intervention in this protocol—not product purity, safety, organizer order or a guaranteed individual response; Bronze is not automatically a removal recommendation, and an indication, biomarker or reproducible response can change a tier. Drugs, Water and EVOO remain intentionally unmedalled, and blend medals apply to the overall intervention rather than every nested ingredient.
-The Morning, Lunch and Evening organizers each use two linked 9-compartment [GymBeam Adjustable PillBoxes](https://gymbeam.pl/regulowany-pojemnik-na-suplementy-gymbeam.html), while Before Workout and After Workout each use one. Timing codes map the protocol directly to preparation: `M`, `L`, `B`, `IW`, `A` and `E` mean Morning, Lunch, Before Workout, Intra-Workout, After Workout and Evening; numbered pill codes are physical organizer compartments; `.1` and `.2` divide one compartment between two small, clearly distinguishable pills; a range such as `L.2-3` means one large pill in each listed compartment; and a multiplier within one code, such as `M.15 3x`, means the small pills share that compartment. Zero-series codes such as `M.0.2` identify drinks or powders outside the pill organizer and do not consume a compartment. In a deeper code such as `M.0.3.2.1`, the next number identifies the bold ingredient subgroup and the final number identifies that ingredient's position within the subgroup. Slot-code superscripts on nested ingredients point to the corresponding Notes topic and never consume organizer compartments. Empty compartments remain strategically positioned at the largest practical evidence-benefit gaps.
+
+Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · [Evidence medals](#supplement-evidence) · [Details](#supplement-details).
 
 [Printable Supplement Pillbox Guide (Word)](supplements/Supplement-Pillbox-Guide.docx) — an eight-page, label-ready 3x3 layout for Morning 1/2, Lunch 1/2, Evening 1/2, Before Workout and After Workout.
 
@@ -1253,6 +1252,31 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 - **M.11 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
 
 ### Supplement details
+
+#### Supplement codes
+
+Use [GymBeam Adjustable PillBoxes](https://gymbeam.pl/regulowany-pojemnik-na-suplementy-gymbeam.html): two linked 9-compartment organizers each for Morning, Lunch and Evening; one each Before and After Workout.
+
+| Code | Timing |
+| --- | --- |
+| M / L / E | Morning / Lunch / Evening |
+| B / IW / A | Before / Intra-Workout / After Workout |
+
+- Numbered codes identify physical pill compartments. `.1`/`.2` share one compartment between small, distinguishable pills; `L.2-3` uses one large pill per compartment; `M.15 3x` puts three small pills in one compartment.
+- Zero-series codes such as `M.0.2` identify drinks/powders outside the organizer. In `M.0.3.2.1`, the last two numbers identify the ingredient subgroup and its position. Nested superscripts link Notes and consume no compartments.
+- Keep empty compartments at meaningful evidence-benefit gaps. Display order does not create extra timing windows.
+
+#### Supplement evidence
+
+Entries are ordered by expected net benefit. Names retain meaningful formulation/strain identity; links identify exact products. Detailed rationale belongs in these Notes.
+
+| Medal | Meaning |
+| --- | --- |
+| 🥇 Gold | Strongest relevant human evidence and meaningful expected benefit |
+| 🥈 Silver | Supportive but smaller, indirect or limited human evidence, or more modest benefit |
+| 🥉 Bronze | Exploratory: mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit |
+
+Medals grade the exact intervention, not purity, safety, organizer order or guaranteed response. Bronze does not imply removal; indication, biomarkers or repeatable response can change a tier. Blend medals grade the overall intervention, not each ingredient. Drugs, Water and EVOO remain unmedalled.
 
 #### Powder scoop sizes
 
