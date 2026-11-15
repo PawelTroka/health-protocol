@@ -655,7 +655,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
      - Vitamin B6 as P5P 1.28mg<sup>M.0.3.3.5</sup> 🧠 ⚡
      - Biotin (Vitamin B7) 22.5mcg 💇‍♂️ 💅
    - **Bone / muscle / electrolytes**
-     - Magnesium Taurate 126mg elemental magnesium<sup>E.12</sup> 💪 🧠 ❤️ 🦴
+     - Magnesium Taurate 126mg elemental magnesium<sup>M.7/E.12</sup> 💪 🧠 ❤️ 🦴
      - Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg<sup>M.14</sup> 🦴 ❤️ 🩸
      - Encapsulated Vitamin D3 as AlgeD3™ 1,000IU 🦴 🛡️
      - Boron Glycinate 1mg 🦴 🧠<sup>M.0.3.4.4</sup>
@@ -683,7 +683,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥈 **M.4** [CoQ10 (Ubiquinone) 100mg](https://gemini.pl/bio-quinon-active-q10-gold-100-mg-90-kapsulek-0085000) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
   - Ubiquinone 100mg; Riboflavin 1.4mg
 - 🥈 **M.5-6** 2x [Acetyl-L-Carnitine 750mg](https://pl.iherb.com/pr/now-foods-acetyl-l-carnitine-750-mg-90-tablets/6110) 🧠 ⚡ 🔄
-- **M.7** (empty)
+- 🥉 **M.7** [Magnesium L-Threonate Magtein® 1g (Magnesium 72mg)](https://aliness.pl/l-treonian-magnezu-magtein-72-mg-x-60-tabl/) (6-week trial only after Magnesium review) 🧠
 - 🥈 **M.8** [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194) 💇‍♂️ 👨‍🦳 🦴
 - 🥈 **M.9** 2x [Lion's Mane Fruiting-Body Extract 500mg](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892) 🧠 🛡️ 🔄
   - Beta-(1,3)(1,6)-Glucans 300mg (30%)
@@ -756,7 +756,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 🥤 intra-workout drink:
 - **IW.0.1** 2.5L Water 💧
 - 🥇 **IW.0.2** [ALLHydrate Electrolytes Neutral 2.73g (1scoop)](https://allegro.pl/oferta/allhydrate-by-aliness-neutral-elektrolity-205-g-50-porcji-17359439491)
-  - Sodium 667mg; Chloride 1.095g; Potassium 200mg; Magnesium 40mg<sup>E.12</sup>; Calcium 80mg; Phosphorus 70mg; 0kcal
+  - Sodium 667mg; Chloride 1.095g; Potassium 200mg; Magnesium 40mg<sup>M.7/E.12</sup>; Calcium 80mg; Phosphorus 70mg; 0kcal
   - During Sauna sessions: +2.73g (1scoop) 🔥 💧
 - 🥈 **IW.0.3** [Highly Branched Cyclic Dextrin (Cluster Dextrin®) 25g](https://www.hsnstore.pl/marki/raw-series/cluster-dextrin-silnie-rozgaleziona-cykliczna-dekstryna-w-proszku) ⚡ 💪
   - Carbohydrates 24g; Sugars 0g; 94kcal
@@ -791,12 +791,12 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥈 **E.7** [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://gymbeam.pl/ashwagandha-ksm-66r-500mg-gymbeam.html) 😌 😴 🍆 🧠
 - 🥈 **E.8-10** 3x [Glycine 1g](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 🍅 ⏰
 - 🥈 **E.11** [Berberine HCl 490mg](https://bmpharma.pl/products/berberine) 🩸 🚽 🛡️
-- 🥈 **E.12** [Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 ❤️ 🦴
+- 🥉 **E.12** [Magnesium L-Threonate Magtein® 1g (Magnesium 72mg)](https://aliness.pl/l-treonian-magnezu-magtein-72-mg-x-60-tabl/) (same cleared 6-week trial; ~2 hours before sleep; replaces Glycinate) 🧠
 - 🥈 **E.13** [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064) 🛡️ 🚽 🔄
   - Silymarin 240mg; Silybin 90mg; Isosilybin A/B 24mg; Silybin-Phosphatidylcholine Complex 80mg (Silybin 23.76mg); Silybin 113.76mg
 - **E.14** (empty)
 - 🥉 **E.15** [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256) 😴 😌 🔄
-  - GABA 250mg; Magnesium (Citrate) 20mg<sup>E.12</sup>
+  - GABA 250mg; Magnesium (Citrate) 20mg<sup>M.7/E.12</sup>
 - 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 🧠 😌 🩸
 - 🥉 **E.18** [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924) 😴 😌
 
@@ -1196,14 +1196,14 @@ The food estimates use the checked Turkey day and composition proxies. [MicroVit
 
 | Quantified supplement minerals | Ordinary day | Sauna day | Contributors |
 | --- | --- | --- | --- |
-| Magnesium | 319.3mg | 359.3mg | M.0.3 126mg + E.12 133.3mg + E.15 20mg + IW.0.2 40/80mg |
+| Magnesium during Magtein® trial | 330mg | 370mg | M.0.3 126mg + M.7/E.12 72mg each + E.15 20mg + IW.0.2 40/80mg |
 | Calcium | 572mg | 652mg | B.8-9 400mg + A.1 80mg + L.18 12mg + IW.0.2 80/160mg |
 | Potassium | 299mg | 499mg | M.0.3 99mg + IW.0.2 200/400mg |
 | Sodium | ~988mg | ~1.655g | IW.0.2 667mg/1.334g + M.0.4/A.0.1 WPI 112mg + L.5/E.4 Butyrate ~209mg |
 | Chloride from ALLHydrate | 1.095g | 2.19g | IW.0.2 |
 | Phosphorus from ALLHydrate | 70mg | 140mg | IW.0.2 |
 
-These are subtotals; food and unquantified minerals from Calcium Ascorbate, Glucosamine and EvoBomb are extra. Without ALLHydrate, supplemental Magnesium is 279.3mg. [ALLHydrate profile](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [Glucosamine label](https://www.nowfoods.com/products/supplements/glucosamine-sulfate-750-mg-capsules)
+These are subtotals; food and unquantified minerals from Calcium Ascorbate, Glucosamine and EvoBomb are extra. During the Magtein® trial, supplemental Magnesium is 290mg without ALLHydrate; this replacement adds 10.7mg/day versus the former Glycinate regimen, not a full extra Magnesium serving. [ALLHydrate profile](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [Glucosamine label](https://www.nowfoods.com/products/supplements/glucosamine-sulfate-750-mg-capsules)
 
 **Known Sodium including selected foods:** ~1.39g ordinary/~2.05g Sauna with Kefir; ~1.55g/~2.21g with Sauerkraut 100g; ~1.51g/~2.18g with Kimchi 75g. These include Alpro 72mg, Turkey 96mg, Salmon 69mg, Pumpkin Seeds 0.56mg and Kefir 160mg/Sauerkraut 320mg/Kimchi 285mg. Remaining foods, Water, cooking Salt and incompletely labeled blends are still extra. Compared with the reference choices, Mussels add 672mg, Shrimps 624mg, Sardines 387mg or Mackerel 531mg. Keep discretionary Salt modest on those rotations; sweat replacement depends on actual losses. [WHO Sodium guidance](https://www.who.int/news-room/fact-sheets/detail/sodium-reduction) [Salmon composition](https://www.matvaretabellen.no/en/salmon-farmed-raw/) [Turkey composition](https://www.matvaretabellen.no/en/turkey-breast-without-skin-raw/)
 
@@ -1274,6 +1274,8 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 #### Cognition & Longevity experiments
 
+- **Magtein® / M.7/E.12:** replace E.12 Glycinate only after reviewing cumulative Magnesium, kidney function and GI tolerance; until review, retain the prior E.12. Take 1 Aliness tablet in Morning and 1 about 2 hours before sleep: 2g Magtein® provides 144mg elemental Magnesium, not 2g Magnesium. Do not add Glycinate or other Magnesium. Predefine one cognition/daytime-function goal and record a 1-week baseline; assess weekly for 6 weeks with other sleep/cognition products unchanged. Stop without a meaningful repeatable benefit, or earlier for diarrhea, nausea, headache or daytime drowsiness. A manufacturer-funded trial in 100 adults aged 18–45 found cognitive and some subjective improvements, but no objective sleep improvement; it does not establish superiority to Glycinate or brain-age reversal. The October 2026 correction clarified statistical wording without changing results. Aliness matches the branded ingredient/dose, not the tested finished capsule. [Polish label](https://aliness.pl/l-treonian-magnezu-magtein-72-mg-x-60-tabl/) [Trial](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1729164/full) [Correction](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.2010644/full)
+
 - **Urolithin A / A.2:** Naturecan's batch NC3922 report measured 498mg/capsule against 500mg labeled; it verifies one submitted batch. The clinical trials used Mitopure®, mainly in older or sedentary adults, and found some secondary benefits while missing primary outcomes. Naturecan remains the practical Poland choice; Mitopure® stays a replacement TODO. [Batch report](https://cdn.shopify.com/s/files/1/0099/8319/7280/files/Urolithin_A_Capsules_COA.pdf) [Trial](https://pubmed.ncbi.nlm.nih.gov/35584623/)
 - **Lion's Mane / M.9:** the selected Fruiting-Body Extract quantifies Beta-Glucans, not Erinacine A or Hericenones. Mycelium candidates stay in TODOs; they are not automatically added to the current product. [Selected label](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892)
 - **Ergothioneine / M.10:** 25mg ErgoActive® matches the studied ingredient, but its trial missed the primary memory endpoint. Assess any Skin, sleep or cognition response after 12–16 weeks; do not stack another product. The EU adult supplement level is 30mg/day. [Trial](https://doi.org/10.3390/nutraceuticals5030015) [EU authorization](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018R0462)
@@ -1296,7 +1298,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 - **GI follow-up:** September 2026 Stool Calprotectin was <5µg/g, improved from July 291.7µg/g; Lactoferrin was <0.10µg/ml. Use the [latest results](results.md#stool-analysis), current symptoms and clinician assessment when choosing GI trials. This does not identify which supplement helped or rule out every cause of symptoms. Persistent symptoms and the separate Eosinophilia still need follow-up; supplements must not delay evaluation of bleeding, unintended weight loss or other concerning changes. [IBD nutrition guidance](https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/)
 - **B6/Zinc:** B6 was 101.5µg/L; avoid extra B6 and arrange review/retesting despite the lower current intake. New tingling, numbness or balance symptoms need assessment. Do not add Zinc; review Copper status if the current exposure continues. [B6 assessment](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8006) [Zinc guidance](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/)
-- **Magnesium:** conservative supplemental accounting exceeds EFSA 250mg/day in all scenarios; Sauna also exceeds US 350mg/day. These limits mainly concern GI effects and exclude food Magnesium. Keep E.12 only for a repeatable benefit without GI effects; do not restore the second capsule. Kidney impairment needs particular review. [EFSA limits](https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf) [NIH guidance](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/)
+- **Magnesium:** during the M.7/E.12 Magtein® replacement trial, supplemental intake is 290mg without ALLHydrate, 330mg on ordinary days and 370mg on Sauna days. Conservative accounting remains above EFSA 250mg/day, and Sauna exceeds US 350mg/day; these limits mainly concern GI effects and exclude food Magnesium. Review this exposure before the trial, especially with kidney impairment; do not combine with the former Glycinate or increase doses. Keep the new form only for a repeatable benefit without GI effects. [EFSA limits](https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf) [NIH guidance](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/)
 - **Blood Pressure:** review Citrulline 8g alongside Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna. Check seated/standing BP, especially during the first 1–2 weeks after the Garlic switch; review dizziness, near-fainting or unusual weakness. Separating doses does not remove systemic interactions. Free Taurine 4g also exceeds the standalone product's one-capsule directions. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) [Taurine label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)
 - **Berberine:** reassess Glucose/HbA1c, ApoB/lipids, Liver tests, BP and GI tolerance after 8–12 weeks. The existing fallback for intolerance is Lunch-only. Its CYP interaction potential persists with split dosing. TMG follow-up uses Homocysteine and lipids. [Human Berberine interaction study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4898966/) [TMG review](https://pubmed.ncbi.nlm.nih.gov/33764214/)
 - **Liver/bleeding:** after the Curcumin change, recheck ALT/AST/ALP/GGT and Total/Direct Bilirubin at 6–8 weeks; Milk Thistle follow-up is 8–12 weeks. Stop Curcumin and seek review for jaundice, dark urine, marked fatigue, persistent nausea or abdominal pain. Review unusual bruising/bleeding and disclose Garlic/Curcumin/Ginger/Omega-3 before surgery or with anticoagulants, Aspirin or NSAIDs. [Curcumin Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury) [Garlic safety](https://www.nccih.nih.gov/health/garlic)
@@ -1416,6 +1418,8 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **Dumbbell Pullover (Cross-bench):** → Friday Lat Pulldowns to prioritize lat training. [Activation study](https://pubmed.ncbi.nlm.nih.gov/21975179/)
 
 ### Product replacements
+
+- **[Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html)** [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] → Magtein® 2g/day (Magnesium 144mg; M.7/E.12) only during the cleared 6-week cognition/daytime-function trial. Do not take both. A form experiment with emerging human evidence, not established superior sleep treatment. [Trial](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1729164/full)
 
 - **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2).
 - **[Biały Puch WPI Unflavored](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701)** → HSN RawSeries WPI; keeps both 30g servings without added B6.
