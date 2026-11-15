@@ -836,7 +836,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Microneedling (monthly) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk)
 - Botox (Glabella, Forehead, Crow's feet) (every 4 months)
 - [ResurFX 1565nm fractional non-ablative laser for enlarged pores](https://booksy.com/pl-pl/239368_da-vinci-beauty-clinic_medycyna-estetyczna_20383_gdansk) or [Fractional CO2 laser for cheeks](https://booksy.com/pl-pl/239381_wilenska-beauty-clinic-r_medycyna-estetyczna_20383_gdansk) (yearly) 👨‍🦳 ⏰ ⚕️
-- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
+- (optional) Tixel face+eyelids (One course after dryness settles and clinician checks Isotretinoin/device instructions; review before repeating) at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
 - (optional) Sculptra (yearly) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk)
 - (optional) Radiesse (yearly) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
 
@@ -846,7 +846,7 @@ There are actual studies that confirm if you look younger and better you are mor
 ### Eyes
 - Under-eye moisturizer [Bioderma Atoderm Intensive Eye 100ml](https://www.doz.pl/p/bioderma-atoderm-intensive-eye-kojacy-krem-3w1-100-ml-146776) or [La Roche-Posay Toleriane Dermallergo Eyes 20ml](https://gemini.pl/la-roche-posay-toleriane-dermallergo-okolice-oczu-regenerujaca-pielegnacja-nawilzajaca-20-ml-0090968) (Twice daily) 👨‍🦳 💧
 - (optional) Under-eye PRF (Twice yearly) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk)
-- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
+- (optional) Tixel face+eyelids (Same course as Face; no separate eyelid schedule) at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk)
 - (optional) INFINI Premium VE at [WILENSKA CLINIC](https://booksy.com/pl-pl/239381_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk)
 
 ### Hair
