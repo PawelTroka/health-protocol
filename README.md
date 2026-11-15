@@ -630,6 +630,13 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 [Printable Supplement Pillbox Guide (Word)](supplements/Supplement-Pillbox-Guide.docx) — an eight-page, label-ready 3x3 layout for Morning 1/2, Lunch 1/2, Evening 1/2, Before Workout and After Workout.
 
+### Medicine & supplement review
+
+- **Next prescriber/pharmacist review:** bring the current protocol; reconcile actual prescription, OTC, supplement and [Peptide](#10-peptides) use, routes, doses/timing, allergies and previous reactions. [Review guide](https://www.nice.org.uk/guidance/ng5/chapter/recommendations#medication-review).
+- **For each item:** agree its purpose, meaningful outcome, required monitoring and review date; use [Totals](#totals) and [Follow-up](#follow-up).
+- **Before a new item or dose change:** review interactions and duplicate ingredients across the full regimen; make prescription changes with the prescriber.
+- **Before surgery or sedation:** disclose all medicines/supplements, including Tirzepatide, and agree the continuation/hold/restart plan with the treating team. [Procedure guidance](https://madeforthismoment.asahq.org/preparing-for-surgery/risks/drugs-diabetes-weight-loss/).
+
 ### Morning
 🥤 drink:
 - **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️ 🧠 🔥 ⏰
