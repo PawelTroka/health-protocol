@@ -882,7 +882,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Daily use of beard oil 🧔 💧
 
 ### ABS
-- Aqualyx 4vials (monthly for 4 months; then yearly) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
+- Aqualyx (Hold injections until a clinician verifies the exact product's injectable route and current Polish/EU documentation) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
 - EmSculpt Neo (4-6 sessions, once per week; then yearly) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk)
 - (Optional) VASER High-Definition Lipo
 
