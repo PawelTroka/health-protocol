@@ -599,15 +599,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### 🚽 GI options — personalize portions
 
-| If a food or meal provokes symptoms | First adjustment to test |
-| --- | --- |
-| The 200ml Soy Matcha Latte | Try the listed lactose-free Milk in its place: 24kcal and 9.4g Carbohydrate more, 1.2g Fiber less. The selected Alpro uses whole Soybeans; tolerance differs from Soy-protein drinks. |
-| Large mixed-plant meals | Trial 50–75g of the troublesome Vegetable instead of 100g, steamed until tender; for Greens, try 25g leaves or 15g Sprouts, prepared as listed. Leaves/Microgreens may also be steamed until tender if better tolerated. Keep other tolerated portions and restore meaningful energy losses with Potato. |
-| Pulses or Ferments | If symptoms recur, reduce Pulses to 30–40g cooked/drained or Sauerkraut to 50g, then return toward tolerated portions; reduce Kimchi from 75g to 25–50g if needed. Split the Kefir bottle within the day if meal volume is troublesome. Boil Pulses separately, drain and rinse; replace omitted Protein using the Diet rotations Note. |
-| Persistent IBS-type symptoms | With a dietitian, consider a 2–6-week low-FODMAP trial followed by reintroduction and personalization. Keep the diet as varied as tolerance allows. |
-| Active bowel inflammation or unintended weight loss | Prioritize adequate nutrition and clinician-directed evaluation/treatment; pause the cut rather than forcing Fiber or restriction. |
-
-*Record the food/portion, pain or bloating, Stool form/frequency and urgency. Keep other variables steady, retain changes that help reproducibly and re-expand tolerated foods. Food trials complement the [GI follow-up](#follow-up).*
+- Use tolerated portions; test one food/portion change at a time and restore tolerated variety. [Portion trials](#diet-gi-options).
+- **Active bowel inflammation or unintended weight loss:** pause the cut; prioritize adequate nutrition and clinician-directed evaluation/treatment.
 
 ### 🍳 Preparation & food safety
 
@@ -1237,6 +1230,20 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 - Sauerkraut's manufacturer gives 7 days after opening, the retailer 3: plan for 3 until the delivered label confirms otherwise. Onion-free Kimchi still contains Garlic, Chili and Soy/Wheat. [Sauerkraut label](https://sklep-satyrz.pl/produkt/kapusta-kiszona-z-marchewka-900ml/) [Retailer storage](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) [Kimchi ingredients](https://oldfriendskimchi.pl/oferta/)
 - Culinary Saffron 30mg is occasional; E.5 already contains Saffron Extract 30mg. Black Pepper stays to taste, with no added Piperine target.
 - **EVOO phenolics (Diet/M.0.1):** [Pamako's published 2,081mg/kg](https://www.pamako.co.uk/) and the [Phileos 2025/26 sample's 917mg/kg](https://www.huilemielolives.com/img/cms/POLYPHENOLES_2025.pdf) are sample-specific figures. Match the purchased harvest/batch to its certificate before using them as intake estimates; retain the existing 13.5g portions.
+
+<a id="diet-gi-options"></a>
+
+#### GI portion trials
+
+| If a food or meal provokes symptoms | First adjustment to test |
+| --- | --- |
+| The 200ml Soy Matcha Latte | Try the listed lactose-free Milk in its place: 24kcal and 9.4g Carbohydrate more, 1.2g Fiber less. The selected Alpro uses whole Soybeans; tolerance differs from Soy-protein drinks. |
+| Large mixed-plant meals | Trial 50–75g of the troublesome Vegetable instead of 100g, steamed until tender; for Greens, try 25g leaves or 15g Sprouts, prepared as listed. Leaves/Microgreens may also be steamed until tender if better tolerated. Keep other tolerated portions and restore meaningful energy losses with Potato. |
+| Pulses or Ferments | If symptoms recur, reduce Pulses to 30–40g cooked/drained or Sauerkraut to 50g, then return toward tolerated portions; reduce Kimchi from 75g to 25–50g if needed. Split the Kefir bottle within the day if meal volume is troublesome. Boil Pulses separately, drain and rinse; replace omitted Protein using the Diet rotations Note. |
+| Persistent IBS-type symptoms | With a dietitian, consider a 2–6-week low-FODMAP trial followed by reintroduction and personalization. Keep the diet as varied as tolerance allows. |
+| Active bowel inflammation or unintended weight loss | Prioritize adequate nutrition and clinician-directed evaluation/treatment; pause the cut rather than forcing Fiber or restriction. |
+
+*Record the food/portion, pain or bloating, Stool form/frequency and urgency. Keep other variables steady, retain changes that help reproducibly and re-expand tolerated foods. Food trials complement the [GI follow-up](#follow-up).*
 
 <a id="diet-fodmap-tags"></a>
 
