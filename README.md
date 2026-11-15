@@ -467,12 +467,12 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🦴 Before workout
 *120kcal · P13.3g · C2.5g*
-- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 13.33g (4scoops (4x~10ml)) + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
+- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 13.33g — 4scoops (4x~10ml) + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
   - `120kcal · P13.3g · C2.5g`
 
 #### ⚡ During workout
 *94kcal · C24g*
-- 💊 [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 1scoop (~3ml)) ⚡ 💧 🗿
+- 💊 [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 2.73g — 1scoop (~3ml)) ⚡ 💧 🗿
   - `94kcal · C24g`
 
 #### 💪 Right after workout
@@ -1170,7 +1170,7 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 | --- | --- | --- |
 | Creatine monohydrate | 10g | M.0.3 MicroVitamin+ 5g + B.0.1 standalone 5g |
 | Psyllium Husk | 10g | M.0.3 MicroVitamin+ 2.5g + M.0.2 standalone 7.5g |
-| Collagen Peptides | 25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 4scoops (13.33g) |
+| Collagen Peptides | 25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 13.33g — 4scoops (4x~10ml) |
 | Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.16/L.12 standalone 1g each |
 | Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
 | Caffeine | 223mg supplemental; ~252–291mg with Matcha | B.0.2 EvoBomb 200mg + L.6-7 Cocoa Flavanols 23mg + Diet Matcha 2g (~29–68mg) |
@@ -1256,11 +1256,13 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 #### Powder scoop sizes
 
+Use `mass — measure count (volume)` for powder servings, e.g. `13.33g — 4scoops (4x~10ml)`.
+
 `1scoop (70ml)` gives one scoop's capacity; `2scoops (2x15ml)` means two 15ml measures. `~` marks an estimate. HSN capacities are manufacturer-specified; scoops may be sold separately. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
 
 - **EAA / A.0.2:** 15g — 1scoop (25ml), matching the manufacturer's serving. [Exact RawSeries EAA label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor)
-- **Collagen / B.0.3:** exactly 4 original scoops (13.33g), based on KFD's 5g per 1.5scoops. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
-- **Psyllium / M.0.2:** 7.5g ≈ 1tbsp (15ml), using GymBeam's 5g per 2tsp and standard metric measures. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
+- **Collagen / B.0.3:** 13.33g — 4scoops (4x~10ml), using exactly four original scoops and KFD's 5g per 1.5scoops. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
+- **Psyllium / M.0.2:** 7.5g — 1tbsp (15ml), using GymBeam's 5g per 2tsp and standard metric measures. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
 
 Keep gram targets when changing scoops; for Collagen, calibrate to four original scoops. Estimated volumes are unconfirmed and depend on powder packing and filling. Sources, calculations, ranges and measurement guidance are in the [scoop reference](supplements/POWDER_SCOOP_REFERENCE.md), checked 2026-11-14.
 
