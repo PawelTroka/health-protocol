@@ -625,7 +625,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ## 5. Supplements and drugs
 
-Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · [Evidence medals](#supplement-evidence) · [Details](#supplement-details).
+Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · [Evidence medals](#legend) · [Details](#supplement-details).
 
 [Printable Supplement Pillbox Guide (Word)](supplements/Supplement-Pillbox-Guide.docx) — an eight-page, label-ready 3x3 layout for Morning 1/2, Lunch 1/2, Evening 1/2, Before Workout and After Workout.
 
@@ -1089,6 +1089,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - BJ-ES - [Bryan Johnson Essential Softgel](https://blueprint.bryanjohnson.com/products/essential-softgels)
 - BJ-NGC - [Bryan Johnson NAC + Ginger + Curcumin](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)
 - BJ-RYG - [Bryan Johnson Red Yeast Garlic](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)
+- 🥇 Gold — Strongest relevant human evidence and meaningful expected benefit
+- 🥈 Silver — Supportive but smaller, indirect or limited human evidence, or more modest benefit
+- 🥉 Bronze — Exploratory: mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit
 - ⚕️ Requires prescription (Rx): [erecepty24](https://erecepty24.pl) for ready-made medicines; [Telemedi](https://telemedi.com) for custom medicines (lek recepturowy)
 - 🔄 Automatically renewed and shipped (Subscribe & Save)
 - 💪 Muscle growth/recovery
@@ -1128,6 +1131,8 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - 🪶 Low-FODMAP
 - 🎈 High-FODMAP
 - 🟡 Tooth/bonding staining precaution; evidence varies — [care and evidence](#dental-staining)
+
+**Supplement medals:** grade the exact intervention, not purity, safety, organizer order or guaranteed response. Bronze does not imply removal; indication, biomarkers or repeatable response can change a tier. Blend medals grade the overall intervention, not each ingredient. Drugs, Water and EVOO remain unmedalled.
 
 *FODMAP tags apply to the listed portion/preparation; unmarked = unverified. [Serving checks](#diet-fodmap-tags).*
 
@@ -1253,6 +1258,8 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 ### Supplement details
 
+Entries are ordered by expected net benefit. Names retain meaningful formulation/strain identity; links identify exact products. Detailed rationale belongs in these Notes.
+
 #### Supplement codes
 
 Use [GymBeam Adjustable PillBoxes](https://gymbeam.pl/regulowany-pojemnik-na-suplementy-gymbeam.html): two linked 9-compartment organizers each for Morning, Lunch and Evening; one each Before and After Workout.
@@ -1265,18 +1272,6 @@ Use [GymBeam Adjustable PillBoxes](https://gymbeam.pl/regulowany-pojemnik-na-sup
 - Numbered codes identify physical pill compartments. `.1`/`.2` share one compartment between small, distinguishable pills; `L.2-3` uses one large pill per compartment; `M.15 3x` puts three small pills in one compartment.
 - Zero-series codes such as `M.0.2` identify drinks/powders outside the organizer. In `M.0.3.2.1`, the last two numbers identify the ingredient subgroup and its position. Nested superscripts link Notes and consume no compartments.
 - Keep empty compartments at meaningful evidence-benefit gaps. Display order does not create extra timing windows.
-
-#### Supplement evidence
-
-Entries are ordered by expected net benefit. Names retain meaningful formulation/strain identity; links identify exact products. Detailed rationale belongs in these Notes.
-
-| Medal | Meaning |
-| --- | --- |
-| 🥇 Gold | Strongest relevant human evidence and meaningful expected benefit |
-| 🥈 Silver | Supportive but smaller, indirect or limited human evidence, or more modest benefit |
-| 🥉 Bronze | Exploratory: mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit |
-
-Medals grade the exact intervention, not purity, safety, organizer order or guaranteed response. Bronze does not imply removal; indication, biomarkers or repeatable response can change a tier. Blend medals grade the overall intervention, not each ingredient. Drugs, Water and EVOO remain unmedalled.
 
 #### Powder scoop sizes
 
