@@ -958,7 +958,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 ### Hearing protection
 
 - **Headphones:** enable sound-exposure monitoring and volume limits; aim below 80dB average. [WHO's adult reference](https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening) is 80dB for 40h/week; louder sound allows less time.
-- **Loud venues/tools:** wear well-fitting earplugs or earmuffs, keep away from speakers and take quiet breaks.
+- **Loud venues/tools:** wear well-fitting [LOOP EXPERIENCE 2.0 Black](https://allegro.pl/oferta/zatyczki-stoppery-imprezowe-do-uszu-loop-earplugs-experience-2-0-black-13035950155) earplugs or earmuffs, keep away from speakers and take quiet breaks.
 - **Hearing changes:** arrange a hearing assessment for persistent tinnitus or difficulty following conversation. New sudden hearing loss needs [same-day ENT/emergency assessment](https://www.nice.org.uk/guidance/QS185/chapter/quality-statement-2-sudden-onset-of-hearing-loss).
 
 ### Bedding and textiles
