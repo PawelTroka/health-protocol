@@ -862,7 +862,7 @@ There are actual studies that confirm if you look younger and better you are mor
 #### Home procedures
 - Use of [Hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) (twice daily)
 - [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304) (3-5 times weekly)
-- [Dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) or [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
+- (optional) [Dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) or [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (Clinician-defined scalp course and topical restart plan)
 
 #### Professional procedures
 - Scalp PRP at Elizaveta Purtova (+48-501-329-921) (every 3-4 months)
