@@ -339,7 +339,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
 *474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
-- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 26g — 1scoop (~60ml)) 🛡️ 🗿 💪 🦴 👨‍🦳
+- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 26g — 1scoop (40ml)) 🛡️ 🗿 💪 🦴 👨‍🦳
   - `166kcal · P40.5g · C0.4g · F0.3g`
 - 25g dry [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪 🔄
   - `93kcal · P3.3g · C15g · F1.7g · Fiber2.4g · Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
@@ -467,7 +467,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🦴 Before workout
 *120kcal · P13.3g · C2.5g*
-- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 4scoops (4x~10ml; 13.33g) + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
+- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 13.33g (4scoops (4x~10ml)) + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
   - `120kcal · P13.3g · C2.5g`
 
 #### ⚡ During workout
@@ -636,7 +636,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥇 **M.0.2** [Psyllium Husk 7.5g — 1tbsp (15ml)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
 - 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (~60ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
+- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (40ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
    - **Structural / performance / digestive blend**
      - Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴 💇‍♂️
      - Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🧠 🥊
