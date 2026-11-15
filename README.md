@@ -865,7 +865,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - [Dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) or [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
 
 #### Professional procedures
-- Scalp PRP at Elizaveta Purtova (+48-501-329-921) (every 3-4 months)
+- (optional) Scalp PRP at Elizaveta Purtova (+48-501-329-921) (Maintenance guided by photographic/trichoscopic response)
 - (optional) Exosomes at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (Once a year)
 
 ### Eyebrows
