@@ -6,14 +6,12 @@ Research checked **2026-11-14** for [PR #53](https://github.com/PawelTroka/healt
 
 ## How to read the annotations
 
-- `30g — 1scoop (70ml)`: the manufacturer's specified scoop capacity is 70ml.
-- `20g — 2scoops (2x15ml)`: two separate 15ml measures, with a combined nominal volume of 30ml.
-- `26g — ~1scoop (~60ml est.)`: the label's approximate scoop count is preserved; the ml value is an estimate.
-- `~13.33g — 4scoops (4x~10ml est.)`: exactly four original KFD Collagen scoops remain the target. Only their mass and capacity are approximate.
-- `est.` distinguishes an estimate from a manufacturer specification or direct measurement. All ranges below are **sensitivity scenarios, not confidence intervals, manufacturer tolerances, dosing tolerances or guaranteed bounds**.
-- `ml` and `cc` denote the same volume. Powder grams and preparation-water volume are separate quantities. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
+- `1scoop (70ml)` gives one scoop's capacity; `2scoops (2x15ml)` means two 15ml measures.
+- `26g — 1scoop (~60ml)`: `~` marks the estimated volume.
+- `~13.33g — 4scoops (4x~10ml)`: four original KFD Collagen scoops; mass and capacity are approximate.
+- `ml` and `cc` denote the same volume. Powder mass and mixing water are separate quantities. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
 
-Keep the written gram targets except Collagen, whose target is exactly four original product scoops. A numerical estimate helps identify a scoop's likely scale; it is not a calibrated replacement measure. Check powder mass when changing scoops. For Collagen, use the mass of four original scoops to calibrate an equivalent replacement; weighing the original serving can refine its nutrition estimate without changing the chosen count.
+Keep gram targets when changing scoops; for Collagen, calibrate to the mass of four original scoops. Estimates indicate likely size, not calibrated replacements. The ranges below are sensitivity scenarios, not confidence intervals or dosing tolerances.
 
 ## Active products
 
@@ -21,13 +19,13 @@ The table covers all nine distinct active supplement powders. WPI appears twice;
 
 | Protocol code | Selected product and retained dose | Capacity of one measure | Evidence status and annotation |
 | --- | --- | --- | --- |
-| M.0.2 | GymBeam Psyllium Husks, 7.5g | **15ml metric tablespoon** | Standard measuring spoon; approximate powder equivalence, not a supplied-scoop claim. `~1tbsp (15ml measuring spoon)`. [Method](#psyllium-a-measuring-spoon-not-a-branded-scoop) |
+| M.0.2 | GymBeam Psyllium Husks, 7.5g | **15ml metric tablespoon** | Standard measuring spoon; approximate powder equivalence, not a supplied-scoop claim. `~1tbsp (15ml)`. [Method](#psyllium-a-measuring-spoon-not-a-branded-scoop) |
 | M.0.4 / A.0.1 | HSN RawSeries 100% Whey Protein Isolate, Unflavored, 2kg; 30g Morning + 30g After Workout | **70ml** | Manufacturer panel: approximately 30g per scoop. Both entries: `1scoop (70ml)`. [Exact label](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) |
-| M.0.3 | MicroVitamin+ Unflavored v8, variant 50000745464093; 26g | **Estimated ~60ml**; broad model ~40–100ml | Low confidence in physical capacity; label says approximately one scoop. `~1scoop (~60ml est.)`. [Calculation](#microvitamin-estimate) |
-| B.0.3 | KFD Ultra Pure Joint Collagen, 300g; **exactly 4scoops (~13.33g)** | **Estimated ~10ml each**; ~5–15ml | Low confidence; FORTIGEL density proxy and explicit fill sensitivity. `4scoops (4x~10ml est.)`. [Calculation](#kfd-collagen-estimate) |
-| B.0.1 | KFD Premium Creatine, 500g; natural/pure-monohydrate interpretation; 5g | **Estimated ~10ml**; ~7–12ml | Moderate confidence as a working estimate: historical marked-scoop reports plus density cross-check. Current lot not confirmed. `1scoop (~10ml est.; level)`. [Evidence](#kfd-creatine-estimate) |
+| M.0.3 | MicroVitamin+ Unflavored v8, variant 50000745464093; 26g | **~60ml**; broad model ~40–100ml | Low confidence in physical capacity; label says approximately one scoop. `1scoop (~60ml)`. [Calculation](#microvitamin-estimate) |
+| B.0.3 | KFD Ultra Pure Joint Collagen, 300g; **exactly 4scoops (~13.33g)** | **~10ml each**; ~5–15ml | Low confidence; FORTIGEL density proxy and explicit fill sensitivity. `4scoops (4x~10ml)`. [Calculation](#kfd-collagen-estimate) |
+| B.0.1 | KFD Premium Creatine, 500g; natural/pure-monohydrate interpretation; 5g | **~10ml**; ~7–12ml | Moderate confidence as a working estimate: historical marked-scoop reports plus density cross-check. Current lot not confirmed. `1scoop (~10ml; level)`. [Evidence](#kfd-creatine-estimate) |
 | B.0.2 | HSN EvoBomb 2.0, Lemon; 20g | **15ml** | Dedicated manufacturer panels specify 2x15ml per approximately 20g. `2scoops (2x15ml)`. [Panel](https://www.hsnstore.eu/brands/sport-series/evobomb) |
-| IW.0.2 | ALLHydrate Electrolytes Neutral, 205g; 2.73g and sauna +2.73g | **Estimated ~3ml**; ~2–4ml | Low confidence in physical capacity; ingredient bulk-volume model. All three README mentions: `1scoop (~3ml est.)`. [Calculation](#allhydrate-estimate) |
+| IW.0.2 | ALLHydrate Electrolytes Neutral, 205g; 2.73g and sauna +2.73g | **~3ml**; ~2–4ml | Low confidence in physical capacity; ingredient bulk-volume model. All three README mentions: `1scoop (~3ml)`. [Calculation](#allhydrate-estimate) |
 | IW.0.3 | HSN RawSeries Cluster Dextrin, unflavoured pure HBCD; 25g | **50ml** | Manufacturer panel: approximately 25g per scoop. `1scoop (50ml)`. [Panel](https://www.hsnstore.at/marken/raw-series/cluster-dextrin-hochverzweigtes-zyklisches-dextrin-pulver) |
 | A.0.2 | HSN RawSeries Essential Amino Acids, Unflavored, 1kg; **15g** | **25ml** | Exact manufacturer's full serving. `1scoop (25ml)`. [Label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) |
 
@@ -124,7 +122,7 @@ Putting all densities at their high endpoints gives **44.17ml**; putting them at
 
 Mixture packing remains unmeasured. For illustration, an assumed 20% reduction of the central additive volume would give 47.33ml; that is sensitivity, not a measured correction. The model therefore does not distinguish confidently between, for example, 50ml, 60ml or 70ml moulded scoops.
 
-The prior audit visually checked all 13 official gallery assets and both pages of the [original Unflavored v8 CoA](https://cdn.shopify.com/s/files/1/0736/2907/3693/files/coa-microvitamin-plus-unflavoured-v8.pdf), which confirms 26000mg per serving, product 20562, lot 2512065. The gallery, CoA and [FAQ](https://microvitamin.com/pages/microvitamin-plus-faq) supplied no capacity, finished-blend density or readable scoop marking. Preparation water of 300–500ml is not scoop volume. The estimate retains the label's approximate scoop count and the existing 26g target.
+The prior audit visually checked all 13 official gallery assets and both pages of the [original Unflavored v8 CoA](https://cdn.shopify.com/s/files/1/0736/2907/3693/files/coa-microvitamin-plus-unflavoured-v8.pdf), which confirms 26000mg per serving, product 20562, lot 2512065. The gallery, CoA and [FAQ](https://microvitamin.com/pages/microvitamin-plus-faq) supplied no capacity, finished-blend density or readable scoop marking. Preparation water of 300–500ml is not scoop volume. The 26g target remains; the label describes this as approximately one scoop.
 
 ### ALLHydrate estimate
 
@@ -159,7 +157,7 @@ The prior image audit covered the official [2025](https://aliness.pl/wp-content/
 
 ### Psyllium: a measuring spoon, not a branded scoop
 
-GymBeam's [Polish instructions](https://gymbeam.pl/psyllium-husks-gymbeam.html) and [English instructions](https://gymbeam.com/psyllium-husks-gymbeam.html?tab=detail) agree on **5g per 2tsp**. Scaling this published mass/count relationship gives `7.5 / 5 x 2 = 3tsp`. With the [metric cooking convention](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies), three 5ml teaspoons occupy one 15ml tablespoon. The manufacturer does not specify a level/heaped convention, so the active entry is **`7.5g — ~1tbsp (15ml measuring spoon)`**. The 7.5g remains a weighed target; this does not establish an exact 7.5g-per-15ml density or a supplied GymBeam scoop.
+GymBeam's [Polish instructions](https://gymbeam.pl/psyllium-husks-gymbeam.html) and [English instructions](https://gymbeam.com/psyllium-husks-gymbeam.html?tab=detail) agree on **5g per 2tsp**. Scaling this published mass/count relationship gives `7.5 / 5 x 2 = 3tsp`. With the [metric cooking convention](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies), three 5ml teaspoons occupy one 15ml tablespoon. The manufacturer does not specify a level/heaped convention, so the active entry is **`7.5g — ~1tbsp (15ml)`**. The 7.5g remains a weighed target; this does not establish an exact 7.5g-per-15ml density or a supplied GymBeam scoop.
 
 
 ## Retired scoop entry
