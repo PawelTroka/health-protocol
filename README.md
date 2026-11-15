@@ -112,7 +112,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **[Celiac Disease Diagnostic Package](https://www.alab.pl/pakiet/celiakia-pakiet-diagnostyczny)**: Serum IgA Immunoglobulin, Anti-deamidated gliadin peptide (DGP) IgG, Anti-tissue transglutaminase (tTG) IgA 🦠 🛡️ 🔥
 - *(Optional)* **[Intestinal IgG Panel](https://diag.pl/sklep/badania/panel-jelitowy-pc-pkom-zewnatrzwydziel-trzustki-i-kom-kubk-jelitascaanca-met-iif/)**: Autoantibodies against exocrine pancreatic cells and intestinal goblet cells, ANCA, and ASCA (IIF) 🦠 🛡️ 🔥
 - **[Myositis Profile](https://www.alab.pl/pakiet/profil-myositis-profil-zapalenia-miesni)**: Myositis-associated antibodies (Jo-1, PL-7, Mi-2, etc.) & Antinuclear Antibodies (ANA) 💪 🔥 🛡️
-- **[STDs](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)**: Chlamydia trachomatis (IgG and IgM antibodies), HBs antibodies (Hepatitis B), HCV antibodies (Hepatitis C), HIV screening test (anti-HIV 1/2 and p24 antigen), HSV (Herpes) type 1/2 (IgG and IgM antibodies), Syphilis screening test (WR) 🛡️ 🍆
+- **[STI testing](#sexual-infection-testing)**: Blood tests and NAAT/PCR selected by exposure, symptoms and prior results; use the separate plan below. 🛡️ 🍆
 - *(Optional)* **[Telomere Length (Biological Age)](https://www.alab.pl/badanie/badanie-dlugosci-telomerow-wiek-biologiczny)**: Telomere Length in blood leukocytes ⏰ 👨‍🦳
 - **[LDH (Lactate Dehydrogenase)](https://www.alab.pl/badanie/dehydrogenaza-mleczanowa-ldh-k33)**: LDH (Lactate Dehydrogenase) 🟤 ❤️
 - **[b-hCG (Tumor Marker)](https://www.alab.pl/badanie/gonadotropina-kosmowkowa-b-hcg-marker-nowotworowy-l47)**: b-hCG (Beta-hCG) 🛡️ 🍅
@@ -183,6 +183,14 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - Prostate Screening (PSA + Digital Rectal Exam) (Yearly)
 - [Dental Checkup & Cleaning](#oral-health--teethmaxxing) (Every 2 months)
 - Vision Exam (Every 2 years)
+
+### Sexual infection testing
+
+- **Plan:** choose tests, sampled sites and window-period/retest dates with a clinician; this is separate from the six-month laboratory cycle.
+- **Chlamydia/Gonorrhea:** first-catch Urine NAAT/PCR and exposed-site swabs when indicated. Chlamydia IgG/IgM is unsuitable for diagnosing current uncomplicated genital infection. [Testing guide](https://www.ecdc.europa.eu/en/chlamydia/facts).
+- **Blood:** HIV Ag/Ab, Syphilis and HBV/HCV tests as indicated; anti-HBs assesses immunity; it cannot exclude HBV infection.
+- **Herpes:** lesion HSV PCR when lesions are present; type-specific IgG only for a clinical indication. No HSV IgM or routine asymptomatic Herpes screen. [Testing guide](https://www.cdc.gov/std/treatment-guidelines/herpes.htm).
+- **Access:** [PKD](https://aids.gov.pl/pkd/) offers free, anonymous HIV testing/counselling. Possible HIV exposure → urgent [PEP assessment](https://www.gov.pl/web/aids/co-robic-sytuacjach-pozazawodowego-wypadkowego-narazenia-na-zakazenie-hiv) immediately; treatment must start [within 72h](https://www.cdc.gov/hiv/prevention/pep.html) when indicated.
 
 ### Gastrointestinal Health
 - Gastroscopy + Colonoscopy with CO2 and polypectomy (Every 5 years)
