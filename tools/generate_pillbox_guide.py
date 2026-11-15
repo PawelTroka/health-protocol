@@ -154,11 +154,11 @@ PAGES = [
             ),
             item(
                 "M.3",
-                "Sucrosomial® Iron + Vitamin C + Vitamin B12",
-                "Iron 14mg • Vitamin C 60mg\nVitamin B12 0.375mcg",
+                "Ferrochel™ Ferrous Bisglycinate",
+                "Iron 18mg",
                 qty="1capsule daily",
                 icons="🩸",
-                note="SiderAL • ONLY AFTER confirmed deficiency + clinician review",
+                note="NOW Iron 18mg • WITH MEAL • ONLY AFTER deficiency + clinician review",
                 kind="warning",
             ),
             item(
