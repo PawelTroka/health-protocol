@@ -829,7 +829,6 @@ There are actual studies that confirm if you look younger and better you are mor
 
 #### Home procedures
 - [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week)
-- (optional) Chemical peeling [The Ordinary AHA 30% + BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (monthly) 👨‍🦳 ⏰
 - (optional) Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide
 
 #### Professional procedures
@@ -1318,7 +1317,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 ### Skin & teeth
 
 - **Dry eyelids:** Dermallergo Eyes first for a lighter feel; Atoderm Intensive Eye if richer coverage is needed. Test one for about 2 weeks. Keep retinoids/acids off eyelids and under-eyes; stop for persistent stinging, swelling or redness. Persistent red/scaly skin needs assessment. [Dermallergo](https://www.laroche-posay.co.uk/en_GB/toleriane-dermallergo-soothing-eye-cream/LRP_132.html) [Atoderm](https://www.bioderma.pl/produkty/atoderm/intensive-eye)
-- **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Salicylic Acid/peel use with the prescriber; separate nights do not resolve that compatibility question. Retain one weekly topical retinoid, Adapalene OR Tretinoin, as listed. If the optional monthly peel is appropriate: dry skin, maximum 10 minutes, avoid eyes, then plain moisturizer; no topical retinoid, Salicylic Acid cleanser, SNAP-8 or GHK-Cu that routine. Pause acids for redness, stinging or peeling. The professional Bielenda 40% blend is not a home substitute. [Peel label](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
+- **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Salicylic Acid use with the prescriber; separate nights do not resolve that compatibility question. Retain one weekly topical retinoid, Adapalene OR Tretinoin, as listed. The Ordinary AHA 30% + BHA 2% and professional Bielenda 40% are outside the home routine. Pause acids for redness, stinging or peeling. [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
 
 <a id="dental-staining"></a>
 
@@ -1453,7 +1452,8 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **[More4Care Cryotherapy Hair Mask 200ml](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419):** removed; the regular conditioner covers this step.
 - **[Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (formerly daily):** CeraVe replaced the daily step; optional SNAP-8 remains in Skincare.
 - **[CeraVe Resurfacing Retinol Serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (formerly nightly):** removed the extra cosmetic retinoid; retain one weekly Adapalene OR Tretinoin.
-- **[Bielenda Professional 40% acid peel](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306):** professional pH2 blend, unsuitable as a direct home substitute for The Ordinary. Its [professional program](https://bielendaprofessional.pl/zabiegi-kosmetyczne-na-twarz/anti-acne-program) lists retinoid treatment as a contraindication.
+- **[Bielenda Professional 40% acid peel](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306):** professional pH2 blend, unsuitable as a home peel in the current retinoid/procedure plan. Its [professional program](https://bielendaprofessional.pl/zabiegi-kosmetyczne-na-twarz/anti-acne-program) lists retinoid treatment as a contraindication.
+- **[The Ordinary AHA 30% + BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (formerly monthly):** retired from the home routine to reduce irritation burden alongside Isotretinoin, a topical retinoid and procedural care. [Product instructions](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) · [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
 
 ### Limited benefit or overlap
 
