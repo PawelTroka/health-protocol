@@ -812,7 +812,7 @@ There are actual studies that confirm if you look younger and better you are mor
   - When using orthodontic braces: [Eludril Ortho](https://allegro.pl/produkt/eludril-ortho-ortodontyczny-plyn-do-plukania-jamy-ustnej-500-ml-a905bf84-1178-4f98-b31b-3da919da2410) (Twice daily)
   - For normal care: non-alcohol mouthwash like [ApaCare OraLactin Liquid](https://allegro.pl/produkt/apacare-liquid-enamel-plyn-remineralizujacy-do-plukania-jamy-ustnej-200-ml-df2d1e7e-50aa-4824-8b54-3c1169092719?offerId=17121623399) (Twice daily)
 - Water flosser [waterpik ultra professional WP660](https://csk-med.pl/waterpik-wp-660) (Twice daily)
-- Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and medical-grade toothpaste with aminofluoride like [Elmex Sensitive Professional](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) or nano-hydroxyapatite (n-HA) alternative like Risewell Mineral if afraid of fluoride (Twice daily)
+- Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and [Elmex Sensitive Professional Repair & Prevent](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) (1,450ppm Fluoride; 8% Arginine) (Twice daily)
 - Tongue scraper (daily)
 - Floss [Oral-B SuperFloss](https://allegro.pl/oferta/nic-dentystyczna-oral-b-superfloss-dental-floss-threader-50-szt-17333503650) (Weekly)
 - Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Monthly)
@@ -1431,6 +1431,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 - **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop (~35ml)](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2). [White Cherry scoop estimate](supplements/POWDER_SCOOP_REFERENCE.md#retired-scoop-entry).
 - **[Biały Puch WPI Unflavored](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701)** → HSN RawSeries WPI; keeps both 30g servings without added B6.
+- **RiseWell Original Mineral toothpaste (10% micro-Hydroxyapatite):** retired as the routine alternative; Elmex Sensitive Professional Repair & Prevent remains the selected Fluoride paste. The Original formula is micro-HA, not the nano-containing PRO formula. [Manufacturer](https://risewell.com/products/mineral-toothpaste)
 - **[Biały Puch EAA Unflavored 10g](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807)** → HSN RawSeries EAA 15g powder — 1scoop (25ml); aligns the post-workout serving with the manufacturer's measure without added B6.
 - **[GymBeam Cluster Dextrin® 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html)** → HSN RawSeries Cluster Dextrin® at the same dose and timing.
 - **[OstroVit Omega 3 Extreme 3capsules (EPA 1.5g + DHA 750mg)](https://ostrovit.com/pl/products/ostrovit-omega-3-extreme-90-kapsulek-25585.html)** → 2 Sports Research triglyceride-form softgels on non-Fatty-Fish days (L.2-3).
