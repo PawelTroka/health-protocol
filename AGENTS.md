@@ -89,14 +89,14 @@ These are workflow constraints, not immutable medical facts. Preserve them unles
 
 ## Protocol writing and formatting
 
-Treat `README.md` as a practical cheat sheet for use at the gym, in the kitchen and while planning. Make the next action easy to find and understand within seconds.
+Treat `README.md` as a practical cheat sheet: the next action should be easy to find within seconds.
 
-- Lead with what to do or take, the exact dose or quantity, timing and frequency. Retain relevant slot codes, meaningful formulation details and product links.
-- Write short, natural entries in plain language. Cut filler, repetition and explanations of the obvious; avoid qualifiers such as `declared`, `checked` and `label-based` unless they change the meaning.
-- Make lookup easy with descriptive headings, focused subsections and consistent names. Keep table-of-contents and cross-reference links aligned with their target sections and subsections.
-- Keep Notes, TODOs and Removed items concise too. Use short bullets or compact tables when they aid lookup. Include only decision-relevant explanations, totals, evidence links and next steps; put detailed research and long explanations in the PR description or link to existing supporting material.
-- Keep essential conditions, technique cues and safety instructions beside the relevant action. Preserve exact quantities, formulation identity and uncertainty that changes how an entry should be used or understood.
-- Keep diffs minimal and preserve unaffected wording. State each explanation once and link to it where needed.
+- Keep active sections to what to do or take: exact names, quantities, timing, frequency, slot codes, product links and essential preparation or safety conditions.
+- Put supporting rationale, evidence, calculation methods, sourcing gaps and detailed adjustment guidance in the top-level Notes section. Link to the relevant Note; do not insert explanatory essays into Diet or other active sections.
+- Keep Notes, TODOs and Removed items concise too: decision-relevant facts, evidence links and next steps. Put extended research and comparisons in the PR description or existing supporting material.
+- Use short, natural entries and descriptive headings. Remove filler, duplicate explanations and qualifiers such as `declared`, `checked` or `label-based` unless they change the meaning.
+- Preserve important quantities, conditions and uncertainty when shortening text. Keep essential immediate-use instructions beside the action; use linked tables for detailed references.
+- Keep diffs focused, preserve unaffected wording, and update navigation and cross-references when moving content. State each explanation once.
 - Make every change conform strictly to the live file's established formatting. Preserve the surrounding heading hierarchy, list structure, indentation, spacing, slot-code placement, compact number-unit style, emoji placement, links, signatures and local wording pattern unless the user explicitly requests a formatting change.
 - Always sort every `CHOOSE ONE` and `CHOOSE ANY` list by evidence-weighted expected benefit for Health, Longevity, Looksmaxxing and Sexual Health at the written portion/form, adjusted for GI tolerance, cumulative risk and current-stack fit. Place new options at their justified benefit position. Treat uncertain distinctions as close ties and keep their order stable; shopping convenience is a secondary tie-breaker. When only display order changes, keep each food's quantity, product link, Macros, emojis and checked state attached to it, and update any Notes that describe the order.
 - Keep the protocol and Notes positive, energetic, constructive and forward-looking. Lead with what is working, what is promising and the practical path to improvement before discussing limitations.
@@ -104,6 +104,7 @@ Treat `README.md` as a practical cheat sheet for use at the gym, in the kitchen 
 - Positivity must remain evidence-honest: state material risks clearly, calmly and proportionately, then pair them with an actionable mitigation, monitoring plan, better formulation or next research step. Never hide a safety issue to preserve an upbeat tone.
 - Use compact number-unit forms everywhere in the protocol and guide: `1g`, `250mg`, `1,000IU`, `1scoop`, `1tbsp`, `1pill`, `200mln CFU`. Use grams for doses of 1g or more. Leave natural prose durations such as “12 weeks” readable.
 - Use `~` only for a genuine estimate, not for a labeled scoop or capsule count.
+- **Powder serving notation:** use `Product mass — measure count (volume)`, e.g. `MicroVitamin+ 26g — 1scoop (40ml)`, `Collagen Peptides 13.33g — 4scoops (4x~10ml)` or `Psyllium Husk 7.5g — 1tbsp (15ml)`. Apply this format to supplement entries, Diet summaries and repeated serving annotations. Keep the count outside parentheses; use `~` for estimated volumes without adding `est.`. Preserve meaningful fill instructions such as `level`.
 - Keep timing sections compact. Do not insert gratuitous blank lines directly after timing headings, before `🥤 drink:`, before `🥤 intra-workout drink:`, or between the final drink entry and `💊 pills:`.
 - Active protocol names should normally lead with the ingredient, form, strain, plant part or meaningful standardization rather than marketing copy.
 - Use lowercase `organic`, `fresh`, `raw unsalted`, `fortified unsweetened` and `onion-free vegan mild` as Diet food adjectives; retain capitalization when it belongs to a meaningful proper name.
