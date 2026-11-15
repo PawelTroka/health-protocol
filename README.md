@@ -33,7 +33,7 @@
 - ✋️ excessive social media usage
 - ✋️ [microplastics and artificial materials](#8-environment)
 - ⚠️ excessive gaming and TV
-- ⚠️ excessive noise
+- ⚠️ [excessive noise](#hearing-protection)
 - ⚠️ stimulants
 - ⚠️ [sleep schedule disruptions](#1-sleep)
 - ⚠️ overthinking and overanalyzing things out of your control
@@ -954,6 +954,12 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Monitor inside air quality using [Airthings View Plus](https://www.airthings.com/view-plus) or [IQAir AirVisual Pro](https://www.iqair.com/pl/products/air-quality-monitors/airvisual-pro-indoor-monitor)
 - Use extremely strong air purifier at home (especially [bedroom](#1-sleep)) with 600+ CADR, at least 3 filtration stages, 1100+ ml/h humidifier and 50,000+ ions/cm³ Plasmacluster like [Sharp KI-TX100EU-W](https://loveair.pl/oczyszczacz/sharp-ki-tx100eu-w)
 - (alternative) If you already have optimal humidity, use a dedicated high-performance purifier like [IQAir HealthPro Plus](https://www.iqair.com/pl/products/air-purifiers/healthpro-plus-xe)
+
+### Hearing protection
+
+- **Headphones:** enable sound-exposure monitoring and volume limits; aim below 80dB average. [WHO's adult reference](https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening) is 80dB for 40h/week; louder sound allows less time.
+- **Loud venues/tools:** wear well-fitting earplugs or earmuffs, keep away from speakers and take quiet breaks.
+- **Hearing changes:** arrange a hearing assessment for persistent tinnitus or difficulty following conversation. New sudden hearing loss needs [same-day ENT/emergency assessment](https://www.nice.org.uk/guidance/QS185/chapter/quality-statement-2-sudden-onset-of-hearing-loss).
 
 ### Bedding and textiles
 - **Bed baseline:** bare mattress 193x203cm (76x80in US King)
