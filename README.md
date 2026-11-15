@@ -871,14 +871,12 @@ There are actual studies that confirm if you look younger and better you are mor
 ### Eyebrows
 - [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily)
 - Minoxidil 5% (daily) 🧔
-- [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
 - Styling (monthly) at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk)
 - (optional) Microblading (5th of January every year) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
 
 ### Beard
 - Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a week) 🧔
 - Daily application of minoxidil 5% 🧔
-- [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
 - Daily use of beard oil 🧔 💧
 
 ### ABS
@@ -1452,6 +1450,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **Rotating Hair products:** [anti-hair-loss shampoo](https://allegro.pl/oferta/anti-hair-loss-szampon-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132003412), [Anwen Emollient Iris conditioner](https://allegro.pl/oferta/anwen-odzywka-do-wlosow-emolientowy-irys-200-ml-9334623745), [Anwen Protein Magnolia conditioner](https://allegro.pl/oferta/anwen-odzywka-proteinowa-magnolia-aluminiowa-100ml-11386316729), [anti-hair-loss conditioner](https://allegro.pl/oferta/anti-hair-loss-odzywka-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132018183), [Anwen Grow Us Tender warming scalp tonic](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) and [Castor Oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) → the fragrance-free Philip Kingsley shampoo/conditioner pair. Fewer products and easier irritation tracking.
 - **[More4Care Cryotherapy Hair Mask 200ml](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419):** removed; the regular conditioner covers this step.
 - **[Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (formerly daily):** CeraVe replaced the daily step; optional SNAP-8 remains in Skincare.
+- **[Weekly brow/beard Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194):** removed as a routine add-on; scalp trials do not establish benefit or a safe topical-drug protocol at these facial sites. [Scalp trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC3746236/) · [Device guidance](https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/microneedling-devices)
 - **[CeraVe Resurfacing Retinol Serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (formerly nightly):** removed the extra cosmetic retinoid; retain one weekly Adapalene OR Tretinoin.
 - **[Bielenda Professional 40% acid peel](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306):** professional pH2 blend, unsuitable as a direct home substitute for The Ordinary. Its [professional program](https://bielendaprofessional.pl/zabiegi-kosmetyczne-na-twarz/anti-acne-program) lists retinoid treatment as a contraindication.
 
