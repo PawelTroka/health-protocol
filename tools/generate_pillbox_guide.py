@@ -177,7 +177,7 @@ PAGES = [
         "title": "MORNING • BOX 2",
         "range": "M.10–M.18",
         "accent": "morning",
-        "callout": "M.15 holds all three small NR capsules together.",
+        "callout": "M.15 holds three NR capsules. Optional Heliocare stays in its pack: high-UV days only, before exposure, alongside SPF50+.",
         "cells": [
             item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 🛡️ 🔄", note="ErgoActive® • Vitamin C 5 mg"),
             item("M.11", "NAC", "1 g", icons="🛡️ 🫁 🔄"),
@@ -615,8 +615,13 @@ def add_page(document, page_data, page_index):
     add_hyperlink(p, "GymBeam Adjustable PillBox", PILLBOX_URL, color=accent)
     run = p.add_run(" • Full doses and evidence notes: README.md")
     set_repeatable_font(run, 7.3, color=COLORS["muted"])
-    run = p.add_run(" • 🥇 strongest • 🥈 supportive • 🥉 exploratory")
-    set_repeatable_font(run, 6.8, color=COLORS["muted"], name="Segoe UI Emoji")
+    for medal, label in (("🥇", "strongest"), ("🥈", "supportive"), ("🥉", "exploratory")):
+        run = p.add_run(" • ")
+        set_repeatable_font(run, 6.8, color=COLORS["muted"])
+        run = p.add_run(medal)
+        set_repeatable_font(run, 6.8, color=COLORS["muted"], name="Segoe UI Emoji")
+        run = p.add_run(f" {label}")
+        set_repeatable_font(run, 6.8, color=COLORS["muted"])
 
     if page_index < len(PAGES) - 1:
         p = document.add_paragraph()
@@ -652,7 +657,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 06 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
