@@ -785,8 +785,8 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥈 **E.3** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠 🩸
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
 - 🥈 **E.4** [Sodium Butyrate 500mg (Butyric acid 400mg)](https://gemini.pl/debutir-max-60-kapsulek-9086424) 🦠 🧠 🛡️ ⏰
-- 🥈 **E.5** [Melatonin 1mg + Botanical Extract Blend](https://bmpharma.pl/products/melisen) 😴 😌 ⏰
-  - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>M.0.3.3.5</sup>
+- 🥈 **E.5** [Saffron Stigma Extract Affron® 28mg](https://kenay.com.pl/714-szafran-affron-60-kapsulek-vege.html) 😴 😌 🧠
+  - Lepticrosalides® 1mg (3.5%)
 - 🥈 **E.6** [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-480-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17286271854) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧠
 - 🥈 **E.7** [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://gymbeam.pl/ashwagandha-ksm-66r-500mg-gymbeam.html) 😌 😴 🍆 🧠
 - 🥈 **E.8-10** 3x [Glycine 1g](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 🍅 ⏰
@@ -794,7 +794,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥈 **E.12** [Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 ❤️ 🦴
 - 🥈 **E.13** [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064) 🛡️ 🚽 🔄
   - Silymarin 240mg; Silybin 90mg; Isosilybin A/B 24mg; Silybin-Phosphatidylcholine Complex 80mg (Silybin 23.76mg); Silybin 113.76mg
-- **E.14** (empty)
+- 🥈 **E.14** [Melatonin 1mg](https://lekam.pl/pl/produkty/leki-bez-recepty/melatonina1mg) 😴 ⏰
 - 🥉 **E.15** [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256) 😴 😌 🔄
   - GABA 250mg; Magnesium (Citrate) 20mg<sup>E.12</sup>
 - 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 🧠 😌 🩸
@@ -1185,7 +1185,7 @@ Food adds unquantified Creatine, Taurine and other compounds. The Lycopene and M
 | --- | --- | --- |
 | Vitamin D3 | 3,000IU | M.0.3 MicroVitamin+ 1,000IU + B.8-9 CaAKG 2,000IU |
 | Vitamin K | K1 1.5mg; MK-4 1mg; MK-7 390mcg | M.14 supplies K1/MK-4 and MK-7 200mcg; M.0.3 adds 90mcg MK-7; B.8-9 adds 100mcg |
-| Vitamin B6 | 2.68mg supplemental; ~5.3–5.9mg with checked food | M.0.3.3.5 MicroVitamin+ 1.28mg + E.5 Melisen 1.4mg; natural WPI B6 remains unquantified |
+| Vitamin B6 | 1.28mg supplemental; ~3.9–4.5mg with checked food | M.0.3.3.5 MicroVitamin+ 1.28mg; natural WPI B6 remains unquantified |
 | Zinc | 11mg supplemental; ~20.5–22.5mg with checked food | M.0.3.7.1 MicroVitamin+; food rotation changes the estimate |
 | Vitamin B12 | 12mcg supplemental + 0.76mcg from Alpro | M.0.3.2.4 MicroVitamin+ + Diet Alpro 200ml, before other foods |
 | Vitamin C | 50mg supplemental | M.0.3 MicroVitamin+ 45mg + M.10 ErgoActive® product 5mg, before food |
@@ -1229,7 +1229,7 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 - The current Pumpkin-Seed 350g panels conflict; retain the former 1kg label estimate until the delivered label is checked. Manufacturer panels take priority over conflicting retailer data for Nuts/Seeds. [Pumpkin 350g](https://bioplanet.pl/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-350-g-bio-planet/p215/m) [Current proxy](https://bioplanet.pl/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-1-kg-bio-planet/p10207)
 - Boil Green Beans thoroughly. Add the 1g Brown Mustard Seed after cooking Broccoli; heating Sprouts can inactivate their Myrosinase. [Green-Bean safety](https://www.bfr.bund.de/en/opinions/lectins-in-plant-based-foods-is-there-a-health-risk/) [Mustard/Broccoli study](https://pubmed.ncbi.nlm.nih.gov/29806738/)
 - Sauerkraut's manufacturer gives 7 days after opening, the retailer 3: plan for 3 until the delivered label confirms otherwise. Onion-free Kimchi still contains Garlic, Chili and Soy/Wheat. [Sauerkraut label](https://sklep-satyrz.pl/produkt/kapusta-kiszona-z-marchewka-900ml/) [Retailer storage](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) [Kimchi ingredients](https://oldfriendskimchi.pl/oferta/)
-- Culinary Saffron 30mg is occasional; E.5 already contains Saffron Extract 30mg. Black Pepper stays to taste, with no added Piperine target.
+- Culinary Saffron 30mg is occasional; E.5 already contains Saffron Stigma Extract Affron® 28mg. Black Pepper stays to taste, with no added Piperine target.
 - **EVOO phenolics (Diet/M.0.1):** [Pamako's published 2,081mg/kg](https://www.pamako.co.uk/) and the [Phileos 2025/26 sample's 917mg/kg](https://www.huilemielolives.com/img/cms/POLYPHENOLES_2025.pdf) are sample-specific figures. Match the purchased harvest/batch to its certificate before using them as intake estimates; retain the existing 13.5g portions.
 
 <a id="diet-fodmap-tags"></a>
@@ -1284,7 +1284,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 #### Sleep & sexual health
 
-- **Melisen / E.5:** replaces standalone Melatonin. Its 30mg generic Saffron Extract is not the standardized trial product, and the complete blend is untested. Keep it only if sleep or next-day function improves without grogginess. The label advises against combining it with sedatives, hypnotics or antiepileptic medicines. [Label](https://bmpharma.pl/products/melisen) [Saffron trial](https://pubmed.ncbi.nlm.nih.gov/40698027/)
+- **Saffron / E.5:** Affron® 28mg provides the branded preparation used in human mood/sleep trials, replacing Melisen; Melatonin 1mg continues separately at E.14. Take Affron with the Evening meal per its label; the sleep trial used 1 hour before bed. Assess sleep quality and next-day function over 4–8 weeks, or mood over 12 weeks if that is the target. Retain a reproducible benefit without grogginess. Benefits were mainly subjective; superiority to Melisen and synergy with Melatonin are unproven. [Sleep trial](https://pubmed.ncbi.nlm.nih.gov/34438361/) · [Mood trial](https://pubmed.ncbi.nlm.nih.gov/40414301/)
 - **Ashwagandha / E.7:** 500mg KSM-66 supplies 25mg Withanolides. Track a repeatable stress/sleep benefit; review Liver abnormalities or compatible symptoms. [Safety summary](https://www.nccih.nih.gov/health/ashwagandha)
 - **PharmaGABA® / E.15:** 250mg is current. Possible later 500mg then 750mg trials require 250mg to be tolerated but insufficient; keep a higher dose only for repeatable benefit without grogginess, dizziness or GI effects. Change one sleep agent at a time and recalculate Magnesium if used. Sleep evidence is limited. [Label](https://www.nowfoods.com/products/supplements/pharmagaba-250-mg-veg-capsules) [Review](https://pubmed.ncbi.nlm.nih.gov/33041752/)
 - **Apigenin / E.18:** no randomized sleep trial establishes 200mg isolated Apigenin. Retain only for a reproducible benefit without next-day impairment; do not escalate. [Evidence review](https://pubmed.ncbi.nlm.nih.gov/38476603/)
@@ -1420,6 +1420,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2).
 - **[Biały Puch WPI Unflavored](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701)** → HSN RawSeries WPI; keeps both 30g servings without added B6.
 - **[Biały Puch EAA Unflavored 10g](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807)** → HSN RawSeries EAA 10g powder; keeps the post-workout serving without added B6.
+- **[BMPHARMA Melisen](https://bmpharma.pl/products/melisen)** (Melatonin 1mg; Passionflower Extract 200mg/Polyphenols 8mg; Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg) → Affron® 28mg at E.5 plus separate Melatonin 1mg at E.14. This improves Saffron trial matching and preserves the Melatonin dose; it does not establish that the former herbs were ineffective. [Affron trial](https://pubmed.ncbi.nlm.nih.gov/40414301/)
 - **[GymBeam Cluster Dextrin® 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html)** → HSN RawSeries Cluster Dextrin® at the same dose and timing.
 - **[OstroVit Omega 3 Extreme 3capsules (EPA 1.5g + DHA 750mg)](https://ostrovit.com/pl/products/ostrovit-omega-3-extreme-90-kapsulek-25585.html)** → 2 Sports Research triglyceride-form softgels on non-Fatty-Fish days (L.2-3).
 - **[OstroVit Glucosamine Sulfate 2KCl 1.4g](https://ostrovit.com/pl/products/ostrovit-glukozamina-1400-mg-90-kapsulek-26571.html)** → 2 NOW Glucosamine Sulfate 750mg capsules (A.8-9). The former 1.4g described the whole salt complex.
