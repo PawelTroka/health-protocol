@@ -8,7 +8,7 @@ Research checked **2026-11-14** for [PR #53](https://github.com/PawelTroka/healt
 
 - `1scoop (70ml)` gives one scoop's capacity; `2scoops (2x15ml)` means two 15ml measures.
 - `26g — 1scoop (~60ml)`: `~` marks the estimated volume.
-- `~13.33g — 4scoops (4x~10ml)`: four original KFD Collagen scoops; mass and capacity are approximate.
+- `13.33g — 4scoops (4x~10ml)`: four original KFD Collagen scoops; mass and capacity are approximate.
 - `ml` and `cc` denote the same volume. Powder mass and mixing water are separate quantities. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
 
 Keep gram targets when changing scoops; for Collagen, calibrate to the mass of four original scoops. Estimates indicate likely size, not calibrated replacements. The ranges below are sensitivity scenarios, not confidence intervals or dosing tolerances.
@@ -19,10 +19,10 @@ The table covers all nine distinct active supplement powders. WPI appears twice;
 
 | Protocol code | Selected product and retained dose | Capacity of one measure | Evidence status and annotation |
 | --- | --- | --- | --- |
-| M.0.2 | GymBeam Psyllium Husks, 7.5g | **15ml metric tablespoon** | Standard measuring spoon; approximate powder equivalence, not a supplied-scoop claim. `~1tbsp (15ml)`. [Method](#psyllium-a-measuring-spoon-not-a-branded-scoop) |
+| M.0.2 | GymBeam Psyllium Husks, 7.5g | **15ml metric tablespoon** | Standard measuring spoon; approximate powder equivalence, not a supplied-scoop claim. `1tbsp (15ml)`. [Method](#psyllium-a-measuring-spoon-not-a-branded-scoop) |
 | M.0.4 / A.0.1 | HSN RawSeries 100% Whey Protein Isolate, Unflavored, 2kg; 30g Morning + 30g After Workout | **70ml** | Manufacturer panel: approximately 30g per scoop. Both entries: `1scoop (70ml)`. [Exact label](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) |
 | M.0.3 | MicroVitamin+ Unflavored v8, variant 50000745464093; 26g | **~60ml**; broad model ~40–100ml | Low confidence in physical capacity; label says approximately one scoop. `1scoop (~60ml)`. [Calculation](#microvitamin-estimate) |
-| B.0.3 | KFD Ultra Pure Joint Collagen, 300g; **exactly 4scoops (~13.33g)** | **~10ml each**; ~5–15ml | Low confidence; FORTIGEL density proxy and explicit fill sensitivity. `4scoops (4x~10ml)`. [Calculation](#kfd-collagen-estimate) |
+| B.0.3 | KFD Ultra Pure Joint Collagen, 300g; **exactly 4scoops (13.33g)** | **~10ml each**; ~5–15ml | Low confidence; FORTIGEL density proxy and explicit fill sensitivity. `4scoops (4x~10ml)`. [Calculation](#kfd-collagen-estimate) |
 | B.0.1 | KFD Premium Creatine, 500g; natural/pure-monohydrate interpretation; 5g | **~10ml**; ~7–12ml | Moderate confidence as a working estimate: historical marked-scoop reports plus density cross-check. Current lot not confirmed. `1scoop (~10ml; level)`. [Evidence](#kfd-creatine-estimate) |
 | B.0.2 | HSN EvoBomb 2.0, Lemon; 20g | **15ml** | Dedicated manufacturer panels specify 2x15ml per approximately 20g. `2scoops (2x15ml)`. [Panel](https://www.hsnstore.eu/brands/sport-series/evobomb) |
 | IW.0.2 | ALLHydrate Electrolytes Neutral, 205g; 2.73g and sauna +2.73g | **~3ml**; ~2–4ml | Low confidence in physical capacity; ingredient bulk-volume model. All three README mentions: `1scoop (~3ml)`. [Calculation](#allhydrate-estimate) |
@@ -45,7 +45,7 @@ The rounded values in README deliberately avoid presenting model decimals as mea
 
 The WPI source is the selected unflavoured RawSeries isolate in the 2kg pack. A scoop value for Evowhey concentrate or flavoured Evolate is not needed to establish it. Cluster Dextrin evidence refers to pure RawSeries HBCD, not flavoured EvoDextrin or a recovery blend.
 
-For **EAA**, the review changes the scheduled powder dose from 10g to **15g — 1scoop (25ml)**. The exact manufacturer's full-serving panel supplies 4.71g Leucine, 2.526g Lysine base, 1.686g each Isoleucine and Valine, 1.551g Threonine, 765mg Histidine base and 421.5mg each Methionine, Phenylalanine and Tryptophan. These sum to 14.1885g amino-acid bases, displayed as ~14.189g. Lysine/Histidine hydrochloride masses are not added again. The [official accessory table](https://www.hsnstore.eu/brands/hsn-accessories/scoop-hsn-25cc) distinguishes the selected RawSeries EAA's 25ml scoop from **EvoEAA's 10ml scoop**.
+For **EAA**, the review changes the scheduled powder dose from 10g to **15g — 1scoop (25ml)**. The exact manufacturer's full-serving panel supplies 4.71g Leucine, 2.526g Lysine base, 1.686g each Isoleucine and Valine, 1.551g Threonine, 765mg Histidine base and 421.5mg each Methionine, Phenylalanine and Tryptophan. These sum to 14.1885g amino-acid bases, displayed as 14.189g. Lysine/Histidine hydrochloride masses are not added again. The [official accessory table](https://www.hsnstore.eu/brands/hsn-accessories/scoop-hsn-25cc) distinguishes the selected RawSeries EAA's 25ml scoop from **EvoEAA's 10ml scoop**.
 
 For **EvoBomb**, the dedicated use instructions and serving panels agree on 2x15ml per 20g. Some generic narrative text says one scoop, including on the [Lemon page](https://www.hsnstore.eu/brands/sport-series/evobomb-500g-lemon); it conflicts with the more specific panels. The exact Lemon dynamic nutrient panel was not exposed in retrieval. The official 15ml product-to-scoop mapping and [tasting-pack directions covering Lemon](https://www.hsnstore.pl/marki/hsn-packs/evobomb-zestaw-degustacyjny) corroborate the selected annotation. No flavour-dependent ingredient changes are made here.
 
@@ -58,7 +58,7 @@ The current [HSN scoop policy](https://www.hsnstore.eu/hsn-scoops) distinguishes
 
 **Working estimate: ~10ml per original scoop; broad sensitivity ~5–15ml.** Four scoops therefore correspond to an estimated combined nominal volume of ~40ml, with a broad ~20–60ml scenario range. Repeating the same scoop four times does not reduce uncertainty in its capacity.
 
-The [KFD product](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) identifies FORTIGEL collagen and specifies 5g per 1.5scoops. The recovered [manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719), EAN **5905255800854**, confirms that ratio. Thus one nominal scoop represents `5 / 1.5 = 3.333g`, and the retained four-scoop target represents `4 x 5 / 1.5 = ~13.33g`.
+The [KFD product](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) identifies FORTIGEL collagen and specifies 5g per 1.5scoops. The recovered [manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719), EAN **5905255800854**, confirms that ratio. Thus one nominal scoop represents `5 / 1.5 = 3.333g`, and the retained four-scoop target represents `4 x 5 / 1.5 = 13.33g`.
 
 The [GELITA FORTIGEL B specification, version 6, May 2018][fortigel-spec] gives an approximate bulk density of **300g/L = 0.30g/ml** for its bovine agglomerated powder. At level fill, `3.333 / 0.30 = 11.11ml`. This supports a coarse working annotation of **~10ml**, not an exact 11.11ml moulded scoop.
 
@@ -66,7 +66,7 @@ KFD does not identify the FORTIGEL grade in the checked sheet. [GELITA's ST disc
 
 The broad sensitivity uses an **analyst-selected** density bracket of 0.25–0.50g/ml and fill factor `f = 0.90–1.30`, where `f = powder volume / brimful scoop capacity`. These are scenario assumptions, not KFD specifications. With `capacity = 3.333 / (density x f)`, the endpoints are **5.13–14.81ml**, reported as **~5–15ml**. For comparison, a level-only 0.25–0.40g/ml scenario gives 8.33–13.33ml.
 
-The exact count remains **4scoops**, without an approximation marker. Neither the working ~10ml nor the calculated ~13.33g authorizes replacing that target with four arbitrary spoons or a new gram dose.
+The exact count remains **4scoops**, without an approximation marker. Neither the working ~10ml nor the calculated 13.33g authorizes replacing that target with four arbitrary spoons or a new gram dose.
 
 ### KFD creatine estimate
 
@@ -157,7 +157,7 @@ The prior image audit covered the official [2025](https://aliness.pl/wp-content/
 
 ### Psyllium: a measuring spoon, not a branded scoop
 
-GymBeam's [Polish instructions](https://gymbeam.pl/psyllium-husks-gymbeam.html) and [English instructions](https://gymbeam.com/psyllium-husks-gymbeam.html?tab=detail) agree on **5g per 2tsp**. Scaling this published mass/count relationship gives `7.5 / 5 x 2 = 3tsp`. With the [metric cooking convention](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies), three 5ml teaspoons occupy one 15ml tablespoon. The manufacturer does not specify a level/heaped convention, so the active entry is **`7.5g — ~1tbsp (15ml)`**. The 7.5g remains a weighed target; this does not establish an exact 7.5g-per-15ml density or a supplied GymBeam scoop.
+GymBeam's [Polish instructions](https://gymbeam.pl/psyllium-husks-gymbeam.html) and [English instructions](https://gymbeam.com/psyllium-husks-gymbeam.html?tab=detail) agree on **5g per 2tsp**. Scaling this published mass/count relationship gives `7.5 / 5 x 2 = 3tsp`. With the [metric cooking convention](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies), three 5ml teaspoons occupy one 15ml tablespoon. The manufacturer does not specify a level/heaped convention, so the active entry is **`7.5g — 1tbsp (15ml)`**. The 7.5g remains a weighed target; this does not establish an exact 7.5g-per-15ml density or a supplied GymBeam scoop.
 
 
 ## Retired scoop entry
@@ -195,6 +195,6 @@ The current manufacturer page describes a level scoop. The estimate does not est
 
 This follow-up replaces every missing-volume annotation with a numerical estimate, including duplicate Diet mentions, the ALLHydrate sauna addition and retired BULK. The ingredient calculations and uncertainty ranges are reproducible above; central and endpoint arithmetic received independent review. No manufacturer contact or physical scoop measurement was performed.
 
-The earlier review's authorized doses remain **EAA 15g — 1scoop (25ml)** and **Collagen exactly 4scoops (~13.33g)**. Its reconciled amino-acid quantities, meal estimates, daily totals, Diet rotations and replacement notes are retained: After Workout 176kcal, Before Workout ~120kcal and the reference day ~2,417kcal with ~195.8g dietary Protein, including ~25.8g Collagen. The existing EAA allowance remains 60kcal. This estimation follow-up changes no powder doses, nutrient totals, timing, product/BJ links or physical pillbox entries.
+The earlier review's authorized doses remain **EAA 15g — 1scoop (25ml)** and **Collagen exactly 4scoops (13.33g)**. Its reconciled amino-acid quantities, meal estimates, daily totals, Diet rotations and replacement notes are retained: After Workout 176kcal, Before Workout 120kcal and the reference day 2,417kcal with 195.8g dietary Protein, including 25.8g Collagen. The existing EAA allowance remains 60kcal. This estimation follow-up changes no powder doses, nutrient totals, timing, product/BJ links or physical pillbox entries.
 
 [fortigel-spec]: https://www.dkshdiscover.com/medias/FORTIGEL-B-PD-Version-6-05-2018.pdf?attachment=true&context=bWFzdGVyfGJhY2tvZmZpY2VleGNlbGltcG9ydHw0ODkwNTl8YXBwbGljYXRpb24vcGRmfGFHTXpMMmd3TWk4NU1ESXhPREUxTVRZd09EWXlMMFpQVWxSSlIwVk1JRUpmVUVRZ0xTQldaWEp6YVc5dUlEWWdMU0F3TlMweU1ERTRMbkJrWmd8NzM0ZThiNjFlOGU0MjY0ZDAzOWQ0MTcyOWE1NDFhNmY3NWVlNGU2ZWI2YmFhNWZlMDIxOThhNjY3MGI4MWE4Mg

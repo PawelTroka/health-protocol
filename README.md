@@ -322,9 +322,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Protein-sparing Mediterranean Caloric-Restriction diet
 
-*Turkey + Salmon + Kefir day at 80kg: ~2,417kcal · P196g · C152g · F88g · Fiber43–46g.*
+*Turkey + Salmon + Kefir day at 80kg: 2,417kcal · P196g · C152g · F88g · Fiber43–46g.*
 
-**Protein:** 170g without Collagen (2.13g/kg), plus ~25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
+**Protein:** 170g without Collagen (2.13g/kg), plus 25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
 
 
 **Food forms:** fresh or plain frozen Vegetables, prepared as listed; Pulses cooked from dried. The existing Sardine and Mackerel options are the only canned-food exceptions.
@@ -466,9 +466,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
       - `90kcal · P6.4g · C9.4g · F3g · Calcium · Vitamin B2 · Vitamin B12`
 
 #### 🦴 Before workout
-*~120kcal · P13.3g · C2.5g*
-- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 4scoops (4x~10ml; ~13.33g) + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
-  - `~120kcal · P13.3g · C2.5g`
+*120kcal · P13.3g · C2.5g*
+- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 4scoops (4x~10ml; 13.33g) + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
+  - `120kcal · P13.3g · C2.5g`
 
 #### ⚡ During workout
 *94kcal · C24g*
@@ -633,7 +633,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 ### Morning
 🥤 drink:
 - **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️ 🧠 🔥 ⏰
-- 🥇 **M.0.2** [Psyllium Husk 7.5g — ~1tbsp (15ml)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
+- 🥇 **M.0.2** [Psyllium Husk 7.5g — 1tbsp (15ml)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
 - 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
 - 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (~60ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
@@ -725,8 +725,8 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 ### Before workout
 🥤 drink:
-- 🥈 **B.0.3** [Collagen Peptides ~13.33g — 4scoops (4x~10ml)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
-  - Protein ~13.33g; Fat 0g; Carbohydrates 0g; ~53kcal
+- 🥈 **B.0.3** [Collagen Peptides 13.33g — 4scoops (4x~10ml)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+  - Protein 13.33g; Fat 0g; Carbohydrates 0g; 53kcal
 - 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (~10ml; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - 🥈 **B.0.2** [HSN EvoBomb 2.0 20g — 2scoops (2x15ml)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 💪 🧠 🩸
    - **Pump / blood flow**
@@ -766,7 +766,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 - 🥇 **A.0.1** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
 - 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 15g — 1scoop (25ml)](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
-  - Free Essential Amino Acids ~14.189g; L-Leucine 4.71g; L-Lysine 2.526g; L-Isoleucine 1.686g; L-Valine 1.686g; L-Threonine 1.551g; L-Histidine 765mg; L-Methionine 421.5mg; L-Phenylalanine 421.5mg; L-Tryptophan 421.5mg
+  - Free Essential Amino Acids 14.189g; L-Leucine 4.71g; L-Lysine 2.526g; L-Isoleucine 1.686g; L-Valine 1.686g; L-Threonine 1.551g; L-Histidine 765mg; L-Methionine 421.5mg; L-Phenylalanine 421.5mg; L-Tryptophan 421.5mg
 
 💊 pills:
 - 🥈 **A.1** [UC-II® Type II Collagen 40mg](https://pl.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318) 🦴 💪 🔄
@@ -1170,7 +1170,7 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 | --- | --- | --- |
 | Creatine monohydrate | 10g | M.0.3 MicroVitamin+ 5g + B.0.1 standalone 5g |
 | Psyllium Husk | 10g | M.0.3 MicroVitamin+ 2.5g + M.0.2 standalone 7.5g |
-| Collagen Peptides | ~25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 4scoops (~13.33g) |
+| Collagen Peptides | 25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 4scoops (13.33g) |
 | Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.16/L.12 standalone 1g each |
 | Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
 | Caffeine | 223mg supplemental; ~252–291mg with Matcha | B.0.2 EvoBomb 200mg + L.6-7 Cocoa Flavanols 23mg + Diet Matcha 2g (~29–68mg) |
@@ -1211,7 +1211,7 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 
 #### Diet calculation
 
-- **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies ~14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as ~13.33g Protein/~53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium contributes ~20kcal/7–9g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
+- **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies 14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as 13.33g Protein/53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium contributes ~20kcal/7–9g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
 - **EvoBomb:** ~67kcal is modeled from free amino acids, Malate and estimated Maltodextrin; the plausible range is 61–73kcal pending a complete nutrition panel. Its free amino acids are kept outside dietary Protein. Other blend/carrier energy remains partly unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [EU energy factors](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011R1169)
 - **Carbohydrate:** Fiber is separate. USDA proxies use total Carbohydrate minus Fiber; labels and Norwegian data already reporting available Carbohydrate are used directly. Portions, cooking losses and incomplete panels make the daily figures estimates.
 
@@ -1259,7 +1259,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 `1scoop (70ml)` gives one scoop's capacity; `2scoops (2x15ml)` means two 15ml measures. `~` marks an estimate. HSN capacities are manufacturer-specified; scoops may be sold separately. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
 
 - **EAA / A.0.2:** 15g — 1scoop (25ml), matching the manufacturer's serving. [Exact RawSeries EAA label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor)
-- **Collagen / B.0.3:** exactly 4 original scoops (~13.33g), based on KFD's 5g per 1.5scoops. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
+- **Collagen / B.0.3:** exactly 4 original scoops (13.33g), based on KFD's 5g per 1.5scoops. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
 - **Psyllium / M.0.2:** 7.5g ≈ 1tbsp (15ml), using GymBeam's 5g per 2tsp and standard metric measures. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
 
 Keep gram targets when changing scoops; for Collagen, calibrate to four original scoops. Estimated volumes are unconfirmed and depend on powder packing and filling. Sources, calculations, ranges and measurement guidance are in the [scoop reference](supplements/POWDER_SCOOP_REFERENCE.md), checked 2026-11-14.
@@ -1267,7 +1267,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 #### Training, Skin & joints
 
 - **Creatine / B.0.1:** 10g is the chosen high-maintenance dose; extra benefit over lower maintenance doses depends on the setting. Split it if needed for GI tolerance; no further increase is established. [Training trial](https://pubmed.ncbi.nlm.nih.gov/27523919/) [10g/20g cognition trial](https://pubmed.ncbi.nlm.nih.gov/37759877/)
-- **Collagen / B.0.3:** the standalone 4scoop serving (~13.33g) is intentionally retained for connective-tissue loading. The frequently cited pre-exercise study used 15g Gelatin with Vitamin C, not this exact product or the full ~25.83g daily combination. [Study](https://pubmed.ncbi.nlm.nih.gov/27852613/)
+- **Collagen / B.0.3:** the standalone 4scoop serving (13.33g) is intentionally retained for connective-tissue loading. The frequently cited pre-exercise study used 15g Gelatin with Vitamin C, not this exact product or the full 25.83g daily combination. [Study](https://pubmed.ncbi.nlm.nih.gov/27852613/)
 - **Lycopene / L.9:** 30mg supplemental is the chosen Skin-focused dose; superiority over 20mg for visible results is unproven. Take with the existing fat-containing meals. [Dose-response trial](https://pubmed.ncbi.nlm.nih.gov/18689558/) [Skin trial](https://pubmed.ncbi.nlm.nih.gov/20854436/)
 - **Curcumin / L.10:** use Advanced Curcumin Elite™, not plain Curcumin Elite™ 02407. One softgel supplies Curcuminoids 200mg, Gingerols 60mg and Turmerones 75mg. It replaces the separate Curcumin/Ginger products; do not add either back or add Piperine. Better outcomes than Longvida® have not been established. [Advanced label](https://www.lifeextension.com/vitamins-supplements/item02324/advanced-curcumin-elite-ginger-turmerones-turmeric-extract)
 - **Ceratiq® / L.11:** 350mg means Wheat Oil Extract, not isolated Ceramides. Assess dryness, texture and consistent photos after 12 weeks. It is Gluten-Free but contains Wheat; avoid with Wheat Allergy. [Label](https://www.lifeextension.com/vitamins-supplements/item02096/skin-restoring-ceramides) [Trial](https://pubmed.ncbi.nlm.nih.gov/31033133/)
