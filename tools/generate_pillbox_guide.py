@@ -154,12 +154,11 @@ PAGES = [
             ),
             item(
                 "M.3",
-                "Ferrochel™ Ferrous Bisglycinate",
-                "Iron 18mg",
-                qty="1capsule daily",
+                "NOW Foods Iron (Ferrochel™)",
+                "18mg",
+                qty="1capsule/day",
                 icons="🩸",
-                note="NOW Iron 18mg • WITH MEAL • ONLY AFTER deficiency + clinician review",
-                kind="warning",
+                note="With Breakfast",
             ),
             item(
                 "M.4",
