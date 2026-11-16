@@ -824,7 +824,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Moisturizer [CeraVe Facial Moisturizing Cream 52ml](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) or [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) (Twice daily) 👨‍🦳 💧
 - Anti-aging GHK-Cu peptide cream [Theramid Copper Peptide 3%](https://nichebeautylab.com/en/products/copper-peptide) 👨‍🦳 ⏰
 - SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (daily)
-- Anti-aging retinoid cream: [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.025% (weekly) 👨‍🦳 ⏰ ⚕️
+- Anti-aging retinoid cream [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.025% (weekly) 👨‍🦳 ⏰ ⚕️
 - (optional) [SNAP-8 peptide cream](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) 👨‍🦳 ⏰
 
 #### Home procedures
@@ -1318,7 +1318,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 ### Skin & teeth
 
 - **Dry eyelids:** Dermallergo Eyes first for a lighter feel; Atoderm Intensive Eye if richer coverage is needed. Test one for about 2 weeks. Keep retinoids/acids off eyelids and under-eyes; stop for persistent stinging, swelling or redness. Persistent red/scaly skin needs assessment. [Dermallergo](https://www.laroche-posay.co.uk/en_GB/toleriane-dermallergo-soothing-eye-cream/LRP_132.html) [Atoderm](https://www.bioderma.pl/produkty/atoderm/intensive-eye)
-- **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Adapalene/Tretinoin/Salicylic Acid/peel use with the prescriber; separate nights do not resolve that compatibility question. Keep one weekly topical retinoid: Adapalene 0.1% by default or Tretinoin-only 0.025% as an alternative. If the optional monthly peel is appropriate: dry skin, maximum 10 minutes, avoid eyes, then plain moisturizer; no topical retinoid, Salicylic Acid cleanser, SNAP-8 or GHK-Cu that routine. Pause acids for redness, stinging or peeling. The professional Bielenda 40% blend is not a home substitute. [Peel label](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
+- **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Adapalene/Tretinoin/Salicylic Acid/peel use with the prescriber; separate nights do not resolve that compatibility question. Keep one weekly topical retinoid: Adapalene 0.1% by default or Tretinoin 0.025% as an alternative. If the optional monthly peel is appropriate: dry skin, maximum 10 minutes, avoid eyes, then plain moisturizer; no topical retinoid, Salicylic Acid cleanser, SNAP-8 or GHK-Cu that routine. Pause acids for redness, stinging or peeling. The professional Bielenda 40% blend is not a home substitute. [Peel label](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
 
 <a id="dental-staining"></a>
 
