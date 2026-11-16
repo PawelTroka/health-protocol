@@ -824,7 +824,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Moisturizer [CeraVe Facial Moisturizing Cream 52ml](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) or [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) (Twice daily) 👨‍🦳 💧
 - Anti-aging GHK-Cu peptide cream [Theramid Copper Peptide 3%](https://nichebeautylab.com/en/products/copper-peptide) 👨‍🦳 ⏰
 - SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (daily)
-- Anti-aging retinoid cream (weekly): [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) (default) OR Tretinoin-only 0.025% (alternative) 👨‍🦳 ⏰ ⚕️
+- Anti-aging retinoid cream: [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.025% (weekly) 👨‍🦳 ⏰ ⚕️
 - (optional) [SNAP-8 peptide cream](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) 👨‍🦳 ⏰
 
 #### Home procedures
