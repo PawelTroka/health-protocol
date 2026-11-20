@@ -1,8 +1,8 @@
 # Powder scoop reference
 
-Research checked **2026-11-14** for [PR #53](https://github.com/PawelTroka/health-protocol/pull/53). The original audit used [main commit bba87301](https://github.com/PawelTroka/health-protocol/blob/bba87301bbdc61d441de30173df9354a1ec7b49f/README.md). The review changed EAA to 15g and made exactly 4scoops the standalone Collagen target. Manufacturer capacities, user-reported scoop information and estimates are distinguished below; doses are unchanged.
+Research checked **2026-11-14** for [PR #53](https://github.com/PawelTroka/health-protocol/pull/53). The original audit used [main commit bba87301](https://github.com/PawelTroka/health-protocol/blob/bba87301bbdc61d441de30173df9354a1ec7b49f/README.md). The review changed EAA to 15g and made exactly 4scoops the standalone Collagen target. Manufacturer capacities, user-reported scoop information and estimates are distinguished below. The PHGG replacement trial and reduced standalone Psyllium measure were reconciled on **2026-11-20**; other powder doses are retained.
 
-**Four active HSN capacities are manufacturer-specified: WPI 70ml, EvoBomb 15ml, Cluster Dextrin 50ml and RawSeries EAA 25ml.** MicroVitamin+ uses the user's reported 39cc capacity, displayed as 40ml. The other three active product scoops and the retired BULK scoop have working estimates. Psyllium uses a standard measuring tablespoon.
+**Four active HSN capacities are manufacturer-specified: WPI 70ml, EvoBomb 15ml, Cluster Dextrin 50ml and RawSeries EAA 25ml.** MicroVitamin+ uses the user's reported 39cc capacity, displayed as 40ml. The other three active product scoops and the retired BULK scoop have working estimates. Psyllium uses a standard measuring teaspoon during the PHGG replacement trial.
 
 ## How to read the annotations
 
@@ -18,11 +18,12 @@ Keep gram targets when changing scoops; for Collagen, calibrate to the mass of f
 
 ## Active products
 
-The table covers all nine distinct active supplement powders. WPI appears twice; ALLHydrate also has the existing sauna addition.
+The table covers all ten distinct active supplement powders. WPI appears twice; ALLHydrate also has the existing sauna addition.
 
 | Protocol code | Selected product and retained dose | Capacity of one measure | Evidence status and annotation |
 | --- | --- | --- | --- |
-| M.0.2 | GymBeam Psyllium Husks, 7.5g | **15ml metric tablespoon** | Standard measuring spoon; approximate powder equivalence, not a supplied-scoop claim. `1tbsp (15ml)`. [Method](#psyllium-a-measuring-spoon-not-a-branded-scoop) |
+| M.0.2 | GymBeam Psyllium Husks, 2.5g during the PHGG trial | **5ml metric teaspoon** | Standard measuring spoon; weigh 2.5g. `1tsp (5ml)`. [Method](#psyllium-a-measuring-spoon-not-a-branded-scoop) |
+| E.0.1 | Kenay Sunfiber® AG (PHGG), 3g in week 1 then 6g/day if tolerated | **Weigh the dose** | Manufacturer: 7g = 2 full scoops; scoop volume is not established. Use one timing option only. [Label](https://kenay.com.pl/742-blonnik-sunfiber-ag-140-g-.html) |
 | M.0.4 / A.0.1 | HSN RawSeries 100% Whey Protein Isolate, Unflavored, 2kg; 30g Morning + 30g After Workout | **70ml** | Manufacturer panel: approximately 30g per scoop. Both entries: `1scoop (70ml)`. [Exact label](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) |
 | M.0.3 | MicroVitamin+ Unflavored v8, variant 50000745464093; 26g | **40ml** | User-reported 39cc, rounded for display. `1scoop (40ml)`. [Details](#microvitamin-scoop-capacity) |
 | B.0.3 | KFD Ultra Pure Joint Collagen, 300g; **13.33g — 4scoops** | **~10ml each**; ~5–15ml | Low confidence; FORTIGEL density proxy and explicit fill sensitivity. `13.33g — 4scoops (4x~10ml)`. [Calculation](#kfd-collagen-estimate) |
@@ -133,7 +134,7 @@ The prior image audit covered the official [2025](https://aliness.pl/wp-content/
 
 ### Psyllium: a measuring spoon, not a branded scoop
 
-GymBeam's [Polish instructions](https://gymbeam.pl/psyllium-husks-gymbeam.html) and [English instructions](https://gymbeam.com/psyllium-husks-gymbeam.html?tab=detail) agree on **5g per 2tsp**. Scaling this published mass/count relationship gives `7.5 / 5 x 2 = 3tsp`. With the [metric cooking convention](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies), three 5ml teaspoons occupy one 15ml tablespoon. The manufacturer does not specify a level/heaped convention, so the active entry is **`7.5g — 1tbsp (15ml)`**. The 7.5g remains a weighed target; this does not establish an exact 7.5g-per-15ml density or a supplied GymBeam scoop.
+GymBeam's [Polish instructions](https://gymbeam.pl/psyllium-husks-gymbeam.html) and [English instructions](https://gymbeam.com/psyllium-husks-gymbeam.html?tab=detail) agree on **5g per 2tsp**. Scaling this relationship to the PHGG trial's reduced standalone Psyllium gives `2.5 / 5 x 2 = 1tsp`, or 5ml under the [metric cooking convention](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies). The active entry is **`2.5g — 1tsp (5ml)`**. Keep 2.5g as the weighed target; the manufacturer does not define a level/heaped convention or establish an exact bulk density. MicroVitamin+ contributes the other 2.5g Psyllium. The former 7.5g standalone / 15ml tablespoon applies only outside this replacement trial.
 
 
 ## Retired scoop entry
@@ -171,6 +172,6 @@ The current manufacturer page describes a level scoop. The estimate does not est
 
 Annotations cover all active powders, repeated Diet entries, the ALLHydrate sauna addition and retired BULK. MicroVitamin+ uses the user's 39cc report, rounded to 40ml; the remaining estimated capacities retain their calculations and sensitivity ranges. No manufacturer contact or independent scoop measurement was performed.
 
-The earlier review's authorized doses remain **EAA 15g — 1scoop (25ml)** and **Collagen 13.33g — 4scoops (4x~10ml)**. Its reconciled amino-acid quantities, meal estimates, daily totals, Diet rotations and replacement notes are retained: After Workout 176kcal, Before Workout 120kcal and the reference day 2,417kcal with 195.8g dietary Protein, including 25.8g Collagen. The existing EAA allowance remains 60kcal. These updates change no powder doses, nutrient totals, timing, protocol product/BJ links or physical pillbox entries.
+The earlier review's authorized doses remain **EAA 15g — 1scoop (25ml)** and **Collagen 13.33g — 4scoops (4x~10ml)**. Its amino-acid quantities are retained: After Workout 176kcal, Before Workout 120kcal and 195.8g dietary Protein, including 25.8g Collagen. The existing EAA allowance remains 60kcal. During the PHGG trial, standalone Psyllium falls from 7.5g to 2.5g, with PHGG weighed at 3g in week 1 and then 6g/day if tolerated. At that target, README models the reference day at ~2,418kcal and reconciles Fiber, available Carbohydrate and Diet rotations. This powder-only trial does not change physical pillbox entries.
 
 [fortigel-spec]: https://www.dkshdiscover.com/medias/FORTIGEL-B-PD-Version-6-05-2018.pdf?attachment=true&context=bWFzdGVyfGJhY2tvZmZpY2VleGNlbGltcG9ydHw0ODkwNTl8YXBwbGljYXRpb24vcGRmfGFHTXpMMmd3TWk4NU1ESXhPREUxTVRZd09EWXlMMFpQVWxSSlIwVk1JRUpmVUVRZ0xTQldaWEp6YVc5dUlEWWdMU0F3TlMweU1ERTRMbkJrWmd8NzM0ZThiNjFlOGU0MjY0ZDAzOWQ0MTcyOWE1NDFhNmY3NWVlNGU2ZWI2YmFhNWZlMDIxOThhNjY3MGI4MWE4Mg
