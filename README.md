@@ -223,7 +223,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - Goals:
     - better lower abs with less fat
     - better posture and scapular positioning
-    - more lateral delt + upper lat emphasis
+    - more lateral delt + upper lat emphasis, with calf priority
     - slightly leaner (without shrinking)
 
 ---
@@ -233,7 +233,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Synergy: Chest Press + Lateral Raise.*
 - **Upper Chest**: Reverse Grip Smith Machine Press (or Tucked Elbow Incline Press): 12 × 50kg, 11 × 55kg, 10 × 60kg, 9 x 65kg *(Shoulder Pro-Tip: Press in scapular plane with elbows tucked at 30-45°; keep grip slightly wider than shoulder-width to prevent wrist strain)* 💪 ⏰ 🗿
 - **Chest Isolation**: Pec Deck Machine (Seated low-to-high if possible): 14 × 30kg, 12 × 35kg, 10 × 40kg, 8 × 50kg 🗿
-- **Side Delts**: Cable Lateral Raises (Behind the back): 15 × 7.5kg, 13 × 10kg, 12 × 12.5kg *(Use wrist cuffs to maximize lateral delt isolation & V-taper; Pro-Tip: Set pulley at hip/wrist height to overload the lateral delt in the stretched position)* 🗿
+- **Side Delts**: Cable Lateral Raises (Behind the back): 15 × 7.5kg, 13 × 10kg, 12 × 12.5kg + 1 back-off set of 12–20 reps *(Wrist cuffs; pulley at hip/wrist height; controlled, comfortable range)* 🗿
 - **Triceps**: Single Arm Cuff Pushdown (or V-bar): 15 × 15kg, 13 × 17.5kg, 12 × 20kg 🗿
 - **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 🗿
 - **Core**: Standing Cable Crunches: 20 × 25kg, 18 × 30kg, 16 × 35kg (Exhale fully on contraction; TVA focus: draw in, keep stomach flat, prevent coning, stop if midline ridge forms) 💪 🗿
@@ -250,6 +250,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Rear Delts**: Reverse Pec Deck: 20 × 23kg, 18 × 27kg, 15 × 32kg 💪 🗿
 - **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 14 x 6kg, 12 x 8kg, 10 x 10kg *(Light load, comfortable range; avoid painful arcs and uncomfortable pad pressure on the abdominal repair)* 🦴
 - **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
+- **Forearm symmetry**: Left side first; after the three sets per side, add 1 left-only back-off set of 15–20 reps at 1–2 reps in reserve.
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 16 × 12.5kg 🗿
 - **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
 - **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
@@ -257,12 +258,12 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ---
 
 #### **Wednesday: Legs (Glute/Hamstring Dominant)**
-*Focus: Hip strength and control, an athletic posterior chain, and physical function.*
+*Focus: Hip strength and control, calf development, and maintaining preferred thigh size.*
+*Calf setup: knees extended without hyperextension; comfortable ankle range, controlled lowering and no bouncing. Listed sets are per leg.*
 - **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Glute strength and hip-extension control. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes) 💪 🗿
 - **Hamstrings/Glutes**: Romanian Deadlift (RDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg (Slight knee bend; hinge hips back, keep Dumbbells close and spine neutral; use a controlled, comfortable range) 💪 ⏰ 🗿
 - **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)* 💪 ⏰ 🗿
 - **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 🗿
-- **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 10kg, 15 × 15kg, 15 × 20kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)* 💪 🗿
 - **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 14 × 110kg, 12 x 120kg, 10 x 130kg (Slow negative) 🗿
 - **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
@@ -1468,6 +1469,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ### Training replacements
 
+- **45° Back Extensions (3sets):** removed to reduce overlap with Hip Thrusts/RDLs while retaining six Wednesday calf sets with knee-extended execution. [Calf exercise-selection trial](https://journal.hep.com.cn/josisae/EN/10.1007/s42978-024-00299-4)
 - **Dumbbell Pullover (Cross-bench):** → Friday Lat Pulldowns to prioritize lat training. [Activation study](https://pubmed.ncbi.nlm.nih.gov/21975179/)
 
 ### Product replacements
