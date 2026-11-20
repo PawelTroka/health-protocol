@@ -26,17 +26,22 @@ class APIError(RuntimeError):
 
 def _request(provider, url, *, form=None):
     token = auth.access_token(provider)
-    try:
-        return auth._request_json(url, form=form, headers={"Authorization": f"Bearer {token}"}, retries=2)
-    except auth.HTTPStatusError as error:
-        if error.status != 401:
-            raise APIError(str(error), status=error.status) from None
-    # One explicit refresh on expired/revoked access; refresh itself never retries.
-    token = auth.access_token(provider, force_refresh=True)
-    try:
-        return auth._request_json(url, form=form, headers={"Authorization": f"Bearer {token}"}, retries=2)
-    except auth.HTTPStatusError as error:
-        raise APIError(str(error), status=error.status) from None
+    # Withings uses an application status inside its HTTP 200 JSON response:
+    # https://developer.withings.com/api-reference/#section/Response-Status
+    # Both authentication signals share one refresh; token rotation never retries.
+    for refreshed in (False, True):
+        if refreshed:
+            token = auth.access_token(provider, force_refresh=True)
+        try:
+            payload = auth._request_json(url, form=form, headers={"Authorization": f"Bearer {token}"}, retries=2)
+        except auth.HTTPStatusError as error:
+            failure = APIError(str(error), status=error.status)
+        else:
+            if not (provider == "withings" and type(payload.get("status")) is int and payload["status"] == 401):
+                return payload
+            failure = APIError("Withings authentication failed (API status 401).", status=401)
+        if refreshed or failure.status != 401:
+            raise failure from None
 
 
 def _rows(value, key):

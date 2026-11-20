@@ -403,6 +403,72 @@ class APITests(unittest.TestCase):
         self.assertEqual(token.call_args_list[1].kwargs, {"force_refresh": True})
         self.assertEqual(request.call_args_list[1].kwargs["headers"]["Authorization"], "Bearer new")
 
+    def test_withings_body_401_refreshes_and_resumes_the_same_page(self):
+        pages = [{"status": 0, "body": {"measuregrps": [{"grpid": 1}], "more": 1, "offset": 200}},
+                 {"status": 401, "error": "private provider details"},
+                 {"status": 0, "body": {"measuregrps": [{"grpid": 2}], "more": 0}}]
+        captured = []
+
+        def request(url, **kwargs):
+            captured.append((url, deepcopy(kwargs)))
+            return pages.pop(0)
+
+        with patch.object(auth, "access_token", side_effect=["old", "old", "new"]) as token, \
+             patch.object(auth, "_request_json", side_effect=request):
+            result = api._withings_measure(date(2026, 9, 1), date(2026, 9, 2))
+
+        self.assertEqual(result, {"measuregrps": [{"grpid": 1}, {"grpid": 2}]})
+        self.assertEqual(token.call_count, 3)
+        self.assertEqual(token.call_args_list[-1].args, ("withings",))
+        self.assertEqual(token.call_args_list[-1].kwargs, {"force_refresh": True})
+        self.assertEqual(len(captured), 3)
+        self.assertNotIn("offset", captured[0][1]["form"])
+        self.assertEqual(captured[1][0], captured[2][0])
+        self.assertEqual(captured[1][1]["form"], captured[2][1]["form"])
+        self.assertEqual(captured[2][1]["form"]["offset"], 200)
+        self.assertEqual(captured[1][1]["headers"]["Authorization"], "Bearer old")
+        self.assertEqual(captured[2][1]["headers"]["Authorization"], "Bearer new")
+
+    def test_withings_auth_failures_share_one_refresh_limit(self):
+        body_error = {"status": 401, "error": "private provider details"}
+        for first in (body_error, auth.HTTPStatusError(401)):
+            for second in (body_error, auth.HTTPStatusError(401)):
+                with self.subTest(first=type(first), second=type(second)), \
+                     patch.object(auth, "access_token", side_effect=["old", "new"]) as token, \
+                     patch.object(auth, "_request_json", side_effect=[first, second]) as request:
+                    with self.assertRaises(api.APIError) as raised:
+                        api._request("withings", "https://wbsapi.withings.net/measure", form={"action": "getmeas"})
+                    self.assertEqual(raised.exception.status, 401)
+                    self.assertNotIn("private", str(raised.exception))
+                    self.assertEqual(token.call_count, 2)
+                    self.assertEqual(token.call_args_list[-1].kwargs, {"force_refresh": True})
+                    self.assertEqual(request.call_count, 2)
+
+    def test_withings_non_authentication_and_malformed_statuses_never_refresh(self):
+        for status in (214, 277, 400, 403, 404, 601, "401", 401.0, True, None):
+            with self.subTest(status=status), patch.object(auth, "access_token", return_value="old") as token, \
+                 patch.object(auth, "_request_json", return_value={"status": status, "error": "private"}) as request:
+                with self.assertRaises(api.APIError):
+                    api._withings_measure(date(2026, 9, 1), date(2026, 9, 2))
+            token.assert_called_once_with("withings")
+            self.assertEqual(request.call_count, 1)
+
+    def test_withings_body_401_does_not_replay_when_refresh_fails(self):
+        with patch.object(auth, "access_token", side_effect=["old", auth.AuthError("Authorize locally")]) as token, \
+             patch.object(auth, "_request_json", return_value={"status": 401}) as request:
+            with self.assertRaises(auth.AuthError):
+                api._request("withings", "https://wbsapi.withings.net/measure", form={"action": "getmeas"})
+        self.assertEqual(token.call_count, 2)
+        self.assertEqual(request.call_count, 1)
+
+    def test_withings_body_status_semantics_are_not_applied_to_oura(self):
+        payload = {"status": 401, "data": []}
+        with patch.object(auth, "access_token", return_value="old") as token, \
+             patch.object(auth, "_request_json", return_value=payload) as request:
+            self.assertEqual(api._request("oura", "https://api.ouraring.com/test"), payload)
+        token.assert_called_once_with("oura")
+        self.assertEqual(request.call_count, 1)
+
     def test_invalid_fetch_ranges_fail_before_network(self):
         with patch.object(api, "_request") as request:
             for start, end in [(date(2026, 9, 6), date(2026, 7, 1)), ("2026-07-01", date(2026, 9, 6)),
