@@ -165,11 +165,11 @@ PAGES = [
             item("M.8", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
                 "M.9",
-                "Lion's Mane Fruiting-Body Extract",
-                "500 mg",
-                icons="🧠 🛡️ 🔄",
-                note="Beta-(1,3)(1,6)-Glucans 300 mg (30%)",
-                same_slot_count=2,
+                "Bacopa monnieri Whole-Plant Extract (Synapsa®)",
+                "320mg",
+                icons="🧠 😌",
+                note="ONLY AFTER THYROID/MEDICINE REVIEW • 12-week trial • 55% Bacosides (UV)",
+                kind="warning",
             ),
         ],
     },
@@ -657,7 +657,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
