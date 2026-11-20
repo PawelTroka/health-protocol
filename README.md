@@ -324,7 +324,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 *Turkey + Salmon + Kefir day at 80kg: 2,417kcal · P196g · C152g · F88g · Fiber43–46g.*
 
-**Protein:** 170g without Collagen (2.13g/kg), plus 25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
+*P / C / F: Protein / available Carbohydrate / Fat. [Protein breakdown](#totals) · [Calculation & weighing](#diet-calculation).*
 
 
 **Food forms:** fresh or plain frozen Vegetables, prepared as listed; Pulses cooked from dried. The existing Sardine and Mackerel options are the only canned-food exceptions.
@@ -335,7 +335,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 **Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 75g Mushrooms, 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Variety accumulates across the week; every alternative need not be bought or eaten.
 
-> **GI fit:** 43–46g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
+> **GI fit:** use tolerated portions and build Pulses gradually. [Adjustments](#-gi-options--personalize-portions).
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
 *474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
@@ -367,6 +367,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🍽️ Lunch (1pm — Lean Protein, Training Fuel & Colorful Plants)
 *567kcal · P47.6g · C46.7g · F17.7g · Fiber15.3g*
+
 *Weigh Turkey and thawed Pollock raw (exclude glaze), starch after preparation, steamed Vegetables after preparation, Mushrooms/Sprouts before steaming, and raw Vegetables/Microgreens/Berries as eaten.*
 - 🥩 **Lean Protein — CHOOSE ONE**
   - [x] 150g [organic pasture-raised Turkey tenderloins](https://allegro.pl/oferta/poledwiczka-z-indyka-eko-500-g-18514942496) 🛡️ 🗿 💪 🪶
@@ -482,6 +483,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — Recovery, Leafy Greens & Whole Fruit)
 *888kcal · P53g · C55.6g · F47.4g · Fiber12–13g*
+
 *Weigh Salmon, Eggs (without shells), Tomatoes, Okra, Asparagus and peeled Celeriac raw; starch after preparation; remaining cooked Vegetables after preparation; Fruit, Nuts, Seeds and Fermented foods as eaten.*
 - 🐟 **Fatty Protein — CHOOSE ONE**
   - [x] 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🛡️ ⏰ 🗿 🍆 🧠 ❤️ 👁️ 🪶
