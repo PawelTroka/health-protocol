@@ -56,6 +56,7 @@ TIER_BY_CODE = {
     "M.4": "🥈",
     "M.5": "🥈",
     "M.6": "🥈",
+    "M.7": "🥉",
     "M.8": "🥈",
     "M.9": "🥈",
     "M.10": "🥉",
@@ -89,7 +90,7 @@ TIER_BY_CODE = {
     "E.9": "🥈",
     "E.10": "🥈",
     "E.11": "🥈",
-    "E.12": "🥈",
+    "E.12": "🥉",
     "E.13": "🥈",
     "E.15": "🥉",
     "E.16": "🥉",
@@ -161,7 +162,7 @@ PAGES = [
             ),
             item("M.5", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡ 🔄"),
             item("M.6", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡ 🔄"),
-            empty("M.7"),
+            item("M.7", "Magnesium L-Threonate Magtein®", "1g (Magnesium 72mg)", icons="🧠", note="ONLY AFTER Magnesium review • 6-week trial • no Glycinate", kind="warning"),
             item("M.8", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
                 "M.9",
@@ -298,7 +299,7 @@ PAGES = [
         "cells": [
             item("E.10", "Glycine", "1g", icons="😴 🧠"),
             item("E.11", "Berberine HCl", "490 mg", icons="🩸 🚽"),
-            item("E.12", "Magnesium (Glycinate)", "133.3 mg", icons="💪 🧠 ❤️ 🦴"),
+            item("E.12", "Magnesium L-Threonate Magtein®", "1g (Magnesium 72mg)", icons="🧠", note="ONLY AFTER Magnesium review • same 6-week trial • ~2h before sleep • no Glycinate", kind="warning"),
             item("E.13", "Milk Thistle", "380 mg", icons="🛡️ 🚽 🔄"),
             empty("E.14"),
             item("E.15", "GABA", "250 mg", icons="😴 😌 🔄", note="Magnesium citrate 20 mg"),
@@ -657,7 +658,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
