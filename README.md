@@ -140,6 +140,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - *(Optional)* **[Intestinal Microflora Assessment](https://www.alab.pl/pakiet/ocena-mikroflory-jelitowej)**: Organix Gastro (organic acids) & Glyphosate Level in urine 🦠 🚽 🛡️
 
 #### Stool
+
+Follow the [GI test preparation notes](#gi-test-preparation) before collection.
+
 - **[General analysis](https://www.alab.pl/badanie/kal-badanie-ogolne-i-ocena-resztek-pokarmowych-a23)**: Stool analysis and food residue assessment 🚽 🦠
 - **[Fecal Occult Blood](https://www.alab.pl/badanie/wykryw-krwi-utaj-w-kale-met-immunochemiczna-a17)**: Fecal Occult Blood Test (FOBT) - Immunochemical Method 🚽 🛡️ 🩸
 - **[Intestinal Inflammation](https://www.alab.pl/pakiet/pakiet-stanu-zapalnego-jelit)**: Beta-defensins, EPX (Eosinophil Protein X), Alpha-1-antitrypsin, Secretory sIgA, Calprotectin in stool 🦠 🔥 🛡️
@@ -1356,6 +1359,11 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Liver/bleeding:** after the Curcumin change, recheck ALT/AST/ALP/GGT and Total/Direct Bilirubin at 6–8 weeks; Milk Thistle follow-up is 8–12 weeks. Stop Curcumin and seek review for jaundice, dark urine, marked fatigue, persistent nausea or abdominal pain. Review unusual bruising/bleeding and disclose Garlic/Curcumin/Ginger/Omega-3 before surgery or with anticoagulants, Aspirin or NSAIDs. [Curcumin Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury) [Garlic safety](https://www.nccih.nih.gov/health/garlic)
 - **Astaxanthin / M.13:** Double Wood AstaReal® supplies 12mg active Astaxanthin in 1 oil softgel with Breakfast. **Choose this 12mg routine OR the separate 24mg four-week trial; never combine them.** Public 2026 testing includes Double Wood and reports that selected products met their labeled amounts; match the purchased lot rather than assuming every lot was independently tested. Small human trials support possible Skin/recovery benefits; a direct dose comparison did not establish extra functional benefit at 24mg. Assess consistent Skin photos after 12–16 weeks and comparable post-workout soreness; stop for new persistent adverse effects. The EU authorized supplement level is 8mg/day; 12mg exceeds it. The separate all-source ADI is 16mg/day at 80kg, with food and product overfill still extra; neither figure is an acute-toxicity threshold. [Dose comparison](https://doi.org/10.1016/j.scispo.2025.06.003) · [Testing](https://www.consumerlab.com/reviews/astaxanthin-supplements-review/astaxanthin/) · [EFSA](https://doi.org/10.2903/j.efsa.2020.5993) · [EU use conditions](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02017R2470-20260810)
 - **Other minerals:** recheck 25-OH Vitamin D and Calcium 8–12 weeks after the CaAKG change. Verify food Iodine inputs and the repeat thyroid assessment before adding Iodine. July Ferritin 42ng/ml/estimated TSAT ~30% and September Hemoglobin 15.3g/dl do not establish an Iron-pill indication. Do not add Potassium Salt by default; review with Kidney impairment or ACE-inhibitor/ARB/Potassium-sparing-diuretic use. [Iodine guidance](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) [Iron assessment](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/medical-supplements2/iron/how-and-when-do-i-use-it)
+
+### GI test preparation
+
+- **H. pylori stool antigen:** plan collection with the prescriber/laboratory to reduce false negatives: at least 2 weeks off PPIs and 4 weeks after Antibiotics/Bismuth. A test of cure is also at least 4 weeks after eradication treatment. Agree any medicine hold first; if a pause is unsuitable, arrange an alternative testing plan. [Polish Society of Gastroenterology recommendations](https://pmc.ncbi.nlm.nih.gov/articles/PMC10626381/)
+- **Celiac serology (Blood):** keep usual Gluten intake until diagnostic testing is complete. If already restricting Gluten, discuss a testing plan before changing intake; do not start a challenge independently. Restriction can make results misleading. [NIDDK diagnostic guidance](https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis)
 
 ### Skin & teeth
 
