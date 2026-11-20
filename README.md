@@ -322,7 +322,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Protein-sparing Mediterranean Caloric-Restriction diet
 
-*Turkey + Salmon + Kefir day at 80kg: 2,417kcal · P196g · C152g · F88g · Fiber43–46g.*
+*Turkey + Salmon + Kefir day at 80kg: 2,412kcal · P196g · C152g · F88g · Fiber43–46g.*
 
 **Protein:** 170g without Collagen (2.13g/kg), plus 25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
 
@@ -789,7 +789,8 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - **E.14** (empty)
 - 🥉 **E.15** [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256) 😴 😌 🔄
   - GABA 250mg; Magnesium (Citrate) 20mg<sup>E.12</sup>
-- 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 🧠 😌 🩸
+- **E.16** (empty)
+- **E.17** (empty)
 - 🥉 **E.18** [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924) 😴 😌
 
 ## 6. Looksmaxxing
@@ -1143,14 +1144,14 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 | Daily intake | Estimate |
 | --- | --- |
-| Energy | 2,417kcal |
+| Energy | 2,412kcal |
 | Protein | 195.8g, including 25.8g Collagen |
 | Protein without Collagen | 170g / 2.13g/kg |
 | Available Carbohydrate | 152.2g |
 | Fat | 88.1g |
 | Fiber | 42.8–45.8g |
 
-EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 474 + Lunch 567 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 176 + Dinner 888 + other supplements 27kcal.
+EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 474 + Lunch 567 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 176 + Dinner 888 + other supplements ~22kcal (L.16 Phosphatidylserine 10kcal + free Glycine 3g ~12kcal). The inherited ~5kcal Inositol allowance is removed; Available Carbohydrate is unchanged because the meal tally did not separately include it.
 
 #### Diet rotations
 
@@ -1158,9 +1159,9 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 
 | Change | Daily kcal | Protein without Collagen | Available Carbohydrate | Fat |
 | --- | --- | --- | --- | --- |
-| Skyr 200g instead of Kefir 400g | 2,349 | 175.6g | 143.2g | 82.1g |
-| Tempeh 200g instead of Salmon 150g | 2,476 | 178.1g | 159.2g | 83.2g |
-| Eggs 200g instead of Salmon 150g | 2,410 | 166.1g | 152.8g | 88.6g |
+| Skyr 200g instead of Kefir 400g | 2,344 | 175.6g | 143.2g | 82.1g |
+| Tempeh 200g instead of Salmon 150g | 2,471 | 178.1g | 159.2g | 83.2g |
+| Eggs 200g instead of Salmon 150g | 2,405 | 166.1g | 152.8g | 88.6g |
 
 - **Replacing Kefir:** Sauerkraut 100g removes 155kcal/11.5g Protein; Kimchi 75g removes 150kcal/11.1g Protein; skipping it removes 172kcal/12.4g Protein. An extra 50g raw Turkey supplies 12.7g Protein/57kcal if replacing the lost Protein.
 - **Lunch Protein:** compared with Turkey 150g, Pollock 200g supplies 4g less Protein, Mussels 150g supplies 14g less and Shrimps 180g supplies 11g less. Matching the Turkey serving takes about 240g cooked Mussels or 255g raw Shrimps; recalculate the meal, including Mussels' higher Salt.
@@ -1509,6 +1510,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **BCAA:** food, WPI and the complete EAA serving already supply them; no established extra muscle benefit. [Training trial](https://pubmed.ncbi.nlm.nih.gov/24620007/)
 - **Proferrin 20mg:** not used without confirmed Iron deficiency.
 - **Lactobacillus acidophilus (4bln CFU)** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — removed in favor of the selected 35624® and Gastrus® strains.
+- **2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342):** pause routine 2g/day; compare sleep, mood and next-day function over 4 weeks with other interventions stable. The small [pregnancy sleep trial](https://pubmed.ncbi.nlm.nih.gov/32933356/) and the [12g/day panic trial](https://pubmed.ncbi.nlm.nih.gov/7793450/) do not establish benefit from this routine here. Reconsider if a meaningful personal benefit is reproducibly lost.
 - **[Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450):** removed from permanent daily use for the current IBS pattern. Retain as a situational medicine for diarrhea when indicated. [IBS evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC12898053/) · [Enterol indications](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/7890/characteristic)
 
 ### Tolerance & safety concerns
