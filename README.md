@@ -694,7 +694,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - **L.1.1** [Ezetimibe 10mg](https://www.mp.pl/pacjent/leki/lek/93836,Ezoleta-tabletki) ❤️ 🩸 ⚕️
 - **L.1.2** [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 ❤️ 🫀 🍅 ⚕️
 - 🥇 **L.2-3** 2x [Omega 3 690mg EPA 310mg DHA](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) (non-Fatty-Fish days only) 🧠 ❤️ 👁️ 🔥 🔄
-- **L.4** (empty)
+- 🥈 **L.4** [Alpha-Galactosidase (BeanAssist®) 300GalU](https://www.biomed24.pl/beanassist-30-kaps.html) (1capsule with a symptom-triggering legume meal only) 🚽
 - 🥈 **L.5** [Sodium Butyrate 500mg (Butyric acid 400mg)](https://gemini.pl/debutir-max-60-kapsulek-9086424) 🦠 🧠 🛡️ ⏰
 - 🥈 **L.6-7** 2x [Cocoa Flavanols 250mg](https://onepure.ee/en/products/cocoa-flavanols) ❤️ 🧠 🛡️
 - **L.8** (empty)
@@ -1320,6 +1320,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 #### Gut & metabolic support
 
+- **Alpha-Galactosidase / L.4:** take 1capsule with the first bites of a legume meal that reproducibly causes gas/bloating; skip when there is no trigger. This is an occasional meal tool, not an automatic daily pill. Test 3–4 comparable meals at the usual tolerated portion, recording bloating and pain; retain only for repeatable benefit. A small crossover trial found benefit from 300GalU in GOS-sensitive IBS, whereas a mixed-carbohydrate meal trial was negative. It targets Galacto-Oligosaccharides, not Lactose, Fructans, Gluten or every cause of IBS. BeanAssist® provides the relevant enzyme activity in one capsule; enzyme activity, rather than ingredient mass, defines this dose. Polish retail is listed. [Label](https://enzymedica.com/products/beanassist-gas-bloating) [GOS trial](https://pubmed.ncbi.nlm.nih.gov/28809383/) [Negative mixed-meal trial](https://onlinelibrary.wiley.com/doi/full/10.1111/nmo.14094)
 - **Probiotics / M.1/M.2/E.3:** B. longum 35624® is the former B. infantis 35624 name. Gastrus® provides 400mln CFU/day across its two strains combined, not that amount per strain. Keep each for a measurable symptom response; the Gastrus® trial showed improvement around week 6. [Strain identity](https://www.symbiosys.pl/symbiosys-alflorex-46225.html) [Gastrus® trial](https://pubmed.ncbi.nlm.nih.gov/41821785/)
 - **Butyrate / L.5/E.4:** 1g Sodium Butyrate supplies ~790mg Butyrate Ion (~800mg Butyric Acid equivalent). Debutir MAX's newer release system differs from the Forte used in the UC trial; clinical superiority is unproven. For IBD it remains an adjunct, with response assessed through symptoms and Calprotectin. [MAX label](https://polpharma.pl/produkty/debutir-max-500-mg-x-60-kaps/) [UC trial](https://pubmed.ncbi.nlm.nih.gov/41422374/)
 - **Berberine / L.14/E.11:** 500mg extract at 98% supplies 490mg HCl per capsule, 980mg/day. Published contaminant/microbiology reports do not verify potency. Assess the added value against the existing metabolic results. [Product and reports](https://bmpharma.pl/products/berberine)
