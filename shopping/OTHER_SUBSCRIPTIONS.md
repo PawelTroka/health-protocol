@@ -2,7 +2,16 @@
 
 **Checked: 2026-11-08.** Scope: the consumable products in the canonical [Looksmaxxing](../README.md#6-looksmaxxing), [Environment](../README.md#8-environment), hygiene, laundry and dishwasher sections. The food, swallowed supplements and nutritional powders are separate shopping workstreams. Alternative products in an `or` list remain alternatives; this is not a basket containing all of them.
 
-**Protocol alignment — main `ecc769f`:** the [current oral-care protocol](../README.md#oral-health--teethmaxxing) selects ApaCare OraLactin Liquid for normal care. Its row below carries that selection forward; the Listerine row is retained as historical research only. Prices, stock and subscription terms have not been rechecked during this rebase; the original audit date remains applicable.
+**Protocol alignment — main `5a09350`,20November2026:** preserve OraLactin normal care, the current weekly Adapalene0.1% or Tretinoin0.025% choice, and the newer Theramid/Dermallergo/CeraVe/Sonett sources in the README. The dated table retains older alternative quotes, not instructions to reverse those repairs. Only the direct dm colour-powder listing and Bioshi confirmation rule were rechecked here; the other prices/stock/renewal terms remain the8November snapshot.
+
+### Current source references
+
+These exact links are already selected on main; the older rows below remain dated comparison material. No price is inferred from another retailer or pack.
+
+- [Theramid Copper Peptide3% — manufacturer](https://nichebeautylab.com/en/products/copper-peptide).
+- [Dermallergo Eyes20ml — Gemini](https://gemini.pl/la-roche-posay-toleriane-dermallergo-okolice-oczu-regenerujaca-pielegnacja-nawilzajaca-20-ml-0090968).
+- [CeraVe Moisturizing Lotion1000ml — Mollo](https://mollo.pl/cerave-emulsja-nawilzajaca-do-twarzy-i-ciala-skora-sucha-1000ml-57455-p).
+- [Sonett descaler1l — Ecosplendo](https://www.ecosplendo.pl/sonett/odkamieniacz-1).
 
 ## Buying decision
 
@@ -77,7 +86,7 @@ The linked SKU is the purchase identity to preserve. A price from a category lis
 | [Theramid Copper Peptide 3%, 30 ml](https://drogeriadrzdrowie.pl/pl/p/Theramid-Copper-Peptide-3-terapia-przeciwstarzeniowa-z-peptydami-miedzi-3-30ml/77444) | Latest accessible [retailer listing](https://drogeriadrzdrowie.pl/pl_PL/c/VIRAL/1689) 189 PLN; 630 PLN/100 ml. | Exact page blocked on fresh fetch; recent category has `Do koszyka`. Earlier 191.25 PLN indexed price is stale. EAN 8436585434794. | Manual; no exact automatic route verified. Preserve 3% finished Theramid formula; no substitution with a cheaper copper-peptide serum of unknown concentration. |
 | [LRP Anthelios UVMune 400 Invisible Fluid SPF 50+, 50 ml](https://mollo.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml-51416-p) | Current price/stock not verified. | Original Lek24 URL redirects to this exact Mollo identity. | Manual. Liki's subscription card was **tinted** 50 ml, not Invisible Fluid. Do not use that price or the moisturizing cream's price as the comparator. |
 | [Differin adapalene 0.1% cream 15 g](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) | Pharmacy price/availability subject to a valid prescription; no verified current quote. | Prescription route preserved. | Manual pharmacy dispensing. Keep cream vs gel and 0.1% exact; no prescription change. |
-| Tretinoin 0.05–0.1%, alternative | No finished product/pack specified; price cannot be normalized. | Prescriber/pharmacy selection required. | Manual; do not invent a foreign direct-mail SKU or an automatic replacement for adapalene. |
+| Tretinoin0.025%, weekly alternative | No current finished-product/pack quote collected. | Current README concentration; prescriber/pharmacy selection required. | Manual; retain the existing Adapalene0.1% alternative. Older0.05–0.1% shopping wording is superseded, not a dose recommendation. |
 | [APIS Lifting Peptide SNAP-8 cream 100 ml](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) | 40.44 PLN; 40.44 PLN/100 ml. | Product offer displayed 94 units; latest indexed quote, recheck seller price. | Manual, optional. Preserve cream, not similarly named mask or a claim of injectable-like effects. |
 | [The Ordinary AHA 30% + BHA 2%, 30 ml, Douglas](https://www.douglas.pl/pl/p/3001043635) | 45.99 PLN; 153.30 PLN/100 ml. | Current public price. 29 PLN is the historical 30-day low, **not** today's price. | Manual, optional monthly use unchanged. Manufacturer autoship is US-only; do not buy more frequently because the site offers subscriptions elsewhere. |
 | [LRP Cicaplast Lèvres 7.5 ml, Dr.Max](https://www.drmax.pl/la-roche-posay-cicaplast-barierowy-balsam-do-ust-o-dzialaniu-regenerujacym-7-5-ml-100002958) | 37.99 PLN; 506.53 PLN/100 ml. | Available; older 25.56 PLN search price superseded. [Apteline](https://apteline.pl/la-roche-posay-cicaplast-levres-balsam-do-ust-7-5-ml) listed 30.99 PLN is a lower lead pending fresh confirmation. | Manual; no exact Polish subscription verified. Cicaplast Baume B5+ body balm is not Lèvres. |
