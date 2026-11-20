@@ -64,6 +64,7 @@ TIER_BY_CODE = {
     "M.14": "🥉",
     "M.15": "🥉",
     "M.16": "🥉",
+    "M.17": "🥉",
     "M.18": "🥉",
     "L.2": "🥇",
     "L.3": "🥇",
@@ -202,7 +203,7 @@ PAGES = [
                 "1g",
                 icons="🧠 ❤️ 🔄",
             ),
-            empty("M.17"),
+            item("M.17", "Tetraselmis chuii (TetraSOD®)", "25mg", icons="💪 🔄", note="SOD activity 750IU • Vitamin C 80mg"),
             item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons="⏰ 🧠"),
         ],
     },
@@ -657,7 +658,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
