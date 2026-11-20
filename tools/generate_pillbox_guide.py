@@ -82,7 +82,8 @@ TIER_BY_CODE = {
     "L.18": "🥉",
     "E.3": "🥈",
     "E.4": "🥈",
-    "E.5": "🥈",
+    "E.5.1": "🥈",
+    "E.5.2": "🥈",
     "E.6": "🥈",
     "E.7": "🥈",
     "E.8": "🥈",
@@ -283,7 +284,15 @@ PAGES = [
                 note="Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475",
             ),
             item("E.4", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
-            item("E.5", "Melatonin + Botanical Extract Blend", "1 mg", icons="😴 😌", note="Passionflower • lemon balm • hops • saffron • Vitamin B6"),
+            {
+                "code": "E.5",
+                "name": "SAFFRON + MELATONIN",
+                "kind": "shared",
+                "parts": [
+                    item("E.5.1", "Saffron Stigma Extract Affron®", "28mg", icons="😴 😌 🧠", note="Lepticrosalides® 1mg (3.5%)"),
+                    item("E.5.2", "Melatonin", "1mg", icons="😴 ⏰"),
+                ],
+            },
             item("E.6", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
             item("E.7", "Ashwagandha KSM-66", "500 mg", icons="😌 😴", note="Withanolides 25 mg"),
             item("E.8", "Glycine", "1g", icons="😴 🧠"),
@@ -542,13 +551,16 @@ def fill_shared_cell(cell, data, accent_key):
     cell.text = ""
     cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
     set_cell_margins(cell, top=75, start=70, bottom=65, end=70)
-    shade(cell, COLORS["rx_fill"])
-    set_cell_borders(cell, COLORS["rx"], "11")
+    is_prescription = any(part.get("kind") == "rx" for part in data["parts"])
+    accent = COLORS["rx"] if is_prescription else COLORS[accent_key]
+    fill = COLORS["rx_fill"] if is_prescription else COLORS[f"{accent_key}_fill"]
+    shade(cell, fill)
+    set_cell_borders(cell, accent, "11")
 
     p = cell.paragraphs[0]
     compact_paragraph(p, after=1)
     run = p.add_run(data["code"])
-    set_repeatable_font(run, 9.5, bold=True, color=COLORS["rx"])
+    set_repeatable_font(run, 9.5, bold=True, color=accent)
 
     nested = cell.add_table(rows=1, cols=2)
     nested.alignment = WD_TABLE_ALIGNMENT.CENTER
@@ -657,7 +669,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
