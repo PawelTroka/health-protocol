@@ -1007,11 +1007,11 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Influenza (Flu)	(every autumn)
 - COVID‑19	(3doses) ✅
 - Tick‑borne encephalitis (TBE) (3doses, then every 4 years)
-- Japanese Encephalitis	(3doses, then every 10 years)
+- Japanese Encephalitis (IXIARO: 2doses, then [boosters according to exposure](#travel-vaccine-schedules))
 - Meningococcal ACWY (every 5 years)
 - Meningococcal B (2doses)
 - Varicella	(2doses if no history of chickenpox) ✅
-- Yellow Fever	(every 10 years, next 2029-08-21) ✅
+- Yellow Fever (no routine booster; [certificate & exceptions](#travel-vaccine-schedules)) ✅
 - Rabies (3doses)
 - Shingles (Herpes Zoster, Shingrix) (2doses when 50+ years old)
 - Pneumococcal (PCV20 (Prevnar 20)) (1dose when 65+ years old)
@@ -1379,6 +1379,11 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - After acidic intake, rinse and wait about 1 hour before brushing. [Dental care](https://www.mouthhealthy.org/all-topics-a-z/dietary-acids-and-your-teeth)
 - **Chlorhexidine exception:** do not rinse it away immediately; follow the dentist/product instructions. Tea can worsen its staining. [Use instructions](https://medlineplus.gov/druginfo/meds/a625015.html) [Interaction information](https://www.medicines.org.uk/emc/product/529/smpc)
 - Bonding does not whiten predictably like natural teeth. Follow treatment-specific instructions and ask about cleaning/polishing persistent stains; a universal strict white-food diet is unsupported. [ADA](https://www.ada.org/resources/ada-library/oral-health-topics/whitening) [Clinical review](https://pubmed.ncbi.nlm.nih.gov/39557282/)
+
+### Travel vaccine schedules
+
+- **Japanese Encephalitis / IXIARO:** for adults 18–65, the primary course is 2doses on days 0/28 (0/7 if an accelerated course is selected), completed ≥1 week before exposure. With continued or renewed risk, the first booster is 12–24 months after the primary course (month 12 for continuous risk); the second is 10 years after the first booster, before further exposure. Confirm product and recorded dose dates with the travel clinic before scheduling. [EMA](https://www.ema.europa.eu/en/medicines/human/EPAR/ixiaro) · [Product information](https://www.medicines.org.uk/emc/product/6534/smpc).
+- **Yellow Fever:** a correctly completed international certificate after a standard full dose remains valid for life. Keep the certificate; a routine 10-year booster is unnecessary. A travel clinician may recommend another dose for specific medical circumstances or higher-risk travel ≥10 years after vaccination. Certificate validity and individual booster decisions are separate. [WHO](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON610) · [CDC Yellow Book](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html).
 
 ### Shopping
 
