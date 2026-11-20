@@ -996,17 +996,20 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - **Persistent limescale:** correct softener settings first. Use [Sonett 1l](https://www.ecosplendo.pl/sonett/odkamieniacz-1) in an empty machine only if its manual permits; follow the label and never mix cleaners.
 
 ## 9. Vaccines
+
+✅ marks recorded completion. Review actual products, dose dates and current indications before booking. [Schedule details](#vaccination-schedules).
+
 - Tuberculosis (BCG)	(given in childhood) ✅
 - Haemophilus influenzae type b (Hib) (given in childhood) ✅
 - Diphtheria‑Pertussis-Tetanus-Polio (dTpa-IPV) (every 10 years, next 2029-08-21) ✅
-- Measles‑Mumps‑Rubella (MMR)	(once)
+- Measles‑Mumps‑Rubella (MMR)	(complete 2doses if needed; ≥4 weeks apart)
 - Hepatitis A	(2doses) ✅
 - Hepatitis B	(3doses)
 - HPV (Gardasil 9)	(3doses)
 - Typhoid (Typhim VI) (every 3 years, next 2028-10-22) ✅
 - Influenza (Flu)	(every autumn)
-- COVID‑19	(3doses) ✅
-- Tick‑borne encephalitis (TBE) (3doses, then every 4 years)
+- COVID‑19	(3doses recorded; review the current season's dose) ✅
+- Tick‑borne encephalitis (TBE) (3doses; boosters by product, age and completed course)
 - Japanese Encephalitis (IXIARO: 2doses, then [boosters according to exposure](#travel-vaccine-schedules))
 - Meningococcal ACWY (every 5 years)
 - Meningococcal B (2doses)
@@ -1379,6 +1382,13 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - After acidic intake, rinse and wait about 1 hour before brushing. [Dental care](https://www.mouthhealthy.org/all-topics-a-z/dietary-acids-and-your-teeth)
 - **Chlorhexidine exception:** do not rinse it away immediately; follow the dentist/product instructions. Tea can worsen its staining. [Use instructions](https://medlineplus.gov/druginfo/meds/a625015.html) [Interaction information](https://www.medicines.org.uk/emc/product/529/smpc)
 - Bonding does not whiten predictably like natural teeth. Follow treatment-specific instructions and ask about cleaning/polishing persistent stains; a universal strict white-food diet is unsupported. [ADA](https://www.ada.org/resources/ada-library/oral-health-topics/whitening) [Clinical review](https://pubmed.ncbi.nlm.nih.gov/39557282/)
+
+### Vaccination schedules
+
+- **Records:** keep the original vaccination record/IKP entries and international certificate. A missing ✅ means status is not established here; do not infer vaccination from year of birth. Confirm catch-up and travel indications with the vaccination provider.
+- **MMR:** review vaccination records or other accepted evidence of immunity before catch-up. With 1 documented prior MMR dose, only the missing second dose is needed. [PZH adult catch-up guidance](https://szczepienia.pzh.gov.pl/wp-content/uploads/2024/04/szczepienia_doroslych_pacjent_FINAL.pdf)
+- **TBE:** use the actual product/course. [FSME-IMMUN](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16072/characteristic), ages 16–59: first booster 3 years after the third dose, then every 5 years. [Encepur Adults](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/19267/characteristic), ages 12–49: first booster after 3 years for the conventional course or 12–18 months for the express course (days 0/7/21), then every 5–10 years as selected by the clinician. Check the product's shorter intervals at older ages.
+- **COVID-19:** review dates, recent infection and personal risk against [Polish 2026/27 guidance](https://www.gov.pl/web/zdrowie/komunikat-nr-39-ministra-zdrowia-w-sprawie-realizacji-szczepien-przeciw-covid-19-w-sezonie-20262028), refreshing the guidance for later seasons.
 
 ### Travel vaccine schedules
 
