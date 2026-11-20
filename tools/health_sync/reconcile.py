@@ -79,6 +79,11 @@ def _complete_endpoints(fetch_status, providers, start, end):
                 endpoint = None
             if endpoint is not None and status.get("status") == "complete":
                 complete.add((provider, endpoint))
+    # Sampled daily HRV needs sleep/get samples matched to completed getsummary
+    # intervals. A successful sample fetch alone cannot establish that absent
+    # derived rows were removed; the summaries may simply be inaccessible.
+    if ("withings", "getsummary") not in complete:
+        complete.discard(("withings", "sleep_details"))
     return complete
 
 
