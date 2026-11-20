@@ -295,27 +295,27 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Prehab**: Face Pulls: 20 × 12.5kg, 16 × 15kg, 15 × 17.5kg (Rotator cuff health & posture; pull with hands high at peak for external rotation) 🦴 🗿
 - **Mobility**: Thoracic spine extensions: 3 × 75s; Couch Stretch: 1min/leg; static stretching: 30s/leg 🦴
 - **Core**: Incline Bench Leg–Hip Raises: 16x, 14x, 12x *(Head higher than hips; curl pelvis off the bench, exhale, and lower without swinging)* 💪 🗿
-- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ ⏰ 🍆
+- **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20mins *(Adjust incline and speed to continuous conversational effort; reduce either if calf/foot fatigue or breathing makes the session hard)* ❤️ ⏰ 🍆
 
 ---
 
 #### **Saturday: Weekend Active Recovery & Outdoor Cardio**
 *Focus: Nature conditioning, joint lubrication, and lung capacity. (No Gym Lifts).*
 **Cardio:**
-- **Zone 2**: 60mins *(Running near the beach, swimming in the ocean, cycling near the beach, or running in the forest)* ❤️ ⏰ 🍆
+- **Zone 2**: 70mins *(Conversational running, swimming, cycling or brisk walking; split into shorter bouts if preferred)* ❤️ ⏰ 🍆
+- **Weekly aerobic volume**: 150–300 moderate-equivalent mins; the four weekday 20min sessions plus Saturday 70mins schedule 150mins before other activity. Count actual moderate walking/sport and vigorous minutes (1vigorous min ≈ 2moderate mins); use that contribution when adjusting duration.
+- **Intensity for every Zone 2 slot**: Keep breathing controlled and continuous conversation comfortable. Treat printed machine levels as log references; adjust resistance, speed and incline to actual effort. Very light warm-up/recovery time does not count as moderate activity.
 
 ---
 
 #### **Sunday: Weekend Sprints & Social Sports**
-*Focus: High Growth Hormone, visceral fat melting, and social play on 100% fresh legs.*
+*Focus: Cardiorespiratory fitness, athletic capacity and enjoyable social activity.*
 
-**HIIT:**
-- **Sprints**: 200m-300m for 20mins *(2-3 series, with 2-3mins walking rest between sprints)* 🫁 ⏰
-- OR
-- **Incline Hill Sprints**: 4-6 rounds of 8-10s *(Max effort uphill with 1.5-2mins rest)* 🫁 ⏰
-
-**Cardio:**
-- **Joker**: A random sport used for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)* 🫁 ⏰
+**Choose one harder session:**
+- **Aerobic Intervals**: Cycling or uphill walking/jogging: 10mins easy warm-up, 2–4 × 4mins hard with 3mins easy between intervals, 5mins cool-down *(Start with 2intervals; add one when the session is repeatable and recovery is good. Breathe hard, speaking only short phrases; finish able to complete another interval)* 🫁 ⏰
+- **OR Incline Hill Sprints**: 4–6 × 8–10s after a progressive warm-up, with 2–3mins walking recovery *(Optional power/sprint practice when feet, calves and hamstrings feel recovered; keep technique crisp)* 🫁 ⏰
+- **OR Joker**: A sport for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)* 🫁 ⏰
+- **Recovery & review**: A genuinely hard sport session replaces intervals/sprints; lighter social activity need not be forced into a hard session. Choose easy movement when fatigued or symptomatic. Review completion, fitness and recovery after 6–8 weeks before considering a second weekly interval session.
 
 
 ## 4. Diet
@@ -1465,6 +1465,10 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - [ ] Watch for [Monolith Bottle](https://monolith-bottle.com) availability.
 
 ## Removed / unhealthy / redundant items
+
+### Conditioning replacements
+
+- **200m–300m Sprints (20mins, 2–3series):** → progressive aerobic intervals or a chosen sport session; retain short hill sprints as an optional power alternative. [Interval-training trial](https://pubmed.ncbi.nlm.nih.gov/17414804/)
 
 ### Training replacements
 
