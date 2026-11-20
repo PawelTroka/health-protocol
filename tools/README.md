@@ -61,6 +61,8 @@ Do not paste credentials in chat, the protocol, shell command arguments or Git. 
 
 The browser connection waits up to three minutes. If interrupted or declined, the app configuration remains available for a later `authorize` command. Client IDs/secrets come from the registered apps, not from your ordinary account passwords.
 
+If a data request returns HTTP 401 or Withings JSON `status: 401`, the client refreshes access once and replays the same read. A repeated authentication failure stops the sync; permission errors and other API statuses do not trigger this refresh. The existing encrypted-vault token rotation remains in use.
+
 ## Preview, sync one service, or revisit a date range
 
 ```powershell

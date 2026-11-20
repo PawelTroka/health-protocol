@@ -327,6 +327,21 @@ class SyncCliTests(unittest.TestCase):
         self.assertEqual(self.snapshot(), before)
         self.prepare.assert_not_called()
 
+    def test_repeated_withings_body_401_preserves_cache_reports_and_archives(self):
+        self.fetch.side_effect = lambda provider, start, end: api._withings(start, end)
+        before = self.snapshot()
+        args = self.args("sync", "--provider", "withings", "--end", "2026-09-05")
+        with patch.object(auth, "access_token", side_effect=["old", "new"]) as token, \
+             patch.object(auth, "_request_json", return_value={"status": 401, "error": "private"}) as request:
+            with self.assertRaises(api.APIError) as raised:
+                self.run_quietly(args)
+        self.assertEqual(raised.exception.status, 401)
+        self.assertNotIn("private", str(raised.exception))
+        self.assertEqual(token.call_count, 2)
+        self.assertEqual(request.call_count, 2)
+        self.assertEqual(self.snapshot(), before)
+        self.prepare.assert_not_called()
+
     def test_report_preparation_failure_preserves_every_existing_output(self):
         args = self.import_file(withings_ecg_payload())
         before = self.snapshot()
