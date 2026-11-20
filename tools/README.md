@@ -6,7 +6,27 @@ Run the commands below from the repository root.
 - `tools/generate_colored_report.py`: regenerate both results reports.
 - `tools/imaging_report.py`: curated imaging records, verified source links and shared report layout.
 - `tools/generate_pillbox_guide.py`: generate the physical pillbox guide.
-- `tools/tests/`: synthetic importer and sync tests.
+- `tools/validate_pillbox_guide.py`: check pillbox source against the active protocol without generating files.
+- `tools/tests/`: synthetic importer, sync and pillbox validation tests.
+
+## Pillbox source validation
+
+Check the manually maintained `PAGES` in `tools/generate_pillbox_guide.py` against the active **Supplements and drugs** section in `README.md` before generating the guide:
+
+```powershell
+python -B tools/validate_pillbox_guide.py
+python -B -m unittest tools.tests.test_pillbox_validation -v
+```
+
+The checker reads the README and loads the generator's data without calling `build_document()`. It uses the generator's existing `python-docx` dependency. The validator itself does not generate the DOCX, write health reports, fetch data or change either input. Exit status is `0` for parity, `1` for a mismatch or unsupported notation, and `2` when inputs cannot be loaded. Diagnostics identify the slot and, for product mismatches, the README line. To check another trusted checkout, use `--root PATH`; that checkout's generator is Python code and is executed with a non-main module name. This is not a sandbox: any top-level code in that generator or its imports still executes. Use trusted source only.
+
+Checks cover the fixed eight pages in row-major order, nine physical cells per page, all 72 compartments, explicit empty slots, and both parts of shared `.1`/`.2` cells (prescription or supplement). Ranges expand to individual slots: `M.5-6 2x` means one pill in each cell, while `B.8-9 4x` means two in each. A single-code multiplier such as `M.15 3x` is checked against `same_slot_count`. Zero-series drinks, nested powder ingredients, Notes, TODOs and Removed entries do not occupy physical cells.
+
+The separately rendered `qty` field is checked too. An empty cell accepts only blank text or `Available compartment`. An occupied cell accepts blank text or an integer count of pills, capsules, tablets or softgels, optionally followed by `/day` or `/week`. That count must match the number in the physical compartment. An explicitly written pill form in the active README row must agree; a bare multiplier such as `3x` does not establish whether the product is a capsule, tablet or softgel, so form identity still needs review when unstated. A displayed `/day` or `/week` additionally requires a matching leading count/form/frequency instruction after the product link, such as `— 1capsule daily with Breakfast`. Counts without a period do not imply daily use. Free-text quantity instructions fail; general frequency and conditional prose remain outside this check.
+
+For product identity and doses, the checker supports the existing leading product-link notation, compact or spaced quantities, `+` combinations, and quantity-bearing parentheses. Product names retain case, strain numbers, brands and formulation wording. It compares headline doses and their constituent labels, retaining their units; it does not convert grams to milligrams or invent name aliases. A parenthetical dose such as `(Butyric acid 400mg)` must appear in the guide's dose/note text. Combination doses retain ingredient order; an optional dose-field label must uniquely match an ingredient name or its final words (for example `K1` in `Vitamin K1`). Where a blend headline has no dose, the guide's displayed dose must contain a supported quantity/unit and occur as an exact phrase in that entry's indented formulation details, not as a concentration or range endpoint. Unsupported slot-bearing Markdown variants, malformed product links, and fences/comments in the active section fail instead of hiding an entry or conflicting duplicate. Unsupported notation requires a deliberate parser/test update.
+
+**Scope:** this checks source parity, not medical correctness or the rendered DOCX. It does not validate all formulation-note quantities or their per-pill/per-serving basis, cumulative intake, evidence badges, icons, product URLs, frequency/conditional wording, callouts, or visual layout. A matching source pair can still describe an incorrect regimen. Continue the regeneration and eight-page visual review in [AGENTS.md](../AGENTS.md) after an authorized physical-pill change; the validator does not replace that review.
 
 ## Dated laboratory results
 
