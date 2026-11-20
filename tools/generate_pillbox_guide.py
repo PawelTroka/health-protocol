@@ -181,7 +181,7 @@ PAGES = [
             item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 🛡️ 🔄", note="ErgoActive® • Vitamin C 5 mg"),
             item("M.11", "NAC", "1 g", icons="🛡️ 🫁 🔄"),
             empty("M.12"),
-            item("M.13", "Astaxanthin", "18 mg", icons="👁️ 🛡️ 👨‍🦳"),
+            item("M.13", "Astaxanthin (AstaReal®)", "12 mg", icons="👁️ 🛡️ 💪 👨‍🦳", note="Double Wood • oil softgel"),
             item(
                 "M.14",
                 "Vitamin K1 + K2 MK-4 + K2 MK-7",
@@ -284,7 +284,7 @@ PAGES = [
             item("E.4", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
             item("E.5", "Melatonin + Botanical Extract Blend", "1 mg", icons="😴 😌", note="Passionflower • lemon balm • hops • saffron • Vitamin B6"),
             item("E.6", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
-            item("E.7", "Lavender Oil Silexan® (Lasea®)", "80mg", icons="😌 ⚕️", note="ONLY FOR function-limiting Anxiety AFTER full interaction review • replaces KSM-66 • 8–10-week trial • water, upright", kind="warning"),
+            item("E.7", "Lavender Oil Silexan® (Lasea®)", "80mg", icons="😌 ⚕️", note="ONLY FOR function-limiting Anxiety AFTER full interaction review • replaces KSM-66 • 8–10-week trial • no CalmAid • water, upright", kind="warning"),
             item("E.8", "Glycine", "1g", icons="😴 🧠"),
             item("E.9", "Glycine", "1g", icons="😴 🧠"),
         ],
@@ -619,7 +619,7 @@ def add_page(document, page_data, page_index):
         set_repeatable_font(run, 6.8, color=COLORS["muted"])
         run = p.add_run(medal)
         set_repeatable_font(run, 6.8, color=COLORS["muted"], name="Segoe UI Emoji")
-        run = p.add_run(f" {label}")
+        run = p.add_run(" " + label)
         set_repeatable_font(run, 6.8, color=COLORS["muted"])
 
     if page_index < len(PAGES) - 1:
@@ -656,7 +656,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
