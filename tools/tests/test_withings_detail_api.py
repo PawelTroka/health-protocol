@@ -5,10 +5,60 @@ from unittest import TestCase
 from unittest.mock import patch
 from zoneinfo import ZoneInfo
 
-from tools.health_sync import api
+from tools.health_sync import api, reconcile, withings
+
+
+def sampled_night():
+    start = int(datetime.fromisoformat("2026-09-01T23:30:00+02:00").timestamp())
+    end = int(datetime.fromisoformat("2026-09-02T07:30:00+02:00").timestamp())
+    return {
+        "series": [{"id": "synthetic-night", "completed": True,
+                    "startdate": start, "enddate": end, "data": {"total_sleep_time": 7 * 3600}}],
+        "sleep_detail_series": [{"startdate": start, "enddate": end, "state": 1,
+                                 "rmssd": {str(start + 60): 30}, "sdnn_1": {str(start + 60): 45}}],
+    }
 
 
 class DetailFetchTests(TestCase):
+    def test_summary_access_gap_retains_sampled_hrv_while_other_measurements_refresh(self):
+        day = date(2026, 9, 2)
+        historical = withings.parse_api(sampled_night())
+        group = {"grpid": 123, "category": 1, "attrib": 0,
+                 "date": int(datetime.fromisoformat("2026-09-02T08:00:00+02:00").timestamp()),
+                 "measures": [{"type": 1, "value": 80, "unit": 0}]}
+        for code in (403, 404):
+            with self.subTest(status=code), \
+                    patch.object(api, "_withings_measure", return_value={"measuregrps": [group]}), \
+                    patch.object(api, "_withings_daily", side_effect=[api.APIError("Unavailable", status=code), []]), \
+                    patch.object(api, "_withings_signals", return_value=[]), \
+                    patch.object(api, "_withings_sleep_details", return_value=sampled_night()["sleep_detail_series"]) as details:
+                fetched = api.fetch("withings", day, day)
+                updated = reconcile.merge_synced(historical, withings.parse_api(fetched), ["withings"],
+                                                 day, day, {"withings": fetched["_sync"]})
+                for marker in ("Sampled Sleep RMSSD (Withings)", "Sampled Sleep SDNN1 (Withings)"):
+                    self.assertEqual([row for row in updated if row["metric"] == marker],
+                                     [row for row in historical if row["metric"] == marker])
+                self.assertEqual(next(row["value"] for row in updated if row["metric"] == "Body Mass"), 80)
+                details.assert_not_called()
+                coverage = fetched["_sync"]["endpoint_status"]
+                self.assertEqual(coverage["sleep_details"]["status"], "unavailable")
+                self.assertEqual(coverage["sleep_details"]["requires"], ["getsummary"])
+                self.assertIn("summary", coverage["sleep_details"]["reason"])
+                self.assertNotIn("sleep_detail_series", fetched)
+
+    def test_complete_empty_sleep_collections_can_remove_obsolete_sampled_hrv(self):
+        day = date(2026, 9, 2)
+        with patch.object(api, "_withings_measure", return_value={"measuregrps": []}), \
+                patch.object(api, "_withings_daily", return_value=[]), \
+                patch.object(api, "_withings_signals", return_value=[]), \
+                patch.object(api, "_withings_sleep_details", return_value=[]) as details:
+            fetched = api.fetch("withings", day, day)
+        details.assert_called_once_with(date(2026, 9, 1), day)
+        for endpoint in ("getsummary", "sleep_details"):
+            self.assertEqual(fetched["_sync"]["endpoint_status"][endpoint], {"status": "complete", "rows": 0})
+        self.assertEqual(reconcile.merge_synced(withings.parse_api(sampled_night()), [], ["withings"],
+                                               day, day, {"withings": fetched["_sync"]}), [])
+
     def test_sleep_details_cover_dst_day_in_windows_no_longer_than_24h(self):
         captured = []
         def request(provider, url, *, form):

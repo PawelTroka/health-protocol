@@ -78,6 +78,11 @@ def _complete_endpoints(fetch_status, providers, start, end):
                 endpoint = None
             if endpoint is not None and status.get("status") == "complete":
                 complete.add((provider, endpoint))
+    # Withings sampled HRV is derived from sleep/get samples joined to completed
+    # sleep/getsummary intervals. Both collections must be known complete before
+    # an absent derived reading can mean deletion, including older fetch metadata.
+    if ("withings", "getsummary") not in complete:
+        complete.discard(("withings", "sleep_details"))
     return complete
 
 

@@ -75,6 +75,25 @@ class ReconciliationTests(unittest.TestCase):
                               {"withings": coverage(measure="complete")})
         self.assertEqual(result, [unknown])
 
+    def test_sampled_hrv_absence_requires_both_summary_and_detail_coverage(self):
+        old = [record("withings", f"withings:sleep_detail:daily-2026-08-01:{metric}", metric,
+                      value, "ms") for metric, value in (
+            ("Sampled Sleep RMSSD (Withings)", 30), ("Sampled Sleep SDNN1 (Withings)", 45))]
+        cases = [
+            ({"sleep_details": "complete"}, False),
+            ({"sleep_details": "complete", "getsummary": "unavailable"}, False),
+            ({"sleep_details": "unavailable", "getsummary": "complete"}, False),
+            ({"sleep_details": "complete", "getsummary": "complete"}, True),
+            # Legacy aliases must use the same dependency rule.
+            ({"sleep_detail": "complete", "sleep": "unavailable"}, False),
+            ({"sleep_detail": "complete", "sleep": "complete"}, True),
+        ]
+        for statuses, complete in cases:
+            with self.subTest(statuses=statuses):
+                result = merge_synced(old, [], ["withings"], START, END,
+                                      {"withings": coverage(**statuses)})
+                self.assertEqual(result, [] if complete else old)
+
     def test_unknown_coverage_amends_represented_oura_days_without_mixing_csv_and_samples(self):
         csv = sleep("oura:csv:2026-08-01:Sleep Duration", source_kind="csv")
         old_other_day = sleep("oura:api:sleep:other:Sleep Duration", day="2026-08-02")

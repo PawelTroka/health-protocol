@@ -269,15 +269,24 @@ def _withings(start, end):
             statuses[endpoint] = {"status": "unavailable", "http_status": error.status}
         else:
             statuses[endpoint] = {"status": "complete", "rows": len(result[endpoint + "_series"])}
-    try:
-        # A night assigned to the first wake date may start the previous evening.
-        result["sleep_detail_series"] = _withings_sleep_details(start - timedelta(days=1), end)
-    except APIError as error:
-        if error.status not in (403, 404):
-            raise
-        statuses["sleep_details"] = {"status": "unavailable", "http_status": error.status}
+    if statuses["getsummary"]["status"] != "complete":
+        # Sampled HRV needs completed summary intervals to assign each sample
+        # to its wake date. A successful raw sample request alone cannot refresh
+        # that daily observation set or establish that old readings disappeared.
+        statuses["sleep_details"] = {
+            "status": "unavailable", "reason": "sleep summary collection unavailable",
+            "requires": ["getsummary"],
+        }
     else:
-        statuses["sleep_details"] = {"status": "complete", "rows": len(result["sleep_detail_series"])}
+        try:
+            # A night assigned to the first wake date may start the previous evening.
+            result["sleep_detail_series"] = _withings_sleep_details(start - timedelta(days=1), end)
+        except APIError as error:
+            if error.status not in (403, 404):
+                raise
+            statuses["sleep_details"] = {"status": "unavailable", "http_status": error.status}
+        else:
+            statuses["sleep_details"] = {"status": "complete", "rows": len(result["sleep_detail_series"])}
     if statuses["heart"]["status"] == "complete":
         result["heart_signals"], unavailable = _withings_heart_details(result["heart_series"])
         statuses["heart_signals"] = {"status": "unavailable" if unavailable else "complete",
