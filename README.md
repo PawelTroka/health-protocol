@@ -83,6 +83,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ### Laboratory Analysis (Biomarkers)
 **Frequency: Every 6 months**
 
+**Before collection:** follow [Laboratory preparation](#laboratory-preparation); confirm fasting and separate spot/24h Urine collection requirements when booking.
+
 #### Blood
 - **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: Morphology, Myoglobin, Glucose, Serum Sodium, Potassium, Serum Albumin, Serum Creatinine, Serum Uric Acid, ALT, AST, Creatine Kinase (CK), Total Cholesterol, HDL Cholesterol, Triglycerides, LDL Cholesterol (calculated), Serum Magnesium, Inorganic Phosphorus, Total Calcium, Glycated Hemoglobin (HbA1c), Serum Iron, Ferritin, Transferrin, Serum Zinc, Vitamin B12, Folic Acid, Insulin, TSH (3rd gen), Free T3 (FT3), Free T4 (FT4), Cortisol, Testosterone, DHEA-S, SHBG, NT-proBNP, IL-6, IGF-1, D-dimer, Selenium, Insulin Resistance Index, Vitamin B1 (Thiamine), CRP-hs, Vitamin B6, Vitamin D-25(OH), Homocysteine (HPLC), Circulating Calprotectin 🍎 ❤️ 🟤 🫘 🦋 🍆
 - **[Apolipoprotein B (Apo B)](https://www.alab.pl/badanie/apolipoproteina-b-apo-b-i67)**: Apolipoprotein B ❤️ 🫀 ⏰
@@ -1345,6 +1347,15 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Pycnogenol / B.1:** 100mg is current. The discussed 150–200mg range remains a possible later trial after tolerance is established, not the active dose. Keep genuine Pycnogenol® rather than assuming all Pine Bark Extracts are equivalent. [Endothelial trial](https://pubmed.ncbi.nlm.nih.gov/22240497/)
 - **Fenugreek / B.6:** 600mg Testofen® matches the branded trial dose. Taking both capsules together consolidates the label's divided schedule; it does not establish a Testosterone or physique benefit. [Trial](https://pubmed.ncbi.nlm.nih.gov/26791805/)
 - **Maca / B.5; Tribulus / B.7:** Maca's 4.5g fresh-root equivalent is not 4.5g trial material. Tribulus lacks plant-part/marker standardization. Keep alternatives in TODOs rather than infer dose equivalence or proven Testosterone benefits. [Maca label](https://www.nowfoods.com/products/supplements/maca-750-mg-raw-veg-capsules) [Tribestan® trial](https://pubmed.ncbi.nlm.nih.gov/28364864/)
+
+### Laboratory preparation
+
+- **Plan the collection:** confirm test-specific instructions and containers with the laboratory, including Stool tests. The selected HIGH-PERFORMER package specifies a **24h Urine collection for Microalbuminuria**; a routine morning sample does not replace it. [Package instructions](https://alabsport.pl/pakiety/wyczynowiec)
+- **Blood:** book a consistent morning collection after normal overnight rest; follow the ordered fasting window (usually 8–12h for this panel). Plain Water is allowed; take Breakfast, Morning powders and Matcha after collection. [ALAB preparation](https://www.alab.pl/pakiet/pakiet-profilaktyka-ogolny)
+- **Training & rest:** avoid intense exercise for 24h before a routine baseline sample and sit quietly for 15min before collection. Record the collection time, last hard workout and any acute illness for comparison with repeats; urgent testing should not wait for ideal preparation. [Sampling guidance](https://doi.org/10.1515/cclm-2018-0602)
+- **Medicines & supplements:** bring actual doses and agree any timing/hold instructions with the prescriber and laboratory; do not stop prescriptions independently. Disclose Biotin, particularly high-dose hair/nail products, because interference depends on the assay and exposure. [ALAB](https://www.alab.pl/pakiet/pakiet-profilaktyka-ogolny) [Biotin](https://ods.od.nih.gov/factsheets/biotin-healthprofessional/)
+- **Routine Urine:** collect the first morning midstream sample after washing; label and deliver within 2h. Arrange the correct separate sterile container if a culture is ordered; follow the laboratory's transport/storage instructions. [Urinalysis](https://www.alab.pl/badanie/badanie-ogolne-moczu-a01) [Culture containers](https://www.alab.pl/pakiet/zakazenie-ukladu-moczowego)
+- **24h Urine, when ordered:** discard the first morning void, then collect every void through the same time next morning, including the final one. Follow storage instructions, record start/end times and full volume, and mix the complete collection before taking the requested aliquot; report a missed portion to the laboratory. [Timed collection](https://www.alab.pl/badanie/mocznik-w-moczu-ze-zbiorki-dobowej-n13)
 
 ### Follow-up
 
