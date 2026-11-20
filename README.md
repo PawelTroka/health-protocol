@@ -33,7 +33,7 @@
 - ✋️ excessive social media usage
 - ✋️ [microplastics and artificial materials](#8-environment)
 - ⚠️ excessive gaming and TV
-- ⚠️ excessive noise
+- ⚠️ [excessive noise](#hearing-protection)
 - ⚠️ stimulants
 - ⚠️ [sleep schedule disruptions](#1-sleep)
 - ⚠️ overthinking and overanalyzing things out of your control
@@ -322,9 +322,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Protein-sparing Mediterranean Caloric-Restriction diet
 
-*Turkey + Salmon + Kefir day at 80kg, at the PHGG 6g target: ~2,397kcal · P196g · C152g · F88g · Fiber44–47g.*
+*Turkey + Salmon + Kefir day at 80kg, at the PHGG 6g target: ~2,418kcal · P196g · C152g · F88g · Fiber44–47g.*
 
-**Protein:** 170g without Collagen (2.13g/kg), plus 25.5g Collagen. The retained 10g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
+**Protein:** 170g without Collagen (2.13g/kg), plus 25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
 
 
 **Food forms:** fresh or plain frozen Vegetables, prepared as listed; Pulses cooked from dried. The existing Sardine and Mackerel options are the only canned-food exceptions.
@@ -339,7 +339,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
 *464kcal · P46.7g · C22.4g · F18.4g · Fiber10–11g*
-- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 1scoop) 🛡️ 🗿 💪 🦴 👨‍🦳
+- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 26g — 1scoop (40ml)) 🛡️ 🗿 💪 🦴 👨‍🦳
   - `166kcal · P40.5g · C0.4g · F0.3g`
 - 25g dry [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪 🔄
   - `93kcal · P3.3g · C15g · F1.7g · Fiber2.4g · Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
@@ -466,19 +466,19 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
       - `90kcal · P6.4g · C9.4g · F3g · Calcium · Vitamin B2 · Vitamin B12`
 
 #### 🦴 Before workout
-*~119kcal · P13g · C2.5g*
-- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 13g + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
-  - `~119kcal · P13g · C2.5g`
+*120kcal · P13.3g · C2.5g*
+- 💊 [Before-workout supplements](#before-workout) (Collagen Peptides 13.33g — 4scoops (4x~10ml) + Creatine monohydrate 5g + EvoBomb 20g) 💪 🗿 🦴 👨‍🦳
+  - `120kcal · P13.3g · C2.5g`
 
 #### ⚡ During workout
 *94kcal · C24g*
-- 💊 [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 1scoop) ⚡ 💧 🗿
+- 💊 [During-workout supplements](#during-workout) (HBCD 25g + ALLHydrate 2.73g — 1scoop (~3ml)) ⚡ 💧 🗿
   - `94kcal · C24g`
 
 #### 💪 Right after workout
-*156kcal · P28g dietary Protein + 10g EAA · C0.4g · F0.3g*
-- 💊 [After-workout supplements](#after-workout) (WPI 30g + EAA 10g) 💪 🗿
-  - `156kcal · P28g dietary Protein + 10g EAA · C0.4g · F0.3g`
+*176kcal · P28g dietary Protein + 15g EAA · C0.4g · F0.3g*
+- 💊 [After-workout supplements](#after-workout) (WPI 30g + EAA 15g — 1scoop (25ml)) 💪 🗿
+  - `176kcal · P28g dietary Protein + 15g EAA · C0.4g · F0.3g`
 
 #### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — Recovery, Leafy Greens & Whole Fruit)
 *888kcal · P53g · C55.6g · F47.4g · Fiber12–13g*
@@ -599,44 +599,36 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### 🚽 GI options — personalize portions
 
-| If a food or meal provokes symptoms | First adjustment to test |
-| --- | --- |
-| The 200ml Soy Matcha Latte | Try the listed lactose-free Milk in its place: 24kcal and 9.4g Carbohydrate more, 1.2g Fiber less. The selected Alpro uses whole Soybeans; tolerance differs from Soy-protein drinks. |
-| Large mixed-plant meals | Trial 50–75g of the troublesome Vegetable instead of 100g, steamed until tender; for Greens, try 25g leaves or 15g Sprouts, prepared as listed. Leaves/Microgreens may also be steamed until tender if better tolerated. Keep other tolerated portions and restore meaningful energy losses with Potato. |
-| Pulses or Ferments | If symptoms recur, reduce Pulses to 30–40g cooked/drained or Sauerkraut to 50g, then return toward tolerated portions; reduce Kimchi from 75g to 25–50g if needed. Split the Kefir bottle within the day if meal volume is troublesome. Boil Pulses separately, drain and rinse; replace omitted Protein using the Diet rotations Note. |
-| Persistent IBS-type symptoms | With a dietitian, consider a 2–6-week low-FODMAP trial followed by reintroduction and personalization. Keep the diet as varied as tolerance allows. |
-| Active bowel inflammation or unintended weight loss | Prioritize adequate nutrition and clinician-directed evaluation/treatment; pause the cut rather than forcing Fiber or restriction. |
-
-*Record the food/portion, pain or bloating, Stool form/frequency and urgency. Keep other variables steady, retain changes that help reproducibly and re-expand tolerated foods. Food trials complement the [GI follow-up](#follow-up).*
+- Use tolerated portions; test one food/portion change at a time and restore tolerated variety. [Portion trials](#diet-gi-options).
+- **Active bowel inflammation or unintended weight loss:** pause the cut; prioritize adequate nutrition and clinician-directed evaluation/treatment.
 
 ### 🍳 Preparation & food safety
 
-- **Batch simply:** choose a few Vegetable rotations per shopping trip. Steam the marked Vegetables, Potatoes/Sweet Potatoes and Mushrooms until appropriately tender; follow the separate Quinoa, Pulse and food-safety instructions. Cool cooked leftovers promptly, refrigerate and reheat safely.
-- **Pulses:** soak dried Black Beans/Chickpeas for at least 12 hours, discard the Water and rinse. Boil in fresh Water for approximately 60 minutes until tender, following the label; do not use a low-temperature slow cooker alone. Rinse Lentils and boil for approximately 30 minutes until tender. Drain, rinse and weigh the cooked serving.
-- **Cook safely:** Poultry 74°C and Fish 63°C at the core, or a validated time–temperature equivalent. Cook Eggs, Shellfish and Mushrooms thoroughly; oven temperature alone does not establish safety. [Safe temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) Keep the skinless Salmon at 0–2°C and follow its delivered use-by date; it is sold thawed, so do not refreeze.
-- **Raw produce:** wash Tomatoes, Peppers, salad Leaves and Microgreens under running Water unless labeled washed/ready-to-eat; refrigerate cut produce, Greens and Sprouts. Watercress Leaves/Microgreens and Arugula need no routine cooking. [Produce preparation](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) For Spinach/Chard, boiling and discarding the Water remains an optional preparation to reduce oxalates. [Oxalate preparation study](https://pubmed.ncbi.nlm.nih.gov/15826055/)
-- **Sprouts:** rinse Broccoli/Radish Sprouts and steam until steaming hot throughout. Washing or light warming does not reliably remove their bacterial risk. [Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
-- **Fat & flavor:** Fixed EVOO is 27g/day: 13.5g (1tbsp) Pamako Morning + 13.5g (1tbsp) Phileos Lunch. Dinner's Optional Additional Healthy Fats offers EVOO13.5g, Avocado30g or Nothing; Nothing is checked. Count added cooking/packing Oil; retained Oil is already included in drained-Fish labels. Avoid smoking or repeatedly reusing Oil.
-- **Fresh herbs:** Rinse, chop and add after steaming; weigh only edible leaves and tender stems.
-- **Food contact:** use [food-safe glass, ceramic or stainless steel](#7-cookware); avoid heating food in unsuitable plastic and maintain [Water filters](#clean-water) to their instructions.
+- **Pulses:** dried Black Beans/Chickpeas: soak ≥12 hours, discard Water and rinse; boil in fresh Water for ~60 minutes until tender, following the label. No low-temperature slow cooker alone. Lentils: rinse, boil ~30 minutes until tender. Drain, rinse and weigh cooked.
+- **Cooking:** Poultry 74°C/Fish 63°C at the core, or a validated time–temperature equivalent. Cook Eggs, Shellfish and Mushrooms thoroughly; steam marked Vegetables, Potatoes/Sweet Potatoes and Mushrooms until tender.
+- **Skinless Salmon:** store at 0–2°C, follow the delivered use-by date and do not refreeze the thawed product.
+- **Produce:** wash Tomatoes, Peppers, salad Leaves and Microgreens under running Water unless labeled washed/ready-to-eat; refrigerate cut produce, Greens and Sprouts.
+- **Sprouts:** rinse Broccoli/Radish Sprouts; steam until steaming hot throughout.
+- **Leftovers:** cool promptly, refrigerate and reheat safely.
+- **Oil & Herbs:** count added cooking/packing Oil; avoid smoking or repeatedly reusing Oil. Rinse/chop fresh Herbs, add after steaming and weigh edible leaves/tender stems.
+- **Equipment:** use [food-safe glass, ceramic or stainless steel](#7-cookware); avoid heating food in unsuitable plastic and maintain [Water filters](#clean-water) to their instructions.
 
-*Sources and calculation details: [Diet Notes below](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
+*[Preparation sources](#diet-food-preparation) · [Calculation details](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
 
 
 ## 5. Supplements and drugs
-Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics ([sleep](#1-sleep), [diet](#4-diet), [exercise](#3-exercise)) does bring you more health benefits but supplements help even if you don't.
-Within each timing, entries are ordered roughly by evidence-weighted expected net benefit; multi-ingredient products can contain components with different evidence ranks. Active entries generally use generic ingredient names, while exact manufacturer, product, branded-formulation or strain names remain where identity or provenance materially defines the selected intervention; the links identify the exact selected products, and the Notes explain deeper formulation evidence. Numeric quantities use compact number-unit formatting, such as `1g`, `250mg` and `1scoop`. List order does not create additional timing windows. Evidence medals precede supplement codes: 🥇 Gold marks the strongest relevant human evidence plus meaningful expected benefit, 🥈 Silver marks supportive but smaller, indirect or limited human evidence and/or a more modest marginal benefit, and 🥉 Bronze marks an exploratory intervention supported mainly by mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit. A medal grades the exact active intervention in this protocol—not product purity, safety, organizer order or a guaranteed individual response; Bronze is not automatically a removal recommendation, and an indication, biomarker or reproducible response can change a tier. Drugs, Water and EVOO remain intentionally unmedalled, and blend medals apply to the overall intervention rather than every nested ingredient.
-The Morning, Lunch and Evening organizers each use two linked 9-compartment [GymBeam Adjustable PillBoxes](https://gymbeam.pl/regulowany-pojemnik-na-suplementy-gymbeam.html), while Before Workout and After Workout each use one. Timing codes map the protocol directly to preparation: `M`, `L`, `B`, `IW`, `A` and `E` mean Morning, Lunch, Before Workout, Intra-Workout, After Workout and Evening; numbered pill codes are physical organizer compartments; `.1` and `.2` divide one compartment between two small, clearly distinguishable pills; a range such as `L.2-3` means one large pill in each listed compartment; and a multiplier within one code, such as `M.15 3x`, means the small pills share that compartment. Zero-series codes such as `M.0.2` identify drinks or powders outside the pill organizer and do not consume a compartment. In a deeper code such as `M.0.3.2.1`, the next number identifies the bold ingredient subgroup and the final number identifies that ingredient's position within the subgroup. Slot-code superscripts on nested ingredients point to the corresponding Notes topic and never consume organizer compartments. Empty compartments remain strategically positioned at the largest practical evidence-benefit gaps.
+
+Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · [Evidence medals](#legend) · [Details](#supplement-details).
 
 [Printable Supplement Pillbox Guide (Word)](supplements/Supplement-Pillbox-Guide.docx) — an eight-page, label-ready 3x3 layout for Morning 1/2, Lunch 1/2, Evening 1/2, Before Workout and After Workout.
 
 ### Morning
 🥤 drink:
 - **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️ 🧠 🔥 ⏰
-- 🥇 **M.0.2** [Psyllium Husk 2.5g](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
-- 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
+- 🥇 **M.0.2** [Psyllium Husk 2.5g — 1tsp (5ml)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
+- 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g (1scoop)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
+- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (40ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
    - **Structural / performance / digestive blend**
      - Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴 💇‍♂️
      - Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🧠 🥊
@@ -691,7 +683,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C 5mg
 - 🥈 **M.11** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅 🔄
 - **M.12** (empty)
-- 🥈 **M.13** [Astaxanthin 18mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
+- 🥈 **M.13** [Astaxanthin (AstaReal®) 12mg](https://pl.iherb.com/pr/double-wood-supplements-astaxanthin-astareal-12-mg-60-softgels/161500) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - 🥉 **M.14** [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436) [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
 - 🥉 **M.15** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - 🥉 **M.16** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🧠 ❤️ 🔄
@@ -725,10 +717,10 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 
 ### Before workout
 🥤 drink:
-- 🥈 **B.0.3** [Collagen Peptides 13g (4scoops)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
-  - Protein 13g; Fat 0g; Carbohydrates 0g; 52kcal
-- 🥇 **B.0.1** [Creatine monohydrate 5g (1scoop)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
-- 🥈 **B.0.2** [HSN EvoBomb 2.0 20g (2scoops)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 💪 🧠 🩸
+- 🥈 **B.0.3** [Collagen Peptides 13.33g — 4scoops (4x~10ml)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+  - Protein 13.33g; Fat 0g; Carbohydrates 0g; 53kcal
+- 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (~10ml; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
+- 🥈 **B.0.2** [HSN EvoBomb 2.0 20g — 2scoops (2x15ml)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 💪 🧠 🩸
    - **Pump / blood flow**
      - L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base)
    - **Endurance / fatigue resistance**
@@ -755,18 +747,18 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
 ### During workout
 🥤 intra-workout drink:
 - **IW.0.1** 2.5L Water 💧
-- 🥇 **IW.0.2** [ALLHydrate Electrolytes Neutral 2.73g (1scoop)](https://allegro.pl/oferta/allhydrate-by-aliness-neutral-elektrolity-205-g-50-porcji-17359439491)
+- 🥇 **IW.0.2** [ALLHydrate Electrolytes Neutral 2.73g — 1scoop (~3ml)](https://allegro.pl/oferta/allhydrate-by-aliness-neutral-elektrolity-205-g-50-porcji-17359439491)
   - Sodium 667mg; Chloride 1.095g; Potassium 200mg; Magnesium 40mg<sup>E.12</sup>; Calcium 80mg; Phosphorus 70mg; 0kcal
-  - During Sauna sessions: +2.73g (1scoop) 🔥 💧
-- 🥈 **IW.0.3** [Highly Branched Cyclic Dextrin (Cluster Dextrin®) 25g](https://www.hsnstore.pl/marki/raw-series/cluster-dextrin-silnie-rozgaleziona-cykliczna-dekstryna-w-proszku) ⚡ 💪
+  - During Sauna sessions: +2.73g — 1scoop (~3ml) 🔥 💧
+- 🥈 **IW.0.3** [Highly Branched Cyclic Dextrin (Cluster Dextrin®) 25g — 1scoop (50ml)](https://www.hsnstore.pl/marki/raw-series/cluster-dextrin-silnie-rozgaleziona-cykliczna-dekstryna-w-proszku) ⚡ 💪
   - Carbohydrates 24g; Sugars 0g; 94kcal
 
 ### After workout
 🥤 drink:
-- 🥇 **A.0.1** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
+- 🥇 **A.0.1** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 10g](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
-  - Free Essential Amino Acids 9.459g; L-Leucine 3.14g; L-Lysine 1.684g; L-Isoleucine 1.124g; L-Valine 1.124g; L-Threonine 1.034g; L-Histidine 510mg; L-Methionine 281mg; L-Phenylalanine 281mg; L-Tryptophan 281mg
+- 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 15g — 1scoop (25ml)](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
+  - Free Essential Amino Acids 14.189g; L-Leucine 4.71g; L-Lysine 2.526g; L-Isoleucine 1.686g; L-Valine 1.686g; L-Threonine 1.551g; L-Histidine 765mg; L-Methionine 421.5mg; L-Phenylalanine 421.5mg; L-Tryptophan 421.5mg
 
 💊 pills:
 - 🥈 **A.1** [UC-II® Type II Collagen 40mg](https://pl.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318) 🦴 💪 🔄
@@ -827,7 +819,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Moisturizer [CeraVe Facial Moisturizing Cream 52ml](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) or [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) (Twice daily) 👨‍🦳 💧
 - Anti-aging GHK-Cu peptide cream [Theramid Copper Peptide 3%](https://nichebeautylab.com/en/products/copper-peptide) 👨‍🦳 ⏰
 - SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (daily)
-- Anti-aging retinoid cream [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.05-0.1% (weekly) 👨‍🦳 ⏰ ⚕️
+- Anti-aging retinoid cream [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.025% (weekly) 👨‍🦳 ⏰ ⚕️
 - (optional) [SNAP-8 peptide cream](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) 👨‍🦳 ⏰
 
 #### Home procedures
@@ -957,6 +949,12 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Monitor inside air quality using [Airthings View Plus](https://www.airthings.com/view-plus) or [IQAir AirVisual Pro](https://www.iqair.com/pl/products/air-quality-monitors/airvisual-pro-indoor-monitor)
 - Use extremely strong air purifier at home (especially [bedroom](#1-sleep)) with 600+ CADR, at least 3 filtration stages, 1100+ ml/h humidifier and 50,000+ ions/cm³ Plasmacluster like [Sharp KI-TX100EU-W](https://loveair.pl/oczyszczacz/sharp-ki-tx100eu-w)
 - (alternative) If you already have optimal humidity, use a dedicated high-performance purifier like [IQAir HealthPro Plus](https://www.iqair.com/pl/products/air-purifiers/healthpro-plus-xe)
+
+### Hearing protection
+
+- **Headphones:** enable sound-exposure monitoring and volume limits; aim below 80dB average. [WHO's adult reference](https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening) is 80dB for 40h/week; louder sound allows less time.
+- **Loud venues/tools:** wear well-fitting [LOOP EXPERIENCE 2.0 Black](https://allegro.pl/oferta/zatyczki-stoppery-imprezowe-do-uszu-loop-earplugs-experience-2-0-black-13035950155) earplugs or earmuffs, keep away from speakers and take quiet breaks.
+- **Hearing changes:** arrange a hearing assessment for persistent tinnitus or difficulty following conversation. New sudden hearing loss needs [same-day ENT/emergency assessment](https://www.nice.org.uk/guidance/QS185/chapter/quality-statement-2-sudden-onset-of-hearing-loss).
 
 ### Bedding and textiles
 - **Bed baseline:** bare mattress 193x203cm (76x80in US King)
@@ -1093,6 +1091,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - BJ-ES - [Bryan Johnson Essential Softgel](https://blueprint.bryanjohnson.com/products/essential-softgels)
 - BJ-NGC - [Bryan Johnson NAC + Ginger + Curcumin](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)
 - BJ-RYG - [Bryan Johnson Red Yeast Garlic](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)
+- 🥇 Gold — Strongest relevant human evidence and meaningful expected benefit
+- 🥈 Silver — Supportive but smaller, indirect or limited human evidence, or more modest benefit
+- 🥉 Bronze — Exploratory: mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit
 - ⚕️ Requires prescription (Rx): [erecepty24](https://erecepty24.pl) for ready-made medicines; [Telemedi](https://telemedi.com) for custom medicines (lek recepturowy)
 - 🔄 Automatically renewed and shipped (Subscribe & Save)
 - 💪 Muscle growth/recovery
@@ -1133,6 +1134,8 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - 🎈 High-FODMAP
 - 🟡 Tooth/bonding staining precaution; evidence varies — [care and evidence](#dental-staining)
 
+**Supplement medals:** grade the exact intervention, not purity, safety, organizer order or guaranteed response. Bronze does not imply removal; indication, biomarkers or repeatable response can change a tier. Blend medals grade the overall intervention, not each ingredient. Drugs, Water and EVOO remain unmedalled.
+
 *FODMAP tags apply to the listed portion/preparation; unmarked = unverified. [Serving checks](#diet-fodmap-tags).*
 
 ## Notes
@@ -1143,14 +1146,14 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 | Daily intake | Estimate |
 | --- | --- |
-| Energy | ~2,397kcal |
-| Protein | 195.5g, including 25.5g Collagen |
+| Energy | ~2,418kcal |
+| Protein | 195.8g, including 25.8g Collagen |
 | Protein without Collagen | 170g / 2.13g/kg |
 | Available Carbohydrate | ~151.7–152.6g |
 | Fat | 88.1g |
 | Fiber | ~44.4–47.3g |
 
-EAA 10g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 464 + Lunch 567 + Matcha 71 + Before Workout 119 + Intra-Workout 94 + After Workout 156 + Dinner 888 + Evening PHGG 11 + other supplements 27kcal.
+EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 464 + Lunch 567 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 176 + Dinner 888 + Evening PHGG 11 + other supplements 27kcal.
 
 #### Diet rotations
 
@@ -1158,9 +1161,9 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 
 | Change | Daily kcal | Protein without Collagen | Available Carbohydrate | Fat |
 | --- | --- | --- | --- | --- |
-| Skyr 200g instead of Kefir 400g | ~2,329 | 175.6g | ~142.7–143.6g | 82.1g |
-| Tempeh 200g instead of Salmon 150g | ~2,456 | 178.1g | ~158.7–159.6g | 83.2g |
-| Eggs 200g instead of Salmon 150g | ~2,390 | 166.1g | ~152.3–153.2g | 88.6g |
+| Skyr 200g instead of Kefir 400g | ~2,350 | 175.6g | ~142.7–143.6g | 82.1g |
+| Tempeh 200g instead of Salmon 150g | ~2,477 | 178.1g | ~158.7–159.6g | 83.2g |
+| Eggs 200g instead of Salmon 150g | ~2,411 | 166.1g | ~152.3–153.2g | 88.6g |
 
 - **Replacing Kefir:** Sauerkraut 100g removes 155kcal/11.5g Protein; Kimchi 75g removes 150kcal/11.1g Protein; skipping it removes 172kcal/12.4g Protein. An extra 50g raw Turkey supplies 12.7g Protein/57kcal if replacing the lost Protein.
 - **Lunch Protein:** compared with Turkey 150g, Pollock 200g supplies 4g less Protein, Mussels 150g supplies 14g less and Shrimps 180g supplies 11g less. Matching the Turkey serving takes about 240g cooked Mussels or 255g raw Shrimps; recalculate the meal, including Mussels' higher Salt.
@@ -1174,7 +1177,7 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 | Creatine monohydrate | 10g | M.0.3 MicroVitamin+ 5g + B.0.1 standalone 5g |
 | Psyllium Husk | 5g | M.0.3 MicroVitamin+ 2.5g + M.0.2 standalone 2.5g |
 | PHGG (Sunfiber® AG) | 6g target; 3g in week 1 | E.0.1; replaces 5g standalone Psyllium |
-| Collagen Peptides | 25.5g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 13g |
+| Collagen Peptides | 25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 13.33g — 4scoops (4x~10ml) |
 | Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.16/L.12 standalone 1g each |
 | Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
 | Caffeine | 223mg supplemental; ~252–291mg with Matcha | B.0.2 EvoBomb 200mg + L.6-7 Cocoa Flavanols 23mg + Diet Matcha 2g (~29–68mg) |
@@ -1216,9 +1219,19 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 #### Diet calculation
 
 - **PHGG calculation:** Sunfiber® AG 6g is modeled at ~11kcal using Taiyo's 1.9kcal/g. Its ≥85% Fiber specification gives 5.1–6g Fiber; the remaining 0–0.9g is an upper-bound allowance for available Carbohydrate, not a measured Kenay nutrition panel. Compared with the former 10g Psyllium regimen, daily energy changes by only ~1kcal; the first-week PHGG 3g dose contributes ~6kcal less than the target. [Ingredient specification](https://www.taiyointernational.com/wp-content/uploads/2016/09/SF_Data-Supplement_2015.pdf) [Current ingredient grades](https://www.taiyointernational.com/products/)
-- **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 10g powder supplies ~9.459g amino-acid bases and retains a 40kcal allowance. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium 5g contributes ~10kcal/3.5–4.5g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
+- **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies 14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as 13.33g Protein/53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium 5g contributes ~10kcal/3.5–4.5g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
 - **EvoBomb:** ~67kcal is modeled from free amino acids, Malate and estimated Maltodextrin; the plausible range is 61–73kcal pending a complete nutrition panel. Its free amino acids are kept outside dietary Protein. Other blend/carrier energy remains partly unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [EU energy factors](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011R1169)
 - **Carbohydrate:** Fiber is separate. USDA proxies use total Carbohydrate minus Fiber; labels and Norwegian data already reporting available Carbohydrate are used directly. Portions, cooking losses and incomplete panels make the daily figures estimates.
+
+<a id="diet-food-preparation"></a>
+
+#### Preparation details and sources
+
+- **Batching:** choose a few Vegetable rotations per shopping trip; follow the separate Quinoa, Pulse and food-safety instructions.
+- **Cooking temperatures:** oven temperature alone does not establish safety. [Safe temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures)
+- **Raw produce:** Watercress Leaves/Microgreens and Arugula need no routine cooking. [Produce preparation](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) For Spinach/Chard, boiling and discarding the Water remains an optional preparation to reduce oxalates. [Oxalate preparation study](https://pubmed.ncbi.nlm.nih.gov/15826055/)
+- **Sprouts:** washing or light warming does not reliably remove their bacterial risk. [Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
+- **Fat & flavor:** Fixed EVOO is 27g/day: 13.5g (1tbsp) Pamako Morning + 13.5g (1tbsp) Phileos Lunch. Dinner's [Optional Additional Healthy Fats](#diet-rotations) offers EVOO13.5g, Avocado30g or Nothing; Nothing is checked. Retained Oil is already included in drained-Fish labels.
 
 #### Diet food forms
 
@@ -1237,6 +1250,20 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 - Culinary Saffron 30mg is occasional; E.5 already contains Saffron Extract 30mg. Black Pepper stays to taste, with no added Piperine target.
 - **EVOO phenolics (Diet/M.0.1):** [Pamako's published 2,081mg/kg](https://www.pamako.co.uk/) and the [Phileos 2025/26 sample's 917mg/kg](https://www.huilemielolives.com/img/cms/POLYPHENOLES_2025.pdf) are sample-specific figures. Match the purchased harvest/batch to its certificate before using them as intake estimates; retain the existing 13.5g portions.
 
+<a id="diet-gi-options"></a>
+
+#### GI portion trials
+
+| If a food or meal provokes symptoms | First adjustment to test |
+| --- | --- |
+| The 200ml Soy Matcha Latte | Try the listed lactose-free Milk in its place: 24kcal and 9.4g Carbohydrate more, 1.2g Fiber less. The selected Alpro uses whole Soybeans; tolerance differs from Soy-protein drinks. |
+| Large mixed-plant meals | Trial 50–75g of the troublesome Vegetable instead of 100g, steamed until tender; for Greens, try 25g leaves or 15g Sprouts, prepared as listed. Leaves/Microgreens may also be steamed until tender if better tolerated. Keep other tolerated portions and restore meaningful energy losses with Potato. |
+| Pulses or Ferments | If symptoms recur, reduce Pulses to 30–40g cooked/drained or Sauerkraut to 50g, then return toward tolerated portions; reduce Kimchi from 75g to 25–50g if needed. Split the Kefir bottle within the day if meal volume is troublesome. Boil Pulses separately, drain and rinse; replace omitted Protein using the Diet rotations Note. |
+| Persistent IBS-type symptoms | With a dietitian, consider a 2–6-week low-FODMAP trial followed by reintroduction and personalization. Keep the diet as varied as tolerance allows. |
+| Active bowel inflammation or unintended weight loss | Prioritize adequate nutrition and clinician-directed evaluation/treatment; pause the cut rather than forcing Fiber or restriction. |
+
+*Record the food/portion, pain or bloating, Stool form/frequency and urgency. Keep other variables steady, retain changes that help reproducibly and re-expand tolerated foods. Food trials complement the [GI follow-up](#follow-up).*
+
 <a id="diet-fodmap-tags"></a>
 
 #### FODMAP tags
@@ -1252,17 +1279,44 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 - **M.0.2 Psyllium:** keep oral prescription medicines at least 2 hours away; this is why Tadalafil sits at Lunch. [Psyllium label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d030b0-df97-4dd6-88ba-e9fe863c95ea)
 - **Matcha/Caffeine:** keep Matcha at least 2 hours after the Iron-containing Lunch and 8 hours before sleep. EvoBomb's 200mg Caffeine is the larger late-day exposure; its timing must also fit bedtime. Cocoa Flavanols remain at Lunch. [Tea/Iron study](https://pubmed.ncbi.nlm.nih.gov/29046302/) [Caffeine/sleep review](https://pubmed.ncbi.nlm.nih.gov/36870101/)
-- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA. Weigh EAA 10g; the old two-scoop count does not apply. Swallow A.1 UC-II and the other After Workout pills before starting WPI/EAA. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
-- **IW.0.2/IW.0.3 hydration:** prepare the 2.5L electrolyte drink, put HBCD in the first portion that will be finished, then drink the remainder to thirst. Use pre/post dry body weight; fluid intake should not cause weight gain. Sauna adds one ALLHydrate scoop, **no second HBCD serving**. Two scoops exceed the manufacturer's 1.5scoop serving, so review sweat losses, Blood Pressure and GI tolerance. [ALLHydrate label](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [Fluid-replacement guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5634236/)
+- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA. Use EAA 15g — 1scoop (25ml) and Collagen 4scoops; see [scoop sizes](#powder-scoop-sizes). Swallow A.1 UC-II and the other After Workout pills before starting WPI/EAA. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
+- **IW.0.2/IW.0.3 hydration:** prepare the 2.5L electrolyte drink, put HBCD in the first portion that will be finished, then drink the remainder to thirst. Use pre/post dry body weight; fluid intake should not cause weight gain. Sauna adds the same IW.0.2 serving, **no second HBCD serving**. The combined dose exceeds the manufacturer's 4.1g serving, so review sweat losses, Blood Pressure and GI tolerance. [ALLHydrate label](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [Fluid-replacement guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5634236/)
 - **L.2-3 Omega-3:** skip capsules on the listed Salmon, Sardine or Mackerel days; Pollock does not qualify. Salmon 150g provides an estimated 1.8g EPA+DHA and Sardines 170g ~3.25g. The selected 180-softgel formula is 690mg EPA/310mg DHA per softgel. Two/day exceeds its usual one/day label direction and remains a review point. Do not increase; higher-dose trials show an Atrial-Fibrillation signal. Match the purchased lot to IFOS and review weekly intake/RBC Omega-3 Index. [Selected label](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) [Sardine label](https://leclerc.com.pl/delicius-filety-z-sardynek-w-oliwie-z-oliwek) [Dose/AF evidence](https://pubmed.ncbi.nlm.nih.gov/34612056/)
 - **M.11 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
 
 ### Supplement details
 
+Entries are ordered by expected net benefit. Names retain meaningful formulation/strain identity; links identify exact products. Detailed rationale belongs in these Notes.
+
+#### Supplement codes
+
+Use [GymBeam Adjustable PillBoxes](https://gymbeam.pl/regulowany-pojemnik-na-suplementy-gymbeam.html): two linked 9-compartment organizers each for Morning, Lunch and Evening; one each Before and After Workout.
+
+| Code | Timing |
+| --- | --- |
+| M / L / E | Morning / Lunch / Evening |
+| B / IW / A | Before / Intra-Workout / After Workout |
+
+- Numbered codes identify physical pill compartments. `.1`/`.2` share one compartment between small, distinguishable pills; `L.2-3` uses one large pill per compartment; `M.15 3x` puts three small pills in one compartment.
+- Zero-series codes such as `M.0.2` identify drinks/powders outside the organizer. In `M.0.3.2.1`, the last two numbers identify the ingredient subgroup and its position. Nested superscripts link Notes and consume no compartments.
+- Keep empty compartments at meaningful evidence-benefit gaps. Display order does not create extra timing windows.
+
+#### Powder scoop sizes
+
+Use `mass — measure count (volume)` for powder servings, e.g. `13.33g — 4scoops (4x~10ml)`.
+
+`1scoop (70ml)` gives one scoop's capacity; `2scoops (2x15ml)` means two 15ml measures. `~` marks an estimate. HSN capacities are manufacturer-specified; scoops may be sold separately. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
+
+- **EAA / A.0.2:** 15g — 1scoop (25ml), matching the manufacturer's serving. [Exact RawSeries EAA label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor)
+- **Collagen / B.0.3:** 13.33g — 4scoops (4x~10ml), using exactly four original scoops and KFD's 5g per 1.5scoops. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
+- **Psyllium / M.0.2:** 2.5g — 1tsp (5ml), using GymBeam's 5g per 2tsp and standard metric measures. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
+
+Keep gram targets when changing scoops; for Collagen, calibrate to four original scoops. Estimated volumes are unconfirmed and depend on powder packing and filling. Sources, calculations, ranges and measurement guidance are in the [scoop reference](supplements/POWDER_SCOOP_REFERENCE.md), checked 2026-11-14.
+
 #### Training, Skin & joints
 
 - **Creatine / B.0.1:** 10g is the chosen high-maintenance dose; extra benefit over lower maintenance doses depends on the setting. Split it if needed for GI tolerance; no further increase is established. [Training trial](https://pubmed.ncbi.nlm.nih.gov/27523919/) [10g/20g cognition trial](https://pubmed.ncbi.nlm.nih.gov/37759877/)
-- **Collagen / B.0.3:** the standalone 13g serving is intentionally retained for connective-tissue loading. The frequently cited pre-exercise study used 15g Gelatin with Vitamin C, not this exact product or the full 25.5g daily combination. [Study](https://pubmed.ncbi.nlm.nih.gov/27852613/)
+- **Collagen / B.0.3:** the standalone 4scoop serving (13.33g) is intentionally retained for connective-tissue loading. The frequently cited pre-exercise study used 15g Gelatin with Vitamin C, not this exact product or the full 25.83g daily combination. [Study](https://pubmed.ncbi.nlm.nih.gov/27852613/)
 - **Lycopene / L.9:** 30mg supplemental is the chosen Skin-focused dose; superiority over 20mg for visible results is unproven. Take with the existing fat-containing meals. [Dose-response trial](https://pubmed.ncbi.nlm.nih.gov/18689558/) [Skin trial](https://pubmed.ncbi.nlm.nih.gov/20854436/)
 - **Curcumin / L.10:** use Advanced Curcumin Elite™, not plain Curcumin Elite™ 02407. One softgel supplies Curcuminoids 200mg, Gingerols 60mg and Turmerones 75mg. It replaces the separate Curcumin/Ginger products; do not add either back or add Piperine. Better outcomes than Longvida® have not been established. [Advanced label](https://www.lifeextension.com/vitamins-supplements/item02324/advanced-curcumin-elite-ginger-turmerones-turmeric-extract)
 - **Ceratiq® / L.11:** 350mg means Wheat Oil Extract, not isolated Ceramides. Assess dryness, texture and consistent photos after 12 weeks. It is Gluten-Free but contains Wheat; avoid with Wheat Allergy. [Label](https://www.lifeextension.com/vitamins-supplements/item02096/skin-restoring-ceramides) [Trial](https://pubmed.ncbi.nlm.nih.gov/31033133/)
@@ -1271,7 +1325,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 #### Gut & metabolic support
 
-- **PHGG / E.0.1:** an eight-to-twelve-week bloating trial, replacing 5g standalone Psyllium rather than increasing the full 10g Psyllium regimen. Weigh 3g/day for the first week, then 6g/day if tolerated, dissolved in a glass of Water; Kenay's 2scoop serving is 7g. Keep other GI interventions and tolerated food portions stable. Record baseline and weekly bloating, pain and stool form/frequency; continue only for a clear, worthwhile improvement and reduce/stop for persistent worsening. Sunfiber® improved bloating/gas in a 12-week trial but not global IBS severity or quality of life; the study excluded other probiotics/prebiotics, so this combination is untested. Evening placement is an adherence alternative, with no established advantage over Morning; take it at least 2 hours away from Evening oral medicines as a precaution pending a pharmacist review, not a proven interaction interval. [Trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4744437/) [Label](https://kenay.com.pl/742-blonnik-sunfiber-ag-140-g-.html)
+- **PHGG / E.0.1:** an eight-to-twelve-week bloating trial, replacing 5g standalone Psyllium rather than increasing the full 10g Psyllium regimen. Weigh 3g/day for the first week, then 6g/day if tolerated, dissolved in a glass of Water; Kenay's 2scoop serving is 7g; weigh the trial dose. Choose Morning or Evening PHGG, never both. Keep other GI interventions and tolerated food portions stable. Record baseline and weekly bloating, pain and stool form/frequency; continue only for a clear, worthwhile improvement and reduce/stop for persistent worsening. Sunfiber® improved bloating/gas in a 12-week trial but not global IBS severity or quality of life; the study excluded other probiotics/prebiotics, so this combination is untested. Evening placement is an adherence alternative, with no established advantage over Morning; take it at least 2 hours away from Evening oral medicines as a precaution pending a pharmacist review, not a proven interaction interval. [Trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4744437/) [Label](https://kenay.com.pl/742-blonnik-sunfiber-ag-140-g-.html)
 - **Probiotics / M.1/M.2/E.3:** B. longum 35624® is the former B. infantis 35624 name. Gastrus® provides 400mln CFU/day across its two strains combined, not that amount per strain. Keep each for a measurable symptom response; the Gastrus® trial showed improvement around week 6. [Strain identity](https://www.symbiosys.pl/symbiosys-alflorex-46225.html) [Gastrus® trial](https://pubmed.ncbi.nlm.nih.gov/41821785/)
 - **Butyrate / L.5/E.4:** 1g Sodium Butyrate supplies ~790mg Butyrate Ion (~800mg Butyric Acid equivalent). Debutir MAX's newer release system differs from the Forte used in the UC trial; clinical superiority is unproven. For IBD it remains an adjunct, with response assessed through symptoms and Calprotectin. [MAX label](https://polpharma.pl/produkty/debutir-max-500-mg-x-60-kaps/) [UC trial](https://pubmed.ncbi.nlm.nih.gov/41422374/)
 - **Berberine / L.14/E.11:** 500mg extract at 98% supplies 490mg HCl per capsule, 980mg/day. Published contaminant/microbiology reports do not verify potency. Assess the added value against the existing metabolic results. [Product and reports](https://bmpharma.pl/products/berberine)
@@ -1306,13 +1360,13 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 - **Blood Pressure:** review Citrulline 8g alongside Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna. Check seated/standing BP, especially during the first 1–2 weeks after the Garlic switch; review dizziness, near-fainting or unusual weakness. Separating doses does not remove systemic interactions. Free Taurine 4g also exceeds the standalone product's one-capsule directions. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) [Taurine label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)
 - **Berberine:** reassess Glucose/HbA1c, ApoB/lipids, Liver tests, BP and GI tolerance after 8–12 weeks. The existing fallback for intolerance is Lunch-only. Its CYP interaction potential persists with split dosing. TMG follow-up uses Homocysteine and lipids. [Human Berberine interaction study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4898966/) [TMG review](https://pubmed.ncbi.nlm.nih.gov/33764214/)
 - **Liver/bleeding:** after the Curcumin change, recheck ALT/AST/ALP/GGT and Total/Direct Bilirubin at 6–8 weeks; Milk Thistle follow-up is 8–12 weeks. Stop Curcumin and seek review for jaundice, dark urine, marked fatigue, persistent nausea or abdominal pain. Review unusual bruising/bleeding and disclose Garlic/Curcumin/Ginger/Omega-3 before surgery or with anticoagulants, Aspirin or NSAIDs. [Curcumin Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury) [Garlic safety](https://www.nccih.nih.gov/health/garlic)
-- **Astaxanthin / M.13:** 18mg alone exceeds the ~16mg all-source ADI at 80kg. This is a chronic-exposure benchmark, not an acute-toxicity threshold. Do not increase or stack it; take with the existing fat-containing Breakfast. [EFSA assessment](https://doi.org/10.2903/j.efsa.2020.5993)
+- **Astaxanthin / M.13:** Double Wood AstaReal® supplies 12mg active Astaxanthin in 1 oil softgel with Breakfast. **Choose this 12mg routine OR the separate 24mg four-week trial; never combine them.** Public 2026 testing includes Double Wood and reports that selected products met their labeled amounts; match the purchased lot rather than assuming every lot was independently tested. Small human trials support possible Skin/recovery benefits; a direct dose comparison did not establish extra functional benefit at 24mg. Assess consistent Skin photos after 12–16 weeks and comparable post-workout soreness; stop for new persistent adverse effects. The EU authorized supplement level is 8mg/day; 12mg exceeds it. The separate all-source ADI is 16mg/day at 80kg, with food and product overfill still extra; neither figure is an acute-toxicity threshold. [Dose comparison](https://doi.org/10.1016/j.scispo.2025.06.003) · [Testing](https://www.consumerlab.com/reviews/astaxanthin-supplements-review/astaxanthin/) · [EFSA](https://doi.org/10.2903/j.efsa.2020.5993) · [EU use conditions](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02017R2470-20260810)
 - **Other minerals:** recheck 25-OH Vitamin D and Calcium 8–12 weeks after the CaAKG change. Verify food Iodine inputs and the repeat thyroid assessment before adding Iodine. July Ferritin 42ng/ml/estimated TSAT ~30% and September Hemoglobin 15.3g/dl do not establish an Iron-pill indication. Do not add Potassium Salt by default; review with Kidney impairment or ACE-inhibitor/ARB/Potassium-sparing-diuretic use. [Iodine guidance](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) [Iron assessment](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/medical-supplements2/iron/how-and-when-do-i-use-it)
 
 ### Skin & teeth
 
 - **Dry eyelids:** Dermallergo Eyes first for a lighter feel; Atoderm Intensive Eye if richer coverage is needed. Test one for about 2 weeks. Keep retinoids/acids off eyelids and under-eyes; stop for persistent stinging, swelling or redness. Persistent red/scaly skin needs assessment. [Dermallergo](https://www.laroche-posay.co.uk/en_GB/toleriane-dermallergo-soothing-eye-cream/LRP_132.html) [Atoderm](https://www.bioderma.pl/produkty/atoderm/intensive-eye)
-- **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Salicylic Acid/peel use with the prescriber; separate nights do not resolve that compatibility question. Retain one weekly topical retinoid, Adapalene OR Tretinoin, as listed. If the optional monthly peel is appropriate: dry skin, maximum 10 minutes, avoid eyes, then plain moisturizer; no topical retinoid, Salicylic Acid cleanser, SNAP-8 or GHK-Cu that routine. Pause acids for redness, stinging or peeling. The professional Bielenda 40% blend is not a home substitute. [Peel label](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
+- **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Adapalene/Tretinoin/Salicylic Acid/peel use with the prescriber; separate nights do not resolve that compatibility question. Keep one weekly topical retinoid: Adapalene 0.1% by default or Tretinoin 0.025% as an alternative. If the optional monthly peel is appropriate: dry skin, maximum 10 minutes, avoid eyes, then plain moisturizer; no topical retinoid, Salicylic Acid cleanser, SNAP-8 or GHK-Cu that routine. Pause acids for redness, stinging or peeling. The professional Bielenda 40% blend is not a home substitute. [Peel label](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
 
 <a id="dental-staining"></a>
 
@@ -1350,6 +1404,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] **[Life Extension AprèsFlex® Boswellia 100mg (AKBA 20mg)](https://www.lifeextensioneurope.com/5-lox-inhibitor-with-apresflex):** replace A.8-9 only for diagnosed OA or assessed, function-limiting joint pain. Trial 1capsule/day for 8–12 weeks; track pain/function and GI or bleeding problems. [Polish listing](https://www.ceneo.pl/110919931); small [OA trials](https://pubmed.ncbi.nlm.nih.gov/22022214/).
 - [ ] **[Dona® crystalline Glucosamine Sulfate powder 1.5g once daily](https://www.hpra.ie/img/uploaded/swedocuments/afe687b5-caf3-4371-b77b-b116b7277677.pdf):** an alternative A.8-9 replacement for symptomatic OA after clinician review, separate from an AprèsFlex® trial. Closer match to clinical outcome studies; [better absorption is unproven](https://pubmed.ncbi.nlm.nih.gov/40806074/). No normal Polish channel verified; use an authorized EU pharmacy if warranted. Assess pain/function over 8–12 weeks.
 - [ ] **[Lasea® Silexan® 80mg/day](https://www.apo-discounter.pl/lasea-kapsulki-28szt-pzn-05489626):** replace Ashwagandha (E.7) only for persistent, meaningful anxiety. Track GAD-7, function and tolerance for 8–10 weeks; reflux/nausea may limit use. Exact Silexan® formulation, with a Poland-facing pharmacy link; [anxiety evidence](https://pubmed.ncbi.nlm.nih.gov/36717399/) does not establish superiority to KSM-66®.
+- [ ] **[Skinoren Azelaic Acid 15% gel](https://www.gdziepolek.pl/produkty/71824/skinoren-zel/apteki):** Polish OTC option for persistent acne/post-acne red or brown marks after compatibility review with the E.1.1 prescriber. It is not a general pore treatment. If selected, follow the [label](https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/10628/characteristic), check tolerance/acne after about 4 weeks and marks at 8–12 weeks. A [15% gel trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC11116308/) used a different product and excluded other acne treatments; no automatic addition to the current regimen.
 
 ### Training & occasional use
 
@@ -1422,9 +1477,10 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ### Product replacements
 
-- **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2).
+- **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop (~35ml)](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2). [White Cherry scoop estimate](supplements/POWDER_SCOOP_REFERENCE.md#retired-scoop-entry).
 - **[Biały Puch WPI Unflavored](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701)** → HSN RawSeries WPI; keeps both 30g servings without added B6.
-- **[Biały Puch EAA Unflavored 10g](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807)** → HSN RawSeries EAA 10g powder; keeps the post-workout serving without added B6.
+- **[Bandini Astaxanthin “18mg”, 270capsules](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744)** [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] → Double Wood AstaReal® 12mg active (M.13). The [current manufacturer specification](https://www.bandini-pharma.pl/produkt/astaksantyna-270-kapsulek/) lists 18mg material providing 450mcg active Astaxanthin per capsule; it does not establish the content of an uninspected owned lot.
+- **[Biały Puch EAA Unflavored 10g](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807)** → HSN RawSeries EAA 15g powder — 1scoop (25ml); aligns the post-workout serving with the manufacturer's measure without added B6.
 - **[GymBeam Cluster Dextrin® 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html)** → HSN RawSeries Cluster Dextrin® at the same dose and timing.
 - **[OstroVit Omega 3 Extreme 3capsules (EPA 1.5g + DHA 750mg)](https://ostrovit.com/pl/products/ostrovit-omega-3-extreme-90-kapsulek-25585.html)** → 2 Sports Research triglyceride-form softgels on non-Fatty-Fish days (L.2-3).
 - **[OstroVit Glucosamine Sulfate 2KCl 1.4g](https://ostrovit.com/pl/products/ostrovit-glukozamina-1400-mg-90-kapsulek-26571.html)** → 2 NOW Glucosamine Sulfate 750mg capsules (A.8-9). The former 1.4g described the whole salt complex.
@@ -1445,7 +1501,8 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **Rotating Hair products:** [anti-hair-loss shampoo](https://allegro.pl/oferta/anti-hair-loss-szampon-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132003412), [Anwen Emollient Iris conditioner](https://allegro.pl/oferta/anwen-odzywka-do-wlosow-emolientowy-irys-200-ml-9334623745), [Anwen Protein Magnolia conditioner](https://allegro.pl/oferta/anwen-odzywka-proteinowa-magnolia-aluminiowa-100ml-11386316729), [anti-hair-loss conditioner](https://allegro.pl/oferta/anti-hair-loss-odzywka-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132018183), [Anwen Grow Us Tender warming scalp tonic](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) and [Castor Oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) → the fragrance-free Philip Kingsley shampoo/conditioner pair. Fewer products and easier irritation tracking.
 - **[More4Care Cryotherapy Hair Mask 200ml](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419):** removed; the regular conditioner covers this step.
 - **[Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (formerly daily):** CeraVe replaced the daily step; optional SNAP-8 remains in Skincare.
-- **[CeraVe Resurfacing Retinol Serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (formerly nightly):** removed the extra cosmetic retinoid; retain one weekly Adapalene OR Tretinoin.
+- **[CeraVe Resurfacing Retinol Serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (formerly nightly):** removed the extra cosmetic retinoid; retain one weekly topical retinoid (Adapalene 0.1% default or Tretinoin-only 0.025% alternative).
+- **Tretinoin 0.05-0.1% (formerly weekly alternative):** replaced by Tretinoin 0.025%; [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) remains the weekly default. The [daily-use trial](https://pubmed.ncbi.nlm.nih.gov/7544967/) found less irritation versus 0.1%, not tested at weekly frequency.
 - **[Bielenda Professional 40% acid peel](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306):** professional pH2 blend, unsuitable as a direct home substitute for The Ordinary. Its [professional program](https://bielendaprofessional.pl/zabiegi-kosmetyczne-na-twarz/anti-acne-program) lists retinoid treatment as a contraindication.
 
 ### Limited benefit or overlap
