@@ -86,6 +86,8 @@ Oura on the web: open Trends, select the date range, choose Download Data, selec
 
 The import reads the exact bytes it archives. Reimporting the same file does not duplicate observations. Partial files amend the days and metrics they contain without removing other cached observations. An incoming Oura day/metric replaces the previous daily value even if one came from CSV and the other from the API.
 
+Each supplied provider must contribute a usable observation in the requested date range: a numeric reading, a dated device classification or a Withings ECG recording. Classification-only and ECG-only files preserve cached numeric readings. Oura/Garmin observations for the unfinished current day do not satisfy this check.
+
 For Withings, the supported fallback is saved **official API measurement JSON**, with every page combined. Arbitrary app export CSVs are not guessed: Withings export columns and units can vary by export/account.
 
 ```powershell

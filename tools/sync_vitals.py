@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from tools.health_sync.monthly import MANAGED_START, aggregate, iso_date, merge_file_records
+from tools.health_sync.monthly import MANAGED_START, aggregate, iso_date, merge_file_records, validate_records
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / ".health-sync"
@@ -242,6 +242,7 @@ def run_import(args):
         classification_sources[provider] = source_path
         incoming.extend({**record, "source_file": source_path} for record in records if not (provider in {"oura", "garmin"} and iso_date(record["day"]) >= today))
     classifications = [{**event, "source_file": classification_sources[event["provider"]]} for event in classifications]
+    incoming_ecgs = ecg_records.summarize_inventory(ecg_inventory, classification_sources.get("withings", ""))
     incomplete = any(entry.get("status") == "unavailable"
                      for status in fetch_status.values()
                      for entry in status.get("endpoint_status", {}).values())
@@ -250,7 +251,21 @@ def run_import(args):
         if incomplete:
             print("Some API collections are unavailable; their cached observations are retained while complete collections are refreshed.")
     else:
-        records = merge_file_records(load_cache(), incoming, providers, start, end)
+        # File usability spans all supported observations, not just monthly means.
+        # Validate before counting; cached, out-of-range and unfinished-day data
+        # must not make an empty source look like a successful import.
+        incoming = [record for record in validate_records(incoming) if start <= iso_date(record["day"]) <= end]
+        classifications = categorical.merge([], classifications, providers, start, end, complete=False)
+        incoming_ecgs = ecg_records.merge_summaries([], incoming_ecgs, start, end)
+        usable_providers = {record["provider"] for record in incoming + classifications + incoming_ecgs
+                            if not (record["provider"] in {"oura", "garmin"} and iso_date(record["day"]) >= today)}
+        if usable_providers - set(providers):
+            raise ValueError("Incoming observations contain a provider outside this import.")
+        for provider in providers:
+            if provider not in usable_providers:
+                raise ValueError(f"No usable {provider} readings in the requested range; existing results were preserved.")
+        numeric_providers = {record["provider"] for record in incoming}
+        records = merge_file_records(load_cache(), incoming, numeric_providers, start, end)
     monthly = aggregate(records, today)
     cache_path = CACHE / "records.json"
     previous_cache = json.loads(cache_path.read_bytes()) if cache_path.exists() else {}
@@ -263,7 +278,7 @@ def run_import(args):
     monthly["categorical_months"] = categorical.aggregate(classifications, today)
     ecg_summaries = ecg_records.merge_summaries(
         previous_cache.get("ecg_recordings", []),
-        ecg_records.summarize_inventory(ecg_inventory, classification_sources.get("withings", "")),
+        incoming_ecgs,
         start, end,
         complete=(args.command == "sync" and fetch_status.get("withings", {}).get(
             "endpoint_status", {}).get("heart_signals", {}).get("status") == "complete"),
