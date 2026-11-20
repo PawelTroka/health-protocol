@@ -1,6 +1,6 @@
 # Protocol structure proposal
 
-**Proposal for [README.md](README.md), reviewed 2026-11-07.** Organize the protocol by health topic, with daily foundations first and clear routes to care, schedules and reference material. This document proposes the layout; the active protocol stays in README.
+**Proposal for [README.md](README.md), reviewed 2026-11-20.** Organize the protocol by health topic, with daily foundations first and clear routes to care, schedules and reference material. This document proposes the layout; the active protocol stays in README.
 
 ## Proposed contents
 
@@ -39,7 +39,7 @@ Keep a compact overview, with deeper links where they help lookup:
 - **Tests & screening:** Laboratory Analysis → Blood / Urine / Stool; Cardiovascular Health; Diagnostic Imaging; Specialist Screenings; Gastrointestinal Health.
 - **Face:** Skincare / Home procedures / Professional procedures. **Hair:** Haircare / Home procedures / Professional procedures.
 - **Cookware:** Cutting Boards; Knives; Frying Pans; Cooking pot set; Ovenproof dish; Kitchen Utensils.
-- **Reference material:** keep the existing Notes, TODO and Removed subsection links added by [#33](https://github.com/PawelTroka/health-protocol/pull/33).
+- **Reference material:** keep the Notes, TODO and Removed subsection links proposed by [#33](https://github.com/PawelTroka/health-protocol/pull/33).
 
 ## Where current and incoming content goes
 
@@ -69,13 +69,20 @@ Replace the two good/bad-behavior lists with topic homes. Describe what to do or
 | Bedroom conditions vs bedding/air equipment | Sleep owns the operating settings; Environment owns product choices and upkeep, connected by links |
 | Surgeries | Medical history; future surgery candidates belong in TODOs until selected |
 
-### Incoming PRs
+### Existing coverage and open proposals
 
-- **[Sleep #13](https://github.com/PawelTroka/health-protocol/pull/13):** supplies the standalone Sleep routine, including the air/circadian work already merged into it from [#25](https://github.com/PawelTroka/health-protocol/pull/25). Preserve the chosen DND window and other personal settings. Redistribute its **Other recovery habits** using the table above.
-- **[Wellbeing #14](https://github.com/PawelTroka/health-protocol/pull/14):** supplies daily connection, weekly social plans, mental reset, work/leisure boundaries and the weekly check-in. Keep these in their own main section. Resolve the old productivity wording within that PR's scope.
-- **[Hair #6](https://github.com/PawelTroka/health-protocol/pull/6):** styling instructions belong under Haircare and supporting research in the relevant Note. Refresh it against current Hair content independently of the layout change.
+Snapshot: main [`5a09350`](https://github.com/PawelTroka/health-protocol/commit/5a093500aa6b368747b0c28a05d77c85bc4cc9c9), reviewed 20November2026. Check the live PR state before starting follow-up work; an existing proposal is not a new content gap.
 
-These are incoming content decisions, not missing topics to rewrite from scratch. Snapshot: main at [`ae486e6`](https://github.com/PawelTroka/health-protocol/commit/ae486e69f96031bb83d9092c4ef872f5df383c0d), with #6, #13 and #14 open.
+| Topic | Current coverage / proposal | Integration rule |
+|---|---|---|
+| Sleep | A standalone routine is already on main; [#41](https://github.com/PawelTroka/health-protocol/pull/41) and [#55](https://github.com/PawelTroka/health-protocol/pull/55) are alternative refinements. | Choose one refinement and preserve the selected bedroom/DND targets. |
+| Wellbeing | [#14](https://github.com/PawelTroka/health-protocol/pull/14) and [#56](https://github.com/PawelTroka/health-protocol/pull/56) offer alternative everyday routines; [#57](https://github.com/PawelTroka/health-protocol/pull/57) supplies check-ins and access to support. | Choose one routine; reconcile the complementary support pathway once. |
+| Hair styling | [#6](https://github.com/PawelTroka/health-protocol/pull/6) preserves familiar styling options and reviews formulas. | Place actions under Haircare and the product comparison in Notes. |
+| Prevention and follow-up | [#150](https://github.com/PawelTroka/health-protocol/pull/150) supplies personal prevention planning and result-to-action follow-up. | Reuse it; retain the distinction between screening and diagnostic care. |
+| Full-regimen review | [#151](https://github.com/PawelTroka/health-protocol/pull/151) covers reconciliation, interactions, monitoring and procedures. | Link to the canonical intake schedule and Notes. |
+| Sexual and reproductive health | [#154](https://github.com/PawelTroka/health-protocol/pull/154) covers intimacy, function and conditional preconception review. | Reuse this focused proposal instead of opening duplicate content work. |
+| Hearing protection | Already on main under Environment. | Preserve the existing actions and link them from Prevention if the layout changes. |
+| Navigation | [#33](https://github.com/PawelTroka/health-protocol/pull/33) adds subsection links. | Refresh the contents against whichever headings are actually accepted. |
 
 ## One home for each instruction
 
@@ -85,23 +92,19 @@ These are incoming content decisions, not missing topics to rewrite from scratch
 - **Meal and training schedules:** keep the actual plan in one place. Hydration, social-sport and recovery subsections link to scheduled entries where they overlap.
 - **Notes, TODOs and history:** Notes explain decisions; TODOs contain pending changes; Removed records past decisions. Keep their recently simplified groups. A structural move does not promote a candidate into current use or resolve conflicting dose statements.
 
-## Protocol gaps to scope
+## Remaining scope to assess
 
-These are proposed research tasks for a small **TODOs → Protocol gaps** group, not new treatment instructions.
+The coverage table above owns the already-proposed work. Do not open another PR for those same topics.
 
-- [ ] **Sexual & reproductive health:** develop concise coverage of function/comfort, sexual communication, safer sex/STI care and reproductive goals if relevant; link existing tests, vaccinations and treatments.
-- [ ] **Prevention:** distinguish routine screening, follow-up of existing findings and exploratory testing; review indications and due dates in a separate clinical audit.
-- [ ] **Care coordination:** surface existing follow-up actions, medicine-review decisions and procedure-related instructions without duplicating the underlying Notes or checklists.
-- [ ] **Injury management:** extract the existing exercise restrictions and rehabilitation guidance into a brief Principles & injury limits subsection, linked to medical history.
-- [ ] **Hearing & noise:** assess whether a short prevention topic is useful; no new test or device is assumed.
-- [ ] **Psychological support:** assess whether #14 needs a concise route to support for persistent symptoms beyond its everyday habits.
+- [ ] **Injury management:** assess whether the existing exercise restrictions and rehabilitation guidance need a brief Principles & injury limits subsection, linked to medical history; compare the open exercise PRs before proposing additional content.
+- [ ] **Navigation after decisions:** once the accepted content is known, move and link it without changing doses, training prescriptions or treatment status.
 
-Oral care, vision exams, vaccination records, nutrition totals and GI follow-up already exist. Improve their placement and links rather than calling them absent.
+Oral care, vision exams, vaccination records, nutrition totals, hearing protection and GI follow-up already exist. Improve their placement and links rather than calling them absent.
 
 ## Navigation and migration
 
 1. Land [#33](https://github.com/PawelTroka/health-protocol/pull/33) for immediate subsection navigation. This proposal can be reviewed independently.
-2. Review this layout and finish #13/#14 in their own PRs. Refresh the contents after each heading change; #6 remains a separate Hair update.
+2. Review this layout and choose among the existing Sleep/Wellbeing alternatives. Refresh the contents after each heading change; keep each focused clinical/content decision in its existing PR.
 3. Apply the agreed layout as a move-and-link change. Preserve active entries, quantities, exercise prescriptions, product URLs, signatures and status; handle substantive corrections separately.
 4. Add scoped gap content through focused follow-up PRs, keeping evidence and alternatives in Notes or PR descriptions.
 
