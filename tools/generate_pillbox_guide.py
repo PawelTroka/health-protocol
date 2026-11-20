@@ -251,7 +251,7 @@ PAGES = [
                 "1g",
                 icons="🧠 ❤️ 🔄",
             ),
-            item("L.13", "Broccoli Seed Extract", "200 mg", icons="🛡️ 🍅 🔥", note="Glucoraphanin 20 mg • Myrosinase"),
+            item("L.13", "Stabilized Sulforaphane (Sulfodyne®)", "10mg", icons="🛡️ 🍅 🔥", note="Prostaphane® • Refrigerate reserve; pack 1 week", same_slot_count=2),
             item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽"),
             item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🛡️ 🔄", note="SAC 2.5 mg • standardized to 0.5%"),
             item("L.16", "Phosphatidylserine", "300 mg", icons="🧠 😌"),
@@ -657,7 +657,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
