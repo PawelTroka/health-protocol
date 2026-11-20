@@ -108,6 +108,7 @@ TIER_BY_CODE = {
     "A.2": "🥈",
     "A.3": "🥈",
     "A.4": "🥈",
+    "A.7": "🥈",
     "A.8": "🥈",
     "A.9": "🥈",
 }
@@ -349,7 +350,7 @@ PAGES = [
             item("A.4", "MSM (OptiMSM®)", "1.5g", icons="🦴 🔥 👨‍🦳 🔄"),
             empty("A.5"),
             empty("A.6"),
-            empty("A.7"),
+            item("A.7", "Boswellia AprèsFlex®", "100mg (AKBA 20mg)", icons="🦴 🔥", note="One daily • knee-OA symptom evidence • preventive benefit unproven"),
             item("A.8", "Glucosamine Sulfate", "750mg", icons="🦴 👨‍🦳 🛡️ 🔄"),
             item("A.9", "Glucosamine Sulfate", "750mg", icons="🦴 👨‍🦳 🛡️ 🔄"),
         ],
@@ -657,7 +658,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
