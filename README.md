@@ -604,16 +604,16 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### 🍳 Preparation & food safety
 
-- **Batch simply:** choose a few Vegetable rotations per shopping trip. Steam the marked Vegetables, Potatoes/Sweet Potatoes and Mushrooms until appropriately tender; follow the separate Quinoa, Pulse and food-safety instructions. Cool cooked leftovers promptly, refrigerate and reheat safely.
-- **Pulses:** soak dried Black Beans/Chickpeas for at least 12 hours, discard the Water and rinse. Boil in fresh Water for approximately 60 minutes until tender, following the label; do not use a low-temperature slow cooker alone. Rinse Lentils and boil for approximately 30 minutes until tender. Drain, rinse and weigh the cooked serving.
-- **Cook safely:** Poultry 74°C and Fish 63°C at the core, or a validated time–temperature equivalent. Cook Eggs, Shellfish and Mushrooms thoroughly; oven temperature alone does not establish safety. [Safe temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) Keep the skinless Salmon at 0–2°C and follow its delivered use-by date; it is sold thawed, so do not refreeze.
-- **Raw produce:** wash Tomatoes, Peppers, salad Leaves and Microgreens under running Water unless labeled washed/ready-to-eat; refrigerate cut produce, Greens and Sprouts. Watercress Leaves/Microgreens and Arugula need no routine cooking. [Produce preparation](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) For Spinach/Chard, boiling and discarding the Water remains an optional preparation to reduce oxalates. [Oxalate preparation study](https://pubmed.ncbi.nlm.nih.gov/15826055/)
-- **Sprouts:** rinse Broccoli/Radish Sprouts and steam until steaming hot throughout. Washing or light warming does not reliably remove their bacterial risk. [Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
-- **Fat & flavor:** Fixed EVOO is 27g/day: 13.5g (1tbsp) Pamako Morning + 13.5g (1tbsp) Phileos Lunch. Dinner's Optional Additional Healthy Fats offers EVOO13.5g, Avocado30g or Nothing; Nothing is checked. Count added cooking/packing Oil; retained Oil is already included in drained-Fish labels. Avoid smoking or repeatedly reusing Oil.
-- **Fresh herbs:** Rinse, chop and add after steaming; weigh only edible leaves and tender stems.
-- **Food contact:** use [food-safe glass, ceramic or stainless steel](#7-cookware); avoid heating food in unsuitable plastic and maintain [Water filters](#clean-water) to their instructions.
+- **Pulses:** dried Black Beans/Chickpeas: soak ≥12 hours, discard Water and rinse; boil in fresh Water for ~60 minutes until tender, following the label. No low-temperature slow cooker alone. Lentils: rinse, boil ~30 minutes until tender. Drain, rinse and weigh cooked.
+- **Cooking:** Poultry 74°C/Fish 63°C at the core, or a validated time–temperature equivalent. Cook Eggs, Shellfish and Mushrooms thoroughly; steam marked Vegetables, Potatoes/Sweet Potatoes and Mushrooms until tender.
+- **Skinless Salmon:** store at 0–2°C, follow the delivered use-by date and do not refreeze the thawed product.
+- **Produce:** wash Tomatoes, Peppers, salad Leaves and Microgreens under running Water unless labeled washed/ready-to-eat; refrigerate cut produce, Greens and Sprouts.
+- **Sprouts:** rinse Broccoli/Radish Sprouts; steam until steaming hot throughout.
+- **Leftovers:** cool promptly, refrigerate and reheat safely.
+- **Oil & Herbs:** count added cooking/packing Oil; avoid smoking or repeatedly reusing Oil. Rinse/chop fresh Herbs, add after steaming and weigh edible leaves/tender stems.
+- **Equipment:** use [food-safe glass, ceramic or stainless steel](#7-cookware); avoid heating food in unsuitable plastic and maintain [Water filters](#clean-water) to their instructions.
 
-*Sources and calculation details: [Diet Notes below](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
+*[Preparation sources](#diet-food-preparation) · [Calculation details](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
 
 
 ## 5. Supplements and drugs
@@ -683,7 +683,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C 5mg
 - 🥈 **M.11** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅 🔄
 - **M.12** (empty)
-- 🥈 **M.13** [Astaxanthin 18mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
+- 🥈 **M.13** [Astaxanthin (AstaReal®) 12mg](https://pl.iherb.com/pr/double-wood-supplements-astaxanthin-astareal-12-mg-60-softgels/161500) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - 🥉 **M.14** [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436) [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
 - 🥉 **M.15** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - 🥉 **M.16** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🧠 ❤️ 🔄
@@ -1218,6 +1218,16 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 - **EvoBomb:** ~67kcal is modeled from free amino acids, Malate and estimated Maltodextrin; the plausible range is 61–73kcal pending a complete nutrition panel. Its free amino acids are kept outside dietary Protein. Other blend/carrier energy remains partly unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [EU energy factors](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011R1169)
 - **Carbohydrate:** Fiber is separate. USDA proxies use total Carbohydrate minus Fiber; labels and Norwegian data already reporting available Carbohydrate are used directly. Portions, cooking losses and incomplete panels make the daily figures estimates.
 
+<a id="diet-food-preparation"></a>
+
+#### Preparation details and sources
+
+- **Batching:** choose a few Vegetable rotations per shopping trip; follow the separate Quinoa, Pulse and food-safety instructions.
+- **Cooking temperatures:** oven temperature alone does not establish safety. [Safe temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures)
+- **Raw produce:** Watercress Leaves/Microgreens and Arugula need no routine cooking. [Produce preparation](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) For Spinach/Chard, boiling and discarding the Water remains an optional preparation to reduce oxalates. [Oxalate preparation study](https://pubmed.ncbi.nlm.nih.gov/15826055/)
+- **Sprouts:** washing or light warming does not reliably remove their bacterial risk. [Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
+- **Fat & flavor:** Fixed EVOO is 27g/day: 13.5g (1tbsp) Pamako Morning + 13.5g (1tbsp) Phileos Lunch. Dinner's [Optional Additional Healthy Fats](#diet-rotations) offers EVOO13.5g, Avocado30g or Nothing; Nothing is checked. Retained Oil is already included in drained-Fish labels.
+
 #### Diet food forms
 
 | Food | Weighing basis |
@@ -1345,7 +1355,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Blood Pressure:** review Citrulline 8g alongside Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna. Check seated/standing BP, especially during the first 1–2 weeks after the Garlic switch; review dizziness, near-fainting or unusual weakness. Separating doses does not remove systemic interactions. Free Taurine 4g also exceeds the standalone product's one-capsule directions. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) [Taurine label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)
 - **Berberine:** reassess Glucose/HbA1c, ApoB/lipids, Liver tests, BP and GI tolerance after 8–12 weeks. The existing fallback for intolerance is Lunch-only. Its CYP interaction potential persists with split dosing. TMG follow-up uses Homocysteine and lipids. [Human Berberine interaction study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4898966/) [TMG review](https://pubmed.ncbi.nlm.nih.gov/33764214/)
 - **Liver/bleeding:** after the Curcumin change, recheck ALT/AST/ALP/GGT and Total/Direct Bilirubin at 6–8 weeks; Milk Thistle follow-up is 8–12 weeks. Stop Curcumin and seek review for jaundice, dark urine, marked fatigue, persistent nausea or abdominal pain. Review unusual bruising/bleeding and disclose Garlic/Curcumin/Ginger/Omega-3 before surgery or with anticoagulants, Aspirin or NSAIDs. [Curcumin Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury) [Garlic safety](https://www.nccih.nih.gov/health/garlic)
-- **Astaxanthin / M.13:** 18mg alone exceeds the ~16mg all-source ADI at 80kg. This is a chronic-exposure benchmark, not an acute-toxicity threshold. Do not increase or stack it; take with the existing fat-containing Breakfast. [EFSA assessment](https://doi.org/10.2903/j.efsa.2020.5993)
+- **Astaxanthin / M.13:** Double Wood AstaReal® supplies 12mg active Astaxanthin in 1 oil softgel with Breakfast. **Choose this 12mg routine OR the separate 24mg four-week trial; never combine them.** Public 2026 testing includes Double Wood and reports that selected products met their labeled amounts; match the purchased lot rather than assuming every lot was independently tested. Small human trials support possible Skin/recovery benefits; a direct dose comparison did not establish extra functional benefit at 24mg. Assess consistent Skin photos after 12–16 weeks and comparable post-workout soreness; stop for new persistent adverse effects. The EU authorized supplement level is 8mg/day; 12mg exceeds it. The separate all-source ADI is 16mg/day at 80kg, with food and product overfill still extra; neither figure is an acute-toxicity threshold. [Dose comparison](https://doi.org/10.1016/j.scispo.2025.06.003) · [Testing](https://www.consumerlab.com/reviews/astaxanthin-supplements-review/astaxanthin/) · [EFSA](https://doi.org/10.2903/j.efsa.2020.5993) · [EU use conditions](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02017R2470-20260810)
 - **Other minerals:** recheck 25-OH Vitamin D and Calcium 8–12 weeks after the CaAKG change. Verify food Iodine inputs and the repeat thyroid assessment before adding Iodine. July Ferritin 42ng/ml/estimated TSAT ~30% and September Hemoglobin 15.3g/dl do not establish an Iron-pill indication. Do not add Potassium Salt by default; review with Kidney impairment or ACE-inhibitor/ARB/Potassium-sparing-diuretic use. [Iodine guidance](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) [Iron assessment](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/medical-supplements2/iron/how-and-when-do-i-use-it)
 
 ### Skin & teeth
@@ -1464,6 +1474,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 - **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop (~35ml)](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2). [White Cherry scoop estimate](supplements/POWDER_SCOOP_REFERENCE.md#retired-scoop-entry).
 - **[Biały Puch WPI Unflavored](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701)** → HSN RawSeries WPI; keeps both 30g servings without added B6.
+- **[Bandini Astaxanthin “18mg”, 270capsules](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744)** [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] → Double Wood AstaReal® 12mg active (M.13). The [current manufacturer specification](https://www.bandini-pharma.pl/produkt/astaksantyna-270-kapsulek/) lists 18mg material providing 450mcg active Astaxanthin per capsule; it does not establish the content of an uninspected owned lot.
 - **[Biały Puch EAA Unflavored 10g](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807)** → HSN RawSeries EAA 15g powder — 1scoop (25ml); aligns the post-workout serving with the manufacturer's measure without added B6.
 - **[GymBeam Cluster Dextrin® 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html)** → HSN RawSeries Cluster Dextrin® at the same dose and timing.
 - **[OstroVit Omega 3 Extreme 3capsules (EPA 1.5g + DHA 750mg)](https://ostrovit.com/pl/products/ostrovit-omega-3-extreme-90-kapsulek-25585.html)** → 2 Sports Research triglyceride-form softgels on non-Fatty-Fish days (L.2-3).
