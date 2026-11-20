@@ -2,12 +2,10 @@
 
 from dataclasses import dataclass
 from decimal import Decimal
-import re
+
+from .result_numbers import parse_reference, parse_result
 
 
-_NUMBER = r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?"
-_VALUE = re.compile(rf"(?P<operator><=|>=|≤|≥|<|>)?\s*(?P<number>{_NUMBER})")
-_RANGE = re.compile(rf"(?P<low>{_NUMBER})\s*[-–]\s*(?P<high>{_NUMBER})")
 _NEGATIVE_INFINITY = Decimal("-Infinity")
 _POSITIVE_INFINITY = Decimal("Infinity")
 
@@ -22,36 +20,44 @@ class _Interval:
 
 
 def _value_interval(value):
-    if not isinstance(value, str):
+    parsed = parse_result(value)
+    if parsed is None:
         return None
-    match = _VALUE.fullmatch(value.strip())
-    if match is None:
-        return None
-    number = Decimal(match["number"])
-    operator = match["operator"]
-    if operator in {"<", "<=", "≤"}:
+    return _number_interval(parsed)
+
+
+def _number_interval(parsed):
+    number, operator = parsed.value, parsed.operator
+    if operator in {"<", "<="}:
         return _Interval(_NEGATIVE_INFINITY, number, False, operator != "<", True)
-    if operator in {">", ">=", "≥"}:
+    if operator in {">", ">="}:
         return _Interval(number, _POSITIVE_INFINITY, operator != ">", False, True)
     return _Interval(number, number, True, True)
 
 
 def _reference_interval(reference):
-    if not isinstance(reference, str):
-        return None
-    # Report references may append a target or a qualitative band label.
-    primary = reference.split(";", 1)[0].split(":", 1)[0].strip()
-    match = _RANGE.fullmatch(primary)
-    if match is not None:
-        low, high = Decimal(match["low"]), Decimal(match["high"])
-        return _Interval(low, high, True, True) if low <= high else None
-    return _value_interval(primary)
+    parsed = parse_reference(reference)
+    if isinstance(parsed, tuple):
+        return _Interval(*parsed, True, True)
+    return _number_interval(parsed) if parsed is not None else None
 
 
 def _strictly_before(left, right):
     return left.high < right.low or (
         left.high == right.low and not (left.high_closed and right.low_closed)
     )
+
+
+def reference_direction(value, reference):
+    """Show low/high only when the entire reported interval is outside."""
+    observed, expected = _value_interval(value), _reference_interval(reference)
+    if observed is None or expected is None:
+        return None
+    if _strictly_before(observed, expected):
+        return "↓"
+    if _strictly_before(expected, observed):
+        return "↑"
+    return ""
 
 
 def is_bounded(value):

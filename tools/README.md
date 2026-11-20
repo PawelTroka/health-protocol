@@ -14,6 +14,8 @@ Run the commands below from the repository root.
 
 Explicitly awaited results use `pending`, which blocks an older trend; `-` means no supplied result. `lab_pending_tests` lists outstanding assays without inventing units or ranges. When later PDFs arrive, replace the corresponding pending entries and update the pending-test registry and source record. Regenerate both outputs from the repository root with `python -B tools/generate_colored_report.py`; this does not fetch new device data.
 
+Numeric parsing preserves signs, scientific notation and comparison operators. A decimal comma is supported when unambiguous (`1,5` or `0,125`); `1,234` is left unscored because its separator could mean decimal or thousands. Keep units in the unit column. Mixed text and multi-value strings are displayed literally without extracting unrelated digits, and an uninterpretable recent result blocks an older trend. Low/high arrows compare complete reported intervals, so `<10` against `<5` does not assert a high result. Bounds never enter percentage-change calculations.
+
 Keep report notes brief and focused on meaningful abnormalities, large changes or useful interpretation. Keep collection dates, transcription details and pending-test lists in the linked source records.
 
 ## On-demand vitals sync
