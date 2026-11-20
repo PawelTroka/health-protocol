@@ -519,6 +519,11 @@ def is_pending(value):
     return isinstance(value, str) and value.strip().casefold() == "pending"
 
 
+def qualitative_label(value):
+    """Normalize a complete label without interpreting words inside other text."""
+    return " ".join(str(value).split()).casefold()
+
+
 def calculate_score(val_str, ref_range, category=None, marker=None):
     if category == MICROBIOTA_CATEGORY:
         return None
@@ -542,11 +547,12 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
         if score is not None:
             return score
         
-    # Textual Perfect Matches
-    text_val = val_str.lower().strip()
-    if text_val in ["non-reactive", "negative", "not detected", "absent", "normal", "normal sinus rhythm", "minor"]:
-        return 0.0
-    if text_val.startswith("normal "):
+    # Match complete labels; negation or mixed findings must remain ungraded.
+    text_val = qualitative_label(val_str)
+    if text_val in {
+        "non-reactive", "negative", "not detected", "absent", "normal", "normal sinus rhythm", "minor",
+        "normal (no signs of valvular heart disease)", "normal (apex area)",
+    }:
         return 0.0
     if text_val in ["positive", "reactive", "detected", "present"]:
         return 3.0
@@ -598,7 +604,7 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
 
 def qualitative_status(value):
     """Color completed qualitative results without assigning a severity score."""
-    text = str(value).strip().casefold()
+    text = qualitative_label(value)
     if text in {"negative", "not detected", "non-reactive", "absent"} or re.fullmatch(r"negative at 1:\d+", text):
         return ("#00008b", "🔵", "Negative / not detected")
     if text in {"positive", "detected", "reactive", "present"}:
@@ -638,20 +644,20 @@ def format_urinalysis_value(val_str, ref_range):
     if val_str in ["-", "—", None, ""]:
         return None
     
-    # Qualitative / Textual Checks
-    text_val = val_str.lower().strip()
+    # Match complete labels, not substrings such as "normal" in "abnormal".
+    text_val = qualitative_label(val_str)
     
     # Optimal / Perfect values (Blue)
     optimal_terms = [
         "not detected", "absent", "normal", "clear", "negative", "non-reactive", "neg", 
         "light yellow", "yellow", "pale yellow", "słomkowy"
     ]
-    if any(term in text_val for term in optimal_terms):
+    if text_val in optimal_terms:
         return "#00008b", "🔵" # Dark Blue (Optimal)
         
     # Bad / Abnormal values (Red)
     bad_terms = ["present", "detected", "cloudy", "turbid", "bloody", "obecne", "liczne", "mętny", "krwisty"]
-    if any(term in text_val for term in bad_terms):
+    if text_val in bad_terms:
         return "#dc3545", "🔴" # Red
 
     if is_bounded(val_str):
@@ -824,16 +830,16 @@ def trend_score(value, ref, category, marker=None):
     if score is not None:
         return score
 
-    text_value = value.lower().strip()
+    text_value = qualitative_label(value)
     optimal_terms = [
         "not detected", "absent", "normal", "clear", "negative", "non-reactive", "neg",
         "light yellow", "yellow", "pale yellow"
     ]
     bad_terms = ["present", "detected", "cloudy", "turbid", "bloody", "positive", "reactive"]
 
-    if any(term in text_value for term in optimal_terms):
+    if text_value in optimal_terms:
         return 0.0
-    if any(term in text_value for term in bad_terms):
+    if text_value in bad_terms:
         return 3.0
 
     return None
