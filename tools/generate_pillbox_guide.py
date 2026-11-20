@@ -191,9 +191,9 @@ PAGES = [
             ),
             item(
                 "M.15",
-                "Nicotinamide Riboside",
-                "300 mg",
-                icons="🧠 ⚡",
+                "Nicotinamide Riboside Chloride (Niagen®)",
+                "300mg",
+                icons="⏰ 🧠 ❤️ 💪",
                 same_slot_count=3,
             ),
             item(
@@ -657,7 +657,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
