@@ -4,16 +4,19 @@
 ## Table of Importance
 - [0. Behaviors](#0-behaviors)
 - [1. Sleep](#1-sleep)
-- [2. Testing](#2-testing)
-- [3. Exercise](#3-exercise)
-- [4. Diet](#4-diet)
-- [5. Supplements and drugs](#5-supplements-and-drugs)
-- [6. Looksmaxxing](#6-looksmaxxing)
-- [7. Cookware](#7-cookware)
-- [8. Environment](#8-environment)
-- [9. Vaccines](#9-vaccines)
-- [10. Peptides](#10-peptides)
-- [11. Surgeries](#11-surgeries)
+- [2. Social connection & psychological wellbeing](#2-social-connection--psychological-wellbeing)
+- [3. Testing](#3-testing)
+- [4. Exercise](#4-exercise)
+- [5. Diet](#5-diet)
+- [6. Supplements and drugs](#6-supplements-and-drugs)
+- [7. Looksmaxxing](#7-looksmaxxing)
+- [8. Cookware](#8-cookware)
+- [9. Environment](#9-environment)
+- [10. Vaccines](#10-vaccines)
+
+
+- [11. Peptides](#11-peptides)
+- [12. Surgeries](#12-surgeries)
 - [Legend](#legend)
 - [Notes](#notes)
 - [TODOs / Things to consider](#todos--things-to-consider)
@@ -29,7 +32,8 @@
 - ❌️ [polluted/toxic environments](#clean-air)
 - ❌️ unprotected sex
 - ❌️ [PFAS/PFOA/PCB/dioxins "forever" chemicals](#7-cookware)
-- ✋️ low productivity activities, low value-adding activities that can be outsourced
+- ✋️ avoidable busywork that can be automated or outsourced; protect deliberate rest and leisure
+- ✋️ work or scrolling that routinely displaces sleep, relationships or restorative leisure
 - ✋️ excessive social media usage
 - ✋️ [microplastics and artificial materials](#8-environment)
 - ⚠️ excessive gaming and TV
@@ -41,10 +45,9 @@
 ### Promote
 - 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
 - 🥇 [Physical activity & active/deep recovery](#3-exercise)
-- 🥇 Social connection & psychological wellbeing
+- 🥇 [Social connection & psychological wellbeing](#social-connection--psychological-wellbeing)
 - 🥈 [Red Light Therapy](#home-procedures) ❤️ 🛡️ 👨‍🦳 ⏰
 - 🥈 Cold exposure	(4 times a week) 🔥 🛡️ ⚡
-- 🥈 Meditation / breathwork (daily) 🧠 😌
 - 🥈 Walks (daily) 🫁 ❤️
 - 🥈 Stretching (6 times a week) 🦴 💪
 - 🥉 Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
@@ -70,7 +73,18 @@ Sleep is your number 1 priority. It is more important than diet, more important 
 - **Sex & Sauna:*** Could make it easier to fall asleep if used strategically. Use Sauna 1-3h before sleep to relax, use good sex 0-1h before sleep to make it easier to fall asleep.
 - **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
 
-## 2. Testing
+<a id="social-connection--psychological-wellbeing"></a>
+
+## 2. Social connection & psychological wellbeing
+- **Daily connection**: Make room for an attentive conversation or shared activity with a partner, friend or family member. 😌
+- **Weekly social plan**: Arrange one enjoyable plan; a walk, shared meal, cooperative game or the existing Sunday sport can count. Keep friendships/family contact alongside the relationship. 😌 ⏰
+- **Mental reset**: Meditation or comfortable paced breathing, 5-10mins daily; use a relaxing walk instead if the exercise feels unpleasant. 🧠 😌
+- **Work boundaries & enjoyment**: Set a practical stopping point for work and protect satisfying leisure without requiring a productivity outcome. 😌
+- **Weekly check-in**: Briefly review mood, stress, enjoyment and feeling connected; choose one useful adjustment if needed. 🧠 😌
+
+<a id="2-testing"></a>
+
+## 3. Testing
 
 ### Daily Tracking
 We are following "bleeding-edge" approach when it comes to daily tracking, always pushing for the best in each category.
@@ -195,7 +209,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 
 
-## 3. Exercise
+<a id="3-exercise"></a>
+
+## 4. Exercise
 
 ### Ultimate Optimized Daily Activity & Training Routine: Aesthetics, Longevity & Sexual Health
 
@@ -318,7 +334,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Joker**: A random sport used for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)* 🫁 ⏰
 
 
-## 4. Diet
+<a id="4-diet"></a>
+
+## 5. Diet
 
 ### Protein-sparing Mediterranean Caloric-Restriction diet
 
@@ -616,7 +634,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *[Preparation sources](#diet-food-preparation) · [Calculation details](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
 
 
-## 5. Supplements and drugs
+<a id="5-supplements-and-drugs"></a>
+
+## 6. Supplements and drugs
 
 Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · [Evidence medals](#legend) · [Details](#supplement-details).
 
@@ -792,7 +812,9 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 🧠 😌 🩸
 - 🥉 **E.18** [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924) 😴 😌
 
-## 6. Looksmaxxing
+<a id="6-looksmaxxing"></a>
+
+## 7. Looksmaxxing
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
 
 ### Oral health / teethmaxxing
@@ -885,7 +907,9 @@ There are actual studies that confirm if you look younger and better you are mor
 - Hand Cream [CeraVe Hand Repair Cream](https://allegro.pl/produkt/cerave-regenerujacy-krem-do-bardzo-suchej-skory-rak-3-ceramidy-100-ml-96a251fc-9016-4a0c-948d-9d79c262b0f8) or [Avène Cicalfate Hand Cream](https://allegro.pl/oferta/avene-cicalfate-repair-barrier-cream-regenerujacy-krem-do-rak-100-ml-18155514088) 👨‍🦳 💧
 
 
-## 7. Cookware
+<a id="7-cookware"></a>
+
+## 8. Cookware
 My kitchen is equipped only with materials that prioritize health and safety. I avoid microplastics and synthetic materials in favor of biologically neutral, natural options including:
 - Stainless steel
 - Natural untreated wood
@@ -934,7 +958,9 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 - Recommended: [Stainless Steel Kitchen Tool Set](https://allegro.pl/oferta/komplet-przyborow-ze-stali-nierdzewnej-6-elementowy-zestaw-akcesoria-17957470946)
   *Complete set of durable, sanitary cooking implements*
 
-## 8. Environment
+<a id="8-environment"></a>
+
+## 9. Environment
 Even if you do everything right you can be exposed to harmful environment, so it is crucial to do everything to have a healthy environment.
 
 ### Clean water
@@ -995,7 +1021,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - **Maintenance:** check the filter after each load; clean filters, seals and spray holes as needed. Every 1–2 months: [Siemens 00311994, 250ml](https://www.siemens-home.bsh-group.com/pl/pl/product/produkty-do-czyszczenia-i-pielegnacji/cleaningandcaredishwashing/cleaningandcaredishwashingcleaners/00311994), 1 bottle in an empty ≥65°C cycle, following the label; no detergent.
 - **Persistent limescale:** correct softener settings first. Use [Sonett 1l](https://www.ecosplendo.pl/sonett/odkamieniacz-1) in an empty machine only if its manual permits; follow the label and never mix cleaners.
 
-## 9. Vaccines
+<a id="9-vaccines"></a>
+
+## 10. Vaccines
 - Tuberculosis (BCG)	(given in childhood) ✅
 - Haemophilus influenzae type b (Hib) (given in childhood) ✅
 - Diphtheria‑Pertussis-Tetanus-Polio (dTpa-IPV) (every 10 years, next 2029-08-21) ✅
@@ -1016,7 +1044,11 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Shingles (Herpes Zoster, Shingrix) (2doses when 50+ years old)
 - Pneumococcal (PCV20 (Prevnar 20)) (1dose when 65+ years old)
 
-## 10. Peptides
+<a id="peptides-section"></a>
+
+<a id="10-peptides"></a>
+
+## 11. Peptides
 - [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) 🦴 🛡️ 🫀  
   10mg / 4ml  
   2.5mg / ml  
@@ -1040,7 +1072,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
   1-2mg -> 5-10IU/day
 
 
-## 11. Surgeries
+<a id="11-surgeries"></a>
+
+## 12. Surgeries
 
 - **Sapphire FUE Hair Transplant**
   - **Date**: November 19, 2021
