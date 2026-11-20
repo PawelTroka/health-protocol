@@ -790,7 +790,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥉 **E.15** [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256) 😴 😌 🔄
   - GABA 250mg; Magnesium (Citrate) 20mg<sup>E.12</sup>
 - 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 🧠 😌 🩸
-- 🥉 **E.18** [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924) 😴 😌
+- **E.18** (empty)
 
 ## 6. Looksmaxxing
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
@@ -1341,7 +1341,6 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Melisen / E.5:** replaces standalone Melatonin. Its 30mg generic Saffron Extract is not the standardized trial product, and the complete blend is untested. Keep it only if sleep or next-day function improves without grogginess. The label advises against combining it with sedatives, hypnotics or antiepileptic medicines. [Label](https://bmpharma.pl/products/melisen) [Saffron trial](https://pubmed.ncbi.nlm.nih.gov/40698027/)
 - **Ashwagandha / E.7:** 500mg KSM-66 supplies 25mg Withanolides. Track a repeatable stress/sleep benefit; review Liver abnormalities or compatible symptoms. [Safety summary](https://www.nccih.nih.gov/health/ashwagandha)
 - **PharmaGABA® / E.15:** 250mg is current. Possible later 500mg then 750mg trials require 250mg to be tolerated but insufficient; keep a higher dose only for repeatable benefit without grogginess, dizziness or GI effects. Change one sleep agent at a time and recalculate Magnesium if used. Sleep evidence is limited. [Label](https://www.nowfoods.com/products/supplements/pharmagaba-250-mg-veg-capsules) [Review](https://pubmed.ncbi.nlm.nih.gov/33041752/)
-- **Apigenin / E.18:** no randomized sleep trial establishes 200mg isolated Apigenin. Retain only for a reproducible benefit without next-day impairment; do not escalate. [Evidence review](https://pubmed.ncbi.nlm.nih.gov/38476603/)
 - **Pycnogenol / B.1:** 100mg is current. The discussed 150–200mg range remains a possible later trial after tolerance is established, not the active dose. Keep genuine Pycnogenol® rather than assuming all Pine Bark Extracts are equivalent. [Endothelial trial](https://pubmed.ncbi.nlm.nih.gov/22240497/)
 - **Fenugreek / B.6:** 600mg Testofen® matches the branded trial dose. Taking both capsules together consolidates the label's divided schedule; it does not establish a Testosterone or physique benefit. [Trial](https://pubmed.ncbi.nlm.nih.gov/26791805/)
 - **Maca / B.5; Tribulus / B.7:** Maca's 4.5g fresh-root equivalent is not 4.5g trial material. Tribulus lacks plant-part/marker standardization. Keep alternatives in TODOs rather than infer dose equivalence or proven Testosterone benefits. [Maca label](https://www.nowfoods.com/products/supplements/maca-750-mg-raw-veg-capsules) [Tribestan® trial](https://pubmed.ncbi.nlm.nih.gov/28364864/)
@@ -1508,6 +1507,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **Nicotinamide Mononucleotide (NMN):** overlaps with NR 900mg/day; no demonstrated added benefit from combining them. [NR/NMN comparison](https://pubmed.ncbi.nlm.nih.gov/41540253/) · [Review](https://pubmed.ncbi.nlm.nih.gov/41655607/)
 - **BCAA:** food, WPI and the complete EAA serving already supply them; no established extra muscle benefit. [Training trial](https://pubmed.ncbi.nlm.nih.gov/24620007/)
 - **Proferrin 20mg:** not used without confirmed Iron deficiency.
+- **[Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924)** — pause isolated Apigenin; compare sleep latency, awakenings and next-day function over 2–4 weeks with other sleep aids stable. The [2026 combination trial](https://pubmed.ncbi.nlm.nih.gov/42829807/) used 50mg with Theanine/Magnesium and does not establish benefit from 200mg alone. Reconsider only if a repeatable personal benefit is lost.
 - **Lactobacillus acidophilus (4bln CFU)** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — removed in favor of the selected 35624® and Gastrus® strains.
 - **[Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450):** removed from permanent daily use for the current IBS pattern. Retain as a situational medicine for diarrhea when indicated. [IBS evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC12898053/) · [Enterol indications](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/7890/characteristic)
 
