@@ -53,6 +53,8 @@ The retained supplier links establish identities; destination stock, final price
 
 ## Useful current change: Mackerel availability
 
+**Sourcing update — 2026-11-15:** retain the Atlantic Mackerel target (*Scomber scombrus*). The [current Vilgain ingredients](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) identify *S. japonicus*, so its link does not establish the target species. [Pan do Mar220g](https://zielarnia24.pl/32483,makrela-w-oliwie-z-oliwek-bio-220g-pan-do-mar.html) is listed in stock in Poland and the [maker confirms the target species and organic EVOO](https://pandomar.net/de/productos/?cat=caballa&producto=1370); drained nutrition remains to be confirmed. Keep the active link pending reconciliation. The older price/stock/species observation below is retained as history; owned jars require their own label check.
+
 The exact [Vilgain190g Mackerel](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) public page now displays18.99zł and Add to cart, plus125g drained solids and **Scomber scombrus** in the ingredient list. This updates the previous unavailable/species-unresolved public-page observation. The geographical origin list is broad; inspect the actual delivered label when replenishing. No automatic subscription control was found. The banner's free-delivery offer from99zł and first-purchase coupon do not establish an enduring free-home-courier route. Eight reported owned packs defer buying more.
 
 ## Practical routing decision
