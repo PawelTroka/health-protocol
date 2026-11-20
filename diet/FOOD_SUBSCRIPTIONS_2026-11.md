@@ -2,13 +2,22 @@
 
 **Scope:** all **91 distinct linked food choices** in the canonical [Diet](../README.md#4-diet), including unchecked rotation options. Baseline: `ce7915837cc47fa23b728b22afd7b1d2fd55dc4b`. Powders, capsules and household products are reviewed separately. This is a dated procurement audit; it does not change portions, food ranking, checked choices, macros or treatment.
 
+## Protocol alignment — 20 November 2026
+
+The 91-food comparison below is the **8November price/stock snapshot**, not a new quote for every item. The refresh preserves the current main menu, 15g EAA, 13.33g Collagen, 2,417kcal reference day, food names and rotation. Current README links take precedence over historical supplier rows.
+
+- Bioshi's [current terms](https://bioshi.pl/pl/terms), checked again, still require confirmation/payment for each repeat order.
+- The [FIT&EASY organic arugula80g](https://www.frisco.pl/pid,92781/n,fit-easy-rukola-bio/stn,product) page still exposes the selected organic leaf product and a purchase control; the README link repair is retained.
+- The proposed [Frisco Delicius sardines120g](https://www.frisco.pl/pid,122403/n,delicius-filety-z-sardynek-w-oliwie-z-oliwek/stn,product) now shows temporary unavailability and an expired promotion. Another [Polish exact-product lead](https://delikatesy.vininova.pl/products/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g) has conflicting sold-out/purchase controls. Neither establishes a dependable replacement today. Keep the current README source pending a verified available exact tin; the old15.39PLN quote is historical.
+- Main already repaired the exact [lactose-free1.5% milk](https://www.frisco.pl/pid,101661/n,mlekovita-wydojone-mleko-uht-bez-laktozy-15/stn,product), [Maluta lactose-free Skyr200g](https://zakupy.auchan.pl/products/skyr-jogurt-typu-islandzkiego-naturalny-bez-laktozy-maluta-200-g/00863824) and [fresh organic tomatoes](https://www.frisco.pl/pid,81911/n,frisco-organic-pomidory-okragle-bio-4-6szt.-(400g-600g)/stn,product) links. Their old sourcing-gap rows below do not undo those changes; this refresh does not quote their current prices.
+
 ## Purchasing decision
 
 **Keep the verified manual routes and treat Brown House & Tea matcha as a conditional subscription candidate. No complete automatic food basket was verified to meet all the existing constraints.** There are useful genuine automatic programmes, but a badge alone does not establish the exact product, Polish home delivery, a tolerable premium and a sustainable quantity.
 
 The material change is at **Bioshi**: its [current terms, §5](https://bioshi.pl/pl/terms) say that since **23 October 2026** the old programme no longer automatically places orders or charges saved cards. `Regularnie` sends a checkout proposal; the customer must confirm and pay. The first qualifying order has10% off and later confirmed orders15%, but this is **manual confirmation**, not unattended replenishment. Historical account records remain evidence of what happened at their dates; they do not establish current automatic coverage.
 
-This audit repairs the withdrawn organic arugula link and inaccessible sardine offer using verified current equivalents, and removes stale automatic-food markers. It does not activate, cancel, pay for or modify any merchant account plan.
+This refreshed proposal repairs the organic arugula link and removes stale automatic-food markers. The earlier sardine replacement is deferred because its stock is no longer confirmed, as recorded above. It does not activate, cancel, pay for or modify any merchant account plan.
 
 ## What “best” means here
 
@@ -140,7 +149,7 @@ Every link in the Food column is the original protocol identity/source unless a 
 | ID / food and existing source | Checked manual price and amount | Automatic route / decision | Quality, availability and portion fit |
 |---|---|---|---|
 | 51. [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) | ~500g: 52.45; 104.90/kg. | Manual — Auchan. | Skinless salmon; selected product is thawed, store at 0–2°C and do not refreeze. Order within the existing fish rotation, not daily by default. |
-| 52. [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) | [Delicius 120g, Frisco](https://www.frisco.pl/pid,122403/n,delicius-filety-z-sardynek-w-oliwie-z-oliwek/stn,product): 15.39; regular 18.29. | Manual — verified exact-product replacement for inaccessible Allegro link. | 85g drained per tin; two tins =170g and 30.78 at observed price. Compare 181.06/kg drained, not 128.25/kg gross. README link repaired. |
+| 52. [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) | [Delicius 120g, Frisco](https://www.frisco.pl/pid,122403/n,delicius-filety-z-sardynek-w-oliwie-z-oliwek/stn,product): 15.39; regular 18.29. | Historical Frisco replacement lead — now temporarily unavailable; see20November alignment. | 85g drained per tin; two tins =170g and 30.78 at observed price. Compare 181.06/kg drained, not 128.25/kg gross. README source retained pending a verified available replacement. |
 | 53. [Atlantic Mackerel fillets](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) | 190g gross / 125g drained: 18.99; 151.92/kg drained. | Manual identity hold — Vilgain. | README says Atlantic mackerel; ingredients/support have a species conflict (Scomber colias versus Atlantic designation). Confirm current label before automatic sourcing. |
 | 54. [organic Tempeh](https://bioshi.pl/pl/products/tempeh-naturalny-bio-200-g-merapi-67128) | 200g title; page simultaneously showed 38.37, 63.95/kg and repeat 10.87. | Manual price hold — Bioshi. | These numbers imply different quantities. Do not call 38.37 a verified one-pack price, or 10.87 a binding current subscription price. Merapi organic natural tempeh identity retained; verify cart unit and cold chain. |
 | 55. [organic Eggs from pasture-raised green-legged hens fed organic feed](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125) | 10 medium eggs: 23.69 / 20.14 R; 2.369/egg single. | Manual — Bioshi. | Selected organic green-legged-hen SKU46125, not historic45382. Shell weight does not equal the protocol’s edible 200g. Verify freshness and pasture/label details. |
@@ -212,7 +221,7 @@ No recurring account quantities, actual opening stock or live delivery address w
 
 ## Practical decisions from this audit
 
-- **Immediate link repairs:** use current organic Fit & Easy arugula80g at Frisco and exact Delicius sardines120g/85g drained at Frisco. Preserve food names and portions.
+- **Immediate link repair:** use organic Fit & Easy arugula80g at Frisco. Preserve food names and portions. Defer the proposed sardine link change until availability is verified; see the20November alignment.
 - **Conditional automation:** Brown matcha is the most concrete food candidate; verify its8-week three-pack cart, free home courier and stock drift before adopting. iHerb organic paprika is another conditional shared-basket lead, with a12.3% public-price premium and an unexposed renewal discount.
 - **Retain lower-cost manual food routes where subscriptions fail:** particularly Bioshi staples, MarketBio hulled hemp and nuts, and Frisco/Auchan fresh/frozen products. Bioshi “Regularnie” can save money but still needs a human checkout.
 - **Do not choose high-premium autoship solely for convenience:** Nature’s Finest hemp/chia and iHerb walnuts/cloves fail at the quoted prices; the premium table makes the tradeoff visible.
