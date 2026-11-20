@@ -494,6 +494,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `364kcal · P38g · C7g · F16g · Isoflavones · Magnesium · Calcium · Spermidine · Soyasaponins`
   - [ ] 200g [organic Eggs from pasture-raised green-legged hens fed organic feed](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125) 🛡️ 🗿 💪 🧠 👁️ 🍆 🪶 🔄
     - `298kcal · P26g · C0.6g · F21.4g · Choline · Vitamin B12 · Selenium · Lutein/Zeaxanthin · Phospholipids (Phosphatidylcholine)`
+  - [ ] 200g drained [organic Firm Tofu](https://www.piccantino.pl/taifun/bio-tofu-naturalne?sai=23215) *(blot before cooking; count added Oil)* 🛡️ 🗿 💪 ❤️ 🌱
+    - `262kcal · P30g · C<1g · F15.2g · Isoflavones`
 - 🌾 **Complex Carbs — CHOOSE ONE**
   - [ ] 65g boiled [organic Beluga Black Lentils](https://bioshi.pl/pl/products/soczewica-czarna-beluga-bio-400-g-bio-planet-44959) 🛡️ ⏰ ❤️ 🦠 🩸 🌱 🔄
     - `75kcal · P5.9g · C7.9g · F0.2g · Fiber5.1g · Folate · Iron · Resistant Starch · Proanthocyanidins · Saponins`
@@ -589,7 +591,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 | When | Action |
 | --- | --- |
-| Each week | Aim for 300–450g cooked/ready-to-eat Fish, including at least 200g Fatty Fish; usually 2–3 meals. Use Tempeh on other days, with Eggs occasional. Count Lunch Pollock toward the Fish target; Shellfish also rotates at Lunch. |
+| Each week | Aim for 300–450g cooked/ready-to-eat Fish, including at least 200g Fatty Fish; usually 2–3 meals. Use the listed plant choices on other days, with Eggs occasional. Count Lunch Pollock toward the Fish target; Shellfish also rotates at Lunch. |
 | Building plant variety | Use tolerated Pulses 2–4x/week; test Oats 25g→30g dry with Oat Bran kept at 10g or build Pulses toward the written portions as tolerated, one change at a time. |
 | More training fuel | Increase steamed peeled Potato at Lunch from 80g→200g: +24g available Carbohydrate and 113kcal. |
 | During the cut | Review the 14-day weight trend, waist, Strength, sleep and libido. At 80kg, start around 0.2–0.4kg/week; if loss is faster for 2 weeks or recovery worsens, add 100–150kcal. Count the training-fuel increase once if it serves both purposes. |
@@ -1163,6 +1165,7 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 | Eggs 200g instead of Salmon 150g | 2,410 | 166.1g | 152.8g | 88.6g |
 
 - **Replacing Kefir:** Sauerkraut 100g removes 155kcal/11.5g Protein; Kimchi 75g removes 150kcal/11.1g Protein; skipping it removes 172kcal/12.4g Protein. An extra 50g raw Turkey supplies 12.7g Protein/57kcal if replacing the lost Protein.
+- **Tofu:** the [Taifun 200g label](https://www.taifun-tofu.de/de/produkte/tofu-natur) supplies 30g Protein. Replacing Salmon 150g and applying the existing non-Fatty-Fish-day Fish Oil rule changes the day by −43kcal/+0.1g Protein/−5.7g Fat. [Drained firm Tofu](https://www.monashfodmap.com/blog/talking-tofu/) is a useful GI alternative; the exact 200g serving is not FODMAP-certified. Check tolerance and the received nutrition label.
 - **Lunch Protein:** compared with Turkey 150g, Pollock 200g supplies 4g less Protein, Mussels 150g supplies 14g less and Shrimps 180g supplies 11g less. Matching the Turkey serving takes about 240g cooked Mussels or 255g raw Shrimps; recalculate the meal, including Mussels' higher Salt.
 - **Optional Dinner fat:** EVOO 13.5g adds 122kcal/13.5g Fat; Avocado 30g adds 48kcal/4.4g Fat/2g Fiber. Nothing remains the checked choice.
 - **Diet energy / workout fuel:** omitting HBCD on an easy/short session removes 94kcal/24g Carbohydrate. The written Potato 80g→200g increase adds 113kcal/24g Carbohydrate; count it once if it also serves the cut adjustment.
@@ -1448,7 +1451,6 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 ### Food options
 
 - [ ] **Morning:** increase [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) 25→30g dry when more food is useful (+19kcal, +0.5g Fiber); keep Oat Bran 10g. New serving: `111kcal · P3.9g · C18g · F2g · Fiber2.9g`. Gradually increase tolerated Pulses 30–40g cooked/drained toward Lentils 65g, Black Beans 60g or Chickpeas 50g. [Oat label](https://bioplanet.pl/platki-owsiane-bezglutenowe-bio-1-kg-bio-planet/p10198)
-- [ ] **Dinner Protein:** [Taifun organic Firm Tofu 170g drained](https://www.taifun-tofu.de/de/produkte/tofu-natur) for variety/tolerance; similar Protein and less saturated Fat than four Eggs. `223kcal · P25.5g · C<0.9g · F12.9g`. [Poland-facing retailer](https://www.piccantino.pl/taifun/bio-tofu-naturalne?sai=23215) previously accepted backorders; check stock/pack. [FODMAP guide](https://www.monashfodmap.com/blog/talking-tofu/)
 - [ ] **Dinner Fish:** [Zielenica organic Rainbow Trout 150g raw](https://sklep.zielenica.pl/ryby-swieze/43-pstrag-filet-bio.html), steamed. Generic estimate: `212kcal · P29.9g · C0g · F9.3g`. Polish producer; skip L.2-3 Fish Oil on Trout days. [Composition](https://www.ars.usda.gov/SP2UserFiles/Place/12354500/Data/SR27/reports/sr27fg15.pdf#page=575) · [Oily-fish classification](https://www.nhs.uk/live-well/eat-well/food-types/fish-and-shellfish-nutrition/)
 - [ ] **Mackerel replacement:** [Pan do Mar Atlantic Mackerel in organic EVOO, 220g jar](https://bioshi.pl/pl/products/makrela-w-bio-oliwie-z-oliwek-220-g-pan-do-mar-44923). Clearer species/catch area (*Scomber scombrus*, FAO 27.VIII.c); Polish retailer unavailable on 2026-09-13. Await restock; confirm drained weight/nutrition basis before replacing Vilgain. Organic refers to the Oil.
 - [ ] **Dinner starch:** [organic Unroasted Buckwheat 80g boiled](https://bioshi.pl/pl/products/kasza-gryczana-niepalona-bezglutenowa-bio-1-kg-45569). Generic estimate: `75kcal · P2.7g · C13.8g · F0.5g · Fiber2.2g`. A rotation at similar Calories, with [no established advantage](https://www.mdpi.com/2218-1989/16/9/628) over existing grains. [Composition](https://www.tbca.net.br/base-dados-en/int_food_composition_2_edit.php?cod_produto=BRC1160A)
