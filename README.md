@@ -33,7 +33,7 @@
 - ✋️ excessive social media usage
 - ✋️ [microplastics and artificial materials](#8-environment)
 - ⚠️ excessive gaming and TV
-- ⚠️ excessive noise
+- ⚠️ [excessive noise](#hearing-protection)
 - ⚠️ stimulants
 - ⚠️ [sleep schedule disruptions](#1-sleep)
 - ⚠️ overthinking and overanalyzing things out of your control
@@ -599,34 +599,26 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### 🚽 GI options — personalize portions
 
-| If a food or meal provokes symptoms | First adjustment to test |
-| --- | --- |
-| The 200ml Soy Matcha Latte | Try the listed lactose-free Milk in its place: 24kcal and 9.4g Carbohydrate more, 1.2g Fiber less. The selected Alpro uses whole Soybeans; tolerance differs from Soy-protein drinks. |
-| Large mixed-plant meals | Trial 50–75g of the troublesome Vegetable instead of 100g, steamed until tender; for Greens, try 25g leaves or 15g Sprouts, prepared as listed. Leaves/Microgreens may also be steamed until tender if better tolerated. Keep other tolerated portions and restore meaningful energy losses with Potato. |
-| Pulses or Ferments | If symptoms recur, reduce Pulses to 30–40g cooked/drained or Sauerkraut to 50g, then return toward tolerated portions; reduce Kimchi from 75g to 25–50g if needed. Split the Kefir bottle within the day if meal volume is troublesome. Boil Pulses separately, drain and rinse; replace omitted Protein using the Diet rotations Note. |
-| Persistent IBS-type symptoms | With a dietitian, consider a 2–6-week low-FODMAP trial followed by reintroduction and personalization. Keep the diet as varied as tolerance allows. |
-| Active bowel inflammation or unintended weight loss | Prioritize adequate nutrition and clinician-directed evaluation/treatment; pause the cut rather than forcing Fiber or restriction. |
-
-*Record the food/portion, pain or bloating, Stool form/frequency and urgency. Keep other variables steady, retain changes that help reproducibly and re-expand tolerated foods. Food trials complement the [GI follow-up](#follow-up).*
+- Use tolerated portions; test one food/portion change at a time and restore tolerated variety. [Portion trials](#diet-gi-options).
+- **Active bowel inflammation or unintended weight loss:** pause the cut; prioritize adequate nutrition and clinician-directed evaluation/treatment.
 
 ### 🍳 Preparation & food safety
 
-- **Batch simply:** choose a few Vegetable rotations per shopping trip. Steam the marked Vegetables, Potatoes/Sweet Potatoes and Mushrooms until appropriately tender; follow the separate Quinoa, Pulse and food-safety instructions. Cool cooked leftovers promptly, refrigerate and reheat safely.
-- **Pulses:** soak dried Black Beans/Chickpeas for at least 12 hours, discard the Water and rinse. Boil in fresh Water for approximately 60 minutes until tender, following the label; do not use a low-temperature slow cooker alone. Rinse Lentils and boil for approximately 30 minutes until tender. Drain, rinse and weigh the cooked serving.
-- **Cook safely:** Poultry 74°C and Fish 63°C at the core, or a validated time–temperature equivalent. Cook Eggs, Shellfish and Mushrooms thoroughly; oven temperature alone does not establish safety. [Safe temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) Keep the skinless Salmon at 0–2°C and follow its delivered use-by date; it is sold thawed, so do not refreeze.
-- **Raw produce:** wash Tomatoes, Peppers, salad Leaves and Microgreens under running Water unless labeled washed/ready-to-eat; refrigerate cut produce, Greens and Sprouts. Watercress Leaves/Microgreens and Arugula need no routine cooking. [Produce preparation](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) For Spinach/Chard, boiling and discarding the Water remains an optional preparation to reduce oxalates. [Oxalate preparation study](https://pubmed.ncbi.nlm.nih.gov/15826055/)
-- **Sprouts:** rinse Broccoli/Radish Sprouts and steam until steaming hot throughout. Washing or light warming does not reliably remove their bacterial risk. [Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
-- **Fat & flavor:** Fixed EVOO is 27g/day: 13.5g (1tbsp) Pamako Morning + 13.5g (1tbsp) Phileos Lunch. Dinner's Optional Additional Healthy Fats offers EVOO13.5g, Avocado30g or Nothing; Nothing is checked. Count added cooking/packing Oil; retained Oil is already included in drained-Fish labels. Avoid smoking or repeatedly reusing Oil.
-- **Fresh herbs:** Rinse, chop and add after steaming; weigh only edible leaves and tender stems.
-- **Food contact:** use [food-safe glass, ceramic or stainless steel](#7-cookware); avoid heating food in unsuitable plastic and maintain [Water filters](#clean-water) to their instructions.
+- **Pulses:** dried Black Beans/Chickpeas: soak ≥12 hours, discard Water and rinse; boil in fresh Water for ~60 minutes until tender, following the label. No low-temperature slow cooker alone. Lentils: rinse, boil ~30 minutes until tender. Drain, rinse and weigh cooked.
+- **Cooking:** Poultry 74°C/Fish 63°C at the core, or a validated time–temperature equivalent. Cook Eggs, Shellfish and Mushrooms thoroughly; steam marked Vegetables, Potatoes/Sweet Potatoes and Mushrooms until tender.
+- **Skinless Salmon:** store at 0–2°C, follow the delivered use-by date and do not refreeze the thawed product.
+- **Produce:** wash Tomatoes, Peppers, salad Leaves and Microgreens under running Water unless labeled washed/ready-to-eat; refrigerate cut produce, Greens and Sprouts.
+- **Sprouts:** rinse Broccoli/Radish Sprouts; steam until steaming hot throughout.
+- **Leftovers:** cool promptly, refrigerate and reheat safely.
+- **Oil & Herbs:** count added cooking/packing Oil; avoid smoking or repeatedly reusing Oil. Rinse/chop fresh Herbs, add after steaming and weigh edible leaves/tender stems.
+- **Equipment:** use [food-safe glass, ceramic or stainless steel](#7-cookware); avoid heating food in unsuitable plastic and maintain [Water filters](#clean-water) to their instructions.
 
-*Sources and calculation details: [Diet Notes below](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
+*[Preparation sources](#diet-food-preparation) · [Calculation details](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
 
 
 ## 5. Supplements and drugs
-Supplements and drugs are very well focused in this protocol because of how easy it is to "just take a pill". Granted, usually mastering the basics ([sleep](#1-sleep), [diet](#4-diet), [exercise](#3-exercise)) does bring you more health benefits but supplements help even if you don't.
-Within each timing, entries are ordered roughly by evidence-weighted expected net benefit; multi-ingredient products can contain components with different evidence ranks. Active entries generally use generic ingredient names, while exact manufacturer, product, branded-formulation or strain names remain where identity or provenance materially defines the selected intervention; the links identify the exact selected products, and the Notes explain deeper formulation evidence. Numeric quantities use compact number-unit formatting, such as `1g`, `250mg` and `1scoop`. List order does not create additional timing windows. Evidence medals precede supplement codes: 🥇 Gold marks the strongest relevant human evidence plus meaningful expected benefit, 🥈 Silver marks supportive but smaller, indirect or limited human evidence and/or a more modest marginal benefit, and 🥉 Bronze marks an exploratory intervention supported mainly by mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit. A medal grades the exact active intervention in this protocol—not product purity, safety, organizer order or a guaranteed individual response; Bronze is not automatically a removal recommendation, and an indication, biomarker or reproducible response can change a tier. Drugs, Water and EVOO remain intentionally unmedalled, and blend medals apply to the overall intervention rather than every nested ingredient.
-The Morning, Lunch and Evening organizers each use two linked 9-compartment [GymBeam Adjustable PillBoxes](https://gymbeam.pl/regulowany-pojemnik-na-suplementy-gymbeam.html), while Before Workout and After Workout each use one. Timing codes map the protocol directly to preparation: `M`, `L`, `B`, `IW`, `A` and `E` mean Morning, Lunch, Before Workout, Intra-Workout, After Workout and Evening; numbered pill codes are physical organizer compartments; `.1` and `.2` divide one compartment between two small, clearly distinguishable pills; a range such as `L.2-3` means one large pill in each listed compartment; and a multiplier within one code, such as `M.15 3x`, means the small pills share that compartment. Zero-series codes such as `M.0.2` identify drinks or powders outside the pill organizer and do not consume a compartment. In a deeper code such as `M.0.3.2.1`, the next number identifies the bold ingredient subgroup and the final number identifies that ingredient's position within the subgroup. Slot-code superscripts on nested ingredients point to the corresponding Notes topic and never consume organizer compartments. Empty compartments remain strategically positioned at the largest practical evidence-benefit gaps.
+
+Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · [Evidence medals](#legend) · [Details](#supplement-details).
 
 [Printable Supplement Pillbox Guide (Word)](supplements/Supplement-Pillbox-Guide.docx) — an eight-page, label-ready 3x3 layout for Morning 1/2, Lunch 1/2, Evening 1/2, Before Workout and After Workout.
 
@@ -691,7 +683,7 @@ The Morning, Lunch and Evening organizers each use two linked 9-compartment [Gym
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C 5mg
 - 🥈 **M.11** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅 🔄
 - **M.12** (empty)
-- 🥈 **M.13** [Astaxanthin 18mg](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
+- 🥈 **M.13** [Astaxanthin (AstaReal®) 12mg](https://pl.iherb.com/pr/double-wood-supplements-astaxanthin-astareal-12-mg-60-softgels/161500) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
 - 🥉 **M.14** [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436) [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
 - 🥉 **M.15** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - 🥉 **M.16** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🧠 ❤️ 🔄
@@ -823,8 +815,8 @@ There are actual studies that confirm if you look younger and better you are mor
 - Anti-large pores cleanser [CeraVe Blemish Control](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) (Twice daily) 👨‍🦳 💧
 - Moisturizer [CeraVe Facial Moisturizing Cream 52ml](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) or [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) (Twice daily) 👨‍🦳 💧
 - Anti-aging GHK-Cu peptide cream [Theramid Copper Peptide 3%](https://nichebeautylab.com/en/products/copper-peptide) 👨‍🦳 ⏰
-- SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (Morning: apply generously to face, neck, ears and exposed hands; reapply every 2h outdoors and after swimming/sweating)
-- Anti-aging retinoid cream [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.05-0.1% (weekly) 👨‍🦳 ⏰ ⚕️
+- SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (Morning: apply generously to face, neck, ears and exposed hands; reapply every 2h outdoors and after swimming/sweating/towel-drying)
+- Anti-aging retinoid cream [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.025% (weekly) 👨‍🦳 ⏰ ⚕️
 - (optional) [SNAP-8 peptide cream](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) 👨‍🦳 ⏰
 
 #### Home procedures
@@ -954,6 +946,12 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Monitor inside air quality using [Airthings View Plus](https://www.airthings.com/view-plus) or [IQAir AirVisual Pro](https://www.iqair.com/pl/products/air-quality-monitors/airvisual-pro-indoor-monitor)
 - Use extremely strong air purifier at home (especially [bedroom](#1-sleep)) with 600+ CADR, at least 3 filtration stages, 1100+ ml/h humidifier and 50,000+ ions/cm³ Plasmacluster like [Sharp KI-TX100EU-W](https://loveair.pl/oczyszczacz/sharp-ki-tx100eu-w)
 - (alternative) If you already have optimal humidity, use a dedicated high-performance purifier like [IQAir HealthPro Plus](https://www.iqair.com/pl/products/air-purifiers/healthpro-plus-xe)
+
+### Hearing protection
+
+- **Headphones:** enable sound-exposure monitoring and volume limits; aim below 80dB average. [WHO's adult reference](https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening) is 80dB for 40h/week; louder sound allows less time.
+- **Loud venues/tools:** wear well-fitting [LOOP EXPERIENCE 2.0 Black](https://allegro.pl/oferta/zatyczki-stoppery-imprezowe-do-uszu-loop-earplugs-experience-2-0-black-13035950155) earplugs or earmuffs, keep away from speakers and take quiet breaks.
+- **Hearing changes:** arrange a hearing assessment for persistent tinnitus or difficulty following conversation. New sudden hearing loss needs [same-day ENT/emergency assessment](https://www.nice.org.uk/guidance/QS185/chapter/quality-statement-2-sudden-onset-of-hearing-loss).
 
 ### Bedding and textiles
 - **Bed baseline:** bare mattress 193x203cm (76x80in US King)
@@ -1090,6 +1088,9 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - BJ-ES - [Bryan Johnson Essential Softgel](https://blueprint.bryanjohnson.com/products/essential-softgels)
 - BJ-NGC - [Bryan Johnson NAC + Ginger + Curcumin](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)
 - BJ-RYG - [Bryan Johnson Red Yeast Garlic](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)
+- 🥇 Gold — Strongest relevant human evidence and meaningful expected benefit
+- 🥈 Silver — Supportive but smaller, indirect or limited human evidence, or more modest benefit
+- 🥉 Bronze — Exploratory: mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit
 - ⚕️ Requires prescription (Rx): [erecepty24](https://erecepty24.pl) for ready-made medicines; [Telemedi](https://telemedi.com) for custom medicines (lek recepturowy)
 - 🔄 Automatically renewed and shipped (Subscribe & Save)
 - 💪 Muscle growth/recovery
@@ -1129,6 +1130,8 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - 🪶 Low-FODMAP
 - 🎈 High-FODMAP
 - 🟡 Tooth/bonding staining precaution; evidence varies — [care and evidence](#dental-staining)
+
+**Supplement medals:** grade the exact intervention, not purity, safety, organizer order or guaranteed response. Bronze does not imply removal; indication, biomarkers or repeatable response can change a tier. Blend medals grade the overall intervention, not each ingredient. Drugs, Water and EVOO remain unmedalled.
 
 *FODMAP tags apply to the listed portion/preparation; unmarked = unverified. [Serving checks](#diet-fodmap-tags).*
 
@@ -1215,6 +1218,16 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 - **EvoBomb:** ~67kcal is modeled from free amino acids, Malate and estimated Maltodextrin; the plausible range is 61–73kcal pending a complete nutrition panel. Its free amino acids are kept outside dietary Protein. Other blend/carrier energy remains partly unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [EU energy factors](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011R1169)
 - **Carbohydrate:** Fiber is separate. USDA proxies use total Carbohydrate minus Fiber; labels and Norwegian data already reporting available Carbohydrate are used directly. Portions, cooking losses and incomplete panels make the daily figures estimates.
 
+<a id="diet-food-preparation"></a>
+
+#### Preparation details and sources
+
+- **Batching:** choose a few Vegetable rotations per shopping trip; follow the separate Quinoa, Pulse and food-safety instructions.
+- **Cooking temperatures:** oven temperature alone does not establish safety. [Safe temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures)
+- **Raw produce:** Watercress Leaves/Microgreens and Arugula need no routine cooking. [Produce preparation](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) For Spinach/Chard, boiling and discarding the Water remains an optional preparation to reduce oxalates. [Oxalate preparation study](https://pubmed.ncbi.nlm.nih.gov/15826055/)
+- **Sprouts:** washing or light warming does not reliably remove their bacterial risk. [Sprout safety](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
+- **Fat & flavor:** Fixed EVOO is 27g/day: 13.5g (1tbsp) Pamako Morning + 13.5g (1tbsp) Phileos Lunch. Dinner's [Optional Additional Healthy Fats](#diet-rotations) offers EVOO13.5g, Avocado30g or Nothing; Nothing is checked. Retained Oil is already included in drained-Fish labels.
+
 #### Diet food forms
 
 | Food | Weighing basis |
@@ -1231,6 +1244,20 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 - Sauerkraut's manufacturer gives 7 days after opening, the retailer 3: plan for 3 until the delivered label confirms otherwise. Onion-free Kimchi still contains Garlic, Chili and Soy/Wheat. [Sauerkraut label](https://sklep-satyrz.pl/produkt/kapusta-kiszona-z-marchewka-900ml/) [Retailer storage](https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806) [Kimchi ingredients](https://oldfriendskimchi.pl/oferta/)
 - Culinary Saffron 30mg is occasional; E.5 already contains Saffron Extract 30mg. Black Pepper stays to taste, with no added Piperine target.
 - **EVOO phenolics (Diet/M.0.1):** [Pamako's published 2,081mg/kg](https://www.pamako.co.uk/) and the [Phileos 2025/26 sample's 917mg/kg](https://www.huilemielolives.com/img/cms/POLYPHENOLES_2025.pdf) are sample-specific figures. Match the purchased harvest/batch to its certificate before using them as intake estimates; retain the existing 13.5g portions.
+
+<a id="diet-gi-options"></a>
+
+#### GI portion trials
+
+| If a food or meal provokes symptoms | First adjustment to test |
+| --- | --- |
+| The 200ml Soy Matcha Latte | Try the listed lactose-free Milk in its place: 24kcal and 9.4g Carbohydrate more, 1.2g Fiber less. The selected Alpro uses whole Soybeans; tolerance differs from Soy-protein drinks. |
+| Large mixed-plant meals | Trial 50–75g of the troublesome Vegetable instead of 100g, steamed until tender; for Greens, try 25g leaves or 15g Sprouts, prepared as listed. Leaves/Microgreens may also be steamed until tender if better tolerated. Keep other tolerated portions and restore meaningful energy losses with Potato. |
+| Pulses or Ferments | If symptoms recur, reduce Pulses to 30–40g cooked/drained or Sauerkraut to 50g, then return toward tolerated portions; reduce Kimchi from 75g to 25–50g if needed. Split the Kefir bottle within the day if meal volume is troublesome. Boil Pulses separately, drain and rinse; replace omitted Protein using the Diet rotations Note. |
+| Persistent IBS-type symptoms | With a dietitian, consider a 2–6-week low-FODMAP trial followed by reintroduction and personalization. Keep the diet as varied as tolerance allows. |
+| Active bowel inflammation or unintended weight loss | Prioritize adequate nutrition and clinician-directed evaluation/treatment; pause the cut rather than forcing Fiber or restriction. |
+
+*Record the food/portion, pain or bloating, Stool form/frequency and urgency. Keep other variables steady, retain changes that help reproducibly and re-expand tolerated foods. Food trials complement the [GI follow-up](#follow-up).*
 
 <a id="diet-fodmap-tags"></a>
 
@@ -1253,6 +1280,21 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 - **M.11 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
 
 ### Supplement details
+
+Entries are ordered by expected net benefit. Names retain meaningful formulation/strain identity; links identify exact products. Detailed rationale belongs in these Notes.
+
+#### Supplement codes
+
+Use [GymBeam Adjustable PillBoxes](https://gymbeam.pl/regulowany-pojemnik-na-suplementy-gymbeam.html): two linked 9-compartment organizers each for Morning, Lunch and Evening; one each Before and After Workout.
+
+| Code | Timing |
+| --- | --- |
+| M / L / E | Morning / Lunch / Evening |
+| B / IW / A | Before / Intra-Workout / After Workout |
+
+- Numbered codes identify physical pill compartments. `.1`/`.2` share one compartment between small, distinguishable pills; `L.2-3` uses one large pill per compartment; `M.15 3x` puts three small pills in one compartment.
+- Zero-series codes such as `M.0.2` identify drinks/powders outside the organizer. In `M.0.3.2.1`, the last two numbers identify the ingredient subgroup and its position. Nested superscripts link Notes and consume no compartments.
+- Keep empty compartments at meaningful evidence-benefit gaps. Display order does not create extra timing windows.
 
 #### Powder scoop sizes
 
@@ -1312,13 +1354,13 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Blood Pressure:** review Citrulline 8g alongside Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna. Check seated/standing BP, especially during the first 1–2 weeks after the Garlic switch; review dizziness, near-fainting or unusual weakness. Separating doses does not remove systemic interactions. Free Taurine 4g also exceeds the standalone product's one-capsule directions. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) [Taurine label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)
 - **Berberine:** reassess Glucose/HbA1c, ApoB/lipids, Liver tests, BP and GI tolerance after 8–12 weeks. The existing fallback for intolerance is Lunch-only. Its CYP interaction potential persists with split dosing. TMG follow-up uses Homocysteine and lipids. [Human Berberine interaction study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4898966/) [TMG review](https://pubmed.ncbi.nlm.nih.gov/33764214/)
 - **Liver/bleeding:** after the Curcumin change, recheck ALT/AST/ALP/GGT and Total/Direct Bilirubin at 6–8 weeks; Milk Thistle follow-up is 8–12 weeks. Stop Curcumin and seek review for jaundice, dark urine, marked fatigue, persistent nausea or abdominal pain. Review unusual bruising/bleeding and disclose Garlic/Curcumin/Ginger/Omega-3 before surgery or with anticoagulants, Aspirin or NSAIDs. [Curcumin Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury) [Garlic safety](https://www.nccih.nih.gov/health/garlic)
-- **Astaxanthin / M.13:** 18mg alone exceeds the ~16mg all-source ADI at 80kg. This is a chronic-exposure benchmark, not an acute-toxicity threshold. Do not increase or stack it; take with the existing fat-containing Breakfast. [EFSA assessment](https://doi.org/10.2903/j.efsa.2020.5993)
+- **Astaxanthin / M.13:** Double Wood AstaReal® supplies 12mg active Astaxanthin in 1 oil softgel with Breakfast. **Choose this 12mg routine OR the separate 24mg four-week trial; never combine them.** Public 2026 testing includes Double Wood and reports that selected products met their labeled amounts; match the purchased lot rather than assuming every lot was independently tested. Small human trials support possible Skin/recovery benefits; a direct dose comparison did not establish extra functional benefit at 24mg. Assess consistent Skin photos after 12–16 weeks and comparable post-workout soreness; stop for new persistent adverse effects. The EU authorized supplement level is 8mg/day; 12mg exceeds it. The separate all-source ADI is 16mg/day at 80kg, with food and product overfill still extra; neither figure is an acute-toxicity threshold. [Dose comparison](https://doi.org/10.1016/j.scispo.2025.06.003) · [Testing](https://www.consumerlab.com/reviews/astaxanthin-supplements-review/astaxanthin/) · [EFSA](https://doi.org/10.2903/j.efsa.2020.5993) · [EU use conditions](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02017R2470-20260810)
 - **Other minerals:** recheck 25-OH Vitamin D and Calcium 8–12 weeks after the CaAKG change. Verify food Iodine inputs and the repeat thyroid assessment before adding Iodine. July Ferritin 42ng/ml/estimated TSAT ~30% and September Hemoglobin 15.3g/dl do not establish an Iron-pill indication. Do not add Potassium Salt by default; review with Kidney impairment or ACE-inhibitor/ARB/Potassium-sparing-diuretic use. [Iodine guidance](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) [Iron assessment](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/medical-supplements2/iron/how-and-when-do-i-use-it)
 
 ### Skin & teeth
 
 - **Dry eyelids:** Dermallergo Eyes first for a lighter feel; Atoderm Intensive Eye if richer coverage is needed. Test one for about 2 weeks. Keep retinoids/acids off eyelids and under-eyes; stop for persistent stinging, swelling or redness. Persistent red/scaly skin needs assessment. [Dermallergo](https://www.laroche-posay.co.uk/en_GB/toleriane-dermallergo-soothing-eye-cream/LRP_132.html) [Atoderm](https://www.bioderma.pl/produkty/atoderm/intensive-eye)
-- **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Salicylic Acid/peel use with the prescriber; separate nights do not resolve that compatibility question. Retain one weekly topical retinoid, Adapalene OR Tretinoin, as listed. If the optional monthly peel is appropriate: dry skin, maximum 10 minutes, avoid eyes, then plain moisturizer; no topical retinoid, Salicylic Acid cleanser, SNAP-8 or GHK-Cu that routine. Pause acids for redness, stinging or peeling. The professional Bielenda 40% blend is not a home substitute. [Peel label](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
+- **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Adapalene/Tretinoin/Salicylic Acid/peel use with the prescriber; separate nights do not resolve that compatibility question. Keep one weekly topical retinoid: Adapalene 0.1% by default or Tretinoin 0.025% as an alternative. If the optional monthly peel is appropriate: dry skin, maximum 10 minutes, avoid eyes, then plain moisturizer; no topical retinoid, Salicylic Acid cleanser, SNAP-8 or GHK-Cu that routine. Pause acids for redness, stinging or peeling. The professional Bielenda 40% blend is not a home substitute. [Peel label](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
 
 <a id="dental-staining"></a>
 
@@ -1357,6 +1399,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] **[Life Extension AprèsFlex® Boswellia 100mg (AKBA 20mg)](https://www.lifeextensioneurope.com/5-lox-inhibitor-with-apresflex):** replace A.8-9 only for diagnosed OA or assessed, function-limiting joint pain. Trial 1capsule/day for 8–12 weeks; track pain/function and GI or bleeding problems. [Polish listing](https://www.ceneo.pl/110919931); small [OA trials](https://pubmed.ncbi.nlm.nih.gov/22022214/).
 - [ ] **[Dona® crystalline Glucosamine Sulfate powder 1.5g once daily](https://www.hpra.ie/img/uploaded/swedocuments/afe687b5-caf3-4371-b77b-b116b7277677.pdf):** an alternative A.8-9 replacement for symptomatic OA after clinician review, separate from an AprèsFlex® trial. Closer match to clinical outcome studies; [better absorption is unproven](https://pubmed.ncbi.nlm.nih.gov/40806074/). No normal Polish channel verified; use an authorized EU pharmacy if warranted. Assess pain/function over 8–12 weeks.
 - [ ] **[Lasea® Silexan® 80mg/day](https://www.apo-discounter.pl/lasea-kapsulki-28szt-pzn-05489626):** replace Ashwagandha (E.7) only for persistent, meaningful anxiety. Track GAD-7, function and tolerance for 8–10 weeks; reflux/nausea may limit use. Exact Silexan® formulation, with a Poland-facing pharmacy link; [anxiety evidence](https://pubmed.ncbi.nlm.nih.gov/36717399/) does not establish superiority to KSM-66®.
+- [ ] **[Skinoren Azelaic Acid 15% gel](https://www.gdziepolek.pl/produkty/71824/skinoren-zel/apteki):** Polish OTC option for persistent acne/post-acne red or brown marks after compatibility review with the E.1.1 prescriber. It is not a general pore treatment. If selected, follow the [label](https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/10628/characteristic), check tolerance/acne after about 4 weeks and marks at 8–12 weeks. A [15% gel trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC11116308/) used a different product and excluded other acne treatments; no automatic addition to the current regimen.
 
 ### Training & occasional use
 
@@ -1431,6 +1474,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 - **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop (~35ml)](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2). [White Cherry scoop estimate](supplements/POWDER_SCOOP_REFERENCE.md#retired-scoop-entry).
 - **[Biały Puch WPI Unflavored](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701)** → HSN RawSeries WPI; keeps both 30g servings without added B6.
+- **[Bandini Astaxanthin “18mg”, 270capsules](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744)** [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] → Double Wood AstaReal® 12mg active (M.13). The [current manufacturer specification](https://www.bandini-pharma.pl/produkt/astaksantyna-270-kapsulek/) lists 18mg material providing 450mcg active Astaxanthin per capsule; it does not establish the content of an uninspected owned lot.
 - **[Biały Puch EAA Unflavored 10g](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807)** → HSN RawSeries EAA 15g powder — 1scoop (25ml); aligns the post-workout serving with the manufacturer's measure without added B6.
 - **[GymBeam Cluster Dextrin® 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html)** → HSN RawSeries Cluster Dextrin® at the same dose and timing.
 - **[OstroVit Omega 3 Extreme 3capsules (EPA 1.5g + DHA 750mg)](https://ostrovit.com/pl/products/ostrovit-omega-3-extreme-90-kapsulek-25585.html)** → 2 Sports Research triglyceride-form softgels on non-Fatty-Fish days (L.2-3).
@@ -1452,7 +1496,8 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **Rotating Hair products:** [anti-hair-loss shampoo](https://allegro.pl/oferta/anti-hair-loss-szampon-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132003412), [Anwen Emollient Iris conditioner](https://allegro.pl/oferta/anwen-odzywka-do-wlosow-emolientowy-irys-200-ml-9334623745), [Anwen Protein Magnolia conditioner](https://allegro.pl/oferta/anwen-odzywka-proteinowa-magnolia-aluminiowa-100ml-11386316729), [anti-hair-loss conditioner](https://allegro.pl/oferta/anti-hair-loss-odzywka-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132018183), [Anwen Grow Us Tender warming scalp tonic](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) and [Castor Oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) → the fragrance-free Philip Kingsley shampoo/conditioner pair. Fewer products and easier irritation tracking.
 - **[More4Care Cryotherapy Hair Mask 200ml](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419):** removed; the regular conditioner covers this step.
 - **[Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (formerly daily):** CeraVe replaced the daily step; optional SNAP-8 remains in Skincare.
-- **[CeraVe Resurfacing Retinol Serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (formerly nightly):** removed the extra cosmetic retinoid; retain one weekly Adapalene OR Tretinoin.
+- **[CeraVe Resurfacing Retinol Serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (formerly nightly):** removed the extra cosmetic retinoid; retain one weekly topical retinoid (Adapalene 0.1% default or Tretinoin-only 0.025% alternative).
+- **Tretinoin 0.05-0.1% (formerly weekly alternative):** replaced by Tretinoin 0.025%; [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) remains the weekly default. The [daily-use trial](https://pubmed.ncbi.nlm.nih.gov/7544967/) found less irritation versus 0.1%, not tested at weekly frequency.
 - **[Bielenda Professional 40% acid peel](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306):** professional pH2 blend, unsuitable as a direct home substitute for The Ordinary. Its [professional program](https://bielendaprofessional.pl/zabiegi-kosmetyczne-na-twarz/anti-acne-program) lists retinoid treatment as a contraindication.
 
 ### Limited benefit or overlap
