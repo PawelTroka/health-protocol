@@ -159,8 +159,8 @@ PAGES = [
                 icons="❤️ 🧠 🛡️",
                 note="Heat-dispersed soy-oil softgel • riboflavin 1.4 mg",
             ),
-            item("M.5", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡ 🔄"),
-            item("M.6", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡ 🔄"),
+            item("M.5", "Citicoline (Cognizin®)", "250mg", icons="🧠 ⚡"),
+            item("M.6", "Citicoline (Cognizin®)", "250mg", icons="🧠 ⚡"),
             empty("M.7"),
             item("M.8", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
@@ -657,7 +657,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
