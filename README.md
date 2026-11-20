@@ -806,7 +806,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Water flosser [waterpik ultra professional WP660](https://csk-med.pl/waterpik-wp-660) (Twice daily)
 - Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and medical-grade toothpaste with aminofluoride like [Elmex Sensitive Professional](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) or nano-hydroxyapatite (n-HA) alternative like Risewell Mineral if afraid of fluoride (Twice daily)
 - Tongue scraper (daily)
-- Floss [Oral-B SuperFloss](https://allegro.pl/oferta/nic-dentystyczna-oral-b-superfloss-dental-floss-threader-50-szt-17333503650) (Weekly)
+- Interdental brushes sized to fit without forcing; [Oral-B SuperFloss](https://allegro.pl/oferta/nic-dentystyczna-oral-b-superfloss-dental-floss-threader-50-szt-17333503650) for tight contacts/retainers (Daily, before brushing)
 - Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Monthly)
 
 ### Face
