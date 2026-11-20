@@ -67,6 +67,7 @@ TIER_BY_CODE = {
     "M.18": "🥉",
     "L.2": "🥇",
     "L.3": "🥇",
+    "L.8": "🥈",
     "L.5": "🥈",
     "L.6": "🥈",
     "L.7": "🥈",
@@ -227,7 +228,7 @@ PAGES = [
             item("L.5", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
             item("L.6", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠"),
             item("L.7", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠"),
-            empty("L.8"),
+            item("L.8", "Lactase (Intoleran)", "10,000FCC", icons="🚽", note="ONLY WITH LACTOSE • First bite of the meal", kind="warning"),
             item("L.9", "Lycopene", "20 mg", icons="🍅 ❤️ 👨‍🦳 🛡️"),
         ],
     },
@@ -657,7 +658,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 15 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
