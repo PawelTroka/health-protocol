@@ -53,6 +53,16 @@ def withings_ecg_payload():
     }
 
 
+def withings_ecg_only_payload():
+    return {"heart_signals": withings_ecg_payload()["heart_signals"]}
+
+
+def garmin_classification_only_payload(day="2026-08-03", status="BALANCED"):
+    return {"hrv": [{"day": day, "data": {"hrvSummary": {
+        "calendarDate": day, "status": status,
+    }}}]}
+
+
 class SyncCliTests(unittest.TestCase):
     def setUp(self):
         temporary = tempfile.TemporaryDirectory(prefix="synthetic-vitals-cli-")
@@ -107,11 +117,12 @@ class SyncCliTests(unittest.TestCase):
         return cli.parser().parse_args(list(arguments))
 
     def import_file(self, payload=None, **options):
-        path = self.root / "withings-input.json"
+        provider = options.get("provider", "withings")
+        path = self.root / f"{provider}-input.json"
         if payload is None:
             payload = {"measuregrps": [withings_group()]}
         path.write_bytes(cli.json_bytes(payload))
-        arguments = ["import", "--withings-json", str(path),
+        arguments = ["import", f"--{provider}-json", str(path),
                      "--start", "2026-08-01", "--end", "2026-09-05"]
         if options.get("dry_run"):
             arguments.append("--dry-run")
@@ -368,6 +379,161 @@ class SyncCliTests(unittest.TestCase):
         self.assertEqual(len(json.loads((self.cache / "records.json").read_bytes())["records"]), len(records))
         self.assertEqual(len(list((self.cache / "raw" / "withings").glob("*.json"))), 1)
         self.fetch.assert_not_called()
+
+    def test_ecg_only_file_preserves_numeric_cache_and_reimports_without_duplicates(self):
+        payload = withings_ecg_only_payload()
+        args = self.import_file(payload)
+        self.run_quietly(args)
+        private = json.loads((self.cache / "records.json").read_bytes())
+        public = json.loads((self.root / "results" / "vitals_monthly.json").read_bytes())
+        self.assertCountEqual(private["records"], self.previous_records)
+        self.assertEqual(public["months"], monthly.aggregate(self.previous_records, date(2026, 9, 6))["months"])
+        self.assertEqual(private["classifications"], [])
+        self.assertEqual(len(private["ecg_recordings"]), 1)
+        recording = private["ecg_recordings"][0]
+        self.assertEqual(json.loads((self.root / recording["source_file"]).read_bytes()), payload)
+        self.assertTrue((self.root / recording["graph_path"]).is_file())
+        self.assertIn(recording["graph_path"], (self.root / "results.md").read_text())
+        after_first = self.snapshot()
+        self.run_quietly(args)
+        self.assertEqual(self.snapshot(), after_first)
+        self.fetch.assert_not_called()
+
+    def test_classification_only_file_preserves_numeric_cache_and_counts_labels(self):
+        payload = garmin_classification_only_payload()
+        args = self.import_file(payload, provider="garmin")
+        self.run_quietly(args)
+        private = json.loads((self.cache / "records.json").read_bytes())
+        public = json.loads((self.root / "results" / "vitals_monthly.json").read_bytes())
+        self.assertCountEqual(private["records"], self.previous_records)
+        self.assertEqual(public["months"], monthly.aggregate(self.previous_records, date(2026, 9, 6))["months"])
+        self.assertEqual(len(private["classifications"]), 1)
+        event = private["classifications"][0]
+        self.assertEqual(json.loads((self.root / event["source_file"]).read_bytes()), payload)
+        counts = public["categorical_months"]["2026-08"]["HRV Status (Garmin)"]
+        self.assertEqual(counts["counts"], {"BALANCED": 1})
+        self.assertEqual(counts["aggregation"], "observed_classification_counts")
+        self.assertNotIn("ecg_recordings", private)
+        after_first = self.snapshot()
+        self.run_quietly(args)
+        self.assertEqual(self.snapshot(), after_first)
+        self.fetch.assert_not_called()
+
+    def test_mixed_ecg_and_classification_files_need_no_numeric_readings(self):
+        withings_args = self.import_file(withings_ecg_only_payload())
+        garmin_args = self.import_file(garmin_classification_only_payload(), provider="garmin")
+        withings_args.garmin_json = garmin_args.garmin_json
+        self.run_quietly(withings_args)
+        private = json.loads((self.cache / "records.json").read_bytes())
+        self.assertCountEqual(private["records"], self.previous_records)
+        self.assertEqual(len(private["ecg_recordings"]), 1)
+        self.assertEqual(len(private["classifications"]), 1)
+        self.assertEqual(len(list((self.cache / "raw" / "withings").glob("*.json"))), 1)
+        self.assertEqual(len(list((self.cache / "raw" / "garmin").glob("*.json"))), 1)
+        self.fetch.assert_not_called()
+
+    def test_mixed_numeric_and_classification_files_apply_both_amendments(self):
+        args = self.import_file()
+        args.garmin_json = self.import_file(garmin_classification_only_payload(), provider="garmin").garmin_json
+        self.run_quietly(args)
+        private = json.loads((self.cache / "records.json").read_bytes())
+        weights = [record for record in private["records"]
+                   if record["id"] == "withings:measure:101:Body Mass"]
+        self.assertEqual(len(weights), 1)
+        self.assertEqual(weights[0]["value"], 80.4)
+        for retained in self.previous_records[1:]:
+            self.assertIn(retained, private["records"])
+        self.assertEqual(len(private["classifications"]), 1)
+        self.assertEqual(private["classifications"][0]["value"], "BALANCED")
+        self.fetch.assert_not_called()
+
+    def test_nonnumeric_file_dry_runs_do_not_write_outputs_or_archives(self):
+        for provider, payload in (("withings", withings_ecg_only_payload()),
+                                  ("garmin", garmin_classification_only_payload())):
+            with self.subTest(provider=provider):
+                args = self.import_file(payload, provider=provider, dry_run=True)
+                before = self.snapshot()
+                self.prepare.reset_mock()
+                self.run_quietly(args)
+                self.prepare.assert_called_once()
+                self.assertEqual(self.snapshot(), before)
+        self.fetch.assert_not_called()
+
+    def test_nonnumeric_files_can_initialize_a_cache_without_numeric_observations(self):
+        for provider, payload in (("withings", withings_ecg_only_payload()),
+                                  ("garmin", garmin_classification_only_payload())):
+            with self.subTest(provider=provider):
+                (self.cache / "records.json").unlink()
+                self.run_quietly(self.import_file(payload, provider=provider))
+                private = json.loads((self.cache / "records.json").read_bytes())
+                public = json.loads((self.root / "results" / "vitals_monthly.json").read_bytes())
+                self.assertEqual(private["records"], [])
+                self.assertEqual(public["months"], {})
+                collection = "ecg_recordings" if provider == "withings" else "classifications"
+                self.assertEqual(len(private[collection]), 1)
+        self.fetch.assert_not_called()
+
+    def test_empty_invalid_and_out_of_range_nonnumeric_files_preserve_every_output(self):
+        invalid_ecg = withings_ecg_only_payload()
+        invalid_ecg["heart_signals"][0]["data"]["signal"] = []
+        outside_ecg = withings_ecg_only_payload()
+        outside_ecg["heart_signals"][0]["timestamp"] = int(datetime(2026, 7, 31, 12, tzinfo=timezone.utc).timestamp())
+        for provider, payload, error in (
+            ("withings", {}, "No usable withings"),
+            ("withings", invalid_ecg, "No usable withings"),
+            ("withings", outside_ecg, "No usable withings"),
+            ("withings", {"heart_signals": {}}, "heart_signals must be a list"),
+            ("garmin", {}, "No usable garmin"),
+            ("garmin", garmin_classification_only_payload(status=None), "No usable garmin"),
+            ("garmin", garmin_classification_only_payload("2026-07-31"), "No usable garmin"),
+            ("garmin", garmin_classification_only_payload("2026-09-06"), "No usable garmin"),
+            ("garmin", garmin_classification_only_payload(status=1), "status must be nonempty text"),
+        ):
+            with self.subTest(provider=provider, payload=payload):
+                args = self.import_file(payload, provider=provider)
+                before = self.snapshot()
+                with self.assertRaisesRegex(ValueError, error):
+                    self.run_quietly(args)
+                self.assertEqual(self.snapshot(), before)
+                self.prepare.assert_not_called()
+        self.fetch.assert_not_called()
+
+    def test_current_day_garmin_classification_alone_is_not_a_usable_import(self):
+        args = self.import_file(garmin_classification_only_payload("2026-09-06"), provider="garmin")
+        args.end = "2026-09-06"
+        before = self.snapshot()
+        with self.assertRaisesRegex(ValueError, "No usable garmin"):
+            self.run_quietly(args)
+        self.assertEqual(self.snapshot(), before)
+        self.prepare.assert_not_called()
+
+    def test_mixed_files_require_usable_data_from_each_supplied_provider(self):
+        for withings_payload, garmin_payload, missing in (
+            (withings_ecg_only_payload(), {}, "garmin"),
+            ({"measuregrps": [withings_group()]}, {}, "garmin"),
+            ({}, garmin_classification_only_payload(), "withings"),
+        ):
+            with self.subTest(missing=missing, withings_payload=withings_payload):
+                args = self.import_file(withings_payload)
+                args.garmin_json = self.import_file(garmin_payload, provider="garmin").garmin_json
+                before = self.snapshot()
+                with self.assertRaisesRegex(ValueError, f"No usable {missing}"):
+                    self.run_quietly(args)
+                self.assertEqual(self.snapshot(), before)
+                self.prepare.assert_not_called()
+        self.fetch.assert_not_called()
+
+    def test_nonnumeric_import_still_validates_cached_numeric_observations(self):
+        cache_path = self.cache / "records.json"
+        existing = json.loads(cache_path.read_bytes())
+        existing["records"][0]["unit"] = "invalid"
+        cache_path.write_bytes(cli.json_bytes(existing))
+        args = self.import_file(withings_ecg_only_payload())
+        before = self.snapshot()
+        with self.assertRaisesRegex(ValueError, "Unexpected unit"):
+            self.run_quietly(args)
+        self.assertEqual(self.snapshot(), before)
+        self.prepare.assert_not_called()
 
     def test_nested_json_credentials_are_rejected_before_parsing_or_archiving(self):
         for field in ("access_token", "REFRESH-TOKEN", "client_secret", "Authorization", "password", "idToken"):
