@@ -382,6 +382,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `104kcal · P4.2g · C15.7g · F2g · Fiber3.8g · Magnesium · Folate · Flavonol Glycosides`
   - [x] 100g steamed [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🛡️ 🗿 👁️ 🦠 💪
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Anthocyanins · Chlorogenic Acids · Potassium`
+
   - [ ] 100g steamed [organic Orange Sweet Potatoes](https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065) 🛡️ 🗿 👁️ 🦠 💪 🔄
     - `76kcal · P1.3g · C15.2g · F0.1g · Fiber2.5g · Beta-Carotene · Chlorogenic Acids · Potassium`
   - [ ] 80g steamed peeled [organic Potatoes](https://bioshi.pl/pl/products/ziemniaki-zolte-swieze-bio-polska-2-kg-100207) 🛡️ 🗿 💪 🩸 🔄
