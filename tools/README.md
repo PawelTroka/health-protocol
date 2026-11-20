@@ -74,6 +74,8 @@ The default `--provider all` requests every configured account; `--provider both
 
 Optional endpoints returning HTTP 403/404 are recorded as unavailable in the source's `_sync.endpoint_status` rather than treated as measurements or zeros. Remaining accessible data can still be imported. Each complete collection replaces its own cached observations in the requested range; unavailable collections retain theirs. The monthly source file records sync coverage; check it when a device, account permission or service restriction leaves a gap. A successful endpoint with no observations is distinct from an unavailable endpoint.
 
+Withings sampled sleep HRV also requires the completed sleep-summary collection to identify each sample's sleep period and wake date. When summaries are unavailable, sleep-detail fetching is deferred and its coverage records that dependency gap; cached RMSSD/SDNN values remain intact. When both collections are accessible, normal refresh and removal of deleted observations still apply.
+
 For Garmin, only optional-endpoint404 responses are treated as unavailable. Authentication/403, rate limits and other failures stop publication. If any date is unavailable, that collection's existing history is retained and successfully returned dates amend it. A successful empty response is recorded separately. Requests are bounded and the Garmin fetch range is limited to 366 days per run.
 
 ## Import an export without an API connection
