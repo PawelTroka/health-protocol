@@ -522,7 +522,7 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 |  | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
 | **Urine Creatinine** | 🟢 59.1 | mg/dL | 39.0 - 259.0 |
-| **Urine Albumin (Microalbuminuria)** | 🔵 <3 | mg/l | < 20.0 |
+| **Urine Albumin (Microalbuminuria)** | 🟢 &lt;3 | mg/l | < 20.0 |
 | **Urine Protein** | 🔵 0.06 | g/L | < 0.15 |
 | **Urine Amylase** | 🟢 98 | U/L | 16 - 491 |
 | **Urine Potassium** | 🟡<sup>1</sup> 7.12 ↓ | mmol/l | 20.00 - 80.00 |
@@ -569,7 +569,7 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Albumin** | - | 🔵 48.90 | - | - | - | g/l | 35.00 - 52.00; target 45 - 52 |
 | **Creatinine** | ⚪ | 🔵 0.96 | 🔵 0.93 | 🔵 0.93 | - | mg/dl | 0.70 - 1.20; target 0.80 - 1.10 |
 | **Cystatin C** | - | 🔵 0.80 | - | - | - | mg/l | 0.51 - 1.05; target 0.60 - 0.90 |
-| **eGFR** | - | 🔵 101.5 | 🟢 >60 | 🟢 >60 | - | ml/min/1.73m^2 | > 60.0; target 90 - 120 |
+| **eGFR** | - | 🔵 101.5 | 🟢 &gt;60 | 🟢 &gt;60 | - | ml/min/1.73m^2 | > 60.0; target 90 - 120 |
 
 ### LDH & Uric Acid
 
@@ -664,12 +664,12 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Anti-TG** | 🟡 | 🔵 18.90 | 🔵 16.80 | 🔵 13.10 | IU/ml | < 115.0; target < 20 |
 | **ASO** | 🟠 | 🟡 390 ↑ | - | 🟡 209 ↑ | IU/mL | < 200; target < 200 |
 | **IgA (Serum)** | - | 🔵 3.0 | - | - | g/L | 0.7 - 4.0 |
-| **tTG IgA** | - | 🔵 < 2.00 | - | - | RU/ml | < 20.0: negative; >= 20.0: positive |
-| **DGP IgG** | - | 🔵 < 2.0 | - | - | RU/ml | < 25: negative; >= 25: positive |
-| **Rheumatoid Factor (RF)** | - | 🟢 < 10 | - | - | IU/mL | < 14 |
-| **Anti-CCP** | - | 🔵 <8 | - | - | U/mL | < 17.00 |
+| **tTG IgA** | - | 🟢 &lt; 2.00 | - | - | RU/ml | < 20.0: negative; >= 20.0: positive |
+| **DGP IgG** | - | 🟢 &lt; 2.0 | - | - | RU/ml | < 25: negative; >= 25: positive |
+| **Rheumatoid Factor (RF)** | - | 🟢 &lt; 10 | - | - | IU/mL | < 14 |
+| **Anti-CCP** | - | 🟢 &lt;8 | - | - | U/mL | < 17.00 |
 | **ANA IIFT** | - | 🔵 negative at 1:80 | - | - | Status | negative |
-| **TSH Receptor Antibodies (TRAb)** | - | 🔵 < 0.14 | - | - | IU/L | < 0.550: negative; >= 0.550: positive |
+| **TSH Receptor Antibodies (TRAb)** | - | 🟢 &lt; 0.14 | - | - | IU/L | < 0.550: negative; >= 0.550: positive |
 | **Complement C3** | - | 🟡 89 ↓ | - | - | mg/dL | 90 - 180 |
 | **Complement C4** | - | 🟢 14.2 | - | - | mg/dL | 10.0 - 40.0 |
 
@@ -722,10 +722,10 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Anti-HBs** | ⚪ | 🔵 181.00 | 🔵 221.00 | 🔵 203.00 | - | IU/l | > 10 |
 | **HCV** | ⚪ | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | Status | Non-reactive |
 | **Syphilis (WR)** | ⚪ | 🔵 Non-reactive | 🔵 Non-reactive | 🔵 Non-reactive | - | Status | Non-reactive |
-| **Chlamydia IgG** | ⚪ | 🔵 < 5.0 | 🔵 < 5.0 | 🔵 < 5.0 | 🔵 negative | AU/ml | < 9 |
+| **Chlamydia IgG** | ⚪ | 🟢 &lt; 5.0 | 🟢 &lt; 5.0 | 🟢 &lt; 5.0 | 🔵 negative | AU/ml | < 9 |
 | **Chlamydia IgM** | 🟢 | 🔵 2.0 | 🔵 2.7 | 🔵 2.7 | 🔵 2.7 | NTU | < 9 |
 | **HSV IgG** | 🟠 | 🟡 1.19 ↑ | 🟢 0.79 | 🟡 1.35 ↑ | 🟡 1.7 ↑ | Index | < 0.9 |
-| **HSV IgM** | ⚪ | 🔵 < 0.5 | 🔵 < 0.5 | 🔵 negative | 🔵 negative | Index | < 0.9 |
+| **HSV IgM** | ⚪ | 🟢 &lt; 0.5 | 🟢 &lt; 0.5 | 🔵 negative | 🔵 negative | Index | < 0.9 |
 
 ## Toxicology (Urine)
 
@@ -769,9 +769,9 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Giardia lamblia Antigen** | - | - | 🔵 negative | Status | negative |
 | **Alpha-1 Antitrypsin (Stool)** | - | - | 🔵 7.90 | mg/dl | < 27.50; target < 27.50 |
 | **Calprotectin (Stool)** | 💎 | 🔵<sup>1</sup> < 5.0 | 🔴<sup>1</sup> 291.70 ↑ | ug/g | < 50.00; target < 50 |
-| **Lactoferrin (Stool)** | - | 🟢 < 0.10 | - | ug/ml | 0.00 - 7.20 |
+| **Lactoferrin (Stool)** | - | &lt; 0.10 | - | ug/ml | 0.00 - 7.20 |
 | **Pancreatic Elastase-1 (Stool)** | - | 🔵 600.0 | - | ug/g | >= 200 |
-| **M2-PK (Stool)** | - | 🔵 < 1.00 | - | U/ml | 0.0 - 4.0 |
+| **M2-PK (Stool)** | - | &lt; 1.00 | - | U/ml | 0.0 - 4.0 |
 | **Zonulin (Stool)** | - | 🔴 217.0 ↑ | - | uU/g | < 60.1 |
 | **Butyric Acid (Stool)** | - | 🟡 14.4 ↓ | - | umol/g | 15.0 - 36.5 |
 | **Butyric Acid (Stool) %** | - | 🟡 14.8 ↓ | - | % of fatty acids | 15.0 - 23.0 |
@@ -1156,6 +1156,8 @@ Date verified from the 06.05.2024 overlay on the original JPEG.
 [Reference sources and methods](results/Reference-Guide.md) · [September laboratory sources](results/Labs-2026-09-16/Sources.md).
 
 > **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.
+
+> **Numeric limits:** &lt;, ≤, &gt; and ≥ are not exact measurements. A target score is used only when every possible value has the same score; otherwise green/orange means the entire reported interval is inside/outside the laboratory reference, without grading magnitude. Overlapping intervals remain ungraded. For identical numeric limits, ⚪ means the same reported limit; actual change is unknown. Uninterpretable current results block older trends.
 
 ### Trend Legend
 *   💎 **Breakthrough**: Vast improvement

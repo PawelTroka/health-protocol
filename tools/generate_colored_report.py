@@ -94,6 +94,8 @@ def get_color_hex(score):
 def get_direction(val_str, ref_range):
     if val_str in ["-", "—", None, ""]:
         return None
+    if is_bounded(val_str):
+        return None  # A reporting limit does not locate the actual measurement.
         
     val_clean = re.sub(r'[^\d.<>]', '', val_str.split('(')[0]) 
     if not val_clean: return None
@@ -488,6 +490,20 @@ def calculate_target_score(val, target):
 
     return None
 
+def bounded_target_score(value, target):
+    """Score a limit only when every possible value has one constant score."""
+    # A half-line cannot fit inside a finite optimal interval. Only uncapped
+    # one-sided target plateaus can establish a score without an exact value.
+    if target["type"] == "low_good" and target.get("low_limit") is None:
+        boundary = target["optimal_max"]
+        if bound_within_reference(value, f"<= {boundary}") is True:
+            return calculate_target_score(boundary, target)
+    if target["type"] == "high_good" and target.get("high_limit") is None:
+        boundary = target["optimal_min"]
+        if bound_within_reference(value, f">= {boundary}") is True:
+            return calculate_target_score(boundary, target)
+    return None
+
 def calculate_blood_pressure_score(val_str, target):
     pair = numeric_pair_from_result(val_str)
     if pair is None:
@@ -532,6 +548,8 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
         return None
 
     target = target_overrides.get((category, marker))
+    if is_bounded(val_str):
+        return bounded_target_score(val_str, target) if target else None
     if target:
         if target["type"] == "blood_pressure":
             return calculate_blood_pressure_score(val_str, target)
@@ -550,10 +568,6 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
         return 0.0
     if text_val in ["positive", "reactive", "detected", "present"]:
         return 3.0
-
-    # Handle exact matches like "< 30.0" and "< 30.0"
-    if val_str.strip() == ref_range.strip() and "<" in val_str:
-        return 0.0
 
     val = numeric_from_result(val_str)
     if val is None:
@@ -607,6 +621,15 @@ def qualitative_status(value):
         return ("#927000", "🟡", "Equivocal laboratory result; not confirmed positive")
     return NEUTRAL
 
+def bounded_status(value, reference):
+    """Describe a proven reference relation without grading its magnitude."""
+    within = bound_within_reference(value, reference)
+    if within is True:
+        return ("#006400", "🟢", "Reported limit is within the laboratory reference; exact value unknown")
+    if within is False:
+        return ("#a84a00", "🟠", "Reported limit is outside the laboratory reference; magnitude unknown")
+    return NEUTRAL
+
 
 def format_cell_html(val, ref, category=None, marker=None, context=None):
     status = guide_status(category, marker, val, context)
@@ -614,6 +637,8 @@ def format_cell_html(val, ref, category=None, marker=None, context=None):
         return format_status(val, status, show_neutral=True)
     score = calculate_score(val, ref, category, marker)
     if score is None:
+        if is_bounded(val) and (category, marker) not in no_score_markers and category != MICROBIOTA_CATEGORY:
+            return format_status(val, bounded_status(val, ref))
         return format_status(val, qualitative_status(val))
     color, emoji = get_color_hex(score)
     target = target_overrides.get((category, marker))
@@ -627,6 +652,8 @@ def format_cell_md(val, ref, category=None, marker=None, context=None):
         return format_status(val, status, markdown=True, show_neutral=True)
     score = calculate_score(val, ref, category, marker)
     if score is None:
+        if is_bounded(val) and (category, marker) not in no_score_markers and category != MICROBIOTA_CATEGORY:
+            return format_status(val, bounded_status(val, ref), markdown=True)
         return format_status(val, qualitative_status(val), markdown=True)
     _, emoji = get_color_hex(score)
     target = target_overrides.get((category, marker))
@@ -927,14 +954,24 @@ def classify_trend(values, ref, category, marker=None):
                 return "Stable"
         return None
 
+    latest = [value for value in values if value not in missing_values][:2]
+    if (len(latest) == 2 and (category, marker) not in no_score_markers
+            and category not in {"Vitals & Functional Health", MICROBIOTA_CATEGORY}
+            and bounded_comparison(*latest) == "same_bound"
+            and bound_within_reference(latest[0], ref) is not None):
+        return "Stable"  # Same reported reference category, not equal measurements.
+
     comparable = []
     for value in values:
+        if value in missing_values:
+            continue
         # An uninterpretable reading must not display a trend from older results.
         if is_inconclusive(value) or is_pending(value):
             return None
         score = trend_score(value, ref, category, marker)
-        if score is not None:
-            comparable.append((value, score))
+        if score is None:
+            return None
+        comparable.append((value, score))
         if len(comparable) == 2:
             break
 
@@ -985,6 +1022,9 @@ def format_trend_html(values, ref, category, marker=None):
         return vitals_trend(values, marker) if category == "Vitals & Functional Health" else "-"
 
     definition = trend_definitions[trend]
+    latest = [value for value in values if value not in missing_values][:2]
+    if trend == "Stable" and len(latest) == 2 and bounded_comparison(*latest) == "same_bound":
+        return f'<span title="Same reported limit; actual change unknown">{definition["emoji"]}</span>'
     return definition["emoji"]
 
 def format_trend_md(values, ref, category, marker=None):
@@ -2516,6 +2556,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += "<li>⚪ Context-dependent: no standalone health classification</li>"
     html += "</ul>"
     html += "<p class='note'>Single-result colors use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.</p>"
+    html += "<p class='note'>Numeric limits (&lt;, &le;, &gt;, &ge;) are not exact measurements. A target score is used only when every possible value has the same score; otherwise green/orange means the entire reported interval is inside/outside the laboratory reference, without grading magnitude. Overlapping intervals remain ungraded. For identical numeric limits, ⚪ means the same reported limit; actual change is unknown. Uninterpretable current results block older trends.</p>"
     html += "<p class='note'><a href='results/Reference-Guide.md'>Reference sources and methods</a> · <a href='results/Labs-2026-09-16/Sources.md'>September laboratory sources</a>.</p>"
 
     html += "<h3 id='results-trend-legend'>Trend Legend</h3><ul>"
@@ -2559,6 +2600,7 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     md += "*   ⚪ **Context-dependent**: No standalone health classification\n\n"
     md += "[Reference sources and methods](results/Reference-Guide.md) · [September laboratory sources](results/Labs-2026-09-16/Sources.md).\n\n"
     md += "> **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.\n\n"
+    md += "> **Numeric limits:** &lt;, ≤, &gt; and ≥ are not exact measurements. A target score is used only when every possible value has the same score; otherwise green/orange means the entire reported interval is inside/outside the laboratory reference, without grading magnitude. Overlapping intervals remain ungraded. For identical numeric limits, ⚪ means the same reported limit; actual change is unknown. Uninterpretable current results block older trends.\n\n"
     md += "### Trend Legend\n"
     for label, definition in trend_definitions.items():
         md += f"*   {definition['emoji']} **{label}**: {definition['description'].capitalize()}\n"
