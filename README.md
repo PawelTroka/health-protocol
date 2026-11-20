@@ -236,8 +236,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Side Delts**: Cable Lateral Raises (Behind the back): 15 × 7.5kg, 13 × 10kg, 12 × 12.5kg *(Use wrist cuffs to maximize lateral delt isolation & V-taper; Pro-Tip: Set pulley at hip/wrist height to overload the lateral delt in the stretched position)* 🗿
 - **Triceps**: Single Arm Cuff Pushdown (or V-bar): 15 × 15kg, 13 × 17.5kg, 12 × 20kg 🗿
 - **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 🗿
-- **Core**: Standing Cable Crunches: 20 × 25kg, 18 × 30kg, 16 × 35kg (Exhale fully on contraction; TVA focus: draw in, keep stomach flat, prevent coning, stop if midline ridge forms) 💪 🗿
-- **Waist**: Stomach Vacuums: 3x 60s 🗿
+- **Core**: Standing Cable Crunches: 20 × 25kg, 18 × 30kg, 16 × 35kg *(Controlled trunk flexion; exhale during effort and use a load that allows comfortable abdominal control)* 💪 🗿
+- (*Optional*) **Waist Control**: Stomach Vacuums: 3x 10–20s *(Comfortable holds; breathe normally between attempts and stop before straining)* 🗿
 - **Post-Workout Zone 2 Cardio**: StairMaster: 20mins at level 8/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ ⏰ 🍆
 
 ---
@@ -251,7 +251,6 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 14 x 6kg, 12 x 8kg, 10 x 10kg *(Light load, comfortable range; avoid painful arcs and uncomfortable pad pressure on the abdominal repair)* 🦴
 - **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿
 - **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 16 × 12.5kg 🗿
-- **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
 - **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ ⏰ 🍆
 
 ---
@@ -264,7 +263,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 🗿
 - **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 10kg, 15 × 15kg, 15 × 20kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)* 💪 🗿
 - **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 14 × 110kg, 12 x 120kg, 10 x 130kg (Slow negative) 🗿
-- **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
+- **Core**: Dead Bugs: 3 × 6–10 reps/side *(Slow alternating reaches with steady breathing; shorten the lever if abdominal control is lost or the lower back lifts)* 💪
 
 **Recovery:**
 - **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, [hydrate with electrolytes](#during-workout))* ❤️
@@ -279,8 +278,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 🗿
 - **Neck**: Resistance Band Neck Extensions: 20 × 3.75kg, 18 × 5kg, 16 × 6.25kg 🗿
 - **Scapular Control**: Forearm Wall Slides with Foam Roller: 20x, 18x, 16x *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴
-- **Core**: Reverse Crunches: 35 reps, 30 reps, 25 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
-- **Waist**: Stomach Vacuums: 3x 75s 🗿
+- (*Optional*) **Waist Control**: Stomach Vacuums: 3x 10–20s *(Comfortable holds; breathe normally between attempts and stop before straining)* 🗿
 - **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 12/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ ⏰ 🍆
 
 ---
@@ -1469,6 +1467,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 ### Training replacements
 
 - **Dumbbell Pullover (Cross-bench):** → Friday Lat Pulldowns to prioritize lat training. [Activation study](https://pubmed.ncbi.nlm.nih.gov/21975179/)
+- **Tuesday Hanging Knee Raises (3sets) and Thursday Reverse Crunches (3sets):** removed from the default week to concentrate core work on Monday/Wednesday/Friday; retain cable crunches, dead bugs and bench leg–hip raises. This is a workload choice, not a blanket restriction on abdominal flexion. [Postpartum curl-up trial](https://pubmed.ncbi.nlm.nih.gov/37286390/)
 
 ### Product replacements
 
