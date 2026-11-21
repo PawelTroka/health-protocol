@@ -18,6 +18,7 @@ _LEGACY_OURA_SLEEP = {
     "Sleep Duration", "REM Sleep", "Deep Sleep", "Average Sleeping HR (Oura)",
     "Mean Nightly Lowest HR (Oura)", "Average HRV (Sleep)",
     "Respiratory Rate (Sleep)", "Sleep Efficiency", "Sleep Latency", "Time in Bed",
+    "Light Sleep (Oura)",
 }
 
 
@@ -25,7 +26,7 @@ def infer_endpoint(record):
     """Return a coverage-status key only for a recognized source identity.
 
     Earlier parser records encoded the collection in their stable IDs. The
-    original eleven-column Oura CSV is also a known daily sleep source; broader
+    verified sleep columns in Oura CSV are also known daily sleep sources; broader
     undocumented origins deliberately remain unknown and are only amended.
     """
     provider = record.get("provider")

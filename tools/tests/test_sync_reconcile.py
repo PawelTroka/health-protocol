@@ -40,6 +40,8 @@ class ReconciliationTests(unittest.TestCase):
             (sleep(), "sleep"),
             (sleep("legacy", source_endpoint="sleep"), "sleep"),
             (sleep("oura:csv:2026-08-01:Sleep Duration", source_kind="csv"), "sleep"),
+            (record("oura", "oura:csv:2026-08-01:Light Sleep (Oura)", "Light Sleep (Oura)", 4.75, "h",
+                    source_kind="csv"), "sleep"),
             (record("oura", "oura:csv:2026-08-01:Sleep Score", "Sleep Score", 90, "score",
                     source_kind="csv"), "daily_sleep"),
             (weight(), "measure"),
@@ -60,6 +62,15 @@ class ReconciliationTests(unittest.TestCase):
         result = merge_synced([sleep(), old_score], [new_sleep], ["oura"], START, END,
                               {"oura": coverage(sleep="complete", daily_sleep="unavailable")})
         self.assertEqual({row["id"] for row in result}, {old_score["id"], new_sleep["id"]})
+
+    def test_csv_light_sleep_follows_sleep_collection_coverage(self):
+        light = record("oura", "oura:csv:2026-08-01:Light Sleep (Oura)", "Light Sleep (Oura)", 4.75, "h",
+                       source_kind="csv")
+        for status, expected in [("complete", []), ("unavailable", [light])]:
+            with self.subTest(status=status):
+                result = merge_synced([light], [], ["oura"], START, END,
+                                      {"oura": coverage(sleep=status, daily_sleep="complete")})
+                self.assertEqual(result, expected)
 
     def test_unavailable_oura_does_not_preserve_deleted_complete_withings_measurements(self):
         old_oura = sleep()
