@@ -145,12 +145,12 @@ PAGES = [
         "accent": "morning",
         "callout": "Breakfast pill organizer • Row-major placement: left to right, top to bottom.",
         "cells": [
-            item("M.1", "Bifidobacterium longum 35624®", "1 bln CFU", icons="🦠 🚽"),
+            item("M.1", "Bifidobacterium longum 35624®", "1 bln CFU", icons="🦠 🚽 🛡️"),
             item(
                 "M.2",
                 "Limosilactobacillus reuteri Gastrus®",
                 "200 mln CFU",
-                icons="🦠 🚽",
+                icons="🚽 🦠 🩸",
                 note="Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475",
             ),
             item(
@@ -165,7 +165,7 @@ PAGES = [
                 "M.4",
                 "CoQ10 (Ubiquinone)",
                 "100 mg",
-                icons="❤️ 🧠 🛡️",
+                icons="❤️ ⏰ 🧠 🛡️",
                 note="Heat-dispersed soy-oil softgel • riboflavin 1.4 mg",
             ),
             item("M.5", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡ 🔄"),
@@ -188,21 +188,21 @@ PAGES = [
         "accent": "morning",
         "callout": "M.15 holds all three small NR capsules together.",
         "cells": [
-            item("M.10", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 🛡️ 🔄", note="ErgoActive® • Vitamin C 5 mg"),
-            item("M.11", "NAC", "1 g", icons="🛡️ 🫁 🔄"),
+            item("M.10", "L-Ergothioneine", "25 mg", icons="⏰ 🧠 👨‍🦳 🛡️ 🔄", note="ErgoActive® • Vitamin C 5 mg"),
+            item("M.11", "NAC", "1 g", icons="🛡️ 🧠 🫁 🍅 🔄"),
             empty("M.12"),
             item("M.13", "Astaxanthin (AstaReal®)", "12 mg", icons="👁️ 🛡️ 💪 👨‍🦳", note="Double Wood • oil softgel"),
             item(
                 "M.14",
                 "Vitamin K1 + K2 MK-4 + K2 MK-7",
                 "K1 1.5 mg • K2 MK-4 1 mg\nK2 MK-7 0.2 mg",
-                icons="🦴 ❤️",
+                icons="🦴 ❤️ 🩸 ⏰",
             ),
             item(
                 "M.15",
                 "Nicotinamide Riboside",
                 "300 mg",
-                icons="🧠 ⚡",
+                icons="⏰ 🧠 ❤️ 💪",
                 same_slot_count=3,
             ),
             item(
@@ -212,7 +212,7 @@ PAGES = [
                 icons="🧠 ❤️ 🔄",
             ),
             empty("M.17"),
-            item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons="⏰ 🧠"),
+            item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons="⏰ 🧠 ❤️"),
         ],
     },
     {
@@ -226,16 +226,16 @@ PAGES = [
                 "name": "PRESCRIPTIONS",
                 "kind": "shared",
                 "parts": [
-                    item("L.1.1", "Ezetimibe", "10 mg", icons="❤️ ⚕️", kind="rx"),
+                    item("L.1.1", "Ezetimibe", "10 mg", icons="❤️ 🩸 ⚕️", kind="rx"),
                     item("L.1.2", "Tadalafil", "5 mg", icons="🍆 ❤️ 🫀 🍅 ⚕️", kind="rx"),
                 ],
             },
             item("L.2", "Omega 3", "690mg EPA • 310mg DHA", icons="🧠 ❤️ 👁️ 🔥 🔄", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
             item("L.3", "Omega 3", "690mg EPA • 310mg DHA", icons="🧠 ❤️ 👁️ 🔥 🔄", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
             empty("L.4"),
-            item("L.5", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
-            item("L.6", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠"),
-            item("L.7", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠"),
+            item("L.5", "Sodium Butyrate", "500 mg", icons="🦠 🧠 🛡️ ⏰", note="Butyric acid 400 mg"),
+            item("L.6", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠 🛡️"),
+            item("L.7", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠 🛡️"),
             empty("L.8"),
             item("L.9", "Lycopene", "20 mg", icons="🍅 ❤️ 👨‍🦳 🛡️"),
         ],
@@ -253,7 +253,7 @@ PAGES = [
                 icons="🔥 🧠 🦴 ❤️ 🚽 🍆 🔄",
                 note="Advanced Curcumin Elite™ • Gingerols 60mg • Turmerones 75mg",
             ),
-            item("L.11", "Ceratiq® Wheat Oil Extract", "350 mg", icons="👨‍🦳 💧 🔄", note="Phytoceramides • glycosylceramides • glycolipids"),
+            item("L.11", "Ceratiq® Wheat Oil Extract", "350 mg", icons="👨‍🦳 💧 🛡️ 🔄", note="Phytoceramides • glycosylceramides • glycolipids"),
             item(
                 "L.12",
                 "Betaine (TMG)",
@@ -261,8 +261,8 @@ PAGES = [
                 icons="🧠 ❤️ 🔄",
             ),
             item("L.13", "Broccoli Seed Extract", "200 mg", icons="🛡️ 🍅 🔥", note="Glucoraphanin 20 mg • Myrosinase"),
-            item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽"),
-            item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🛡️ 🔄", note="SAC 2.5 mg • standardized to 0.5%"),
+            item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽 🛡️"),
+            item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🛡️ 🩸 🍆 🔄", note="SAC 2.5 mg • standardized to 0.5%"),
             item("L.16", "Phosphatidylserine", "300 mg", icons="🧠 😌"),
             item("L.17", "Milk Thistle", "380 mg", icons="🛡️ 🚽 🔄"),
             item("L.18", "DIM", "200 mg", icons="🛡️ 🍆 🔄"),
@@ -279,7 +279,7 @@ PAGES = [
                 "name": "PRESCRIPTIONS",
                 "kind": "shared",
                 "parts": [
-                    item("E.1.1", "Isotretinoin", "10 mg", icons="👨‍🦳 ⚕️", note="WEEKLY ONLY", kind="rx"),
+                    item("E.1.1", "Isotretinoin", "10 mg", icons="👨‍🦳 ⏰ ⚕️", note="WEEKLY ONLY", kind="rx"),
                     item("E.1.2", "Dutasteride", "0.5 mg", icons="💇‍♂️ 🍅 ⚕️", note="EVERY 2ND DAY", kind="rx"),
                 ],
             },
@@ -288,15 +288,15 @@ PAGES = [
                 "E.3",
                 "Limosilactobacillus reuteri Gastrus®",
                 "200 mln CFU",
-                icons="🦠 🚽",
+                icons="🚽 🦠 🩸",
                 note="Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475",
             ),
-            item("E.4", "Sodium Butyrate", "500 mg", icons="🦠 🚽", note="Butyric acid 400 mg"),
-            item("E.5", "Melatonin + Botanical Extract Blend", "1 mg", icons="😴 😌", note="Passionflower • lemon balm • hops • saffron • Vitamin B6"),
+            item("E.4", "Sodium Butyrate", "500 mg", icons="🦠 🧠 🛡️ ⏰", note="Butyric acid 400 mg"),
+            item("E.5", "Melatonin + Botanical Extract Blend", "1 mg", icons="😴 😌 ⏰", note="Passionflower • lemon balm • hops • saffron • Vitamin B6"),
             item("E.6", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
-            item("E.7", "Ashwagandha KSM-66", "500 mg", icons="😌 😴", note="Withanolides 25 mg"),
-            item("E.8", "Glycine", "1g", icons="😴 🧠"),
-            item("E.9", "Glycine", "1g", icons="😴 🧠"),
+            item("E.7", "Ashwagandha KSM-66", "500 mg", icons="😌 😴 🍆 🧠", note="Withanolides 25 mg"),
+            item("E.8", "Glycine", "1g", icons="😴 🧠 🍅 ⏰"),
+            item("E.9", "Glycine", "1g", icons="😴 🧠 🍅 ⏰"),
         ],
     },
     {
@@ -305,8 +305,8 @@ PAGES = [
         "accent": "evening",
         "callout": "Glycine continues from Evening Box 1.",
         "cells": [
-            item("E.10", "Glycine", "1g", icons="😴 🧠"),
-            item("E.11", "Berberine HCl", "490 mg", icons="🩸 🚽"),
+            item("E.10", "Glycine", "1g", icons="😴 🧠 🍅 ⏰"),
+            item("E.11", "Berberine HCl", "490 mg", icons="🩸 🚽 🛡️"),
             item("E.12", "Magnesium (Glycinate)", "133.3 mg", icons="💪 🧠 ❤️ 🦴"),
             item("E.13", "Milk Thistle", "380 mg", icons="🛡️ 🚽 🔄"),
             item(
@@ -318,8 +318,8 @@ PAGES = [
                 note="Review combination before starting • Swallow whole with food and water",
             ),
             item("E.15", "GABA", "250 mg", icons="😴 😌 🔄", note="Magnesium citrate 20 mg"),
-            item("E.16", "Inositol", "1g", icons="🧠 😌"),
-            item("E.17", "Inositol", "1g", icons="🧠 😌"),
+            item("E.16", "Inositol", "1g", icons="🧠 😌 🩸"),
+            item("E.17", "Inositol", "1g", icons="🧠 😌 🩸"),
             item("E.18", "Apigenin", "200 mg", icons="😴 😌"),
         ],
     },
@@ -360,7 +360,7 @@ PAGES = [
         "callout": "Swallow these pills first; then start the A.0.1 WPI + A.0.2 EAA drink. Empty cells are intentional.",
         "cells": [
             item("A.1", "UC-II® Type II Collagen", "40 mg", icons="🦴 💪 🔄", note="Standardized chicken cartilage • Total collagen 10 mg"),
-            item("A.2", "Urolithin A", "500 mg", icons="⏰ 💪"),
+            item("A.2", "Urolithin A", "500 mg", icons="⏰ 💪 🛡️"),
             item("A.3", "MSM (OptiMSM®)", "1.5g", icons="🦴 🔥 👨‍🦳 🔄"),
             item("A.4", "MSM (OptiMSM®)", "1.5g", icons="🦴 🔥 👨‍🦳 🔄"),
             empty("A.5"),
@@ -629,7 +629,7 @@ def add_page(document, page_data, page_index):
     compact_paragraph(p, before=3, after=0)
     p.alignment = WD_ALIGN_PARAGRAPH.LEFT
     add_hyperlink(p, "GymBeam Adjustable PillBox", PILLBOX_URL, color=accent)
-    run = p.add_run(" • Full doses and evidence notes: README.md")
+    run = p.add_run(" • Doses, icon legend and evidence: README.md")
     set_repeatable_font(run, 7.3, color=COLORS["muted"])
     for medal, label in (("🥇", "strongest"), ("🥈", "supportive"), ("🥉", "exploratory")):
         run = p.add_run(" • ")
