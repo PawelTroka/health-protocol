@@ -190,10 +190,12 @@ def practical_alternatives(model):
     best500 = min(oat500)
     return {
         "monthly_egg_clusters": {
+            "retired": True,
+            "accepted_for_activation": False,
             "streams": [stream(10, 14, 8)] + [stream(10, 30, best[2] + p) for p in (0, 10, 20)],
             "inventory_eggs": best[3],
-            "benefit": "Three new monthly fresh cores10days apart, retaining361. More evenly spaced new grocery cores than21/28/60, but dates drift across weekdays and free delivery remains unverified.",
-            "status": "Alternative to the21/28/60 additions, not additional to them."
+            "benefit": "Historical comparison: three monthly fresh cores10days apart plus361's former10/14day Egg stream. More evenly spaced cores than21/28/60, but dates drift across weekdays and free delivery remains unverified.",
+            "status": "Retired after361 was paused and its Eggs removed. The48 nominal Eggs/28days balance depends on that former10/14day stream; it does not describe active coverage. No replacement schedule is selected."
         },
         "oats_500_30_plus_60": {
             "streams": [stream(500, 30), stream(500, 60, best500[2])],
@@ -453,8 +455,7 @@ def markdown(result):
     lines += ["", "Stock dates assume the reported balance precedes that day's serving. Estimates are not observed depletion. Later deliveries are identified but not credited as usable food; reconcile their contents, condition and consumption before inferring a current shortage. Combined Nut mass does not establish complete same-food portions.", "",
               "| Current native candidate | Quantity model and readiness |", "| --- | --- |",
               f"| NutA800g + NutB1000g, each every90days | B40days after A; exact20g/day; aggregate peak{current_nuts['inventory_g']['peak_after_delivery_with_that_buffer']:g}g. {nut_status} |",
-              f"| Oats500g/30days +500g/60days | Exact25g/day; aggregate peak{practical['oats_500_30_plus_60']['inventory_g']['peak_after_delivery_with_that_buffer']:g}g. Qualifying shipments and first starts unverified. |",
-              f"| Existing Eggs10/14days + three10/30day cores | Exact48 nominal Eggs/28days; extra monthly cores10days apart; modeled peak{practical['monthly_egg_clusters']['inventory_eggs']['peak_after_delivery_with_that_buffer']:g}. Free courier and usable life unverified. |"]
+              f"| Oats500g/30days +500g/60days | Exact25g/day; aggregate peak{practical['oats_500_30_plus_60']['inventory_g']['peak_after_delivery_with_that_buffer']:g}g. Qualifying shipments and first starts unverified. |"]
     nut_quote = current_nuts["dated_checkout_evidence"]
     if nut_quote:
         lines += ["", f"Historical NutA/B first-checkout evidence ({nut_quote['observed_on']}): {nut_quote['A']['first_goods_pln']:.2f} / {nut_quote['B']['first_goods_pln']:.2f}zł goods, {nut_quote['first_home_courier_pln']:.2f}zł {nut_quote['first_home_courier']} home courier. These earlier first quotes alone do not establish discounted renewals."]
@@ -472,6 +473,7 @@ def markdown(result):
               f"| Active Colorful Vegetables |{coverage['colorful_vegetable_choices']['upper_choices_before_preparation']:g}/28 gross100g equivalents before preparation |",
               "", coverage["scope"]]
     lines += ["", "Historical arithmetic comparisons (not activation instructions):", "",
+              f"- Retired Eggs10/14days + three10/30day cores: modeled peak{practical['monthly_egg_clusters']['inventory_eggs']['peak_after_delivery_with_that_buffer']:g}. " + practical['monthly_egg_clusters']['status'],
               f"- Earlier Eggs10/14/21/28/60days: peak{p['eggs']['peak_after_delivery_with_that_buffer']:g}, synthetic buffer{p['eggs']['minimum_synthetic_opening_buffer']:g}. The buffer is not owned stock.",
               f"- Earlier Oats300g/21days +300g/28days: peak{p['oats']['peak_after_delivery_with_that_buffer']:g}g; dated price benchmark fails the cap. Relative phases21day:{p['phase_21_days']},60day:{p['phase_60_days']} against{p['anchor_date']} are not booked dates.",
               "- Retired mixed60-day PantryA/B: " + practical['two_pantry_groups_60_days']['tradeoff'] + " " + practical['two_pantry_groups_60_days']['shipping']]
