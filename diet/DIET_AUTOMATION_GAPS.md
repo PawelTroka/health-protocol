@@ -1,5 +1,96 @@
 # Remaining Diet automation routes
 
+19November: incoming searches found no new supplier or refund resolution. The18November refund handoff remains unchanged. Yōkiro's public recovery cart is empty; its historical checkout was not recovered or rebuilt. No route is ready for final payment. [Current review](DIET_PAYMENT_HANDOFF.md#19-november-no-new-reply-matcha-checkout-not-recovered).
+
+## 18 November: order257757 cancelled
+
+Bioshi confirms that all four foods in257757 were cancelled and will not ship. Today's order and shipment show **Anulowane**; the original99.25zł payment remains recorded, with99.25zł removed and a revised total of0zł. Count none of its Eggs, Cauliflower, Carrots or Raspberries as incoming or received food. This supersedes the earlier accepted-order protection below.
+
+The17November emails conflict on the refund method: the first promises the original payment method, while the later message requests bank-account details. The99.25zł refund and bank credit remain unverified; do not add the earlier unspecified Cauliflower refund to this amount. Profile399's saved foods retain their5November observation and are not proven cancelled. Keep Bioshi unchanged. [Refund action and evidence](DIET_PAYMENT_HANDOFF.md#18-november-order257757-cancelled-refund-action).
+
+## Historical16November incoming review
+
+16 November incoming searches found no new actionable supplier reply, order257757 update or payment failure. Retailer evidence retains its original dates: expanded257757 on14November, full profiles on5November and Yōkiro checkout on7November. See the [current handoff](DIET_PAYMENT_HANDOFF.md#16-november-incoming-review).
+
+## 6November evidence update
+
+The merchant now explicitly confirms Tomato removal from older255381; this does not remove Tomatoes from future357 or establish inspected stock. Paid257757 remains accepted with all four foods,99.25zł/free GLS and no tracking/revised ETA in today's expanded order. No new supplier quote or qualified activation is ready. Existing coverage and Yōkiro's unresolved recurring HOME route are unchanged. [Dated details](DIET_PAYMENT_HANDOFF.md#6november-review-old-tomato-removal-clarified-no-new-action).
+
+## 5November monitoring and reversible preparation
+
+The pantry parcel for **500156/258958** is carrier-confirmed delivered **2November10:02**, verified5November; InPost prints no timezone. Contents, condition, received weights/expiry and current usable balances remain uninspected. The merchant's older “W drodze” status does not negate that event. Paid257757 still shows accepted/all four foods/99.25zł/freeGLS, without tracking or a revised ETA; the earlier4November estimate has passed, but this alone does not prove actual non-delivery. Six active profile labels and paused361 remain unchanged.
+
+The existing Yōkiro cart and authorized contact fields persisted. **First InPost HOME selection is now saved and reload-verified at109.21zł total/free delivery.** Its separate recurring section still lists a locker at8.99zł/60days with151.20zł recurring goods. The route remains unqualified and unpaid. The old panel-close request is superseded; recurring HOME configuration/price is the current obstacle. Scoped incoming checks found no new supplier resolution or payment failure. No new subscription, message, financial commitment or inspected stock was created. [Current Matcha record](DIET_YOKIRO_ACTIVATION_02NOV.md).
+
+## Simple coverage map —2November2026
+
+**Current decision: prioritize genuinely automatic suppliers and keep Bioshi unchanged.** The user chose this after the current [Bioshi terms](https://bioshi.pl/pl/terms) were verified: each renewal requires the customer's checkout submission and payment. Six ACTIVE Bioshi profiles plus PAUSED361 remain saved, but an active profile does not establish future automatic delivery.
+
+**One external automatic checkout was prepared:** [Yōkiro Matcha4×30g/60days](DIET_YOKIRO_ACTIVATION_02NOV.md), last read7November with goods109.21zł first /151.20zł renewal, first HOME selected/free and a separate recurring locker. On19November the public recovery cart is empty and the checkout was not recovered or rebuilt. Its prices/shipping remain historical observations; no activation is verified. The user approved contact transfer and reported **0g Matcha on2November**. Recurring HOME configuration/fees, price-cap qualification, first arrival and final terms/payment remain unresolved; the old panel-close request is superseded.
+
+The full Diet inventory was rechecked, including61 live Bioshi product pages and every saved group. Browser access works; Bioshi contents are unchanged.50 catalogue products were available and11 unavailable for new orders. These are product counts, not a percentage of meals automated. **☑ below means a saved profile, not proved unattended fulfillment.**
+
+**The previous review missed usable candidates and carried old availability findings forward.** Klimeko Kefir, Japanese organic Matcha, organic King Oyster Mushrooms and a matching organic Sunflower alternative remain concrete food candidates. They are not instructions to create more manual-renewal Bioshi plans. Ordinary retailer brands are flexible when the meaningful food attributes match; cultures, species, lactose, fortification, cultivar, edible weight and usable life still need accurate labels.
+
+| Food group | Saved plan / actual automation | Corrected finding / next action |
+| --- | --- | --- |
+| Rolled Oats |☑ Saved P60,1.5kg/60days |Correct25g/day rate and first pantry order already paid. Current published Bioshi renewals are manual; future unattended supply is not established. Keep unchanged; no extra Oats purchase. |
+| Four-kind Nuts |⚙ Saved P60/P90 plus old370 |P60/P90 match20g/day;370 duplicates800g/90days. Keep Bioshi unchanged under the latest decision; design any one-time replacement/migration without another first order. Future automatic supply is not established. |
+| Quinoa, Beluga, Black Beans |☑ P90 |These three foods are configured. Measure cooking yield/remainders; complete Potato/Sweet Potato choices separately. |
+| Selected dried seasonings |☑ Partial P60 supply |Coriander, Cumin, Rosemary, Oregano and Thyme are saved. Other available seasonings are optional rotation choices, not all daily purchases. |
+| Green-legged Eggs |⚙399,10Eggs/30days |Far below approximately48M Eggs/28days. Correct selected product is available. Prepare additional small staggered cartons within genuine mixed shipments, using actual expiry/stock. |
+| organic Turkey tenderloins |○ Not subscribed |Exact organic outdoor-reared tenderloins are sold. The missing piece is a fixed weekly HOME standing order, suitable portions/life and automatic payment—not absence of the food. Producer follow-up sent. |
+| Skinless Salmon and Lunch seafood |○ Not subscribed |Exact ordinary products exist. Catch Club custom composition/cold-chain/price and unattended renewal remain unresolved; its follow-up is sent. No random mixed box or refreezing workaround. |
+| Phileos Oil |⚙1L/30days |Over twice fixed Phileos need. Correct future supply against actual reserve; keep separate Pamako demand and do not increase consumption. |
+| Mackerel / Sardines |⚙ Partial Oil/Fish group |Existing Mackerel label fits Atlantic species and125g meal; quantity is short. Sardine page contradicts126g/133g drained, and either is below170g meal. Resolve label and transfer quantities, not reject merely for brand. |
+| Vegetables and Leafy Greens |☑ Small part only |Carrots run; Tomatoes/Cauliflower are in existing plans. Spinach, Kohlrabi, Celeriac and roots are available candidates. Broccoli/Kale/Bok Choy/Red Pepper Bioshi alternatives were checked live and unavailable. Complete fresh category quantities, not just more profiles. |
+| Microgreens |○ Inquiry sent; not subscribed |The [Zielono standing-delivery inquiry](DIET_ZIELONO_STANDING_REQUEST_02NOV.md) was SENT2November20:01:45 Warsaw after explicit approval; outgoing recipient, subject and full body were verified, with message ID in the request record. Routine clarifications within the same request are authorized. It requests210g edible Watercress Microgreens/week and optional custom150g Maitake/28days, fixed composition and unattended payment. Consumer eligibility, exact packs/life and HOME fees remain unquoted; no order or activation. |
+| Whole Fruit |☑ Kiwi only; Oranges paused |Preserve existing Kiwi purchase. Oranges/Mango are available; Pomegranate alternative is unavailable. Fill edible portions and rotation without inferring current stock. |
+| Berries |☑ Raspberry group only |500g/30days is only a small part of28 daily choices. Blueberries are available; frozen Bilberries/Blackcurrants still need native supply. Spoiled Strawberries remain excluded. |
+| Kefir |▣ Available, not subscribed |**Klimeko104387400g is available**, organic/lactose-free/live cultures.4bottles/14days match8 servings/28days. It does not declare Robico's named L.rhamnosus; its panel differs. Treat it as an explicit alternative, not unavailable. |
+| Other Ferments |○ Not subscribed |Sauerkraut is available, with pack/price and opened-life conflicts. Vegan Mild Kimchi is available but retailer/manufacturer formulations conflict. Lactose-free Skyr still needs a qualified route. |
+| Matcha |▣ Historical checkout not recovered; route unqualified |Yōkiro4×30g/60days fits2g/day with sequential15day pack opening. Last checkout read7November:109.21zł first/free HOME,151.20zł renewal goods and separate locker8.99zł/60days.19November public recovery cart is empty; no checkout was recovered or rebuilt. Recurring HOME/fees and delivered-price cap remain unresolved. User reserve0g is dated2November. No activation. |
+| Seeds |▣ Available, not subscribed |Flax, Chia, Pumpkin and a matching organic Sunflower alternative are available. Configure shared14g/day demand and rotation with pack/remainder life; do not buy every alternative as an extra portion. |
+| Oat Bran |▣ Concrete alternative to evaluate |Available150g concentrate has a quantified10% Beta-Glucan manufacturer claim.2packs/30days fit10g/day, but nutrient panel changes. Ordinary Boswena Bran cannot inherit an undeclared6% claim. |
+| Soy Milk / alternative dairy Milk |○ Not subscribed |Broader Soy alternatives checked: matching unsweetened fortification remains unresolved. Available lactose-free1.5% Sobbeke1L lasts2–3days opened, which does not fit200ml/day over5days. |
+| Pamako |○ Not subscribed |Meaningful selected Oil identity retained. A real recurring international offer exists, but Poland delivery/landed price is unqualified. Do not assign its13.5g/day to Phileos. |
+
+**Bioshi's published change is now explicit:** §§4.7 and5.3 require the customer to submit and pay every renewal; without that action no order/payment arises. §5.1.1 states that old automatic orders/card collections ended23October2026. **The independently verified399 debit on29October remains real evidence; its conflict with the published cutoff is unresolved.** Do not infer future automatic supply from that past debit or erase it because the terms differ. The user chose automatic suppliers rather than new manual-renewal Bioshi setup. Existing Bioshi profiles/orders stay unchanged while that route is developed.
+
+**Fresh composition retained for a genuinely automatic route:**4×400g Klimeko +1×10Egg carton +6×125g Blueberries every14days would give the planned Kefir rate,20 extra nominal Eggs/28days and five150g Blueberry servings per shipment. The159.08zł advertised later-goods calculation is dated Bioshi arithmetic, **not a current external quote or permission to create its manual-renewal plan**. No basket or subscription was saved. Stock-adjusted first timing, actual remaining life, delivered comparisons, HOME fees and unattended renewal must qualify. Do not duplicate paid399 or pantry500156.
+
+**Existing order protected:** today's expanded257757 still shows PAID/Przyjęte,99.25zł/free delivery and all four ordered foods. Public Cauliflower/Raspberry unavailability does not establish that this accepted order lost its reservation.4November remains a schedule, not receipt or inspected stock.361 stays paused with unwanted Tempeh still present; no resumption or product edit occurred.
+
+Current action records: [Yōkiro live preparation](DIET_YOKIRO_ACTIVATION_02NOV.md), [Zielono SENT inquiry](DIET_ZIELONO_STANDING_REQUEST_02NOV.md), [current handoff](DIET_PAYMENT_HANDOFF.md). Full audit: [all49 fresh-food choices](DIET_REAUDIT_FRESH_02NOV.md), [35 pantry/foundation entries](DIET_REAUDIT_PANTRY_02NOV.md), [all8 animal-protein groups](DIET_REAUDIT_PROTEINS_02NOV.md), [61 live product observations](DIET_LIVE_BIOSHI_AUDIT_02NOV.json), [three verified SENT follow-ups](DIET_SUPPLIER_FOLLOWUPS_02NOV.md). The inventory counts include alternatives and cross-category overlaps; they are not additional compulsory orders. Supplements appearing alongside meals and filtered Water remain identified separately, not silently counted as automated groceries.
+
+## Earlier dated snapshots — source dates retained
+
+The live reaudit above supersedes older stock, browser-access and candidate-rejection wording below. Historical quotes and actual payments remain dated evidence; no old forecast is a new observation.
+
+## Current routes —28October2026
+
+The [complete shipment plan](DIET_COMPLETE_SHIPMENT_PLAN.md) and [handoff](DIET_PAYMENT_HANDOFF.md) supersede the historical September/6October targets below. Tempeh and Tofu are excluded. Turkey demand is3.9kg raw/28days, skinless Salmon900g; the full Dinner allocation has no unassigned slots. Retain all four Mushroom kinds and both357 species. There are four active profiles plus paused361 in the latest27October account evidence; no account was inspected in this sourcing pass. Bioshi's email received28October01:13:54 Warsaw confirms the matching14-SKU/18-pack pantry order500156 paid344.52zł with free InPost home courier, preparing. Future profiles/370 transfer and receipt remain unverified; do not recreate or repay it.
+
+Paid home courier is authorized: each actual discounted shipment should contain approximately100zł or more genuinely needed goods, with compulsory logistics≤10% of its goods and the separate25% per-product delivered premium cap. No filler, lockers, routine assistant reorders or unapproved food substitutions. Ordinary availability, a saved list and a subscription for a different product remain distinct from exact native coverage.
+
+| Priority route | New qualification work | Concrete next dependency |
+| --- | --- | --- |
+| Organic Turkey tenderloins | [Producer and retail review](DIET_TURKEY_ROUTE_RESEARCH_28OCT.md): exact Polskie Eko Zagrody cut and manufacturer outdoor-rearing claim confirmed. Alternating900g/1050g weekly preserves26×150g/28days. | [Approved inquiry SENT28October11:49:01 Warsaw](DIET_PROTEIN_STANDING_DELIVERY_REQUESTS_28OCT.md), outgoing copy verified. Await native Gdańsk standing delivery, exact packs, guaranteed remaining life, first/renewal all-in prices and automatic-payment confirmation. |
+| Skinless Norwegian Salmon | [Catch Club / Perkoz review](DIET_SALMON_ROUTE_RESEARCH_28OCT.md): real weekly/fortnightly subscriptions exist, Catch Club standard packages advertise delivery included. | [Approved inquiry SENT28October11:49:02 Warsaw](DIET_PROTEIN_STANDING_DELIVERY_REQUESTS_28OCT.md), outgoing copy verified. Await exact skinless900g/28days and approved seafood companions, no assorted filler, usable-life-compatible schedule and priced unattended renewal. |
+| Alpro/Sante and retained Ferments | [Exact-product refresh](DIET_STAPLE_ROUTE_RESEARCH_28OCT.md): actual identities, current public ordinary offers and opened-life checks. Alpro1L fits five200ml servings; the optional1L Mlekovita48hour instruction does not. | Native exact-product route/charging and first/renewal courier quote. Alpro12L+Sante600g per60days is124.65zł at Frisco's public goods prices, allowing≤12.46zł logistics, not a configured subscription or co-shipping promise. |
+
+Both protein inquiries were sent from pawel.troka@outlook.com after explicit user approval, and their outgoing copies are verified. Await replies; do not resend or ask for send approval again. They request information/itemized quotes only and authorize no orders, payments, contracts, substitutions or activation. Work continues independently while awaiting the separate Bioshi reply; no complete-automation date or new protein subscription is established.
+
+### Other fresh-grocery lead checks on28October
+
+[Toczygroszek's indexed subscription page](https://www.toczygroszek.pl/abonament) advertises a custom weekly basket and Wednesday home delivery in Gdańsk, with15zł delivery and a5zł refundable first crate deposit. This would require≥150zł genuinely needed goods for the recurring10% fee test; track the deposit separately. However, direct page retrieval repeatedly timed out, indexed terms describe order confirmation and cash/transfer, and indexed vegetable rows include unavailable foods and uncertified organic descriptions. Current operation, exact certified foods, no-confirmation renewal and automatic payment are unverified. This is a local standing-order inquiry lead, not an activation-ready account.
+
+The old Wojna Warzyw site now redirects to [Lokalny Rolnik](https://lokalnyrolnik.pl/); its older automatic-charge subscription text cannot be assigned to the present marketplace. [ZPOLABOX](https://www.zpolabox.pl/) advertises native recurring boxes but the inspected public page has no available boxes/products. Neither closes the exact produce/microgreen gap. Generic meal kits, office fruit boxes and personal-shopping tasks do not implement the user's selected retail subscription model.
+
+## Historical sourcing evidence — September and6October
+
+The remaining dated sections preserve earlier research and decisions. Their free-courier-only rule, Tempeh rotation, three-profile count and Shiitake-removal target are superseded by the current section above; do not execute them.
+
 **6October operational correction:** the user confirms247410 arrived with most Strawberries spoiled again and the original Eggs dated17October,11calendar days after arrival. The [quality claim and approved follow-up](DIET_BIOSHI_QUALITY_CLAIM.md) were sent6October, requesting58.56zł for the two spoiled Strawberry packs; no refund is confirmed. Repeated delivery of unusable fresh food prevents that route from being counted as reliable coverage, even when automatic payment and free courier work.
 
 **Three subscriptions are active:357,370 and399.361 is paused**, with a saved28-day template of Oranges1kg, Butternut1kg and Tempeh200g×3, quoted52.06zł/freeGLS. Strawberries and original Egg45382 are removed; no next shipment is booked while paused and no green-legged carton was added. This saves the user's half-rate correction for those three foods without treating them as active supply.357 still has400g Mushrooms/28days: the requested reduction to200g combined, retaining Oyster and removing Shiitake while preserving Kiwi/Tomatoes, remains unapplied because the product editor is unavailable.

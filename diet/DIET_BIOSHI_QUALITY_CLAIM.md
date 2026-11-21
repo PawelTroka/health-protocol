@@ -1,8 +1,12 @@
 # Bioshi — order247410 quality claim
 
+**9October review — merchant refund response received8October:** Bioshi's reply received19:36:36 Warsaw reports completed refunds for the products from the cited spoiled-Strawberry orders243898/247410 and says the money should appear in the bank account within two days. The reply does not restate the amount:58.56zł remains the requested sum, while the exact refunded amount and bank receipt are unverified. Correcting-invoice notices followed at20:01:54 for243898 and20:01:56 for247410; their email text contains no amounts, and the PDFs have not been checked. These are message-receipt times, not independently established refund-event times. The separate249850 refunds do not settle or offset this claim. No further message sent.
+
+**8October morning monitoring:** no incoming resolution or refund for the58.56zł Strawberry claim was found. The two new249850 replies concern the separate Egg refund and a dispatch forecast; they do not settle either Strawberry claim. No further message sent.
+
 **7October monitoring:** no substantive response or refund for the58.56zł Strawberry claim is verified. Today's21.41zł merchant refund explicitly concerns separate order249850; do not offset it against either Strawberry claim. See the [handoff](DIET_PAYMENT_HANDOFF.md) for that order's new hold. No further message sent.
 
-**Sent6October2026 after explicit user approval**, from pawel.troka@outlook.com to bok@bioshi.pl. Outlook sent copy verified at15:32:08 Warsaw. The user reports repeated spoiled Strawberries and Eggs dated17October in the parcel received6October. Live order247410 confirms27.74zł for Strawberries450g and21.23zł for original Egg45382. No photographs were attached. Requested refund is not an approved or received refund.
+**Sent6October2026 after explicit user approval**, from pawel.troka@outlook.com to bok@bioshi.pl. Outlook sent copy verified at15:32:08 Warsaw. The user reports repeated spoiled Strawberries and Eggs dated17October in the parcel received6October. Live order247410 confirms27.74zł for Strawberries450g and21.23zł for original Egg45382. No photographs were attached. At the time of sending, no refund had been approved or received.
 
 ## Sent message — preserve this record
 
@@ -31,7 +35,7 @@ Paweł Troka
 - User approved halving Squash, Tempeh, Mushrooms and Oranges on6October. Meal portions remain unchanged; do not infer replacement meals or measured current stock.
 - The earlier Egg replacement request and the complaint above are sent. Do not resend either or silently reactivate361.
 - After sending, the user reiterated that the previous Strawberries were also spoiled. Live first order243898 confirms one450g pack charged30.82zł; carrier delivery25September was already verified. The earlier order page now mirrors the edited28day subscription, which does not rewrite its original order cadence or bill.
-- Both Strawberry charges sum to58.56zł. The original27.74zł complaint and additional30.82zł follow-up are now sent after separate explicit approvals. Outlook follow-up copy verified6October15:34:46 Warsaw. No refund has been confirmed.
+- Both Strawberry charges sum to58.56zł. The original27.74zł complaint and additional30.82zł follow-up are now sent after separate explicit approvals. Outlook follow-up copy verified6October15:34:46 Warsaw. No refund had been confirmed at the time of sending; the8October merchant response is recorded above.
 
 ## Sent follow-up —6October15:34:46 Warsaw
 

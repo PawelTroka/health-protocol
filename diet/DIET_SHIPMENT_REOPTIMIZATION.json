@@ -1,0 +1,1691 @@
+{
+  "as_of": "2026-10-27",
+  "status": "offline_reoptimization_not_activated",
+  "price_scope": "Current public Bioshi ordinary/advertised later15% prices, unit-rounded, from27October manifest/source ledger. Not locked prices or destination checkout.",
+  "requirements": {
+    "target_goods_per_actual_shipment_pln": 100,
+    "maximum_logistics_fraction": 0.1,
+    "logistics_includes_compulsory_packing": true,
+    "maximum_comparable_product_delivered_premium_fraction": 0.25,
+    "tempeh_and_tofu_allowed": false
+  },
+  "pantry": {
+    "search_scope": "Nine cadence assignments for Pistachios and Cumin among30/60/90days, holding every180-day pack quantity fixed. Strict100PLN goods screen; actual fees, per-product premium, native changes and batch usability still require verification.",
+    "candidate_count": 9,
+    "accepted_count": 2,
+    "candidates": [
+      {
+        "pistachio_days": 30,
+        "cumin_days": 30,
+        "all_shipments_at_least_100_goods": false,
+        "shipments_per_180_days": 11,
+        "flexible_food_mean_delivery_cycle_days": 30.0,
+        "groups": [
+          {
+            "days": 30,
+            "packs": {
+              "53019": 1,
+              "46593": 1
+            },
+            "pack_count": 2,
+            "ordinary_goods_pln": 51.98,
+            "advertised_later_goods_pln": 44.19,
+            "net_food_mass_g": 180,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 44.19,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 4.41
+              },
+              {
+                "goods_pln": 44.19,
+                "logistics_pln": 9.49,
+                "logistics_percent": 21.4754,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 4.41
+              },
+              {
+                "goods_pln": 44.19,
+                "logistics_pln": 12.99,
+                "logistics_percent": 29.3958,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 4.41
+              },
+              {
+                "goods_pln": 44.19,
+                "logistics_pln": 14.99,
+                "logistics_percent": 33.9217,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 4.41
+              }
+            ],
+            "maximum_logistics_pln": 4.41
+          },
+          {
+            "days": 60,
+            "packs": {
+              "46956": 1,
+              "52572": 1,
+              "46308": 1,
+              "46323": 1,
+              "46317": 1,
+              "46325": 1
+            },
+            "pack_count": 6,
+            "ordinary_goods_pln": 52.34,
+            "advertised_later_goods_pln": 44.49,
+            "net_food_mass_g": 1600,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 9.49,
+                "logistics_percent": 21.3306,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 12.99,
+                "logistics_percent": 29.1976,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 14.99,
+                "logistics_percent": 33.693,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 4.44
+              }
+            ],
+            "maximum_logistics_pln": 4.44
+          },
+          {
+            "days": 90,
+            "packs": {
+              "44492": 2,
+              "45420": 1,
+              "44472": 2,
+              "44499": 1,
+              "44959": 1,
+              "49356": 1
+            },
+            "pack_count": 8,
+            "ordinary_goods_pln": 188.22,
+            "advertised_later_goods_pln": 159.99,
+            "net_food_mass_g": 2750,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 9.49,
+                "logistics_percent": 5.9316,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 12.99,
+                "logistics_percent": 8.1193,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 14.99,
+                "logistics_percent": 9.3693,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 15.99
+              }
+            ],
+            "maximum_logistics_pln": 15.99
+          }
+        ],
+        "goods_per_180_days_pln": 718.59
+      },
+      {
+        "pistachio_days": 30,
+        "cumin_days": 60,
+        "all_shipments_at_least_100_goods": false,
+        "shipments_per_180_days": 11,
+        "flexible_food_mean_delivery_cycle_days": 45.0,
+        "groups": [
+          {
+            "days": 30,
+            "packs": {
+              "53019": 1
+            },
+            "pack_count": 1,
+            "ordinary_goods_pln": 43.69,
+            "advertised_later_goods_pln": 37.14,
+            "net_food_mass_g": 150,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 37.14,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 3.71
+              },
+              {
+                "goods_pln": 37.14,
+                "logistics_pln": 9.49,
+                "logistics_percent": 25.552,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 3.71
+              },
+              {
+                "goods_pln": 37.14,
+                "logistics_pln": 12.99,
+                "logistics_percent": 34.9758,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 3.71
+              },
+              {
+                "goods_pln": 37.14,
+                "logistics_pln": 14.99,
+                "logistics_percent": 40.3608,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 3.71
+              }
+            ],
+            "maximum_logistics_pln": 3.71
+          },
+          {
+            "days": 60,
+            "packs": {
+              "46956": 1,
+              "52572": 1,
+              "46308": 1,
+              "46323": 1,
+              "46317": 1,
+              "46325": 1,
+              "46593": 2
+            },
+            "pack_count": 8,
+            "ordinary_goods_pln": 68.92,
+            "advertised_later_goods_pln": 58.59,
+            "net_food_mass_g": 1660,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 58.59,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 5.85
+              },
+              {
+                "goods_pln": 58.59,
+                "logistics_pln": 9.49,
+                "logistics_percent": 16.1973,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 5.85
+              },
+              {
+                "goods_pln": 58.59,
+                "logistics_pln": 12.99,
+                "logistics_percent": 22.171,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 5.85
+              },
+              {
+                "goods_pln": 58.59,
+                "logistics_pln": 14.99,
+                "logistics_percent": 25.5846,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 5.85
+              }
+            ],
+            "maximum_logistics_pln": 5.85
+          },
+          {
+            "days": 90,
+            "packs": {
+              "44492": 2,
+              "45420": 1,
+              "44472": 2,
+              "44499": 1,
+              "44959": 1,
+              "49356": 1
+            },
+            "pack_count": 8,
+            "ordinary_goods_pln": 188.22,
+            "advertised_later_goods_pln": 159.99,
+            "net_food_mass_g": 2750,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 9.49,
+                "logistics_percent": 5.9316,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 12.99,
+                "logistics_percent": 8.1193,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 14.99,
+                "logistics_percent": 9.3693,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 15.99
+              }
+            ],
+            "maximum_logistics_pln": 15.99
+          }
+        ],
+        "goods_per_180_days_pln": 718.59
+      },
+      {
+        "pistachio_days": 30,
+        "cumin_days": 90,
+        "all_shipments_at_least_100_goods": false,
+        "shipments_per_180_days": 11,
+        "flexible_food_mean_delivery_cycle_days": 60.0,
+        "groups": [
+          {
+            "days": 30,
+            "packs": {
+              "53019": 1
+            },
+            "pack_count": 1,
+            "ordinary_goods_pln": 43.69,
+            "advertised_later_goods_pln": 37.14,
+            "net_food_mass_g": 150,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 37.14,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 3.71
+              },
+              {
+                "goods_pln": 37.14,
+                "logistics_pln": 9.49,
+                "logistics_percent": 25.552,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 3.71
+              },
+              {
+                "goods_pln": 37.14,
+                "logistics_pln": 12.99,
+                "logistics_percent": 34.9758,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 3.71
+              },
+              {
+                "goods_pln": 37.14,
+                "logistics_pln": 14.99,
+                "logistics_percent": 40.3608,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 3.71
+              }
+            ],
+            "maximum_logistics_pln": 3.71
+          },
+          {
+            "days": 60,
+            "packs": {
+              "46956": 1,
+              "52572": 1,
+              "46308": 1,
+              "46323": 1,
+              "46317": 1,
+              "46325": 1
+            },
+            "pack_count": 6,
+            "ordinary_goods_pln": 52.34,
+            "advertised_later_goods_pln": 44.49,
+            "net_food_mass_g": 1600,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 9.49,
+                "logistics_percent": 21.3306,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 12.99,
+                "logistics_percent": 29.1976,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 14.99,
+                "logistics_percent": 33.693,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 4.44
+              }
+            ],
+            "maximum_logistics_pln": 4.44
+          },
+          {
+            "days": 90,
+            "packs": {
+              "44492": 2,
+              "45420": 1,
+              "44472": 2,
+              "44499": 1,
+              "44959": 1,
+              "49356": 1,
+              "46593": 3
+            },
+            "pack_count": 11,
+            "ordinary_goods_pln": 213.09,
+            "advertised_later_goods_pln": 181.14,
+            "net_food_mass_g": 2840,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 181.14,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 18.11
+              },
+              {
+                "goods_pln": 181.14,
+                "logistics_pln": 9.49,
+                "logistics_percent": 5.239,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 18.11
+              },
+              {
+                "goods_pln": 181.14,
+                "logistics_pln": 12.99,
+                "logistics_percent": 7.1712,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 18.11
+              },
+              {
+                "goods_pln": 181.14,
+                "logistics_pln": 14.99,
+                "logistics_percent": 8.2754,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 18.11
+              }
+            ],
+            "maximum_logistics_pln": 18.11
+          }
+        ],
+        "goods_per_180_days_pln": 718.59
+      },
+      {
+        "pistachio_days": 60,
+        "cumin_days": 30,
+        "all_shipments_at_least_100_goods": false,
+        "shipments_per_180_days": 11,
+        "flexible_food_mean_delivery_cycle_days": 45.0,
+        "groups": [
+          {
+            "days": 30,
+            "packs": {
+              "46593": 1
+            },
+            "pack_count": 1,
+            "ordinary_goods_pln": 8.29,
+            "advertised_later_goods_pln": 7.05,
+            "net_food_mass_g": 30,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 7.05,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 0.7
+              },
+              {
+                "goods_pln": 7.05,
+                "logistics_pln": 9.49,
+                "logistics_percent": 134.6099,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 0.7
+              },
+              {
+                "goods_pln": 7.05,
+                "logistics_pln": 12.99,
+                "logistics_percent": 184.2553,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 0.7
+              },
+              {
+                "goods_pln": 7.05,
+                "logistics_pln": 14.99,
+                "logistics_percent": 212.6241,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 0.7
+              }
+            ],
+            "maximum_logistics_pln": 0.7
+          },
+          {
+            "days": 60,
+            "packs": {
+              "46956": 1,
+              "52572": 1,
+              "46308": 1,
+              "46323": 1,
+              "46317": 1,
+              "46325": 1,
+              "53019": 2
+            },
+            "pack_count": 8,
+            "ordinary_goods_pln": 139.72,
+            "advertised_later_goods_pln": 118.77,
+            "net_food_mass_g": 1900,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 118.77,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 11.87
+              },
+              {
+                "goods_pln": 118.77,
+                "logistics_pln": 9.49,
+                "logistics_percent": 7.9902,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 11.87
+              },
+              {
+                "goods_pln": 118.77,
+                "logistics_pln": 12.99,
+                "logistics_percent": 10.9371,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 11.87
+              },
+              {
+                "goods_pln": 118.77,
+                "logistics_pln": 14.99,
+                "logistics_percent": 12.621,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 11.87
+              }
+            ],
+            "maximum_logistics_pln": 11.87
+          },
+          {
+            "days": 90,
+            "packs": {
+              "44492": 2,
+              "45420": 1,
+              "44472": 2,
+              "44499": 1,
+              "44959": 1,
+              "49356": 1
+            },
+            "pack_count": 8,
+            "ordinary_goods_pln": 188.22,
+            "advertised_later_goods_pln": 159.99,
+            "net_food_mass_g": 2750,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 9.49,
+                "logistics_percent": 5.9316,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 12.99,
+                "logistics_percent": 8.1193,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 14.99,
+                "logistics_percent": 9.3693,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 15.99
+              }
+            ],
+            "maximum_logistics_pln": 15.99
+          }
+        ],
+        "goods_per_180_days_pln": 718.59
+      },
+      {
+        "pistachio_days": 60,
+        "cumin_days": 60,
+        "all_shipments_at_least_100_goods": true,
+        "shipments_per_180_days": 5,
+        "flexible_food_mean_delivery_cycle_days": 60.0,
+        "groups": [
+          {
+            "days": 60,
+            "packs": {
+              "46956": 1,
+              "52572": 1,
+              "46308": 1,
+              "46323": 1,
+              "46317": 1,
+              "46325": 1,
+              "53019": 2,
+              "46593": 2
+            },
+            "pack_count": 10,
+            "ordinary_goods_pln": 156.3,
+            "advertised_later_goods_pln": 132.87,
+            "net_food_mass_g": 1960,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 132.87,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 13.28
+              },
+              {
+                "goods_pln": 132.87,
+                "logistics_pln": 9.49,
+                "logistics_percent": 7.1423,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 13.28
+              },
+              {
+                "goods_pln": 132.87,
+                "logistics_pln": 12.99,
+                "logistics_percent": 9.7765,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 13.28
+              },
+              {
+                "goods_pln": 132.87,
+                "logistics_pln": 14.99,
+                "logistics_percent": 11.2817,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 13.28
+              }
+            ],
+            "maximum_logistics_pln": 13.28
+          },
+          {
+            "days": 90,
+            "packs": {
+              "44492": 2,
+              "45420": 1,
+              "44472": 2,
+              "44499": 1,
+              "44959": 1,
+              "49356": 1
+            },
+            "pack_count": 8,
+            "ordinary_goods_pln": 188.22,
+            "advertised_later_goods_pln": 159.99,
+            "net_food_mass_g": 2750,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 9.49,
+                "logistics_percent": 5.9316,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 12.99,
+                "logistics_percent": 8.1193,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 15.99
+              },
+              {
+                "goods_pln": 159.99,
+                "logistics_pln": 14.99,
+                "logistics_percent": 9.3693,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 15.99
+              }
+            ],
+            "maximum_logistics_pln": 15.99
+          }
+        ],
+        "goods_per_180_days_pln": 718.59
+      },
+      {
+        "pistachio_days": 60,
+        "cumin_days": 90,
+        "all_shipments_at_least_100_goods": true,
+        "shipments_per_180_days": 5,
+        "flexible_food_mean_delivery_cycle_days": 75.0,
+        "groups": [
+          {
+            "days": 60,
+            "packs": {
+              "46956": 1,
+              "52572": 1,
+              "46308": 1,
+              "46323": 1,
+              "46317": 1,
+              "46325": 1,
+              "53019": 2
+            },
+            "pack_count": 8,
+            "ordinary_goods_pln": 139.72,
+            "advertised_later_goods_pln": 118.77,
+            "net_food_mass_g": 1900,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 118.77,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 11.87
+              },
+              {
+                "goods_pln": 118.77,
+                "logistics_pln": 9.49,
+                "logistics_percent": 7.9902,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 11.87
+              },
+              {
+                "goods_pln": 118.77,
+                "logistics_pln": 12.99,
+                "logistics_percent": 10.9371,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 11.87
+              },
+              {
+                "goods_pln": 118.77,
+                "logistics_pln": 14.99,
+                "logistics_percent": 12.621,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 11.87
+              }
+            ],
+            "maximum_logistics_pln": 11.87
+          },
+          {
+            "days": 90,
+            "packs": {
+              "44492": 2,
+              "45420": 1,
+              "44472": 2,
+              "44499": 1,
+              "44959": 1,
+              "49356": 1,
+              "46593": 3
+            },
+            "pack_count": 11,
+            "ordinary_goods_pln": 213.09,
+            "advertised_later_goods_pln": 181.14,
+            "net_food_mass_g": 2840,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 181.14,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 18.11
+              },
+              {
+                "goods_pln": 181.14,
+                "logistics_pln": 9.49,
+                "logistics_percent": 5.239,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 18.11
+              },
+              {
+                "goods_pln": 181.14,
+                "logistics_pln": 12.99,
+                "logistics_percent": 7.1712,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 18.11
+              },
+              {
+                "goods_pln": 181.14,
+                "logistics_pln": 14.99,
+                "logistics_percent": 8.2754,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 18.11
+              }
+            ],
+            "maximum_logistics_pln": 18.11
+          }
+        ],
+        "goods_per_180_days_pln": 718.59
+      },
+      {
+        "pistachio_days": 90,
+        "cumin_days": 30,
+        "all_shipments_at_least_100_goods": false,
+        "shipments_per_180_days": 11,
+        "flexible_food_mean_delivery_cycle_days": 60.0,
+        "groups": [
+          {
+            "days": 30,
+            "packs": {
+              "46593": 1
+            },
+            "pack_count": 1,
+            "ordinary_goods_pln": 8.29,
+            "advertised_later_goods_pln": 7.05,
+            "net_food_mass_g": 30,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 7.05,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 0.7
+              },
+              {
+                "goods_pln": 7.05,
+                "logistics_pln": 9.49,
+                "logistics_percent": 134.6099,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 0.7
+              },
+              {
+                "goods_pln": 7.05,
+                "logistics_pln": 12.99,
+                "logistics_percent": 184.2553,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 0.7
+              },
+              {
+                "goods_pln": 7.05,
+                "logistics_pln": 14.99,
+                "logistics_percent": 212.6241,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 0.7
+              }
+            ],
+            "maximum_logistics_pln": 0.7
+          },
+          {
+            "days": 60,
+            "packs": {
+              "46956": 1,
+              "52572": 1,
+              "46308": 1,
+              "46323": 1,
+              "46317": 1,
+              "46325": 1
+            },
+            "pack_count": 6,
+            "ordinary_goods_pln": 52.34,
+            "advertised_later_goods_pln": 44.49,
+            "net_food_mass_g": 1600,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 9.49,
+                "logistics_percent": 21.3306,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 12.99,
+                "logistics_percent": 29.1976,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 14.99,
+                "logistics_percent": 33.693,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 4.44
+              }
+            ],
+            "maximum_logistics_pln": 4.44
+          },
+          {
+            "days": 90,
+            "packs": {
+              "44492": 2,
+              "45420": 1,
+              "44472": 2,
+              "44499": 1,
+              "44959": 1,
+              "49356": 1,
+              "53019": 3
+            },
+            "pack_count": 11,
+            "ordinary_goods_pln": 319.29,
+            "advertised_later_goods_pln": 271.41,
+            "net_food_mass_g": 3200,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 271.41,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 27.14
+              },
+              {
+                "goods_pln": 271.41,
+                "logistics_pln": 9.49,
+                "logistics_percent": 3.4966,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 27.14
+              },
+              {
+                "goods_pln": 271.41,
+                "logistics_pln": 12.99,
+                "logistics_percent": 4.7861,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 27.14
+              },
+              {
+                "goods_pln": 271.41,
+                "logistics_pln": 14.99,
+                "logistics_percent": 5.523,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 27.14
+              }
+            ],
+            "maximum_logistics_pln": 27.14
+          }
+        ],
+        "goods_per_180_days_pln": 718.59
+      },
+      {
+        "pistachio_days": 90,
+        "cumin_days": 60,
+        "all_shipments_at_least_100_goods": false,
+        "shipments_per_180_days": 5,
+        "flexible_food_mean_delivery_cycle_days": 75.0,
+        "groups": [
+          {
+            "days": 60,
+            "packs": {
+              "46956": 1,
+              "52572": 1,
+              "46308": 1,
+              "46323": 1,
+              "46317": 1,
+              "46325": 1,
+              "46593": 2
+            },
+            "pack_count": 8,
+            "ordinary_goods_pln": 68.92,
+            "advertised_later_goods_pln": 58.59,
+            "net_food_mass_g": 1660,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 58.59,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 5.85
+              },
+              {
+                "goods_pln": 58.59,
+                "logistics_pln": 9.49,
+                "logistics_percent": 16.1973,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 5.85
+              },
+              {
+                "goods_pln": 58.59,
+                "logistics_pln": 12.99,
+                "logistics_percent": 22.171,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 5.85
+              },
+              {
+                "goods_pln": 58.59,
+                "logistics_pln": 14.99,
+                "logistics_percent": 25.5846,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 5.85
+              }
+            ],
+            "maximum_logistics_pln": 5.85
+          },
+          {
+            "days": 90,
+            "packs": {
+              "44492": 2,
+              "45420": 1,
+              "44472": 2,
+              "44499": 1,
+              "44959": 1,
+              "49356": 1,
+              "53019": 3
+            },
+            "pack_count": 11,
+            "ordinary_goods_pln": 319.29,
+            "advertised_later_goods_pln": 271.41,
+            "net_food_mass_g": 3200,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 271.41,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 27.14
+              },
+              {
+                "goods_pln": 271.41,
+                "logistics_pln": 9.49,
+                "logistics_percent": 3.4966,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 27.14
+              },
+              {
+                "goods_pln": 271.41,
+                "logistics_pln": 12.99,
+                "logistics_percent": 4.7861,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 27.14
+              },
+              {
+                "goods_pln": 271.41,
+                "logistics_pln": 14.99,
+                "logistics_percent": 5.523,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 27.14
+              }
+            ],
+            "maximum_logistics_pln": 27.14
+          }
+        ],
+        "goods_per_180_days_pln": 718.59
+      },
+      {
+        "pistachio_days": 90,
+        "cumin_days": 90,
+        "all_shipments_at_least_100_goods": false,
+        "shipments_per_180_days": 5,
+        "flexible_food_mean_delivery_cycle_days": 90.0,
+        "groups": [
+          {
+            "days": 60,
+            "packs": {
+              "46956": 1,
+              "52572": 1,
+              "46308": 1,
+              "46323": 1,
+              "46317": 1,
+              "46325": 1
+            },
+            "pack_count": 6,
+            "ordinary_goods_pln": 52.34,
+            "advertised_later_goods_pln": 44.49,
+            "net_food_mass_g": 1600,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 9.49,
+                "logistics_percent": 21.3306,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 12.99,
+                "logistics_percent": 29.1976,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 4.44
+              },
+              {
+                "goods_pln": 44.49,
+                "logistics_pln": 14.99,
+                "logistics_percent": 33.693,
+                "at_least_100_goods": false,
+                "logistics_at_most_10_percent": false,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 4.44
+              }
+            ],
+            "maximum_logistics_pln": 4.44
+          },
+          {
+            "days": 90,
+            "packs": {
+              "44492": 2,
+              "45420": 1,
+              "44472": 2,
+              "44499": 1,
+              "44959": 1,
+              "49356": 1,
+              "53019": 3,
+              "46593": 3
+            },
+            "pack_count": 14,
+            "ordinary_goods_pln": 344.16,
+            "advertised_later_goods_pln": 292.56,
+            "net_food_mass_g": 3290,
+            "shipping_scenarios": [
+              {
+                "goods_pln": 292.56,
+                "logistics_pln": 0.0,
+                "logistics_percent": 0.0,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 0.0,
+                "maximum_logistics_pln": 29.25
+              },
+              {
+                "goods_pln": 292.56,
+                "logistics_pln": 9.49,
+                "logistics_percent": 3.2438,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 94.9,
+                "maximum_logistics_pln": 29.25
+              },
+              {
+                "goods_pln": 292.56,
+                "logistics_pln": 12.99,
+                "logistics_percent": 4.4401,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 129.9,
+                "maximum_logistics_pln": 29.25
+              },
+              {
+                "goods_pln": 292.56,
+                "logistics_pln": 14.99,
+                "logistics_percent": 5.1237,
+                "at_least_100_goods": true,
+                "logistics_at_most_10_percent": true,
+                "minimum_goods_for_ratio_pln": 149.9,
+                "maximum_logistics_pln": 29.25
+              }
+            ],
+            "maximum_logistics_pln": 29.25
+          }
+        ],
+        "goods_per_180_days_pln": 718.59
+      }
+    ],
+    "selected": {
+      "pistachio_days": 60,
+      "cumin_days": 60,
+      "all_shipments_at_least_100_goods": true,
+      "shipments_per_180_days": 5,
+      "flexible_food_mean_delivery_cycle_days": 60.0,
+      "groups": [
+        {
+          "days": 60,
+          "packs": {
+            "46956": 1,
+            "52572": 1,
+            "46308": 1,
+            "46323": 1,
+            "46317": 1,
+            "46325": 1,
+            "53019": 2,
+            "46593": 2
+          },
+          "pack_count": 10,
+          "ordinary_goods_pln": 156.3,
+          "advertised_later_goods_pln": 132.87,
+          "net_food_mass_g": 1960,
+          "shipping_scenarios": [
+            {
+              "goods_pln": 132.87,
+              "logistics_pln": 0.0,
+              "logistics_percent": 0.0,
+              "at_least_100_goods": true,
+              "logistics_at_most_10_percent": true,
+              "minimum_goods_for_ratio_pln": 0.0,
+              "maximum_logistics_pln": 13.28
+            },
+            {
+              "goods_pln": 132.87,
+              "logistics_pln": 9.49,
+              "logistics_percent": 7.1423,
+              "at_least_100_goods": true,
+              "logistics_at_most_10_percent": true,
+              "minimum_goods_for_ratio_pln": 94.9,
+              "maximum_logistics_pln": 13.28
+            },
+            {
+              "goods_pln": 132.87,
+              "logistics_pln": 12.99,
+              "logistics_percent": 9.7765,
+              "at_least_100_goods": true,
+              "logistics_at_most_10_percent": true,
+              "minimum_goods_for_ratio_pln": 129.9,
+              "maximum_logistics_pln": 13.28
+            },
+            {
+              "goods_pln": 132.87,
+              "logistics_pln": 14.99,
+              "logistics_percent": 11.2817,
+              "at_least_100_goods": true,
+              "logistics_at_most_10_percent": false,
+              "minimum_goods_for_ratio_pln": 149.9,
+              "maximum_logistics_pln": 13.28
+            }
+          ],
+          "maximum_logistics_pln": 13.28
+        },
+        {
+          "days": 90,
+          "packs": {
+            "44492": 2,
+            "45420": 1,
+            "44472": 2,
+            "44499": 1,
+            "44959": 1,
+            "49356": 1
+          },
+          "pack_count": 8,
+          "ordinary_goods_pln": 188.22,
+          "advertised_later_goods_pln": 159.99,
+          "net_food_mass_g": 2750,
+          "shipping_scenarios": [
+            {
+              "goods_pln": 159.99,
+              "logistics_pln": 0.0,
+              "logistics_percent": 0.0,
+              "at_least_100_goods": true,
+              "logistics_at_most_10_percent": true,
+              "minimum_goods_for_ratio_pln": 0.0,
+              "maximum_logistics_pln": 15.99
+            },
+            {
+              "goods_pln": 159.99,
+              "logistics_pln": 9.49,
+              "logistics_percent": 5.9316,
+              "at_least_100_goods": true,
+              "logistics_at_most_10_percent": true,
+              "minimum_goods_for_ratio_pln": 94.9,
+              "maximum_logistics_pln": 15.99
+            },
+            {
+              "goods_pln": 159.99,
+              "logistics_pln": 12.99,
+              "logistics_percent": 8.1193,
+              "at_least_100_goods": true,
+              "logistics_at_most_10_percent": true,
+              "minimum_goods_for_ratio_pln": 129.9,
+              "maximum_logistics_pln": 15.99
+            },
+            {
+              "goods_pln": 159.99,
+              "logistics_pln": 14.99,
+              "logistics_percent": 9.3693,
+              "at_least_100_goods": true,
+              "logistics_at_most_10_percent": true,
+              "minimum_goods_for_ratio_pln": 149.9,
+              "maximum_logistics_pln": 15.99
+            }
+          ],
+          "maximum_logistics_pln": 15.99
+        }
+      ],
+      "goods_per_180_days_pln": 718.59
+    },
+    "old_separate_renewals": [
+      {
+        "days": 30,
+        "packs": {
+          "46593": 1
+        },
+        "pack_count": 1,
+        "ordinary_goods_pln": 8.29,
+        "advertised_later_goods_pln": 7.05,
+        "net_food_mass_g": 30,
+        "shipping_scenarios": [
+          {
+            "goods_pln": 7.05,
+            "logistics_pln": 0.0,
+            "logistics_percent": 0.0,
+            "at_least_100_goods": false,
+            "logistics_at_most_10_percent": true,
+            "minimum_goods_for_ratio_pln": 0.0,
+            "maximum_logistics_pln": 0.7
+          },
+          {
+            "goods_pln": 7.05,
+            "logistics_pln": 9.49,
+            "logistics_percent": 134.6099,
+            "at_least_100_goods": false,
+            "logistics_at_most_10_percent": false,
+            "minimum_goods_for_ratio_pln": 94.9,
+            "maximum_logistics_pln": 0.7
+          },
+          {
+            "goods_pln": 7.05,
+            "logistics_pln": 12.99,
+            "logistics_percent": 184.2553,
+            "at_least_100_goods": false,
+            "logistics_at_most_10_percent": false,
+            "minimum_goods_for_ratio_pln": 129.9,
+            "maximum_logistics_pln": 0.7
+          },
+          {
+            "goods_pln": 7.05,
+            "logistics_pln": 14.99,
+            "logistics_percent": 212.6241,
+            "at_least_100_goods": false,
+            "logistics_at_most_10_percent": false,
+            "minimum_goods_for_ratio_pln": 149.9,
+            "maximum_logistics_pln": 0.7
+          }
+        ],
+        "maximum_logistics_pln": 0.7
+      },
+      {
+        "days": 60,
+        "packs": {
+          "46956": 1,
+          "52572": 1,
+          "46308": 1,
+          "46323": 1,
+          "46317": 1,
+          "46325": 1
+        },
+        "pack_count": 6,
+        "ordinary_goods_pln": 52.34,
+        "advertised_later_goods_pln": 44.49,
+        "net_food_mass_g": 1600,
+        "shipping_scenarios": [
+          {
+            "goods_pln": 44.49,
+            "logistics_pln": 0.0,
+            "logistics_percent": 0.0,
+            "at_least_100_goods": false,
+            "logistics_at_most_10_percent": true,
+            "minimum_goods_for_ratio_pln": 0.0,
+            "maximum_logistics_pln": 4.44
+          },
+          {
+            "goods_pln": 44.49,
+            "logistics_pln": 9.49,
+            "logistics_percent": 21.3306,
+            "at_least_100_goods": false,
+            "logistics_at_most_10_percent": false,
+            "minimum_goods_for_ratio_pln": 94.9,
+            "maximum_logistics_pln": 4.44
+          },
+          {
+            "goods_pln": 44.49,
+            "logistics_pln": 12.99,
+            "logistics_percent": 29.1976,
+            "at_least_100_goods": false,
+            "logistics_at_most_10_percent": false,
+            "minimum_goods_for_ratio_pln": 129.9,
+            "maximum_logistics_pln": 4.44
+          },
+          {
+            "goods_pln": 44.49,
+            "logistics_pln": 14.99,
+            "logistics_percent": 33.693,
+            "at_least_100_goods": false,
+            "logistics_at_most_10_percent": false,
+            "minimum_goods_for_ratio_pln": 149.9,
+            "maximum_logistics_pln": 4.44
+          }
+        ],
+        "maximum_logistics_pln": 4.44
+      },
+      {
+        "days": 90,
+        "packs": {
+          "44492": 2,
+          "45420": 1,
+          "44472": 2,
+          "44499": 1,
+          "44959": 1,
+          "49356": 1,
+          "53019": 3
+        },
+        "pack_count": 11,
+        "ordinary_goods_pln": 319.29,
+        "advertised_later_goods_pln": 271.41,
+        "net_food_mass_g": 3200,
+        "shipping_scenarios": [
+          {
+            "goods_pln": 271.41,
+            "logistics_pln": 0.0,
+            "logistics_percent": 0.0,
+            "at_least_100_goods": true,
+            "logistics_at_most_10_percent": true,
+            "minimum_goods_for_ratio_pln": 0.0,
+            "maximum_logistics_pln": 27.14
+          },
+          {
+            "goods_pln": 271.41,
+            "logistics_pln": 9.49,
+            "logistics_percent": 3.4966,
+            "at_least_100_goods": true,
+            "logistics_at_most_10_percent": true,
+            "minimum_goods_for_ratio_pln": 94.9,
+            "maximum_logistics_pln": 27.14
+          },
+          {
+            "goods_pln": 271.41,
+            "logistics_pln": 12.99,
+            "logistics_percent": 4.7861,
+            "at_least_100_goods": true,
+            "logistics_at_most_10_percent": true,
+            "minimum_goods_for_ratio_pln": 129.9,
+            "maximum_logistics_pln": 27.14
+          },
+          {
+            "goods_pln": 271.41,
+            "logistics_pln": 14.99,
+            "logistics_percent": 5.523,
+            "at_least_100_goods": true,
+            "logistics_at_most_10_percent": true,
+            "minimum_goods_for_ratio_pln": 149.9,
+            "maximum_logistics_pln": 27.14
+          }
+        ],
+        "maximum_logistics_pln": 27.14
+      }
+    ],
+    "selected_180_day_food_quantities": {
+      "walnut_g": 1200,
+      "pistachio_g": 900,
+      "almond_g": 700,
+      "macadamia_g": 800,
+      "oats_g": 4500,
+      "cumin_g": 180,
+      "coriander_g": 90,
+      "rosemary_g": 90,
+      "oregano_g": 60,
+      "thyme_g": 60
+    },
+    "transition_warning": "The selected groups replace/restructure370 and the old NutB/cart design. They are not extra subscriptions to place beside them. NutA already received and current stock offset the first orders."
+  },
+  "eggs": {
+    "objective": "Minimize oldest Egg age at consumption, then mean age, then peak stock, using the complete28-day A/B meal calendar over420days. Compare140 evenly spaced monthly-carton candidates with25200 phases of the20-Egg parcel alternative.",
+    "small_cartons": {
+      "searched_phases": 140,
+      "arrival_and_meal_horizon_days": 420,
+      "streams": [
+        {
+          "eggs": 10,
+          "days": 14,
+          "phase_day": 6
+        },
+        {
+          "eggs": 10,
+          "days": 30,
+          "phase_day": 1
+        },
+        {
+          "eggs": 10,
+          "days": 30,
+          "phase_day": 11
+        },
+        {
+          "eggs": 10,
+          "days": 30,
+          "phase_day": 21
+        }
+      ],
+      "maximum_delivery_to_consumption_days": 10,
+      "mean_delivery_to_consumption_days": 4.4167,
+      "peak_eggs_in_stock": 20
+    },
+    "larger_parcels": {
+      "searched_phases": 25200,
+      "arrival_and_meal_horizon_days": 420,
+      "streams": [
+        {
+          "eggs": 10,
+          "days": 14,
+          "phase_day": 6
+        },
+        {
+          "eggs": 20,
+          "days": 30,
+          "phase_day": 1
+        },
+        {
+          "eggs": 20,
+          "days": 60,
+          "phase_day": 21
+        }
+      ],
+      "maximum_delivery_to_consumption_days": 21,
+      "mean_delivery_to_consumption_days": 9.2778,
+      "peak_eggs_in_stock": 40
+    },
+    "limitations": "Synthetic repeating meal/arrival model, not a booking, delivered-life guarantee, observed stock or proof of minimum shipping on all fresh groups. Four nominal Eggs may differ from200g shell-free. Ages require an additional supplier/delay margin; the6October old-carton11-day remaining life is not transferable to selected green-legged Eggs."
+  },
+  "full_diet_verified": false,
+  "full_diet_scope": "Complete meal/category ledger is inDIET_COMPLETE_SHIPMENT_PLAN.md. This script verifies pantry grouping and Egg-age arithmetic only; it does not make unavailable products, native grocery autoship or unopened/opened shelf lives available."
+}

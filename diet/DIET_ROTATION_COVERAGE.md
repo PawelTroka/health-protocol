@@ -1,6 +1,28 @@
 # Diet rotation coverage
 
-## Current correction —6October
+## Current allocation —27October2026
+
+The user removed Tempeh and Tofu, requested more organic Turkey and skinless Salmon, and requested all four approved Mushroom kinds. The [complete demand and shipment plan](DIET_COMPLETE_SHIPMENT_PLAN.md#four-week-protein-calendar) owns the A/B four-week calendar and every other category's quantities. All28 Lunches and28 Dinners are assigned; there are no unallocated Dinner slots.
+
+| Protein | Dinner meals/28days | Total consumption across Lunch and Dinner/28days |
+| --- | ---: | --- |
+| organic green-legged-hen Eggs |12 |2,400g shell-free; approximately48 medium Eggs, actual yield governs. |
+| organic pasture-raised Turkey tenderloins |6 |3,900g raw:20 Lunches plus6 Dinners at150g each. |
+| skinless Norwegian Salmon |6 |900g raw at150g each. |
+| Atlantic Mackerel |2 |250g drained at125g each. |
+| Sardines |2 |340g drained at170g each. |
+| Alaska Pollock / Mussels / Shrimps |0 |Two Pollock Lunches400g raw excluding glaze, four Mussel Lunches600g cooked meat and two Shrimp Lunches360g. |
+| Tempeh / Tofu |0 |Removed by user preference; no replacement purchasing. |
+
+Keep the reduced1kg gross Butternut and1kg gross Orange purchasing targets per28days, converting to actual edible yield before meal allocation. Mushroom variety now includes Oyster, Shiitake, Maitake and King Oyster: the800g candidate provides11 full written choices and leaves50g Oyster plus50g Shiitake. Assign those same-food remainders within verified usable life before claiming a repeatable zero-waste schedule. The former request to remove Shiitake is superseded;357's actual two Mushroom lines remain unchanged.
+
+Existing399 supplies only10 nominal Eggs/30days. The exact-rate candidate adds10/14days and two further10/30day streams, staggered rather than purchased together; no additional Egg profile is activated here. Its mixed shipments must each satisfy approximately100zł net goods and compulsory logistics≤10% of goods, plus the25% matched per-product delivered cap. Advertised122.08zł Egg/Blueberry goods is a candidate, not a final quote. Canonical Blueberry portions are150g, and the complete plan keeps full Berry choices and remainders separate from mere pack counts.
+
+The proposed P60/P90 pantry replacements buy the same planned consumption, at132.87/159.99zł later advertised goods. They replace overlapping370/old Nut B/cart quantities. At23:09 Warsaw the native cart was reconfigured and loaded-verified at14 SKU lines/18 packs, with correct P60/P90 quantities and60/90-day badges,310.05zł first goods after34.47zł discount. Checkout selected InPost Kurier home delivery0zł under the250zł threshold and listed GLS10.49zł/DHL11.99zł; blank address/contact fields mean no final destination quote, and separate renewal fees remain unverified. The12-line draft is historical. No terms/payment/order/new profile or370 transfer occurred.361 remains paused with its old stored Tempeh line and must not resume as stored; removal is still unsaved. Four active profiles plus that paused profile do not establish complete Diet coverage or unattended renewal payment. Fresh routes, stock-adjusted first purchases, actual expiry, edible yields and full phase validation remain required.
+
+The merchant reported on8October that Strawberry refunds were made; the exact claim settlement and bank credit remain unverified. Earlier no-response/no-refund statements below are dated historical evidence.
+
+## Historical correction —6October
 
 **Order247410 arrived6October.** The user reports most Strawberries spoiled again; no exact edible remainder is known. Its original Egg carton is dated17October,11calendar days after receipt, and is not the selected green-legged product. Count only inspected usable food in the stock transition; the purchased450g Strawberries cannot be credited as three edible meals. The [quality claim and approved follow-up](DIET_BIOSHI_QUALITY_CLAIM.md) were sent6October, requesting58.56zł for the two spoiled Strawberry packs; no refund is confirmed.
 
