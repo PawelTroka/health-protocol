@@ -1,5 +1,6 @@
 import re
 from html import escape
+import math
 import os
 import sys
 from pathlib import Path
@@ -14,6 +15,7 @@ from tools.health_sync.ecg_records import render_ecg_html, render_ecg_md
 from tools.health_sync.lab_layout import ANA_ENA_MARKERS, lab_groups
 from tools.health_sync.result_bounds import bound_within_reference, bounded_comparison, is_bounded
 from tools.health_sync.number_display import compact_measurement, compact_reference
+from tools.health_sync.result_numbers import parse_reference, parse_result
 from tools.health_sync.report_guidance import (
     NEUTRAL, guide_reference, guide_status, numerical_change, vitals_trend,
     STOOL_RESIDUE_MARKERS, stool_residue_rank,
@@ -94,38 +96,23 @@ def get_color_hex(score):
     return hex_color, emoji
 
 def get_direction(val_str, ref_range):
-    if val_str in ["-", "—", None, ""]:
+    if is_bounded(val_str):
+        return None  # A reporting limit does not locate the actual measurement.
+    parsed = parse_result(val_str)
+    reference = parse_reference(ref_range)
+    if parsed is None or parsed.operator or reference is None:
         return None
-        
-    val_clean = re.sub(r'[^\d.<>]', '', val_str.split('(')[0]) 
-    if not val_clean: return None
-    
-    try:
-        val = float(re.sub(r'[<> ]', '', val_clean))
-    except ValueError:
-        return None
-
-    # Parse Reference Range
-    m_range = re.match(r'([\d.]+)\s*-\s*([\d.]+)', ref_range)
-    if m_range:
-        low = float(m_range.group(1))
-        high = float(m_range.group(2))
+    val = parsed.value
+    if isinstance(reference, tuple):
+        low, high = reference
         if val < low: return "↓"
         if val > high: return "↑"
         return ""
-
-    m_less = re.match(r'<\s*([\d.]+)', ref_range)
-    if m_less:
-        limit = float(m_less.group(1))
-        if val > limit: return "↑"
-        return ""
-
-    m_more = re.match(r'>\s*([\d.]+)', ref_range)
-    if m_more:
-        limit = float(m_more.group(1))
-        if val < limit: return "↓"
-        return ""
-            
+    # Preserve the existing score-boundary convention for exact readings.
+    if reference.operator in {"<", "<="} and val > reference.value:
+        return "↑"
+    if reference.operator in {">", ">="} and val < reference.value:
+        return "↓"
     return ""
 
 def low_good_target(reference, optimal_max, high_limit, low_limit=None):
@@ -365,20 +352,25 @@ no_score_markers = {
 }
 
 def numeric_from_result(val_str):
-    val_clean = re.sub(r'[^\d.<>-]', '', val_str.split('(')[0])
-    if not val_clean:
+    """Read a validated scalar; reporting limits stay in interval handling."""
+    parsed = parse_result(val_str)
+    if parsed is None or parsed.operator:
         return None
-
     try:
-        return float(re.sub(r'[<> ]', '', val_clean))
-    except ValueError:
+        value = float(parsed.value)
+    except (OverflowError, ValueError):
         return None
+    if not math.isfinite(value) or (value == 0 and parsed.value != 0):
+        return None
+    return value
 
 def numeric_pair_from_result(val_str):
-    numbers = re.findall(r'\d+(?:\.\d+)?', val_str)
-    if len(numbers) < 2:
+    if not isinstance(val_str, str) or val_str.count("/") != 1:
         return None
-    return float(numbers[0]), float(numbers[1])
+    numbers = [numeric_value(part) for part in val_str.split("/")]
+    if any(number is None for number in numbers):
+        return None
+    return tuple(numbers)
 
 def calculate_high_good_range_score(val, target):
     low = target["low"]
@@ -490,6 +482,20 @@ def calculate_target_score(val, target):
 
     return None
 
+def bounded_target_score(value, target):
+    """Score a limit only when every possible value has one constant score."""
+    # A half-line cannot fit inside a finite optimal interval. Only uncapped
+    # one-sided target plateaus can establish a score without an exact value.
+    if target["type"] == "low_good" and target.get("low_limit") is None:
+        boundary = target["optimal_max"]
+        if bound_within_reference(value, f"<= {boundary}") is True:
+            return calculate_target_score(boundary, target)
+    if target["type"] == "high_good" and target.get("high_limit") is None:
+        boundary = target["optimal_min"]
+        if bound_within_reference(value, f">= {boundary}") is True:
+            return calculate_target_score(boundary, target)
+    return None
+
 def calculate_blood_pressure_score(val_str, target):
     pair = numeric_pair_from_result(val_str)
     if pair is None:
@@ -541,6 +547,8 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
         return None
 
     target = target_overrides.get((category, marker))
+    if is_bounded(val_str):
+        return bounded_target_score(val_str, target) if target else None
     if target:
         if target["type"] == "blood_pressure":
             return calculate_blood_pressure_score(val_str, target)
@@ -561,18 +569,15 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
     if text_val in ["positive", "reactive", "detected", "present"]:
         return 3.0
 
-    # Handle exact matches like "< 30.0" and "< 30.0"
-    if val_str.strip() == ref_range.strip() and "<" in val_str:
-        return 0.0
-
     val = numeric_from_result(val_str)
     if val is None:
         return None
 
-    m_range = re.match(r'([-\d.]+)\s*-\s*([-\d.]+)', ref_range)
-    if m_range:
-        low = float(m_range.group(1))
-        high = float(m_range.group(2))
+    reference = parse_reference(ref_range)
+    if isinstance(reference, tuple):
+        low, high = (numeric_from_result(str(limit)) for limit in reference)
+        if low is None or high is None:
+            return None
         # Electrophoretic fractions/concentrations have reference intervals,
         # not a preferred midpoint. Keep the existing outside-range severity.
         # Labcorp: https://www.labcorp.com/tests/001487/protein-electrophoresis-serum
@@ -585,17 +590,19 @@ def calculate_score(val_str, ref_range, category=None, marker=None):
         score = dist / half_width 
         return score
 
-    m_less = re.match(r'<\s*([-\d.]+)', ref_range)
-    if m_less:
-        limit = float(m_less.group(1))
+    if reference is not None and reference.operator in {"<", "<="}:
+        limit = numeric_from_result(str(reference.value))
+        if limit is None:
+            return None
         if val <= limit:
             return (val / limit) * 1.0 if limit != 0 else 0.0
         else:
             return 1.0 + (val - limit) / limit if limit != 0 else 1.0
 
-    m_more = re.match(r'>\s*([-\d.]+)', ref_range)
-    if m_more:
-        limit = float(m_more.group(1))
+    if reference is not None and reference.operator in {">", ">="}:
+        limit = numeric_from_result(str(reference.value))
+        if limit is None:
+            return None
         optimum = limit * 2.0
         if val >= limit:
             if val >= optimum: return 0.0
@@ -617,13 +624,51 @@ def qualitative_status(value):
         return ("#927000", "🟡", "Equivocal laboratory result; not confirmed positive")
     return NEUTRAL
 
+def bounded_status(value, reference):
+    """Describe a proven reference relation without grading its magnitude."""
+    within = bound_within_reference(value, reference)
+    if within is True:
+        return ("#006400", "🟢", "Reported limit is within the laboratory reference; exact value unknown")
+    if within is False:
+        return ("#a84a00", "🟠", "Reported limit is outside the laboratory reference; magnitude unknown")
+    return NEUTRAL
+
+
+# Preserve the established endpoint colors for these reviewed laboratory rows.
+# This is a display policy only: limits still use interval scores for trends.
+limit_endpoint_color_markers = {
+    ("Urine Chemistry", "Urine Albumin (Microalbuminuria)"),
+    ("Immunology & Inflammation", "tTG IgA"),
+    ("Immunology & Inflammation", "DGP IgG"),
+    ("Immunology & Inflammation", "Rheumatoid Factor (RF)"),
+    ("Immunology & Inflammation", "Anti-CCP"),
+    ("Immunology & Inflammation", "TSH Receptor Antibodies (TRAb)"),
+    ("Infectious Diseases", "Chlamydia IgG"),
+    ("Infectious Diseases", "HSV IgM"),
+    ("Stool Analysis", "Lactoferrin (Stool)"),
+    ("Stool Analysis", "M2-PK (Stool)"),
+}
+
+
+def calculate_display_score(value, reference, category=None, marker=None):
+    """Keep reviewed cell colors separate from numeric and interval analysis."""
+    score = calculate_score(value, reference, category, marker)
+    if score is not None or (category, marker) not in limit_endpoint_color_markers:
+        return score
+    parsed = parse_result(value)
+    if parsed is None or parsed.operator not in {"<", "<="}:
+        return None
+    return calculate_score(str(parsed.value), reference, category, marker)
+
 
 def format_cell_html(val, ref, category=None, marker=None, context=None):
     status = guide_status(category, marker, val, context)
     if status is not None:
         return format_status(val, status, show_neutral=True)
-    score = calculate_score(val, ref, category, marker)
+    score = calculate_display_score(val, ref, category, marker)
     if score is None:
+        if is_bounded(val) and (category, marker) not in no_score_markers and category != MICROBIOTA_CATEGORY:
+            return format_status(val, bounded_status(val, ref))
         return format_status(val, qualitative_status(val))
     color, emoji = get_color_hex(score)
     target = target_overrides.get((category, marker))
@@ -635,14 +680,19 @@ def format_cell_md(val, ref, category=None, marker=None, context=None):
     status = guide_status(category, marker, val, context)
     if status is not None:
         return format_status(val, status, markdown=True, show_neutral=True)
-    score = calculate_score(val, ref, category, marker)
+    score = calculate_display_score(val, ref, category, marker)
     if score is None:
+        if is_bounded(val) and (category, marker) not in no_score_markers and category != MICROBIOTA_CATEGORY:
+            return format_status(val, bounded_status(val, ref), markdown=True)
         return format_status(val, qualitative_status(val), markdown=True)
     _, emoji = get_color_hex(score)
     target = target_overrides.get((category, marker))
     arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)
     suffix = f" {arrow}" if arrow else ""
-    return f'{emoji} {compact_measurement(val)}{suffix}'
+    literal = compact_measurement(val)
+    if is_bounded(val):
+        literal = classification_text(literal, markdown=True)
+    return f'{emoji} {literal}{suffix}'
 
 def format_urinalysis_value(val_str, ref_range):
     if val_str in ["-", "—", None, ""]:
@@ -673,9 +723,8 @@ def format_urinalysis_value(val_str, ref_range):
         return "#000000", ""
 
     # Numeric checks for specific gravity, ph etc.
-    try:
-        # Simple float parse
-        val = float(re.sub(r'[^\d.]', '', val_str.replace(',', '.')))
+    val = numeric_value(val_str)
+    if val is not None:
         
         # pH
         if "5 - 8" in ref_range:
@@ -687,9 +736,6 @@ def format_urinalysis_value(val_str, ref_range):
             if 1.005 <= val <= 1.030: return "#006400", "🟢"
             return "#ffa500", "🟠"
             
-    except:
-        pass
-
     return "#000000", "" # Default black, no emoji
 
 def format_cell_html_urine(val, ref):
@@ -708,7 +754,10 @@ def format_cell_md_urine(val, ref):
     _, emoji = result
     if not emoji:
         return format_status(val, NEUTRAL, markdown=True)
-    return f'{emoji} {compact_measurement(val)}'
+    literal = compact_measurement(val)
+    if is_bounded(val):
+        literal = classification_text(literal, markdown=True)
+    return f'{emoji} {literal}'
 
 # Data Reorganized
 # Using "-" for missing values as requested
@@ -852,17 +901,7 @@ def trend_score(value, ref, category, marker=None):
     return None
 
 def numeric_value(value):
-    if value in missing_values:
-        return None
-
-    val_clean = re.sub(r'[^\d.<>-]', '', value.split('(')[0])
-    if not val_clean:
-        return None
-
-    try:
-        return float(re.sub(r'[<> ]', '', val_clean))
-    except ValueError:
-        return None
+    return numeric_from_result(value)
 
 def target_directional_percent_delta(current_val, previous_val, target):
     if previous_val == 0:
@@ -911,10 +950,13 @@ def directional_percent_delta(current, previous, ref, category=None, marker=None
 
     if previous_val == 0:
         return None
-    if re.match(r'<\s*([-\d.]+)', ref):
+    reference = parse_reference(ref)
+    if isinstance(reference, tuple) or reference is None:
+        return None
+    if reference.operator in {"<", "<="}:
         return (previous_val - current_val) / abs(previous_val)
 
-    if re.match(r'>\s*([-\d.]+)', ref):
+    if reference.operator in {">", ">="}:
         return (current_val - previous_val) / abs(previous_val)
 
     return None
@@ -940,14 +982,24 @@ def classify_trend(values, ref, category, marker=None):
                 return "Stable"
         return None
 
+    latest = [value for value in values if value not in missing_values][:2]
+    if (len(latest) == 2 and (category, marker) not in no_score_markers
+            and category not in {"Vitals & Functional Health", MICROBIOTA_CATEGORY}
+            and bounded_comparison(*latest) == "same_bound"
+            and bound_within_reference(latest[0], ref) is not None):
+        return "Stable"  # Same reported reference category, not equal measurements.
+
     comparable = []
     for value in values:
+        if value in missing_values:
+            continue
         # An uninterpretable reading must not display a trend from older results.
         if is_inconclusive(value) or is_pending(value):
             return None
         score = trend_score(value, ref, category, marker)
-        if score is not None:
-            comparable.append((value, score))
+        if score is None:
+            return None
+        comparable.append((value, score))
         if len(comparable) == 2:
             break
 
@@ -1008,6 +1060,9 @@ def format_trend_html(values, ref, category, marker=None):
         return vitals_trend(values, marker) if category == "Vitals & Functional Health" else "-"
 
     definition = trend_definitions[trend]
+    latest = [value for value in values if value not in missing_values][:2]
+    if trend == "Stable" and len(latest) == 2 and bounded_comparison(*latest) == "same_bound":
+        return f'<span title="Same reported limit; actual change unknown">{definition["emoji"]}</span>'
     return definition["emoji"]
 
 def format_trend_md(values, ref, category, marker=None):
@@ -2069,6 +2124,11 @@ for category, rows in data.items():
 def classification_text(value, *, markdown=False):
     text = escape(str(value))
     if markdown:
+        if is_bounded(value):
+            # A validated leading numeric comparison is literal Markdown;
+            # annotation text must retain its HTML escaping.
+            text = re.sub(r"^(\s*)&(lt|gt);", lambda match: match[1] + (
+                "<" if match[2] == "lt" else ">"), text, count=1)
         text = re.sub(r"([\\`*_{}\[\]()#!|])", r"\\\1", text)
     return text
 

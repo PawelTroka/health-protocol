@@ -20,7 +20,7 @@ class FFMIPhysiqueTests(unittest.TestCase):
             with self.subTest(value=value):
                 status = guide_status("Vitals & Functional Health", "FFMI", value)
                 self.assertEqual(status[1], emoji)
-        self.assertEqual(targets.reference("FFMI"), "18–<26 (goal 22–<26)")
+        self.assertEqual(targets.reference("FFMI"), "18–26 (goal 22-26)")
 
     def test_current_monthly_values_use_the_selected_comparison(self):
         for value, emoji in (("22.0", "🔵"), ("21.4", "🟢"),
