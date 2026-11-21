@@ -141,6 +141,71 @@ class SyncCliTests(unittest.TestCase):
         public = json.loads((self.root / "results" / "vitals_monthly.json").read_bytes())
         return private, public
 
+    def test_import_migrates_cached_indices_and_keeps_height_and_numeric_ffmi_private(self):
+        profile = self.cache / "profile.json"
+        profile.write_bytes(cli.json_bytes({"height_cm": 167}))
+        prior = withings_group(identifier=71)
+        prior["date"] = 1785499200  # July 31, 2026.
+        prior["measures"] = [{"type": 5, "value": 55, "unit": 0}]
+        historical = withings.parse_api({"measuregrps": [prior]})
+        legacy = reading("legacy-index", "2026-07-31", 23, metric="BMI", unit="kg/m^2")
+        (self.cache / "records.json").write_bytes(cli.json_bytes({
+            "schema_version": 1, "records": self.previous_records + historical + [legacy],
+        }))
+        group = withings_group()
+        group["measures"] += [{"type": 5, "value": 57, "unit": 0}, {"type": 4, "value": 167, "unit": -2}]
+        self.run_quietly(self.import_file({"measuregrps": [group]}))
+        cache = cli.load_cache()
+        indices = [r for r in cache["records"] if r["metric"] == "FFMI"]
+        self.assertEqual(len(indices), 2)
+        self.assertAlmostEqual(indices[1]["value"], 57 / 1.67 ** 2)
+        self.assertNotIn(legacy, cache["records"])
+        self.assertTrue(any(r["metric"] == "Height (Withings)" for r in cache["records"]))
+        path = self.root / "results" / "vitals_monthly.json"
+        public = monthly.load_monthly(path)
+        self.assertEqual(public["ffmi_trend"], {"2026-07": "baseline", "2026-08": "up"})
+        for metrics in json.loads(path.read_bytes())["months"].values():
+            self.assertFalse({"BMI", "FFMI", "Height (Withings)"} & metrics.keys())
+        # Recalculating locally leaves the published projection unchanged.
+        profile.write_bytes(cli.json_bytes({"height_cm": 154}))
+        before = path.read_bytes()
+        with redirect_stdout(io.StringIO()):
+            cli.rebuild_body_index()
+        self.assertEqual(path.read_bytes(), before)
+        changed = [r for r in cli.load_cache()["records"] if r["metric"] == "FFMI"]
+        self.assertAlmostEqual(changed[1]["value"], 57 / 1.54 ** 2)
+        self.fetch.assert_not_called()
+
+    def test_offline_body_index_refuses_missing_cache_coverage(self):
+        group = withings_group()
+        group["measures"] += [{"type": 5, "value": 50, "unit": 0}]
+        self.run_quietly(self.import_file({"measuregrps": [group]}))
+        path = self.cache / "records.json"
+        cache = cli.load_cache()
+        cache["records"] = [r for r in cache["records"] if r["metric"] != "Fat-Free Mass (Withings)"]
+        path.write_bytes(cli.json_bytes(cache))
+        before = self.snapshot()
+        with self.assertRaisesRegex(ValueError, "do not match"):
+            cli.rebuild_body_index()
+        self.assertEqual(before, self.snapshot())
+
+    def test_public_monthly_reader_accepts_legacy_bmi_and_checks_ffmi_trend(self):
+        group = withings_group()
+        group["measures"].append({"type": 5, "value": 54, "unit": 0})
+        self.run_quietly(self.import_file({"measuregrps": [group]}))
+        path = self.root / "results" / "vitals_monthly.json"
+        source = json.loads(path.read_bytes())
+        source["months"]["2026-08"]["BMI"] = dict(source["months"]["2026-08"]["Body Mass"], unit="kg/m^2")
+        for trend in ({"2026-08": "baseline"}, {}, {"2026-08": "up"}, {"2026-08": 23},
+                      {"2026-07": "baseline"}, {"2026-08": "baseline", "2026-09": "down"}):
+            with self.subTest(trend=trend):
+                path.write_bytes(cli.json_bytes({**source, "ffmi_trend": trend}))
+                if trend in ({}, {"2026-08": "baseline"}):
+                    self.assertNotIn("BMI", monthly.load_monthly(path)["months"]["2026-08"])
+                else:
+                    with self.assertRaisesRegex(ValueError, "FFMI trend"):
+                        monthly.load_monthly(path)
+
     def test_sync_archives_ecg_waveform_once_and_projects_only_dated_metadata(self):
         payload = withings_ecg_payload()
         private, public = self.sync_ecg(payload)
@@ -501,7 +566,7 @@ class SyncCliTests(unittest.TestCase):
         self.run_quietly(args)
         saved = json.loads((self.cache / "records.json").read_bytes())
         moved = [record for record in saved["records"] if record["id"].startswith("withings:measure:101:")]
-        self.assertEqual(len(moved), 2)  # Same-group mass and derived BMI.
+        self.assertEqual([record["metric"] for record in moved], ["Body Mass"])
         self.assertTrue(all(record["day"] == "2026-08-03" for record in moved))
         self.assertEqual(len(saved["classifications"]), 1)
         self.assertEqual(saved["classifications"][0]["day"], "2026-08-03")

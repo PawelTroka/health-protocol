@@ -15,7 +15,7 @@ TARGETS = {}
 # https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2783711
 for _marker in ("Steps (Oura)", "Steps (Withings)", "Steps (Garmin)"):
     TARGETS[_marker] = {
-        "reference": "≥7000; practical target ≥8000/day",
+        "reference": "≥7,000/day (goal ≥8,000)",
         "target": (8000, None),
         "normal": (7000, None),
     }
@@ -25,13 +25,13 @@ for _marker in ("Steps (Oura)", "Steps (Withings)", "Steps (Garmin)"):
 # Oura identifies 5–8 hours or less as favorable and >12 hours as attention.
 # https://support.ouraring.com/hc/en-us/articles/360055901214-Activity-Contributors
 TARGETS["Sedentary Time (Oura)"] = {
-    "reference": "≤8; practical target ≤5",
+    "reference": "≤8 (goal ≤5)",
     "target": (None, 5),
     "normal": (None, 8),
     "valid": (0, 24),
 }
 TARGETS["Inactivity Alerts (Oura)"] = {
-    "reference": "0; break up prolonged inactivity",
+    "reference": "0",
     "target": (None, 0),
 }
 
@@ -43,7 +43,7 @@ TARGETS["Inactivity Alerts (Oura)"] = {
 # https://pubmed.ncbi.nlm.nih.gov/41201595/
 # https://csepguidelines.ca/wp-content/uploads/2022/05/24HMovementGuidelines-Adults-18-64-ENG.pdf
 TARGETS["Low Activity Time (Oura)"] = {
-    "reference": "≥3.5; practical target ~6 (observational)",
+    "reference": "≥3.5 (goal ~6)",
     "target": (6, None),
     "normal": (3.5, None),
     "valid": (0, 24),
@@ -66,7 +66,7 @@ _INTENSITY_COMPONENTS = (
 )
 for _components in _INTENSITY_COMPONENTS:
     _rule = {
-        "reference": "Combined M+2V: ≥21.4; target 42.9 min/day",
+        "reference": "M+2V ≥21.4min/day (goal 42.9)",
         "target": (300 / 7, None),
         "normal": (150 / 7, None),
         "transform": ("sum", _components),
@@ -78,7 +78,7 @@ for _components in _INTENSITY_COMPONENTS:
 # combined exercise volume from its explicit intensity components, rather than
 # comparing that unweighted value to a moderate-only minimum.
 TARGETS["Active Duration (Withings)"] = {
-    "reference": "Combined M+2V: ≥21.4; target 42.9 min/day",
+    "reference": "M+2V ≥21.4min/day (goal 42.9)",
     "target": (300 / 7, None),
     "normal": (150 / 7, None),
     "transform": ("sum", _INTENSITY_COMPONENTS[1]),
@@ -96,7 +96,7 @@ _MET_COMPONENTS = (
 )
 for _marker, _factor in _MET_COMPONENTS:
     TARGETS[_marker] = {
-        "reference": "Combined medium+high: ≥107.1; target 285.7 MET-min/day",
+        "reference": "Medium+high ≥107.1/day (goal 285.7)",
         "target": (2000 / 7, None),
         "normal": (750 / 7, None),
         "transform": ("sum", _MET_COMPONENTS),
@@ -106,7 +106,7 @@ for _marker, _factor in _MET_COMPONENTS:
 # dose. Negative distance means the goal was exceeded; no extra reward follows.
 # https://support.ouraring.com/hc/en-us/articles/360055901214-Activity-Contributors
 TARGETS["Distance Remaining to Activity Target (Oura)"] = {
-    "reference": "≤0; daily activity goal achieved",
+    "reference": "≤0",
     "target": (None, 0),
     "valid": (None, None),
 }
@@ -119,7 +119,7 @@ TARGETS["Distance Remaining to Activity Target (Oura)"] = {
 for _marker in ("VO2max", "VO2 Max (Oura)", "VO2max (Withings)",
                 "VO2 Max Running (Garmin)", "VO2 Max Cycling (Garmin)"):
     TARGETS[_marker] = {
-        "reference": ">35; practical target ≥45",
+        "reference": ">35 (goal ≥45)",
         "target": (45, None),
         "normal": (35, None),
         "normal_open": (True, False),
@@ -128,16 +128,16 @@ for _marker in ("VO2max", "VO2 Max (Oura)", "VO2max (Withings)",
 
 for _marker in ("Morning Acute Training Load (Garmin)", "Acute Training Load (Garmin)",
                 "Chronic Training Load (Garmin)", "Training Load per Workout (Garmin)"):
-    TARGETS[_marker] = {"reference": "Personal training range and recovery", "direction": "none"}
+    TARGETS[_marker] = {"reference": "Training range", "direction": "none"}
 TARGETS["Acute/Chronic Training Load Ratio (Garmin)"] = {
     # Garmin manuals show0.8–1.4 green and1.5 high; current support rounds the
     # upper boundary to1.5. Leave the disputed boundary ungraded.
-    "reference": "Garmin balanced 0.8–<1.5", "target": (0.8, 1.5),
+    "reference": "0.8–<1.5 (balanced)", "target": (0.8, 1.5),
     "target_open": (False, True), "neutral_at": (1.5,), "trend_min_change": 0.05,
 }
 for _marker in ("Aerobic Training Effect per Workout (Garmin)", "Anaerobic Training Effect per Workout (Garmin)"):
     TARGETS[_marker] = {
-        "reference": "2 maintain; 3–4 improve; 5 overreach", "valid": (0, 5), "direction": "none",
+        "reference": "2 maintain, 3–4 improve, 5 overreach", "valid": (0, 5), "direction": "none",
         "bands": ((5, "🟠", "Garmin: overreaching training effect"),
                   (4, "🔵", "Garmin: highly improving training effect"),
                   (3, "🟢", "Garmin: improving training effect"),
@@ -145,7 +145,7 @@ for _marker in ("Aerobic Training Effect per Workout (Garmin)", "Anaerobic Train
     }
 for _zone in range(1, 6):
     TARGETS[f"Workout HR Zone {_zone} Duration (Garmin)"] = {
-        "reference": "Per recorded workout day; balance intensity", "direction": "none",
+        "reference": "Per workout day", "direction": "none",
     }
 TARGETS["Fitness Age (Garmin)"] = {"reference": "Below chronological age", "direction": "down"}
 TARGETS["Achievable Fitness Age (Garmin)"] = {"reference": "Garmin model goal", "direction": "none"}

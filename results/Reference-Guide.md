@@ -2,13 +2,13 @@
 
 Guidance checked on **2026-09-18**. Laboratory references and the protocol's practical targets remain distinct from device scores and observational benchmarks.
 
-A **reference** describes a comparison range; a **target** is a desired band. Clinical guidance, manufacturer comparisons, practical protocol targets and observational evidence are identified below. A color on a monthly mean describes that mean, not the number of abnormal nights or a diagnosis. September is month to date.
+A **reference** describes a comparison range. A **goal** or **target** is a desired band. The guide distinguishes clinical guidance, manufacturer comparisons, protocol goals and observational evidence. Colors describe monthly means. The current month includes available readings to date.
 
 ## Wearable and body-composition guidance
 
 | Measurement | Reference and target used | Source and interpretation |
 | :--- | :--- | :--- |
-| BMI and body mass | BMI 18.5–24.9; existing practical target 20–24.9 | [CDC adult BMI categories](https://www.cdc.gov/bmi/adult-calculator/). Body mass uses the recorded fixed height of 180cm; the target is approximately 64.8–80.7kg. BMI is a screening comparison and does not distinguish muscle from fat. |
+| Body mass and fat-free mass index (FFMI) | Personal trend | Body mass gives context. FFMI divides estimated fat-free mass in kilograms by height in metres squared. Fat-free mass includes water, bone and organs as well as muscle. [FFMI definition](https://pmc.ncbi.nlm.nih.gov/articles/PMC3306818/) · [Withings measurement conditions](https://support.withings.com/hc/en-us/articles/12434342485265-Body-Scan-Frequently-asked-questions-about-Segmental-Body-Composition-measurements) |
 | Body fat and lean mass | Male age 20–39 comparison: fat 8–20%; practical target 10–15%. Complementary lean range 80–92%, target 85–90% | [Withings body composition](https://support.withings.com/hc/en-us/articles/218500778-Body-What-are-the-normal-ranges-for-body-composition). The narrower fat target is a protocol preference, not a proven universal longevity optimum. |
 | Muscle, bone and body water | Male manufacturer comparisons: muscle 75–89%, bone 3–5%, water 50–65% | [Withings comparison ranges](https://support.withings.com/hc/en-us/articles/218500778-Body-What-are-the-normal-ranges-for-body-composition). Colors now compare these ranges. Muscle includes skeletal, smooth and cardiac muscle; estimated bone mass is not DXA bone density. Water overlaps other tissues and must not be added to their percentages. |
 | Withings visceral fat index | 0–5 inclusive; >5 high; scale 0–20 | [Body Scan visceral fat index](https://support.withings.com/hc/en-us/articles/11003948038545-Body-Scan-Learn-more-about-Visceral-Fat-Index). Manufacturer index, not percentage. Lower values can show a favorable trend within the reference band. |

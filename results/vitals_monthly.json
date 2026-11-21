@@ -867,6 +867,13 @@
       "sampling_frequency_hz": 500.0
     }
   ],
+  "ffmi_trend": {
+    "2026-07": "baseline",
+    "2026-08": "down",
+    "2026-09": "down",
+    "2026-10": "down",
+    "2026-11": "up"
+  },
   "months": {
     "2026-07": {
       "AHI ≥5 Nights (Withings)": {
@@ -1235,23 +1242,6 @@
         ],
         "unit": "h",
         "value": "1.29"
-      },
-      "BMI": {
-        "aggregation": "mean_of_daily_means",
-        "calendar_days": 31,
-        "elapsed_days": 31,
-        "first_day": "2026-07-01",
-        "last_day": "2026-07-31",
-        "n_days": 12,
-        "n_records": 13,
-        "observed_days": "2026-07-01,2026-07-02,2026-07-03,2026-07-06,2026-07-09,2026-07-11,2026-07-13,2026-07-19,2026-07-20,2026-07-22,2026-07-25,2026-07-31",
-        "partial_month": false,
-        "provider": "withings",
-        "source_kinds": [
-          "api"
-        ],
-        "unit": "kg/m^2",
-        "value": "25.8"
       },
       "Basal Metabolic Rate (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -4453,23 +4443,6 @@
         ],
         "unit": "h",
         "value": "1.39"
-      },
-      "BMI": {
-        "aggregation": "mean_of_daily_means",
-        "calendar_days": 31,
-        "elapsed_days": 31,
-        "first_day": "2026-08-06",
-        "last_day": "2026-08-28",
-        "n_days": 5,
-        "n_records": 5,
-        "observed_days": "2026-08-06,2026-08-08,2026-08-25,2026-08-26,2026-08-28",
-        "partial_month": false,
-        "provider": "withings",
-        "source_kinds": [
-          "api"
-        ],
-        "unit": "kg/m^2",
-        "value": "25.1"
       },
       "Basal Metabolic Rate (Withings)": {
         "aggregation": "mean_of_daily_means",
@@ -7824,23 +7797,6 @@
         ],
         "unit": "count",
         "value": "0.6"
-      },
-      "BMI": {
-        "aggregation": "mean_of_daily_means",
-        "calendar_days": 30,
-        "elapsed_days": 30,
-        "first_day": "2026-09-05",
-        "last_day": "2026-09-26",
-        "n_days": 5,
-        "n_records": 5,
-        "observed_days": "2026-09-05,2026-09-07,2026-09-16,2026-09-17,2026-09-26",
-        "partial_month": false,
-        "provider": "withings",
-        "source_kinds": [
-          "api"
-        ],
-        "unit": "kg/m^2",
-        "value": "24.7"
       },
       "Basal Energy Expenditure (Garmin)": {
         "aggregation": "mean_of_daily_means",
@@ -11959,23 +11915,6 @@
         "unit": "count",
         "value": "0.9"
       },
-      "BMI": {
-        "aggregation": "mean_of_daily_means",
-        "calendar_days": 31,
-        "elapsed_days": 31,
-        "first_day": "2026-10-01",
-        "last_day": "2026-10-17",
-        "n_days": 4,
-        "n_records": 4,
-        "observed_days": "2026-10-01,2026-10-03,2026-10-14,2026-10-17",
-        "partial_month": false,
-        "provider": "withings",
-        "source_kinds": [
-          "api"
-        ],
-        "unit": "kg/m^2",
-        "value": "24.3"
-      },
       "Basal Energy Expenditure (Garmin)": {
         "aggregation": "mean_of_daily_means",
         "calendar_days": 31,
@@ -16058,23 +15997,6 @@
         ],
         "unit": "count",
         "value": "0.8"
-      },
-      "BMI": {
-        "aggregation": "mean_of_daily_means",
-        "calendar_days": 30,
-        "elapsed_days": 21,
-        "first_day": "2026-11-03",
-        "last_day": "2026-11-14",
-        "n_days": 2,
-        "n_records": 2,
-        "observed_days": "2026-11-03,2026-11-14",
-        "partial_month": true,
-        "provider": "withings",
-        "source_kinds": [
-          "api"
-        ],
-        "unit": "kg/m^2",
-        "value": "24.4"
       },
       "Basal Energy Expenditure (Garmin)": {
         "aggregation": "mean_of_daily_means",

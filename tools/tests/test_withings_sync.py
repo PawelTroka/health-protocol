@@ -7,7 +7,7 @@ import unittest
 
 from tools.health_sync.withings import (
     WITHINGS_ACTIVITY_FIELDS, WITHINGS_CATEGORICAL_METRICS, WITHINGS_METRICS, WITHINGS_SLEEP_FIELDS,
-    categorical_inventory, parse_api,
+    categorical_inventory, fat_free_mass_indices, parse_api,
 )
 from tools.health_sync.monthly import aggregate
 
@@ -30,9 +30,9 @@ def by_metric(records):
 
 
 class WithingsParserTests(unittest.TestCase):
-    def test_exponents_percentages_and_configured_bmi_are_traceable(self):
+    def test_exponents_and_percentages_are_traceable(self):
         raw = {"measuregrps": [group(measure(1, 80400, -3), measure(8, 109344, -4),
-                                     measure(76, 661692, -4), measure(4, 180, -2))]}
+                                     measure(76, 661692, -4), measure(4, 163, -2))]}
         snapshot = copy.deepcopy(raw)
         result = by_metric(parse_api(raw))
         self.assertEqual(raw, snapshot)
@@ -41,8 +41,7 @@ class WithingsParserTests(unittest.TestCase):
         self.assertAlmostEqual(result["Muscle"]["value"], 82.3)
         self.assertEqual(result["Muscle"]["unit"], "%")
         self.assertNotIn("Height", result)
-        self.assertAlmostEqual(result["BMI"]["value"], 80.4 / 1.8 ** 2)
-        self.assertEqual(result["BMI"]["derived_from"]["configured_height_cm"], 180)
+        self.assertEqual(result["Height (Withings)"]["value"], 163)
         self.assertEqual(result["Muscle"]["source_types"], [76, 1])
         self.assertEqual(result["Body Mass"]["recorded_at"], "2026-09-05T22:36:00+02:00")
         for record in result.values():
@@ -109,7 +108,7 @@ class WithingsParserTests(unittest.TestCase):
             group(measure(8, 12), measure(76, 65), measure(9, 76), key=2),
         ]})
         self.assertEqual(set(by_metric(records)), {
-            "Body Mass", "BMI", "Fat Mass (Withings)", "Muscle Mass (Withings)"
+            "Body Mass", "Fat Mass (Withings)", "Muscle Mass (Withings)"
         })
 
     def test_bp_pair_and_temperature_body_priority(self):
@@ -155,14 +154,23 @@ class WithingsParserTests(unittest.TestCase):
     def test_percentages_outside_mass_bounds_are_not_reported(self):
         result = by_metric(parse_api({"measuregrps": [group(measure(1, 80), measure(8, 90),
                                                           measure(76, -1), measure(6, 101))]}))
-        self.assertEqual(set(result), {"Body Mass", "BMI"})
+        self.assertEqual(set(result), {"Body Mass"})
 
-    def test_height_can_be_disabled_and_invalid_configuration_rejected(self):
-        raw = {"measuregrps": [group(measure(1, 80))]}
-        self.assertEqual(set(by_metric(parse_api(raw, height_cm=None))), {"Body Mass"})
+    def test_ffmi_uses_whole_body_fat_free_mass_in_kg_and_private_height_in_metres(self):
+        readings = parse_api({"measuregrps": [
+            group(measure(1, 80), measure(5, 54250, -3), measure(76, 50), measure(4, 164, -2)),
+            group(measure(5, 0), key=2), group(measure(1, 71), measure(5, 95), key=3),
+            group(measure(5, -12), key=4),
+            group({**measure(173, 5), "position": 3}, key=5),
+        ]})
+        self.assertEqual(fat_free_mass_indices(readings, None), [])
+        index, = fat_free_mass_indices(readings, 167)
+        self.assertAlmostEqual(index["value"], 54.25 / 1.67 ** 2)
+        self.assertEqual((index["unit"], index["source_types"], index["group_id"]), ("kg/m^2", [5], "1"))
+        self.assertNotIn("BMI", by_metric(readings))
         for height in (0, -1, True, float("nan"), float("inf")):
             with self.subTest(height=height), self.assertRaises(ValueError):
-                parse_api(raw, height_cm=height)
+                fat_free_mass_indices(readings, height)
 
     def test_month_boundary_and_dst_offsets(self):
         records = parse_api({"measuregrps": [group(measure(1, 80), key=1, date="2026-09-30T22:30:00"),
@@ -182,7 +190,7 @@ class WithingsParserTests(unittest.TestCase):
         previous = by_metric(parse_api({"measuregrps": [original]}))["Body Mass"]
         self.assertEqual(current["id"], previous["id"])
         self.assertEqual(current["value"], 81)
-        self.assertEqual(len(records), 2)
+        self.assertEqual(records, [current])
         with self.assertRaisesRegex(ValueError, "pagination"):
             parse_api({"measure": [page([original], more=1)]})
 

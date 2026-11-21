@@ -270,6 +270,10 @@ def load_monthly(path):
         first = iso_date(month + "-01")
         if first < MANAGED_START or first > as_of or not isinstance(metrics, dict):
             raise ValueError("Invalid monthly-vitals date range.")
+        # Older published sources may still contain these rows. The current
+        # report never displays stature or a numeric index derived from it.
+        for private_metric in ("BMI", "FFMI", "Height (Withings)"):
+            metrics.pop(private_metric, None)
         for metric, entry in metrics.items():
             provider = entry["provider"]
             if provider not in METRICS or metric not in METRICS[provider]:
@@ -321,6 +325,13 @@ def load_monthly(path):
                         or observed_days[-1] != entry["last_day"]
                         or any(day.strftime("%Y-%m") != month or day > as_of for day in parsed_days)):
                     raise ValueError("Monthly-vitals observed days do not match coverage.")
+    trend = payload.get("ffmi_trend", {})
+    if not isinstance(trend, dict):
+        raise ValueError("Invalid FFMI trend.")
+    for index, (month, direction) in enumerate(sorted(trend.items())):
+        allowed = ("baseline",) if index == 0 else ("up", "down", "stable")
+        if "Fat-Free Mass (Withings)" not in payload["months"].get(month, {}) or direction not in allowed:
+            raise ValueError("Invalid FFMI trend month or direction.")
     categorical_months = payload.get("categorical_months", {})
     if not isinstance(categorical_months, dict):
         raise ValueError("Monthly device classifications must be an object.")
@@ -359,11 +370,10 @@ def load_monthly(path):
 
 
 def report_note(payload):
-    """One report footnote for imported cells, with coverage grouped by source."""
-    markers, groups = [], defaultdict(list)
+    """Source note for the vitals introduction, with coverage grouped by provider."""
+    groups = defaultdict(list)
     for month, metrics in sorted(payload["months"].items()):
-        for metric, entry in metrics.items():
-            markers.append({"row": metric, "target": "value", "dates": [month]})
+        for entry in metrics.values():
             groups[(month, entry["provider"], entry["elapsed_days"], entry["partial_month"])].append(entry["n_days"])
     coverage = []
     for (month, provider, elapsed, partial), counts in groups.items():
@@ -375,7 +385,7 @@ def report_note(payload):
         "text": "Imported monthly summaries from July 2026 onward: ordinary measurements use equally weighted daily means. Clock times use circular means; midpoint variability is circular SD. Short-sleep totals count recorded periods; frequency cells show percentages (affected/observed nights). Withings split-night sleep sessions are combined per day: durations and counts sum; heart rate, respiratory rate and AHI use sleep-duration weights; daily minima/maxima retain their extrema; efficiency uses combined sleep/time in bed. Scores, breathing intensity indices, latencies and start/end HRV remain means of reported sessions, with HRV describing observed session-start/session-end windows. Provider-specific rows retain their distinct definitions. Missing days are excluded; current-day Oura data are deferred until tomorrow. "
         + "; ".join(coverage) + garmin_note
         + ". Classifications are not averaged as numeric codes. API and CSV Oura HR values can differ because the provider uses different sampling methods. Per-metric counts and dates: <a href='results/vitals_monthly.json'>monthly source data</a>. Sync: <a href='tools/README.md'>on-demand instructions</a>.",
-        "markers": markers,
+        "markers": [{"target": "monthly_measurements"}],
     }
 
 
@@ -389,6 +399,7 @@ def apply_report_overlay(followups, notes, payload):
             followups.setdefault(month, {}).update({metric: report_value(metric, entry) for metric, entry in metrics.items()})
     if not automated:
         return
+    refreshed_sources = {"monthly_measurements": bool(numeric), "classification_counts": bool(categorical)}
     filtered_notes = []
     for note in notes:
         if not note["markers"]:
@@ -396,7 +407,10 @@ def apply_report_overlay(followups, notes, payload):
             continue
         remaining = []
         for marker in note["markers"]:
-            if marker.get("target") != "value" or not marker.get("dates"):
+            target = marker.get("target")
+            if refreshed_sources.get(target):
+                continue
+            if target != "value" or not marker.get("dates"):
                 remaining.append(marker)
                 continue
             for metric in marker.get("rows", [marker.get("row")]):
@@ -409,5 +423,5 @@ def apply_report_overlay(followups, notes, payload):
     if categorical:
         notes.append({
             "text": "Imported device classifications show counts of observed labels within each calendar month; they are not numeric averages, clinical diagnoses or estimates for unrecorded days. Entries labeled Device code preserve API values with unverified meanings and may include unavailable-result codes; they are not interpreted as clinical findings. Different provider classifications retain separate rows. Coverage and exact counts: <a href='results/vitals_monthly.json'>monthly source data</a>.",
-            "markers": [{"row": metric, "target": "value", "dates": [month]} for month, metric in sorted(categorical)],
+            "markers": [{"target": "classification_counts"}],
         })

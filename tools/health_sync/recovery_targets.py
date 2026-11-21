@@ -38,7 +38,7 @@ _GARMIN_READINESS_BANDS = (
 
 TARGETS = {
     "Average Stress (Garmin)": {
-        "reference": "0–25 resting; 26–50 low",
+        "reference": "0–25 rest, 26–50 low",
         "target": (0, 25),
         "normal": (0, 50),
         "valid": (0, 100),
@@ -46,14 +46,14 @@ TARGETS = {
         "bands": _GARMIN_STRESS_BANDS,
     },
     "Maximum Stress (Garmin)": {
-        "reference": "0–25 resting; 76–100 high peak",
+        "reference": "0–25 rest, 76–100 high",
         "valid": (0, 100),
         # A brief stress maximum is not sustained stress burden.
         "direction": "none",
         "bands": _GARMIN_STRESS_BANDS,
     },
     "Body Battery Highest (Garmin)": {
-        "reference": "51–100 high reserve; target 76–100",
+        "reference": "≥51 high (goal ≥76)",
         "target": (76, 100),
         "normal": (51, 100),
         "valid": (0, 100),
@@ -61,22 +61,22 @@ TARGETS = {
         "bands": _GARMIN_BATTERY_BANDS,
     },
     "Body Battery Lowest (Garmin)": {
-        "reference": "0–25 low; 51–100 high reserve",
+        "reference": "≤25 low, ≥51 high",
         "valid": (0, 100),
         # Higher means more remaining reserve, not less exercise is healthier.
         "direction": "up",
         "bands": _GARMIN_BATTERY_BANDS,
     },
     "Body Battery Charged (Garmin)": {
-        "reference": "Recovery and prior depletion",
+        "reference": "Prior depletion",
         "direction": "none",
     },
     "Body Battery Drained (Garmin)": {
-        "reference": "Activity and stress dependent",
+        "reference": "Activity and stress",
         "direction": "none",
     },
     "Morning Training Readiness (Garmin)": {
-        "reference": "50–100 ready; target 75–100",
+        "reference": "≥50 ready (goal ≥75)",
         "target": (75, 100),
         "normal": (50, 100),
         "valid": (1, 100),
@@ -87,7 +87,7 @@ TARGETS = {
         # Garmin defines 0–96h until readiness for a comparable hard workout.
         # A lower countdown indicates readiness, not a need to avoid exercise.
         # https://support.garmin.com/en-IE/?faq=8ImmxVkZMh4EYYq5Zp2bR8
-        "reference": "0 before the next hard workout",
+        "reference": "0 before hard training",
         "valid": (0, 96),
         "direction": "down",
     },
@@ -95,7 +95,7 @@ TARGETS = {
         # Sustained high physiological stress is a recovery burden; zero daily
         # stress is not a clinical goal, and wear duration affects this total.
         # https://support.ouraring.com/hc/en-us/articles/21205822135315-Daytime-Stress
-        "reference": "Balance sustained stress with recovery",
+        "reference": "Balance with recovery",
         "valid": (0, 24),
         "direction": "down",
     },
@@ -111,7 +111,7 @@ TARGETS = {
         # Oura defines low/moderate/high stress-load categories separately
         # from recovery scores; its numeric thresholds/polarity are not given.
         # https://support.ouraring.com/hc/en-us/articles/25358829055251-Resilience
-        "reference": "Balance stress load with recovery",
+        "reference": "Balance with recovery",
         "valid": (0, 100),
         "direction": "none",
     },
@@ -128,11 +128,11 @@ TARGETS = {
     },
     "Nerve Response Score (Withings)": {
         # API type196 is distinct from NHS158/159/167 and ESC229.
-        "reference": "Provider-specific nerve response",
+        "reference": "-",
         "direction": "none",
     },
     "Skin Temperature (Withings)": {
-        "reference": "Personal peripheral-temperature baseline",
+        "reference": "Skin temperature baseline",
         "valid": (None, None),
         "direction": "none",
     },
@@ -142,12 +142,12 @@ TARGETS["Average Sleeping Stress (Garmin)"] = dict(TARGETS["Average Stress (Garm
 TARGETS["Body Battery at Wakeup (Garmin)"] = dict(TARGETS["Body Battery Highest (Garmin)"])
 for _name in ("Sleep Score", "Sleep History", "Stress History", "HRV", "Recovery Time", "Load"):
     TARGETS[f"Morning {_name} Contributor (Garmin)"] = {
-        "reference": "Higher readiness contribution", "valid": (0, 100),
+        "reference": "Higher supports readiness", "valid": (0, 100),
         "direction": "up", "trend_min_change": 1,
     }
 for _marker in ("Sampled Sleep RMSSD (Withings)", "Sampled Sleep SDNN1 (Withings)"):
     TARGETS[_marker] = {
-        "reference": "Personal baseline; sustained recovery trend", "direction": "up",
+        "reference": "Personal baseline", "direction": "up",
         "trend_min_change": 1,
     }
 
@@ -190,7 +190,7 @@ for _marker in (
     "HRV at Sleep End (Withings)",
 ):
     TARGETS[_marker] = {
-        "reference": "Personal baseline; sustained recovery trend",
+        "reference": "Personal baseline",
         "direction": "up",
     }
 
@@ -204,7 +204,7 @@ for _marker in (
     "7-day Average HRV (Garmin)",
 ):
     TARGETS[_marker] = {
-        "reference": "Within personal HRV baseline (Balanced)",
+        "reference": "Balanced baseline",
         "direction": "none",
     }
 
@@ -214,7 +214,7 @@ for _marker in (
     "Sampled HRV During Sessions (Oura)",
 ):
     TARGETS[_marker] = {
-        "reference": "Personal baseline for the same window",
+        "reference": "Same-window baseline",
         "direction": "none",
     }
 
@@ -228,7 +228,7 @@ for _marker in (
     "Skin Temperature Deviation (Garmin)",
 ):
     TARGETS[_marker] = {
-        "reference": "Near personal baseline (0)",
+        "reference": "Near 0 (baseline)",
         "valid": (None, None),
         "direction": "zero",
     }
