@@ -53,6 +53,7 @@ COMPACT_QUANTITY_RE = re.compile(
 TIER_BY_CODE = {
     "M.1": "🥇",
     "M.2": "🥈",
+    "M.3": "🥈",
     "M.4": "🥈",
     "M.5": "🥈",
     "M.6": "🥈",
@@ -152,7 +153,14 @@ PAGES = [
                 icons="🦠 🚽",
                 note="Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475",
             ),
-            empty("M.3"),
+            item(
+                "M.3",
+                "Iron (Ferrochel)",
+                "18mg",
+                qty="1capsule",
+                icons="🩸 🔄",
+                note="Daily with Breakfast",
+            ),
             item(
                 "M.4",
                 "CoQ10 (Ubiquinone)",
@@ -303,7 +311,7 @@ PAGES = [
             item("E.13", "Milk Thistle", "380 mg", icons="🛡️ 🚽 🔄"),
             item(
                 "E.14",
-                "Silexan® (Nature's Way CalmAid)",
+                "Silexan (Lavender Oil)",
                 "80mg",
                 qty="1softgel",
                 icons="😌 😴",
@@ -665,7 +673,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 21 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
