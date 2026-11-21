@@ -2,7 +2,7 @@ import copy
 from datetime import date
 import unittest
 
-from tools.health_sync import categorical
+from tools.health_sync import categorical, garmin, monthly
 
 
 def event(key, day, value="Negative", provider="withings"):
@@ -12,6 +12,65 @@ def event(key, day, value="Negative", provider="withings"):
 
 
 class ClassificationTests(unittest.TestCase):
+    def test_each_garmin_workout_reaches_monthly_counts_and_report_overlay(self):
+        def activity(identifier, hour, label="AEROBIC_BASE"):
+            return {"activityId": identifier, "startTimeLocal": f"2026-07-02 {hour}:00:00",
+                    "trainingEffectLabel": label}
+
+        morning = activity(1, "09")
+        payload = {"activities": [{"day": "2026-07-02", "data": [
+            morning, activity(2, "18"), activity(3, "20", "RECOVERY"), copy.deepcopy(morning),
+        ]}]}
+        records = garmin.categorical_inventory(payload)
+        self.assertEqual(len(records), 3)  # An exact repeated source object is still one workout.
+        before = copy.deepcopy(records)
+        summaries = categorical.aggregate(records, date(2026, 7, 3))
+        marker = "Workout Training Effect (Garmin)"
+        entry = summaries["2026-07"][marker]
+        self.assertEqual(entry["counts"], {"AEROBIC_BASE": 2, "RECOVERY": 1})
+        self.assertEqual(entry["n_records"], 3)
+        self.assertEqual(entry["n_days"], 1)
+        followups, notes = {}, []
+        monthly.apply_report_overlay(followups, notes, {"months": {}, "categorical_months": summaries})
+        self.assertEqual(followups["2026-07"][marker], "AEROBIC_BASE: 2; RECOVERY: 1")
+        self.assertEqual(records, before)
+
+    def test_garmin_activity_ids_remain_distinct_even_with_equal_timestamps(self):
+        records = garmin.categorical_inventory({"activities": [{"day": "2026-07-02", "data": [
+            {"activityId": identifier, "startTimeLocal": "2026-07-02 09:00:00",
+             "trainingEffectLabel": "AEROBIC_BASE"} for identifier in (1, 2)
+        ]}]})
+        for record in records:
+            record["recorded_at"] = "2026-07-02T09:00:00+02:00"
+        entry = categorical.aggregate(records + [copy.deepcopy(records[0])], date(2026, 7, 3))[
+            "2026-07"]["Workout Training Effect (Garmin)"]
+        self.assertEqual(entry["counts"], {"AEROBIC_BASE": 2})
+
+    def test_missing_withings_timestamp_does_not_make_distinct_tests_duplicates(self):
+        for stamp in (None, ""):
+            records = [event("first", "2026-07-02"), event("second", "2026-07-02")]
+            for record in records:
+                if stamp is None:
+                    record.pop("recorded_at")
+                else:
+                    record["recorded_at"] = stamp
+            with self.subTest(timestamp=stamp):
+                entry = categorical.aggregate(records, date(2026, 7, 3))[
+                    "2026-07"]["ECG AF Classification (Withings)"]
+                self.assertEqual(entry["counts"], {"Negative": 2})
+                self.assertEqual(entry["n_days"], 1)
+
+    def test_daily_garmin_statuses_still_count_completed_days_once(self):
+        records = garmin.categorical_inventory({"hrv": [
+            {"day": day, "data": {"hrvSummary": {"calendarDate": day, "status": "BALANCED"}}}
+            for day in ("2026-07-01", "2026-07-02", "2026-07-03")
+        ]})
+        entry = categorical.aggregate(records + [copy.deepcopy(records[0])], date(2026, 7, 3))[
+            "2026-07"]["HRV Status (Garmin)"]
+        self.assertEqual(entry["counts"], {"BALANCED": 2})
+        self.assertEqual(entry["n_days"], 2)
+        self.assertEqual(entry["last_day"], "2026-07-02")
+
     def test_same_test_exposed_by_two_collections_is_counted_once(self):
         data = categorical.aggregate([event("measure", "2026-07-02"), event("heart", "2026-07-02"),
                                       event("later", "2026-07-03", "Inconclusive")], date(2026, 9, 6))
