@@ -39,7 +39,7 @@
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ### Promote
-- 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🔥 🛡️ ⏰
+- 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🌡️ 🛡️ ⏰
 - 🥇 [Physical activity & active/deep recovery](#3-exercise)
 - 🥇 Social connection & psychological wellbeing
 - 🥈 [Red Light Therapy](#home-procedures) ❤️ 🛡️ 👨‍🦳 ⏰
@@ -724,7 +724,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
    - **Pump / blood flow**
      - L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base)
    - **Endurance / fatigue resistance**
-     - Beta-Alanine 4g 💪 🔥
+     - Beta-Alanine 4g 💪 🥊
    - **Focus / stimulation**
      - L-Tyrosine 1g 🧠 ⚡
      - Caffeine Anhydrous 200mg ⚡ 🧠<sup>L.6-7</sup>
@@ -749,7 +749,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - **IW.0.1** 2.5L Water 💧
 - 🥇 **IW.0.2** [ALLHydrate Electrolytes Neutral 2.73g — 1scoop (~3ml)](https://allegro.pl/oferta/allhydrate-by-aliness-neutral-elektrolity-205-g-50-porcji-17359439491)
   - Sodium 667mg; Chloride 1.095g; Potassium 200mg; Magnesium 40mg<sup>E.12</sup>; Calcium 80mg; Phosphorus 70mg; 0kcal
-  - During Sauna sessions: +2.73g — 1scoop (~3ml) 🔥 💧
+  - During Sauna sessions: +2.73g — 1scoop (~3ml) 🌡️ 💧
 - 🥈 **IW.0.3** [Highly Branched Cyclic Dextrin (Cluster Dextrin®) 25g — 1scoop (50ml)](https://www.hsnstore.pl/marki/raw-series/cluster-dextrin-silnie-rozgaleziona-cykliczna-dekstryna-w-proszku) ⚡ 💪
   - Carbohydrates 24g; Sugars 0g; 94kcal
 
@@ -862,7 +862,7 @@ There are actual studies that confirm if you look younger and better you are mor
 
 ### Eyebrows
 - [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily)
-- Minoxidil 5% (daily) 🧔
+- Minoxidil 5% (daily) 💇‍♂️
 - [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
 - Styling (monthly) at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk)
 - (optional) Microblading (5th of January every year) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
@@ -1081,6 +1081,11 @@ Even if you do everything right you can be exposed to harmful environment, so it
   - **Recovery**: Still ongoing up until at least 28 August 2026, some swelling still present at the tip of the nose
 
 ## Legend
+
+Target icons identify an intervention's intended area or the system assessed by a test/device. Evidence medals describe support separately; an icon alone does not establish benefit or a diagnosis.
+
+**Blueprint comparisons**
+
 - BJ-LM - [Bryan Johnson Longevity Mix](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)
 - BJ-CP - [Bryan Johnson Collagen peptides](https://blueprint.bryanjohnson.com/products/collagen)
 - BJ-CR - [Bryan Johnson Creatine](https://blueprint.bryanjohnson.com/products/creatine)
@@ -1088,52 +1093,72 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - BJ-ES - [Bryan Johnson Essential Softgel](https://blueprint.bryanjohnson.com/products/essential-softgels)
 - BJ-NGC - [Bryan Johnson NAC + Ginger + Curcumin](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)
 - BJ-RYG - [Bryan Johnson Red Yeast Garlic](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)
+
+**Evidence medals**
+
 - 🥇 Gold — Strongest relevant human evidence and meaningful expected benefit
 - 🥈 Silver — Supportive but smaller, indirect or limited human evidence, or more modest benefit
 - 🥉 Bronze — Exploratory: mechanisms, animal work, pharmacokinetics or small pilots without an established outcome benefit
-- ⚕️ Requires prescription (Rx): [erecepty24](https://erecepty24.pl) for ready-made medicines; [Telemedi](https://telemedi.com) for custom medicines (lek recepturowy)
-- 🔄 Automatically renewed and shipped (Subscribe & Save)
+
+**Supplement medals:** grade the exact intervention, not purity, safety, organizer order or guaranteed response. Bronze does not imply removal; indication, biomarkers or repeatable response can change a tier. Blend medals grade the overall intervention, not each ingredient. Drugs, Water and EVOO remain unmedalled.
+
+**Status and preparation**
+
+- ⚕️ Medicine / clinician-managed treatment; prescription status depends on the exact product. Prescription routes: [erecepty24](https://erecepty24.pl) for ready-made medicines; [Telemedi](https://telemedi.com) for custom medicines (lek recepturowy)
+- 🔄 Identified retailer Subscribe & Save route; activation, exact-SKU eligibility and current renewal terms require verification
+- 💊 Pills or a link to the supplement schedule; 🥤 drink/powder preparation
+- ✅ Vaccination recorded as received; read the dose/course and next-due text separately
+- `[x]` / `[ ]` Selected / alternative in Diet; completed / pending in TODOs
+- ⛔️ / 🚫 / ❌️ Avoid; ✋️ limit; ⚠️ caution
+
+**Targets and systems**
+
 - 💪 Muscle growth/recovery
-- ❤️ Heart health/cardiovascular benefits
+- ❤️ Heart/cardiovascular health
 - 🧠 Brain health/cognitive function
-- 🛡️ Antioxidant/immune system
-- ⏰ Longevity/anti-aging
-- 🔥 Anti-inflammatory
-- 🦠 Gut health/microbiome
-- 🦴 Joint/bone health
-- 💇‍♂️ Hair health/growth
+- 🛡️ Antioxidant/immune-related target
+- ⏰ Healthy aging/longevity target; not proof of longer lifespan
+- 🔥 Inflammation-related target or marker
+- 🦠 Gut health/microbiome or microbes being assessed
+- 🦴 Joint/bone/connective-tissue health
+- 💇‍♂️ Hair/scalp/eyebrow health or growth
 - 🧔 Beard health/growth
-- 👨‍🦳 Skin/anti-aging
+- 👨‍🦳 Skin/visible skin aging
 - 🗿 Looksmaxxing/skin radiance
-- 🍆 Sexual health/testosterone
+- 🍆 Sexual/reproductive health or hormone-related target
 - 👁️ Eye health
 - 😴 Sleep quality
 - 😌 Stress reduction
-- 🩸 Blood sugar regulation
-- 🫁 Cardiovascular endurance
-- 🫀 Circulatory system
-- 🚽 Digestive health/regularity
+- 🩸 Blood/metabolic markers, including glucose, lipids, Iron or clotting, as specified by the entry
+- 🫁 Respiratory health/aerobic endurance
+- 🫀 Circulation/blood flow
+- 🚽 Digestion/bowel regularity; urine context = elimination
 - 🥊 Athletic performance
 - 🍎 General nutrition/multivitamin
-- 🌱 Plant-based protein
+- 🌱 Plant foods/plant-based protein
 - 🌾 Complex carbs
 - 🍅 Prostate health
-- 💊 Medication bioavailability
-- 🍋 Vitamin C/immunity
-- ⚡ Energy/pre-workout boost
-- 💧 Hydration/moisture
-- 🍄 Anti-fungal
+- 🍋 Vitamin C
+- ⚡ Energy/alertness/training fuel
+- 💧 Hydration/fluid balance or skin moisture; bedroom context = humidity
+- 🍄 Antifungal target; food-heading context = Mushrooms
 - 💅 Nail health
 - 🫘 Kidney health
 - 🦋 Thyroid health
-- 🟤 Liver/Organ function
+- 🟤 Liver/biliary/pancreatic function
+
+**Food flags**
+
 - 🪶 Low-FODMAP
 - 🎈 High-FODMAP
 - 🟡 Tooth/bonding staining precaution; evidence varies — [care and evidence](#dental-staining)
 
-**Supplement medals:** grade the exact intervention, not purity, safety, organizer order or guaranteed response. Bronze does not imply removal; indication, biomarkers or repeatable response can change a tier. Blend medals grade the overall intervention, not each ingredient. Drugs, Water and EVOO remain unmedalled.
-
 *FODMAP tags apply to the listed portion/preparation; unmarked = unverified. [Serving checks](#diet-fodmap-tags).*
+
+**Environment and food pictograms**
+
+- 🌡️ Temperature/heat exposure; 🌑 darkness; 🔇 quiet; 🛏️ bed environment
+- Meal/food pictograms such as 🍽️, 🥛, 🥬 and 🫐 identify the meal or food group rather than an additional benefit.
 
 ## Notes
 
