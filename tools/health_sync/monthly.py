@@ -161,6 +161,8 @@ def merge_file_records(existing, incoming, providers, start, end, *, partial_api
     A Withings daily sleep value must cover every previously known contributing
     session before replacing that day; incomplete files require a full API sync.
     Garmin daily HR-zone sums likewise require every known contributing activity.
+    An amendment may change an observation's date only when its original date
+    also lies within the requested range.
     """
     # Reuse range/provider/input checks without treating a file as a full fetch.
     incoming = merge_records([], incoming, providers, start, end)
@@ -179,6 +181,12 @@ def merge_file_records(existing, incoming, providers, start, end, *, partial_api
         return record["provider"], identity, record["metric"]
 
     replacements = {key(record) for record in incoming}
+    if any(key(record) in replacements and not start <= iso_date(record["day"]) <= end
+           for record in existing):
+        raise ValueError(
+            "An imported measurement would replace history outside the requested date range. "
+            "Review the source dates and import range; existing results were preserved."
+        )
     if partial_api and any(record["source_kind"] != "api" for record in incoming):
         raise ValueError("Partial API merging requires only API observations.")
     if len(replacements) != len(incoming) and not partial_api:

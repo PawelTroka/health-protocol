@@ -21,6 +21,7 @@ def validate(events):
 
 
 def merge(existing, incoming, providers, start, end, *, complete):
+    """Amend represented events without changing history outside the range."""
     if start < MANAGED_START or end < start:
         raise ValueError("Device classification imports begin July 2026.")
     incoming = [event for event in validate(incoming) if start <= iso_date(event["day"]) <= end]
@@ -31,7 +32,14 @@ def merge(existing, incoming, providers, start, end, *, complete):
         return event["provider"], key, event["metric"]
 
     affected = {identity(event) for event in incoming}
-    retained = [event for event in validate(existing)
+    existing = validate(existing)
+    if any(identity(event) in affected and not start <= iso_date(event["day"]) <= end
+           for event in existing):
+        raise ValueError(
+            "An imported classification would replace history outside the requested date range. "
+            "Review the source dates and import range; existing results were preserved."
+        )
+    retained = [event for event in existing
                 if not ((complete and event["provider"] in providers and start <= iso_date(event["day"]) <= end)
                         or identity(event) in affected)]
     return validate(retained + incoming)

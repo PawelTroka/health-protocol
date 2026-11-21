@@ -207,6 +207,34 @@ class MonthlyValidationAndMergeTests(unittest.TestCase):
             merge_file_records([], [oura("csv", value=7), oura("api", value=8, source_kind="api")],
                                {"oura"}, date(2026, 8, 1), date(2026, 8, 31))
 
+    def test_file_amendment_cannot_move_history_from_outside_requested_dates(self):
+        incoming = [measurement("revised", "2026-08-15", 79)]
+        for day in ("2026-07-31", "2026-09-01"):
+            for partial_api in (False, True):
+                with self.subTest(day=day, partial_api=partial_api):
+                    existing = [measurement("revised", day), measurement("untouched")]
+                    before = copy.deepcopy(existing)
+                    with self.assertRaisesRegex(ValueError, "outside.*requested date range"):
+                        merge_file_records(existing, incoming, {"withings"},
+                                           date(2026, 8, 1), date(2026, 8, 31),
+                                           partial_api=partial_api)
+                    self.assertEqual(existing, before)
+
+    def test_file_date_corrections_work_when_both_dates_are_in_range(self):
+        for old_day, start in (("2026-08-01", date(2026, 8, 1)),
+                               ("2026-07-31", date(2026, 7, 31))):
+            with self.subTest(old_day=old_day):
+                # Another metric with the same ID is a distinct observation.
+                unrelated = measurement("revised", "2026-07-01", 15, "Body Fat", unit="%")
+                old = measurement("revised", old_day)
+                corrected = measurement("revised", "2026-08-31", 79)
+                existing = [old, unrelated]
+                before = copy.deepcopy(existing)
+                merged = merge_file_records(existing, [corrected], {"withings"},
+                                            start, date(2026, 8, 31))
+                self.assertCountEqual(merged, [corrected, unrelated])
+                self.assertEqual(existing, before)
+
     def test_partial_api_replaces_oura_observation_set_without_mixing_csv(self):
         existing = [oura("old-csv", value=6), oura("unavailable-day", "2026-08-02", 7)]
         incoming = [oura("sample-one", value=7, source_kind="api"),

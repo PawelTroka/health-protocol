@@ -10,7 +10,7 @@ import unittest
 from unittest.mock import patch
 
 from tools import sync_vitals as cli
-from tools.health_sync import api, auth, ecg_records, garmin, monthly, oura
+from tools.health_sync import api, auth, ecg_records, garmin, monthly, oura, withings
 
 
 class FixedDateTime(datetime):
@@ -460,6 +460,54 @@ class SyncCliTests(unittest.TestCase):
             self.assertIn(retained, private["records"])
         self.assertEqual(len(private["classifications"]), 1)
         self.assertEqual(private["classifications"][0]["value"], "BALANCED")
+        self.fetch.assert_not_called()
+
+    def test_file_date_moves_outside_requested_range_preserve_all_outputs(self):
+        for classification_only in (False, True):
+            for old_day in ("2026-07-31", "2026-09-06"):
+                with self.subTest(classification_only=classification_only, old_day=old_day):
+                    group = withings_group()
+                    if classification_only:
+                        group["measures"] = [{"type": 130, "value": 1, "unit": 0}]
+                    payload = {"measuregrps": [group]}
+                    old_payload = {"measuregrps": [{**group, "date": int(datetime.fromisoformat(
+                        old_day + "T12:00:00+00:00").timestamp())}]}
+                    (self.cache / "records.json").write_bytes(cli.json_bytes({
+                        "schema_version": 1,
+                        "records": self.previous_records[1:] + withings.parse_api(old_payload),
+                        "classifications": withings.categorical_inventory(old_payload),
+                    }))
+                    args = self.import_file(payload)
+                    before = self.snapshot()
+                    with self.assertRaisesRegex(ValueError, "outside.*requested date range"):
+                        self.run_quietly(args)
+                    self.assertEqual(self.snapshot(), before)
+                    self.prepare.assert_not_called()
+        self.fetch.assert_not_called()
+
+    def test_wider_file_import_can_apply_a_numeric_and_classification_date_correction(self):
+        group = withings_group()
+        group["measures"].append({"type": 130, "value": 1, "unit": 0})
+        payload = {"measuregrps": [group]}
+        old_payload = {"measuregrps": [{**group, "date": int(datetime(
+            2026, 7, 31, 12, tzinfo=timezone.utc).timestamp())}]}
+        (self.cache / "records.json").write_bytes(cli.json_bytes({
+            "schema_version": 1,
+            "records": self.previous_records[1:] + withings.parse_api(old_payload),
+            "classifications": withings.categorical_inventory(old_payload),
+        }))
+        args = self.import_file(payload)
+        args.start = "2026-07-31"
+        self.run_quietly(args)
+        saved = json.loads((self.cache / "records.json").read_bytes())
+        moved = [record for record in saved["records"] if record["id"].startswith("withings:measure:101:")]
+        self.assertEqual(len(moved), 2)  # Same-group mass and derived BMI.
+        self.assertTrue(all(record["day"] == "2026-08-03" for record in moved))
+        self.assertEqual(len(saved["classifications"]), 1)
+        self.assertEqual(saved["classifications"][0]["day"], "2026-08-03")
+        for retained in self.previous_records[1:]:
+            self.assertIn(retained, saved["records"])
+        self.assertEqual(len(list((self.cache / "raw" / "withings").glob("*.json"))), 1)
         self.fetch.assert_not_called()
 
     def test_nonnumeric_file_dry_runs_do_not_write_outputs_or_archives(self):

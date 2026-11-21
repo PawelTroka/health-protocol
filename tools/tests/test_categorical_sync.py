@@ -104,6 +104,32 @@ class ClassificationTests(unittest.TestCase):
                                    date(2026, 7, 31), complete=False)
         self.assertEqual(len(merged), 2)
 
+    def test_classification_amendment_cannot_move_history_from_outside_requested_dates(self):
+        incoming = [event("revised", "2026-08-15", "Inconclusive")]
+        for day in ("2026-07-31", "2026-09-01"):
+            for complete in (False, True):
+                with self.subTest(day=day, complete=complete):
+                    existing = [event("revised", day), event("untouched", "2026-08-01")]
+                    before = copy.deepcopy(existing)
+                    with self.assertRaisesRegex(ValueError, "outside.*requested date range"):
+                        categorical.merge(existing, incoming, {"withings"},
+                                          date(2026, 8, 1), date(2026, 8, 31), complete=complete)
+                    self.assertEqual(existing, before)
+
+    def test_classification_date_corrections_work_when_both_dates_are_in_range(self):
+        for old_day, start in (("2026-08-01", date(2026, 8, 1)),
+                               ("2026-07-31", date(2026, 7, 31))):
+            with self.subTest(old_day=old_day):
+                old = event("revised", old_day)
+                corrected = event("revised", "2026-08-31", "Inconclusive")
+                unrelated = {**event("revised", "2026-07-01"), "metric": "PPG AF Classification (Withings)"}
+                existing = [old, unrelated]
+                before = copy.deepcopy(existing)
+                merged = categorical.merge(existing, [corrected], {"withings"},
+                                           start, date(2026, 8, 31), complete=False)
+                self.assertCountEqual(merged, [corrected, unrelated])
+                self.assertEqual(existing, before)
+
     def test_legacy_breathing_codes_remain_in_cache_but_are_not_averaged_or_reported(self):
         old = [event("ecg", "2026-07-02")]
         for name in ("Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)"):
