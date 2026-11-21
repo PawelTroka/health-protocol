@@ -64,17 +64,17 @@ TIER_BY_CODE = {
     "M.13": "🥈",
     "M.14": "🥉",
     "M.15": "🥉",
-    "M.16": "🥉",
+    "M.16": "🥇",
     "M.18": "🥉",
-    "L.2": "🥈",
-    "L.3": "🥈",
+    "L.2": "🥇",
+    "L.3": "🥇",
     "L.5": "🥈",
-    "L.6": "🥈",
-    "L.7": "🥈",
+    "L.6": "🥇",
+    "L.7": "🥇",
     "L.9": "🥉",
     "L.10": "🥈",
     "L.11": "🥈",
-    "L.12": "🥉",
+    "L.12": "🥇",
     "L.13": "🥉",
     "L.14": "🥈",
     "L.15": "🥈",
@@ -83,7 +83,7 @@ TIER_BY_CODE = {
     "L.18": "🥉",
     "E.3": "🥈",
     "E.4": "🥈",
-    "E.5": "🥈",
+    "E.5": "🥇",
     "E.6": "🥈",
     "E.7": "🥈",
     "E.8": "🥉",
@@ -92,7 +92,7 @@ TIER_BY_CODE = {
     "E.11": "🥈",
     "E.12": "🥈",
     "E.13": "🥉",
-    "E.14": "🥈",
+    "E.14": "🥇",
     "E.15": "🥉",
     "E.16": "🥉",
     "E.17": "🥉",
@@ -106,7 +106,7 @@ TIER_BY_CODE = {
     "B.7": "🥉",
     "B.8": "🥉",
     "B.9": "🥉",
-    "A.1": "🥈",
+    "A.1": "🥇",
     "A.2": "🥈",
     "A.3": "🥈",
     "A.4": "🥈",
@@ -209,7 +209,7 @@ PAGES = [
                 "M.16",
                 "Betaine (TMG)",
                 "1g",
-                icons="🩸 🧪 🔄",
+                icons="🩸 🔄",
             ),
             empty("M.17"),
             item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons="🧪"),
@@ -258,7 +258,7 @@ PAGES = [
                 "L.12",
                 "Betaine (TMG)",
                 "1g",
-                icons="🩸 🧪 🔄",
+                icons="🩸 🔄",
             ),
             item("L.13", "Broccoli Seed Extract", "200 mg", icons="🧪", note="Glucoraphanin 20 mg • Myrosinase"),
             item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽"),
@@ -631,7 +631,7 @@ def add_page(document, page_data, page_index):
     add_hyperlink(p, "GymBeam Adjustable PillBox", PILLBOX_URL, color=accent)
     run = p.add_run(" • Full legend/evidence: README.md")
     set_repeatable_font(run, 7.3, color=COLORS["muted"])
-    for medal, label in (("🥇", "strongest"), ("🥈", "supportive"), ("🥉", "exploratory"), ("🧪", "experimental targets")):
+    for medal, label in (("🥇", "established"), ("🥈", "promising"), ("🥉", "exploratory"), ("🧪", "experimental targets")):
         run = p.add_run(" • ")
         set_repeatable_font(run, 6.8, color=COLORS["muted"])
         run = p.add_run(medal)

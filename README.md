@@ -45,8 +45,8 @@
 - 🥉 [Red Light Therapy](#home-procedures) 👨‍🦳 🧪
 - 🥉 Cold exposure	(4 times a week) 🌡️ 🧪
 - 🥈 Meditation / breathwork (daily) 🧠 😌
-- 🥈 Walks (daily) ❤️ 🥊
-- 🥈 Stretching (6 times a week) 🤸
+- 🥇 Walks (daily) ❤️ 🥊
+- 🥇 Stretching (6 times a week) 🤸
 - 🥉 Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
 - 🥉 [Natural materials](#bedding-and-textiles)
 
@@ -628,14 +628,14 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥇 **M.0.2** [Psyllium Husk 7.5g — 1tbsp (15ml)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🩸
 - 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥈 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (40ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🥊 🦴 👨‍🦳 🚽 🔄
+- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (40ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🥊 🦴 👨‍🦳 🚽 🔄
    - **Structural / performance / digestive blend**
      - Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴
      - Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🥊
      - Psyllium Husk (Soluble Fiber) 2.5g<sup>M.0.2</sup> 🚽 🩸
      - Taurine 1g<sup>B.3-4</sup> ❤️ 🥊 🧪
    - **Cognition / methylation**
-     - Betaine (TMG) 500mg<sup>M.0.3.2.1</sup> 🩸 🧪
+     - Betaine (TMG) 500mg<sup>M.0.3.2.1</sup> 🩸
      - Choline Bitartrate 181.5mg 🍎
      - Methylated Folate (5-MTHF) 200mcg 🍎
      - Methylated Vitamin B12 12mcg<sup>M.0.3.2.4</sup> 🍎
@@ -686,24 +686,24 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **M.13** [Astaxanthin (AstaReal®) 12mg](https://pl.iherb.com/pr/double-wood-supplements-astaxanthin-astareal-12-mg-60-softgels/161500) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👨‍🦳 🥊 🧪
 - 🥉 **M.14** [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436) [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍎 🦴 🩸
 - 🥉 **M.15** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧪
-- 🥉 **M.16** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🩸 🧪 🔄
+- 🥇 **M.16** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🩸 🔄
 - **M.17** (empty)
 - 🥉 **M.18** [Spermidine HCl 50mg (Spermidine 28mg)](https://allegro.pl/produkt/suplement-diety-forest-vitamin-spermidyna-50-mg-60-kapsulek-79220a55-116b-48d8-8d18-23106df5521f?offerId=18841623878) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧪
 
 ### Lunch
 - **L.1.1** [Ezetimibe 10mg](https://www.mp.pl/pacjent/leki/lek/93836,Ezoleta-tabletki) ❤️ 🩸 ⚕️
 - **L.1.2** [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 🍅 ⚕️
-- 🥈 **L.2-3** 2x [Omega 3 690mg EPA 310mg DHA](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) (non-Fatty-Fish days only) 🍎 🩸 🔄
+- 🥇 **L.2-3** 2x [Omega 3 690mg EPA 310mg DHA](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) (non-Fatty-Fish days only) 🍎 🩸 🔄
 - **L.4** (empty)
 - 🥈 **L.5** [Sodium Butyrate 500mg (Butyric acid 400mg)](https://gemini.pl/debutir-max-60-kapsulek-9086424) 🦠 🚽 🧪
-- 🥈 **L.6-7** 2x [Cocoa Flavanols 250mg](https://onepure.ee/en/products/cocoa-flavanols) ❤️ 🫀
+- 🥇 **L.6-7** 2x [Cocoa Flavanols 250mg](https://onepure.ee/en/products/cocoa-flavanols) ❤️ 🫀
 - **L.8** (empty)
 - 🥉 **L.9** [Lycopene 20mg](https://allegro.pl/oferta/likopen-mikrokapsulkowany-20-mg-lycopene-60-kapsulek-15828261195) [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👨‍🦳 🧪
 - 🥈 **L.10** [Curcumin + Ginger + Turmerones](https://pl.iherb.com/pr/life-extension-advanced-curcumin-elite-turmeric-extract-ginger-turmerones-30-softgels/97642) [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🦴 🧪 🔄
   - Advanced Curcumin Elite™ CGM Blend 500mg (Curcuminoids 200mg; Turmerones 15mg; Fenugreek Galactomannans 150mg); Gingerols 60mg; Turmeric-Oil Turmerones 60mg
 - 🥈 **L.11** [Ceratiq® Wheat Oil Extract 350mg](https://pl.iherb.com/pr/life-extension-skin-restoring-ceramides-30-liquid-vegetarian-capsules/84506) 👨‍🦳 💧 🔄
   - phytoceramides; glycosylceramides; glycolipids
-- 🥉 **L.12** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🩸 🧪 🔄
+- 🥇 **L.12** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🩸 🔄
 - 🥉 **L.13** [Broccoli Seed Extract 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧪
   - Glucoraphanin 20mg; Myrosinase 17.7µM/g
 - 🥈 **L.14** [Berberine HCl 490mg](https://bmpharma.pl/products/berberine) 🩸 🚽
@@ -720,7 +720,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **B.0.3** [Collagen Peptides 13.33g — 4scoops (4x~10ml)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴
   - Protein 13.33g; Fat 0g; Carbohydrates 0g; 53kcal
 - 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (~10ml; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🥊
-- 🥈 **B.0.2** [HSN EvoBomb 2.0 20g — 2scoops (2x15ml)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 🥊
+- 🥇 **B.0.2** [HSN EvoBomb 2.0 20g — 2scoops (2x15ml)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 🥊
    - **Pump / blood flow**
      - L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base) 🥊
    - **Endurance / fatigue resistance**
@@ -757,11 +757,11 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 🥤 drink:
 - 🥇 **A.0.1** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 15g — 1scoop (25ml)](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪
+- 🥇 **A.0.2** [Essential Amino Acids (EAA) Unflavored 15g — 1scoop (25ml)](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪
   - Free Essential Amino Acids 14.189g; L-Leucine 4.71g; L-Lysine 2.526g; L-Isoleucine 1.686g; L-Valine 1.686g; L-Threonine 1.551g; L-Histidine 765mg; L-Methionine 421.5mg; L-Phenylalanine 421.5mg; L-Tryptophan 421.5mg
 
 💊 pills:
-- 🥈 **A.1** [UC-II® Type II Collagen 40mg](https://pl.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318) 🦴 🤸 🔄
+- 🥇 **A.1** [UC-II® Type II Collagen 40mg](https://pl.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318) 🦴 🤸 🔄
   - Total Collagen 10mg, including Undenatured Type II Collagen; Mineralized Red-Algae Complex 250mg; Calcium 80mg
 - 🥈 **A.2** [Urolithin A 500mg](https://www.naturecan.pl/products/urolityna-a) 💪 🧪
 - 🥈 **A.3-4** 2x [MSM (OptiMSM®) 1.5g](https://pl.iherb.com/pr/doctor-s-best-msm-with-optimsm-1-500-mg-120-tablets/3) 🦴 👨‍🦳 🧪 🔄
@@ -777,7 +777,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **E.3** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
 - 🥈 **E.4** [Sodium Butyrate 500mg (Butyric acid 400mg)](https://gemini.pl/debutir-max-60-kapsulek-9086424) 🦠 🚽 🧪
-- 🥈 **E.5** [Melatonin 1mg + Botanical Extract Blend](https://bmpharma.pl/products/melisen) 😴 🕒
+- 🥇 **E.5** [Melatonin 1mg + Botanical Extract Blend](https://bmpharma.pl/products/melisen) 😴 🕒
   - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>M.0.3.3.5</sup>
 - 🥈 **E.6** [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-480-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17286271854) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌 🧪
 - 🥈 **E.7** [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://gymbeam.pl/ashwagandha-ksm-66r-500mg-gymbeam.html) 😌 😴 🍆
@@ -786,7 +786,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **E.12** [Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🍎 🦴
 - 🥉 **E.13** [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064) 🟤 🧪 🔄
   - Silymarin 240mg; Silybin 90mg; Isosilybin A/B 24mg; Silybin-Phosphatidylcholine Complex 80mg (Silybin 23.76mg); Silybin 113.76mg
-- 🥈 **E.14** [Silexan (Lavender Oil) 80mg](https://pl.iherb.com/pr/nature-s-way-calmaid-80-mg-30-softgels/43054) 😌 😴
+- 🥇 **E.14** [Silexan (Lavender Oil) 80mg](https://pl.iherb.com/pr/nature-s-way-calmaid-80-mg-30-softgels/43054) 😌 😴
 - 🥉 **E.15** [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256) 😴 🧪 🔄
   - GABA 250mg; Magnesium (Citrate) 20mg<sup>E.12</sup>
 - 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 🧪
@@ -1098,12 +1098,12 @@ Icons distinguish nutritional roles, clinical targets and the systems assessed b
 
 **Evidence medals**
 
-- 🥇 Gold — Strong, replicated human evidence for the main indicated target at a relevant dose/form
-- 🥈 Silver — Supportive human evidence with modest effects, limited replication or an important population/formulation gap
-- 🥉 Bronze — Exploratory for this use: mechanistic or preliminary biomarker evidence, small/mixed pilots or substantial dose/formulation gaps
+- 🥇 Gold — Established support for the main stated benefit: consistent human evidence or a well-established physiological effect at a relevant dose/form
+- 🥈 Silver — Promising human evidence with meaningful limits in consistency, replication or applicability
+- 🥉 Bronze — Exploratory for the intended benefit: preliminary/mixed human findings, mainly mechanistic evidence or a substantial dose/formulation gap
 - 🧪 Experimental use — All clinical benefit targets on that row remain exploratory for the written use; alone, no specific benefit is established. This does not qualify ordinary nutrient roles or status flags. It never means proven safety.
 
-**Supplement medals:** consider the written intervention and its main target, including daily totals and indication. They do not grade purity, safety or organizer order. Bronze does not imply removal; new evidence or a confirmed indication can change a tier. Blend medals do not validate every ingredient or prove synergy. No medal means ungraded, not ineffective. Drugs, Water and EVOO remain unmedalled.
+**Supplement medals:** grade evidence for the main stated benefit at the relevant daily exposure. A modest, well-established effect can earn Gold; longer-life evidence, an exact-brand trial and a guaranteed personal response are not prerequisites. A blend can earn Gold through its principal ingredients at effective doses, without proving synergy or every secondary benefit. Nutrient essentiality alone does not establish a need for supplementation. Medals do not grade purity, safety, organizer order or extra benefit beyond the rest of the stack. Bronze does not imply removal. No medal means ungraded, not ineffective. Drugs, Water and EVOO remain unmedalled.
 
 **Status and preparation**
 
