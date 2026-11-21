@@ -1,8 +1,6 @@
-"""Historical source reconciliation, byte integrity and report rendering."""
+"""Historical source reconciliation, original-byte integrity and normal tables."""
 
 from collections import Counter
-from copy import deepcopy
-from html import escape
 import hashlib
 import json
 import os
@@ -11,7 +9,7 @@ import re
 import runpy
 import tempfile
 import unittest
-from unittest.mock import Mock, patch
+from unittest.mock import patch
 
 from tools import historical_labs
 from tools.tests.test_report_layout import rendered_table_rows
@@ -19,129 +17,164 @@ from tools.tests.test_report_layout import rendered_table_rows
 
 class HistoricalLabTests(unittest.TestCase):
     @classmethod
-    def setUpClass(cls):
+    def load_report(cls):
         with tempfile.TemporaryDirectory() as folder:
             monthly = Path(folder) / "monthly.json"
             monthly.write_text(json.dumps({
                 "schema_version": 1, "as_of": "2026-11-21", "months": {},
             }), encoding="utf-8")
             with patch.dict(os.environ, {"HEALTH_PROTOCOL_VITALS_MONTHLY": str(monthly)}):
-                cls.report = runpy.run_path(
+                return runpy.run_path(
                     str(Path(__file__).parents[1] / "generate_colored_report.py"),
                     run_name="historical_lab_test",
                 )
 
-    def records(self):
-        return [(panel["date"], record) for panel in historical_labs.HISTORICAL_LABS
-                for record in panel["records"]]
+    @classmethod
+    def setUpClass(cls):
+        cls.report = cls.load_report()
 
-    def render(self, output_format):
-        return getattr(historical_labs, f"render_historical_{output_format}")(
-            self.report[f"format_cell_{output_format}"]
-        )
+    def row(self, category, marker, report=None):
+        return next(row for row in (report or self.report)["data"][category] if row[0] == marker)
 
-    def test_primary_report_values_and_dates_reconcile_to_13_unique_observations(self):
-        # Expected transcription from the seven original PDF reports, after
-        # matching their CSV/CDA and certificate duplicates to each specimen.
+    def observations(self, category, marker, report=None):
+        report = report or self.report
+        _, values, _, _ = report["split_result_row"](self.row(category, marker, report))
+        return dict(zip(report["date_columns"], values))
+
+    def test_primary_values_map_to_13_unique_observations_in_existing_categories(self):
+        # Source reconciliation uses the original collection dates, never the
+        # filenames' November 2026 export date or a CDA document timestamp.
         expected = {
-            ("2015-01-14", "Sodium"): ("141", "mmol/l"),
-            ("2015-01-14", "Potassium"): ("4.2", "mmol/l"),
-            ("2015-01-14", "Calcium, total"): ("9.9", "mg/dl"),
-            ("2015-01-14", "Insulin"): ("16.4", "µIU/ml"),
-            ("2015-01-14", "Ferritin"): ("118.3", "ng/ml"),
-            ("2015-01-14", "Homocysteine"): ("10.74", "µmol/l"),
-            ("2015-01-14", "Vitamin D, 25-OH"): ("18.40", "ng/ml"),
-            ("2022-03-17", "SARS-CoV-2 RT-PCR"): ("Negative", "-"),
-            ("2023-10-02", "Total cholesterol"): ("125", "mg/dl"),
-            ("2023-10-02", "HDL cholesterol"): ("41", "mg/dl"),
-            ("2023-10-02", "Non-HDL cholesterol"): ("84", "mg/dl"),
-            ("2023-10-02", "LDL cholesterol"): ("73", "mg/dl"),
-            ("2023-10-02", "Triglycerides"): ("54", "mg/dl"),
+            ("2015-01-14", "Micronutrients", "Sodium"): ("141", "mmol/l"),
+            ("2015-01-14", "Micronutrients", "Potassium"): ("4.2", "mmol/l"),
+            ("2015-01-14", "Micronutrients", "Calcium (Total)"): ("9.9", "mg/dL"),
+            ("2015-01-14", "Metabolic Health", "Insulin"): ("16.4", "uU/mL"),
+            ("2015-01-14", "Micronutrients", "Ferritin"): ("118.3", "ng/ml"),
+            ("2015-01-14", "Cardiac Health & Coagulation", "Homocysteine"): ("10.74", "umol/l"),
+            ("2015-01-14", "Micronutrients", "Vitamin D3"): ("18.40", "ng/ml"),
+            ("2022-03-17", "Infectious Diseases", "SARS-CoV-2 RT-PCR"): ("Negative", "Status"),
+            ("2023-10-02", "Cardiac Health & Coagulation", "Cholesterol Total"): ("125", "mg/dL"),
+            ("2023-10-02", "Cardiac Health & Coagulation", "Cholesterol HDL"): ("41", "mg/dL"),
+            ("2023-10-02", "Cardiac Health & Coagulation", "Cholesterol Non-HDL"): ("84", "mg/dL"),
+            ("2023-10-02", "Cardiac Health & Coagulation", "Cholesterol LDL"): ("73", "mg/dl"),
+            ("2023-10-02", "Cardiac Health & Coagulation", "Triglycerides"): ("54", "mg/dL"),
         }
-        records = self.records()
+        records = historical_labs.HISTORICAL_LABS
         self.assertEqual(len(records), len(expected))
-        self.assertEqual({(date, row["test"]): (row["value"], row["unit"])
-                          for date, row in records}, expected)
-        self.assertEqual(Counter(date for date, _ in records), {
+        self.assertEqual({(row["date"], row["category"], row["marker"]): (row["value"], row["unit"])
+                          for row in records}, expected)
+        for (date, category, marker), (value, unit) in expected.items():
+            self.assertEqual(self.observations(category, marker)[date], value)
+            self.assertEqual(self.row(category, marker)[-2], unit)
+        self.assertEqual(Counter(row["date"] for row in records), {
             "2023-10-02": 5, "2022-03-17": 1, "2015-01-14": 7,
         })
-        self.assertEqual([panel["date"] for panel in historical_labs.HISTORICAL_LABS],
-                         ["2023-10-02", "2022-03-17", "2015-01-14"])
 
-    def test_duplicate_ldl_precision_and_calculated_status_are_preserved(self):
-        calculated = [row for _, row in self.records() if row.get("calculated")]
-        self.assertEqual({row["test"] for row in calculated},
-                         {"LDL cholesterol", "Non-HDL cholesterol"})
-        ldl = next(row for row in calculated if row["test"] == "LDL cholesterol")
-        self.assertEqual((ldl["value"], ldl["alternate_csv_value"]), ("73", "73.20"))
+    def test_exact_dates_are_chronological_without_reinterpreting_legacy_tuples(self):
+        dates = self.report["date_columns"]
+        self.assertEqual(dates, sorted(set(dates), reverse=True))
+        self.assertEqual(dates[-3:], ["2023-10-02", "2022-03-17", "2015-01-14"])
+        self.assertEqual(self.report["historical_date_columns"],
+                         ["2026-07", "2026-01", "2025-05", "2025-01"])
+        self.assertEqual(self.observations("Metabolic Health", "Insulin")["2026-07"], "8.6")
+        self.assertEqual(self.observations("Micronutrients", "Ferritin")["2025-05"], "134")
+        self.assertEqual(self.observations("Cardiac Health & Coagulation", "Cholesterol LDL")["2026-01"], "76")
+
+    def test_all_old_results_render_once_in_normal_tables_in_both_complete_reports(self):
+        with tempfile.TemporaryDirectory() as folder:
+            for output_format in ("html", "md"):
+                path = Path(folder) / f"results.{output_format}"
+                self.report[f"generate_{output_format}_report"](path)
+                complete = path.read_text(encoding="utf-8")
+                self.assertNotIn("Historical Laboratory Results", complete)
+                self.assertNotIn("results-historical-laboratory-results", complete)
+                self.assertNotIn("History", [title for title, _ in self.report["report_contents"]()])
+                for result in historical_labs.HISTORICAL_LABS:
+                    category, marker, date = result["category"], result["marker"], result["date"]
+                    with self.subTest(format=output_format, date=date, marker=marker):
+                        rows = self.report["data"][category]
+                        self.assertEqual(sum(row[0] == marker for row in rows), 1)
+                        section = self.report[f"render_lab_{output_format}"](category, rows)
+                        self.assertEqual(complete.count(section), 1)
+                        group = next(group for group in self.report["lab_groups"](category, rows)
+                                     if any(row[0] == marker for row in group["rows"]))
+                        rendered = self.report[f"render_result_table_{output_format}"](category, group["rows"])
+                        header, *table = rendered_table_rows(rendered, output_format)
+                        cells = next(row for row in table if row[0] == marker)
+                        self.assertIn(result["value"], cells[header.index(date)])
+                        self.assertEqual(cells[header.index("Unit")], result["unit"])
+
+    def test_existing_observations_units_references_and_trends_are_unchanged(self):
+        with patch.object(historical_labs, "HISTORICAL_LABS", ()):
+            baseline = self.load_report()
+        for category, rows in baseline["data"].items():
+            for old_row in rows:
+                marker, old_values, unit, ref = baseline["split_result_row"](old_row)
+                if marker == "SARS-CoV-2 RT-PCR":
+                    continue  # This is the sole new marker, with one old specimen.
+                with self.subTest(category=category, marker=marker):
+                    new_row = self.row(category, marker)
+                    self.assertEqual(new_row[-2:], (unit, ref))
+                    actual = self.observations(category, marker)
+                    for date, value in zip(baseline["date_columns"], old_values):
+                        self.assertEqual(actual[date], value)
+                    old_ref = baseline["target_reference"](category, marker, ref)
+                    new_ref = self.report["target_reference"](category, marker, ref)
+                    self.assertEqual(new_ref, old_ref)
+                    old_trend = baseline["format_trend_md"](old_values, old_ref, category, marker)
+                    new_trend = self.report["format_trend_md"](list(actual.values()), new_ref, category, marker)
+                    self.assertEqual(new_trend, old_trend)
+
+    def test_missing_historical_assays_are_not_carried_forward_or_backfilled(self):
+        expected = {(row["date"], row["category"], row["marker"]): row["value"]
+                    for row in historical_labs.HISTORICAL_LABS}
+        dates = {key[0] for key in expected}
+        actual = {}
+        for category, rows in self.report["data"].items():
+            for row in rows:
+                observations = self.observations(category, row[0])
+                for date in dates:
+                    if observations[date] != "-":
+                        actual[(date, category, row[0])] = observations[date]
+        self.assertEqual(actual, expected)
+
+    def test_original_ranges_units_calculated_status_and_ldl_precision_remain_traceable(self):
+        records = {row["marker"]: row for row in historical_labs.HISTORICAL_LABS}
+        self.assertEqual(records["Calcium (Total)"]["source_reference"], "8.4 - 10.2")
+        self.assertEqual(records["Homocysteine"]["source_reference"], "0.00 - 12.00")
+        self.assertEqual(records["Insulin"]["source_unit"], "µIU/ml")
+        self.assertEqual(records["Homocysteine"]["source_unit"], "µmol/l")
+        self.assertEqual({row["marker"] for row in records.values() if row.get("calculated")},
+                         {"Cholesterol LDL", "Cholesterol Non-HDL"})
+        self.assertEqual((records["Cholesterol LDL"]["value"], records["Cholesterol LDL"]["alternate_csv_value"]),
+                         ("73", "73.20"))
+        self.assertEqual(records["Vitamin D3"]["value"], "18.40")
+        for category in {row["category"] for row in records.values()}:
+            notes = self.report["result_notes"][category]
+            for date in {row["date"] for row in records.values() if row["category"] == category}:
+                self.assertTrue(any(date in note["text"] and historical_labs.HISTORICAL_LABS_SOURCE in note["text"]
+                                    for note in notes))
+        lipid_notes = self.report["result_notes"]["Cardiac Health & Coagulation"]
+        self.assertTrue(any("LDL and non-HDL are calculated" in note["text"] for note in lipid_notes))
+
+    def test_pcr_is_one_completed_qualitative_result_without_a_trend(self):
+        category, marker = "Infectious Diseases", "SARS-CoV-2 RT-PCR"
+        observations = self.observations(category, marker)
+        self.assertEqual({date: value for date, value in observations.items() if value != "-"},
+                         {"2022-03-17": "Negative"})
+        self.assertEqual(self.row(category, marker)[-2:], ("Status", "negative"))
+        self.assertIsNone(self.report["classify_trend"](list(observations.values()), "negative", category, marker))
         for output_format in ("html", "md"):
-            with self.subTest(output_format=output_format):
-                rendered = self.render(output_format)
-                self.assertIn("73mg/dl in the PDF/CDA and 73.20mg/dl in the CSV", rendered)
-                self.assertIn("one result", rendered)
-                self.assertEqual(rendered.count("SARS-CoV-2 RT-PCR"), 1)
-                self.assertIn("Non-HDL cholesterol", rendered)
-                self.assertIn("LDL cholesterol", rendered)
-                self.assertEqual(rendered.count("calculated)" if output_format == "html"
-                                                else "calculated\\)"), 2)
+            rendered = self.report[f"render_result_table_{output_format}"](category, [self.row(category, marker)])
+            header, row = rendered_table_rows(rendered, output_format)
+            self.assertEqual(row[header.index("2022-03-17")], "🔵 Negative")
+            self.assertNotIn("Trend", header)
 
-    def test_only_unambiguous_source_references_reach_the_shared_formatter(self):
-        expected_unscored = {"Non-HDL cholesterol", "LDL cholesterol",
-                             "Triglycerides", "Vitamin D, 25-OH"}
-        for output_format in ("html", "md"):
-            callback = Mock(return_value="formatted-result")
-            getattr(historical_labs, f"render_historical_{output_format}")(callback)
-            self.assertEqual(callback.call_count, 13)
-            for (_, row), call in zip(self.records(), callback.call_args_list):
-                with self.subTest(output_format=output_format, marker=row["test"]):
-                    self.assertEqual(len(call.args), 2)
-                    self.assertEqual(call.kwargs, {})
-                    self.assertEqual(call.args[0], row["value"])
-                    self.assertEqual(call.args[1] == "-", row["test"] in expected_unscored)
-                    if row["test"] == "SARS-CoV-2 RT-PCR":
-                        self.assertEqual(call.args[1], "negative")
-
-    def test_both_formats_render_every_observation_once_with_source_references(self):
-        html = self.render("html")
-        md = self.render("md")
-        table_rows = rendered_table_rows(html, "html")
-        values = [cells for cells in table_rows if cells[0] != "Metric"]
-        self.assertEqual(len(values), 13)
-        self.assertEqual(sum(line.startswith("| **") for line in md.splitlines()), 13)
-        for date, record in self.records():
-            marker = record["test"] + (" (calculated)" if record.get("calculated") else "")
-            cells = next(cells for cells in values if cells[0] == marker)
-            self.assertIn(record["value"], cells[1])
-            self.assertEqual(cells[2], record["unit"])
-            if record["test"] in {"Non-HDL cholesterol", "LDL cholesterol",
-                                  "Triglycerides", "Vitamin D, 25-OH"}:
-                self.assertEqual(cells[1], record["value"])
-            for rendered in (html, md):
-                self.assertIn(date, rendered)
-        pcr = next(cells for cells in values if cells[0] == "SARS-CoV-2 RT-PCR")
-        self.assertEqual(pcr[1:], ["🔵 Negative", "-", "-"])
-        self.assertNotIn("<th>Trend</th>", html)
-        self.assertNotIn("| Trend |", md)
-        self.assertIn("&lt;150", html)
-        self.assertIn("&lt;150", md)
-        self.assertIn("&gt;100 toxic", html)
-        self.assertIn("&gt;100 toxic", md)
-
-    def test_rendering_preserves_current_comparison_data_and_date_columns(self):
-        before = deepcopy((self.report["date_columns"], self.report["data"],
-                           historical_labs.HISTORICAL_LABS))
-        self.render("html")
-        self.render("md")
-        self.assertEqual((self.report["date_columns"], self.report["data"],
-                          historical_labs.HISTORICAL_LABS), before)
-        self.assertTrue(set(before[0]).isdisjoint({"2015-01-14", "2022-03-17", "2023-10-02"}))
-
-    def test_source_link_and_heading_anchor_resolve(self):
+    def test_provenance_links_all_11_unchanged_raw_originals(self):
         root = Path(__file__).parents[2]
         source = root / historical_labs.HISTORICAL_LABS_SOURCE
         self.assertTrue(source.is_file())
         provenance = source.read_text(encoding="utf-8")
-        self.assertEqual(len(set(re.findall(r"`([0-9a-f]{64})`", provenance))), 11)
         inventory = provenance.split("## Source inventory", 1)[1].split("## Verification", 1)[0]
         originals = re.findall(
             r"\| \[([^\]]+)\]\(\.\./([^\)]+)\) \| [^|]+\| [^|]+\| `([0-9a-f]{64})` \|",
@@ -156,48 +189,10 @@ class HistoricalLabTests(unittest.TestCase):
                 self.assertEqual(original.parent, (root / "results").resolve())
                 self.assertTrue(original.is_file())
                 self.assertEqual(hashlib.sha256(original.read_bytes()).hexdigest(), expected_hash)
-        for panel in historical_labs.HISTORICAL_LABS:
-            self.assertIn(panel["date"], provenance)
-        for output_format in ("html", "md"):
-            self.assertEqual(self.render(output_format).count(historical_labs.HISTORICAL_LABS_SOURCE), 1)
-        self.assertIn(f"id='{historical_labs.HISTORICAL_LABS_ANCHOR}'", self.render("html"))
-        self.assertIn(f"## {historical_labs.HISTORICAL_LABS_TITLE}\n", self.render("md"))
-
-    def test_complete_reports_include_archive_once_and_link_to_its_anchor(self):
-        with tempfile.TemporaryDirectory() as folder:
-            for output_format in ("html", "md"):
-                with self.subTest(output_format=output_format):
-                    path = Path(folder) / f"results.{output_format}"
-                    self.report[f"generate_{output_format}_report"](path)
-                    complete = path.read_text(encoding="utf-8")
-                    self.assertEqual(complete.count(self.render(output_format)), 1)
-                    markdown = output_format == "md"
-                    anchor = (self.report["markdown_heading_anchor"](historical_labs.HISTORICAL_LABS_TITLE)
-                              if markdown else historical_labs.HISTORICAL_LABS_ANCHOR)
-                    contents = self.report["report_contents"](markdown=markdown)
-                    history_links = [links for title, links in contents if title == "History"]
-                    self.assertEqual(history_links, [[(historical_labs.HISTORICAL_LABS_TITLE, f"#{anchor}")]])
-                    expected_link = (f"](#{anchor})" if markdown else f"href='#{anchor}'")
-                    self.assertIn(expected_link, complete)
-
-    def test_metadata_and_reference_annotations_are_escaped(self):
-        panel = {
-            "date": "2000-01-01", "specimen": "Serum <tag> & more",
-            "note": "A <script> tag, [label](url) and table | separator.",
-            "records": ({"test": "Marker | [name] <tag>", "value": "4",
-                         "unit": "x|y", "reference": "<5 | [note]"},),
-        }
-        with patch.object(historical_labs, "HISTORICAL_LABS", (panel,)):
-            html = historical_labs.render_historical_html(lambda value, _: escape(value))
-            md = historical_labs.render_historical_md(lambda value, _: value)
-        self.assertNotIn("<script>", html)
-        self.assertNotIn("<tag>", html)
-        self.assertIn("&lt;script&gt;", html)
-        self.assertIn("&lt;5 | [note]", html)
-        self.assertIn("Marker \\| \\[name\\] &lt;tag&gt;", md)
-        self.assertIn("x\\|y", md)
-        self.assertIn("&lt;5 \\| \\[note\\]", md)
-        self.assertIn("\\[label\\]\\(url\\)", md)
+        for date in {row["date"] for row in historical_labs.HISTORICAL_LABS}:
+            self.assertIn(date, provenance)
+        self.assertIn("73.20", provenance)
+        self.assertNotIn("archive", provenance)
 
 
 if __name__ == "__main__":

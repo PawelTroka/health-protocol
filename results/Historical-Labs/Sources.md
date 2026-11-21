@@ -2,7 +2,7 @@
 
 Reviewed from 11 supplied exports on 2026-11-21. They contain **13 unique observations from three specimen collection dates**: seven from 2015-01-14, one from 2022-03-17 and five from 2023-10-02. The November 2026 dates in the filenames identify downloads, not examinations.
 
-The generated historical section in `results.md` and `results.html` retains dated panels, original units and the source laboratory's references or interpretation bands. It does not add old observations to monthly comparisons or current trend calculations. Decimal commas become decimal points; stored precision is preserved. The shared report formatter removes all-zero fractions only for display. No source document prints a high/low flag for these observations.
+The observations appear alongside later results in the normal Metabolic Health, Cardiac Health & Coagulation, Micronutrients and Infectious Diseases tables in `results.md` and `results.html`. The exact collection dates identify specimen results, not monthly averages. Existing row units, reference/goal displays and color rules remain the shared comparison scale; the original laboratory units, ranges and interpretation bands are preserved below. Decimal commas become decimal points; stored precision is preserved. The shared formatter removes all-zero fractions only for display. No source document prints a high/low flag for these observations, so report colors must not be read as original laboratory flags.
 
 ## Date and duplicate reconciliation
 
@@ -26,7 +26,7 @@ The two CSV files have no independent collection date. Their dates are establish
 | Homocysteine | 10.74 | µmol/l | 0.00 - 12.00 | `wyniki-21_11_2026-16_16_25.pdf`, page 1 |
 | Vitamin D, 25-OH | 18.40 | ng/ml | Deficiency &lt;10; insufficient 10-30; sufficient 30-100; toxicity &gt;100 | `wyniki-21_11_2026-16_16_21.pdf`, page 1 |
 
-The vitamin D report provides interpretation categories rather than one reference interval. These historical categories remain visible but do not receive a numeric severity score. The CSV names this analyte `Witamina D3 metabolit 25(OH)`. Insulin uses chemiluminescence; ferritin uses Roche electrochemiluminescence on Cobas. The supplied panel has no glucose result, so it does not establish a paired HOMA-IR result.
+The vitamin D report provides interpretation categories rather than one reference interval. These historical categories remain documented here; its result joins the existing `Vitamin D3` comparison row. The CSV names this analyte `Witamina D3 metabolit 25(OH)`. Insulin uses chemiluminescence; ferritin uses Roche electrochemiluminescence on Cobas. The supplied panel has no glucose result, so it does not establish a paired HOMA-IR result. Display-unit aliases `uU/mL` for insulin and `umol/l` for homocysteine are numerically equivalent to the source `µIU/ml` and `µmol/l`; no numerical conversion is applied.
 
 ## 2022-03-17 SARS-CoV-2 RT-PCR
 
@@ -34,7 +34,7 @@ The vitamin D report provides interpretation categories rather than one referenc
 | :--- | :--- | :--- | :--- | :--- |
 | SARS-CoV-2 RT-PCR | Negative | None printed | None printed | `wyniki-21_11_2026-16_17_33.pdf`, page 1 |
 
-`Negatywny` is translated as `Negative`, preserving a completed qualitative result. The archive uses the report's existing negative-result presentation, with `negative` as its qualitative formatting reference, while a dash in the visible laboratory-reference column records that no reference was printed. It is never stored as numeric zero or a missing result.
+`Negatywny` is translated as `Negative`, preserving a completed qualitative result in Infectious Diseases. The comparison row uses the existing `Status` / `negative` convention; neither is an extra physical unit or a printed source interval. This result is never stored as numeric zero or a missing value.
 
 The collection date is confirmed by the CDA's `documentationOf/serviceEvent/effectiveTime`, not its root document timestamp. The certificate and performing-laboratory copy confirm the same specimen. All four files count as one result.
 
@@ -48,11 +48,11 @@ The collection date is confirmed by the CDA's `documentationOf/serviceEvent/effe
 | LDL cholesterol | 73 | mg/dl | &lt;115 low risk; &lt;100 moderate risk; &lt;70 high risk; &lt;55 very high risk; &lt;40 extreme risk | Calculated by the laboratory using Friedewald |
 | Triglycerides | 54 | mg/dl | &lt;150 fasting; &lt;175 non-fasting | Enzymatic-colorimetric, Cobas Pure |
 
-All five values are on page 1 of `wyniki-21_11_2026-16_17_59.pdf`. LDL and non-HDL remain explicitly labelled **calculated** in the generated archive; they are transcribed laboratory outputs, not new calculations performed by the report generator.
+All five values are on page 1 of `wyniki-21_11_2026-16_17_59.pdf`. The linked date note identifies LDL and non-HDL as **calculated**. They join the existing cholesterol rows as transcribed laboratory outputs, not new calculations performed by the report generator.
 
-**LDL precision:** the PDF and CDA report `73mg/dl`, while `wyniki-21_11_2026-16_18_3.csv` reports `73,20mg/dl`. The displayed primary result remains `73`; the alternate `73.20` is documented in the archive note and source data. These representations are not counted separately, averaged or silently substituted. The CSV also preserves trailing decimals for some other values, such as total cholesterol `125,00` and non-HDL `84,00`, without a different numerical result.
+**LDL precision:** the PDF and CDA report `73mg/dl`, while `wyniki-21_11_2026-16_18_3.csv` reports `73,20mg/dl`. The displayed primary result remains `73`; the alternate `73.20` is retained here and in the source data. These representations are not counted separately, averaged or silently substituted. The CSV also preserves trailing decimals for some other values, such as total cholesterol `125,00` and non-HDL `84,00`, without a different numerical result.
 
-Risk-dependent LDL/non-HDL targets do not identify the patient's risk category. The triglyceride reference depends on fasting status, which is not given. These rows retain the source recommendations but remain unscored. Total cholesterol and HDL use only the unambiguous historical laboratory comparison, without applying current protocol targets.
+The historical LDL/non-HDL targets do not establish a patient risk category, and fasting status is not given for the triglyceride recommendations. The source recommendations above remain unchanged. All five measurements use their existing comparison rows and shared report targets; importing these results does not replace any threshold or reference range.
 
 ## Source inventory
 
