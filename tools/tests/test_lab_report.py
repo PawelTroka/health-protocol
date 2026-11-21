@@ -10,6 +10,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
+from tools.health_sync.number_display import compact_measurement, compact_reference
 from tools.tests.test_report_layout import rendered_table_rows
 
 
@@ -214,20 +215,20 @@ class SeptemberLabReportTests(unittest.TestCase):
                         cells = next(row for row in table[1:] if row[0] == marker)
                         displayed = dict(zip(table[0], cells))
                         expected_dot = "🟢" if marker == "Lactoferrin (Stool)" else "🔵"
-                        self.assertEqual(displayed["2026-09"], expected_dot + " " + value)
+                        self.assertEqual(displayed["2026-09"], expected_dot + " " + compact_measurement(value))
                         self.assertEqual(displayed["Unit"], unit)
                         self.assertEqual(displayed["Trend"], "-")
                         for month in self.report["historical_date_columns"]:
                             if month in displayed:
                                 self.assertEqual(displayed[month], "-")
                         if output_format == "html":
-                            self.assertEqual(displayed["Reference"], reference)
+                            self.assertEqual(displayed["Reference"], compact_reference(reference))
                         else:
                             # The generic Markdown text extractor treats paired
                             # '< ... >=' bounds as tags; inspect this cell literally.
                             line = next(line for line in rendered.splitlines()
                                         if line.startswith(f"| **{marker}** |"))
-                            self.assertEqual(line.rstrip(" |").split("|")[-1].strip(), reference)
+                            self.assertEqual(line.rstrip(" |").split("|")[-1].strip(), compact_reference(reference))
 
     def test_ana_iift_is_a_separate_qualitative_result_without_changing_immunoblot(self):
         category, marker, value = "Immunology & Inflammation", "ANA IIFT", "negative at 1:80"
@@ -359,9 +360,9 @@ class SeptemberLabReportTests(unittest.TestCase):
                         table = rendered_table_rows(rendered, output_format)
                         cells = next(row for row in table[1:] if row[0] == marker)
                         displayed = dict(zip(table[0], cells))
-                        self.assertEqual(displayed["2026-09"], f"{color} {value} {arrow}")
+                        self.assertEqual(displayed["2026-09"], f"{color} {compact_measurement(value)} {arrow}")
                         self.assertEqual(displayed["Unit"], unit)
-                        self.assertEqual(displayed["Reference"], reference)
+                        self.assertEqual(displayed["Reference"], compact_reference(reference))
                         self.assertEqual(displayed["Trend"], "-")
                         for month in self.report["historical_date_columns"]:
                             if month in displayed:
@@ -550,7 +551,7 @@ class SeptemberLabReportTests(unittest.TestCase):
                 for marker, value in observations.items():
                     with self.subTest(category=category, marker=marker, output_format=output_format):
                         self.assertEqual(self.observations(category, marker)["2026-09"], value)
-                        self.assertEqual(literal_result(rendered_rows[marker]["2026-09"]), value)
+                        self.assertEqual(literal_result(rendered_rows[marker]["2026-09"]), compact_measurement(value))
 
     def test_sparse_followups_do_not_add_empty_september_columns_to_main_tables(self):
         categories = ("Metabolic Health", "Cardiac Health & Coagulation", "Micronutrients",
@@ -653,7 +654,7 @@ class SeptemberLabReportTests(unittest.TestCase):
                 value = self.observations(category, row[0])["2026-01"]
                 if value.startswith("<"):
                     count += 1
-                    self.assertEqual(rows[row[0]]["2026-01"], "🟢 " + value)
+                    self.assertEqual(rows[row[0]]["2026-01"], "🟢 " + compact_measurement(value))
             self.assertEqual(count, 10)
             format_cell = self.report[f"format_cell_{output_format}_urine"]
             self.assertNotIn("🟢", format_cell("<40", "<30"))

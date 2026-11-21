@@ -405,7 +405,7 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         index_row = next(line for line in md.splitlines() if line.startswith("| **FFMI** |"))
         self.assertIn("| Up | - | Baseline | - | Prior mean | Withings |", index_row)
 
-    def test_numeric_ffmi_shows_monthly_means_and_a_neutral_trend_emoji(self):
+    def test_numeric_ffmi_shows_monthly_means_and_physique_colors(self):
         readings = [measurement("first", "2026-07-01", 20.2, "FFMI", unit="kg/m²"),
                     measurement("second", "2026-09-01", 20.7, "FFMI", unit="kg/m²")]
         report = self.load_generator(aggregate(readings, date(2026, 9, 6)))
@@ -413,16 +413,16 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         html = report["render_vitals_html"](rows)
         md = report["render_vitals_md"](rows)
         index_row = next(line for line in md.splitlines() if line.startswith("| **FFMI** |"))
-        self.assertIn("| ⚪ | 20.7 | - | 20.2 | kg/m² | - | Withings |", index_row)
+        self.assertIn("| 🟢 | 🟡 20.7 | - | 🟡 20.2 | kg/m² | Physique scale (180cm) | Withings |", index_row)
         ffmi_row = next(row for row in rows if row[0] == "FFMI")
         for output_format in ("html", "md"):
             with self.subTest(output_format=output_format):
                 rendered = report[f"render_result_table_{output_format}"](
                     "Vitals & Functional Health", [ffmi_row], compact=True)
                 header, result = rendered_table_rows(rendered, output_format)
-                self.assertEqual(result[header.index("Trend")], "⚪")
-                self.assertEqual(result[header.index("2026-09")], "20.7")
-                self.assertEqual(result[header.index("2026-07")], "20.2")
+                self.assertEqual(result[header.index("Trend")], "🟢")
+                self.assertEqual(result[header.index("2026-09")], "🟡 20.7")
+                self.assertEqual(result[header.index("2026-07")], "🟡 20.2")
                 self.assertEqual(result[header.index("Unit")], "kg/m²")
                 self.assertNotRegex(rendered, "[↑↓→]")
         self.assertNotIn("<b>Height</b>", html)
