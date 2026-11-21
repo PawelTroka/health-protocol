@@ -671,7 +671,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥇 **M.1** [Bifidobacterium longum 35624® 1bln CFU](https://mollo.pl/symbiosys-alflorex-30-kapsulek-2993-p) 🦠 🚽 🛡️
 - 🥈 **M.2** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠 🩸
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
-- 🥈 **M.3** [NOW Foods Iron (Ferrochel™) 18mg](https://nowfoods.com.pl/produkt/zelazo-chelat-18-mg-120-vkapsulek/) — 1capsule daily with Breakfast 🩸
+- 🥈 **M.3** [Iron (Ferrochel) 18mg](https://pl.iherb.com/pr/now-foods-iron-18-mg-120-veg-capsules/10481) 🩸 🔄
 - 🥈 **M.4** [CoQ10 (Ubiquinone) 100mg](https://gemini.pl/bio-quinon-active-q10-gold-100-mg-90-kapsulek-0085000) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ❤️ ⏰ 🧠 🛡️
   - Ubiquinone 100mg; Riboflavin 1.4mg
 - 🥈 **M.5-6** 2x [Acetyl-L-Carnitine 750mg](https://pl.iherb.com/pr/now-foods-acetyl-l-carnitine-750-mg-90-tablets/6110) 🧠 ⚡ 🔄
