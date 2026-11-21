@@ -26,6 +26,7 @@ from tools.imaging_report import (
     GROUPS as IMAGING_GROUPS, IMAGING_CSS, imaging_group_anchor, markdown_heading_anchor,
     render_imaging_html, render_imaging_md, validate_imaging_sources,
 )
+from tools.historical_labs import HISTORICAL_LABS, HISTORICAL_LABS_SOURCE
 
 
 MICROBIOTA_CATEGORY = "Gut Microbiota (GA-map)"
@@ -763,7 +764,8 @@ def format_cell_md_urine(val, ref):
 # Using "-" for missing values as requested
 historical_date_columns = ["2026-07", "2026-01", "2025-05", "2025-01"]
 followup_date_columns = sorted({"2026-11", "2026-09", "2026-08", *synced_monthly["months"], *synced_monthly.get("categorical_months", {})} - set(historical_date_columns), reverse=True)
-date_columns = followup_date_columns + historical_date_columns
+date_columns = sorted({*followup_date_columns, *historical_date_columns,
+                       *(result["date"] for result in HISTORICAL_LABS)}, reverse=True)
 missing_values = {"-", None, ""}
 
 def split_result_row(row):
@@ -1513,7 +1515,8 @@ data = {
         ("Chlamydia IgG", "< 5.0", "< 5.0", "< 5.0", "negative", "AU/ml", "< 9"),
         ("Chlamydia IgM", "2.0", "2.7", "2.7", "2.7", "NTU", "< 9"),
         ("HSV IgG", "1.19", "0.79", "1.35", "1.7", "Index", "< 0.9"),
-        ("HSV IgM", "< 0.5", "< 0.5", "negative", "negative", "Index", "< 0.9")
+        ("HSV IgM", "< 0.5", "< 0.5", "negative", "negative", "Index", "< 0.9"),
+        ("SARS-CoV-2 RT-PCR", "-", "-", "-", "-", "Status", "negative")
     ],
     "Toxicology (Urine)": [
         ("Arsenic", "4.6", "11.8", "30.8", "-", "ug/l", "< 15.0"),
@@ -2054,6 +2057,27 @@ result_notes = {
         },
     ],
 }
+
+for result in HISTORICAL_LABS:
+    category, marker, date = result["category"], result["marker"], result["date"]
+    row = next(row for row in data[category] if row[0] == marker)
+    if row[-2] != result["unit"]:
+        raise ValueError(f"Historical result unit mismatch: {category} / {marker}")
+    observations = lab_followups.setdefault(date, {}).setdefault(category, {})
+    if marker in observations:
+        raise ValueError(f"Duplicate historical result: {date} / {category} / {marker}")
+    observations[marker] = result["value"]
+no_score_markers.add(("Infectious Diseases", "SARS-CoV-2 RT-PCR"))
+
+for category in {result["category"] for result in HISTORICAL_LABS}:
+    dated_results = [result for result in HISTORICAL_LABS if result["category"] == category]
+    for date in sorted({result["date"] for result in dated_results}, reverse=True):
+        markers = [result["marker"] for result in dated_results if result["date"] == date]
+        detail = " LDL and non-HDL are calculated." if date == "2023-10-02" else ""
+        result_notes.setdefault(category, []).append({
+            "text": f"{date}: <a href='{HISTORICAL_LABS_SOURCE}'>source reports and original ranges</a>.{detail}",
+            "markers": [{"rows": markers, "target": "value", "dates": [date]}],
+        })
 
 for month, categories in lab_followups.items():
     if month not in date_columns:

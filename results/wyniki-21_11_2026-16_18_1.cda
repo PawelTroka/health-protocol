@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="CDA_PL_IG_1.3.2.xsl" type="text/xsl"?><ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:extPL="http://www.csioz.gov.pl/xsd/extPL/r3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="extPL:ClinicalDocument">
+  <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+  <templateId extension="1.3.2" root="2.16.840.1.113883.3.4424.13.10.1.17"/>
+  <id displayable="false" extension="115-9872737" root="2.16.840.1.113883.3.4424.2.7.95881.7.1"/>
+  <code code="11502-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Laboratory report">
+    <translation code="06.10" codeSystem="2.16.840.1.113883.3.4424.11.1.32" codeSystemName="KLAS_DOK_P1" displayName="Wyniki badań laboratoryjnych"/>
+  </code>
+  <title>Sprawozdanie z badania laboratoryjnego</title>
+  <effectiveTime value="20231002125515"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="pl-PL"/>
+  <setId extension="115-9872737" root="2.16.840.1.113883.3.4424.2.7.95881.7.2"/>
+  <versionNumber value="1"/>
+  <recordTarget contextControlCode="OP" typeCode="RCT" xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.3"/>
+    <patientRole classCode="PAT">
+      <id displayable="true" extension="91021407790" root="2.16.840.1.113883.3.4424.1.1.616"/>
+      <id displayable="false" extension="115-99000649" root="2.16.840.1.113883.3.4424.2.7.95881.17.1"/>
+      <addr xmlns="urn:hl7-org:v3">
+        <postalCode>83-404</postalCode>
+        <city>NOWA KARCZMA</city>
+        <streetName>JÓZEFA WYBICKIEGO 9 </streetName>
+        <houseNumber>.</houseNumber>
+        <country>POLSKA</country>
+      </addr>
+      <telecom value="tel:+48725656424" xmlns="urn:hl7-org:v3"/>
+      <patient classCode="PSN" determinerCode="INSTANCE" xmlns="urn:hl7-org:v3">
+<name xmlns="urn:hl7-org:v3">
+          <given>PAWEŁ</given>
+          <family>TROKA</family>
+        </name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" xmlns="urn:hl7-org:v3"/>
+        <birthTime value="19910214" xmlns="urn:hl7-org:v3"/>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author contextControlCode="OP" typeCode="AUT" xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.4"/>
+    <functionCode code="DLAB" codeSystem="2.16.840.1.113883.3.4424.11.3.18" displayName="Diagnosta laboratoryjny"/>
+    <time value="20231002125515"/>
+    <assignedAuthor>
+      <id extension="115-209546342" root="2.16.840.1.113883.3.4424.2.7.95881.1.6"/>
+      <id displayable="true" extension="17805" root="2.16.840.1.113883.3.4424.1.6.4"/>
+      <assignedPerson>
+        <templateId root="2.16.840.1.113883.3.4424.13.10.2.1"/>
+        <name>
+          <family>KRYSZAK</family>
+          <given>MARIA</given>
+        </name>
+      </assignedPerson>
+      <representedOrganization xmlns="urn:hl7-org:v3">
+        <templateId root="2.16.840.1.113883.3.4424.13.10.2.18"/>
+        <id extension="000000005831-551" root="2.16.840.1.113883.3.4424.2.3.3"/>
+        <name>Zakład Diagnostyki Laboratoryjnej (551)</name>
+        <telecom use="PUB" value="585526284"/>
+        <addr xmlns="urn:hl7-org:v3">
+          <postalCode>80-305</postalCode>
+          <city>GDAŃSK</city>
+          <streetName>Polanki</streetName>
+          <houseNumber>117</houseNumber>
+        </addr>
+        <standardIndustryClassCode code="7100" codeSystem="2.16.840.1.113883.3.4424.11.2.4" displayName="Medyczne laboratorium diagnostyczne (laboratorium)" xmlns="urn:hl7-org:v3">
+</standardIndustryClassCode>
+        <asOrganizationPartOf xmlns="urn:hl7-org:v3">
+<wholeOrganization xmlns="urn:hl7-org:v3">
+            <id extension="35636697501013" root="2.16.840.1.113883.3.4424.2.2.2"/>
+            <asOrganizationPartOf xmlns="urn:hl7-org:v3">
+<wholeOrganization xmlns="urn:hl7-org:v3">
+                <id extension="000000005831" root="2.16.840.1.113883.3.4424.2.3.1"/>
+                <id extension="356366975" root="2.16.840.1.113883.3.4424.2.2.1"/>
+                <name>DIAGNOSTYKA S.A.</name>
+              </wholeOrganization>
+            </asOrganizationPartOf>
+          </wholeOrganization>
+        </asOrganizationPartOf>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.5"/>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id displayable="false" extension="000000011440" root="2.16.840.1.113883.3.4424.2.3.1"/>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <informationRecipient typeCode="PRCP" xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.61"/>
+    <intendedRecipient classCode="ASSIGNED">
+<receivedOrganization classCode="ORG" determinerCode="INSTANCE" xmlns="urn:hl7-org:v3">
+        <templateId root="2.16.840.1.113883.3.4424.13.10.2.89"/>
+        <id displayable="true" extension="000000011440" root="2.16.840.1.113883.3.4424.2.3.1"/>
+        <name>POLMED S.A.</name>
+        <addr xmlns="urn:hl7-org:v3">
+          <postalCode>83-200</postalCode>
+          <city>Starogard Gdański</city>
+          <streetName>os. Kopernika</streetName>
+          <houseNumber>21</houseNumber>
+        </addr>
+      </receivedOrganization>
+    </intendedRecipient>
+  </informationRecipient>
+  <legalAuthenticator xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.6"/>
+    <time value="20231002125515"/>
+    <signatureCode code="S"/>
+    <assignedEntity classCode="ASSIGNED">
+      <id displayable="false" extension="17805" root="2.16.840.1.113883.3.4424.1.6.4"/>
+    </assignedEntity>
+  </legalAuthenticator>
+  <componentOf typeCode="COMP" xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.52"/>
+    <encompassingEncounter classCode="ENC" moodCode="EVN">
+      <code code="8502" codeSystem="2.16.840.1.113883.3.4424.11.2.4" displayName="Punkt pobrań krwi"/>
+      <effectiveTime value="20231002100200"/>
+    </encompassingEncounter>
+  </componentOf>
+  <component contextConductionInd="true" typeCode="COMP" xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.59"/>
+    <structuredBody classCode="DOCBODY" moodCode="EVN">
+<component xmlns="urn:hl7-org:v3">
+        <section xmlns="urn:hl7-org:v3">
+          <templateId root="2.16.840.1.113883.3.4424.13.10.3.33"/>
+          <templateId root="2.16.840.1.113883.3.4424.2.7.95881.1.11.1"/>
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Relevant diagnostic tests/laboratory data"/>
+          <title>Wyniki badań</title>
+          <text>
+<table xmlns="urn:hl7-org:v3">
+              <thead>
+                <tr>
+                  <th>Badania</th>
+                  <th>Wynik</th>
+                  <th>Jedn.</th>
+                  <th>Zakres referencyjny</th>
+                  <th>LIW<sup>**</sup>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+<tr ID="OBS_1" xmlns="urn:hl7-org:v3">
+                  <td colspan="5" styleCode="Bold">Lipidogram (CHOL, HDL, LDL, TG) (ICD-9: M71) <sup>1</sup>
+                  </td>
+                </tr>
+                <tr ID="OBS_1_1" xmlns="urn:hl7-org:v3">
+                  <td>
+                    <paragraph>Cholesterol całkowity</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Badanie wykonano metodą enzymatyczno-kolorymetryczną na aparacie Cobas Pure</paragraph>
+                  </td>
+                  <td>125</td>
+                  <td>mg/dl<sup/>
+                  </td>
+                  <td>115 - 190</td>
+                  <td/>
+                </tr>
+                <tr ID="OBS_1_2" xmlns="urn:hl7-org:v3">
+                  <td>
+                    <paragraph>Cholesterol HDL</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Stężenie zalecane: powyżej 40 mg/dl</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Badanie wykonano metodą enzymatyczno-kolorymetryczną na aparacie Cobas Pure</paragraph>
+                  </td>
+                  <td>41</td>
+                  <td>mg/dl<sup/>
+                  </td>
+                  <td> - </td>
+                  <td/>
+                </tr>
+                <tr ID="OBS_1_3" xmlns="urn:hl7-org:v3">
+                  <td>
+                    <paragraph>Cholesterol nie-HDL</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Stężenie zalecane:
+Poniżej 130 mg/dl - dla osób z umiarkowanym ryzykiem sercowo-naczyniowym
+Poniżej 100 mg/dl - dla osób z dużym ryzykiem sercowo-naczyniowym
+Poniżej 85 mg/dl - dla osób z bardzo dużym ryzykiem sercowo-naczyniowym
+Poniżej 70 mg/dl - dla osób z ekstremalnym ryzykiem sercowo-naczyniowym
+</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Wynik wyliczono z danych uzyskanych w pomiarach bezpośrednich.
+</paragraph>
+                  </td>
+                  <td>84</td>
+                  <td>mg/dl<sup/>
+                  </td>
+                  <td> - </td>
+                  <td/>
+                </tr>
+                <tr ID="OBS_1_4" xmlns="urn:hl7-org:v3">
+                  <td>
+                    <paragraph>Cholesterol LDL</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Stężenie zalecane:
+Poniżej 115 mg/dl – dla osób zdrowych z małym ryzykiem sercowo-naczyniowym
+Poniżej 100 mg/dl - dla osób z umiarkowanym ryzykiem sercowo-naczyniowym
+Poniżej 70 mg/dl - dla osób z dużym ryzykiem sercowo-naczyniowym
+Poniżej 55 mg/dl - dla osób z bardzo dużym ryzykiem sercowo-naczyniowym
+Poniżej 40 mg/dl - dla osób z ekstremalnym ryzykiem sercowo-naczyniowym
+
+Parametr wyliczany ze wzoru Friedewalda.</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Wynik wyliczono z danych uzyskanych w pomiarach bezpośrednich.
+</paragraph>
+                  </td>
+                  <td>73</td>
+                  <td>mg/dl<sup/>
+                  </td>
+                  <td> - </td>
+                  <td/>
+                </tr>
+                <tr ID="OBS_1_5" xmlns="urn:hl7-org:v3">
+                  <td>
+                    <paragraph>Triglicerydy</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Stężenie zalecane:
+Poniżej 150 mg/dl
+W przypadku oznaczenia nie na czczo stężenie zalecane: poniżej 175 mg/dl.</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Stężenia zalecane poszczególnych parametrów podane za wytycznymi PTL/KLRWP/PTK/PTDL/PTD/PTNT.
+</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Badanie wykonano metodą enzymatyczno-kolorymetryczną na aparacie Cobas Pure</paragraph>
+                  </td>
+                  <td>54</td>
+                  <td>mg/dl<sup/>
+                  </td>
+                  <td> - </td>
+                  <td/>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.3.4424.13.10.4.20"/>
+              <code code="M71" codeSystem="2.16.840.1.113883.3.4424.11.2.6" codeSystemName="ICD-9-PL" displayName="Lipidogram (CHOL, HDL, LDL, TG) (ICD-9: M71)">
+                <translation code="14" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.1" codeSystemName="Badania" displayName="Lipidogram (CHOL, HDL, LDL, TG) (ICD-9: M71)"/>
+              </code>
+              <text>
+                <reference value="#OBS_1"/>
+              </text>
+              <effectiveTime value="20231002125331"/>
+              <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <observation classCode="OBS" moodCode="EVN">
+                  <code code="I99" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8" codeSystemName="Parametry badań" displayName="Cholesterol całkowity">
+                    <translation code="115-149610" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8.1" codeSystemName="Parametry badań(id)" displayName="Cholesterol całkowity"/>
+                  </code>
+                  <text>
+                    <reference value="#OBS_1_1"/>
+                  </text>
+                  <effectiveTime value="20231002125331"/>
+                  <value unit="mg/dl" value="125" xsi:type="PQ"/>
+                  <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="115-149610" codeSystem="2.16.840.1.113883.2.48.3.3.1.7.8.1.1" codeSystemName="Uwagi do parametrów badań" displayName="Komentarz"/>
+                      <effectiveTime value="20231002125331"/>
+                      <value xsi:type="ST">Badanie wykonano metodą enzymatyczno-kolorymetryczną na aparacie Cobas Pure</value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <value xsi:type="IVL_PQ">
+<low unit="mg/dl" value="115" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                        <high unit="mg/dl" value="190" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                      </value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <observation classCode="OBS" moodCode="EVN">
+                  <code code="K01" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8" codeSystemName="Parametry badań" displayName="Cholesterol HDL">
+                    <translation code="115-149606" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8.1" codeSystemName="Parametry badań(id)" displayName="Cholesterol HDL"/>
+                  </code>
+                  <text>
+                    <reference value="#OBS_1_2"/>
+                  </text>
+                  <effectiveTime value="20231002125331"/>
+                  <value unit="mg/dl" value="41" xsi:type="PQ"/>
+                  <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="115-149606" codeSystem="2.16.840.1.113883.2.48.3.3.1.7.8.1.1" codeSystemName="Uwagi do parametrów badań" displayName="Komentarz"/>
+                      <effectiveTime value="20231002125331"/>
+                      <value xsi:type="ST">Stężenie zalecane: powyżej 40 mg/dl
+Badanie wykonano metodą enzymatyczno-kolorymetryczną na aparacie Cobas Pure</value>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <observation classCode="OBS" moodCode="EVN">
+                  <code code="K01.NIE" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8" codeSystemName="Parametry badań" displayName="Cholesterol nie-HDL">
+                    <translation code="115-41743291" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8.1" codeSystemName="Parametry badań(id)" displayName="Cholesterol nie-HDL"/>
+                  </code>
+                  <text>
+                    <reference value="#OBS_1_3"/>
+                  </text>
+                  <effectiveTime value="20231002125331"/>
+                  <value unit="mg/dl" value="84" xsi:type="PQ"/>
+                  <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="115-41743291" codeSystem="2.16.840.1.113883.2.48.3.3.1.7.8.1.1" codeSystemName="Uwagi do parametrów badań" displayName="Komentarz"/>
+                      <effectiveTime value="20231002125331"/>
+                      <value xsi:type="ST">Stężenie zalecane:
+Poniżej 130 mg/dl - dla osób z umiarkowanym ryzykiem sercowo-naczyniowym
+Poniżej 100 mg/dl - dla osób z dużym ryzykiem sercowo-naczyniowym
+Poniżej 85 mg/dl - dla osób z bardzo dużym ryzykiem sercowo-naczyniowym
+Poniżej 70 mg/dl - dla osób z ekstremalnym ryzykiem sercowo-naczyniowym
+
+Wynik wyliczono z danych uzyskanych w pomiarach bezpośrednich.
+</value>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <observation classCode="OBS" moodCode="EVN">
+                  <code code="K03.23" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8" codeSystemName="Parametry badań" displayName="Cholesterol LDL">
+                    <translation code="115-149933" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8.1" codeSystemName="Parametry badań(id)" displayName="Cholesterol LDL"/>
+                  </code>
+                  <text>
+                    <reference value="#OBS_1_4"/>
+                  </text>
+                  <effectiveTime value="20231002125331"/>
+                  <value unit="mg/dl" value="73" xsi:type="PQ"/>
+                  <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="115-149933" codeSystem="2.16.840.1.113883.2.48.3.3.1.7.8.1.1" codeSystemName="Uwagi do parametrów badań" displayName="Komentarz"/>
+                      <effectiveTime value="20231002125331"/>
+                      <value xsi:type="ST">Stężenie zalecane:
+Poniżej 115 mg/dl – dla osób zdrowych z małym ryzykiem sercowo-naczyniowym
+Poniżej 100 mg/dl - dla osób z umiarkowanym ryzykiem sercowo-naczyniowym
+Poniżej 70 mg/dl - dla osób z dużym ryzykiem sercowo-naczyniowym
+Poniżej 55 mg/dl - dla osób z bardzo dużym ryzykiem sercowo-naczyniowym
+Poniżej 40 mg/dl - dla osób z ekstremalnym ryzykiem sercowo-naczyniowym
+
+Parametr wyliczany ze wzoru Friedewalda.
+Wynik wyliczono z danych uzyskanych w pomiarach bezpośrednich.
+</value>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <observation classCode="OBS" moodCode="EVN">
+                  <code code="O49" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8" codeSystemName="Parametry badań" displayName="Triglicerydy">
+                    <translation code="115-149608" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8.1" codeSystemName="Parametry badań(id)" displayName="Triglicerydy"/>
+                  </code>
+                  <text>
+                    <reference value="#OBS_1_5"/>
+                  </text>
+                  <effectiveTime value="20231002125331"/>
+                  <value unit="mg/dl" value="54" xsi:type="PQ"/>
+                  <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="115-149608" codeSystem="2.16.840.1.113883.2.48.3.3.1.7.8.1.1" codeSystemName="Uwagi do parametrów badań" displayName="Komentarz"/>
+                      <effectiveTime value="20231002125331"/>
+                      <value xsi:type="ST">Stężenie zalecane:
+Poniżej 150 mg/dl
+W przypadku oznaczenia nie na czczo stężenie zalecane: poniżej 175 mg/dl.
+Stężenia zalecane poszczególnych parametrów podane za wytycznymi PTL/KLRWP/PTK/PTDL/PTD/PTNT.
+
+Badanie wykonano metodą enzymatyczno-kolorymetryczną na aparacie Cobas Pure</value>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </observation>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="ID-b1dc85ed-147d-4006-904a-f8dced3ddd23">
+<ds:SignedInfo Id="ID-95035e35-67c5-41b8-bfce-530b3855855b"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference Id="ID-581413d1-b23a-4462-87b8-a20935420445" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><ds:XPath xmlns="http://uri.etsi.org/01903/v1.3.2#">not(ancestor-or-self::ds:Signature)</ds:XPath>
+</ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>qbeGx6AojAdpsty7MI6g9GAeYG3t9MMEznbdy7TEabI=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="ID-6cdeb52d-b787-4d22-a00c-908b80f418d4" Type="http://uri.etsi.org/01903#SignedProperties" URI="#ID-349bb5f6-6f84-4519-becc-8fb9676a0033"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>8x4i+h2l54Dh2SoYZPstDLJhDfm1OSnog/cfB0xHM9w=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="ID-4e3259bb-0078-44f4-9be4-7889d8264e05">Ko23J68voPw8q2RUJs6LXOqn4VPTkBbc7Pa4BgMaQFwJBgF+t9zWGBFRyjF5qKbY
+Ky0N55PFSkRmleyMaCJF6rPYlH/bD1DmIelv0gbEVD3rTaS3/M3mpW6yhahd3KHG
+biwABOwd9oy3EecKd40Z8BYU5G9pox2ZZGzV5AcCQsEv8LWm7ItK2dBW9N5IWPLb
+5dUfy4NUh0gDyOyLtnLVEbeRROk80OOcAjeCU38q6EFkd6sFghxa5gLDIT1vdAts
+Aqkgfh5OMFf/MqOooqxur0pp/y/CxRPsgc9d4skI3iw2XO9TogA5wY5RgB+AU8J4
+0jP+Fz7dx8MX2RJiu116fw==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIHXTCCBUWgAwIBAgIUK2rV8BLPEU/8uBYd3wwF0koUEIAwDQYJKoZIhvcNAQEL
+BQAweDELMAkGA1UEBhMCUEwxKDAmBgNVBAoMH0tyYWpvd2EgSXpiYSBSb3psaWN6
+ZW5pb3dhIFMuQS4xJDAiBgNVBAMMG0NPUEUgU1pBRklSIC0gS3dhbGlmaWtvd2Fu
+eTEZMBcGA1UEYQwQVkFUUEwtNTI2MDMwMDUxNzAeFw0yMTEyMzEwNzAwMDBaFw0y
+MzEyMzEwNzAwMDBaMIHkMVAwTgYDVQQQMEcMH3Byb2YuIE1pY2hhxYJhIMW7eWN6
+a293c2llZ28gMTYMDjMxLTg2NCBLcmFrw7N3DAxtYcWCb3BvbHNraWUMBlBvbHNr
+YTELMAkGA1UEBhMCUEwxGTAXBgNVBAoMEERpYWdub3N0eWthIFMuQS4xGjAYBgNV
+BAUTEVBOT1BMLTk1MDkwNTAwMTQ3MSAwHgYDVQQDDBdNYXJpYSBNYWdkYWxlbmEg
+S3J5c3phazEYMBYGA1UEKgwPTWFyaWEgTWFnZGFsZW5hMRAwDgYDVQQEDAdLcnlz
+emFrMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkLv0kXMQU3YQoH98
+ECEbPvxRcUaT5+ibq7y/63IQ0N2v4QLonAeicxceb1j4FSBZXStCScs9xmd3V5+7
+tn633IE7OWbuR7LTAdPxSq1roVYFT4erJ8UHBaMW7y0jwrZwFofktD6qao0dXYUp
+52YBQ+y4aKfVIrToEeuUY0V/DrGD/shHNxhSq0r9mPUGoSTFv7HqedNhKPc20+lt
+lF6kfZkOnq2e50aeI5y3mpzJByD+pCUlzRJe91tCSHAc7Ft38HrubeVwZkR+aQRO
+fWMkFVe6W1XRSROJg6d+UrQFFHO4SIP+lU38p4k0isyh3qj53Qngx1stNe+CMb6i
+O/n9MQIDAQABo4ICcDCCAmwwDAYDVR0TAQH/BAIwADCBxwYDVR0gAQH/BIG8MIG5
+MIG2BgkqhGgBhvcjAQEwgagwWgYIKwYBBQUHAgIwTgxMQ2VydHlmaWthdCB3eWRh
+bnkgemdvZG5pZSB6IFphxYLEhWN6bmlraWVtIEkgZG8gUm96cG9yesSFZHplbmlh
+IG5yIDkxMC8yMDE0LjBKBggrBgEFBQcCARY+aHR0cDovL3d3dy5lbGVrdHJvbmlj
+em55cG9kcGlzLnBsL2luZm9ybWFjamUvZG9rdW1lbnR5LWktdW1vd3kwfwYIKwYB
+BQUHAQMEczBxMAgGBgQAjkYBATAIBgYEAI5GAQQwRgYGBACORgEFMDwwOhY0aHR0
+cHM6Ly93d3cuZWxla3Ryb25pY3pueXBvZHBpcy5wbC9QS0lEaXNjbG9zdXJlLnBk
+ZhMCcGwwEwYGBACORgEGMAkGBwQAjkYBBgEwfwYIKwYBBQUHAQEEczBxMC4GCCsG
+AQUFBzABhiJodHRwOi8vb2NzcC5lbGVrdHJvbmljem55cG9kcGlzLnBsMD8GCCsG
+AQUFBzAChjNodHRwOi8vZWxla3Ryb25pY3pueXBvZHBpcy5wbC9jZXJ0eWZpa2F0
+eS9vems2Mi5kZXIwDgYDVR0PAQH/BAQDAgZAMB8GA1UdIwQYMBaAFOaxtBLmR6eE
+PubDxLiJZ0OjY9F9MEAGA1UdHwQ5MDcwNaAzoDGGL2h0dHA6Ly9lbGVrdHJvbmlj
+em55cG9kcGlzLnBsL2NybC9jcmxfb3prNjIuY3JsMB0GA1UdDgQWBBRKOUeKzigx
+KDJKIHE1KcKRIRfarDANBgkqhkiG9w0BAQsFAAOCAgEAEw1wN883KWuUkiIVqtiN
+5gF1bjBu/Rn9j+DBSu8PNJNldt6oOEzc/H8pqDHVzXSE8SzY9063a+/e2D6DDgqn
+SULRzIvGh+C6XGqR6hMyDwwu+E8FjyZqhU48h2Vh8jRzd5Qp9H8wMwn0VQuL0bIR
+nRbY3xqDvMITqHehfQnsv64/7WK+49t5ZS9bS8uPflEUw/w8qexSSHebYwXSRm2+
+3zAxFsDcJnQKvRkxSoIgdspIvU18BR2A369Bnu7Ps55EEN9ifB/GDVetBv9pPOLz
+ikGtLoJqSgUk2yrea1LvHIoAVs62W666tLmlEn+GeLqReBG1qUvdAOkVGmpk/7BD
+d/abjnigX0TqUTA8XYeFNlEs7SMbo7Bc0lkX+ESzMOdN37lNs76yy/yZmrylEW/B
+Wy1wHqmg45Mi+m16Q2wO8seMYMYLc4mQ0rymRQ6m7Dx71vTd7TOms517JLJTsdKK
+padPWjLA0DrBwzLUpTOWtJZmzBqK610n54vQVFgce0UlHcvLrSwU+roEdbaOIFtP
+BySkilbKgibx/sOW8DsqdRDanWZKSPzF6CH1XpFWtDgS4weMqYvAFTz6HnrWY5Wq
+smBWqgNE9wr/8CVSckV84W2jWtxUuE5yiBSh8Ir5bP4VF60/lTDvamjNjG0j1GAg
+Rv9EvE5l1WwgjREPDlrUjT8=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="ID-85e524b6-5ba4-4f87-aa5e-39fcd10274d5" Target="#ID-b1dc85ed-147d-4006-904a-f8dced3ddd23"><xades:SignedProperties Id="ID-349bb5f6-6f84-4519-becc-8fb9676a0033"><xades:SignedSignatureProperties><xades:SigningTime>2023-10-02T10:55:31Z</xades:SigningTime>
+<xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>pdgVenYi3WTn/1TmVW3ZMweilDdeJcxRE4hUoQ84ZGE=</ds:DigestValue>
+</xades:CertDigest>
+<xades:IssuerSerial><ds:X509IssuerName>organizationIdentifier=#0c10564154504c2d35323630333030353137,CN=COPE SZAFIR - Kwalifikowany,O=Krajowa Izba Rozliczeniowa S.A.,C=PL</ds:X509IssuerName>
+<ds:X509SerialNumber>247869118746142132064840999988246407604795084928</ds:X509SerialNumber>
+</xades:IssuerSerial>
+</xades:Cert>
+</xades:SigningCertificate>
+</xades:SignedSignatureProperties>
+<xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ID-581413d1-b23a-4462-87b8-a20935420445"><xades:Description>Dokument w formacie xml [XML]</xades:Description>
+<xades:MimeType>text/xml</xades:MimeType>
+</xades:DataObjectFormat>
+</xades:SignedDataObjectProperties>
+</xades:SignedProperties>
+</xades:QualifyingProperties>
+</ds:Object>
+</ds:Signature></ClinicalDocument>
