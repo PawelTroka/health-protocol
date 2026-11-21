@@ -1941,7 +1941,7 @@ result_notes = {
     ],
     "Tumor Markers": [
         {
-            "text": "Total PSA is low at 0.15ng/mL. Free PSA has no standalone reference range; the free/total ratio adds little information at this total PSA level.",
+            "text": "Total PSA is 0.15ng/mL. Dutasteride lowers PSA: interpret the series with the regimen at each collection and an on-treatment baseline; a confirmed rise from the treated nadir needs review even within the untreated reference range. The label's average 50% reduction after 6 months at 0.5mg/day does not establish an individual correction for every-second-day use. Free PSA has no standalone reference range; the free/total ratio adds little information at this total PSA level. See the <a href='https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/42578/characteristic'>Findarts prescribing information, section 4.4</a>.",
             "markers": [
                 {"rows": ["PSA Total", "PSA Free", "PSA Free/Total Ratio"], "target": "value", "dates": ["2026-07"]},
             ],
@@ -1969,7 +1969,7 @@ result_notes = {
             ],
         },
         {
-            "text": "Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.",
+            "text": "Progesterone remains above the laboratory reference range. These results do not establish dutasteride as the cause; review the dose actually taken at each collection and the clinical context before attributing the finding to treatment.",
             "markers": [
                 {"row": "Progesterone", "target": "value", "dates": ["2026-07", "2026-01", "2025-05"]},
             ],

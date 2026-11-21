@@ -712,7 +712,7 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **S-100** | ⚪ | 🔵 0.10 | 🔵 0.09 | 🔵 0.05 | ug/l | < 0.15; target < 0.10 |
 
 **Notes:**
-<sup>1</sup> Total PSA is low at 0.15ng/mL. Free PSA has no standalone reference range; the free/total ratio adds little information at this total PSA level.
+<sup>1</sup> Total PSA is 0.15ng/mL. Dutasteride lowers PSA: interpret the series with the regimen at each collection and an on-treatment baseline; a confirmed rise from the treated nadir needs review even within the untreated reference range. The label's average 50% reduction after 6 months at 0.5mg/day does not establish an individual correction for every-second-day use. Free PSA has no standalone reference range; the free/total ratio adds little information at this total PSA level. See the <a href='https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/42578/characteristic'>Findarts prescribing information, section 4.4</a>.
 
 ## Infectious Diseases
 
@@ -1015,7 +1015,7 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 <sup>1</sup> Elevated estradiol may partly reflect high testosterone and body fat. Recheck with a sensitive E2 method and interpret with symptoms before considering suppression.
 <sup>2</sup> Prior prolactin elevations were likely due to high sexual activity before testing.
 <sup>3</sup> TSH remains slightly high at 4.25mIU/L, with FT3 and FT4 within range. July testing had biotin and preparation caveats; September washout is unknown.
-<sup>4</sup> Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.
+<sup>4</sup> Progesterone remains above the laboratory reference range. These results do not establish dutasteride as the cause; review the dose actually taken at each collection and the clinical context before attributing the finding to treatment.
 
 ## Structural & Diagnostic Imaging
 
