@@ -1909,7 +1909,7 @@ result_notes = {
     ],
     "Toxicology (Urine)": [
         {
-            "text": "The 2025-05 arsenic elevation was likely due to high salmon consumption.",
+            "text": "Urine arsenic was within range in January and July 2026 after the May 2025 elevation. Recent seafood can increase total urinary arsenic, but the earlier salmon attribution is unconfirmed. If exposure is suspected or elevation recurs, clarify the assay/speciation and recent seafood intake with the laboratory. <a href='https://www.atsdr.cdc.gov/environmental-medicine/hcp/clinician-briefs/arsenic.html'>ATSDR guidance</a>.",
             "markers": [
                 {"row": "Arsenic", "target": "trend"},
                 {"row": "Arsenic", "target": "value", "dates": ["2025-05"]},
@@ -1957,7 +1957,7 @@ result_notes = {
             ],
         },
         {
-            "text": "Prior prolactin elevations were likely due to high sexual activity before testing.",
+            "text": "July 2026 prolactin is within range. Sexual activity can raise prolactin, but its role in the earlier elevations is unconfirmed. If elevation recurs, review collection conditions, medicines and thyroid status with the clinician. <a href='https://academic.oup.com/jcem/article/96/2/273/2709487'>Endocrine Society guidance</a>.",
             "markers": [
                 {"row": "Prolactin", "target": "value", "dates": ["2026-01", "2025-01"]},
             ],
