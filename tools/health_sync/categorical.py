@@ -37,6 +37,15 @@ def merge(existing, incoming, providers, start, end, *, complete):
     return validate(retained + incoming)
 
 
+def _observation_key(event):
+    # Legacy Withings caches can contain the same test from measure and ECG.
+    # Other providers retain distinct IDs; a shared day alone proves no match.
+    stamp = event.get("recorded_at")
+    if event["provider"] == "withings" and isinstance(stamp, str) and stamp.strip():
+        return "timestamp", stamp, event["value"]
+    return "id", event["id"]
+
+
 def aggregate(events, as_of):
     buckets = defaultdict(list)
     for event in validate(events):
@@ -50,8 +59,7 @@ def aggregate(events, as_of):
             buckets[(event["day"][:7], event["provider"], event["metric"])].append(event)
     months = {}
     for (month, provider, metric), observations in sorted(buckets.items()):
-        # API collections can reference the same test in both measure and ECG.
-        deduped = {(event.get("recorded_at", event["day"]), event["value"]): event for event in observations}
+        deduped = {_observation_key(event): event for event in observations}
         observations = list(deduped.values())
         counts = dict(sorted(Counter(event["value"] for event in observations).items()))
         days = {event["day"] for event in observations}

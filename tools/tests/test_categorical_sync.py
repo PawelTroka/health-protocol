@@ -2,7 +2,7 @@ import copy
 from datetime import date
 import unittest
 
-from tools.health_sync import categorical
+from tools.health_sync import categorical, garmin
 
 
 def event(key, day, value="Negative", provider="withings"):
@@ -56,3 +56,63 @@ class ClassificationTests(unittest.TestCase):
         summaries = categorical.aggregate(merged, date(2026, 9, 6))
         self.assertEqual(set(summaries["2026-07"]), {"ECG AF Classification (Withings)"})
         self.assertEqual(old, before)
+
+
+class WorkoutClassificationTests(unittest.TestCase):
+    def inventory(self, day, activities):
+        return garmin.categorical_inventory({"activities": [{"day": day, "data": activities}]})
+
+    def workout(self, identifier, day="2026-07-02", label="AEROBIC_BASE", **fields):
+        return {"activityId": identifier, "startTimeLocal": day + " 12:00:00",
+                "trainingEffectLabel": label, **fields}
+
+    def summary(self, events):
+        return categorical.aggregate(events, date(2026, 8, 1))["2026-07"]["Workout Training Effect (Garmin)"]
+
+    def test_same_label_workouts_count_individually_with_distinct_day_coverage(self):
+        events = self.inventory("2026-07-02", [self.workout(1), self.workout(2)])
+        events += self.inventory("2026-07-03", [self.workout(3, "2026-07-03")])
+        before = copy.deepcopy(events)
+        entry = self.summary(events)
+        self.assertEqual(entry["counts"], {"AEROBIC_BASE": 3})
+        self.assertEqual(entry["value"], "AEROBIC_BASE: 3")
+        self.assertEqual(entry["n_records"], 3)
+        self.assertEqual(entry["n_days"], 2)
+        self.assertEqual((entry["first_day"], entry["last_day"]), ("2026-07-02", "2026-07-03"))
+        self.assertEqual(events, before)
+
+    def test_same_timestamp_does_not_merge_distinct_garmin_workout_ids(self):
+        events = self.inventory("2026-07-02", [self.workout(1), self.workout(2)])
+        for record in events:
+            record["recorded_at"] = "2026-07-02T12:00:00+02:00"
+        self.assertEqual(self.summary(events)["counts"], {"AEROBIC_BASE": 2})
+
+    def test_repeated_activity_and_multisport_component_do_not_inflate_counts(self):
+        parent = self.workout(1)
+        activities = [parent, copy.deepcopy(parent), self.workout(2),
+                      self.workout(3, label="ANAEROBIC_CAPACITY"), self.workout(4, parentId=1)]
+        events = self.inventory("2026-07-02", activities)
+        # An exact repeated normalized observation is also harmless.
+        entry = self.summary(events + [copy.deepcopy(events[0])])
+        self.assertEqual(entry["counts"], {"AEROBIC_BASE": 2, "ANAEROBIC_CAPACITY": 1})
+        self.assertEqual(entry["n_records"], 3)
+        self.assertEqual(entry["n_days"], 1)
+
+    def test_partial_amendment_updates_one_workout_without_recounting_or_losing_others(self):
+        old = self.inventory("2026-07-02", [self.workout(1), self.workout(2), self.workout(3)])
+        incoming = self.inventory("2026-07-02", [self.workout(1, label="RECOVERY")])
+        merged = categorical.merge(old, incoming, ["garmin"], date(2026, 7, 1),
+                                   date(2026, 7, 31), complete=False)
+        entry = self.summary(merged)
+        self.assertEqual(entry["counts"], {"AEROBIC_BASE": 2, "RECOVERY": 1})
+        self.assertEqual(entry["n_records"], 3)
+        self.assertEqual(len(merged), 3)
+
+    def test_untimestamped_withings_records_do_not_become_same_day_duplicates(self):
+        events = [event("first", "2026-07-02"), event("second", "2026-07-02")]
+        for record in events:
+            del record["recorded_at"]
+        entry = categorical.aggregate(events, date(2026, 8, 1))["2026-07"]["ECG AF Classification (Withings)"]
+        self.assertEqual(entry["counts"], {"Negative": 2})
+        self.assertEqual(entry["n_records"], 2)
+        self.assertEqual(entry["n_days"], 1)
