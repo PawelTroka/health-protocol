@@ -9,6 +9,7 @@ if __package__ in (None, ""):
 
 from tools.health_sync.monthly import CATEGORICAL_METRICS, METRICS, apply_report_overlay, load_monthly
 from tools.health_sync.report_layout import layout, counts
+from tools.health_sync.report_colors import PAGE_BACKGROUND, ALTERNATE_ROW_BACKGROUND, readable_text_color
 from tools.health_sync.ecg_records import render_ecg_html, render_ecg_md
 from tools.health_sync.lab_layout import ANA_ENA_MARKERS, lab_groups
 from tools.health_sync.result_bounds import bound_within_reference, bounded_comparison, is_bounded
@@ -619,7 +620,7 @@ def format_cell_html(val, ref, category=None, marker=None, context=None):
     target = target_overrides.get((category, marker))
     arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)
     suffix = f" {arrow}" if arrow else ""
-    return f'<span style="color:{color}; font-weight:bold;">{emoji} {escape(val)}{suffix}</span>'
+    return f'<span style="color:{readable_text_color(color)}; font-weight:bold;">{emoji} {escape(val)}{suffix}</span>'
 
 def format_cell_md(val, ref, category=None, marker=None, context=None):
     status = guide_status(category, marker, val, context)
@@ -689,7 +690,7 @@ def format_cell_html_urine(val, ref):
     color, emoji = result
     if not emoji:
         return format_status(val, NEUTRAL)
-    return f'<span style="color:{color}; font-weight:bold;">{emoji} {escape(val)}</span>'
+    return f'<span style="color:{readable_text_color(color)}; font-weight:bold;">{emoji} {escape(val)}</span>'
 
 def format_cell_md_urine(val, ref):
     result = format_urinalysis_value(val, ref)
@@ -2048,18 +2049,12 @@ def format_status(value, status, *, markdown=False, show_neutral=False):
     if value in {None, "", "-", "—"}:
         return "-"
     color, emoji, label = status
-    # Keep the lab's two green bands distinct and readable on a white page.
-    color = {
-        "#32CD32": "#177527", "#ADFF2F": "#527d13", "#FFA500": "#9c4b00",
-        "#FF4500": "#b22319", "#FFB80E": "#927000",
-        "#4CB814": "#177527", "#7CCA53": "#527d13",
-    }.get(color, color)
     literal = classification_text(value, markdown=markdown)
     if emoji == "⚪" and not show_neutral:
         return literal
     if markdown:
         return f"{emoji} {literal}"
-    return f'<span title="{escape(label, quote=True)}" style="color:{color}; font-weight:bold;">{emoji} {literal}</span>'
+    return f'<span title="{escape(label, quote=True)}" style="color:{readable_text_color(color)}; font-weight:bold;">{emoji} {literal}</span>'
 
 
 def format_microbiota_cell(value, marker, *, markdown=False):
@@ -2449,10 +2444,28 @@ def render_microbiota_md(rows):
             + render_result_notes_md(MICROBIOTA_CATEGORY) + "\n</details>\n\n")
 
 
+def render_color_legend_html():
+    colors = (
+        ("#00008b", "Dark Blue", "Target / low-risk"),
+        ("#00bfff", "Light Blue", "Near target / good"),
+        ("#006400", "Dark Green", "Acceptable"),
+        ("#32cd32", "Light Green", "Normal but not ideal"),
+        ("#ffd700", "Yellow", "Watch / mild deviation"),
+        ("#ffa500", "Light Orange", "Concern / significant deviation"),
+        ("#ff4500", "Dark Orange", "Major deviation"),
+        ("#dc3545", "Light Red", "Severe abnormality"),
+        ("#8b0000", "Dark Red", "Critical"),
+    )
+    return "".join(
+        f"<li><span style='color:{readable_text_color(color)}; font-weight:bold;'>● {name}</span>: {description}</li>"
+        for color, name, description in colors
+    )
+
+
 def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     validate_imaging_sources(REPORT_ROOT)
     html = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>Health Protocol: Results</title><style>"
-    html += "body { font-family: system-ui, sans-serif; padding: 24px; max-width: 1280px; margin: auto; color: #243248; line-height: 1.5; }"
+    html += f"body {{ font-family: system-ui, sans-serif; padding: 24px; max-width: 1280px; margin: auto; color: #243248; background: {PAGE_BACKGROUND}; line-height: 1.5; }}"
     html += "table { border-collapse: collapse; width: 100%; margin-bottom: 10px; }"
     html += "th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }"
     html += "th { background-color: #f2f2f2; }"
@@ -2474,7 +2487,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += ".vitals th, .vitals td { border: 0; border-bottom: 1px solid #e2e8f0; padding: 10px 12px; vertical-align: top; }"
     html += ".vitals th { background: #eef3f8; color: #536278; font-size: 0.8rem; white-space: nowrap; }"
     html += ".vitals td:first-child { width: 34%; min-width: 225px; } .vitals td:first-child b { font-weight: 550; }"
-    html += ".vitals tr:nth-child(odd) td { background: #fafbfd; } .vitals td:not(:first-child) { min-width: 70px; }"
+    html += f".vitals tr:nth-child(odd) td {{ background: {ALTERNATE_ROW_BACKGROUND}; }} .vitals td:not(:first-child) {{ min-width: 70px; }}"
     html += ".vitals details { border: 1px solid #dce4ed; border-radius: 8px; margin-top: 16px; padding: 16px 20px; }"
     html += ".vitals summary { cursor: pointer; font-weight: 600; color: #344d6c; } .vitals summary:focus-visible { outline: 2px solid #344d6c; outline-offset: 4px; }"
     html += ".vitals details[open] > summary { margin-bottom: 20px; } .vitals .table-notes { margin: 0; } .vitals .table-notes p { margin: 10px 0; }"
@@ -2504,15 +2517,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
 
     # Legend
     html += "<h3 id='results-color-legend'>🎨 Color Legend</h3><ul>"
-    html += "<li><span style='color:#00008b; font-weight:bold;'>● Dark Blue</span>: Target / low-risk</li>"
-    html += "<li><span style='color:#00bfff; font-weight:bold;'>● Light Blue</span>: Near target / good</li>"
-    html += "<li><span style='color:#006400; font-weight:bold;'>● Dark Green</span>: Acceptable</li>"
-    html += "<li><span style='color:#32cd32; font-weight:bold;'>● Light Green</span>: Normal but not ideal</li>"
-    html += "<li><span style='color:#ffd700; font-weight:bold;'>● Yellow</span>: Watch / mild deviation</li>"
-    html += "<li><span style='color:#ffa500; font-weight:bold;'>● Light Orange</span>: Concern / significant deviation</li>"
-    html += "<li><span style='color:#ff4500; font-weight:bold;'>● Dark Orange</span>: Major deviation</li>"
-    html += "<li><span style='color:#dc3545; font-weight:bold;'>● Light Red</span>: Severe abnormality</li>"
-    html += "<li><span style='color:#8b0000; font-weight:bold;'>● Dark Red</span>: Critical</li>"
+    html += render_color_legend_html()
     html += "<li>⚪ Context-dependent: no standalone health classification</li>"
     html += "</ul>"
     html += "<p class='note'>Single-result colors use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.</p>"
