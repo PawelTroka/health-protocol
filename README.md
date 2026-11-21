@@ -4,6 +4,7 @@
 ## Table of Importance
 - [0. Behaviors](#0-behaviors)
 - [1. Sleep](#1-sleep)
+- [Family history & risk factors](#family-history--risk-factors)
 - [2. Testing](#2-testing)
 - [3. Exercise](#3-exercise)
 - [4. Diet](#4-diet)
@@ -69,6 +70,14 @@ Sleep is your number 1 priority. It is more important than diet, more important 
 - **Sleep problems:** Avoid extended frustrated wakefulness in bed; if you truly cannot fall asleep read a book or even go back to work; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
 - **Sex & Sauna:*** Could make it easier to fall asleep if used strategically. Use Sauna 1-3h before sleep to relax, use good sex 0-1h before sleep to make it easier to fall asleep.
 - **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
+
+## Family history & risk factors
+
+- **Family history:** privately record each blood relative's relationship and maternal/paternal side, major diagnoses and age at onset; mark unknown details and update when new information appears. [Family-history guide](https://www.cdc.gov/family-health-history/family-health-history-and-you/family-health-history-and-adults.html).
+- **Personal risk factors:** review age, current diagnoses/symptoms, medicines, relevant exposures and trends in [Results](results.md) at the next GP/POZ review.
+- **Prevention plan:** use this history to agree [Testing](#2-testing), [Vaccines](#9-vaccines) and review intervals; distinguish routine screening from diagnostic follow-up.
+- **Results → action:** for unresolved findings in [Results](results.md) or [Follow-up](#follow-up), record the agreed clinician, next action and due date; confirm completion. [Follow-up guide](https://www.ahrq.gov/health-literacy/improve/precautions/tool6.html).
+- **Polish access:** [Moje Zdrowie](https://pacjent.gov.pl/program-moje-zdrowie/) provides a POZ prevention plan for NFZ-insured adults (ages 20–49: every 5 years); indicated care continues between programme visits.
 
 ## 2. Testing
 
