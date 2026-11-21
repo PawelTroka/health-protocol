@@ -12,7 +12,7 @@ _MAIN_GROUPS = (
         "Body composition",
         "Weight and composition, including bone percentage and the visceral fat index.",
         (
-            "Body Mass", "BMI", "Body Fat", "Muscle", "Bone", "Visceral Fat Index",
+            "Body Mass", "FFMI", "Body Fat", "Muscle", "Bone", "Visceral Fat Index",
         ),
     ),
     (

@@ -3,6 +3,7 @@
 import argparse
 from contextlib import contextmanager
 from datetime import datetime
+from decimal import Decimal
 from getpass import getpass
 import hashlib
 import json
@@ -103,11 +104,54 @@ def archive(source, content, extension):
 def load_cache():
     path = CACHE / "records.json"
     if not path.exists():
-        return []
+        return {"schema_version": 1, "records": []}
     payload = json.loads(path.read_text(encoding="utf-8"))
     if payload.get("schema_version") != 1 or not isinstance(payload.get("records"), list):
         raise ValueError("Unsupported local records cache; existing reports were preserved.")
-    return payload["records"]
+    return payload
+
+
+def source_records(cache):
+    # These derived indices are replaced from their source observations on every run.
+    return [record for record in cache["records"]
+            if not (isinstance(record, dict) and record.get("provider") == "withings"
+                    and record.get("metric") in {"BMI", "FFMI"})]
+
+
+def body_indices(records, height_cm=None):
+    from tools.health_sync.withings import fat_free_mass_indices
+    profile = CACHE / "profile.json"
+    if height_cm is None and profile.exists():
+        settings = json.loads(profile.read_bytes())
+        if not isinstance(settings, dict):
+            raise ValueError("The private sync profile must be a JSON object.")
+        height_cm = settings.get("height_cm")
+    return fat_free_mass_indices(records, height_cm)
+
+
+def public_monthly(records, as_of):
+    """Keep FFMI direction public and numerical FFMI and height private."""
+    monthly = aggregate([r for r in records if r["metric"] not in {"FFMI", "Height (Withings)"}], as_of)
+    indices = [r for r in records if r["metric"] == "FFMI"]
+    if indices:
+        # A fixed positive height cannot change the direction. Compare the same
+        # readings in kg so rounding a height-dependent index cannot disclose height.
+        masses = [{**r, "metric": "Fat-Free Mass (Withings)", "unit": "kg",
+                   "value": r["fat_free_mass_kg"]} for r in indices]
+        previous = None
+        trend = {}
+        for month, metrics in sorted(aggregate(masses, as_of)["months"].items()):
+            current = Decimal(metrics["Fat-Free Mass (Withings)"]["value"])
+            if previous is None:
+                trend[month] = "baseline"
+            elif current == previous:
+                trend[month] = "stable"
+            else:
+                trend[month] = "up" if current > previous else "down"
+            previous = current
+        if trend:
+            monthly["ffmi_trend"] = trend
+    return monthly
 
 
 def reject_credentials(value):
@@ -197,7 +241,7 @@ def run_import(args):
             fetch_status[provider] = payload.get("_sync", {})
             reject_credentials(payload)
             module = {"oura": oura, "withings": withings, "garmin": garmin}[provider]
-            records = module.parse_api(payload, **({"height_cm": args.height_cm} if provider == "withings" else {}))
+            records = module.parse_api(payload)
             inventory = module.categorical_inventory(payload)
             classifications.extend(inventory)
             if provider == "withings":
@@ -221,7 +265,7 @@ def run_import(args):
                 if payload["status"] != 0:
                     raise ValueError("The Withings JSON contains an API error.")
                 payload = {"measure": [payload]}
-            sources.append(("withings", raw, ".json", withings.parse_api(payload, height_cm=args.height_cm)))
+            sources.append(("withings", raw, ".json", withings.parse_api(payload)))
             classifications.extend(withings.categorical_inventory(payload))
             ecg_inventory.extend(withings.ecg_signal_inventory(payload))
         if args.garmin_json:
@@ -246,8 +290,10 @@ def run_import(args):
     incomplete = any(entry.get("status") == "unavailable"
                      for status in fetch_status.values()
                      for entry in status.get("endpoint_status", {}).values())
+    previous_cache = load_cache()
+    existing = source_records(previous_cache)
     if args.command == "sync":
-        records = reconcile.merge_synced(load_cache(), incoming, providers, start, end, fetch_status)
+        records = reconcile.merge_synced(existing, incoming, providers, start, end, fetch_status)
         if incomplete:
             print("Some API collections are unavailable; their cached observations are retained while complete collections are refreshed.")
     else:
@@ -265,10 +311,9 @@ def run_import(args):
             if provider not in usable_providers:
                 raise ValueError(f"No usable {provider} readings in the requested range; existing results were preserved.")
         numeric_providers = {record["provider"] for record in incoming}
-        records = merge_file_records(load_cache(), incoming, numeric_providers, start, end)
-    monthly = aggregate(records, today)
-    cache_path = CACHE / "records.json"
-    previous_cache = json.loads(cache_path.read_bytes()) if cache_path.exists() else {}
+        records = merge_file_records(existing, incoming, numeric_providers, start, end)
+    records.extend(body_indices(records, args.height_cm))
+    monthly = public_monthly(records, today)
     previous_classifications = previous_cache.get("classifications", [])
     if args.command == "sync":
         classifications = reconcile.merge_synced(previous_classifications, classifications, providers, start, end,
@@ -311,16 +356,42 @@ def run_import(args):
     print("\nUpdated results.md, results.html and results/vitals_monthly.json.")
 
 
+def rebuild_body_index():
+    """Refresh only body indices from the existing normalized Withings measurements."""
+    from tools.health_sync.monthly import load_monthly
+    monthly_path = ROOT / "results" / "vitals_monthly.json"
+    cache_path = CACHE / "records.json"
+    if not cache_path.is_file() or not monthly_path.is_file():
+        raise ValueError("The monthly source and private readings are required to rebuild FFMI.")
+    monthly = load_monthly(monthly_path)
+    cache = load_cache()
+    records = source_records(cache)
+    marker = "Fat-Free Mass (Withings)"
+    masses = validate_records([r for r in records if r["metric"] == marker])
+    indices = body_indices(masses)
+    as_of = iso_date(monthly["as_of"])
+    updated = public_monthly(masses + indices, as_of)
+    published = {m: rows[marker] for m, rows in monthly["months"].items() if marker in rows}
+    if published != {m: rows[marker] for m, rows in updated["months"].items()}:
+        raise ValueError("The private fat-free mass readings do not match the published months. Run a vitals sync.")
+    monthly.pop("ffmi_trend", None)
+    if "ffmi_trend" in updated:
+        monthly["ffmi_trend"] = updated["ffmi_trend"]
+    cache["records"] = records + indices
+    reports = prepare_reports(monthly)
+    atomic_commit({cache_path: json_bytes(cache), monthly_path: json_bytes(monthly), **reports})
+    print("Rebuilt FFMI from the local Withings readings and updated both reports.")
+
+
 def render_ecg():
     """Expose existing recorded signals without fetching or re-averaging vitals."""
     from tools.health_sync import ecg_plots, ecg_records
     from tools.health_sync.monthly import load_monthly
-    load_cache()  # Validate the cache before changing any output.
     cache_path = CACHE / "records.json"
     if not cache_path.exists():
         print("No recorded ECGs in the local cache.")
         return
-    cache = json.loads(cache_path.read_bytes())
+    cache = load_cache()
     summaries = cache.get("ecg_recordings", [])
     ecg_records.public_summaries(summaries)  # Validate dated private metadata.
     if not summaries:
@@ -343,6 +414,7 @@ def parser():
     commands = result.add_subparsers(dest="command", required=True)
     commands.add_parser("status", help="Show account connection and local data status without secrets")
     commands.add_parser("render-ecg", help="Rebuild ECG results and graphs from the saved private archive")
+    commands.add_parser("rebuild-body-index", help="Recalculate FFMI from existing private readings")
     for name in ("connect", "authorize"):
         connection = commands.add_parser(name, help="One-time account setup" if name == "connect" else "Renew account consent")
         connection.add_argument("provider", choices=("oura", "withings", "garmin"))
@@ -350,7 +422,7 @@ def parser():
         command = commands.add_parser(name, help="Fetch connected services" if name == "sync" else "Import downloaded files")
         command.add_argument("--start", default=MANAGED_START.isoformat())
         command.add_argument("--end", help="Inclusive YYYY-MM-DD; defaults to today in Europe/Warsaw")
-        command.add_argument("--height-cm", type=float, default=180.0, help="Recorded height for derived Withings BMI (default:180)")
+        command.add_argument("--height-cm", type=float, help="Override the local profile height used to calculate FFMI")
         command.add_argument("--dry-run", action="store_true", help="Fetch, calculate and validate without updating reports")
         if name == "sync":
             command.add_argument("--provider", choices=("oura", "withings", "garmin", "both", "all"), default="all",
@@ -370,7 +442,7 @@ def main(argv=None):
             if args.command == "status":
                 for provider, status in connection_status().items():
                     print(f"{provider}: configured={status['configured']}, authorized={status['authorized']}")
-                records = load_cache()
+                records = load_cache()["records"]
                 print(f"Local cache: {len(records)} normalized readings. Managed history begins July 2026.")
             elif args.command in ("connect", "authorize"):
                 if args.provider == "garmin":
@@ -388,6 +460,8 @@ def main(argv=None):
                 print(f"{args.provider} connected. Run .\\tools\\Sync-Vitals.ps1 from the repository root to sync.")
             elif args.command == "render-ecg":
                 render_ecg()
+            elif args.command == "rebuild-body-index":
+                rebuild_body_index()
             else:
                 run_import(args)
         return 0

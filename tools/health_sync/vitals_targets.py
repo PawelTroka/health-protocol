@@ -47,9 +47,9 @@ CATEGORIES["HRV Status (Garmin)"].update({
 CATEGORY_REFERENCES = {
     "ECG AF Classification (Withings)": "Negative",
     "Stress Day Summary (Oura)": "Normal / Restored",
-    "Resilience Level (Oura)": "Solid or better; target Strong–Exceptional",
-    "HRV Status (Garmin)": "Balanced within personal baseline",
-    "Training Load Status (Garmin)": "OPTIMAL within Garmin's personal load range",
+    "Resilience Level (Oura)": "Solid+ (goal Strong+)",
+    "HRV Status (Garmin)": "Balanced",
+    "Training Load Status (Garmin)": "OPTIMAL",
 }
 
 
@@ -125,7 +125,7 @@ def distance(value, interval):
 
 
 OURA_SCORE = {
-    "reference": "70–100; target 85–100", "valid": (0, 100), "direction": "up",
+    "reference": "≥70 (goal ≥85)", "valid": (0, 100), "direction": "up",
     "bands": ((85, "🔵", "Oura: optimal"), (70, "🟢", "Oura: good"),
               (60, "🟡", "Oura: fair"), (0, "🟠", "Oura: pay attention")),
 }
@@ -133,17 +133,13 @@ OURA_SCORE = {
 # Withings defines whole-body muscle (not DXA appendicular lean mass), bone
 # and water as percentages. Male 20–39 comparison bands apply to this report.
 BODY_TARGETS = {
-    "Body Mass": {"reference": "59.9–80.7; BMI-derived target 64.8–80.7",
-                  "normal": (18.5, 24.9), "target": (20, 24.9),
-                  "transform": ("scale", 1 / 1.8 ** 2)},
-    "BMI": {"reference": "18.5–24.9; target 20–24.9", "normal": (18.5, 24.9), "target": (20, 24.9)},
-    "Body Fat": {"reference": "8–20; practical target 10–15", "normal": (8, 20), "target": (10, 15), "valid": (0, 100)},
+    "Body Fat": {"reference": "8–20 (goal 10–15)", "normal": (8, 20), "target": (10, 15), "valid": (0, 100)},
     "Muscle": {"reference": "75–89", "target": (75, 89), "valid": (0, 100),
                "trend_target": (89, 89), "trend_guard": (None, 89), "trend_min_change": 0.2},
     "Bone": {"reference": "3–5", "target": (3, 5), "valid": (0, 100),
              "trend_target": (5, 5), "trend_guard": (None, 5), "trend_min_change": 0.1},
     "Body Water (Withings)": {"reference": "50–65", "target": (50, 65), "valid": (0, 100)},
-    "Lean Mass (Withings)": {"reference": "80–92; practical target 85–90", "normal": (80, 92), "target": (85, 90), "valid": (0, 100)},
+    "Lean Mass (Withings)": {"reference": "80–92 (goal 85–90)", "normal": (80, 92), "target": (85, 90), "valid": (0, 100)},
     "Visceral Fat Index": {"reference": "0–5", "target": (0, 5), "valid": (0, 20),
                           "outside_emoji": "🟠", "direction": "down", "trend_min_change": 0.1},
 }
@@ -154,8 +150,10 @@ for marker, pct, band, normal in (
     ("Fat-Free Mass (Withings)", "85–90", (85, 90), (80, 92)),
     ("Water Mass (Withings)", "50–65", (50, 65), (50, 65)),
 ):
-    comparison = f"{normal[0]}–{normal[1]}%; target {pct}%" if normal != band else f"{pct}%"
-    BODY_TARGETS[marker] = {"reference": f"{comparison} of body mass", "target": band, "normal": normal,
+    comparison = f"{normal[0]}–{normal[1]}% of weight"
+    if normal != band:
+        comparison += f" (goal {pct}%)"
+    BODY_TARGETS[marker] = {"reference": comparison, "target": band, "normal": normal,
                            "transform": ("ratio", "Body Mass", 100)}
 
 # Percentages can rise through fat loss while tissue mass stays unchanged.
@@ -177,22 +175,22 @@ for marker in ("Sleeping Heart Rate", "Average Sleeping HR (Oura)", "Average Sle
                "Average Sleeping HR (Garmin)",
                "Mean Nightly Lowest HR (Oura)", "Mean Nightly Lowest HR (Withings)",
                "Sampled HR During Primary Sleep (Oura)", "Sampled Sleeping HR (Oura)"):
-    HEART_TARGETS[marker] = {"reference": "40–100; practical target 45–60", "normal": (40, 100), "target": (45, 60),
+    HEART_TARGETS[marker] = {"reference": "40–100 (goal 45–60)", "normal": (40, 100), "target": (45, 60),
                              "trend_target": (45, 45), "trend_guard": (45, None), "trend_min_change": 0.5}
 for marker in ("Resting Heart Rate", "Resting HR (Garmin)", "Sampled Rest HR (Oura)"):
-    HEART_TARGETS[marker] = {"reference": "40–100; practical target 50–70", "normal": (40, 100), "target": (50, 70),
+    HEART_TARGETS[marker] = {"reference": "40–100 (goal 50–70)", "normal": (40, 100), "target": (50, 70),
                              "trend_target": (50, 50), "trend_guard": (50, None), "trend_min_change": 0.5}
 for marker in ("ECG Heart Rate", "ECG Recorded Heart Rate (Withings)", "Pulse Rate (Withings)"):
-    HEART_TARGETS[marker] = {"reference": "50–100; practical target 50–80", "normal": (50, 100), "target": (50, 80),
+    HEART_TARGETS[marker] = {"reference": "50–100 (goal 50–80)", "normal": (50, 100), "target": (50, 80),
                              "trend_target": (50, 50), "trend_guard": (50, None), "trend_min_change": 0.5}
 for marker in ("PWV", "Estimated PWV (Oura)"):
-    HEART_TARGETS[marker] = {"reference": "<10; practical target <7", "normal": (0, 10), "target": (0, 7),
+    HEART_TARGETS[marker] = {"reference": "<10 (goal <7)", "normal": (0, 10), "target": (0, 7),
                              "normal_open": (False, True), "target_open": (False, True),
                              "valid": (0.01, None), "direction": "down", "trend_min_change": 0.1}
 for marker in ("Cardiovascular Age (Oura)", "Vascular Age (Withings)", "Metabolic Age (Withings)"):
     HEART_TARGETS[marker] = {"reference": "Below chronological age", "direction": "down"}
 HEART_TARGETS["Cardiovascular Age Difference (Oura)"] = {
-    "reference": "Within ±5; target ≤−6", "normal": (-5, 5), "target": (None, -6),
+    "reference": "±5 (goal ≤−6)", "normal": (-5, 5), "target": (None, -6),
     "valid": (None, None), "direction": "down",
     "bands": ((6, "🟡", "Oura: above chronological age"), (-5, "🟢", "Oura: aligned"),
               (-1000, "🔵", "Oura: below chronological age")),
@@ -248,8 +246,6 @@ def evaluated_value(marker, value, context=None):
     transform = rule.get("transform")
     if not transform:
         return val
-    if transform[0] == "scale":
-        return val * Decimal(str(transform[1]))
     if not context:
         return None
     if transform[0] == "ratio":

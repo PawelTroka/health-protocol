@@ -284,9 +284,7 @@ class MonthlyReportOverlayTests(unittest.TestCase):
             {"row": "Body Mass", "target": "value", "dates": ["2026-08"]},
             {"row": "Body Fat", "target": "value", "dates": ["2026-08", "2026-09"]},
         ])
-        self.assertEqual(notes[-1]["markers"], [
-            {"row": "Body Mass", "target": "value", "dates": ["2026-09"]}
-        ])
+        self.assertEqual(notes[-1]["markers"], [{"target": "monthly_measurements"}])
 
     def test_empty_overlay_is_noop(self):
         followups = {"2026-07": {"Body Mass": "85"}}
@@ -300,7 +298,7 @@ class MonthlyReportOverlayTests(unittest.TestCase):
                    measurement("fat", "2026-09-02", 15, "Body Fat", unit="%")]
         note = report_note(aggregate(records, date(2026, 9, 5)))
         self.assertIn("Withings: 1-2/5 elapsed days (month to date)", note["text"])
-        self.assertEqual({marker["row"] for marker in note["markers"]}, {"Body Mass", "Body Fat"})
+        self.assertEqual(note["markers"], [{"target": "monthly_measurements"}])
 
 
 class MonthlyFileValidationTests(unittest.TestCase):
@@ -389,6 +387,23 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
             with patch.dict(os.environ, {"HEALTH_PROTOCOL_VITALS_MONTHLY": str(source)}):
                 return runpy.run_path(str(Path(__file__).parents[1] / "generate_colored_report.py"), run_name="report_data_test")
 
+    def test_body_composition_shows_ffmi_directions_and_omits_old_bmi_snapshots(self):
+        metric = "Fat-Free Mass (Withings)"
+        payload = aggregate([measurement("first", "2026-07-01", 60, metric),
+                             measurement("second", "2026-09-01", 61, metric)], date(2026, 9, 6))
+        payload["ffmi_trend"] = {"2026-07": "baseline", "2026-09": "up"}
+        report = self.load_generator(payload)
+        rows = report["data"]["Vitals & Functional Health"]
+        html = report["render_vitals_html"](rows)
+        md = report["render_vitals_md"](rows)
+        self.assertIn("<b>FFMI</b>", html)
+        self.assertNotIn("<b>BMI</b>", html)
+        self.assertNotIn("| **BMI** |", md)
+        self.assertNotIn("<b>Height</b>", html)
+        self.assertNotIn("| **Height** |", md)
+        index_row = next(line for line in md.splitlines() if line.startswith("| **FFMI** |"))
+        self.assertIn("| Up | - | Baseline | - | Prior mean | Withings |", index_row)
+
     def test_july_replaces_existing_column_once_without_changing_labs(self):
         baseline = self.load_generator({"schema_version": 1, "as_of": "2026-09-06", "months": {}})
         payload = aggregate([measurement("actual", "2026-07-15", 79.2)], date(2026, 9, 6))
@@ -403,10 +418,9 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         for category in current["data"]:
             if category != "Vitals & Functional Health":
                 self.assertEqual(current["data"][category], baseline["data"][category])
-        old_markers = [marker for note in current["result_notes"]["Vitals & Functional Health"][:-1]
-                       for marker in note["markers"]]
-        self.assertFalse(any("Body Mass" in marker.get("rows", [marker.get("row")])
-                             and "2026-07" in marker.get("dates", []) for marker in old_markers))
+        category = "Vitals & Functional Health"
+        self.assertEqual(current["note_numbers"](category, "Body Mass", "value", "2026-07"), [])
+        self.assertTrue(current["note_numbers"](category, "Body Mass", "value", "2026-08"))
 
     def test_registry_addition_creates_only_observed_row_without_invented_target(self):
         from tools.health_sync import monthly
@@ -434,9 +448,41 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         for name in ("Stress", "ECG Rhythm", "Heart Sounds"):
             self.assertEqual(next(r for r in current["data"]["Vitals & Functional Health"] if r[0] == name),
                              next(r for r in baseline["data"]["Vitals & Functional Health"] if r[0] == name))
-        note = current["result_notes"]["Vitals & Functional Health"][-1]
+        category = "Vitals & Functional Health"
+        self.assertEqual(current["note_numbers"](category, None, "monthly_measurements"), [])
+        self.assertEqual(current["note_numbers"](category, row[0], "value", "2026-07"), [])
+        number, = current["note_numbers"](category, None, "classification_counts")
+        note = current["result_notes"][category][number - 1]
         self.assertIn("counts of observed labels", note["text"])
-        self.assertEqual(note["markers"], [{"row": row[0], "target": "value", "dates": ["2026-07"]}])
+        self.assertEqual(note["markers"], [{"target": "classification_counts"}])
+
+    def test_partial_import_shares_each_source_once_but_keeps_manual_readings_marked(self):
+        payload = classification_payload()
+        payload["months"] = aggregate([measurement("actual", "2026-07-15", 79.2)],
+                                      date(2026, 9, 6))["months"]
+        followups, notes = {}, []
+        apply_report_overlay(followups, notes, payload)
+        first_overlay = copy.deepcopy((followups, notes))
+        apply_report_overlay(followups, notes, payload)
+        self.assertEqual((followups, notes), first_overlay)
+        report = self.load_generator(payload)
+        category = "Vitals & Functional Health"
+        manual, = report["note_numbers"](category, "Body Mass", "value", "2026-08")
+        for output_format in ("html", "md"):
+            with self.subTest(output_format=output_format):
+                rendered = report[f"render_vitals_{output_format}"](report["data"][category])
+                row_end = "</tr>" if output_format == "html" else "\n"
+                body_mass = rendered.split("Body Mass", 1)[1].split(row_end, 1)[0]
+                self.assertIn(f"<sup>{manual}</sup>", body_mass)
+                for target, label, definition in (
+                    ("monthly_measurements", "Monthly device summaries", "Imported monthly summaries"),
+                    ("classification_counts", "classification counts", "Imported device classifications"),
+                ):
+                    number, = report["note_numbers"](category, None, target)
+                    marker = f"<sup>{number}</sup>"
+                    self.assertIn(label + marker, rendered)
+                    self.assertIn(f"{marker} {definition}", rendered)
+                    self.assertEqual(rendered.count(marker), 2)
 
     def test_classification_labels_are_escaped_in_both_report_formats(self):
         label = '<script>alert("x")</script>|[a](javascript:1)'

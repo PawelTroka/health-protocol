@@ -19,7 +19,7 @@ def _add(markers, **rule):
 # AASM >=7h and AHI<5 comparisons are the same as the underlying nightly rows.
 _add(
     ("Short Sleep Nights (Oura)", "Short Sleep Nights (Withings)", "AHI ≥5 Nights (Withings)"),
-    reference="Target 0% of observed nights", target=(0, 0), valid=(0, 100),
+    reference="0% of measured nights", target=(0, 0), valid=(0, 100),
     direction="down", trend_min_change=1,
 )
 # Consistency is supported by NHLBI; there is no universal ideal clock time
@@ -27,18 +27,18 @@ _add(
 # https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits
 for _provider in ("Oura", "Withings"):
     _add((f"Sleep Midpoint Variability ({_provider})",),
-         reference="Lower variability; regular schedule", valid=(0, None),
+         reference="Lower variability", valid=(0, None),
          direction="down", trend_min_change=5)
     _add(tuple(f"{name} ({_provider})" for name in ("Bedtime", "Wake-up Time", "Sleep Midpoint")),
          reference="Local sleep schedule", direction="none")
 _add(("Recorded Short-Sleep Periods (Oura)", "Recorded Short-Sleep Duration (Oura)"),
-     reference="Recorded monthly total", direction="none")
+     reference="Monthly total", direction="none")
 # Compare actual completed-night sleep with its own Garmin recommendation.
 # https://www.garmin.com/en-GB/garmin-technology/health-science/sleep-coach/
 _add(("Sleep Coach Recommendation (Garmin)",),
-     reference="Personal Garmin recommendation", valid=(6.5, 9.5), direction="none")
+     reference="Sleep Coach goal", valid=(6.5, 9.5), direction="none")
 _add(("Sleep Coach Shortfall (Garmin)",),
-     reference="0 relative to Sleep Coach", target=(0, 0), valid=(0, 24),
+     reference="0 shortfall", target=(0, 0), valid=(0, 24),
      direction="down", trend_min_change=5 / 60)
 
 
@@ -50,7 +50,7 @@ _add(("Sleep Coach Shortfall (Garmin)",),
 _add(
     ("Sleep Duration", "Sleep Duration (Withings)",
      "External Sleep Duration (Withings)", "Sleep Duration (Garmin)"),
-    reference="≥7; target 7–9", target=(7, 9), normal=(7, None), valid=(0, 24),
+    reference="≥7 (goal 7–9)", target=(7, 9), normal=(7, None), valid=(0, 24),
 )
 
 # NSF consensus: efficiency >=85%; WASO <=20 min for adult sleep quality.
@@ -71,7 +71,7 @@ _add(
 # a claim that its proprietary algorithm has validated the Oura target.
 _add(
     ("Sleep Latency", "Sleep Latency (Withings)"),
-    reference="≤30; practical target 15–20", target=(15, 20),
+    reference="≤30 (goal 15–20)", target=(15, 20),
     normal=(5, 30), valid=(0, 1440),
 )
 
@@ -80,7 +80,7 @@ _add(
 # https://www.withings.com/fr/fr/blog/sommeil/comment-withings-calcule-votre-score-de-sommeil
 _add(
     ("Sleep Score (Withings)",),
-    reference=">75; higher is better", valid=(0, 100), direction="up",
+    reference=">75", valid=(0, 100), direction="up",
     bands=((75, "🟢", "Withings: high sleep score"),
            (50, "🟡", "Withings: medium sleep score"),
            (0, "🟠", "Withings: low sleep score")),
@@ -89,7 +89,7 @@ _add(
 # https://support.garmin.com/en-IN/?faq=mBRMf4ks7XAQ03qtsbI8J6
 _add(
     ("Sleep Score (Garmin)",),
-    reference="≥80 good; target ≥90", valid=(0, 100), direction="up",
+    reference="≥80 good (goal ≥90)", valid=(0, 100), direction="up",
     bands=((90, "🔵", "Garmin: excellent sleep score"),
            (80, "🟢", "Garmin: good sleep score"),
            (60, "🟡", "Garmin: fair sleep score"),
@@ -126,7 +126,7 @@ _add(
 # https://media.withings.com/kits/guides/2026/sleep-rx/AW_IFU_WSM02_Rx_US_B.pdf
 _add(
     ("Sleep Rx Breathing Events Index (Withings)",),
-    reference="<15 no/mild; lower is better", valid=(0, None), direction="down",
+    reference="<15 (none/mild)", valid=(0, None), direction="down",
     bands=((30, "🔴", "Withings Sleep Rx: severe range"),
            (15, "🟡", "Withings Sleep Rx: moderate range"),
            (0, "🟢", "Withings Sleep Rx: no/mild range")),
@@ -172,12 +172,12 @@ for _provider, _sleep_marker in (
 # https://developer.withings.com/api-reference/#operation/sleepv2-getsummary
 _add(
     ("Awake Time During Sleep (Oura)", "Awake Time During Sleep (Garmin)"),
-    reference="Less awake time; interpret with sleep duration",
+    reference="Less awake time",
     direction="down", valid=(0, 24),
 )
 _add(
     ("Awake Duration (Withings)", "Sleeping Movement Duration (Withings)"),
-    reference="Less disruption; interpret with sleep duration",
+    reference="Less disruption",
     direction="down", valid=(0, 1440),
 )
 _add(
@@ -188,7 +188,7 @@ _add(
 )
 _add(
     ("Sleeping Movement Score (Withings)",),
-    reference="Less movement; device scale 0–255",
+    reference="Lower (0–255)",
     direction="down", valid=(0, 255),
 )
 
@@ -208,35 +208,35 @@ _add(
 # thresholds for normality or importing thresholds from different quantities.
 _add(
     ("Time in Bed", "Time in Bed (Withings)"),
-    reference="Allow enough time for 7–9h of sleep", direction="none", valid=(0, 24),
+    reference="Allow 7–9h of sleep", direction="none", valid=(0, 24),
 )
 _add(
     ("Minimum Sleeping Respiratory Rate (Withings)",
      "Maximum Sleeping Respiratory Rate (Withings)",
      "Minimum Wellness Respiratory Rate (Withings)",
      "Maximum Wellness Respiratory Rate (Withings)"),
-    reference="Nightly extrema; compare with personal baseline",
+    reference="Personal baseline",
     direction="none", valid=(0.01, None),
 )
 _add(
     ("REM Episode Count (Withings)",),
-    reference="Interpret with sleep duration and continuity",
+    reference="-",
     direction="none", valid=(0, None),
 )
 _add(
     ("Nap Duration (Garmin)",),
-    reference="Interpret with nighttime sleep and nap timing",
+    reference="-",
     direction="none", valid=(0, 24),
 )
 _add(
     ("Wakeup Latency (Withings)",),
-    reference="Time in bed after waking; contextual",
+    reference="-",
     direction="none", valid=(0, 1440),
 )
 _add(
     ("Primary Sleep Score Change (Oura)",
      "Primary Sleep Readiness Score Change (Oura)"),
-    reference="Algorithm contribution; not a quality score",
+    reference="-",
     direction="none", valid=(None, None),
 )
 # The API defines a 0–100 index derived from detected SpO2 drops. Fewer drops
@@ -245,7 +245,7 @@ _add(
 # https://ouraring.com/blog/blood-oxygen-sensing-spo2/
 _add(
     ("Breathing Disturbance Index (Oura)",),
-    reference="Lower disturbance burden; device index 0–100",
+    reference="Lower (0–100)",
     direction="down", valid=(0, 100), trend_min_change=0.1,
 )
 # These two API fields are numeric intensities, not category codes. Preserve
@@ -254,7 +254,7 @@ _add(
 # https://support.withings.com/hc/article_attachments/13710141655825
 _add(
     ("Breathing Disturbance Intensity (Withings)", "Breathing Quality Assessment (Withings)"),
-    reference="<30 few; 30–<60 moderate; ≥60 high",
+    reference="<30 few, 30–<60 moderate, ≥60 high",
     direction="down", valid=(0, 100), trend_min_change=0.1,
     bands=((60, "🟠", "Withings: high breathing disturbances"),
            (30, "🟡", "Withings: moderate breathing disturbances"),
@@ -262,17 +262,17 @@ _add(
 )
 _add(
     ("Breathing Sounds Duration (Withings)",),
-    reference="Recorded breathing sounds; contextual",
+    reference="-",
     direction="none", valid=(0, 1440),
 )
 _add(
     ("Breathing Sounds Episode Count (Withings)",),
-    reference="Recorded breathing sounds; contextual",
+    reference="-",
     direction="none", valid=(0, None),
 )
 _add(
     ("Chest Movement Rate (Withings)", "Minimum Chest Movement Rate (Withings)",
      "Maximum Chest Movement Rate (Withings)"),
-    reference="Device chest-movement rate; contextual",
+    reference="-",
     direction="none", valid=(0, None),
 )

@@ -208,12 +208,12 @@ target_overrides = {
 
     # Remaining legacy vitals; sourced wearable/body targets live in vitals_targets.py.
     ("Vitals & Functional Health", "Blood Pressure"): blood_pressure_target(
-        "< 120 / < 80; target 100-115 / 60-75",
+        "<120/<80 (goal 100–115/60–75)",
         {"low_limit": 90.0, "optimal_min": 100.0, "optimal_max": 115.0, "high_limit": 120.0},
         {"low_limit": 55.0, "optimal_min": 60.0, "optimal_max": 75.0, "high_limit": 80.0},
     ),
-    ("Vitals & Functional Health", "Nighttime BP Dip"): optimal_range_target("10 - 20; target 10 - 20", 0.0, 10.0, 20.0, 25.0),
-    ("Vitals & Functional Health", "Temperature"): optimal_range_target("36.1 - 37.2; target 36.5 - 37.0", 36.1, 36.5, 37.0, 37.2),
+    ("Vitals & Functional Health", "Nighttime BP Dip"): optimal_range_target("10–20", 0.0, 10.0, 20.0, 25.0),
+    ("Vitals & Functional Health", "Temperature"): optimal_range_target("36.1–37.2 (goal 36.5–37.0)", 36.1, 36.5, 37.0, 37.2),
 
     # Metabolic, liver, kidney
     ("Metabolic Health", "Glucose"): optimal_range_target("70 - 99; target 70 - 85", 70.0, 70.0, 85.0, 99.0),
@@ -1799,9 +1799,9 @@ result_notes = {
             "markers": [],
         },
         {
-            "text": "The original August and September body-composition snapshots are dated August 28 and September 5; imported monthly replacements have a separate source note. Bone is the Withings estimate as a percentage of body weight. Visceral fat is the <a href='https://support.withings.com/hc/en-us/articles/11003948038545-Body-Scan-Learn-more-about-Visceral-Fat-Index'>Withings index on a 0-20 scale</a>, not a percentage. Muscle percentage is distinct from lean mass. BMI is interpreted alongside body composition; the original recorded height is 180cm.",
+            "text": "The original August and September body-composition snapshots are dated August 28 and September 5. Bone is the Withings estimate as a percentage of body weight. Visceral fat uses the <a href='https://support.withings.com/hc/en-us/articles/11003948038545-Body-Scan-Learn-more-about-Visceral-Fat-Index'>Withings 0–20 index</a>. Muscle percentage is distinct from lean mass.",
             "markers": [
-                {"rows": ["Body Mass", "BMI", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-09", "2026-08", "2026-07"]},
+                {"rows": ["Body Mass", "Body Fat", "Muscle"], "target": "value", "dates": ["2026-09", "2026-08", "2026-07"]},
                 {"rows": ["Bone", "Visceral Fat Index"], "target": "value", "dates": ["2026-09", "2026-08"]},
             ],
         },
@@ -1993,15 +1993,22 @@ for month, categories in lab_followups.items():
             raise ValueError(f"Unmapped laboratory results in {category}: {sorted(unknown)}")
 
 result_notes["Vitals & Functional Health"].append({
-    "text": "Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The user confirmed 180cm height; BMI calculations use 180cm. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.",
+    "text": "Body sizes were self-reported on September 6, 2026; the actual measurement date was not specified. These are single reported values, not monthly averages. Waist is at the narrowest point; the right upper arm was flexed; shoulder size is circumference, not width. Limb and foot measurements are right-sided; the exact above-ankle landmark is unspecified. The reported rounded weight, fat and muscle values do not replace the device averages. See the <a href='results/Body-Measurements-2026-09-06/Sources.md'>body-measurement source record</a>.",
     "markers": [{"rows": list(body_measurements_2026_09), "target": "value", "dates": ["2026-09"]}],
 })
 apply_report_overlay(vitals_followups, result_notes["Vitals & Functional Health"], synced_monthly)
 result_notes["Vitals & Functional Health"].append({
-    "text": "November 7, 2026: waist at the narrowest point; upper arms flexed. Height and the previous right wrist, ankle, above-ankle and foot measurements are retained from September. The green waist trend marks progress toward the narrower-waist goal. <a href='results/Body-Measurements-2026-11-07/Sources.md'>Source and measurement details</a>.",
+    "text": "November 7, 2026: waist at the narrowest point; upper arms flexed. Right wrist, ankle, above-ankle and foot measurements carry forward from September. The green waist trend marks progress toward the narrower-waist goal. <a href='results/Body-Measurements-2026-11-07/Sources.md'>Source and measurement details</a>.",
     "markers": [{"rows": list(body_measurements_2026_11 | body_measurements_2026_11_carried_forward), "target": "value", "dates": ["2026-11"]}],
 })
 existing_vitals = {row[0] for row in data["Vitals & Functional Health"]}
+if synced_monthly.get("ffmi_trend"):
+    data["Vitals & Functional Health"].append(
+        ("FFMI", *("-" for _ in historical_date_columns), "-", "Prior mean")
+    )
+    existing_vitals.add("FFMI")
+    for month, direction in synced_monthly["ffmi_trend"].items():
+        vitals_followups.setdefault(month, {})["FFMI"] = direction.capitalize()
 observed_metrics = {metric for metrics in synced_monthly["months"].values() for metric in metrics}
 for provider_metrics in METRICS.values():
     for metric, (unit, _) in provider_metrics.items():
@@ -2104,6 +2111,8 @@ def visible_vitals_rows(rows):
     displayed = {row[0]: dict(zip(date_columns, row[1:-2])) for row in rows}
     visible = []
     for row in rows:
+        if row[0] in {"BMI", "Height", "Height (Withings)"}:
+            continue  # Keep historical snapshots in the source, outside the display.
         counterparts = replacements.get(row[0], ())
         months = [month for month, value in zip(date_columns, row[1:-2]) if value not in missing_values]
         covered = counterparts and months and all(
@@ -2319,9 +2328,15 @@ def render_contents_md():
     return md + "\n"
 
 
-VITALS_INTRO = (
-    "Monthly summaries; current month to date. Dated snapshots are identified in the source notes."
-)
+def vitals_intro():
+    category = "Vitals & Functional Health"
+    measurements = note_sup_html(note_numbers(category, None, "monthly_measurements"))
+    counts = note_sup_html(note_numbers(category, None, "classification_counts"))
+    classifications = f" and classification counts{counts}" if counts else ""
+    return (f"Monthly device summaries{measurements}{classifications} use recorded days only. "
+            "The current month is shown to date. Dated snapshots have separate source notes.")
+
+
 VITALS_DETAILS_INTRO = (
     "Additional source-specific measurements, body segments, estimates and score components. "
     "Device classifications are observed label counts, not monthly averages."
@@ -2333,7 +2348,7 @@ def render_vitals_html(rows):
     groups = layout(visible_vitals_rows(rows))
     totals = counts(groups)
     html = f"<section class='vitals' id='{result_anchor(category)}'><h2>{escape(category)}</h2>"
-    html += f"<p class='section-intro'>{VITALS_INTRO}</p>"
+    html += f"<p class='section-intro'>{vitals_intro()}</p>"
     for detailed in (False, True):
         selected = [group for group in groups if group['details'] == detailed]
         if not selected:
@@ -2359,7 +2374,7 @@ def render_vitals_md(rows):
     category = "Vitals & Functional Health"
     groups = layout(visible_vitals_rows(rows))
     totals = counts(groups)
-    md = f"## {category}\n\n{VITALS_INTRO}\n\n"
+    md = f"## {category}\n\n{vitals_intro()}\n\n"
     for detailed in (False, True):
         selected = [group for group in groups if group['details'] == detailed]
         if not selected:
@@ -2492,14 +2507,14 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += ".table-scroll { overflow-x: auto; } .vitals table { font-size: 0.9rem; min-width: 640px; margin-bottom: 0; font-variant-numeric: tabular-nums; }"
     html += ".vitals th, .vitals td { border: 0; border-bottom: 1px solid #e2e8f0; padding: 10px 12px; vertical-align: top; }"
     html += ".vitals th { background: #eef3f8; color: #536278; font-size: 0.8rem; white-space: nowrap; }"
-    html += ".vitals td:first-child { width: 34%; min-width: 225px; } .vitals td:first-child b { font-weight: 550; }"
-    html += f".vitals tr:nth-child(odd) td {{ background: {ALTERNATE_ROW_BACKGROUND}; }} .vitals td:not(:first-child) {{ min-width: 70px; }}"
+    html += ".vitals td:first-child { width: 24%; min-width: 155px; } .vitals td:first-child b { font-weight: 550; }"
+    html += f".vitals tr:nth-child(odd) td {{ background: {ALTERNATE_ROW_BACKGROUND}; }}"
     html += ".vitals details { border: 1px solid #dce4ed; border-radius: 8px; margin-top: 16px; padding: 16px 20px; }"
     html += ".vitals summary { cursor: pointer; font-weight: 600; color: #344d6c; } .vitals summary:focus-visible { outline: 2px solid #344d6c; outline-offset: 4px; }"
     html += ".vitals details[open] > summary { margin-bottom: 20px; } .vitals .table-notes { margin: 0; } .vitals .table-notes p { margin: 10px 0; }"
     html += ".microbiota details { border: 1px solid #dce4ed; border-radius: 8px; margin: 16px 0 24px; padding: 16px 20px; } .microbiota summary { cursor: pointer; font-weight: 600; color: #344d6c; }"
     html += ".microbiota .metric-group h3 { margin-bottom: 12px; } .microbiota td:first-child { width: 42%; } .microbiota .table-notes p { margin: 10px 0; }"
-    html += ".vitals td.reference-cell { min-width: 200px; } .vitals .source-cell { width: 1%; min-width: 0; white-space: nowrap; font-size: .8rem; color: #536278; }"
+    html += ".vitals td.reference-cell { max-width: 16ch; } .vitals .source-cell { width: 1%; min-width: 0; white-space: nowrap; font-size: .8rem; color: #536278; }"
     html += ".microbiota table { min-width: 620px; overflow-wrap: normal; } .microbiota th { white-space: nowrap; } @media(max-width: 700px) { .microbiota td:first-child { width: 160px; min-width: 160px; max-width: 160px; } }"
     html += "@media(max-width: 700px) { body { padding: 12px; overflow-wrap: anywhere; } h1 { font-size: 1.4rem; } .vitals details { padding: 12px; } .vitals td:first-child { width: 150px; min-width: 150px; max-width: 150px; } .vitals td { padding: 8px; } }"
     html += IMAGING_CSS

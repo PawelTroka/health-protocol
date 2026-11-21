@@ -155,7 +155,7 @@ WITHINGS_SCHEDULE_METRICS = {
     "AHI ≥5 Nights (Withings)": ("%", 1),
 }
 WITHINGS_METRICS = {
-    "Body Mass": ("kg", 1), "Height (Withings)": ("cm", 1), "BMI": ("kg/m^2", 1),
+    "Body Mass": ("kg", 1), "Height (Withings)": ("cm", 1), "FFMI": ("kg/m^2", 1),
     "Body Fat": ("%", 1), "Muscle": ("%", 1), "Bone": ("%", 1),
     "Lean Mass (Withings)": ("%", 1), "Body Water (Withings)": ("%", 1),
     "Blood Pressure": ("mmHg", 1), "Temperature": ("C", 1), "PWV": ("m/s", 1),
@@ -633,7 +633,27 @@ def check_detail_file_coverage(existing, incoming):
                 raise ValueError(message)
 
 
-def parse_api(payloads: dict, *, height_cm: float | None = 180.0) -> list[dict]:
+def fat_free_mass_indices(records, height_cm):
+    """Derive unadjusted FFMI for each normalized whole-body fat-free mass reading."""
+    if height_cm is None:
+        return []
+    height = _number(height_cm)
+    if height is None or height <= 0 or height / 100 == 0:
+        raise ValueError("Configured height must be a positive finite number.")
+    height_m = height / 100
+    indices = []
+    for mass in records:
+        if (mass["provider"] != "withings" or mass["metric"] != "Fat-Free Mass (Withings)"
+                or mass["unit"] != "kg" or mass.get("source_types") != [5] or mass["value"] <= 0):
+            continue
+        value = mass["value"] / height_m / height_m
+        if math.isfinite(value) and value > 0:
+            indices.append({**mass, "id": mass["id"] + ":FFMI", "metric": "FFMI",
+                            "unit": "kg/m^2", "value": value, "fat_free_mass_kg": mass["value"]})
+    return indices
+
+
+def parse_api(payloads: dict) -> list[dict]:
     """Normalize one authenticated user's measurements in Europe/Warsaw.
 
     Accepted flattened keys: measuregrps, series (sleep), activities, heart_series,
@@ -647,15 +667,11 @@ def parse_api(payloads: dict, *, height_cm: float | None = 180.0) -> list[dict]:
     BP is one ``Blood Pressure`` record with ``value=[systolic, diastolic]``.
     Other values are finite numbers. Missing/invalid readings are skipped;
     unsupported classifications are retained in a separate categorical inventory.
-    A configured height derives BMI only with same-group weight; None disables
-    BMI. Muscle and bone percentages require weight from the same group.
+    Muscle and bone percentages require weight from the same group.
     Visceral fat remains the device's 0-20 index; it is never converted to %.
     """
     if not isinstance(payloads, dict):
         raise ValueError("Withings payloads must be an object")
-    height = _number(height_cm) if height_cm is not None else None
-    if height_cm is not None and (height is None or height <= 0 or height / 100 == 0):
-        raise ValueError("Configured height must be a positive finite number or None")
     zone = ZoneInfo("Europe/Warsaw")
     user_ids = set()
     user_id = _identifier(payloads.get("userid"))
@@ -716,12 +732,6 @@ def parse_api(payloads: dict, *, height_cm: float | None = 180.0) -> list[dict]:
         weight = values.get(1)
         if weight is not None and weight > 0:
             emit("Body Mass", weight, "kg", [1])
-            if height is not None:
-                # Divide successively to avoid underflow in height squared.
-                bmi = weight / (height / 100) / (height / 100)
-                if bmi > 0:
-                    emit("BMI", bmi, "kg/m^2", [1],
-                         derived_from={"weight_kg": weight, "configured_height_cm": height})
             for measure_type, metric in ((8, "Body Fat"), (76, "Muscle"), (88, "Bone"),
                                          (5, "Lean Mass (Withings)"), (77, "Body Water (Withings)")):
                 mass = values.get(measure_type)
