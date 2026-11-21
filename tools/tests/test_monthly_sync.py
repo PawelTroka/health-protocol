@@ -405,7 +405,7 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         index_row = next(line for line in md.splitlines() if line.startswith("| **FFMI** |"))
         self.assertIn("| Up | - | Baseline | - | Prior mean | Withings |", index_row)
 
-    def test_numeric_ffmi_shows_monthly_means_and_physique_colors(self):
+    def test_numeric_ffmi_shows_monthly_means_and_shared_result_colors(self):
         readings = [measurement("first", "2026-07-01", 20.2, "FFMI", unit="kg/m²"),
                     measurement("second", "2026-09-01", 20.7, "FFMI", unit="kg/m²")]
         report = self.load_generator(aggregate(readings, date(2026, 9, 6)))
@@ -413,7 +413,7 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         html = report["render_vitals_html"](rows)
         md = report["render_vitals_md"](rows)
         index_row = next(line for line in md.splitlines() if line.startswith("| **FFMI** |"))
-        self.assertIn("| 🟢 | 🟡 20.7 | - | 🟡 20.2 | kg/m² | Physique scale (180cm) | Withings |", index_row)
+        self.assertIn("| 🟢 | 🟢 20.7 | - | 🟢 20.2 | kg/m² | 18–<26 (goal 22–<26) | Withings |", index_row)
         ffmi_row = next(row for row in rows if row[0] == "FFMI")
         for output_format in ("html", "md"):
             with self.subTest(output_format=output_format):
@@ -421,12 +421,28 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
                     "Vitals & Functional Health", [ffmi_row], compact=True)
                 header, result = rendered_table_rows(rendered, output_format)
                 self.assertEqual(result[header.index("Trend")], "🟢")
-                self.assertEqual(result[header.index("2026-09")], "🟡 20.7")
-                self.assertEqual(result[header.index("2026-07")], "🟡 20.2")
+                self.assertEqual(result[header.index("2026-09")], "🟢 20.7")
+                self.assertEqual(result[header.index("2026-07")], "🟢 20.2")
                 self.assertEqual(result[header.index("Unit")], "kg/m²")
                 self.assertNotRegex(rendered, "[↑↓→]")
         self.assertNotIn("<b>Height</b>", html)
         self.assertNotIn("| **Height** |", md)
+
+    def test_context_dependent_ffmi_uses_shared_neutral_status_and_trend(self):
+        readings = [measurement("first", "2026-07-01", 25.9, "FFMI", unit="kg/m²"),
+                    measurement("second", "2026-09-01", 26, "FFMI", unit="kg/m²")]
+        report = self.load_generator(aggregate(readings, date(2026, 9, 6)))
+        row = next(row for row in report["data"]["Vitals & Functional Health"] if row[0] == "FFMI")
+        for output_format in ("html", "md"):
+            with self.subTest(output_format=output_format):
+                rendered = report[f"render_result_table_{output_format}"](
+                    "Vitals & Functional Health", [row], compact=True)
+                header, result = rendered_table_rows(rendered, output_format)
+                self.assertEqual(result[header.index("Trend")], "⚪")
+                self.assertEqual(result[header.index("2026-09")], "⚪ 26")
+                self.assertEqual(result[header.index("2026-07")], "🔵 25.9")
+                self.assertEqual(result[header.index("Reference")], "18–<26 (goal 22–<26)")
+                self.assertNotIn("🟣", rendered)
 
     def test_july_replaces_existing_column_once_without_changing_labs(self):
         baseline = self.load_generator({"schema_version": 1, "as_of": "2026-09-06", "months": {}})

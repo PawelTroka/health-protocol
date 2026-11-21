@@ -16,7 +16,7 @@ from .sleep_targets import TARGETS as SLEEP_TARGETS
 
 
 COLORS = {"🔵": "#00008b", "🟢": "#008000", "🟡": "#927000",
-          "🟠": "#a84a00", "🔴": "#b22319", "⚪": "#64748b", "🟣": "#6d28d9"}
+          "🟠": "#a84a00", "🔴": "#b22319", "⚪": "#64748b"}
 MISSING = {None, "", "-", "—"}
 
 CATEGORIES = {
@@ -133,19 +133,14 @@ OURA_SCORE = {
 # Withings defines whole-body muscle (not DXA appendicular lean mass), bone
 # and water as percentages. Male 20–39 comparison bands apply to this report.
 BODY_TARGETS = {
-    # User-selected physique comparison from ffmicalculator.org. Its normalized
-    # index equals this report's unadjusted FFMI at the documented 180cm height.
-    # These bands do not grade health or establish drug use. The display trend
-    # approaches the Superior band, without rewarding further increases above it.
+    # Map the selected ffmicalculator.org comparisons to the existing reference /
+    # goal colors: average and above average are acceptable; excellent and superior
+    # are at goal. Normalized and raw FFMI coincide at the documented 180cm height.
     "FFMI": {
-        "reference": "Physique scale (180cm)", "valid": (0.01, None),
-        "trend_target": (24, None), "trend_min_change": 0.1,
-        "bands": ((26, "🟣", "FFMI physique comparison: very high"),
-                  (24, "🔵", "FFMI physique comparison: superior"),
-                  (22, "🟢", "FFMI physique comparison: excellent"),
-                  (20, "🟡", "FFMI physique comparison: above average"),
-                  (18, "🟠", "FFMI physique comparison: average"),
-                  (0, "🔴", "FFMI physique comparison: below average")),
+        "reference": "18–<26 (goal 22–<26)", "valid": (0.01, None),
+        "normal": (18, 26), "normal_open": (False, True),
+        "target": (22, 26), "target_open": (False, True), "trend_min_change": 0.1,
+        "bands": ((26, "⚪", "Context-dependent; above the selected comparison range"),),
     },
     "Body Fat": {"reference": "8–20 (goal 10–15)", "normal": (8, 20), "target": (10, 15), "valid": (0, 100)},
     "Muscle": {"reference": "75–89", "target": (75, 89), "valid": (0, 100),
@@ -278,14 +273,21 @@ def evaluated_value(marker, value, context=None):
     raise ValueError(f"Unknown vitals transform: {transform}")
 
 
+def band_status(rule, val):
+    for minimum, emoji, label in rule.get("bands", ()):
+        if val >= Decimal(str(minimum)):
+            return COLORS[emoji], emoji, label
+    return None
+
+
 def status(marker, value, context=None):
     rule = rule_for(marker)
     val = evaluated_value(marker, value, context)
     if not rule or val is None or val in rule.get("neutral_at", ()):
         return None
-    for minimum, emoji, label in rule.get("bands", ()):
-        if val >= Decimal(str(minimum)):
-            return COLORS[emoji], emoji, label
+    band = band_status(rule, val)
+    if band is not None:
+        return band
     target = rule.get("target")
     normal = rule.get("normal", target)
     if target is None and normal is None:
@@ -319,6 +321,10 @@ def trend(values, marker, contexts=None):
             break
     if len(pair) != 2:
         return "-"
+    for val in pair:
+        band = band_status(rule, val)
+        if band is not None and band[1] == "⚪":
+            return "⚪"  # Context-dependent values cannot establish a direction.
     current, previous = pair
     comparison_current, comparison_previous = pair
     raw_current, raw_previous = raw_pair
