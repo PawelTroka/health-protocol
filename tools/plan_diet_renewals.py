@@ -336,13 +336,26 @@ def premium(subscription_price, pack_g, manual_price, manual_g, cap):
 
 
 def active_coverage(model):
-    """Long-run 28-day rates, not arrivals, usable stock or meal coverage."""
+    """Long-run 28-day rates, not arrivals, usable stock or meal coverage.
+
+    Mushroom choices count complete same-species 75g portions within each
+    recurring delivery, then normalize to 28 days. Fractional counts are rates,
+    not partial meals. Remainders are separate rates, never assumed usable
+    across deliveries or combined across species to supply another choice.
+    """
     totals = {}
+    mushroom_choices = Fraction()
+    mushroom_remainders = {"oyster_raw_g": Fraction(), "shiitake_raw_g": Fraction()}
     for active in model["active_streams"]:
         for food, quantity in active["foods"].items():
             if quantity > 0:
                 totals[food] = totals.get(food, Fraction()) + Fraction(
                     str(quantity)) * 28 / active["days"]
+                if food in mushroom_remainders:
+                    choices, remainder = divmod(Fraction(str(quantity)), 75)
+                    cycles = Fraction(28, active["days"])
+                    mushroom_choices += choices * cycles
+                    mushroom_remainders[food] += remainder * cycles
 
     def amount(food):
         return totals.get(food, Fraction())
@@ -374,7 +387,10 @@ def active_coverage(model):
                     "raspberry_g_gross": number(amount("raspberry_gross_g")),
                     "maximum_portion_equivalents_before_hulling": number(berries),
                     "required": 28, "minimum_gap": number(max(0, 28 - berries))},
-        "mushrooms": {"full_75g_choices": 4, "separate_oyster_remainder_g": 50, "separate_shiitake_remainder_g": 50, "required": 28},
+        "mushrooms": {"full_75g_choices": number(mushroom_choices),
+                      "separate_oyster_remainder_g": number(mushroom_remainders["oyster_raw_g"]),
+                      "separate_shiitake_remainder_g": number(mushroom_remainders["shiitake_raw_g"]),
+                      "required": 28},
         "whole_fruit": {"gross_g": number(fruit), "upper_150g_equivalents_before_peeling": number(fruit / 150), "required": 28},
         "mediterranean_vegetable_choices": {"nominal_tomato_choices": number(amount("tomato_g") / 100), "required": 28},
         "colorful_vegetable_choices": {"butternut_gross_g": number(amount("butternut_gross_g")),
