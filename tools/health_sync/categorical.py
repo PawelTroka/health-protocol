@@ -50,8 +50,18 @@ def aggregate(events, as_of):
             buckets[(event["day"][:7], event["provider"], event["metric"])].append(event)
     months = {}
     for (month, provider, metric), observations in sorted(buckets.items()):
-        # API collections can reference the same test in both measure and ECG.
-        deduped = {(event.get("recorded_at", event["day"]), event["value"]): event for event in observations}
+        # Withings API collections can expose the same timestamped test twice.
+        # Other providers use their stable IDs: Garmin workouts on the same day
+        # can legitimately share a label, and their normalized records need not
+        # carry timestamps. A missing Withings timestamp is also insufficient
+        # evidence that distinct IDs refer to the same test.
+        def identity(event):
+            stamp = event.get("recorded_at")
+            if provider == "withings" and stamp:
+                return "timestamp", stamp, event["value"]
+            return "id", event["id"]
+
+        deduped = {identity(event): event for event in observations}
         observations = list(deduped.values())
         counts = dict(sorted(Counter(event["value"] for event in observations).items()))
         days = {event["day"] for event in observations}

@@ -92,6 +92,7 @@ TIER_BY_CODE = {
     "E.11": "🥈",
     "E.12": "🥈",
     "E.13": "🥈",
+    "E.14": "🥈",
     "E.15": "🥉",
     "E.16": "🥉",
     "E.17": "🥉",
@@ -156,9 +157,9 @@ PAGES = [
                 "M.3",
                 "Iron (Ferrochel)",
                 "18mg",
-                qty="1capsule/day",
-                icons="🩸",
-                note="With Breakfast",
+                qty="1capsule",
+                icons="🩸 🔄",
+                note="Daily with Breakfast",
             ),
             item(
                 "M.4",
@@ -308,7 +309,14 @@ PAGES = [
             item("E.11", "Berberine HCl", "490 mg", icons="🩸 🚽"),
             item("E.12", "Magnesium (Glycinate)", "133.3 mg", icons="💪 🧠 ❤️ 🦴"),
             item("E.13", "Milk Thistle", "380 mg", icons="🛡️ 🚽 🔄"),
-            empty("E.14"),
+            item(
+                "E.14",
+                "Silexan (Lavender Oil)",
+                "80mg",
+                qty="1softgel",
+                icons="😌 😴",
+                note="Review combination before starting • Swallow whole with food and water",
+            ),
             item("E.15", "GABA", "250 mg", icons="😴 😌 🔄", note="Magnesium citrate 20 mg"),
             item("E.16", "Inositol", "1g", icons="🧠 😌"),
             item("E.17", "Inositol", "1g", icons="🧠 😌"),
@@ -665,7 +673,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 20 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 21 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer

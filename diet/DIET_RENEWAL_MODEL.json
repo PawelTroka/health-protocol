@@ -1842,6 +1842,8 @@
     },
     "practical_additional_alternatives": {
       "monthly_egg_clusters": {
+        "retired": true,
+        "accepted_for_activation": false,
         "streams": [
           {
             "quantity": 10,
@@ -1875,8 +1877,8 @@
           "mean_end_of_day_stock_with_that_buffer": 10.714286,
           "limitations": "No expiry, age-state recurrence, price or courier proof. The synthetic buffer is not credited as owned stock."
         },
-        "benefit": "Three new monthly fresh cores10days apart, retaining361. More evenly spaced new grocery cores than21/28/60, but dates drift across weekdays and free delivery remains unverified.",
-        "status": "Alternative to the21/28/60 additions, not additional to them."
+        "benefit": "Historical comparison: three monthly fresh cores10days apart plus361's former10/14day Egg stream. More evenly spaced cores than21/28/60, but dates drift across weekdays and free delivery remains unverified.",
+        "status": "Retired after361 was paused and its Eggs removed. The48 nominal Eggs/28days balance depends on that former10/14day stream; it does not describe active coverage. No replacement schedule is selected."
       },
       "oats_500_30_plus_60": {
         "streams": [

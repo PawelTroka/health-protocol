@@ -1,11 +1,13 @@
 """Synthetic Oura fixtures: no credentials or personal exports are required."""
 
 import csv
+from datetime import date
 import tempfile
 import unittest
 from pathlib import Path
 
 from tools.health_sync.oura import OURA_ENDPOINTS, OuraParseError, parse_api, parse_csv
+from tools.health_sync.monthly import aggregate, merge_file_records
 
 
 def sleep_document(identifier="main", day="2026-08-01", **changes):
@@ -78,10 +80,12 @@ class OuraCSVTests(unittest.TestCase):
         }
         records = parse_csv(self.write_csv([row]))
         values = by_metric(records)
-        self.assertEqual(len(records), 11)
+        self.assertEqual(len(records), 12)
         self.assertEqual(values["Sleep Duration"]["value"], 27030 / 3600)
         self.assertEqual(values["REM Sleep"]["value"], 1.75)
         self.assertEqual(values["Deep Sleep"]["value"], 3630 / 3600)
+        self.assertEqual(values["Light Sleep (Oura)"]["value"], 17100 / 3600)
+        self.assertEqual(values["Light Sleep (Oura)"]["unit"], "h")
         self.assertEqual(values["Sleep Latency"]["value"], 6.5)
         self.assertEqual(values["Time in Bed"]["value"], 9)
         self.assertEqual(values["Sleep Score"]["value"], 81)
@@ -100,6 +104,38 @@ class OuraCSVTests(unittest.TestCase):
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0]["day"], "2026-08-01")
         self.assertNotIn("recorded_at", result[0])
+
+    def test_optional_light_sleep_is_not_inferred_and_recorded_zero_is_retained(self):
+        base = {"date": "2026-08-01", "Total Sleep Duration": "27000"}
+        for optional in [{}, {"Light Sleep Duration": ""}, {"Light Sleep Duration": None}]:
+            with self.subTest(optional=optional):
+                values = by_metric(parse_csv(self.write_csv([{**base, **optional}])))
+                self.assertNotIn("Light Sleep (Oura)", values)
+        values = by_metric(parse_csv(self.write_csv([{**base, "Light Sleep Duration": "0"}])))
+        self.assertEqual(values["Light Sleep (Oura)"]["value"], 0)
+
+    def test_conflicting_light_sleep_on_duplicate_day_is_rejected(self):
+        rows = [
+            {"date": "2026-08-01", "Total Sleep Duration": "27000", "Light Sleep Duration": "17000"},
+            {"date": "2026-08-01", "Total Sleep Duration": "27000", "Light Sleep Duration": "18000"},
+        ]
+        with self.assertRaisesRegex(OuraParseError, "conflicting duplicate"):
+            parse_csv(self.write_csv(rows))
+
+    def test_csv_light_sleep_replaces_api_day_before_monthly_averaging(self):
+        existing = parse_api({"sleep": [sleep_document(), sleep_document("next", "2026-08-02")]})
+        row = {"date": "2026-08-01", "Total Sleep Duration": "28800",
+               "Deep Sleep Duration": "3600", "REM Sleep Duration": "7200",
+               "Light Sleep Duration": "18000"}
+        incoming = parse_csv(self.write_csv([row]))
+        records = merge_file_records(existing, incoming, {"oura"}, date(2026, 8, 1), date(2026, 8, 31))
+        light = [record for record in records if record["metric"] == "Light Sleep (Oura)"]
+        self.assertEqual([(record["day"], record["value"], record["source_kind"]) for record in light],
+                         [("2026-08-01", 5, "csv"), ("2026-08-02", 17400 / 3600, "api")])
+        self.assertEqual(merge_file_records(records, incoming, {"oura"}, date(2026, 8, 1), date(2026, 8, 31)),
+                         records)
+        entry = aggregate(records, date(2026, 9, 1))["months"]["2026-08"]["Light Sleep (Oura)"]
+        self.assertEqual((entry["value"], entry["n_days"], entry["n_records"]), ("4.92", 2, 2))
 
     def test_identical_duplicate_days_deduplicate_and_ids_stable(self):
         row = {"date": "2026-08-01", "Total Sleep Duration": "27000"}

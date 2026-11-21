@@ -8,6 +8,9 @@ distinct. A most-recent result from another date is not a new daily observation.
 from collections import defaultdict
 
 
+HR_ZONE_METRICS = {f"Workout HR Zone {zone} Duration (Garmin)" for zone in range(1, 6)}
+
+
 PERFORMANCE_METRICS = {
     "VO2 Max Running (Garmin)": ("ml/kg/min", 1),
     "VO2 Max Cycling (Garmin)": ("ml/kg/min", 1),
@@ -19,8 +22,49 @@ PERFORMANCE_METRICS = {
     "Aerobic Training Effect per Workout (Garmin)": ("score", 2),
     "Anaerobic Training Effect per Workout (Garmin)": ("score", 2),
     "Training Load per Workout (Garmin)": ("load", 1),
-    **{f"Workout HR Zone {zone} Duration (Garmin)": ("min", 1) for zone in range(1, 6)},
+    **{metric: ("min", 1) for metric in sorted(HR_ZONE_METRICS)},
 }
+
+
+def check_zone_file_coverage(existing, incoming):
+    """Require every known activity before replacing a coalesced daily zone sum.
+
+    Daily totals no longer contain each activity's contribution. A partial file
+    cannot safely amend them by adding or averaging another daily total. The
+    live client separately withholds days with unavailable activity-zone data;
+    complete API snapshots can still replace or remove corrected activities.
+    Inputs have already passed normalized-record validation.
+    """
+    def cells(records):
+        grouped = defaultdict(list)
+        for record in records:
+            if record["provider"] == "garmin" and record["metric"] in HR_ZONE_METRICS:
+                grouped[(record["day"], record["metric"])].append(record)
+        return grouped
+
+    def contributors(record):
+        values = record.get("source_record_ids")
+        if (isinstance(values, list) and values
+                and all(isinstance(value, str) and value.strip() for value in values)
+                and len(set(values)) == len(values)
+                and record.get("source_count", 1) == len(values)):
+            return set(values)
+        return None
+
+    previous, replacements = cells(existing), cells(incoming)
+    for (day, metric), records in replacements.items():
+        message = (
+            f"The Garmin HR-zone file cannot replace all known activities for {day} / {metric}. "
+            "Reimport all activities for that day or run a full API sync; existing results were preserved."
+        )
+        source_ids = contributors(records[0]) if len(records) == 1 else None
+        if source_ids is None:
+            raise ValueError(message)
+        for record in previous[(day, metric)]:
+            previous_ids = contributors(record)
+            if previous_ids is None or not previous_ids <= source_ids:
+                raise ValueError(message)
+    return set(replacements)
 
 
 def _objects(raw, context):

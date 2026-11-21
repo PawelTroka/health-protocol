@@ -32,7 +32,7 @@ separately by ``categorical_inventory`` for counts. Primary sleep clock times us
 local minutes internally and require circular aggregation, never ordinary means.
 Profile values without historical dates, ring diagnostics and classification
 sequences remain available in source archives.
-The CSV parser intentionally retains the eleven verified sleep export columns;
+The CSV parser retains verified sleep export columns, including light sleep;
 the broader schema below describes API fields, not guessed CSV column names.
 """
 
@@ -67,6 +67,9 @@ _METRICS = (
     ("Sleep Latency", "Sleep Latency", "latency", "min", 60),
     ("Sleep Score", "Sleep Score", "score", "score", 1),
     ("Time in Bed", "Total Bedtime", "time_in_bed", "h", 3600),
+)
+_CSV_METRICS = _METRICS + (
+    ("Light Sleep (Oura)", "Light Sleep Duration", "light_sleep_duration", "h", 3600),
 )
 _DAY_RE = re.compile(r"\d{4}-\d{2}-\d{2}\Z")
 _POSITIVE_FIELDS = {"average_heart_rate", "lowest_heart_rate", "average_breath"}
@@ -353,18 +356,15 @@ def parse_csv(path: str | Path) -> list[dict]:
                 day = _day(row["date"], context)
                 values = {
                     api_field: _number(row.get(csv_field), api_field, context, csv_text=True)
-                    for _, csv_field, api_field, _, _ in _METRICS
+                    for _, csv_field, api_field, _, _ in _CSV_METRICS
                 }
-                values["light_sleep_duration"] = _number(
-                    row.get("Light Sleep Duration"), "light_sleep_duration", context, csv_text=True
-                )
                 _sleep_consistency(values, context)
                 if not values["total_sleep_duration"]:
                     continue
                 recorded_at = _timestamp(row.get("Bedtime End"), context)
                 records = [
                     _record(day, "csv", day, marker, values[field] / divisor, unit, recorded_at)
-                    for marker, _, field, unit, divisor in _METRICS
+                    for marker, _, field, unit, divisor in _CSV_METRICS
                     if values[field] is not None
                 ]
                 if day in observations and observations[day] != records:

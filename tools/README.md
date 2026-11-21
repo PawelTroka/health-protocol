@@ -6,7 +6,27 @@ Run the commands below from the repository root.
 - `tools/generate_colored_report.py`: regenerate both results reports.
 - `tools/imaging_report.py`: curated imaging records, verified source links and shared report layout.
 - `tools/generate_pillbox_guide.py`: generate the physical pillbox guide.
-- `tools/tests/`: synthetic importer and sync tests.
+- `tools/validate_pillbox_guide.py`: check pillbox source against the active protocol without generating files.
+- `tools/tests/`: synthetic importer, sync and pillbox validation tests.
+
+## Pillbox source validation
+
+Check the manually maintained `PAGES` in `tools/generate_pillbox_guide.py` against the active **Supplements and drugs** section in `README.md` before generating the guide:
+
+```powershell
+python -B tools/validate_pillbox_guide.py
+python -B -m unittest tools.tests.test_pillbox_validation -v
+```
+
+The checker reads the README and loads the generator's data without calling `build_document()`. It uses the generator's existing `python-docx` dependency. The validator itself does not generate the DOCX, write health reports, fetch data or change either input. Exit status is `0` for parity, `1` for a mismatch or unsupported notation, and `2` when inputs cannot be loaded. Diagnostics identify the slot and, for product mismatches, the README line. To check another trusted checkout, use `--root PATH`; that checkout's generator is Python code and is executed with a non-main module name. This is not a sandbox: any top-level code in that generator or its imports still executes. Use trusted source only.
+
+Checks cover the fixed eight pages in row-major order, nine physical cells per page, all 72 compartments, explicit empty slots, and both parts of shared `.1`/`.2` cells (prescription or supplement). Ranges expand to individual slots: `M.5-6 2x` means one pill in each cell, while `B.8-9 4x` means two in each. A single-code multiplier such as `M.15 3x` is checked against `same_slot_count`. Zero-series drinks, nested powder ingredients, Notes, TODOs and Removed entries do not occupy physical cells.
+
+The separately rendered `qty` field is checked too. An empty cell accepts only blank text or `Available compartment`. An occupied cell accepts blank text or an integer count of pills, capsules, tablets or softgels, optionally followed by `/day` or `/week`. That count must match the number in the physical compartment. An explicitly written pill form in the active README row must agree; a bare multiplier such as `3x` does not establish whether the product is a capsule, tablet or softgel, so form identity still needs review when unstated. A displayed `/day` or `/week` additionally requires a matching leading count/form/frequency instruction after the product link, such as `— 1capsule daily with Breakfast`. Counts without a period do not imply daily use. Free-text quantity instructions fail; general frequency and conditional prose remain outside this check.
+
+For product identity and doses, the checker supports the existing leading product-link notation, compact or spaced quantities, `+` combinations, and quantity-bearing parentheses. Product names retain case, strain numbers, brands and formulation wording. It compares headline doses and their constituent labels, retaining their units; it does not convert grams to milligrams or invent name aliases. A parenthetical dose such as `(Butyric acid 400mg)` must appear in the guide's dose/note text. Combination doses retain ingredient order; an optional dose-field label must uniquely match an ingredient name or its final words (for example `K1` in `Vitamin K1`). Where a blend headline has no dose, the guide's displayed dose must contain a supported quantity/unit and occur as an exact phrase in that entry's indented formulation details, not as a concentration or range endpoint. Unsupported slot-bearing Markdown variants, malformed product links, and fences/comments in the active section fail instead of hiding an entry or conflicting duplicate. Unsupported notation requires a deliberate parser/test update.
+
+**Scope:** this checks source parity, not medical correctness or the rendered DOCX. It does not validate all formulation-note quantities or their per-pill/per-serving basis, cumulative intake, evidence badges, icons, product URLs, frequency/conditional wording, callouts, or visual layout. A matching source pair can still describe an incorrect regimen. Continue the regeneration and eight-page visual review in [AGENTS.md](../AGENTS.md) after an authorized physical-pill change; the validator does not replace that review.
 
 ## Dated laboratory results
 
@@ -86,6 +106,10 @@ Oura on the web: open Trends, select the date range, choose Download Data, selec
 
 The import reads the exact bytes it archives. Reimporting the same file does not duplicate observations. Partial files amend the days and metrics they contain without removing other cached observations. An incoming Oura day/metric replaces the previous daily value even if one came from CSV and the other from the API.
 
+Oura CSV imports include the optional `Light Sleep Duration` column, converting seconds to hours in the existing **Light Sleep (Oura)** row. A blank or omitted column leaves that observation absent; it is not inferred from the other sleep stages.
+
+Each supplied provider must contribute a usable observation in the requested date range: a numeric reading, a dated device classification or a Withings ECG recording. Classification-only and ECG-only files preserve cached numeric readings. Oura/Garmin observations for the unfinished current day do not satisfy this check.
+
 For Withings, the supported fallback is saved **official API measurement JSON**, with every page combined. Arbitrary app export CSVs are not guessed: Withings export columns and units can vary by export/account.
 
 ```powershell
@@ -95,6 +119,8 @@ For Withings, the supported fallback is saved **official API measurement JSON**,
 Accepted Withings JSON: `{"measuregrps": [...]}` from this sync client, or `{"measure": [page1, page2, ...]}` containing complete successful API responses. A standalone successful response is also accepted when it is the final/only page. Responses with unfinished pagination, API errors, ambiguous user records or credential fields are rejected or excluded as appropriate. Real measurement IDs identify revised readings; repeat imports do not increase their weight.
 
 Garmin can also reimport a saved measurement envelope from this tool with `import --garmin-json "C:\path\garmin-readings.json"`. Its supported collections (`daily_summary`, `sleep`, `hrv`, `training_readiness`, `max_metrics`, `fitness_age`, `training_status`, `activities`, `activity_hr_zones`) contain lists of `{"day":"YYYY-MM-DD","data":<response>}`. This is not an importer for arbitrary Garmin CSV, FIT or full-account exports. Credential-bearing files are rejected; a partial file amends only supplied observations.
+
+Garmin workout HR-zone durations are already combined into daily sums. A replacement day/zone must include every previously known contributing activity; a subset or an untraceable cached total stops the import before reports, archives or cache are changed. Reimport all activities for that day or use a full API sync. Complete files may correct totals downward; omitted days and zone metrics remain unchanged.
 
 ## What gets averaged
 
@@ -144,6 +170,8 @@ The results overview groups the main vitals into smaller tables: body compositio
 Imported series supersede the old resting/sleeping heart-rate, ECG heart-rate and cardiovascular-age-difference snapshots in the report when every snapshot month has the replacement data. Both Oura mean and minimum sleeping heart rate are required before hiding the ambiguous old heart-rate summaries. These are presentation replacements, not numerically equivalent readings; original snapshots remain in the generator and source history. A missing import or undisplayed replacement keeps the snapshot visible.
 
 `tools/health_sync/report_layout.py` controls this presentation independently of the import registry and clinical scoring. Newly imported measurements default to the detailed tables until explicitly selected for the overview. Future on-demand syncs regenerate the same layout in both Markdown and HTML.
+
+HTML result text and its color legend use `tools/health_sync/report_colors.py` to maintain at least 4.5:1 contrast on the explicit white page and pale alternating rows, following [WCAG 2.2 SC 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html). Light foregrounds are darkened without changing values, health scores, status emojis, trends or Markdown. If report backgrounds change, update the shared backgrounds and verify the rendered text contrast again.
 
 Vitals use sourced ranges and targets from `tools/health_sync/vitals_targets.py` and its sleep, activity and recovery modules, documented in [Reference-Guide.md](../results/Reference-Guide.md). 🟢 indicates movement toward a target or a favorable recovery/device trend; 🟡 indicates the reverse. Supported directional metrics can improve within a normal band. Selected body-composition, PWV, HR and deep-sleep metrics use documented small-change display floors; these are not clinical significance thresholds. ⚪ means a small change, unchanged target position or context-dependent change; single, pending and incomparable observations keep `-`. Sleep-stage percentages and combined activity volume require matching provider observation days. Source values and units remain unchanged.
 
