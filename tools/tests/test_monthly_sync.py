@@ -421,7 +421,7 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         html = report["render_vitals_html"](rows)
         md = report["render_vitals_md"](rows)
         index_row = next(line for line in md.splitlines() if line.startswith("| **FFMI** |"))
-        self.assertIn("| 🟢 | 🟢 20.7 | - | 🟢 20.2 | kg/m² | 18–<26 (goal 22–<26) | Withings |", index_row)
+        self.assertIn("| 🟢 | 🟢 20.7 | - | 🟢 20.2 | kg/m² | 18–26 (goal 22-26) | Withings |", index_row)
         ffmi_row = next(row for row in rows if row[0] == "FFMI")
         for output_format in ("html", "md"):
             with self.subTest(output_format=output_format):
@@ -449,7 +449,7 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
                 self.assertEqual(result[header.index("Trend")], "⚪")
                 self.assertEqual(result[header.index("2026-09")], "⚪ 26")
                 self.assertEqual(result[header.index("2026-07")], "🔵 25.9")
-                self.assertEqual(result[header.index("Reference")], "18–<26 (goal 22–<26)")
+                self.assertEqual(result[header.index("Reference")], "18–26 (goal 22-26)")
                 self.assertNotIn("🟣", rendered)
 
     def test_july_replaces_existing_column_once_without_changing_labs(self):

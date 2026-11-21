@@ -137,7 +137,7 @@ BODY_TARGETS = {
     # goal colors: average and above average are acceptable; excellent and superior
     # are at goal. Normalized and raw FFMI coincide at the documented 180cm height.
     "FFMI": {
-        "reference": "18–<26 (goal 22–<26)", "valid": (0.01, None),
+        "reference": "18–26 (goal 22-26)", "valid": (0.01, None),
         "normal": (18, 26), "normal_open": (False, True),
         "target": (22, 26), "target_open": (False, True), "trend_min_change": 0.1,
         "bands": ((26, "⚪", "Context-dependent; above the selected comparison range"),),

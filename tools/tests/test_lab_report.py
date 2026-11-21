@@ -214,8 +214,11 @@ class SeptemberLabReportTests(unittest.TestCase):
                         self.assertEqual(sum(row[0] == marker for row in table[1:]), 1)
                         cells = next(row for row in table[1:] if row[0] == marker)
                         displayed = dict(zip(table[0], cells))
-                        expected_dot = "🟢" if marker == "Lactoferrin (Stool)" else "🔵"
-                        self.assertEqual(displayed["2026-09"], expected_dot + " " + compact_measurement(value))
+                        # Preserve the reviewed report's presentation without
+                        # using a limit's endpoint for numerical comparisons.
+                        emoji = "🟢" if marker == "Lactoferrin (Stool)" else "🔵"
+                        expected_cell = f"{emoji} {compact_measurement(value)}"
+                        self.assertEqual(displayed["2026-09"], expected_cell)
                         self.assertEqual(displayed["Unit"], unit)
                         self.assertEqual(displayed["Trend"], "-")
                         for month in self.report["historical_date_columns"]:
@@ -708,6 +711,190 @@ class SeptemberLabReportTests(unittest.TestCase):
         self.assertIsNone(self.report["directional_percent_delta"]("101.5", ">60", ">60"))
         self.assertEqual(classify(["<5.0", "291.70"], "<50", "Stool Analysis", "Calprotectin (Stool)"), "Breakthrough")
         self.assertEqual(classify(["<9", "< 9.0"], "<34", "Immunology & Inflammation", "Anti-TPO"), "Stable")
+
+    def test_reporting_limits_are_not_scored_as_exact_measurements(self):
+        cases = (
+            ("<5", "0 - 10", "Other laboratory category", "Future assay"),
+            (">60", ">60", "Metabolic Health", "eGFR"),
+            (">90", ">60", "Metabolic Health", "eGFR"),
+            ("<100", "30 - 400", "Micronutrients", "Ferritin"),
+            ("<30", "<30", "Other laboratory category", "Future assay"),
+        )
+        for value, reference, category, marker in cases:
+            with self.subTest(value=value, marker=marker):
+                self.assertIsNone(self.report["calculate_score"](value, reference, category, marker))
+                self.assertIsNone(self.report["get_direction"](value, reference))
+
+    def test_reviewed_limit_rows_keep_legacy_display_without_scoring_endpoints(self):
+        cases = (
+            ("Urine Chemistry", "Urine Albumin (Microalbuminuria)", "<3", "🔵"),
+            ("Metabolic Health", "eGFR", ">60", "🟢"),
+            ("Immunology & Inflammation", "tTG IgA", "< 2.00", "🔵"),
+            ("Immunology & Inflammation", "DGP IgG", "< 2.0", "🔵"),
+            ("Immunology & Inflammation", "Rheumatoid Factor (RF)", "< 10", "🟢"),
+            ("Immunology & Inflammation", "Anti-CCP", "<8", "🔵"),
+            ("Immunology & Inflammation", "TSH Receptor Antibodies (TRAb)", "< 0.14", "🔵"),
+            ("Infectious Diseases", "Chlamydia IgG", "< 5.0", "🔵"),
+            ("Infectious Diseases", "HSV IgM", "< 0.5", "🔵"),
+            ("Stool Analysis", "Lactoferrin (Stool)", "< 0.10", "🟢"),
+            ("Stool Analysis", "M2-PK (Stool)", "< 1.00", "🔵"),
+        )
+        for category, marker, value, emoji in cases:
+            with self.subTest(marker=marker):
+                _, observations, _, reference = self.report["split_result_row"](self.row(category, marker))
+                reference = self.report["target_reference"](category, marker, reference)
+                self.assertIn(value, observations)
+                display_value = compact_measurement(value)
+                self.assertIsNone(self.report["calculate_score"](value, reference, category, marker))
+                self.assertIsNone(self.report["numeric_from_result"](value))
+                self.assertIsNone(self.report["numeric_value"](value))
+                self.assertIsNone(self.report["directional_percent_delta"](
+                    value, "10", reference, category, marker))
+                self.assertIsNone(self.report["classify_trend"](
+                    [value, "10", "20"], reference, category, marker))
+                for output_format in ("html", "md"):
+                    with self.subTest(output_format=output_format):
+                        rendered = self.report[f"format_cell_{output_format}"](
+                            value, reference, category, marker)
+                        self.assertNotIn("↑", rendered)
+                        self.assertNotIn("↓", rendered)
+                        if output_format == "md":
+                            self.assertEqual(rendered, f"{emoji} {display_value}")
+                        else:
+                            escaped = display_value.replace("<", "&lt;").replace(">", "&gt;")
+                            self.assertIn(f"{emoji} {escaped}</span>", rendered)
+                        table = rendered_table_rows(self.outputs[output_format], output_format)
+                        row = next(cells for cells in table if cells[0] == marker)
+                        self.assertEqual(row.count(f"{emoji} {display_value}"), observations.count(value))
+
+    def test_reviewed_limit_display_does_not_extend_to_other_assays_or_lower_limits(self):
+        cases = (
+            ("Other laboratory category", "M2-PK (Stool)", "<1"),
+            ("Stool Analysis", "Future assay", "<1"),
+            ("Stool Analysis", "M2-PK (Stool)", ">1"),
+            ("Stool Analysis", "M2-PK (Stool)", "<1 (note) extra"),
+        )
+        for category, marker, value in cases:
+            for output_format in ("html", "md"):
+                with self.subTest(category=category, marker=marker, value=value, output_format=output_format):
+                    rendered = self.report[f"format_cell_{output_format}"](
+                        value, "0 - 4", category, marker)
+                    self.assertEqual(rendered, self.report["classification_text"](
+                        value, markdown=output_format == "md"))
+
+    def test_limit_notation_does_not_unescape_annotation_markup(self):
+        # A valid numeric prefix may be literal in Markdown; annotation HTML
+        # must remain inert, including when the whole result is malformed.
+        cases = (
+            ("<3 (<b>annotation</b>)", "<3 "),
+            (">3 (<b>annotation</b>)", ">3 "),
+            ("<3 (<b>annotation</b>) trailing", "&lt;3 "),
+        )
+        for value, markdown_prefix in cases:
+            for output_format in ("html", "md"):
+                with self.subTest(value=value, output_format=output_format):
+                    rendered = self.report["classification_text"](
+                        value, markdown=output_format == "md")
+                    self.assertNotIn("<b>", rendered)
+                    self.assertNotIn("</b>", rendered)
+                    self.assertIn("&lt;b&gt;annotation&lt;/b&gt;", rendered)
+                    if output_format == "md":
+                        self.assertTrue(rendered.startswith(markdown_prefix))
+                    else:
+                        self.assertTrue(rendered.startswith("&lt;3 " if value.startswith("<") else "&gt;3 "))
+                    cell = self.report[f"format_cell_{output_format}"](
+                        value, "<20", "Urine Chemistry", "Urine Albumin (Microalbuminuria)")
+                    self.assertNotIn("<b>", cell)
+                    self.assertNotIn("</b>", cell)
+                    self.assertIn("&lt;b&gt;annotation&lt;/b&gt;", cell)
+                    urine_cell = self.report[f"format_cell_{output_format}_urine"](value, "<20")
+                    self.assertNotIn("<b>", urine_cell)
+                    self.assertNotIn("</b>", urine_cell)
+                    self.assertIn("&lt;b&gt;annotation&lt;/b&gt;", urine_cell)
+
+    def test_reporting_limits_use_proven_reference_relations_in_both_formats(self):
+        cases = (
+            ("<5", "0 - 10", ""),
+            ("<30", "<20", ""),
+            ("≤30", "<30", ""),
+            ("<30", "<30", "🟢 "),
+            ("≤30", "≤30", "🟢 "),
+            (">30", "0 - 30", "🟠 "),
+            ("< 1e-3", "< 1", "🟢 "),
+        )
+        for value, reference, prefix in cases:
+            for output_format in ("html", "md"):
+                with self.subTest(value=value, reference=reference, output_format=output_format):
+                    rendered = self.report[f"format_cell_{output_format}"](
+                        value, reference, "Other laboratory category", "Future assay")
+                    expected = self.report["classification_text"](value, markdown=output_format == "md")
+                    self.assertIn(prefix + expected, rendered)
+                    self.assertNotIn("🔵", rendered)
+                    self.assertNotIn("↑", rendered)
+                    self.assertNotIn("↓", rendered)
+                    if not prefix:
+                        self.assertEqual(rendered, expected)
+
+    def test_capped_egfr_limits_cannot_establish_the_optimal_target_band(self):
+        for value in (">60", ">90", ">=90", "≥90"):
+            for output_format in ("html", "md"):
+                with self.subTest(value=value, output_format=output_format):
+                    rendered = self.report[f"format_cell_{output_format}"](
+                        value, ">60; target 90 - 120", "Metabolic Health", "eGFR")
+                    self.assertIn("🟢", rendered)
+                    self.assertNotIn("🔵", rendered)
+                    if output_format == "html":
+                        self.assertIn("exact value unknown", rendered)
+
+    def test_wholly_known_target_plateaus_keep_valid_scores_and_normalization(self):
+        score = self.report["bounded_target_score"]
+        low_good = self.report["low_good_target"]("<50", 50, 50)
+        high_good = self.report["high_good_target"](">90", 60, 90)
+        self.assertEqual(score("<5", low_good), 0.35)
+        self.assertEqual(score("<=50", low_good), 0.35)
+        self.assertEqual(score(">90", high_good), 0.35)
+        self.assertIsNone(score("<51", low_good))
+        self.assertIsNone(score(">89", high_good))
+        self.assertIsNone(score("<5", dict(low_good, low_limit=0)))
+        self.assertIsNone(score(">90", dict(high_good, high_limit=120)))
+        self.assertEqual(self.report["classify_trend"](
+            ["<5", "291.70"], "<50", "Stool Analysis", "Calprotectin (Stool)"), "Breakthrough")
+        self.assertIsNone(self.report["directional_percent_delta"](
+            "<5", "291.70", "<50", "Stool Analysis", "Calprotectin (Stool)"))
+
+    def test_unscorable_current_limits_block_stale_lab_trends(self):
+        for value in ("<5", "unavailable", "haemolysed"):
+            with self.subTest(value=value):
+                values = [value, "-", "5", "10"]
+                self.assertIsNone(self.report["classify_trend"](
+                    values, "0 - 10", "Other laboratory category", "Future assay"))
+                for output_format in ("html", "md"):
+                    self.assertEqual(self.report[f"format_trend_{output_format}"](
+                        values, "0 - 10", "Other laboratory category", "Future assay"), "-")
+        self.assertEqual(self.report["classify_trend"](
+            ["-", "5", "10"], "0 - 10", "Other laboratory category", "Future assay"), "Breakthrough")
+
+    def test_identical_limits_retain_only_an_established_reference_category(self):
+        classify = self.report["classify_trend"]
+        self.assertEqual(classify(["< 5.0", "<5"], "<9", "Infectious Diseases", "Chlamydia IgG"), "Stable")
+        self.assertIsNone(classify(["< 5.0", "<5"], "0 - 10", "Other laboratory category", "Future assay"))
+        self.assertIsNone(classify(["< 5.0", "<5"], "-", "Other laboratory category", "Future assay"))
+        self.assertIsNone(classify(["< 5.0", "<5"], "<9", "Urine Culture", "Colony Count"))
+
+    def test_identical_limit_trends_explain_that_actual_change_is_unknown(self):
+        # Both 101 and 10000 satisfy >100: the reporting category can be the
+        # same without establishing stable measurements or stable severity.
+        values, reference = [">100", ">100"], "<5"
+        self.assertEqual(self.report["format_trend_html"](
+            values, reference, "Other laboratory category", "Future assay"),
+            '<span title="Same reported limit; actual change unknown">⚪</span>')
+        self.assertEqual(self.report["format_trend_md"](
+            values, reference, "Other laboratory category", "Future assay"), "⚪")
+        for output_format in ("html", "md"):
+            self.assertNotIn("Numeric limits", self.outputs[output_format])
+            self.assertNotIn(
+                "For identical numeric limits, ⚪ means the same reported limit; actual change is unknown.",
+                self.outputs[output_format])
 
     def test_pending_results_are_unscored_and_block_stale_trends(self):
         pending = [(category, marker)
