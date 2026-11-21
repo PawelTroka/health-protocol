@@ -765,6 +765,9 @@ slight_improvement_score_delta = 0.06
 slight_worsening_score_delta = 0.12
 slight_directional_improvement_percent_delta = 0.075
 
+# Paired BP display sensitivity in mmHg, not a clinical significance threshold.
+blood_pressure_trend_min_change = 3.0
+
 # Display filters, not assay precision estimates or clinical significance
 # thresholds. Require both a relative change and a change in the row's units.
 # Other explicit directional lab targets use 7.5% of their target boundary.
@@ -957,6 +960,16 @@ def classify_trend(values, ref, category, marker=None):
             return None
         if comparison == "same_bound":
             return "Stable"  # Same reported category, not equal exact values.
+    if category == "Vitals & Functional Health" and marker == "Blood Pressure":
+        current_pair = numeric_pair_from_result(current_value)
+        previous_pair = numeric_pair_from_result(previous_value)
+        # A small move across a preferred-target boundary is not a directional
+        # trend. Both components must be small; value colors remain separate.
+        if current_pair is not None and previous_pair is not None and all(
+            abs(current - previous) + 1e-12 < blood_pressure_trend_min_change
+            for current, previous in zip(current_pair, previous_pair)
+        ):
+            return "Stable"
     delta = previous_score - current_score
     percent_delta = directional_percent_delta(current_value, previous_value, ref, category, marker)
 
@@ -1010,7 +1023,7 @@ def unscored_change(values, ref, category, marker):
         return None
     if marker == "Height":
         return "-"
-    if category == MICROBIOTA_CATEGORY or (category == "Vitals & Functional Health" and marker == "FFMI"):
+    if category == MICROBIOTA_CATEGORY:
         return numerical_change(values)
     goal_dates = body_measurement_goal_comparisons.get(marker)
     if goal_dates:

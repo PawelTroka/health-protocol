@@ -29,7 +29,7 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 | Metric | Trend | 2026-11 | 2026-10 | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Body Mass** | ⚪ | 79.1 | 78.7 | 80.0 | 81.3 | 83.7 | kg | - | Withings |
-| **FFMI** | ↑ +0.6 | 22.0 | 21.4 | 21.9 | 22.1 | 22.1 | kg/m² | - | Withings |
+| **FFMI** | ⚪ | 22.0 | 21.4 | 21.9 | 22.1 | 22.1 | kg/m² | - | Withings |
 | **Body Fat** | 🟢 | 🔵 13.7 | 🟢 15.9 | 🔵 15.0 | 🟢 15.8 | 🟢 18.2 | % | 8–20 (goal 10–15) | Withings |
 | **Muscle** | 🟢 | 🟢 82.1 | 🟢 80.0 | 🟢 80.8 | 🟢 80.1 | 🟢 77.8 | % | 75–89 | Withings |
 | **Bone** | 🟢 | 🟢 4.2 | 🟢 4.1 | 🟢 4.1 | 🟢 4.1 | 🟢 4.0 | % | 3–5 | Withings |
@@ -65,7 +65,7 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 
 | Metric | Trend | 2026-11 | 2026-10 | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Blood Pressure** | 🟡 | 🔵 114.0/76.3 | 🔵 114.0/75.0 | 🟢 116.5/77.5 | 🔵 105.0/71.0 | 🟢 115.2/78.7 | mmHg | <120/<80 (goal 100–115/60–75) | Withings |
+| **Blood Pressure** | ⚪ | 🔵 114.0/76.3 | 🔵 114.0/75.0 | 🟢 116.5/77.5 | 🔵 105.0/71.0 | 🟢 115.2/78.7 | mmHg | <120/<80 (goal 100–115/60–75) | Withings |
 | **PWV** | 🟡 | 🔵 6.2 | 🔵 5.9 | 🔵 6.1 | 🔵 6.5 | 🔵 6.2 | m/s | <10 (goal <7) | Withings |
 | **Estimated PWV** | ⚪ | 🔵 6.36 | 🔵 6.42 | 🔵 6.42 | 🔵 6.42 | 🔵 6.45 | m/s | <10 (goal <7) | Oura |
 | **Average Sleeping HR** | 🟢 | 🟢 64.9 | 🟢 65.6 | 🟢 64.6 | 🟢 66.2 | 🟢 66.6 | bpm | 40–100 (goal 45–60) | Oura |

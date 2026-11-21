@@ -283,6 +283,9 @@ class GuidanceRenderingTests(unittest.TestCase):
                  ("Sleep Score", "80.4", "78.7", "🟢"),
                  ("Sleep Latency", "16.8", "22.7", "🟢"),
                  ("Steps (Garmin)", "5000", "4000", "🟢"),
+                 ("FFMI", "22.0", "21.4", "⚪"),
+                 ("FFMI", "21.4", "22.0", "⚪"),
+                 ("FFMI", "22.0", "22.0", "⚪"),
                  ("Future Firmware Marker", "12", "11", "⚪"))
         for marker, current, previous, expected in cases:
             for output_format in ("html", "md"):
@@ -291,6 +294,53 @@ class GuidanceRenderingTests(unittest.TestCase):
                     rendered = self.report[f"render_result_table_{output_format}"](VITALS, [row], compact=True)
                     header, result = rendered_table_rows(rendered, output_format)
                     self.assertEqual(result[header.index("Trend")], expected)
+
+    def test_blood_pressure_small_changes_are_neutral_without_changing_value_colors(self):
+        for current, previous in (("114.0/76.3", "114.0/75.0"),
+                                  ("114.0/75.0", "114.0/76.3")):
+            row = self.row("Blood Pressure", {"2026-09": current, "2026-07": previous}, "mmHg")
+            for output_format in ("html", "md"):
+                with self.subTest(current=current, previous=previous, format=output_format):
+                    rendered = self.report[f"render_result_table_{output_format}"](VITALS, [row], compact=True)
+                    header, result = rendered_table_rows(rendered, output_format)
+                    self.assertEqual(result[header.index("Trend")], "⚪")
+                    self.assertEqual(result[header.index("2026-09")], f"🔵 {current}")
+                    self.assertEqual(result[header.index("2026-07")], f"🔵 {previous}")
+                    self.assertEqual(result[header.index("Reference")], "<120/<80 (goal 100–115/60–75)")
+
+    def test_blood_pressure_floor_is_symmetric_and_applies_to_both_components(self):
+        reference = self.report["target_reference"](VITALS, "Blood Pressure", "-")
+        cases = (
+            # Both components must stay below the floor; exactly 3 retains
+            # the established target-distance classification in either direction.
+            ("116.9/77.9", "114.0/75.0", "⚪", "⚪"),
+            ("118.0/75.0", "115.0/75.0", "🟠", "🔵"),
+            ("114.0/78.0", "114.0/75.0", "🟠", "🔵"),
+            ("125.0/75.0", "114.0/75.0", "🟠", "🔵"),
+            ("114.0/85.0", "114.0/75.0", "🟠", "🔵"),
+            # Changes within the target remain neutral even at the floor.
+            ("113.0/73.0", "110.0/70.0", "⚪", "⚪"),
+        )
+        for current, previous, forward, reverse in cases:
+            for values, expected in (([current, previous], forward), ([previous, current], reverse)):
+                for output_format in ("html", "md"):
+                    with self.subTest(values=values, format=output_format):
+                        self.assertEqual(self.report[f"format_trend_{output_format}"](
+                            values, reference, VITALS, "Blood Pressure"), expected)
+
+    def test_ffmi_and_blood_pressure_require_two_comparable_results(self):
+        for marker, current, previous in (("FFMI", "22.0", "21.4"),
+                                          ("Blood Pressure", "114.0/76.3", "114.0/75.0")):
+            reference = self.report["target_reference"](VITALS, marker, "-")
+            cases = [[], [current], ["-", current]]
+            for unknown in ("pending", "inconclusive", "unknown"):
+                cases.extend(([unknown, current, previous], [current, unknown, previous]))
+            for output_format in ("html", "md"):
+                formatter = self.report[f"format_trend_{output_format}"]
+                for values in cases:
+                    with self.subTest(marker=marker, values=values, format=output_format):
+                        self.assertEqual(formatter(values, reference, VITALS, marker), "-")
+                self.assertEqual(formatter(["-", current, "-", previous], reference, VITALS, marker), "⚪")
 
     def test_scored_vitals_do_not_reuse_older_pairs_after_unknown_result(self):
         for output_format in ("html", "md"):
