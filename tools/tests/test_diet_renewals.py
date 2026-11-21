@@ -30,7 +30,9 @@ class MushroomCoverageTests(unittest.TestCase):
                 self.assertEqual(result["full_75g_choices"], 0)
                 self.assertEqual(result["separate_oyster_remainder_g"], 0)
                 self.assertEqual(result["separate_shiitake_remainder_g"], 0)
-                self.assertEqual(result["required"], 28)
+                self.assertNotIn("required", result)
+                self.assertEqual(result["required_kind_count"], 4)
+                self.assertEqual(result["active_kind_count"], 0)
 
     def test_current_two_species_delivery_retains_four_separate_choices(self):
         streams = [{"days": 28, "foods": {"oyster_raw_g": 200, "shiitake_raw_g": 200}}]
@@ -39,6 +41,7 @@ class MushroomCoverageTests(unittest.TestCase):
         self.assertEqual(result["full_75g_choices"], 4)
         self.assertEqual(result["separate_oyster_remainder_g"], 50)
         self.assertEqual(result["separate_shiitake_remainder_g"], 50)
+        self.assertEqual(result["active_kind_count"], 2)
         self.assertEqual(streams, before)
 
     def test_removing_a_species_updates_choices_and_its_remainder(self):

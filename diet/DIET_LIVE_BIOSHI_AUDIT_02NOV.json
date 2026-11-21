@@ -1,0 +1,1144 @@
+{
+  "observed_on": "2026-11-02",
+  "method": "Connected signed-in Brave3, current rendered product DOM;61distinct product pages, not web-cache stock. Product options viewed without purchase.",
+  "scope": "Current catalogue availability and native option presence only. No basket, account setting, order, terms acceptance, payment or activation changed. Existing Kiwi price comparison remains closed; Kiwi omitted from repricing.",
+  "renewal_mechanism": "New Regularnie selectors advertise confirmation before each purchase; expanded Klimeko terms expressly require emailed confirmation each cycle. Legacy399 automatic debit is separate evidence; do not infer old debits failed or new pantry autocharge proved.",
+  "price_scope": "Displayed goods catalogue amounts, not destination checkout, actual first-discount eligibility, independent renewal quote or per-product delivered-cap result. Sauerkraut price/pack contradiction remains unresolved.",
+  "products": [
+    {
+      "sku": "45129",
+      "food": "Spinach",
+      "url": "https://bioshi.pl/pl/products/szpinak-baby-swiezy-niemyty-bio-okolo-0-10-kg-45129",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 9.09,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "80241",
+      "food": "Kohlrabi",
+      "url": "https://bioshi.pl/pl/products/kalarepa-swieza-bio-polska-okolo-0-10-kg-80241",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 8.19,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Title and product parameters0.10kg; description0.20kg and unit-price arithmetic points to0.20kg. Pack mass unresolved."
+    },
+    {
+      "sku": "44806",
+      "food": "Sauerkraut",
+      "url": "https://bioshi.pl/pl/products/kapusta-kiszona-z-marchewka-bio-800-g-satyrz-44806",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 33.98,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Header/one-time33.98PLN and21.24PLN/kg conflict with800g title/single-pack label. Selected regular displayed15.29first/14.44later. Do not infer actual number of jars. Opened life3days."
+    },
+    {
+      "sku": "46190",
+      "food": "Radish sprouts",
+      "url": "https://bioshi.pl/pl/products/kielki-rzodkiewki-swieze-bio-okolo-50-g-46190",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 5.39,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "84795",
+      "food": "Carrots",
+      "url": "https://bioshi.pl/pl/products/marchew-niemyta-swieza-bio-polska-okolo-1-00-kg-84795",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 7.59,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "45883",
+      "food": "Cauliflower",
+      "url": "https://bioshi.pl/pl/products/kalafior-swiezy-bio-okolo-0-80-kg-45883",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 18.99,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "64110",
+      "food": "Butternut",
+      "url": "https://bioshi.pl/pl/products/dynia-pizmowa-butternut-swieza-bio-okolo-0-70-kg-64110",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 9.99,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "49176",
+      "food": "Orange",
+      "url": "https://bioshi.pl/pl/products/pomarancze-bio-1-kg-49176",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 12.89,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "80065",
+      "food": "Orange sweet potato",
+      "url": "https://bioshi.pl/pl/products/bataty-pomaranczowe-swieze-bio-okolo-1-00-kg-80065",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 15.69,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "100207",
+      "food": "Yellow potato",
+      "url": "https://bioshi.pl/pl/products/ziemniaki-zolte-swieze-bio-polska-2-kg-100207",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 13.09,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "68991",
+      "food": "Mango",
+      "url": "https://bioshi.pl/pl/products/mango-swieze-bio-okolo-0-30-kg-68991",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 19.29,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "88631",
+      "food": "Tomatoes",
+      "url": "https://bioshi.pl/pl/products/pomidory-okragle-swieze-tacki-bio-polska-88631",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 22.29,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "97014",
+      "food": "Oyster",
+      "url": "https://bioshi.pl/pl/products/grzyby-boczniaki-swieze-bio-polska-okolo-0-20-kg-bio-planet-97014",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 9.99,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "97013",
+      "food": "Shiitake",
+      "url": "https://bioshi.pl/pl/products/grzyby-shiitake-swieze-bio-polska-okolo-0-20-kg-97013",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 15.79,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "55183",
+      "food": "Blueberries",
+      "url": "https://bioshi.pl/pl/products/borowki-swieze-bio-okolo-0-125-kg-55183",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 19.99,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "88768",
+      "food": "Raspberries",
+      "url": "https://bioshi.pl/pl/products/maliny-swieze-bio-polska-okolo-0-125-kg-bio-planet-88768",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 14.98,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "80061",
+      "food": "Celeriac",
+      "url": "https://bioshi.pl/pl/products/seler-swiezy-bio-polska-okolo-1-00-kg-80061",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 7.39,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "95735",
+      "food": "King Oyster",
+      "url": "https://bioshi.pl/pl/products/grzyby-eryngii-borowik-stepowy-swieze-bio-polska-okolo-0-20-kg-95735",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 19.89,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Current live availability supersedes cached product-unavailable result.200g gives four50g portions."
+    },
+    {
+      "sku": "51623",
+      "food": "Avocado",
+      "url": "https://bioshi.pl/pl/products/awokado-bio-1-szt-51623",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 7.59,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "46125",
+      "food": "Eggs",
+      "url": "https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 23.69,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "101259",
+      "food": "Flaxseed",
+      "url": "https://bioshi.pl/pl/products/siemie-lniane-brazowe-bio-nasiona-lnu-250-g-heybio-101259",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 6.59,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "45944",
+      "food": "Chia",
+      "url": "https://bioshi.pl/pl/products/chia-nasiona-szalwii-hiszpanskiej-bio-200-g-45944",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 9.29,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "44428",
+      "food": "Pumpkin seeds",
+      "url": "https://bioshi.pl/pl/products/pestki-dyni-ciemnozielone-uprawiane-w-europie-bio-350-g-bio-planet-44428",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 21.99,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "101536",
+      "food": "HeyBio Sunflower seeds",
+      "url": "https://bioshi.pl/pl/products/slonecznik-luskany-bio-ziarna-slonecznika-250-g-heybio-101536",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 9.39,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "46303",
+      "food": "Cloves",
+      "url": "https://bioshi.pl/pl/products/gozdziki-cale-bio-30-g-dary-natury-46303",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 12.79,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "44566",
+      "food": "Ceylon cinnamon",
+      "url": "https://bioshi.pl/pl/products/cynamon-cejlonski-mielony-bio-50-g-lebensbaum-44566",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 12.89,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "46298",
+      "food": "Black cumin",
+      "url": "https://bioshi.pl/pl/products/czarnuszka-bio-50-g-dary-natury-46298",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 9.49,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "47796",
+      "food": "Cardamom",
+      "url": "https://bioshi.pl/pl/products/kardamon-ziarno-bio-40-g-dary-natury-47796",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 29.89,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "46956",
+      "food": "Oats1kg",
+      "url": "https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 14.59,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "52572",
+      "food": "Oats500g",
+      "url": "https://bioshi.pl/pl/products/platki-owsiane-gorskie-bezglutenowe-bio-500-g-piec-przemian-five-transformations-52572",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 11.89,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "44492",
+      "food": "Walnuts",
+      "url": "https://bioshi.pl/pl/products/orzechy-wloskie-bio-300-g-bio-planet-44492",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 22.99,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "53019",
+      "food": "Pistachios",
+      "url": "https://bioshi.pl/pl/products/pistacje-luskane-bio-150-g-bio-planet-53019",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 43.69,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "44472",
+      "food": "Macadamias",
+      "url": "https://bioshi.pl/pl/products/orzechy-macadamia-bio-200-g-bio-planet-44472",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 34.09,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "45420",
+      "food": "Almonds",
+      "url": "https://bioshi.pl/pl/products/migdaly-bio-350-g-bio-planet-45420",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 28.89,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "44959",
+      "food": "Beluga",
+      "url": "https://bioshi.pl/pl/products/soczewica-czarna-beluga-bio-400-g-bio-planet-44959",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 16.29,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "44499",
+      "food": "Quinoa",
+      "url": "https://bioshi.pl/pl/products/quinoa-biala-komosa-ryzowa-bezglutenowa-bio-500-g-bio-planet-44499",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 17.59,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "49356",
+      "food": "Black beans",
+      "url": "https://bioshi.pl/pl/products/fasolka-czarna-bio-500-g-bio-planet-49356",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 11.79,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "44932",
+      "food": "Chickpeas",
+      "url": "https://bioshi.pl/pl/products/ciecierzyca-bezglutenowa-bio-400-g-bio-planet-44932",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 9.19,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "46308",
+      "food": "Coriander seed",
+      "url": "https://bioshi.pl/pl/products/kolendra-ziarno-bio-30-g-dary-natury-46308",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 5.99,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "46593",
+      "food": "Cumin seed",
+      "url": "https://bioshi.pl/pl/products/kmin-rzymski-cale-nasiona-bio-30-g-dary-natury-46593",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 8.39,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "46323",
+      "food": "Rosemary",
+      "url": "https://bioshi.pl/pl/products/rozmaryn-bio-30-g-dary-natury-46323",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 7.19,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "46317",
+      "food": "Oregano",
+      "url": "https://bioshi.pl/pl/products/oregano-bio-20-g-dary-natury-46317",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 6.69,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "44958",
+      "food": "Bio Planet Sunflower alternative",
+      "url": "https://bioshi.pl/pl/products/slonecznik-luskany-bezglutenowy-bio-250-g-bio-planet-44958",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 5.99,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "46325",
+      "food": "Thyme",
+      "url": "https://bioshi.pl/pl/products/tymianek-bio-20-g-dary-natury-46325",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 5.99,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "91402",
+      "food": "Mackerel",
+      "url": "https://bioshi.pl/pl/products/makrela-filety-w-bio-oliwie-z-oliwek-extra-virgin-190-g-125-g-sloik-emperatriz-91402",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 18.99,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Retailer ingredient label names Atlantic Scomber scombrus;125gdrained matches written Mackerel meal. Brand difference alone is not disqualification."
+    },
+    {
+      "sku": "93432",
+      "food": "Phileos",
+      "url": "https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 61.39,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "90555",
+      "food": "Sardines",
+      "url": "https://bioshi.pl/pl/products/sardynki-europejskie-w-bio-oliwie-z-oliwek-extra-virgin-180-g-126-g-sloik-emperatriz-90555",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 29.39,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Title180g/126gdrained conflicts with description190g/133gdrained; opened life4days. Current Polish live selector enabled; supersedes cached English unavailable selector only for new-purchase capability."
+    },
+    {
+      "sku": "48071",
+      "food": "Moya Matcha30g",
+      "url": "https://bioshi.pl/pl/products/herbata-japonska-zielona-matcha-codzienna-w-puszce-bio-30-g-moya-matcha-48071",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 47.09,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Japanese organic Matcha30g available;2packs/30days match2g/day. Price/fee/cap and first-stock timing need qualification."
+    },
+    {
+      "sku": "104387",
+      "food": "Klimeko Kefir400g",
+      "url": "https://bioshi.pl/pl/products/kefir-bez-laktozy-bio-400-g-klimeko-104387",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 10.88,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "BIO,lactose-free,live Kefir cultures400g,1-6C,48h after opening. No namedL.rhamnosus/CFU on label.216kcal,P12.8,C16.8,F9.6,salt0.36 per400g; first9.79/later9.25 advertised; no delivered-life guarantee."
+    },
+    {
+      "sku": "93457",
+      "food": "Japanese Matcha60g alternative",
+      "url": "https://bioshi.pl/pl/products/matcha-japonska-premium-bio-60-g-piec-przemian-five-transformations-93457",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 43.29,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Japanese organic Matcha60g available;1pack/30days matches2g/day. Do not assume superior health effect or batch testing."
+    },
+    {
+      "sku": "80158",
+      "food": "Kale alternative",
+      "url": "https://bioshi.pl/pl/products/jarmuz-mix-swiezy-bio-polska-okolo-0-10-kg-80158",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 14.72,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "95917",
+      "food": "Bok Choy alternative",
+      "url": "https://bioshi.pl/pl/products/kapusta-pak-choi-swieza-bio-okolo-0-30-kg-bio-95917",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 19.49,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "88635",
+      "food": "Red Pepper alternative",
+      "url": "https://bioshi.pl/pl/products/papryka-czerwona-swieza-bio-polska-okolo-0-70-kg-88635",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 30.5,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "101718",
+      "food": "Pomegranate alternative",
+      "url": "https://bioshi.pl/pl/products/granat-owoc-swiezy-bio-okolo-0-30-kg-101718",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 64.29,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Current redirected title approximately300g; earlier linked slug400g. No new order is available."
+    },
+    {
+      "sku": "87511",
+      "food": "Broccoli alternative",
+      "url": "https://bioshi.pl/pl/products/brokul-bio-1-szt-87511",
+      "new_order_stock_display": "unavailable",
+      "displayed_one_time_goods_pln": 13.8,
+      "recurring_interval_options_days": [],
+      "new_regular_purchase_available": false,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "63830",
+      "food": "Green Beans alternative",
+      "url": "https://bioshi.pl/pl/products/fasolka-szparagowa-swieza-bio-okolo-0-50-kg-63830",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 192.99,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Title/description approximately500g but displayed goods192.99PLN; actual pack multiple/unit and price require checkout clarification. Do not treat it as an acceptable per-product price or buy filler."
+    },
+    {
+      "sku": "44667",
+      "food": "Arugula alternative",
+      "url": "https://bioshi.pl/pl/products/rukola-swieza-niemyta-bio-okolo-0-10-kg-44667",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 24.29,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false
+    },
+    {
+      "sku": "53343",
+      "food": "Vegan Mild Kimchi alternative",
+      "url": "https://bioshi.pl/pl/products/kimchi-vegan-mild-300-g-old-friends-53343",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 20.31,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Current title Vegan Mild300g; ingredients0.5%chili,soy sauce,no listedOnion/E223/fish. Manufacturer current300gjar page gives1%chili/E223, unlike250gdoypack. Exact formulation must be resolved, not labeled Classic or wholly unavailable."
+    },
+    {
+      "sku": "45257",
+      "food": "Lactose-free1.5% Milk alternative",
+      "url": "https://bioshi.pl/pl/products/mleko-bez-laktozy-1-5-tluszczu-ekologiczne-bio-1-l-sobbeke-45257",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 16.19,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Lactose-free1.5% organic Milk,available1L16.19PLN; after opening2-3days.200ml/day needs5days, so this bottle does not fit unchanged use without another permitted allocation. No extra consumption."
+    },
+    {
+      "sku": "105783",
+      "food": "Boswena Oat Bran",
+      "url": "https://bioshi.pl/pl/products/otreby-owsiane-1-kg-boswena-105783",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 13.9,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "Ordinary Oat Bran,not a quantified≥6% Beta-Glucan equivalent; labelFiber10g/100g. Brand flexibility does not allow inventing active-fiber content."
+    },
+    {
+      "sku": "105987",
+      "food": "Beta-glucan Oat Bran concentrate",
+      "url": "https://bioshi.pl/pl/products/koncentrat-otrebow-owsianych-bezglutenowy-150-g-piec-przemian-105987",
+      "new_order_stock_display": "available",
+      "displayed_one_time_goods_pln": 13.01,
+      "recurring_interval_options_days": [
+        7,
+        14,
+        21,
+        28,
+        30,
+        60,
+        90
+      ],
+      "new_regular_purchase_available": true,
+      "checkout_quote": false,
+      "accepted_order_reservation_inferred": false,
+      "note": "150g concentrate347kcal,P20,C39,F8.3,Fiber21 per100g; manufacturer catalogue10% Beta-Glucan.10g/day implies2packs/30days and a changed nutrient panel; not silently substituted."
+    }
+  ],
+  "counts": {
+    "checked": 61,
+    "available": 50,
+    "unavailable": 11
+  },
+  "account_review": {
+    "observed_on": "2026-11-02",
+    "url": "https://bioshi.pl/pl/konto/subskrypcje",
+    "active_groups": 6,
+    "paused_groups": 1,
+    "contents_unchanged": true,
+    "product_edit_or_removal_controls_exposed": false,
+    "ids_and_independent_future_quotes_exposed": false,
+    "all_profiles_show_future_purchase_email_link_or_per_purchase_label": true,
+    "legacy_399_auto_debit_29oct_preserved": true,
+    "browser_gate_resolved": true,
+    "basket_count_before_after": 0,
+    "account_changes": false
+  },
+  "existing_order_257757_review": {
+    "observed_on": "2026-11-02",
+    "status": "Przyjęte",
+    "payment": "Opłacone",
+    "total_pln": 99.25,
+    "delivery_pln": 0,
+    "foods": [
+      {
+        "sku": "45883",
+        "packs": 1,
+        "line_pln": 17.09
+      },
+      {
+        "sku": "46125",
+        "packs": 1,
+        "line_pln": 21.41
+      },
+      {
+        "sku": "84795",
+        "packs": 1,
+        "line_pln": 6.83
+      },
+      {
+        "sku": "88768",
+        "packs": 4,
+        "line_pln": 53.92
+      }
+    ],
+    "tracking_or_receipt_newly_verified": false,
+    "new_public_unavailability_does_not_prove_reservation_lost": true
+  }
+}

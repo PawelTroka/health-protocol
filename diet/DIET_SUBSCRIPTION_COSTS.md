@@ -1,5 +1,54 @@
 # Diet subscription costs — 43-food core, 2 stock-driven additions and historical benchmark
 
+## 27October23:09 Warsaw — replacement cart saved, still unpaid
+
+The loaded signed-in Brave cart now contains the exact replacement **P60/P90:14 distinct SKUs /18 packs**, with every quantity and native60/90day badge verified. Walnuts/Macadamias are2packs each; the old unpaid Pistachio90day and Cumin30day lines were replaced by2packs each/60days; Oregano/Thyme were added. Actual cart goods are **344.52zł ordinary −34.47zł discount =310.05zł**. The old12-line draft below is historical.
+
+Checkout displayed **InPost Kurier home delivery0zł** at310.05zł goods and a250zł threshold; GLS Kurier10.49zł and DHL11.99zł were also listed. Contact/address fields were blank, so this is **not a destination-verified quote or proof of free separate renewals**. Terms were not accepted; no payment, order or new profile was submitted. The cart was left saved and unpaid. Four active profiles plus paused361 were reverified;361 still contains Tempeh and no product-removal controls were available. **Do not submit before370 transfer, stock-adjusted first timing and actual separate-renewal courier costs qualify.**
+
+## 27October reoptimization — current instruction
+
+The latest user decision replaces the earlier cart grouping and6October meal targets. Prefer free **home courier**; paid home courier is authorized. Each actual post-discount shipment, including isolated renewals, should contain approximately **100zł or more of genuinely needed goods**, with **courier plus compulsory fulfillment fees≤10% of goods**. The separate **25% per-product delivered-price premium cap** still applies. No lockers, filler or routine Codex ordering/date repairs.
+
+**Tempeh and Tofu are removed.** The28day Dinner allocation is **12 Egg /6 organic Turkey /6 skinless Salmon /2 Mackerel /2 Sardine meals**. Combined Lunch/Dinner demand is **3.9kg raw Turkey and900g raw Salmon/28days**. Retain all four approved Mushroom kinds: Oyster, Shiitake, Maitake and King Oyster. The unsaved Shiitake-removal request is superseded; the800g four-kind candidate gives11 complete choices plus separate50g Oyster/50g Shiitake remainders, not daily75g coverage or a proved repeated zero-waste cycle.
+
+The [complete demand and shipment plan](DIET_COMPLETE_SHIPMENT_PLAN.md) and [offline comparison](DIET_SHIPMENT_REOPTIMIZATION.json) now govern preparation. Replacement **P60 goods132.87zł** and **P90 goods159.99zł** would have logistics ratios7.14%/5.93% at a9.49zł fee. These are dated public-price calculations, **not checkout quotes**. P60/P90 replace370/old Nut B and supersede the earlier12-line draft; do not add overlapping subscriptions. Their replacement cart settings are now saved as recorded above, but370 has not been transferred and no payment or new profile activation occurred.
+
+The latest account evidence remains **four active profiles plus paused361**. Its stored template still contains Tempeh; keep361 paused and do not resume it as stored. An active Bioshi Regularnie profile can require renewal confirmation/payment; it does not by itself prove unattended collection. The complete plan covers consumption categories, while native routes, actual stock/expiry, first timing and final delivered quotes remain to be verified. **No complete-automation date is established.**
+
+| Replacement shipment | Advertised later goods |9.49zł logistics scenario | Delivered scenario | Logistics/goods |
+| --- | ---: | ---: | ---: | ---: |
+| P60 ·10 packs/8 SKUs |132.87zł |9.49zł |142.36zł |7.14% |
+| P90 ·8 packs/6 SKUs |159.99zł |9.49zł |169.48zł |5.93% |
+
+These replace overlapping Nut quantities and preserve718.59zł later pantry goods/180days across three P60 and two P90 shipments. They are not a whole-Diet bill or a verified tariff. P90 contains2.75kg food before packaging, so the applicable packed-weight courier band must be checked. Per-item delivered comparisons remain required.
+
+**Historical27October earlier signed-in review — preserved account evidence; later reoptimization above supersedes its preparation policy.** The user authorizes creating the remaining planned retailer subscriptions now. Prefer free **home courier**; paid home courier is permitted when free delivery is unavailable. Keep the25% per-product delivered-price cap including compulsory fees, exact approved foods/portions,6October reduced purchase rates and no Strawberry reintroduction or shipping filler. Earlier scheduled-run restrictions do not require another approval for this direct request.
+
+The freshly reloaded signed-in Brave account shows **five profiles**:357 active/28days,399 active/30days,370 active/90days,361 paused/28days, and the user-created26October Oil/Fish group active/30days, next25November, associated with500125; its profile ID is not visible. That group contains Phileos500ml×2, Emperatriz Mackerel91402×1 and Sardines90555×1. Its payment label is **“Przy każdym zakupie”**; current retailer wording requires confirmation/payment for renewals. Plans can be created, but unattended payment and full Diet coverage are not established.
+
+Order500125 is paid163.53zł and marked **“W drodze”** by Bioshi; parcel33685101618 is now matched to it. Carrier handover/arrival remains independently unverified, so offset overlapping first purchases without recording received stock. **Twelve pantry lines are saved in the native cart; Oregano, Thyme and the additional Eggs are not added. No new checkout, order, payment or profile was submitted.** Browser control stopped during the next navigation. Exact lines/cadences and remaining work: [27October activation batch](DIET_27OCT_ACTIVATION_BATCH.md) and [handoff](DIET_PAYMENT_HANDOFF.md).
+
+The paid500125 first total is **154.04zł goods+9.49zł home courier=163.53zł**. Its newly verified30day profile/25November date establishes a repeating plan, not a verified future delivered total or unattended debit. Keep its first charge separate from recurring-cost estimates until the actual next quote is checked.
+
+## Historical27October morning evidence — recurrence later verified above
+
+Merchant confirms **163.53zł paid**: Phileos500ml×2 110.50zł + Emperatriz Mackerel190g/125g drained jar17.09zł + Emperatriz Sardines180g/126g drained jar26.45zł =154.04zł goods, plus **9.49zł GLS courier**. Source: confirmation received26October23:39:05 Warsaw, read27October. No recurring interval is stated; do not add this to recurring spend or assume a shipping change on357/399. It failed the then-applicable free-home-courier condition; the later27October user authorization permits paid courier within the delivered-price cap. Ordered food is not received usable stock, and the fish jars do not establish approved SKU substitutions. No per-product premium comparison or new order was performed. [Current handoff](DIET_PAYMENT_HANDOFF.md).
+
+## 25October —255381 paid; separate399 renewal257757
+
+IdoPay confirms **104.55zł charged23October** for255381, verified25October. Its created lines and0zł GLS/payment fees remain the17October evidence; no Mushroom saving or new refund is booked. Existing399 created25775724October for **99.25zł**: selected green-legged Eggs21.41zł + Cauliflower17.09zł + Carrots6.83zł + Raspberries53.92zł, with GLS/payment fees0zł. Automatic collection is **29October**, not the old31October field;4November delivery remains scheduled. The399 amount is not yet a confirmed charge and is separate from first249850 refunds/shipped23.92zł. No new subscription or bank-refund receipt is inferred. [Current handoff](DIET_PAYMENT_HANDOFF.md).
+
+## 18October — created357 renewal255381
+
+Created17October, scheduled automatic collection23October: Kiwi1.2kg60.37zł + Tomatoes1kg22.27zł + Shiitake200g13.42zł + Oyster200g8.49zł = **104.55zł**, GLS home courier0zł/payment fee0zł. Creation-email prices were read18October and the live profile independently confirms the order total. This is not yet a debit. The approved Mushroom reduction remains unsaved;91.13zł after removing Shiitake is goods-only arithmetic, not a verified free-courier renewal quote. No saving is booked. Previous245125's110.70zł charge/11.79zł issued refund/98.91zł history remains a separate order. [Action handoff](DIET_PAYMENT_HANDOFF.md).
+
+## 9October —249850 reduced to23.92zł; Strawberry refund response
+
+249850 originally paid99.25zł. Merchant-issued refunds are21.41zł for the confirmed Egg removal plus **53.92zł** in the notice received8October12:24:50 Warsaw, totaling **75.33zł**. The revised shipped/paid amount is **23.92zł**, verified in the dispatch email and9October order history; courier/payment fees remain0zł. Bank credits remain unverified. The second amount matches the former Raspberry line but its affected goods are not expressly identified; do not book a confirmed Raspberry removal from arithmetic alone. Future399's99.25zł quote is separate and was last verified8October; no new recurring saving is established.
+
+The separate spoiled-Strawberry claim requests27.74zł for247410 plus30.82zł for243898, **58.56zł combined**. Bioshi's8October19:36:36 reply reports refunds made for the products in the cited orders, but does not restate the amounts. Correcting-invoice notices were also received for both orders, with amounts absent from their text. The actual issued amount and bank credits are unverified; keep the requested58.56zł separate from249850's quantified refunds. [Current handoff](DIET_PAYMENT_HANDOFF.md).
+
 ## 7October —249850 refund, separate from Strawberry complaint
 
 Bioshi reports21.41zł refunded for249850 at08:41:16 Warsaw; live399 history is77.84zł and held. Preserve99.25zł as the original payment,21.41zł as merchant-issued refund and77.84zł as revised order history. After the user signed in, expanded249850 confirmed Egg46125 removed: remaining Cauliflower17.09zł + Carrots6.83zł + Raspberries53.92zł =77.84zł. Bank receipt and the removal/hold reason remain unverified.399's future recurring quote remains99.25zł/freeGLS with selectedEgg46125 present. No new debit or subscription saving is inferred. The58.56zł Strawberry claim has no verified refund. [Handoff](DIET_PAYMENT_HANDOFF.md).
@@ -46,7 +95,7 @@ Fresh23September public checks matched manufacturer, pack and composition; Marke
 
 **20September user direction:** stop pursuing the current Kiwi comparison and leave that subscription unchanged. The dated calculations below remain evidence, not an active user action or deadline. Retain the general25% cap for other products/new subscriptions.
 
-**Current plan: [current native-only renewal plan](DIET_RENEWAL_PLAN.md).**357/361/370 are active;370's first246975 is paid and its active card is confirmed in IdoPay, with Bioshi's final verification still processing.243898 remains paid but undelivered after a missing-stock hold.245125 will collect110.70zł automatically25September for1October; leave the current Kiwi purchase unchanged. Bioshi rejected obsolete243402 on23September;243364/243397 remain unresolved. The older schedules and quotations below are historical candidates, not payment instructions.
+**Historical September baseline; current decisions are in the [renewal plan](DIET_RENEWAL_PLAN.md).**357/361/370 are active;370's first246975 is paid and its active card is confirmed in IdoPay, with Bioshi's final verification still processing.243898 remains paid but undelivered after a missing-stock hold.245125 will collect110.70zł automatically25September for1October; leave the current Kiwi purchase unchanged. Bioshi rejected obsolete243402 on23September;243364/243397 remain unresolved. The older schedules and quotations below are historical candidates, not payment instructions.
 
 ## 22September — both Nut first-checkout courier quotes verified
 
@@ -246,7 +295,7 @@ Use this historical baseline during the move to the [twelve proposed replacement
 
 ## Revised 43-food purchasing budget
 
-**Candidate cost ledger, not an accepted optimum.** The [optimization specification](DIET_OPTIMIZATION.md#hard-constraints) requires complete meal coverage, preserved portions/rotation, usable inventory, zero planned waste, no accumulating or depleting stock, an actual recurring food budget and free home-courier delivery for every recurring shipment. Only schedules meeting those constraints can be compared for portion-weighted freshness loss; more parcels are not intrinsically better. Numeric budget, delivery-delay buffer and enough shelf-life/age data to score freshness are still inputs to resolve. The figures below retain the dated tested candidate for comparison rather than asserting that it repeats successfully.
+**Candidate cost ledger, not an accepted optimum.** The [optimization specification](DIET_OPTIMIZATION.md#hard-constraints) requires complete meal coverage, preserved portions/rotation, usable inventory, zero planned waste, no accumulating or depleting stock, an actual recurring food budget and verified home-courier costs for every recurring shipment. Prefer free courier; paid courier is authorized27October when free delivery is unavailable, with the25% per-product delivered-price cap unchanged. Only schedules meeting those constraints can be compared for portion-weighted freshness loss; more parcels are not intrinsically better. Numeric budget, delivery-delay buffer and enough shelf-life/age data to score freshness are still inputs to resolve. The figures below retain the dated tested candidate for comparison rather than asserting that it repeats successfully.
 
 Opening stock is an initial inventory condition, not a recurring discount. The [stock transition](DIET_STOCK_TRANSITION.md) owns reported quantities, conditional pack conversions and first-purchase holds. Unknown pack weights, brands, use-by dates or opening dates must not be converted into certain replacement values or subtracted from this monthly ledger. Existing paid orders and accepted unpaid orders are separate from stock physically received. A one-time deferred purchase affects transition cash flow; only a verified change to the sustainable recurring quantities changes the steady-state cost.
 

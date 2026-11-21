@@ -87,6 +87,7 @@ def stream(quantity, days, phase=0, food=None):
 
 
 def egg_demand(day, tempeh_phase=8):
+    # Historical arithmetic fixture only, retired by27October A/B calendar.
     # Two identical 14-day rotations: 3 Tempeh, 6 Egg and 5 Fish dinners.
     # Fish: 2 Salmon, 2 Mackerel, 1 Sardine; Lunch Fish remains separate.
     return 4 if (day - tempeh_phase) % 14 in (3, 5, 7, 9, 11, 13) else 0
@@ -166,7 +167,7 @@ def nut_scenarios(operational=None):
             "B_contents_g": {"walnuts": 300, "pistachios": 150, "almonds": 350, "macadamias": 200},
             "dated_checkout_evidence": operational.get("nut_groups", {}),
             "accepted_for_activation": False,
-            "status": "Current preparation candidate. Both repeat every90days, B40days after A. Exact aggregate20g/day and preserved90day species shares; not an activated subscription or a species-level usable-life proof.",
+            "status": "Historical A/B quantity comparison, superseded by27October P60/P90 replacements. Exact aggregate20g/day and preserved90day species shares; not a selected activation or species-level usable-life proof.",
             "portion_caveat": "150g Pistachio and350g Almond packs leave10g at20g portions. Verify same-food remainder use and opened life; unknown combined opening Nuts do not establish species-specific coverage.",
         },
         "existing_proposal_six_groups": {"streams": old, "inventory_g": inventory(old, 20),
@@ -432,9 +433,10 @@ def active_coverage(model):
         "recurring_food_count": len(totals),
         "recurring_food_count_definition": "Distinct positive recurring food keys across all active streams, including Nuts; repeated foods count once.",
         "tempeh_dinners": covered(amount("tempeh_packs_200g") * 200 / rotation["tempeh_g"], rotation["tempeh_meals"]),
+        "turkey_dinners": covered(amount("turkey_raw_g") / rotation.get("turkey_raw_g_per_meal", 150), rotation.get("turkey_meals", 0)),
         "nominal_eggs": covered(eggs, rotation["egg_meals"] * eggs_per_meal),
         "egg_dinners_approximate": covered(eggs / eggs_per_meal, rotation["egg_meals"]),
-        "fish_dinners": {"supplied": 0, "required": rotation["fish_meals"]},
+        "fish_dinners": {"supplied": 0, "required": rotation["fish_meals"], "scope": "Complete canonical portions not verified from the new Oil/Fish jars; zero credited here does not mean no Fish was ordered."},
         "lunch_protein_choices": {"supplied": 0, "required": 28},
         "berries": {"strawberry_g_gross": number(amount("strawberry_gross_g")),
                     "raspberry_g_gross": number(amount("raspberry_gross_g")),
@@ -443,7 +445,9 @@ def active_coverage(model):
         "mushrooms": {"full_75g_choices": number(mushroom_choices),
                       "separate_oyster_remainder_g": number(mushroom_remainders["oyster_raw_g"]),
                       "separate_shiitake_remainder_g": number(mushroom_remainders["shiitake_raw_g"]),
-                      "required": 28},
+                      "required_kind_count": 4, "active_kind_count": sum(amount(k) > 0 for k in ("oyster_raw_g", "shiitake_raw_g", "maitake_raw_g", "king_oyster_raw_g")),
+                      "rotation_target": portions.get("mushroom_rotation_27oct", {}),
+                      "scope": "Distinct species and complete same-species75g portions per recurring delivery, normalized to28day rates. No daily75g requirement, expiry or same-species remainder carryover assumed."},
         "whole_fruit": {"gross_g": number(fruit), "upper_150g_equivalents_before_peeling": number(fruit / 150), "required": 28},
         "mediterranean_vegetable_choices": {"nominal_tomato_choices": number(amount("tomato_g") / 100), "required": 28},
         "colorful_vegetable_choices": {"butternut_gross_g": number(amount("butternut_gross_g")),
@@ -465,6 +469,15 @@ def derive(model):
     manual = prices["oats_equivalent_1000_manual_pln"]
     return {
         "as_of": model["as_of"],
+        "evidence_updated_on": model.get("evidence_updated_on", model["as_of"]),
+        "current_execution_constraints": {
+            "free_home_courier_required": model["constraints"]["free_home_courier_required"],
+            "paid_home_courier_scope": model["constraints"].get("paid_home_courier_scope"),
+            "target_goods_pln_per_actual_shipment": model["constraints"].get("target_minimum_post_discount_goods_pln_per_actual_shipment"),
+            "maximum_compulsory_logistics_fraction_of_goods": model["constraints"].get("maximum_compulsory_logistics_fraction_of_goods"),
+        },
+        "current_shipment_reoptimization": model.get("shipment_reoptimization_27oct", {}),
+        "saved_preparation": model.get("pending_activation_batch_27oct", {}),
         "operational_evidence_separate_from_arithmetic": model.get("operational_evidence", {}),
         "active_coverage_per_28_days": active_coverage(model),
         "egg_oat_minimum_new_interval_proposal": phase_candidates(anchor),
@@ -486,7 +499,7 @@ def derive(model):
              "required_g": 31500, "pack_quantum_g": 1000, "remainder_g": 500,
              "scope": "Same restricted intervals; mixed smaller packs or a verified40-day1kg native cycle can solve quantity without changing the diet."},
         ],
-        "native_only_verdict": "Current whole-Diet candidate is not feasible with demonstrated routes. Exact subcategory rates below are candidates only: remaining exact-food native routes, free courier, price caps, first starts and usable lives are unresolved. Restricted Seed/1kg-Oat arithmetic impossibilities are not claims about every possible future retailer offer.",
+        "native_only_verdict": model.get("native_whole_diet_status", {}).get("reason", "Full native coverage remains unverified. Remaining exact-food routes, delivered prices, first starts, usable lives and payment behavior require evidence. Restricted pack/cycle arithmetic is not a claim about every possible retailer offer."),
         "not_proven": ["Full diet automation", "Free home courier for remaining unconfigured groups", "Actual usable lives", "Food-specific opening-stock depletion", "Future discount tiers", "Global freshness optimality"],
     }
 
@@ -498,13 +511,14 @@ def markdown(result):
     current_nuts = result["nut_comparisons"]["current_two_groups_90_days"]
     operational = result.get("operational_evidence_separate_from_arithmetic", {})
     rollout = result.get("activation_rollout", {})
+    saved = result.get("saved_preparation", {})
     coverage = result["active_coverage_per_28_days"]
     nut_a = operational.get("nut_A_final_checkout", {})
     nut_status = (f"Nut A subscription{nut_a['subscription_id']}: {nut_a['status']}; Nut B remains unactivated."
                   if nut_a.get("order_submitted") else
                   "Unactivated; renewal courier, usable life and remainder allocation remain to verify.")
     lines = ["# Diet subscription rollout: stock and native candidates", "",
-             f"As of {result['as_of']}. Offline analysis; no retailer changes or new activations.", "",
+             f"Arithmetic anchor {result['as_of']}; operational evidence updated{result.get('evidence_updated_on', result['as_of'])}. Offline analysis; no retailer changes or new activations by this script.", "",
              "| Latest stock reference | Reported balance | Reference-only depletion estimate |",
              "| --- | --- | --- |"]
     def receipt_note(item):
@@ -522,20 +536,33 @@ def markdown(result):
     for item in stock["observations_without_depletion_forecast"]:
         lines.append(f"| {item['food']} ({item['stock_reported_on']}) | {item['reported_quantity']} {item['unit']} | Unassigned: actual dinner rotation and edible weight required{receipt_note(item)} |")
     lines += ["", "Stock dates assume the reported balance precedes that day's serving. Estimates are not observed depletion. Later deliveries are identified but not credited as usable food; reconcile their contents, condition and consumption before inferring a current shortage. Combined Nut mass does not establish complete same-food portions.", "",
-              "| Current native candidate | Quantity model and readiness |", "| --- | --- |",
+              "Current replacement design: see DIET_COMPLETE_SHIPMENT_PLAN.md and DIET_SHIPMENT_REOPTIMIZATION.json. P60/P90 replace old Nut commitments and the small saved-cart renewals; they are not additional purchases.", "",
+              "| Earlier quantity comparison | Model only; superseded where stated |", "| --- | --- |",
               f"| NutA800g + NutB1000g, each every90days | B40days after A; exact20g/day; aggregate peak{current_nuts['inventory_g']['peak_after_delivery_with_that_buffer']:g}g. {nut_status} |",
               f"| Oats500g/30days +500g/60days | Exact25g/day; aggregate peak{practical['oats_500_30_plus_60']['inventory_g']['peak_after_delivery_with_that_buffer']:g}g. Qualifying shipments and first starts unverified. |"]
+    execution = result.get("current_execution_constraints", {})
+    if execution.get("free_home_courier_required") is False:
+        lines += ["", execution.get("paid_home_courier_scope") or "Paid home courier is authorized when free courier is unavailable; all compulsory fees remain in the matched delivered-price comparison."]
+    if saved:
+        if saved.get("paid_order_id"):
+            profile_scope = (f"P60/P90 native profiles were verified active{saved['native_profiles_verified_on']}; old-profile transfer, separate renewal fees and their unattended charging remain unverified."
+                             if saved.get("native_profiles_verified_on") else
+                             "Future P60/P90 profiles, old-profile transfer and separate renewal fees remain unverified.")
+            lines += ["", f"Matching pantry first order{saved['paid_order_id']} is confirmed paid{saved['paid_order_total_pln']:.2f}zł, observed{saved['current_observation_on']}. Do not recreate or repay its{saved['saved_product_line_count']} product lines. {profile_scope} Payment does not establish receipt or usable stock. Earlier cart quotes retain their source dates."]
+        else:
+            lines += ["", f"Saved cart: {saved['saved_product_line_count']} recurring product lines; status {saved['status']}. No new order/payment submitted. P60/P90 draft replaces the earlier small renewals; stock/old-profile transfer and destination-specific first/renewal costs still require verification before submitting."]
     nut_quote = current_nuts["dated_checkout_evidence"]
     if nut_quote:
         lines += ["", f"Historical NutA/B first-checkout evidence ({nut_quote['observed_on']}): {nut_quote['A']['first_goods_pln']:.2f} / {nut_quote['B']['first_goods_pln']:.2f}zł goods, {nut_quote['first_home_courier_pln']:.2f}zł {nut_quote['first_home_courier']} home courier. These earlier first quotes alone do not establish discounted renewals."]
     if nut_a.get("order_submitted"):
-        lines += ["", f"Nut A order{nut_a['order_id']}: {nut_a['first_total_pln']:.2f}zł after coupon{nut_a.get('coupon', '')}; initial payment verified: {nut_a.get('initial_payment_verified', False)}; recurring card verified: {nut_a.get('card_on_profile', False)}. Current renewal quote{nut_a['displayed_recurring_charge_pln']:.2f}zł with{nut_a['home_courier_pln']:.2f}zł home courier. Delivery/consumption are not inferred from payment."]
+        lines += ["", f"Historical Nut A checkout: order{nut_a['order_id']}, {nut_a['first_total_pln']:.2f}zł after coupon{nut_a.get('coupon', '')}; initial payment verified: {nut_a.get('initial_payment_verified', False)}; card then verified: {nut_a.get('card_on_profile', False)}. Dated renewal quote{nut_a['displayed_recurring_charge_pln']:.2f}zł with{nut_a['home_courier_pln']:.2f}zł home courier. These earlier checks do not establish current automatic charging; delivery/consumption are not inferred from payment."]
     if rollout:
         lines += ["", f"NutA activation target: {rollout.get('nut_A_activation_target', 'unassigned')} ({rollout.get('nut_A_status', 'not released')}). NutB timing: {rollout.get('nut_B_arrival_rule', 'unassigned')}.",
                   "Full-automation completion date: " + (rollout.get("full_automation_completion_date") or "unassigned; qualifying routes and repeated whole-diet coverage are not yet established.")]
     lines += ["", "| Existing recurring coverage | Result |", "| --- | --- |",
               f"| Recurring foods |{coverage['recurring_food_count']} distinct foods, including Nuts; first-only foods excluded |",
-              f"| Active Tempeh |{coverage['tempeh_dinners']['supplied']:g}/{coverage['tempeh_dinners']['required']:g} dinner equivalents per28days |",
+              f"| Active Turkey Dinners |{coverage['turkey_dinners']['supplied']:g}/{coverage['turkey_dinners']['required']:g} dinner equivalents per28days |",
+              "| Tempeh |Removed from current requirements; paused361 is excluded from supply |",
               f"| Active Eggs |{coverage['nominal_eggs']['supplied']:g}/{coverage['nominal_eggs']['required']:g} nominal Eggs; approximately{coverage['egg_dinners_approximate']['gap']:g} Egg dinner equivalents still uncovered |",
               f"| Active Berries |At most{coverage['berries']['maximum_portion_equivalents_before_hulling']:g}/{coverage['berries']['required']:g} portion equivalents before edible losses |",
               f"| Active Cruciferous Vegetables |{coverage['cruciferous_vegetable_choices']['upper_choices_before_preparation']:g}/28 gross100g equivalents before preparation |",
@@ -554,7 +581,7 @@ def markdown(result):
     if selected_eggs.get("available_for_new_checkout") is False:
         lines.append(f"- Selected Egg SKU{selected_eggs.get('sku', 'unverified')} is unavailable for a new checkout. Additional Egg streams cannot be treated as purchasable; this does not establish a problem with paid361's reserved carton.")
     elif selected_eggs.get("available_for_new_checkout") is True:
-        lines.append(f"- Selected Egg SKU{selected_eggs.get('sku', 'unverified')} is listed available; its own matched delivered-price, free-courier and remaining-life checks still control activation. Paid361's original carton remains separate.")
+        lines.append(f"- Selected Egg SKU{selected_eggs.get('sku', 'unverified')} is listed available; its matched delivered-price, home-courier costs, first timing and remaining-life checks still control activation. Paid361's original carton remains historical evidence.")
     lines += ["", "Retailer subscriptions only: no managed routine skipping, manual bridge shopping or Codex reordering is counted as coverage.", "New baskets do not inherit existing free delivery. Never add unused food to reach a threshold. More than25% matched delivered premium is not permitted."]
     return "\n".join(lines)
 

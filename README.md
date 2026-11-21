@@ -333,7 +333,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 **Dental staining:** 🟡 marks a possible staining source for natural/whitened teeth or composite bonding. Evidence varies; use the [care guide and evidence tiers](#dental-staining) to manage contact while keeping nutritious foods.
 
-**Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 75g Mushrooms, 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Variety accumulates across the week; every alternative need not be bought or eaten.
+**Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Rotate all four listed Mushrooms at their written 75g portions (50g King Oyster); this is a purchasing rotation rather than a daily 75g requirement. Variety accumulates across the week; every alternative need not be bought or eaten.
 
 > **GI fit:** 43–46g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
 
@@ -482,16 +482,16 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — Recovery, Leafy Greens & Whole Fruit)
 *888kcal · P53g · C55.6g · F47.4g · Fiber12–13g*
-*Weigh Salmon, Eggs (without shells), Tomatoes, Okra, Asparagus and peeled Celeriac raw; starch after preparation; remaining cooked Vegetables after preparation; Fruit, Nuts, Seeds and Fermented foods as eaten.*
-- 🐟 **Fatty Protein — CHOOSE ONE**
+*Weigh Turkey, Salmon, Eggs (without shells), Tomatoes, Okra, Asparagus and peeled Celeriac raw; starch after preparation; remaining cooked Vegetables after preparation; Fruit, Nuts, Seeds and Fermented foods as eaten.*
+- 🐟 **Protein — CHOOSE ONE**
   - [x] 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🛡️ ⏰ 🗿 🍆 🧠 ❤️ 👁️ 🪶
     - `335kcal · P29.9g · C0g · F23.9g · EPA/DHA · Vitamin D3 · Vitamin B12 · Selenium · Astaxanthin · Anserine · Creatine · Taurine`
   - [ ] 170g (2x85g) drained wild-caught [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 🛡️ ⏰ 🗿 🍆 ❤️ 🧠 👁️ 🪶
     - `432kcal · P38.3g · C0g · F30.1g · EPA/DHA · Vitamin B12 · Taurine`
   - [ ] 125g [Atlantic Mackerel fillets](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 🛡️ ⏰ 🗿 🍆 ❤️ 🧠 👁️ 🪶
     - `346kcal · P27.5g · C0g · F26.3g · EPA/DHA · Vitamin B12 · Vitamin D3 · Selenium · Taurine`
-  - [ ] 200g [organic Tempeh](https://bioshi.pl/pl/products/tempeh-naturalny-bio-200-g-merapi-67128) 🛡️ ⏰ 🗿 💪 ❤️ 🦠 🌱 🔄
-    - `364kcal · P38g · C7g · F16g · Isoflavones · Magnesium · Calcium · Spermidine · Soyasaponins`
+  - [ ] 150g [organic pasture-raised Turkey tenderloins](https://allegro.pl/oferta/poledwiczka-z-indyka-eko-500-g-18514942496) 🛡️ 🗿 💪 🪶
+    - `171kcal · P38g · C0g · F2.1g · Vitamin B3 · Vitamin B6 · Vitamin B12 · Carnosine · Anserine · Creatine · Taurine`
   - [ ] 200g [organic Eggs from pasture-raised green-legged hens fed organic feed](https://bioshi.pl/pl/products/jaja-od-kury-zielononozki-rozmiar-m-bio-10-szt-46125) 🛡️ 🗿 💪 🧠 👁️ 🍆 🪶 🔄
     - `298kcal · P26g · C0.6g · F21.4g · Choline · Vitamin B12 · Selenium · Lutein/Zeaxanthin · Phospholipids (Phosphatidylcholine)`
 - 🌾 **Complex Carbs — CHOOSE ONE**
@@ -589,7 +589,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 | When | Action |
 | --- | --- |
-| Each week | Aim for 300–450g cooked/ready-to-eat Fish, including at least 200g Fatty Fish; usually 2–3 meals. Use Tempeh on other days, with Eggs occasional. Count Lunch Pollock toward the Fish target; Shellfish also rotates at Lunch. |
+| Each week | Aim for 300–450g cooked/ready-to-eat Fish, including at least 200g Fatty Fish; usually 2–3 meals. Rotate Turkey and Eggs on the other Dinner days. Count Lunch Pollock toward the Fish target; Shellfish also rotates at Lunch. |
+| Dinner rotation | Over 28 days: 6×Turkey150g, 12×Eggs200g shell-free, 6×Salmon150g, 2×Mackerel125g drained and 2×Sardines170g drained. |
 | Building plant variety | Use tolerated Pulses 2–4x/week; test Oats 25g→30g dry with Oat Bran kept at 10g or build Pulses toward the written portions as tolerated, one change at a time. |
 | More training fuel | Increase steamed peeled Potato at Lunch from 80g→200g: +24g available Carbohydrate and 113kcal. |
 | During the cut | Review the 14-day weight trend, waist, Strength, sleep and libido. At 80kg, start around 0.2–0.4kg/week; if loss is faster for 2 weeks or recovery worsens, add 100–150kcal. Count the training-fuel increase once if it serves both purposes. |
@@ -1179,12 +1180,12 @@ EAA 15g powder and free Glycine 3g are separate from dietary Protein; their ener
 
 #### Diet rotations
 
-Each row changes only the named choice from the reference day. Tempeh and Egg days include L.2-3 Fish Oil (30kcal/3g Fat).
+Each row changes only the named choice from the reference day. Turkey and Egg days include L.2-3 Fish Oil (30kcal/3g Fat).
 
 | Change | Daily kcal | Protein without Collagen | Available Carbohydrate | Fat |
 | --- | --- | --- | --- | --- |
 | Skyr 200g instead of Kefir 400g | 2,349 | 175.6g | 143.2g | 82.1g |
-| Tempeh 200g instead of Salmon 150g | 2,476 | 178.1g | 159.2g | 83.2g |
+| Turkey 150g instead of Salmon 150g | 2,283 | 178.1g | 152.2g | 69.3g |
 | Eggs 200g instead of Salmon 150g | 2,410 | 166.1g | 152.8g | 88.6g |
 
 - **Replacing Kefir:** Sauerkraut 100g removes 155kcal/11.5g Protein; Kimchi 75g removes 150kcal/11.1g Protein; skipping it removes 172kcal/12.4g Protein. An extra 50g raw Turkey supplies 12.7g Protein/57kcal if replacing the lost Protein.
@@ -1410,8 +1411,9 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 ### Shopping
 
-- **Subscriptions:** retailer subscriptions only, free home courier, maximum 25% delivered-price premium per comparable product. 🔄 marks an identified route, not activation or complete coverage. Keep rotation and usable stock ahead of automatic ordering.
-- **Status and dates:** use the [renewal plan](diet/DIET_RENEWAL_PLAN.md), [activation calendar](diet/DIET_ACTIVATION_ROLLOUT.md), [opening-stock register](diet/DIET_STOCK_TRANSITION.md) and [payment handoff](diet/DIET_PAYMENT_HANDOFF.md). Coverage and costs live in the [subscription audit](diet/DIET_SUBSCRIPTION_AUDIT.md), [cost comparison](diet/DIET_SUBSCRIPTION_COSTS.md), [remaining-route audit](diet/DIET_AUTOMATION_GAPS.md) and [optimization criteria](diet/DIET_OPTIMIZATION.md).
+- **Subscriptions:** retailer subscriptions only; prefer free home courier, with paid home courier authorized when necessary. Aim for approximately100zł or more of genuinely needed goods per actual post-discount shipment; courier plus compulsory fulfillment fees must stay within10% of goods value. Keep the maximum25% delivered-price premium per comparable product, no lockers or filler, and no routine Codex orders/skips/quantity repairs. 🔄 marks an identified retailer repeat-purchase route, not activation or complete unattended coverage. Preserve rotation and usable stock.
+- **Status and dates:** use the [complete shipment plan](diet/DIET_COMPLETE_SHIPMENT_PLAN.md), [renewal plan](diet/DIET_RENEWAL_PLAN.md), [activation calendar](diet/DIET_ACTIVATION_ROLLOUT.md), [opening-stock register](diet/DIET_STOCK_TRANSITION.md) and [payment handoff](diet/DIET_PAYMENT_HANDOFF.md). Coverage and costs live in the [subscription audit](diet/DIET_SUBSCRIPTION_AUDIT.md), [cost comparison](diet/DIET_SUBSCRIPTION_COSTS.md), [remaining-route audit](diet/DIET_AUTOMATION_GAPS.md) and [optimization criteria](diet/DIET_OPTIMIZATION.md).
+- **Renewal checks:** an active profile does not prove unattended charging; confirm payment behavior, separate renewal fees and transfer of existing commitments before activating replacements. Preserve paid orders and credit food only after checking received contents and condition. Current prices, stock and usable life control activation.
 - **Identity checks:** buy skinless Salmon; the selected thawed product stays at 0–2°C and must not be refrozen. Keep Maluta Lactose-Free Skyr (EAN 5904467212110), not the similarly named high-protein Yogurt. Confirm Vilgain Mackerel species on delivery because its ingredient list and support response conflict. Match EVOO harvest/lot reports before assigning the advertised Polyphenol values to a bottle.
 
 ## TODOs / Things to consider
@@ -1474,8 +1476,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 ### Food options
 
 - [ ] **Morning:** increase [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) 25→30g dry when more food is useful (+19kcal, +0.5g Fiber); keep Oat Bran 10g. New serving: `111kcal · P3.9g · C18g · F2g · Fiber2.9g`. Gradually increase tolerated Pulses 30–40g cooked/drained toward Lentils 65g, Black Beans 60g or Chickpeas 50g. [Oat label](https://bioplanet.pl/platki-owsiane-bezglutenowe-bio-1-kg-bio-planet/p10198)
-- [ ] **Dinner Protein:** [Taifun organic Firm Tofu 170g drained](https://www.taifun-tofu.de/de/produkte/tofu-natur) for variety/tolerance; similar Protein and less saturated Fat than four Eggs. `223kcal · P25.5g · C<0.9g · F12.9g`. [Poland-facing retailer](https://www.piccantino.pl/taifun/bio-tofu-naturalne?sai=23215) previously accepted backorders; check stock/pack. [FODMAP guide](https://www.monashfodmap.com/blog/talking-tofu/)
-- [ ] **Dinner Fish:** [Zielenica organic Rainbow Trout 150g raw](https://sklep.zielenica.pl/ryby-swieze/43-pstrag-filet-bio.html), steamed. Generic estimate: `212kcal · P29.9g · C0g · F9.3g`. Polish producer; skip L.2-3 Fish Oil on Trout days. [Composition](https://www.ars.usda.gov/SP2UserFiles/Place/12354500/Data/SR27/reports/sr27fg15.pdf#page=575) · [Oily-fish classification](https://www.nhs.uk/live-well/eat-well/food-types/fish-and-shellfish-nutrition/)
+- [ ] **Dinner Fish (deferred 28October):** [Zielenica organic Rainbow Trout 150g raw](https://sklep.zielenica.pl/ryby-swieze/43-pstrag-filet-bio.html), steamed. Deferred by user preference to prioritize Turkey and skinless Salmon; remains a candidate. Generic estimate: `212kcal · P29.9g · C0g · F9.3g`. Polish producer; skip L.2-3 Fish Oil on Trout days. [Composition](https://www.ars.usda.gov/SP2UserFiles/Place/12354500/Data/SR27/reports/sr27fg15.pdf#page=575) · [Oily-fish classification](https://www.nhs.uk/live-well/eat-well/food-types/fish-and-shellfish-nutrition/)
 - [ ] **Mackerel replacement:** [Pan do Mar Atlantic Mackerel in organic EVOO, 220g jar](https://bioshi.pl/pl/products/makrela-w-bio-oliwie-z-oliwek-220-g-pan-do-mar-44923). Clearer species/catch area (*Scomber scombrus*, FAO 27.VIII.c); Polish retailer unavailable on 2026-09-13. Await restock; confirm drained weight/nutrition basis before replacing Vilgain. Organic refers to the Oil.
 - [ ] **Dinner starch:** [organic Unroasted Buckwheat 80g boiled](https://bioshi.pl/pl/products/kasza-gryczana-niepalona-bezglutenowa-bio-1-kg-45569). Generic estimate: `75kcal · P2.7g · C13.8g · F0.5g · Fiber2.2g`. A rotation at similar Calories, with [no established advantage](https://www.mdpi.com/2218-1989/16/9/628) over existing grains. [Composition](https://www.tbca.net.br/base-dados-en/int_food_composition_2_edit.php?cod_produto=BRC1160A)
 - [ ] **Berries:** [plain frozen Cranberries 100g](https://megasam24.pl/pl/p/kasol-zurawina-mrozona-uprawna-600-g-lesne-skarby/51996), weighed frozen, simmered until soft and eaten with juices; this pack requires heating. Generic estimate: `46kcal · P0.4g · C7.6g · F0.1g · Fiber4.6g`. Try for variety if tolerated. [Composition](https://www.ars.usda.gov/SP2UserFiles/Place/12354500/Data/SR27/reports/sr27fg09.pdf#page=239)
@@ -1509,6 +1510,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ### Food & menu changes
 
+- **200g [organic Tempeh](https://bioshi.pl/pl/products/tempeh-naturalny-bio-200-g-merapi-67128) and the 170g drained [Taifun organic Firm Tofu](https://www.taifun-tofu.de/de/produkte/tofu-natur) candidate** — *Removed 27October because the user dislikes both foods. Turkey and skinless Salmon provide the preferred Protein rotations; the unactivated Tofu alternative is withdrawn.*
 - **Canned Vegetables/Pulses:** [Tomatoes 100g](https://zakupy.auchan.pl/products/bio-pomidory-ca%C5%82e-auchan-400-g/00868203), [Black Beans 40g drained](https://marketbio.pl/fasola-czarna-w-zalewie-bio-400g-240g-amaizin.html) and [Chickpeas 42g drained](https://bioshi.pl/pl/products/ciecierzyca-konserwowa-bio-400-g-naturavena-89490) → fresh Tomatoes and Pulses cooked from dried, following the packaging preference. Canned Fish remains the exception; see [food forms](#diet-food-forms).
 - **Lunch Chicken:** [organic pasture-raised tenderloins 200g](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) → Turkey to simplify the Poultry rotation.
 - **Dinner Chicken + Rice:** [Chicken 150g raw](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) + [Basmati Rice 125g cooked](https://marketbio.pl/ryz-basmati-bialy-bio-1-kg-bio-planet.html) removed from Fatty Protein choices; Dinner already has a separate starch choice.

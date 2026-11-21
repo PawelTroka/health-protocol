@@ -1,6 +1,82 @@
 # Diet delivery schedule
 
-**6October delivery correction — current:**247410 arrived with most Strawberries spoiled again; Eggs are dated17October,11days after receipt. **361 is paused**, verified in Opera. Its saved template is now **Oranges1kg, Butternut1kg and Tempeh200g×3 every28days**, half the former rate, quoted52.06zł/free GLS. Strawberries and original Egg45382 were removed; selected46125 was not added to361. No next361 delivery or charge is booked while paused. **357/370/399 remain active.**
+## 5November — pantry carrier delivery verified; usable stock uninspected
+
+The order-linked InPost parcel **520000012680462133044051** is **Doręczona**. Expanded carrier history records delivery **2November2026,10:02**, verified5November; the carrier prints **no timezone**. This is **500156 = legacy258958, one paid pantry lot**, not extra Nuts/Oats. Bioshi still shows W drodze /paid344.52zł/free InPost with14SKU/18 ordered packs. Carrier delivery supersedes the earlier estimate, while contents, condition, actual quantities, expiry and today's usable balance remain unknown.
+
+Expanded257757 remains **Przyjęte /PAID99.25zł/free GLS with all four ordered foods**. The earlier4November schedule has passed; no order-linked tracking, revised ETA or arrival is verified, and the elapsed date alone does not establish a delivery failure. Six active profiles plus paused361 remain unchanged;361 still contains Tempeh. No Bioshi account or financial changes were made. [Current evidence](DIET_PAYMENT_HANDOFF.md).
+
+**Yōkiro5November preparation:** the saved4×30g/60day cart remains109.21zł first goods. Previously approved contact fields persisted without re-entry. First **InPost Kurier HOME** was selected and remained selected after reload, with **109.21zł first total/free HOME**. The separate **Recurring shipments** section still lists **InPost Paczkomat8.99zł/60days** alongside151.20zł recurring goods; this does not establish renewal HOME delivery or its cost, and lockers are excluded. The old panel-close handoff is superseded; do not repeat it. Renewal HOME configuration, delivered-price qualification and final terms/payment remain unresolved. No card, terms acceptance, order, payment or activation occurred; the2November0g Matcha report remains the latest balance.
+
+## 2November full re-audit — schedules rechecked, no new shipment created
+
+Supported signed-in Brave freshly shows six ACTIVE groups plus PAUSED361. Next displayed shipments:3994November, Oil/Fish25November,35726November,37024December,P6027December andP9026January2027. These are retailer schedules, not guaranteed arrivals or new collection dates. Product links/cycles/pack counts remain unchanged, and no edit/removal controls or independent future quotes were exposed.
+
+Expanded257757 remains PAID/Przyjęte99.25zł/free delivery with the selected10Egg carton,Cauliflower,Carrots and4Raspberry packs. Public new-order stock does not cancel accepted reservations. New Regularnie confirmation-before-purchase wording and future email links do not erase the verified legacy399 debit. The [full current map](DIET_AUTOMATION_GAPS.md) and [live61-product record](DIET_LIVE_BIOSHI_AUDIT_02NOV.json) supersede old candidate availability/browser-gate statements. No new order, payment, activation, receipt or usable-food quantity was recorded.
+
+## 2November — pantry out-for-delivery estimate
+
+InPost's email from info@paczkomaty.pl, received**2November07:26:07Z =08:26:07 Warsaw**, explicitly names BIOSHI and parcel**520000012680462133044051** and expects delivery today. It belongs to **500156/legacy258958, one paid pantry order**. This is ordinary courier progress, **not delivery confirmation or inspected usable stock**. No additional order or payment is due; existing399 renewal257757 remains paid with4November scheduled arrival.
+
+Six incoming sender checks since1November completed without pagination, finding no new Bioshi/PEZ/Catch operational reply or IdoPay/GLS failure. No retailer revisit, outgoing message, new activation or schedule change occurred. Keep full-profile30October and order-detail31October evidence dated separately. No login or other user action is needed. [Current handoff](DIET_PAYMENT_HANDOFF.md).
+
+## 31October — pantry dispatched before the earlier estimate
+
+Bioshi's dispatch notice received**30October20:41:22Z =21:41:22 Warsaw** explicitly assigns **legacy258958** to **520000012680462133044051**,344.52zł goods/total, InPost0zł/payment fee0zł. Fresh31October expanded**500156** details show **W drodze /Opłacone**, the same parcel and all14SKU/18packs/344.52zł/free InPost HOME. Shared parcel and total establish **500156 =258958**, one order rather than duplicate supply.
+
+InPost's notice received**31October07:33:39Z =08:33:39 Warsaw** confirms departure/carrier handover, **not delivery**. This supersedes the29October proposed3November dispatch, unmatched label and30October accepted-without-tracking observation. No inspected usable stock or new arrival date is established; do not recreate or repay. No new supplier quote, reconfiguration answer or payment failure was found. Last full profile verification remains **30October**, not31October; no account setting changed. Full source trail: [31October handoff](DIET_PAYMENT_HANDOFF.md).
+
+## 30October — unmatched delay/label; known schedules preserved
+
+Bioshi's email received**29October08:10:10Z =09:10:10 Warsaw** reports difficulty completing **258958**, with planned **dispatch3November**, not an arrival date. Affected foods, value and mapping to known orders remain unverified. The migrated order list shows only500125/500156; direct258958 details report no such order on the account. Do not assign this notice to500156 or257757, infer cancellation or create a replacement order.
+
+InPost's Bioshi notice received**29October08:33:35Z =09:33:35 Warsaw** assigns **520000012680462133044051** but says preparation only, with no order reference. It remains unmatched and proves neither handover nor receipt. Expanded500156 still shows accepted/paid344.52zł, free InPost HOME, without tracking. Existing257757 is paid;4November remains its dated delivery schedule.
+
+Newly read27October17:40:05Z dispatch confirmation explicitly maps **legacy258647 to33685101618**, the same tracking linked by migrated500125, with154.04zł goods +9.49zł GLS =163.53zł. Count one parcel only.255381's27October17:27:11Z dispatch notice reports82.28zł goods/total and0zł GLS/payment fees; its separate refund notice received27October08:11:44Z confirms22.27zł issued, without affected SKU or bank-credit proof. Preserve104.55zł original debit and28October carrier-delivery evidence.
+
+Fresh supported Brave review shows unchanged six active profiles plus paused361, P60/P90 next27December/26January and370 still active. No settings, messages, commitments or current-stock balances changed. Full source trail: [30October handoff](DIET_PAYMENT_HANDOFF.md).
+
+## 29October — six active profiles, paid renewal and carrier deliveries
+
+**Current verified state supersedes older snapshots below.** Connected Brave shows **six ACTIVE profiles plus PAUSED361**, seven rows:357,399, Oil/Fish and370 retain their previous foods/cadences; P60 and P90 are now verified ACTIVE. Their IDs were not exposed, and no future renewal price/fee quote was available.
+
+| Newly verified profile | Exact saved recurring contents | Native cycle / next displayed date |
+| --- | --- | --- |
+| P60 |Oats1kg×1 +500g×1; Pistachios150g×2; Coriander30g, Rosemary30g, Oregano20g and Thyme20g each×1; Cumin30g×2. **8 SKUs /10 packs.** |60days;27December2026. |
+| P90 |Walnuts300g×2; Almonds350g×1; Macadamias200g×2; Quinoa500g, Beluga400g and Black Beans500g each×1. **6 SKUs /8 packs.** |90days;26January2027. |
+
+Expanded**500156** matches all14 SKUs/18 packs and confirms **Opłacone /Przyjęte,344.52zł, free InPost Kurier HOME**; no parcel tracking or arrival yet. Do not recreate or repay it. **370 is still ACTIVE**,800g Nuts/90days, next24December: the one-time transfer/overlap remains unresolved. No cancellation, pause, duplicate order or new commitment was submitted in this29October review.361 remains PAUSED with Tempeh200g×3 and no removal controls; do not resume it as stored.
+
+**257757 is paid:** IdoPay confirms99.25zł charged, transaction257757-1, email received28October23:51:32Z =**29October00:51:32 Warsaw**. The earlier28October awaiting-payment reminder is superseded; do not repay.399's4November delivery remains scheduled. This confirms that legacy renewal's automatic collection despite the generic payment label; it does not establish P60/P90 unattended charging.
+
+| Verified GLS delivery | Displayed carrier event, checked29October |
+| --- | --- |
+|255381 →33685101838, explicitly matched by the27October label reference |DELIVERED28October14:52. |
+|500125 →33685101618, explicitly matched by the merchant link |DELIVERED28October12:29. |
+
+GLS prints no timezone for these events; do not assign one. Contents, condition, expiry and usable balances remain uninspected, and elapsed time is not depletion.500125's older merchant“W drodze” status does not negate the carrier delivery or establish a new failure.
+
+**Supplier responses:** Polskie Eko Zagrody replied28October11:24:03Z =12:24:03 Warsaw, inviting a visit to Gdańsk Słowackiego19A on Thursdays/Saturdays10–15. This answers neither home/native standing delivery nor the usable-life/custom-quote questions. Exact-sender search found no Catch Club reply and no substantive Bioshi reconfiguration response. Both approved protein inquiries remain sent; do not resend or ask for approval/login again.
+
+Six completed incoming queries covered Bioshi, Polskie Eko Zagrody, Catch Club, GLS, IdoPay and InPost, without pagination. Unrelated iHerb/DrZdrowie messages were excluded from Diet evidence. This is routine progress with **no user payment, card or sign-in action required**. Preserve all earlier quote/source dates and the27October cart as historical evidence.
+
+**Historical28October incoming pantry update:** Bioshi confirms500156 paid344.52zł/free InPost Kurier HOME,14SKU/18packs, in an email received01:13:54 Warsaw. Packing is next; no arrival date, dispatch or receipt is verified. Do not recreate or repay the former27October cart. Saved future P60/P90 profiles and370 transfer remain unverified. [Exact paid contents and source](DIET_PAYMENT_HANDOFF.md).
+
+Organic Turkey and skinless Salmon sourcing now continues independently of the Bioshi reply: [two exact supplier inquiries](DIET_PROTEIN_STANDING_DELIVERY_REQUESTS_28OCT.md) were explicitly approved and sent28October11:49:01/02 Warsaw, with outgoing copies verified; do not resend or ask for send approval again. Their proposed cadence is a quotation specification, not a delivery booking or remaining-life guarantee. [Turkey research](DIET_TURKEY_ROUTE_RESEARCH_28OCT.md) · [Salmon research](DIET_SALMON_ROUTE_RESEARCH_28OCT.md).
+
+**27October2026 — current reoptimization; supersedes the dated snapshots below.** The [complete demand and shipment plan](DIET_COMPLETE_SHIPMENT_PLAN.md) now allocates every required Diet category. Tempeh and Tofu are removed. Dinner is12 Egg +6 Turkey +6 skinless Salmon +2 Mackerel +2 Sardine meals per28days; total raw Turkey demand across Lunch/Dinner is3.9kg and Salmon900g. Portions remain unchanged. All four approved Mushroom kinds are requested: the800g Oyster/Shiitake/Maitake/King Oyster candidate supplies11 full choices plus separate50g Oyster and50g Shiitake remainders needing timely same-food use. The old200g Mushroom target and proposed Shiitake removal are superseded; no daily75g demand or monthly fresh carryover is assumed.
+
+Each actual post-discount shipment should contain approximately100zł or more of genuinely needed goods; courier plus compulsory packing/fulfillment fees must be no more than10% of goods value. Prefer free home courier; paid home courier is authorized, lockers remain excluded, and the25% per-product delivered-price cap still applies. Separate renewals must pass individually; no filler or basket averaging.
+
+The replacement P60 pantry group is132.87zł later advertised goods and P90 is159.99zł; at a hypothetical9.49zł logistics charge their ratios are7.14% and5.93%. They replace Nut370/the old Nut B proposal and the saved pantry draft, rather than adding overlapping purchases. Actual destination and separate renewal charges, stock, usable life and native activation remain to verify. **27October23:09 Warsaw: the native cart is now reconfigured and loaded-verified at14 SKU lines/18 packs, with the correct P60/P90 quantities and60/90-day badges.** Combined first goods are310.05zł after34.47zł discount from344.52zł. Checkout selected InPost Kurier home delivery at0zł under the250zł threshold; GLS10.49zł/DHL11.99zł were also listed. Address/contact fields were blank, so this is not a final destination quote, and separate renewal fees remain unverified. The old12-line cart is historical. No terms, payment, order or new profile was submitted;370 transfer and361 Tempeh removal remain unsaved.
+
+The27October account evidence had357/370/399 and the user-created Oil/Fish group active, with361 paused; the29October count above supersedes it. Its stored template still contains Tempeh and must not resume as stored; the Diet removal is not a verified merchant edit. New Bioshi Regularnie profile creation and renewal confirmation/payment must be distinguished from unattended collection. Exact Turkey/skinless Salmon routes, fresh availability, phase/expiry and other native-coverage gaps remain explicit: a complete demand plan is not complete automation. Use the [handoff](DIET_PAYMENT_HANDOFF.md) for actual orders, payments and required actions.
+
+The merchant reported on8October that the two Strawberry refunds were made; the exact58.56zł claim settlement and bank receipt remain unverified. Historical statements below that no response existed describe only their source date.
+
+## Historical evidence — preceding schedules and quotes
+
+**Historical6October delivery correction:**247410 arrived with most Strawberries spoiled again; Eggs are dated17October,11days after receipt. **361 is paused**, verified in Opera. Its saved template is now **Oranges1kg, Butternut1kg and Tempeh200g×3 every28days**, half the former rate, quoted52.06zł/free GLS. Strawberries and original Egg45382 were removed; selected46125 was not added to361. No next361 delivery or charge is booked while paused. **357/370/399 remain active.**
 
 The user approved halving Mushrooms to200g combined/28days. This is **not yet saved**:357's product controls failed to render after reload and account-list navigation; preserve Kiwi/Tomatoes and verify courier after any future change. The16October Egg/Blueberry target is withdrawn pending fresh-food quality review. The [refund claim and approved follow-up](DIET_BIOSHI_QUALITY_CLAIM.md) were sent6October15:32/15:34 Warsaw, requesting58.56zł for both spoiled Strawberry packs. No refund is confirmed. Earlier dated snapshots below are historical; the [handoff](DIET_PAYMENT_HANDOFF.md) owns the current action.
 
