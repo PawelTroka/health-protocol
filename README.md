@@ -786,7 +786,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **E.12** [Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🧠 ❤️ 🦴
 - 🥈 **E.13** [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064) 🛡️ 🚽 🔄
   - Silymarin 240mg; Silybin 90mg; Isosilybin A/B 24mg; Silybin-Phosphatidylcholine Complex 80mg (Silybin 23.76mg); Silybin 113.76mg
-- 🥈 **E.14** [Silexan® (Nature's Way CalmAid) 80mg](https://pl.iherb.com/pr/nature-s-way-calmaid-80-mg-30-softgels/43054) 😌 😴
+- 🥈 **E.14** [Silexan (Lavender Oil) 80mg](https://pl.iherb.com/pr/nature-s-way-calmaid-80-mg-30-softgels/43054) 😌 😴
 - 🥉 **E.15** [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256) 😴 😌 🔄
   - GABA 250mg; Magnesium (Citrate) 20mg<sup>E.12</sup>
 - 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 🧠 😌 🩸
