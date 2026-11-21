@@ -381,6 +381,14 @@ class MonthlyFileValidationTests(unittest.TestCase):
 class GeneratorMonthlyIntegrationTests(unittest.TestCase):
     """Load generator data in memory; rendering checks write only temporary files."""
 
+    @staticmethod
+    def note_cells(notes):
+        """Compare annotations by their targets, independent of grouping/order."""
+        return {(note["text"], row, marker.get("target"), day)
+                for note in notes for marker in note["markers"] or [{}]
+                for row in marker.get("rows", [marker.get("row")])
+                for day in marker.get("dates", [None])}
+
     def load_generator(self, payload):
         with tempfile.TemporaryDirectory() as folder:
             source = Path(folder) / "monthly.json"
@@ -461,6 +469,14 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         category = "Vitals & Functional Health"
         self.assertEqual(current["note_numbers"](category, "Body Mass", "value", "2026-07"), [])
         self.assertTrue(current["note_numbers"](category, "Body Mass", "value", "2026-08"))
+        notes = current["result_notes"][category]
+        overlay_note = report_note(payload)
+        self.assertEqual(notes.count(overlay_note), 1)
+        retained = self.note_cells([note for note in notes if note != overlay_note])
+        previous = self.note_cells(baseline["result_notes"][category])
+        # Only the replaced July cell loses its old annotation. Historical and
+        # November measurement notes remain, including notes added after overlay.
+        self.assertEqual(retained, {cell for cell in previous if cell[1:] != ("Body Mass", "value", "2026-07")})
 
     def test_registry_addition_creates_only_observed_row_without_invented_target(self):
         from tools.health_sync import monthly
@@ -492,9 +508,12 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         self.assertEqual(current["note_numbers"](category, None, "monthly_measurements"), [])
         self.assertEqual(current["note_numbers"](category, row[0], "value", "2026-07"), [])
         number, = current["note_numbers"](category, None, "classification_counts")
-        note = current["result_notes"][category][number - 1]
+        notes = current["result_notes"][category]
+        note = notes[number - 1]
         self.assertIn("counts of observed labels", note["text"])
         self.assertEqual(note["markers"], [{"target": "classification_counts"}])
+        self.assertEqual(self.note_cells([entry for entry in notes if entry != note]),
+                         self.note_cells(baseline["result_notes"][category]))
 
     def test_partial_import_shares_each_source_once_but_keeps_manual_readings_marked(self):
         payload = classification_payload()
