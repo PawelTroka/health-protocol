@@ -534,22 +534,24 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 
 ## Urine Chemistry
 
-|  | 2026-07 | Unit | *Reference* |
-| :--- | :--- | :--- | :--- |
-| **Urine Creatinine** | 🟢 59.1 | mg/dL | 39 - 259 |
-| **Urine Albumin (Microalbuminuria)** | 🔵 <3 | mg/l | < 20 |
-| **Urine Protein** | 🔵 0.06 | g/L | < 0.15 |
-| **Urine Amylase** | 🟢 98 | U/L | 16 - 491 |
-| **Urine Potassium** | 🟡<sup>1</sup> 7.12 ↓ | mmol/l | 20 - 80 |
-| **Urine Sodium** | 🟡<sup>1</sup> 15.5 ↓ | mmol/l | 54 - 150 |
-| **Urine Urea** | 🔵 2249 | mg/dl | 1714 - 3565 |
-| **Urine Calcium** | 🔵 11.3 | mg/dl | 6.8 - 21.3 |
-| **Urine Magnesium** | 🔴<sup>1</sup> 7.1 ↑ | mg/dl | 0.4 - 1.4 |
-| **Urine Phosphate** | 🟡<sup>1</sup> 26.40 ↓ | mg/dl | 40 - 136 |
-| **Urine Chloride** | 🟡<sup>1</sup> 11 ↓ | mmol/L | 46 - 168 |
+|  | Trend | 2026-09 | 2026-07 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Urine Creatinine** | 🟡 | 🟡<sup>2</sup> 29 ↓ | 🟢 59.1 | mg/dL | 39 - 259 |
+| **Urine Cystine/Creatinine** | - | 🔵<sup>2</sup> 43 | - | umol/g creatinine | 10 - 98 |
+| **Urine Albumin (Microalbuminuria)** | - | - | 🔵 <3 | mg/l | < 20 |
+| **Urine Protein** | - | - | 🔵 0.06 | g/L | < 0.15 |
+| **Urine Amylase** | - | - | 🟢 98 | U/L | 16 - 491 |
+| **Urine Potassium** | - | - | 🟡<sup>1</sup> 7.12 ↓ | mmol/l | 20 - 80 |
+| **Urine Sodium** | - | - | 🟡<sup>1</sup> 15.5 ↓ | mmol/l | 54 - 150 |
+| **Urine Urea** | - | - | 🔵 2249 | mg/dl | 1714 - 3565 |
+| **Urine Calcium** | - | - | 🔵 11.3 | mg/dl | 6.8 - 21.3 |
+| **Urine Magnesium** | - | - | 🔴<sup>1</sup> 7.1 ↑ | mg/dl | 0.4 - 1.4 |
+| **Urine Phosphate** | - | - | 🟡<sup>1</sup> 26.40 ↓ | mg/dl | 40 - 136 |
+| **Urine Chloride** | - | - | 🟡<sup>1</sup> 11 ↓ | mmol/L | 46 - 168 |
 
 **Notes:**
 <sup>1</sup> Spot urine electrolytes vary with hydration, intake and supplements. Interpret the low electrolytes and high magnesium alongside the reassuring serum electrolytes and kidney markers.
+<sup>2</sup> Urine collected September 16, 2026; the two November 3 Limbach reports contain the same completed results. Cystine is normalized to creatinine (umol/g creatinine), not a 24-hour excretion amount. The lab flags urine creatinine 29mg/dL as low. The other assays from the earlier rejected 24-hour collection remain unavailable. <a href='results/Labs-2026-09-16/Sources.md#urine-cystine-and-creatinine-issued-2026-11-03'>Source and reporting details</a>.
 
 ## Urine Culture
 
@@ -681,6 +683,10 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 | **IgA (Serum)** | - | 🔵 3 | - | - | g/L | 0.7 - 4 |
 | **tTG IgA** | - | 🔵 < 2 | - | - | RU/ml | < 20: negative; >= 20: positive |
 | **DGP IgG** | - | 🔵 < 2 | - | - | RU/ml | < 25: negative; >= 25: positive |
+| **Exocrine Pancreatic Cell Antibodies IgG** | - | 🔵<sup>2</sup> negative | - | - | Status | negative |
+| **ASCA IgG** | - | 🔵<sup>2</sup> negative | - | - | Status | negative |
+| **Intestinal Goblet Cell Antibodies IgG** | - | 🔵<sup>2</sup> negative | - | - | Status | negative |
+| **Atypical ANCA (aANCA) IgG** | - | 🔵<sup>2</sup> negative | - | - | Status | negative |
 | **Rheumatoid Factor (RF)** | - | 🟢 < 10 | - | - | IU/mL | < 14 |
 | **Anti-CCP** | - | 🔵 <8 | - | - | U/mL | < 17 |
 | **ANA IIFT** | - | 🔵 negative at 1:80 | - | - | Status | negative |
@@ -711,6 +717,7 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 
 **Notes:**
 <sup>1</sup> Centromere B is equivocal (+); the other 15 immunoblot antibodies are negative.
+<sup>2</sup> The intestinal IgG antibody panel used serum collected September 16, 2026 and was released October 26. All four IIF results are negative. The laboratory's screening cutoffs are not measured titers; this panel is separate from the ANA/ENA immunoblot. <a href='results/Labs-2026-09-16/Sources.md#intestinal-igg-antibodies-issued-2026-10-26'>Source and assay details</a>.
 
 ## Tumor Markers
 

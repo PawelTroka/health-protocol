@@ -28,6 +28,8 @@ _FOLLOWUP_GROUPS = {
         frozenset({
             "CRP (Conventional)", "Anti-TPO", "Anti-TG", "ASO", "IgA (Serum)",
             "tTG IgA", "DGP IgG",
+            "Exocrine Pancreatic Cell Antibodies IgG", "ASCA IgG",
+            "Intestinal Goblet Cell Antibodies IgG", "Atypical ANCA (aANCA) IgG",
             "Rheumatoid Factor (RF)", "Anti-CCP", "ANA IIFT", "TSH Receptor Antibodies (TRAb)",
             "Complement C3", "Complement C4",
         }),

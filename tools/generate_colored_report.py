@@ -1395,6 +1395,7 @@ data = {
     ],
     "Urine Chemistry": [
         ("Urine Creatinine", "59.1", "-", "-", "-", "mg/dL", "39.0 - 259.0"),
+        ("Urine Cystine/Creatinine", "-", "-", "-", "-", "umol/g creatinine", "10 - 98"),
         ("Urine Albumin (Microalbuminuria)", "<3", "-", "-", "-", "mg/l", "< 20.0"),
         ("Urine Protein", "0.06", "-", "-", "-", "g/L", "< 0.15"),
         ("Urine Amylase", "98", "-", "-", "-", "U/L", "16 - 491"),
@@ -1487,6 +1488,10 @@ data = {
         ("IgA (Serum)", "-", "-", "-", "-", "g/L", "0.7 - 4.0"),
         ("tTG IgA", "-", "-", "-", "-", "RU/ml", "< 20.0: negative; >= 20.0: positive"),
         ("DGP IgG", "-", "-", "-", "-", "RU/ml", "< 25: negative; >= 25: positive"),
+        ("Exocrine Pancreatic Cell Antibodies IgG", "-", "-", "-", "-", "Status", "negative"),
+        ("ASCA IgG", "-", "-", "-", "-", "Status", "negative"),
+        ("Intestinal Goblet Cell Antibodies IgG", "-", "-", "-", "-", "Status", "negative"),
+        ("Atypical ANCA (aANCA) IgG", "-", "-", "-", "-", "Status", "negative"),
         ("Rheumatoid Factor (RF)", "-", "-", "-", "-", "IU/mL", "< 14"),
         ("Anti-CCP", "-", "-", "-", "-", "U/mL", "< 17.00"),
         ("ANA IIFT", "-", "-", "-", "-", "Status", "negative"),
@@ -1618,6 +1623,9 @@ data = {
 # September 25 report completes serum selenium from the September 16 specimen.
 # September 29 reports complete stool zonulin and both butyric acid measurements.
 # The September 29 Diagnostyka report adds lactoferrin and confirms M2-PK.
+# October 26 and November 3 reports complete four serum IgG/IIF antibodies and
+# urine cystine/creatinine plus urine creatinine from the September 16 specimens.
+# Their issue/download dates do not create new November observations.
 lab_followups = {
     "2026-09": {
         "Morphology": {
@@ -1639,6 +1647,7 @@ lab_followups = {
             "Erythrocytes (Strip)": "not detected",
         },
         "Urine Culture": {"Urine Culture": "pending"},
+        "Urine Chemistry": {"Urine Creatinine": "29.0", "Urine Cystine/Creatinine": "43"},
         "Metabolic Health": {"Uric Acid": "3.0", "LDH": "130"},
         "Cardiac Health & Coagulation": {"Creatine Kinase (CK)": "118"},
         "Micronutrients": {"Selenium": "90.60"},
@@ -1649,6 +1658,8 @@ lab_followups = {
             "Complement C3": "89", "Complement C4": "14.2",
             "ANA IIFT": "negative at 1:80",
             "tTG IgA": "< 2.00", "DGP IgG": "< 2.0",
+            "Exocrine Pancreatic Cell Antibodies IgG": "negative", "ASCA IgG": "negative",
+            "Intestinal Goblet Cell Antibodies IgG": "negative", "Atypical ANCA (aANCA) IgG": "negative",
         },
         "Stool Analysis": {
             "Stool pH": "8.0", "Reducing Substances": "0.00",
@@ -1704,6 +1715,11 @@ for name in lab_followups["2026-09"]["Stool Pathogen PCR"]:
     no_score_markers.add(("Stool Pathogen PCR", name))
 no_score_markers.add(("Stool Analysis", "Yeast Cells"))
 no_score_markers.add(("Immunology & Inflammation", "ANA IIFT"))
+for name in (
+    "Exocrine Pancreatic Cell Antibodies IgG", "ASCA IgG",
+    "Intestinal Goblet Cell Antibodies IgG", "Atypical ANCA (aANCA) IgG",
+):
+    no_score_markers.add(("Immunology & Inflammation", name))
 
 # ANA/ENA source '-' means negative; it must not become a missing report cell.
 for name in ANA_ENA_MARKERS:
@@ -1715,7 +1731,7 @@ for name in ANA_ENA_MARKERS:
     )
     no_score_markers.add(("Immunology & Inflammation", name))
 
-# Three original tests remain without supplied results after the September 29
+# Three original tests remain without supplied results after the November 3
 # reports. All completed assays have result rows.
 # An assay disappearing from a waiting list is not a completed result.
 # Assays without a completed result do not acquire guessed units or references.
@@ -1928,6 +1944,12 @@ result_notes = {
                 {"rows": ["Urine Potassium", "Urine Sodium", "Urine Magnesium", "Urine Phosphate", "Urine Chloride"], "target": "value", "dates": ["2026-07"]},
             ],
         },
+        {
+            "text": "Urine collected September 16, 2026; the two November 3 Limbach reports contain the same completed results. Cystine is normalized to creatinine (umol/g creatinine), not a 24-hour excretion amount. The lab flags urine creatinine 29mg/dL as low. The other assays from the earlier rejected 24-hour collection remain unavailable. <a href='results/Labs-2026-09-16/Sources.md#urine-cystine-and-creatinine-issued-2026-11-03'>Source and reporting details</a>.",
+            "markers": [
+                {"rows": ["Urine Creatinine", "Urine Cystine/Creatinine"], "target": "value", "dates": ["2026-09"]},
+            ],
+        },
     ],
     "Urine Culture": [
         {
@@ -1981,6 +2003,12 @@ result_notes = {
             "text": "Centromere B is equivocal (+); the other 15 immunoblot antibodies are negative.",
             "markers": [
                 {"row": "Centromere B", "target": "value", "dates": ["2026-09"]},
+            ],
+        },
+        {
+            "text": "The intestinal IgG antibody panel used serum collected September 16, 2026 and was released October 26. All four IIF results are negative. The laboratory's screening cutoffs are not measured titers; this panel is separate from the ANA/ENA immunoblot. <a href='results/Labs-2026-09-16/Sources.md#intestinal-igg-antibodies-issued-2026-10-26'>Source and assay details</a>.",
+            "markers": [
+                {"rows": ["Exocrine Pancreatic Cell Antibodies IgG", "ASCA IgG", "Intestinal Goblet Cell Antibodies IgG", "Atypical ANCA (aANCA) IgG"], "target": "value", "dates": ["2026-09"]},
             ],
         },
     ],
