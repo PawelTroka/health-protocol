@@ -29,7 +29,7 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 | Metric | Trend | 2026-11 | 2026-10 | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Body Mass** | ⚪ | 79.1 | 78.7 | 80.0 | 81.3 | 83.7 | kg | - | Withings |
-| **FFMI** | - | Up | Down | Down | Down | Baseline | - | Prior mean | Withings |
+| **FFMI** | ↑ +0.6 | 22.0 | 21.4 | 21.9 | 22.1 | 22.1 | kg/m² | - | Withings |
 | **Body Fat** | 🟢 | 🔵 13.7 | 🟢 15.9 | 🔵 15.0 | 🟢 15.8 | 🟢 18.2 | % | 8–20 (goal 10–15) | Withings |
 | **Muscle** | 🟢 | 🟢 82.1 | 🟢 80.0 | 🟢 80.8 | 🟢 80.1 | 🟢 77.8 | % | 75–89 | Withings |
 | **Bone** | 🟢 | 🟢 4.2 | 🟢 4.1 | 🟢 4.1 | 🟢 4.1 | 🟢 4.0 | % | 3–5 | Withings |

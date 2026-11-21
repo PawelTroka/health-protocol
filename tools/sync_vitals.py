@@ -3,7 +3,6 @@
 import argparse
 from contextlib import contextmanager
 from datetime import datetime
-from decimal import Decimal
 from getpass import getpass
 import hashlib
 import json
@@ -130,28 +129,8 @@ def body_indices(records, height_cm=None):
 
 
 def public_monthly(records, as_of):
-    """Keep FFMI direction public and numerical FFMI and height private."""
-    monthly = aggregate([r for r in records if r["metric"] not in {"FFMI", "Height (Withings)"}], as_of)
-    indices = [r for r in records if r["metric"] == "FFMI"]
-    if indices:
-        # A fixed positive height cannot change the direction. Compare the same
-        # readings in kg so rounding a height-dependent index cannot disclose height.
-        masses = [{**r, "metric": "Fat-Free Mass (Withings)", "unit": "kg",
-                   "value": r["fat_free_mass_kg"]} for r in indices]
-        previous = None
-        trend = {}
-        for month, metrics in sorted(aggregate(masses, as_of)["months"].items()):
-            current = Decimal(metrics["Fat-Free Mass (Withings)"]["value"])
-            if previous is None:
-                trend[month] = "baseline"
-            elif current == previous:
-                trend[month] = "stable"
-            else:
-                trend[month] = "up" if current > previous else "down"
-            previous = current
-        if trend:
-            monthly["ffmi_trend"] = trend
-    return monthly
+    """Publish monthly means and coverage while keeping measured height private."""
+    return aggregate([r for r in records if r["metric"] != "Height (Withings)"], as_of)
 
 
 def reject_credentials(value):
@@ -375,8 +354,10 @@ def rebuild_body_index():
     if published != {m: rows[marker] for m, rows in updated["months"].items()}:
         raise ValueError("The private fat-free mass readings do not match the published months. Run a vitals sync.")
     monthly.pop("ffmi_trend", None)
-    if "ffmi_trend" in updated:
-        monthly["ffmi_trend"] = updated["ffmi_trend"]
+    for month, rows in monthly["months"].items():
+        rows.pop("FFMI", None)
+        if "FFMI" in updated["months"].get(month, {}):
+            rows["FFMI"] = updated["months"][month]["FFMI"]
     cache["records"] = records + indices
     reports = prepare_reports(monthly)
     atomic_commit({cache_path: json_bytes(cache), monthly_path: json_bytes(monthly), **reports})

@@ -1010,7 +1010,7 @@ def unscored_change(values, ref, category, marker):
         return None
     if marker == "Height":
         return "-"
-    if category == MICROBIOTA_CATEGORY:
+    if category == MICROBIOTA_CATEGORY or (category == "Vitals & Functional Health" and marker == "FFMI"):
         return numerical_change(values)
     goal_dates = body_measurement_goal_comparisons.get(marker)
     if goal_dates:
@@ -2002,14 +2002,14 @@ result_notes["Vitals & Functional Health"].append({
     "markers": [{"rows": list(body_measurements_2026_11 | body_measurements_2026_11_carried_forward), "target": "value", "dates": ["2026-11"]}],
 })
 existing_vitals = {row[0] for row in data["Vitals & Functional Health"]}
-if synced_monthly.get("ffmi_trend"):
+observed_metrics = {metric for metrics in synced_monthly["months"].values() for metric in metrics}
+if synced_monthly.get("ffmi_trend") and "FFMI" not in observed_metrics:
     data["Vitals & Functional Health"].append(
         ("FFMI", *("-" for _ in historical_date_columns), "-", "Prior mean")
     )
     existing_vitals.add("FFMI")
     for month, direction in synced_monthly["ffmi_trend"].items():
         vitals_followups.setdefault(month, {})["FFMI"] = direction.capitalize()
-observed_metrics = {metric for metrics in synced_monthly["months"].values() for metric in metrics}
 for provider_metrics in METRICS.values():
     for metric, (unit, _) in provider_metrics.items():
         if metric in observed_metrics and metric not in existing_vitals:

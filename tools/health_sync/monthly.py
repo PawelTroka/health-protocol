@@ -270,9 +270,8 @@ def load_monthly(path):
         first = iso_date(month + "-01")
         if first < MANAGED_START or first > as_of or not isinstance(metrics, dict):
             raise ValueError("Invalid monthly-vitals date range.")
-        # Older published sources may still contain these rows. The current
-        # report never displays stature or a numeric index derived from it.
-        for private_metric in ("BMI", "FFMI", "Height (Withings)"):
+        # Older sources may still include a retired BMI or a measured height.
+        for private_metric in ("BMI", "Height (Withings)"):
             metrics.pop(private_metric, None)
         for metric, entry in metrics.items():
             provider = entry["provider"]
@@ -325,6 +324,8 @@ def load_monthly(path):
                         or observed_days[-1] != entry["last_day"]
                         or any(day.strftime("%Y-%m") != month or day > as_of for day in parsed_days)):
                     raise ValueError("Monthly-vitals observed days do not match coverage.")
+    # Earlier reports may contain only FFMI directions. Keep those readable
+    # until the private source observations are available to rebuild the values.
     trend = payload.get("ffmi_trend", {})
     if not isinstance(trend, dict):
         raise ValueError("Invalid FFMI trend.")
