@@ -1104,7 +1104,7 @@ Target icons identify an intervention's intended area or the system assessed by 
 
 **Status and preparation**
 
-- ⚕️ Medicine / clinician-managed treatment; prescription status depends on the exact product. Prescription routes: [erecepty24](https://erecepty24.pl) for ready-made medicines; [Telemedi](https://telemedi.com) for custom medicines (lek recepturowy)
+- ⚕️ Requires prescription (Rx): [erecepty24](https://erecepty24.pl) for ready-made medicines; [Telemedi](https://telemedi.com) for custom medicines ("lek recepturowy")
 - 🔄 Identified retailer Subscribe & Save route; activation, exact-SKU eligibility and current renewal terms require verification
 - 💊 Pills or a link to the supplement schedule; 🥤 drink/powder preparation
 - ✅ Vaccination recorded as received; read the dose/course and next-due text separately
