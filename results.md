@@ -7,6 +7,7 @@
 - **Blood tests:** [Morphology](#morphology) · [Metabolic Health](#metabolic-health) · [Cardiac Health & Coagulation](#cardiac-health--coagulation) · [Micronutrients](#micronutrients) · [Immunology & Inflammation](#immunology--inflammation) · [Tumor Markers](#tumor-markers) · [Infectious Diseases](#infectious-diseases) · [Proteinogram](#proteinogram) · [Hormonal Panel](#hormonal-panel)
 - **Urine:** [Urinalysis (General)](#urinalysis-general) · [Urinalysis (Sediment)](#urinalysis-sediment) · [Urine Chemistry](#urine-chemistry) · [Urine Culture](#urine-culture) · [Toxicology (Urine)](#toxicology-urine)
 - **Gut:** [Stool Analysis](#stool-analysis) · [Gut Microbiota (GA-map)](#gut-microbiota-ga-map) · [Stool Culture](#stool-culture) · [Stool Pathogen PCR](#stool-pathogen-pcr)
+- **History:** [Historical Laboratory Results](#historical-laboratory-results)
 - **Imaging:** [Examination index](#structural--diagnostic-imaging) · [Facial CT](#facial-ct) · [Abdominal wall · before and after repair](#abdominal-wall--before-and-after-repair) · [Dental imaging](#dental-imaging)
 - **Guide:** [Color legend](#-color-legend) · [Trend legend](#trend-legend) · [Testing protocol](README.md#2-testing)
 
@@ -1031,6 +1032,44 @@ Lab scale −3 to +3, not percentages. 0 = reference; † = small association wi
 <sup>2</sup> Prior prolactin elevations were likely due to high sexual activity before testing.
 <sup>3</sup> TSH remains slightly high at 4.25mIU/L, with FT3 and FT4 within range. July testing had biotin and preparation caveats; September washout is unknown.
 <sup>4</sup> Progesterone remains elevated because of ongoing daily 0.5 mg dutasteride use.
+
+## Historical Laboratory Results
+
+13 observations from three historical collection dates. Duplicate PDF, CSV and CDA exports are counted once. Original units and laboratory references are retained; these records do not enter the current trend comparisons. Colors use an unambiguous historical reference only. Risk-dependent targets and multi-band interpretations remain unscored. [Sources and transcription notes](results/Historical-Labs/Sources.md).
+
+### 2023-10-02 - Serum lipid panel
+
+Collected at 10:02; fasting status is not stated. LDL and non-HDL were calculated by the laboratory; LDL used the Friedewald formula. LDL is 73mg/dl in the PDF/CDA and 73.20mg/dl in the CSV, representing one result. Risk categories below reproduce this report's targets.
+
+| Metric | Result | Unit | Laboratory reference / interpretation |
+| :--- | :--- | :--- | :--- |
+| **Total cholesterol** | 🟢 125 | mg/dl | 115 - 190 |
+| **HDL cholesterol** | 🟢 41 | mg/dl | &gt;40 \(laboratory recommendation\) |
+| **Non-HDL cholesterol \(calculated\)** | 84 | mg/dl | &lt;130 \(moderate risk\); &lt;100 \(high\); &lt;85 \(very high\); &lt;70 \(extreme\) |
+| **LDL cholesterol \(calculated\)** | 73 | mg/dl | &lt;115 \(low risk\); &lt;100 \(moderate\); &lt;70 \(high\); &lt;55 \(very high\); &lt;40 \(extreme\) |
+| **Triglycerides** | 54 | mg/dl | &lt;150 \(fasting\); &lt;175 \(non-fasting\) |
+
+### 2022-03-17 - Swab
+
+Collected at 19:32 \(19:32:48 in the certificate/CDA\). Three PDFs and one CDA describe the same negative PCR. Reports were issued on March 17-18, 2022; the CDA document timestamp in 2025 is not the collection date.
+
+| Metric | Result | Unit | Laboratory reference / interpretation |
+| :--- | :--- | :--- | :--- |
+| **SARS-CoV-2 RT-PCR** | 🔵 Negative | - | - |
+
+### 2015-01-14 - Serum
+
+The printed 00:00 collection time is treated as unspecified. Fasting status is not stated. Homocysteine was reported on January 15 and vitamin D on January 16; both belong to the January 14 collection. Vitamin D bands reproduce the historical laboratory interpretation.
+
+| Metric | Result | Unit | Laboratory reference / interpretation |
+| :--- | :--- | :--- | :--- |
+| **Sodium** | 🔵 141 | mmol/l | 136 - 145 |
+| **Potassium** | 🔵 4.2 | mmol/l | 3.5 - 5.1 |
+| **Calcium, total** | 🟢 9.9 | mg/dl | 8.4 - 10.2 |
+| **Insulin** | 🔵 16.4 | µIU/ml | 2.6 - 24.9 |
+| **Ferritin** | 🔵 118.3 | ng/ml | 30 - 400 |
+| **Homocysteine** | 🟢 10.74 | µmol/l | 0 - 12 |
+| **Vitamin D, 25-OH** | 18.40 | ng/ml | &lt;10 deficient; 10-30 insufficient; 30-100 sufficient; &gt;100 toxic |
 
 ## Structural & Diagnostic Imaging
 

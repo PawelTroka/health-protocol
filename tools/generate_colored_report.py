@@ -26,6 +26,10 @@ from tools.imaging_report import (
     GROUPS as IMAGING_GROUPS, IMAGING_CSS, imaging_group_anchor, markdown_heading_anchor,
     render_imaging_html, render_imaging_md, validate_imaging_sources,
 )
+from tools.historical_labs import (
+    HISTORICAL_LABS_TITLE, HISTORICAL_LABS_ANCHOR,
+    render_historical_html, render_historical_md,
+)
 
 
 MICROBIOTA_CATEGORY = "Gut Microbiota (GA-map)"
@@ -2379,6 +2383,8 @@ def report_contents(markdown=False):
     other = [(category, f"#{anchor(category)}") for category in data if category not in included]
     if other:
         sections.append(("Other results", other))
+    history_anchor = markdown_heading_anchor(HISTORICAL_LABS_TITLE) if markdown else HISTORICAL_LABS_ANCHOR
+    sections.append(("History", [(HISTORICAL_LABS_TITLE, f"#{history_anchor}")]))
     imaging_anchor = markdown_heading_anchor("Structural & Diagnostic Imaging") if markdown else "imaging"
     sections.append(("Imaging", [("Examination index", f"#{imaging_anchor}")] + [
         (title, f"#{markdown_heading_anchor(title) if markdown else imaging_group_anchor(title)}") for title, _ in IMAGING_GROUPS
@@ -2609,6 +2615,8 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
             html += render_lab_html(category, rows)
 
     html += "</div>"
+    # Exact historical specimen dates and original ranges remain outside trends.
+    html += render_historical_html(format_cell_html)
     # Dated imaging records use their own source catalog, not monthly lab columns.
     html += render_imaging_html()
 
@@ -2647,6 +2655,8 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
             md += render_microbiota_md(rows)
         else:
             md += render_lab_md(category, rows)
+
+    md += render_historical_md(format_cell_md)
 
     # Add Imaging Section
     md += render_imaging_md()
