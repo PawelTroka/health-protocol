@@ -23,6 +23,10 @@ _FOLLOWUP_GROUPS = {
     "Micronutrients": (
         "Selenium", frozenset({"Selenium"}),
     ),
+    "Urine Chemistry": (
+        "Creatinine & Cystine",
+        frozenset({"Urine Creatinine", "Urine Cystine/Creatinine"}),
+    ),
     "Immunology & Inflammation": (
         "Immune Markers & Antibodies",
         frozenset({

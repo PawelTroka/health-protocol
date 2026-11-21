@@ -1945,7 +1945,7 @@ result_notes = {
             ],
         },
         {
-            "text": "Urine collected September 16, 2026; the two November 3 Limbach reports contain the same completed results. Cystine is normalized to creatinine (umol/g creatinine), not a 24-hour excretion amount. The lab flags urine creatinine 29mg/dL as low. The other assays from the earlier rejected 24-hour collection remain unavailable. <a href='results/Labs-2026-09-16/Sources.md#urine-cystine-and-creatinine-issued-2026-11-03'>Source and reporting details</a>.",
+            "text": "<a href='results/Labs-2026-09-16/Sources.md#urine-cystine-and-creatinine-issued-2026-11-03'>Limbach, 2026-09-16</a>.",
             "markers": [
                 {"rows": ["Urine Creatinine", "Urine Cystine/Creatinine"], "target": "value", "dates": ["2026-09"]},
             ],
@@ -2006,7 +2006,7 @@ result_notes = {
             ],
         },
         {
-            "text": "The intestinal IgG antibody panel used serum collected September 16, 2026 and was released October 26. All four IIF results are negative. The laboratory's screening cutoffs are not measured titers; this panel is separate from the ANA/ENA immunoblot. <a href='results/Labs-2026-09-16/Sources.md#intestinal-igg-antibodies-issued-2026-10-26'>Source and assay details</a>.",
+            "text": "<a href='results/Labs-2026-09-16/Sources.md#intestinal-igg-antibodies-issued-2026-10-26'>Intestinal IgG (IIF), 2026-09-16</a>.",
             "markers": [
                 {"rows": ["Exocrine Pancreatic Cell Antibodies IgG", "ASCA IgG", "Intestinal Goblet Cell Antibodies IgG", "Atypical ANCA (aANCA) IgG"], "target": "value", "dates": ["2026-09"]},
             ],

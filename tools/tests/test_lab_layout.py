@@ -25,6 +25,7 @@ class LabLayoutTests(unittest.TestCase):
             ("Cardiac Health & Coagulation", "Cholesterol LDL", ["Creatine Kinase (CK)"]),
             ("Metabolic Health", "Glucose", ["LDH", "Uric Acid"]),
             ("Micronutrients", "Vitamin D3", ["Selenium"]),
+            ("Urine Chemistry", "Urine Protein", ["Urine Creatinine", "Urine Cystine/Creatinine"]),
             ("Immunology & Inflammation", "CRP (hs)", ["CRP (Conventional)", "Anti-TPO", "IgA (Serum)"]),
         )
         for category, main_name, followup_names in cases:

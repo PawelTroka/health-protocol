@@ -184,12 +184,23 @@ class SeptemberLabReportTests(unittest.TestCase):
                          ("umol/g creatinine", "10 - 98"))
         self.assertEqual(self.row("Urine Chemistry", "Urine Creatinine")[-2:],
                          ("mg/dL", "39.0 - 259.0"))
+        main, followup = self.report["lab_groups"]("Urine Chemistry", rows)
+        self.assertEqual([row[0] for row in followup["rows"]],
+                         ["Urine Creatinine", "Urine Cystine/Creatinine"])
+        self.assertEqual({row[0] for row in main["rows"]}, set(july) - {"Urine Creatinine"})
         for output_format in ("html", "md"):
-            rendered = self.report[f"render_result_table_{output_format}"]("Urine Chemistry", rows)
+            main_rendered = self.report[f"render_result_table_{output_format}"](
+                "Urine Chemistry", main["rows"])
+            main_table = rendered_table_rows(main_rendered, output_format)
+            self.assertEqual(main_table[0], ["", "2026-07", "Unit", "Reference"])
+            self.assertEqual(len(main_table) - 1, 10)
+            self.assertIn(main_rendered, self.outputs[output_format])
+            rendered = self.report[f"render_result_table_{output_format}"](
+                "Urine Chemistry", followup["rows"])
             table = rendered_table_rows(rendered, output_format)
-            self.assertIn("2026-09", table[0])
-            self.assertNotIn("2026-11", table[0])
-            self.assertIn("Trend", table[0])
+            self.assertEqual(table[0], ["", "Trend", "2026-09", "2026-07", "Unit", "Reference"])
+            self.assertEqual(len(table) - 1, 2)
+            self.assertIn(rendered, self.outputs[output_format])
             displayed = {cells[0]: dict(zip(table[0], cells)) for cells in table[1:]}
             self.assertEqual(displayed["Urine Cystine/Creatinine"]["2026-09"], "🔵 43")
             self.assertEqual(displayed["Urine Cystine/Creatinine"]["Trend"], "-")
@@ -227,8 +238,8 @@ class SeptemberLabReportTests(unittest.TestCase):
                 self.assertEqual(displayed["2026-09"], "🔵 negative")
                 self.assertEqual(displayed["Trend"], "-")
                 self.assertEqual(displayed["Unit"], "Status")
-        notes = self.report["result_notes"][category]
-        self.assertTrue(any("cutoffs are not measured titers" in note["text"] for note in notes))
+        for output in self.outputs.values():
+            self.assertIn("results/Labs-2026-09-16/Sources.md#intestinal-igg-antibodies-issued-2026-10-26", output)
 
     def test_completed_celiac_and_stool_bounded_assays_appear_in_main_tables(self):
         expected = {
