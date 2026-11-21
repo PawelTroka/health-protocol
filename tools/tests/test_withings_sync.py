@@ -166,7 +166,7 @@ class WithingsParserTests(unittest.TestCase):
         self.assertEqual(fat_free_mass_indices(readings, None), [])
         index, = fat_free_mass_indices(readings, 167)
         self.assertAlmostEqual(index["value"], 54.25 / 1.67 ** 2)
-        self.assertEqual((index["unit"], index["source_types"], index["group_id"]), ("kg/m^2", [5], "1"))
+        self.assertEqual((index["unit"], index["source_types"], index["group_id"]), ("kg/m²", [5], "1"))
         self.assertNotIn("BMI", by_metric(readings))
         for height in (0, -1, True, float("nan"), float("inf")):
             with self.subTest(height=height), self.assertRaises(ValueError):

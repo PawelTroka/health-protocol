@@ -404,6 +404,19 @@ class GeneratorMonthlyIntegrationTests(unittest.TestCase):
         index_row = next(line for line in md.splitlines() if line.startswith("| **FFMI** |"))
         self.assertIn("| Up | - | Baseline | - | Prior mean | Withings |", index_row)
 
+    def test_numeric_ffmi_shows_monthly_means_and_an_ungraded_change(self):
+        readings = [measurement("first", "2026-07-01", 20.2, "FFMI", unit="kg/m²"),
+                    measurement("second", "2026-09-01", 20.7, "FFMI", unit="kg/m²")]
+        report = self.load_generator(aggregate(readings, date(2026, 9, 6)))
+        rows = report["data"]["Vitals & Functional Health"]
+        html = report["render_vitals_html"](rows)
+        md = report["render_vitals_md"](rows)
+        index_row = next(line for line in md.splitlines() if line.startswith("| **FFMI** |"))
+        self.assertIn("| ↑ +0.5 | 20.7 | - | 20.2 | kg/m² | - | Withings |", index_row)
+        self.assertIn("↑ +0.5", html)
+        self.assertNotIn("<b>Height</b>", html)
+        self.assertNotIn("| **Height** |", md)
+
     def test_july_replaces_existing_column_once_without_changing_labs(self):
         baseline = self.load_generator({"schema_version": 1, "as_of": "2026-09-06", "months": {}})
         payload = aggregate([measurement("actual", "2026-07-15", 79.2)], date(2026, 9, 6))

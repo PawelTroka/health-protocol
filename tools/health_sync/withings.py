@@ -155,7 +155,7 @@ WITHINGS_SCHEDULE_METRICS = {
     "AHI ≥5 Nights (Withings)": ("%", 1),
 }
 WITHINGS_METRICS = {
-    "Body Mass": ("kg", 1), "Height (Withings)": ("cm", 1), "FFMI": ("kg/m^2", 1),
+    "Body Mass": ("kg", 1), "Height (Withings)": ("cm", 1), "FFMI": ("kg/m²", 1),
     "Body Fat": ("%", 1), "Muscle": ("%", 1), "Bone": ("%", 1),
     "Lean Mass (Withings)": ("%", 1), "Body Water (Withings)": ("%", 1),
     "Blood Pressure": ("mmHg", 1), "Temperature": ("C", 1), "PWV": ("m/s", 1),
@@ -649,7 +649,7 @@ def fat_free_mass_indices(records, height_cm):
         value = mass["value"] / height_m / height_m
         if math.isfinite(value) and value > 0:
             indices.append({**mass, "id": mass["id"] + ":FFMI", "metric": "FFMI",
-                            "unit": "kg/m^2", "value": value, "fat_free_mass_kg": mass["value"]})
+                            "unit": "kg/m²", "value": value})
     return indices
 
 

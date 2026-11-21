@@ -141,7 +141,7 @@ class SyncCliTests(unittest.TestCase):
         public = json.loads((self.root / "results" / "vitals_monthly.json").read_bytes())
         return private, public
 
-    def test_import_migrates_cached_indices_and_keeps_height_and_numeric_ffmi_private(self):
+    def test_import_rebuilds_historical_ffmi_and_keeps_height_private(self):
         profile = self.cache / "profile.json"
         profile.write_bytes(cli.json_bytes({"height_cm": 167}))
         prior = withings_group(identifier=71)
@@ -163,15 +163,24 @@ class SyncCliTests(unittest.TestCase):
         self.assertTrue(any(r["metric"] == "Height (Withings)" for r in cache["records"]))
         path = self.root / "results" / "vitals_monthly.json"
         public = monthly.load_monthly(path)
-        self.assertEqual(public["ffmi_trend"], {"2026-07": "baseline", "2026-08": "up"})
-        for metrics in json.loads(path.read_bytes())["months"].values():
-            self.assertFalse({"BMI", "FFMI", "Height (Withings)"} & metrics.keys())
-        # Recalculating locally leaves the published projection unchanged.
+        self.assertNotIn("ffmi_trend", public)
+        for month, metrics in json.loads(path.read_bytes())["months"].items():
+            self.assertFalse({"BMI", "Height (Withings)"} & metrics.keys())
+            expected = 55 if month == "2026-07" else 57
+            ffmi = metrics["FFMI"]
+            self.assertEqual(ffmi["value"], f"{expected / 1.67 ** 2:.1f}")
+            self.assertEqual((ffmi["provider"], ffmi["unit"]), ("withings", "kg/m²"))
+            self.assertEqual(ffmi.keys(), metrics["Fat-Free Mass (Withings)"].keys())
+            self.assertFalse({"height_cm", "source_file", "group_id", "source_types", "fat_free_mass_kg"} & ffmi.keys())
         profile.write_bytes(cli.json_bytes({"height_cm": 154}))
-        before = path.read_bytes()
         with redirect_stdout(io.StringIO()):
             cli.rebuild_body_index()
-        self.assertEqual(path.read_bytes(), before)
+        rebuilt = monthly.load_monthly(path)
+        for month, metrics in rebuilt["months"].items():
+            self.assertEqual(metrics["FFMI"]["value"], f"{(55 if month == '2026-07' else 57) / 1.54 ** 2:.1f}")
+            metrics.pop("FFMI")
+            public["months"][month].pop("FFMI")
+        self.assertEqual(rebuilt, public)
         changed = [r for r in cli.load_cache()["records"] if r["metric"] == "FFMI"]
         self.assertAlmostEqual(changed[1]["value"], 57 / 1.54 ** 2)
         self.fetch.assert_not_called()
@@ -189,22 +198,32 @@ class SyncCliTests(unittest.TestCase):
             cli.rebuild_body_index()
         self.assertEqual(before, self.snapshot())
 
-    def test_public_monthly_reader_accepts_legacy_bmi_and_checks_ffmi_trend(self):
+    def test_public_monthly_reader_omits_legacy_bmi_and_height_but_keeps_earlier_directions(self):
         group = withings_group()
         group["measures"].append({"type": 5, "value": 54, "unit": 0})
         self.run_quietly(self.import_file({"measuregrps": [group]}))
         path = self.root / "results" / "vitals_monthly.json"
         source = json.loads(path.read_bytes())
         source["months"]["2026-08"]["BMI"] = dict(source["months"]["2026-08"]["Body Mass"], unit="kg/m^2")
-        for trend in ({"2026-08": "baseline"}, {}, {"2026-08": "up"}, {"2026-08": 23},
-                      {"2026-07": "baseline"}, {"2026-08": "baseline", "2026-09": "down"}):
-            with self.subTest(trend=trend):
-                path.write_bytes(cli.json_bytes({**source, "ffmi_trend": trend}))
-                if trend in ({}, {"2026-08": "baseline"}):
-                    self.assertNotIn("BMI", monthly.load_monthly(path)["months"]["2026-08"])
-                else:
-                    with self.assertRaisesRegex(ValueError, "FFMI trend"):
-                        monthly.load_monthly(path)
+        source["months"]["2026-08"]["Height (Withings)"] = dict(source["months"]["2026-08"]["Body Mass"], unit="cm")
+        source["ffmi_trend"] = {"2026-08": "baseline"}
+        path.write_bytes(cli.json_bytes(source))
+        loaded = monthly.load_monthly(path)
+        self.assertEqual(loaded["ffmi_trend"], {"2026-08": "baseline"})
+        self.assertFalse({"BMI", "Height (Withings)"} & loaded["months"]["2026-08"].keys())
+
+    def test_api_sync_averages_ffmi_per_day_then_per_month(self):
+        (self.cache / "profile.json").write_bytes(cli.json_bytes({"height_cm": 167}))
+        payload = withings_ecg_payload()
+        groups = [withings_group(identifier=i) for i in [31, 32, 33]]
+        groups[-1]["date"] += 86400
+        for group, mass in zip(groups, [54, 60, 63]):
+            group["measures"].append({"type": 5, "value": mass, "unit": 0})
+        payload["measuregrps"] = groups
+        _, public = self.sync_ecg(payload)
+        ffmi = public["months"]["2026-08"]["FFMI"]
+        self.assertEqual(ffmi["value"], f"{((54 + 60) / 2 + 63) / 2 / 1.67 ** 2:.1f}")
+        self.assertEqual((ffmi["n_days"], ffmi["n_records"]), (2, 3))
 
     def test_sync_archives_ecg_waveform_once_and_projects_only_dated_metadata(self):
         payload = withings_ecg_payload()
