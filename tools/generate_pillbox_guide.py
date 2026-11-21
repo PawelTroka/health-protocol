@@ -154,7 +154,7 @@ PAGES = [
             ),
             item(
                 "M.3",
-                "NOW Foods Iron (Ferrochel™)",
+                "Iron (Ferrochel)",
                 "18mg",
                 qty="1capsule/day",
                 icons="🩸",
