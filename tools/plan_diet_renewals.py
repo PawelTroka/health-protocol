@@ -4,6 +4,12 @@ This offline tool never opens a retailer, edits a subscription, assumes a delive
 or purchases food. Default output is Markdown; --json emits the complete analysis.
 --self-test checks the exact arithmetic and inventory simulator.
 Only --update-analysis writes the derived analysis back into the model file.
+
+Stock forecasts read opening_stock and protocol_requirements.daily, with the
+latest eligible exact-group/unit observation taking precedence. Unknown balances
+are omitted; known balances require a positive daily amount. Opening oil and Soy
+estimates retain the conditional0.915g/ml and1L-per-pack assumptions documented
+in diet/DIET_STOCK_TRANSITION.md, identified in the full JSON forecast.
 """
 from __future__ import annotations
 
@@ -19,6 +25,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MODEL = ROOT / "diet" / "DIET_RENEWAL_MODEL.json"
 CYCLES = (7, 14, 21, 28, 30, 60, 90)
+# Historical, conditional conversions documented in DIET_STOCK_TRANSITION.md.
+# These do not establish a measured oil density or the size of an unverified pack.
+PHILEOS_DENSITY_G_PER_ML = Fraction(915, 1000)
+SOY_MILK_PACK_ML = 1000
 
 
 def number(value):
@@ -252,9 +262,27 @@ def later_receipt_scope(model, food, stock_date, as_of):
     }
 
 
+def stock_quantity(value, field):
+    """Read a known nonnegative amount without turning an unknown into zero."""
+    if value is None:
+        return None
+    try:
+        if isinstance(value, bool):
+            raise ValueError
+        quantity = Fraction(str(value))
+        if quantity < 0:
+            raise ValueError
+    except (ValueError, ZeroDivisionError):
+        raise ValueError(f"{field} must be a finite nonnegative quantity.") from None
+    return quantity
+
+
 def forecast_reviews(model):
-    opening_date = date.fromisoformat(model["opening_stock"]["reported_on"])
+    opening = model["opening_stock"]
+    opening_date = date.fromisoformat(opening["reported_on"])
     today = date.fromisoformat(model["as_of"])
+    if today < opening_date:
+        raise ValueError("as_of must not precede opening_stock.reported_on.")
     latest = {}
     for observation in model.get("stock_observations", []):
         reported_on = date.fromisoformat(observation["reported_on"])
@@ -263,30 +291,54 @@ def forecast_reviews(model):
         key = (observation["group"], observation["unit"])
         if key not in latest or reported_on >= latest[key][0]:
             latest[key] = (reported_on, observation)
+    estimated = opening.get("estimated_g", {})
+    daily_requirements = model.get("protocol_requirements", {}).get("daily", {})
+
+    def estimated_g(key):
+        return stock_quantity(estimated.get(key), f"opening_stock.estimated_g.{key}")
+
+    # Both components of the documented opening Nut balance must be known.
+    # A later combined/g observation can still supply this balance independently.
+    nuts = [estimated_g(key) for key in ("walnuts", "macadamias")]
+    nuts_g = sum(nuts, Fraction()) if all(value is not None for value in nuts) else None
+    oil_ml = stock_quantity(opening.get("phileos_remaining_ml_estimate"),
+                            "opening_stock.phileos_remaining_ml_estimate")
+    soy_packs = stock_quantity(opening.get("reported_counts", {}).get("soy_milk_packs"),
+                               "opening_stock.reported_counts.soy_milk_packs")
     values = [
-        ("combined Nuts", Fraction(500), Fraction(20), 7),
-        ("combined Flax/Chia", Fraction(650), Fraction(7), 14),
-        ("Pumpkin", Fraction(350), Fraction(7), 7),
-        ("Matcha", Fraction(200), Fraction(2), 14),
-        ("Phileos", Fraction(250) * Fraction(915, 1000), Fraction(27, 2), 7),
-        ("Soy Milk if chosen every day", Fraction(2000), Fraction(200), 7),
+        ("combined Nuts", nuts_g, "nuts_g", 7),
+        ("combined Flax/Chia", estimated_g("morning_flax_chia_total"), "morning_seeds_g", 14),
+        ("Pumpkin", estimated_g("pumpkin"), "dinner_seeds_g", 7),
+        ("Matcha", estimated_g("matcha"), "matcha_g", 14),
+        ("Phileos", oil_ml * PHILEOS_DENSITY_G_PER_ML if oil_ml is not None else None,
+         "phileos_g", 7),
+        ("Soy Milk if chosen every day", soy_packs * SOY_MILK_PACK_ML if soy_packs is not None else None,
+         "milk_ml", 7),
         # There is no observed opening Oat balance in the historical register.
         # A paid/incoming bag is not stock available to consume.
-        ("Rolled Oats", None, Fraction(25), 7),
+        ("Rolled Oats", None, "oats_dry_g", 7),
     ]
+    conversion_assumptions = {
+        "Phileos": "Illustrative0.915g/ml oil density, not a measured value; diet/DIET_STOCK_TRANSITION.md.",
+        "Soy Milk if chosen every day": "Conditional1L per reported pack, only if that pack size is confirmed; diet/DIET_STOCK_TRANSITION.md.",
+    }
     result = []
-    for name, initial, daily, lead in values:
+    for name, initial, daily_key, lead in values:
         unit = "ml" if name == "Soy Milk if chosen every day" else "g"
         start = opening_date
         source = "Original opening-stock estimate"
+        assumptions = conversion_assumptions.get(name)
         if (name, unit) in latest:
             start, observation = latest[(name, unit)]
-            initial = Fraction(str(observation["quantity"]))
+            initial = stock_quantity(observation["quantity"], f"stock_observations.{name}")
             source = observation.get("source", "Dated stock observation")
+            assumptions = None  # This observation already uses the forecast unit.
         if initial is None:
             continue
-        if initial < 0:
-            raise ValueError(f"Negative stock observation for {name}")
+        daily = stock_quantity(daily_requirements.get(daily_key),
+                               f"protocol_requirements.daily.{daily_key}")
+        if daily is None or daily == 0:
+            raise ValueError(f"protocol_requirements.daily.{daily_key} must be positive to forecast {name}.")
         days = (today - start).days
         complete = initial // daily
         next_need = start + timedelta(days=int(complete))
@@ -296,6 +348,7 @@ def forecast_reviews(model):
             "stock_reference_quantity": number(initial),
             "unit": unit,
             "stock_source": source,
+            **({"stock_conversion_assumption": assumptions} if assumptions else {}),
             "forecast_remaining_before_today_use": number(max(0, initial - days * daily)),
             "first_forecast_not_fully_supplied_day": next_need.isoformat(),
             "review_no_later_than": max(today, next_need - timedelta(days=lead)).isoformat(),
@@ -316,10 +369,10 @@ def forecast_reviews(model):
             **later_receipt_scope(model, "Eggs", reported_on, today),
         })
     return {
-        "assumptions": "Use the latest dated stock observation on or before as_of for each exact group/unit; otherwise retain the original opening-stock estimate. Forecast daily use from that reference, assuming the balance precedes that day's serving. Before/after-serving timing, measured quantities, consumption and expiry remain unverified. Combined Nut mass does not identify species or guarantee complete same-food portions. Later receipts qualify the old reference but do not automatically credit usable stock; reconcile contents, condition and consumption before inferring a current shortage.",
+        "assumptions": "Use the latest dated stock observation on or before as_of for each exact group/unit; otherwise read the recorded opening-stock estimate from the model. Omit unknown balances; explicit zero remains zero. Use the model's positive daily requirement for each forecast, assuming the balance precedes that day's serving. Conditional oil-density and Soy-pack conversions are identified on the affected forecasts. Before/after-serving timing, measured quantities, consumption and expiry remain unverified. Combined Nut mass does not identify species or guarantee complete same-food portions. Later receipts qualify the old reference but do not automatically credit usable stock; reconcile contents, condition and consumption before inferring a current shortage.",
         "reviews": result,
         "observations_without_depletion_forecast": observations_without_depletion,
-        "oat_rule": "Forecast the dated reported Oat balance separately from later deliveries. The paid1kg represents40 written servings if received contents are usable; carrier delivery alone does not establish usable quantity or when consumption began. A zero old reference cannot establish a current gap after a subsequent receipt; a dispatch estimate alone is not stock.",
+        "oat_rule": "Forecast the dated reported Oat balance separately from later deliveries, using the model's written daily Oat amount. Carrier delivery alone does not establish usable quantity or when consumption began. A zero old reference cannot establish a current gap after a subsequent receipt; a dispatch estimate alone is not stock.",
         "fresh_stock": "357 parcel arrived18September, reported by root's live review. Use its Kiwi/Tomatoes/Mushrooms by actual condition, measured yield and label dates; do not infer today's consumption.",
         "native_only": "Forecasts inform initial retailer configuration. No routine skips, date corrections, manual bridge purchases or Codex-managed reorder cycle count as an accepted solution."
     }
@@ -554,7 +607,9 @@ def self_test():
     assert "Both groups unquoted" not in retired_pair["shipping"]
     assert "200g" in retired_pair["status"]
     stock_probe = {
-        "opening_stock": {"reported_on": "2026-09-14"},
+        "opening_stock": {"reported_on": "2026-09-14", "estimated_g": {
+            "walnuts": 300, "macadamias": 200, "matcha": 200}},
+        "protocol_requirements": {"daily": {"nuts_g": 20, "matcha_g": 2, "oats_dry_g": 25}},
         "as_of": "2026-09-23",
         "stock_observations": [
             {"reported_on": "2026-09-23", "group": "combined Nuts", "quantity": 100, "unit": "g", "source": "user estimate"},
