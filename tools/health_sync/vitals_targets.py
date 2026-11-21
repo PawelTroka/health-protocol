@@ -37,6 +37,13 @@ CATEGORIES = {
         "OPTIMAL": ("🟢", 1), "LOW": ("🟡", 0), "HIGH": ("🟡", 0), "VERY_HIGH": ("🟠", 0),
     },
 }
+# Garmin imports preserve uppercase API codes. Apply the established display
+# policy to those exact codes as well as the existing title-case snapshots;
+# unknown labels remain ungraded and source text is never rewritten.
+# https://www.garmin.com/en-GB/garmin-technology/health-science/hrv-status/
+CATEGORIES["HRV Status (Garmin)"].update({
+    label.upper(): rule for label, rule in CATEGORIES["HRV Status (Garmin)"].items()
+})
 CATEGORY_REFERENCES = {
     "ECG AF Classification (Withings)": "Negative",
     "Stress Day Summary (Oura)": "Normal / Restored",
