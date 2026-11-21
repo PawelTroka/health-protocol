@@ -1017,27 +1017,29 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Pneumococcal (PCV20 (Prevnar 20)) (1dose when 65+ years old)
 
 ## 10. Peptides
+Volume examples assume the stated final concentrations; confirm the [dose notation](#peptide-dose-notation) before use.
+
 - [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) 🦴 🛡️ 🫀  
   10mg / 4ml  
   2.5mg / ml  
-  250mcg-500mcg -> 10-20IU/day
+  250mcg-500mcg -> 0.10-0.20ml (10-20 U-100 units)/day
 - [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🦴 🥊  
   10mg / 2ml  
   5mg / ml  
-  2mg -> 40IU/week
+  2mg -> 0.40ml (40 U-100 units)/week
 - [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) 🩸 ❤️ ⏰  
-  - (alternative) [Mounjaro 2.4ml](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) 🩸 ❤️ ⏰ ⚕️
   15mg / 1.5ml  
   10mg / ml  
-  1.0mg -> 10IU/week
+  1.5mg -> 0.15ml (15 U-100 units)/week
+  - (alternative) [Mounjaro 2.4ml](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) 🩸 ❤️ ⏰ ⚕️
 - [CJC-1295 with DAC 5mg](https://pro-body.com/pl/produkt/cjc-1295-with-dac-5mg/)  
   5mg / 2.5ml  
   2mg / ml  
-  0.5mg-1mg -> 25-50IU/week
+  0.5mg-1mg -> 0.25-0.50ml (25-50 U-100 units)/week
 - (optional) [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳 🛡️  
   50mg / 2.5ml  
   20mg / ml  
-  1-2mg -> 5-10IU/day
+  1-2mg -> 0.05-0.10ml (5-10 U-100 units)/day
 
 
 ## 11. Surgeries
@@ -1379,6 +1381,11 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - After acidic intake, rinse and wait about 1 hour before brushing. [Dental care](https://www.mouthhealthy.org/all-topics-a-z/dietary-acids-and-your-teeth)
 - **Chlorhexidine exception:** do not rinse it away immediately; follow the dentist/product instructions. Tea can worsen its staining. [Use instructions](https://medlineplus.gov/druginfo/meds/a625015.html) [Interaction information](https://www.medicines.org.uk/emc/product/529/smpc)
 - Bonding does not whiten predictably like natural teeth. Follow treatment-specific instructions and ask about cleaning/polishing persistent stains; a universal strict white-food diet is unsupported. [ADA](https://www.ada.org/resources/ada-library/oral-health-topics/whitening) [Clinical review](https://pubmed.ncbi.nlm.nih.gov/39557282/)
+
+### Peptide dose notation
+
+- **Mass, volume & syringe scale:** the [Peptide](#10-peptides) calculations use the stated final concentrations, not verified contents of the linked vials. Confirm the actual product concentration, intended dose and syringe type with the prescriber/pharmacist. Volume in ml = dose in mg ÷ concentration in mg/ml. On a U-100 syringe, 1unit = 0.01ml; these scale units are not biological IU of a Peptide. Read the printed scale and graduation spacing, rather than counting tick marks. [FDA dosing-error guidance](https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-patients-dosing-errors-associated-compounded)
+- **Tirzepatide vial vs KwikPen:** 1.5mg at the stated 10mg/ml corresponds to 0.15ml. This calculation does not establish the product's quality or the dose's suitability. The linked Mounjaro 2.5mg/dose KwikPen instead delivers a fixed 2.5mg in 0.6ml; follow its own instructions and do not transfer medicine from the pen into a syringe. [EMA product information](https://www.ema.europa.eu/en/documents/product-information/mounjaro-epar-product-information_en.pdf)
 
 ### Shopping
 
