@@ -283,8 +283,8 @@ class GuidanceRenderingTests(unittest.TestCase):
                  ("Sleep Score", "80.4", "78.7", "🟢"),
                  ("Sleep Latency", "16.8", "22.7", "🟢"),
                  ("Steps (Garmin)", "5000", "4000", "🟢"),
-                 ("FFMI", "22.0", "21.4", "⚪"),
-                 ("FFMI", "21.4", "22.0", "⚪"),
+                 ("FFMI", "22.0", "21.4", "🟢"),
+                 ("FFMI", "21.4", "22.0", "🟡"),
                  ("FFMI", "22.0", "22.0", "⚪"),
                  ("Future Firmware Marker", "12", "11", "⚪"))
         for marker, current, previous, expected in cases:
@@ -296,16 +296,18 @@ class GuidanceRenderingTests(unittest.TestCase):
                     self.assertEqual(result[header.index("Trend")], expected)
 
     def test_blood_pressure_small_changes_are_neutral_without_changing_value_colors(self):
-        for current, previous in (("114.0/76.3", "114.0/75.0"),
-                                  ("114.0/75.0", "114.0/76.3")):
+        for current, previous, shown_current, shown_previous in (
+            ("114.0/76.3", "114.0/75.0", "114/76.3", "114/75"),
+            ("114.0/75.0", "114.0/76.3", "114/75", "114/76.3"),
+        ):
             row = self.row("Blood Pressure", {"2026-09": current, "2026-07": previous}, "mmHg")
             for output_format in ("html", "md"):
                 with self.subTest(current=current, previous=previous, format=output_format):
                     rendered = self.report[f"render_result_table_{output_format}"](VITALS, [row], compact=True)
                     header, result = rendered_table_rows(rendered, output_format)
                     self.assertEqual(result[header.index("Trend")], "⚪")
-                    self.assertEqual(result[header.index("2026-09")], f"🔵 {current}")
-                    self.assertEqual(result[header.index("2026-07")], f"🔵 {previous}")
+                    self.assertEqual(result[header.index("2026-09")], f"🔵 {shown_current}")
+                    self.assertEqual(result[header.index("2026-07")], f"🔵 {shown_previous}")
                     self.assertEqual(result[header.index("Reference")], "<120/<80 (goal 100–115/60–75)")
 
     def test_blood_pressure_floor_is_symmetric_and_applies_to_both_components(self):
@@ -340,7 +342,8 @@ class GuidanceRenderingTests(unittest.TestCase):
                 for values in cases:
                     with self.subTest(marker=marker, values=values, format=output_format):
                         self.assertEqual(formatter(values, reference, VITALS, marker), "-")
-                self.assertEqual(formatter(["-", current, "-", previous], reference, VITALS, marker), "⚪")
+                self.assertEqual(formatter(["-", current, "-", previous], reference, VITALS, marker),
+                                 "🟢" if marker == "FFMI" else "⚪")
 
     def test_scored_vitals_do_not_reuse_older_pairs_after_unknown_result(self):
         for output_format in ("html", "md"):

@@ -16,7 +16,7 @@ from .sleep_targets import TARGETS as SLEEP_TARGETS
 
 
 COLORS = {"🔵": "#00008b", "🟢": "#008000", "🟡": "#927000",
-          "🟠": "#a84a00", "🔴": "#b22319", "⚪": "#64748b"}
+          "🟠": "#a84a00", "🔴": "#b22319", "⚪": "#64748b", "🟣": "#6d28d9"}
 MISSING = {None, "", "-", "—"}
 
 CATEGORIES = {
@@ -133,6 +133,20 @@ OURA_SCORE = {
 # Withings defines whole-body muscle (not DXA appendicular lean mass), bone
 # and water as percentages. Male 20–39 comparison bands apply to this report.
 BODY_TARGETS = {
+    # User-selected physique comparison from ffmicalculator.org. Its normalized
+    # index equals this report's unadjusted FFMI at the documented 180cm height.
+    # These bands do not grade health or establish drug use. The display trend
+    # approaches the Superior band, without rewarding further increases above it.
+    "FFMI": {
+        "reference": "Physique scale (180cm)", "valid": (0.01, None),
+        "trend_target": (24, None), "trend_min_change": 0.1,
+        "bands": ((26, "🟣", "FFMI physique comparison: very high"),
+                  (24, "🔵", "FFMI physique comparison: superior"),
+                  (22, "🟢", "FFMI physique comparison: excellent"),
+                  (20, "🟡", "FFMI physique comparison: above average"),
+                  (18, "🟠", "FFMI physique comparison: average"),
+                  (0, "🔴", "FFMI physique comparison: below average")),
+    },
     "Body Fat": {"reference": "8–20 (goal 10–15)", "normal": (8, 20), "target": (10, 15), "valid": (0, 100)},
     "Muscle": {"reference": "75–89", "target": (75, 89), "valid": (0, 100),
                "trend_target": (89, 89), "trend_guard": (None, 89), "trend_min_change": 0.2},

@@ -13,6 +13,7 @@ from tools.health_sync.report_colors import PAGE_BACKGROUND, ALTERNATE_ROW_BACKG
 from tools.health_sync.ecg_records import render_ecg_html, render_ecg_md
 from tools.health_sync.lab_layout import ANA_ENA_MARKERS, lab_groups
 from tools.health_sync.result_bounds import bound_within_reference, bounded_comparison, is_bounded
+from tools.health_sync.number_display import compact_measurement, compact_reference
 from tools.health_sync.report_guidance import (
     NEUTRAL, guide_reference, guide_status, numerical_change, vitals_trend,
     STOOL_RESIDUE_MARKERS, stool_residue_rank,
@@ -502,6 +503,8 @@ def calculate_blood_pressure_score(val_str, target):
 def target_reference(category, marker, ref):
     if category == MICROBIOTA_CATEGORY:
         return microbiota_reference(marker, ref)
+    if category == "Vitals & Functional Health" and marker == "FFMI" and ref == "Prior mean":
+        return ref  # Legacy Up/Baseline observations are not numeric FFMI values.
     if category == "Vitals & Functional Health" and vital_rule(marker):
         return guide_reference(category, marker, ref)
     target = target_overrides.get((category, marker))
@@ -626,7 +629,7 @@ def format_cell_html(val, ref, category=None, marker=None, context=None):
     target = target_overrides.get((category, marker))
     arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)
     suffix = f" {arrow}" if arrow else ""
-    return f'<span style="color:{readable_text_color(color)}; font-weight:bold;">{emoji} {escape(val)}{suffix}</span>'
+    return f'<span style="color:{readable_text_color(color)}; font-weight:bold;">{emoji} {escape(compact_measurement(val))}{suffix}</span>'
 
 def format_cell_md(val, ref, category=None, marker=None, context=None):
     status = guide_status(category, marker, val, context)
@@ -639,7 +642,7 @@ def format_cell_md(val, ref, category=None, marker=None, context=None):
     target = target_overrides.get((category, marker))
     arrow = "" if target and target["type"] == "blood_pressure" else get_direction(val, ref)
     suffix = f" {arrow}" if arrow else ""
-    return f'{emoji} {val}{suffix}'
+    return f'{emoji} {compact_measurement(val)}{suffix}'
 
 def format_urinalysis_value(val_str, ref_range):
     if val_str in ["-", "—", None, ""]:
@@ -696,7 +699,7 @@ def format_cell_html_urine(val, ref):
     color, emoji = result
     if not emoji:
         return format_status(val, NEUTRAL)
-    return f'<span style="color:{readable_text_color(color)}; font-weight:bold;">{emoji} {escape(val)}</span>'
+    return f'<span style="color:{readable_text_color(color)}; font-weight:bold;">{emoji} {escape(compact_measurement(val))}</span>'
 
 def format_cell_md_urine(val, ref):
     result = format_urinalysis_value(val, ref)
@@ -705,7 +708,7 @@ def format_cell_md_urine(val, ref):
     _, emoji = result
     if not emoji:
         return format_status(val, NEUTRAL, markdown=True)
-    return f'{emoji} {val}'
+    return f'{emoji} {compact_measurement(val)}'
 
 # Data Reorganized
 # Using "-" for missing values as requested
@@ -2075,7 +2078,7 @@ def format_status(value, status, *, markdown=False, show_neutral=False):
     if value in {None, "", "-", "—"}:
         return "-"
     color, emoji, label = status
-    literal = classification_text(value, markdown=markdown)
+    literal = classification_text(compact_measurement(value), markdown=markdown)
     if emoji == "⚪" and not show_neutral:
         return literal
     if markdown:
@@ -2196,7 +2199,7 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False,
         html += f"<td>{unit}</td>"
         if include_reference:
             reference_class = " class='reference-cell'" if category == "Vitals & Functional Health" else ""
-            html += f"<td{reference_class}>{escape(display_ref)}</td>"
+            html += f"<td{reference_class}>{escape(compact_reference(display_ref))}</td>"
         if include_source:
             html += f"<td class='source-cell'>{metric_source(category, name)}</td>"
         html += "</tr>"
@@ -2255,7 +2258,7 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False, n
             line += f" {cell} |"
         line += f" {unit} |"
         if include_reference:
-            line += f" {display_ref} |"
+            line += f" {compact_reference(display_ref)} |"
         if include_source:
             line += f" {metric_source(category, name)} |"
         md += line + "\n"
@@ -2553,6 +2556,7 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += "<h3 id='results-color-legend'>🎨 Color Legend</h3><ul>"
     html += render_color_legend_html()
     html += "<li>⚪ Context-dependent: no standalone health classification</li>"
+    html += "<li><b>FFMI</b>: <a href='results/Reference-Guide.md#ffmi-physique-comparison'>Physique comparison</a>, separate from clinical grades; 🟣 means very high on the selected scale.</li>"
     html += "</ul>"
     html += "<p class='note'>Single-result colors use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.</p>"
     html += "<p class='note'><a href='results/Reference-Guide.md'>Reference sources and methods</a> · <a href='results/Labs-2026-09-16/Sources.md'>September laboratory sources</a>.</p>"
@@ -2595,7 +2599,8 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     md += "*   🟡 **Watch**: Mild meaningful deviation from target or range\n"
     md += "*   🟠 **Concern**: Significant deviation from target or range\n"
     md += "*   🔴 **Critical**: Severe or critical deviation\n"
-    md += "*   ⚪ **Context-dependent**: No standalone health classification\n\n"
+    md += "*   ⚪ **Context-dependent**: No standalone health classification\n"
+    md += "*   **FFMI**: [Physique comparison](results/Reference-Guide.md#ffmi-physique-comparison), separate from clinical grades; 🟣 means very high on the selected scale.\n\n"
     md += "[Reference sources and methods](results/Reference-Guide.md) · [September laboratory sources](results/Labs-2026-09-16/Sources.md).\n\n"
     md += "> **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.\n\n"
     md += "### Trend Legend\n"

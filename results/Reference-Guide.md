@@ -8,7 +8,7 @@ A **reference** describes a comparison range. A **goal** or **target** is a desi
 
 | Measurement | Reference and target used | Source and interpretation |
 | :--- | :--- | :--- |
-| Body mass and fat-free mass index (FFMI) | Personal trend | Body mass gives context. FFMI divides estimated fat-free mass in kilograms by height in metres squared. Fat-free mass includes water, bone and organs as well as muscle. [FFMI definition](https://pmc.ncbi.nlm.nih.gov/articles/PMC3306818/) · [Withings measurement conditions](https://support.withings.com/hc/en-us/articles/12434342485265-Body-Scan-Frequently-asked-questions-about-Segmental-Body-Composition-measurements) |
+| Body mass and fat-free mass index (FFMI) | Body mass: context; FFMI: selected physique scale below | FFMI divides estimated fat-free mass in kilograms by height in metres squared. Fat-free mass includes water, bone and organs as well as muscle. [FFMI definition](https://pmc.ncbi.nlm.nih.gov/articles/PMC3306818/) · [Withings measurement conditions](https://support.withings.com/hc/en-us/articles/12434342485265-Body-Scan-Frequently-asked-questions-about-Segmental-Body-Composition-measurements) |
 | Body fat and lean mass | Male age 20–39 comparison: fat 8–20%; practical target 10–15%. Complementary lean range 80–92%, target 85–90% | [Withings body composition](https://support.withings.com/hc/en-us/articles/218500778-Body-What-are-the-normal-ranges-for-body-composition). The narrower fat target is a protocol preference, not a proven universal longevity optimum. |
 | Muscle, bone and body water | Male manufacturer comparisons: muscle 75–89%, bone 3–5%, water 50–65% | [Withings comparison ranges](https://support.withings.com/hc/en-us/articles/218500778-Body-What-are-the-normal-ranges-for-body-composition). Colors now compare these ranges. Muscle includes skeletal, smooth and cardiac muscle; estimated bone mass is not DXA bone density. Water overlaps other tissues and must not be added to their percentages. |
 | Withings visceral fat index | 0–5 inclusive; >5 high; scale 0–20 | [Body Scan visceral fat index](https://support.withings.com/hc/en-us/articles/11003948038545-Body-Scan-Learn-more-about-Visceral-Fat-Index). Manufacturer index, not percentage. Lower values can show a favorable trend within the reference band. |
@@ -71,6 +71,21 @@ All 336 marker cells (48 markers × 7 positions) were checked against the PDF ve
 
 Checked **2026-09-17**. The five food-residue/mucus rows use 🔵 absent → 🟢 single → 🟡 few → 🟠 fairly numerous. “Single” (*pojedyncze*) is less abundant than “few” (*nieliczne*), consistent with [PTDL's microscopy terminology, Table II](https://ptdl.pl/ptdl/wp-content/uploads/2024/06/Zalecenia-PTDL-2019-Zalecenia-Polskiego-Towarzystwa-Diagnostyki-Laboratoryjnej-dotyczace-badania-upostaciowanych-elementow-moczu-w-medycznym-laboratorium-diagnostycznym.pdf#page=14). The [ALAB stool test is qualitative](https://www.alab.pl/badanie/kal-badanie-ogolne-i-ocena-resztek-pokarmowych-a23); the urine guideline's numerical counts are not transferred to stool. Colors and trends show reported abundance relative to the report's **absent** reference, not clinical severity or a cause; green “single” still means present.
 
+## FFMI physique comparison
+
+The user-selected [FFMI Calculator scale](https://ffmicalculator.org/) is shown as discrete emoji bands. These describe physique, separately from the report's clinical result colors. They apply to FFMI in kg/m², not fat-free mass in kilograms.
+
+| FFMI | Color | Physique comparison |
+| :--- | :--- | :--- |
+| <18 | 🔴 | Below average |
+| 18–<20 | 🟠 | Average |
+| 20–<22 | 🟡 | Above average |
+| 22–<24 | 🟢 | Excellent |
+| 24–<26 | 🔵 | Superior |
+| ≥26 | 🟣 | Very high |
+
+The calculator describes height-normalized FFMI; this report retains the imported, unadjusted FFMI. They coincide at the documented 180cm height. Review this comparison if the configured height changes. Colors do not establish disease risk or drug use; the calculator's “suspicious” and “unlikely” labels are not assigned to individual readings.
+
 ## Reading trends
 
 - Health-score trend dots retain their established calculation where comparable. Overlapping numeric bounds cannot establish a trend; identical bounds mean an unchanged reporting category, not equal measurements.
@@ -80,9 +95,9 @@ Checked **2026-09-17**. The five food-residue/mucus rows use 🔵 absent → �
 - Deep sleep gets a favorable trend when both its duration and share of sleep increase, with benefit capped at the typical upper comparison of 23%. A higher percentage caused only by shorter total sleep is not an improvement. This is a practical recovery direction, supported by [Oura's deep-sleep guidance](https://support.ouraring.com/hc/en-us/articles/360057792293-Sleep-Contributors), not evidence that more deep sleep is always better or that exceeding 23% is harmful.
 - Small-change display floors: muscle **0.2 percentage points / 0.2kg**; bone **0.1 percentage points / 0.05kg**; fat-free mass **0.2kg**; visceral and breathing disturbance indices **0.1**; PWV **0.1m/s**; HR **0.5bpm**; deep sleep **5min and 1 percentage point**. Segmental muscle uses the greater of **0.05kg or 1%**. These are practical display settings, not validated clinical significance thresholds or device accuracy specifications; changes below them stay ⚪.
 - Blood-pressure changes stay ⚪ when **both systolic and diastolic change by less than 3mmHg**, in either direction, even across a preferred-target boundary. At or above that display floor in either component, the existing target-score comparison applies. Reading colors and reference limits are unchanged.
-- FFMI keeps its numeric monthly means in kg/m² and uses the vitals emoji convention. Comparable readings show ⚪ because the report defines no favorable FFMI direction; this denotes context-dependent change, not identical measurements. Insufficient or incomparable readings keep `-`.
+- FFMI keeps its numeric monthly means in kg/m². Its trend shows movement toward the selected Superior physique band at 24: 🟢 toward it, 🟡 away below it, and ⚪ for changes below 0.1kg/m² or when both readings are at least 24. This is a physique display preference, not a clinical target or a claim that ever-higher FFMI is healthier. Insufficient or incomparable readings keep `-`.
 - Direction-only trends describe recovery, disruption or device-model change. ⚪ means a small change, equal target distance, no change at displayed precision, or context-dependent change; it does not automatically mean identical measurements. Trend colors do not claim a clinical effect size or minor/major severity.
-- Calculations use the latest two nonmissing observations and displayed precision. Missing dates are skipped, so the previous observation may be more than one month earlier. A pending, inconclusive or uninterpretable latest result blocks an older comparison. One observation, fixed height, and unscored bounds or unrecognized categorical summaries have no trend.
+- Calculations use the latest two nonmissing observations at the stored precision. Whole numbers omit an all-zero fractional part only when displayed (114.0/76.3 → 114/76.3); nonzero fractions and source values remain intact. Missing dates are skipped, so the previous observation may be more than one month earlier. A pending, inconclusive or uninterpretable latest result blocks an older comparison. One observation, fixed height, and unscored bounds or unrecognized categorical summaries have no trend.
 - Recognized categorical summaries color each label, including Oura resilience and Garmin HRV status. Trends compare **proportions**, not raw day counts: an improvement requires no worse cumulative proportion at every ordered category boundary and a better proportion at least once; worsening reverses this rule. Mixed changes remain ⚪. Category codes are never averaged.
 - Microbiota retains **↑ +value**, **↓ −value** and **→ 0** for numerical changes on the laboratory scale, without a health judgment. The ordered stool descriptions above can show a direction toward or away from “absent”, without a numerical delta.
 - A table shows a Trend column only if a row has two comparable observations. Height is treated as fixed context. Trend appears immediately after the metric; empty month columns are omitted.
