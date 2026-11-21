@@ -1029,7 +1029,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
   - (alternative) [Mounjaro 2.4ml](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) 🩸 ❤️ ⏰ ⚕️
   15mg / 1.5ml  
   10mg / ml  
-  1.0mg -> 10IU/week
+  1.5mg -> 15IU/week
 - [CJC-1295 with DAC 5mg](https://pro-body.com/pl/produkt/cjc-1295-with-dac-5mg/)  
   5mg / 2.5ml  
   2mg / ml  
