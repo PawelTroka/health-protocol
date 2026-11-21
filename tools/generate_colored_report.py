@@ -2556,7 +2556,6 @@ def generate_html_report(output_path=REPORT_ROOT / "results.html"):
     html += "<h3 id='results-color-legend'>🎨 Color Legend</h3><ul>"
     html += render_color_legend_html()
     html += "<li>⚪ Context-dependent: no standalone health classification</li>"
-    html += "<li><b>FFMI</b>: <a href='results/Reference-Guide.md#ffmi-physique-comparison'>Physique comparison</a>, separate from clinical grades; 🟣 means very high on the selected scale.</li>"
     html += "</ul>"
     html += "<p class='note'>Single-result colors use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.</p>"
     html += "<p class='note'><a href='results/Reference-Guide.md'>Reference sources and methods</a> · <a href='results/Labs-2026-09-16/Sources.md'>September laboratory sources</a>.</p>"
@@ -2599,8 +2598,7 @@ def generate_md_report(output_path=REPORT_ROOT / "results.md"):
     md += "*   🟡 **Watch**: Mild meaningful deviation from target or range\n"
     md += "*   🟠 **Concern**: Significant deviation from target or range\n"
     md += "*   🔴 **Critical**: Severe or critical deviation\n"
-    md += "*   ⚪ **Context-dependent**: No standalone health classification\n"
-    md += "*   **FFMI**: [Physique comparison](results/Reference-Guide.md#ffmi-physique-comparison), separate from clinical grades; 🟣 means very high on the selected scale.\n\n"
+    md += "*   ⚪ **Context-dependent**: No standalone health classification\n\n"
     md += "[Reference sources and methods](results/Reference-Guide.md) · [September laboratory sources](results/Labs-2026-09-16/Sources.md).\n\n"
     md += "> **Color method:** Single-result emojis use marker-specific health targets when available, otherwise the lab reference range or qualitative reference. Blue does not mean higher or lower is always better; capped high-good targets are used where current evidence supports an upper comfort band.\n\n"
     md += "### Trend Legend\n"
