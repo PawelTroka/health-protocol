@@ -12,6 +12,7 @@ from .oura import OURA_CATEGORICAL_METRICS, OURA_METRICS
 from .withings import (WITHINGS_BREATHING_INDEX_METRICS, WITHINGS_CATEGORICAL_METRICS,
                        WITHINGS_METRICS, check_detail_file_coverage)
 from .garmin import GARMIN_CATEGORICAL_METRICS, GARMIN_METRICS
+from .garmin_performance import check_zone_file_coverage
 from .summary_statistics import (
     CLOCK_METRICS, EVENT_RATE_METRICS, TOTAL_METRICS, VARIABILITY_METRICS,
     aggregation_for, circular_summary, clock_text, report_value, valid_clock,
@@ -159,16 +160,20 @@ def merge_file_records(existing, incoming, providers, start, end, *, partial_api
     exports still require a single daily value and never mix with API versions.
     A Withings daily sleep value must cover every previously known contributing
     session before replacing that day; incomplete files require a full API sync.
+    Garmin daily HR-zone sums likewise require every known contributing activity.
     """
     # Reuse range/provider/input checks without treating a file as a full fetch.
     incoming = merge_records([], incoming, providers, start, end)
     existing = validate_records(existing)
     check_detail_file_coverage(existing, incoming)
     sleep_cells = _check_sleep_file_coverage(existing, incoming)
+    zone_cells = check_zone_file_coverage(existing, incoming)
 
     def key(record):
         if record["provider"] == "withings" and (record["day"], record["metric"]) in sleep_cells:
             identity = ("sleep-day", record["day"])
+        elif record["provider"] == "garmin" and (record["day"], record["metric"]) in zone_cells:
+            identity = ("workout-hr-zone-day", record["day"])
         else:
             identity = record["day"] if record["provider"] == "oura" else record["id"]
         return record["provider"], identity, record["metric"]
