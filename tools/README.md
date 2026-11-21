@@ -98,6 +98,8 @@ Accepted Withings JSON: `{"measuregrps": [...]}` from this sync client, or `{"me
 
 Garmin can also reimport a saved measurement envelope from this tool with `import --garmin-json "C:\path\garmin-readings.json"`. Its supported collections (`daily_summary`, `sleep`, `hrv`, `training_readiness`, `max_metrics`, `fitness_age`, `training_status`, `activities`, `activity_hr_zones`) contain lists of `{"day":"YYYY-MM-DD","data":<response>}`. This is not an importer for arbitrary Garmin CSV, FIT or full-account exports. Credential-bearing files are rejected; a partial file amends only supplied observations.
 
+Garmin workout HR-zone durations are already combined into daily sums. A replacement day/zone must include every previously known contributing activity; a subset or an untraceable cached total stops the import before reports, archives or cache are changed. Reimport all activities for that day or use a full API sync. Complete files may correct totals downward; omitted days and zone metrics remain unchanged.
+
 ## What gets averaged
 
 | Source | Automatically imported |
