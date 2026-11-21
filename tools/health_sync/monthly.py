@@ -16,6 +16,9 @@ from .summary_statistics import (
     CLOCK_METRICS, EVENT_RATE_METRICS, TOTAL_METRICS, VARIABILITY_METRICS,
     aggregation_for, circular_summary, clock_text, report_value, valid_clock,
 )
+from .composition_pairing import (
+    COMPOSITION_MASSES, GROUP_DIGEST, composition_group_digest, valid_group_provenance,
+)
 
 
 # The user reopened July on 2026-09-06. Original manual values remain in the
@@ -231,6 +234,10 @@ def aggregate(records, as_of):
                                 if r.get("daily_aggregation")})
         if daily_methods:
             entry["daily_aggregation"] = daily_methods
+        if provider == "withings" and metric in COMPOSITION_MASSES:
+            digest = composition_group_digest([record for readings in days.values() for record in readings])
+            if digest is not None:
+                entry[GROUP_DIGEST] = digest
         if metric in EVENT_RATE_METRICS:
             entry["n_matching_days"] = sum(value == 100 for value in daily)
         months.setdefault(month, {})[metric] = entry
@@ -294,6 +301,8 @@ def load_monthly(path):
                 raise ValueError("Invalid partial-month flag.")
             if not isinstance(entry.get("n_records"), int) or entry["n_records"] < entry["n_days"]:
                 raise ValueError("Invalid monthly-vitals reading count.")
+            if GROUP_DIGEST in entry and (metric not in COMPOSITION_MASSES or not valid_group_provenance(entry)):
+                raise ValueError("Invalid Withings composition measurement-group provenance.")
             if not first <= iso_date(entry["first_day"]) <= iso_date(entry["last_day"]) <= as_of or entry["last_day"][:7] != month:
                 raise ValueError("Invalid monthly-vitals observation dates.")
             if "observed_days" in entry:

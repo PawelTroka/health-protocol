@@ -11,6 +11,7 @@ from fractions import Fraction
 import re
 
 from .activity_targets import TARGETS as ACTIVITY_TARGETS
+from .composition_pairing import matched_composition_groups
 from .recovery_targets import TARGETS as RECOVERY_TARGETS
 from .sleep_targets import TARGETS as SLEEP_TARGETS
 
@@ -149,7 +150,7 @@ for marker, pct, band, normal in (
 ):
     comparison = f"{normal[0]}–{normal[1]}%; target {pct}%" if normal != band else f"{pct}%"
     BODY_TARGETS[marker] = {"reference": f"{comparison} of body mass", "target": band, "normal": normal,
-                           "transform": ("ratio", "Body Mass", 100)}
+                           "transform": ("ratio", "Body Mass", 100), "require_same_groups": True}
 
 # Percentages can rise through fat loss while tissue mass stays unchanged.
 # Compare kg rows in kg; retain the ratio only for their value status.
@@ -249,6 +250,8 @@ def evaluated_value(marker, value, context=None):
         other = context.get(transform[1], {})
         divisor = number(other.get("value"))
         if divisor is None or divisor <= 0 or not matched_days([context.get(marker), other]):
+            return None
+        if rule.get("require_same_groups") and not matched_composition_groups(context[marker], other):
             return None
         ratio = val / divisor * Decimal(str(transform[2]))
         return ratio if 0 <= ratio <= 100 else None

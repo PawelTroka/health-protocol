@@ -137,15 +137,15 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | Metric | Trend | 2026-09 | 2026-08 | 2026-07 | Unit | *Reference* | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Body Water** | ⚪ | 🟢<sup>6</sup> 57.8 | 🟢<sup>6</sup> 57.3 | 🟢<sup>6</sup> 56.3 | % | 50–65 | Withings |
-| **Bone Mass** | ⚪ | 🟢<sup>6</sup> 3.31 | 🟢<sup>6</sup> 3.32 | 3.32<sup>6</sup> | kg | 3–5% of body mass | Withings |
+| **Bone Mass** | - | 3.31<sup>6</sup> | 3.32<sup>6</sup> | 3.32<sup>6</sup> | kg | 3–5% of body mass | Withings |
 | **Extracellular Water** | ⚪ | 17.26<sup>6</sup> | 17.35<sup>6</sup> | 17.52<sup>6</sup> | kg | - | Withings |
-| **Fat Mass** | 🟢 | 🔵<sup>6</sup> 11.62 | 🟢<sup>6</sup> 12.87 | 15.25<sup>6</sup> | kg | 8–20%; target 10–15% of body mass | Withings |
+| **Fat Mass** | - | 11.62<sup>6</sup> | 12.87<sup>6</sup> | 15.25<sup>6</sup> | kg | 8–20%; target 10–15% of body mass | Withings |
 | **Fat Mass - Left Arm** | ⚪ | 0.39<sup>6</sup> | 0.43<sup>6</sup> | 0.54<sup>6</sup> | kg | - | Withings |
 | **Fat Mass - Left Leg** | ⚪ | 1.95<sup>6</sup> | 2.11<sup>6</sup> | 2.34<sup>6</sup> | kg | - | Withings |
 | **Fat Mass - Right Arm** | ⚪ | 0.39<sup>6</sup> | 0.42<sup>6</sup> | 0.53<sup>6</sup> | kg | - | Withings |
 | **Fat Mass - Right Leg** | ⚪ | 1.99<sup>6</sup> | 2.17<sup>6</sup> | 2.40<sup>6</sup> | kg | - | Withings |
 | **Fat Mass - Torso** | ⚪ | 6.90<sup>6</sup> | 7.74<sup>6</sup> | 9.44<sup>6</sup> | kg | - | Withings |
-| **Fat-Free Mass** | ⚪ | 🔵<sup>6</sup> 68.36 | 🟢<sup>6</sup> 68.44 | 68.49<sup>6</sup> | kg | 80–92%; target 85–90% of body mass | Withings |
+| **Fat-Free Mass** | - | 68.36<sup>6</sup> | 68.44<sup>6</sup> | 68.49<sup>6</sup> | kg | 80–92%; target 85–90% of body mass | Withings |
 | **Fat-Free Mass - Left Arm** | ⚪ | 4.58<sup>6</sup> | 4.58<sup>6</sup> | 4.54<sup>6</sup> | kg | - | Withings |
 | **Fat-Free Mass - Left Leg** | ⚪ | 11.75<sup>6</sup> | 11.83<sup>6</sup> | 11.98<sup>6</sup> | kg | - | Withings |
 | **Fat-Free Mass - Right Arm** | ⚪ | 4.61<sup>6</sup> | 4.68<sup>6</sup> | 4.60<sup>6</sup> | kg | - | Withings |
@@ -153,13 +153,13 @@ Monthly summaries; current month to date. Dated snapshots are identified in the 
 | **Fat-Free Mass - Torso** | ⚪ | 35.63<sup>6</sup> | 35.51<sup>6</sup> | 35.39<sup>6</sup> | kg | - | Withings |
 | **Intracellular Water** | ⚪ | 28.93<sup>6</sup> | 29.25<sup>6</sup> | 29.63<sup>6</sup> | kg | - | Withings |
 | **Lean Mass** | 🟢 | 🔵<sup>6</sup> 85.5 | 🟢<sup>6</sup> 84.2 | 🟢<sup>6</sup> 81.8 | % | 80–92; practical target 85–90 | Withings |
-| **Muscle Mass** | ⚪ | 🟢<sup>6</sup> 65.05 | 🟢<sup>6</sup> 65.12 | 65.17<sup>6</sup> | kg | 75–89% of body mass | Withings |
+| **Muscle Mass** | - | 65.05<sup>6</sup> | 65.12<sup>6</sup> | 65.17<sup>6</sup> | kg | 75–89% of body mass | Withings |
 | **Muscle Mass - Left Arm** | ⚪ | 4.44<sup>6</sup> | 4.43<sup>6</sup> | 4.40<sup>6</sup> | kg | Maintain / build muscle | Withings |
 | **Muscle Mass - Left Leg** | ⚪ | 11.03<sup>6</sup> | 11.08<sup>6</sup> | 11.21<sup>6</sup> | kg | Maintain / build muscle | Withings |
 | **Muscle Mass - Right Arm** | 🟡 | 4.46<sup>6</sup> | 4.54<sup>6</sup> | 4.47<sup>6</sup> | kg | Maintain / build muscle | Withings |
 | **Muscle Mass - Right Leg** | ⚪ | 10.99<sup>6</sup> | 11.00<sup>6</sup> | 11.15<sup>6</sup> | kg | Maintain / build muscle | Withings |
 | **Muscle Mass - Torso** | ⚪ | 34.14<sup>6</sup> | 34.07<sup>6</sup> | 33.95<sup>6</sup> | kg | Maintain / build muscle | Withings |
-| **Water Mass** | ⚪ | 🟢<sup>6</sup> 46.19 | 🟢<sup>6</sup> 46.60 | 47.15<sup>6</sup> | kg | 50–65% of body mass | Withings |
+| **Water Mass** | - | 46.19<sup>6</sup> | 46.60<sup>6</sup> | 47.15<sup>6</sup> | kg | 50–65% of body mass | Withings |
 
 ### Heart and circulation details
 

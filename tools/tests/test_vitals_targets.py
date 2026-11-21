@@ -5,6 +5,7 @@ from decimal import Decimal
 import unittest
 
 from tools.health_sync import vitals_targets as targets
+from tools.health_sync.composition_pairing import COMPOSITION_MASSES, GROUP_DIGEST
 from tools.health_sync.garmin import GARMIN_METRICS
 from tools.health_sync.oura import OURA_METRICS
 from tools.health_sync.withings import WITHINGS_METRICS
@@ -16,6 +17,9 @@ def context(provider, values, days=("2026-08-01", "2026-08-03")):
             "value": str(value), "provider": provider,
             "observed_days": list(days), "first_day": days[0],
             "last_day": days[-1], "n_days": len(days),
+            # Synthetic paired scale readings for component-mass policy tests.
+            **({GROUP_DIGEST: "a" * 64, "n_records": len(days), "source_kinds": ["api"]}
+               if provider == "withings" and marker in COMPOSITION_MASSES else {}),
         }
         for marker, value in values.items()
     }
