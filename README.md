@@ -798,94 +798,94 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
 
 ### Oral health / teethmaxxing
-- 🥇 [Incognito](https://orthodonticassoc.com/treatments/incognito/) lingual orthodontic braces if uneven/crooked teeth or bite 🦷
-- 🥇 Mandibular osteotomy (Bilateral Sagittal Split Osteotomy (BSSO) / jawline advancement) if orthodontics alone are not enough to fix bite/jaw alignment issues 🦷
-- 🥇 Wear retainers (nightly) if after orthodontic treatment 🦷
+- [Incognito](https://orthodonticassoc.com/treatments/incognito/) lingual orthodontic braces if uneven/crooked teeth or bite 🦷
+- Mandibular osteotomy (Bilateral Sagittal Split Osteotomy (BSSO) / jawline advancement) if orthodontics alone are not enough to fix bite/jaw alignment issues 🦷
+- Wear retainers (nightly) if after orthodontic treatment 🦷
 - Mouthwash protocol:
-  - 🥈 After professional dentist cleaning: 0.2% chlorhexidine mouthwash like [Curasept](https://allegro.pl/oferta/plyn-do-plukania-curasept-ads-dna-220-chlorhexidine-0-20-200-ml-16510740761) (for a week) 🟡 🦷
-  - 🥈 When using orthodontic braces: [Eludril Ortho](https://allegro.pl/produkt/eludril-ortho-ortodontyczny-plyn-do-plukania-jamy-ustnej-500-ml-a905bf84-1178-4f98-b31b-3da919da2410) (Twice daily) 🦷
-  - 🥈 For normal care: non-alcohol mouthwash like [ApaCare OraLactin Liquid](https://allegro.pl/produkt/apacare-liquid-enamel-plyn-remineralizujacy-do-plukania-jamy-ustnej-200-ml-df2d1e7e-50aa-4824-8b54-3c1169092719?offerId=17121623399) (Twice daily) 🦷
-- 🥈 Water flosser [waterpik ultra professional WP660](https://csk-med.pl/waterpik-wp-660) (Twice daily) 🦷
-- 🥇 Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and medical-grade toothpaste with aminofluoride like [Elmex Sensitive Professional](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) or 🥈 nano-hydroxyapatite (n-HA) alternative like Risewell Mineral if afraid of fluoride (Twice daily) 🦷
-- 🥈 Tongue scraper (daily) 🦷
-- 🥈 Floss [Oral-B SuperFloss](https://allegro.pl/oferta/nic-dentystyczna-oral-b-superfloss-dental-floss-threader-50-szt-17333503650) (Weekly) 🦷
-- 🥉 Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Monthly) 🦷
+  - After professional dentist cleaning: 0.2% chlorhexidine mouthwash like [Curasept](https://allegro.pl/oferta/plyn-do-plukania-curasept-ads-dna-220-chlorhexidine-0-20-200-ml-16510740761) (for a week) 🟡 🦷
+  - When using orthodontic braces: [Eludril Ortho](https://allegro.pl/produkt/eludril-ortho-ortodontyczny-plyn-do-plukania-jamy-ustnej-500-ml-a905bf84-1178-4f98-b31b-3da919da2410) (Twice daily) 🦷
+  - For normal care: non-alcohol mouthwash like [ApaCare OraLactin Liquid](https://allegro.pl/produkt/apacare-liquid-enamel-plyn-remineralizujacy-do-plukania-jamy-ustnej-200-ml-df2d1e7e-50aa-4824-8b54-3c1169092719?offerId=17121623399) (Twice daily) 🦷
+- Water flosser [waterpik ultra professional WP660](https://csk-med.pl/waterpik-wp-660) (Twice daily) 🦷
+- Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and medical-grade toothpaste with aminofluoride like [Elmex Sensitive Professional](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) or nano-hydroxyapatite (n-HA) alternative like Risewell Mineral if afraid of fluoride (Twice daily) 🦷
+- Tongue scraper (daily) 🦷
+- Floss [Oral-B SuperFloss](https://allegro.pl/oferta/nic-dentystyczna-oral-b-superfloss-dental-floss-threader-50-szt-17333503650) (Weekly) 🦷
+- Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Monthly) 🦷
 
 ### Face
 #### Skincare
-- 🥇 Avoid sun exposure ☀️
-- 🥈 Anti-large pores cleanser [CeraVe Blemish Control](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) (Twice daily) 👨‍🦳 💧
-- 🥇 Moisturizer [CeraVe Facial Moisturizing Cream 52ml](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) or [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) (Twice daily) 👨‍🦳 💧
-- 🥉 Anti-aging GHK-Cu peptide cream [Theramid Copper Peptide 3%](https://nichebeautylab.com/en/products/copper-peptide) 👨‍🦳
-- 🥇 SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (daily) ☀️ 👨‍🦳
-- 🥈 Anti-aging retinoid cream [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.025% (weekly) 👨‍🦳 ⚕️
-- 🥉 (optional) [SNAP-8 peptide cream](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) 👨‍🦳
+- Avoid sun exposure ☀️
+- Anti-large pores cleanser [CeraVe Blemish Control](https://allegro.pl/oferta/zel-myjacy-przeciw-niedoskonalosciom-cerave-skora-tlusta-tradzikowa-236ml-14123228666) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) (Twice daily) 👨‍🦳 💧
+- Moisturizer [CeraVe Facial Moisturizing Cream 52ml](https://allegro.pl/oferta/cerave-nawilzajacy-krem-do-twarzy-dla-skory-normalnej-i-suchej-52ml-14336124613) or [CeraVe Oil Control Gel-Cream](https://allegro.pl/produkt/cerave-nawilzajacy-zel-krem-oil-control-dla-skory-mieszanej-i-tlustej-52ml-a93c4dbf-c4e1-4097-a8a2-208896504ad6) (Twice daily) 👨‍🦳 💧
+- Anti-aging GHK-Cu peptide cream [Theramid Copper Peptide 3%](https://nichebeautylab.com/en/products/copper-peptide) 👨‍🦳
+- SPF50+ sunscreen [La Roche-Posay Anthelios UVMune 400 Invisible Fluid SPF50+](https://www.lek24.pl/la-roche-posay-anthelios-uv-mune-400-fluid-niewidoczny-spf-50-skora-wrazliwa-50ml.html) (daily) ☀️ 👨‍🦳
+- Anti-aging retinoid cream [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) or Tretinoin 0.025% (weekly) 👨‍🦳 ⚕️
+- (optional) [SNAP-8 peptide cream](https://allegro.pl/produkt/apis-lifting-peptide-liftingujaco-napinajacy-krem-z-snap-8-peptide-100ml-769148f8-e0d2-4e8a-8ac4-bb16be236f59) 👨‍🦳
 
 #### Home procedures
-- 🥉 [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week) 👨‍🦳
-- 🥈 (optional) Chemical peeling [The Ordinary AHA 30% + BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (monthly) 👨‍🦳
-- 🥉 (optional) Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide 👨‍🦳
+- [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week) 👨‍🦳
+- (optional) Chemical peeling [The Ordinary AHA 30% + BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (monthly) 👨‍🦳
+- (optional) Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide 👨‍🦳
 
 #### Professional procedures
-- 🥈 Microneedling (monthly) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk) 👨‍🦳
-- 🥇 Botox (Glabella, Forehead, Crow's feet) (every 4 months) 👨‍🦳 ⚕️
-- 🥈 [ResurFX 1565nm fractional non-ablative laser for enlarged pores](https://booksy.com/pl-pl/239368_da-vinci-beauty-clinic_medycyna-estetyczna_20383_gdansk) or [Fractional CO2 laser for cheeks](https://booksy.com/pl-pl/239381_wilenska-beauty-clinic-r_medycyna-estetyczna_20383_gdansk) (yearly) 👨‍🦳
-- 🥈 (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk) 👨‍🦳
-- 🥇 (optional) Sculptra (yearly) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk) 👨‍🦳 🗿
-- 🥇 (optional) Radiesse (yearly) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk) 👨‍🦳 🗿
+- Microneedling (monthly) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk) 👨‍🦳
+- Botox (Glabella, Forehead, Crow's feet) (every 4 months) 👨‍🦳 ⚕️
+- [ResurFX 1565nm fractional non-ablative laser for enlarged pores](https://booksy.com/pl-pl/239368_da-vinci-beauty-clinic_medycyna-estetyczna_20383_gdansk) or [Fractional CO2 laser for cheeks](https://booksy.com/pl-pl/239381_wilenska-beauty-clinic-r_medycyna-estetyczna_20383_gdansk) (yearly) 👨‍🦳
+- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk) 👨‍🦳
+- (optional) Sculptra (yearly) at [Rituals Aesthetic](https://booksy.com/pl-pl/295289_rituals-aesthetic-by-joanna_salon-kosmetyczny_20383_gdansk) 👨‍🦳 🗿
+- (optional) Radiesse (yearly) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk) 👨‍🦳 🗿
 
 ### Lips
-- 🥇 Moisturizing lip balm [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
-- 🥇 SPF50+ lip balm [Avène 3g](https://www.eau-thermale-avene.pl/p/pomadka-do-ust-spf-50-3282770204797-808759b4) ☀️ 👨‍🦳
+- Moisturizing lip balm [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
+- SPF50+ lip balm [Avène 3g](https://www.eau-thermale-avene.pl/p/pomadka-do-ust-spf-50-3282770204797-808759b4) ☀️ 👨‍🦳
 
 ### Eyes
-- 🥇 Under-eye moisturizer [Bioderma Atoderm Intensive Eye 100ml](https://www.doz.pl/p/bioderma-atoderm-intensive-eye-kojacy-krem-3w1-100-ml-146776) or [La Roche-Posay Toleriane Dermallergo Eyes 20ml](https://gemini.pl/la-roche-posay-toleriane-dermallergo-okolice-oczu-regenerujaca-pielegnacja-nawilzajaca-20-ml-0090968) (Twice daily) 👨‍🦳 💧
-- 🥉 (optional) Under-eye PRF (Twice yearly) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk) 👨‍🦳
-- 🥈 (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk) 👨‍🦳
-- 🥉 (optional) INFINI Premium VE at [WILENSKA CLINIC](https://booksy.com/pl-pl/239381_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk) 👨‍🦳
+- Under-eye moisturizer [Bioderma Atoderm Intensive Eye 100ml](https://www.doz.pl/p/bioderma-atoderm-intensive-eye-kojacy-krem-3w1-100-ml-146776) or [La Roche-Posay Toleriane Dermallergo Eyes 20ml](https://gemini.pl/la-roche-posay-toleriane-dermallergo-okolice-oczu-regenerujaca-pielegnacja-nawilzajaca-20-ml-0090968) (Twice daily) 👨‍🦳 💧
+- (optional) Under-eye PRF (Twice yearly) at [OW Beauty Studio](https://booksy.com/en-pl/198984_ow-beauty-studio_medycyna-estetyczna_20383_gdansk) 👨‍🦳
+- (optional) Tixel face+eyelids at [MED KOSMETOLOGICZNY INSTYTUT URODY](https://booksy.com/pl-pl/219487_med-kosmetologiczny-instytut-urody_medycyna-estetyczna_20383_gdansk) 👨‍🦳
+- (optional) INFINI Premium VE at [WILENSKA CLINIC](https://booksy.com/pl-pl/239381_wilenska-clinic-r_medycyna-estetyczna_20383_gdansk) 👨‍🦳
 
 ### Hair
 #### Haircare
 - Regular visits to [a good hairdresser](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (every 3 weeks) 💇‍♂️
-- 🥈 Use of [Philip Kingsley No Scent No Colour Shampoo 1,000ml](https://www.philipkingsley.co.uk/philip-kingsley-no-scent-no-colour-shampoo-1000ml.html) (2-3 times weekly) 💇‍♂️
-- 🥇 Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (weekly) 💇‍♂️ 🍄
-- 🥇 Use of [Philip Kingsley No Scent No Colour Conditioner](https://www.flaconi.pl/wlosy/philip-kingsley/no-scent-no-colour/philip-kingsley-no-scent-no-colour-odzywka.html) (after every shampoo) 💇‍♂️ 💧
-- 🥇 Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (every second day) ⚕️ 💇‍♂️
-- 🥉 Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (twice daily) 💇‍♂️
-- 🥇 Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (twice daily) 💇‍♂️
+- Use of [Philip Kingsley No Scent No Colour Shampoo 1,000ml](https://www.philipkingsley.co.uk/philip-kingsley-no-scent-no-colour-shampoo-1000ml.html) (2-3 times weekly) 💇‍♂️
+- Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (weekly) 💇‍♂️ 🍄
+- Use of [Philip Kingsley No Scent No Colour Conditioner](https://www.flaconi.pl/wlosy/philip-kingsley/no-scent-no-colour/philip-kingsley-no-scent-no-colour-odzywka.html) (after every shampoo) 💇‍♂️ 💧
+- Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (every second day) ⚕️ 💇‍♂️
+- Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (twice daily) 💇‍♂️
+- Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (twice daily) 💇‍♂️
 
 #### Home procedures
-- 🥉 Use of [Hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) (twice daily) 💇‍♂️
-- 🥈 [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304) (3-5 times weekly) 💇‍♂️
-- 🥈 [Dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) or [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly) 💇‍♂️
+- Use of [Hair scalp massager](https://allegro.pl/oferta/szczotka-masazer-do-mycia-wlosow-masazu-skory-glowy-szczotka-silikonowa-15248274514) (twice daily) 💇‍♂️
+- [Red Light Therapy cap 650nm with 272 LEDs](https://zireemed.com/products/laser-hair-growth-cap?variant=49638203392304) (3-5 times weekly) 💇‍♂️
+- [Dermaroller](https://pro-peptydy.pl/produkt/derma-roller/) or [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly) 💇‍♂️
 
 #### Professional procedures
-- 🥈 Scalp PRP at Elizaveta Purtova (+48-501-329-921) (every 3-4 months) 💇‍♂️
-- 🥉 (optional) Exosomes at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (yearly) 💇‍♂️
+- Scalp PRP at Elizaveta Purtova (+48-501-329-921) (every 3-4 months) 💇‍♂️
+- (optional) Exosomes at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (yearly) 💇‍♂️
 
 ### Eyebrows
-- 🥇 [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily) 💇‍♂️ ⚕️
-- 🥈 Minoxidil 5% (daily) 💇‍♂️
-- 🥉 [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly) 💇‍♂️
+- [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily) 💇‍♂️ ⚕️
+- Minoxidil 5% (daily) 💇‍♂️
+- [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly) 💇‍♂️
 - Styling at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk) (monthly)
-- 🥈 (optional) Microblading at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12) (yearly) 💇‍♂️ 🗿
+- (optional) Microblading at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12) (yearly) 💇‍♂️ 🗿
 
 ### Beard
 - Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (weekly) 🧔
-- 🥈 Application of minoxidil 5% (daily) 🧔
-- 🥉 [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly) 🧔
-- 🥈 Use of beard oil (daily) 🧔 💧
+- Application of minoxidil 5% (daily) 🧔
+- [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly) 🧔
+- Use of beard oil (daily) 🧔 💧
 
 ### ABS
-- 🥉 Aqualyx 4vials (monthly for 4 months; then yearly) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia) 🗿
-- 🥈 EmSculpt Neo (4-6 sessions, once per week; then yearly) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk) 🗿
-- 🥇 (Optional) VASER High-Definition Lipo 🗿
+- Aqualyx 4vials (monthly for 4 months; then yearly) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia) 🗿
+- EmSculpt Neo (4-6 sessions, once per week; then yearly) at [Holiskin](https://booksy.com/en-pl/260740_holiskin_medycyna-estetyczna_20383_gdansk) 🗿
+- (Optional) VASER High-Definition Lipo 🗿
 
 ### Body
-- 🥇 Body Wash [La Roche-Posay Lipikar Syndet AP+](https://gemini.pl/la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-zapas-400-ml-0121873) or [Ceramedx® Extra Gentle Body Cleanser](https://ceramedx.com/products/extra-gentle-body-cleanser) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) 👨‍🦳 💧
-- 🥇 Body Moisturizer [La Roche-Posay Lipikar AP+M](https://gemini.pl/zestaw-la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-400-ml-balsam-do-ciala-skora-sucha-i-atopowa-od-urodzenia-400-ml-0122554) or [Avène XeraCalm A.D Lipid-Replenishing Balm](https://www.wapteka.pl/produkt/avene-xeracalm-ad-balsam-uzupelniajacy-lipidy-200-ml,4958/) or [CeraVe Moisturizing Lotion](https://mollo.pl/cerave-emulsja-nawilzajaca-do-twarzy-i-ciala-skora-sucha-1000ml-57455-p) 👨‍🦳 💧
-- 🥇 Hand Wash [La Roche-Posay Lipikar Syndet AP+](https://gemini.pl/la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-zapas-400-ml-0121873) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) 👨‍🦳 💧
-- 🥇 Hand Cream [CeraVe Hand Repair Cream](https://allegro.pl/produkt/cerave-regenerujacy-krem-do-bardzo-suchej-skory-rak-3-ceramidy-100-ml-96a251fc-9016-4a0c-948d-9d79c262b0f8) or [Avène Cicalfate Hand Cream](https://allegro.pl/oferta/avene-cicalfate-repair-barrier-cream-regenerujacy-krem-do-rak-100-ml-18155514088) 👨‍🦳 💧
+- Body Wash [La Roche-Posay Lipikar Syndet AP+](https://gemini.pl/la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-zapas-400-ml-0121873) or [Ceramedx® Extra Gentle Body Cleanser](https://ceramedx.com/products/extra-gentle-body-cleanser) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) 👨‍🦳 💧
+- Body Moisturizer [La Roche-Posay Lipikar AP+M](https://gemini.pl/zestaw-la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-400-ml-balsam-do-ciala-skora-sucha-i-atopowa-od-urodzenia-400-ml-0122554) or [Avène XeraCalm A.D Lipid-Replenishing Balm](https://www.wapteka.pl/produkt/avene-xeracalm-ad-balsam-uzupelniajacy-lipidy-200-ml,4958/) or [CeraVe Moisturizing Lotion](https://mollo.pl/cerave-emulsja-nawilzajaca-do-twarzy-i-ciala-skora-sucha-1000ml-57455-p) 👨‍🦳 💧
+- Hand Wash [La Roche-Posay Lipikar Syndet AP+](https://gemini.pl/la-roche-posay-lipikar-syndet-ap-krem-myjacy-do-ciala-uzupelniajacy-poziom-lipidow-od-urodzenia-zapas-400-ml-0121873) or [CeraVe Hydrating Cleanser](https://allegro.pl/oferta/cerave-emulsja-nawilzajaca-do-mycia-dla-skory-normalnej-i-suchej-1l-15502121864) 👨‍🦳 💧
+- Hand Cream [CeraVe Hand Repair Cream](https://allegro.pl/produkt/cerave-regenerujacy-krem-do-bardzo-suchej-skory-rak-3-ceramidy-100-ml-96a251fc-9016-4a0c-948d-9d79c262b0f8) or [Avène Cicalfate Hand Cream](https://allegro.pl/oferta/avene-cicalfate-repair-barrier-cream-regenerujacy-krem-do-rak-100-ml-18155514088) 👨‍🦳 💧
 
 
 ## 7. Cookware
@@ -1086,10 +1086,6 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 ## Legend
 
-Icons distinguish nutritional roles, clinical targets and the systems assessed by tests/devices. A target is not a diagnosis or a guaranteed response. [The supporting review](supplements/EMOJI_EVIDENCE_REVIEW.md) records protocol value, dose, formulation, population and outcome behind the choices (reviewed 2026-11-22).
-
-**Food and nutrient icons:** highlight composition or normal physiological roles, not enhancement in a replete person. A food's polyphenols or a supplement's antioxidant activity do not by themselves earn an immune, cognition or longevity tag. Food-group pictograms and care-category icons are descriptive.
-
 **Blueprint comparisons**
 
 - BJ-LM - [Bryan Johnson Longevity Mix](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)
@@ -1107,10 +1103,6 @@ Medals combine **strength of benefits for this protocol × strength of evidence 
 - 🥇 Gold — High combined benefit–evidence value: a large plausible, relevant benefit can offset less mature evidence; a modest meaningful benefit can also qualify when its evidence is very strong
 - 🥈 Silver — Moderate combined benefit–evidence value: useful expected benefit, with its magnitude, relevance or evidential support keeping the overall assessment below Gold
 - 🥉 Bronze — Low or highly uncertain combined benefit–evidence value for the written use; the expected gain may be small, poorly matched to this protocol or insufficiently supported
-
-**Applying medals:** assess the actual purpose, dose/form, daily exposure, population, current needs and contribution alongside the rest of the protocol. Evidence strength is one input; novelty, essential nutrient status and a high study count do not determine the medal by themselves. A blend is assessed for its combined useful contribution without assuming synergy. Grade food alternatives as replacements within their meal role and TODO candidates for their stated conditional use. A medicine's indication and a test's reason for use affect expected benefit. Record evidence limits separately, including when a Gold intervention has an uncertain exact regimen. The supporting review explains these judgments without invented numerical scores.
-
-Medals do not certify safety, product purity, a prescription indication or a guaranteed response. Target icons describe intended benefit areas or systems assessed; each additional icon does not inherit the same evidence strength. Avoid-list entries, the vaccine record, TODO Food options, historical records, administrative details, equipment specifications, empty slots and links to already graded schedules are unmedalled. Promote, Sleep and Daily Tracking retain main’s wording and annotations for manual editing; they are not regraded in this review.
 
 **Status and preparation**
 
