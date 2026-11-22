@@ -2,38 +2,15 @@
 
 **Reviewed: 22 November 2026 · Refreshed from main: `b07cae4` · Canonical protocol: [README](../README.md)**
 
-This review covers active interventions, separately assessed blend ingredients, active Diet choices, tests, exercise, care routines and health research candidates. It uses primary human research, product information, trial records and relevant guidance available through the review date. The medals are qualitative protocol judgments, not a validated clinical scoring system or a GRADE assessment. “No matching result located” describes the search and its limits.
+This review records the reasoning and sources for active interventions, separately assessed blend ingredients, active Diet choices, tests, exercise, care routines and health research candidates. It uses primary human research, product information, trial records and relevant guidance available through the review date. “No matching result located” describes the search and its limits.
 
-## Decision rules
+## Assessment method
 
-**Medal = strength of benefits for this protocol × strength of evidence supporting those benefits.** The benefits concern Health, Longevity, Looksmaxxing and Sexual Health at the written use. Evidence strength is one input to the combined judgment. A large plausible, relevant benefit can earn Gold with less mature evidence; a modest meaningful benefit can also earn Gold with very strong evidence.
+The [README Legend](../README.md#legend) is the single reference for medal, target-icon and status-symbol meanings. The tables below record the relevant protocol benefit, study findings and remaining uncertainty. Evidence appraisal considers study design, replication, effect size, endpoints, population and dose/form/route match. Biomarkers, clinical outcomes, trial registrations and early human findings retain their distinct evidential limits.
 
-| Medal | Combined assessment | How to read it |
-| --- | --- | --- |
-| 🥇 Gold | High benefit × evidence value for this protocol | The balance can come from substantial plausible benefit, especially strong supporting evidence, or both. Read the row's remaining uncertainties. |
-| 🥈 Silver | Moderate benefit × evidence value | Useful expected benefit, with its size, relevance or evidential support keeping the combined assessment below Gold. |
-| 🥉 Bronze | Low or highly uncertain benefit × evidence value for the written use | Small likely gains, poor fit or insufficient support for a useful benefit can produce this grade. It does not establish that the intervention can never help. |
-
-The product is conceptual: the evidence does not support invented numerical inputs, weights or thresholds. The tables explain the judgment through protocol benefit and supporting evidence. There is no medal quota or rule that an early-stage intervention must be Bronze.
-
-1. **Assess the benefit in this protocol.** Consider its likely magnitude, duration, relevant goals, symptom or deficiency context, exposure and contribution alongside existing measures. Potential benefits count when credible; biological excitement alone is insufficient. Favorable measurements during treatment do not establish that a treatment is unnecessary.
-2. **Assess the supporting evidence.** Consider study design, size, replication, effect size, endpoints, population and dose/form/route match. Evidence from a materially equivalent product can transfer without a retail-brand trial. A dose gap reduces confidence proportionately; it is not an automatic ceiling on the medal.
-3. **Judge the whole useful contribution consistently.** A food, medicine or blend is assessed for its relevant benefits together. Do not grade one berry solely for a vascular claim while grading neighboring berries for nutrition. A blend's main effective ingredients can justify a high grade; this does not prove synergy. Ingredient rows describe their contribution to the current daily exposure, without counting that same benefit twice.
-4. **Keep ordinary nutrition in context.** Reliable nutrient provision can be valuable, especially for a meaningful gap, dietary replacement or training need. A label listing an essential nutrient is insufficient by itself to establish high additional benefit. Food alternatives are assessed as replacements within their meal role, and conditional candidates for the stated scenario.
-5. **Keep evidence limits visible at every tier.** Gold does not make an exact off-label regimen proven. A marker change supports that marker; a clinical benefit beyond it needs its own support. Registered studies, sponsor announcements, small pilots and animal findings retain those descriptions after the combined medal is assigned.
-6. **Use the other emojis independently.** Target icons identify intended benefit areas, nutritional roles or systems assessed; their presence does not establish a diagnosis or equally strong evidence for every target. A test's benefit depends on why it is ordered and whether a result can guide care. Prescription, subscription, preparation, FODMAP and staining flags retain their [Legend](../README.md#legend) meanings.
-
-Medals do not certify safety, product purity, a prescription indication or a guaranteed response. Those remain separate clinical and product-quality questions. The Avoid list, vaccine record and TODO Food options are unmedalled as requested. Historical records, administrative details, equipment specifications, empty slots and navigation links also receive no independent grade. The vaccine section is restored to main without this PR's added grading or schedule audit.
-
-Products, doses, medicine schedules, food portions, checked selections, timing and compartment allocation are preserved. Main's current sweet-potato preparation/nutrition, PHGG and Boswellia entries remain included.
-
-## What changed after review
-
-The earlier evidence-certainty-only interpretation is corrected throughout the README, this rationale and the pillbox guide. Every grade below is reconsidered as benefit × evidence; the individual rows state why a grade changes or remains. Both tirzepatide entries are Gold for their high combined body-composition/appetite value, with the exact low-dose regimen and product uncertainties stated separately. Minor nutritional add-ons no longer receive automatic Gold from essentiality alone, and an intervention with large relevant potential is no longer automatically capped by early evidence.
+**Review scope:** Promote, Sleep and Daily Tracking retain main’s wording and annotations for manual editing and are not regraded here. Products, doses, medicine schedules, food portions, checked selections, timing and compartment allocation are preserved. Main’s current sweet-potato preparation/nutrition, PHGG and Boswellia entries remain included.
 
 ## Morning evidence review
-
-Reviewed **22 November 2026**. Each medal combines **the size and relevance of the benefit for this protocol × the strength of the evidence supporting that benefit**. The judgment includes the chosen goal, dose, current food and supplement sources, and plausible upside. The two factors are described below rather than converted into invented numerical scores. Limited replication does not impose a Silver ceiling, and a reliable physiological effect does not automatically make its extra contribution Gold. Target icons retain their separate meanings. Products, doses, timing and compartment positions are unchanged.
 
 ### Nutrient coverage in this protocol
 
@@ -117,8 +94,6 @@ Repeated entries share a daily-regimen grade. Their benefits are not counted aga
 
 ## Workout and evening evidence review
 
-Reviewed **22 November 2026**. These medals combine the **size and relevance of the expected benefit for this protocol × the strength of evidence supporting it**. The benefit judgment includes the daily training, muscle-preservation, sleep, stress and appearance goals, the written exposure and the surrounding stack. The evidence column records limitations separately; a small study or a modest dose mismatch does not impose an automatic ceiling. Conversely, knowing that a substance supplies a nutrient does not establish a large additional benefit here.
-
 ### Before, during and after workout
 
 | Code and current intervention | Combined medal and targets | Expected protocol benefit | Evidence supporting the judgment and its limits |
@@ -176,15 +151,9 @@ Reviewed **22 November 2026**. These medals combine the **size and relevance of 
 | **E.16–17 — Inositol**, 2g | 🥉 | A low or uncertain expected contribution to the present healthy-male protocol. | A [panic trial](https://pubmed.ncbi.nlm.nih.gov/7793450/) used 12g/day; a [metabolic trial](https://pubmed.ncbi.nlm.nih.gov/20811299/) used 4g/day in postmenopausal women with metabolic syndrome. These do not establish a substantial matching benefit at 2g here. |
 | **E.18 — Isolated apigenin**, 200mg | 🥉 | A plausible sleep target, but the size and probability of an additional useful effect remain poorly established. | [Chamomile research](https://pubmed.ncbi.nlm.nih.gov/21939549/) does not isolate Apigenin; an [October2026 trial](https://pubmed.ncbi.nlm.nih.gov/42829807/) did not establish benefit of its evening Magnesium/Theanine/Apigenin50mg blend. Neither directly validates isolated200mg. |
 
-### Applying the combined assessment consistently
-
-Mirror Collagen, Creatine and free-Taurine grades in Morning constituents and repeated entries. Magnesium taurate contributes to the shared Magnesium exposure; its taurate moiety is not a free-Taurine exercise dose. Apply the same Dutasteride grade to the Hair section. Repeated doses divide one daily exposure and do not create independent additive benefits.
-
-The CaAKG product is assessed for its combined plausible benefits, including nutrient coverage; its Silver does not turn the aging hypothesis into demonstrated longevity. Quantitative ingredient disclosures do not inherit independent clinical claims. Modest reliable benefits and larger plausible benefits with more uncertainty can both earn Gold when their combined value is high. Monitoring, product quality, dose suitability and individual response remain explicit considerations, rather than being concealed inside a medal or replaced by it.
-
 ## Food medal coverage
 
-Active Diet medals use the same **benefit for this protocol × supporting evidence** model. The judgments below consider the written portion, the role in a complete meal, training and body-composition goals, GI tolerance and existing intake. A listed alternative is evaluated as a replacement within its food group, rather than as another addition to every other option. Close alternatives can share a medal; the tiers do not claim a precise ranking between cultivars or brands.
+The food review considers the written portions, complete meals, training and body-composition goals, GI tolerance and existing intake. Alternatives replace the relevant food-group choice; close cultivars and brands are not presented as precisely ranked clinical comparisons.
 
 The main food pattern has high combined value because it supplies adequate protein and energy, fiber, varied plants and unsaturated fats consistently. The [WHO healthy-diet guidance](https://www.who.int/news-room/fact-sheets/detail/healthy-diet) supports these foundations. Its support for a pattern does not prove a unique effect from every individual SKU. Small optional additions are graded for their smaller contribution to this already substantial diet.
 
@@ -208,34 +177,12 @@ Collagen, creatine, psyllium and WPI keep the same combined grades as their supp
 
 ## Lifestyle, testing and procedure evidence review
 
-Reviewed **22 November 2026**. The medals combine **the size and relevance of the benefit for this protocol × the strength of evidence supporting that benefit**. The judgments below consider the actual objective, exposure and existing routine. A clinically modest but reliable benefit can have high combined value; a potentially substantial benefit can also rank highly before the evidence becomes definitive. Evidence limitations are stated separately rather than being used as automatic tier ceilings.
-
-### Behaviors, sleep and exercise
-
-| Protocol group | Medal | Combined benefit/evidence judgment |
-| --- | --- | --- |
-| Physical activity and daily walks | 🥇 | High value for conditioning, function and long-term health, with strong supporting evidence. The particular walking dose or exercise ranking is not established by this judgment. [WHO activity guidance](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity). |
-| Stretching | 🥇 🤸 | A narrower but useful and reliably achievable mobility benefit supports Gold. This is not an injury-prevention or bone-protection claim. |
-| Social connection and psychological wellbeing | 🥇 | Broad relevance to quality of life and sustained health behaviors supports a high combined priority. The principle does not identify a universally optimal number or type of social contacts. [WHO adult wellbeing](https://www.who.int/tools/your-life-your-health/life-phase/early-and-middle-adulthood/keeping-well-in-adulthood). |
-| Meditation/breathwork | 🥈 😌 | Useful potential stress-management benefit, with variable response and less certain extra benefit alongside the existing sleep/stress routine. A stress target does not imply general cognitive enhancement. |
-| Sauna, including the exercise-section repeat | 🥈 🌡️ ❤️ | Cardiovascular and relaxation benefits are relevant, but the likely additional benefit alongside regular training remains moderate/uncertain. A [randomized trial](https://pubmed.ncbi.nlm.nih.gov/35785965/) supports selected cardiovascular-risk-factor improvements; [long-term mortality associations](https://pubmed.ncbi.nlm.nih.gov/25705824/) remain observational. The exact 93°C/31min/core39°C or60min prescriptions and skin/recovery claims remain 🥉: their proposed extra value has little direct support. The medal does not establish those thermal targets. |
-| Cold exposure | 🥉 🌡️ | The written routine has uncertain additional benefit for this already active protocol. A large [cold-shower trial](https://pubmed.ncbi.nlm.nih.gov/27631616/) reduced sickness absence, not illness days, and does not establish this four-times-weekly exposure as immune or anti-inflammatory treatment. |
-| Organic/certified/natural-material preferences | 🥉 for additional health benefit | These preferences can matter for sourcing or comfort, but origin or certification alone does not establish a sizeable health advantage over an otherwise suitable alternative. Equipment specifications remain ungraded. |
-| Sleep duration/regularity, disruptive light/noise control, daylight/wind-down, avoiding sleep-disruptive caffeine, regular exercise | 🥇 | High relevance to the protocol's leading priority, together with well-supported sleep/circadian principles, gives high combined value. Exact clock times, light minutes, decibels and cutoff hours remain adjustable. [CDC sleep guidance](https://www.cdc.gov/sleep/about/), [light/environment guidance](https://www.cdc.gov/niosh/bulletin/2020/sleep.html). |
-| Bedroom temperature/humidity, bed-use restriction, DND, meals/alcohol timing and sleep-trend review | 🥈 | Useful supporting measures, generally with smaller or more individual additional benefits once the main sleep foundations are in place. Evidence for stimulus control does not make the entire routine a complete insomnia treatment. [AASM guideline](https://doi.org/10.5664/jcsm.8986). |
-| Sex/sauna shortly before sleep | 🥉 | Possible relaxation value, but the size and reliability of extra sleep benefit from the specific written timing are uncertain. Warm-bath findings do not directly validate sauna exposure. |
-
-The **Avoid** list keeps its existing caution/avoidance symbols without benefit medals, as requested. This presentation choice does not rank smoking avoidance, sun protection or other precautions as low-value interventions.
-
 ### Testing and screening
 
-**The benefit is actionable information.** A test earns a higher combined rating when its result can materially improve a relevant diagnostic or treatment decision, with sound evidence for that interpretation. Established analytical accuracy alone is insufficient. Conversely, a useful monitoring bundle does not require an efficacy trial of the exact commercial package to score highly. Blanket repetition remains distinct from its individually useful components.
+Testing is assessed for actionable diagnostic or treatment information in the stated clinical context. The blanket six-month calendar is considered separately from its individually useful components.
 
 | Protocol group | Medal | Combined benefit/evidence judgment |
 | --- | --- | --- |
-| Oura sleep trends; Garmin activity trends; Withings body-composition trends | 🥈 | Useful feedback for adherence, training and body-composition goals, with moderate expected added value. Exact-generation accuracy and a health benefit from every displayed metric are not established; estimates are not direct tissue measurements. |
-| Qalzy AI meal recognition/portion estimation | 🥉 | Convenience could be useful, but uncertain exact-system accuracy and outcome benefit keep the combined judgment low. This does not downgrade ordinary weighing or food logging. |
-| Withings BPM Core | 🥇 for blood-pressure measurement | Actionable BP monitoring is especially relevant with the protocol's several BP-active medicines/supplements and sauna. Its validated upper-arm function supports high combined value; ECG/valve-screening outputs do not automatically inherit the grade. [STRIDE BP](https://www.stridebp.org/device/withings-bpm-core-device-wpm04/). |
 | ApoB; cystatin C | 🥇 | Potentially important treatment/risk decisions and renal interpretation in a muscular person, with established clinical foundations. [2026 AHA guidance](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know), [KDIGO](https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2024-CKD-Guideline.pdf). |
 | Lp(a) | 🥈 for the written repeat use | Baseline inherited-risk information has high value and strong support; its incremental value is smaller when automatically repeated every six months. A first/clinically indicated assessment can merit Gold. [2026 AHA guidance](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know). |
 | HIGH-PERFORMER blood bundle | 🥇 for the indicated monitoring core | CBC, renal/liver chemistry, lipids, glucose, thyroid and selected nutrient results can guide meaningful decisions in this complex regimen and its existing follow-up. This high combined utility does not endorse every constituent, the package as uniquely superior, or automatic six-month repetition. Follow the protocol's specific medicine/nutrient monitoring Notes. [Isotretinoin product information](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic), [lipid guidance](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know). |
@@ -254,12 +201,11 @@ The **Avoid** list keeps its existing caution/avoidance symbols without benefit 
 | DXA body composition, dermatoscopy, vision exam, combined five-year endoscopy plan | 🥈 | Meaningful measurement/workup potential with less certain benefit from the universal written intervals. Symptom-led diagnostic endoscopy is a separate indication. [Skin-screening limits](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/skin-cancer-screening). |
 | X-ray/CT “as needed” | 🥇 for appropriate diagnostic use | Potentially large benefit from a decisive diagnosis plus established imaging performance supports high combined value. This depends on the actual clinical indication. |
 
-Target icons identify what is assessed. Endocrine assays do not themselves enhance cognition or energy; 🎗️ denotes cancer-related evaluation; 💪/⚖️ on a scale does not mean that it measures blood chemistry.
-
 ### Exercise and the Core Philosophy
 
 | Activity or claim | Medal | Combined benefit/evidence judgment |
 | --- | --- | --- |
+| Exercise-section Sauna | 🥈 ❤️ | Cardiovascular and relaxation benefits are relevant, but the likely additional benefit alongside regular training remains moderate/uncertain. A [randomized trial](https://pubmed.ncbi.nlm.nih.gov/35785965/) supports selected cardiovascular-risk-factor improvements; [long-term mortality associations](https://pubmed.ncbi.nlm.nih.gov/25705824/) remain observational. The exact60min duration and skin/recovery claims remain 🥉 because their proposed extra value has little direct support. This assessment applies only to the Exercise entry. |
 | Resistance exercises, aerobic sessions, sprints and social sports | 🥇 | Large relevance to strength, physique, fitness and health with strong activity-class support. Exact split, tempo, exercise order and set counts are not proven optimal. [WHO guidance](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity). |
 | Scapular-control/prehab movements and Dead Bugs for rehabilitation | 🥈 | Useful targeted function/mobility with more individual and less certain additional preventive benefit. |
 | Stomach vacuums, zero-oblique training for waist shrinking, hernia/diastasis prevention and hip-thrust-specific sexual improvement | 🥉 for the specific causal claims | Potential aesthetic/function goals are relevant, but limited direct support leaves the proposed extra benefit uncertain. A [2026 postpartum trial](https://pubmed.ncbi.nlm.nih.gov/41771244/) does not validate the male postoperative setting. |
@@ -306,8 +252,6 @@ Knives, pans, textile dimensions, inventories and maintenance instructions remai
 
 ## Peptide and low-dose drug medals
 
-These medals combine plausible protocol benefit with the supporting evidence. Research status, purchased-vial purity, prescribing status and dose validation are separate questions. An experimental intervention is not automatically Bronze, and Gold is not an instruction to start or escalate it.
-
 | Entry | Medal | Combined benefit/evidence judgment |
 | --- | --- | --- |
 | **BPC-157** | 🥉 | Tissue repair would be important, but the present evidence does not support a reliable sizeable benefit from the written regimen. The [2025 intravenous pilot](https://pubmed.ncbi.nlm.nih.gov/40131143/) involved two previously exposed adults and brief tolerability follow-up. A [recruiting hamstring trial](https://clinicaltrials.gov/study/NCT07437547) is not an efficacy result. |
@@ -319,7 +263,7 @@ These medals combine plausible protocol benefit with the supporting evidence. Re
 
 ## TODOs and research candidates
 
-Candidate medals grade **potential benefit for this protocol × evidence supporting that benefit**, under the named purpose and conditions. They rank research/consideration value without activating a trial. An alternative is assessed as a replacement, not automatically as an extra layer on top of the existing product. Availability, purity, safety and practical fit remain separate checks. The six food-option tasks and equipment-shopping tasks have no benefit medals, as requested.
+These candidates remain pending. Each row evaluates the named purpose, conditions and replacement relationship to the current protocol.
 
 ### Symptoms, occasional use and replacements
 
@@ -367,12 +311,12 @@ Candidate medals grade **potential benefit for this protocol × evidence support
 
 ## Status-symbol correction
 
-The README restores **⚕️ Requires prescription (Rx)** exactly as requested. It is removed from procedure/referral entries and from the linked OTC Nizoral and topical Alocutan products. The official Polish product records classify [Nizoral20mg/g shampoo](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/4780/package) and [Alocutan Forte50mg/ml](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/35273/package) as OTC. Prescription status remains distinct from whether a use is off-label or professional assessment is appropriate.
+The ⚕️ annotations have been removed from procedure/referral entries and from the linked OTC Nizoral and topical Alocutan products. The official Polish product records classify [Nizoral20mg/g shampoo](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/4780/package) and [Alocutan Forte50mg/ml](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/35273/package) as OTC. Prescription status remains distinct from whether a use is off-label or professional assessment is appropriate.
 
 ## Maintenance and verification
 
-The README is the annotation source of truth. The generator mirrors all **69 occupied entries** after the two shared medicine compartments are expanded: **12 Gold, 29 Silver and 28 Bronze**. The five empty entries receive no medals. The physical layout remains **eight 3×3 pages, 72 compartments and 74 expanded entries**. Zero-series powders remain outside the organizer. The guide footer identifies the model as **benefit × evidence**, with high/moderate/low-or-uncertain combined value.
+The README is the annotation source of truth. The generator mirrors all **69 occupied entries** after the two shared medicine compartments are expanded: **12 Gold, 29 Silver and 28 Bronze**. The five empty entries receive no medals. The physical layout remains **eight 3×3 pages, 72 compartments and 74 expanded entries**. Zero-series powders remain outside the organizer. Each guide footer points to the single README Legend without repeating its definitions.
 
-Verification includes the repository source validator and its 44-test regression suite, a separate medal/target-icon comparison for all 74 expanded entries, preservation of the 75 numbered README rows and their numeric quantities/products, regeneration of the Word guide, and visual inspection of all eight rendered pages. The source validator by itself does not check emojis or rendered layout. Health-intervention TODOs remain graded; the requested Avoid, vaccine and TODO Food sections remain unmedalled.
+Verification includes the repository source validator and its 44-test regression suite, a separate medal/target-icon comparison for all 74 expanded entries, preservation of the 75 numbered README rows and their numeric quantities/products, regeneration of the Word guide, and visual inspection of all eight rendered pages. The source validator by itself does not check emojis or rendered layout.
 
-Future updates should reconsider **both factors together** when the goal, expected benefit, individual response, dose, formulation, population, schedule, existing stack or evidence changes. Record the reason for an upgrade or downgrade. Retain research-stage and endpoint limitations even for Gold, and keep duplicate exposures, the README and generated guide aligned.
+Revisit affected assessments when goals, individual response, dose, formulation, population, schedule, the existing stack or evidence change. Record the reason for each change and keep repeated exposures, the README and generated guide aligned.

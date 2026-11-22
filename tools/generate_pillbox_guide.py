@@ -652,15 +652,8 @@ def add_page(document, page_data, page_index):
     compact_paragraph(p, before=3, after=0)
     p.alignment = WD_ALIGN_PARAGRAPH.LEFT
     add_hyperlink(p, "GymBeam Adjustable PillBox", PILLBOX_URL, color=accent)
-    run = p.add_run(" • Benefit × evidence: README.md")
+    run = p.add_run(" • Legend: README.md")
     set_repeatable_font(run, 7.3, color=COLORS["muted"])
-    for medal, label in (("🥇", "high"), ("🥈", "moderate"), ("🥉", "low/uncertain")):
-        run = p.add_run(" • ")
-        set_repeatable_font(run, 6.8, color=COLORS["muted"])
-        run = p.add_run(medal)
-        set_repeatable_font(run, 6.8, color=COLORS["muted"], name="Segoe UI Emoji")
-        run = p.add_run(" " + label)
-        set_repeatable_font(run, 6.8, color=COLORS["muted"])
 
     if page_index < len(PAGES) - 1:
         p = document.add_paragraph()
