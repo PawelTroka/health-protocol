@@ -1,6 +1,6 @@
 # Laboratory results collected 2026-09-16
 
-Reviewed through 2026-09-29 from the original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
+Reviewed 2026-11-21, including report updates issued through 2026-11-03, from the original, unchanged PDFs below. These are dated laboratory observations, not September monthly averages. Decimal commas are transcribed as decimal points; displayed numeric precision, inequalities, specimen types and source reference intervals are preserved. A dash in the unit, reference or flag column means none was printed. `High` and `Low` reproduce the laboratory's arrows, not a new interpretation.
 
 ## Source documents and dates
 
@@ -16,16 +16,19 @@ Reviewed through 2026-09-29 from the original, unchanged PDFs below. These are d
 | [ALAB DGP IgG, 1 page](../GDYNPOW-SL-00054809-20260924164929-11.pdf) | Venous serum: collected 2026-09-16 07:26; received 10:44 | Analyzed 2026-09-24 16:13; report issued 16:49 |
 | [ALAB tTG IgA, 1 page](../GDYNPOW-SL-00054486-20260924173443-32.pdf) | Venous serum: collected 2026-09-16 07:26; received 10:44 | Analyzed 2026-09-24 17:22; report issued 17:35 |
 | [ALAB rejected 24-hour urine, 2 pages](../GDYNPOW-SL-00054490-20260916150457-68.pdf) | 24-hour urine: collection recorded as 2026-09-16 10:41; received 14:42 (chemistry) / 14:43 (cortisol) | Report issued 2026-09-16 15:05; invalid collection, no usable results |
-| [ALAB urine cystine, 1 page](../GDYNPOW-SL-00054812-20260923134441-3.pdf) | Urine: collection recorded as 2026-09-16 10:41; received 2026-09-17 08:54 | Report issued 2026-09-23 13:44; repeat required, no result |
+| [ALAB urine cystine, 1 page](../GDYNPOW-SL-00054812-20260923134441-3.pdf) | Urine: collection recorded as 2026-09-16 10:41; received 2026-09-17 08:54 | Report issued 2026-09-23 13:44; repeat required at that time; later completed report below |
 | [Diagnostyka stool M2-PK, 1 page](../wyniki-24_9_2026-21_58_51.pdf) | Stool: collected 2026-09-16 06:30; received 15:40 | Analyzed 2026-09-23 12:18:47; report and PDF issued 17:01:03 |
 | [ALAB selenium, 1 page](../LUBLINC-SL-00090109-20260925110927-54.pdf) | Venous serum: collected 2026-09-16 07:26; received 2026-09-18 11:03 | Analyzed 2026-09-25 11:05; report issued 11:09 |
 | [ALAB / GANZIMMUN zonulin, 1 page](../LIMBACH-SL-00104271-20260929155611-1.pdf) | Stool: collected 2026-09-16 07:26; received 2026-09-18 10:14 | Analyzed 2026-09-24 14:32; report issued 2026-09-29 15:56 |
 | [ALAB / GANZIMMUN butyric acid, 1 page](../LIMBACH-SL-00104271-20260929163008-2.pdf) | Stool: collected 2026-09-16 07:26; received 2026-09-18 10:14 | Analyzed 2026-09-28 08:54; report issued 2026-09-29 16:30 |
 | [Diagnostyka stool lactoferrin and M2-PK, 1 page](../wyniki-30_9_2026-0_56_30.pdf) | Stool: collected 2026-09-16 06:30; received 15:40 | Lactoferrin analyzed 2026-09-28 10:33:34, issued 2026-09-29 06:10:01; PDF issued 06:10:14. M2-PK repeats the September 23 result |
+| [Diagnostyka expanded intestinal panel, 2 pages](../wyniki-21_11_2026-16_24_9.pdf) | Serum and stool: collected 2026-09-16 06:30 | Serum IgG panel performed 2026-09-24 10:15:42, issued 2026-10-26 19:20:22; PDF issued 19:20:23. Stool M2-PK and lactoferrin repeat the existing results |
+| [ALAB / Limbach urine report, 1 page](../LIMBACH-RDP-ZDALNILEKAR-20261103100035-1.pdf) | Urine: collected 2026-09-16 10:41; received 2026-09-18 10:59 | Performed 2026-09-28; report issued 2026-11-03 10:00 |
+| [ALAB / Limbach urine report, later copy, 1 page](../LIMBACH-RDP-ZDALNILEKAR-20261103155232-1.pdf) | Same urine specimen and two results as the earlier copy | Report issued 2026-11-03 15:52; duplicate, not another collection |
 
 All reports belong to the September 16 collection date. The Diagnostyka filename contains September 17, but its actual result and print timestamps are September 16; commit `4a521eb` renamed that file without changing its contents. Its two different collection times are retained without choosing one or assuming which is correct. The `without medicines` wording is a specimen/order annotation, not a verified medication history or a stated washout duration.
 
-All 21 PDF pages were visually checked. The Diagnostyka PDFs have broken text encoding, so their result tables were transcribed from the rendered pages. The initial import contained **84 completed observations** (63 ALAB and 21 PCR rows) plus **14 pending tests**. The [portal update](#portal-update-2026-09-17) added calprotectin and elastase; the [later PDFs](#pdf-update-2026-09-17) confirm both and add 13 proteinogram values. The [September 18 immunoblot](#anaena-immunoblot-issued-2026-09-18) adds 16 antibody results. The [September 23-24 reports](#pdf-updates-issued-2026-09-23-and-2026-09-24) complete sIgA, ANA IIFT, DGP IgG and tTG IgA and supply stool M2-PK. The [September 25 report](#selenium-issued-2026-09-25) completes selenium; the [September 29 reports](#stool-zonulin-and-butyric-acid-issued-2026-09-29) add zonulin and two butyric acid measurements. [Stool lactoferrin](#stool-lactoferrin-issued-2026-09-29) brings the total to **125 completed observations and three original tests without supplied results**. All 125 completed observations are included in the comparison tables.
+The original 21 PDF pages and the four pages added on November 21 were visually checked. The Diagnostyka PDFs have broken text encoding, so their result tables were transcribed from the rendered pages. The initial import contained **84 completed observations** (63 ALAB and 21 PCR rows) plus **14 pending tests**. The [portal update](#portal-update-2026-09-17) added calprotectin and elastase; the [later PDFs](#pdf-update-2026-09-17) confirm both and add 13 proteinogram values. The [September 18 immunoblot](#anaena-immunoblot-issued-2026-09-18) adds 16 antibody results. The [September 23-24 reports](#pdf-updates-issued-2026-09-23-and-2026-09-24) complete sIgA, ANA IIFT, DGP IgG and tTG IgA and supply stool M2-PK. The [September 25 report](#selenium-issued-2026-09-25) completes selenium; the [September 29 reports](#stool-zonulin-and-butyric-acid-issued-2026-09-29) add zonulin and two butyric acid measurements. [Stool lactoferrin](#stool-lactoferrin-issued-2026-09-29) brought the total to 125 completed observations. The later [intestinal IgG panel](#intestinal-igg-antibodies-issued-2026-10-26) and [urine cystine/creatinine report](#urine-cystine-and-creatinine-issued-2026-11-03) add six unique results, bringing the total to **131 completed observations and three original tests without supplied results**. All 131 completed observations are included in the September comparison tables. Duplicate report copies and repeated stool results are counted once.
 
 ## ALAB: Morphology (page 1)
 
@@ -279,7 +282,7 @@ The earlier DGP report still lists tTG IgA as pending; the later completed tTG r
 
 ### Excluded unusable urine results
 
-The September 16 urine report marks all 12 assays **“Nieprawidłowe pobranie - materiał niediagnostyczny”** (incorrect collection, non-diagnostic specimen): protein, chloride, glucose, potassium, creatinine, magnesium, sodium, copper, uric acid, urea, microalbumin and cortisol. The September 23 cystine report states **“Badanie wymaga powtórzenia”** (repeat required). Neither provides usable measurements. These entries do not replace historical results or create September values; missing and pending-only entries are also left out.
+The September 16 urine report marks all 12 assays **“Nieprawidłowe pobranie - materiał niediagnostyczny”** (incorrect collection, non-diagnostic specimen): protein, chloride, glucose, potassium, creatinine, magnesium, sodium, copper, uric acid, urea, microalbumin and cortisol. The September 23 cystine report states **“Badanie wymaga powtórzenia”** (repeat required). Neither of those reports provides usable measurements. Their rejected entries remain excluded. The [November 3 subcontractor report](#urine-cystine-and-creatinine-issued-2026-11-03) subsequently supplies completed cystine/creatinine and urine creatinine results from a specimen dated September 16; it does not supply or validate the other rejected assays.
 
 ## Selenium issued 2026-09-25
 
@@ -306,3 +309,31 @@ GANZIMMUN, Mainz, via ALAB. Zonulin used ELISA; the butyric acid report does not
 | Lactoferrin (Stool) | < 0.10 | µg/ml | 0.00 - 7.20 | - |
 
 ELISA on Analyzer I. Added to the September stool-analysis table with the inequality preserved. The report also repeats the existing September 23 M2-PK result (<1.00U/ml, reference 0.0 - 4.0), which is not duplicated. The filename is dated September 30; the PDF was issued September 29.
+
+## Intestinal IgG antibodies issued 2026-10-26
+
+The expanded Diagnostyka report added in [commit 7b55d78](https://github.com/PawelTroka/health-protocol/commit/7b55d78093e885a2371b593f19d03d0cfc4c44ff) contains four new serum antibody results on page 1. Page 2 confirms serum collected September 16 at 06:30, tested September 24, and released October 26. The November 21 filename records the download date.
+
+| Report row | Original assay name | Result | Source unit | Source reference | Source flag |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Exocrine Pancreatic Cell Antibodies IgG | P/c. p. komórkom zewnątrzwydzielniczym trzustki IgG | negative (`ujemny`) | - | - | - |
+| ASCA IgG | Pc. p. Saccharomyces cerevisiae IgG (ASCA) | negative (`ujemny`) | - | - | - |
+| Intestinal Goblet Cell Antibodies IgG | P/c. p. komórkom kubkowatym jelit IgG | negative (`ujemny`) | - | - | - |
+| Atypical ANCA (aANCA) IgG | P/c. p. atypowym antygenom cytoplazmy neutrofilów ANCA (aANCA) met. IIF | negative (`ujemny`) | - | - | - |
+
+All four assays use indirect immunofluorescence (IIF), Euroimmun. The laboratory footnote defines negative as titer <1:10 and positive as >=1:10 for pancreatic-cell, goblet-cell and atypical ANCA IgG; for ASCA IgG it defines negative as <1:1000 and positive as >=1:1000. These are classification cutoffs, not reported titers. The comparison table retains `negative`, with `Status` and the expected-negative reference following the existing qualitative-antibody convention. No numerical severity score is assigned. Atypical ANCA retains its specific identity; these assays are separate from the ANA/ENA immunoblot and ANA IIFT screen.
+
+The same PDF repeats M2-PK <1.00U/ml and lactoferrin <0.10µg/ml with the original September assay dates. Their existing September cells remain unchanged and are counted once.
+
+## Urine cystine and creatinine issued 2026-11-03
+
+The two Limbach PDFs added in [commit 09fd201](https://github.com/PawelTroka/health-protocol/commit/09fd201584a7e1feda0c7768b938af0dc7b85200) each contain the same two completed results on page 1. Their report issue times differ, but collection, performance date, values, units, ranges and flags agree. Each observation is imported once under September, the specimen collection month.
+
+| Report row | Original assay name | Result | Source unit | Source reference | Source flag |
+| :--- | :--- | ---: | :--- | :--- | :--- |
+| Urine Cystine/Creatinine | Cystyna (K19) | 43 | µmol/g krea | 10 - 98 | - |
+| Urine Creatinine | Kreatynina w moczu | 29.0 | mg/dl | 39.0 - 259.0 | Low |
+
+The report identifies LABOR-LIMBACH as the performing laboratory and gives September 28 as the performance date. Collection volume is explicitly not supplied. Cystine is reported per gram of creatinine; the comparison-table unit `umol/g creatinine` expands the original abbreviation without a numerical conversion. This is not a 24-hour excretion amount. Urine creatinine uses the existing equivalent `mg/dL` spelling, and its July 59.1mg/dL observation remains intact.
+
+These completed results supersede the earlier missing cystine outcome. They do not validate or supply the other measurements from the rejected 24-hour collection. Stool histamine, 24-hour urinary iodine and urine culture remain the three original tests without supplied completed results.

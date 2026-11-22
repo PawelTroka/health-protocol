@@ -23,11 +23,17 @@ _FOLLOWUP_GROUPS = {
     "Micronutrients": (
         "Selenium", frozenset({"Selenium"}),
     ),
+    "Urine Chemistry": (
+        "Creatinine & Cystine",
+        frozenset({"Urine Creatinine", "Urine Cystine/Creatinine"}),
+    ),
     "Immunology & Inflammation": (
         "Immune Markers & Antibodies",
         frozenset({
             "CRP (Conventional)", "Anti-TPO", "Anti-TG", "ASO", "IgA (Serum)",
             "tTG IgA", "DGP IgG",
+            "Exocrine Pancreatic Cell Antibodies IgG", "ASCA IgG",
+            "Intestinal Goblet Cell Antibodies IgG", "Atypical ANCA (aANCA) IgG",
             "Rheumatoid Factor (RF)", "Anti-CCP", "ANA IIFT", "TSH Receptor Antibodies (TRAb)",
             "Complement C3", "Complement C4",
         }),
