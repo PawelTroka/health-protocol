@@ -1,5 +1,9 @@
 # Diet activation calendar
 
+## 22 November: reconcile protein demand before activation
+
+The live README's21November restoration of Tempeh, removal of Dinner Turkey and changed weekly guidance supersede the old fixed purchasing calendar as a statement of canonical demand. Retain that27October calendar and its3,900g Turkey/900g Salmon quantities as historical arithmetic only. Reconcile meal frequencies before sizing new Protein shipments; infer no Tempeh order, new frequency or substitution. Keep361 paused and Bioshi unchanged. Exact food-form research can continue. Incoming searches found no new supplier or refund resolution, and the18November refund handoff remains unchanged. [Source and reconciliation hold](DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation).
+
 19November: the cancellation/refund action was notified18November and has no new incoming resolution. Keep257757 foods excluded; do not repeat the unchanged refund request. Yōkiro's public recovery cart is empty and its old checkout was not recovered or rebuilt; no final activation is ready. [Current review](DIET_PAYMENT_HANDOFF.md#19-november-no-new-reply-matcha-checkout-not-recovered).
 
 ## 18 November: cancelled delivery and refund action

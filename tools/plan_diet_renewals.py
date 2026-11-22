@@ -430,6 +430,7 @@ def active_coverage(model):
                 ("walnut_g", "pistachio_g", "almond_g", "macadamia_g")), Fraction())
     return {
         "scope": "Long-run rates averaged over28days from active_streams, excluding first-only foods. Gross produce equivalents precede edible/preparation losses. Neither timing, receipt nor usable meal coverage is established.",
+        "requirements_scope": portions.get("rotation_status", "Model scenario; current canonical meal frequencies require verification."),
         "recurring_food_count": len(totals),
         "recurring_food_count_definition": "Distinct positive recurring food keys across all active streams, including Nuts; repeated foods count once.",
         "tempeh_dinners": covered(amount("tempeh_packs_200g") * 200 / rotation["tempeh_g"], rotation["tempeh_meals"]),
@@ -519,6 +520,7 @@ def markdown(result):
                   "Unactivated; renewal courier, usable life and remainder allocation remain to verify.")
     lines = ["# Diet subscription rollout: stock and native candidates", "",
              f"Arithmetic anchor {result['as_of']}; operational evidence updated{result.get('evidence_updated_on', result['as_of'])}. Offline analysis; no retailer changes or new activations by this script.", "",
+             f"Protein-demand basis: {coverage['requirements_scope']}", "",
              "| Latest stock reference | Reported balance | Reference-only depletion estimate |",
              "| --- | --- | --- |"]
     def receipt_note(item):

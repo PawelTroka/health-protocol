@@ -1,5 +1,13 @@
 # Diet purchase handoff
 
+## 22 November incoming review and protein reconciliation
+
+Eight completed Outlook searches since21November returned zero matches and no further pages. No new supplier quote or refund resolution was found. The257757 refund handoff was notified18November and remains unchanged; all four cancelled foods stay excluded. No retailer account, order or checkout was revisited. Their earlier observation dates and household stock uncertainty are preserved.
+
+The live README changed in commit `2c772eae75be9ced7b720b003681dd9310655d88`, dated21November15:43:28 Warsaw, restoring200g Tempeh, removing Dinner Turkey and replacing the fixed Dinner calendar with weekly Fish guidance, Tempeh on other days and occasional Eggs. Preserve that canonical file. The earlier27October12Egg/6Turkey/6Salmon/2Mackerel/2Sardine calendar,3,900g Turkey and900g Salmon per28days are retained as a historical purchasing scenario, not current canonical demand or activation quantities. New protein purchasing frequencies need reconciliation before shipment sizing; infer no new frequency, substitution or Tempeh purchase. Keep361 paused and Bioshi unchanged. Exact Turkey/skinless Salmon product research may continue without treating the old quantities as an activation instruction.
+
+The current model, coverage map, rollout and shopping records now carry this hold. The offline report labels its old demand comparison as historical. Klimeko remains an available candidate with no verified *L. rhamnosus* declaration and therefore does not qualify as a replacement for the live Kefir target. No canonical food, link, portion, retailer setting, merchant message or financial commitment was changed. No new final approval/payment action is ready.
+
 ## 21 November incoming review and queue alignment
 
 Eight incoming Outlook searches since20November completed without further pages and returned zero matches. No new supplier quote, refund-method resolution, refund transaction, bank-credit confirmation or order-linked carrier update was found. The18November refund handoff remains unchanged; all cancelled257757 foods stay excluded. No new user action is ready.

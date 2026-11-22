@@ -1,5 +1,9 @@
 # Remaining Diet automation routes
 
+## 22 November: protein purchasing quantities on hold
+
+The live [README Diet](../README.md#4-diet), changed by `2c772ea` on21November, restores Tempeh and removes Dinner Turkey and the fixed rotation. Preserve it. The27October scenario of12Egg/6Turkey/6Salmon/2Mackerel/2Sardine dinners,3,900g Turkey and900g Salmon per28days is historical, not current canonical demand or activation quantities. Reconcile meal frequencies before sizing new Protein purchases; infer no new frequencies, substitutions or Tempeh order. Exact Turkey and skinless Salmon sourcing may continue. Keep361 paused and all Bioshi settings unchanged. [Reconciliation hold](DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation).
+
 19November: incoming searches found no new supplier or refund resolution. The18November refund handoff remains unchanged. Yōkiro's public recovery cart is empty; its historical checkout was not recovered or rebuilt. No route is ready for final payment. [Current review](DIET_PAYMENT_HANDOFF.md#19-november-no-new-reply-matcha-checkout-not-recovered).
 
 ## 18 November: order257757 cancelled
@@ -47,7 +51,7 @@ The full Diet inventory was rechecked, including61 live Bioshi product pages and
 | Microgreens |○ Inquiry sent; not subscribed |The [Zielono standing-delivery inquiry](DIET_ZIELONO_STANDING_REQUEST_02NOV.md) was SENT2November20:01:45 Warsaw after explicit approval; outgoing recipient, subject and full body were verified, with message ID in the request record. Routine clarifications within the same request are authorized. It requests210g edible Watercress Microgreens/week and optional custom150g Maitake/28days, fixed composition and unattended payment. Consumer eligibility, exact packs/life and HOME fees remain unquoted; no order or activation. |
 | Whole Fruit |☑ Kiwi only; Oranges paused |Preserve existing Kiwi purchase. Oranges/Mango are available; Pomegranate alternative is unavailable. Fill edible portions and rotation without inferring current stock. |
 | Berries |☑ Raspberry group only |500g/30days is only a small part of28 daily choices. Blueberries are available; frozen Bilberries/Blackcurrants still need native supply. Spoiled Strawberries remain excluded. |
-| Kefir |▣ Available, not subscribed |**Klimeko104387400g is available**, organic/lactose-free/live cultures.4bottles/14days match8 servings/28days. It does not declare Robico's named L.rhamnosus; its panel differs. Treat it as an explicit alternative, not unavailable. |
+| Kefir |▣ Mismatched candidate, not subscribed |Klimeko104387400g is organic/lactose-free with live cultures, but lacks verified *L. rhamnosus* and has a different panel. It is not a qualified replacement for the canonical Kefir target. The4bottle/14day proposal remains conditional, not an activation quantity. |
 | Other Ferments |○ Not subscribed |Sauerkraut is available, with pack/price and opened-life conflicts. Vegan Mild Kimchi is available but retailer/manufacturer formulations conflict. Lactose-free Skyr still needs a qualified route. |
 | Matcha |▣ Historical checkout not recovered; route unqualified |Yōkiro4×30g/60days fits2g/day with sequential15day pack opening. Last checkout read7November:109.21zł first/free HOME,151.20zł renewal goods and separate locker8.99zł/60days.19November public recovery cart is empty; no checkout was recovered or rebuilt. Recurring HOME/fees and delivered-price cap remain unresolved. User reserve0g is dated2November. No activation. |
 | Seeds |▣ Available, not subscribed |Flax, Chia, Pumpkin and a matching organic Sunflower alternative are available. Configure shared14g/day demand and rotation with pack/remainder life; do not buy every alternative as an extra portion. |

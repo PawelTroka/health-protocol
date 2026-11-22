@@ -1,5 +1,9 @@
 # Diet renewals — current decision and native-only plan
 
+## 22 November: protein purchasing quantities on hold
+
+The live [README Diet](../README.md#4-diet), changed by `2c772ea` on21November, restores Tempeh and removes Dinner Turkey and the fixed rotation. Preserve it. The27October scenario of12Egg/6Turkey/6Salmon/2Mackerel/2Sardine dinners,3,900g Turkey and900g Salmon per28days is historical, not current canonical demand or activation quantities. Reconcile meal frequencies before sizing new Protein purchases; infer no new frequencies, substitutions or Tempeh order. Exact Turkey and skinless Salmon sourcing may continue. Keep361 paused and all Bioshi settings unchanged. [Reconciliation hold](DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation).
+
 ## 18 November: order257757 cancelled; refund pending
 
 Bioshi's17November emails cancel the paid99.25zł399 renewal in full. Supported18November order details confirm all four foods and the shipment cancelled, with revised order total0zł. None of its Eggs, Cauliflower, Carrots or Raspberries remain incoming supply. The original29October debit is preserved; refund execution and bank credit remain unverified. One email promises the original payment method, while the later email asks for a bank account number and account-holder name. The user needs to resolve those refund details directly with Bioshi. Do not add the earlier amount-unspecified Cauliflower refund claim to99.25zł, repay or create a duplicate. Saved profile399 was not reverified or changed by this cancellation review. [Exact dated evidence and action](DIET_PAYMENT_HANDOFF.md#18-november-order257757-cancelled-refund-action).

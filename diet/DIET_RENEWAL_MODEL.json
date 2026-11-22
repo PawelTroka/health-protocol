@@ -70,7 +70,9 @@
     ],
     "supplier_clarification_authorization_02nov": "Same3recipients,foods,quantities,home delivery,life,prices,migration procedure and unattended payment; no purchase/contract/payment/substitution/370cancellation/361resumption. Scheduled monitoring sends nothing.",
     "user_execution_decision_02nov": "Prioritize genuinely automatic retailer ordering/payment at other suppliers. Keep Bioshi unchanged; do not activate its manual-confirmation plans as a substitute.",
-    "zielono_clarification_authorization_02nov": "User explicitly approved sending the prepared inquiry and routine clarifications to adam@zielonomicrogreens.pl within the same Microgreen/Maitake quotation scope. No purchase, contract, payment or expanded food demand; scheduled monitoring sends nothing."
+    "zielono_clarification_authorization_02nov": "User explicitly approved sending the prepared inquiry and routine clarifications to adam@zielonomicrogreens.pl within the same Microgreen/Maitake quotation scope. No purchase, contract, payment or expanded food demand; scheduled monitoring sends nothing.",
+    "protein_activation_requires_live_canonical_reconciliation": true,
+    "canonical_target_specifications_must_be_preserved": true
   },
   "protocol_requirements": {
     "period_days": 28,
@@ -92,7 +94,8 @@
       "sardine_drained_g_per_meal": 170,
       "unallocated_meals": 0,
       "as_of": "2026-10-27",
-      "change_reason": "User removes Tempeh/Tofu, requests more organic Turkey and skinless Salmon. Retain12Egg/10Fish and allocate the remaining6 dinners to Turkey; Salmon takes6 of10Fish meals. No new alternative food selected."
+      "change_reason": "User removes Tempeh/Tofu, requests more organic Turkey and skinless Salmon. Retain12Egg/10Fish and allocate the remaining6 dinners to Turkey; Salmon takes6 of10Fish meals. No new alternative food selected.",
+      "status": "historical_27oct_purchasing_scenario_pending_canonical_reconciliation"
     },
     "lunch_28_day_example": {
       "turkey_raw_g": 3000,
@@ -140,7 +143,7 @@
       "Sardines",
       "Eggs"
     ],
-    "rotation_status": "Complete28day A/B meal allocation in DIET_COMPLETE_SHIPMENT_PLAN.md;12Egg/6Turkey/6Salmon/2Mackerel/2Sardine. A in weeks1/3, B in weeks2/4; no Tempeh/Tofu or unallocated dinners.",
+    "rotation_status": "Reconciliation required22November: liveREADME changed21November; the stored27October12Egg/6Turkey/6Salmon/2Mackerel/2Sardine counts are historical purchasing arithmetic, not current canonical requirements or activation quantities.",
     "approved_purchase_rates_06oct": {
       "butternut_gross_g": 1000,
       "orange_gross_g": 1000,
@@ -244,7 +247,11 @@
       "nuts_p60_p90_g_per_day": 20,
       "additional_old370_nuts_g_per_day": 8.88888888888889,
       "scope": "Long-run ordered quantity only; no actual consumption/usable stock inferred. P60/P90 fees/autodebit unverified;370migration unresolved."
-    }
+    },
+    "protein_totals_28days_scope": "Historical27October purchasing scenario, including the illustrativeLunchallocation.3900gTurkey/900gSalmon and fixedEgg/Fish totals are not approved current activation quantities after21November canonical change. Reconcile actual meal frequencies without changing portions.",
+    "dinner_calendar_AB_scope": "Historical27October A/B calendar only; current canonical weekly guidance no longer defines these fixed counts.",
+    "current_protein_purchasing_frequencies_confirmed": false,
+    "lunch_28_day_example_scope": "Earlier illustrativeLunchallocation retained for provenance, not a newly confirmed22November buying frequency."
   },
   "active_streams": [
     {
@@ -1453,9 +1460,9 @@
     },
     {
       "priority": 2,
-      "action": "Prioritize fully automatic external suppliers for the missing protocol foods, including exact Turkey/skinless Salmon; Bioshi manual-renewal additions are withdrawn from current execution.",
-      "current_status": "Original protein inquiries SENT28October and focused follow-ups SENT2November17:40:07/08Warsaw; market-only reply remains insufficient, no new qualified quote. No resend.",
-      "release_gate": "Exact3900grawTurkey/28days and900grawSalmon/28days, packs, usablelife, coldchain, stock-adjusted first timing, supported native recurrence and unattended payment; actual first/renewal fees and per-product delivered comparisons. No fresh freezing/substitution/portion increases."
+      "action": "Research exact organic pasture-raisedTurkey tenderloins and skinlessNorwegianSalmon native unattendedHOME routes while reconciling protein purchasing frequencies with the liveREADME; do not activate the old calendar.",
+      "current_status": "Original protein inquiries SENT28October and follow-ups SENT2November retain their original requested quantities. LiveREADMEchanged21November:Tempehrestored,DinnerTurkey/fixedcalendarremoved. The old3900gTurkey/900gSalmon per28days remain historical scenarios. No replacement frequencies or qualified custom quote are established; no resend.",
+      "release_gate": "First reconcile the purchasing calendar with current canonical choices and weekly guidance. Preserve150gTurkey/150gskinlessSalmon portions and exact forms, actual stock, coldchain/life, native unattended ordering/payment, supported first timing, first/renewalHOME fees and per-product price cap. No portion increases, fresh freezing, new substitution orTempehpurchase inferred."
     },
     {
       "priority": 3,
@@ -1472,15 +1479,15 @@
     {
       "priority": 5,
       "action": "Qualify exact automatic external selected green-legged Egg supply in small staggered genuinely needed shipments, without treating cancelled257757 as incoming.",
-      "current_status": "361 has no recurringEggs and stayspaused.399 saved10/30day configuration retains5November and supplies no verified future unattended coverage; cancelled257757 supplies zero food. The earlier2November multi-core nominal48Egg/28day arithmetic remains a conditional design, not activated or freshness-qualified supply.",
-      "release_gate": "Preserve200g shell-free meals/12dinners, small cartons, exactSKU46125, delivered remaining life and pack remainders. Actual current usable stock, supported cycle/first timing, each shipment costs and per-product comparison must qualify. KeepBioshi unchanged; no replacement or duplicate399 order during monitoring."
+      "current_status": "Selected200g shell-freeEgg portion remains inREADME, now withEggsoccasional; no exact new meal count is confirmed. The earlier48nominalEgg/28day design is historical.361remainsPAUSED;399savedfoods retain5November and cancelled257757 contributeszeroincomingfood.",
+      "release_gate": "Reconcile actualEgg frequency before sizing small staggered cartons. Retain selected exact target, delivered remaininglife and all pack remainders, stock-adjusted first timing, native unattendedHOME route and cost caps. KeepBioshiunchanged; no replacement/duplicate399 or361resumption."
     },
     {
       "priority": 6,
       "action": "Fill remaining exact Berry, Vegetable, Microgreen, Ferment and ambient-staple routes with whole usable shipments.",
       "current_status": "2November inventory audit corrected product availability but does not establish unattendedBioshi renewals; current execution prioritizes external automatic suppliers. Yōkiro contact transfer was approved and0g reported2November, so do not repeat those questions. Its checkout was last read7November; recurringHOME and product-price qualification remained unresolved.19November public recovery cart is empty and the historical checkout was not recovered or rebuilt. No final activation is ready.",
       "practical_tests": [
-        "Klimeko400g x4/14days fits8Ferment choices/28days; report unnamed L.rhamnosus and changed nutrition.",
+        "Klimeko400g x4/14days is historical quantity arithmetic only: noL.rhamnosus declaration established, so it does not qualify as the selectedLactose-FreeLiveKefirwithL.rhamnosus replacement. Preserve target and source-link identity until a verified equal-or-better product qualifies.",
         "Japanese organic Matcha60g/30days or2x30g/30days fits2g/day.",
         "King Oyster200g givesfour50g portions;750g four-kind candidate gives10fullchoices plus50g each Oyster/Shiitake.",
         "Available Seeds are shared14g/day demand, not extra compulsory portions.",
@@ -1498,7 +1505,7 @@
   },
   "derived_analysis": {
     "as_of": "2026-11-02",
-    "evidence_updated_on": "2026-11-21",
+    "evidence_updated_on": "2026-11-22",
     "current_execution_constraints": {
       "free_home_courier_required": false,
       "paid_home_courier_scope": "User27October accepts paid home courier. Aim for approximately100PLN net goods per actual shipment and compulsory logistics≤10%; retain25% matched delivered premium per product, no lockers/filler or extra consumption.",
@@ -2349,13 +2356,14 @@
         "stock": "No new user stock observation; carrier-confirmed25September receipts retained. No duplicate Oat/Nut purchase or inferred consumption."
       },
       "monitoring_latest": {
-        "observed_on": "2026-11-21",
+        "observed_on": "2026-11-22",
         "mail_checked_successfully": true,
-        "last_successful_incoming_check_on": "2026-11-21",
-        "mail_scope": "Eight complete sender/order searches since20November for Bioshi,PEZ,Catch Club,Zielono,257757,GLS,IdoPay andInPost returned zero matches and no further pages.",
+        "last_successful_incoming_check_on": "2026-11-22",
+        "mail_scope": "Eight complete sender/order searches since21November forBioshi,PEZ,CatchClub,Zielono,257757,GLS,IdoPay andInPost returnedzero matches and no furtherpages.",
         "live_retailer_verified": false,
-        "retailer_scope": "No retailer account, order or checkout revisit. Public Olini subscription/Seed/quality pages checked separately.257757 cancellation retains18November verification, full profiles5November, Yōkiro checkout/prices7November and its empty public recovery cart19November. No stock or accepted quote redated.",
-        "cancelled_257757_scope": "All four foods remain excluded from incoming/usable stock.99.25PLN full refund remains promised with conflictingmethod and no verified transaction/bankcredit; no new resolution found.",
+        "retailer_scope": "No retailer account,order orcheckout revisit.257757 cancellation retains18November verification, fullprofiles5November, Yōkirocheckout/prices7November andemptypubliccart19November. No stock orquote redated.",
+        "canonical_alignment_record": "DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation",
+        "cancelled_257757_scope": "Allfourfoods remainexcluded fromincoming/usable stock.99.25PLN refund promised, method/transaction/bankcredit unverified; no newresolution.",
         "existing_refund_action_notified_on": "2026-11-18",
         "existing_refund_action_unchanged": true,
         "known_material_delivery_problem": true,
@@ -2365,10 +2373,10 @@
         "new_user_action_needed": null,
         "outgoing_messages": false,
         "bioshi_subscription_changes": false,
+        "canonical_readme_changes": false,
         "new_financial_commitment": false,
         "notification": "DONT_NOTIFY",
-        "preparation_queue_aligned_on": "2026-11-21",
-        "public_research_record": "DIET_EXTERNAL_AUTOMATION_ROUTES_02NOV.md#21-november-olini-seed-route-refresh"
+        "automation_prompt_aligned_on": "2026-11-22"
       },
       "egg_replacement_attempt_30sep": {
         "requested_action": "Replace45382 with user-selected46125 inside existing361, preserving1carton/14days.",
@@ -5102,10 +5110,59 @@
         "message_sent": false,
         "financial_commitment": false,
         "record": "DIET_EXTERNAL_AUTOMATION_ROUTES_02NOV.md#21-november-olini-seed-route-refresh"
+      },
+      "canonical_alignment_22nov": {
+        "observed_on": "2026-11-22",
+        "canonical_source": "README.md",
+        "canonical_change_commit": "2c772eae75be9ced7b720b003681dd9310655d88",
+        "canonical_change_commit_at": "2026-11-21T15:43:28+01:00",
+        "status": "protein_purchasing_frequencies_require_reconciliation",
+        "live_dinner_choices": {
+          "skinless_norwegian_salmon_raw_g": 150,
+          "wild_caught_sardines_drained_g": 170,
+          "atlantic_mackerel_drained_g": 125,
+          "organic_tempeh_g": 200,
+          "organic_selected_eggs_shell_free_g": 200
+        },
+        "dinner_turkey_listed": false,
+        "live_weekly_guidance": "300–450g cooked/ready-to-eatFish including at least200gFattyFish, usually2–3meals. Tempeh on other days andEggs occasional; countLunchPollock towardFish.",
+        "historical_purchasing_scenario_on": "2026-10-27",
+        "historical_scenario": "12Egg/6Turkey/6Salmon/2Mackerel/2Sardine dinners,3900gTurkey and900gSalmon per28days. Retained for provenance, not current canonical demand or activation quantities.",
+        "current_protein_frequencies_confirmed": false,
+        "new_protein_activation_held": true,
+        "tempeh_purchase_inferred": false,
+        "saved361_resumed": false,
+        "canonical_readme_edited_by_this_run": false,
+        "scope": "Preserve liveREADME and desired food forms. Do not infer replacement meal frequencies, undo canonical edits, activate Tempeh, resume361 or execute the old quantity calendar. Exact-form sourcing can continue; shipment sizing waits for reconciliation.",
+        "record": "DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation"
+      },
+      "monitoring_22nov": {
+        "observed_on": "2026-11-22",
+        "mail_checked_successfully": true,
+        "last_successful_incoming_check_on": "2026-11-22",
+        "mail_scope": "Eight complete sender/order searches since21November forBioshi,PEZ,CatchClub,Zielono,257757,GLS,IdoPay andInPost returnedzero matches and no furtherpages.",
+        "live_retailer_verified": false,
+        "retailer_scope": "No retailer account,order orcheckout revisit.257757 cancellation retains18November verification, fullprofiles5November, Yōkirocheckout/prices7November andemptypubliccart19November. No stock orquote redated.",
+        "canonical_alignment_record": "DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation",
+        "cancelled_257757_scope": "Allfourfoods remainexcluded fromincoming/usable stock.99.25PLN refund promised, method/transaction/bankcredit unverified; no newresolution.",
+        "existing_refund_action_notified_on": "2026-11-18",
+        "existing_refund_action_unchanged": true,
+        "known_material_delivery_problem": true,
+        "new_material_delivery_problem": false,
+        "new_payment_issue": false,
+        "new_activation_ready": false,
+        "new_user_action_needed": null,
+        "outgoing_messages": false,
+        "bioshi_subscription_changes": false,
+        "canonical_readme_changes": false,
+        "new_financial_commitment": false,
+        "notification": "DONT_NOTIFY",
+        "automation_prompt_aligned_on": "2026-11-22"
       }
     },
     "active_coverage_per_28_days": {
       "scope": "Long-run rates averaged over28days from active_streams, excluding first-only foods. Gross produce equivalents precede edible/preparation losses. Neither timing, receipt nor usable meal coverage is established.",
+      "requirements_scope": "Reconciliation required22November: liveREADME changed21November; the stored27October12Egg/6Turkey/6Salmon/2Mackerel/2Sardine counts are historical purchasing arithmetic, not current canonical requirements or activation quantities.",
       "recurring_food_count": 24,
       "recurring_food_count_definition": "Distinct positive recurring food keys across all active streams, including Nuts; repeated foods count once.",
       "tempeh_dinners": {
@@ -5531,8 +5588,8 @@
       "egg_produce_subscription": 399,
       "egg_produce_order": 249850,
       "egg_produce_status": "active_paid_saved_card_first_order_carrier_delivered_reduced_contents_unverified",
-      "fresh_activation_hold": "27October request reopens exact native route preparation under latest canonical food quantities: noTempeh/Tofu,allfourMushroomkinds,selectedgreen-leggedEggs,Turkey/skinlessSalmonpriority. Stock,usablelife,firsttiming,fees and product-premium checks remain; no new scheduled-run commitments.",
-      "dinner_rotation_status": "Complete28day A/B meal allocation in DIET_COMPLETE_SHIPMENT_PLAN.md;12Egg/6Turkey/6Salmon/2Mackerel/2Sardine. A in weeks1/3, B in weeks2/4; no Tempeh/Tofu or unallocated dinners.",
+      "fresh_activation_hold": "22November: preserve liveREADME and reconcile protein meal frequencies before sizing or activating new shipments. Old27October Dinnercalendar/3900gTurkey/900gSalmon are historical. No Tempehpurchase or361resumption inferred. Other routes still require exact target match, actualstock/life, firsttiming, unattendedHOME and cost qualification.",
+      "dinner_rotation_status": "Reconciliation required22November: liveREADME changed21November; the stored27October12Egg/6Turkey/6Salmon/2Mackerel/2Sardine counts are historical purchasing arithmetic, not current canonical requirements or activation quantities.",
       "monitoring_10oct": "No new qualifying activation or required payment action. Last retailer state9October; Opera not connected in10October inventory. Existing targets remain conditional and unchanged.",
       "current_incoming_status_before_18oct": "11October GLS tracking confirms249850/33685070070 delivered9October at13:02 as displayed. Bioshi history remainswysłane23.92PLN. Revised contents after75.33PLN merchant-issued refunds, inspected condition and usable food amounts remain unverified. Future399 active30days/freeGLS, dates31October/4November; food lines/99.25PLN quote retain8October date.361 remains paused.",
       "separate_paid_order_scope": "Freshly loaded signed-in Brave Regularne zakupy page and expanded500125 details,27October. User reports activating yesterday. Earlier cached four-profile view missed this fifth profile. Active30day group has Phileos500ml×2 and one each Emperatriz Mackerel/Sardines jar, next25November. First500125163.53PLN paid,9.49PLN courier; no receipt verified.",
@@ -5541,14 +5598,15 @@
       "nut_B_historical_arrival_target": "2026-11-04",
       "interactive_reoptimization_27oct": "Canonical foods and complete demand plan saved; later unpaid cart reconfigured14lines/18packs310.05PLN; all60/90day badges verified after loading. Selected InPost home courier displayed0 before destination entry. No retailer profile/order/payment changes;370transfer/361Tempeh removal unsaved.",
       "merchant_request_sent_28oct": "diet/DIET_BIOSHI_RECONFIGURATION_REQUEST_27OCT.md",
-      "current_next_step": "Cancellation/refund action already notified18November; monitor actual refund-method resolution and credit without repeating the unchanged handoff, resending or transmitting bank details. Keep257757 foods excluded andBioshi settings unchanged.19November Yōkiro public cart is empty and historical checkout not recovered; do not rebuild a duplicate cart or ask for payment. Qualify exact unattended HOME routes, stock/life and per-product costs before any final activation.",
+      "current_next_step": "Monitor257757 refund; the18November handoff remains unchanged, with no bank details sent or repeat alert. Reconcile liveREADME21November protein changes with purchasing frequencies before newProtein activation; retain oldquantities as historical only and keep361paused/Bioshiunchanged. Preserve the19November emptyYōkiro publiccart observation and7November checkoutquotes; no duplicate rebuilding/payment request. Continue exact-form and other genuinely qualifying nativeHOME preparation.",
       "known_active_profile_count": 6,
       "paused_profile_count": 1,
       "current_status": "Full Bioshi profile contents retain5November: six ACTIVE labels plusPAUSED361.18November order257757 cancellation does not prove profile399 cancelled or foods/cycle changed. Automatic external suppliers remain prioritized; keepBioshi settings unchanged.370 overlap andOil/Fish rate correction remain unresolved.",
       "current_incoming_status_27oct_historical": "255381 paid104.55PLN23October for29October schedule.257757 existing99.25PLN creation notice schedules29October collection, unresolved against new payment terms. User-created500125 paid163.53PLN and merchant W drodze, parcel33685101618 explicitly matched; no receipt verified.14replacement recurring cart lines/18packs saved, not submitted; no new arrivals from this preparation.361 paused.",
       "fresh_activation_hold_27oct_historical": "27October direct user request reopens supported new subscription preparation. Preserve6October reduced rates, excluded spoiled Strawberries, selected green-legged Eggs and stock/first-arrival checks; no fresh order submitted this turn.",
       "current_status_updated_on": "2026-11-18",
-      "external_route_status_19nov": "Yōkiro public-cart recovery19November shows empty cart/0PLN, with no checkout or new quote. Last checkout observation7November remains historical; no new activation or complete coverage."
+      "external_route_status_19nov": "Yōkiro public-cart recovery19November shows empty cart/0PLN, with no checkout or new quote. Last checkout observation7November remains historical; no new activation or complete coverage.",
+      "current_protocol_alignment_on": "2026-11-22"
     },
     "practical_additional_alternatives": {
       "monthly_egg_clusters": {
@@ -5843,7 +5901,7 @@
         "scope": "Same restricted intervals; mixed smaller packs or a verified40-day1kg native cycle can solve quantity without changing the diet."
       }
     ],
-    "native_only_verdict": "Latest Bioshi terms verified2November require manual future renewals; user chose fully automatic external suppliers and Bioshi unchanged, preserving historical29October debit discrepancy. Six saved groups remain active labels, not complete unattended coverage. On5November exact existing Yokiro cart and firstHOME preparation were reload-verified, but its separate recurring section still lists a forbidden locker; no activation or qualifying renewalHOME quote. Pantry carrier delivery2November is verified, usable contents uninspected; exact protein and other routes remain unfinished.",
+    "native_only_verdict": "Current Bioshi future renewals require manual checkout/payment under2November terms; six saved active profiles do not establish unattended coverage, while29October legacy debit remains valid dated evidence.257757 was fully cancelled, verified18November, with99.25PLN refund method/receipt unresolved. Yōkiro publiccart was empty19November; historical7November checkout had forbidden recurringlocker and no qualifyingHOME quote. LiveREADMEchanged21November, restoringTempeh/removingDinnerTurkey/fixedcalendar; old27October protein quantities are historical and purchasing frequencies need reconciliation. No complete unattended meal coverage or completion date is established.",
     "not_proven": [
       "Full diet automation",
       "Free home courier for remaining unconfigured groups",
@@ -5881,9 +5939,9 @@
   "native_whole_diet_status": {
     "status": "partial_native_profiles_full_unattended_coverage_unverified",
     "current_candidate_infeasible": null,
-    "reason": "Latest Bioshi terms verified2November require manual future renewals; user chose fully automatic external suppliers and Bioshi unchanged, preserving historical29October debit discrepancy. Six saved groups remain active labels, not complete unattended coverage. On5November exact existing Yokiro cart and firstHOME preparation were reload-verified, but its separate recurring section still lists a forbidden locker; no activation or qualifying renewalHOME quote. Pantry carrier delivery2November is verified, usable contents uninspected; exact protein and other routes remain unfinished.",
+    "reason": "Current Bioshi future renewals require manual checkout/payment under2November terms; six saved active profiles do not establish unattended coverage, while29October legacy debit remains valid dated evidence.257757 was fully cancelled, verified18November, with99.25PLN refund method/receipt unresolved. Yōkiro publiccart was empty19November; historical7November checkout had forbidden recurringlocker and no qualifyingHOME quote. LiveREADMEchanged21November, restoringTempeh/removingDinnerTurkey/fixedcalendar; old27October protein quantities are historical and purchasing frequencies need reconciliation. No complete unattended meal coverage or completion date is established.",
     "known_native_source_gaps": [
-      "Fixed weekly organic pasture-raised Turkey tenderloins with usable portions/life",
+      "Exact organic pasture-raisedTurkey tenderloins with unattendedHOME delivery and usable portions/life; buying frequency pending livecanonical reconciliation.",
       "Fixed skinless Norwegian Salmon and exact approved seafood companions",
       "Fortified unsweetened Soy Milk or fully usable approved dairy alternative",
       "Lactose-free Skyr and complete Ferment formulation/pack/life allocation",
@@ -6362,13 +6420,14 @@
       "stock": "No new user stock observation; carrier-confirmed25September receipts retained. No duplicate Oat/Nut purchase or inferred consumption."
     },
     "monitoring_latest": {
-      "observed_on": "2026-11-21",
+      "observed_on": "2026-11-22",
       "mail_checked_successfully": true,
-      "last_successful_incoming_check_on": "2026-11-21",
-      "mail_scope": "Eight complete sender/order searches since20November for Bioshi,PEZ,Catch Club,Zielono,257757,GLS,IdoPay andInPost returned zero matches and no further pages.",
+      "last_successful_incoming_check_on": "2026-11-22",
+      "mail_scope": "Eight complete sender/order searches since21November forBioshi,PEZ,CatchClub,Zielono,257757,GLS,IdoPay andInPost returnedzero matches and no furtherpages.",
       "live_retailer_verified": false,
-      "retailer_scope": "No retailer account, order or checkout revisit. Public Olini subscription/Seed/quality pages checked separately.257757 cancellation retains18November verification, full profiles5November, Yōkiro checkout/prices7November and its empty public recovery cart19November. No stock or accepted quote redated.",
-      "cancelled_257757_scope": "All four foods remain excluded from incoming/usable stock.99.25PLN full refund remains promised with conflictingmethod and no verified transaction/bankcredit; no new resolution found.",
+      "retailer_scope": "No retailer account,order orcheckout revisit.257757 cancellation retains18November verification, fullprofiles5November, Yōkirocheckout/prices7November andemptypubliccart19November. No stock orquote redated.",
+      "canonical_alignment_record": "DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation",
+      "cancelled_257757_scope": "Allfourfoods remainexcluded fromincoming/usable stock.99.25PLN refund promised, method/transaction/bankcredit unverified; no newresolution.",
       "existing_refund_action_notified_on": "2026-11-18",
       "existing_refund_action_unchanged": true,
       "known_material_delivery_problem": true,
@@ -6378,10 +6437,10 @@
       "new_user_action_needed": null,
       "outgoing_messages": false,
       "bioshi_subscription_changes": false,
+      "canonical_readme_changes": false,
       "new_financial_commitment": false,
       "notification": "DONT_NOTIFY",
-      "preparation_queue_aligned_on": "2026-11-21",
-      "public_research_record": "DIET_EXTERNAL_AUTOMATION_ROUTES_02NOV.md#21-november-olini-seed-route-refresh"
+      "automation_prompt_aligned_on": "2026-11-22"
     },
     "egg_replacement_attempt_30sep": {
       "requested_action": "Replace45382 with user-selected46125 inside existing361, preserving1carton/14days.",
@@ -9115,6 +9174,54 @@
       "message_sent": false,
       "financial_commitment": false,
       "record": "DIET_EXTERNAL_AUTOMATION_ROUTES_02NOV.md#21-november-olini-seed-route-refresh"
+    },
+    "canonical_alignment_22nov": {
+      "observed_on": "2026-11-22",
+      "canonical_source": "README.md",
+      "canonical_change_commit": "2c772eae75be9ced7b720b003681dd9310655d88",
+      "canonical_change_commit_at": "2026-11-21T15:43:28+01:00",
+      "status": "protein_purchasing_frequencies_require_reconciliation",
+      "live_dinner_choices": {
+        "skinless_norwegian_salmon_raw_g": 150,
+        "wild_caught_sardines_drained_g": 170,
+        "atlantic_mackerel_drained_g": 125,
+        "organic_tempeh_g": 200,
+        "organic_selected_eggs_shell_free_g": 200
+      },
+      "dinner_turkey_listed": false,
+      "live_weekly_guidance": "300–450g cooked/ready-to-eatFish including at least200gFattyFish, usually2–3meals. Tempeh on other days andEggs occasional; countLunchPollock towardFish.",
+      "historical_purchasing_scenario_on": "2026-10-27",
+      "historical_scenario": "12Egg/6Turkey/6Salmon/2Mackerel/2Sardine dinners,3900gTurkey and900gSalmon per28days. Retained for provenance, not current canonical demand or activation quantities.",
+      "current_protein_frequencies_confirmed": false,
+      "new_protein_activation_held": true,
+      "tempeh_purchase_inferred": false,
+      "saved361_resumed": false,
+      "canonical_readme_edited_by_this_run": false,
+      "scope": "Preserve liveREADME and desired food forms. Do not infer replacement meal frequencies, undo canonical edits, activate Tempeh, resume361 or execute the old quantity calendar. Exact-form sourcing can continue; shipment sizing waits for reconciliation.",
+      "record": "DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation"
+    },
+    "monitoring_22nov": {
+      "observed_on": "2026-11-22",
+      "mail_checked_successfully": true,
+      "last_successful_incoming_check_on": "2026-11-22",
+      "mail_scope": "Eight complete sender/order searches since21November forBioshi,PEZ,CatchClub,Zielono,257757,GLS,IdoPay andInPost returnedzero matches and no furtherpages.",
+      "live_retailer_verified": false,
+      "retailer_scope": "No retailer account,order orcheckout revisit.257757 cancellation retains18November verification, fullprofiles5November, Yōkirocheckout/prices7November andemptypubliccart19November. No stock orquote redated.",
+      "canonical_alignment_record": "DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation",
+      "cancelled_257757_scope": "Allfourfoods remainexcluded fromincoming/usable stock.99.25PLN refund promised, method/transaction/bankcredit unverified; no newresolution.",
+      "existing_refund_action_notified_on": "2026-11-18",
+      "existing_refund_action_unchanged": true,
+      "known_material_delivery_problem": true,
+      "new_material_delivery_problem": false,
+      "new_payment_issue": false,
+      "new_activation_ready": false,
+      "new_user_action_needed": null,
+      "outgoing_messages": false,
+      "bioshi_subscription_changes": false,
+      "canonical_readme_changes": false,
+      "new_financial_commitment": false,
+      "notification": "DONT_NOTIFY",
+      "automation_prompt_aligned_on": "2026-11-22"
     }
   },
   "stock_observations": [
@@ -9379,8 +9486,8 @@
     "egg_produce_subscription": 399,
     "egg_produce_order": 249850,
     "egg_produce_status": "active_paid_saved_card_first_order_carrier_delivered_reduced_contents_unverified",
-    "fresh_activation_hold": "27October request reopens exact native route preparation under latest canonical food quantities: noTempeh/Tofu,allfourMushroomkinds,selectedgreen-leggedEggs,Turkey/skinlessSalmonpriority. Stock,usablelife,firsttiming,fees and product-premium checks remain; no new scheduled-run commitments.",
-    "dinner_rotation_status": "Complete28day A/B meal allocation in DIET_COMPLETE_SHIPMENT_PLAN.md;12Egg/6Turkey/6Salmon/2Mackerel/2Sardine. A in weeks1/3, B in weeks2/4; no Tempeh/Tofu or unallocated dinners.",
+    "fresh_activation_hold": "22November: preserve liveREADME and reconcile protein meal frequencies before sizing or activating new shipments. Old27October Dinnercalendar/3900gTurkey/900gSalmon are historical. No Tempehpurchase or361resumption inferred. Other routes still require exact target match, actualstock/life, firsttiming, unattendedHOME and cost qualification.",
+    "dinner_rotation_status": "Reconciliation required22November: liveREADME changed21November; the stored27October12Egg/6Turkey/6Salmon/2Mackerel/2Sardine counts are historical purchasing arithmetic, not current canonical requirements or activation quantities.",
     "monitoring_10oct": "No new qualifying activation or required payment action. Last retailer state9October; Opera not connected in10October inventory. Existing targets remain conditional and unchanged.",
     "current_incoming_status_before_18oct": "11October GLS tracking confirms249850/33685070070 delivered9October at13:02 as displayed. Bioshi history remainswysłane23.92PLN. Revised contents after75.33PLN merchant-issued refunds, inspected condition and usable food amounts remain unverified. Future399 active30days/freeGLS, dates31October/4November; food lines/99.25PLN quote retain8October date.361 remains paused.",
     "separate_paid_order_scope": "Freshly loaded signed-in Brave Regularne zakupy page and expanded500125 details,27October. User reports activating yesterday. Earlier cached four-profile view missed this fifth profile. Active30day group has Phileos500ml×2 and one each Emperatriz Mackerel/Sardines jar, next25November. First500125163.53PLN paid,9.49PLN courier; no receipt verified.",
@@ -9389,14 +9496,15 @@
     "nut_B_historical_arrival_target": "2026-11-04",
     "interactive_reoptimization_27oct": "Canonical foods and complete demand plan saved; later unpaid cart reconfigured14lines/18packs310.05PLN; all60/90day badges verified after loading. Selected InPost home courier displayed0 before destination entry. No retailer profile/order/payment changes;370transfer/361Tempeh removal unsaved.",
     "merchant_request_sent_28oct": "diet/DIET_BIOSHI_RECONFIGURATION_REQUEST_27OCT.md",
-    "current_next_step": "Cancellation/refund action already notified18November; monitor actual refund-method resolution and credit without repeating the unchanged handoff, resending or transmitting bank details. Keep257757 foods excluded andBioshi settings unchanged.19November Yōkiro public cart is empty and historical checkout not recovered; do not rebuild a duplicate cart or ask for payment. Qualify exact unattended HOME routes, stock/life and per-product costs before any final activation.",
+    "current_next_step": "Monitor257757 refund; the18November handoff remains unchanged, with no bank details sent or repeat alert. Reconcile liveREADME21November protein changes with purchasing frequencies before newProtein activation; retain oldquantities as historical only and keep361paused/Bioshiunchanged. Preserve the19November emptyYōkiro publiccart observation and7November checkoutquotes; no duplicate rebuilding/payment request. Continue exact-form and other genuinely qualifying nativeHOME preparation.",
     "known_active_profile_count": 6,
     "paused_profile_count": 1,
     "current_status": "Full Bioshi profile contents retain5November: six ACTIVE labels plusPAUSED361.18November order257757 cancellation does not prove profile399 cancelled or foods/cycle changed. Automatic external suppliers remain prioritized; keepBioshi settings unchanged.370 overlap andOil/Fish rate correction remain unresolved.",
     "current_incoming_status_27oct_historical": "255381 paid104.55PLN23October for29October schedule.257757 existing99.25PLN creation notice schedules29October collection, unresolved against new payment terms. User-created500125 paid163.53PLN and merchant W drodze, parcel33685101618 explicitly matched; no receipt verified.14replacement recurring cart lines/18packs saved, not submitted; no new arrivals from this preparation.361 paused.",
     "fresh_activation_hold_27oct_historical": "27October direct user request reopens supported new subscription preparation. Preserve6October reduced rates, excluded spoiled Strawberries, selected green-legged Eggs and stock/first-arrival checks; no fresh order submitted this turn.",
     "current_status_updated_on": "2026-11-18",
-    "external_route_status_19nov": "Yōkiro public-cart recovery19November shows empty cart/0PLN, with no checkout or new quote. Last checkout observation7November remains historical; no new activation or complete coverage."
+    "external_route_status_19nov": "Yōkiro public-cart recovery19November shows empty cart/0PLN, with no checkout or new quote. Last checkout observation7November remains historical; no new activation or complete coverage.",
+    "current_protocol_alignment_on": "2026-11-22"
   },
   "paused_streams": [
     {
@@ -10226,7 +10334,7 @@
       "scope": "Intended one-time migration, not routine assistant skipping or quantities as supply. No scheduled-run cancellation or pause authorized."
     }
   },
-  "evidence_updated_on": "2026-11-21",
+  "evidence_updated_on": "2026-11-22",
   "priority_browser_tests_historical_before_02nov": {
     "archived_on": "2026-11-02",
     "scope": "Superseded operational queue; source dates in entries retained. Do not execute oldNutB/Oat starts,361Egg assumptions,free-courier-only gate or125gBlueberry serving.",
@@ -10266,6 +10374,31 @@
       }
     ]
   },
-  "priority_browser_tests_updated_on": "2026-11-21",
-  "priority_browser_tests_scope": "Current preparation queue reconciled21November using dated5/7/18/19November evidence, not new retailer, price, stock or shelf-life observations. No authorization for scheduled purchases, outgoing messages, bank/contact entry, payment, terms,361resumption or financial-schedule changes."
+  "priority_browser_tests_updated_on": "2026-11-22",
+  "priority_browser_tests_scope": "Current queue reconciled22November against liveREADMEcommit2c772ea21November and dated retailer evidence. Historical protein counts remain reference arithmetic only, not current canonical activation quantities. No scheduled purchases/messages, contact/bank/card entry, terms,361resumption or financial-schedule changes authorized.",
+  "canonical_alignment": {
+    "observed_on": "2026-11-22",
+    "canonical_source": "README.md",
+    "canonical_change_commit": "2c772eae75be9ced7b720b003681dd9310655d88",
+    "canonical_change_commit_at": "2026-11-21T15:43:28+01:00",
+    "status": "protein_purchasing_frequencies_require_reconciliation",
+    "live_dinner_choices": {
+      "skinless_norwegian_salmon_raw_g": 150,
+      "wild_caught_sardines_drained_g": 170,
+      "atlantic_mackerel_drained_g": 125,
+      "organic_tempeh_g": 200,
+      "organic_selected_eggs_shell_free_g": 200
+    },
+    "dinner_turkey_listed": false,
+    "live_weekly_guidance": "300–450g cooked/ready-to-eatFish including at least200gFattyFish, usually2–3meals. Tempeh on other days andEggs occasional; countLunchPollock towardFish.",
+    "historical_purchasing_scenario_on": "2026-10-27",
+    "historical_scenario": "12Egg/6Turkey/6Salmon/2Mackerel/2Sardine dinners,3900gTurkey and900gSalmon per28days. Retained for provenance, not current canonical demand or activation quantities.",
+    "current_protein_frequencies_confirmed": false,
+    "new_protein_activation_held": true,
+    "tempeh_purchase_inferred": false,
+    "saved361_resumed": false,
+    "canonical_readme_edited_by_this_run": false,
+    "scope": "Preserve liveREADME and desired food forms. Do not infer replacement meal frequencies, undo canonical edits, activate Tempeh, resume361 or execute the old quantity calendar. Exact-form sourcing can continue; shipment sizing waits for reconciliation.",
+    "record": "DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation"
+  }
 }

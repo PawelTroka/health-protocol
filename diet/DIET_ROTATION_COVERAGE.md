@@ -1,6 +1,10 @@
 # Diet rotation coverage
 
-## Current allocation —27October2026
+## 22 November: protein purchasing quantities on hold
+
+The live [README Diet](../README.md#4-diet), changed by `2c772ea` on21November, restores Tempeh and removes Dinner Turkey and the fixed rotation. Preserve it. The27October scenario of12Egg/6Turkey/6Salmon/2Mackerel/2Sardine dinners,3,900g Turkey and900g Salmon per28days is historical, not current canonical demand or activation quantities. Reconcile meal frequencies before sizing new Protein purchases; infer no new frequencies, substitutions or Tempeh order. Exact Turkey and skinless Salmon sourcing may continue. Keep361 paused and all Bioshi settings unchanged. [Reconciliation hold](DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation).
+
+## Historical purchasing allocation —27October2026
 
 The user removed Tempeh and Tofu, requested more organic Turkey and skinless Salmon, and requested all four approved Mushroom kinds. The [complete demand and shipment plan](DIET_COMPLETE_SHIPMENT_PLAN.md#four-week-protein-calendar) owns the A/B four-week calendar and every other category's quantities. All28 Lunches and28 Dinners are assigned; there are no unallocated Dinner slots.
 

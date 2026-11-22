@@ -1,5 +1,9 @@
 # Diet stock and first-delivery transition
 
+## 22 November: protein purchasing quantities on hold
+
+The live [README Diet](../README.md#4-diet), changed by `2c772ea` on21November, restores Tempeh and removes Dinner Turkey and the fixed rotation. Preserve it. The27October scenario of12Egg/6Turkey/6Salmon/2Mackerel/2Sardine dinners,3,900g Turkey and900g Salmon per28days is historical, not current canonical demand or activation quantities. Reconcile meal frequencies before sizing new Protein purchases; infer no new frequencies, substitutions or Tempeh order. Exact Turkey and skinless Salmon sourcing may continue. Keep361 paused and all Bioshi settings unchanged. [Reconciliation hold](DIET_PAYMENT_HANDOFF.md#22-november-incoming-review-and-protein-reconciliation).
+
 ## 18 November: cancelled257757 supplies no stock
 
 Remove257757 from incoming-food offsets. Bioshi confirms that its Eggs, Cauliflower, Carrots and Raspberries were all cancelled and will not ship; today's order and shipment show **Anulowane**. Count none as received stock. This supersedes the earlier accepted-order and4November arrival assumptions without inventing current household depletion or an immediate replacement quantity.
