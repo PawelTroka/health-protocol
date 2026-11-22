@@ -113,6 +113,7 @@ TIER_BY_CODE = {
     "A.2": "🥈",
     "A.3": "🥈",
     "A.4": "🥈",
+    "A.7": "🥈",
     "A.8": "🥈",
     "A.9": "🥈",
 }
@@ -383,7 +384,7 @@ PAGES = [
             item("A.4", "MSM (OptiMSM®)", "1.5g", icons="🦴 🔥 👨‍🦳 🔄"),
             empty("A.5"),
             empty("A.6"),
-            empty("A.7"),
+            item("A.7", "Boswellia AprèsFlex®", "100mg (AKBA 20mg)", icons="🦴 🔥", note="1capsule daily • knee-OA symptom evidence • preventive benefit unproven"),
             item("A.8", "Glucosamine Sulfate", "750mg", icons="🦴 👨‍🦳 🛡️ 🔄"),
             item("A.9", "Glucosamine Sulfate", "750mg", icons="🦴 👨‍🦳 🛡️ 🔄"),
         ],
