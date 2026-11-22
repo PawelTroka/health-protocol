@@ -322,23 +322,23 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Protein-sparing Mediterranean Caloric-Restriction diet
 
-*Turkey + Salmon + Kefir day at 80kg: 2,430kcal · P196g · C153g · F88g · Fiber48–51g.*
+*Default day at 79.1kg: 2,430kcal · P196g · C153g · F88g · Fiber49g.*
 
-**Protein:** 170g without Collagen (2.13g/kg), plus 25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
+**Protein:** 170g without Collagen (2.15g/kg), plus 25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
 
 
 **Food forms:** fresh or plain frozen Vegetables, prepared as listed; Pulses cooked from dried. The existing Sardine and Mackerel options are the only canned-food exceptions.
 
-**How to use:** every CHOOSE list ranks options by evidence-weighted Health, Longevity, Looksmaxxing and Sexual Health benefit at the listed portions, adjusted for GI tolerance and stack fit. Fixed items plus checked choices form the reference day. Choose Spices & Herbs at their individual portions; rotate foods across the week and recalculate Macros for substitutions.
+**How to use:** every CHOOSE list ranks options by evidence-weighted Health, Longevity, Looksmaxxing and Sexual Health benefit at the listed portions, adjusted for GI tolerance and stack fit. Fixed items plus checked choices form the default day. Choose Spices & Herbs at their individual portions; rotate foods across the week and recalculate Macros for substitutions.
 
 **Dental staining:** 🟡 marks a possible staining source for natural/whitened teeth or composite bonding. Evidence varies; use the [care guide and evidence tiers](#dental-staining) to manage contact while keeping nutritious foods.
 
 **Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Rotate all four listed Mushrooms at their written 75g portions (50g King Oyster); this is a purchasing rotation rather than a daily 75g requirement. Variety accumulates across the week; every alternative need not be bought or eaten.
 
-> **GI fit:** 48–51g Fiber describes the checked menu with PHGG 6g; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
+> **GI fit:** ~49g Fiber describes the default menu with PHGG 6g; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
-*474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
+*474kcal · P46.7g · C22.9g · F18.4g · Fiber14.5g*
 - 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 26g — 1scoop (40ml)) 🛡️ 🗿 💪 🦴 👨‍🦳
   - `166kcal · P40.5g · C0.4g · F0.3g`
 - 25g dry [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪 🔄
@@ -346,7 +346,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 10g dry [High-Fiber Oat Bran](https://www.frisco.pl/pid,13582/n,sante-otreby-owsiane-wysokoblonnikowe/stn,product) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪
   - `37kcal · P1.6g · C5.2g · F0.7g · Fiber1.8g · ≥0.6g Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
 - 10g Psyllium Husk (7.5g standalone + 2.5g in MicroVitamin+) 🚽 🦠 🩸
-  - `20kcal · C1g · Fiber7–9g · Gel-Forming Arabinoxylan (Soluble Fiber)`
+  - `20kcal · C1g · Fiber8g · Gel-Forming Arabinoxylan (Soluble Fiber)`
 - 🌱 **Seeds — CHOOSE ONE**
   - [x] 7g freshly ground [organic Flaxseed](https://bioshi.pl/pl/products/siemie-lniane-brazowe-bio-nasiona-lnu-250-g-heybio-101259) 🛡️ ⏰ ❤️ 🦠 🩸 🪶 🔄
     - `35kcal · P1.3g · C1.2g · F2.2g · Fiber2g · Lignans (SDG) · ALA Omega-3 · Mucilage`
@@ -477,11 +477,11 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 💪 Right after workout
 *189kcal · P28g dietary Protein + 15g EAA · C1.3g · F0.3g · Fiber5.1g*
-- 💊 [After-workout supplements](#after-workout) (WPI 30g + EAA 15g — 1scoop (25ml) + PHGG 6g — weighed) 💪 🗿 🚽 🦠
+- 💊 [After-workout supplements](#after-workout) (WPI 30g + EAA 15g — 1scoop (25ml) + PHGG 6g — ~0.86scoop (~18ml)) 💪 🗿 🚽 🦠
   - `189kcal · P28g dietary Protein + 15g EAA · C1.3g · F0.3g · Fiber5.1g`
 
 #### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — Recovery, Leafy Greens & Whole Fruit)
-*888kcal · P53g · C55.6g · F47.4g · Fiber12–13g*
+*888kcal · P53g · C55.6g · F47.4g · Fiber12.5g*
 *Weigh Salmon, Eggs (without shells), Tomatoes, Okra, Asparagus and peeled Celeriac raw; starch after preparation; remaining cooked Vegetables after preparation; Fruit, Nuts, Seeds and Fermented foods as eaten.*
 - 🐟 **Fatty Protein — CHOOSE ONE**
   - [x] 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 🛡️ ⏰ 🗿 🍆 🧠 ❤️ 👁️ 🪶
@@ -592,7 +592,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 | Each week | Aim for 300–450g cooked/ready-to-eat Fish, including at least 200g Fatty Fish; usually 2–3 meals. Use Tempeh on other days, with Eggs occasional. Count Lunch Pollock toward the Fish target; Shellfish also rotates at Lunch. |
 | Building plant variety | Use tolerated Pulses 2–4x/week; test Oats 25g→30g dry with Oat Bran kept at 10g or build Pulses toward the written portions as tolerated, one change at a time. |
 | More training fuel | Increase steamed peeled Potato at Lunch from 80g→200g: +24g available Carbohydrate and 113kcal. |
-| During the cut | Review the 14-day weight trend, waist, Strength, sleep and libido. At 80kg, start around 0.2–0.4kg/week; if loss is faster for 2 weeks or recovery worsens, add 100–150kcal. Count the training-fuel increase once if it serves both purposes. |
+| During the cut | Review the 14-day weight trend, waist, Strength, sleep and libido. At 79.1kg, start around 0.2–0.4kg/week; if loss is faster for 2 weeks or recovery worsens, add 100–150kcal. Count the training-fuel increase once if it serves both purposes. |
 | Reaching the physique goal | Move to maintenance; preserve training, adequate energy and food variety. |
 
 *Keep processed Meat out and Red Meat occasional. The L.2-3 Fish-Oil rule applies on non-Fatty-Fish days; count its 30kcal/3g Fat alongside the meal swap. Daily EvoBomb and the retained Collagen/WPI/EAA servings stay in their scheduled windows.*
@@ -757,8 +757,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
 - 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 15g — 1scoop (25ml)](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
   - Free Essential Amino Acids 14.189g; L-Leucine 4.71g; L-Lysine 2.526g; L-Isoleucine 1.686g; L-Valine 1.686g; L-Threonine 1.551g; L-Histidine 765mg; L-Methionine 421.5mg; L-Phenylalanine 421.5mg; L-Tryptophan 421.5mg
-- 🥈 **A.0.3** [Partially Hydrolyzed Guar Gum (PHGG, Sunfiber®) 6g — weighed](https://pl.iherb.com/pr/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g/147283) 🚽 🦠
-  - Mix in ≥250ml liquid. Start 3g/day for 7 days, then 6g if tolerated. Keep ≥2h from oral prescription medicines; use the 15:00 drink instead if needed. [Notes](#gut--metabolic-support)
+- 🥈 **A.0.3** [Partially Hydrolyzed Guar Gum (PHGG) 6g — ~0.86scoop (~18ml)](https://pl.iherb.com/pr/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g/147283) 🚽 🦠
 💊 pills:
 - 🥈 **A.1** [UC-II® Type II Collagen 40mg](https://pl.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318) 🦴 💪 🔄
   - Total Collagen 10mg, including Undenatured Type II Collagen; Mineralized Red-Algae Complex 250mg; Calcium 80mg
@@ -1163,22 +1162,22 @@ Target icons identify an intervention's intended area or the system assessed by 
 
 ### Totals
 
-**Reference day:** the checked Turkey + Salmon + Kefir choices, including HBCD, PHGG 6g and no optional Dinner fat. The body-weight calculations use 80kg.
+**Default day:** the checked Turkey + Salmon + Kefir choices, including HBCD, PHGG 6g and no optional Dinner fat. Body-weight calculations use 79.1kg, the November average in [Results](results.md#body-composition).
 
 | Daily intake | Estimate |
 | --- | --- |
 | Energy | 2,430kcal |
 | Protein | 195.8g, including 25.8g Collagen |
-| Protein without Collagen | 170g / 2.13g/kg |
+| Protein without Collagen | 170g / 2.15g/kg |
 | Available Carbohydrate | 153.1g |
 | Fat | 88.1g |
-| Fiber | 47.9–50.9g |
+| Fiber | 49.4g |
 
 EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 474 + Lunch 567 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 189 + Dinner 888 + other supplements 27kcal.
 
 #### Diet rotations
 
-Each row changes only the named choice from the reference day. Tempeh and Egg days include L.2-3 Fish Oil (30kcal/3g Fat).
+Each row changes only the named choice from the default day. Tempeh and Egg days include L.2-3 Fish Oil (30kcal/3g Fat).
 
 | Change | Daily kcal | Protein without Collagen | Available Carbohydrate | Fat |
 | --- | --- | --- | --- | --- |
@@ -1197,7 +1196,7 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 | --- | --- | --- |
 | Creatine monohydrate | 10g | M.0.3 MicroVitamin+ 5g + B.0.1 standalone 5g |
 | Psyllium Husk | 10g | M.0.3 MicroVitamin+ 2.5g + M.0.2 standalone 7.5g |
-| PHGG (Sunfiber®) | 6g powder | A.0.3; ~5.1g dietary Fiber, additional to Psyllium |
+| PHGG | 6g powder | A.0.3; ~5.1g dietary Fiber, additional to Psyllium |
 | Collagen Peptides | 25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 13.33g — 4scoops (4x~10ml) |
 | Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.14/L.12 standalone 1g each |
 | Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
@@ -1240,9 +1239,10 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 
 #### Diet calculation
 
-- **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies 14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as 13.33g Protein/53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium contributes ~20kcal/7–9g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
+- **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies 14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as 13.33g Protein/53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium contributes ~20kcal/8g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
+- **Fiber:** single planning estimates use the previous range midpoints: Psyllium 8g, Morning 14.5g and Dinner 12.5g; default-day Fiber 49.4g.
 - **EvoBomb:** ~67kcal is modeled from free amino acids, Malate and estimated Maltodextrin; the plausible range is 61–73kcal pending a complete nutrition panel. Its free amino acids are kept outside dietary Protein. Other blend/carrier energy remains partly unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [EU energy factors](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011R1169)
-- **PHGG / A.0.3:** Doctor's Best lists 15kcal, 7g total Carbohydrate and 6g Fiber per 7g powder. At 6g: ~13kcal, ~5.1g Fiber and ~0.9g available Carbohydrate (total minus Fiber), estimated from rounded label values. Protein/Fat are unquantified. At 3g: After Workout ~182kcal; reference day ~2,423kcal, C152.6g, Fiber45.4–48.4g. [Label](https://doctorsbest.com/products/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g-147283)
+- **PHGG / A.0.3:** Doctor's Best lists 15kcal, 7g total Carbohydrate and 6g Fiber per 7g powder. At 6g: ~13kcal, ~5.1g Fiber and ~0.9g available Carbohydrate (total minus Fiber), estimated from rounded label values. Protein/Fat are unquantified. At 3g: After Workout ~182kcal; default day ~2,423kcal, C152.6g, Fiber46.9g. [Label](https://doctorsbest.com/products/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g-147283)
 - **Carbohydrate:** Fiber is separate. USDA proxies use total Carbohydrate minus Fiber; labels and Norwegian data already reporting available Carbohydrate are used directly. Portions, cooking losses and incomplete panels make the daily figures estimates.
 
 <a id="diet-food-preparation"></a>
@@ -1301,7 +1301,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 - **M.0.2 Psyllium:** keep oral prescription medicines at least 2 hours away; this is why Tadalafil sits at Lunch. [Psyllium label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d030b0-df97-4dd6-88ba-e9fe863c95ea)
 - **Matcha/Caffeine:** keep Matcha at least 2 hours after Morning Iron (M.5) and the Iron-containing Lunch, and 8 hours before sleep. Time EvoBomb's 200mg Caffeine for sleep too; Cocoa Flavanols remain at Lunch. [Tea/Iron study](https://pubmed.ncbi.nlm.nih.gov/29046302/) [Caffeine/sleep review](https://pubmed.ncbi.nlm.nih.gov/36870101/)
-- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA with PHGG. Use EAA 15g — 1scoop (25ml), PHGG 6g — weighed and Collagen 4scoops; see [scoop sizes](#powder-scoop-sizes). Swallow A.1 UC-II and the other After Workout pills before starting the drink. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
+- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA with PHGG. Use EAA 15g — 1scoop (25ml), PHGG 6g — ~0.86scoop (~18ml) and Collagen 4scoops; see [scoop sizes](#powder-scoop-sizes). Swallow A.1 UC-II and the other After Workout pills before starting the drink. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
 - **IW.0.2/IW.0.3 hydration:** prepare the 2.5L electrolyte drink, put HBCD in the first portion that will be finished, then drink the remainder to thirst. Use pre/post dry body weight; fluid intake should not cause weight gain. Sauna adds the same IW.0.2 serving, **no second HBCD serving**. The combined dose exceeds the manufacturer's 4.1g serving, so review sweat losses, Blood Pressure and GI tolerance. [ALLHydrate label](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [Fluid-replacement guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5634236/)
 - **L.2-3 Omega-3:** skip capsules on the listed Salmon, Sardine or Mackerel days; Pollock does not qualify. Salmon 150g provides an estimated 1.8g EPA+DHA and Sardines 170g ~3.25g. The selected 180-softgel formula is 690mg EPA/310mg DHA per softgel. Two/day exceeds its usual one/day label direction and remains a review point. Do not increase; higher-dose trials show an Atrial-Fibrillation signal. Match the purchased lot to IFOS and review weekly intake/RBC Omega-3 Index. [Selected label](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) [Sardine label](https://leclerc.com.pl/delicius-filety-z-sardynek-w-oliwie-z-oliwek) [Dose/AF evidence](https://pubmed.ncbi.nlm.nih.gov/34612056/)
 - **M.13 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
@@ -1332,7 +1332,7 @@ Use `mass — measure count (volume)` for powder servings, e.g. `13.33g — 4sco
 - **EAA / A.0.2:** 15g — 1scoop (25ml), matching the manufacturer's serving. [Exact RawSeries EAA label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor)
 - **Collagen / B.0.3:** 13.33g — 4scoops (4x~10ml), using exactly four original scoops and KFD's 5g per 1.5scoops. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
 - **Psyllium / M.0.2:** 7.5g — 1tbsp (15ml), using GymBeam's 5g per 2tsp and standard metric measures. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
-- **PHGG / A.0.3:** 6g — weighed (3g starter). Doctor's Best: 1level scoop ≈7g; ml unverified. [Label](https://doctorsbest.com/products/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g-147283)
+- **PHGG / A.0.3:** 6g — ~0.86scoop (~18ml). Label: ~7g per full level scoop; estimated capacity ~21ml. Calibrate the portion to 6g by weight. [Estimate](supplements/POWDER_SCOOP_REFERENCE.md#phgg-estimate)
 
 Keep gram targets when changing scoops; for Collagen, calibrate to four original scoops. Estimated volumes are unconfirmed and depend on powder packing and filling. Sources, calculations, ranges and measurement guidance are in the [scoop reference](supplements/POWDER_SCOOP_REFERENCE.md): original audit 2026-11-14; PHGG added 2026-11-22.
 
@@ -1349,7 +1349,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 #### Gut & metabolic support
 
-- **PHGG / A.0.3:** Doctor's Best Sunfiber® Unflavored 210g is pure PHGG. Keep Psyllium at 10g/day. A 12-week trial improved bloating/gas, but not overall IBS severity or quality of life; other probiotics/prebiotics were excluded. Added benefit with this stack is uncertain. Introduce separately from other new gut products; assess symptoms over 8–12 weeks and reduce PHGG if persistently worse. Timing is for convenience; the medicine gap is precautionary. [Trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4744437/) [Spacing](https://aor.ca/product/solufibre/)
+- **PHGG / A.0.3:** Doctor's Best Sunfiber® Unflavored 210g is pure PHGG. Start 3g/day for 7 days, then 6g if tolerated; mix in ≥250ml. Keep ≥2h from oral prescription medicines; use the 15:00 drink instead if needed. A 12-week trial improved bloating/gas, not overall IBS severity or quality of life; other probiotics/prebiotics were excluded. Added benefit with this stack is uncertain. Introduce separately, assess symptoms over 8–12 weeks and reduce if persistently worse. Timing is practical; spacing is precautionary. [Trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4744437/) [Spacing](https://aor.ca/product/solufibre/)
 - **Probiotics / M.1/M.4/E.3:** B. longum 35624® is the former B. infantis 35624 name. Gastrus® provides 400mln CFU/day across its two strains combined, not that amount per strain. Keep each for a measurable symptom response; the Gastrus® trial showed improvement around week 6. [Strain identity](https://www.symbiosys.pl/symbiosys-alflorex-46225.html) [Gastrus® trial](https://pubmed.ncbi.nlm.nih.gov/41821785/)
 - **Kijimea IBS PRO / M.2-3:** ongoing daily use alongside 35624® (M.1) and Gastrus® (M.4/E.3). Both capsules supply 1bln heat-inactivated cells/day, not CFU. Take them together in the Morning routine (~10am), swallowed whole with a glass of Water; food is optional and no superior time of day is established. Review symptom control and tolerability during routine follow-up. The pivotal trial lasted eight weeks and excluded other probiotics and IBD; added benefit with this stack, long-term outcomes and treatment of bowel inflammation remain unestablished. [Polish directions](https://kijimea.pl/products/kijimea-ibs-pro) · [Trial](https://pubmed.ncbi.nlm.nih.gov/32277872/)
 - **Butyrate / L.5/E.4:** 1g Sodium Butyrate supplies ~790mg Butyrate Ion (~800mg Butyric Acid equivalent). Debutir MAX's newer release system differs from the Forte used in the UC trial; clinical superiority is unproven. For IBD it remains an adjunct, with response assessed through symptoms and Calprotectin. [MAX label](https://polpharma.pl/produkty/debutir-max-500-mg-x-60-kaps/) [UC trial](https://pubmed.ncbi.nlm.nih.gov/41422374/)
@@ -1386,7 +1386,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Blood Pressure:** review Citrulline 8g alongside Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna. Check seated/standing BP, especially during the first 1–2 weeks after the Garlic switch; review dizziness, near-fainting or unusual weakness. Separating doses does not remove systemic interactions. Free Taurine 4g also exceeds the standalone product's one-capsule directions. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) [Taurine label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)
 - **Berberine:** reassess Glucose/HbA1c, ApoB/lipids, Liver tests, BP and GI tolerance after 8–12 weeks. The existing fallback for intolerance is Lunch-only. Its CYP interaction potential persists with split dosing. TMG follow-up uses Homocysteine and lipids. [Human Berberine interaction study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4898966/) [TMG review](https://pubmed.ncbi.nlm.nih.gov/33764214/)
 - **Liver/bleeding:** after the Curcumin change, recheck ALT/AST/ALP/GGT and Total/Direct Bilirubin at 6–8 weeks; Milk Thistle follow-up is 8–12 weeks. Stop Curcumin and seek review for jaundice, dark urine, marked fatigue, persistent nausea or abdominal pain. Review unusual bruising/bleeding and disclose Garlic/Curcumin/Ginger/Omega-3 before surgery or with anticoagulants, Aspirin or NSAIDs. [Curcumin Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury) [Garlic safety](https://www.nccih.nih.gov/health/garlic)
-- **Astaxanthin / M.9:** Double Wood AstaReal® supplies 12mg active Astaxanthin in 1 oil softgel with Breakfast. **Choose this 12mg routine OR the separate 24mg four-week trial; never combine them.** Public 2026 testing includes Double Wood and reports that selected products met their labeled amounts; match the purchased lot rather than assuming every lot was independently tested. Small human trials support possible Skin/recovery benefits; a direct dose comparison did not establish extra functional benefit at 24mg. Assess consistent Skin photos after 12–16 weeks and comparable post-workout soreness; stop for new persistent adverse effects. The EU authorized supplement level is 8mg/day; 12mg exceeds it. The separate all-source ADI is 16mg/day at 80kg, with food and product overfill still extra; neither figure is an acute-toxicity threshold. [Dose comparison](https://doi.org/10.1016/j.scispo.2025.06.003) · [Testing](https://www.consumerlab.com/reviews/astaxanthin-supplements-review/astaxanthin/) · [EFSA](https://doi.org/10.2903/j.efsa.2020.5993) · [EU use conditions](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02017R2470-20260810)
+- **Astaxanthin / M.9:** Double Wood AstaReal® supplies 12mg active Astaxanthin in 1 oil softgel with Breakfast. **Choose this 12mg routine OR the separate 24mg four-week trial; never combine them.** Public 2026 testing includes Double Wood and reports that selected products met their labeled amounts; match the purchased lot rather than assuming every lot was independently tested. Small human trials support possible Skin/recovery benefits; a direct dose comparison did not establish extra functional benefit at 24mg. Assess consistent Skin photos after 12–16 weeks and comparable post-workout soreness; stop for new persistent adverse effects. The EU authorized supplement level is 8mg/day; 12mg exceeds it. The separate all-source ADI is 15.8mg/day at 79.1kg, with food and product overfill still extra; neither figure is an acute-toxicity threshold. [Dose comparison](https://doi.org/10.1016/j.scispo.2025.06.003) · [Testing](https://www.consumerlab.com/reviews/astaxanthin-supplements-review/astaxanthin/) · [EFSA](https://doi.org/10.2903/j.efsa.2020.5993) · [EU use conditions](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02017R2470-20260810)
 - **Iron / M.5:** 18mg daily with Breakfast. Fiber and minerals may reduce absorption. Recheck CBC, Ferritin and TSAT after 8–12 weeks and periodically. Previous results did not establish deficiency, so review long-term use with a clinician to avoid excess Iron. [NOW label](https://www.nowfoods.com/products/supplements/iron-18-mg-veg-capsules) · [NIH Iron guidance](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/)
 - **Other minerals:** recheck 25-OH Vitamin D and Calcium 8–12 weeks after the CaAKG change. Verify food Iodine inputs and the repeat thyroid assessment before adding Iodine. July Ferritin 42ng/ml/estimated TSAT ~30% and September Hemoglobin 15.3g/dl do not establish an Iron-pill indication. Do not add Potassium Salt by default; review with Kidney impairment or ACE-inhibitor/ARB/Potassium-sparing-diuretic use. [Iodine guidance](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) [Iron assessment](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/medical-supplements2/iron/how-and-when-do-i-use-it)
 
@@ -1431,7 +1431,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 
 ### Training & occasional use
 
-- [ ] **[AlphaSport AlphaBuffer Sodium Bicarbonate](https://alphasport.eu/produkt/alphabuffer/):** for selected sprints/glycolytic intervals. Target 0.2g/kg: at 80kg, 16g supplies ~4.4g Sodium; 13×1.2g capsules give the lower practical dose of 15.6g. Test on an unimportant non-Sauna session, with a longer lead-in than 30 minutes. GI risk is substantial; do not automatically escalate to 0.3g/kg. [Timing/tolerance guidance](https://jissn.biomedcentral.com/articles/10.1186/s12970-021-00458-w)
+- [ ] **[AlphaSport AlphaBuffer Sodium Bicarbonate](https://alphasport.eu/produkt/alphabuffer/):** for selected sprints/glycolytic intervals. Target 0.2g/kg: at 79.1kg, 15.8g supplies ~4.3g Sodium; 13×1.2g capsules give the lower practical dose of 15.6g. Test on an unimportant non-Sauna session, with a longer lead-in than 30 minutes. GI risk is substantial; do not automatically escalate to 0.3g/kg. [Timing/tolerance guidance](https://jissn.biomedcentral.com/articles/10.1186/s12970-021-00458-w)
 - [ ] **[CherryActive® Montmorency concentrate](https://strefaregeneracji.pl/produkt/cherry-active-473ml/):** reserve for demanding recovery blocks. Trial 30ml 2x/day for four days before an event, the event day and two days after. Daily 60ml adds ~216kcal, 52g Carbohydrate and 40g Sugars; avoid if GI tolerance is poor. Polish retailer; recovery evidence is [mixed](https://pubmed.ncbi.nlm.nih.gov/41945263/). [Nutrition label](https://active-edge.co.uk/collections/all-products/products/active-edge-cherryactive-concentrate-473ml)
 - [ ] **[Heliocare Ultra-D ASPA-Fernblock® 480mg](https://www.caretobeauty.com/pl/heliocare-ultra-d-sun-capsules-x30/):** consider 1capsule 1–2 hours before high-UV exposure, alongside SPF 50+, clothing and shade. Follow the purchased label/dermatologist; no automatic second capsule. Count its D3 5mcg, Lutein 2mg, Vitamin C 20mg, Vitamin E 3mg and Lycopene 1mg. [Label](https://www.cantabrialabs.com/products/heliocare-capsules-ultra-d/) · [UV-response trial](https://pubmed.ncbi.nlm.nih.gov/25741399/)
 - [ ] **[Olimp HMB 1250 Mega Caps®](https://olimpstore.pl/olimp-hmb-1250-mega-caps-120-capsules-191):** an 8–12-week trial only during aggressive restriction, injury/immobilization, unusually damaging training or inadequate Protein. 3capsules/day provide 3g HMB from 3.75g Calcium-HMB; split across meals. Count ~0.5g Calcium and reconsider with hypercalcemia, stones or constipation. Little expected benefit on the current high-Protein plan; do not increase to 6g. [Trained-men trial](https://pubmed.ncbi.nlm.nih.gov/30859862/)
@@ -1449,7 +1449,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 
 ### Lower-priority candidates
 
-- [ ] **[PEAK Glycerol 99.5%](https://sofora.pl/sklep/peak-liquid-glycerol-500-ml-100-porcji/):** watchlist for prolonged exercise in heat with sweat losses >2% body mass and insufficient fluid access. The Polish product's 5ml/day limit supplies 6g; research uses 96–112g at 80kg. No suitable finished product selected. Do not multiply servings; revisit with a sports clinician after a sweat-rate assessment. [Label](https://www.peak.ag/en/collections/hydration/products/liquid-glycerol) · [Guidance](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/glycerol)
+- [ ] **[PEAK Glycerol 99.5%](https://sofora.pl/sklep/peak-liquid-glycerol-500-ml-100-porcji/):** watchlist for prolonged exercise in heat with sweat losses >2% body mass and insufficient fluid access. The Polish product's 5ml/day limit supplies 6g; research uses 95–111g at 79.1kg. No suitable finished product selected. Do not multiply servings; revisit with a sports clinician after a sweat-rate assessment. [Label](https://www.peak.ag/en/collections/hydration/products/liquid-glycerol) · [Guidance](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/glycerol)
 - [ ] **[Life Extension Lithium Orotate 1mg](https://www.lifeextension.com/vitamins-supplements/item02403/lithium):** clinician-cleared experiment only after repeat TSH/FT4/FT3 (≥7 days off high-dose Biotin) and stable kidney markers, Sodium and Calcium. If cleared, 1capsule with Lunch; repeat thyroid/kidney tests after 6–8 weeks and three months. Review NSAIDs/ACE inhibitors/ARBs/diuretics; keep fluid/Sodium intake consistent and pause during dehydration or GI fluid loss. Healthy-adult benefit is unproven. [Poland listing](https://pl.iherb.com/pr/life-extension-lithium-1-000-mcg-100-vegetarian-capsules/100435) · [Monitoring](https://www.sps.nhs.uk/monitorings/lithium-monitoring/)
 - [ ] **[PEA Levagen®+](https://kenay.com.pl/679-pea-palmitoiloetanoloamid-levagen-60-kapsulek.html):** exploratory cognition candidate. A small [6-week trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC10891801/) used 600mg active PEA in 700mg formulated material, with BDNF and exploratory memory signals; attention/executive-function measures did not improve. Kenay is available in Poland, but its “350mg PEA/Levagen+” and 1capsule/day directions need clarification before matching that trial. Do not double capsules or activate until active dose/formulation is confirmed; predefine a memory/function outcome and stop after 6 weeks without meaningful benefit.
 - [ ] **[Jardiance / Empagliflozin 10mg](https://www.ema.europa.eu/en/medicines/human/EPAR/jardiance):** revisit once evidence-benefit is more clear in a healthy person. If prescribed, prefer Morning dosing with kidney/electrolyte/BP review and an illness/fasting/surgery hold plan. Dehydration/low-BP burden could compound the current drugs, training and Sauna; genital infections and ketoacidosis also matter. [Prescribing information](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/204629s063lbl.pdf)

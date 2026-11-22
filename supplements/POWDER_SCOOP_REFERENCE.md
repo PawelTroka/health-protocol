@@ -2,7 +2,7 @@
 
 Research checked **2026-11-14** for [PR #53](https://github.com/PawelTroka/health-protocol/pull/53); PHGG added **2026-11-22**. The original audit used [main commit bba87301](https://github.com/PawelTroka/health-protocol/blob/bba87301bbdc61d441de30173df9354a1ec7b49f/README.md). The review changed EAA to 15g and made exactly 4scoops the standalone Collagen target. Manufacturer capacities, user-reported scoop information and estimates are distinguished below.
 
-**Four active HSN capacities are manufacturer-specified: WPI 70ml, EvoBomb 15ml, Cluster Dextrin 50ml and RawSeries EAA 25ml.** MicroVitamin+ uses the user's reported 39cc capacity, displayed as 40ml. The other three active product scoops and the retired BULK scoop have working estimates. Psyllium uses a standard measuring tablespoon; PHGG is weighed.
+**Four active HSN capacities are manufacturer-specified: WPI 70ml, EvoBomb 15ml, Cluster Dextrin 50ml and RawSeries EAA 25ml.** MicroVitamin+ uses the user's reported 39cc capacity, displayed as 40ml. The other four active product scoops and the retired BULK scoop have working estimates. Psyllium uses a standard measuring tablespoon.
 
 ## How to read the annotations
 
@@ -12,7 +12,7 @@ Use `mass — measure count (volume)` in supplement entries, Diet summaries and 
 - `26g — 1scoop (40ml)`: MicroVitamin+'s reported 39cc scoop, rounded for display.
 - `1scoop (~3ml)`: `~` marks the estimated volume.
 - `13.33g — 4scoops (4x~10ml)`: four original KFD Collagen scoops; mass and capacity are approximate.
-- `6g — weighed`: PHGG uses a scale because the selected serving has no verified scoop-volume conversion.
+- `6g — ~0.86scoop (~18ml)`: PHGG's estimated portion volume; one full scoop is ~7g/~21ml. Calibrate to 6g by weight.
 - `ml` and `cc` denote the same volume. Powder mass and mixing water are separate quantities. [HSN measuring guide](https://www.hsnstore.eu/hsn-scoops)
 
 Keep gram targets when changing scoops; for Collagen, calibrate to the mass of four original scoops. Estimates indicate likely size, not calibrated replacements. The ranges below are sensitivity scenarios, not confidence intervals or dosing tolerances.
@@ -32,7 +32,7 @@ The table covers all ten distinct active supplement powders. WPI appears twice; 
 | IW.0.2 | ALLHydrate Electrolytes Neutral, 205g; 2.73g and sauna +2.73g | **~3ml**; ~2–4ml | Low confidence in physical capacity; ingredient bulk-volume model. All three README mentions: `1scoop (~3ml)`. [Calculation](#allhydrate-estimate) |
 | IW.0.3 | HSN RawSeries Cluster Dextrin, unflavoured pure HBCD; 25g | **50ml** | Manufacturer panel: approximately 25g per scoop. `1scoop (50ml)`. [Panel](https://www.hsnstore.at/marken/raw-series/cluster-dextrin-hochverzweigtes-zyklisches-dextrin-pulver) |
 | A.0.2 | HSN RawSeries Essential Amino Acids, Unflavored, 1kg; **15g** | **25ml** | Exact manufacturer's full serving. `1scoop (25ml)`. [Label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) |
-| A.0.3 | Doctor's Best Sunfiber® Unflavored (PHGG), 210g; **6g daily** | **Weigh; ml unverified** | Manufacturer: 1level scoop ≈7g. Weigh 6g, or 3g during the starter week. [Label](https://doctorsbest.com/products/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g-147283) |
+| A.0.3 | Doctor's Best Sunfiber® Unflavored (PHGG), 210g; **6g daily** | **~21ml** | `6g — ~0.86scoop (~18ml)`. Full scoop ≈7g; volume estimated from a pure-Sunfiber proxy. [Calculation](#phgg-estimate) |
 
 ## Estimation method and limitations
 
@@ -133,6 +133,12 @@ Using all high-density endpoints gives **2.333ml per scoop**; all low-density en
 
 The prior image audit covered the official [2025](https://aliness.pl/wp-content/uploads/2025/09/961.jpg) and [2026](https://aliness.pl/wp-content/uploads/2026/01/ele_neutral-kopia.jpg) attachments, brand media and exact-product retailer galleries. These showed closed tubs without a readable scoop marking. A litre of mixing water, a 205ml catalogue field for a 205g tub and other same-brand liquid measures do not establish this scoop's volume. The Diet summary, IW.0.2 entry and sauna +2.73g addition all use the same ~3ml estimate.
 
+### PHGG estimate
+
+**Working estimate: ~21ml per full scoop; ~18ml for the 6g portion.** [Doctor's Best](https://doctorsbest.com/products/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g-147283) specifies 1level scoop ≈7g. [Vitals pure Sunfiber](https://www.vitals.nl/producten/pre-pro-postbiotica/guarboonvezels) supplies ~5g in 15ml: the proxy gives `7 × 15 / 5 = 21ml` per full scoop and `6 × 15 / 5 = 18ml` per portion. Thus `6g — ~0.86scoop (~18ml)`; 3g is ~0.43scoop (~9ml).
+
+This is a low-confidence estimate for Doctor's Best, not a measured scoop. [Taiyo grade densities](https://taiyogmbh.com/wp-content/uploads/2022/10/03-Product-Overview-Brochure-2019-2020-small.pdf#page=5) span 0.20–0.58g/ml, implying ~12–35ml per 7g across grades; Doctor's Best does not identify its grade. This is a sensitivity range, not a dosing tolerance. Calibrate the chosen portion to 6g by weight.
+
 ### Psyllium: a measuring spoon, not a branded scoop
 
 GymBeam's [Polish instructions](https://gymbeam.pl/psyllium-husks-gymbeam.html) and [English instructions](https://gymbeam.com/psyllium-husks-gymbeam.html?tab=detail) agree on **5g per 2tsp**. Scaling this published mass/count relationship gives `7.5 / 5 x 2 = 3tsp`. With the [metric cooking convention](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies), three 5ml teaspoons occupy one 15ml tablespoon. The manufacturer does not specify a level/heaped convention, so the active entry is **`7.5g — 1tbsp (15ml)`**. The 7.5g remains a weighed target; this does not establish an exact 7.5g-per-15ml density or a supplied GymBeam scoop.
@@ -173,6 +179,6 @@ The current manufacturer page describes a level scoop. The estimate does not est
 
 Annotations cover all active powders, repeated Diet entries, the ALLHydrate sauna addition and retired BULK. MicroVitamin+ uses the user's 39cc report, rounded to 40ml; the remaining estimated capacities retain their calculations and sensitivity ranges. No manufacturer contact or independent scoop measurement was performed.
 
-Retained doses: **EAA 15g — 1scoop (25ml)** and **Collagen 13.33g — 4scoops (4x~10ml)**. PHGG adds **6g — weighed** at A.0.3; Psyllium remains 10g/day. See the README for [daily/rotation totals](../README.md#totals) and [calculation/starter-dose notes](../README.md#diet-calculation). Other doses and physical pillbox entries are unchanged.
+Retained doses: **EAA 15g — 1scoop (25ml)** and **Collagen 13.33g — 4scoops (4x~10ml)**. PHGG adds **6g — ~0.86scoop (~18ml)** at A.0.3; Psyllium remains 10g/day. See the README for [daily/rotation totals](../README.md#totals) and [calculation/starter-dose notes](../README.md#diet-calculation). Other doses and physical pillbox entries are unchanged.
 
 [fortigel-spec]: https://www.dkshdiscover.com/medias/FORTIGEL-B-PD-Version-6-05-2018.pdf?attachment=true&context=bWFzdGVyfGJhY2tvZmZpY2VleGNlbGltcG9ydHw0ODkwNTl8YXBwbGljYXRpb24vcGRmfGFHTXpMMmd3TWk4NU1ESXhPREUxTVRZd09EWXlMMFpQVWxSSlIwVk1JRUpmVUVRZ0xTQldaWEp6YVc5dUlEWWdMU0F3TlMweU1ERTRMbkJrWmd8NzM0ZThiNjFlOGU0MjY0ZDAzOWQ0MTcyOWE1NDFhNmY3NWVlNGU2ZWI2YmFhNWZlMDIxOThhNjY3MGI4MWE4Mg
