@@ -83,7 +83,6 @@ TIER_BY_CODE = {
     "L.15": "🥈",
     "L.16": "🥈",
     "L.17": "🥈",
-    "L.18": "🥉",
     "E.3": "🥈",
     "E.4": "🥈",
     "E.5": "🥈",
@@ -284,7 +283,7 @@ PAGES = [
             item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🛡️ 🩸 🍆 🔄", note="SAC 2.5 mg • standardized to 0.5%"),
             item("L.16", "Phosphatidylserine", "300 mg", icons="🧠 😌"),
             item("L.17", "Milk Thistle", "380 mg", icons="🛡️ 🚽 🔄"),
-            item("L.18", "DIM", "200 mg", icons="🛡️ 🍆 🔄"),
+            empty("L.18"),
         ],
     },
     {
