@@ -322,7 +322,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Protein-sparing Mediterranean Caloric-Restriction diet
 
-*Turkey + Salmon + Kefir day at 80kg: 2,417kcal · P196g · C152g · F88g · Fiber43–46g.*
+*Turkey + Salmon + Kefir day at 80kg: 2,430kcal · P196g · C153g · F88g · Fiber48–51g.*
 
 **Protein:** 170g without Collagen (2.13g/kg), plus 25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
 
@@ -335,7 +335,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 **Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Rotate all four listed Mushrooms at their written 75g portions (50g King Oyster); this is a purchasing rotation rather than a daily 75g requirement. Variety accumulates across the week; every alternative need not be bought or eaten.
 
-> **GI fit:** 43–46g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
+> **GI fit:** 48–51g Fiber describes the checked menu with PHGG 6g; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
 *474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
@@ -476,9 +476,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - `94kcal · C24g`
 
 #### 💪 Right after workout
-*176kcal · P28g dietary Protein + 15g EAA · C0.4g · F0.3g*
-- 💊 [After-workout supplements](#after-workout) (WPI 30g + EAA 15g — 1scoop (25ml)) 💪 🗿
-  - `176kcal · P28g dietary Protein + 15g EAA · C0.4g · F0.3g`
+*189kcal · P28g dietary Protein + 15g EAA · C1.3g · F0.3g · Fiber5.1g*
+- 💊 [After-workout supplements](#after-workout) (WPI 30g + EAA 15g — 1scoop (25ml) + PHGG 6g — weighed) 💪 🗿 🚽 🦠
+  - `189kcal · P28g dietary Protein + 15g EAA · C1.3g · F0.3g · Fiber5.1g`
 
 #### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — Recovery, Leafy Greens & Whole Fruit)
 *888kcal · P53g · C55.6g · F47.4g · Fiber12–13g*
@@ -757,7 +757,8 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
 - 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 15g — 1scoop (25ml)](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
   - Free Essential Amino Acids 14.189g; L-Leucine 4.71g; L-Lysine 2.526g; L-Isoleucine 1.686g; L-Valine 1.686g; L-Threonine 1.551g; L-Histidine 765mg; L-Methionine 421.5mg; L-Phenylalanine 421.5mg; L-Tryptophan 421.5mg
-
+- 🥈 **A.0.3** [Partially Hydrolyzed Guar Gum (PHGG, Sunfiber®) 6g — weighed](https://pl.iherb.com/pr/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g/147283) 🚽 🦠
+  - Mix in ≥250ml liquid. Start 3g/day for 7 days, then 6g if tolerated. Keep ≥2h from oral prescription medicines; use the 15:00 drink instead if needed. [Notes](#gut--metabolic-support)
 💊 pills:
 - 🥈 **A.1** [UC-II® Type II Collagen 40mg](https://pl.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318) 🦴 💪 🔄
   - Total Collagen 10mg, including Undenatured Type II Collagen; Mineralized Red-Algae Complex 250mg; Calcium 80mg
@@ -1162,18 +1163,18 @@ Target icons identify an intervention's intended area or the system assessed by 
 
 ### Totals
 
-**Reference day:** the checked Turkey + Salmon + Kefir choices, including HBCD and no optional Dinner fat. The body-weight calculations use 80kg.
+**Reference day:** the checked Turkey + Salmon + Kefir choices, including HBCD, PHGG 6g and no optional Dinner fat. The body-weight calculations use 80kg.
 
 | Daily intake | Estimate |
 | --- | --- |
-| Energy | 2,417kcal |
+| Energy | 2,430kcal |
 | Protein | 195.8g, including 25.8g Collagen |
 | Protein without Collagen | 170g / 2.13g/kg |
-| Available Carbohydrate | 152.2g |
+| Available Carbohydrate | 153.1g |
 | Fat | 88.1g |
-| Fiber | 42.8–45.8g |
+| Fiber | 47.9–50.9g |
 
-EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 474 + Lunch 567 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 176 + Dinner 888 + other supplements 27kcal.
+EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 474 + Lunch 567 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 189 + Dinner 888 + other supplements 27kcal.
 
 #### Diet rotations
 
@@ -1181,9 +1182,9 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 
 | Change | Daily kcal | Protein without Collagen | Available Carbohydrate | Fat |
 | --- | --- | --- | --- | --- |
-| Skyr 200g instead of Kefir 400g | 2,349 | 175.6g | 143.2g | 82.1g |
-| Tempeh 200g instead of Salmon 150g | 2,476 | 178.1g | 159.2g | 83.2g |
-| Eggs 200g instead of Salmon 150g | 2,410 | 166.1g | 152.8g | 88.6g |
+| Skyr 200g instead of Kefir 400g | 2,362 | 175.6g | 144.1g | 82.1g |
+| Tempeh 200g instead of Salmon 150g | 2,489 | 178.1g | 160.1g | 83.2g |
+| Eggs 200g instead of Salmon 150g | 2,423 | 166.1g | 153.7g | 88.6g |
 
 - **Replacing Kefir:** Sauerkraut 100g removes 155kcal/11.5g Protein; Kimchi 75g removes 150kcal/11.1g Protein; skipping it removes 172kcal/12.4g Protein. An extra 50g raw Turkey supplies 12.7g Protein/57kcal if replacing the lost Protein.
 - **Lunch Protein:** compared with Turkey 150g, Pollock 200g supplies 4g less Protein, Mussels 150g supplies 14g less and Shrimps 180g supplies 11g less. Matching the Turkey serving takes about 240g cooked Mussels or 255g raw Shrimps; recalculate the meal, including Mussels' higher Salt.
@@ -1196,6 +1197,7 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 | --- | --- | --- |
 | Creatine monohydrate | 10g | M.0.3 MicroVitamin+ 5g + B.0.1 standalone 5g |
 | Psyllium Husk | 10g | M.0.3 MicroVitamin+ 2.5g + M.0.2 standalone 7.5g |
+| PHGG (Sunfiber®) | 6g powder | A.0.3; ~5.1g dietary Fiber, additional to Psyllium |
 | Collagen Peptides | 25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 13.33g — 4scoops (4x~10ml) |
 | Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.14/L.12 standalone 1g each |
 | Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
@@ -1240,6 +1242,7 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 
 - **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies 14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as 13.33g Protein/53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium contributes ~20kcal/7–9g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
 - **EvoBomb:** ~67kcal is modeled from free amino acids, Malate and estimated Maltodextrin; the plausible range is 61–73kcal pending a complete nutrition panel. Its free amino acids are kept outside dietary Protein. Other blend/carrier energy remains partly unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [EU energy factors](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011R1169)
+- **PHGG / A.0.3:** Doctor's Best lists 15kcal, 7g total Carbohydrate and 6g Fiber per 7g powder. At 6g: ~13kcal, ~5.1g Fiber and ~0.9g available Carbohydrate (total minus Fiber), estimated from rounded label values. Protein/Fat are unquantified. At 3g: After Workout ~182kcal; reference day ~2,423kcal, C152.6g, Fiber45.4–48.4g. [Label](https://doctorsbest.com/products/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g-147283)
 - **Carbohydrate:** Fiber is separate. USDA proxies use total Carbohydrate minus Fiber; labels and Norwegian data already reporting available Carbohydrate are used directly. Portions, cooking losses and incomplete panels make the daily figures estimates.
 
 <a id="diet-food-preparation"></a>
@@ -1298,7 +1301,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 - **M.0.2 Psyllium:** keep oral prescription medicines at least 2 hours away; this is why Tadalafil sits at Lunch. [Psyllium label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d030b0-df97-4dd6-88ba-e9fe863c95ea)
 - **Matcha/Caffeine:** keep Matcha at least 2 hours after Morning Iron (M.5) and the Iron-containing Lunch, and 8 hours before sleep. Time EvoBomb's 200mg Caffeine for sleep too; Cocoa Flavanols remain at Lunch. [Tea/Iron study](https://pubmed.ncbi.nlm.nih.gov/29046302/) [Caffeine/sleep review](https://pubmed.ncbi.nlm.nih.gov/36870101/)
-- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA. Use EAA 15g — 1scoop (25ml) and Collagen 4scoops; see [scoop sizes](#powder-scoop-sizes). Swallow A.1 UC-II and the other After Workout pills before starting WPI/EAA. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
+- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA with PHGG. Use EAA 15g — 1scoop (25ml), PHGG 6g — weighed and Collagen 4scoops; see [scoop sizes](#powder-scoop-sizes). Swallow A.1 UC-II and the other After Workout pills before starting the drink. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
 - **IW.0.2/IW.0.3 hydration:** prepare the 2.5L electrolyte drink, put HBCD in the first portion that will be finished, then drink the remainder to thirst. Use pre/post dry body weight; fluid intake should not cause weight gain. Sauna adds the same IW.0.2 serving, **no second HBCD serving**. The combined dose exceeds the manufacturer's 4.1g serving, so review sweat losses, Blood Pressure and GI tolerance. [ALLHydrate label](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [Fluid-replacement guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5634236/)
 - **L.2-3 Omega-3:** skip capsules on the listed Salmon, Sardine or Mackerel days; Pollock does not qualify. Salmon 150g provides an estimated 1.8g EPA+DHA and Sardines 170g ~3.25g. The selected 180-softgel formula is 690mg EPA/310mg DHA per softgel. Two/day exceeds its usual one/day label direction and remains a review point. Do not increase; higher-dose trials show an Atrial-Fibrillation signal. Match the purchased lot to IFOS and review weekly intake/RBC Omega-3 Index. [Selected label](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) [Sardine label](https://leclerc.com.pl/delicius-filety-z-sardynek-w-oliwie-z-oliwek) [Dose/AF evidence](https://pubmed.ncbi.nlm.nih.gov/34612056/)
 - **M.13 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
@@ -1329,8 +1332,9 @@ Use `mass — measure count (volume)` for powder servings, e.g. `13.33g — 4sco
 - **EAA / A.0.2:** 15g — 1scoop (25ml), matching the manufacturer's serving. [Exact RawSeries EAA label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor)
 - **Collagen / B.0.3:** 13.33g — 4scoops (4x~10ml), using exactly four original scoops and KFD's 5g per 1.5scoops. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
 - **Psyllium / M.0.2:** 7.5g — 1tbsp (15ml), using GymBeam's 5g per 2tsp and standard metric measures. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
+- **PHGG / A.0.3:** 6g — weighed (3g starter). Doctor's Best: 1level scoop ≈7g; ml unverified. [Label](https://doctorsbest.com/products/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g-147283)
 
-Keep gram targets when changing scoops; for Collagen, calibrate to four original scoops. Estimated volumes are unconfirmed and depend on powder packing and filling. Sources, calculations, ranges and measurement guidance are in the [scoop reference](supplements/POWDER_SCOOP_REFERENCE.md), checked 2026-11-14.
+Keep gram targets when changing scoops; for Collagen, calibrate to four original scoops. Estimated volumes are unconfirmed and depend on powder packing and filling. Sources, calculations, ranges and measurement guidance are in the [scoop reference](supplements/POWDER_SCOOP_REFERENCE.md): original audit 2026-11-14; PHGG added 2026-11-22.
 
 #### Training, Skin & joints
 
@@ -1345,6 +1349,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 #### Gut & metabolic support
 
+- **PHGG / A.0.3:** Doctor's Best Sunfiber® Unflavored 210g is pure PHGG. Keep Psyllium at 10g/day. A 12-week trial improved bloating/gas, but not overall IBS severity or quality of life; other probiotics/prebiotics were excluded. Added benefit with this stack is uncertain. Introduce separately from other new gut products; assess symptoms over 8–12 weeks and reduce PHGG if persistently worse. Timing is for convenience; the medicine gap is precautionary. [Trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4744437/) [Spacing](https://aor.ca/product/solufibre/)
 - **Probiotics / M.1/M.4/E.3:** B. longum 35624® is the former B. infantis 35624 name. Gastrus® provides 400mln CFU/day across its two strains combined, not that amount per strain. Keep each for a measurable symptom response; the Gastrus® trial showed improvement around week 6. [Strain identity](https://www.symbiosys.pl/symbiosys-alflorex-46225.html) [Gastrus® trial](https://pubmed.ncbi.nlm.nih.gov/41821785/)
 - **Kijimea IBS PRO / M.2-3:** ongoing daily use alongside 35624® (M.1) and Gastrus® (M.4/E.3). Both capsules supply 1bln heat-inactivated cells/day, not CFU. Take them together in the Morning routine (~10am), swallowed whole with a glass of Water; food is optional and no superior time of day is established. Review symptom control and tolerability during routine follow-up. The pivotal trial lasted eight weeks and excluded other probiotics and IBD; added benefit with this stack, long-term outcomes and treatment of bowel inflammation remain unestablished. [Polish directions](https://kijimea.pl/products/kijimea-ibs-pro) · [Trial](https://pubmed.ncbi.nlm.nih.gov/32277872/)
 - **Butyrate / L.5/E.4:** 1g Sodium Butyrate supplies ~790mg Butyrate Ion (~800mg Butyric Acid equivalent). Debutir MAX's newer release system differs from the Forte used in the UC trial; clinical superiority is unproven. For IBD it remains an adjunct, with response assessed through symptoms and Calprotectin. [MAX label](https://polpharma.pl/produkty/debutir-max-500-mg-x-60-kaps/) [UC trial](https://pubmed.ncbi.nlm.nih.gov/41422374/)
@@ -1421,7 +1426,6 @@ Pending options. Try one change at a time; replacements take the place of the na
 
 ### Symptoms & follow-up
 
-- [ ] **[KENAY Sunfiber® AG (PHGG) 5–6g/day](https://kenay.com.pl/742-blonnik-sunfiber-ag-140-g-.html):** try for persistent bloating/gas despite Psyllium. Replace 5g standalone Psyllium, leaving 2.5g standalone + 2.5g in MicroVitamin+ = 5g/day Psyllium. The [trial](https://pubmed.ncbi.nlm.nih.gov/26855665/) improved bloating, not overall IBS severity; keep only if symptoms improve.
 - [ ] **[Colpermin® Peppermint Oil 187mg](https://www.colpermin.com/):** a short trial for IBS pain/cramping/bloating. Label: 1 intact capsule 3x/day, ≥2 hours from food and separated from antacids/acid-suppressing medicines. Check access and timing fit. Can worsen reflux; avoid with Peanut/Soya allergy and check biliary/liver contraindications. It does not treat IBD. [Product information](https://www.medicines.org.uk/emc/product/1076/smpc) · [Evidence](https://pubmed.ncbi.nlm.nih.gov/35942669/)
 - [ ] **[Skinoren Azelaic Acid 15% gel](https://www.gdziepolek.pl/produkty/71824/skinoren-zel/apteki):** Polish OTC option for persistent acne/post-acne red or brown marks after compatibility review with the E.1.1 prescriber. It is not a general pore treatment. If selected, follow the [label](https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/10628/characteristic), check tolerance/acne after about 4 weeks and marks at 8–12 weeks. A [15% gel trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC11116308/) used a different product and excluded other acne treatments; no automatic addition to the current regimen.
 
