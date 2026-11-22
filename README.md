@@ -477,7 +477,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 💪 Right after workout
 *191kcal · P28g dietary Protein + 15g EAA · C1.4g · F0.3g · Fiber6g*
-- 💊 [After-workout supplements](#after-workout) (WPI 30g + EAA 15g — 1scoop (25ml) + PHGG 7g — 1level scoop (~21ml)) 💪 🗿 🚽 🦠
+- 💊 [After-workout supplements](#after-workout) (WPI 30g + EAA 15g — 1scoop (25ml) + PHGG 7g — 1scoop (~21ml)) 💪 🗿 🚽 🦠
   - `191kcal · P28g dietary Protein + 15g EAA · C1.4g · F0.3g · Fiber6g`
 
 #### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — Recovery, Leafy Greens & Whole Fruit)
@@ -757,7 +757,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
 - 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 15g — 1scoop (25ml)](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
   - Free Essential Amino Acids 14.189g; L-Leucine 4.71g; L-Lysine 2.526g; L-Isoleucine 1.686g; L-Valine 1.686g; L-Threonine 1.551g; L-Histidine 765mg; L-Methionine 421.5mg; L-Phenylalanine 421.5mg; L-Tryptophan 421.5mg
-- 🥈 **A.0.3** [Partially Hydrolyzed Guar Gum (PHGG) 7g — 1level scoop (~21ml)](https://pl.iherb.com/pr/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g/147283) 🚽 🦠
+- 🥈 **A.0.3** [Partially Hydrolyzed Guar Gum (PHGG) 7g — 1scoop (~21ml)](https://pl.iherb.com/pr/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g/147283) 🚽 🦠
 💊 pills:
 - 🥈 **A.1** [UC-II® Type II Collagen 40mg](https://pl.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318) 🦴 💪 🔄
   - Total Collagen 10mg, including Undenatured Type II Collagen; Mineralized Red-Algae Complex 250mg; Calcium 80mg
@@ -1301,7 +1301,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 
 - **M.0.2 Psyllium:** keep oral prescription medicines at least 2 hours away; this is why Tadalafil sits at Lunch. [Psyllium label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d030b0-df97-4dd6-88ba-e9fe863c95ea)
 - **Matcha/Caffeine:** keep Matcha at least 2 hours after Morning Iron (M.5) and the Iron-containing Lunch, and 8 hours before sleep. Time EvoBomb's 200mg Caffeine for sleep too; Cocoa Flavanols remain at Lunch. [Tea/Iron study](https://pubmed.ncbi.nlm.nih.gov/29046302/) [Caffeine/sleep review](https://pubmed.ncbi.nlm.nih.gov/36870101/)
-- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA with PHGG. Use EAA 15g — 1scoop (25ml), PHGG 7g — 1level scoop (~21ml) and Collagen 4scoops; see [scoop sizes](#powder-scoop-sizes). Swallow A.1 UC-II and the other After Workout pills before starting the drink. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
+- **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA with PHGG. Use EAA 15g — 1scoop (25ml), PHGG 7g — 1scoop (~21ml) and Collagen 4scoops; see [scoop sizes](#powder-scoop-sizes). Swallow A.1 UC-II and the other After Workout pills before starting the drink. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
 - **IW.0.2/IW.0.3 hydration:** prepare the 2.5L electrolyte drink, put HBCD in the first portion that will be finished, then drink the remainder to thirst. Use pre/post dry body weight; fluid intake should not cause weight gain. Sauna adds the same IW.0.2 serving, **no second HBCD serving**. The combined dose exceeds the manufacturer's 4.1g serving, so review sweat losses, Blood Pressure and GI tolerance. [ALLHydrate label](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [Fluid-replacement guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5634236/)
 - **L.2-3 Omega-3:** skip capsules on the listed Salmon, Sardine or Mackerel days; Pollock does not qualify. Salmon 150g provides an estimated 1.8g EPA+DHA and Sardines 170g ~3.25g. The selected 180-softgel formula is 690mg EPA/310mg DHA per softgel. Two/day exceeds its usual one/day label direction and remains a review point. Do not increase; higher-dose trials show an Atrial-Fibrillation signal. Match the purchased lot to IFOS and review weekly intake/RBC Omega-3 Index. [Selected label](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) [Sardine label](https://leclerc.com.pl/delicius-filety-z-sardynek-w-oliwie-z-oliwek) [Dose/AF evidence](https://pubmed.ncbi.nlm.nih.gov/34612056/)
 - **M.13 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
@@ -1332,7 +1332,7 @@ Use `mass — measure count (volume)` for powder servings, e.g. `13.33g — 4sco
 - **EAA / A.0.2:** 15g — 1scoop (25ml), matching the manufacturer's serving. [Exact RawSeries EAA label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor)
 - **Collagen / B.0.3:** 13.33g — 4scoops (4x~10ml), using exactly four original scoops and KFD's 5g per 1.5scoops. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
 - **Psyllium / M.0.2:** 7.5g — 1tbsp (15ml), using GymBeam's 5g per 2tsp and standard metric measures. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
-- **PHGG / A.0.3:** 7g — 1level scoop (~21ml), using the supplied scoop and matching the label serving. Volume is estimated. [Estimate](supplements/POWDER_SCOOP_REFERENCE.md#phgg-estimate)
+- **PHGG / A.0.3:** 7g — 1scoop (~21ml), using the supplied scoop and matching the label serving. Volume is estimated. [Estimate](supplements/POWDER_SCOOP_REFERENCE.md#phgg-estimate)
 
 Keep gram targets when changing scoops; for Collagen, calibrate to four original scoops. Estimated volumes are unconfirmed and depend on powder packing and filling. Sources, calculations, ranges and measurement guidance are in the [scoop reference](supplements/POWDER_SCOOP_REFERENCE.md): original audit 2026-11-14; PHGG added 2026-11-22.
 
