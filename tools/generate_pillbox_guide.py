@@ -99,7 +99,6 @@ TIER_BY_CODE = {
     "E.15": "🥉",
     "E.16": "🥉",
     "E.17": "🥉",
-    "E.18": "🥉",
     "B.1": "🥈",
     "B.2": "🥈",
     "B.3": "🥈",
@@ -339,7 +338,7 @@ PAGES = [
             item("E.15", "GABA", "250 mg", icons="😴 😌 🔄", note="Magnesium citrate 20 mg"),
             item("E.16", "Inositol", "1g", icons="🧠 😌 🩸"),
             item("E.17", "Inositol", "1g", icons="🧠 😌 🩸"),
-            item("E.18", "Apigenin", "200 mg", icons="😴 😌"),
+            empty("E.18"),
         ],
     },
     {
