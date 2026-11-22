@@ -322,7 +322,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Protein-sparing Mediterranean Caloric-Restriction diet
 
-*Turkey + Salmon + Kefir day at 80kg: 2,417kcal · P196g · C152g · F88g · Fiber43–46g.*
+*Turkey + Salmon + Kefir day at 80kg, at the PHGG 6g target: ~2,418kcal · P196g · C152g · F88g · Fiber44–47g.*
 
 **Protein:** 170g without Collagen (2.13g/kg), plus 25.8g Collagen. The 15g EAA serving and 3g free Glycine are separate; their energy is included. `P / C / F` means Protein / available Carbohydrate / Fat; Fiber is separate. Vitamin, mineral and food-compound highlights follow the Macros; names without amounts describe typical composition. Values are estimates, with weighing and calculation details in [Notes](#diet-calculation).
 
@@ -335,18 +335,20 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 **Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Rotate all four listed Mushrooms at their written 75g portions (50g King Oyster); this is a purchasing rotation rather than a daily 75g requirement. Variety accumulates across the week; every alternative need not be bought or eaten.
 
-> **GI fit:** 43–46g Fiber describes the checked menu; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
+> **GI fit:** ~44–47g Fiber describes the checked menu at the PHGG 6g target; it is not a target to force through symptoms. Keep familiar foods at tolerated portions and increase Pulses gradually using the [GI options below](#-gi-options--personalize-portions).
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
-*474kcal · P46.7g · C22.9g · F18.4g · Fiber13.5–15.5g*
+*475kcal · P46.7g · C22.4–23.3g · F18.4g · Fiber15.1–17g*
 - 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 26g — 1scoop (40ml)) 🛡️ 🗿 💪 🦴 👨‍🦳
   - `166kcal · P40.5g · C0.4g · F0.3g`
 - 25g dry [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪 🔄
   - `93kcal · P3.3g · C15g · F1.7g · Fiber2.4g · Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
 - 10g dry [High-Fiber Oat Bran](https://www.frisco.pl/pid,13582/n,sante-otreby-owsiane-wysokoblonnikowe/stn,product) (blended) 🛡️ ⏰ ❤️ 🦠 🩸 💪
   - `37kcal · P1.6g · C5.2g · F0.7g · Fiber1.8g · ≥0.6g Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
-- 10g Psyllium Husk (7.5g standalone + 2.5g in MicroVitamin+) 🚽 🦠 🩸
-  - `20kcal · C1g · Fiber7–9g · Gel-Forming Arabinoxylan (Soluble Fiber)`
+- 5g Psyllium Husk (2.5g standalone + 2.5g in MicroVitamin+) 🚽 🦠 🩸
+  - `10kcal · C0.5g · Fiber3.5–4.5g · Gel-Forming Arabinoxylan (Soluble Fiber)`
+- 6g Partially Hydrolyzed Guar Gum (Sunfiber® AG)<sup>M.0.5</sup> 🚽 🦠
+  - `~11kcal · Fiber5.1–6g · Galactomannan (Soluble Fiber)`
 - 🌱 **Seeds — CHOOSE ONE**
   - [x] 7g freshly ground [organic Flaxseed](https://bioshi.pl/pl/products/siemie-lniane-brazowe-bio-nasiona-lnu-250-g-heybio-101259) 🛡️ ⏰ ❤️ 🦠 🩸 🪶 🔄
     - `35kcal · P1.3g · C1.2g · F2.2g · Fiber2g · Lignans (SDG) · ALA Omega-3 · Mucilage`
@@ -625,7 +627,8 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 ### Morning
 🥤 drink:
 - **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️ 🧠 🔥 ⏰
-- 🥇 **M.0.2** [Psyllium Husk 7.5g — 1tbsp (15ml)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
+- 🥇 **M.0.2** [Psyllium Husk 2.5g — 1tsp (5ml)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
+- 🥈 **M.0.5** [Partially Hydrolyzed Guar Gum (Sunfiber® AG) 6g](https://kenay.com.pl/742-blonnik-sunfiber-ag-140-g-.html) (3g for the first week) 🚽 🦠
 - 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪 🛡️ 🦠
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
 - 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (40ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🦴 👨‍🦳 🦠 🔄
@@ -1162,18 +1165,18 @@ Target icons identify an intervention's intended area or the system assessed by 
 
 ### Totals
 
-**Reference day:** the checked Turkey + Salmon + Kefir choices, including HBCD and no optional Dinner fat. The body-weight calculations use 80kg.
+**Reference day:** the checked Turkey + Salmon + Kefir choices, including HBCD, PHGG at the 6g target and no optional Dinner fat. The body-weight calculations use 80kg.
 
 | Daily intake | Estimate |
 | --- | --- |
-| Energy | 2,417kcal |
+| Energy | ~2,418kcal |
 | Protein | 195.8g, including 25.8g Collagen |
 | Protein without Collagen | 170g / 2.13g/kg |
-| Available Carbohydrate | 152.2g |
+| Available Carbohydrate | ~151.7–152.6g |
 | Fat | 88.1g |
-| Fiber | 42.8–45.8g |
+| Fiber | ~44.4–47.3g |
 
-EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 474 + Lunch 567 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 176 + Dinner 888 + other supplements 27kcal.
+EAA 15g powder and free Glycine 3g are separate from dietary Protein; their energy is included. Rounded meal energy: Morning 475 + Lunch 567 + Matcha 71 + Before Workout 120 + Intra-Workout 94 + After Workout 176 + Dinner 888 + other supplements 27kcal.
 
 #### Diet rotations
 
@@ -1181,9 +1184,9 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 
 | Change | Daily kcal | Protein without Collagen | Available Carbohydrate | Fat |
 | --- | --- | --- | --- | --- |
-| Skyr 200g instead of Kefir 400g | 2,349 | 175.6g | 143.2g | 82.1g |
-| Tempeh 200g instead of Salmon 150g | 2,476 | 178.1g | 159.2g | 83.2g |
-| Eggs 200g instead of Salmon 150g | 2,410 | 166.1g | 152.8g | 88.6g |
+| Skyr 200g instead of Kefir 400g | ~2,350 | 175.6g | ~142.7–143.6g | 82.1g |
+| Tempeh 200g instead of Salmon 150g | ~2,477 | 178.1g | ~158.7–159.6g | 83.2g |
+| Eggs 200g instead of Salmon 150g | ~2,411 | 166.1g | ~152.3–153.2g | 88.6g |
 
 - **Replacing Kefir:** Sauerkraut 100g removes 155kcal/11.5g Protein; Kimchi 75g removes 150kcal/11.1g Protein; skipping it removes 172kcal/12.4g Protein. An extra 50g raw Turkey supplies 12.7g Protein/57kcal if replacing the lost Protein.
 - **Lunch Protein:** compared with Turkey 150g, Pollock 200g supplies 4g less Protein, Mussels 150g supplies 14g less and Shrimps 180g supplies 11g less. Matching the Turkey serving takes about 240g cooked Mussels or 255g raw Shrimps; recalculate the meal, including Mussels' higher Salt.
@@ -1195,7 +1198,8 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 | Ingredient | Daily amount | Contributors |
 | --- | --- | --- |
 | Creatine monohydrate | 10g | M.0.3 MicroVitamin+ 5g + B.0.1 standalone 5g |
-| Psyllium Husk | 10g | M.0.3 MicroVitamin+ 2.5g + M.0.2 standalone 7.5g |
+| Psyllium Husk | 5g | M.0.3 MicroVitamin+ 2.5g + M.0.2 standalone 2.5g |
+| PHGG (Sunfiber® AG) | 6g target; 3g in week 1 | M.0.5; replaces 5g standalone Psyllium |
 | Collagen Peptides | 25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 13.33g — 4scoops (4x~10ml) |
 | Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.14/L.12 standalone 1g each |
 | Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
@@ -1238,7 +1242,8 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 
 #### Diet calculation
 
-- **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies 14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as 13.33g Protein/53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium contributes ~20kcal/7–9g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
+- **PHGG calculation:** Sunfiber® AG 6g is modeled at ~11kcal using Taiyo's 1.9kcal/g. Its ≥85% Fiber specification gives 5.1–6g Fiber; the remaining 0–0.9g is an upper-bound allowance for available Carbohydrate, not a measured Kenay nutrition panel. Compared with the former 10g Psyllium regimen, daily energy changes by only ~1kcal; the first-week PHGG 3g dose contributes ~6kcal less than the target. [Ingredient specification](https://www.taiyointernational.com/wp-content/uploads/2016/09/SF_Data-Supplement_2015.pdf) [Current ingredient grades](https://www.taiyointernational.com/products/)
+- **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies 14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as 13.33g Protein/53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium 5g contributes ~10kcal/3.5–4.5g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
 - **EvoBomb:** ~67kcal is modeled from free amino acids, Malate and estimated Maltodextrin; the plausible range is 61–73kcal pending a complete nutrition panel. Its free amino acids are kept outside dietary Protein. Other blend/carrier energy remains partly unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [EU energy factors](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011R1169)
 - **Carbohydrate:** Fiber is separate. USDA proxies use total Carbohydrate minus Fiber; labels and Norwegian data already reporting available Carbohydrate are used directly. Portions, cooking losses and incomplete panels make the daily figures estimates.
 
@@ -1328,7 +1333,7 @@ Use `mass — measure count (volume)` for powder servings, e.g. `13.33g — 4sco
 
 - **EAA / A.0.2:** 15g — 1scoop (25ml), matching the manufacturer's serving. [Exact RawSeries EAA label](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor)
 - **Collagen / B.0.3:** 13.33g — 4scoops (4x~10ml), using exactly four original scoops and KFD's 5g per 1.5scoops. [KFD directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Manufacturer sheet](https://storage.googleapis.com/allegro-offer-attachments/7833abb2a7816a0f7ee37c35cdbc30b2d04041b0abb74e56f88a960edbdf4719)
-- **Psyllium / M.0.2:** 7.5g — 1tbsp (15ml), using GymBeam's 5g per 2tsp and standard metric measures. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
+- **Psyllium / M.0.2:** 2.5g — 1tsp (5ml), using GymBeam's 5g per 2tsp and standard metric measures. [GymBeam directions](https://gymbeam.pl/psyllium-husks-gymbeam.html) [Metric measures](https://www.nist.gov/pml/owm/metric-si/metric-kitchen/metric-kitchen-cooking-measurement-equivalencies)
 
 Keep gram targets when changing scoops; for Collagen, calibrate to four original scoops. Estimated volumes are unconfirmed and depend on powder packing and filling. Sources, calculations, ranges and measurement guidance are in the [scoop reference](supplements/POWDER_SCOOP_REFERENCE.md), checked 2026-11-14.
 
@@ -1345,6 +1350,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 #### Gut & metabolic support
 
+- **PHGG / M.0.5:** an eight-to-twelve-week bloating trial, replacing 5g standalone Psyllium rather than increasing the full 10g Psyllium regimen. Weigh 3g/day for the first week, then 6g/day if tolerated, dissolved in a glass of Water; Kenay's 2scoop serving is 7g; weigh the trial dose. Choose Morning or Evening PHGG, never both. Keep other GI interventions and tolerated food portions stable. Record baseline and weekly bloating, pain and stool form/frequency; continue only for a clear, worthwhile improvement and reduce/stop for persistent worsening. Sunfiber® improved bloating/gas in a 12-week trial but not global IBS severity or quality of life; the study excluded other probiotics/prebiotics, so this combination is untested. Morning placement is preferred for convenience because it keeps the weighed fiber together; Morning versus Evening has no established efficacy advantage. Preserve the existing 2-hour separation from oral prescriptions. [Trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC4744437/) [Label](https://kenay.com.pl/742-blonnik-sunfiber-ag-140-g-.html)
 - **Probiotics / M.1/M.4/E.3:** B. longum 35624® is the former B. infantis 35624 name. Gastrus® provides 400mln CFU/day across its two strains combined, not that amount per strain. Keep each for a measurable symptom response; the Gastrus® trial showed improvement around week 6. [Strain identity](https://www.symbiosys.pl/symbiosys-alflorex-46225.html) [Gastrus® trial](https://pubmed.ncbi.nlm.nih.gov/41821785/)
 - **Kijimea IBS PRO / M.2-3:** ongoing daily use alongside 35624® (M.1) and Gastrus® (M.4/E.3). Both capsules supply 1bln heat-inactivated cells/day, not CFU. Take them together in the Morning routine (~10am), swallowed whole with a glass of Water; food is optional and no superior time of day is established. Review symptom control and tolerability during routine follow-up. The pivotal trial lasted eight weeks and excluded other probiotics and IBD; added benefit with this stack, long-term outcomes and treatment of bowel inflammation remain unestablished. [Polish directions](https://kijimea.pl/products/kijimea-ibs-pro) · [Trial](https://pubmed.ncbi.nlm.nih.gov/32277872/)
 - **Butyrate / L.5/E.4:** 1g Sodium Butyrate supplies ~790mg Butyrate Ion (~800mg Butyric Acid equivalent). Debutir MAX's newer release system differs from the Forte used in the UC trial; clinical superiority is unproven. For IBD it remains an adjunct, with response assessed through symptoms and Calprotectin. [MAX label](https://polpharma.pl/produkty/debutir-max-500-mg-x-60-kaps/) [UC trial](https://pubmed.ncbi.nlm.nih.gov/41422374/)
@@ -1421,7 +1427,6 @@ Pending options. Try one change at a time; replacements take the place of the na
 
 ### Symptoms & follow-up
 
-- [ ] **[KENAY Sunfiber® AG (PHGG) 5–6g/day](https://kenay.com.pl/742-blonnik-sunfiber-ag-140-g-.html):** try for persistent bloating/gas despite Psyllium. Replace 5g standalone Psyllium, leaving 2.5g standalone + 2.5g in MicroVitamin+ = 5g/day Psyllium. The [trial](https://pubmed.ncbi.nlm.nih.gov/26855665/) improved bloating, not overall IBS severity; keep only if symptoms improve.
 - [ ] **[Colpermin® Peppermint Oil 187mg](https://www.colpermin.com/):** a short trial for IBS pain/cramping/bloating. Label: 1 intact capsule 3x/day, ≥2 hours from food and separated from antacids/acid-suppressing medicines. Check access and timing fit. Can worsen reflux; avoid with Peanut/Soya allergy and check biliary/liver contraindications. It does not treat IBD. [Product information](https://www.medicines.org.uk/emc/product/1076/smpc) · [Evidence](https://pubmed.ncbi.nlm.nih.gov/35942669/)
 - [ ] **[Skinoren Azelaic Acid 15% gel](https://www.gdziepolek.pl/produkty/71824/skinoren-zel/apteki):** Polish OTC option for persistent acne/post-acne red or brown marks after compatibility review with the E.1.1 prescriber. It is not a general pore treatment. If selected, follow the [label](https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/10628/characteristic), check tolerance/acne after about 4 weeks and marks at 8–12 weeks. A [15% gel trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC11116308/) used a different product and excluded other acne treatments; no automatic addition to the current regimen.
 
