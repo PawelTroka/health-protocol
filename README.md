@@ -648,7 +648,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - Biotin (Vitamin B7) 22.5mcg 💇‍♂️ 💅
    - **Bone / muscle / electrolytes**
      - Magnesium Taurate 126mg elemental magnesium<sup>E.12</sup> 💪 🧠 ❤️ 🦴
-     - Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg<sup>M.15</sup> 🦴 ❤️ 🩸
+     - Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg<sup>M.16</sup> 🦴 ❤️ 🩸
      - Encapsulated Vitamin D3 as AlgeD3™ 1,000IU 🦴 🛡️
      - Boron Glycinate 1mg 🦴 🧠<sup>M.0.3.4.4</sup>
      - Potassium 99mg 💧 ❤️
@@ -669,7 +669,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 
 💊 pills:
 - 🥇 **M.1** [Bifidobacterium longum 35624® 1bln CFU](https://mollo.pl/symbiosys-alflorex-30-kapsulek-2993-p) 🦠 🚽 🛡️
-- 🥈 **M.2-3** 2x [Bifidobacterium bifidum HI-MIMBb75 (Kijimea IBS PRO) 500mln heat-inactivated cells](https://kijimea.pl/products/kijimea-ibs-pro) (together once daily; swallow whole with a glass of Water) 🚽 🦠
+- 🥈 **M.2-3** 2x [Bifidobacterium bifidum HI-MIMBb75 (Kijimea IBS PRO) 500mln](https://kijimea.pl/products/kijimea-ibs-pro) 🚽 🦠
 - 🥈 **M.4** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠 🩸
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
 - 🥈 **M.5** [Iron (Ferrochel) 18mg](https://pl.iherb.com/pr/now-foods-iron-18-mg-120-veg-capsules/10481) 🩸 🔄
@@ -677,16 +677,15 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - Ubiquinone 100mg; Riboflavin 1.4mg
 - 🥈 **M.7-8** 2x [Acetyl-L-Carnitine 750mg](https://pl.iherb.com/pr/now-foods-acetyl-l-carnitine-750-mg-90-tablets/6110) 🧠 ⚡ 🔄
 - 🥈 **M.9** [Astaxanthin (AstaReal®) 12mg](https://pl.iherb.com/pr/double-wood-supplements-astaxanthin-astareal-12-mg-60-softgels/161500) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👁️ 🛡️ 💪 👨‍🦳
-- 🥉 **M.10** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🧠 ❤️ 🔄
-- 🥈 **M.11** [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194) 💇‍♂️ 👨‍🦳 🦴
-- 🥈 **M.12** 2x [Lion's Mane Fruiting-Body Extract 500mg](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892) 🧠 🛡️ 🔄
+- 🥈 **M.10** [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194) 💇‍♂️ 👨‍🦳 🦴
+- 🥈 **M.11-12** 2x [Lion's Mane Fruiting-Body Extract 500mg](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892) 🧠 🛡️ 🔄
   - Beta-(1,3)(1,6)-Glucans 300mg (30%)
-- 🥉 **M.13** [L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582) ⏰ 🧠 👨‍🦳 🛡️ 🔄
+- 🥈 **M.13** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅 🔄
+- 🥉 **M.14** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🧠 ❤️ 🔄
+- 🥉 **M.15** [L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582) ⏰ 🧠 👨‍🦳 🛡️ 🔄
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C 5mg
-- 🥈 **M.14** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ 🧠 🫁 🍅 🔄
-- 🥉 **M.15** [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436) [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
-- 🥉 **M.16** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
-- **M.17** (empty)
+- 🥉 **M.16** [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436) [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🦴 ❤️ 🩸 ⏰
+- 🥉 **M.17** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️ 💪
 - 🥉 **M.18** [Spermidine HCl 50mg (Spermidine 28mg)](https://allegro.pl/produkt/suplement-diety-forest-vitamin-spermidyna-50-mg-60-kapsulek-79220a55-116b-48d8-8d18-23106df5521f?offerId=18841623878) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ 🧠 ❤️
 
 ### Lunch
@@ -1198,7 +1197,7 @@ Each row changes only the named choice from the reference day. Tempeh and Egg da
 | Creatine monohydrate | 10g | M.0.3 MicroVitamin+ 5g + B.0.1 standalone 5g |
 | Psyllium Husk | 10g | M.0.3 MicroVitamin+ 2.5g + M.0.2 standalone 7.5g |
 | Collagen Peptides | 25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 13.33g — 4scoops (4x~10ml) |
-| Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.10/L.12 standalone 1g each |
+| Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.14/L.12 standalone 1g each |
 | Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
 | Caffeine | 223mg supplemental; ~252–291mg with Matcha | B.0.2 EvoBomb 200mg + L.6-7 Cocoa Flavanols 23mg + Diet Matcha 2g (~29–68mg) |
 | Lycopene | 30mg supplemental; ~32.6mg with checked Tomatoes | M.0.3 MicroVitamin+ 10mg + L.9 standalone 20mg + Diet Tomatoes 100g (~2.57mg) |
@@ -1211,11 +1210,11 @@ Food adds unquantified Creatine, Taurine and other compounds. The Lycopene and M
 | Nutrient | Quantified daily intake | Sources / remaining uncertainty |
 | --- | --- | --- |
 | Vitamin D3 | 3,000IU | M.0.3 MicroVitamin+ 1,000IU + B.8-9 CaAKG 2,000IU |
-| Vitamin K | K1 1.5mg; MK-4 1mg; MK-7 390mcg | M.15 supplies K1/MK-4 and MK-7 200mcg; M.0.3 adds 90mcg MK-7; B.8-9 adds 100mcg |
+| Vitamin K | K1 1.5mg; MK-4 1mg; MK-7 390mcg | M.16 supplies K1/MK-4 and MK-7 200mcg; M.0.3 adds 90mcg MK-7; B.8-9 adds 100mcg |
 | Vitamin B6 | 2.68mg supplemental; ~5.3–5.9mg with checked food | M.0.3.3.5 MicroVitamin+ 1.28mg + E.5 Melisen 1.4mg; natural WPI B6 remains unquantified |
 | Zinc | 11mg supplemental; ~20.5–22.5mg with checked food | M.0.3.7.1 MicroVitamin+; food rotation changes the estimate |
 | Vitamin B12 | 12mcg supplemental + 0.76mcg from Alpro | M.0.3.2.4 MicroVitamin+ + Diet Alpro 200ml, before other foods |
-| Vitamin C | 50mg supplemental | M.0.3 MicroVitamin+ 45mg + M.13 ErgoActive® product 5mg, before food |
+| Vitamin C | 50mg supplemental | M.0.3 MicroVitamin+ 45mg + M.15 ErgoActive® product 5mg, before food |
 | Iron | 18mg supplemental daily | M.5 NOW Foods Ferrochel™; dietary Iron additional |
 | Boron | 1mg supplemental | M.0.3.4.4 MicroVitamin+, before food |
 | Iodine | 75mcg supplemental | M.0.3 MicroVitamin+; Pollock 200g adds an estimated 112mcg when selected. Dairy, WPI and iodized Salt remain unquantified |
@@ -1302,7 +1301,7 @@ Tags apply to the written portion/preparation, not a certified product. **Unmark
 - **Workout drinks:** retain daily EvoBomb, pre-workout Collagen and post-workout WPI/EAA. Use EAA 15g — 1scoop (25ml) and Collagen 4scoops; see [scoop sizes](#powder-scoop-sizes). Swallow A.1 UC-II and the other After Workout pills before starting WPI/EAA. This sequence does not create a fasting interval; none is established as necessary for UC-II. [UC-II label](https://www.nowfoods.com/products/supplements/uc-ii-type-ii-collagen-capsules?SKU=652) [UC-II review](https://pubmed.ncbi.nlm.nih.gov/37854210/)
 - **IW.0.2/IW.0.3 hydration:** prepare the 2.5L electrolyte drink, put HBCD in the first portion that will be finished, then drink the remainder to thirst. Use pre/post dry body weight; fluid intake should not cause weight gain. Sauna adds the same IW.0.2 serving, **no second HBCD serving**. The combined dose exceeds the manufacturer's 4.1g serving, so review sweat losses, Blood Pressure and GI tolerance. [ALLHydrate label](https://aliness.pl/allhydrate-elektrolity-neutral-205-g-50-porcji/) [Fluid-replacement guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5634236/)
 - **L.2-3 Omega-3:** skip capsules on the listed Salmon, Sardine or Mackerel days; Pollock does not qualify. Salmon 150g provides an estimated 1.8g EPA+DHA and Sardines 170g ~3.25g. The selected 180-softgel formula is 690mg EPA/310mg DHA per softgel. Two/day exceeds its usual one/day label direction and remains a review point. Do not increase; higher-dose trials show an Atrial-Fibrillation signal. Match the purchased lot to IFOS and review weekly intake/RBC Omega-3 Index. [Selected label](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) [Sardine label](https://leclerc.com.pl/delicius-filety-z-sardynek-w-oliwie-z-oliwek) [Dose/AF evidence](https://pubmed.ncbi.nlm.nih.gov/34612056/)
-- **M.14 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
+- **M.13 NAC:** keep the 1g Morning dose away from training; a human trial found altered exercise signaling. A Longevity dose is unestablished. [Human trial](https://pubmed.ncbi.nlm.nih.gov/23719546/)
 
 ### Supplement details
 
@@ -1317,7 +1316,7 @@ Use [GymBeam Adjustable PillBoxes](https://gymbeam.pl/regulowany-pojemnik-na-sup
 | M / L / E | Morning / Lunch / Evening |
 | B / IW / A | Before / Intra-Workout / After Workout |
 
-- Numbered codes identify physical pill compartments. `.1`/`.2` share one compartment between small, distinguishable pills; `L.2-3` uses one large pill per compartment; `M.16 3x` puts three small pills in one compartment.
+- Numbered codes identify physical pill compartments. `.1`/`.2` share one compartment between small, distinguishable pills; `L.2-3` uses one large pill per compartment; `M.17 3x` puts three small pills in one compartment.
 - Zero-series codes such as `M.0.2` identify drinks/powders outside the organizer. In `M.0.3.2.1`, the last two numbers identify the ingredient subgroup and its position. Nested superscripts link Notes and consume no compartments.
 - Keep empty compartments at meaningful evidence-benefit gaps. Display order does not create extra timing windows.
 
@@ -1341,12 +1340,12 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Curcumin / L.10:** use Advanced Curcumin Elite™, not plain Curcumin Elite™ 02407. One softgel supplies Curcuminoids 200mg, Gingerols 60mg and Turmerones 75mg. It replaces the separate Curcumin/Ginger products; do not add either back or add Piperine. Better outcomes than Longvida® have not been established. [Advanced label](https://www.lifeextension.com/vitamins-supplements/item02324/advanced-curcumin-elite-ginger-turmerones-turmeric-extract)
 - **Ceratiq® / L.11:** 350mg means Wheat Oil Extract, not isolated Ceramides. Assess dryness, texture and consistent photos after 12 weeks. It is Gluten-Free but contains Wheat; avoid with Wheat Allergy. [Label](https://www.lifeextension.com/vitamins-supplements/item02096/skin-restoring-ceramides) [Trial](https://pubmed.ncbi.nlm.nih.gov/31033133/)
 - **Glucosamine / A.8-9:** 1.5g Glucosamine Sulfate comes from 2.095g Glucosamine Potassium Sulfate Complex. Potassium/Chloride are unquantified; do not reuse an older formula's 245mg Potassium. It is Shellfish-derived. Retain for a measurable joint-symptom benefit; preventive benefit is uncertain. [Label](https://www.nowfoods.com/products/supplements/glucosamine-sulfate-750-mg-capsules) [Review](https://pubmed.ncbi.nlm.nih.gov/33488785/)
-- **Silicon / M.11:** 14mg elemental Silicon uses ORGONO Acacia OSA®. This remains the selected one-capsule option; the cosmetic trial used a different ch-OSA formulation. BioSil® is not a planned replacement. [Selected product](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194) [Trial](https://pubmed.ncbi.nlm.nih.gov/16205932/)
+- **Silicon / M.10:** 14mg elemental Silicon uses ORGONO Acacia OSA®. This remains the selected one-capsule option; the cosmetic trial used a different ch-OSA formulation. BioSil® is not a planned replacement. [Selected product](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194) [Trial](https://pubmed.ncbi.nlm.nih.gov/16205932/)
 
 #### Gut & metabolic support
 
 - **Probiotics / M.1/M.4/E.3:** B. longum 35624® is the former B. infantis 35624 name. Gastrus® provides 400mln CFU/day across its two strains combined, not that amount per strain. Keep each for a measurable symptom response; the Gastrus® trial showed improvement around week 6. [Strain identity](https://www.symbiosys.pl/symbiosys-alflorex-46225.html) [Gastrus® trial](https://pubmed.ncbi.nlm.nih.gov/41821785/)
-- **Kijimea IBS PRO / M.2-3:** ongoing daily use alongside 35624® (M.1) and Gastrus® (M.4/E.3). Both capsules supply 1bln heat-inactivated cells/day, not CFU. Take them together in the Morning routine (~10am); food is optional and no superior time of day is established. Review symptom control and tolerability during routine follow-up. The pivotal trial lasted eight weeks and excluded other probiotics and IBD; added benefit with this stack, long-term outcomes and treatment of bowel inflammation remain unestablished. [Polish directions](https://kijimea.pl/products/kijimea-ibs-pro) · [Trial](https://pubmed.ncbi.nlm.nih.gov/32277872/)
+- **Kijimea IBS PRO / M.2-3:** ongoing daily use alongside 35624® (M.1) and Gastrus® (M.4/E.3). Both capsules supply 1bln heat-inactivated cells/day, not CFU. Take them together in the Morning routine (~10am), swallowed whole with a glass of Water; food is optional and no superior time of day is established. Review symptom control and tolerability during routine follow-up. The pivotal trial lasted eight weeks and excluded other probiotics and IBD; added benefit with this stack, long-term outcomes and treatment of bowel inflammation remain unestablished. [Polish directions](https://kijimea.pl/products/kijimea-ibs-pro) · [Trial](https://pubmed.ncbi.nlm.nih.gov/32277872/)
 - **Butyrate / L.5/E.4:** 1g Sodium Butyrate supplies ~790mg Butyrate Ion (~800mg Butyric Acid equivalent). Debutir MAX's newer release system differs from the Forte used in the UC trial; clinical superiority is unproven. For IBD it remains an adjunct, with response assessed through symptoms and Calprotectin. [MAX label](https://polpharma.pl/produkty/debutir-max-500-mg-x-60-kaps/) [UC trial](https://pubmed.ncbi.nlm.nih.gov/41422374/)
 - **Berberine / L.14/E.11:** 500mg extract at 98% supplies 490mg HCl per capsule, 980mg/day. Published contaminant/microbiology reports do not verify potency. Assess the added value against the existing metabolic results. [Product and reports](https://bmpharma.pl/products/berberine)
 - **Garlic / L.15:** Garlzac® supplies 2.5mg SAC. Its higher marker content is not a proportional benefit claim; the exact ingredient has limited trial evidence. [Label](https://www.lifeextension.com/vitamins-supplements/item02530/aged-black-garlic) [Aged-Garlic review](https://pubmed.ncbi.nlm.nih.gov/40628369/)
@@ -1355,10 +1354,10 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 #### Cognition & Longevity experiments
 
 - **Urolithin A / A.2:** Naturecan's batch NC3922 report measured 498mg/capsule against 500mg labeled; it verifies one submitted batch. The clinical trials used Mitopure®, mainly in older or sedentary adults, and found some secondary benefits while missing primary outcomes. Naturecan remains the practical Poland choice; Mitopure® stays a replacement TODO. [Batch report](https://cdn.shopify.com/s/files/1/0099/8319/7280/files/Urolithin_A_Capsules_COA.pdf) [Trial](https://pubmed.ncbi.nlm.nih.gov/35584623/)
-- **Lion's Mane / M.12:** the selected Fruiting-Body Extract quantifies Beta-Glucans, not Erinacine A or Hericenones. Mycelium candidates stay in TODOs; they are not automatically added to the current product. [Selected label](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892)
-- **Ergothioneine / M.13:** 25mg ErgoActive® matches the studied ingredient, but its trial missed the primary memory endpoint. Assess any Skin, sleep or cognition response after 12–16 weeks; do not stack another product. The EU adult supplement level is 30mg/day. [Trial](https://doi.org/10.3390/nutraceuticals5030015) [EU authorization](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018R0462)
+- **Lion's Mane / M.11-12:** the selected Fruiting-Body Extract quantifies Beta-Glucans, not Erinacine A or Hericenones. Mycelium candidates stay in TODOs; they are not automatically added to the current product. [Selected label](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892)
+- **Ergothioneine / M.15:** 25mg ErgoActive® matches the studied ingredient, but its trial missed the primary memory endpoint. Assess any Skin, sleep or cognition response after 12–16 weeks; do not stack another product. The EU adult supplement level is 30mg/day. [Trial](https://doi.org/10.3390/nutraceuticals5030015) [EU authorization](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018R0462)
 - **Phosphatidylserine / L.16:** 300mg evidence comes mainly from older adults with memory complaints. Avoid recalled NOW lots 3316650 and 3309243, which had inconsistent potency. [Trial](https://pubmed.ncbi.nlm.nih.gov/21103034/) [Recall](https://www.nowfoods.com/about-now/press-room/press-releases/now-health-group-issues-voluntary-recall-phosphatidyl-serine)
-- **NR / M.16:** 900mg remains an experimental dose; raising NAD is not proven to extend human life. There is no established reason to split the dose. [900mg study](https://pubmed.ncbi.nlm.nih.gov/39044608/) [Review](https://pubmed.ncbi.nlm.nih.gov/41655607/)
+- **NR / M.17:** 900mg remains an experimental dose; raising NAD is not proven to extend human life. There is no established reason to split the dose. [900mg study](https://pubmed.ncbi.nlm.nih.gov/39044608/) [Review](https://pubmed.ncbi.nlm.nih.gov/41655607/)
 - **Spermidine / M.18:** 50mg HCl supplies 28mg actual Spermidine. This is a high experimental dose; short studies do not establish chronic benefit or lifetime safety. Do not increase. [High-dose safety trial](https://pubmed.ncbi.nlm.nih.gov/39405978/)
 - **CaAKG / B.8-9:** the SFD nutrition table, not its inconsistent prose conversion, supplies the D3 figures above. All four tablets remain Before Workout, consolidating the label's divided meal schedule. Superiority of 2g over 1.5g and Longevity benefit remain unproven. [Label](https://sklep.sfd.pl/SFD_NUTRITION_Ca-AKG_Alfa-Ketoglutaran_Wapnia-opis44968.html) [2g trial](https://clinicaltrials.gov/study/NCT07114536)
 
@@ -1437,7 +1436,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 ### Supplement trials & replacements
 
 - [ ] **[KENAY MGCPQQ® 20mg/day](https://kenay.com.pl/553-produkt-premium-pqq-pirolochinolinochinon-60-kapsulek.html):** optional 12-week cognition/mental-energy trial, 1capsule with Morning Breakfast. Keep CoQ10 separate. Predefine an outcome; compare Creatinine/eGFR, Cystatin C and Urinalysis before/after. Obtain clearance with kidney impairment, stones or unexplained crystalluria/proteinuria. Small [cognition trials](https://doi.org/10.1039/D2FO01515C); 20mg is the [EU adult maximum](https://eur-lex.europa.eu/eli/reg_impl/2018/1122/oj/eng).
-- [ ] **[Doctor's Best Synapsa®/CDRI-08 Bacopa 320mg](https://shaman.pl/bacopa-with-synapsa-320mg-60-vcaps):** a 12-week Morning-with-Breakfast memory/stress trial, preferably replacing Lion's Mane (M.12). Keep at 1capsule/day; 55% Bacosides uses a UV assay. Repeat TSH/FT4/FT3 and request a medicine-interaction review first. Track memory and GI symptoms; benefit is [uncertain](https://pubmed.ncbi.nlm.nih.gov/41091332/), and [CYP interaction findings](https://pubmed.ncbi.nlm.nih.gov/24566323/) are laboratory evidence. Polish retailer linked.
+- [ ] **[Doctor's Best Synapsa®/CDRI-08 Bacopa 320mg](https://shaman.pl/bacopa-with-synapsa-320mg-60-vcaps):** a 12-week Morning-with-Breakfast memory/stress trial, preferably replacing Lion's Mane (M.11-12). Keep at 1capsule/day; 55% Bacosides uses a UV assay. Repeat TSH/FT4/FT3 and request a medicine-interaction review first. Track memory and GI symptoms; benefit is [uncertain](https://pubmed.ncbi.nlm.nih.gov/41091332/), and [CYP interaction findings](https://pubmed.ncbi.nlm.nih.gov/24566323/) are laboratory evidence. Polish retailer linked.
 - [ ] **[Hansen CaAKG 99%+ powder 2g/day](https://www.hansensupplements.com/products/caakg):** potential B.8-9 replacement for fewer pills and a published raw-material CoA. Weigh the dose. Supplies ~380mg Calcium; removes D3 2,000IU and K2 MK-7 100mcg, so recalculate totals. Poland delivery listed, stock pending; verify the purchased-lot CoA. Longevity benefit remains unproven. Rejuvant® adds Vitamin A and is a poor fit with Isotretinoin. [ABLE trial](https://clinicaltrials.gov/study/NCT05706389)
 - [ ] **[Pure Encapsulations SR-CoQ10 with PQQ](https://www.pureencapsulationspro.com/sr-coq10-with-pqq-60.html):** 2capsules with Morning Breakfast supply MicroActive® CoQ10 100mg + BioPQQ® 20mg, replacing M.6 and the standalone PQQ candidate. Convenience only: higher cost, unreliable Polish access and no proven combination advantage. Separate products remain preferred. [Current CoQ10 formulation evidence](https://pubmed.ncbi.nlm.nih.gov/30153575/)
 - [ ] **[Allergy Research Group BioResponse DIM®](https://pl.iherb.com/pr/allergy-research-group-dim-enhanced-delivery-system-120-vegetarian-capsules/31287):** a possible L.18 replacement for a defined hormone-related goal, with baseline/follow-up markers and stable medicines. 4capsules contain 300mg complex but only ≥75mg actual DIM; equivalence to current 200mg is unproven. Removes Calcium D-Glucarate 100mg (Calcium 12mg) and Sodium Copper Chlorophyllin 20mg. iHerb Poland listing; improved formulation provenance costs four pills. [Label](https://allergyresearchgroup.com/products/dim-enhanced-delivery-system-120-vegetarian-caps) · [Pharmacokinetics](https://pubmed.ncbi.nlm.nih.gov/18843002/)
@@ -1468,7 +1467,7 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - [ ] **Myostatin / Activin-A inhibitors:** Apitegromab, Bimagrumab, Trevogrumab, Garetosmab.
 - [ ] **[Timeline Mitopure® Urolithin A 500mg](https://www.timeline.com/products/mitopure-softgels-vegan):** 2softgels would replace A.2. Stronger clinical/quality provenance; no proven superiority to pure, correctly dosed Naturecan. No ordinary Polish channel or direct Poland shipping verified; check access and slot fit. [Shipping](https://www.timeline.com/shipping-policy) · [Human trial](https://pubmed.ncbi.nlm.nih.gov/35584623/)
 - [ ] **Cordyceps militaris:** await an EU-compliant, tested 1g extract providing ≥150mg Beta-Glucans and 2.5mg Cordycepin. The [Poland-facing Cordycep-M® listing](https://pl.iherb.com/pr/real-mushrooms-cordycep-m-mushroom-extract-powder-120-capsules/112243) does not match these markers. Only after GI stabilization; the small [performance study](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351725) needs replication, and [Novel Food status](https://food.ec.europa.eu/document/download/8df50c8a-4d51-4107-a594-4f37bb08feae_en?filename=ff_ffn_monthly-report_202601.pdf) blocks routine selection.
-- [ ] **Lion's Mane replacement for M.12:** [Oriveda L+](https://au.oriveda.com/product/lions-mane/) uses 6capsules: 900mg Mycelium (~4.478mg Erinacine A) + 900mg Fruiting Body (~325mg Beta-Glucans), from the tested lot. [Real Mycelium™](https://realmushrooms.com/products/real-mycelium) uses 2capsules for 5mg Erinacine A but loses the Fruiting-Body coverage. Better marker verification, unproven clinical advantage; import and [EU Novel Food](https://food.ec.europa.eu/document/download/b075e41c-cccb-46ae-81c2-3a86fb3c390f_en?filename=novel-food_consult-status_hericium-erinaceus_aesan.pdf) constraints remain. If access is resolved, assess cognition/tolerance over 12–16 weeks.
+- [ ] **Lion's Mane replacement for M.11-12:** [Oriveda L+](https://au.oriveda.com/product/lions-mane/) uses 6capsules: 900mg Mycelium (~4.478mg Erinacine A) + 900mg Fruiting Body (~325mg Beta-Glucans), from the tested lot. [Real Mycelium™](https://realmushrooms.com/products/real-mycelium) uses 2capsules for 5mg Erinacine A but loses the Fruiting-Body coverage. Better marker verification, unproven clinical advantage; import and [EU Novel Food](https://food.ec.europa.eu/document/download/b075e41c-cccb-46ae-81c2-3a86fb3c390f_en?filename=novel-food_consult-status_hericium-erinaceus_aesan.pdf) constraints remain. If access is resolved, assess cognition/tolerance over 12–16 weeks.
 - [ ] **Maca replacement for B.5:** [Hersil Maca Gelatinizada La Molina](https://pe.ivademecum.com/medicamento-maca-gelatinizada-molina-hersil-cod-5AB65F9654436065) 1.5g/day (3×500mg tablets) or Lepidamax® 2.1g/day (usually 4capsules). Closer trial matching; no proven superiority to current NOW. No ordinary Polish/EU access verified. Revisit for a defined libido/fatigue/performance goal. [Hersil trial](https://pubmed.ncbi.nlm.nih.gov/12472620/) · [Lepidamax® trial](https://www.journalofexerciseandnutrition.com/index.php/JEN/article/download/40/33/33)
 
 ### Food options
