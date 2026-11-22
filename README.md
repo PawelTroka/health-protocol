@@ -39,53 +39,49 @@
 - ⚠️ overthinking and overanalyzing things out of your control
 
 ### Promote
-- 🥈 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🌡️ ❤️ — Silver reflects overall cardiovascular value; the exact thermal/HSP target remains 🥉.
+- 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🌡️ 🛡️ ⏰
 - 🥇 [Physical activity & active/deep recovery](#3-exercise)
 - 🥇 Social connection & psychological wellbeing
-- 🥉 [Red Light Therapy](#home-procedures) 👨‍🦳
-- 🥉 Cold exposure	(4 times a week) 🌡️
-- 🥈 Meditation / breathwork (daily) 😌
-- 🥇 Walks (daily) ❤️ 🥊
-- 🥇 Stretching (6 times a week) 🤸
+- 🥈 [Red Light Therapy](#home-procedures) ❤️ 🛡️ 👨‍🦳 ⏰
+- 🥈 Cold exposure	(4 times a week) 🔥 🛡️ ⚡
+- 🥈 Meditation / breathwork (daily) 🧠 😌
+- 🥈 Walks (daily) 🫁 ❤️
+- 🥈 Stretching (6 times a week) 🦴 💪
 - 🥉 Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
 - 🥉 [Natural materials](#bedding-and-textiles)
 
 ## 1. Sleep
-
-Medals combine each sleep measure’s expected usefulness with its supporting evidence; exact clock times and environmental targets are starting points to personalize. [Evidence and scope](supplements/EMOJI_EVIDENCE_REVIEW.md#behaviors-sleep-and-exercise).
 Sleep is your number 1 priority. It is more important than diet, more important than exercise, more important than anything else; your whole life should be optimized around sleep. If I were to chose skipping breakfast but getting 1 hour of additional sleep I would gladly do it, same with exercise.
-- 🥇 **Duration & consistency:** Allow ~9h in bed for ~8h of actual sleep (adjust to daytime alertness); keep bed/wake times within ~30–60min, including weekends. 😴 🕒
+- **Duration & consistency:** Allow ~9h in bed for ~8h of actual sleep (adjust to daytime alertness); keep bed/wake times within ~30–60min, including weekends. 😴 ⏰
 - **Bedroom:**
-  - 🥈 **Temperature / humidity:** 17–19°C (preferred: 18°C); 40–50% relative humidity, without condensation or mold. 🌡️ 💧
-  - 🥇 **Light / noise:** Near-total darkness (blackout blinds, cover LEDs) and quiet (ideally <30 dBA); use quiet AC or low-volume steady noise only if helpful. 🌑 🔇
-  - 🥈 **Bed:** Reserve for sleep and intimacy. 🛏️
+  - **Temperature / humidity:** 17–19°C (preferred: 18°C); 40–50% relative humidity, without condensation or mold. 🌡️ 💧
+  - **Light / noise:** Near-total darkness (blackout blinds, cover LEDs) and quiet (ideally <30 dBA); use quiet AC or low-volume steady noise only if helpful. 🌑 🔇
+  - **Bed:** Reserve for sleep and intimacy. 🛏️
 - **Air quality** (see [Clean air](#clean-air)):
-  - 🥈 **PM2.5:** Aim for <10 µg/m³ overnight (lower is better); use a HEPA purifier sized for ~4–5 equivalent air changes/hour at its **actual nighttime fan speed**.
-  - 🥈 **CO₂:** Prefer <800 ppm, or <1,000 ppm where practical, using fresh-air ventilation (filtered when outdoor air is polluted); a purifier or ordinary split AC does not remove CO₂.
-  - 🥇 **Sources / upkeep:** Avoid smoke, scented candles, fragrances and ozone generators; maintain filters and clean humidifiers regularly.
-- 🥇 **Daylight & wind-down:** Get 20–30min outdoors soon after waking plus daylight during the day (with UV protection); dim lights 1–2h before bed and spend the final 30–60min relaxing without stimulating work or bright screens. Dim warm/red lights are fine. 😴 🕒 😌
-- 🥈 **Devices:** Turned off or "Do Not Disturb" **00:00–10:14**. 😴
-- 🥇 **Stimulants:** Stop any caffeine or other stimulants ≥8–10h before bed (earlier after high doses or if sensitive); check Matcha and the daily HSN EvoBomb 2.0 200mg Caffeine dose against bedtime. 😴
-- 🥈 **Meals & alcohol:** Finish large meals ≥2–3h before sleep (a light snack is fine); avoid alcohol, especially in the evening. 😴
-- 🥇 **Exercise:** Train regularly; move intense evening sessions earlier if they disrupt sleep. 💪
-- 🥈 **Sleep problems:** Avoid extended frustrated wakefulness in bed; if you truly cannot fall asleep read a book or even go back to work; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
-- 🥉 **Sex & Sauna:*** Could make it easier to fall asleep if used strategically. Use Sauna 1-3h before sleep to relax, use good sex 0-1h before sleep to make it easier to fall asleep.
-- 🥈 **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
+  - **PM2.5:** Aim for <10 µg/m³ overnight (lower is better); use a HEPA purifier sized for ~4–5 equivalent air changes/hour at its **actual nighttime fan speed**.
+  - **CO₂:** Prefer <800 ppm, or <1,000 ppm where practical, using fresh-air ventilation (filtered when outdoor air is polluted); a purifier or ordinary split AC does not remove CO₂.
+  - **Sources / upkeep:** Avoid smoke, scented candles, fragrances and ozone generators; maintain filters and clean humidifiers regularly.
+- **Daylight & wind-down:** Get 20–30min outdoors soon after waking plus daylight during the day (with UV protection); dim lights 1–2h before bed and spend the final 30–60min relaxing without stimulating work or bright screens. Dim warm/red lights are fine. 😴 😌
+- **Devices:** Turned off or "Do Not Disturb" **00:00–10:14**. 😴
+- **Stimulants:** Stop any caffeine or other stimulants ≥8–10h before bed (earlier after high doses or if sensitive); check Matcha and the daily HSN EvoBomb 2.0 200mg Caffeine dose against bedtime. 😴
+- **Meals & alcohol:** Finish large meals ≥2–3h before sleep (a light snack is fine); avoid alcohol, especially in the evening. 😴
+- **Exercise:** Train regularly; move intense evening sessions earlier if they disrupt sleep. 💪
+- **Sleep problems:** Avoid extended frustrated wakefulness in bed; if you truly cannot fall asleep read a book or even go back to work; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
+- **Sex & Sauna:*** Could make it easier to fall asleep if used strategically. Use Sauna 1-3h before sleep to relax, use good sex 0-1h before sleep to make it easier to fall asleep.
+- **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
 
 ## 2. Testing
 
-Medals combine expected clinical decision value with supporting evidence, including the reason and frequency for testing. A valid assay does not establish benefit from repeated screening. [Testing evidence](supplements/EMOJI_EVIDENCE_REVIEW.md#testing-and-screening).
-
 ### Daily Tracking
 We are following "bleeding-edge" approach when it comes to daily tracking, always pushing for the best in each category.
-- 🥈 **Sleep Tracking**: [Oura Ring 5](https://ouraring.com/store/rings/oura-ring-5) 😴 🕒
-- 🥈 **Activity Tracking**: [Garmin fēnix® 9 Pro inReach® 51mm Carbon Gray DLC Titanium with Black/Pebble Gray Silicone Band](https://www.garmin.com/en-US/p/1953453/pn/010-04337-10) ❤️ 🥊
-- 🥉 **Meal Tracking**: [Qalzy AI](https://qalzy.com/products/the-worlds-first-ai-scale-that-automatically-counts-calories) 🍎
-- 🥈 **Body Composition**: [Withings Body Scan](https://www.withings.com/eu/en/body-scan) ⚖️ 💪
-- 🥇 **Blood-pressure measurement**: [Withings BPM Core](https://www.withings.com/eu/en/bpm-core) ❤️ 🫀
+- **Sleep Tracking**: [Oura Ring 5](https://ouraring.com/store/rings/oura-ring-5) 😴 😌 ⏰
+- **Activity Tracking**: [Garmin fēnix® 9 Pro inReach® 51mm Carbon Gray DLC Titanium with Black/Pebble Gray Silicone Band](https://www.garmin.com/en-US/p/1953453/pn/010-04337-10) 🫁 ❤️ 🥊
+- **Meal Tracking**: [Qalzy AI](https://qalzy.com/products/the-worlds-first-ai-scale-that-automatically-counts-calories) 🍎 🚽 🩸
+- **Body Composition**: [Withings Body Scan](https://www.withings.com/eu/en/body-scan) 🩸 💪
+- **Heart Health**: [Withings BPM Core](https://www.withings.com/eu/en/bpm-core) ❤️ 🫀
 
 ### Laboratory Analysis (Biomarkers)
-**Frequency: Every 6 months** — 🥉 for blanket repetition. Individual medals reflect the value of a specific diagnostic/monitoring use; they do not validate automatically repeating the entire list.
+**Frequency: Every 6 months** — 🥉 for blanket repetition.
 
 #### Blood
 - 🥇 **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: Morphology, Myoglobin, Glucose, Serum Sodium, Potassium, Serum Albumin, Serum Creatinine, Serum Uric Acid, ALT, AST, Creatine Kinase (CK), Total Cholesterol, HDL Cholesterol, Triglycerides, LDL Cholesterol (calculated), Serum Magnesium, Inorganic Phosphorus, Total Calcium, Glycated Hemoglobin (HbA1c), Serum Iron, Ferritin, Transferrin, Serum Zinc, Vitamin B12, Folic Acid, Insulin, TSH (3rd gen), Free T3 (FT3), Free T4 (FT4), Cortisol, Testosterone, DHEA-S, SHBG, NT-proBNP, IL-6, IGF-1, D-dimer, Selenium, Insulin Resistance Index, Vitamin B1 (Thiamine), CRP-hs, Vitamin B6, Vitamin D-25(OH), Homocysteine (HPLC), Circulating Calprotectin 🍎 ❤️ 🟤 🫘 🦋 🍆 *(indicated medicine/metabolic monitoring core)*
@@ -201,8 +197,6 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ## 3. Exercise
 
-Medals combine expected strength, conditioning or mobility benefit with activity-class evidence. Specific claims about this routine’s superiority, exact tempo, hernia/diastasis prevention, “high Growth Hormone”, “visceral fat melting” or waist shrinking remain 🥉. [Exercise evidence](supplements/EMOJI_EVIDENCE_REVIEW.md#behaviors-sleep-and-exercise).
-
 ### Ultimate Optimized Daily Activity & Training Routine: Aesthetics, Longevity & Sexual Health
 
 #### Core Philosophy:
@@ -273,7 +267,7 @@ Medals combine expected strength, conditioning or mobility benefit with activity
 - 🥈 **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
 **Recovery:**
-- 🥈 **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, [hydrate with electrolytes](#during-workout))* ❤️ — Silver reflects overall cardiovascular value; this duration and the skin/recovery claims remain 🥉.
+- 🥈 **Sauna**: 60mins *(Post-workout recovery, cardiovascular health & skin health, [hydrate with electrolytes](#during-workout))* ❤️
 
 ---
 
@@ -334,8 +328,6 @@ Medals combine expected strength, conditioning or mobility benefit with activity
 
 
 **Food forms:** fresh or plain frozen Vegetables, prepared as listed; Pulses cooked from dried. The existing Sardine and Mackerel options are the only canned-food exceptions.
-
-**Food medals:** combine the useful contribution at the written portion with the evidence supporting that benefit, using the [same benefit × evidence model](#legend) as the rest of the protocol. Alternatives are graded within their meal role; nutritional adequacy, training fuel, dietary pattern, GI tolerance and existing intake all matter. [Food review](supplements/EMOJI_EVIDENCE_REVIEW.md#food-medal-coverage).
 
 **How to use:** every CHOOSE list ranks options by evidence-weighted Health, Longevity, Looksmaxxing and Sexual Health benefit at the listed portions, adjusted for GI tolerance and stack fit. Fixed items plus checked choices form the default day. Choose Spices & Herbs at their individual portions; rotate foods across the week and recalculate Macros for substitutions.
 
@@ -629,7 +621,7 @@ Medals combine expected strength, conditioning or mobility benefit with activity
 
 ## 5. Supplements and drugs
 
-Follow the scheduled entries below. Each active product and separately assessed ingredient has a benefit × evidence medal; composition-only lines add no independent benefit claim. Assess the useful contribution at the written exposure alongside the current diet and stack. [Codes & preparation](#supplement-codes) · [Medal model](#legend) · [Details](#supplement-details).
+Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · [Legend](#legend) · [Details](#supplement-details).
 
 [Printable Supplement Pillbox Guide (Word)](supplements/Supplement-Pillbox-Guide.docx) — an eight-page, label-ready 3x3 layout for Morning 1/2, Lunch 1/2, Evening 1/2, Before Workout and After Workout.
 
@@ -803,7 +795,6 @@ Follow the scheduled entries below. Each active product and separately assessed 
 
 ## 6. Looksmaxxing
 
-Medals combine the expected cosmetic or functional benefit with supporting evidence. Routine grooming is a personal choice; a procedure’s evidence does not establish a need for its written repeat schedule. [Care evidence](supplements/EMOJI_EVIDENCE_REVIEW.md#skin-hair-dental-and-cosmetic-care).
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
 
 ### Oral health / teethmaxxing
@@ -948,7 +939,6 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
 
 ## 8. Environment
 
-Medals combine the expected exposure-reduction or care benefit with supporting evidence. Equipment specifications and natural/organic material choices do not establish extra health benefit. [Environmental evidence](supplements/EMOJI_EVIDENCE_REVIEW.md#environment-and-equipment).
 Even if you do everything right you can be exposed to harmful environment, so it is crucial to do everything to have a healthy environment.
 
 ### Clean water
@@ -1096,7 +1086,7 @@ Even if you do everything right you can be exposed to harmful environment, so it
 
 ## Legend
 
-Icons distinguish nutritional roles, clinical targets and the systems assessed by tests/devices. A target is not a diagnosis or a guaranteed response. Medals combine expected benefit for this protocol with the evidence supporting it. [The supporting review](supplements/EMOJI_EVIDENCE_REVIEW.md) records protocol value, dose, formulation, population and outcome behind the choices (reviewed 2026-11-22).
+Icons distinguish nutritional roles, clinical targets and the systems assessed by tests/devices. A target is not a diagnosis or a guaranteed response. [The supporting review](supplements/EMOJI_EVIDENCE_REVIEW.md) records protocol value, dose, formulation, population and outcome behind the choices (reviewed 2026-11-22).
 
 **Food and nutrient icons:** highlight composition or normal physiological roles, not enhancement in a replete person. A food's polyphenols or a supplement's antioxidant activity do not by themselves earn an immune, cognition or longevity tag. Food-group pictograms and care-category icons are descriptive.
 
@@ -1120,7 +1110,7 @@ Medals combine **strength of benefits for this protocol × strength of evidence 
 
 **Applying medals:** assess the actual purpose, dose/form, daily exposure, population, current needs and contribution alongside the rest of the protocol. Evidence strength is one input; novelty, essential nutrient status and a high study count do not determine the medal by themselves. A blend is assessed for its combined useful contribution without assuming synergy. Grade food alternatives as replacements within their meal role and TODO candidates for their stated conditional use. A medicine's indication and a test's reason for use affect expected benefit. Record evidence limits separately, including when a Gold intervention has an uncertain exact regimen. The supporting review explains these judgments without invented numerical scores.
 
-Medals do not certify safety, product purity, a prescription indication or a guaranteed response. Target icons describe intended benefit areas or systems assessed; each additional icon does not inherit the same evidence strength. Avoid-list entries, the vaccine record, TODO Food options, historical records, administrative details, equipment specifications, empty slots and links to already graded schedules are unmedalled.
+Medals do not certify safety, product purity, a prescription indication or a guaranteed response. Target icons describe intended benefit areas or systems assessed; each additional icon does not inherit the same evidence strength. Avoid-list entries, the vaccine record, TODO Food options, historical records, administrative details, equipment specifications, empty slots and links to already graded schedules are unmedalled. Promote, Sleep and Daily Tracking retain main’s wording and annotations for manual editing; they are not regraded in this review.
 
 **Status and preparation**
 
@@ -1137,7 +1127,7 @@ Medals do not certify safety, product purity, a prescription indication or a gua
 - ❤️ Heart/cardiovascular health
 - 🧠 Brain health/cognitive function
 - 🛡️ Immune function or immune assessment; antioxidant chemistry alone is insufficient
-- ⏰ Aging/longevity research target; read with its evidence medal, never as proof of longer human lifespan
+- ⏰ Aging/longevity research target, never proof of longer human lifespan; in the retained Sleep and Daily Tracking entries, sleep–wake timing
 - 🔥 Inflammation-related target or marker
 - 🦠 Gut health/microbiome or microbes being assessed
 - 🦴 Joint/bone/connective-tissue health
@@ -1152,6 +1142,7 @@ Medals do not certify safety, product purity, a prescription indication or a gua
 - 🩸 Blood/lipid markers, Iron or clotting, as specified by the entry; not every marker at once
 - 🍬 Glucose/insulin regulation or measurement
 - 🫀 Circulation/blood flow
+- 🫁 Respiratory health/aerobic endurance
 - 🚽 Digestion/bowel regularity; urine context = elimination
 - 🥊 Athletic performance
 - 🤸 Mobility/range of motion
@@ -1450,7 +1441,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 ## TODOs / Things to consider
 
-Pending options. Try one change at a time; replacements take the place of the named active product. Medals combine plausible benefit for this protocol with supporting evidence under the stated conditions; they do not activate a trial or prove superiority over the current product. [Candidate evidence](supplements/EMOJI_EVIDENCE_REVIEW.md#todos-and-research-candidates).
+Pending options. Try one change at a time; replacements take the place of the named active product.
 
 ### Symptoms & follow-up
 
