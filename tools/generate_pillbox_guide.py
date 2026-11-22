@@ -52,8 +52,8 @@ COMPACT_QUANTITY_RE = re.compile(
 
 TIER_BY_CODE = {
     "M.1": "🥈",
-    "M.2": "🥈",
-    "M.3": "🥈",
+    "M.2": "🥇",
+    "M.3": "🥇",
     "M.4": "🥈",
     "M.5": "🥉",
     "M.6": "🥉",
@@ -64,40 +64,40 @@ TIER_BY_CODE = {
     "M.11": "🥉",
     "M.12": "🥉",
     "M.13": "🥉",
-    "M.14": "🥇",
+    "M.14": "🥈",
     "M.15": "🥉",
-    "M.16": "🥉",
+    "M.16": "🥈",
     "M.17": "🥉",
     "M.18": "🥉",
     "L.1.1": "🥇",
     "L.1.2": "🥇",
-    "L.2": "🥇",
-    "L.3": "🥇",
+    "L.2": "🥈",
+    "L.3": "🥈",
     "L.5": "🥈",
     "L.6": "🥇",
     "L.7": "🥇",
     "L.9": "🥉",
     "L.10": "🥈",
     "L.11": "🥈",
-    "L.12": "🥇",
+    "L.12": "🥈",
     "L.13": "🥉",
     "L.14": "🥈",
     "L.15": "🥈",
     "L.16": "🥉",
     "L.17": "🥉",
     "E.1.1": "🥉",
-    "E.1.2": "🥈",
+    "E.1.2": "🥇",
     "E.2": "🥇",
     "E.3": "🥈",
     "E.4": "🥈",
     "E.5": "🥇",
     "E.6": "🥈",
-    "E.7": "🥈",
+    "E.7": "🥇",
     "E.8": "🥉",
     "E.9": "🥉",
     "E.10": "🥉",
     "E.11": "🥈",
-    "E.12": "🥇",
+    "E.12": "🥈",
     "E.13": "🥉",
     "E.14": "🥇",
     "E.15": "🥉",
@@ -111,8 +111,8 @@ TIER_BY_CODE = {
     "B.5": "🥉",
     "B.6": "🥈",
     "B.7": "🥉",
-    "B.8": "🥉",
-    "B.9": "🥉",
+    "B.8": "🥈",
+    "B.9": "🥈",
     "A.1": "🥇",
     "A.2": "🥈",
     "A.3": "🥈",
@@ -652,9 +652,9 @@ def add_page(document, page_data, page_index):
     compact_paragraph(p, before=3, after=0)
     p.alignment = WD_ALIGN_PARAGRAPH.LEFT
     add_hyperlink(p, "GymBeam Adjustable PillBox", PILLBOX_URL, color=accent)
-    run = p.add_run(" • Full legend/evidence: README.md")
+    run = p.add_run(" • Benefit × evidence: README.md")
     set_repeatable_font(run, 7.3, color=COLORS["muted"])
-    for medal, label in (("🥇", "established"), ("🥈", "promising"), ("🥉", "exploratory")):
+    for medal, label in (("🥇", "high"), ("🥈", "moderate"), ("🥉", "low/uncertain")):
         run = p.add_run(" • ")
         set_repeatable_font(run, 6.8, color=COLORS["muted"])
         run = p.add_run(medal)
