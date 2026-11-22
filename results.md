@@ -536,7 +536,6 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 
 |  | 2026-07 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- |
-| **Urine Creatinine** | 🟢 59.1 | mg/dL | 39 - 259 |
 | **Urine Albumin (Microalbuminuria)** | 🔵 <3 | mg/l | < 20 |
 | **Urine Protein** | 🔵 0.06 | g/L | < 0.15 |
 | **Urine Amylase** | 🟢 98 | U/L | 16 - 491 |
@@ -548,8 +547,16 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 | **Urine Phosphate** | 🟡<sup>1</sup> 26.40 ↓ | mg/dl | 40 - 136 |
 | **Urine Chloride** | 🟡<sup>1</sup> 11 ↓ | mmol/L | 46 - 168 |
 
+### Creatinine & Cystine
+
+|  | Trend | 2026-09 | 2026-07 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Urine Creatinine** | 🟡 | 🟡<sup>2</sup> 29 ↓ | 🟢 59.1 | mg/dL | 39 - 259 |
+| **Urine Cystine/Creatinine** | - | 🔵<sup>2</sup> 43 | - | umol/g creatinine | 10 - 98 |
+
 **Notes:**
 <sup>1</sup> Spot urine electrolytes vary with hydration, intake and supplements. Interpret the low electrolytes and high magnesium alongside the reassuring serum electrolytes and kidney markers.
+<sup>2</sup> <a href='results/Labs-2026-09-16/Sources.md#urine-cystine-and-creatinine-issued-2026-11-03'>Limbach, 2026-09-16</a>.
 
 ## Urine Culture
 
@@ -681,6 +688,10 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 | **IgA (Serum)** | - | 🔵 3 | - | - | g/L | 0.7 - 4 |
 | **tTG IgA** | - | 🔵 < 2 | - | - | RU/ml | < 20: negative; >= 20: positive |
 | **DGP IgG** | - | 🔵 < 2 | - | - | RU/ml | < 25: negative; >= 25: positive |
+| **Exocrine Pancreatic Cell Antibodies IgG** | - | 🔵<sup>2</sup> negative | - | - | Status | negative |
+| **ASCA IgG** | - | 🔵<sup>2</sup> negative | - | - | Status | negative |
+| **Intestinal Goblet Cell Antibodies IgG** | - | 🔵<sup>2</sup> negative | - | - | Status | negative |
+| **Atypical ANCA (aANCA) IgG** | - | 🔵<sup>2</sup> negative | - | - | Status | negative |
 | **Rheumatoid Factor (RF)** | - | 🟢 < 10 | - | - | IU/mL | < 14 |
 | **Anti-CCP** | - | 🔵 <8 | - | - | U/mL | < 17 |
 | **ANA IIFT** | - | 🔵 negative at 1:80 | - | - | Status | negative |
@@ -711,6 +722,7 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 
 **Notes:**
 <sup>1</sup> Centromere B is equivocal (+); the other 15 immunoblot antibodies are negative.
+<sup>2</sup> <a href='results/Labs-2026-09-16/Sources.md#intestinal-igg-antibodies-issued-2026-10-26'>Intestinal IgG (IIF), 2026-09-16</a>.
 
 ## Tumor Markers
 
