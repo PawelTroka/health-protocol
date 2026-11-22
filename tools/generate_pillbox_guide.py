@@ -226,7 +226,7 @@ PAGES = [
             ),
             item(
                 "M.17",
-                "Nicotinamide Riboside",
+                "Nicotinamide Riboside Chloride (Niagen®)",
                 "300 mg",
                 icons="⏰ 🧠 ❤️ 💪",
                 same_slot_count=3,
