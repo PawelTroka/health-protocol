@@ -80,6 +80,11 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Body Composition**: [Withings Body Scan](https://www.withings.com/eu/en/body-scan) 🩸 💪
 - **Heart Health**: [Withings BPM Core](https://www.withings.com/eu/en/bpm-core) ❤️ 🫀
 
+### Psychological wellbeing check-in
+
+- **Every 2 weeks:** complete [WHO-5](https://www.who.int/publications/m/item/who-ucn-msd-mhe-2024.01) ([Polish questionnaire](https://cdn.who.int/media/docs/default-source/mental-health/five-well-being-index-%28who-5%29/who-5_polish.pdf)) for the preceding 2 weeks; record its 0–100 score and one sentence on enjoyment, connection or everyday functioning. Keep personal answers and notes private. 🧠 😌
+- **Act:** WHO-5 **<50/100**, distress persisting for **2 weeks**, or impaired work/relationships/self-care → arrange an assessment. Seek help sooner if worsening; a higher score does not rule out a problem. [Scoring & support](#psychological-wellbeing-review).
+
 ### Laboratory Analysis (Biomarkers)
 **Frequency: Every 6 months**
 
@@ -1372,6 +1377,14 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Pycnogenol / B.1:** 100mg is current. The discussed 150–200mg range remains a possible later trial after tolerance is established, not the active dose. Keep genuine Pycnogenol® rather than assuming all Pine Bark Extracts are equivalent. [Endothelial trial](https://pubmed.ncbi.nlm.nih.gov/22240497/)
 - **Fenugreek / B.6:** 600mg Testofen® matches the branded trial dose. Taking both capsules together consolidates the label's divided schedule; it does not establish a Testosterone or physique benefit. [Trial](https://pubmed.ncbi.nlm.nih.gov/26791805/)
 - **Maca / B.5; Tribulus / B.7:** Maca's 4.5g fresh-root equivalent is not 4.5g trial material. Tribulus lacks plant-part/marker standardization. Keep alternatives in TODOs rather than infer dose equivalence or proven Testosterone benefits. [Maca label](https://www.nowfoods.com/products/supplements/maca-750-mg-raw-veg-capsules) [Tribestan® trial](https://pubmed.ncbi.nlm.nih.gov/28364864/)
+
+### Psychological wellbeing review
+
+- **Scoring:** add five 0–5 responses and multiply by 4; higher is better. <50/100 (raw <13/25) supports further assessment, not a diagnosis. The fortnightly schedule and functional note are practical choices; use trends without chasing a perfect score. [WHO scoring](https://cdn.who.int/media/docs/default-source/mental-health/who-5_english-original4da539d6ed4b49389e3afe47cda2326a.pdf)
+- **Assessment:** agree the main difficulty, 1–2 everyday goals, the proposed approach, between-session practice and a review date. Discuss CBT or behavioural activation for low mood, or CBT for persistent anxiety, as appropriate to the assessment. [Depression guidance](https://www.nice.org.uk/guidance/ng222/chapter/recommendations) · [Anxiety guidance](https://www.nice.org.uk/guidance/cg113/chapter/recommendations)
+- **Review:** for depression treatment, review progress within 2–4 weeks; no response to psychological therapy after 4–6 weeks warrants discussing barriers and adjustments. This is not an automatic deadline to abandon therapy. For other difficulties, agree timing with the clinician. [NICE follow-up](https://www.nice.org.uk/guidance/ng222/chapter/recommendations#further-line-treatment) · [When to seek help](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health)
+- **Poland:** NFZ psychologist and psychiatrist consultations need no referral. A local CZP/PZK accepts adults from its catchment without an appointment; check the area and opening hours. [NFZ access](https://akademia.nfz.gov.pl/artykuly/jak-znalezc-pomoc-psychiatryczna/) · [CZP/PZK access](https://pacjent.gov.pl/artykul/leczenie-ambulatoryjne-doroslych) · [Find a CZP](https://www.gov.pl/web/zdrowie/centra-zdrowia-psychicznego)
+- **Urgent help in Poland:** immediate danger → **112**; emotional-crisis support → **116123** (24/7). [Official contacts](https://pacjent.gov.pl/aktualnosc/centra-zdrowia-psychicznego-zmiany)
 
 ### Follow-up
 
