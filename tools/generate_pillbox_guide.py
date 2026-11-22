@@ -92,7 +92,7 @@ TIER_BY_CODE = {
     "E.9": "🥈",
     "E.10": "🥈",
     "E.11": "🥈",
-    "E.12": "🥈",
+    "E.12": "🥉",
     "E.13": "🥈",
     "E.14": "🥈",
     "E.15": "🥉",
@@ -192,7 +192,7 @@ PAGES = [
         "title": "MORNING • BOX 2",
         "range": "M.10–M.18",
         "accent": "morning",
-        "callout": "M.17 holds all three small NR capsules together.",
+        "callout": "M.17 holds three NR capsules. Cleared Magtein trial: Morning tablet stays in its original pack; Evening tablet is E.12.",
         "cells": [
             item("M.10", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
@@ -325,7 +325,7 @@ PAGES = [
         "cells": [
             item("E.10", "Glycine", "1g", icons="😴 🧠 🍅 ⏰"),
             item("E.11", "Berberine HCl", "490 mg", icons="🩸 🚽 🛡️"),
-            item("E.12", "Magnesium (Glycinate)", "133.3 mg", icons="💪 🧠 ❤️ 🦴"),
+            item("E.12", "Magnesium L-Threonate Magtein®", "1g (Magnesium 72mg)", icons="🧠", note="ONLY AFTER Magnesium review • same 6-week trial • ~2h before sleep • no Glycinate", kind="warning"),
             item("E.13", "Milk Thistle", "380 mg", icons="🛡️ 🚽 🔄"),
             item(
                 "E.14",
