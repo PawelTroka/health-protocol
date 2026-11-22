@@ -831,6 +831,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - (optional) Radiesse (yearly) at [Studio MyEstetica](https://booksy.com/en-pl/104458_studio-myestetica_zdrowie_20383_gdansk)
 
 ### Lips
+- SPF50+ lip balm [Avène 3g](https://www.eau-thermale-avene.pl/p/pomadka-do-ust-spf-50-3282770204797-808759b4) (Outdoors; reapply during exposure and after eating/drinking)
 - Moisturizing lip balm [La Roche-Posay Cicaplast Lèvres](https://allegro.pl/oferta/balsam-do-ust-regenerujacy-la-roche-posay-cicaplast-levres-b5-7-5ml-18111487447) or [Avène Cicalfate Lips](https://allegro.pl/produkt/balsam-do-ust-avene-cicalfate-regenerujacy-10-ml-85568531-ff02-4512-bc24-4fc7fb038da7) 👨‍🦳 💧
 
 ### Eyes
