@@ -856,20 +856,20 @@ There are actual studies that confirm if you look younger and better you are mor
 
 #### Professional procedures
 - Scalp PRP at Elizaveta Purtova (+48-501-329-921) (every 3-4 months)
-- (optional) Exosomes at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (Once a year)
+- (optional) Exosomes at [PRIVE Beauty & Hair](https://booksy.com/pl-pl/98864_prive-beauty-hair_salon-kosmetyczny_20383_gdansk) (yearly)
 
 ### Eyebrows
 - [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily)
 - Minoxidil 5% (daily) 💇‍♂️
 - [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
-- Styling (monthly) at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk)
-- (optional) Microblading (Only for residual gaps/faded pigment after brow growth is assessed) at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12)
+- Styling at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk) (monthly)
+- (optional) Microblading at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12) (yearly)
 
 ### Beard
-- Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (Once a week) 🧔
-- Daily application of minoxidil 5% 🧔
+- Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (weekly) 🧔
+- Application of minoxidil 5% (daily) 🧔
 - [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly)
-- Daily use of beard oil 🧔 💧
+- Use of beard oil (daily) 🧔 💧
 
 ### ABS
 - Aqualyx 4vials (monthly for 4 months; then yearly) at [Ambasada Piekna](https://booksy.com/en-pl/103304_ambasada-piekna-karolina-komolka_salon-kosmetyczny_21029_gdynia)
