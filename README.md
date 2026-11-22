@@ -758,6 +758,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **A.0.2** [Essential Amino Acids (EAA) Unflavored 15g — 1scoop (25ml)](https://www.hsnstore.eu/brands/raw-series/essential-amino-acids-eaa-s-powder-1kg-unflavoured) [[BJ-LM 1g L-Lysine](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 💪 🛡️ 💇‍♂️
   - Free Essential Amino Acids 14.189g; L-Leucine 4.71g; L-Lysine 2.526g; L-Isoleucine 1.686g; L-Valine 1.686g; L-Threonine 1.551g; L-Histidine 765mg; L-Methionine 421.5mg; L-Phenylalanine 421.5mg; L-Tryptophan 421.5mg
 - 🥈 **A.0.3** [Partially Hydrolyzed Guar Gum (PHGG) 7g — 1scoop (~21ml)](https://pl.iherb.com/pr/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g/147283) 🚽 🦠
+
 💊 pills:
 - 🥈 **A.1** [UC-II® Type II Collagen 40mg](https://pl.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318) 🦴 💪 🔄
   - Total Collagen 10mg, including Undenatured Type II Collagen; Mineralized Red-Algae Complex 250mg; Calcium 80mg
