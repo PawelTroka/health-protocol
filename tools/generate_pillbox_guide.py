@@ -62,7 +62,6 @@ TIER_BY_CODE = {
     "M.9": "🥈",
     "M.10": "🥈",
     "M.11": "🥈",
-    "M.12": "🥈",
     "M.13": "🥈",
     "M.14": "🥉",
     "M.15": "🥉",
@@ -192,23 +191,18 @@ PAGES = [
         "title": "MORNING • BOX 2",
         "range": "M.10–M.18",
         "accent": "morning",
-        "callout": "M.17 holds all three small NR capsules together.",
+        "callout": "M.17 holds three NR capsules. Bacopa stays on HOLD: retain the prior Lion's Mane routine until dose/duration review.",
         "cells": [
             item("M.10", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
                 "M.11",
-                "Lion's Mane Fruiting-Body Extract",
-                "500 mg",
-                icons="🧠 🛡️ 🔄",
-                note="Beta-(1,3)(1,6)-Glucans 150 mg (30%)",
+                "Bacopa monnieri Whole-Plant Extract (Synapsa®)",
+                "320mg",
+                icons="🧠 😌",
+                note="HOLD • Thyroid/medicine + GIS dose/duration review • 55% Bacosides (UV)",
+                kind="warning",
             ),
-            item(
-                "M.12",
-                "Lion's Mane Fruiting-Body Extract",
-                "500 mg",
-                icons="🧠 🛡️ 🔄",
-                note="Beta-(1,3)(1,6)-Glucans 150 mg (30%)",
-            ),
+            empty("M.12"),
             item("M.13", "NAC", "1 g", icons="🛡️ 🧠 🫁 🍅 🔄"),
             item(
                 "M.14",
@@ -691,7 +685,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 22 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 23 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
