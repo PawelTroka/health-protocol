@@ -1449,14 +1449,11 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] **[PEAK Glycerol 99.5%](https://sofora.pl/sklep/peak-liquid-glycerol-500-ml-100-porcji/):** watchlist for prolonged exercise in heat with sweat losses >2% body mass and insufficient fluid access. The Polish product's 5ml/day limit supplies 6g; research uses 96–112g at 80kg. No suitable finished product selected. Do not multiply servings; revisit with a sports clinician after a sweat-rate assessment. [Label](https://www.peak.ag/en/collections/hydration/products/liquid-glycerol) · [Guidance](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/glycerol)
 - [ ] **[Life Extension Lithium Orotate 1mg](https://www.lifeextension.com/vitamins-supplements/item02403/lithium):** clinician-cleared experiment only after repeat TSH/FT4/FT3 (≥7 days off high-dose Biotin) and stable kidney markers, Sodium and Calcium. If cleared, 1capsule with Lunch; repeat thyroid/kidney tests after 6–8 weeks and three months. Review NSAIDs/ACE inhibitors/ARBs/diuretics; keep fluid/Sodium intake consistent and pause during dehydration or GI fluid loss. Healthy-adult benefit is unproven. [Poland listing](https://pl.iherb.com/pr/life-extension-lithium-1-000-mcg-100-vegetarian-capsules/100435) · [Monitoring](https://www.sps.nhs.uk/monitorings/lithium-monitoring/)
 - [ ] **[PEA Levagen®+](https://kenay.com.pl/679-pea-palmitoiloetanoloamid-levagen-60-kapsulek.html):** exploratory cognition candidate. A small [6-week trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC10891801/) used 600mg active PEA in 700mg formulated material, with BDNF and exploratory memory signals; attention/executive-function measures did not improve. Kenay is available in Poland, but its “350mg PEA/Levagen+” and 1capsule/day directions need clarification before matching that trial. Do not double capsules or activate until active dose/formulation is confirmed; predefine a memory/function outcome and stop after 6 weeks without meaningful benefit.
-- [ ] **[Jardiance / Empagliflozin 10mg](https://www.ema.europa.eu/en/medicines/human/EPAR/jardiance):** revisit only for a future Type 2 Diabetes, Heart Failure or CKD indication. If prescribed, prefer Morning dosing with kidney/electrolyte/BP review and an illness/fasting/surgery hold plan. Dehydration/low-BP burden could compound the current drugs, training and Sauna; genital infections and ketoacidosis also matter. [Prescribing information](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/204629s063lbl.pdf)
+- [ ] **[Jardiance / Empagliflozin 10mg](https://www.ema.europa.eu/en/medicines/human/EPAR/jardiance):** revisit once evidence-benefit is more clear in a healthy person. If prescribed, prefer Morning dosing with kidney/electrolyte/BP review and an illness/fasting/surgery hold plan. Dehydration/low-BP burden could compound the current drugs, training and Sauna; genital infections and ketoacidosis also matter. [Prescribing information](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/204629s063lbl.pdf)
 - [ ] **Luteolin 100mg** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)]: await a bioavailable formulation with meaningful human outcomes; no effective healthy-adult product/dose established. [Review](https://pubmed.ncbi.nlm.nih.gov/42136243/)
 - [ ] **[PABA 100–300mg/day](https://allegro.pl/oferta/now-foods-paba-500mg-witamina-b10-wlosy-skora-100k-11690065696):** possible monitored 8–12-week gray-hair trial after thyroid/B12/Folate/Copper causes are addressed and liver tests are normal. Weak repigmentation evidence and reported liver injury; the linked 500mg capsule does not fit this dose. Source a verified lower dose first. [Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC11444426/) · [Liver injury report](https://pubmed.ncbi.nlm.nih.gov/1748050/)
 
 ### Research & access watchlist
-
-Revisit evidence and safe Polish/EU access before selecting any of these.
-
 - [ ] **PP405** — hair density.
 - [ ] **Pyrilutamide (KX-826)** — hair density.
 - [ ] **[Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/)** — body composition; investigational.
@@ -1491,54 +1488,15 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 
 ## Removed / unhealthy / redundant items
 
-### Training replacements
-
-- **Dumbbell Pullover (Cross-bench):** → Friday Lat Pulldowns to prioritize lat training. [Activation study](https://pubmed.ncbi.nlm.nih.gov/21975179/)
-
-### Product replacements
-
-- **[Transparent Labs BULK Pre-Workout "White Cherry" 1scoop (~35ml)](https://www.transparentlabs.com/products/bulk-preworkout)** → HSN EvoBomb 2.0 Lemon 20g (B.0.2). [White Cherry scoop estimate](supplements/POWDER_SCOOP_REFERENCE.md#retired-scoop-entry).
-- **[Biały Puch WPI Unflavored](https://allegro.pl/oferta/bialy-puch-wpi-izolat-bialka-serwatki-100-czysty-wpi-odzywka-bialkowa-500g-12752817701)** → HSN RawSeries WPI; keeps both 30g servings without added B6.
-- **[Bandini Astaxanthin “18mg”, 270capsules](https://allegro.pl/oferta/bandini-naturalna-astaksantyna-18-mg-270-kapsulek-haematococcus-pluvialis-16745873744)** [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] → Double Wood AstaReal® 12mg active (M.9). The [current manufacturer specification](https://www.bandini-pharma.pl/produkt/astaksantyna-270-kapsulek/) lists 18mg material providing 450mcg active Astaxanthin per capsule; it does not establish the content of an uninspected owned lot.
-- **[Biały Puch EAA Unflavored 10g](https://allegro.pl/oferta/bialy-puch-amino-eaa-aminokwasy-regeneracja-500g-13379136807)** → HSN RawSeries EAA 15g powder — 1scoop (25ml); aligns the post-workout serving with the manufacturer's measure without added B6.
-- **[GymBeam Cluster Dextrin® 25g](https://gymbeam.pl/cluster-dextrinr-gymbeam.html)** → HSN RawSeries Cluster Dextrin® at the same dose and timing.
-- **[OstroVit Omega 3 Extreme 3capsules (EPA 1.5g + DHA 750mg)](https://ostrovit.com/pl/products/ostrovit-omega-3-extreme-90-kapsulek-25585.html)** → 2 Sports Research triglyceride-form softgels on non-Fatty-Fish days (L.2-3).
-- **[OstroVit Glucosamine Sulfate 2KCl 1.4g](https://ostrovit.com/pl/products/ostrovit-glukozamina-1400-mg-90-kapsulek-26571.html)** → 2 NOW Glucosamine Sulfate 750mg capsules (A.8-9). The former 1.4g described the whole salt complex.
-- **[Longvida® SLCP™ Curcumin 400mg](https://allegro.pl/oferta/now-foods-kurkumina-curcubrain-400mg-50-kapsulek-zoptymalizowana-kurkuma-18729912439)** (Curcuminoids ≥80mg) [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] + **[Ginger 400mg](https://allegro.pl/oferta/imbir-lekarski-intense-400mg-80-kaps-trawienie-odpornosc-suplement-17192004243)** (Gingerols 40mg; Shogaols 6.72mg) [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] → one [Advanced Curcumin Elite™](https://www.lifeextension.com/vitamins-supplements/item02324/advanced-curcumin-elite-ginger-turmerones-turmeric-extract) softgel (L.10). Saves a pill; clinical superiority over Longvida® is unproven. [Longvida® trial](https://pubmed.ncbi.nlm.nih.gov/32512782/)
-
-### Food & menu changes
-
-- **Canned Vegetables/Pulses:** [Tomatoes 100g](https://zakupy.auchan.pl/products/bio-pomidory-ca%C5%82e-auchan-400-g/00868203), [Black Beans 40g drained](https://marketbio.pl/fasola-czarna-w-zalewie-bio-400g-240g-amaizin.html) and [Chickpeas 42g drained](https://bioshi.pl/pl/products/ciecierzyca-konserwowa-bio-400-g-naturavena-89490) → fresh Tomatoes and Pulses cooked from dried, following the packaging preference. Canned Fish remains the exception; see [food forms](#diet-food-forms).
-- **Lunch Chicken:** [organic pasture-raised tenderloins 200g](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) → Turkey to simplify the Poultry rotation.
-- **Dinner Chicken + Rice:** [Chicken 150g raw](https://www.farmyroztocza.pl/mieso-ekologiczne/filet-z-piersi-kurczaka-bio) + [Basmati Rice 125g cooked](https://marketbio.pl/ryz-basmati-bialy-bio-1-kg-bio-planet.html) removed from Fatty Protein choices; Dinner already has a separate starch choice.
-- **Lunch Rice:** [Basmati Rice 65g cooked](https://marketbio.pl/ryz-basmati-bialy-bio-1-kg-bio-planet.html) → Quinoa for variety.
-- **Lunch [Maluta Lactose-Free Skyr 400g](https://www.carrefour.pl/mleko-nabial-jaja/jogurt-kefir-maslanka-serki-homogenizowane/jogurty-naturalne/maluta-skyr-jogurt-typu-islandzkiego-naturalny-200-g):** removed for preference/convenience. Skyr 200g remains a Dinner option, with Kefir the default. The former [High-Protein Live Yogurt 200g](https://zakupy.auchan.pl/products/jogurt-naturalny-wysokobia%C5%82kowy-bez-laktozy-maluta-200-g/00397304) is a separate product.
-- **Former vegetable options:** [Kale Sprouts 30g](https://sklepkupiec.pl/salaty-ziola-natki/122572-uniflora-kielki-jarmuzu-50-g.html), [Arugula Microgreens 30g](https://www.mikrolistni.pl/) and [Asparagus 100g](https://www.frisco.pl/pid%2C3418/n%2Cfrisco-fresh-szparagi-zielone-peczek/stn%2Cproduct) retired to simplify the menu. Kale/Arugula leaves and the current Asparagus 75g option remain.
 - **Dark Chocolate (85%+):** dropped as a daily food because Cocoa Flavanols 500mg already cover that role; also reduces Calories and variable Lead/Cadmium exposure. Extracts still need contaminant testing. [Cocoa survey](https://pubmed.ncbi.nlm.nih.gov/39144282/)
-
-### Hair & skin simplification
-
-- **Rotating Hair products:** [anti-hair-loss shampoo](https://allegro.pl/oferta/anti-hair-loss-szampon-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132003412), [Anwen Emollient Iris conditioner](https://allegro.pl/oferta/anwen-odzywka-do-wlosow-emolientowy-irys-200-ml-9334623745), [Anwen Protein Magnolia conditioner](https://allegro.pl/oferta/anwen-odzywka-proteinowa-magnolia-aluminiowa-100ml-11386316729), [anti-hair-loss conditioner](https://allegro.pl/oferta/anti-hair-loss-odzywka-do-wlosow-wypadajacych-oslabionych-lamliwych-200ml-17132018183), [Anwen Grow Us Tender warming scalp tonic](https://allegro.pl/oferta/anwen-grow-us-tender-ziolowa-wcierka-rozgrzewajaca-12877985408) and [Castor Oil](https://allegro.pl/oferta/olej-rycynowy-nierafinowany-naturalny-na-wlosy-indie-butelka-pompka-500ml-9831078112) → the fragrance-free Philip Kingsley shampoo/conditioner pair. Fewer products and easier irritation tracking.
-- **[More4Care Cryotherapy Hair Mask 200ml](https://allegro.pl/oferta/more4care-cryotherapy-intensywna-maska-do-wlosow-200ml-zniszczonych-15650050419):** removed; the regular conditioner covers this step.
-- **[Anti-aging cream with SNAP-8 peptide](https://allegro.pl/oferta/apis-lifting-peptide-krem-ze-snap-8-100ml-15823771691) (formerly daily):** CeraVe replaced the daily step; optional SNAP-8 remains in Skincare.
-- **[CeraVe Resurfacing Retinol Serum](https://allegro.pl/oferta/cerave-zestaw-przeciw-niedoskonalosciom-zel-236ml-serum-z-retinolem-30ml-14336884329) (formerly nightly):** removed the extra cosmetic retinoid; retain one weekly topical retinoid (Adapalene 0.1% default or Tretinoin-only 0.025% alternative).
-- **Tretinoin 0.05-0.1% (formerly weekly alternative):** replaced by Tretinoin 0.025%; [Adapalene 0.1%](https://www.doz.pl/apteka/p54613-Differin_01_krem_15_g) remains the weekly default. The [daily-use trial](https://pubmed.ncbi.nlm.nih.gov/7544967/) found less irritation versus 0.1%, not tested at weekly frequency.
-- **[Bielenda Professional 40% acid peel](https://allegro.pl/oferta/bielenda-professional-kwas-salicylowy-40-migdalowy-azelainowy-30ml-8866968306):** professional pH2 blend, unsuitable as a direct home substitute for The Ordinary. Its [professional program](https://bielendaprofessional.pl/zabiegi-kosmetyczne-na-twarz/anti-acne-program) lists retinoid treatment as a contraindication.
-
-### Limited benefit or overlap
-
 - **3x [Catalase 6,250IU](https://www.amazon.pl/dp/B00LPJLZSG):** no established oral-treatment benefit for gray-hair repigmentation. [Review](https://onlinelibrary.wiley.com/doi/full/10.1111/ics.12090)
 - **[L-Glutathione Reduced 200mg](https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199)** [[BJ-LM 250mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] — little expected added value alongside NAC, Glycine and adequate Protein.
 - **[Forest Vitamin Cotinus coggygria Extract 400mg](https://forestvitamin.pl/produkt/forest-vitamin-fisetyna-400mg-60-kapsulek/)** (50% Fisetin ≈200mg) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — daily use lacks established senolytic/Longevity benefit. Keep removed pending robust human-outcome evidence. [200mg trial](https://pubmed.ncbi.nlm.nih.gov/41683255/) · [Pilot](https://pubmed.ncbi.nlm.nih.gov/39269340/)
 - **Nicotinamide Mononucleotide (NMN):** overlaps with NR 900mg/day; no demonstrated added benefit from combining them. [NR/NMN comparison](https://pubmed.ncbi.nlm.nih.gov/41540253/) · [Review](https://pubmed.ncbi.nlm.nih.gov/41655607/)
 - **BCAA:** food, WPI and the complete EAA serving already supply them; no established extra muscle benefit. [Training trial](https://pubmed.ncbi.nlm.nih.gov/24620007/)
-- **Proferrin 20mg:** not used without confirmed Iron deficiency.
 - **Lactobacillus acidophilus (4bln CFU)** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — removed in favor of the selected 35624® and Gastrus® strains.
-- **[Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450):** removed from permanent daily use for the current IBS pattern. Retain as a situational medicine for diarrhea when indicated. [IBS evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC12898053/) · [Enterol indications](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/7890/characteristic)
-
-### Tolerance & safety concerns
-
-- **AOD-9604 5mg vial (former injections 250–500mcg/day):** uncertain fat-loss benefit and unresolved injection safety. The larger oral weight-loss trial was negative; it does not establish injected efficacy or safety. [FDA assessment](https://www.fda.gov/media/183584/download)
+- **[Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450):** removed from permanent daily use for the current IBS pattern as not good enough. [IBS evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC12898053/) · [Enterol indications](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/7890/characteristic)
+- **AOD-9604 5mg vial (former injections 250–500mcg/day):** uncertain fat-loss benefit. The larger oral weight-loss trial was negative; it does not establish injected efficacy or safety. [FDA assessment](https://www.fda.gov/media/183584/download)
 - **Alpha-Lipoic Acid (ALA):** no clear indication; adds low-BP concerns and rare Insulin Autoimmune Syndrome risk. [BP evidence](https://pubmed.ncbi.nlm.nih.gov/37942070/) · [EFSA assessment](https://pubmed.ncbi.nlm.nih.gov/34122657/)
 - **Grapefruit Juice:** CYP3A4 interaction risk with medicines including Tadalafil and Dutasteride.
 - **Red Yeast Extract 500mg** [[BJ-RYG](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] — Monacolin K is statin-like; liver/muscle concerns and possible CoQ10 reduction.
@@ -1550,13 +1508,12 @@ Revisit evidence and safe Polish/EU access before selecting any of these.
 - **[Fo-Ti 560mg](https://allegro.pl/oferta/now-foods-fo-ti-korzen-z-rdesta-wielokwiatowego-14035233596):** stopped after Liver enzymes worsened, with little benefit.
 - **[Yohimbine HCL 5mg](https://pro-peptydy.pl/produkt/yohimbine-5mg-100-kapsulek):** removed for sleep disruption and cortisol concerns.
 - **Isolated high-dose Beta-Carotene:** no clear Longevity benefit and possible health risks; food sources remain.
+- **Onions:** high in Fructans and very high-FOODMAP. [Monash](https://www.monashfodmap.com/blog/cooking-with-onion-and-garlic-myths-and/)
+- **Spring Onions:** same as onions.
 
 ### Personal dislikes
-
 - **[Zucchini 100g](https://www.frisco.pl/pid,43661/n,frisco-organic-cukinia-zielona-bio-tacka/stn,product).**
 - **[Aubergine (Eggplant) 100g](https://www.frisco.pl/pid,71346/n,frisco-organic-baklazan-bio/stn,product).**
-- **Onions:** also high in Fructans. [Monash](https://www.monashfodmap.com/blog/cooking-with-onion-and-garlic-myths-and/)
-- **Spring Onions:** includes green tops.
 - **Beetroot:** [cooked Beetroot 100g](https://zakupy.auchan.pl/products/bio-buraki-gotowane-ca%C5%82e-witamina-500-g/00567440), [Red Beet Sprouts 30g](https://stolicazakupow.pl/produkt/pokarm-zycia-kielki-buraka-40-g/) and [Beet It Sport Nitrate 400 shot 70ml](https://allegro.pl/oferta/beet-it-sport-nitrate-400mg-azotanow-super-wydolnosc-sok-z-buraka-shot-70ml-17894635173) (Nitrate 400mg / 6.45mmol); the shot is also retired from TODOs.
 - **Red Cabbage:** includes [Red Cabbage Sprouts 30g](https://stolicazakupow.pl/produkt/pokarm-zycia-kielki-kapusty-czerwonej-50-g/).
 
