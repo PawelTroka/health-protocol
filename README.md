@@ -1191,6 +1191,8 @@ Each row changes only the named choice from the default day. Tempeh and Egg days
 - **Optional Dinner fat:** EVOO 13.5g adds 122kcal/13.5g Fat; Avocado 30g adds 48kcal/4.4g Fat/2g Fiber. Nothing remains the checked choice.
 - **Diet energy / workout fuel:** omitting HBCD on an easy/short session removes 94kcal/24g Carbohydrate. The written Potato 80g→200g increase adds 113kcal/24g Carbohydrate; count it once if it also serves the cut adjustment.
 
+**Combined swaps:** add the changes when selecting several alternatives. Mussels 150g + Eggs 200g + Sauerkraut 100g, with HBCD omitted on an easy/short session, gives 280kcal and 29.4g non-Collagen Protein less than the default day, including conditional Fish Oil. Apply the existing weight/recovery rule before reducing intake further.
+
 #### Combined supplement intake
 
 | Ingredient | Daily amount | Contributors |
