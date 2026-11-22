@@ -43,7 +43,7 @@ SOURCE_FREQUENCY = re.compile(
 QUANTITY = re.compile(
     r"(?<![\w.,])(?P<number>\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)"
     r"\s*(?P<unit>bln\s+CFU|mln\s+CFU|mln\s+heat-inactivated\s+cells|"
-    r"mcg|µg|μg|mg|g|IU|CFU|GalU|FCC)\b"
+    r"bln|mln|mcg|µg|μg|mg|g|IU|CFU|GalU|FCC)\b"
 )
 
 
@@ -268,9 +268,15 @@ def contains_phrase(phrase: str, source: str) -> bool:
     # An exact amount must not be a substring, denominator, range endpoint, or
     # bound. Whitespace around '/', a dash, or 'to' does not change that meaning.
     source = text(source)
-    pattern = r"(?<![\w.,])" + re.escape(text(phrase)) + r"(?![\w.])"
+    phrase = text(phrase)
+    pattern = r"(?<![\w.,])" + re.escape(phrase) + r"(?![\w.])"
+    trailing_count = next((match for match in QUANTITY.finditer(phrase)
+                           if match.end() == len(phrase) and match["unit"] in {"bln", "mln"}), None)
     for match in re.finditer(pattern, source):
         before, after = source[:match.start()], source[match.end():]
+        # A bare count is not a prefix alias for a qualified biological unit.
+        if trailing_count and re.match(r"\s+(?:CFU|heat-inactivated\s+cells)\b", after):
+            continue
         if re.search(r"[/<>≤≥≈~]\s*$|\d[\w.,]*\s*(?:[-‐‑‒–—−]|\bto)\s*$", before):
             continue
         if re.match(r"\s*(?:/|\bper\b|(?:[-‐‑‒–—−±]|\bto\b)\s*[~≈]?\s*\d)", after):

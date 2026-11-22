@@ -60,13 +60,14 @@ TIER_BY_CODE = {
     "M.7": "🥈",
     "M.8": "🥈",
     "M.9": "🥈",
-    "M.10": "🥉",
+    "M.10": "🥈",
     "M.11": "🥈",
     "M.12": "🥈",
-    "M.13": "🥉",
-    "M.14": "🥈",
+    "M.13": "🥈",
+    "M.14": "🥉",
     "M.15": "🥉",
     "M.16": "🥉",
+    "M.17": "🥉",
     "M.18": "🥉",
     "L.2": "🥇",
     "L.3": "🥇",
@@ -151,16 +152,14 @@ PAGES = [
             item(
                 "M.2",
                 "Bifidobacterium bifidum HI-MIMBb75 (Kijimea IBS PRO)",
-                "500mln heat-inactivated cells",
+                "500mln",
                 icons="🚽 🦠",
-                note="Take M.2 and M.3 together once daily\nSwallow whole with a glass of Water",
             ),
             item(
                 "M.3",
                 "Bifidobacterium bifidum HI-MIMBb75 (Kijimea IBS PRO)",
-                "500mln heat-inactivated cells",
+                "500mln",
                 icons="🚽 🦠",
-                note="Take M.2 and M.3 together once daily\nSwallow whole with a glass of Water",
             ),
             item(
                 "M.4",
@@ -193,39 +192,44 @@ PAGES = [
         "title": "MORNING • BOX 2",
         "range": "M.10–M.18",
         "accent": "morning",
-        "callout": "M.16 holds all three small NR capsules together.",
+        "callout": "M.17 holds all three small NR capsules together.",
         "cells": [
+            item("M.10", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
-                "M.10",
-                "Betaine (TMG)",
-                "1g",
-                icons="🧠 ❤️ 🔄",
+                "M.11",
+                "Lion's Mane Fruiting-Body Extract",
+                "500 mg",
+                icons="🧠 🛡️ 🔄",
+                note="Beta-(1,3)(1,6)-Glucans 150 mg (30%)",
             ),
-            item("M.11", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
                 "M.12",
                 "Lion's Mane Fruiting-Body Extract",
                 "500 mg",
                 icons="🧠 🛡️ 🔄",
-                note="Beta-(1,3)(1,6)-Glucans 300 mg (30%)",
-                same_slot_count=2,
+                note="Beta-(1,3)(1,6)-Glucans 150 mg (30%)",
             ),
-            item("M.13", "L-Ergothioneine", "25 mg", icons="⏰ 🧠 👨‍🦳 🛡️ 🔄", note="ErgoActive® • Vitamin C 5 mg"),
-            item("M.14", "NAC", "1 g", icons="🛡️ 🧠 🫁 🍅 🔄"),
+            item("M.13", "NAC", "1 g", icons="🛡️ 🧠 🫁 🍅 🔄"),
             item(
-                "M.15",
+                "M.14",
+                "Betaine (TMG)",
+                "1g",
+                icons="🧠 ❤️ 🔄",
+            ),
+            item("M.15", "L-Ergothioneine", "25 mg", icons="⏰ 🧠 👨‍🦳 🛡️ 🔄", note="ErgoActive® • Vitamin C 5 mg"),
+            item(
+                "M.16",
                 "Vitamin K1 + K2 MK-4 + K2 MK-7",
                 "K1 1.5 mg • K2 MK-4 1 mg\nK2 MK-7 0.2 mg",
                 icons="🦴 ❤️ 🩸 ⏰",
             ),
             item(
-                "M.16",
+                "M.17",
                 "Nicotinamide Riboside",
                 "300 mg",
                 icons="⏰ 🧠 ❤️ 💪",
                 same_slot_count=3,
             ),
-            empty("M.17"),
             item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons="⏰ 🧠 ❤️"),
         ],
     },
@@ -687,7 +691,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 21 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 22 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer

@@ -109,6 +109,52 @@ class PillboxValidationTests(unittest.TestCase):
                 self.cell("M.13")["dose"] = dose
                 self.fails("M.13 (README:")
 
+    def test_standalone_million_and_billion_counts_pass(self):
+        for dose, displayed in (("500mln", "500 mln"), ("1bln", "1 bln"),
+                                ("2.5bln", "2.5 bln")):
+            with self.subTest(dose=dose):
+                self.readme, self.pages = fixture()
+                self.readme = self.readme.replace("35624® 1bln CFU", f"35624® {dose}")
+                self.cell("M.1")["dose"] = displayed
+                self.assertEqual(validate(self.readme, self.pages), [])
+
+    def test_biological_counts_preserve_amount_and_unit_identity(self):
+        doses = ("500mln", "499mln", "1bln", "500mln CFU", "1bln CFU",
+                 "500mln heat-inactivated cells")
+        for expected in doses:
+            with self.subTest(expected=expected):
+                self.readme, self.pages = fixture()
+                self.readme = self.readme.replace("35624® 1bln CFU", f"35624® {expected}")
+                self.cell("M.1")["dose"] = expected
+                self.assertEqual(validate(self.readme, self.pages), [])
+                for displayed in doses:
+                    if displayed != expected:
+                        with self.subTest(displayed=displayed):
+                            self.cell("M.1")["dose"] = displayed
+                            self.fails("dose:")
+
+    def test_bare_counts_do_not_match_qualified_formulation_details(self):
+        for qualified in ("500mln CFU", "500mln heat-inactivated cells", "1bln CFU"):
+            with self.subTest(qualified=qualified):
+                self.readme, self.pages = fixture()
+                self.readme = self.readme.replace("35624® 1bln CFU", "35624®")
+                self.readme = self.readme.replace("https://example.org/strain)",
+                                                f"https://example.org/strain)\n  - {qualified}")
+                self.cell("M.1")["dose"] = qualified
+                self.assertEqual(validate(self.readme, self.pages), [])
+                self.cell("M.1")["dose"] = qualified.split()[0]
+                self.fails("formulation details")
+
+    def test_bare_count_annotations_do_not_match_qualified_units(self):
+        for qualified in ("500mln CFU", "500mln heat-inactivated cells"):
+            with self.subTest(qualified=qualified):
+                self.readme, self.pages = fixture()
+                self.readme = self.readme.replace("(Brand®) 12mg", "(Brand®) 12mg (Count 500mln)")
+                self.cell("M.13")["note"] = "Count 500mln"
+                self.assertEqual(validate(self.readme, self.pages), [])
+                self.cell("M.13")["note"] = f"Count {qualified}"
+                self.fails("dose annotation:")
+
     def test_wrong_name_and_lost_brand_fail(self):
         for name in ("Unrelated product", "Compound Beta", "Compound Beta (Other®)"):
             with self.subTest(name=name):
