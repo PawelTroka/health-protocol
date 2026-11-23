@@ -231,39 +231,39 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### **Monday: Push (Upper Chest, Width, Triceps, Neck)**
 *Focus: Upper chest shelf, shoulder width, and neck thickness.*
 *Synergy: Chest Press + Lateral Raise.*
-- 🥇 **Upper Chest**: Reverse Grip Smith Machine Press (or Tucked Elbow Incline Press): 12 × 50kg, 11 × 55kg, 10 × 60kg, 9 x 65kg *(Shoulder Pro-Tip: Press in scapular plane with elbows tucked at 30-45°; keep grip slightly wider than shoulder-width to prevent wrist strain)* 💪 🗿
-- 🥇 **Chest Isolation**: Pec Deck Machine (Seated low-to-high if possible): 14 × 30kg, 12 × 35kg, 10 × 40kg, 8 × 50kg 💪 🗿
-- 🥇 **Side Delts**: Cable Lateral Raises (Behind the back): 15 × 7.5kg, 13 × 10kg, 12 × 12.5kg *(Use wrist cuffs to maximize lateral delt isolation & V-taper; Pro-Tip: Set pulley at hip/wrist height to overload the lateral delt in the stretched position)* 💪 🗿
-- 🥇 **Triceps**: Single Arm Cuff Pushdown (or V-bar): 15 × 15kg, 13 × 17.5kg, 12 × 20kg 💪 🗿
-- 🥇 **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 💪 🗿
-- 🥇 **Core**: Standing Cable Crunches: 20 × 25kg, 18 × 30kg, 16 × 35kg (Exhale fully on contraction; TVA focus: draw in, keep stomach flat, prevent coning, stop if midline ridge forms) 💪 🗿
+- 🥇 **Upper Chest**: Reverse Grip Smith Machine Press (or Tucked Elbow Incline Press): 12 × 50kg, 11 × 55kg, 10 × 60kg, 9 x 65kg *(Shoulder Pro-Tip: Press in scapular plane with elbows tucked at 30-45°; keep grip slightly wider than shoulder-width to prevent wrist strain)* 💪 🗿 ⏰
+- 🥇 **Chest Isolation**: Pec Deck Machine (Seated low-to-high if possible): 14 × 30kg, 12 × 35kg, 10 × 40kg, 8 × 50kg 🗿 💪
+- 🥇 **Side Delts**: Cable Lateral Raises (Behind the back): 15 × 7.5kg, 13 × 10kg, 12 × 12.5kg *(Use wrist cuffs to maximize lateral delt isolation & V-taper; Pro-Tip: Set pulley at hip/wrist height to overload the lateral delt in the stretched position)* 🗿 💪
+- 🥇 **Triceps**: Single Arm Cuff Pushdown (or V-bar): 15 × 15kg, 13 × 17.5kg, 12 × 20kg 🗿 💪
+- 🥇 **Neck**: Resistance Band Neck Curls: 20 × 2.5kg, 18 × 3.75kg, 15 × 5kg (Start light to avoid injury) 🗿 💪
+- 🥇 **Core**: Standing Cable Crunches: 20 × 25kg, 18 × 30kg, 16 × 35kg (Exhale fully on contraction; TVA focus: draw in, keep stomach flat, prevent coning, stop if midline ridge forms) 🗿 💪
 - 🥉 **Waist**: Stomach Vacuums: 3x 60s 🗿
-- 🥇 **Post-Workout Zone 2 Cardio**: StairMaster: 20mins at level 8/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ 🍆
+- 🥇 **Post-Workout Zone 2 Cardio**: StairMaster: 20mins at level 8/20 *(Easy Zone 2 / talk-test pace; keep steps controlled, avoid pushing through the toes, and do not turn it into a glute/calf burner. Best StairMaster slot because it follows an upper-body push day and is far enough from Wednesday legs plus weekend sprints.)* ❤️ 🫁 ⏰ 🍆
 
 ---
 
 #### **Tuesday: Pull (Lats, Upper Back, Rear Delts, Biceps, Forearms)**
 *Focus: V-taper width, upper back, rear delts, and arms.*
 *Synergy: Pull-ups + chest-supported row + rear delts/lower traps.*
-- 🥇 **Lats (Width)**: Neutral Shoulder-Width Weighted Pull-ups: 10 × 2kg, 9 × 4kg, 8 × 6kg *(comfortable overhead range; no swinging)* 💪 🗿
-- 🥇 **Upper/Mid Back**: Pronated Grip Chest-Supported Machine Row: 12 × 70kg, 11 × 80kg, 10 × 90kg (Saves lower back) 💪 🗿
-- 🥇 **Rear Delts**: Reverse Pec Deck: 20 × 23kg, 18 × 27kg, 15 × 32kg 💪 🗿
-- 🥈 **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 14 x 6kg, 12 x 8kg, 10 x 10kg *(Light load, comfortable range; avoid painful arcs and uncomfortable pad pressure on the abdominal repair)* 💪 🤸
-- 🥇 **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 💪 🗿
-- 🥇 **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 16 × 12.5kg 💪 🗿
-- 🥇 **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 💪 🗿
-- 🥇 **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ 🍆
+- 🥇 **Lats (Width)**: Neutral Shoulder-Width Weighted Pull-ups: 10 × 2kg, 9 × 4kg, 8 × 6kg *(comfortable overhead range; no swinging)* 💪 🗿 ⏰
+- 🥇 **Upper/Mid Back**: Pronated Grip Chest-Supported Machine Row: 12 × 70kg, 11 × 80kg, 10 × 90kg (Saves lower back) 💪 🗿 ⏰
+- 🥇 **Rear Delts**: Reverse Pec Deck: 20 × 23kg, 18 × 27kg, 15 × 32kg 🗿 💪
+- 🥈 **Lower Traps/Scapular Control**: Chest-Supported Prone Y Raise: 14 x 6kg, 12 x 8kg, 10 x 10kg *(Light load, comfortable range; avoid painful arcs and uncomfortable pad pressure on the abdominal repair)* 🦴 💪 🤸
+- 🥇 **Biceps**: Dumbbell Preacher Curl (Lengthened bias): 12 × 10kg, 11 × 12.5kg, 10 × 15kg *(Pro-Tip: Stop 10° short of lockout at bottom and 90% at top to protect bicep tendon and keep constant tension)* 🗿 💪
+- 🥇 **Forearms (Wrist Flexion)**: Single Arm Dumbbell Wrist Curls off a bench: 20 × 7.5kg, 18 × 10kg, 16 × 12.5kg 🗿 💪
+- 🥇 **Core**: Hanging Knee Raises: 20 × 4kg, 18 × 6kg, 16 × 8kg *(Pro-Tip: Focus on posterior pelvic tilt and curling pelvis upward; draw in TVA; stop if coning/doming occurs; alternative: Dead Bugs)* 🗿 💪
+- 🥇 **Post-Workout Zone 2 Cardio**: Stationary Bike: 20mins at level 12/20 *(Low-to-moderate resistance, smooth cadence, relaxed grip. Best here because it avoids extra shoulder/grip demand after pull day and limits leg fatigue before Wednesday legs.)* ❤️ 🫁 ⏰ 🍆
 
 ---
 
 #### **Wednesday: Legs (Glute/Hamstring Dominant)**
 *Focus: Hip strength and control, an athletic posterior chain, and physical function.*
-- 🥇 **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Glute strength and hip-extension control. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes) 💪 🗿
-- 🥇 **Hamstrings/Glutes**: Romanian Deadlift (RDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg (Slight knee bend; hinge hips back, keep Dumbbells close and spine neutral; use a controlled, comfortable range) 💪 🗿
-- 🥇 **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)* 💪 🗿
-- 🥇 **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 💪 🗿
+- 🥇 **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Glute strength and hip-extension control. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes) 💪 🗿 ⏰ 🍆
+- 🥇 **Hamstrings/Glutes**: Romanian Deadlift (RDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg (Slight knee bend; hinge hips back, keep Dumbbells close and spine neutral; use a controlled, comfortable range) 💪 🗿 ⏰
+- 🥇 **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)* 💪 🗿 ⏰
+- 🥇 **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 🗿 💪
 - 🥇 **Posterior Chain**: 45° Back Extensions (Rounded back, glute squeeze): 15 × 10kg, 15 × 15kg, 15 × 20kg *(Pro-Tip: Set pad 2" below hip crease to let pelvis pivot freely, keeping spine statically rounded)* 💪 🗿
-- 🥇 **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 14 × 110kg, 12 x 120kg, 10 x 130kg (Slow negative) 💪 🗿
+- 🥇 **Calves**: Single Leg Calf Press (on selectorized machine): 20 × 80kg, 18 × 90kg, 16 × 100kg, 14 × 110kg, 12 x 120kg, 10 x 130kg (Slow negative) 🗿 💪
 - 🥈 **Core**: Dead Bugs: 3x 60s (Deep core stability, press lower back into floor, excellent for hernia prevention & diastasis recti) 💪
 
 **Recovery:**
@@ -273,36 +273,36 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### **Thursday: Push 2 (Shoulders, Upper Chest, Neck)**
 *Focus: The "capped" 3D shoulder look, upper chest shelf, and masculine neck.*
-- 🥇 **Shoulders**: Machine Shoulder Press (Pronated grip): 10 × 50kg, 9 × 55kg, 8 × 59kg *(Shoulder Pro-Tip: If right shoulder triggers, swap to Seated Neutral-Grip DB Press)* 💪 🗿
-- 🥇 **Upper Chest**: Seated Low-to-High Cable Fly (Cuffed) or Seated low-to-high Pec Deck Machine: 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg (Best upper pec fly) 💪 🗿
-- 🥇 **Side Delts**: Machine Lateral Raises: 18 × 24kg, 16 × 29kg, 14 × 34kg, 12 x 44kg *(Align shoulders with the machine pivot and keep torso still)* 💪 🗿
-- 🥇 **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 💪 🗿
-- 🥇 **Neck**: Resistance Band Neck Extensions: 20 × 3.75kg, 18 × 5kg, 16 × 6.25kg 💪 🗿
-- 🥈 **Scapular Control**: Forearm Wall Slides with Foam Roller: 20x, 18x, 16x *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 💪 🤸
-- 🥇 **Core**: Reverse Crunches: 35 reps, 30 reps, 25 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 💪 🗿
+- 🥇 **Shoulders**: Machine Shoulder Press (Pronated grip): 10 × 50kg, 9 × 55kg, 8 × 59kg *(Shoulder Pro-Tip: If right shoulder triggers, swap to Seated Neutral-Grip DB Press)* 💪 🗿 ⏰
+- 🥇 **Upper Chest**: Seated Low-to-High Cable Fly (Cuffed) or Seated low-to-high Pec Deck Machine: 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg (Best upper pec fly) 🗿 💪
+- 🥇 **Side Delts**: Machine Lateral Raises: 18 × 24kg, 16 × 29kg, 14 × 34kg, 12 x 44kg *(Align shoulders with the machine pivot and keep torso still)* 🗿 💪
+- 🥇 **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 🗿 💪
+- 🥇 **Neck**: Resistance Band Neck Extensions: 20 × 3.75kg, 18 × 5kg, 16 × 6.25kg 🗿 💪
+- 🥈 **Scapular Control**: Forearm Wall Slides with Foam Roller: 20x, 18x, 16x *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴 💪 🤸
+- 🥇 **Core**: Reverse Crunches: 35 reps, 30 reps, 25 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 🗿 💪
 - 🥉 **Waist**: Stomach Vacuums: 3x 75s 🗿
-- 🥇 **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 12/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ 🍆
+- 🥇 **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 12/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ 🫁 ⏰ 🍆
 
 ---
 
 #### **Friday: Pull 2 (Lats, Back Thickness, Biceps, Forearms)**
 *Focus: Lat width, back thickness, arms, and shoulder control.*
 *Synergy: Lat pulldown + dumbbell row + face pulls.*
-- 🥇 **Thoracic Lats**: One Arm Dumbbell Row: 12 × 25kg, 11 × 27.5kg, 10 × 30kg per side *(Pro-Tip: Pull dumbbell back in a sweeping arc toward your hip pocket, keeping forearm vertical)* 💪 🗿
-- 🥇 **Lats (Width)**: Wide-Grip Lat Pulldown: 14 × 50kg, 12 × 60kg, 10 × 70kg *(Comfortable overhead range; no trunk swinging; leave about 2 reps in reserve)* 💪 🗿
-- 🥇 **Biceps (Mid-range)**: Seated Dumbbell Curls (S-Tier): 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg 💪 🗿
-- 🥇 **Forearms**: Cable Reverse Curl or Dumbbell Reverse Curl or Hammer Curls: 15 × 10kg, 14 × 12.5kg, 12 × 15kg 💪 🗿
-- 🥈 **Prehab**: Face Pulls: 20 × 12.5kg, 16 × 15kg, 15 × 17.5kg (Rotator cuff health & posture; pull with hands high at peak for external rotation) 💪 🤸 🗿
-- 🥇 **Mobility**: Thoracic spine extensions: 3 × 75s; Couch Stretch: 1min/leg; static stretching: 30s/leg 🤸
-- 🥇 **Core**: Incline Bench Leg–Hip Raises: 16x, 14x, 12x *(Head higher than hips; curl pelvis off the bench, exhale, and lower without swinging)* 💪 🗿
-- 🥇 **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ 🍆
+- 🥇 **Thoracic Lats**: One Arm Dumbbell Row: 12 × 25kg, 11 × 27.5kg, 10 × 30kg per side *(Pro-Tip: Pull dumbbell back in a sweeping arc toward your hip pocket, keeping forearm vertical)* 💪 🗿 ⏰
+- 🥇 **Lats (Width)**: Wide-Grip Lat Pulldown: 14 × 50kg, 12 × 60kg, 10 × 70kg *(Comfortable overhead range; no trunk swinging; leave about 2 reps in reserve)* 💪 🗿 ⏰
+- 🥇 **Biceps (Mid-range)**: Seated Dumbbell Curls (S-Tier): 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg 🗿 💪
+- 🥇 **Forearms**: Cable Reverse Curl or Dumbbell Reverse Curl or Hammer Curls: 15 × 10kg, 14 × 12.5kg, 12 × 15kg 🗿 💪
+- 🥈 **Prehab**: Face Pulls: 20 × 12.5kg, 16 × 15kg, 15 × 17.5kg (Rotator cuff health & posture; pull with hands high at peak for external rotation) 🦴 💪 🤸 🗿
+- 🥇 **Mobility**: Thoracic spine extensions: 3 × 75s; Couch Stretch: 1min/leg; static stretching: 30s/leg 🤸 🦴
+- 🥇 **Core**: Incline Bench Leg–Hip Raises: 16x, 14x, 12x *(Head higher than hips; curl pelvis off the bench, exhale, and lower without swinging)* 🗿 💪
+- 🥇 **Post-Workout Zone 2 Cardio**: Uphill Treadmill Walk: 20mins at 20% incline and 4.5km/h *(Easy incline walk at talk-test pace; no jogging and no calf burn. Best remaining slot because it keeps all four weekday modalities unique while staying lower impact than StairMaster before Saturday Zone 2 plus Sunday hill sprints/sports.)* ❤️ 🫁 ⏰ 🍆
 
 ---
 
 #### **Saturday: Weekend Active Recovery & Outdoor Cardio**
 *Focus: Nature conditioning, joint lubrication, and lung capacity. (No Gym Lifts).*
 **Cardio:**
-- 🥇 **Zone 2**: 60mins *(Running near the beach, swimming in the ocean, cycling near the beach, or running in the forest)* ❤️ 🍆
+- 🥇 **Zone 2**: 60mins *(Running near the beach, swimming in the ocean, cycling near the beach, or running in the forest)* ❤️ 🫁 ⏰ 🍆
 
 ---
 
@@ -310,12 +310,12 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: High Growth Hormone, visceral fat melting, and social play on 100% fresh legs.*
 
 **HIIT:**
-- 🥇 **Sprints**: 200m-300m for 20mins *(2-3 series, with 2-3mins walking rest between sprints)* 🥊
+- 🥇 **Sprints**: 200m-300m for 20mins *(2-3 series, with 2-3mins walking rest between sprints)* 🥊 ❤️ ⏰
 - OR
-- 🥇 **Incline Hill Sprints**: 4-6 rounds of 8-10s *(Max effort uphill with 1.5-2mins rest)* 🥊
+- 🥇 **Incline Hill Sprints**: 4-6 rounds of 8-10s *(Max effort uphill with 1.5-2mins rest)* 🥊 ⏰
 
 **Cardio:**
-- 🥇 **Joker**: A random sport used for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)* 🥊 🤝
+- 🥇 **Joker**: A random sport used for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)* 🥊 ⏰ 🤝 💚
 
 
 ## 4. Diet
@@ -652,7 +652,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - 🥈 Magnesium Taurate 126mg elemental magnesium<sup>E.12</sup> 🍎 🦴
      - 🥈 Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg<sup>M.16</sup> 🍎 🦴 🩸
      - 🥈 Encapsulated Vitamin D3 as AlgeD3™ 1,000IU 🍎 🦴 🛡️
-     - 🥉 Boron Glycinate 1mg <sup>M.0.3.4.4</sup>
+     - 🥉 Boron Glycinate 1mg 🦴 <sup>M.0.3.4.4</sup>
      - 🥉 Potassium 99mg 🍎 💧
    - **Skin / connective tissue**
      - 🥈 Hyaluronic Acid 200mg 👨‍🦳 💧
@@ -675,7 +675,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **M.4** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
 - 🥉 **M.5** [Iron (Ferrochel) 18mg](https://pl.iherb.com/pr/now-foods-iron-18-mg-120-veg-capsules/10481) 🩸 🔄
-- 🥉 **M.6** [CoQ10 (Ubiquinone) 100mg](https://gemini.pl/bio-quinon-active-q10-gold-100-mg-90-kapsulek-0085000) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)]
+- 🥉 **M.6** [CoQ10 (Ubiquinone) 100mg](https://gemini.pl/bio-quinon-active-q10-gold-100-mg-90-kapsulek-0085000) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰
   - Ubiquinone 100mg; Riboflavin 1.4mg
 - 🥉 **M.7-8** 2x [Acetyl-L-Carnitine 750mg](https://pl.iherb.com/pr/now-foods-acetyl-l-carnitine-750-mg-90-tablets/6110) 🧠 🔄
 - 🥈 **M.9** [Astaxanthin (AstaReal®) 12mg](https://pl.iherb.com/pr/double-wood-supplements-astaxanthin-astareal-12-mg-60-softgels/161500) [[BJ-ES](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👨‍🦳 🥊 👁️
@@ -684,7 +684,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - Beta-(1,3)(1,6)-Glucans 300mg (30%)
 - 🥉 **M.13** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔄
 - 🥈 **M.14** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🩸 🔄
-- 🥉 **M.15** [L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582) 🧠 👨‍🦳 🔄
+- 🥉 **M.15** [L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582) 🧠 👨‍🦳 ⏰ 🔄
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C 5mg
 - 🥈 **M.16** [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436) [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍎 🦴 🩸
 - 🥉 **M.17** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰
@@ -763,7 +763,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 💊 pills:
 - 🥈 **A.1** [UC-II® Type II Collagen 40mg](https://pl.iherb.com/pr/now-foods-uc-ii-joint-health-with-undenatured-type-ii-collagen-120-capsules/64318) 🦴 🤸 🔄
   - Total Collagen 10mg, including Undenatured Type II Collagen; Mineralized Red-Algae Complex 250mg; Calcium 80mg
-- 🥈 **A.2** [Urolithin A 500mg](https://www.naturecan.pl/products/urolityna-a) 💪
+- 🥈 **A.2** [Urolithin A 500mg](https://www.naturecan.pl/products/urolityna-a) 💪 ⏰ 🛡️
 - 🥈 **A.3-4** 2x [MSM (OptiMSM®) 1.5g](https://pl.iherb.com/pr/doctor-s-best-msm-with-optimsm-1-500-mg-120-tablets/3) 🦴 👨‍🦳 🔄
 - **A.5** (empty)
 - **A.6** (empty)
@@ -781,7 +781,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>M.0.3.3.5</sup>
 - 🥈 **E.6** [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-480-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17286271854) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌
 - 🥇 **E.7** [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://gymbeam.pl/ashwagandha-ksm-66r-500mg-gymbeam.html) 😌 😴 🍆
-- 🥉 **E.8-10** 3x [Glycine 1g](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴
+- 🥉 **E.8-10** 3x [Glycine 1g](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 ⏰
 - 🥈 **E.11** [Berberine HCl 490mg](https://bmpharma.pl/products/berberine) 🩸 🍬 🚽
 - 🥈 **E.12** [Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🍎 🦴
 - 🥉 **E.13** [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064) 🟤 🔄
@@ -789,7 +789,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥇 **E.14** [Silexan (Lavender Oil) 80mg](https://pl.iherb.com/pr/nature-s-way-calmaid-80-mg-30-softgels/43054) 😌 😴 💚
 - 🥉 **E.15** [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256) 😴 🔄
   - GABA 250mg; Magnesium (Citrate) 20mg<sup>E.12</sup>
-- 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342)
+- 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 😌
 - 🥉 **E.18** [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924) 😴
 
 ## 6. Looksmaxxing
@@ -866,7 +866,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - Minoxidil 5% (daily) 💇‍♂️
 - [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly) 💇‍♂️
 - Styling at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk) (monthly)
-- (optional) Microblading at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12) (yearly) 💇‍♂️ 🗿
+- (optional) Microblading at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12) (yearly) 🗿
 
 ### Beard
 - Regular visits to [an artisan barber](https://booksy.com/en-pl/89399_mens-barber-shop-warynskiego_barber-shop_20383_gdansk) (weekly) 🧔
@@ -1018,11 +1018,11 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Pneumococcal (PCV20 (Prevnar 20)) (1dose when 65+ years old)
 
 ## 10. Peptides
-- 🥉 [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily)  
+- 🥉 [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) 🦴  
   10mg / 4ml  
   2.5mg / ml  
   250mcg-500mcg -> 10-20IU/day
-- 🥉 [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly)  
+- 🥉 [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) 💪 🦴  
   10mg / 2ml  
   5mg / ml  
   2mg -> 40IU/week
@@ -1031,11 +1031,11 @@ Even if you do everything right you can be exposed to harmful environment, so it
   15mg / 1.5ml  
   10mg / ml  
   1.5mg -> 15IU/week
-- 🥉 [CJC-1295 with DAC 5mg](https://pro-body.com/pl/produkt/cjc-1295-with-dac-5mg/)  
+- 🥉 [CJC-1295 with DAC 5mg](https://pro-body.com/pl/produkt/cjc-1295-with-dac-5mg/) 💪  
   5mg / 2.5ml  
   2mg / ml  
   0.5mg-1mg -> 25-50IU/week
-- 🥉 (optional) [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily)  
+- 🥉 (optional) [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) 💇‍♂️ 👨‍🦳  
   50mg / 2.5ml  
   20mg / ml  
   1-2mg -> 5-10IU/day
@@ -1451,7 +1451,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] 🥈 **[KENAY MGCPQQ® 20mg/day](https://kenay.com.pl/553-produkt-premium-pqq-pirolochinolinochinon-60-kapsulek.html):** 🧠 optional 12-week cognition/mental-energy trial, 1capsule with Morning Breakfast. Keep CoQ10 separate. Predefine an outcome; compare Creatinine/eGFR, Cystatin C and Urinalysis before/after. Obtain clearance with kidney impairment, stones or unexplained crystalluria/proteinuria. Small [cognition trials](https://doi.org/10.1039/D2FO01515C); 20mg is the [EU adult maximum](https://eur-lex.europa.eu/eli/reg_impl/2018/1122/oj/eng).
 - [ ] 🥈 **[Doctor's Best Synapsa®/CDRI-08 Bacopa 320mg](https://shaman.pl/bacopa-with-synapsa-320mg-60-vcaps):** 🧠 😌 a 12-week Morning-with-Breakfast memory/stress trial, preferably replacing Lion's Mane (M.11-12). Keep at 1capsule/day; 55% Bacosides uses a UV assay. Repeat TSH/FT4/FT3 and request a medicine-interaction review first. Track memory and GI symptoms; benefit is [uncertain](https://pubmed.ncbi.nlm.nih.gov/41091332/), and [CYP interaction findings](https://pubmed.ncbi.nlm.nih.gov/24566323/) are laboratory evidence. Polish retailer linked.
 - [ ] 🥈 **[Hansen CaAKG 99%+ powder 2g/day](https://www.hansensupplements.com/products/caakg):** 🍎 🦴 ⏰ potential B.8-9 replacement for fewer pills and a published raw-material CoA. Weigh the dose. Supplies ~380mg Calcium; removes D3 2,000IU and K2 MK-7 100mcg, so recalculate totals. Poland delivery listed, stock pending; verify the purchased-lot CoA. Longevity benefit remains unproven. Rejuvant® adds Vitamin A and is a poor fit with Isotretinoin. [ABLE trial](https://clinicaltrials.gov/study/NCT05706389)
-- [ ] 🥈 **[Pure Encapsulations SR-CoQ10 with PQQ](https://www.pureencapsulationspro.com/sr-coq10-with-pqq-60.html):** 🧠 2capsules with Morning Breakfast supply MicroActive® CoQ10 100mg + BioPQQ® 20mg, replacing M.6 and the standalone PQQ candidate. Convenience only: higher cost, unreliable Polish access and no proven combination advantage. Separate products remain preferred. [Current CoQ10 formulation evidence](https://pubmed.ncbi.nlm.nih.gov/30153575/)
+- [ ] 🥈 **[Pure Encapsulations SR-CoQ10 with PQQ](https://www.pureencapsulationspro.com/sr-coq10-with-pqq-60.html):** 🧠 ⏰ 2capsules with Morning Breakfast supply MicroActive® CoQ10 100mg + BioPQQ® 20mg, replacing M.6 and the standalone PQQ candidate. Convenience only: higher cost, unreliable Polish access and no proven combination advantage. Separate products remain preferred. [Current CoQ10 formulation evidence](https://pubmed.ncbi.nlm.nih.gov/30153575/)
 - [ ] 🥉 **[NOW Lyc-O-Mato® Lycopene 20mg in organic EVOO](https://pl.iherb.com/pr/now-foods-lycopene-20-mg-50-softgels/332):** 👨‍🦳 possible 1softgel replacement for L.9 with Lunch. Clearer ingredient/carrier identity; no proven outcome advantage. Keep supplemental Lycopene at 30mg/day. iHerb Poland listing. [Label](https://www.nowfoods.com/products/supplements/lycopene-20-mg-softgels?SKU=629)
 - [ ] 🥈 **[Sports Research Suntheanine® 200mg](https://pl.iherb.com/pr/sports-research-l-theanine-200-mg-60-softgels/71105):** 😴 😌 replace E.6 with 2softgels, preserving 400mg nightly, only if branded identity warrants the extra pill/space. iHerb Poland listing; provenance improves, [better sleep outcomes are unproven](https://pubmed.ncbi.nlm.nih.gov/40056718/).
 - [ ] 🥈 **[VemoHerb Bulgarian Tribulus / Tribuscin® 200mg](https://gymbeam.pl/bulgarian-tribulus-vemoherb.html):** 🍆 possible B.7 replacement for a defined libido/erectile-function trial. Each capsule provides 120mg standardized Furostanol Saponins as Protodioscin; label 3–6capsules/day adds pill burden. Polish listing; standardization improves, clinical superiority is unproven. [Tribestan®](https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-02913-16-001.pdf) is the trial comparator: 6×250mg tablets/day, ≥112.5mg Saponins/tablet, with [no Testosterone increase](https://pubmed.ncbi.nlm.nih.gov/28364864/). [VemoHerb label](https://vemoherb.com/product/vemoherb-bulgarian-tribulus/)
@@ -1474,7 +1474,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] 🥉 **Alpha-Yohimbine** ⚖️ — fat-loss candidate.
 - [ ] 🥉 **ZMA / DHEA / DAA** 🍆 — unresolved hormonal/supplement candidates.
 - [ ] **Myostatin / Activin-A inhibitors:** 🥈 💪 Apitegromab, 🥇 💪 ⚖️ Bimagrumab, 🥈 💪 Trevogrumab, 🥈 💪 ⚖️ Garetosmab.
-- [ ] 🥈 **[Timeline Mitopure® Urolithin A 500mg](https://www.timeline.com/products/mitopure-softgels-vegan):** 💪 2softgels would replace A.2. Stronger clinical/quality provenance; no proven superiority to pure, correctly dosed Naturecan. No ordinary Polish channel or direct Poland shipping verified; check access and slot fit. [Shipping](https://www.timeline.com/shipping-policy) · [Human trial](https://pubmed.ncbi.nlm.nih.gov/35584623/)
+- [ ] 🥈 **[Timeline Mitopure® Urolithin A 500mg](https://www.timeline.com/products/mitopure-softgels-vegan):** 💪 ⏰ 🛡️ 2softgels would replace A.2. Stronger clinical/quality provenance; no proven superiority to pure, correctly dosed Naturecan. No ordinary Polish channel or direct Poland shipping verified; check access and slot fit. [Shipping](https://www.timeline.com/shipping-policy) · [Human trial](https://pubmed.ncbi.nlm.nih.gov/35584623/)
 - [ ] 🥉 **Cordyceps militaris:** 🥊 await an EU-compliant, tested 1g extract providing ≥150mg Beta-Glucans and 2.5mg Cordycepin. The [Poland-facing Cordycep-M® listing](https://pl.iherb.com/pr/real-mushrooms-cordycep-m-mushroom-extract-powder-120-capsules/112243) does not match these markers. Only after GI stabilization; the small [performance study](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351725) needs replication, and [Novel Food status](https://food.ec.europa.eu/document/download/8df50c8a-4d51-4107-a594-4f37bb08feae_en?filename=ff_ffn_monthly-report_202601.pdf) blocks routine selection.
 - [ ] 🥉 **Lion's Mane replacement for M.11-12:** 🧠 [Oriveda L+](https://au.oriveda.com/product/lions-mane/) uses 6capsules: 900mg Mycelium (~4.478mg Erinacine A) + 900mg Fruiting Body (~325mg Beta-Glucans), from the tested lot. [Real Mycelium™](https://realmushrooms.com/products/real-mycelium) uses 2capsules for 5mg Erinacine A but loses the Fruiting-Body coverage. Better marker verification, unproven clinical advantage; import and [EU Novel Food](https://food.ec.europa.eu/document/download/b075e41c-cccb-46ae-81c2-3a86fb3c390f_en?filename=novel-food_consult-status_hericium-erinaceus_aesan.pdf) constraints remain. If access is resolved, assess cognition/tolerance over 12–16 weeks.
 - [ ] 🥈 **Maca replacement for B.5:** 🍆 [Hersil Maca Gelatinizada La Molina](https://pe.ivademecum.com/medicamento-maca-gelatinizada-molina-hersil-cod-5AB65F9654436065) 1.5g/day (3×500mg tablets) or Lepidamax® 2.1g/day (usually 4capsules). Closer trial matching; no proven superiority to current NOW. No ordinary Polish/EU access verified. Revisit for a defined libido/fatigue/performance goal. [Hersil trial](https://pubmed.ncbi.nlm.nih.gov/12472620/) · [Lepidamax® trial](https://www.journalofexerciseandnutrition.com/index.php/JEN/article/download/40/33/33)
