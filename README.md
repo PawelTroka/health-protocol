@@ -185,7 +185,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🥈 Vision Exam (Every 2 years) 👁️
 
 ### Gastrointestinal Health
-- 🥈 Gastroscopy + Colonoscopy with CO2 and polypectomy (Every 5 years) 🚽 🎗️
+- 🥈 Gastroscopy + Colonoscopy with CO2 and polypectomy (Every 5 years) 🚽 🔥 🎗️
   - [Medical Center Gunarys](https://gunarys.pl/kolonoskopia-gdansk-gdynia) with [lek. Klaudiusz Rogalski](https://www.znanylekarz.pl/klaudiusz-rogalski/chirurg-gastrolog/gdansk)
     - Pros: selectable endoscopist; planned terminal-ileum attempt with photographic documentation; same-visit Gastroscopy; at least 2 biopsies from the terminal ileum and each colonic segment—including normal-appearing mucosa—and separate site-labelled containers can be agreed with the doctor before the procedure; small-polyp removal up to 1cm and clips are available.
     - Limitations: room-air rather than CO₂ insufflation; Diagnostyka+ histopathology without a guaranteed named IBD Pathologist; outpatient clinic with ambulance transfer to SOR for complications.
@@ -655,7 +655,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - 🥉 Boron Glycinate 1mg 🦴 <sup>M.0.3.4.4</sup>
      - 🥉 Potassium 99mg 🍎 💧
    - **Skin / connective tissue**
-     - 🥈 Hyaluronic Acid 200mg 👨‍🦳 💧
+     - 🥈 Hyaluronic Acid 200mg 👨‍🦳 💧 🦴
      - 🥉 Vitamin C as Calcium Ascorbate 45mg 🍋 🛡️
    - **Eye / antioxidant carotenoids**
      - 🥈 Encapsulated Lutein from Lutemax® 2020 10mg 👁️ 🧠
@@ -682,7 +682,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥉 **M.10** [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194) 💇‍♂️ 👨‍🦳
 - 🥉 **M.11-12** 2x [Lion's Mane Fruiting-Body Extract 500mg](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892) 🧠 🔄
   - Beta-(1,3)(1,6)-Glucans 300mg (30%)
-- 🥉 **M.13** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] ⏰ 🔄
+- 🥉 **M.13** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🛡️ ⏰ 🔄
 - 🥈 **M.14** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🩸 🔄
 - 🥉 **M.15** [L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582) 🧠 👨‍🦳 😴 ⏰ 🔄
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C 5mg
