@@ -214,7 +214,7 @@ PAGES = [
                 icons="🧠 🔄",
                 note="Beta-(1,3)(1,6)-Glucans 150 mg (30%)",
             ),
-            item("M.13", "NAC", "1 g", icons="⏰ 🔄"),
+            item("M.13", "NAC", "1 g", icons="🛡️ ⏰ 🔄"),
             item(
                 "M.14",
                 "Betaine (TMG)",
