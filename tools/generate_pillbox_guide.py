@@ -185,12 +185,12 @@ PAGES = [
                 "M.6",
                 "CoQ10 (Ubiquinone)",
                 "100 mg",
-                icons="❤️ ⏰",
+                icons="❤️ 🧠 ⚡ 🛡️ ⏰",
                 note="Heat-dispersed soy-oil softgel • riboflavin 1.4 mg",
             ),
             item("M.7", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡ 🔄"),
             item("M.8", "Acetyl-L-Carnitine", "750 mg", icons="🧠 ⚡ 🔄"),
-            item("M.9", "Astaxanthin (AstaReal®)", "12 mg", icons="👨‍🦳 🥊 👁️ 🛡️ ⏰", note="Double Wood • oil softgel"),
+            item("M.9", "Astaxanthin (AstaReal®)", "12 mg", icons="👨‍🦳 💪 🥊 👁️ 🛡️ ⏰", note="Double Wood • oil softgel"),
         ],
     },
     {
@@ -204,17 +204,17 @@ PAGES = [
                 "M.11",
                 "Lion's Mane Fruiting-Body Extract",
                 "500 mg",
-                icons="🧠 🔄",
+                icons="🧠 🛡️ 🔄",
                 note="Beta-(1,3)(1,6)-Glucans 150 mg (30%)",
             ),
             item(
                 "M.12",
                 "Lion's Mane Fruiting-Body Extract",
                 "500 mg",
-                icons="🧠 🔄",
+                icons="🧠 🛡️ 🔄",
                 note="Beta-(1,3)(1,6)-Glucans 150 mg (30%)",
             ),
-            item("M.13", "NAC", "1 g", icons="🛡️ 🫁 ⏰ 🔄"),
+            item("M.13", "NAC", "1 g", icons="🛡️ 🧠 🫁 🍅 ⏰ 🔄"),
             item(
                 "M.14",
                 "Betaine (TMG)",
@@ -256,7 +256,7 @@ PAGES = [
             item("L.2", "Omega 3", "690mg EPA • 310mg DHA", icons="🍎 ❤️ 🧠 👁️ 🩸 🔥 🔄", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
             item("L.3", "Omega 3", "690mg EPA • 310mg DHA", icons="🍎 ❤️ 🧠 👁️ 🩸 🔥 🔄", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
             empty("L.4"),
-            item("L.5", "Sodium Butyrate", "500 mg", icons="🦠 🚽 🔥", note="Butyric acid 400 mg"),
+            item("L.5", "Sodium Butyrate", "500 mg", icons="🦠 🚽 🔥 🧠 🛡️ ⏰", note="Butyric acid 400 mg"),
             item("L.6", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠 🫀"),
             item("L.7", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠 🫀"),
             empty("L.8"),
@@ -273,7 +273,7 @@ PAGES = [
                 "L.10",
                 "Curcumin + Ginger + Turmerones",
                 "Curcuminoids 200mg",
-                icons="🔥 🧠 🦴 ❤️ 🚽 🔄",
+                icons="🔥 🧠 🦴 ❤️ 🚽 🍆 🔄",
                 note="Advanced Curcumin Elite™ • Gingerols 60mg • Turmerones 75mg",
             ),
             item("L.11", "Ceratiq® Wheat Oil Extract", "350 mg", icons="👨‍🦳 💧 🔄", note="Phytoceramides • glycosylceramides • glycolipids"),
@@ -283,9 +283,9 @@ PAGES = [
                 "1g",
                 icons="🩸 🔄",
             ),
-            item("L.13", "Broccoli Seed Extract", "200 mg", icons="🧠 🍅", note="Glucoraphanin 20 mg • Myrosinase"),
+            item("L.13", "Broccoli Seed Extract", "200 mg", icons="🧠 🍅 🛡️ 🔥", note="Glucoraphanin 20 mg • Myrosinase"),
             item("L.14", "Berberine HCl", "490 mg", icons="🩸 🍬 🚽"),
-            item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🩸 🔄", note="SAC 2.5 mg • standardized to 0.5%"),
+            item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🩸 🛡️ 🔄", note="SAC 2.5 mg • standardized to 0.5%"),
             item("L.16", "Phosphatidylserine", "300 mg", icons="🧠 😌"),
             item("L.17", "Milk Thistle", "380 mg", icons="🟤 🔄"),
             empty("L.18"),
@@ -303,7 +303,7 @@ PAGES = [
                 "kind": "shared",
                 "parts": [
                     item("E.1.1", "Isotretinoin", "10 mg", icons="👨‍🦳 ⚕️", note="WEEKLY ONLY", kind="rx"),
-                    item("E.1.2", "Dutasteride", "0.5 mg", icons="💇‍♂️ ⚕️", note="EVERY 2ND DAY", kind="rx"),
+                    item("E.1.2", "Dutasteride", "0.5 mg", icons="💇‍♂️ 🍅 ⚕️", note="EVERY 2ND DAY", kind="rx"),
                 ],
             },
             item("E.2", "Minoxidil", "5 mg", icons="💇‍♂️ ⚕️", kind="rx"),
@@ -314,7 +314,7 @@ PAGES = [
                 icons="🚽 🦠",
                 note="Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475",
             ),
-            item("E.4", "Sodium Butyrate", "500 mg", icons="🦠 🚽 🔥", note="Butyric acid 400 mg"),
+            item("E.4", "Sodium Butyrate", "500 mg", icons="🦠 🚽 🔥 🧠 🛡️ ⏰", note="Butyric acid 400 mg"),
             item("E.5", "Melatonin + Botanical Extract Blend", "1 mg", icons="😴 🕒 😌", note="Passionflower • lemon balm • hops • saffron • Vitamin B6"),
             item("E.6", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
             item("E.7", "Ashwagandha KSM-66", "500 mg", icons="😌 😴 🍆 🧠 💪 🥊", note="Withanolides 25 mg"),
@@ -343,7 +343,7 @@ PAGES = [
             item("E.15", "GABA", "250 mg", icons="😴 😌 🔄", note="Magnesium citrate 20 mg"),
             item("E.16", "Inositol", "1g", icons="😌"),
             item("E.17", "Inositol", "1g", icons="😌"),
-            item("E.18", "Apigenin", "200 mg", icons="😴"),
+            item("E.18", "Apigenin", "200 mg", icons="😴 😌"),
         ],
     },
     {
@@ -360,9 +360,9 @@ PAGES = [
                 icons="🧠 😌 ⚡ 🥊",
                 note="Rosavins 15 mg (3%) • Salidroside 5 mg (1%)",
             ),
-            item("B.3", "Taurine", "1.5g", icons="🥊 ❤️ ⏰"),
-            item("B.4", "Taurine", "1.5g", icons="🥊 ❤️ ⏰"),
-            item("B.5", "Raw Maca Root 6:1 Concentrate", "750 mg", icons="🍆 🔄", note="Gelatinized • 4.5g fresh-root equivalent"),
+            item("B.3", "Taurine", "1.5g", icons="💪 🧠 🥊 🫁 ❤️ ⏰"),
+            item("B.4", "Taurine", "1.5g", icons="💪 🧠 🥊 🫁 ❤️ ⏰"),
+            item("B.5", "Raw Maca Root 6:1 Concentrate", "750 mg", icons="🍆 ⚡ 😌 🔄", note="Gelatinized • 4.5g fresh-root equivalent"),
             item(
                 "B.6",
                 "Fenugreek Seed Extract",
@@ -389,8 +389,8 @@ PAGES = [
             empty("A.5"),
             empty("A.6"),
             item("A.7", "Boswellia AprèsFlex®", "100mg (AKBA 20mg)", icons="🦴 🔥", note="1capsule daily • knee-OA symptom evidence • preventive benefit unproven"),
-            item("A.8", "Glucosamine Sulfate", "750mg", icons="🦴 ⏰ 🔄"),
-            item("A.9", "Glucosamine Sulfate", "750mg", icons="🦴 ⏰ 🔄"),
+            item("A.8", "Glucosamine Sulfate", "750mg", icons="🦴 👨‍🦳 ⏰ 🔄"),
+            item("A.9", "Glucosamine Sulfate", "750mg", icons="🦴 👨‍🦳 ⏰ 🔄"),
         ],
     },
 ]
@@ -689,7 +689,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 23 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 24 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
