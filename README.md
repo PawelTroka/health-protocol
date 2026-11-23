@@ -41,7 +41,7 @@
 ### Promote
 - 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🌡️ 🛡️ ⏰
 - 🥇 [Physical activity & active/deep recovery](#3-exercise)
-- 🥇 Social connection & psychological wellbeing
+- 🥇 Social connection & psychological wellbeing 🤝 💚
 - 🥈 [Red Light Therapy](#home-procedures) ❤️ 🛡️ 👨‍🦳 ⏰
 - 🥈 Cold exposure	(4 times a week) 🔥 🛡️ ⚡
 - 🥈 Meditation / breathwork (daily) 🧠 😌
@@ -81,13 +81,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - **Heart Health**: [Withings BPM Core](https://www.withings.com/eu/en/bpm-core) ❤️ 🫀
 
 ### Laboratory Analysis (Biomarkers)
-**Frequency: Every 6 months** — 🥉 for blanket repetition.
+🥉 **Frequency: Every 6 months**
 
 #### Blood
-- 🥇 **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: Morphology, Myoglobin, Glucose, Serum Sodium, Potassium, Serum Albumin, Serum Creatinine, Serum Uric Acid, ALT, AST, Creatine Kinase (CK), Total Cholesterol, HDL Cholesterol, Triglycerides, LDL Cholesterol (calculated), Serum Magnesium, Inorganic Phosphorus, Total Calcium, Glycated Hemoglobin (HbA1c), Serum Iron, Ferritin, Transferrin, Serum Zinc, Vitamin B12, Folic Acid, Insulin, TSH (3rd gen), Free T3 (FT3), Free T4 (FT4), Cortisol, Testosterone, DHEA-S, SHBG, NT-proBNP, IL-6, IGF-1, D-dimer, Selenium, Insulin Resistance Index, Vitamin B1 (Thiamine), CRP-hs, Vitamin B6, Vitamin D-25(OH), Homocysteine (HPLC), Circulating Calprotectin 🍎 ❤️ 🟤 🫘 🦋 🍆 *(indicated medicine/metabolic monitoring core)*
-- 🥇 **[Apolipoprotein B (Apo B)](https://www.alab.pl/badanie/apolipoproteina-b-apo-b-i67)**: Apolipoprotein B ❤️ 🩸 *(lipid-treatment monitoring)*
+- 🥇 **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: Morphology, Myoglobin, Glucose, Serum Sodium, Potassium, Serum Albumin, Serum Creatinine, Serum Uric Acid, ALT, AST, Creatine Kinase (CK), Total Cholesterol, HDL Cholesterol, Triglycerides, LDL Cholesterol (calculated), Serum Magnesium, Inorganic Phosphorus, Total Calcium, Glycated Hemoglobin (HbA1c), Serum Iron, Ferritin, Transferrin, Serum Zinc, Vitamin B12, Folic Acid, Insulin, TSH (3rd gen), Free T3 (FT3), Free T4 (FT4), Cortisol, Testosterone, DHEA-S, SHBG, NT-proBNP, IL-6, IGF-1, D-dimer, Selenium, Insulin Resistance Index, Vitamin B1 (Thiamine), CRP-hs, Vitamin B6, Vitamin D-25(OH), Homocysteine (HPLC), Circulating Calprotectin 🍎 ❤️ 🟤 🫘 🦋 🍆
+- 🥇 **[Apolipoprotein B (Apo B)](https://www.alab.pl/badanie/apolipoproteina-b-apo-b-i67)**: Apolipoprotein B ❤️ 🩸
 - 🥈 **[Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69)**: Lipoprotein (a) ❤️ 🩸
-- 🥇 **[Cystatin C](https://www.alab.pl/badanie/cystatyna-c-k16)**: Cystatin C 🫘 *(renal interpretation when muscle mass confounds Creatinine)*
+- 🥇 **[Cystatin C](https://www.alab.pl/badanie/cystatyna-c-k16)**: Cystatin C 🫘
 - 🥉 **[Free testosterone](https://www.alab.pl/badanie/testosteron-wolny-o41)**: Free Testosterone 🍆
 - 🥉 **[Dihydrotestosterone (DHT)](https://www.alab.pl/badanie/dihydrotestosteron-dht-k55)**: Dihydrotestosterone (DHT) 💇‍♂️ 🍅 🍆
 - 🥉 **[Cancer markers](https://www.alab.pl/pakiet/pakiet-markery-nowotworowe-mezczyzna)**: Alpha-fetoprotein (AFP), CA 19-9, Carcinoembryonic antigen (CEA), Total PSA, S-100 (Melanoma marker) 🎗️ 🍅
@@ -109,7 +109,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🥉 **[Female hormones](https://www.alab.pl/pakiet/pakiet-hormony-kobiece-zaburzenia-miesiaczkowania)**: Estradiol (E2), Follicle-stimulating hormone (FSH), Luteinizing hormone (LH), Prolactin (PRL), Progesterone 🍆
 - 🥉 **[Ceruloplasmin](https://www.alab.pl/badanie/ceruloplazmina-i95)**: Ceruloplasmin 🟤 🧠
 - 🥉 **[Serum Copper](https://www.alab.pl/badanie/miedz-w-surowicy-g68)**: Copper in serum 🟤 🧠
-- 🥇 **[Celiac Disease Diagnostic Package](https://www.alab.pl/pakiet/celiakia-pakiet-diagnostyczny)**: Serum IgA Immunoglobulin, Anti-deamidated gliadin peptide (DGP) IgG, Anti-tissue transglutaminase (tTG) IgA 🦠 🛡️ 🔥 *(symptom-led diagnostic use)*
+- 🥇 **[Celiac Disease Diagnostic Package](https://www.alab.pl/pakiet/celiakia-pakiet-diagnostyczny)**: Serum IgA Immunoglobulin, Anti-deamidated gliadin peptide (DGP) IgG, Anti-tissue transglutaminase (tTG) IgA 🦠 🛡️ 🔥
 - 🥉 *(Optional)* **[Intestinal IgG Panel](https://diag.pl/sklep/badania/panel-jelitowy-pc-pkom-zewnatrzwydziel-trzustki-i-kom-kubk-jelitascaanca-met-iif/)**: Autoantibodies against exocrine pancreatic cells and intestinal goblet cells, ANCA, and ASCA (IIF) 🦠 🛡️ 🔥
 - 🥉 **[Myositis Profile](https://www.alab.pl/pakiet/profil-myositis-profil-zapalenia-miesni)**: Myositis-associated antibodies (Jo-1, PL-7, Mi-2, etc.) & Antinuclear Antibodies (ANA) 💪 🔥 🛡️
 - 🥈 **[STDs](https://www.alab.pl/pakiet/pakiet-zdrowie-intymne-rozszerzony)**: Chlamydia trachomatis (IgG and IgM antibodies), HBs antibodies (Hepatitis B), HCV antibodies (Hepatitis C), HIV screening test (anti-HIV 1/2 and p24 antigen), HSV (Herpes) type 1/2 (IgG and IgM antibodies), Syphilis screening test (WR) 🛡️ 🍆
@@ -146,7 +146,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🥈 **[Pancreatic Elastase](https://www.alab.pl/badanie/trzustkowa-elastaza-1-w-kale-k83)**: Pancreatic elastase in stool for assessment of exocrine pancreatic function 🚽 🟤
 - 🥉 **[Zonulin](https://www.alab.pl/badanie/zonulina-w-kale)**: Zonulin in stool, a marker of intestinal-barrier permeability 🦠 🚽
 - 🥈 **[Helicobacter pylori](https://www.alab.pl/badanie/helicobacter-pylori-w-kale-antygen-metoda-automatyczna-u15)**: Helicobacter pylori antigen in stool 🦠 🚽
-- 🥇 **[Giardia lamblia](https://www.alab.pl/badanie/lamblie-w-kale-giardia-lamblia-antygenx13)**: Giardia lamblia antigen in stool 🦠 🚽 *(symptom-led diagnostic use)*
+- 🥇 **[Giardia lamblia](https://www.alab.pl/badanie/lamblie-w-kale-giardia-lamblia-antygenx13)**: Giardia lamblia antigen in stool 🦠 🚽
 - 🥉 **[Parasites](https://www.alab.pl/badanie/badanie-kalu-w-kierunku-pasozytow-jedno-oznaczenie-a21)**: Parasites in stool (single determination) 🦠 🚽
 - 🥉 **[Amoeba](https://www.alab.pl/badanie/badanie-kalu-w-kierunku-ameby)**: Amoeba (Entamoeba histolytica) stool test 🦠 🚽
 - 🥉 **[Stool Culture](https://www.alab.pl/badanie/posiew-kalu-91831)**: Stool culture 🦠 🚽
@@ -155,7 +155,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🥉 *(Optional)* **[Histamine](https://www.alab.pl/badanie/histamina-w-kale)**: Histamine in stool for investigation of histamine-related food intolerance 🦠 🚽
 - 🥉 *(Optional)* **[Butyric Acid](https://www.alab.pl/badanie/kwas-maslowy-w-kale)**: Butyric acid in stool for assessment of dysbiosis and short-chain fatty-acid production 🦠 🚽
 - 🥈 *(Highly Optional)* **[Stool Fat](https://www.alab.pl/badanie/bilans-tluszczowy-w-kale)**: Quantitative 24-hour stool fat assessment 🚽 🟤
-- 🥇 *(Optional)* **[Lactoferrin](https://diag.pl/sklep/badania/laktoferyna-w-kale-met-elisa/)**: Fecal lactoferrin by ELISA, a marker of intestinal inflammation 🦠 🔥 🛡️ *(symptom-led diagnostic use)*
+- 🥇 *(Optional)* **[Lactoferrin](https://diag.pl/sklep/badania/laktoferyna-w-kale-met-elisa/)**: Fecal lactoferrin by ELISA, a marker of intestinal inflammation 🦠 🔥 🛡️
 - 🥉 *(Optional)* **[M2-PK](https://diag.pl/sklep/badania/m2-pk-w-kale-met-elisa/)**: Fecal M2 pyruvate kinase by ELISA for screening proliferative intestinal changes 🚽 🎗️
 - 🥉 *(Optional)* **[FloraGEN - Genetic Gut Microbiota](https://www.alab.pl/badanie/mikrobiota-genetyczna-floragen)**: Genetic Gut Microbiota Research (Dysbiosis Index) 🦠 🚽
 
@@ -315,7 +315,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🥇 **Incline Hill Sprints**: 4-6 rounds of 8-10s *(Max effort uphill with 1.5-2mins rest)* 🥊
 
 **Cardio:**
-- 🥇 **Joker**: A random sport used for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)* 🥊
+- 🥇 **Joker**: A random sport used for conditioning and socializing *(Climbing Gym, Squash, Padel, Obstacle Racing, Badminton, Tennis, Golf, Rugby, Volleyball, Basketball, Swimming, Football/Soccer, BJJ, Skiing/Snowboarding, Kayaking, Hiking, or Dancing)* 🥊 🤝
 
 
 ## 4. Diet
@@ -618,10 +618,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *[Preparation sources](#diet-food-preparation) · [Calculation details](#food--calculation-notes). Dark Chocolate, processed Meat, Sugar-sweetened drinks, Juice, refined snacks and routine Alcohol remain outside the plan.*
 
 
-
 ## 5. Supplements and drugs
 
-Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · [Legend](#legend) · [Details](#supplement-details).
+Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · [Evidence medals](#legend) · [Details](#supplement-details).
 
 [Printable Supplement Pillbox Guide (Word)](supplements/Supplement-Pillbox-Guide.docx) — an eight-page, label-ready 3x3 layout for Morning 1/2, Lunch 1/2, Evening 1/2, Before Workout and After Workout.
 
@@ -638,7 +637,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - 🥇 Psyllium Husk (Soluble Fiber) 2.5g<sup>M.0.2</sup> 🚽 🩸
      - 🥈 Taurine 1g<sup>B.3-4</sup> 🥊
    - **Cognition / methylation**
-     - 🥈 Betaine (TMG) 500mg<sup>M.0.3.2.1</sup> 🩸
+     - 🥈 Betaine (TMG) 500mg <sup>M.0.3.2.1</sup> 🩸
      - 🥈 Choline Bitartrate 181.5mg 🍎
      - 🥈 Methylated Folate (5-MTHF) 200mcg 🍎
      - 🥉 Methylated Vitamin B12 12mcg<sup>M.0.3.2.4</sup> 🍎
@@ -653,7 +652,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - 🥈 Magnesium Taurate 126mg elemental magnesium<sup>E.12</sup> 🍎 🦴
      - 🥈 Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg<sup>M.16</sup> 🍎 🦴 🩸
      - 🥈 Encapsulated Vitamin D3 as AlgeD3™ 1,000IU 🍎 🦴 🛡️
-     - 🥉 Boron Glycinate 1mg<sup>M.0.3.4.4</sup>
+     - 🥉 Boron Glycinate 1mg <sup>M.0.3.4.4</sup>
      - 🥉 Potassium 99mg 🍎 💧
    - **Skin / connective tissue**
      - 🥈 Hyaluronic Acid 200mg 👨‍🦳 💧
@@ -661,7 +660,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
    - **Eye / antioxidant carotenoids**
      - 🥈 Encapsulated Lutein from Lutemax® 2020 10mg 👁️
      - 🥈 Encapsulated Zeaxanthin from Lutemax® 2020 2mg 👁️
-     - 🥉 Encapsulated Lycopene from LycoBeads® 10mg<sup>L.9</sup> 👨‍🦳
+     - 🥉 Encapsulated Lycopene from LycoBeads® 10mg <sup>L.9</sup> 👨‍🦳
    - **Trace minerals (glycinate forms)**
      - 🥉 Zinc 11mg<sup>M.0.3.7.1</sup> 🍎 🛡️
      - 🥈 Copper 0.9mg 🍎 🩸
@@ -727,7 +726,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - 🥇 Beta-Alanine 4g 🥊
    - **Focus / stimulation**
      - 🥉 L-Tyrosine 1g 🧠
-     - 🥇 Caffeine Anhydrous 200mg<sup>L.6-7</sup> ⚡
+     - 🥇 Caffeine Anhydrous 200mg <sup>L.6-7</sup> ⚡
      - 🥉 AstraGin® 35mg
    - ~67kcal; Protein 0g; Carbohydrates ~2.5g; Fat 0g
 
@@ -794,7 +793,6 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥉 **E.18** [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924)
 
 ## 6. Looksmaxxing
-
 There are actual studies that confirm if you look younger and better you are more likely to participate in healthier activities which makes you look even better (positive feedback loop).
 
 ### Oral health / teethmaxxing
@@ -938,7 +936,6 @@ My kitchen is equipped only with materials that prioritize health and safety. I 
   *Complete set of durable, sanitary cooking implements*
 
 ## 8. Environment
-
 Even if you do everything right you can be exposed to harmful environment, so it is crucial to do everything to have a healthy environment.
 
 ### Clean water
@@ -1021,24 +1018,24 @@ Even if you do everything right you can be exposed to harmful environment, so it
 - Pneumococcal (PCV20 (Prevnar 20)) (1dose when 65+ years old)
 
 ## 10. Peptides
-- 🥉 [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily) \
+- 🥉 [BPC-157 10mg](https://pro-body.com/pl/produkt/bpc-157-10mg/) (250mcg daily)  
   10mg / 4ml  
   2.5mg / ml  
   250mcg-500mcg -> 10-20IU/day
-- 🥉 [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly) \
+- 🥉 [TB-500 10mg](https://pro-body.com/pl/produkt/tb-500-10-mg/) (2mg weekly)  
   10mg / 2ml  
   5mg / ml  
   2mg -> 40IU/week
-- 🥇 [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) ⚖️ 🍬 \
+- 🥇 [Tirzepatide 15mg](https://pro-body.com/pl/produkt/glp1gip-15mg/) (microdosing 1.5mg weekly) ⚖️ 🍬  
   - 🥇 (alternative) [Mounjaro 2.4ml](https://www.drmax.pl/mounjaro-kwikpen-roztw-do-wstrz-2-5-mg-0-6ml-1-wstrz-po-2-4-ml) (microdosing 2.5mg weekly) (if looking for heavier cutting) ⚖️ 🍬 ⚕️
   15mg / 1.5ml  
   10mg / ml  
   1.5mg -> 15IU/week
-- 🥉 [CJC-1295 with DAC 5mg](https://pro-body.com/pl/produkt/cjc-1295-with-dac-5mg/) \
+- 🥉 [CJC-1295 with DAC 5mg](https://pro-body.com/pl/produkt/cjc-1295-with-dac-5mg/)  
   5mg / 2.5ml  
   2mg / ml  
   0.5mg-1mg -> 25-50IU/week
-- 🥉 (optional) [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily) \
+- 🥉 (optional) [GHK-Cu 50mg](https://pro-body.com/pl/produkt/ghk-cu-50mg/) (~1month 1mg daily)  
   50mg / 2.5ml  
   20mg / ml  
   1-2mg -> 5-10IU/day
@@ -1131,6 +1128,8 @@ Medals combine **strength of benefits for this protocol × strength of evidence 
 - 👁️ Eye health
 - 😴 Sleep quality
 - 😌 Stress reduction
+- 💚 Psychological wellbeing
+- 🤝 Social connection/relationships
 - 🩸 Blood/lipid markers, Iron or clotting, as specified by the entry; not every marker at once
 - 🍬 Glucose/insulin regulation or measurement
 - 🫀 Circulation/blood flow
@@ -1387,7 +1386,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Apigenin / E.18:** no randomized sleep trial establishes 200mg isolated Apigenin. Retain only for a reproducible benefit without next-day impairment; do not escalate. [Evidence review](https://pubmed.ncbi.nlm.nih.gov/38476603/)
 - **Pycnogenol / B.1:** 100mg is current. The discussed 150–200mg range remains a possible later trial after tolerance is established, not the active dose. Keep genuine Pycnogenol® rather than assuming all Pine Bark Extracts are equivalent. [Endothelial trial](https://pubmed.ncbi.nlm.nih.gov/22240497/)
 - **Fenugreek / B.6:** 600mg Testofen® matches the branded trial dose. Taking both capsules together consolidates the label's divided schedule; it does not establish a Testosterone or physique benefit. [Trial](https://pubmed.ncbi.nlm.nih.gov/26791805/)
-- **Maca / B.5; Tribulus / B.7:** Maca's 4.5g fresh-root equivalent is not 4.5g trial material. The current Tribulus label specifies Fruit Extract and generic Saponins, but matching Furostanol/Protodioscin standardization and trial equivalence remain unverified. Keep alternatives in TODOs rather than infer dose equivalence or proven Testosterone benefits. [Maca label](https://www.nowfoods.com/products/supplements/maca-750-mg-raw-veg-capsules) [Tribestan® trial](https://pubmed.ncbi.nlm.nih.gov/28364864/) · [Current Tribulus label](https://shop.biotechusa.pl/products/tribulus-maximus-90-tabletek)
+- **Maca / B.5; Tribulus / B.7:** Maca's 4.5g fresh-root equivalent is not 4.5g trial material. Tribulus lacks plant-part/marker standardization. Keep alternatives in TODOs rather than infer dose equivalence or proven Testosterone benefits. [Maca label](https://www.nowfoods.com/products/supplements/maca-750-mg-raw-veg-capsules) [Tribestan® trial](https://pubmed.ncbi.nlm.nih.gov/28364864/)
 
 ### Follow-up
 
@@ -1445,7 +1444,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] 🥇 **[AlphaSport AlphaBuffer Sodium Bicarbonate](https://alphasport.eu/produkt/alphabuffer/):** 🥊 for selected sprints/glycolytic intervals. Target 0.2g/kg: at 79.1kg, 15.8g supplies ~4.3g Sodium; 13×1.2g capsules give the lower practical dose of 15.6g. Test on an unimportant non-Sauna session, with a longer lead-in than 30 minutes. GI risk is substantial; do not automatically escalate to 0.3g/kg. [Timing/tolerance guidance](https://jissn.biomedcentral.com/articles/10.1186/s12970-021-00458-w)
 - [ ] 🥈 **[CherryActive® Montmorency concentrate](https://strefaregeneracji.pl/produkt/cherry-active-473ml/):** 💪 reserve for demanding recovery blocks. Trial 30ml 2x/day for four days before an event, the event day and two days after. Daily 60ml adds ~216kcal, 52g Carbohydrate and 40g Sugars; avoid if GI tolerance is poor. Polish retailer; recovery evidence is [mixed](https://pubmed.ncbi.nlm.nih.gov/41945263/). [Nutrition label](https://active-edge.co.uk/collections/all-products/products/active-edge-cherryactive-concentrate-473ml)
 - [ ] 🥈 **[Heliocare Ultra-D ASPA-Fernblock® 480mg](https://www.caretobeauty.com/pl/heliocare-ultra-d-sun-capsules-x30/):** ☀️ consider 1capsule 1–2 hours before high-UV exposure, alongside SPF 50+, clothing and shade. Follow the purchased label/dermatologist; no automatic second capsule. Count its D3 5mcg, Lutein 2mg, Vitamin C 20mg, Vitamin E 3mg and Lycopene 1mg. [Label](https://www.cantabrialabs.com/products/heliocare-capsules-ultra-d/) · [UV-response trial](https://pubmed.ncbi.nlm.nih.gov/25741399/)
-- [ ] 🥈 **[Olimp HMB 1250 Mega Caps®](https://olimpstore.pl/olimp-hmb-1250-mega-caps-120-capsules-191):** 💪 an 8–12-week trial only during aggressive restriction, injury/immobilization, unusually damaging training or inadequate Protein. 3capsules/day provide 3g HMB from 3.75g Calcium-HMB; split across meals. Count ~0.5g Calcium and reconsider with hypercalcemia, stones or constipation. Little expected benefit on the current high-Protein plan; do not increase to 6g. [Trained-men trial](https://pubmed.ncbi.nlm.nih.gov/30859862/) · [Older-adult bed-rest trial](https://pubmed.ncbi.nlm.nih.gov/23514626/)
+- [ ] 🥈 **[Olimp HMB 1250 Mega Caps®](https://olimpstore.pl/olimp-hmb-1250-mega-caps-120-capsules-191):** 💪 an 8–12-week trial only during aggressive restriction, injury/immobilization, unusually damaging training or inadequate Protein. 3capsules/day provide 3g HMB from 3.75g Calcium-HMB; split across meals. Count ~0.5g Calcium and reconsider with hypercalcemia, stones or constipation. Little expected benefit on the current high-Protein plan; do not increase to 6g. [Trained-men trial](https://pubmed.ncbi.nlm.nih.gov/30859862/)
 
 ### Supplement trials & replacements
 
@@ -1455,7 +1454,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] 🥈 **[Pure Encapsulations SR-CoQ10 with PQQ](https://www.pureencapsulationspro.com/sr-coq10-with-pqq-60.html):** 🧠 2capsules with Morning Breakfast supply MicroActive® CoQ10 100mg + BioPQQ® 20mg, replacing M.6 and the standalone PQQ candidate. Convenience only: higher cost, unreliable Polish access and no proven combination advantage. Separate products remain preferred. [Current CoQ10 formulation evidence](https://pubmed.ncbi.nlm.nih.gov/30153575/)
 - [ ] 🥉 **[NOW Lyc-O-Mato® Lycopene 20mg in organic EVOO](https://pl.iherb.com/pr/now-foods-lycopene-20-mg-50-softgels/332):** 👨‍🦳 possible 1softgel replacement for L.9 with Lunch. Clearer ingredient/carrier identity; no proven outcome advantage. Keep supplemental Lycopene at 30mg/day. iHerb Poland listing. [Label](https://www.nowfoods.com/products/supplements/lycopene-20-mg-softgels?SKU=629)
 - [ ] 🥈 **[Sports Research Suntheanine® 200mg](https://pl.iherb.com/pr/sports-research-l-theanine-200-mg-60-softgels/71105):** 😴 😌 replace E.6 with 2softgels, preserving 400mg nightly, only if branded identity warrants the extra pill/space. iHerb Poland listing; provenance improves, [better sleep outcomes are unproven](https://pubmed.ncbi.nlm.nih.gov/40056718/).
-- [ ] 🥈 **[VemoHerb Bulgarian Tribulus / Tribuscin® 200mg](https://gymbeam.pl/bulgarian-tribulus-vemoherb.html):** 🍆 possible B.7 replacement for a defined libido/erectile-function trial. Each capsule provides 120mg standardized Furostanol Saponins as Protodioscin; label 3–6capsules/day adds pill burden. Polish listing; 3–6capsules provide 360–720mg Furostanol Saponins. Only the upper end approaches the trial’s ≥675mg/day; equivalence and clinical superiority remain unproven. [Tribestan®](https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-02913-16-001.pdf) is the trial comparator: 6×250mg tablets/day, ≥112.5mg Saponins/tablet, with [no Testosterone increase](https://pubmed.ncbi.nlm.nih.gov/28364864/). [VemoHerb label](https://vemoherb.com/product/vemoherb-bulgarian-tribulus/)
+- [ ] 🥈 **[VemoHerb Bulgarian Tribulus / Tribuscin® 200mg](https://gymbeam.pl/bulgarian-tribulus-vemoherb.html):** 🍆 possible B.7 replacement for a defined libido/erectile-function trial. Each capsule provides 120mg standardized Furostanol Saponins as Protodioscin; label 3–6capsules/day adds pill burden. Polish listing; standardization improves, clinical superiority is unproven. [Tribestan®](https://www.alims.gov.rs/doc_file/lekovi/smpc/515-01-02913-16-001.pdf) is the trial comparator: 6×250mg tablets/day, ≥112.5mg Saponins/tablet, with [no Testosterone increase](https://pubmed.ncbi.nlm.nih.gov/28364864/). [VemoHerb label](https://vemoherb.com/product/vemoherb-bulgarian-tribulus/)
 
 ### Lower-priority candidates
 
@@ -1467,18 +1466,14 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] 🥉 **[PABA 100–300mg/day](https://allegro.pl/oferta/now-foods-paba-500mg-witamina-b10-wlosy-skora-100k-11690065696):** 💇‍♂️ possible monitored 8–12-week gray-hair trial after thyroid/B12/Folate/Copper causes are addressed and liver tests are normal. Weak repigmentation evidence and reported liver injury; the linked 500mg capsule does not fit this dose. Source a verified lower dose first. [Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC11444426/) · [Liver injury report](https://pubmed.ncbi.nlm.nih.gov/1748050/)
 
 ### Research & access watchlist
-- [ ] 🥈 **PP405** 💇‍♂️ — early hair-density signal; [phase 2/3 AWAKEN began in October 2026](https://pelagepharma.com/press-releases/pp405-awaken-trial-first-patient-dosed/). Await complete controlled results.
-- [ ] 🥈 **Pyrilutamide (KX-826)** 💇‍♂️ — promising hair-density evidence; [2026 phase III results](https://en.kintor.com.cn/news_details/22.html) are sponsor-reported for specific 0.5%/1% twice-daily formulations. Review full publication and product identity.
-- [ ] 🥇 **[Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/)** ⚖️ — body composition; investigational. [Obesity trials](https://www.lilly.com/news/stories/what-to-know-about-retatrutide) do not validate this seller's vial or a lean-person regimen.
+- [ ] 🥈 **PP405** 💇‍♂️ — hair density.
+- [ ] 🥈 **Pyrilutamide (KX-826)** 💇‍♂️ — hair density.
+- [ ] 🥇 **[Retatrutide 5mg](https://pro-peptydy.pl/produkt/retatrutyd-5mg/)** ⚖️ — body composition; investigational.
 - [ ] 🥉 **Tesamorelin** ⚖️ ⚕️ — abdominal fat; proposed use is outside its approved indication.
-- [ ] 🥈 **Tongkat Ali** 🍆 — libido/sexual-function candidate; support concerns [defined extracts](https://pubmed.ncbi.nlm.nih.gov/23243445/), with product/dose and [safety still to resolve](https://doi.org/10.2903/j.efsa.2021.6937).
+- [ ] 🥈 **Tongkat Ali** 🍆 — libido/sexual-function candidate.
 - [ ] 🥉 **Alpha-Yohimbine** ⚖️ — fat-loss candidate.
 - [ ] 🥉 **ZMA / DHEA / DAA** 🍆 — unresolved hormonal/supplement candidates.
-- **Myostatin / Activin-A inhibitors — research watchlist:**
-  - [ ] 🥈 **Apitegromab** 💪 — lean-mass preservation with Tirzepatide in overweight/obesity; [EMBRAZE phase 2](https://pubmed.ncbi.nlm.nih.gov/42260100/).
-  - [ ] 🥇 **Bimagrumab** 💪 ⚖️ — body-composition changes in obesity; [BELIEVE phase 2](https://pubmed.ncbi.nlm.nih.gov/41772149/).
-  - [ ] 🥈 **Trevogrumab** 💪 — lean-mass preservation with Semaglutide in obesity; [COURAGE phase 2](https://pubmed.ncbi.nlm.nih.gov/43014326/).
-  - [ ] 🥉 **Garetosmab** 💪 ⚖️ — combination-only obesity evidence; standalone benefit is unresolved and the COURAGE combination had unfavorable tolerability. None establishes routine use for a lean, resistance-trained person.
+- [ ] **Myostatin / Activin-A inhibitors:** 🥈 💪 Apitegromab, 🥇 💪 ⚖️ Bimagrumab, 🥈 💪 Trevogrumab, 🥉 💪 ⚖️ Garetosmab.
 - [ ] 🥈 **[Timeline Mitopure® Urolithin A 500mg](https://www.timeline.com/products/mitopure-softgels-vegan):** 💪 2softgels would replace A.2. Stronger clinical/quality provenance; no proven superiority to pure, correctly dosed Naturecan. No ordinary Polish channel or direct Poland shipping verified; check access and slot fit. [Shipping](https://www.timeline.com/shipping-policy) · [Human trial](https://pubmed.ncbi.nlm.nih.gov/35584623/)
 - [ ] 🥉 **Cordyceps militaris:** 🥊 await an EU-compliant, tested 1g extract providing ≥150mg Beta-Glucans and 2.5mg Cordycepin. The [Poland-facing Cordycep-M® listing](https://pl.iherb.com/pr/real-mushrooms-cordycep-m-mushroom-extract-powder-120-capsules/112243) does not match these markers. Only after GI stabilization; the small [performance study](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351725) needs replication, and [Novel Food status](https://food.ec.europa.eu/document/download/8df50c8a-4d51-4107-a594-4f37bb08feae_en?filename=ff_ffn_monthly-report_202601.pdf) blocks routine selection.
 - [ ] 🥉 **Lion's Mane replacement for M.11-12:** 🧠 [Oriveda L+](https://au.oriveda.com/product/lions-mane/) uses 6capsules: 900mg Mycelium (~4.478mg Erinacine A) + 900mg Fruiting Body (~325mg Beta-Glucans), from the tested lot. [Real Mycelium™](https://realmushrooms.com/products/real-mycelium) uses 2capsules for 5mg Erinacine A but loses the Fruiting-Body coverage. Better marker verification, unproven clinical advantage; import and [EU Novel Food](https://food.ec.europa.eu/document/download/b075e41c-cccb-46ae-81c2-3a86fb3c390f_en?filename=novel-food_consult-status_hericium-erinaceus_aesan.pdf) constraints remain. If access is resolved, assess cognition/tolerance over 12–16 weeks.

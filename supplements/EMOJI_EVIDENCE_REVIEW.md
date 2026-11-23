@@ -8,7 +8,7 @@ This review records the reasoning and sources for active interventions, separate
 
 The [README Legend](../README.md#legend) is the single reference for medal, target-icon and status-symbol meanings. The tables below record the relevant protocol benefit, study findings and remaining uncertainty. Evidence appraisal considers study design, replication, effect size, endpoints, population and dose/form/route match. Biomarkers, clinical outcomes, trial registrations and early human findings retain their distinct evidential limits.
 
-**Review scope:** Promote, Sleep and Daily Tracking retain main’s wording and annotations for manual editing and are not regraded here. Looksmaxxing’s medal additions are reverted; its other icon corrections and the ungraded care evidence below are retained. Products, doses, medicine schedules, food portions, checked selections, timing and compartment allocation are preserved. Main’s current sweet-potato preparation/nutrition, PHGG and Boswellia entries remain included.
+**Review scope:** Outside the single Legend, README changes are limited to medals and target icons. Prior requested medal reverts are retained; the social-connection entry receives the requested wellbeing/relationship icons. The research details below support the annotations without changing protocol wording, links, quantities or structure.
 
 ## Morning evidence review
 
