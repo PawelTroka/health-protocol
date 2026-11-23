@@ -153,7 +153,7 @@ PAGES = [
         "accent": "morning",
         "callout": "Breakfast pill organizer • Row-major placement: left to right, top to bottom.",
         "cells": [
-            item("M.1", "Bifidobacterium longum 35624®", "1 bln CFU", icons="🦠 🚽"),
+            item("M.1", "Bifidobacterium longum 35624®", "1 bln CFU", icons="🦠 🚽 🛡️"),
             item(
                 "M.2",
                 "Bifidobacterium bifidum HI-MIMBb75 (Kijimea IBS PRO)",

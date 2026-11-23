@@ -84,7 +84,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 🥉 **Frequency: Every 6 months**
 
 #### Blood
-- 🥇 **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: Morphology, Myoglobin, Glucose, Serum Sodium, Potassium, Serum Albumin, Serum Creatinine, Serum Uric Acid, ALT, AST, Creatine Kinase (CK), Total Cholesterol, HDL Cholesterol, Triglycerides, LDL Cholesterol (calculated), Serum Magnesium, Inorganic Phosphorus, Total Calcium, Glycated Hemoglobin (HbA1c), Serum Iron, Ferritin, Transferrin, Serum Zinc, Vitamin B12, Folic Acid, Insulin, TSH (3rd gen), Free T3 (FT3), Free T4 (FT4), Cortisol, Testosterone, DHEA-S, SHBG, NT-proBNP, IL-6, IGF-1, D-dimer, Selenium, Insulin Resistance Index, Vitamin B1 (Thiamine), CRP-hs, Vitamin B6, Vitamin D-25(OH), Homocysteine (HPLC), Circulating Calprotectin 🍎 ❤️ 🟤 🫘 🦋 🍆
+- 🥇 **[HIGH-PERFORMER](https://alabsport.pl/pakiety/wyczynowiec)**: Morphology, Myoglobin, Glucose, Serum Sodium, Potassium, Serum Albumin, Serum Creatinine, Serum Uric Acid, ALT, AST, Creatine Kinase (CK), Total Cholesterol, HDL Cholesterol, Triglycerides, LDL Cholesterol (calculated), Serum Magnesium, Inorganic Phosphorus, Total Calcium, Glycated Hemoglobin (HbA1c), Serum Iron, Ferritin, Transferrin, Serum Zinc, Vitamin B12, Folic Acid, Insulin, TSH (3rd gen), Free T3 (FT3), Free T4 (FT4), Cortisol, Testosterone, DHEA-S, SHBG, NT-proBNP, IL-6, IGF-1, D-dimer, Selenium, Insulin Resistance Index, Vitamin B1 (Thiamine), CRP-hs, Vitamin B6, Vitamin D-25(OH), Homocysteine (HPLC), Circulating Calprotectin 🍎 ❤️ 🟤 🫘 🦋 🍆 🍬 🔥
 - 🥇 **[Apolipoprotein B (Apo B)](https://www.alab.pl/badanie/apolipoproteina-b-apo-b-i67)**: Apolipoprotein B ❤️ 🩸
 - 🥈 **[Lipoprotein a](https://www.alab.pl/badanie/lipoproteina-a-lpa-m69)**: Lipoprotein (a) ❤️ 🩸
 - 🥇 **[Cystatin C](https://www.alab.pl/badanie/cystatyna-c-k16)**: Cystatin C 🫘
@@ -310,7 +310,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: High Growth Hormone, visceral fat melting, and social play on 100% fresh legs.*
 
 **HIIT:**
-- 🥇 **Sprints**: 200m-300m for 20mins *(2-3 series, with 2-3mins walking rest between sprints)* 🥊 ❤️ ⏰
+- 🥇 **Sprints**: 200m-300m for 20mins *(2-3 series, with 2-3mins walking rest between sprints)* 🥊 ❤️ 🫁 ⏰
 - OR
 - 🥇 **Incline Hill Sprints**: 4-6 rounds of 8-10s *(Max effort uphill with 1.5-2mins rest)* 🥊 ⏰
 
@@ -339,13 +339,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🥤 Morning (10am; liquid only — Protein, Whole Grains & Seeds)
 *474kcal · P46.7g · C22.9g · F18.4g · Fiber14.5g*
-- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 26g — 1scoop (40ml)) 🍎 💪 🥊 🦴 👨‍🦳 🚽
+- 💊 [Morning supplements](#morning) (WPI 30g + MicroVitamin+ 26g — 1scoop (40ml)) 🍎 💪 🥊 🦴 👨‍🦳 🚽 🦠
   - `166kcal · P40.5g · C0.4g · F0.3g`
 - 🥇 25g dry [organic Rolled Oats](https://bioshi.pl/pl/products/platki-owsiane-bezglutenowe-bio-1-kg-46956) (blended) 🌾 🚽 🔄
   - `93kcal · P3.3g · C15g · F1.7g · Fiber2.4g · Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
 - 🥇 10g dry [High-Fiber Oat Bran](https://www.frisco.pl/pid,13582/n,sante-otreby-owsiane-wysokoblonnikowe/stn,product) (blended) 🌾 🚽
   - `37kcal · P1.6g · C5.2g · F0.7g · Fiber1.8g · ≥0.6g Beta-Glucans · Avenanthramides · Ferulic Acid · Magnesium · Vitamin B1`
-- 🥇 10g Psyllium Husk (7.5g standalone + 2.5g in MicroVitamin+) 🚽 🩸
+- 🥇 10g Psyllium Husk (7.5g standalone + 2.5g in MicroVitamin+) 🚽 🦠 🩸
   - `20kcal · C1g · Fiber8g · Gel-Forming Arabinoxylan (Soluble Fiber)`
 - 🌱 **Seeds — CHOOSE ONE**
   - [x] 🥈 7g freshly ground [organic Flaxseed](https://bioshi.pl/pl/products/siemie-lniane-brazowe-bio-nasiona-lnu-250-g-heybio-101259) 🌱 🚽 🪶 🔄
@@ -361,7 +361,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `Eugenol · Ellagitannins`
   - [ ] 🥉 30mg [Eurofins-tested ISO 3632 Category I Saffron Threads](https://saffrona.eu/produkt/safran-0-5g-kaufen/) *(occasional culinary rotation; steep before blending)* 🪶 🟡
     - `Crocins · Safranal · Picrocrocin · Kaempferol Glycosides`
-- 🥇 🫒 13.5g (1tbsp) [Pamako ultra-premium EVOO](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️ 🪶
+- 🥇 🫒 13.5g (1tbsp) [Pamako ultra-premium EVOO](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️ 🧠 🔥 🪶
   - `122kcal · F13.5g · 2,081mg/kg Polyphenols · Oleocanthal · Oleacein · MUFAs · Vitamin E · Squalene · Phytosterols`
 - 🥇 500–1,000ml Filtered Water 💧 🪶
 
@@ -433,7 +433,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `61kcal · P0.8g · C12g · F0.8g · Fiber3g · Anthocyanins · Vitamin E · Proanthocyanidins · Chlorogenic Acids · Flavonols`
   - [ ] 🥇 100g frozen [Polish Blackcurrants](https://zakupy.auchan.pl/products/czarna-porzeczka-auchan-350-g/00561302) 🍎 🍋 🟡
     - `56kcal · P1.4g · C7.6g · F1g · Fiber5g · Anthocyanins · Vitamin C · Proanthocyanidins · Flavonols`
-  - [ ] 🥇 150g fresh [organic Strawberries](https://bioshi.pl/pl/products/truskawka-swieza-bio-polska-opakowanie-ok-0-45-kg-77418) 🍎 🍋 🔄
+  - [ ] 🥇 150g fresh [organic Strawberries](https://bioshi.pl/pl/products/truskawka-swieza-bio-polska-opakowanie-ok-0-45-kg-77418) 🍎 🍋 ❤️ 🧠 🔄
     - `48kcal · P1.1g · C8.6g · F0.5g · Fiber3g · Vitamin C · Anthocyanins · Ellagitannins · Proanthocyanidins`
   - [ ] 🥇 100g fresh [organic Raspberries](https://bioshi.pl/pl/products/maliny-swieze-bio-polska-okolo-0-125-kg-bio-planet-88768) 🍎 🚽 🔄 🟡
     - `52kcal · P1.2g · C5.5g · F0.7g · Fiber6.5g · Ellagitannins · Anthocyanins · Vitamin C · Proanthocyanidins`
@@ -452,7 +452,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `Cuminaldehyde`
   - [ ] 🥉 1g [organic Sweet Paprika](https://marketbio.pl/papryka-slodka-bio-50-g-lebensbaum.html) 🪶 🟡
     - `Capsanthin · Capsorubin · Beta-Carotene · Zeaxanthin`
-- 🥇 🫒 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing ❤️ 🪶 🔄
+- 🥇 🫒 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing ❤️ 🧠 🔥 🪶 🔄
   - `122kcal · F13.5g · 917mg/kg Polyphenols · Oleocanthal · Oleacein · MUFAs · Vitamin E · Squalene · Phytosterols`
 - 💊 [Lunch supplements](#lunch)
 
@@ -539,11 +539,11 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - [ ] 🥇 100g frozen [Polish Tart Cherries](https://zakupy.auchan.pl/products/wi%C5%9Bnie-bez-pestek-auchan-400-g/00179831) 🍎 🟡
     - `49kcal · P0.9g · C9.9g · F0.5g · Fiber1g · Anthocyanins · Chlorogenic Acids · Flavonols`
 - 🌰 **Nuts — CHOOSE ONE**
-  - [x] 🥇 20g [organic Walnuts](https://bioshi.pl/pl/products/orzechy-wloskie-bio-300-g-bio-planet-44492) 🌱 ❤️ 🪶 🔄
+  - [x] 🥇 20g [organic Walnuts](https://bioshi.pl/pl/products/orzechy-wloskie-bio-300-g-bio-planet-44492) 🌱 ❤️ 🍆 🪶 🔄
     - `140kcal · P3g · C2.8g · F12.8g · Fiber1.2g · ALA Omega-3 · Ellagitannins · Proanthocyanidins · Vitamin B6 · Phytosterols`
-  - [ ] 🥇 20g [organic raw unsalted Pistachios](https://bioshi.pl/pl/products/pistacje-luskane-bio-150-g-bio-planet-53019) 🌱 ❤️ 🔄
+  - [ ] 🥇 20g [organic raw unsalted Pistachios](https://bioshi.pl/pl/products/pistacje-luskane-bio-150-g-bio-planet-53019) 🌱 ❤️ 👁️ 🔄
     - `118kcal · P4.8g · C2.2g · F9.6g · Fiber1.9g · Lutein · Vitamin B6 · Unsaturated Fat · Proanthocyanidins · Phytosterols`
-  - [ ] 🥇 20g [organic Almonds](https://bioshi.pl/pl/products/migdaly-bio-350-g-bio-planet-45420) 🌱 ❤️ 🔄
+  - [ ] 🥇 20g [organic Almonds](https://bioshi.pl/pl/products/migdaly-bio-350-g-bio-planet-45420) 🌱 ❤️ 👨‍🦳 🔄
     - `121kcal · P4.4g · C0.8g · F10.6g · Fiber2.6g · Vitamin E · Magnesium · Vitamin B2 · Proanthocyanidins · Phytosterols`
   - [ ] 🥇 20g [organic Macadamias](https://bioshi.pl/pl/products/orzechy-macadamia-bio-200-g-bio-planet-44472) 🌱 ❤️ 🪶 🔄
     - `161kcal · P1.6g · C2.8g · F15.6g · Fiber1.7g · MUFAs (Oleic/Palmitoleic Acids) · Vitamin B1 · Phytosterols`
@@ -579,7 +579,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - [ ] 🥉 1g freshly ground [organic Black Cumin Seed](https://bioshi.pl/pl/products/czarnuszka-bio-50-g-dary-natury-46298) (*Nigella sativa*) 🔄
     - `Thymoquinone · Saponins (Alpha-Hederin)`
 - 🥑 **Optional Additional Healthy Fats — CHOOSE ONE**
-  - [ ] 🥈 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing ❤️ 🪶 🔄
+  - [ ] 🥈 13.5g (1tbsp) [organic Early-Harvest EVOO](https://bioshi.pl/pl/products/oliwa-z-oliwek-extra-virgin-wczesne-zbiory-bio-500-ml-phileos-93432), for cooking/finishing ❤️ 🧠 🔥 🪶 🔄
     - `122kcal · F13.5g · 917mg/kg Polyphenols · Oleocanthal · Oleacein · MUFAs · Vitamin E · Squalene · Phytosterols`
   - [ ] 🥈 30g [organic Avocado](https://bioshi.pl/pl/products/awokado-bio-1-szt-51623) (edible flesh) 🌱 🪶 🔄
     - `48kcal · P0.6g · C0.5g · F4.4g · Fiber2g · Potassium · MUFAs · Lutein · Phytosterols`
@@ -626,15 +626,15 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 
 ### Morning
 🥤 drink:
-- 🥇 **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️
-- 🥇 **M.0.2** [Psyllium Husk 7.5g — 1tbsp (15ml)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🩸
+- 🥇 **M.0.1** [Pamako ultra-premium EVOO (2,081mg/kg Polyphenols) 13.5g (1tbsp)](https://allegro.pl/oferta/pamako-oliwa-wczesnego-zbioru-extra-virgin-ultra-premium-phenolic-500ml-bio-18176818540) ❤️ 🧠 🔥
+- 🥇 **M.0.2** [Psyllium Husk 7.5g — 1tbsp (15ml)](https://gymbeam.pl/psyllium-husks-gymbeam.html) 🚽 🦠 🩸
 - 🥇 **M.0.4** [Grass-fed Whey Protein Isolate (WPI) Unflavored 30g — 1scoop (70ml)](https://www.hsnstore.pl/marki/raw-series/100-whey-protein-isolate-2-kg-bez-smaku) 💪
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
-- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (40ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🥊 🦴 👨‍🦳 🚽 🔄
+- 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (40ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🥊 🦴 👨‍🦳 🚽 🦠 🔄
    - **Structural / performance / digestive blend**
      - 🥈 Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴
      - 🥇 Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🧠 🥊
-     - 🥇 Psyllium Husk (Soluble Fiber) 2.5g<sup>M.0.2</sup> 🚽 🩸
+     - 🥇 Psyllium Husk (Soluble Fiber) 2.5g<sup>M.0.2</sup> 🚽 🦠 🩸
      - 🥈 Taurine 1g<sup>B.3-4</sup> 🥊 ❤️ ⏰
    - **Cognition / methylation**
      - 🥈 Betaine (TMG) 500mg <sup>M.0.3.2.1</sup> 🩸
@@ -670,7 +670,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - 🥈 Iodine 75mcg 🍎 🦋
 
 💊 pills:
-- 🥈 **M.1** [Bifidobacterium longum 35624® 1bln CFU](https://mollo.pl/symbiosys-alflorex-30-kapsulek-2993-p) 🦠 🚽
+- 🥈 **M.1** [Bifidobacterium longum 35624® 1bln CFU](https://mollo.pl/symbiosys-alflorex-30-kapsulek-2993-p) 🦠 🚽 🛡️
 - 🥇 **M.2-3** 2x [Bifidobacterium bifidum HI-MIMBb75 (Kijimea IBS PRO) 500mln](https://kijimea.pl/products/kijimea-ibs-pro) 🚽 🦠
 - 🥈 **M.4** [Limosilactobacillus reuteri Gastrus® 200mln CFU](https://allegro.pl/oferta/biogaia-gastrus-ibs-60-kapsulek-17595352392) 🚽 🦠
   - Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475
