@@ -113,7 +113,7 @@ TIER_BY_CODE = {
     "B.7": "🥉",
     "B.8": "🥈",
     "B.9": "🥈",
-    "A.1": "🥇",
+    "A.1": "🥈",
     "A.2": "🥈",
     "A.3": "🥈",
     "A.4": "🥈",
@@ -190,7 +190,7 @@ PAGES = [
             ),
             item("M.7", "Acetyl-L-Carnitine", "750 mg", icons="🧠 🔄"),
             item("M.8", "Acetyl-L-Carnitine", "750 mg", icons="🧠 🔄"),
-            item("M.9", "Astaxanthin (AstaReal®)", "12 mg", icons="👨‍🦳 🥊", note="Double Wood • oil softgel"),
+            item("M.9", "Astaxanthin (AstaReal®)", "12 mg", icons="👨‍🦳 🥊 👁️", note="Double Wood • oil softgel"),
         ],
     },
     {
@@ -232,10 +232,10 @@ PAGES = [
                 "M.17",
                 "Nicotinamide Riboside",
                 "300 mg",
-                icons="",
+                icons="⏰",
                 same_slot_count=3,
             ),
-            item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons=""),
+            item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons="⏰"),
         ],
     },
     {
@@ -284,7 +284,7 @@ PAGES = [
                 icons="🩸 🔄",
             ),
             item("L.13", "Broccoli Seed Extract", "200 mg", icons="", note="Glucoraphanin 20 mg • Myrosinase"),
-            item("L.14", "Berberine HCl", "490 mg", icons="🩸 🚽"),
+            item("L.14", "Berberine HCl", "490 mg", icons="🩸 🍬 🚽"),
             item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🩸 🔄", note="SAC 2.5 mg • standardized to 0.5%"),
             item("L.16", "Phosphatidylserine", "300 mg", icons="🧠 😌"),
             item("L.17", "Milk Thistle", "380 mg", icons="🟤 🔄"),
@@ -329,7 +329,7 @@ PAGES = [
         "callout": "Glycine continues from Evening Box 1.",
         "cells": [
             item("E.10", "Glycine", "1g", icons="😴"),
-            item("E.11", "Berberine HCl", "490 mg", icons="🩸 🚽"),
+            item("E.11", "Berberine HCl", "490 mg", icons="🩸 🍬 🚽"),
             item("E.12", "Magnesium (Glycinate)", "133.3 mg", icons="🍎 🦴"),
             item("E.13", "Milk Thistle", "380 mg", icons="🟤 🔄"),
             item(
@@ -337,13 +337,13 @@ PAGES = [
                 "Silexan (Lavender Oil)",
                 "80mg",
                 qty="1softgel",
-                icons="😌 😴",
+                icons="😌 😴 💚",
                 note="Review combination before starting • Swallow whole with food and water",
             ),
             item("E.15", "GABA", "250 mg", icons="😴 🔄", note="Magnesium citrate 20 mg"),
             item("E.16", "Inositol", "1g", icons=""),
             item("E.17", "Inositol", "1g", icons=""),
-            item("E.18", "Apigenin", "200 mg", icons=""),
+            item("E.18", "Apigenin", "200 mg", icons="😴"),
         ],
     },
     {
@@ -372,8 +372,8 @@ PAGES = [
                 same_slot_count=2,
             ),
             item("B.7", "Tribulus Terrestris", "1.5g", icons="🍆"),
-            item("B.8", "Calcium Alpha-Ketoglutarate (CaAKG)", "500mg", icons="", note="Calcium 200mg • D3 1,000IU • K2 MK-7 50mcg", same_slot_count=2),
-            item("B.9", "Calcium Alpha-Ketoglutarate (CaAKG)", "500mg", icons="", note="Calcium 200mg • D3 1,000IU • K2 MK-7 50mcg", same_slot_count=2),
+            item("B.8", "Calcium Alpha-Ketoglutarate (CaAKG)", "500mg", icons="🍎 🦴 ⏰", note="Calcium 200mg • D3 1,000IU • K2 MK-7 50mcg", same_slot_count=2),
+            item("B.9", "Calcium Alpha-Ketoglutarate (CaAKG)", "500mg", icons="🍎 🦴 ⏰", note="Calcium 200mg • D3 1,000IU • K2 MK-7 50mcg", same_slot_count=2),
         ],
     },
     {
@@ -689,7 +689,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 22 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 23 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
