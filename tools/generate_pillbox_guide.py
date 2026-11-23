@@ -221,7 +221,7 @@ PAGES = [
                 "1g",
                 icons="🩸 🔄",
             ),
-            item("M.15", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 ⏰ 🔄", note="ErgoActive® • Vitamin C 5 mg"),
+            item("M.15", "L-Ergothioneine", "25 mg", icons="🧠 👨‍🦳 😴 ⏰ 🔄", note="ErgoActive® • Vitamin C 5 mg"),
             item(
                 "M.16",
                 "Vitamin K1 + K2 MK-4 + K2 MK-7",
@@ -352,7 +352,7 @@ PAGES = [
         "accent": "before",
         "callout": "Take with the normal pre-workout drink. Powders use B.0 codes and are not pillbox compartments.",
         "cells": [
-            item("B.1", "Pycnogenol", "100 mg", icons="🫀 🦴 👨‍🦳", note="French maritime pine • OPC 65 mg"),
+            item("B.1", "Pycnogenol", "100 mg", icons="🫀 🦴 👨‍🦳 🍆", note="French maritime pine • OPC 65 mg"),
             item(
                 "B.2",
                 "Rhodiola rosea Root Extract",
