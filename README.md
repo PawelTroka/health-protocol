@@ -91,7 +91,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🥉 **[Free testosterone](https://www.alab.pl/badanie/testosteron-wolny-o41)**: Free Testosterone 🍆
 - 🥉 **[Dihydrotestosterone (DHT)](https://www.alab.pl/badanie/dihydrotestosteron-dht-k55)**: Dihydrotestosterone (DHT) 💇‍♂️ 🍅 🍆
 - 🥉 **[Cancer markers](https://www.alab.pl/pakiet/pakiet-markery-nowotworowe-mezczyzna)**: Alpha-fetoprotein (AFP), CA 19-9, Carcinoembryonic antigen (CEA), Total PSA, S-100 (Melanoma marker) 🎗️ 🍅
-- 🥉 **[Free PSA](https://www.alab.pl/badanie/psa-wolny-i63)**: Free PSA 🍅
+- 🥉 **[Free PSA](https://www.alab.pl/badanie/psa-wolny-i63)**: Free PSA 🍅 🎗️
 - 🥉 **[Inflammatory Cytokines](https://www.alab.pl/badanie/profil-cytokin-stanu-zapalnego-il-1beta-il-6-il-8-il-10-il-12-tnf-alfa-2)**: Inflammatory Cytokine Profile (IL-1beta, IL-6, IL-8, IL-10, IL-12, TNF-alpha) 🔥 🛡️
 - 🥈 **[Fibrinogen](https://www.alab.pl/badanie/fibrynogen-g53)**: Fibrinogen 🩸 🔥
 - 🥉 **[Anti-TPO](https://www.alab.pl/badanie/pc-przeciw-peroksydazie-tarczycowej-atpo-o09)**: Anti-TPO (Thyroid Peroxidase Antibodies) 🦋 🛡️
@@ -459,7 +459,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### 🍵 Afternoon drink (3pm; at least 2 hours after Lunch and 8 hours before sleep — Matcha & Protein)
 *71kcal · P7.2g · C<0.1g · F3.7g · Fiber2g*
 - **Matcha Latte**
-  - 🥈 2g [organic Matcha](https://moyamatcha.com/products/moya-matcha-codzienna-organiczna-japonska-herbata) ⚡ 🟡
+  - 🥈 2g [organic Matcha](https://moyamatcha.com/products/moya-matcha-codzienna-organiczna-japonska-herbata) 🧠 ⚡ 🟡
     - `5kcal · P0.6g · C<0.1g · F0.1g · Fiber0.8g · Tea Catechins (including EGCG) · L-Theanine · Caffeine · Rutin · Phenolic Acids`
   - 🥛 **Milk — CHOOSE ONE**
     - [x] 🥇 200ml [fortified unsweetened Soy Milk](https://www.frisco.pl/pid,2530/n,alpro-napoj-sojowy-bez-cukru/stn,product) 💪 🦴 🌱
@@ -486,11 +486,11 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *934kcal · P52.9g · C67.6g · F47.6g · Fiber13g*
 *Weigh Salmon, Eggs (without shells), Tomatoes, Okra, Asparagus and peeled Celeriac raw; starch after preparation; remaining cooked Vegetables after preparation; Fruit, Nuts, Seeds and Fermented foods as eaten.*
 - 🐟 **Fatty Protein — CHOOSE ONE**
-  - [x] 🥇 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 💪 🍎 🪶
+  - [x] 🥇 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 💪 ❤️ 🍎 🪶
     - `335kcal · P29.9g · C0g · F23.9g · EPA/DHA · Vitamin D3 · Vitamin B12 · Selenium · Astaxanthin · Anserine · Creatine · Taurine`
-  - [ ] 🥇 170g (2x85g) drained wild-caught [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 💪 🍎 🪶
+  - [ ] 🥇 170g (2x85g) drained wild-caught [sardines](https://allegro.pl/oferta/delicius-filety-z-sardynek-w-oliwie-z-oliwek-120g-17592054849) 💪 ❤️ 🍎 🪶
     - `432kcal · P38.3g · C0g · F30.1g · EPA/DHA · Vitamin B12 · Taurine`
-  - [ ] 🥇 125g [Atlantic Mackerel fillets](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 💪 🍎 🪶
+  - [ ] 🥇 125g [Atlantic Mackerel fillets](https://vilgain.pl/vilgain-filety-z-makreli-w-bio-oliwie-z-oliwek-extra-virgin/190-g-41430) 💪 ❤️ 🍎 🪶
     - `346kcal · P27.5g · C0g · F26.3g · EPA/DHA · Vitamin B12 · Vitamin D3 · Selenium · Taurine`
   - [ ] 🥇 200g [organic Tempeh](https://bioshi.pl/pl/products/tempeh-naturalny-bio-200-g-merapi-67128) 💪 🌱 🔄
     - `364kcal · P38g · C7g · F16g · Isoflavones · Magnesium · Calcium · Spermidine · Soyasaponins`
@@ -506,13 +506,13 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
   - [x] 🥇 100g steamed peeled [Okinawan Purple Sweet Potatoes (Beni-imo)](https://allegro.pl/oferta/bataty-fioletowe-purple-ziemniaki-slodkie-batat-1-kg-18918006871) 🌾
     - `122kcal · P1.2g · C27.2g · F0.3g · Fiber3g · Anthocyanins · Chlorogenic Acids · Potassium`
 - 🥬 **Steamed Leafy Greens — CHOOSE ONE**
-  - [ ] 🥇 100g [Kale](https://zakupy.auchan.pl/products/jarmu%C5%BC-ci%C4%99ty-warzywa-auchan-300-g/00253887) 🍎 🦴
+  - [ ] 🥇 100g [Kale](https://zakupy.auchan.pl/products/jarmu%C5%BC-ci%C4%99ty-warzywa-auchan-300-g/00253887) 🍎 🦴 👁️
     - `36kcal · P3g · C1.4g · F1.2g · Fiber4g · Lutein · Vitamin K1 · Calcium · Glucosinolates · Flavonol Glycosides`
-  - [x] 🥇 100g [Bok Choy](https://zakupy.auchan.pl/products/sa%C5%82ata-pak-choi-warzywa-auchan-sztuka/00248845) 🍎 🦴
+  - [x] 🥇 100g [Bok Choy](https://zakupy.auchan.pl/products/sa%C5%82ata-pak-choi-warzywa-auchan-sztuka/00248845) 🍎 🦴 👁️
     - `12kcal · P1.6g · C0.8g · F0.1g · Fiber1.1g · Calcium · Glucosinolates · Vitamin K1 · Folate · Flavonol Glycosides`
-  - [ ] 🥇 100g [organic Spinach](https://bioshi.pl/pl/products/szpinak-baby-swiezy-niemyty-bio-okolo-0-10-kg-45129) 🍎 🔄
+  - [ ] 🥇 100g [organic Spinach](https://bioshi.pl/pl/products/szpinak-baby-swiezy-niemyty-bio-okolo-0-10-kg-45129) 🍎 👁️ 🔄
     - `23kcal · P2.9g · C1.3g · F0.3g · Fiber2.4g · Folate · Lutein · Magnesium · Vitamin K1 · Nitrates · Betaine · Spinacetin/Patuletin Glycosides`
-  - [ ] 🥇 100g [organic Swiss Chard](https://ekoj.pl/produkt/563/burak-lisciowy-bio-peczek-gospodarstwo-kwiatkowscy.html) *(Mangold / Bietola leaves and edible stalks)* 🍎
+  - [ ] 🥇 100g [organic Swiss Chard](https://ekoj.pl/produkt/563/burak-lisciowy-bio-peczek-gospodarstwo-kwiatkowscy.html) *(Mangold / Bietola leaves and edible stalks)* 🍎 👁️
     - `20kcal · P1.9g · C2g · F0.1g · Fiber2.1g · Vitamin K1 · Lutein · Magnesium`
 - 🍅 **Mediterranean Vegetables — CHOOSE ONE**
   - [x] 🥇 100g raw [fresh organic Tomatoes](https://www.frisco.pl/pid,81911/n,frisco-organic-pomidory-okragle-bio-4-6szt.-(400g-600g)/stn,product) 🍎
@@ -633,9 +633,9 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (40ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 🍎 💪 🥊 🦴 👨‍🦳 🚽 🔄
    - **Structural / performance / digestive blend**
      - 🥈 Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴
-     - 🥇 Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🥊
+     - 🥇 Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🧠 🥊
      - 🥇 Psyllium Husk (Soluble Fiber) 2.5g<sup>M.0.2</sup> 🚽 🩸
-     - 🥈 Taurine 1g<sup>B.3-4</sup> 🥊
+     - 🥈 Taurine 1g<sup>B.3-4</sup> 🥊 ❤️ ⏰
    - **Cognition / methylation**
      - 🥈 Betaine (TMG) 500mg <sup>M.0.3.2.1</sup> 🩸
      - 🥈 Choline Bitartrate 181.5mg 🍎
@@ -682,7 +682,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥉 **M.10** [Silicon 14mg](https://allegro.pl/oferta/hepatica-krzem-premium-14-mg-60-kaps-16576329194) 💇‍♂️ 👨‍🦳
 - 🥉 **M.11-12** 2x [Lion's Mane Fruiting-Body Extract 500mg](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892) 🧠 🔄
   - Beta-(1,3)(1,6)-Glucans 300mg (30%)
-- 🥉 **M.13** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔄
+- 🥉 **M.13** [NAC 1g](https://pl.iherb.com/pr/now-foods-nac-1-000-mg-120-tablets/59157) [[BJ-NGC 1.2g](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] ⏰ 🔄
 - 🥈 **M.14** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🩸 🔄
 - 🥉 **M.15** [L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582) 🧠 👨‍🦳 ⏰ 🔄
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C 5mg
@@ -704,7 +704,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **L.11** [Ceratiq® Wheat Oil Extract 350mg](https://pl.iherb.com/pr/life-extension-skin-restoring-ceramides-30-liquid-vegetarian-capsules/84506) 👨‍🦳 💧 🔄
   - phytoceramides; glycosylceramides; glycolipids
 - 🥈 **L.12** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🩸 🔄
-- 🥉 **L.13** [Broccoli Seed Extract 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)]
+- 🥉 **L.13** [Broccoli Seed Extract 200mg](https://allegro.pl/oferta/kenay-broccoraphanin-activated-aktywny-ekstrakt-z-nasion-brokulow-sulforaf-14986189995) [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] 🧠
   - Glucoraphanin 20mg; Myrosinase 17.7µM/g
 - 🥈 **L.14** [Berberine HCl 490mg](https://bmpharma.pl/products/berberine) 🩸 🍬 🚽
 - 🥈 **L.15** [Aged Black-Garlic Extract 500mg](https://pl.iherb.com/pr/life-extension-aged-black-garlic-30-vegetarian-capsules-500-mg-per-capsule/143295) [[BJ-RYG 1.2g](https://blueprint.bryanjohnson.com/products/red-yeast-rice-garlic-capsules)] ❤️ 🩸 🔄
@@ -718,7 +718,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 🥤 drink:
 - 🥈 **B.0.3** [Collagen Peptides 13.33g — 4scoops (4x~10ml)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴
   - Protein 13.33g; Fat 0g; Carbohydrates 0g; 53kcal
-- 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (~10ml; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🥊
+- 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (~10ml; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - 🥇 **B.0.2** [HSN EvoBomb 2.0 20g — 2scoops (2x15ml)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 🥊
    - **Pump / blood flow**
      - 🥈 L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base) 🥊 🫀
@@ -734,10 +734,10 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **B.1** [Pycnogenol 100mg (OPC 65mg)](https://allegro.pl/produkt/suplement-diety-kenayag-pycnogenol-kora-sosny-kapsulki-60-szt-5c57cb7c-1dc9-4bea-b5b8-6d67b3436704) 🫀 🦴 👨‍🦳
 - 🥈 **B.2** [Rhodiola rosea Root Extract 500mg](https://kenay.com.pl/759-rozeniec-gorski-rhodiola-rosea-rhodiolife-60-kapsulek.html) 😌 ⚡ 🥊
   - Rosavins 15mg (3%); Salidroside 5mg (1%)
-- 🥈 **B.3-4** 2x [Taurine 1.5g](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🥊
+- 🥈 **B.3-4** 2x [Taurine 1.5g](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🥊 ❤️ ⏰
 - 🥉 **B.5** [Raw Maca Root 6:1 Concentrate 750mg](https://pl.iherb.com/pr/now-foods-raw-maca-750-mg-90-veg-capsules/18046) 🍆 🔄
   - Gelatinized; equivalent to 4.5g fresh Maca Root
-- 🥈 **B.6** 2x [Fenugreek Seed Extract 300mg](https://gemini.pl/kenay-ekstrakt-z-kozieradki-testofen-60-kapsulek-vege-0092834) 🍆
+- 🥈 **B.6** 2x [Fenugreek Seed Extract 300mg](https://gemini.pl/kenay-ekstrakt-z-kozieradki-testofen-60-kapsulek-vege-0092834) 🍆 💪 🥊
   - Testofen®; Fenuside™ Saponins 150mg (50%)
 - 🥉 **B.7** [Tribulus Terrestris 1.5g](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-testosteron-1500mg-90-14876230440) 🍆
 - 🥈 **B.8-9** 4x [Calcium Alpha-Ketoglutarate (CaAKG) 500mg](https://sklep.sfd.pl/SFD_NUTRITION_Ca-AKG_Alfa-Ketoglutaran_Wapnia-opis44968.html) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🍎 🦴 ⏰
@@ -780,14 +780,14 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥇 **E.5** [Melatonin 1mg + Botanical Extract Blend](https://bmpharma.pl/products/melisen) 😴 🕒
   - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>M.0.3.3.5</sup>
 - 🥈 **E.6** [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-480-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17286271854) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌
-- 🥇 **E.7** [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://gymbeam.pl/ashwagandha-ksm-66r-500mg-gymbeam.html) 😌 😴 🍆
+- 🥇 **E.7** [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://gymbeam.pl/ashwagandha-ksm-66r-500mg-gymbeam.html) 😌 😴 🍆 🧠 💪 🥊
 - 🥉 **E.8-10** 3x [Glycine 1g](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 ⏰
 - 🥈 **E.11** [Berberine HCl 490mg](https://bmpharma.pl/products/berberine) 🩸 🍬 🚽
-- 🥈 **E.12** [Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🍎 🦴
+- 🥈 **E.12** [Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🍎 🦴 😴
 - 🥉 **E.13** [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064) 🟤 🔄
   - Silymarin 240mg; Silybin 90mg; Isosilybin A/B 24mg; Silybin-Phosphatidylcholine Complex 80mg (Silybin 23.76mg); Silybin 113.76mg
 - 🥇 **E.14** [Silexan (Lavender Oil) 80mg](https://pl.iherb.com/pr/nature-s-way-calmaid-80-mg-30-softgels/43054) 😌 😴 💚
-- 🥉 **E.15** [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256) 😴 🔄
+- 🥉 **E.15** [GABA 250mg](https://pl.iherb.com/pr/now-foods-pharmagaba-with-magnesium-citrate-60-veg-capsules/157256) 😴 😌 🔄
   - GABA 250mg; Magnesium (Citrate) 20mg<sup>E.12</sup>
 - 🥉 **E.16-17** 2x [Inositol 1g](https://pl.iherb.com/pr/life-extension-inositol-caps-1-000-mg-360-vegetarian-capsules/47342) 😌
 - 🥉 **E.18** [Apigenin 200mg](https://allegro.pl/oferta/apigenina-200mg-60-kaps-najmocniejsza-100-czysta-badania-15499769924) 😴
@@ -865,7 +865,7 @@ There are actual studies that confirm if you look younger and better you are mor
 - [Bimatoprost 0.03%](https://www.doz.pl/p/lumigan-03-mgml-krople-do-oczu-3-ml-7957) (daily) 💇‍♂️ ⚕️
 - Minoxidil 5% (daily) 💇‍♂️
 - [Dermastamper](https://allegro.pl/oferta/rewolucja-w-pielegnacji-derma-stamp-140-13805842194) (weekly) 💇‍♂️
-- Styling at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk) (monthly)
+- Styling at [BRWIOPIEKUNKI](https://booksy.com/en-pl/12143_brwiopiekunki-paulina-rosiek_brwi-i-rzesy_20383_gdansk) (monthly) 🗿
 - (optional) Microblading at [Wiktoria Birk](https://www.facebook.com/wiktoria.birk.12) (yearly) 🗿
 
 ### Beard
@@ -1461,8 +1461,8 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] 🥉 **[PEAK Glycerol 99.5%](https://sofora.pl/sklep/peak-liquid-glycerol-500-ml-100-porcji/):** 💧 watchlist for prolonged exercise in heat with sweat losses >2% body mass and insufficient fluid access. The Polish product's 5ml/day limit supplies 6g; research uses 95–111g at 79.1kg. No suitable finished product selected. Do not multiply servings; revisit with a sports clinician after a sweat-rate assessment. [Label](https://www.peak.ag/en/collections/hydration/products/liquid-glycerol) · [Guidance](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/glycerol)
 - [ ] 🥉 **[Life Extension Lithium Orotate 1mg](https://www.lifeextension.com/vitamins-supplements/item02403/lithium):** 🧠 clinician-cleared experiment only after repeat TSH/FT4/FT3 (≥7 days off high-dose Biotin) and stable kidney markers, Sodium and Calcium. If cleared, 1capsule with Lunch; repeat thyroid/kidney tests after 6–8 weeks and three months. Review NSAIDs/ACE inhibitors/ARBs/diuretics; keep fluid/Sodium intake consistent and pause during dehydration or GI fluid loss. Healthy-adult benefit is unproven. [Poland listing](https://pl.iherb.com/pr/life-extension-lithium-1-000-mcg-100-vegetarian-capsules/100435) · [Monitoring](https://www.sps.nhs.uk/monitorings/lithium-monitoring/)
 - [ ] 🥉 **[PEA Levagen®+](https://kenay.com.pl/679-pea-palmitoiloetanoloamid-levagen-60-kapsulek.html):** 🧠 exploratory cognition candidate. A small [6-week trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC10891801/) used 600mg active PEA in 700mg formulated material, with BDNF and exploratory memory signals; attention/executive-function measures did not improve. Kenay is available in Poland, but its “350mg PEA/Levagen+” and 1capsule/day directions need clarification before matching that trial. Do not double capsules or activate until active dose/formulation is confirmed; predefine a memory/function outcome and stop after 6 weeks without meaningful benefit.
-- [ ] 🥉 **[Jardiance / Empagliflozin 10mg](https://www.ema.europa.eu/en/medicines/human/EPAR/jardiance):** ⚕️ revisit once evidence-benefit is more clear in a healthy person. If prescribed, prefer Morning dosing with kidney/electrolyte/BP review and an illness/fasting/surgery hold plan. Dehydration/low-BP burden could compound the current drugs, training and Sauna; genital infections and ketoacidosis also matter. [Prescribing information](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/204629s063lbl.pdf)
-- [ ] 🥉 **Luteolin 100mg** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)]: await a bioavailable formulation with meaningful human outcomes; no effective healthy-adult product/dose established. [Review](https://pubmed.ncbi.nlm.nih.gov/42136243/)
+- [ ] 🥉 **[Jardiance / Empagliflozin 10mg](https://www.ema.europa.eu/en/medicines/human/EPAR/jardiance):** ⏰ ⚕️ revisit once evidence-benefit is more clear in a healthy person. If prescribed, prefer Morning dosing with kidney/electrolyte/BP review and an illness/fasting/surgery hold plan. Dehydration/low-BP burden could compound the current drugs, training and Sauna; genital infections and ketoacidosis also matter. [Prescribing information](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/204629s063lbl.pdf)
+- [ ] 🥉 **Luteolin 100mg** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)]: 🧠 await a bioavailable formulation with meaningful human outcomes; no effective healthy-adult product/dose established. [Review](https://pubmed.ncbi.nlm.nih.gov/42136243/)
 - [ ] 🥉 **[PABA 100–300mg/day](https://allegro.pl/oferta/now-foods-paba-500mg-witamina-b10-wlosy-skora-100k-11690065696):** 💇‍♂️ possible monitored 8–12-week gray-hair trial after thyroid/B12/Folate/Copper causes are addressed and liver tests are normal. Weak repigmentation evidence and reported liver injury; the linked 500mg capsule does not fit this dose. Source a verified lower dose first. [Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC11444426/) · [Liver injury report](https://pubmed.ncbi.nlm.nih.gov/1748050/)
 
 ### Research & access watchlist
