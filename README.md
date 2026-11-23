@@ -650,7 +650,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - 🥈 Biotin (Vitamin B7) 22.5mcg 🍎
    - **Bone / muscle / electrolytes**
      - 🥈 Magnesium Taurate 126mg elemental magnesium<sup>E.12</sup> 🍎 🦴
-     - 🥈 Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg<sup>M.16</sup> 🍎 🦴 🩸
+     - 🥈 Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg<sup>M.16</sup> 🍎 🦴 ❤️ 🩸
      - 🥈 Encapsulated Vitamin D3 as AlgeD3™ 1,000IU 🍎 🦴 🛡️
      - 🥉 Boron Glycinate 1mg 🦴 <sup>M.0.3.4.4</sup>
      - 🥉 Potassium 99mg 🍎 💧
@@ -658,8 +658,8 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - 🥈 Hyaluronic Acid 200mg 👨‍🦳 💧
      - 🥉 Vitamin C as Calcium Ascorbate 45mg 🍋 🛡️
    - **Eye / antioxidant carotenoids**
-     - 🥈 Encapsulated Lutein from Lutemax® 2020 10mg 👁️
-     - 🥈 Encapsulated Zeaxanthin from Lutemax® 2020 2mg 👁️
+     - 🥈 Encapsulated Lutein from Lutemax® 2020 10mg 👁️ 🧠
+     - 🥈 Encapsulated Zeaxanthin from Lutemax® 2020 2mg 👁️ 🧠
      - 🥉 Encapsulated Lycopene from LycoBeads® 10mg <sup>L.9</sup> 👨‍🦳
    - **Trace minerals (glycinate forms)**
      - 🥉 Zinc 11mg<sup>M.0.3.7.1</sup> 🍎 🛡️
@@ -686,7 +686,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **M.14** [Betaine (TMG) 1g](https://pl.iherb.com/pr/now-foods-tmg-1-000-mg-100-tablets/3344) 🩸 🔄
 - 🥉 **M.15** [L-Ergothioneine 25mg](https://pl.iherb.com/pr/life-extension-mega-l-ergothioneine-30-vegetarian-capsules/154582) 🧠 👨‍🦳 😴 ⏰ 🔄
   - ErgoActive® L-Ergothioneine 25mg; Vitamin C 5mg
-- 🥈 **M.16** [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436) [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍎 🦴 🩸
+- 🥈 **M.16** [Vitamin K1 1.5mg + K2 MK-4 1mg + K2 MK-7 0.2mg](https://allegro.pl/oferta/witamina-k2-mk-7-i-mk-4-plus-witamina-k1-formy-all-trans-biodostepne-90-kap-17352876436) [[BJ-ES 1.5mg+5mg+0.6mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 🍎 🦴 ❤️ 🩸
 - 🥉 **M.17** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰
 - 🥉 **M.18** [Spermidine HCl 50mg (Spermidine 28mg)](https://allegro.pl/produkt/suplement-diety-forest-vitamin-spermidyna-50-mg-60-kapsulek-79220a55-116b-48d8-8d18-23106df5521f?offerId=18841623878) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰
 
@@ -696,10 +696,10 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥈 **L.2-3** 2x [Omega 3 690mg EPA 310mg DHA](https://pl.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871) (non-Fatty-Fish days only) 🍎 🩸 🔄
 - **L.4** (empty)
 - 🥈 **L.5** [Sodium Butyrate 500mg (Butyric acid 400mg)](https://gemini.pl/debutir-max-60-kapsulek-9086424) 🦠 🚽
-- 🥇 **L.6-7** 2x [Cocoa Flavanols 250mg](https://onepure.ee/en/products/cocoa-flavanols) ❤️ 🫀
+- 🥇 **L.6-7** 2x [Cocoa Flavanols 250mg](https://onepure.ee/en/products/cocoa-flavanols) ❤️ 🧠 🫀
 - **L.8** (empty)
 - 🥉 **L.9** [Lycopene 20mg](https://allegro.pl/oferta/likopen-mikrokapsulkowany-20-mg-lycopene-60-kapsulek-15828261195) [[BJ-ES 15mg](https://blueprint.bryanjohnson.com/products/essential-softgels)] 👨‍🦳
-- 🥈 **L.10** [Curcumin + Ginger + Turmerones](https://pl.iherb.com/pr/life-extension-advanced-curcumin-elite-turmeric-extract-ginger-turmerones-30-softgels/97642) [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🦴 🔄
+- 🥈 **L.10** [Curcumin + Ginger + Turmerones](https://pl.iherb.com/pr/life-extension-advanced-curcumin-elite-turmeric-extract-ginger-turmerones-30-softgels/97642) [[BJ-NGC 250mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] [[BJ-NGC 400mg](https://blueprint.bryanjohnson.com/products/nac-ginger-capsules)] 🔥 🧠 🦴 🔄
   - Advanced Curcumin Elite™ CGM Blend 500mg (Curcuminoids 200mg; Turmerones 15mg; Fenugreek Galactomannans 150mg); Gingerols 60mg; Turmeric-Oil Turmerones 60mg
 - 🥈 **L.11** [Ceratiq® Wheat Oil Extract 350mg](https://pl.iherb.com/pr/life-extension-skin-restoring-ceramides-30-liquid-vegetarian-capsules/84506) 👨‍🦳 💧 🔄
   - phytoceramides; glycosylceramides; glycolipids
@@ -721,7 +721,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (~10ml; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🧠 🥊
 - 🥇 **B.0.2** [HSN EvoBomb 2.0 20g — 2scoops (2x15ml)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" ⚡ 🥊
    - **Pump / blood flow**
-     - 🥈 L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base) 🥊 🫀
+     - 🥈 L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base) 🥊 🫀 🍆
    - **Endurance / fatigue resistance**
      - 🥇 Beta-Alanine 4g 🥊
    - **Focus / stimulation**
@@ -732,7 +732,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 
 💊 pills:
 - 🥈 **B.1** [Pycnogenol 100mg (OPC 65mg)](https://allegro.pl/produkt/suplement-diety-kenayag-pycnogenol-kora-sosny-kapsulki-60-szt-5c57cb7c-1dc9-4bea-b5b8-6d67b3436704) 🫀 🦴 👨‍🦳 🍆
-- 🥈 **B.2** [Rhodiola rosea Root Extract 500mg](https://kenay.com.pl/759-rozeniec-gorski-rhodiola-rosea-rhodiolife-60-kapsulek.html) 😌 ⚡ 🥊
+- 🥈 **B.2** [Rhodiola rosea Root Extract 500mg](https://kenay.com.pl/759-rozeniec-gorski-rhodiola-rosea-rhodiolife-60-kapsulek.html) 🧠 😌 ⚡ 🥊
   - Rosavins 15mg (3%); Salidroside 5mg (1%)
 - 🥈 **B.3-4** 2x [Taurine 1.5g](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html) [[BJ-LM 1.5g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🥊 ❤️ ⏰
 - 🥉 **B.5** [Raw Maca Root 6:1 Concentrate 750mg](https://pl.iherb.com/pr/now-foods-raw-maca-750-mg-90-veg-capsules/18046) 🍆 🔄
@@ -781,7 +781,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - Passionflower Extract 200mg (Polyphenols 8mg); Lemon Balm Extract 10:1 50mg; Hops Extract 4:1 50mg; Saffron Extract 10:1 30mg; Vitamin B6 1.4mg<sup>M.0.3.3.5</sup>
 - 🥈 **E.6** [L-Theanine 400mg](https://allegro.pl/oferta/l-teanina-400mg-480-kapsulek-czysta-bez-dodatkow-l-theanine-l-theanina-17286271854) [[BJ-LM](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 😌
 - 🥇 **E.7** [Ashwagandha KSM-66 500mg (Withanolides 25mg)](https://gymbeam.pl/ashwagandha-ksm-66r-500mg-gymbeam.html) 😌 😴 🍆 🧠 💪 🥊
-- 🥉 **E.8-10** 3x [Glycine 1g](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 ⏰
+- 🥉 **E.8-10** 3x [Glycine 1g](https://allegro.pl/oferta/now-foods-glicyna-glycine-1000-mg-uklad-nerwowy-sen-pamiec-regeneracja-100k-13174398777) [[BJ-LM 1.2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 😴 🧠 ⏰
 - 🥈 **E.11** [Berberine HCl 490mg](https://bmpharma.pl/products/berberine) 🩸 🍬 🚽
 - 🥈 **E.12** [Magnesium (Glycinate) 133.3mg](https://ostrovit.com/pl/products/ostrovit-glicynian-magnezu-90-kapsulek-26641.html) [[BJ-LM 150mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] 🍎 🦴 😴
 - 🥉 **E.13** [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064) 🟤 🔄
