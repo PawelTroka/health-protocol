@@ -190,7 +190,7 @@ PAGES = [
             ),
             item("M.7", "Acetyl-L-Carnitine", "750 mg", icons="🧠 🔄"),
             item("M.8", "Acetyl-L-Carnitine", "750 mg", icons="🧠 🔄"),
-            item("M.9", "Astaxanthin (AstaReal®)", "12 mg", icons="👨‍🦳 🥊 👁️ ⏰", note="Double Wood • oil softgel"),
+            item("M.9", "Astaxanthin (AstaReal®)", "12 mg", icons="👨‍🦳 🥊 👁️ 🛡️ ⏰", note="Double Wood • oil softgel"),
         ],
     },
     {
@@ -214,7 +214,7 @@ PAGES = [
                 icons="🧠 🔄",
                 note="Beta-(1,3)(1,6)-Glucans 150 mg (30%)",
             ),
-            item("M.13", "NAC", "1 g", icons="🛡️ ⏰ 🔄"),
+            item("M.13", "NAC", "1 g", icons="🛡️ 🫁 ⏰ 🔄"),
             item(
                 "M.14",
                 "Betaine (TMG)",
@@ -232,10 +232,10 @@ PAGES = [
                 "M.17",
                 "Nicotinamide Riboside",
                 "300 mg",
-                icons="⏰",
+                icons="⏰ 🧠 ❤️ 💪",
                 same_slot_count=3,
             ),
-            item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons="⏰"),
+            item("M.18", "Spermidine HCl", "50 mg (Spermidine 28 mg)", icons="⏰ 🧠 ❤️"),
         ],
     },
     {
@@ -250,7 +250,7 @@ PAGES = [
                 "kind": "shared",
                 "parts": [
                     item("L.1.1", "Ezetimibe", "10 mg", icons="❤️ 🩸 ⚕️", kind="rx"),
-                    item("L.1.2", "Tadalafil", "5 mg", icons="🍆 🍅 ⚕️", kind="rx"),
+                    item("L.1.2", "Tadalafil", "5 mg", icons="🍆 ❤️ 🫀 🍅 ⚕️", kind="rx"),
                 ],
             },
             item("L.2", "Omega 3", "690mg EPA • 310mg DHA", icons="🍎 ❤️ 🧠 👁️ 🩸 🔄", note="NON-FATTY-FISH DAYS ONLY", kind="warning"),
@@ -260,7 +260,7 @@ PAGES = [
             item("L.6", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠 🫀"),
             item("L.7", "Cocoa Flavanols", "250 mg", icons="❤️ 🧠 🫀"),
             empty("L.8"),
-            item("L.9", "Lycopene", "20 mg", icons="👨‍🦳"),
+            item("L.9", "Lycopene", "20 mg", icons="👨‍🦳 🍅 ❤️"),
         ],
     },
     {
@@ -315,8 +315,8 @@ PAGES = [
                 note="Lactobacillus reuteri DSM 17938 + Lactobacillus reuteri ATCC PTA 6475",
             ),
             item("E.4", "Sodium Butyrate", "500 mg", icons="🦠 🚽 🔥", note="Butyric acid 400 mg"),
-            item("E.5", "Melatonin + Botanical Extract Blend", "1 mg", icons="😴 🕒", note="Passionflower • lemon balm • hops • saffron • Vitamin B6"),
-            item("E.6", "L-Theanine", "400 mg", icons="😴 😌"),
+            item("E.5", "Melatonin + Botanical Extract Blend", "1 mg", icons="😴 🕒 😌", note="Passionflower • lemon balm • hops • saffron • Vitamin B6"),
+            item("E.6", "L-Theanine", "400 mg", icons="😴 😌 🧠"),
             item("E.7", "Ashwagandha KSM-66", "500 mg", icons="😌 😴 🍆 🧠 💪 🥊", note="Withanolides 25 mg"),
             item("E.8", "Glycine", "1g", icons="😴 🧠 ⏰"),
             item("E.9", "Glycine", "1g", icons="😴 🧠 ⏰"),
@@ -383,7 +383,7 @@ PAGES = [
         "callout": "Swallow these pills first; then start the A.0.1 WPI + A.0.2 EAA drink. Empty cells are intentional.",
         "cells": [
             item("A.1", "UC-II® Type II Collagen", "40 mg", icons="🦴 🤸 🔄", note="Standardized chicken cartilage • Total collagen 10 mg"),
-            item("A.2", "Urolithin A", "500 mg", icons="💪 ⏰ 🛡️"),
+            item("A.2", "Urolithin A", "500 mg", icons="💪 ⏰ 🛡️ 🫀"),
             item("A.3", "MSM (OptiMSM®)", "1.5g", icons="🦴 🔥 👨‍🦳 🔄"),
             item("A.4", "MSM (OptiMSM®)", "1.5g", icons="🦴 🔥 👨‍🦳 🔄"),
             empty("A.5"),
