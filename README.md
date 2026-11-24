@@ -141,7 +141,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### Stool
 - 🥉 **[General analysis](https://www.alab.pl/badanie/kal-badanie-ogolne-i-ocena-resztek-pokarmowych-a23)**: Stool analysis and food residue assessment 🚽 🦠
-- 🥈 **[Fecal Occult Blood](https://www.alab.pl/badanie/wykryw-krwi-utaj-w-kale-met-immunochemiczna-a17)**: Fecal Occult Blood Test (FOBT) - Immunochemical Method 🩸 🎗️ 🚽
+- 🥈 **[Fecal Occult Blood](https://www.alab.pl/badanie/wykryw-krwi-utaj-w-kale-met-immunochemiczna-a17)**: Fecal Occult Blood Test (FOBT) - Immunochemical Method 🎗️ 🩸 🚽
 - 🥈 **[Intestinal Inflammation](https://www.alab.pl/pakiet/pakiet-stanu-zapalnego-jelit)**: Beta-defensins, EPX (Eosinophil Protein X), Alpha-1-antitrypsin, Secretory sIgA, Calprotectin in stool 🔥 🦠 🛡️
 - 🥈 **[Pancreatic Elastase](https://www.alab.pl/badanie/trzustkowa-elastaza-1-w-kale-k83)**: Pancreatic elastase in stool for assessment of exocrine pancreatic function 🟤 🚽
 - 🥉 **[Zonulin](https://www.alab.pl/badanie/zonulina-w-kale)**: Zonulin in stool, a marker of intestinal-barrier permeability 🦠 🚽
@@ -1475,7 +1475,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 - [ ] 🥈 **Tongkat Ali** 🍆 — libido/sexual-function candidate.
 - [ ] 🥉 **Alpha-Yohimbine** ⚖️ — fat-loss candidate.
 - [ ] 🥉 **ZMA / DHEA / DAA** 🍆 — unresolved hormonal/supplement candidates.
-- [ ] **Myostatin / Activin-A inhibitors:** 🥈 💪 ⚕️ Apitegromab, 🥇 💪 ⚖️ Bimagrumab, 🥈 💪 ⚖️ Trevogrumab, 🥈 💪 ⚖️ ⚕️ Garetosmab.
+- [ ] **Myostatin / Activin-A inhibitors:** 🥈 💪 ⚕️ Apitegromab, 🥇 💪 ⚖️ Bimagrumab, 🥈 💪 ⚖️ Trevogrumab, 🥈 ⚖️ 💪 ⚕️ Garetosmab.
 - [ ] 🥈 **[Timeline Mitopure® Urolithin A 500mg](https://www.timeline.com/products/mitopure-softgels-vegan):** 💪 ⏰ 🛡️ 🫀 2softgels would replace A.2. Stronger clinical/quality provenance; no proven superiority to pure, correctly dosed Naturecan. No ordinary Polish channel or direct Poland shipping verified; check access and slot fit. [Shipping](https://www.timeline.com/shipping-policy) · [Human trial](https://pubmed.ncbi.nlm.nih.gov/35584623/)
 - [ ] 🥉 **Cordyceps militaris:** 🥊 🧠 await an EU-compliant, tested 1g extract providing ≥150mg Beta-Glucans and 2.5mg Cordycepin. The [Poland-facing Cordycep-M® listing](https://pl.iherb.com/pr/real-mushrooms-cordycep-m-mushroom-extract-powder-120-capsules/112243) does not match these markers. Only after GI stabilization; the small [performance study](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351725) needs replication, and [Novel Food status](https://food.ec.europa.eu/document/download/8df50c8a-4d51-4107-a594-4f37bb08feae_en?filename=ff_ffn_monthly-report_202601.pdf) blocks routine selection.
 - [ ] 🥉 **Lion's Mane replacement for M.11-12:** 🧠 [Oriveda L+](https://au.oriveda.com/product/lions-mane/) uses 6capsules: 900mg Mycelium (~4.478mg Erinacine A) + 900mg Fruiting Body (~325mg Beta-Glucans), from the tested lot. [Real Mycelium™](https://realmushrooms.com/products/real-mycelium) uses 2capsules for 5mg Erinacine A but loses the Fruiting-Body coverage. Better marker verification, unproven clinical advantage; import and [EU Novel Food](https://food.ec.europa.eu/document/download/b075e41c-cccb-46ae-81c2-3a86fb3c390f_en?filename=novel-food_consult-status_hericium-erinaceus_aesan.pdf) constraints remain. If access is resolved, assess cognition/tolerance over 12–16 weeks.
