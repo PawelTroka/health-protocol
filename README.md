@@ -258,7 +258,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### **Wednesday: Legs (Glute/Hamstring Dominant)**
 *Focus: Hip strength and control, an athletic posterior chain, and physical function.*
-- 🥇 **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Glute strength and hip-extension control. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes) 💪 🗿 ⏰ 🍆
+- 🥇 **Glutes/Hips**: Hip Thrusts: 12 × 60kg, 12 × 70kg, 11 × 80kg, 10 × 90kg (Glute strength and hip-extension control. Squeeze at top, coordinate pelvic floor/kegel contraction; Pro-Tip: Maintain a strict chin tuck to tilt pelvis and fully isolate glutes) 💪 🗿 🍆 ⏰
 - 🥇 **Hamstrings/Glutes**: Romanian Deadlift (RDL) with Dumbbells: 12 × 25kg, 11 × 27.5kg, 10 × 30kg (Slight knee bend; hinge hips back, keep Dumbbells close and spine neutral; use a controlled, comfortable range) 💪 🗿 ⏰
 - 🥇 **Quads**: Bulgarian Split Squats: 12 × 10kg, 10 × 12.5kg *(Pro-Tip: Statically lock torso; provides joint longevity and quad stimulation without adding blocky width)* 💪 🗿 ⏰
 - 🥇 **Glutes**: Glute Kickbacks (Cable or Machine): 15 × 10kg, 15 × 12.5kg, 15 × 15kg per leg 🗿 💪
@@ -278,7 +278,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 - 🥇 **Side Delts**: Machine Lateral Raises: 18 × 24kg, 16 × 29kg, 14 × 34kg, 12 x 44kg *(Align shoulders with the machine pivot and keep torso still)* 🗿 💪
 - 🥇 **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 🗿 💪
 - 🥇 **Neck**: Resistance Band Neck Extensions: 20 × 3.75kg, 18 × 5kg, 16 × 6.25kg 🗿 💪
-- 🥈 **Scapular Control**: Forearm Wall Slides with Foam Roller: 20x, 18x, 16x *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴 💪 🤸
+- 🥈 **Scapular Control**: Forearm Wall Slides with Foam Roller: 20x, 18x, 16x *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴 🤸 💪
 - 🥇 **Core**: Reverse Crunches: 35 reps, 30 reps, 25 reps *(Pro-Tip: Keep lower back flat; draw in TVA; stop if coning occurs; alternative: Dead Bugs)* 🗿 💪
 - 🥉 **Waist**: Stomach Vacuums: 3x 75s 🗿
 - 🥇 **Post-Workout Zone 2 Cardio**: Elliptical: 20mins at level 12/25 *(Smooth, low-impact pace; use light/no arm drive if the right shoulder feels irritated. Best here because it raises heart rate the day after legs without much eccentric loading.)* ❤️ 🫁 ⏰ 🍆
@@ -632,7 +632,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - Protein 28g; Fat 0.3g (Saturated Fat 0.2g); Carbohydrates 0.4g (Sugars 0.4g); Salt 0.14g
 - 🥇 **M.0.3** [MicroVitamin+ Powder Unflavored 26g — 1scoop (40ml)](https://microvitamin.com/en-pl/products/microvitamin-plus?variant=50000745464093) 💪 🥊 🍎 🚽 🦴 👨‍🦳 🦠 🔄
    - **Structural / performance / digestive blend**
-     - 🥈 Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 👨‍🦳 🦴 💇‍♂️
+     - 🥈 Collagen Peptides (Hydrolyzed) 12.5g<sup>M.0.3.1.1</sup> 🦴 👨‍🦳 💇‍♂️
      - 🥇 Creatine monohydrate 5g<sup>B.0.1</sup> 💪 🥊 🧠
      - 🥇 Psyllium Husk (Soluble Fiber) 2.5g<sup>M.0.2</sup> 🚽 🩸 🦠
      - 🥈 Taurine 1g<sup>B.3-4</sup> 💪 🥊 🫁 ❤️ ⏰ 🧠
@@ -650,7 +650,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
      - 🥈 Biotin (Vitamin B7) 22.5mcg 🍎
    - **Bone / muscle / electrolytes**
      - 🥈 Magnesium Taurate 126mg elemental magnesium<sup>E.12</sup> 🍎 🦴
-     - 🥈 Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg<sup>M.16</sup> 🍎 🦴 ❤️ 🩸
+     - 🥈 Encapsulated Vitamin K2 MK-7 as all-trans K2VITAL® 90mcg<sup>M.16</sup> 🦴 ❤️ 🍎 🩸
      - 🥈 Encapsulated Vitamin D3 as AlgeD3™ 1,000IU 🍎 🦴 🛡️
      - 🥉 Boron Glycinate 1mg 🦴 <sup>M.0.3.4.4</sup>
      - 🥉 Potassium 99mg 🍎 💧
@@ -716,12 +716,12 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 
 ### Before workout
 🥤 drink:
-- 🥈 **B.0.3** [Collagen Peptides 13.33g — 4scoops (4x~10ml)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 👨‍🦳 🦴 💇‍♂️
+- 🥈 **B.0.3** [Collagen Peptides 13.33g — 4scoops (4x~10ml)](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [[BJ-CP 20g](https://blueprint.bryanjohnson.com/products/collagen)] 🦴 👨‍🦳 💇‍♂️
   - Protein 13.33g; Fat 0g; Carbohydrates 0g; 53kcal
 - 🥇 **B.0.1** [Creatine monohydrate 5g — 1scoop (~10ml; level)](https://sklep.kfd.pl/kfd-premium-creatine-500-g-kreatyna-monohydrat-p-4139.html) [[BJ-CR 5g](https://blueprint.bryanjohnson.com/products/creatine)] 💪 🥊 🧠
 - 🥇 **B.0.2** [HSN EvoBomb 2.0 20g — 2scoops (2x15ml)](https://www.hsnstore.pl/marki/sport-series/evobomb) "Lemon" 🥊 ⚡ 🧠
    - **Pump / blood flow**
-     - 🥈 L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base) 🥊 🫀 🍆
+     - 🥈 L-Citrulline 8g (from Citrulline Malate 2:1 and L-Citrulline Base) 🫀 🥊 🍆
    - **Endurance / fatigue resistance**
      - 🥇 Beta-Alanine 4g 🥊
    - **Focus / stimulation**

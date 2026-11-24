@@ -158,7 +158,7 @@ Every change to an active physical pill's code, order, name, dose, multiplier, c
 After an authorized pillbox-affecting change:
 
 1. Update `README.md` and `tools/generate_pillbox_guide.py` together.
-2. Run `python -B tools/validate_pillbox_guide.py` to check README/source parity before regeneration.
+2. Run `python -B tools/validate_pillbox_guide.py` to check README/source parity before regeneration. Separately compare the exact ordered medal and target/status-icon sequence of every expanded guide entry (including shared and empty compartments), because the source validator does not check these annotations.
 3. Use the bundled workspace Python runtime to compile and run `tools/generate_pillbox_guide.py`.
 4. Use the `documents` skill and its current `render_docx.py` workflow to render the DOCX to page PNGs, optionally with a PDF.
 5. Confirm there are exactly eight pages and visually inspect every page—not only the changed page—for clipping, overflow, row-major placement, codes, names, doses, multipliers, emojis, conditional warnings and empty cells.
