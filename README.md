@@ -395,7 +395,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - `26kcal · P1.7g · C3.2g · F0.4g · Fiber1.9g · Beta-Glucans · Ergothioneine · Copper · Glutathione · Eritadenine · Spermidine`
   - [ ] 🥇 75g fresh [Maitake](https://allegro.pl/produkt/grzyby-maitake-unikat-swieze-150g-tzw-tanczacy-grzyb-paczka-cc240c3c-a551-4852-a00c-afc4c145e033) 🍎
     - `23kcal · P1.5g · C3.2g · F0.1g · Fiber2g · Beta-Glucans · Ergothioneine · Glutathione`
-  - [ ] 🥇 50g fresh [King Oyster Mushrooms](https://allegro.pl/produkt/boczniak-mikolajkowy-krolewski-swiezy-250g-281b3337-498e-465d-88c7-4ea87dbe202f) 🍎
+  - [ ] 🥇 50g fresh [King Oyster Mushrooms](https://allegro.pl/produkt/boczniak-mikolajkowy-krolewski-swiezy-250g-281b3337-498e-465d-88c7-4ea87dbe202f) 🍎 🦠
     - `16kcal · P1.4g · C1.5g · F0.2g · Fiber1.7g · Beta-Glucans · Ergothioneine · Glutathione · Spermidine`
 - 🥦 **Steamed Cruciferous Vegetables — CHOOSE ONE**
   - [x] 🥇 100g [Broccoli florets](https://www.frisco.pl/pid,4042/n,frisco-fresh-brokul/stn,product) 🍎 🍋 🦠
