@@ -197,7 +197,7 @@ PAGES = [
         "title": "MORNING • BOX 2",
         "range": "M.10–M.18",
         "accent": "morning",
-        "callout": "M.17 holds all three small NR capsules together.",
+        "callout": "M.17 holds three NR capsules. Optional Heliocare stays in its pack: high-UV days only, before exposure, alongside SPF50+.",
         "cells": [
             item("M.10", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
