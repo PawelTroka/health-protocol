@@ -321,6 +321,18 @@ Hearing protection and prompt assessment of sudden hearing loss can help protect
 
 Knives, pans, textile dimensions, inventories and maintenance instructions remain specifications. Historical surgeries and the restored vaccination record remain ungraded; no efficacy or schedule assurance is inferred from a recorded event.
 
+#### Sleep air-quality purposes — 25 November 2026
+
+The three Sleep entries below receive purpose icons only. The 15 Sleep medals removed in [the earlier review](https://github.com/PawelTroka/health-protocol/commit/5bdfa3276a03c4cf5726283df8d7874f59c165f9) remain absent; the separate Environment section stays ungraded. The [README Legend](../README.md#legend) remains the reference for annotation meanings. Existing wording, quantities and reviewed annotations are preserved.
+
+| Sleep entry | Added purposes, in relevance order | Evidence and scope |
+| --- | --- | --- |
+| PM2.5 | 🫁 ❤️ | Respiratory exposure reduction leads for this air-quality entry, followed by cardiovascular relevance; this order is a protocol judgment, not a quantified comparison of clinical effects. [EPA's health assessment](https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm) identifies both domains, and its [indoor-particle guidance](https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm) supports source reduction and effective filtration. The icons do not establish a specific clinical effect from the written concentration or air-change target. |
+| CO₂ / ventilation | 😴 | [Two small field interventions](https://pubmed.ncbi.nlm.nih.gov/26452168/) and a [29-bedroom single-blind study](https://pubmed.ncbi.nlm.nih.gov/37142023/) directly examined ventilation and sleep. Small samples, wrist-tracker outcomes and changes in other indoor conditions limit interpretation; the latter study's significant sleep findings came from subsets with measurable ventilation separation. These findings support a sleep research purpose without isolating CO₂ as causal or validating the exact 800ppm threshold. |
+| Sources / upkeep | 🫁 | Reduced inhaled pollutant/irritant exposure is the purpose. [EPA indoor-particle guidance](https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm) identifies combustion sources, ozone reactions with fragranced products, filter upkeep and humidifier cleaning. No separate efficacy medal or immune-benefit claim is added. |
+
+No physical pill entry or printable pillbox source is affected by these additions.
+
 ## Peptide and low-dose drug medals
 
 The investigational repair, muscle and hair/skin peptides retain Bronze and their route/fragment limitations; tirzepatide has a separately assessed Gold judgment. These annotations identify the intended research purposes, not established efficacy, verified product identity or authorization for the written injections.

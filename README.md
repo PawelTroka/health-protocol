@@ -129,9 +129,9 @@ Sleep is your number 1 priority. It is more important than diet, more important 
   - **Light / noise:** Near-total darkness (blackout blinds, cover LEDs) and quiet (ideally <30 dBA); use quiet AC or low-volume steady noise only if helpful. 🌑 🔇
   - **Bed:** Reserve for sleep and intimacy. 🛏️
 - **Air quality** (see [Clean air](#clean-air)):
-  - **PM2.5:** Aim for <10 µg/m³ overnight (lower is better); use a HEPA purifier sized for ~4–5 equivalent air changes/hour at its **actual nighttime fan speed**.
-  - **CO₂:** Prefer <800 ppm, or <1,000 ppm where practical, using fresh-air ventilation (filtered when outdoor air is polluted); a purifier or ordinary split AC does not remove CO₂.
-  - **Sources / upkeep:** Avoid smoke, scented candles, fragrances and ozone generators; maintain filters and clean humidifiers regularly.
+  - **PM2.5:** Aim for <10 µg/m³ overnight (lower is better); use a HEPA purifier sized for ~4–5 equivalent air changes/hour at its **actual nighttime fan speed**. 🫁 ❤️
+  - **CO₂:** Prefer <800 ppm, or <1,000 ppm where practical, using fresh-air ventilation (filtered when outdoor air is polluted); a purifier or ordinary split AC does not remove CO₂. 😴
+  - **Sources / upkeep:** Avoid smoke, scented candles, fragrances and ozone generators; maintain filters and clean humidifiers regularly. 🫁
 - **Daylight & wind-down:** Get 20–30min outdoors soon after waking plus daylight during the day (with UV protection); dim lights 1–2h before bed and spend the final 30–60min relaxing without stimulating work or bright screens. Dim warm/red lights are fine. 😴 😌
 - **Devices:** Turned off or "Do Not Disturb" **00:00–10:14**. 😴
 - **Stimulants:** Stop any caffeine or other stimulants ≥8–10h before bed (earlier after high doses or if sensitive); check Matcha and the daily HSN EvoBomb 2.0 200mg Caffeine dose against bedtime. 😴
