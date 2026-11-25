@@ -221,6 +221,17 @@ These notes explain the reordered Promote entries. The relative emphasis is a pr
 | Meditation / breathwork | 😌 🧠 | Stress regulation leads the broader cognitive purpose. A [one-month randomized comparison](https://pubmed.ncbi.nlm.nih.gov/36630953/) examined daily brief breathing exercises and mindfulness meditation using mood, anxiety and physiological-arousal outcomes. Its breathing-method differences do not establish broad cognitive protection. |
 | Walks | ❤️ 🫁 | Cardiovascular health leads aerobic conditioning for the daily walking entry. [WHO's physical-activity guidance](https://www.who.int/news-room/fact-sheets/detail/physical-activity) supports the broader health role of regular activity; the conditioning effect still depends on pace, duration and baseline fitness. |
 
+### Sleep routine purposes — 25 November 2026
+
+These two previously unannotated Sleep actions receive purpose icons only. The [earlier Sleep medal reverts](https://github.com/PawelTroka/health-protocol/commit/5bdfa3276a03c4cf5726283df8d7874f59c165f9), the retained duration/consistency sequence and the omitted extra Daylight timing icon remain unchanged. The [README Legend](../README.md#legend) remains the reference for annotation meanings.
+
+| Sleep entry | Added purposes, in relevance order | Evidence and scope |
+| --- | --- | --- |
+| Sleep problems | 😴 | The row concerns insomnia and assessment of disturbed sleep. [AASM guidance](https://pubmed.ncbi.nlm.nih.gov/33164742/) supports CBT-I and conditional use of stimulus control; [NHLBI](https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms) identifies loud snoring, gasping and daytime sleepiness as assessment prompts. The purpose icon does not validate returning to stimulating work as an insomnia intervention; existing wording is preserved in this annotation-only change. |
+| Sex & Sauna | 😴 😌 | Sleep onset is the row's main stated goal; relaxation is secondary. A [2023 diary study](https://pubmed.ncbi.nlm.nih.gov/36646500/) associated partnered sex with orgasm with better subjective sleep; the other studied sexual-activity categories did not show the same association. [Sauna survey findings](https://pubmed.ncbi.nlm.nih.gov/31126560/) identify relaxation and perceived sleep benefit. A [2026 cross-sectional study](https://pmc.ncbi.nlm.nih.gov/articles/PMC13410540/) found perceived sleep improvement among women without a corresponding significant change among men. These observations support purpose/research annotations, not the exact timing windows or a proven combined treatment. |
+
+No physical pill entry or printable pillbox source is affected by these additions.
+
 ### Testing and screening
 
 Testing is assessed for actionable diagnostic or treatment information in the stated clinical context. The six-month frequency heading is intentionally ungraded, as requested in review; individual tests retain their own assessments.
