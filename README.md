@@ -1041,6 +1041,15 @@ Even if you do everything right you can be exposed to harmful environment, so it
   1-2mg -> 5-10IU/day
 
 
+### Injection supplies
+
+Current supplies from [medeocare](https://allegro.pl/uzytkownik/medeocare); 100pcs per pack.
+
+- **Insulin syringes:** [Zarys dicoSULIN 1ml U-100, removable 0.4x13mm needle](https://allegro.pl/oferta/strzykawki-insulinowe-1ml-z-igla-0-4mm-x-13mm-u100-dicosulin-100szt-zarys-13743575410).
+- **Alcohol swabs:** [One-Care 3x6cm, 70% Isopropyl Alcohol](https://allegro.pl/oferta/gaziki-do-dezynfekcji-nasaczone-alkoholem-3x6cm-100szt-one-care-12297976064).
+- **Drawing needles:** [Zarys dispoFINE 18G, 1.2x40mm](https://allegro.pl/oferta/igly-iniekcyjne-1-2x40-mm-18g-do-strzykawki-100szt-rozowe-dispofine-zarys-9598463062).
+- **Luer syringes:** [Three-piece syringes](https://allegro.pl/oferta/strzykawki-10ml-iniekcyjne-3-czesciowe-strzykawka-luer-beroject-100szt-kdm-11018411826) — order shows 5ml; listing title/description: KDM Beroject 10ml, catalog: Zarys 5ml. Confirm brand and volume before reordering.
+
 ## 11. Surgeries
 
 - **Sapphire FUE Hair Transplant**
