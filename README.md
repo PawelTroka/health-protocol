@@ -200,9 +200,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 ### Ultimate Optimized Daily Activity & Training Routine: Aesthetics, Longevity & Sexual Health
 
 #### Core Philosophy:
-- **Looksmaxxing (Aesthetics):** Focuses heavily on the V-taper (broad shoulders/lats), an upper chest "shelf", a masculine neck, and thick forearms. **Zero direct oblique work** and stomach vacuums are included to keep the waist tight. Direct quad work is minimized to prevent a "blocky" lower half, focusing instead on longevity, mobility and an athletic posterior chain.
-- **Longevity & Health:** Ego lifting is removed. Use a **3-0-1-0 tempo** (3 seconds lowering, 1 second lifting) to protect joints and maximize hypertrophy. **Hernia & Diastasis Recti Care:** Exhale on the concentric (lifting) phase—no Valsalva maneuver—to manage intra-abdominal pressure. **The No-Doming/No-Coning Rule:** Focus on deep Transverse Abdominis (TVA) drawing (belly button to spine) and prevent any stomach doming/coning (midline ridge) during core work. Spinal loading is minimized by prioritizing chest-supported back exercises and dumbbell variations over heavy barbell lifts.
-- **Sexual Health:** Heavy emphasis on glutes, hamstrings, and hip hinge movements (like Hip Thrusts) for hip power and pelvic floor health. Mandatory Zone 2 cardio is included for cardiovascular and endothelial health.
+- **Looksmaxxing (Aesthetics):** Prioritize the V-taper (lateral delts/lats), upper chest, neck, forearms, glutes and calves. Keep **zero direct oblique isolation** and modest direct quad work to match preferred proportions. Stomach vacuums are optional abdominal-control practice; assess appearance with consistent photos rather than expecting local fat loss from a particular exercise.
+- **Longevity & Health:** Use controlled lowering and a smooth lift through a comfortable range; **3-0-1-0** is an optional technique cue. **Hernia & Diastasis Recti Care:** Exhale through demanding repetitions and avoid prolonged breath-holding/straining. Reduce load, range or lever length if abdominal control is lost or pronounced doming develops. New repair-site pain, a painful focal bulge or persistent symptoms warrant assessment. Favor supported exercises that suit the shoulder and abdomen; a historical diastasis measurement alone does not determine exercise suitability.
+- **Sexual Health:** Hip training develops hip strength and control; aerobic conditioning supports cardiovascular health and can support erectile function. Targeted pelvic-floor training is a separate, individualized intervention when indicated, with both contraction and relaxation.
 - **Synergy:** Push days alternate between (Chest Press + Lateral Raise) and (Shoulder Press + Pec Fly). Tuesday pairs pull-ups with the chest-supported row; Friday pairs pulldowns with the dumbbell row. Y raises fall on Tuesday and wall slides on Thursday. Gym workouts are compressed into **5 consecutive weekdays**, leaving your weekends completely free of typical gym lifts to focus on outdoor conditioning and socializing. Four weekday workouts finish with 20 minutes of easy Zone 2 cardio; the timing and modalities are selected to limit interference with lifting while supporting cardiovascular health.
 - **Personal Structural Assessment:** Fairly aesthetic frame overall. My proportions are actually closer to athletic aesthetic build, "men's physique" type frame, than to ultra-wide comic-book "classic physique" clavicle genetics.
   - **Measurements:** [Body and facial measurements](results.md#body-measurements), latest reported 2026-11-07.
@@ -225,6 +225,16 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
     - better posture and scapular positioning
     - more lateral delt + upper lat emphasis
     - slightly leaner (without shrinking)
+
+---
+
+#### Training Rules
+- **Warm-up & log:** Use easy movement and progressive warm-up sets before the first demanding lift. Record warm-ups separately from working sets; log load, reps and repetitions in reserve (RIR). The listed loads/reps are reference performances, not compulsory loads.
+- **Effort:** Finish most compound sets with 2–3RIR and isolation sets with 1–2RIR. Keep neck, core and scapular-control work comfortably controlled; stop before symptoms or technique loss. Reaching failure is optional, never required.
+- **Progression:** Keep the listed set counts. For muscles prioritized for growth, add reps at the same technique/RIR; when every set exceeds its listed rep target by 1–2 on two comparable sessions, increase by the smallest available load increment and return toward the written reps. Progress rep-range work separately: increase its load once its prescribed sets reach the upper end at target RIR. For thigh maintenance, aim to sustain performance without automatically adding sets or load.
+- **Rest:** Start with 2–3mins between compound sets and 90–120s between isolation sets; extend if breathing or fatigue would compromise the next set.
+- **Recovery:** If performance falls across two comparable sessions alongside persistent fatigue or soreness, use 5–7days with about half the working sets and 3–4RIR, then reassess. Use technique, symptoms and performance alongside sleep/recovery trends.
+- **Review:** Reassess after 6–8 weeks using training logs, recovery and consistent photos/measurements; change one training variable at a time.
 
 ---
 
