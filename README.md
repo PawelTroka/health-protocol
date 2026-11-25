@@ -822,7 +822,7 @@ There are actual studies that confirm if you look younger and better you are mor
 #### Home procedures
 - [Red Light Therapy mask with 807 LEDs](https://zireemed.com/collections/at-home-light-therapy-devices/products/red-light-mask) (3 times per week) 👨‍🦳
 - (optional) Chemical peeling [The Ordinary AHA 30% + BHA 2%](https://allegro.pl/oferta/the-ordinary-aha-30-bha-2-roztwor-peelingujacy-30ml-17268094943) (monthly) 👨‍🦳
-- (optional) Inject [Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/) if you need more tan than Lycopen and β-Carotene provide 👨‍🦳
+- (optional) DHA self-tan [Bondi Sands Pure Self Tanning Sleep Mask 75ml](https://bondisands.eu/products/pure-self-tanning-sleep-mask) (Original formula; colour without extra UV exposure; [use instructions](#skin--teeth)) 👨‍🦳
 
 #### Professional procedures
 - Microneedling (monthly) at [Kosmetologia bez tajemnic](https://booksy.com/en-pl/323497_kosmetologia-bez-tajemnic-gabriela-klaczak_salon-kosmetyczny_20383_gdansk) 👨‍🦳
@@ -1404,6 +1404,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 ### Skin & teeth
 
+- **DHA self-tan:** patch-test 24h first; apply on a separate plain evening to clean, dry, intact skin and leave overnight. Avoid eyes/lips and wash hands; add no other skincare until colour develops. Stop for irritation, redness or itching. Colour provides no SPF. [Manufacturer instructions](https://bondisands.eu/products/pure-self-tanning-sleep-mask) · [Polish/EU retail lead](https://www.coolshop.pl/produkt/bondi-sands-pure-sleep-self-tanning-sleep-mask-75-ml/23W6K9/) (match the original 75ml formula and check stock).
 - **Dry eyelids:** Dermallergo Eyes first for a lighter feel; Atoderm Intensive Eye if richer coverage is needed. Test one for about 2 weeks. Keep retinoids/acids off eyelids and under-eyes; stop for persistent stinging, swelling or redness. Persistent red/scaly skin needs assessment. [Dermallergo](https://www.laroche-posay.co.uk/en_GB/toleriane-dermallergo-soothing-eye-cream/LRP_132.html) [Atoderm](https://www.bioderma.pl/produkty/atoderm/intensive-eye)
 - **Cleansing/peels:** use the Hydrating Cleanser when skin is dry or irritated. With E.1.1 Isotretinoin, agree Adapalene/Tretinoin/Salicylic Acid/peel use with the prescriber; separate nights do not resolve that compatibility question. Keep one weekly topical retinoid: Adapalene 0.1% by default or Tretinoin 0.025% as an alternative. If the optional monthly peel is appropriate: dry skin, maximum 10 minutes, avoid eyes, then plain moisturizer; no topical retinoid, Salicylic Acid cleanser, SNAP-8 or GHK-Cu that routine. Pause acids for redness, stinging or peeling. The professional Bielenda 40% blend is not a home substitute. [Peel label](https://theordinary.com/en-pl/aha-30-bha-2-peeling-solution-exfoliator-100400.html) [Isotretinoin label](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/16306/characteristic)
 
@@ -1511,6 +1512,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 - **BCAA:** food, WPI and the complete EAA serving already supply them; no established extra muscle benefit. [Training trial](https://pubmed.ncbi.nlm.nih.gov/24620007/)
 - **Lactobacillus acidophilus (4bln CFU)** [[BJ-EC](https://blueprint.bryanjohnson.com/products/essentials-capsules)] — removed in favor of the selected 35624® and Gastrus® strains.
 - **[Saccharomyces boulardii CNCM I-745 250mg](https://allegro.pl/oferta/zestaw-enterol-250-m-na-biegunke-przy-antybiotykach-2x-30-kapsulek-17848989450):** removed from permanent daily use for the current IBS pattern as not good enough. [IBS evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC12898053/) · [Enterol indications](https://rejestrymedyczne.ezdrowie.gov.pl/api/rpl/medicinal-products/7890/characteristic)
+- **[Melanotan 2 10mg](https://pro-peptydy.pl/produkt/melanotan-2-10mg/):** retired as an unverified cosmetic injection; optional topical DHA supplies colour without extra UV exposure. The [TGA investigation](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/melanotan-ii-tanning-peptide-products-found-be-inconsistently-dosed) raises product-quality concerns but tested nasal products, not this linked vial.
 - **AOD-9604 5mg vial (former injections 250–500mcg/day):** uncertain fat-loss benefit. The larger oral weight-loss trial was negative; it does not establish injected efficacy or safety. [FDA assessment](https://www.fda.gov/media/183584/download)
 - **Alpha-Lipoic Acid (ALA):** no clear indication; adds low-BP concerns and rare Insulin Autoimmune Syndrome risk. [BP evidence](https://pubmed.ncbi.nlm.nih.gov/37942070/) · [EFSA assessment](https://pubmed.ncbi.nlm.nih.gov/34122657/)
 - **Grapefruit Juice:** CYP3A4 interaction risk with medicines including Tadalafil and Dutasteride.
