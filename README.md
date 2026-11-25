@@ -712,7 +712,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥉 **L.16** [Phosphatidylserine 300mg](https://allegro.pl/produkt/now-foods-fosfatydyloseryna-300-mg-50-kapsulek-miekkich-b101a7dd-3b27-49cc-a657-85bd528c35da) 🧠 😌
 - 🥉 **L.17** [Milk Thistle 380mg](https://pl.iherb.com/pr/life-extension-advanced-milk-thistle-120-softgels/67064) 🟤 🔄
   - Silymarin 240mg; Silybin 90mg; Isosilybin A/B 24mg; Silybin-Phosphatidylcholine Complex 80mg (Silybin 23.76mg); Silybin 113.76mg
-- **L.18** (empty)
+- 🥈 **L.18** 2x [Citicoline (Cognizin®) 250mg](https://pl.iherb.com/pr/life-extension-citicoline-cdp-choline-60-vegetarian-capsules-250-mg-per-capsule/47806) 🧠 ⚡
 
 ### Before workout
 🥤 drink:
@@ -1371,6 +1371,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 #### Cognition & Longevity experiments
 
+- **Citicoline / L.18:** add Life Extension Cognizin® 500mg/day with Lunch for a 12-week attention/memory trial; retain ALCAR and the existing supplements. The published trial improved secondary episodic/composite memory but missed its primary endpoint; benefit at age 35 remains uncertain. Keep the other cognition supplements stable and review everyday function at weeks 6 and 12. Stop for persistent headache, GI upset, worse sleep or no useful benefit by week 12. MicroVitamin+ Choline Bitartrate remains separate; 500mg Citicoline is not 500mg Choline. [Trial](https://doi.org/10.1093/jn/nxab119) · [Product label](https://www.lifeextension.com/vitamins-supplements/item01659/citicoline-cdp-choline)
 - **Urolithin A / A.2:** Naturecan's batch NC3922 report measured 498mg/capsule against 500mg labeled; it verifies one submitted batch. The clinical trials used Mitopure®, mainly in older or sedentary adults, and found some secondary benefits while missing primary outcomes. Naturecan remains the practical Poland choice; Mitopure® stays a replacement TODO. [Batch report](https://cdn.shopify.com/s/files/1/0099/8319/7280/files/Urolithin_A_Capsules_COA.pdf) [Trial](https://pubmed.ncbi.nlm.nih.gov/35584623/)
 - **Lion's Mane / M.11-12:** the selected Fruiting-Body Extract quantifies Beta-Glucans, not Erinacine A or Hericenones. Mycelium candidates stay in TODOs; they are not automatically added to the current product. [Selected label](https://pl.iherb.com/pr/real-mushrooms-lion-s-mane-mushroom-extract-powder-300-capsules-500-mg-per-capsule/115892)
 - **Ergothioneine / M.15:** 25mg ErgoActive® matches the studied ingredient, but its trial missed the primary memory endpoint. Assess any Skin, sleep or cognition response after 12–16 weeks; do not stack another product. The EU adult supplement level is 30mg/day. [Trial](https://doi.org/10.3390/nutraceuticals5030015) [EU authorization](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018R0462)
