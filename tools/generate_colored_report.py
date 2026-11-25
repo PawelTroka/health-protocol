@@ -26,6 +26,7 @@ from tools.imaging_report import (
     GROUPS as IMAGING_GROUPS, IMAGING_CSS, imaging_group_anchor, markdown_heading_anchor,
     render_imaging_html, render_imaging_md, validate_imaging_sources,
 )
+from tools.historical_labs import HISTORICAL_LABS, HISTORICAL_LABS_SOURCE
 
 
 MICROBIOTA_CATEGORY = "Gut Microbiota (GA-map)"
@@ -763,7 +764,8 @@ def format_cell_md_urine(val, ref):
 # Using "-" for missing values as requested
 historical_date_columns = ["2026-07", "2026-01", "2025-05", "2025-01"]
 followup_date_columns = sorted({"2026-11", "2026-09", "2026-08", *synced_monthly["months"], *synced_monthly.get("categorical_months", {})} - set(historical_date_columns), reverse=True)
-date_columns = followup_date_columns + historical_date_columns
+date_columns = sorted({*followup_date_columns, *historical_date_columns,
+                       *(result["date"] for result in HISTORICAL_LABS)}, reverse=True)
 missing_values = {"-", None, ""}
 
 def split_result_row(row):
@@ -1518,7 +1520,8 @@ data = {
         ("Chlamydia IgG", "< 5.0", "< 5.0", "< 5.0", "negative", "AU/ml", "< 9"),
         ("Chlamydia IgM", "2.0", "2.7", "2.7", "2.7", "NTU", "< 9"),
         ("HSV IgG", "1.19", "0.79", "1.35", "1.7", "Index", "< 0.9"),
-        ("HSV IgM", "< 0.5", "< 0.5", "negative", "negative", "Index", "< 0.9")
+        ("HSV IgM", "< 0.5", "< 0.5", "negative", "negative", "Index", "< 0.9"),
+        ("SARS-CoV-2 RT-PCR", "-", "-", "-", "-", "Status", "negative")
     ],
     "Toxicology (Urine)": [
         ("Arsenic", "4.6", "11.8", "30.8", "-", "ug/l", "< 15.0"),
@@ -2083,6 +2086,28 @@ result_notes = {
     ],
 }
 
+for result in HISTORICAL_LABS:
+    category, marker, date = result["category"], result["marker"], result["date"]
+    row = next(row for row in data[category] if row[0] == marker)
+    if row[-2] != result["unit"]:
+        raise ValueError(f"Historical result unit mismatch: {category} / {marker}")
+    observations = lab_followups.setdefault(date, {}).setdefault(category, {})
+    if marker in observations:
+        raise ValueError(f"Duplicate historical result: {date} / {category} / {marker}")
+    observations[marker] = result["value"]
+no_score_markers.add(("Infectious Diseases", "SARS-CoV-2 RT-PCR"))
+
+for category in {result["category"] for result in HISTORICAL_LABS}:
+    dated_results = [result for result in HISTORICAL_LABS if result["category"] == category]
+    for date in sorted({result["date"] for result in dated_results}, reverse=True):
+        markers = [result["marker"] for result in dated_results if result["date"] == date]
+        detail = " LDL and non-HDL are calculated." if date == "2023-10-02" else ""
+        result_notes.setdefault(category, []).append({
+            "text": f"{date}: <a href='{HISTORICAL_LABS_SOURCE}'>source reports and original ranges</a>.{detail}",
+            "placement": "date_header",
+            "markers": [{"rows": markers, "target": "value", "dates": [date]}],
+        })
+
 for month, categories in lab_followups.items():
     if month not in date_columns:
         raise ValueError(f"Laboratory month missing from report columns: {month}")
@@ -2234,14 +2259,24 @@ def format_vital_classification(marker, value, *, markdown=False):
                      for text, status in classification_parts(marker, value))
 
 
-def column_note_numbers(category, rows, index):
-    return sorted({number for row in rows if row[index + 1] not in missing_values
-                   for number in note_numbers(category, row[0], "value", date_columns[index])})
+def column_note_numbers(category, rows, index, *, shared_only=False):
+    notes_by_row = [set(note_numbers(category, row[0], "value", date_columns[index]))
+                    for row in rows if row[index + 1] not in missing_values]
+    numbers = set().union(*notes_by_row)
+    if shared_only:
+        # A source belongs in the header only when it covers every populated
+        # result in that column. Mixed sources keep their individual cell notes.
+        numbers = {number for number in numbers
+                   if result_notes[category][number - 1].get("placement") == "date_header"
+                   and all(number in notes for notes in notes_by_row)}
+    return sorted(numbers)
 
 
 def render_result_table_html(category, rows, active_indexes=None, compact=False, notes_in_header=False):
     if active_indexes is None:
         active_indexes = active_date_indexes(rows)
+    header_notes = {idx: column_note_numbers(category, rows, idx, shared_only=not notes_in_header)
+                    for idx in active_indexes}
     include_trend = category_has_trends(rows, category)
     include_reference = not compact or any(
         target_reference(category, row[0], row[-1]) not in ("-", "") for row in rows
@@ -2252,9 +2287,7 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False,
     if include_trend:
         html += "<th>Trend</th>"
     for idx in active_indexes:
-        label = date_columns[idx]
-        if notes_in_header:
-            label = add_note_sup_html(label, column_note_numbers(category, rows, idx))
+        label = add_note_sup_html(date_columns[idx], header_notes[idx])
         html += f"<th>{label}</th>"
     html += "<th>Unit</th>"
     if include_reference:
@@ -2282,7 +2315,9 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False,
             html += f"<td>{trend_cell}</td>"
         for idx, cell in zip(active_indexes, cells):
             if not notes_in_header:
-                cell = add_note_sup_html(cell, note_numbers(category, name, "value", date_columns[idx]))
+                numbers = [number for number in note_numbers(category, name, "value", date_columns[idx])
+                           if number not in header_notes[idx]]
+                cell = add_note_sup_html(cell, numbers)
             html += f"<td>{cell}</td>"
         html += f"<td>{unit}</td>"
         if include_reference:
@@ -2297,6 +2332,8 @@ def render_result_table_html(category, rows, active_indexes=None, compact=False,
 def render_result_table_md(category, rows, active_indexes=None, compact=False, notes_in_header=False):
     if active_indexes is None:
         active_indexes = active_date_indexes(rows)
+    header_notes = {idx: column_note_numbers(category, rows, idx, shared_only=not notes_in_header)
+                    for idx in active_indexes}
     include_trend = category_has_trends(rows, category)
     include_reference = not compact or any(
         target_reference(category, row[0], row[-1]) not in ("-", "") for row in rows
@@ -2308,9 +2345,7 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False, n
         header += " Trend |"
         sep += " :--- |"
     for idx in active_indexes:
-        label = date_columns[idx]
-        if notes_in_header:
-            label = add_note_sup_md(label, column_note_numbers(category, rows, idx))
+        label = add_note_sup_md(date_columns[idx], header_notes[idx])
         header += f" {label} |"
         sep += " :--- |"
     header += " Unit |"
@@ -2342,7 +2377,9 @@ def render_result_table_md(category, rows, active_indexes=None, compact=False, n
             line += f" {trend_cell} |"
         for idx, cell in zip(active_indexes, cells):
             if not notes_in_header:
-                cell = add_note_sup_md(cell, note_numbers(category, name, "value", date_columns[idx]))
+                numbers = [number for number in note_numbers(category, name, "value", date_columns[idx])
+                           if number not in header_notes[idx]]
+                cell = add_note_sup_md(cell, numbers)
             line += f" {cell} |"
         line += f" {unit} |"
         if include_reference:

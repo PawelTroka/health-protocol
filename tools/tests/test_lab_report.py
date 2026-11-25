@@ -617,17 +617,17 @@ class SeptemberLabReportTests(unittest.TestCase):
                         self.assertEqual(literal_result(rendered_rows[marker]["2026-09"]), compact_measurement(value))
 
     def test_sparse_followups_do_not_add_empty_september_columns_to_main_tables(self):
-        categories = ("Metabolic Health", "Cardiac Health & Coagulation", "Micronutrients",
-                      "Immunology & Inflammation")
-        for category in categories:
+        cases = (("Metabolic Health", 3, 1), ("Cardiac Health & Coagulation", 3, 1),
+                 ("Micronutrients", 5, 1), ("Immunology & Inflammation", 1, 2))
+        for category, main_group_count, followup_count in cases:
             groups = self.report["lab_groups"](category, self.report["data"][category])
-            self.assertEqual(len(groups), 3 if category == "Immunology & Inflammation" else 2)
+            self.assertEqual(len(groups), main_group_count + followup_count)
             for output_format in ("html", "md"):
                 for index, group in enumerate(groups):
                     with self.subTest(category=category, group=group["title"], output_format=output_format):
                         rendered = self.report[f"render_result_table_{output_format}"](category, group["rows"])
                         header = rendered_table_rows(rendered, output_format)[0]
-                        self.assertEqual("2026-09" in header, index > 0)
+                        self.assertEqual("2026-09" in header, index >= main_group_count)
                         self.assertIn("Unit", header)
                         self.assertIn("Reference", header)
 
