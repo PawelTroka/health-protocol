@@ -1,5 +1,7 @@
 # Diet shopping plan
 
+> **8November2026 sourcing snapshot:** [Food price and subscription audit](FOOD_SUBSCRIPTIONS_2026-11.md), reconciled with the23November protocol. Dated prices and public renewal terms do not override the current shipment policy, later account observations or recorded order/refund events below.
+
 **27October2026 — current reoptimization; supersedes the dated snapshots below.** The [complete demand and shipment plan](DIET_COMPLETE_SHIPMENT_PLAN.md) now allocates every required Diet category. Tempeh and Tofu are removed. Dinner is12 Egg +6 Turkey +6 skinless Salmon +2 Mackerel +2 Sardine meals per28days; total raw Turkey demand across Lunch/Dinner is3.9kg and Salmon900g. Portions remain unchanged. All four approved Mushroom kinds are requested: the800g Oyster/Shiitake/Maitake/King Oyster candidate supplies11 full choices plus separate50g Oyster and50g Shiitake remainders needing timely same-food use. The old200g Mushroom target and proposed Shiitake removal are superseded; no daily75g demand or monthly fresh carryover is assumed.
 
 Each actual post-discount shipment should contain approximately100zł or more of genuinely needed goods; courier plus compulsory packing/fulfillment fees must be no more than10% of goods value. Prefer free home courier; paid home courier is authorized, lockers remain excluded, and the25% per-product delivered-price cap still applies. Separate renewals must pass individually; no filler or basket averaging.
