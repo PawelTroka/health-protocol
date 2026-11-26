@@ -1178,7 +1178,30 @@ Current supplies from [medeocare](https://allegro.pl/uzytkownik/medeocare); 100p
 
 ### Family history
 
-*Pending: [PR #150](https://github.com/PawelTroka/health-protocol/pull/150).*
+From family reports (updated 22 November 2026) and the MyHeritage tree.
+
+| Relative | Reported history | Age at death |
+| --- | --- | ---: |
+| Father | Hashimoto's thyroiditis since about 2016, migraines, brief past episodes of depression and anxiety disorders. No hypertension. | |
+| Mother | Overweight and foot pain. | |
+| Maternal grandmother | Overweight and knee pain. | |
+| Maternal grandfather | Type 2 diabetes and hypertension around age 75. Enlarged prostate in old age, overweight, large appetite and abdominal hernia. | 84 |
+| Paternal grandmother | Elevated blood pressure, varicose veins, smoking history and bereavement stress. | 70 |
+| Paternal grandfather | Reported fatal heart attack. Nervous temperament. | 60 |
+| Maternal uncle | Alcohol-related problems and nervousness. | 60 |
+| Paternal uncle | Weak swimmer. Worked all day in the sun, then jumped into the water and drowned. | 18 |
+| Maternal grandmother's sister | Died of leukemia. | 64 |
+| Maternal grandmother's father | Fatal stroke. | 76 |
+| Paternal grandfather's mother | Fatal stroke. | 63 |
+| Paternal grandmother's mother | Died of liver cancer. Family recalls onset after her 60th birthday. | 60 |
+| Maternal grandfather's brother | Stroke after age 80. | |
+| Grandfather Stasiek's siblings (Zośka, Maryśka and Zygmunt) | | >90 each |
+| Grandmother Genia's grandmother | | >90 |
+| Another older female relative (possibly Genia's other grandmother) | Leg fracture that did not heal; age unknown. | |
+| Older relatives, including a grandfather's father | Strokes and cardiovascular disease. | |
+| Family overall | Mother knows of no cases of Alzheimer's disease or prostate cancer. | |
+
+**Family context:** Mother reports that these older relatives had almost no medical care, took no vitamin or other supplements, ate very poorly and lived in poverty and poor living conditions.
 
 ### Genetic findings
 
