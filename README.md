@@ -68,7 +68,8 @@
 - [9. Vaccines](#9-vaccines)
 - [10. Peptides](#10-peptides)
   - [Injection supplies](#injection-supplies)
-- [11. Surgeries](#11-surgeries)
+- [11. Profile](#11-profile)
+  - [Conditions](#conditions)
 - [Legend](#legend)
 - [Notes](#notes)
   - [Totals](#totals)
@@ -257,6 +258,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Gastrointestinal Health
 - 🥈 Gastroscopy + Colonoscopy with CO2 and polypectomy (Every 5 years) 🚽 🔥 🎗️
+  - **Gastroscopy context:** [past reflux / possible hiatal hernia](#watchlist); discuss the indication with the gastroenterologist.
   - [Medical Center Gunarys](https://gunarys.pl/kolonoskopia-gdansk-gdynia) with [lek. Klaudiusz Rogalski](https://www.znanylekarz.pl/klaudiusz-rogalski/chirurg-gastrolog/gdansk)
     - Pros: selectable endoscopist; planned terminal-ileum attempt with photographic documentation; same-visit Gastroscopy; at least 2 biopsies from the terminal ileum and each colonic segment—including normal-appearing mucosa—and separate site-labelled containers can be agreed with the doctor before the procedure; small-polyp removal up to 1cm and clips are available.
     - Limitations: room-air rather than CO₂ insufflation; Diagnostyka+ histopathology without a guaranteed named IBD Pathologist; outpatient clinic with ambulance transfer to SOR for complications.
@@ -1121,7 +1123,62 @@ Current supplies from [medeocare](https://allegro.pl/uzytkownik/medeocare); 100p
 - **Drawing needles:** [Zarys dispoFINE 18G, 1.2x40mm](https://allegro.pl/oferta/igly-iniekcyjne-1-2x40-mm-18g-do-strzykawki-100szt-rozowe-dispofine-zarys-9598463062)
 - **Luer syringes:** [Three-piece syringes](https://allegro.pl/oferta/strzykawki-10ml-iniekcyjne-3-czesciowe-strzykawka-luer-beroject-100szt-kdm-11018411826)
 
-## 11. Surgeries
+## 11. Profile
+
+### Conditions
+
+[Known](#known) · [Watchlist](#watchlist) · [Resolved / treated](#resolved--treated)
+
+#### Known
+
+| Condition | Status | Details / source |
+| --- | --- | --- |
+| **Irritable bowel syndrome (IBS-U)** | Self-reported | Unclassified subtype; bloating, gas, abdominal pressure and pain. [GI follow-up](#follow-up). |
+| **Lactose intolerance** | Self-reported | Lactose-free dairy; portions adjusted to tolerance. [GI options](#-gi-options--personalize-portions). |
+| **Androgenetic alopecia** | Recorded history | Norwood 4 before the first hair transplant. [Hair](#hair) · [Transplants](#surgeries). |
+| **Diastasis / linea-alba widening** | Documented finding | Up to ~4cm at the repair site; no hernia on 19 May 2026. [Ultrasound](results.md#2026-05-19--abdominal-wall-ultrasound--after-repair). |
+
+#### Watchlist
+
+| Item | Status / source | Follow-up |
+| --- | --- | --- |
+| **Subclinical hypothyroidism** | Possible; unconfirmed. TSH 4.57 → 4.25mIU/L, July → September 2026; FT4 within range, thyroid antibodies negative. [Thyroid results](results.md#thyroid-function). | Review testing preparation and repeat thyroid tests. |
+| **Eosinophilia** | Documented; cause unresolved. 1.1×10⁹/L (15.5%) in September 2026. [Blood count](results.md#morphology). | Track on repeat blood count; review persistence. [GI follow-up](#follow-up). |
+| **Inflammatory bowel disease (IBD)** | Previously suspected; unconfirmed. Calprotectin 291.7µg/g in July → <5µg/g in September 2026; Lactoferrin <0.10µg/ml. Less evidence of active inflammation on the September tests. [Stool results](results.md#stool-analysis). | [Persistent/worsening diarrhoea, rectal bleeding or unexplained weight loss.](https://www.nhs.uk/conditions/inflammatory-bowel-disease/) |
+| **Possible hiatal hernia / past reflux** | Self-suspected; unconfirmed. Past reflux during obesity and heavy lifting with a belt; now symptom-free after weight loss and training changes (self-reported). | Discuss with the gastroenterologist when considering [gastroscopy](#gastrointestinal-health); reassess [recurrent reflux or swallowing difficulty](https://www.nhs.uk/conditions/hiatus-hernia/). [Colpermin deferred](#symptoms--follow-up). |
+| **Right shoulder / scapular symptoms** | Cause unresolved. Intermittent pain with heavier lifting; old scapular-area injury, exact tissue uncertain. [Training history](#3-exercise). | Review recurrent/worsening pain or loss of function. |
+| **Equivocal Centromere B** | September immunoblot equivocal (+), with negative ANA IIFT; no established autoimmune disease. [Antibodies](results.md#anaena-immunoblot). | [New cold-triggered finger colour changes or persistent puffy/tight fingers.](https://rheumatology.uw.edu/patient-care/patient-information-portal/scleroderma) |
+| **Sleep-breathing signal** | Withings November AHI mean 5events/h; device estimate, sleep apnoea not diagnosed. [Sleep results](results.md#sleep-and-breathing). | [Witnessed pauses/gasping, loud snoring or unexplained daytime sleepiness.](https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms) |
+| **Enteropathogenic E. coli (EPEC)** | Detected in September stool PCR; its role in symptoms is unresolved. [PCR](results.md#stool-pathogen-pcr). | Interpret alongside symptoms at [GI follow-up](#follow-up). |
+| **Urine Streptococcus agalactiae** | 2×10⁴CFU/ml in July; possible contamination/colonization, no established UTI. [Culture](results.md#urine-culture). | Review if urinary symptoms appear. |
+| **HSV IgG reactivity** | July index 1.19; type, site and clinical disease not established by this result. [Serology](results.md#infectious-diseases). | Clarify assay/type if clinically needed. |
+
+#### Resolved / treated
+
+| Condition | Status | Details / source |
+| --- | --- | --- |
+| **Nasal septal deviation** | Treated | Septorhinoplasty 28 February 2026. August CT: slight residual left-convex deviation, nasal passages patent. [CT](results.md#2026-08-14--facial-skeleton-ct) · [Surgery](#surgeries). |
+| **Sinus inflammation** | Reportedly resolved | August CT: mild mucosal thickening and bilateral ostiomeatal swelling/segmental obstruction; clinical diagnosis unconfirmed. [CT report](results/FacialCT-2026-08-14/README.md#official-radiology-report--2026-08-20). |
+| **Epigastric hernia** | Repaired | 8×8mm defect; repaired 13 January 2026. No hernia on May follow-up ultrasound. [Surgery](#surgeries). |
+| **Palatal lesion** | Removed | Excised 12 December 2025; histology not recorded here. [Surgery](#surgeries). |
+| **Right metatarsal injury** | Past; reportedly resolved | Injury type not recorded. [Training history](#3-exercise). |
+
+**Monitoring:** mineral intake and blood pressure on current medicines/supplements. [Follow-up notes](#follow-up).
+
+### Goals
+
+- **Physique:** leaner without losing muscle; better posture, broader shoulders and upper back (lateral delts, upper lats). [Exercise](#3-exercise) · [Measurements](results.md#body-measurements).
+- **Cut:** preserve strength, recovery and libido.
+
+### Family history
+
+*Pending: [PR #150](https://github.com/PawelTroka/health-protocol/pull/150).*
+
+### Genetic findings
+
+*Pending: [PR #201](https://github.com/PawelTroka/health-protocol/pull/201).*
+
+### Surgeries
 
 - **Sapphire FUE Hair Transplant**
   - **Date**: November 19, 2021
@@ -1472,8 +1529,8 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 ### Follow-up
 
-- **GI follow-up:** September 2026 Stool Calprotectin was <5µg/g, improved from July 291.7µg/g; Lactoferrin was <0.10µg/ml. Use the [latest results](results.md#stool-analysis), current symptoms and clinician assessment when choosing GI trials. This does not identify which supplement helped or rule out every cause of symptoms. Persistent symptoms and the separate Eosinophilia still need follow-up; supplements must not delay evaluation of bleeding, unintended weight loss or other concerning changes. [IBD nutrition guidance](https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/)
-- **B6/Zinc:** B6 was 101.5µg/L; avoid extra B6 and arrange review/retesting despite the lower current intake. New tingling, numbness or balance symptoms need assessment. Do not add Zinc; review Copper status if the current exposure continues. [B6 assessment](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8006) [Zinc guidance](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/)
+- **GI follow-up:** Use the [Watchlist](#watchlist), [latest results](results.md#stool-analysis), current symptoms and clinician assessment when choosing GI trials. Improvement does not establish which supplement helped or rule out every cause. Supplements must not delay evaluation of persistent symptoms, Eosinophilia, bleeding or unintended weight loss. [IBD nutrition guidance](https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/)
+- **Zinc/Copper:** Do not add Zinc; review Copper status if the current exposure continues. [Zinc guidance](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/)
 - **Magnesium:** conservative supplemental accounting exceeds EFSA 250mg/day in all scenarios; Sauna also exceeds US 350mg/day. These limits mainly concern GI effects and exclude food Magnesium. Keep E.12 only for a repeatable benefit without GI effects; do not restore the second capsule. Kidney impairment needs particular review. [EFSA limits](https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf) [NIH guidance](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/)
 - **Blood Pressure:** review Citrulline 8g alongside Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna. Check seated/standing BP, especially during the first 1–2 weeks after the Garlic switch; review dizziness, near-fainting or unusual weakness. Separating doses does not remove systemic interactions. Free Taurine 4g also exceeds the standalone product's one-capsule directions. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) [Taurine label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)
 - **Berberine:** reassess Glucose/HbA1c, ApoB/lipids, Liver tests, BP and GI tolerance after 8–12 weeks. The existing fallback for intolerance is Lunch-only. Its CYP interaction potential persists with split dosing. TMG follow-up uses Homocysteine and lipids. [Human Berberine interaction study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4898966/) [TMG review](https://pubmed.ncbi.nlm.nih.gov/33764214/)
@@ -1518,7 +1575,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 
 ### Symptoms & follow-up
 
-- [ ] 🥈 **[Colpermin® Peppermint Oil 187mg](https://www.colpermin.com/):** 🚽 a short trial for IBS pain/cramping/bloating. Label: 1 intact capsule 3x/day, ≥2 hours from food and separated from antacids/acid-suppressing medicines. Check access and timing fit. Can worsen reflux; avoid with Peanut/Soya allergy and check biliary/liver contraindications. It does not treat IBD. [Product information](https://www.medicines.org.uk/emc/product/1076/smpc) · [Evidence](https://pubmed.ncbi.nlm.nih.gov/35942669/)
+- [ ] 🥈 **[Colpermin® Peppermint Oil 187mg](https://www.colpermin.com/):** 🚽 **Defer pending GI review** of [past reflux / possible hiatal hernia](#watchlist). If reconsidered for IBS pain/cramping/bloating: 1 intact capsule 3x/day, ≥2 hours from food and separated from antacids/acid-suppressing medicines. Check access and timing fit. Can worsen reflux; stop if heartburn worsens. Avoid with Peanut/Soya allergy and check biliary/liver contraindications. It does not treat IBD. [Product information](https://www.medicines.org.uk/emc/product/1076/smpc) · [Evidence](https://pubmed.ncbi.nlm.nih.gov/35942669/)
 - [ ] 🥇 **[Skinoren Azelaic Acid 15% gel](https://www.gdziepolek.pl/produkty/71824/skinoren-zel/apteki):** 👨‍🦳 Polish OTC option for persistent acne/post-acne red or brown marks after compatibility review with the E.1.1 prescriber. It is not a general pore treatment. If selected, follow the [label](https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/10628/characteristic), check tolerance/acne after about 4 weeks and marks at 8–12 weeks. A [15% gel trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC11116308/) used a different product and excluded other acne treatments; no automatic addition to the current regimen.
 
 ### Training & occasional use
