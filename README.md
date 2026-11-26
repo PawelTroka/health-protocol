@@ -1182,7 +1182,14 @@ Current supplies from [medeocare](https://allegro.pl/uzytkownik/medeocare); 100p
 
 ### Genetic findings
 
-*Pending: [PR #201](https://github.com/PawelTroka/health-protocol/pull/201).*
+- [Family Finder DNA review](DNA/FAMILY_FINDER_REVIEW.md) (22 November 2026)
+  - **Heart.** The [atrial fibrillation scores](DNA/FAMILY_FINDER_REVIEW.md#prostate-cancer-atrial-fibrillation-alzheimers-and-coeliac-disease) disagreed. Bring recurrent irregular-rhythm alerts or palpitations to a clinician for ECG review. The [coronary score](DNA/FAMILY_FINDER_REVIEW.md#coronary-heart-disease) was also too uncertain to assign a risk group. Use measured lipids, blood pressure and family history.
+  - **Blood sugar.** The type 2 diabetes score was around the 65th percentile among 313 Finnish, Iberian and Tuscan reference participants (roughly 49th–83rd). HbA1c measured 5.3% in July 2026.
+  - **Digestion.** Two linked markers suggest lower lactose digestion in adulthood. Keep dairy that agrees with you. The lactose-free kefir and skyr already fit.
+  - **Hair and skin.** The [hair-loss score](DNA/FAMILY_FINDER_REVIEW.md#hair-loss-type-2-diabetes-and-testosterone) was around the 90th percentile among 145 reference men, consistent with the pattern already recorded. Two acne markers are linked to slightly higher odds of acne.
+  - **Prostate.** Two diagnosis scores ranked around the 73rd and 67th percentiles among 145 reference men. These scores cannot tell whether a tumour would be aggressive. At a PSA review, give the clinician the dutasteride schedule because it can lower the measured PSA.
+  - **Alzheimer’s.** Two scores outside APOE had wide ranges. Personal dementia risk and APOE ε4 status remain unresolved.
+  - **Longevity and sexual health.** The review found no reliable personal estimate of lifespan, erectile function or fertility. Use measured testosterone for hormone decisions.
 
 ### Surgeries
 

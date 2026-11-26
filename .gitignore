@@ -14,3 +14,7 @@ __pycache__/
 # Private API exports and daily sync cache; OAuth credentials live outside Git.
 /.health-sync/
 /tools/.secrets/
+
+# Keep Family Finder downloads and extracted genotypes local.
+/DNA/*
+!/DNA/FAMILY_FINDER_REVIEW.md
