@@ -400,11 +400,9 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 **Food forms:** fresh or plain frozen Vegetables, prepared as listed; Pulses cooked from dried. The existing Sardine and Mackerel options are the only canned-food exceptions.
 
-**How to use:** every CHOOSE list ranks options by evidence-weighted Health, Longevity, Looksmaxxing and Sexual Health benefit at the listed portions, adjusted for GI tolerance and stack fit. Fixed items plus checked choices form the default day. Choose Spices & Herbs at their individual portions; rotate foods across the week and recalculate Macros for substitutions.
+**Choices:** keep fixed items; follow CHOOSE ONE / CHOOSE ANY at the listed portions. Rotate across the week.
 
 **Dental staining:** 🟡 marks a possible staining source for natural/whitened teeth or composite bonding. Evidence varies; use the [care guide and evidence tiers](#dental-staining) to manage contact while keeping nutritious foods.
-
-**Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Rotate all four listed Mushrooms at their written 75g portions (50g King Oyster); this is a purchasing rotation rather than a daily 75g requirement. Variety accumulates across the week; every alternative need not be bought or eaten.
 
 > **GI fit:** ~51g Fiber includes PHGG 7g; use tolerated portions and build Pulses gradually. [Adjustments](#-gi-options--personalize-portions).
 
@@ -439,7 +437,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 #### 🍽️ Lunch (1pm — Lean Protein, Training Fuel & Colorful Plants)
 *613kcal · P47.5g · C58.7g · F17.9g · Fiber15.8g*
 
-*Weigh Turkey and thawed Pollock raw (exclude glaze), starch after preparation, steamed Vegetables after preparation, Mushrooms/Sprouts before steaming, and raw Vegetables/Microgreens/Berries as eaten.*
+*Weights: [raw, cooked or drained](#diet-food-forms).*
 - 🥩 **Lean Protein — CHOOSE ONE**
   - [x] 🥇 150g [organic pasture-raised Turkey tenderloins](https://allegro.pl/oferta/poledwiczka-z-indyka-eko-500-g-18514942496) 💪 🪶
     - `171kcal · P38g · C0g · F2.1g · Vitamin B3 · Vitamin B6 · Vitamin B12 · Carnosine · Anserine · Creatine · Taurine`
@@ -555,7 +553,8 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 #### 🍽️ Dinner (9pm; finish at least 2–3 hours before sleep — Recovery, Leafy Greens & Whole Fruit)
 *934kcal · P52.9g · C67.6g · F47.6g · Fiber13g*
-*Weigh Salmon, Eggs (without shells), Tomatoes, Okra, Asparagus and peeled Celeriac raw; starch after preparation; remaining cooked Vegetables after preparation; Fruit, Nuts, Seeds and Fermented foods as eaten.*
+
+*Weights: [raw, cooked or drained](#diet-food-forms).*
 - 🐟 **Fatty Protein — CHOOSE ONE**
   - [x] 🥇 150g [Norwegian Salmon without skin](https://zakupy.auchan.pl/products/ryba-filet-z-łososia-bez-skóry-pewni-dobrego-na-wagę-ok-500-g/00754425) 💪 🍎 ❤️ 🧠 👁️ 🪶
     - `335kcal · P29.9g · C0g · F23.9g · EPA/DHA · Vitamin D3 · Vitamin B12 · Selenium · Astaxanthin · Anserine · Creatine · Taurine`
@@ -1331,8 +1330,14 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 
 #### Diet calculation
 
+**Choices:** CHOOSE lists rank evidence-weighted Health, Longevity, Looksmaxxing and Sexual Health benefit at the listed portions, adjusted for GI tolerance and stack fit. Fixed items plus checked choices form the default day; recalculate Macros for substitutions. Variety accumulates across the week; every alternative need not be bought or eaten.
+
+**Daily foundation:** 400g main Vegetables + 30–50g Microgreens, 150g Blueberries/Strawberries or 100g other Berries, one Whole Fruit choice (checked 2Kiwis150g), 25g dry Oats + 10g Oat Bran, 14g Seeds (7g Morning + 7g Dinner), 20g Nuts and 27g fixed EVOO daily, with Dinner's Optional Additional Healthy Fats choice, using tolerated portions. Rotate all four listed Mushrooms at their written 75g portions (50g King Oyster); this is a purchasing rotation rather than a daily 75g requirement.
+
+Vitamin, mineral and food-compound names without amounts describe typical composition. Weigh foods using the [preparation bases below](#diet-food-forms).
+
 - **Energy estimates:** WPI uses 116kcal per 30g serving; its 28g Protein is a dry-matter-based planning figure, and residual Lactose is unquantified. EAA 15g powder supplies 14.189g amino-acid bases and uses a 60kcal allowance, retaining the existing 4kcal/g powder model. The 4scoop Collagen target is modeled as 13.33g Protein/53kcal from KFD's 5g-per-1.5scoop ratio. MicroVitamin+ contributes modeled Collagen 50kcal; combined Psyllium contributes ~20kcal/8g Fiber. [WPI panel](https://www.hsnstore.at/en/brands/raw-series/100-whey-protein-isolate-2kg-unflavoured) [EAA panel](https://www.hsnstore.com/marcas/raw-series/aminoacidos-esenciales-eaa-s-en-polvo-1kg-sin-sabor) [Collagen directions](https://sklep.kfd.pl/kfd-ultra-pure-joint-collagen-300-g-p-8440.html) [Psyllium panel](https://gymbeam.pl/psyllium-husks-gymbeam.html)
-- **Fiber:** single planning estimates use the previous range midpoints: Psyllium 8g, Morning 14.5g and Dinner 12.5g; default-day Fiber 50.3g.
+- **Fiber:** single planning estimates use the previous range midpoints: Psyllium 8g, Morning 14.5g and Dinner 13g; default-day Fiber 51.3g.
 - **EvoBomb:** ~67kcal is modeled from free amino acids, Malate and estimated Maltodextrin; the plausible range is 61–73kcal pending a complete nutrition panel. Its free amino acids are kept outside dietary Protein. Other blend/carrier energy remains partly unquantified. [HSN formula](https://www.hsnstore.eu/brands/sport-series/evobomb) [EU energy factors](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32011R1169)
 - **PHGG / A.0.3:** Doctor's Best's 7g serving supplies 15kcal, 7g total Carbohydrate and 6g Fiber; available Carbohydrate is ~1g (total minus Fiber), estimated from rounded label values. Protein/Fat are unquantified. [Label](https://doctorsbest.com/products/doctor-s-best-prebiotic-powder-sunfiber-unflavored-7-4-oz-210-g-147283)
 - **Carbohydrate:** Fiber is separate. USDA proxies use total Carbohydrate minus Fiber; labels and Norwegian data already reporting available Carbohydrate are used directly. Portions, cooking losses and incomplete panels make the daily figures estimates.
@@ -1351,9 +1356,16 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 
 | Food | Weighing basis |
 | --- | --- |
-| Turkey, Salmon, Pollock, Shrimps | Raw edible weight; exclude Pollock glaze |
+| Turkey, Salmon, Pollock, Shrimps | Raw edible weight; thaw Pollock and exclude glaze |
 | Eggs | Raw shell-free weight; 200g is roughly 4 medium Eggs |
+| Mussels | Cooked edible weight |
+| Potatoes and Sweet Potatoes | After preparation |
 | Pulses and Quinoa | Cooked; drain Pulses. Dry-pack values do not apply directly |
+| Mushrooms, Broccoli Sprouts, Radish Sprouts | Before steaming |
+| Tomatoes, Okra, Asparagus, Celeriac | Raw edible weight; peel Celeriac |
+| Other cooked Vegetables | After preparation |
+| Raw Vegetables, Microgreens and Berries | As eaten |
+| Nuts, Seeds and Fermented foods | As eaten |
 | Sardines / Mackerel | Drained: 2×85g tins / 125g jar contents; retained Oil is already counted |
 | Whole Fruit | Edible flesh; exclude discarded peel, stones and membranes |
 
