@@ -85,6 +85,7 @@ TIER_BY_CODE = {
     "L.15": "🥈",
     "L.16": "🥉",
     "L.17": "🥉",
+    "L.18": "🥈",
     "E.1.1": "🥉",
     "E.1.2": "🥇",
     "E.2": "🥇",
@@ -288,7 +289,7 @@ PAGES = [
             item("L.15", "Aged Black-Garlic Extract", "500 mg", icons="❤️ 🩸 🛡️ 🔄", note="SAC 2.5 mg • standardized to 0.5%"),
             item("L.16", "Phosphatidylserine", "300 mg", icons="🧠 😌"),
             item("L.17", "Milk Thistle", "380 mg", icons="🟤 🔄"),
-            empty("L.18"),
+            item("L.18", "Citicoline (Cognizin®)", "250mg", icons="🧠 ⚡", note="Life Extension • 12-week trial", same_slot_count=2),
         ],
     },
     {
@@ -689,7 +690,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 24 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 25 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
