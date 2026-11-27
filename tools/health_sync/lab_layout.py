@@ -1,7 +1,7 @@
-"""Compact laboratory tables without changing category, order, or result data.
+"""Compact laboratory tables without changing categories or result data.
 
-Selected follow-up markers use a smaller table so their extra dates do not add
-empty columns to the main panel. Renderers choose active dates for each group.
+Clinical groups and selected follow-up tables limit empty date columns while
+keeping each marker's history together. Renderers choose active dates per group.
 Unrecognized metrics remain visible until deliberately assigned to a group.
 """
 
@@ -22,6 +22,9 @@ _FOLLOWUP_GROUPS = {
     ),
     "Micronutrients": (
         "Selenium", frozenset({"Selenium"}),
+    ),
+    "Infectious Diseases": (
+        "SARS-CoV-2 RT-PCR", frozenset({"SARS-CoV-2 RT-PCR"}),
     ),
     "Urine Chemistry": (
         "Creatinine & Cystine",
@@ -62,6 +65,62 @@ _HORMONE_GROUPS = (
 )
 
 
+_MAIN_GROUPS = {
+    "Hormonal Panel": ("Additional Hormonal Markers", _HORMONE_GROUPS),
+    "Metabolic Health": ("Additional Metabolic Markers", (
+        ("Glucose & Insulin", frozenset({"Glucose", "HbA1c", "Insulin"})),
+        ("Liver Function", frozenset({
+            "ALT", "AST", "GGTP", "Bilirubin Total", "Bilirubin Direct", "ALP", "Albumin",
+        })),
+        ("Kidney Function", frozenset({"Creatinine", "Cystatin C", "eGFR"})),
+    )),
+    "Cardiac Health & Coagulation": ("Additional Cardiac Markers", (
+        ("Lipids & Apolipoproteins", frozenset({
+            "Cholesterol LDL", "Cholesterol Non-HDL", "Cholesterol HDL", "Cholesterol Total",
+            "Triglycerides", "Lipoprotein (a)", "ApoA1", "ApoB",
+        })),
+        ("Cardiac Markers", frozenset({"Homocysteine", "NT-proBNP", "Myoglobin"})),
+        ("Coagulation", frozenset({
+            "D-dimer", "Fibrinogen", "INR", "APTT", "PT", "Prothrombin Index",
+        })),
+    )),
+    "Micronutrients": ("Additional Micronutrient Markers", (
+        ("Fat-Soluble Vitamins", frozenset({"Vitamin D3", "Vitamin A", "Vitamin E"})),
+        ("Water-Soluble Vitamins", frozenset({
+            "Vitamin B12", "Folic Acid", "Vitamin B6", "Vitamin B1", "Vitamin C",
+        })),
+        ("Iron Status", frozenset({"Ferritin", "Iron", "Transferrin"})),
+        ("Major Minerals & Electrolytes", frozenset({
+            "Magnesium", "Potassium", "Sodium", "Calcium (Total)", "Fosfor",
+        })),
+        ("Trace-Element Markers", frozenset({
+            "Ceruloplasmin", "Iodine (Serum)", "Zinc", "Copper (Serum)",
+        })),
+    )),
+}
+
+
+def _main_groups(category, rows):
+    if not rows:
+        return []
+    specification = _MAIN_GROUPS.get(category)
+    if specification is None:
+        return [{"title": None, "rows": rows}]
+
+    additional_title, definitions = specification
+    groups = []
+    known_names = set()
+    for title, names in definitions:
+        known_names.update(names)
+        selected = [row for row in rows if row[0] in names]
+        if selected:
+            groups.append({"title": title, "rows": selected})
+    additional = [row for row in rows if row[0] not in known_names]
+    if additional:
+        groups.append({"title": additional_title, "rows": additional})
+    return groups
+
+
 def lab_groups(category, rows):
     """Return nonempty ``{title, rows}`` groups retaining every original row.
 
@@ -77,22 +136,9 @@ def lab_groups(category, rows):
         if immunoblot:
             remaining = [row for row in rows if row[0] not in ANA_ENA_MARKERS]
             return lab_groups(category, remaining) + [{"title": "ANA/ENA Immunoblot", "rows": immunoblot}]
-    if category == "Hormonal Panel":
-        groups = []
-        known_names = set()
-        for title, names in _HORMONE_GROUPS:
-            known_names.update(names)
-            selected = [row for row in rows if row[0] in names]
-            if selected:
-                groups.append({"title": title, "rows": selected})
-        additional = [row for row in rows if row[0] not in known_names]
-        if additional:
-            groups.append({"title": "Additional Hormonal Markers", "rows": additional})
-        return groups
-
     specification = _FOLLOWUP_GROUPS.get(category)
     if specification is None:
-        return [{"title": None, "rows": rows}]
+        return _main_groups(category, rows)
 
     followup_title, followup_names = specification
     main_rows = []
@@ -100,12 +146,7 @@ def lab_groups(category, rows):
     for row in rows:
         (followup_rows if row[0] in followup_names else main_rows).append(row)
 
-    groups = []
-    if main_rows:
-        groups.append({
-            "title": None,
-            "rows": main_rows,
-        })
+    groups = _main_groups(category, main_rows)
     if followup_rows:
         groups.append({"title": followup_title, "rows": followup_rows})
     return groups

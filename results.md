@@ -577,11 +577,18 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 
 ## Metabolic Health
 
+### Glucose & Insulin
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | 2015-01-14<sup>2</sup> | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Glucose** | ⚪ | 🔵 86 | 🔵 84 | 🔵 89 | 🔵 70 | - | mg/dl | 70 - 99; target 70 - 85 |
+| **HbA1c** | ⚪ | 🔵 5.3 | 🔵 5.18 | 🔵 5.3 | - | - | % | 4.8 - 5.9; target 4.8 - 5.3 |
+| **Insulin** | 🟢 | 🔵 8.6 | 🔵 11.2 | 🔵 8.9 | - | 🟢 16.4 | uU/mL | 2.6 - 24.9; target 2.6 - 8 |
+
+### Liver Function
+
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Glucose** | ⚪ | 🔵 86 | 🔵 84 | 🔵 89 | 🔵 70 | mg/dl | 70 - 99; target 70 - 85 |
-| **HbA1c** | ⚪ | 🔵 5.3 | 🔵 5.18 | 🔵 5.3 | - | % | 4.8 - 5.9; target 4.8 - 5.3 |
-| **Insulin** | 🟢 | 🔵 8.6 | 🔵 11.2 | 🔵 8.9 | - | uU/mL | 2.6 - 24.9; target 2.6 - 8 |
 | **ALT** | 🟡<sup>1</sup> | 🔵 18 | 🔵 12 | 🔵 14 | - | U/L | < 41; target <= 20 |
 | **AST** | 🟡<sup>1</sup> | 🔵 33 | 🔵 20 | 🔵 25 | - | U/L | < 40; target 15 - 30 |
 | **GGTP** | 🟡 | 🔵 18 | 🔵 14 | 🔵 18 | 🔵 18 | U/L | < 60; target <= 20 |
@@ -589,9 +596,14 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 | **Bilirubin Direct** | - | 🟡<sup>1</sup> 0.33 ↑ | - | - | - | mg/dL | < 0.3; target <= 0.2 |
 | **ALP** | ⚪ | 🔵 76 | - | 🔵 89 | - | U/L | 40 - 129; target 50 - 90 |
 | **Albumin** | - | 🔵 48.90 | - | - | - | g/l | 35 - 52; target 45 - 52 |
-| **Creatinine** | ⚪ | 🔵 0.96 | 🔵 0.93 | 🔵 0.93 | - | mg/dl | 0.70 - 1.20; target 0.80 - 1.10 |
-| **Cystatin C** | - | 🔵 0.80 | - | - | - | mg/l | 0.51 - 1.05; target 0.60 - 0.90 |
-| **eGFR** | - | 🔵 101.5 | 🟢 >60 | 🟢 >60 | - | ml/min/1.73m^2 | > 60; target 90 - 120 |
+
+### Kidney Function
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Creatinine** | ⚪ | 🔵 0.96 | 🔵 0.93 | 🔵 0.93 | mg/dl | 0.70 - 1.20; target 0.80 - 1.10 |
+| **Cystatin C** | - | 🔵 0.80 | - | - | mg/l | 0.51 - 1.05; target 0.60 - 0.90 |
+| **eGFR** | - | 🔵 101.5 | 🟢 >60 | 🟢 >60 | ml/min/1.73m^2 | > 60; target 90 - 120 |
 
 ### LDH & Uric Acid
 
@@ -602,22 +614,35 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 
 **Notes:**
 <sup>1</sup> Liver enzymes remain within range, but trends are interpreted in the context of isotretinoin plus Fo-Ti. Fo-Ti is being discontinued because Polygonum multiflorum has documented liver-injury risk and little upside.
+<sup>2</sup> 2015-01-14: <a href='results/Historical-Labs/Sources.md'>source reports and original ranges</a>.
 
 ## Cardiac Health & Coagulation
 
+### Lipids & Apolipoproteins
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | 2023-10-02<sup>3</sup> | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Cholesterol LDL** | 🟢 | 🔵 68 | 🔵 76 | 🔵 74 | 🔵 75 | 🔵 73 | mg/dl | < 115; target < 70 |
+| **Cholesterol Non-HDL** | 🟢 | 🔵 81 | 🔵 96 | - | - | 🔵 84 | mg/dL | < 130; target < 100 |
+| **Cholesterol HDL** | 🟡 | 🟡<sup>1</sup> 38 ↓ | 🟢 43 | 🟡 35 ↓ | - | 🟢 41 | mg/dL | > 40; target 55 - 80 |
+| **Cholesterol Total** | ⚪ | 🔵 118 | 🔵 138 | 🔵 119 | - | 🔵 125 | mg/dL | < 190; target 120 - 170 |
+| **Triglycerides** | 🟢 | 🔵 57 | 🔵 98 | 🔵 48 | 🔵 56 | 🔵 54 | mg/dL | < 150; target < 80 |
+| **Lipoprotein (a)** | ⚪ | 🔵 7.16 | 🔵 < 7 | - | - | - | nmol/l | < 75; target < 30 |
+| **ApoA1** | - | 🟡 1.05 ↓ | - | - | - | - | g/l | 1.10 - 2.05; target >= 1.20 |
+| **ApoB** | - | 🔵 0.60 | - | - | - | - | g/l | < 1; target < 0.65 |
+
+### Cardiac Markers
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | 2015-01-14<sup>4</sup> | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Homocysteine** | 🟠 | 🟢 9.07 | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | 🟡 10.74 ↑ | umol/l | < 10; target < 8 |
+| **NT-proBNP** | 🟢 | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10 | - | pg/ml | < 125; target < 50 |
+| **Myoglobin** | 🔵 | 🔵 33.40 | 🟡 24.30 ↓ | 🔵 42.60 | - | - | ng/ml | 28 - 72; target 28 - 50 |
+
+### Coagulation
+
 |  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Cholesterol LDL** | 🟢 | 🔵 68 | 🔵 76 | 🔵 74 | 🔵 75 | mg/dl | < 115; target < 70 |
-| **Cholesterol Non-HDL** | 🟢 | 🔵 81 | 🔵 96 | - | - | mg/dL | < 130; target < 100 |
-| **Cholesterol HDL** | 🟡 | 🟡<sup>1</sup> 38 ↓ | 🟢 43 | 🟡 35 ↓ | - | mg/dL | > 40; target 55 - 80 |
-| **Cholesterol Total** | ⚪ | 🔵 118 | 🔵 138 | 🔵 119 | - | mg/dL | < 190; target 120 - 170 |
-| **Triglycerides** | 🟢 | 🔵 57 | 🔵 98 | 🔵 48 | 🔵 56 | mg/dL | < 150; target < 80 |
-| **Lipoprotein (a)** | ⚪ | 🔵 7.16 | 🔵 < 7 | - | - | nmol/l | < 75; target < 30 |
-| **ApoA1** | - | 🟡 1.05 ↓ | - | - | - | g/l | 1.10 - 2.05; target >= 1.20 |
-| **ApoB** | - | 🔵 0.60 | - | - | - | g/l | < 1; target < 0.65 |
-| **Homocysteine** | 🟠 | 🟢 9.07 | 🔵 6.74 | 🔵 6.60 | 🔵 6.50 | umol/l | < 10; target < 8 |
-| **NT-proBNP** | 🟢 | 🔵 14.6 | 🔵 22.9 | 🔵 22.9 | 🔵 < 10 | pg/ml | < 125; target < 50 |
-| **Myoglobin** | 🔵 | 🔵 33.40 | 🟡 24.30 ↓ | 🔵 42.60 | - | ng/ml | 28 - 72; target 28 - 50 |
 | **D-dimer** | ⚪ | - | 🔵 < 190 | 🔵 < 190 | 🔵 < 190 | ng/ml | < 500; target < 250 |
 | **Fibrinogen** | - | 🔵 3.1 | - | - | - | g/l | 2 - 4; target 2 - 3.2 |
 | **INR** | ⚪ | 🔵 0.98 | 🔵 0.94 | - | - |  | 0.80 - 1.20; target 0.9 - 1.1 |
@@ -634,31 +659,55 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 **Notes:**
 <sup>1</sup> Mildly low HDL sits alongside favorable ApoB, LDL, triglycerides and inflammation markers. Focus on overall cardiovascular risk rather than raising HDL alone.
 <sup>2</sup> CK fell from 222 to 118U/L, back within range after July's intensive training block.
+<sup>3</sup> 2023-10-02: <a href='results/Historical-Labs/Sources.md'>source reports and original ranges</a>. LDL and non-HDL are calculated.
+<sup>4</sup> 2015-01-14: <a href='results/Historical-Labs/Sources.md'>source reports and original ranges</a>.
 
 ## Micronutrients
 
-|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | Unit | *Reference* |
+### Fat-Soluble Vitamins
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2025-01 | 2015-01-14<sup>2</sup> | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Vitamin D3** | 🔵 | 🔵 46 | 🟡 26.3 ↓ | 🟡 52.5 ↑ | 🔵 37.9 | 🟡 18.40 ↓ | ng/ml | 30 - 50; target 35 - 50 |
+| **Vitamin A** | ⚪ | 🔵 0.66 | 🔵 0.47 | 🔵 0.47 | - | - | mg/l | 0.3 - 0.7; target 0.4 - 0.7 |
+| **Vitamin E** | ⚪ | 🔵 11.4 | 🔵 11 | 🔵 9.5 | - | - | mg/l | 5 - 20; target 8 - 18 |
+
+### Water-Soluble Vitamins
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Vitamin B12** | ⚪<sup>1</sup> | 🔵<sup>1</sup> 859 ↑ | 🔵 562 | 🔵<sup>1</sup> 928 ↑ | pg/ml | 197 - 771; target 400 - 900 |
+| **Folic Acid** | ⚪ | 🔵 21.1 | 🔵 8.5 | 🔵 17 | ng/ml | 3.9 - 26.8; target 8 - 20 |
+| **Vitamin B6** | 🟠 | 🟡 101.5 ↑ | - | 🟡 58.6 ↑ | ug/l | 5.7 - 55.1; target 10 - 50 |
+| **Vitamin B1** | ⚪ | 🔵 54.2 | 🔵 33.6 | 🟡 69.1 ↑ | ug/l | 33.1 - 60.7; target 33.1 - 55 |
+| **Vitamin C** | 🟢 | 🟢 5 | 🟢 4.6 | - | ug/ml | 4 - 15; target 6 - 15 |
+
+### Iron Status
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2015-01-14<sup>2</sup> | Unit | *Reference* |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Vitamin D3** | 🔵 | 🔵 46 | 🟡 26.3 ↓ | 🟡 52.5 ↑ | 🔵 37.9 | ng/ml | 30 - 50; target 35 - 50 |
-| **Vitamin B12** | ⚪<sup>1</sup> | 🔵<sup>1</sup> 859 ↑ | 🔵 562 | 🔵<sup>1</sup> 928 ↑ | - | pg/ml | 197 - 771; target 400 - 900 |
-| **Ferritin** | 🟡 | 🟢 42 | 🔵 78 | 🔵 134 | - | ng/ml | 30 - 400; target 50 - 150 |
+| **Ferritin** | 🟡 | 🟢 42 | 🔵 78 | 🔵 134 | 🔵 118.3 | ng/ml | 30 - 400; target 50 - 150 |
 | **Iron** | 🔵 | 🔵 125 | 🟡 41 ↓ | 🔵 98 | - | ug/dl | 59 - 150; target 80 - 150 |
 | **Transferrin** | ⚪ | 🔵 3 | 🔵 3 | - | - | g/l | 2 - 3.60; target 2.2 - 3.2 |
-| **Ceruloplasmin** | - | 🔵 0.20 | - | - | - | g/L | 0.15 - 0.30; target 0.20 - 0.30 |
-| **Folic Acid** | ⚪ | 🔵 21.1 | 🔵 8.5 | 🔵 17 | - | ng/ml | 3.9 - 26.8; target 8 - 20 |
+
+### Major Minerals & Electrolytes
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | 2015-01-14<sup>2</sup> | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Magnesium** | 🟢 | 🔵 2.07 | 🔵 1.90 | 🔵 2.13 | - | mg/dl | 1.60 - 2.60; target 2 - 2.3 |
-| **Potassium** | ⚪ | 🔵 4 | 🔵 4.2 | 🟢 3.8 | - | mmol/l | 3.5 - 5.1; target 4 - 4.8 |
-| **Sodium** | ⚪ | 🔵 139 | 🔵 140 | - | - | mmol/l | 136 - 145; target 138 - 142 |
-| **Calcium (Total)** | 🟢 | 🔵 9.58 | 🟢 9.88 | 🟢 9.88 | - | mg/dL | 8.60 - 10; target 9 - 9.8 |
+| **Potassium** | ⚪ | 🔵 4 | 🔵 4.2 | 🟢 3.8 | 🔵 4.2 | mmol/l | 3.5 - 5.1; target 4 - 4.8 |
+| **Sodium** | ⚪ | 🔵 139 | 🔵 140 | - | 🔵 141 | mmol/l | 136 - 145; target 138 - 142 |
+| **Calcium (Total)** | 🟢 | 🔵 9.58 | 🟢 9.88 | 🟢 9.88 | 🟢 9.9 | mg/dL | 8.60 - 10; target 9 - 9.8 |
 | **Fosfor** | 🔵 | 🔵 3.10 | 🟡 4.83 ↑ | 🔵 3.7 | - | mg/dL | 2.5 - 4.5; target 3 - 4 |
-| **Iodine (Serum)** | - | 🔵 72 | - | - | - | ug/l | 40 - 80; target 40 - 80 |
-| **Zinc** | ⚪ | 🔵 16.93 | 🔵 13.90 | 🟡 22.07 ↑ | - | umol/l | 9 - 18; target 11 - 18 |
-| **Copper (Serum)** | - | 🔵 871.5 | - | - | - | ug/l | 560 - 1110; target 700 - 1100 |
-| **Vitamin B6** | 🟠 | 🟡 101.5 ↑ | - | 🟡 58.6 ↑ | - | ug/l | 5.7 - 55.1; target 10 - 50 |
-| **Vitamin B1** | ⚪ | 🔵 54.2 | 🔵 33.6 | 🟡 69.1 ↑ | - | ug/l | 33.1 - 60.7; target 33.1 - 55 |
-| **Vitamin A** | ⚪ | 🔵 0.66 | 🔵 0.47 | 🔵 0.47 | - | mg/l | 0.3 - 0.7; target 0.4 - 0.7 |
-| **Vitamin E** | ⚪ | 🔵 11.4 | 🔵 11 | 🔵 9.5 | - | mg/l | 5 - 20; target 8 - 18 |
-| **Vitamin C** | 🟢 | 🟢 5 | 🟢 4.6 | - | - | ug/ml | 4 - 15; target 6 - 15 |
+
+### Trace-Element Markers
+
+|  | Trend | 2026-07 | 2026-01 | 2025-05 | Unit | *Reference* |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Ceruloplasmin** | - | 🔵 0.20 | - | - | g/L | 0.15 - 0.30; target 0.20 - 0.30 |
+| **Iodine (Serum)** | - | 🔵 72 | - | - | ug/l | 40 - 80; target 40 - 80 |
+| **Zinc** | ⚪ | 🔵 16.93 | 🔵 13.90 | 🟡 22.07 ↑ | umol/l | 9 - 18; target 11 - 18 |
+| **Copper (Serum)** | - | 🔵 871.5 | - | - | ug/l | 560 - 1110; target 700 - 1100 |
 
 ### Selenium
 
@@ -668,6 +717,7 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 
 **Notes:**
 <sup>1</sup> Vitamin B12 went above range, likely from supplementation. B12 toxicity is generally low, but the plan is to lower the supplementation dose.
+<sup>2</sup> 2015-01-14: <a href='results/Historical-Labs/Sources.md'>source reports and original ranges</a>.
 
 ## Immunology & Inflammation
 
@@ -753,6 +803,15 @@ Monthly device summaries<sup>6</sup> and classification counts<sup>7</sup> use r
 | **Chlamydia IgM** | 🟢 | 🔵 2 | 🔵 2.7 | 🔵 2.7 | 🔵 2.7 | NTU | < 9 |
 | **HSV IgG** | 🟠 | 🟡 1.19 ↑ | 🟢 0.79 | 🟡 1.35 ↑ | 🟡 1.7 ↑ | Index | < 0.9 |
 | **HSV IgM** | ⚪ | 🔵 < 0.5 | 🔵 < 0.5 | 🔵 negative | 🔵 negative | Index | < 0.9 |
+
+### SARS-CoV-2 RT-PCR
+
+|  | 2022-03-17<sup>1</sup> | Unit | *Reference* |
+| :--- | :--- | :--- | :--- |
+| **SARS-CoV-2 RT-PCR** | 🔵 Negative | Status | negative |
+
+**Notes:**
+<sup>1</sup> 2022-03-17: <a href='results/Historical-Labs/Sources.md'>source reports and original ranges</a>.
 
 ## Toxicology (Urine)
 

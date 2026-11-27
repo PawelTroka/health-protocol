@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="CDA_PL_IG_1.3.2.xsl" type="text/xsl"?><ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:extPL="http://www.csioz.gov.pl/xsd/extPL/r3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="extPL:ClinicalDocument">
+  <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+  <templateId extension="1.3.2" root="2.16.840.1.113883.3.4424.13.10.1.17"/>
+  <id displayable="false" extension="10-283630023" root="2.16.840.1.113883.3.4424.2.7.95881.7.1"/>
+  <code code="11502-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Laboratory report">
+    <translation code="06.10" codeSystem="2.16.840.1.113883.3.4424.11.1.32" codeSystemName="KLAS_DOK_P1" displayName="Wyniki badań laboratoryjnych"/>
+  </code>
+  <title>Sprawozdanie z badania laboratoryjnego</title>
+  <effectiveTime value="20251122180158"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="pl-PL"/>
+  <setId extension="10-283630023" root="2.16.840.1.113883.3.4424.2.7.95881.7.2"/>
+  <versionNumber value="1"/>
+  <recordTarget contextControlCode="OP" typeCode="RCT" xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.3"/>
+    <patientRole classCode="PAT">
+      <id displayable="true" extension="91021407790" root="2.16.840.1.113883.3.4424.1.1.616"/>
+      <id displayable="false" extension="10-338737895" root="2.16.840.1.113883.3.4424.2.7.95881.17.1"/>
+      <addr xmlns="urn:hl7-org:v3">
+        <postalCode>80-462</postalCode>
+        <city>GDAŃSK</city>
+        <streetName>DYWIZJONU 303</streetName>
+        <houseNumber>1A</houseNumber>
+        <unitID>46</unitID>
+        <country>POLSKA</country>
+      </addr>
+      <telecom value="tel:+48725656424" xmlns="urn:hl7-org:v3"/>
+      <patient classCode="PSN" determinerCode="INSTANCE" xmlns="urn:hl7-org:v3">
+<name xmlns="urn:hl7-org:v3">
+          <given>PAWEŁ</given>
+          <family>TROKA</family>
+        </name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" xmlns="urn:hl7-org:v3"/>
+        <birthTime value="19910214" xmlns="urn:hl7-org:v3"/>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author contextControlCode="OP" typeCode="AUT" xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.4"/>
+    <functionCode code="DLAB" codeSystem="2.16.840.1.113883.3.4424.11.3.18" displayName="Diagnosta laboratoryjny"/>
+    <time value="20251122180158"/>
+    <assignedAuthor>
+      <id extension="10-552464546" root="2.16.840.1.113883.3.4424.2.7.95881.1.6"/>
+      <id displayable="true" extension="12340" root="2.16.840.1.113883.3.4424.1.6.4"/>
+      <assignedPerson>
+        <templateId root="2.16.840.1.113883.3.4424.13.10.2.1"/>
+        <name>
+          <family>ŚWIECA-MAĆKOWSKA</family>
+          <given>ANNA</given>
+        </name>
+      </assignedPerson>
+      <representedOrganization xmlns="urn:hl7-org:v3">
+        <templateId root="2.16.840.1.113883.3.4424.13.10.2.18"/>
+        <id extension="000000005831-192" root="2.16.840.1.113883.3.4424.2.3.3"/>
+        <name>Zakład Diagnostyki Laboratoryjnej (192)</name>
+        <telecom use="PUB" value="586208401"/>
+        <addr xmlns="urn:hl7-org:v3">
+          <postalCode>81-341</postalCode>
+          <city>Gdynia</city>
+          <streetName>T. Wendy</streetName>
+          <houseNumber>7/9</houseNumber>
+        </addr>
+        <standardIndustryClassCode code="7100" codeSystem="2.16.840.1.113883.3.4424.11.2.4" displayName="Medyczne laboratorium diagnostyczne (laboratorium)" xmlns="urn:hl7-org:v3">
+</standardIndustryClassCode>
+        <asOrganizationPartOf xmlns="urn:hl7-org:v3">
+<wholeOrganization xmlns="urn:hl7-org:v3">
+            <id extension="35636697500320" root="2.16.840.1.113883.3.4424.2.2.2"/>
+            <asOrganizationPartOf xmlns="urn:hl7-org:v3">
+<wholeOrganization xmlns="urn:hl7-org:v3">
+                <id extension="000000005831" root="2.16.840.1.113883.3.4424.2.3.1"/>
+                <id extension="356366975" root="2.16.840.1.113883.3.4424.2.2.1"/>
+                <name>DIAGNOSTYKA SPÓŁKA AKCYJNA</name>
+              </wholeOrganization>
+            </asOrganizationPartOf>
+          </wholeOrganization>
+        </asOrganizationPartOf>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.5"/>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id displayable="false" extension="000000005831" root="2.16.840.1.113883.3.4424.2.3.1"/>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <legalAuthenticator xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.6"/>
+    <time value="20251122180158"/>
+    <signatureCode code="S"/>
+    <assignedEntity classCode="ASSIGNED">
+      <id displayable="false" extension="12340" root="2.16.840.1.113883.3.4424.1.6.4"/>
+    </assignedEntity>
+  </legalAuthenticator>
+  <componentOf typeCode="COMP" xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.52"/>
+    <encompassingEncounter classCode="ENC" moodCode="EVN">
+      <code code="8502" codeSystem="2.16.840.1.113883.3.4424.11.2.4" displayName="Punkt pobrań krwi"/>
+      <effectiveTime value="20220317193248"/>
+    </encompassingEncounter>
+  </componentOf>
+  <component contextConductionInd="true" typeCode="COMP" xmlns="urn:hl7-org:v3">
+    <templateId root="2.16.840.1.113883.3.4424.13.10.2.59"/>
+    <structuredBody classCode="DOCBODY" moodCode="EVN">
+<component xmlns="urn:hl7-org:v3">
+        <section xmlns="urn:hl7-org:v3">
+          <templateId root="2.16.840.1.113883.3.4424.13.10.3.33"/>
+          <templateId root="2.16.840.1.113883.3.4424.2.7.95881.1.11.1"/>
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Relevant diagnostic tests/laboratory data"/>
+          <title>Wyniki badań</title>
+          <text>
+<table xmlns="urn:hl7-org:v3">
+              <thead>
+                <tr>
+                  <th>Badania</th>
+                  <th>Wynik</th>
+                  <th>Jedn.</th>
+                  <th>Zakres referencyjny</th>
+                  <th>LIW<sup>**</sup>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+<tr ID="OBS_1" xmlns="urn:hl7-org:v3">
+                  <td colspan="5" styleCode="Bold">SARS-CoV-2 (COVID-19) met. Real Time RT-PCR (ICD-9: V99) <sup>1</sup>
+                  </td>
+                </tr>
+                <tr ID="OBS_1_1" xmlns="urn:hl7-org:v3">
+                  <td>
+                    <paragraph>SARS-CoV-2</paragraph>
+                    <paragraph xmlns="urn:hl7-org:v3">Metoda:
+Przeprowadzono łańcuchową reakcję polimerazy w czasie rzeczywistym (Real-Time RT-PCR) w obecności starterów i sond, komplementarnych do dwóch niezależnych fragmentów genomu koronawirusa SARS CoV-2 (gen ORF1ab oraz gen N) oraz fragmentu betakoronawirusów (gen E). Jako matrycy użyto RNA wyizolowanego z materiału pobranego od pacjenta.
+Interpretacja wyniku:
+Wynik negatywny oznacza, ze nie wykryto żadnego z badanych genów charakterystycznych dla SARS-CoV-2 przy obecności sygnału kontroli wewnętrznej reakcji (IC).
+Uwaga:
+Badanie wykonano z powierzonego materiału. Interpretacji wyniku badania powinien dokonać lekarz. Wynik negatywny nie wyklucza obecności wirusa SARS CoV-2 w przypadku gdy liczba kopii RNA wirusa jest poniżej czułości metody (np. wczesny lub późny etap infekcji). Wynik badania nie wyklucza obecności innych patogenów chorobotwórczych w badanym materiale.
+
+
+
+</paragraph>
+                  </td>
+                  <td>Negatywny</td>
+                  <td>
+                    <sup/>
+                  </td>
+                  <td> - </td>
+                  <td/>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.3.4424.13.10.4.20"/>
+              <code code="V99" codeSystem="2.16.840.1.113883.3.4424.11.2.6" codeSystemName="ICD-9-PL" displayName="SARS-CoV-2 (COVID-19) met. Real Time RT-PCR (ICD-9: V99)">
+                <translation code="4868" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.1" codeSystemName="Badania" displayName="SARS-CoV-2 (COVID-19) met. Real Time RT-PCR (ICD-9: V99)"/>
+                <translation code="COVW" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8" codeSystemName="Parametry badań" displayName="SARS-CoV-2"/>
+                <translation code="10-1446719399" codeSystem="2.16.840.1.113883.3.4424.2.7.95881.1.8.1" codeSystemName="Parametry badań (id)" displayName="SARS-CoV-2"/>
+              </code>
+              <text>
+                <reference value="#OBS_1"/>
+              </text>
+              <effectiveTime value="20220318074109"/>
+              <value xsi:type="ST">Negatywny</value>
+              <entryRelationship typeCode="COMP" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <observation classCode="OBS" moodCode="EVN">
+                  <code code="10-1446719399" codeSystem="2.16.840.1.113883.2.48.3.3.1.7.8.1.1" codeSystemName="Uwagi do parametrów badań" displayName="Komentarz"/>
+                  <effectiveTime value="20220318074109"/>
+                  <value xsi:type="ST">Metoda:
+Przeprowadzono łańcuchową reakcję polimerazy w czasie rzeczywistym (Real-Time RT-PCR) w obecności starterów i sond, komplementarnych do dwóch niezależnych fragmentów genomu koronawirusa SARS CoV-2 (gen ORF1ab oraz gen N) oraz fragmentu betakoronawirusów (gen E). Jako matrycy użyto RNA wyizolowanego z materiału pobranego od pacjenta.
+Interpretacja wyniku:
+Wynik negatywny oznacza, ze nie wykryto żadnego z badanych genów charakterystycznych dla SARS-CoV-2 przy obecności sygnału kontroli wewnętrznej reakcji (IC).
+Uwaga:
+Badanie wykonano z powierzonego materiału. Interpretacji wyniku badania powinien dokonać lekarz. Wynik negatywny nie wyklucza obecności wirusa SARS CoV-2 w przypadku gdy liczba kopii RNA wirusa jest poniżej czułości metody (np. wczesny lub późny etap infekcji). Wynik badania nie wyklucza obecności innych patogenów chorobotwórczych w badanym materiale.
+
+
+
+</value>
+                </observation>
+              </entryRelationship>
+            </observation>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="ID-f296cd21-27e8-4855-b9be-51efcf7ab039">
+<ds:SignedInfo Id="ID-81efebc0-10cd-4c4f-a88b-bd5049bef380"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference Id="ID-e8f46f5f-2bef-44aa-8070-f9505ff97e11" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><ds:XPath xmlns="http://uri.etsi.org/01903/v1.3.2#">not(ancestor-or-self::ds:Signature)</ds:XPath>
+</ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>zZBgdkYxzVyjlhFGve7WjhO2NYKdN8bNI79wLo6Ql90=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="ID-a2c7cc9d-3984-45ea-ba42-3eda33221594" Type="http://uri.etsi.org/01903#SignedProperties" URI="#ID-ded22c46-059e-4516-bb2a-358b84739e6a"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Igu4/wZbOhwJd33aIwY7XcTzpbt1DSiN/+KqCjzBZqs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="ID-6a71d26f-53c9-4f60-b4c0-16a6d3f289d4">iohpp6ntdIKU6f7ytLOwuSwpHgcZDfMTWbhO8ZDlItmnL1CcfPkRcSUEYKmXe2v+
+Y4Oy/51tBFWUqmSXUtYI8hD+b02o6L898+TnD/nPTMOigy6uEmHbVJE1gg4U0yt4
+FJ6JEIMLbfdjMvuEQGkii1K+oCz54RYkYCFWkaucStq125SVafbxL3al+71q91eq
+3DKlK7AlCULbhM6iZ+t9RxrcQktulqT2doClb8wOhI5ZhG9VfbWGzBhr1grQRA7N
+58aGW2N8TJdtFEh9gvYx/URMaJom8VvMTuF8lyEKyBHiaRbc/hjDNTkMFIeA9Vl0
+R8afG1Q0CGnFf3t7wHeS7TevQrY985seaE5rZWiKtPhGuKDn5UNmZ5NfM739z2d+
+nYO0TuhwxSRtQvDANMueFVVsCRTBadhAazBngvdt/eX1V46cI9S2HKXgVrCofTIK
+Xbb/GzdoXKOdCKSP6UiZmQnIocU3TJfcO+emxfkLypix9NIGBfuv/tnQZ5LhDcNc</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIHwDCCBaigAwIBAgIUWljlmM1rXa3P/R/W7GiyweOWxDswDQYJKoZIhvcNAQEL
+BQAweDELMAkGA1UEBhMCUEwxKDAmBgNVBAoMH0tyYWpvd2EgSXpiYSBSb3psaWN6
+ZW5pb3dhIFMuQS4xJDAiBgNVBAMMG0NPUEUgU1pBRklSIC0gS3dhbGlmaWtvd2Fu
+eTEZMBcGA1UEYQwQVkFUUEwtNTI2MDMwMDUxNzAeFw0yNTEwMDYwNjAwMDBaFw0y
+NzAzMjAwNzAwMDBaMIHKMT4wPAYDVQQQMDUMH3Byb2YuTWljaGHFgmEgxbt5Y3pr
+b3dza2llZ28gMTYMDjMxLTg2NCBLcmFrw7N3DAJQTDELMAkGA1UEBhMCUEwxGTAX
+BgNVBAoMEERpYWdub3N0eWthIFMuQS4xGjAYBgNVBAUTEVBOT1BMLTkxMDExMDEy
+MTg4MRwwGgYDVQQDDBNQYXVsaW5hIE1pbmlzemV3c2thMRAwDgYDVQQqDAdQYXVs
+aW5hMRQwEgYDVQQEDAtNaW5pc3pld3NrYTCCAaIwDQYJKoZIhvcNAQEBBQADggGP
+ADCCAYoCggGBAKgjCe0YuYLN5+S4Dow4NjVBkrerRnRRumuP2GrV5PAi0dAHontO
+OiyYO00f9nFNu2a+mYnkk6xDMvP4ZoYmu4mvzkPboS1pT5SJfwYby8xQ8km6lnUw
+fMQZAs1OC9F9FVZpy8amQN2XIjzt0/0gnh1RjGoiqjezcrONAwRVIQWnRW+GG8St
+Q4GexVKXzgTG7lV4iE2ZsVUnAveYkLK7KUHZO3V5iP2ZaTpkf8tk2aUHTzsMhgOk
+mWfF2OUM4qWgnlt+pAn2e5av1ESPND1f+j7m+vICewvQ7bSLKVyZe7n/JBTLRWAn
+hy+MRQ6y6NBza3cl8EeFdB8+zWxu/e9CVHbMC8JEG1YrwyCD7oV5IWpGwZiy6QDX
+Zduyz9ZVMe0WZo2RR2MxEHF+huJzzHEfHoJoUYJ/5NYt1Wpyt1c42IsYl1qtrqPE
+GA5Iek8YpJaVP0kK1CO+ZsIka0RxOrbO3aEEDSuJQFWPKm7siwqTzjnGDzqKby6l
+Co8YxgdSbuGYhwIDAQABo4ICbTCCAmkwDAYDVR0TAQH/BAIwADCBxAYDVR0gBIG8
+MIG5MIG2BgkqhGgBhvcjAQEwgagwWgYIKwYBBQUHAgIwTgxMQ2VydHlmaWthdCB3
+eWRhbnkgemdvZG5pZSB6IFphxYLEhWN6bmlraWVtIEkgZG8gUm96cG9yesSFZHpl
+bmlhIG5yIDkxMC8yMDE0LjBKBggrBgEFBQcCARY+aHR0cDovL3d3dy5lbGVrdHJv
+bmljem55cG9kcGlzLnBsL2luZm9ybWFjamUvZG9rdW1lbnR5LWktdW1vd3kwfwYI
+KwYBBQUHAQMEczBxMAgGBgQAjkYBATAIBgYEAI5GAQQwRgYGBACORgEFMDwwOhY0
+aHR0cHM6Ly93d3cuZWxla3Ryb25pY3pueXBvZHBpcy5wbC9QS0lEaXNjbG9zdXJl
+LnBkZhMCcGwwEwYGBACORgEGMAkGBwQAjkYBBgEwfwYIKwYBBQUHAQEEczBxMC4G
+CCsGAQUFBzABhiJodHRwOi8vb2NzcC5lbGVrdHJvbmljem55cG9kcGlzLnBsMD8G
+CCsGAQUFBzAChjNodHRwOi8vZWxla3Ryb25pY3pueXBvZHBpcy5wbC9jZXJ0eWZp
+a2F0eS9vems2Mi5kZXIwDgYDVR0PAQH/BAQDAgZAMB8GA1UdIwQYMBaAFOaxtBLm
+R6eEPubDxLiJZ0OjY9F9MEAGA1UdHwQ5MDcwNaAzoDGGL2h0dHA6Ly9lbGVrdHJv
+bmljem55cG9kcGlzLnBsL2NybC9jcmxfb3prNjIuY3JsMB0GA1UdDgQWBBSAFvbG
+l7NXiqUI6toWxWp+cTw8zTANBgkqhkiG9w0BAQsFAAOCAgEAIghefwawtmvQDtYC
+cjCbH8zsF4wiTqzFhhgoGQZ6is+TMoQoA+IfvQaVeqWveaUTau6RQCIF8/a9vNnT
+VnKPPmzYkf/y/es34NuoRU+Cw+sDR6K4Nbw7o6QJOx2U9UsaayKoCld+ds/IS1QK
+DmWUIssb8VXR2MX9TK58z8durpn8himF7yZy4V1Q3D6cQp6ksmx2pmmvgt8FWlbt
+M1VhO9O+Wxz7zrm10Q6SitM361gd3cfajjc1WHqvzBE7e8yB9o7BdalgTSim+YFW
+tuzhTqSr2ymeJYfrGjJVifuYGITJiY+YQo9kgacpvTkoFgugkz9n3pbsUnl1uTZR
+hmDZyLaMGHwNA4rN4fFy6/oQNUkvdm1sAHewZvRfTHRMjwDVeLVRrwyWR7sHoh++
+frm7nL4JkLoeugP6UEUrN+XNkTvjgk6wMnm09jSVIxxEE9dC+ZAp0zTubyKhrJ1e
+NLZ+fNrSGGh+VoeRkmIXRaAtLVEtgDqiEgHIEb0QJ7OuSyqas6eBIXR4dexLJLbX
+S2fpyT6o8AZjcqxqJVfCEKOi+BgK38f2QE4dj4ubAoMYAt3/vTfBF0TKIMPN0S0b
+tk7VCnK/++5LS4eOSDgP+ks0S7/CSlC+W5iY156sBjh/EjtdSFjZ0/vT5vrCsXBX
+nYcPKIDXZwxvbu2fWDDDzCScP4c=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="ID-a7a5cbcd-736e-433b-b7b1-13caf1459eb7" Target="#ID-f296cd21-27e8-4855-b9be-51efcf7ab039"><xades:SignedProperties Id="ID-ded22c46-059e-4516-bb2a-358b84739e6a"><xades:SignedSignatureProperties><xades:SigningTime>2025-11-24T06:30:54Z</xades:SigningTime>
+<xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>b1LKiCw7bI18A9A5AvUnlkCI3H8qCUH/kA9cQSBLqic=</ds:DigestValue>
+</xades:CertDigest>
+<xades:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c10564154504c2d35323630333030353137,CN=COPE SZAFIR - Kwalifikowany,O=Krajowa Izba Rozliczeniowa S.A.,C=PL</ds:X509IssuerName>
+<ds:X509SerialNumber>515791635661063612031272256213730949037303448635</ds:X509SerialNumber>
+</xades:IssuerSerial>
+</xades:Cert>
+</xades:SigningCertificate>
+</xades:SignedSignatureProperties>
+<xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ID-e8f46f5f-2bef-44aa-8070-f9505ff97e11"><xades:Description>Dokument w formacie xml [XML]</xades:Description>
+<xades:MimeType>text/xml</xades:MimeType>
+</xades:DataObjectFormat>
+</xades:SignedDataObjectProperties>
+</xades:SignedProperties>
+</xades:QualifyingProperties>
+</ds:Object>
+</ds:Signature></ClinicalDocument>
