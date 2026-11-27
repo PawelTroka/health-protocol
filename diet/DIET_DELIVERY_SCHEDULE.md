@@ -1,5 +1,7 @@
 # Diet delivery schedule
 
+> **8November2026 sourcing snapshot:** [Food price and subscription audit](FOOD_SUBSCRIPTIONS_2026-11.md), reconciled with the23November protocol. Dated prices and public renewal terms do not override the current shipment policy, later account observations or recorded order/refund events below.
+
 ## 5November — pantry carrier delivery verified; usable stock uninspected
 
 The order-linked InPost parcel **520000012680462133044051** is **Doręczona**. Expanded carrier history records delivery **2November2026,10:02**, verified5November; the carrier prints **no timezone**. This is **500156 = legacy258958, one paid pantry lot**, not extra Nuts/Oats. Bioshi still shows W drodze /paid344.52zł/free InPost with14SKU/18 ordered packs. Carrier delivery supersedes the earlier estimate, while contents, condition, actual quantities, expiry and today's usable balance remain unknown.

@@ -1,5 +1,7 @@
 # Diet subscription costs — 43-food core, 2 stock-driven additions and historical benchmark
 
+> **8November2026 sourcing snapshot:** [Food price and subscription audit](FOOD_SUBSCRIPTIONS_2026-11.md), reconciled with the23November protocol. Dated prices and public renewal terms do not override the current shipment policy, later account observations or recorded order/refund events below.
+
 ## 27October23:09 Warsaw — replacement cart saved, still unpaid
 
 The loaded signed-in Brave cart now contains the exact replacement **P60/P90:14 distinct SKUs /18 packs**, with every quantity and native60/90day badge verified. Walnuts/Macadamias are2packs each; the old unpaid Pistachio90day and Cumin30day lines were replaced by2packs each/60days; Oregano/Thyme were added. Actual cart goods are **344.52zł ordinary −34.47zł discount =310.05zł**. The old12-line draft below is historical.

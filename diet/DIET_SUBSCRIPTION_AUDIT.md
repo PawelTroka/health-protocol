@@ -1,5 +1,7 @@
 # Diet subscription audit
 
+> **8November2026 sourcing snapshot:** [Food price and subscription audit](FOOD_SUBSCRIPTIONS_2026-11.md), reconciled with the23November protocol. Dated prices and public renewal terms do not override the current shipment policy, later account observations or recorded order/refund events below.
+
 ## 2November — complete re-audit replaces stale exclusions
 
 The [current single map](DIET_AUTOMATION_GAPS.md) links the fresh49-choice, pantry35-entry and8-protein inventories and [61 live Bioshi pages](DIET_LIVE_BIOSHI_AUDIT_02NOV.json).50 products were available and11 unavailable for new orders. Klimeko104387, Matcha48071/93457, King Oyster95735, Arugula44667 and matching Sunflower44958 are available, so old categorical rejections below must not be carried forward. Catalogue stock still does not establish usable portions, a destination quote or unattended fulfillment.
