@@ -197,7 +197,7 @@ PAGES = [
         "title": "MORNING • BOX 2",
         "range": "M.10–M.18",
         "accent": "morning",
-        "callout": "M.17 holds all three small NR capsules together.",
+        "callout": "M.17 holds all three NR capsules. TetraSOD® 25mg: take 1tablet with Breakfast from its bottle.",
         "cells": [
             item("M.10", "Silicon", "14 mg", icons="💇‍♂️ 👨‍🦳 🦴"),
             item(
@@ -689,7 +689,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 24 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 25 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer

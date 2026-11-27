@@ -761,6 +761,9 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
 - 🥉 **M.17** 3x [Nicotinamide Riboside 300mg](https://allegro.pl/oferta/nad-60kaps-biogeneza-mitochondriow-energia-rybozyd-nikotynamidu-komorki-16976245973) [[BJ-EC 300mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ ❤️ 🧠 💪
 - 🥉 **M.18** [Spermidine HCl 50mg (Spermidine 28mg)](https://allegro.pl/produkt/suplement-diety-forest-vitamin-spermidyna-50-mg-60-kapsulek-79220a55-116b-48d8-8d18-23106df5521f?offerId=18841623878) [[BJ-EC 10mg](https://blueprint.bryanjohnson.com/products/essentials-capsules)] ⏰ ❤️ 🧠
 
+- 🥉 Outside organizer: [Tetraselmis chuii (TetraSOD®) 25mg](https://aliness.pl/dysmutaza-ponadtlenkowa-tetra-sod-25-mg-x-60-vege-tabs/) 💪 — 1tablet with Breakfast from its bottle
+  - SOD Activity 750IU; Vitamin C (Quali®-C) 80mg
+
 ### Lunch
 - 🥇 **L.1.1** [Ezetimibe 10mg](https://www.mp.pl/pacjent/leki/lek/93836,Ezoleta-tabletki) ❤️ 🩸 ⚕️
 - 🥇 **L.1.2** [Tadalafil 5mg](https://www.mp.pl/pacjent/leki/lek/92278,Erlis-tabletki-powlekane) 🍆 🫀 ❤️ 🍅 ⚕️
@@ -1307,7 +1310,7 @@ Food adds unquantified Creatine, Taurine and other compounds. The Lycopene and M
 | Vitamin B6 | 2.68mg supplemental; ~5.3–5.9mg with checked food | M.0.3.3.5 MicroVitamin+ 1.28mg + E.5 Melisen 1.4mg; natural WPI B6 remains unquantified |
 | Zinc | 11mg supplemental; ~20.5–22.5mg with checked food | M.0.3.7.1 MicroVitamin+; food rotation changes the estimate |
 | Vitamin B12 | 12mcg supplemental + 0.76mcg from Alpro | M.0.3.2.4 MicroVitamin+ + Diet Alpro 200ml, before other foods |
-| Vitamin C | 50mg supplemental | M.0.3 MicroVitamin+ 45mg + M.15 ErgoActive® product 5mg, before food |
+| Vitamin C | 130mg supplemental | M.0.3 MicroVitamin+ 45mg + M.15 ErgoActive® product 5mg + Morning TetraSOD® product 80mg, before food |
 | Iron | 18mg supplemental daily | M.5 NOW Foods Ferrochel™; dietary Iron additional |
 | Boron | 1mg supplemental | M.0.3.4.4 MicroVitamin+, before food |
 | Iodine | 75mcg supplemental | M.0.3 MicroVitamin+; Pollock 200g adds an estimated 112mcg when selected. Dairy, WPI and iodized Salt remain unquantified |
@@ -1430,6 +1433,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 #### Training, Skin & joints
 
+- **TetraSOD® / Morning:** a 6-week recovery experiment using 25mg dried T.chuii daily with Breakfast. Take directly from its bottle because all Morning compartments are occupied; the pillbox callout is a reminder, not an extra compartment. Small human studies support recovery signals and muscle NRF2-related gene expression; the 2025 cycling trial did not improve time to exhaustion. Track one consistent next-session performance measure and 24–48-hour soreness; retain only a repeatable benefit without GI intolerance or new dizziness. Added benefit on the full current stack is unknown. [Recovery trial](https://pubmed.ncbi.nlm.nih.gov/32635494/) · [Human muscle trial](https://pubmed.ncbi.nlm.nih.gov/40298824/)
 - **Creatine / B.0.1:** 10g is the chosen high-maintenance dose; extra benefit over lower maintenance doses depends on the setting. Split it if needed for GI tolerance; no further increase is established. [Training trial](https://pubmed.ncbi.nlm.nih.gov/27523919/) [10g/20g cognition trial](https://pubmed.ncbi.nlm.nih.gov/37759877/)
 - **Collagen / B.0.3:** the standalone 4scoop serving (13.33g) is intentionally retained for connective-tissue loading. The frequently cited pre-exercise study used 15g Gelatin with Vitamin C, not this exact product or the full 25.83g daily combination. [Study](https://pubmed.ncbi.nlm.nih.gov/27852613/)
 - **Lycopene / L.9:** 30mg supplemental is the chosen Skin-focused dose; superiority over 20mg for visible results is unproven. Take with the existing fat-containing meals. [Dose-response trial](https://pubmed.ncbi.nlm.nih.gov/18689558/) [Skin trial](https://pubmed.ncbi.nlm.nih.gov/20854436/)
