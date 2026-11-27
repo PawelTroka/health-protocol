@@ -260,7 +260,7 @@ PAGES = [
             item("L.6", "Cocoa Flavanols", "250 mg", icons="🫀 ❤️ 🧠"),
             item("L.7", "Cocoa Flavanols", "250 mg", icons="🫀 ❤️ 🧠"),
             empty("L.8"),
-            item("L.9", "Lycopene", "20 mg", icons="👨‍🦳 🍅 ❤️"),
+            item("L.9", "Lycopene (Tomato Extract in organic EVOO)", "20mg", icons="👨‍🦳 🍅 ❤️"),
         ],
     },
     {
@@ -689,7 +689,7 @@ def build_document():
     p = header.paragraphs[0]
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     compact_paragraph(p)
-    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 24 NOV 2026")
+    run = p.add_run("HEALTH PROTOCOL • PHYSICAL SLOT MAP • 25 NOV 2026")
     set_repeatable_font(run, 6.5, bold=True, color=COLORS["muted"])
 
     footer = section.footer
