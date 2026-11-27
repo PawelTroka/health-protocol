@@ -875,7 +875,7 @@ There are actual studies that confirm if you look younger and better you are mor
   - When using orthodontic braces: [Eludril Ortho](https://allegro.pl/produkt/eludril-ortho-ortodontyczny-plyn-do-plukania-jamy-ustnej-500-ml-a905bf84-1178-4f98-b31b-3da919da2410) (Twice daily) 🦷
   - For normal care: non-alcohol mouthwash like [ApaCare OraLactin Liquid](https://allegro.pl/produkt/apacare-liquid-enamel-plyn-remineralizujacy-do-plukania-jamy-ustnej-200-ml-df2d1e7e-50aa-4824-8b54-3c1169092719?offerId=17121623399) (Twice daily) 🦷
 - Water flosser [waterpik ultra professional WP660](https://csk-med.pl/waterpik-wp-660) (Twice daily) 🦷
-- Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and medical-grade toothpaste with aminofluoride like [Elmex Sensitive Professional](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) or nano-hydroxyapatite (n-HA) alternative like Risewell Mineral if afraid of fluoride (Twice daily) 🦷
+- Brush teeth at least for 2 minutes using magnetic toothbrush [Oral-B iO 9](https://allegro.pl/oferta/oral-b-io-9-black-szczoteczka-magnetyczna-prezent-dla-niego-16822233550) and [Elmex Sensitive Professional Repair & Prevent](https://allegro.pl/oferta/pasta-do-zebow-elmex-sensitive-professional-repair-prevent-75-ml-17422762296) (1,450ppm Fluoride; 8% Arginine) (Twice daily) 🦷
 - Tongue scraper (daily) 🦷
 - Floss [Oral-B SuperFloss](https://allegro.pl/oferta/nic-dentystyczna-oral-b-superfloss-dental-floss-threader-50-szt-17333503650) (Weekly) 🦷
 - Professional teeth cleaning ([scaling, sandblasting, fluoridation, polishing](https://booksy.com/en-pl/147156_gabinet-stomatologiczny_stomatolog_20383_gdansk)) (Monthly) 🦷
@@ -1582,6 +1582,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 
 ## Removed / unhealthy / redundant items
 
+- **RiseWell Original Mineral toothpaste (10% micro-Hydroxyapatite):** retired as the routine alternative; Elmex Sensitive Professional Repair & Prevent remains the selected Fluoride paste. The Original formula is micro-HA, not the nano-containing PRO formula. [Manufacturer](https://risewell.com/products/mineral-toothpaste)
 - **Dark Chocolate (85%+):** dropped as a daily food because Cocoa Flavanols 500mg already cover that role; also reduces Calories and variable Lead/Cadmium exposure. Extracts still need contaminant testing. [Cocoa survey](https://pubmed.ncbi.nlm.nih.gov/39144282/)
 - **3x [Catalase 6,250IU](https://www.amazon.pl/dp/B00LPJLZSG):** no established oral-treatment benefit for gray-hair repigmentation. [Review](https://onlinelibrary.wiley.com/doi/full/10.1111/ics.12090)
 - **[L-Glutathione Reduced 200mg](https://allegro.pl/oferta/ostrovit-glutathione-vege-90-caps-glutation-200-mg-9941127199)** [[BJ-LM 250mg](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] — little expected added value alongside NAC, Glycine and adequate Protein.
