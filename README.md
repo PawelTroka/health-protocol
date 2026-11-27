@@ -68,14 +68,14 @@
 - [9. Vaccines](#9-vaccines)
 - [10. Peptides](#10-peptides)
   - [Injection supplies](#injection-supplies)
-- [11. Surgeries](#11-surgeries)
+- [11. Profile](#11-profile)
+  - [Conditions](#conditions)
 - [Legend](#legend)
 - [Notes](#notes)
   - [Totals](#totals)
   - [Food & calculation notes](#food--calculation-notes)
   - [Timing & training](#timing--training)
   - [Supplement details](#supplement-details)
-  - [Follow-up](#follow-up)
   - [Skin & teeth](#skin--teeth)
   - [Shopping](#shopping)
 - [TODOs / Things to consider](#todos--things-to-consider)
@@ -257,6 +257,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 
 ### Gastrointestinal Health
 - 🥈 Gastroscopy + Colonoscopy with CO2 and polypectomy (Every 5 years) 🚽 🔥 🎗️
+  - **Gastroscopy context:** [past reflux / possible hiatal hernia](#watchlist); discuss the indication with the gastroenterologist.
   - [Medical Center Gunarys](https://gunarys.pl/kolonoskopia-gdansk-gdynia) with [lek. Klaudiusz Rogalski](https://www.znanylekarz.pl/klaudiusz-rogalski/chirurg-gastrolog/gdansk)
     - Pros: selectable endoscopist; planned terminal-ileum attempt with photographic documentation; same-visit Gastroscopy; at least 2 biopsies from the terminal ileum and each colonic segment—including normal-appearing mucosa—and separate site-labelled containers can be agreed with the doctor before the procedure; small-polyp removal up to 1cm and clips are available.
     - Limitations: room-air rather than CO₂ insufflation; Diagnostyka+ histopathology without a guaranteed named IBD Pathologist; outpatient clinic with ambulance transfer to SOR for complications.
@@ -1121,7 +1122,69 @@ Current supplies from [medeocare](https://allegro.pl/uzytkownik/medeocare); 100p
 - **Drawing needles:** [Zarys dispoFINE 18G, 1.2x40mm](https://allegro.pl/oferta/igly-iniekcyjne-1-2x40-mm-18g-do-strzykawki-100szt-rozowe-dispofine-zarys-9598463062)
 - **Luer syringes:** [Three-piece syringes](https://allegro.pl/oferta/strzykawki-10ml-iniekcyjne-3-czesciowe-strzykawka-luer-beroject-100szt-kdm-11018411826)
 
-## 11. Surgeries
+## 11. Profile
+
+### Conditions
+
+[Known](#known) · [Watchlist](#watchlist) · [✅ Resolved](#resolved)
+
+#### Known
+
+| Condition | Details |
+| --- | --- |
+| **Irritable bowel syndrome (IBS-U)** | Unclassified subtype; bloating, gas, abdominal pressure and pain. [GI watchlist](#watchlist). |
+| **Lactose intolerance** | Lactose-free dairy; portions adjusted to tolerance. [GI options](#-gi-options--personalize-portions). |
+| **Androgenetic alopecia** | Norwood 4 before the first hair transplant. [Hair](#hair) · [Transplants](#surgeries). |
+| **Diastasis / linea-alba widening** | Post-repair widening up to ~4cm; no hernia on 19 May 2026. [Childhood hernia / family history](#resolved) · [Ultrasound](results.md#2026-05-19--abdominal-wall-ultrasound--after-repair). |
+
+#### Watchlist
+
+| Item | Context | Action |
+| --- | --- | --- |
+| **Possible subclinical hypothyroidism** | TSH 4.57 → 4.25mIU/L, July → September 2026; FT4 within range, thyroid antibodies negative. [Thyroid results](results.md#thyroid-function). | Review testing preparation and repeat thyroid tests; verify food Iodine before adding more. [Iodine guidance](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/). |
+| **Eosinophilia** | 1.1×10⁹/L (15.5%) in September 2026. [Blood count](results.md#morphology). | Track on repeat blood count; review persistent elevation. |
+| **Inflammatory bowel disease (IBD)** | Previously suspected. Calprotectin 291.7µg/g in July → <5µg/g in September 2026; Lactoferrin <0.10µg/ml. [Stool results](results.md#stool-analysis). | Seek review **if** [persistent/worsening diarrhoea, rectal bleeding or unexplained weight loss develops](https://www.nhs.uk/conditions/inflammatory-bowel-disease/). |
+| **Possible hiatal hernia / past reflux** | Past reflux during obesity and heavy lifting with a belt; now symptom-free after weight loss and training changes. Also a past episode of severe oesophageal pain/burning after an antibiotic lodged when swallowed without water. | Discuss this history when considering [gastroscopy](#gastrointestinal-health). Seek review **if** [reflux recurs or swallowing becomes painful/difficult](https://www.nhs.uk/conditions/hiatus-hernia/). [Colpermin deferred](#symptoms--follow-up). |
+| **Right shoulder / scapular symptoms** | Intermittent pain with heavier lifting; old scapular-area injury. [Training history](#3-exercise). | Seek review **if** pain worsens or function declines. |
+| **Equivocal Centromere B** | September immunoblot equivocal (+), ANA IIFT negative. [Antibodies](results.md#anaena-immunoblot). | Seek review **if new** [cold-triggered finger colour changes or persistent puffy/tight fingers develop](https://rheumatology.uw.edu/patient-care/patient-information-portal/scleroderma). |
+| **Sleep-breathing signal** | Withings November AHI mean 5events/h; device estimate. [Sleep results](results.md#sleep-and-breathing). | Seek review **if** [breathing pauses/gasping, loud snoring or unexplained daytime sleepiness are noticed](https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms). |
+| **Enteropathogenic E. coli (EPEC)** | Detected in September stool PCR; its role in symptoms is unclear. [PCR](results.md#stool-pathogen-pcr). | Assess alongside current symptoms at [GI review](#gastrointestinal-health). |
+| **Urine Streptococcus agalactiae** | 2×10⁴CFU/ml in July; possible contamination/colonization. [Culture](results.md#urine-culture). | Seek review **if** urinary symptoms develop. |
+| **HSV IgG reactivity** | July index 1.19; this result does not identify the type or site. [Serology](results.md#infectious-diseases). | Clarify assay/type if clinically needed. |
+
+##### Monitoring
+
+- **Blood pressure:** preferred resting level **~110/70mmHg**, when comfortable. Check seated/standing readings after changes to the BP-lowering stack, especially during the first 1–2 weeks after a Garlic change. Seek review **if** dizziness, near-fainting or unusual weakness develops. [Stack context](#sleep--sexual-health) · [Normal BP](https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings).
+- **Iron:** recheck CBC, Ferritin and TSAT after 8–12 weeks and periodically; review the need for ongoing 18mg/day. July Ferritin 42ng/ml/estimated TSAT ~30% and September Hemoglobin 15.3g/dl did not show deficiency. [Intake](#vitamins-and-minerals) · [Iron assessment](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/medical-supplements2/iron/how-and-when-do-i-use-it).
+- **Metabolic markers:** on Berberine, reassess Glucose/HbA1c, ApoB/lipids, Liver tests, BP and GI tolerance after 8–12 weeks. TMG: Homocysteine and lipids. [Berberine details](#gut--metabolic-support) · [TMG review](https://pubmed.ncbi.nlm.nih.gov/33764214/).
+- **Liver / bleeding:** recheck ALT/AST/ALP/GGT and Total/Direct Bilirubin 6–8 weeks after the Curcumin change; Milk Thistle review at 8–12 weeks. Stop Curcumin and seek review **if** jaundice, dark urine, marked fatigue, persistent nausea or abdominal pain develops. Seek review **if** unusual bruising/bleeding develops. [Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury) · [Interactions](#training-skin--joints).
+- **Minerals:** recheck 25-OH Vitamin D and Calcium 8–12 weeks after the CaAKG change. Do not add Zinc; review Copper status with ongoing exposure. Keep Magnesium E.12 only for a repeatable benefit without GI effects; do not restore the second capsule. [Intake / limits](#vitamins-and-minerals) · [Zinc guidance](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/).
+- **Astaxanthin:** compare consistent Skin photos after 12–16 weeks and comparable post-workout soreness. Stop **if** new persistent adverse effects develop. [Dose / trial rules](#training-skin--joints).
+
+#### Resolved
+
+| Condition | History |
+| --- | --- |
+| ✅ **Nasal septal deviation** | Septorhinoplasty 28 February 2026. August CT: slight residual left-convex deviation, nasal passages patent. [CT](results.md#2026-08-14--facial-skeleton-ct) · [Surgery](#surgeries). |
+| ✅ **Sinus inflammation** | Preoperative sinus inflammation ([October 2025 CBCT](results.md#2025-10-27--dental-cbct)). August 2026 CT: mild mucosal thickening and bilateral ostiomeatal swelling/segmental obstruction. [CT report](results/FacialCT-2026-08-14/README.md#official-radiology-report--2026-08-20). |
+| ✅ **Epigastric hernia** | Present since childhood; possible familial tendency—maternal grandfather also had an abdominal hernia. 8×8mm defect repaired 13 January 2026; no hernia on May ultrasound. [Surgery](#surgeries) · [Family history](#family-history). |
+| ✅ **Palatal lesion** | Excised 12 December 2025. [Surgery](#surgeries). |
+| ✅ **Right metatarsal injury** | Past injury, resolved. [Training history](#3-exercise). |
+
+### Goals
+
+- **Physique:** leaner without losing muscle; better posture, broader shoulders and upper back (lateral delts, upper lats). [Exercise](#3-exercise) · [Measurements](results.md#body-measurements).
+- **Cut:** preserve strength, recovery and libido.
+
+### Family history
+
+*Pending: [PR #150](https://github.com/PawelTroka/health-protocol/pull/150).*
+
+### Genetic findings
+
+*Pending: [PR #201](https://github.com/PawelTroka/health-protocol/pull/201).*
+
+### Surgeries
 
 - **Sapphire FUE Hair Transplant**
   - **Date**: November 19, 2021
@@ -1291,7 +1354,7 @@ Each row changes only the named choice from the default day. Tempeh and Egg days
 | PHGG | 7g powder | A.0.3; 6g dietary Fiber, additional to Psyllium |
 | Collagen Peptides | 25.83g | M.0.3.1.1 MicroVitamin+ 12.5g + B.0.3 standalone 13.33g — 4scoops (4x~10ml) |
 | Betaine (TMG) | 2.5g | M.0.3.2.1 MicroVitamin+ 500mg + M.14/L.12 standalone 1g each |
-| Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate |
+| Free Taurine | 4g | M.0.3 MicroVitamin+ 1g + B.3-4 standalone 3g; Magnesium Taurate's ~1.29g Taurine moiety is separate; free Taurine exceeds the standalone product's one-capsule directions ([label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)) |
 | Caffeine | 223mg supplemental; ~252–291mg with Matcha | B.0.2 EvoBomb 200mg + L.6-7 Cocoa Flavanols 23mg + Diet Matcha 2g (~29–68mg) |
 | Lycopene | 30mg supplemental; ~32.6mg with checked Tomatoes | M.0.3 MicroVitamin+ 10mg + L.9 standalone 20mg + Diet Tomatoes 100g (~2.57mg) |
 | Omega-3 | 2g EPA+DHA on non-Fatty-Fish days | L.2-3: EPA 1.38g + DHA 620mg; no capsules on the listed Salmon/Sardine/Mackerel days |
@@ -1299,6 +1362,10 @@ Each row changes only the named choice from the default day. Tempeh and Egg days
 Food adds unquantified Creatine, Taurine and other compounds. The Lycopene and Matcha figures use generic food estimates. [Matcha analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC10665233/) [Tomato composition](https://fdc.nal.usda.gov/food-details/170457/nutrients)
 
 #### Vitamins and minerals
+
+- **Magnesium:** conservative supplemental accounting exceeds EFSA 250mg/day in all scenarios; Sauna also exceeds US 350mg/day. These limits mainly concern GI effects and exclude food Magnesium. Kidney impairment needs particular review. [EFSA limits](https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf) · [NIH guidance](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/) · [Monitoring](#monitoring).
+- **Iron / M.5:** 18mg daily with Breakfast. Fiber and minerals may reduce absorption. [NOW label](https://www.nowfoods.com/products/supplements/iron-18-mg-veg-capsules) · [NIH guidance](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/) · [Monitoring](#monitoring).
+- **Potassium:** do not add Potassium Salt by default; review with Kidney impairment or ACE-inhibitor/ARB/Potassium-sparing-diuretic use.
 
 | Nutrient | Quantified daily intake | Sources / remaining uncertainty |
 | --- | --- | --- |
@@ -1376,7 +1443,7 @@ These are subtotals; food and unquantified minerals from Calcium Ascorbate, Gluc
 | Persistent IBS-type symptoms | With a dietitian, consider a 2–6-week low-FODMAP trial followed by reintroduction and personalization. Keep the diet as varied as tolerance allows. |
 | Active bowel inflammation or unintended weight loss | Prioritize adequate nutrition and clinician-directed evaluation/treatment; pause the cut rather than forcing Fiber or restriction. |
 
-*Record the food/portion, pain or bloating, Stool form/frequency and urgency. Keep other variables steady, retain changes that help reproducibly and re-expand tolerated foods. Food trials complement the [GI follow-up](#follow-up).*
+*Record the food/portion, pain or bloating, Stool form/frequency and urgency. Keep other variables steady, retain changes that help reproducibly and re-expand tolerated foods. Food trials complement the [GI watchlist](#watchlist).*
 
 <a id="diet-fodmap-tags"></a>
 
@@ -1430,10 +1497,11 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 #### Training, Skin & joints
 
+- **Astaxanthin / M.9:** Double Wood AstaReal® supplies 12mg active Astaxanthin in 1 oil softgel with Breakfast. **Choose this 12mg routine OR the separate 24mg four-week trial; never combine them.** Public 2026 testing includes Double Wood and reports that selected products met their labeled amounts; match the purchased lot rather than assuming every lot was independently tested. Small human trials support possible Skin/recovery benefits; a direct dose comparison did not establish extra functional benefit at 24mg. [Response monitoring](#monitoring). The EU authorized supplement level is 8mg/day; 12mg exceeds it. The separate all-source ADI is 15.8mg/day at 79.1kg, with food and product overfill still extra; neither figure is an acute-toxicity threshold. [Dose comparison](https://doi.org/10.1016/j.scispo.2025.06.003) · [Testing](https://www.consumerlab.com/reviews/astaxanthin-supplements-review/astaxanthin/) · [EFSA](https://doi.org/10.2903/j.efsa.2020.5993) · [EU use conditions](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02017R2470-20260810)
 - **Creatine / B.0.1:** 10g is the chosen high-maintenance dose; extra benefit over lower maintenance doses depends on the setting. Split it if needed for GI tolerance; no further increase is established. [Training trial](https://pubmed.ncbi.nlm.nih.gov/27523919/) [10g/20g cognition trial](https://pubmed.ncbi.nlm.nih.gov/37759877/)
 - **Collagen / B.0.3:** the standalone 4scoop serving (13.33g) is intentionally retained for connective-tissue loading. The frequently cited pre-exercise study used 15g Gelatin with Vitamin C, not this exact product or the full 25.83g daily combination. [Study](https://pubmed.ncbi.nlm.nih.gov/27852613/)
 - **Lycopene / L.9:** 30mg supplemental is the chosen Skin-focused dose; superiority over 20mg for visible results is unproven. Take with the existing fat-containing meals. [Dose-response trial](https://pubmed.ncbi.nlm.nih.gov/18689558/) [Skin trial](https://pubmed.ncbi.nlm.nih.gov/20854436/)
-- **Curcumin / L.10:** use Advanced Curcumin Elite™, not plain Curcumin Elite™ 02407. One softgel supplies Curcuminoids 200mg, Gingerols 60mg and Turmerones 75mg. It replaces the separate Curcumin/Ginger products; do not add either back or add Piperine. Better outcomes than Longvida® have not been established. [Advanced label](https://www.lifeextension.com/vitamins-supplements/item02324/advanced-curcumin-elite-ginger-turmerones-turmeric-extract)
+- **Curcumin / L.10:** use Advanced Curcumin Elite™, not plain Curcumin Elite™ 02407. One softgel supplies Curcuminoids 200mg, Gingerols 60mg and Turmerones 75mg. It replaces the separate Curcumin/Ginger products; do not add either back or add Piperine. Better outcomes than Longvida® have not been established. [Advanced label](https://www.lifeextension.com/vitamins-supplements/item02324/advanced-curcumin-elite-ginger-turmerones-turmeric-extract) Disclose Garlic/Curcumin/Ginger/Omega-3 before surgery or with anticoagulants, Aspirin or NSAIDs. [Garlic safety](https://www.nccih.nih.gov/health/garlic) · [Monitoring](#monitoring).
 - **Ceratiq® / L.11:** 350mg means Wheat Oil Extract, not isolated Ceramides. Assess dryness, texture and consistent photos after 12 weeks. It is Gluten-Free but contains Wheat; avoid with Wheat Allergy. [Label](https://www.lifeextension.com/vitamins-supplements/item02096/skin-restoring-ceramides) [Trial](https://pubmed.ncbi.nlm.nih.gov/31033133/)
 - **Glucosamine / A.8-9:** 1.5g Glucosamine Sulfate comes from 2.095g Glucosamine Potassium Sulfate Complex. Potassium/Chloride are unquantified; do not reuse an older formula's 245mg Potassium. It is Shellfish-derived. Retain for a measurable joint-symptom benefit; preventive benefit is uncertain. [Label](https://www.nowfoods.com/products/supplements/glucosamine-sulfate-750-mg-capsules) [Review](https://pubmed.ncbi.nlm.nih.gov/33488785/)
 - **Boswellia / A.7:** [Life Extension AprèsFlex®](https://www.lifeextension.com/vitamins-supplements/item01639/5-lox-inhibitor-with-apresflex) 1capsule/day (100mg extract; 20% AKBA = 20mg), **in addition to** Glucosamine A.8-9. This matches the label and studied dose. Take with or without food; prefer a meal if needed for GI tolerance. Aflapin®/AprèsFlex® has human trials for symptomatic knee osteoarthritis; preventive joint/tendon and longevity benefits remain unproven. Assess pain/function after 8–12 weeks; stop for intolerance. Review anticoagulants/antiplatelets or unusual bruising/bleeding with the existing Curcumin/Ginger/Garlic stack. Added benefit from combining Boswellia with Glucosamine is unproven. [30-day RCT](https://pubmed.ncbi.nlm.nih.gov/35512759/) [180-day RCT](https://pubmed.ncbi.nlm.nih.gov/39700461/) [NCCIH](https://www.nccih.nih.gov/health/boswellia) [Interactions](https://www.mskcc.org/cancer-care/integrative-medicine/herbs/boswellia)
@@ -1445,7 +1513,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Probiotics / M.1/M.4/E.3:** B. longum 35624® is the former B. infantis 35624 name. Gastrus® provides 400mln CFU/day across its two strains combined, not that amount per strain. Keep each for a measurable symptom response; the Gastrus® trial showed improvement around week 6. [Strain identity](https://www.symbiosys.pl/symbiosys-alflorex-46225.html) [Gastrus® trial](https://pubmed.ncbi.nlm.nih.gov/41821785/)
 - **Kijimea IBS PRO / M.2-3:** ongoing daily use alongside 35624® (M.1) and Gastrus® (M.4/E.3). Both capsules supply 1bln heat-inactivated cells/day, not CFU. Take them together in the Morning routine (~10am), swallowed whole with a glass of Water; food is optional and no superior time of day is established. Review symptom control and tolerability during routine follow-up. The pivotal trial lasted eight weeks and excluded other probiotics and IBD; added benefit with this stack, long-term outcomes and treatment of bowel inflammation remain unestablished. [Polish directions](https://kijimea.pl/products/kijimea-ibs-pro) · [Trial](https://pubmed.ncbi.nlm.nih.gov/32277872/)
 - **Butyrate / L.5/E.4:** 1g Sodium Butyrate supplies ~790mg Butyrate Ion (~800mg Butyric Acid equivalent). Debutir MAX's newer release system differs from the Forte used in the UC trial; clinical superiority is unproven. For IBD it remains an adjunct, with response assessed through symptoms and Calprotectin. [MAX label](https://polpharma.pl/produkty/debutir-max-500-mg-x-60-kaps/) [UC trial](https://pubmed.ncbi.nlm.nih.gov/41422374/)
-- **Berberine / L.14/E.11:** 500mg extract at 98% supplies 490mg HCl per capsule, 980mg/day. Published contaminant/microbiology reports do not verify potency. Assess the added value against the existing metabolic results. [Product and reports](https://bmpharma.pl/products/berberine)
+- **Berberine / L.14/E.11:** 500mg extract at 98% supplies 490mg HCl per capsule, 980mg/day. Published contaminant/microbiology reports do not verify potency. Assess the added value against the existing metabolic results. [Product and reports](https://bmpharma.pl/products/berberine) If GI intolerance develops, use the Lunch-only fallback; split dosing does not remove CYP interaction potential. [Interaction study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4898966/) · [Monitoring](#monitoring).
 - **Garlic / L.15:** Garlzac® supplies 2.5mg SAC. Its higher marker content is not a proportional benefit claim; the exact ingredient has limited trial evidence. [Label](https://www.lifeextension.com/vitamins-supplements/item02530/aged-black-garlic) [Aged-Garlic review](https://pubmed.ncbi.nlm.nih.gov/40628369/)
 - **Milk Thistle / L.17/E.13:** the full daily regimen supplies 480mg Silymarin, 48mg Isosilybin A/B and 227.52mg Silybin across both blends (180mg +47.52mg from 160mg SILIPHOS®). Higher absorption does not establish prevention or Longevity benefit. Contains Soy. [Label](https://www.lifeextension.com/vitamins-supplements/item01922/european-milk-thistle) [Human absorption study](https://pubmed.ncbi.nlm.nih.gov/30635055/)
 
@@ -1461,6 +1529,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 
 #### Sleep & sexual health
 
+- **Blood pressure:** Citrulline 8g, Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna can combine their BP-lowering effects; timing separation does not remove systemic interactions. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) · [Monitoring](#monitoring).
 - **Melisen / E.5:** replaces standalone Melatonin. Its 30mg generic Saffron Extract is not the standardized trial product, and the complete blend is untested. Keep it only if sleep or next-day function improves without grogginess. The label advises against combining it with sedatives, hypnotics or antiepileptic medicines. [Label](https://bmpharma.pl/products/melisen) [Saffron trial](https://pubmed.ncbi.nlm.nih.gov/40698027/)
 - **Ashwagandha / E.7:** 500mg KSM-66 supplies 25mg Withanolides. Track a repeatable stress/sleep benefit; review Liver abnormalities or compatible symptoms. [Safety summary](https://www.nccih.nih.gov/health/ashwagandha)
 - **Silexan® / E.14:** Nature's Way CalmAid supplies 80mg Silexan per softgel. Take 1softgel each evening with food and a full glass of water; swallow whole. Evidence supports anxiety relief and associated sleep improvement, with benefit building over weeks. Review the complete regimen with a pharmacist before starting, especially Melisen (E.5) and the other calming supplements; this combination is unstudied. CalmAid advises consultation with medication use; Lasea's Silexan leaflet additionally cautions against combining with sedatives, other anxiety medicines or alcohol. Track anxiety, sleep and next-day function over 2–4 weeks; seek advice if unchanged after a month or sooner if worse. Stop for troublesome GI symptoms, daytime impairment or allergy. Use one Silexan product; Lasea would replace CalmAid. [CalmAid label](https://naturesway.com/products/calmaid) [Silexan leaflet](https://www.lasea.de/lasea/gebrauchsinformation) [Anxiety trial](https://pubmed.ncbi.nlm.nih.gov/24456909/)
@@ -1469,18 +1538,6 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Pycnogenol / B.1:** 100mg is current. The discussed 150–200mg range remains a possible later trial after tolerance is established, not the active dose. Keep genuine Pycnogenol® rather than assuming all Pine Bark Extracts are equivalent. [Endothelial trial](https://pubmed.ncbi.nlm.nih.gov/22240497/)
 - **Fenugreek / B.6:** 600mg Testofen® matches the branded trial dose. Taking both capsules together consolidates the label's divided schedule; it does not establish a Testosterone or physique benefit. [Trial](https://pubmed.ncbi.nlm.nih.gov/26791805/)
 - **Maca / B.5; Tribulus / B.7:** Maca's 4.5g fresh-root equivalent is not 4.5g trial material. Tribulus lacks plant-part/marker standardization. Keep alternatives in TODOs rather than infer dose equivalence or proven Testosterone benefits. [Maca label](https://www.nowfoods.com/products/supplements/maca-750-mg-raw-veg-capsules) [Tribestan® trial](https://pubmed.ncbi.nlm.nih.gov/28364864/)
-
-### Follow-up
-
-- **GI follow-up:** September 2026 Stool Calprotectin was <5µg/g, improved from July 291.7µg/g; Lactoferrin was <0.10µg/ml. Use the [latest results](results.md#stool-analysis), current symptoms and clinician assessment when choosing GI trials. This does not identify which supplement helped or rule out every cause of symptoms. Persistent symptoms and the separate Eosinophilia still need follow-up; supplements must not delay evaluation of bleeding, unintended weight loss or other concerning changes. [IBD nutrition guidance](https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/)
-- **B6/Zinc:** B6 was 101.5µg/L; avoid extra B6 and arrange review/retesting despite the lower current intake. New tingling, numbness or balance symptoms need assessment. Do not add Zinc; review Copper status if the current exposure continues. [B6 assessment](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8006) [Zinc guidance](https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/)
-- **Magnesium:** conservative supplemental accounting exceeds EFSA 250mg/day in all scenarios; Sauna also exceeds US 350mg/day. These limits mainly concern GI effects and exclude food Magnesium. Keep E.12 only for a repeatable benefit without GI effects; do not restore the second capsule. Kidney impairment needs particular review. [EFSA limits](https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf) [NIH guidance](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/)
-- **Blood Pressure:** review Citrulline 8g alongside Tadalafil, oral Minoxidil, Garlic, Berberine, Pycnogenol, Taurine and Sauna. Check seated/standing BP, especially during the first 1–2 weeks after the Garlic switch; review dizziness, near-fainting or unusual weakness. Separating doses does not remove systemic interactions. Free Taurine 4g also exceeds the standalone product's one-capsule directions. [Tadalafil label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf9431ef-ea02-457d-b83a-ce13fb963d95) [Taurine label](https://ostrovit.com/pl/products/ostrovit-tauryna-1500-mg-120-kapsulek-25516.html)
-- **Berberine:** reassess Glucose/HbA1c, ApoB/lipids, Liver tests, BP and GI tolerance after 8–12 weeks. The existing fallback for intolerance is Lunch-only. Its CYP interaction potential persists with split dosing. TMG follow-up uses Homocysteine and lipids. [Human Berberine interaction study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4898966/) [TMG review](https://pubmed.ncbi.nlm.nih.gov/33764214/)
-- **Liver/bleeding:** after the Curcumin change, recheck ALT/AST/ALP/GGT and Total/Direct Bilirubin at 6–8 weeks; Milk Thistle follow-up is 8–12 weeks. Stop Curcumin and seek review for jaundice, dark urine, marked fatigue, persistent nausea or abdominal pain. Review unusual bruising/bleeding and disclose Garlic/Curcumin/Ginger/Omega-3 before surgery or with anticoagulants, Aspirin or NSAIDs. [Curcumin Liver warning](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/medicines-containing-turmeric-or-curcumin-risk-liver-injury) [Garlic safety](https://www.nccih.nih.gov/health/garlic)
-- **Astaxanthin / M.9:** Double Wood AstaReal® supplies 12mg active Astaxanthin in 1 oil softgel with Breakfast. **Choose this 12mg routine OR the separate 24mg four-week trial; never combine them.** Public 2026 testing includes Double Wood and reports that selected products met their labeled amounts; match the purchased lot rather than assuming every lot was independently tested. Small human trials support possible Skin/recovery benefits; a direct dose comparison did not establish extra functional benefit at 24mg. Assess consistent Skin photos after 12–16 weeks and comparable post-workout soreness; stop for new persistent adverse effects. The EU authorized supplement level is 8mg/day; 12mg exceeds it. The separate all-source ADI is 15.8mg/day at 79.1kg, with food and product overfill still extra; neither figure is an acute-toxicity threshold. [Dose comparison](https://doi.org/10.1016/j.scispo.2025.06.003) · [Testing](https://www.consumerlab.com/reviews/astaxanthin-supplements-review/astaxanthin/) · [EFSA](https://doi.org/10.2903/j.efsa.2020.5993) · [EU use conditions](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02017R2470-20260810)
-- **Iron / M.5:** 18mg daily with Breakfast. Fiber and minerals may reduce absorption. Recheck CBC, Ferritin and TSAT after 8–12 weeks and periodically. Previous results did not establish deficiency, so review long-term use with a clinician to avoid excess Iron. [NOW label](https://www.nowfoods.com/products/supplements/iron-18-mg-veg-capsules) · [NIH Iron guidance](https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/)
-- **Other minerals:** recheck 25-OH Vitamin D and Calcium 8–12 weeks after the CaAKG change. Verify food Iodine inputs and the repeat thyroid assessment before adding Iodine. July Ferritin 42ng/ml/estimated TSAT ~30% and September Hemoglobin 15.3g/dl do not establish an Iron-pill indication. Do not add Potassium Salt by default; review with Kidney impairment or ACE-inhibitor/ARB/Potassium-sparing-diuretic use. [Iodine guidance](https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/) [Iron assessment](https://www.ausport.gov.au/ais/nutrition/supplements/group_a/medical-supplements2/iron/how-and-when-do-i-use-it)
 
 ### Skin & teeth
 
@@ -1518,7 +1575,7 @@ Pending options. Try one change at a time; replacements take the place of the na
 
 ### Symptoms & follow-up
 
-- [ ] 🥈 **[Colpermin® Peppermint Oil 187mg](https://www.colpermin.com/):** 🚽 a short trial for IBS pain/cramping/bloating. Label: 1 intact capsule 3x/day, ≥2 hours from food and separated from antacids/acid-suppressing medicines. Check access and timing fit. Can worsen reflux; avoid with Peanut/Soya allergy and check biliary/liver contraindications. It does not treat IBD. [Product information](https://www.medicines.org.uk/emc/product/1076/smpc) · [Evidence](https://pubmed.ncbi.nlm.nih.gov/35942669/)
+- [ ] 🥈 **[Colpermin® Peppermint Oil 187mg](https://www.colpermin.com/):** 🚽 **Defer pending GI review** of [past reflux / possible hiatal hernia](#watchlist). If reconsidered for IBS pain/cramping/bloating: 1 intact capsule 3x/day, ≥2 hours from food and separated from antacids/acid-suppressing medicines. Check access and timing fit. Can worsen reflux; stop if heartburn worsens. Avoid with Peanut/Soya allergy and check biliary/liver contraindications. It does not treat IBD. [Product information](https://www.medicines.org.uk/emc/product/1076/smpc) · [Evidence](https://pubmed.ncbi.nlm.nih.gov/35942669/)
 - [ ] 🥇 **[Skinoren Azelaic Acid 15% gel](https://www.gdziepolek.pl/produkty/71824/skinoren-zel/apteki):** 👨‍🦳 Polish OTC option for persistent acne/post-acne red or brown marks after compatibility review with the E.1.1 prescriber. It is not a general pore treatment. If selected, follow the [label](https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/10628/characteristic), check tolerance/acne after about 4 weeks and marks at 8–12 weeks. A [15% gel trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC11116308/) used a different product and excluded other acne treatments; no automatic addition to the current regimen.
 
 ### Training & occasional use
