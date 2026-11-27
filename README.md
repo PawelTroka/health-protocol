@@ -810,7 +810,7 @@ Follow the scheduled entries below. [Codes & preparation](#supplement-codes) · 
   - Gelatinized; equivalent to 4.5g fresh Maca Root
 - 🥈 **B.6** 2x [Fenugreek Seed Extract 300mg](https://gemini.pl/kenay-ekstrakt-z-kozieradki-testofen-60-kapsulek-vege-0092834) 🍆 💪 🥊
   - Testofen®; Fenuside™ Saponins 150mg (50%)
-- 🥉 **B.7** [Tribulus Terrestris 1.5g](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-testosteron-1500mg-90-14876230440) 🍆
+- 🥉 **B.7** [Tribulus Terrestris 1.5g](https://allegro.pl/oferta/biotech-usa-tribulus-maximus-90-testosteron-libido-12249412752) 🍆
 - 🥈 **B.8-9** 4x [Calcium Alpha-Ketoglutarate (CaAKG) 500mg](https://sklep.sfd.pl/SFD_NUTRITION_Ca-AKG_Alfa-Ketoglutaran_Wapnia-opis44968.html) [[BJ-LM 2g](https://blueprint.bryanjohnson.com/products/longevity-blend-multinutrient-drink-mix-blood-orange-flavor)] ⏰ 🍎 🦴
   - 🥈 Calcium 400mg; Vitamin D3 2,000IU; Vitamin K2 MK-7 100mcg 🍎 🦴
 
@@ -1510,6 +1510,7 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Subscriptions:** retailer subscriptions only; prefer free home courier, with paid home courier authorized when necessary. Aim for approximately100zł or more of genuinely needed goods per actual post-discount shipment; courier plus compulsory fulfillment fees must stay within10% of goods value. Keep the maximum25% delivered-price premium per comparable product, no lockers or filler, and no routine Codex orders/skips/quantity repairs. 🔄 marks an identified retailer repeat-purchase route, not activation or complete unattended coverage. Preserve rotation and usable stock.
 - **Status and dates:** use the [complete shipment plan](diet/DIET_COMPLETE_SHIPMENT_PLAN.md), [renewal plan](diet/DIET_RENEWAL_PLAN.md), [activation calendar](diet/DIET_ACTIVATION_ROLLOUT.md), [opening-stock register](diet/DIET_STOCK_TRANSITION.md) and [payment handoff](diet/DIET_PAYMENT_HANDOFF.md). Coverage and costs live in the [subscription audit](diet/DIET_SUBSCRIPTION_AUDIT.md), [cost comparison](diet/DIET_SUBSCRIPTION_COSTS.md), [remaining-route audit](diet/DIET_AUTOMATION_GAPS.md) and [optimization criteria](diet/DIET_OPTIMIZATION.md).
 - **Renewal checks:** an active profile does not prove unattended charging; confirm payment behavior, separate renewal fees and transfer of existing commitments before activating replacements. Preserve paid orders and credit food only after checking received contents and condition. Current prices, stock and usable life control activation.
+- **Supplement purchasing:** [exact-product subscription audit](supplements/SUBSCRIPTION_SHOPPING.md), with8November prices and23November slot alignment; reconfirm the delivered basket before ordering.
 - **Identity checks:** buy skinless Salmon; the selected thawed product stays at 0–2°C and must not be refrozen. Keep Maluta Lactose-Free Skyr (EAN 5904467212110), not the similarly named high-protein Yogurt. Confirm Vilgain Mackerel species on delivery because its ingredient list and support response conflict. Match EVOO harvest/lot reports before assigning the advertised Polyphenol values to a bottle.
 
 ## TODOs / Things to consider
