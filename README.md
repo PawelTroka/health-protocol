@@ -2,21 +2,92 @@
 ## *optimized for Health, Longevity, Looksmaxxing & Sexual Health*
 
 ## Table of Importance
+
 - [0. Behaviors](#0-behaviors)
+  - [Avoid](#avoid)
+  - [Promote](#promote)
 - [1. Sleep](#1-sleep)
 - [2. Testing](#2-testing)
+  - [Daily Tracking](#daily-tracking)
+  - [Laboratory Analysis (Biomarkers)](#laboratory-analysis-biomarkers)
+  - [Cardiovascular Health](#cardiovascular-health)
+  - [Diagnostic Imaging](#diagnostic-imaging)
+  - [Specialist Screenings](#specialist-screenings)
+  - [Gastrointestinal Health](#gastrointestinal-health)
 - [3. Exercise](#3-exercise)
+  - [Monday: Push](#monday-push-upper-chest-width-triceps-neck)
+  - [Tuesday: Pull](#tuesday-pull-lats-upper-back-rear-delts-biceps-forearms)
+  - [Wednesday: Legs](#wednesday-legs-glutehamstring-dominant)
+  - [Thursday: Push 2](#thursday-push-2-shoulders-upper-chest-neck)
+  - [Friday: Pull 2](#friday-pull-2-lats-back-thickness-biceps-forearms)
+  - [Saturday: Active recovery & cardio](#saturday-weekend-active-recovery--outdoor-cardio)
+  - [Sunday: Sprints & social sports](#sunday-weekend-sprints--social-sports)
 - [4. Diet](#4-diet)
+  - [Morning](#-morning-10am-liquid-only--protein-whole-grains--seeds)
+  - [Lunch](#%EF%B8%8F-lunch-1pm--lean-protein-training-fuel--colorful-plants)
+  - [Afternoon drink](#-afternoon-drink-3pm-at-least-2-hours-after-lunch-and-8-hours-before-sleep--matcha--protein)
+  - [Before workout](#-before-workout)
+  - [During workout](#-during-workout)
+  - [Right after workout](#-right-after-workout)
+  - [Dinner](#%EF%B8%8F-dinner-9pm-finish-at-least-23-hours-before-sleep--recovery-leafy-greens--whole-fruit)
+  - [Weekly rhythm & adjustments](#-weekly-rhythm--adjustments)
+  - [GI options](#-gi-options--personalize-portions)
+  - [Preparation & food safety](#-preparation--food-safety)
 - [5. Supplements and drugs](#5-supplements-and-drugs)
+  - [Morning](#morning)
+  - [Lunch](#lunch)
+  - [Before workout](#before-workout)
+  - [During workout](#during-workout)
+  - [After workout](#after-workout)
+  - [Evening](#evening)
 - [6. Looksmaxxing](#6-looksmaxxing)
+  - [Oral health / teethmaxxing](#oral-health--teethmaxxing)
+  - [Face](#face)
+  - [Lips](#lips)
+  - [Eyes](#eyes)
+  - [Hair](#hair)
+  - [Eyebrows](#eyebrows)
+  - [Beard](#beard)
+  - [ABS](#abs)
+  - [Body](#body)
 - [7. Cookware](#7-cookware)
+  - [Cutting Boards](#cutting-boards)
+  - [Knives](#knives)
+  - [Frying Pans](#frying-pans)
+  - [Cooking pot set](#cooking-pot-set)
+  - [Ovenproof dish](#ovenproof-dish)
+  - [Kitchen Utensils](#kitchen-utensils)
 - [8. Environment](#8-environment)
+  - [Clean water](#clean-water)
+  - [Clean air](#clean-air)
+  - [Hearing protection](#hearing-protection)
+  - [Bedding and textiles](#bedding-and-textiles)
+  - [Hygiene](#hygiene)
+  - [Laundry](#laundry)
+  - [Dishwasher care](#dishwasher-care)
 - [9. Vaccines](#9-vaccines)
 - [10. Peptides](#10-peptides)
+  - [Injection supplies](#injection-supplies)
 - [11. Surgeries](#11-surgeries)
 - [Legend](#legend)
 - [Notes](#notes)
+  - [Totals](#totals)
+  - [Food & calculation notes](#food--calculation-notes)
+  - [Timing & training](#timing--training)
+  - [Supplement details](#supplement-details)
+  - [Follow-up](#follow-up)
+  - [Skin & teeth](#skin--teeth)
+  - [Shopping](#shopping)
 - [TODOs / Things to consider](#todos--things-to-consider)
+  - [Symptoms & follow-up](#symptoms--follow-up)
+  - [Training & occasional use](#training--occasional-use)
+  - [Supplement trials & replacements](#supplement-trials--replacements)
+  - [Lower-priority candidates](#lower-priority-candidates)
+  - [Research & access watchlist](#research--access-watchlist)
+  - [Food options](#food-options)
+  - [Equipment](#equipment)
+- [Removed / unhealthy / redundant items](#removed--unhealthy--redundant-items)
+  - [Personal dislikes](#personal-dislikes)
 
 ## 0. Behaviors
 
@@ -275,7 +346,7 @@ We are following "bleeding-edge" approach when it comes to daily tracking, alway
 *Focus: The "capped" 3D shoulder look, upper chest shelf, and masculine neck.*
 - 🥇 **Shoulders**: Machine Shoulder Press (Pronated grip): 10 × 50kg, 9 × 55kg, 8 × 59kg *(Shoulder Pro-Tip: If right shoulder triggers, swap to Seated Neutral-Grip DB Press)* 💪 🗿 ⏰
 - 🥇 **Upper Chest**: Seated Low-to-High Cable Fly (Cuffed) or Seated low-to-high Pec Deck Machine: 12 × 12.5kg, 11 × 15kg, 10 × 17.5kg (Best upper pec fly) 🗿 💪
-- 🥇 **Side Delts**: Machine Lateral Raises: 18 × 24kg, 16 × 29kg, 14 × 34kg, 12 x 44kg *(Align shoulders with the machine pivot and keep torso still)* 🗿 💪
+- 🥇 **Side Delts**: Machine Lateral Raises: 18 × 27kg, 16 × 32kg, 14 × 36kg, 12 x 41kg *(Align shoulders with the machine pivot and keep torso still)* 🗿 💪
 - 🥇 **Triceps**: Overhead Cable Extension (Pairs with pushdowns for triceps synergy): 15 × 15kg, 14 × 17.5kg, 12 × 20kg 🗿 💪
 - 🥇 **Neck**: Resistance Band Neck Extensions: 20 × 3.75kg, 18 × 5kg, 16 × 6.25kg 🗿 💪
 - 🥈 **Scapular Control**: Forearm Wall Slides with Foam Roller: 20x, 18x, 16x *(Press forearms lightly into the roller; allow upward scapular rotation without arching the lower back)* 🦴 🤸 💪
@@ -1039,6 +1110,15 @@ Even if you do everything right you can be exposed to harmful environment, so it
   20mg / ml  
   1-2mg -> 5-10IU/day
 
+
+### Injection supplies
+
+Current supplies from [medeocare](https://allegro.pl/uzytkownik/medeocare); 100pcs per pack.
+
+- **Insulin syringes:** [Zarys dicoSULIN 1ml U-100, removable 0.4x13mm needle](https://allegro.pl/oferta/strzykawki-insulinowe-1ml-z-igla-0-4mm-x-13mm-u100-dicosulin-100szt-zarys-13743575410)
+- **Alcohol swabs:** [One-Care 3x6cm, 70% Isopropyl Alcohol](https://allegro.pl/oferta/gaziki-do-dezynfekcji-nasaczone-alkoholem-3x6cm-100szt-one-care-12297976064)
+- **Drawing needles:** [Zarys dispoFINE 18G, 1.2x40mm](https://allegro.pl/oferta/igly-iniekcyjne-1-2x40-mm-18g-do-strzykawki-100szt-rozowe-dispofine-zarys-9598463062)
+- **Luer syringes:** [Three-piece syringes](https://allegro.pl/oferta/strzykawki-10ml-iniekcyjne-3-czesciowe-strzykawka-luer-beroject-100szt-kdm-11018411826)
 
 ## 11. Surgeries
 
