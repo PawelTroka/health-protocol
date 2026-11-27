@@ -919,6 +919,8 @@ There are actual studies that confirm if you look younger and better you are mor
 - Use of [Philip Kingsley No Scent No Colour Shampoo 1,000ml](https://www.philipkingsley.co.uk/philip-kingsley-no-scent-no-colour-shampoo-1000ml.html) (2-3 times weekly) 💇‍♂️
 - Use of [Nizoral shampoo](https://www.aptekarosa.pl/produkt/2063-nizoral-szampon-100-ml.html) (weekly) 🍄 💇‍♂️
 - Use of [Philip Kingsley No Scent No Colour Conditioner](https://www.flaconi.pl/wlosy/philip-kingsley/no-scent-no-colour/philip-kingsley-no-scent-no-colour-odzywka.html) (after every shampoo) 💇‍♂️ 💧
+- (optional) Use of [Color Wow Money Mist leave-in conditioner](https://www.sephora.pl/p/money-mist---nawilzajaca-odzywka-bez-splukiwania-przeciw-puszeniu-sie-P10057159.html) (If dryness/tangling persists after Conditioner: distribute a small amount through clean, towel-damp Hair lengths, away from scalp; leave in; see [Hair-conditioning Note](#hair-conditioning-and-repair)) 💇‍♂️
+- (optional) Use of [Olaplex No.3PLUS Complete Repair Treatment 100ml](https://www.superpharm.pl/olaplex-no3-plus-complete-repair-treatment-100ml-224608) (For remaining bleach/chemical-damage-related breakage: initially every third wash; apply to wet Hair for 3 minutes, rinse, then usual Shampoo + Conditioner) 💇‍♂️
 - Use of [dutasteride](https://www.gdziepolek.pl/produkty/96614/adadut-kapsulki/apteki) (anti-DHT) (every second day) 💇‍♂️ 🍅 ⚕️
 - Application of [RU58841](https://pro-peptydy.pl/produkt/ru-58841/) (twice daily) 💇‍♂️
 - Application of [minoxidil 5%](https://www.aptekarosa.pl/produkt/14075-alocutan-forte-aerozol-na-skore-0-05g-ml-60-ml.html) (twice daily) 💇‍♂️
@@ -1504,6 +1506,13 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - After acidic intake, rinse and wait about 1 hour before brushing. [Dental care](https://www.mouthhealthy.org/all-topics-a-z/dietary-acids-and-your-teeth)
 - **Chlorhexidine exception:** do not rinse it away immediately; follow the dentist/product instructions. Tea can worsen its staining. [Use instructions](https://medlineplus.gov/druginfo/meds/a625015.html) [Interaction information](https://www.medicines.org.uk/emc/product/529/smpc)
 - Bonding does not whiten predictably like natural teeth. Follow treatment-specific instructions and ask about cleaning/polishing persistent stains; a universal strict white-food diet is unsupported. [ADA](https://www.ada.org/resources/ada-library/oral-health-topics/whitening) [Clinical review](https://pubmed.ncbi.nlm.nih.gov/39557282/)
+
+### Hair conditioning and repair
+
+- **First trial:** keep the Philip Kingsley pair as the baseline. If Hair still feels rough, dry or tangled, try Money Mist alone before adding another cosmetic; compare detangling, feel and top volume over 3–5 washes. Fine Hair needs a small amount; reduce or omit it if Hair becomes limp or coated. [Leave-in guidance](https://www.aad.org/public/everyday-care/hair-scalp-care/hair/leave-in-conditioner-tips) · [Money Mist directions](https://colorwowhair.com/products/money-mist-leave-in-conditioner)
+- **Repair condition:** No.3PLUS is an optional trial for remaining damage-related breakage, not a routine extra for undamaged Hair. If the bleached lengths have been cut off and dryness is the main issue, prioritize the leave-in. Every third wash is a starting point within the manufacturer's every 1–3 washes guidance; assess breakage over several uses. These are the three-minute No.3PLUS directions, not the original No.3 Hair Perfector routine. [No.3PLUS instructions](https://olaplex.pl/produkt/no-3-plus-complete-repair-treatment-100ml/)
+- **Tolerance:** both additions contain fragrance. Introduce one at a time and stop the new product for persistent itching, burning or redness. Choosing either product means the full routine is no longer fragrance-free; fragrance alone does not establish systemic harm. Check the received ingredient list. [Money Mist ingredients](https://colorwowhair.com/products/money-mist-leave-in-conditioner) · [No.3PLUS ingredients](https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml)
+- **Purpose:** improve Hair feel, manageability and resistance to breakage. These cosmetic trials have no established follicular-regrowth, Longevity or Sexual Health benefit; product claims do not establish a universally best treatment.
 
 ### Shopping
 
