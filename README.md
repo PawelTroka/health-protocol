@@ -7,6 +7,14 @@
   - [Avoid](#avoid)
   - [Promote](#promote)
 - [1. Sleep](#1-sleep)
+- [Wellbeing](#wellbeing)
+  - [Connection & relationships](#connection--relationships)
+  - [Enjoyment & meaning](#enjoyment--meaning)
+  - [Work boundaries & recovery](#work-boundaries--recovery)
+  - [Worry & mental resets](#worry--mental-resets)
+  - [Sexual & reproductive wellbeing](#sexual--reproductive-wellbeing)
+  - [Checking in with yourself](#checking-in-with-yourself)
+  - [Getting support](#getting-support)
 - [2. Testing](#2-testing)
   - [Daily Tracking](#daily-tracking)
   - [Laboratory Analysis (Biomarkers)](#laboratory-analysis-biomarkers)
@@ -75,6 +83,7 @@
   - [Food & calculation notes](#food--calculation-notes)
   - [Timing & training](#timing--training)
   - [Supplement details](#supplement-details)
+  - [Wellbeing support](#wellbeing-support)
   - [Follow-up](#follow-up)
   - [Skin & teeth](#skin--teeth)
   - [Shopping](#shopping)
@@ -100,22 +109,21 @@
 - ❌️ [polluted/toxic environments](#clean-air)
 - ❌️ unprotected sex
 - ❌️ [PFAS/PFOA/PCB/dioxins "forever" chemicals](#7-cookware)
-- ✋️ low productivity activities, low value-adding activities that can be outsourced
-- ✋️ excessive social media usage
+- ✋️ avoidable busywork that can be automated or outsourced; protect deliberate rest and leisure
+- ✋️ [unplanned scrolling that displaces sleep, relationships or chosen activities](#wellbeing)
 - ✋️ [microplastics and artificial materials](#8-environment)
 - ⚠️ excessive gaming and TV
 - ⚠️ [excessive noise](#hearing-protection)
 - ⚠️ stimulants
 - ⚠️ [sleep schedule disruptions](#1-sleep)
-- ⚠️ overthinking and overanalyzing things out of your control
+- ⚠️ [getting stuck in repetitive worry instead of useful action or rest](#worry--mental-resets)
 
 ### Promote
 - 🥇 Sauna (3 times a week, at least 31min in 93°C to reach body temperature of 39°C for Heat Shock Proteins (HSPs) release) 🌡️ ⏰ 🛡️
 - 🥇 [Physical activity & active/deep recovery](#3-exercise)
-- 🥇 Social connection & psychological wellbeing 🤝 💚
+- 🥇 [Social connection & psychological wellbeing](#wellbeing) 🤝 💚
 - 🥈 [Red Light Therapy](#home-procedures) 👨‍🦳 ❤️ 🛡️ ⏰
 - 🥈 Cold exposure	(4 times a week) ⚡ 🔥 🛡️
-- 🥈 Meditation / breathwork (daily) 😌 🧠
 - 🥈 Walks (daily) ❤️ 🫁
 - 🥈 Stretching (6 times a week) 🦴 💪
 - 🥉 Organic, certified, lab-tested, vegan, "cat0", ethically-sources consumables
@@ -140,6 +148,65 @@ Sleep is your number 1 priority. It is more important than diet, more important 
 - **Sleep problems:** Avoid extended frustrated wakefulness in bed; if you truly cannot fall asleep read a book or even go back to work; seek assessment for persistent insomnia, loud snoring, gasping or unexplained daytime sleepiness.
 - **Sex & Sauna:*** Could make it easier to fall asleep if used strategically. Use Sauna 1-3h before sleep to relax, use good sex 0-1h before sleep to make it easier to fall asleep.
 - **Review:** Use [Sleep Tracking](#daily-tracking) and daytime functioning over 2–4-week trends; distinguish time in bed from sleep, and don't chase wearable sleep-stage estimates. 😴
+
+## Wellbeing
+
+Feeling well includes having people you can turn to, things you look forward to and enough space to recover. Start with connection and protected leisure; a shared activity can give you both. Choose what feels enjoyable and realistic, then build from there. The timings below are flexible starting points, not treatment doses or social quotas; shorten them when life is demanding.
+
+### Connection & relationships
+
+Make room for relationships where you feel heard and can offer the same attention in return. Mutual interest, trust and support matter more than collecting contacts. [Social connection](https://www.who.int/news-room/questions-and-answers/item/social-connection).
+
+- **Daily connection:** make space each day for an attentive conversation or shared activity with a partner, friend or family member; 10min on most days is a useful starting target. Listen, share what is on your mind and enjoy each other's company. 😌
+- **Weekly social plan:** arrange one enjoyable plan. A shared meal, a walk, cooperative gaming, dancing or the existing Sunday sport can count. Keep friendships and family contact alongside the relationship; use activities already in your week when they fit.
+
+### Enjoyment & meaning
+
+Give satisfying activities a place in the calendar. Rest, curiosity and time with people are worthwhile in their own right; leisure does not need a productivity outcome.
+
+- **Daily enjoyment:** protect 20min for something you choose—music, a walk, dancing, a hobby or cooperative gaming. Schedule it; when motivation is low, start with 5min and keep the first step easy. Shared activities can also cover connection. 😌
+
+### Work boundaries & recovery
+
+A clear stopping point makes room for the rest of your day, even when some work is unfinished. [Work-planning study](https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/joop.12137).
+
+- **Shutdown:** set a realistic stopping point. After the final work block, spend 2min recording the next action and when/where to resume, then close work channels.
+- **Protect recovery:** keep work notifications and unplanned scrolling out of leisure and the [sleep wind-down](#1-sleep). If work repeatedly consumes recovery, reduce, defer or delegate commitments as well as practising ways to switch off.
+
+### Worry & mental resets
+
+When a thought keeps returning without helping you decide or act, try this short sequence. You can return to something meaningful even while the thought is still there. [Grounding & unhooking, including Polish audio](https://www.who.int/publications/i/item/9789240003927) · [Problem-solving](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/problem-solving/).
+
+1. **Notice and name the loop:** recognise that you are going over the same worry again.
+2. **If you can act:** choose one next step and when to take it; put the plan somewhere you can return to.
+3. **If there is nothing useful to do now:** feel your feet, notice your surroundings and return to the chosen activity. Let the thought remain without solving it again. 🧠
+
+🥈 **Optional daily reset:** start with 5min; allow 5–10min when it feels helpful. Choose one practice, and keep it comfortable: 😌 🧠
+
+- **Gentle breathing:** count comfortably 1–5 in, then 1–5 out, without forcing the breath or holding it. Stop if dizzy. [Breathing guide](https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/).
+- **Meditation / guided attention:** attend to sounds or the breath and gently return when distracted. If inward attention feels unpleasant or makes things worse, use eyes-open grounding or a relaxing walk instead. 😌
+
+### Sexual & reproductive wellbeing
+
+Make room for a sex life that feels pleasurable, comfortable and mutually wanted. Honest conversations can help you understand what each of you enjoys, needs or would like to change. [Sexual health](https://www.who.int/health-topics/sexual-health).
+
+- **Intimacy:** discuss pleasure, comfort, boundaries, STI protection and pregnancy intentions with the partner; agree contraception when pregnancy is not intended.
+- **Function:** persistent unwanted changes in desire, erections or ejaculation, or genital/pelvic pain → GP/urologist; review medicines, physical health and stress/relationship factors together. Consider psychosexual support when useful. [Assessment guide](https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction).
+- **Planning pregnancy:** if considering pregnancy, arrange a prescriber review of Dutasteride and the full regimen before trying; discuss whether semen assessment is indicated and agree pregnancy precautions. Keep prescription changes clinician-led. [Details](#pregnancy-planning--precautions).
+
+### Checking in with yourself
+
+Use a brief reflection to notice what is helping and where you could use more support. The aim is a more satisfying, manageable week; a perfect score is unnecessary.
+
+- **Weekly reflection:** review mood, stress, enjoyment and feeling connected; choose one useful adjustment if needed. After a few weeks, ask whether the habits are improving connection and recovery without making the protocol harder to live with. 🧠 😌
+- **Every 2 weeks:** add [WHO-5](https://www.who.int/publications/m/item/who-ucn-msd-mhe-2024.01) ([Polish questionnaire](https://cdn.who.int/media/docs/default-source/mental-health/five-well-being-index-%28who-5%29/who-5_polish.pdf)) to that week's reflection, answering for the preceding 2 weeks. Record its 0–100 score and one sentence on enjoyment, connection or everyday functioning. Keep personal answers, scores and notes private; no new tracking app is needed. [Scoring](#who-5-interpretation).
+
+### Getting support
+
+These habits can sit alongside professional support. If distress is already persistent or everyday functioning is affected, arrange an assessment now; there is no need to complete a self-help trial first. A first conversation can help you understand the difficulty and choose an approach together. [When to seek help](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health).
+
+- **Arrange an assessment:** WHO-5 **<50/100**, distress persisting for **2 weeks**, or impaired work, relationships or self-care. Seek help sooner if worsening; a higher score does not rule out a problem.
+- **Make it practical:** agree the main difficulty, 1–2 everyday goals, the approach, between-session practice and when to review progress. [Therapy options, review timing & Polish access](#wellbeing-support).
 
 ## 2. Testing
 
@@ -1469,6 +1536,26 @@ Keep gram targets when changing scoops; for Collagen, calibrate to four original
 - **Pycnogenol / B.1:** 100mg is current. The discussed 150–200mg range remains a possible later trial after tolerance is established, not the active dose. Keep genuine Pycnogenol® rather than assuming all Pine Bark Extracts are equivalent. [Endothelial trial](https://pubmed.ncbi.nlm.nih.gov/22240497/)
 - **Fenugreek / B.6:** 600mg Testofen® matches the branded trial dose. Taking both capsules together consolidates the label's divided schedule; it does not establish a Testosterone or physique benefit. [Trial](https://pubmed.ncbi.nlm.nih.gov/26791805/)
 - **Maca / B.5; Tribulus / B.7:** Maca's 4.5g fresh-root equivalent is not 4.5g trial material. Tribulus lacks plant-part/marker standardization. Keep alternatives in TODOs rather than infer dose equivalence or proven Testosterone benefits. [Maca label](https://www.nowfoods.com/products/supplements/maca-750-mg-raw-veg-capsules) [Tribestan® trial](https://pubmed.ncbi.nlm.nih.gov/28364864/)
+
+### Wellbeing support
+
+#### WHO-5 interpretation
+
+- **WHO-5 scoring:** add five 0–5 responses and multiply by 4; higher is better. <50/100 (raw <13/25) supports further assessment, not a diagnosis. Use trends without chasing a perfect score. [WHO scoring](https://cdn.who.int/media/docs/default-source/mental-health/who-5_english-original4da539d6ed4b49389e3afe47cda2326a.pdf).
+
+#### Assessment & follow-up
+
+- **Therapy options:** discuss CBT or behavioural activation for low mood, or CBT for persistent anxiety, as appropriate to the assessment. [Depression](https://www.nice.org.uk/guidance/ng222/chapter/recommendations) · [Anxiety](https://www.nice.org.uk/guidance/cg113/chapter/recommendations).
+- **Review:** depression treatment → review within 2–4 weeks; no response to psychological therapy after 4–6 weeks → discuss barriers and adjustments, not automatic discontinuation. For other difficulties, agree timing with the clinician. [NICE follow-up](https://www.nice.org.uk/guidance/ng222/chapter/recommendations#further-line-treatment).
+
+#### Finding support in Poland
+
+- **Poland:** NFZ psychologist and psychiatrist consultations need no referral. A local CZP/PZK accepts adults from its catchment without an appointment; check the area and opening hours. [NFZ](https://akademia.nfz.gov.pl/artykuly/jak-znalezc-pomoc-psychiatryczna/) · [CZP/PZK](https://pacjent.gov.pl/artykul/leczenie-ambulatoryjne-doroslych) · [Find a CZP](https://www.gov.pl/web/zdrowie/centra-zdrowia-psychicznego).
+- **Urgent help in Poland:** immediate danger → **112**; emotional-crisis support → **116123** (24/7). [Official contacts](https://pacjent.gov.pl/aktualnosc/centra-zdrowia-psychicznego-zmiany).
+
+#### Pregnancy planning & precautions
+
+- **Pregnancy precautions:** the Findarts SmPC recommends condoms while taking Dutasteride if the partner is or may be pregnant; agree conception planning with the prescriber. [Findarts information, §4.6](https://rejestry.ezdrowie.gov.pl/api/rpl/medicinal-products/42578/characteristic).
 
 ### Follow-up
 
